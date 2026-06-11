@@ -1,0 +1,53 @@
+name: pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/**"
+      - "scripts/serenity_render.py"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Render dashboard
+        run: |
+          python scripts/serenity_render.py
+          mkdir -p public
+          latest="$(ls -t serenity-tracker-*.html | head -n 1)"
+          cp "$latest" public/index.html
+          cp "$latest" "public/$latest"
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
