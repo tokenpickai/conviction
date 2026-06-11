@@ -5,12 +5,12 @@
   "exchange": "US",
   "currency": "USD",
   "ticker_mapped": false,
-  "company": null,
-  "industry": null,
+  "company": "Bakkt",
+  "industry": "Crypto Infrastructure",
   "thesis_summary": null,
   "first_mention": "2025-07-03",
-  "last_mention": "2026-05-19",
-  "total_mentions": 35,
+  "last_mention": "2026-06-09",
+  "total_mentions": 36,
   "mentions": [
     {
       "tweet_id": "1940696557151781335",
@@ -239,12 +239,13 @@
       "stance": "bearish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says it's one of the worst companies in the entire market",
-        "he says there's an endless cycle of news fomo -> ATM/massive dilution that only harms retail",
-        "he says $300M ATM dumped when MC is only $500m",
-        "he says it's one of the biggest retail capital destruction companies he's seen",
-        "he says toxic financing structure",
-        "he says pattern of influencer promotion -> ATM or executive grant dilution"
+        "one of the worst companies in the entire market",
+        "$300M ATM dilution on $500m MC",
+        "endless cycle of news fomo then ATM/massive dilution harming retail",
+        "toxic financing structure",
+        "history of repeated dilutive offerings at steep discounts",
+        "value transfer from retail to executives",
+        "one of the biggest retail capital destruction companies"
       ],
       "is_risk": true,
       "conviction": "high",
@@ -258,8 +259,8 @@
         "reposts": 16,
         "replies": 61
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013950780638888034",
@@ -267,9 +268,8 @@
       "stance": "bearish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says the guy deleted all his posts after stock crashed after incessant shill from made up information",
-        "he says there's a difference between information discovery and shilling",
-        "he says made up unverifiable statements about insider talk then deleting posts after crash is wrong"
+        "stock crashed after incessant shill from made up information",
+        "influencer deleted all posts after crash"
       ],
       "is_risk": true,
       "conviction": null,
@@ -283,8 +283,8 @@
         "reposts": 0,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013979806728323411",
@@ -292,12 +292,12 @@
       "stance": "bearish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says it's down because there's a $300 million ATM",
-        "he says they print more than 65%+ of existing marketcap and sell $300m worth of new stock on open market on existing retail bagholders"
+        "$300 million ATM printing more than 65% of existing marketcap",
+        "selling new stock on existing retail bagholders causes mechanical drop"
       ],
       "is_risk": true,
       "conviction": null,
-      "raw_mention": "$BKKT",
+      "raw_mention": "$BKKT (implied)",
       "text": "@WallStrOracle There’s a lot of delusion here but I’ll reply. It’s down because there’s a $300 million ATM.\n\nHere’s a fun lesson, if you print more than 65%+ of an existing marketcap and sell $300m worth of new stock on the open market on existing retail bagholders, the stock mechanically drops.",
       "url": "https://x.com/aleabitoreddit/status/2013979806728323411",
       "kind": "post",
@@ -307,8 +307,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013981380192182470",
@@ -316,8 +316,8 @@
       "stance": "bearish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says $300m of new shares just got printed + will be sold onto the open market",
-        "he says this happens year after year"
+        "$300m of new shares printed and sold onto open market",
+        "this happens year after year"
       ],
       "is_risk": true,
       "conviction": null,
@@ -331,8 +331,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013982210299466097",
@@ -340,14 +340,14 @@
       "stance": "bearish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says the drop was anticipation of the $300m ATM from retail investors realizing their value got wiped out",
-        "he says company just printed 65% of the marketcap to sell on them",
-        "he says last year board voted for 24% of float to be printed -> sold as a bonus",
-        "he warns about toxic financing structure for retail"
+        "$300m ATM wiped retail value",
+        "company printed 65% of marketcap to sell on retail",
+        "board voted for 24% of float printed and sold as bonus last year",
+        "toxic financing structure for retail"
       ],
       "is_risk": true,
       "conviction": null,
-      "raw_mention": "$BKKT",
+      "raw_mention": "$BKKT (implied)",
       "text": "@x_is_a_timesuck @WallStrOracle This is how ATMs work. The drop was anticipation of the $300m ATM from retail investors realizing that their value got wiped out from the company that just printed 65% of the marketcap to sell on them.\n\nEven last year board voted for 24% of float to be printed -> sold as a bonus. \n\nThis is just a warning about the toxic financing structure for retail.",
       "url": "https://x.com/aleabitoreddit/status/2013982210299466097",
       "kind": "reply",
@@ -357,8 +357,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015096496019112151",
@@ -381,8 +381,8 @@
         "reposts": 100,
         "replies": 83
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2029555508060074352",
@@ -816,6 +816,27 @@
         "likes": 1743,
         "reposts": 104,
         "replies": 433
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064286447591657819",
+      "date": "2026-06-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$BKKT",
+      "text": "@bjjkkcjnx @vianebinance There's slander over in the US too! If you try criticizing $IREN or $BKKT you have a bunch of bots/influencers coming after you. \n\nJealously/lies is a worldwide phenomenon when you gain popularity.",
+      "url": "https://x.com/aleabitoreddit/status/2064286447591657819",
+      "kind": "reply",
+      "engagement": {
+        "views": 11378,
+        "likes": 77,
+        "reposts": 1,
+        "replies": 18
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

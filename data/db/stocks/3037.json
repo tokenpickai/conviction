@@ -8,10 +8,91 @@
   "company": null,
   "industry": null,
   "thesis_summary": null,
-  "first_mention": "2026-03-24",
+  "first_mention": "2026-01-23",
   "last_mention": "2026-03-26",
-  "total_mentions": 2,
+  "total_mentions": 5,
   "mentions": [
+    {
+      "tweet_id": "2014731960418238574",
+      "date": "2026-01-23",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "foundational for MU and Samsung memory substrates",
+        "supplies NVDA Rubin/Blackwell",
+        "supplies TSMC for CoWoS process",
+        "supplies Apple, Google TPUs, AMZN/Hyperscaler ASICs, Intel ABF substrates, Amkor",
+        "one of the most significant choke points in the global AI supply chain",
+        "IC Substrates for HBM4 / Memory + GPUs/CPUs",
+        "provides the S (substrate) in CoWoS",
+        "Glass Core Substrates for CoPoS for 2026-2028",
+        "center of memory bottleneck, CoWoS bottleneck, and interconnects bottleneck",
+        "incredible long at $16B",
+        "exposure to most popular bottlenecks like HBM today and tomorrow"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "Unimicron",
+      "text": "I've hold positions in the $MU that markets sleep on:\n\nUnimicron.\n\nThis one is an incredible long at $16B as they're foundational for:\n\n- $MU and Samsung memory substrates\n- $NVDA Rubin/Blackwell\n- TSMC for CoWoS process\n- Apple (iPhones and M-series)\n- Google TPUs\n- AMZN/Hyperscaler ASICs\n- Intel for ABF substrates\n- Amkor that buys Unimicron substrates\n- and all the world's semis.\n\nUnimicron is one of the most significant \"choke points\" in the global AI supply chain as they provide the future:\n\n- IC Substrates for HBM4 / Memory (DRAM/NAND) + GPUs/CPUs\n- The \"S\" (substrate) in TSM CoWoS\n- Glass Core Substrates for CoPoS\n\nfor 2026-2028\n\nand all the foundational parts for customer devices like IPhones and semiconductors used today.\n\nThey're in the center of the memory bottleneck, CoWoS bottleneck, and interconnects bottleneck for Hyperscaler ASiCs.\n\nAs well as the future cycles with Glass Core substrates and more.\n\nAI revolves around the other Micron and you get exposure to most popular bottlenecks like HBM today and tomorrow.",
+      "url": "https://x.com/aleabitoreddit/status/2014731960418238574",
+      "kind": "post",
+      "engagement": {
+        "views": 111262,
+        "likes": 457,
+        "reposts": 27,
+        "replies": 25
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2014740860714508739",
+      "date": "2026-01-23",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "sits in so many future buildouts and potential bottlenecks",
+        "incredibly interesting"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "Unimicron",
+      "text": "@PhotonCap Unimicron sits in so many future buildouts and potential bottlenecks so it’s incredibly interesting to me as well.\n\nThat being said it’s hard for Westerners to get access to since it trades on TWSE",
+      "url": "https://x.com/aleabitoreddit/status/2014740860714508739",
+      "kind": "reply",
+      "engagement": {
+        "views": 2453,
+        "likes": 8,
+        "reposts": 0,
+        "replies": 0
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2014773177671680458",
+      "date": "2026-01-23",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "incredible long",
+        "positionally sits in so many different buildouts"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "Unimicron",
+      "text": "@genZinvest0r That’s fair! I’m just putting Unimicron on people’s radar since this a stock the vast majority of people have not heard about before.\n\nIt just seems like an incredible long to me since positionally it sits in so many different buildouts",
+      "url": "https://x.com/aleabitoreddit/status/2014773177671680458",
+      "kind": "reply",
+      "engagement": {
+        "views": 1947,
+        "likes": 2,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2036342519727006000",
       "date": "2026-03-24",

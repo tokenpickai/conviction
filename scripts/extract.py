@@ -50,7 +50,7 @@ OUT_PATH = DATA_DIR / "extracted.json"
 
 DEFAULT_MODEL = "claude-opus-4-6"   # primary; fall back to claude-sonnet-4-6 with --model if the gateway rejects Opus
 OWNER = "aleabitoreddit"
-MAX_TWEETS_PER_CALL = 8               # smaller groups -> shorter JSON output -> no truncation on long threads
+MAX_TWEETS_PER_CALL = int(os.environ.get("MAX_TWEETS_PER_CALL", "8"))  # smaller groups -> shorter JSON output -> no truncation on long threads
 RETRY = 3
 REQUEST_PACING_SEC = 0.5              # polite pause between calls to avoid tripping limits
 RATE_LIMIT_WAIT = 30                  # base seconds to wait when a 429 is hit (×attempt)
@@ -181,7 +181,7 @@ def get_client():
     use_internal = bool(base_url and auth_token)
 
     if use_internal:
-        kwargs = {"auth_token": auth_token, "base_url": base_url}
+        kwargs = {"auth_token": auth_token, "base_url": base_url, "timeout": 60.0}
         log(f"Mode: INTERNAL gateway")
         log(f"  base_url : {base_url}")
         log(f"  auth     : Authorization: Bearer (token set)")
@@ -194,7 +194,7 @@ def get_client():
                 log("NOTE: ANTHROPIC_AUTH_TOKEN is set but ANTHROPIC_BASE_URL is empty —")
                 log("      that token would be rejected by the official endpoint. Clear it or set the base_url.")
             sys.exit(1)
-        kwargs = {"api_key": api_key}
+        kwargs = {"api_key": api_key, "timeout": 60.0}
         log("Mode: OFFICIAL Anthropic endpoint")
         log(f"  auth     : x-api-key (key set)")
         if auth_token:

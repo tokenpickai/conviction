@@ -1,7 +1,7 @@
 {
-  "ticker": "AJINOMOTO",
-  "cashtag": "Ajinomoto",
-  "price_symbol": "AJINOMOTO",
+  "ticker": "4182",
+  "cashtag": "Mitsubishi Gas Chemical",
+  "price_symbol": "4182",
   "exchange": "US",
   "currency": "USD",
   "ticker_mapped": false,
@@ -17,13 +17,10 @@
       "date": "2026-01-08",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "uses Chinese raw precursors",
-        "affected by China's new dual export controls"
-      ],
-      "is_risk": true,
+      "reasons": [],
+      "is_risk": false,
       "conviction": null,
-      "raw_mention": "Ajinomoto",
+      "raw_mention": "Mitsubishi Gas Chemical",
       "text": "@Citrini7 Holy grail of research info, thanks for posting it free.\n\nAlso some of these are affected by China’s new dual export controls the other day since Ajinomoto, Nittobo, and Mitsubishi Gas Chemical and others use Chinese raw precursors, so it does require a secondary look",
       "url": "https://x.com/aleabitoreddit/status/2009345632126030102",
       "kind": "reply",
@@ -33,8 +30,8 @@
         "reposts": 1,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

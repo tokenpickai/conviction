@@ -10,20 +10,19 @@
   "thesis_summary": null,
   "first_mention": "2026-01-01",
   "last_mention": "2026-04-21",
-  "total_mentions": 9,
+  "total_mentions": 10,
   "mentions": [
     {
       "tweet_id": "2006748273760153734",
       "date": "2026-01-01",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
+      "stance": "neutral",
+      "mention_type": "background",
       "reasons": [
         "provides 70% of equipment for substrate production",
-        "likely part of Intel Samsung and other roadmaps",
-        "reminds him of ASML for the Fab cycle but for glass substrates"
+        "likely part of Intel, Samsung, and other roadmaps"
       ],
       "is_risk": false,
-      "conviction": "low",
+      "conviction": null,
       "raw_mention": "$SHMD",
       "text": "@LucasFdez87 @pennycheck $SHMD reminds me of $ASML for the Fab cycle, but there's going to be one for glass substrates. \n\nApparently they provide 70% of the equipment for substrate production, and are likely part of Intel, Samsung, and other roadmaps. \n\nVery interesting, I need to look into it",
       "url": "https://x.com/aleabitoreddit/status/2006748273760153734",
@@ -34,19 +33,19 @@
         "reposts": 7,
         "replies": 8
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2006748783770833027",
       "date": "2026-01-01",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
+      "stance": "neutral",
+      "mention_type": "background",
       "reasons": [
-        "would benefit a ton from the start of glass substrate production cycles"
+        "would benefit from start of glass substrate production cycles"
       ],
       "is_risk": false,
-      "conviction": "low",
+      "conviction": null,
       "raw_mention": "$SHMD",
       "text": "@pennycheck Thanks, that's incredibly interesting. \n\nI'll take a deeper dive into $SHMD over the weekend. They would benefit a ton from the start of glass substrate production cycles.",
       "url": "https://x.com/aleabitoreddit/status/2006748783770833027",
@@ -57,8 +56,8 @@
         "reposts": 1,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2006964097515180284",
@@ -66,7 +65,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "bottleneck play in private markets thesis"
+        "bottleneck thesis"
       ],
       "is_risk": false,
       "conviction": null,
@@ -80,17 +79,17 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007012514488623118",
       "date": "2026-01-02",
-      "stance": "bullish",
+      "stance": "neutral",
       "mention_type": "explicit_stance",
       "reasons": [
-        "has AVGO as a customer",
-        "marketcap is $300m suggesting significant upside"
+        "still researching",
+        "if you have AVGO as a customer and marketcap is $300m then there's quite a lot of upside"
       ],
       "is_risk": false,
       "conviction": "low",
@@ -104,8 +103,32 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2007084099174047817",
+      "date": "2026-01-02",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "AVGO likely customer",
+        "probably on INTC and Samsung roadmaps"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SHMD",
+      "text": "@meeijer Thanks! There's a lot I'm missing but still doing a lot of research into them.\n\n$SKC/Absolics (~$2.5B MC) was interesting for $NVDA, $AVGO / $MVRL CPO play as the first-to-market with US Government heavily involved,  \n\n$SHMD (~$250m) was also pretty interesting too since $AVGO was a likely customer and they're probably on $INTC, Samsung roadmaps. \n\nBut generally market presents a ton of interesting opportunities.",
+      "url": "https://x.com/aleabitoreddit/status/2007084099174047817",
+      "kind": "reply",
+      "engagement": {
+        "views": 6476,
+        "likes": 19,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015120952485625909",
@@ -113,7 +136,7 @@
       "stance": "neutral",
       "mention_type": "explicit_stance",
       "reasons": [
-        "one of their customers was reportedly AVGO",
+        "one of their customers reportedly AVGO",
         "can't wrap head around taking a long position yet"
       ],
       "is_risk": false,
@@ -128,8 +151,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2029849475020185618",

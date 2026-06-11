@@ -5,12 +5,12 @@
   "exchange": "US",
   "currency": "USD",
   "ticker_mapped": false,
-  "company": null,
-  "industry": null,
+  "company": "Arm Holdings",
+  "industry": "CPU/IP Licensing",
   "thesis_summary": null,
   "first_mention": "2025-09-28",
-  "last_mention": "2026-06-01",
-  "total_mentions": 47,
+  "last_mention": "2026-06-08",
+  "total_mentions": 49,
   "mentions": [
     {
       "tweet_id": "1972494903130341846",
@@ -53,8 +53,8 @@
         "reposts": 3,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2023738132563431778",
@@ -1089,6 +1089,52 @@
         "likes": 95,
         "reposts": 0,
         "replies": 3
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063984786918854663",
+      "date": "2026-06-08",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "included in his 'goated' US list"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$ARM",
+      "text": "Still think this US list from $MRVL to $ARM to $INTC was goated. \n\nJust as a recap if new followers were wondering what US equities I like.\n\nEspecially because I've been talking about international companies recently. https://t.co/tZGLrFEGoh https://t.co/1mkk0NG6Ao",
+      "url": "https://x.com/aleabitoreddit/status/2063984786918854663",
+      "kind": "post",
+      "engagement": {
+        "views": 1189111,
+        "likes": 2140,
+        "reposts": 198,
+        "replies": 387
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063990145293168854",
+      "date": "2026-06-08",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "massive price appreciation from his call ($134 to $347)"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$ARM",
+      "text": "@0xHyperEVM Yeah $MRVL was $87 or so, $ARM was $130. \n\n$87 -&gt; $288 for Marvell\n$134 -&gt; $347 for Arm\n\nnot too shabby for my names? I still think many have a toooon of room to go like $AAOI.",
+      "url": "https://x.com/aleabitoreddit/status/2063990145293168854",
+      "kind": "reply",
+      "engagement": {
+        "views": 66190,
+        "likes": 219,
+        "reposts": 3,
+        "replies": 19
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

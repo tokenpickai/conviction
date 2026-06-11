@@ -38,12 +38,10 @@
     {
       "tweet_id": "2014672331092926620",
       "date": "2026-01-23",
-      "stance": "bearish",
+      "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "struggling with inference capacity"
-      ],
-      "is_risk": true,
+      "reasons": [],
+      "is_risk": false,
       "conviction": null,
       "raw_mention": "$BABA",
       "text": "@amitisinvesting There were many reports Chinese tech (bytedance, $BABA, etc) were struggling with inference capacity.\n\nChina still hasn’t likely changed their domestic self-reliance goal but reality of inference limits likely forced their hand. \n\nJust goes to show how dominant $NVDA is that AI firms can’t function without it",
@@ -55,8 +53,8 @@
         "reposts": 3,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018185060353278016",

@@ -18,8 +18,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "hidden gem",
-        "will take positions"
+        "calls it a hidden gem",
+        "plans to take positions"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -33,8 +33,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011429535913590910",
@@ -42,14 +42,14 @@
       "stance": "bearish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "STAY AWAY",
-        "scamming retail investors",
-        "gave control of entire company (over $88M USD+ in warrants) to arbitrage investors",
-        "retail investors will just get arbitraged"
+        "massive dilution via $88M+ in warrants to arbitrage investors",
+        "company scamming retail investors",
+        "arbitrage investors can buy 25% below market size",
+        "tech/financials strong but dilution is disqualifying"
       ],
       "is_risk": true,
       "conviction": "high",
-      "raw_mention": "$UAVS",
+      "raw_mention": "it",
       "text": "@KAnalyser1 HOLY CRAP STAY AWAY,  I was only looking at it from tech/financials angle (Which is extremely strong) rather than dilution. \n\nThis company is just scamming retail investors. \n\nThey basically gave control of their entire company (over $88M USD+ in warrants) to arbitrage investors who can buy any time 25% below market size. \n\nRetail investors will just get arbitraged until they pile $88M into this company.",
       "url": "https://x.com/aleabitoreddit/status/2011429535913590910",
       "kind": "reply",
@@ -59,8 +59,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011434143381618907",
@@ -68,11 +68,10 @@
       "stance": "bearish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "wait until 22nd for $100m authorization outcome",
-        "board voted to scam retail investors",
-        "giving arbitrage investors control of entire company",
-        "endlessly sell their sales for a free 25% of current value or $1.23",
-        "toxic"
+        "board voted to give arbitrage investors control of entire company",
+        "arbitrage investors can endlessly sell for free 25% of current value or $1.23",
+        "toxic dilution structure scamming retail",
+        "wait until 22nd for $100m authorization outcome"
       ],
       "is_risk": true,
       "conviction": "high",
@@ -86,8 +85,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011446944866935073",
@@ -95,11 +94,12 @@
       "stance": "bearish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "sold entire company to arbitrage investors in Series G round giving right to buy $100M shares at 75% under market price",
-        "same Series G investors previously put out false information about an $AMZN partnership to dump shares on retail",
-        "board voted for wealth transfer structure from retail to arbitrage",
-        "arbitrage investors have effective control of 100%+ of company and can issue new shares repeatedly to profit at retail expense",
-        "November 7 2025 filing was a massive dilution nuke",
+        "massive dilution via Series G round selling company to arbitrage investors",
+        "arbitrage investors can buy $100M shares at $1.23 or 75% below market",
+        "board voted for wealth transfer from retail to arbitrage",
+        "arbitrage investors have effective control of 100%+ of company and can issue new shares repeatedly",
+        "same Series G investors previously spread false AMZN partnership news in 2021",
+        "buying effectively donates money to arbitrage investors",
         "every retail investor loses under current financing structure"
       ],
       "is_risk": true,
@@ -114,8 +114,8 @@
         "reposts": 12,
         "replies": 35
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011474026166948297",
@@ -124,12 +124,12 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "gave control to arbitrage investors of over 100% the marketcap",
-        "arbitrage investors can mint $100 million worth of shares at $1.23 (-50% under current prices) and pocket the difference",
-        "scheme only works if retail buys into the arbitrage",
-        "company put out fake press releases like AMZN partnerships to get retail to buy"
+        "can mint $100M worth of shares at $1.23 (-50% under current prices) and pocket the difference",
+        "only works if retail buys into arbitrage",
+        "history of fake press releases to lure retail"
       ],
       "is_risk": true,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$UAVS",
       "text": "@peonyKingOF $ONDS convertible note at a higher strike is wildly different and this is a delusional take.\n\n$UAVS gave control to arbitrage investors of over 100% the marketcap where they can mint $100 million worth of shares at $1.23 (-50% under current prices) and just pocket the difference.\n\nThis only works if retail buys into this arbitrage. And as we’ve seen the same company would do anything from putting out fake press releases like $AMZN partnerships to get retail to buy.",
       "url": "https://x.com/aleabitoreddit/status/2011474026166948297",
@@ -140,8 +140,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012976046136774864",
@@ -152,7 +152,7 @@
         "US defense likely to benefit from Greenland trade tensions"
       ],
       "is_risk": false,
-      "conviction": "low",
+      "conviction": null,
       "raw_mention": "$UAVS",
       "text": "@StockSavvyShay I'm a bull that's excited about Greenland trade tensions.   \n\nUS defense like $UAVS and $DPRO are likely to benefit. Same with rare earth/critical materials.   \n\nCan't say the same about the pharma bulls in $NVO, European luxury like $LVMH, or possibly big tech.\n\nAs you mentioned, I agree it's just noise to the AI trade.",
       "url": "https://x.com/aleabitoreddit/status/2012976046136774864",
@@ -163,8 +163,8 @@
         "reposts": 4,
         "replies": 16
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015096496019112151",
@@ -173,7 +173,7 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "endless dilution machine",
-        "over 100%+ of marketcap given to arbitrage investors that can convert shares under 25% market value to sell on retail"
+        "over 100%+ of marketcap given to arbitrage investors"
       ],
       "is_risk": true,
       "conviction": "high",
@@ -187,8 +187,8 @@
         "reposts": 100,
         "replies": 83
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2030730472104530191",

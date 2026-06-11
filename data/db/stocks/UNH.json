@@ -549,8 +549,8 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "crashed -19.48% in a single day",
-        "dividend yield of ~2.85% wiped out by single-day drop equivalent to 6.6 years of waiting",
-        "safety not found in stagnation and dividends"
+        "~2.85% dividend wiped by single-day 20% drop",
+        "safety isn't found in stagnation and dividends"
       ],
       "is_risk": true,
       "conviction": null,
@@ -564,8 +564,8 @@
         "reposts": 9,
         "replies": 34
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2060633424151679287",

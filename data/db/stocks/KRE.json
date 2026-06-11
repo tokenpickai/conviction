@@ -18,7 +18,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "sector sell-off on bank failure headlines would be overreaction since collapse is isolated"
+        "looks like a buy if the sector sells off on bank failure headlines",
+        "bank collapse is isolated incident"
       ],
       "is_risk": false,
       "conviction": "low",
@@ -32,8 +33,8 @@
         "reposts": 154,
         "replies": 23
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

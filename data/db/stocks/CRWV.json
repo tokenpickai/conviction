@@ -10,7 +10,7 @@
   "thesis_summary": null,
   "first_mention": "2025-07-21",
   "last_mention": "2026-06-03",
-  "total_mentions": 186,
+  "total_mentions": 187,
   "mentions": [
     {
       "tweet_id": "1947298901108957475",
@@ -3673,11 +3673,9 @@
     {
       "tweet_id": "2006709693012467774",
       "date": "2026-01-01",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "neocloud beneficiary of hyperscaler compute bottleneck"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "CRWV",
@@ -3690,17 +3688,36 @@
         "reposts": 119,
         "replies": 30
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2007135756511522942",
+      "date": "2026-01-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$CRWV",
+      "text": "@soulbiri1 Most things are off to a good start lol. $CRWV, $CIFR, to $AAOI both up over 10%. $NBIS up 7%, $SMCI up 6%, $MRVL, $MSTR, $TSM up 5%.\n\nAll your memory stocks are up 8% every day. \n\nGreen everywhere aside from a few",
+      "url": "https://x.com/aleabitoreddit/status/2007135756511522942",
+      "kind": "reply",
+      "engagement": {
+        "views": 3161,
+        "likes": 14,
+        "reposts": 0,
+        "replies": 2
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007685024704016879",
       "date": "2026-01-04",
-      "stance": "bullish",
+      "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "GPU orchestration software for running DCs is still incredibly complex"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$CRWV",
@@ -3713,8 +3730,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008238953053454511",
@@ -3734,18 +3751,16 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012562412457562304",
       "date": "2026-01-17",
-      "stance": "bearish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "heavily levered to OpenAI"
-      ],
-      "is_risk": true,
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
       "conviction": null,
       "raw_mention": "$CRWV",
       "text": "Breaking: Elon Musk has sued OpenAI for $134 Billion.\n\nPrediction markets have priced the odds of Elon winning at 59% as of today.   \n\nThis may be alarming.   \n\nIf OpenAI loses this: \n\nMarkets may trigger a contagion across the AI ecosystem tied to OpenAI.  \n\n$AMD or $CRWV and companies like $ORCL (Stargate) to $MSFT are massive losers as they're heavily levered to OpenAI.  \n\nThen there's third order effects on companies as $APLD and $CORZ involved to Coreweave. \n\nSame goes with $AMD partners, such as $RIOT.  \n\n For example: \n\n1. Microsoft / Oracle -> Write down billions in investment, buildout + GPU utilization lag would cost billions \n\n2. CoreWeave -> Massive risk to backlog revenue, utilization lag + already at risk due to massive debt interest \n\n3. APLD / CORZ -> Depend on Coreweave for revenue, if the tenant goes down, so does their near term revenue.   \n\nIf OpenAI are forced to pay massive damages, return to a strict non-profit status, or declare bankruptcy due to liquidity crises (and cannot fulfill its contractual obligations):  \n\nThis might trigger a contagion event across many AI sector names tied to OpenAI.   \n\nOf course this is the worst case scenario. \n\nMy expectation is middle ground: \n \n-> Musk wins the trial (or forces a settlement just before the verdict). \n\n-> OpenAI is forced to pay a massive fine (e.g., $10B–$20B) and possibly open-source its older models \n\n-> $MSFT likely steps in to pay the fine or restructure the debt since there's too much at stake.   \n\nOr in the 41% chance Musk loses: nothing happens, and companies tied to OpenAI will be fine.  \n\nHowever it looks markets already priced in a lot of that uncertainty with OpenAI contagion risk with Oracle ($330 -> $195) and Coreweave ($150 -> $101).   \n\nThis lawsuit is definitely one of the biggest events markets are watching.",
@@ -3757,8 +3772,8 @@
         "reposts": 79,
         "replies": 66
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015096496019112151",
@@ -3768,8 +3783,8 @@
       "reasons": [
         "concerns over large debt",
         "$1B+ in debt interest hurts FCF",
-        "allocation/buildout for OpenAI has extreme concerns if they can fulfill contract obligations",
-        "gemini is taking over market share of openai"
+        "extreme concerns over fulfilling OpenAI contract obligations",
+        "Gemini taking market share from OpenAI"
       ],
       "is_risk": true,
       "conviction": "high",
@@ -3783,8 +3798,8 @@
         "reposts": 100,
         "replies": 83
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016361080117961170",
@@ -3792,9 +3807,9 @@
       "stance": "bearish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says extra money goes back to Nvidia",
-        "he says it doesn't make Coreweave a good long",
-        "he says they have $14.7B+ in debt with $1.2B+ in yearly interest payments"
+        "$14.7B+ in debt with $1.2B+ in yearly interest payments",
+        "compares to gambling with borrowed money from a casino",
+        "extra money goes back to Nvidia not Coreweave"
       ],
       "is_risk": true,
       "conviction": null,
@@ -3808,8 +3823,8 @@
         "reposts": 12,
         "replies": 36
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016363999110349303",
@@ -3817,9 +3832,11 @@
       "stance": "bearish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says they are the only one on fire with massive debt",
-        "he says it's harder for them to secure additional funding without junk bonds",
-        "he says Nvidia doesn't lose much if and when Coreweave goes under with just a ton of debt and depreciating GPUs"
+        "massive debt",
+        "harder to secure additional funding without junk bonds",
+        "only neocloud on fire financially",
+        "Nvidia doesn't lose much if Coreweave goes under",
+        "depreciating GPUs"
       ],
       "is_risk": true,
       "conviction": null,
@@ -3833,8 +3850,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016365769203057034",
@@ -3842,8 +3859,8 @@
       "stance": "bearish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says it is not as compelling",
-        "he says $1.2B+ in debt interest is eroding FCF"
+        "not as compelling",
+        "$1.2B+ debt interest eating into FCF"
       ],
       "is_risk": true,
       "conviction": null,
@@ -3857,8 +3874,8 @@
         "reposts": 2,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016368174695120903",
@@ -3866,10 +3883,11 @@
       "stance": "bearish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says it is probably the only $50B+ company likely going to go bankrupt",
-        "he says it is a clear short to him",
-        "he says a large part of their revenue will be used to pay off debt interest",
-        "he says GPU depreciation compounds the problem"
+        "clear short",
+        "probably going to go bankrupt",
+        "large part of revenue used to pay off debt interest",
+        "GPU depreciation compounds the problem",
+        "$50B+ company likely going bankrupt"
       ],
       "is_risk": true,
       "conviction": "high",
@@ -3883,8 +3901,8 @@
         "reposts": 0,
         "replies": 6
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016507338778390781",
@@ -3892,7 +3910,8 @@
       "stance": "bearish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says Coreweave has an issue with $1.25B+ yearly debt payments"
+        "$1.25B+ yearly debt payments remain an issue",
+        "was a swing trade not a long-term hold"
       ],
       "is_risk": true,
       "conviction": null,
@@ -3906,18 +3925,16 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2017391893190217989",
       "date": "2026-01-30",
       "stance": "neutral",
-      "mention_type": "comparison",
-      "reasons": [
-        "cited as example of high debt load cutting into FCF alongside ORCL"
-      ],
-      "is_risk": true,
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
       "conviction": null,
       "raw_mention": "$CRWV",
       "text": "@jukan05 I've been covering Neoclouds for awhile so I'm familiar with $ORCL. It's nuanced: \n\nMain thing is CapEx -> $50B from $35B, and $200B+ or so in DC leases.\n\nThis is mainly for the Stargate project, mainly for OpenAI, which presents incredible counter party risk.\n\nAs you know OpenAI has $1T+ in contracted capex spend, but not enough money to pay for it. So that $300B+ in contracted revenue you see in earnings for ROI spend, could easily just disappear.\n\nYou might think it's easy to just get another customer but any utilization lag, combined with asset/lease depreciation, hurts. A lot. \n\nSecond part is\n\n-> It's incredibly hard to turn this into a high margin business. \n\nYou have to combine GPU depreciation, GPU orchestration (which is really difficult Nebius, Coreweave are the few currently that can do this well), amid other things to turn that revenue into FCF. \n\nAnd when you take on a lot of debt as seen with $CRWV, and $ORCL that cuts into any FCF + you still need to pay it off. \n\nThe Information leaked news a month or two ago that Oracle was facing a lot of issues with profitability on their GPU segment (GPU utilization issues, etc). So that took a toll.\n\nOverall, main uncertainty is counterparty risk with OpenAI. It's core business is strong, but new buildout is shaky. \n\nSo I would argue it's excessive Capex for a shaky counterparty and questions on whether that turns into FCF or more losses.",
@@ -3929,8 +3946,8 @@
         "reposts": 4,
         "replies": 8
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2019853553997869150",

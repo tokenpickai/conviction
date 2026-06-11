@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-01-12",
-  "last_mention": "2026-05-14",
-  "total_mentions": 9,
+  "last_mention": "2026-06-06",
+  "total_mentions": 10,
   "mentions": [
     {
       "tweet_id": "2010916127925293347",
@@ -30,17 +30,15 @@
         "reposts": 29,
         "replies": 8
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015164232795627975",
       "date": "2026-01-24",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "SiC deposition"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AMAT",
@@ -53,8 +51,8 @@
         "reposts": 15,
         "replies": 18
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2032586030059237713",
@@ -201,6 +199,27 @@
         "likes": 988,
         "reposts": 43,
         "replies": 103
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063442668844167613",
+      "date": "2026-06-06",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AMAT",
+      "text": "Just very helpful timelines reiterated around glass substrate (source: Trendforce):\n\n- SKC Absolics (011790) H2 2026 (first mover x $AMAT) - $AMD customers\n\n- Samsung electromechanics h2 2027 (009150) x Sumitomo Chem (4005) - Apple / $AVGO / hyperscalers \n\nIdk about $INTC 2030 https://t.co/zI7nD2YQpa",
+      "url": "https://x.com/aleabitoreddit/status/2063442668844167613",
+      "kind": "post",
+      "engagement": {
+        "views": 528226,
+        "likes": 1226,
+        "reposts": 121,
+        "replies": 207
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

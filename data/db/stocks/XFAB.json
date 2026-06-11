@@ -1,6 +1,6 @@
 {
   "ticker": "XFAB",
-  "cashtag": "$XFAB",
+  "cashtag": "XFAB (implied from context)",
   "price_symbol": "XFAB.PA",
   "exchange": "Euronext Paris",
   "currency": "EUR",
@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-05-27",
-  "last_mention": "2026-06-05",
-  "total_mentions": 26,
+  "last_mention": "2026-06-11",
+  "total_mentions": 33,
   "mentions": [
     {
       "tweet_id": "2059537337324085541",
@@ -673,6 +673,178 @@
         "likes": 176,
         "reposts": 4,
         "replies": 12
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063178421497221604",
+      "date": "2026-06-06",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "could be the next TSEM",
+        "early stage at $1.4B MC",
+        "leapfrogged current gens to compete for H2 2027 CPO scale up inflection point"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$XFAB",
+      "text": "Okay... just some more weekend shower thoughts about $XFAB.\n\nI still feel like it could be the next $TSEM, just early stage at a $1.4B MC?\n\nThey kinda leapfrogged current gens (which $TSEM are getting volume from) to compete for H2 2027 CPO scale up inflection point ($ASX docs https://t.co/NbAgXOwkyh",
+      "url": "https://x.com/aleabitoreddit/status/2063178421497221604",
+      "kind": "post",
+      "engagement": {
+        "views": 466592,
+        "likes": 1476,
+        "reposts": 121,
+        "replies": 176
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063181799988060547",
+      "date": "2026-06-06",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "de-risked foundry",
+        "compelling upside from CPO if they make things work in H2 2027/2028",
+        "frontrunning institutions before normal repricing"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$XFAB",
+      "text": "@asianinvestors Uhh, $XFAB de-risked foundry. Compelling upside from CPO if they make things work in H2 2027/2028? \n\nI call this frontrunning institutions... since it's a massive guessing game few months ahead of normal repricing. \n\nCause it's a lot of customer/document mapping + timeline https://t.co/zMQArCbTyY",
+      "url": "https://x.com/aleabitoreddit/status/2063181799988060547",
+      "kind": "reply",
+      "engagement": {
+        "views": 27239,
+        "likes": 183,
+        "reposts": 6,
+        "replies": 4
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063993068035215548",
+      "date": "2026-06-08",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "really likes it",
+        "markets are sleeping on it"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$XFAB",
+      "text": "@SebastianS79509 $XFAB is European... I really like it, just markets are sleeping on it.",
+      "url": "https://x.com/aleabitoreddit/status/2063993068035215548",
+      "kind": "reply",
+      "engagement": {
+        "views": 30607,
+        "likes": 147,
+        "reposts": 4,
+        "replies": 16
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064328464166207604",
+      "date": "2026-06-09",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "valuations are a joke at $1.45B MC",
+        "leading Europe's silicon photonics supply chain efforts"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$XFAB",
+      "text": "@jim29223471 Can’t give advice on what you should do. \n\nBut personally I think $XFAB valuations are a joke at $1.45B MC if they’re leading Europe’s silicon photonics supply chain efforts.",
+      "url": "https://x.com/aleabitoreddit/status/2064328464166207604",
+      "kind": "reply",
+      "engagement": {
+        "views": 26379,
+        "likes": 151,
+        "reposts": 7,
+        "replies": 12
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064708118509199546",
+      "date": "2026-06-10",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "expects recovery after selloff",
+        "European supply chain to play follow the leader"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$XFAB",
+      "text": "@aphexinvests I’d expect $SOI, $XFAB, $IQE and others in the European supply chain to play follow the leader and recover as well.\n\nEverything got sold off with photonics / power semis recently.",
+      "url": "https://x.com/aleabitoreddit/status/2064708118509199546",
+      "kind": "reply",
+      "engagement": {
+        "views": 56068,
+        "likes": 224,
+        "reposts": 11,
+        "replies": 13
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065009883133644963",
+      "date": "2026-06-11",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "building Silicon Photonics foundry alternative",
+        "has Europe backing",
+        "NVDA evaluations",
+        "development finishing October 2026",
+        "2027 production scaled into 2028 mass"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$XFAB",
+      "text": "Why do I keep getting these questions!!! \n\n$XFAB is building a Silicon Photonics foundry alternative to $TSEM and $GFS. And has Europe backing it + $NVDA evaluations. \n\nIt takes time... Like October 2026, should finish up development. \n\nThen 2027 production scaled into 2028 (mass https://t.co/aOgpUfnBhO https://t.co/OH9w6XDwYF",
+      "url": "https://x.com/aleabitoreddit/status/2065009883133644963",
+      "kind": "post",
+      "engagement": {
+        "views": 289086,
+        "likes": 901,
+        "reposts": 61,
+        "replies": 225
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065018353253794138",
+      "date": "2026-06-11",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "calls it frontrunning despite 2028 being far away"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "XFAB (implied from context)",
+      "text": "@assetrend 2028 is far away, but I call this frontrunning.",
+      "url": "https://x.com/aleabitoreddit/status/2065018353253794138",
+      "kind": "reply",
+      "engagement": {
+        "views": 10234,
+        "likes": 75,
+        "reposts": 0,
+        "replies": 5
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

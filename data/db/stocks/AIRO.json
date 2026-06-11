@@ -5,26 +5,80 @@
   "exchange": "US",
   "currency": "USD",
   "ticker_mapped": false,
-  "company": null,
-  "industry": null,
+  "company": "AIRO Group",
+  "industry": "Aerospace/Defense Autonomy",
   "thesis_summary": null,
-  "first_mention": "2026-01-05",
+  "first_mention": "2026-01-02",
   "last_mention": "2026-03-26",
-  "total_mentions": 34,
+  "total_mentions": 35,
   "mentions": [
+    {
+      "tweet_id": "2007071108831338685",
+      "date": "2026-01-02",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "roughly 1/6th balance sheet was cash",
+        "accelerated gov investments in drones",
+        "IPO name sold off",
+        "roughly 3.8x P/S vs ONDS at 25-30 P/S",
+        "hot segment"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "$AIRO",
+      "text": "Welcome to 2026. Jan 1st ratings:\n\nStrong Buy:\n$TTD\n$SMCI\n$AIRO\n$INTC\n$HIMS\n$AXTI\n$TSM\n$NBIS\n$CIFR\nSamsung Electronics (KRX: 005930)\n$HUT\n$IREN\n$WULF\n$GLXY\n$TSSI\n$META\n$ETOR\n$CRCL\n\nBuy:\n$KRKNF\n$ONDS\n$GEMI\n$NVDA\n$MU\n$AMKR\nSK Hynix\n$SNAP\n$RDDT\n$AAOI\n$COHR\n$FISV\n$FLY\n$DJT\n$LITE\n$AMZN\n$MRVL\n$AVGO\n$OSS\n$BULL\n$ORCL\n$CRDO\n$ALAB\n\nAvoid:\n$RGTI\n$QBTS\n$RGTI\n$BMNR\n$ETH\n$PLTR\n$WMT\n\n_\n\nTLDR thoughts:\n\nTTD - Complete valuation reset dropping 67% YTD, compounded by EOY tax sell-off. Great recovery play going into 2026. \n\nSMCI - Trades like distressed company just because they delayed revenue by 1 quarter for new blackwell specs. Forward revenue is increasing 50% Y/Y, P/S close to .5 now. Great recovery play from tax harvesting. \n\nAIRO - Roughly ~1/6th balance sheet was cash. Everyone seems to be into drones, especially with accelerated gov inevstments. Another IPO name that got sold off. Great recovery play going into 2026 with esp. hot segment. Roughly ~3.8x P/S compared to ONDS trading at 25-30 P/S, but obviously there's quite a lot of other businesses like their education sector which messed up margin calculations quite a bit. \n\nINTC - It's literally become the semi arm of the US government. Hyperscalers will likely be incentived (strongly pressured) to use Intel whatever chance it gets over TSM, Samsung, etc. I would not bet against the US government. \n\nHIMS - Huge selloff going into 2026. Down from $70's. Sales/Traffic is down, but Zava acquisition/growth should add a huge tailwind going into 2026.  Esp. with few hundred mill buybacks, strong recovery play first two monts in. \n\nAXTI - Posted thesis on this earlier. CEO - \"40% of Inp supply chain\", InP will be a huge, huge bottleneck for hyperscaler AI buildout 2026-2027 until there's enough time to engineer around it in 2028. \n\nTSM - I've covered this quote a lot. Increasing margins. Maxed out demand. Just extremely good compounder next few years. \n\nSamsung Electronics - benefits from foundry/memory. just golden egg regarding all the tailwinds helping the buisness. \n\nNBIS - Extremely strong buy, $7-9B ARR, it's literally 5 different companies growing triple digits Y/Y. management quoted 20-30% EBIT margins, it's just a waiting agme. \n\nCIFR, HUT, IREN, WULF, GLXY - Whole datacenter space is extremely sold off after Oracle/OpenAI fears. OpenAI recently raised $40B, another $10B from $AMZN, and more. So a lot of fears regarding capex spend has been de-risked. It's multifaceted too, eg. Bitcoin drop, affects $CIFR balance sheet, $GLXY in crypto space. But generally huge recovery play/ramp for neoclouds sector.\n\nTSSI - Similar to SMCI. deferred revenue = nuke. Should recover after tax harvesting + lot of revenue gets recognized\n \nMETA - Huge algorithmic selloff post earnings due to one-time tax. They also cut capex/opex spend of their reality labs and other departments and this should be a huge tailwind for EPS going into 2026. \n\nETOR - Literally sitting on $1.2B with a $2.8B marketcap and growing double digits Y/Y still. $150M buyback should be a nice tailwind, and tax harvesting from YTD performance should subside. \n\nCRCL - Same as stablecoin thesis should be really solid going into 2026\n\nBuy \n\nKRKNF - Anduril partner+ scale. Probable uplisting in 2026, lot of tailwinds from defense spending. \n\nONDS -pretty explosive revenue growth, new $10m contracts left and right. large cash balance to fund r&d. Pretty high p/s but there's valuation premiums for speculative leaders in the space like rklb.\n\nGEMI - So i typically dont like exchanges, but gemini got nuked from $30+ IPO sub $10. pretty solid recovery play. \n\nNVDA - Huge backlog lol. Everyone knows bull case for nvidia\n\nMU - Memory is hot \n\nSK Hynix - Memory is hot\n\nAMKR - benefits from \"made in america\" chip expansion in  prod.\n\nSNAP - Opex Cut from memory, increase revenue from memory monetization,  $400m from perplixity. $1.5B revenue/quarter. They could literally stop growing revenue complelty if they convert all of that to $1B+ FCF/year, it would re-rate snap completly. \n\nRDDT - This is not going anywhere for the next 10+ years tbh, it's like robinhood of social media, growing extremely fast from new ways to monetize revenue, and just extrmeely profitable. \n\nAAOI - interconnect play for amzn, msft asic scale up. \n\nCOHR - benefits from photonics rollout for next gen asics. \n\nFISV - Nuked a bit too much post ER, strong recovery play esp. post tax-harves.t \n\nFLY - Space is hot from SpaceX IPO. Should do well given tax harvesting is over, and they have medium lift coming up with northrop. \n\nDJT - I never thought i'd put this here lol, but this is just because of their TAE merger. \n\nLITE - Large BOM from Google TPU rollout, attractive valuation. Slight selloff after Google TPU revised est. but it's basically in every single hyperscaler asic deployment.  \n\nAMZN - one of the mag7 that's not overvalued\n\nMRVL - Selloff from analyst misinformation, strong buy going into 2026. Especially with msft maia revenue doubling Marvell's current revenue when it ramps up\n\nAVGO - Like NVDA just strong long, as AI infrastructure deployment ramps up\n\nOSS - I made a post speculating that they're one of andruils' suppliers. but regardless, edge computing will be hot 2026 and its 180m mc presents attracctive upside. \n\nBULL - similar to robinhood where they have a huge userbase, but they just need to figure out monetization \n \nOracle - Sold off a bit too much imo. I put this on avoid months ago but after the from from $330 to $190, it's more attractive again esp. after openai raised another $40B\n\nCRDO -extremely high margin, necessary connectivity for dc rollout\n\nALAB - extremely high margin, necessary connectivity for dc rollout \n\nAvoid:\nThere's a lot of stuff on the \"overvalued list\" like $RKLB that i like but I wouldn't quite say avoid it either aside from these. \n\nRGTI , QBTS, RGTI - Quantum names are still overvalued and likely won't deliver fcf in the next few ytears. \nBMNR, ETH - if you saw my eth post, not exactly bullish since the amount of ETH burn is just single-low double digits every day, which is a joke. \nPLTR - one of the most overvalued ai names\nWMT - How is this 40 p/e? This is Walmart?\n\n__\n(these are based on today's prices)\n\nTLDR: \n\nIPO names like Circle, Etoro, AIRO, Klarna, Figma,  present attractive upsides post drop + tax harvesting going into 2026.\n\nTons of names like SMCI, HIMS that dropped 40% or so past 3 months, are amazing swing/recovery trades post-tax harvest + Jan effect. \n\nLot of the names that doom dropped like FiserV or The Trade Desk present good recovery trades too post-tax harvest.  \n\nMany datacenter stocks like nebius, iren, cifr, wulf, galaxy, are amazing recovery trades too. \n\nLot of other segments like memory, bottlenecks, photonics, and others are just great longs in 2026, despite each hitting ATHs. \n\nThere's still quite a lot of overvalued names from Quantum, to certain Space stocks (eg. planet or rocketlab), specific AI names like Palantir to retail stocks like Walmart that I would probably avoid for the time being until there's a slight correction.\n\nThis was a TLDR just if I'm short term trading-only (not long term) but feel free to ask questions.",
+      "url": "https://x.com/aleabitoreddit/status/2007071108831338685",
+      "kind": "post",
+      "engagement": {
+        "views": 2896934,
+        "likes": 1546,
+        "reposts": 213,
+        "replies": 100
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2007113531158908939",
+      "date": "2026-01-02",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "attractive drone vertical with NATO/DoD funding",
+        "RQ-35 Heidrun IP interesting for GPS-denied environments",
+        "revenue drop based on deferred revenue not cancelled ($20m drone shipments shifted)",
+        "solid net cash position of $68.8M on $250m MC",
+        "trades at 2.1x EV to revenue vs peers much higher",
+        "shouldn't trade like a distressed company"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AIRO",
+      "text": "@Para_Capital Looking @ $AIRO from the fund/vertical not the exec team. For example, @chamath was frowned upon until he got that 20B Groq exit. Or Saylor was a meme until $MSTR pulled off a heist. It does make a large difference, but it's not everything. \n\nIn terms of $AIRO / $ONDS, especially with Russia/Ukraine conflicts + NATO + DoD funneling money into drone segments, the vertical should command a premium (but Airo, trades like it's distressed).\n\nThe RQ-35 Heidrun IP, seemed extremely interesting for GPS-denied environments. But they have a ton of misc companies like training that are just side quests.  \n\nSo similar to $SMCI, there was also backlog delays with caused the crash in Airo (the $6.3M vs $23.7M miss). But the $20m drone shipments was just shifted not cancelled. \n\nNet cash is $68.8M which is extremely solid given its mini $250m MC, and it trades at 2.1x EV to revenue, compared to others like $AVAV at 9.4x. I think $ONDS was like 20-30 off the top of my head. \n\nSo TLDR: solid cash position, attractive vertical, drop based on differed revenue not cancelled, low market cap presents good upside. \n\nIt shouldn't trade like a distressed company because of cash position + just deferred rev.",
+      "url": "https://x.com/aleabitoreddit/status/2007113531158908939",
+      "kind": "reply",
+      "engagement": {
+        "views": 3446,
+        "likes": 10,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2008334038726050249",
       "date": "2026-01-05",
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "$300m mc",
-        "~$200m order backlog for 2025/2026 in drones",
+        "$300m mc with ~$200m order backlog for 2025/2026 in drones",
         "$60m+ cashpile",
-        "P/S is extremely low compared to others"
+        "P/S extremely low compared to others"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "low",
       "raw_mention": "$AIRO",
       "text": "@init_malachi There’s companies like $AIRO too if you feel you missed out, it’s $300m mc, with ~$200m or so order backlog for 2025/2026 in drones and $60m+ cashpile.\n\nP/S is extremely low compared to others, but not really directly involved in the Venezuela takeover",
       "url": "https://x.com/aleabitoreddit/status/2008334038726050249",
@@ -35,8 +89,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008454507823591467",
@@ -44,14 +98,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "up +23% since initial post 3 days ago",
-        "drone + defense segment becoming extremely hot",
-        "trading at extremely low P/S (~2.5 fwd) vs peers at 30-40+ multiples",
-        "has order backlog from NATO + Ukraine armed forces for RQ-35 Heidrun drones designed for GPS-denied environments",
+        "drone + defense sector becoming extremely hot",
+        "trading at extremely low P/S (~2.5 fwd p/s) vs peers at 30-40+ multiples",
         "$190M guidance for 2025-2026 bookings",
-        "huge tailwind from military conflicts in Venezuela/Ukraine and $1T DoD spending",
-        "Q3 2025 revenue miss was deferred revenue not lost revenue, stock dropped from $30 to $10 creating opportunity",
-        "no premium in current valuation"
+        "order backlog from NATO + Ukraine armed forces",
+        "Q3 revenue miss was deferred revenue not lost revenue, stock dropped from $30 to $10 creating unique opportunity",
+        "huge tailwind from military conflicts in Venezuela/Ukraine and $1T DoD spending"
       ],
       "is_risk": false,
       "conviction": "low",
@@ -65,31 +117,8 @@
         "reposts": 25,
         "replies": 23
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
-    },
-    {
-      "tweet_id": "2008454507823591467",
-      "date": "2026-01-06",
-      "stance": "bearish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "execution uncertainty due to executive team history"
-      ],
-      "is_risk": true,
-      "conviction": null,
-      "raw_mention": "execution uncertainty",
-      "text": "I’ve taken a position in $AIRO and it’s up +23% since this post 3 days ago. \n\nMarkets still don’t know about this Aerospace & Defense stock, despite $ONDS hype.\n\nIt’s a drone stock ~$300m MC, with $120m+ est. for 2026 (~2.5 fwd p/s)\n\nOthers trade at 30-40+ multiples and bigger companies trade at ~9.3 p/s like $AVAV.\n\nThis stems from their $190M guidance for 2025-2026 bookings subtracted by est. FY 2025 ~$86.9M + growth. \n\nThere’s a huge tailwind for the sector coming from military conflicts in Venezuela/Ukraine and $1T DoD spending into defense.\n\n$AIRO already has order backlog from NATO + Ukraine armed forces for drones like RQ-35 Heidrun, designed for GPS-denied environments (Ukraine - Russia conflicts).\n\nThere’s a lot of execution uncertainty due to their executive team history, but i like how: \n\n-  Drone + Defense segment becoming extremely hot \n-this one trading at extremely low levels of P/S \n-what they’re building is cool like when I bought $RKLB at $15\n\n+ In Q3 2025, AIRO missed revenue expectations badly ($6.3M reported vs. higher expectations) due to shipment delays. However, this is just deferred revenue, the stock dropped from $30 -> $10, I thought this could be a unique opportunity. \n\nThis is just a shower-thought post, by no means in-depth DD. Name of the game is execution, and this doesn’t seem to have any premiums.\n\nSo, I’ve taken a position in $AIRO just to see where it goes.",
-      "url": "https://x.com/aleabitoreddit/status/2008454507823591467",
-      "kind": "post",
-      "engagement": {
-        "views": 347636,
-        "likes": 374,
-        "reposts": 25,
-        "replies": 23
-      },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008532157405552809",
@@ -97,9 +126,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "Q3 miss was deferred revenue not lost revenue",
-        "will recognize revenue next quarter",
-        "selloff was caused by misunderstanding of the miss"
+        "revenue miss was deferred revenue not lost revenue, will be recognized next quarter",
+        "selloff was based on misunderstanding"
       ],
       "is_risk": false,
       "conviction": null,
@@ -113,18 +141,15 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008885171156811870",
       "date": "2026-01-07",
       "stance": "neutral",
       "mention_type": "comparison",
-      "reasons": [
-        "he says AIRO looked like falling knife then recovered 48%",
-        "he says bottom catching is quite profitable if done right"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AIRO",
@@ -137,17 +162,15 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008914099456164320",
       "date": "2026-01-07",
-      "stance": "bullish",
+      "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "up 50%+ in a week or so"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AIRO",
@@ -160,8 +183,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008933754904133680",
@@ -181,8 +204,8 @@
         "reposts": 0,
         "replies": 7
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008941799382057128",
@@ -202,17 +225,15 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009077684853485905",
       "date": "2026-01-07",
-      "stance": "bullish",
+      "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "$1.5T in defense spend flowing down to drone companies"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AIRO",
@@ -225,8 +246,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009275961003426050",
@@ -235,8 +256,9 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "up 50%+ since posting",
-        "holds in 10x potential basket until EOY",
-        "defense spending tailwinds of $1.5T"
+        "plans to hold until EOY",
+        "in 10x potential basket",
+        "defense spending tailwinds"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -250,8 +272,8 @@
         "reposts": 19,
         "replies": 29
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009278429724614950",
@@ -259,9 +281,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
+        "has a long way to go",
         "still holding",
-        "trading at ~3x forward P/S while other drone stocks are 30+",
-        "even rerating to conservative aerospace peers like AVAV would be 3x current prices"
+        "trading at ~3 fwd p/s while other drone stocks are 30+",
+        "rerating to conservative aerospace companies would be 3x current prices"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -275,8 +298,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010590351032209424",
@@ -285,10 +308,10 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "positions have been doing great",
-        "interceptor drones to counter drone strikes"
+        "interceptor drones to counter drone strikes (bullet interceptor)"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$AIRO",
       "text": "@SayNoToTrading Yeah I’ve been cost averaging up on $AVAV! My $AIRO positions have been doing great as well.\n\nI’ve got all the grounds covered:\n\n$AIRO interceptor drones to counter drone strikes (bullet interceptor)\n\n$AVAV does the drone striking\n\nBoth are super cool",
       "url": "https://x.com/aleabitoreddit/status/2010590351032209424",
@@ -299,8 +322,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010669985291522392",
@@ -308,7 +331,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "posted thesis at the start before 50%+ move"
+        "posted early and it went up 50%+ the next week"
       ],
       "is_risk": false,
       "conviction": null,
@@ -322,8 +345,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010916127925293347",
@@ -332,13 +355,12 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "expanding from GPS-denied environment drones to kamikaze drones",
-        "bullet drones that intercept and detonate enemy drones",
+        "bullet drones that intercept drones and detonate",
         "huge growing market that markets don't fully understand yet",
-        "already battle tested in Ukraine",
-        "10x potential visible by comparison to ONDS and AVAV"
+        "already battle tested in Ukraine"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$AIRO",
       "text": "@pepemoonboy Bruh $AXTI and $OSS was barely mentioned until 2 weeks ago.   \n\n1. $SIDU ($222m) - Vertically integrated LEO satellite as a service company. They build satellites, but customize it for other companies. \n\n->contract under the Missile Defense Agency's (MDA) SHIELD ($151 billion total)\n-> subcontractor for NASA\n-> alpha is that it's vertically integrated so they could pivot build out Starshield or golden dome defense, etc which brings incredible value.  \n\nDownside? Heavy dilution -> they just diluted at $1.3 so if you're buying at now $3.4, you're buying close to 3x the price as underwriters. \n\n2. $ACMR ($3.4B) - Basically becoming the $AMAT  and $LRCX of China since the latter two got banned. Default infra for Chinese semi industry is the thesis.  \n\n3. $AIRO ($390m) - Easy to look at $ONDS ($5B) or $AVAV ($18B) to see 10x potential.  \n -> expanding from GPS-denied environment drones to kamikaze drones like $AVAV\n->  bullet drones that intercepts drones and detonates \n\nHuge, huge growing market that markets don't fully understand yet.  \n\nEveryone is building up drone capacity, then you also need to destroy the enemy drones too. These are already battle tested in Ukraine",
       "url": "https://x.com/aleabitoreddit/status/2010916127925293347",
@@ -349,8 +371,8 @@
         "reposts": 29,
         "replies": 8
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011056303943401505",
@@ -358,11 +380,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "ended up buying",
-        "much cheaper than $ONDS"
+        "bought it since it was much cheaper than $ONDS"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": null,
       "raw_mention": "$AIRO",
       "text": "@Rachel308649775 Interesting name drop with $VVX I’ll take a look soon. \n\nYeah I ended up buying $AIRO since it was much cheaper than $ONDS but I’m sure there was others I missed in my research",
       "url": "https://x.com/aleabitoreddit/status/2011056303943401505",
@@ -373,8 +394,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011090837669904576",
@@ -385,7 +406,7 @@
         "higher upside"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": null,
       "raw_mention": "$AIRO",
       "text": "@__visionxry__ $AIRO for higher upside",
       "url": "https://x.com/aleabitoreddit/status/2011090837669904576",
@@ -396,8 +417,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011333482144731617",
@@ -405,15 +426,14 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "$520m mc manufacturer",
-        "$133m cash, no debt",
+        "$133m cash no debt",
         "40% gross margins",
         "growing 55%+ y/y",
-        "supplier to $AVAV through $RCAT",
-        "lot of upside"
+        "$520m mc manufacturer",
+        "prefers AIRO over UMAC"
       ],
       "is_risk": false,
-      "conviction": "high",
+      "conviction": "medium",
       "raw_mention": "$AIRO",
       "text": "@grigory_azaryan Great choice. $UMAC is a great long. I ended up going with $AIRO when I looked into it earlier but it’s rare you have a $520m mc manufacturer that has\n\n- $133m cash, no debt\n-  40% gross margins\n- growing 55%+ y/y\n\nAs a supplier to $AVAV through $RCAT. Similar to $POET $MRVL situation. \n\nSo lot of upside, I still like $AIRO a lot more personally but to each their own!",
       "url": "https://x.com/aleabitoreddit/status/2011333482144731617",
@@ -424,8 +444,8 @@
         "reposts": 3,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011455204374577469",
@@ -433,7 +453,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "bought on 4% drop today"
+        "bought on 4% drop",
+        "sees good opportunities from fear"
       ],
       "is_risk": false,
       "conviction": null,
@@ -447,8 +468,8 @@
         "reposts": 3,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012199466166616492",
@@ -456,10 +477,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "central to Pentagon Replicator program",
+        "central to Pentagon Replicator program fielding thousands of low-cost disposable drones",
         "bullet drone intercepts drones or cruise missiles",
-        "benefits from mass production of counter-drones needed to intercept mass-produced drones",
-        "mass production drives higher revenue"
+        "benefits from sheer amount of bullet drones needed as warfare moves to drones",
+        "mass production = higher revenue",
+        "up 76.07% since original posts"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -473,20 +495,20 @@
         "reposts": 12,
         "replies": 29
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012208047494500441",
       "date": "2026-01-16",
       "stance": "bullish",
-      "mention_type": "comparison",
+      "mention_type": "explicit_stance",
       "reasons": [
         "kamikaze drones are really cool",
-        "marketcaps follow the tech eventually"
+        "thinks marketcaps follow the tech eventually"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$AIRO",
       "text": "@Nerd_0ne Kamikaze drones from $AVAV to $AIRO are really cool. I think the marketcaps follow the tech eventually like $RKLB!",
       "url": "https://x.com/aleabitoreddit/status/2012208047494500441",
@@ -497,8 +519,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012225583741063567",
@@ -506,10 +528,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "for drones"
+        "drones thesis",
+        "holding share position for a year for re-rating"
       ],
       "is_risk": false,
-      "conviction": "high",
+      "conviction": "medium",
       "raw_mention": "$AIRO",
       "text": "@goosedf Yes? $AIRO for drones, $OSS for edge, $SSYS for robotics, $AXTI for AI bottlenecks, $LPTH for defense bottlenecks and $VLN for mispricing were the most recent posts. \n\nI’m holding my share positions for a year since re-rating doesn’t happen in a day or week. Might take months to play out.",
       "url": "https://x.com/aleabitoreddit/status/2012225583741063567",
@@ -520,8 +543,8 @@
         "reposts": 2,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012458647192994053",
@@ -529,8 +552,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "believes in his thesis enough to cost average up",
-        "intended as 1 year hold"
+        "believes in thesis and cost averages up",
+        "meant to be 1 year hold"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -544,8 +567,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013382311056642527",
@@ -553,10 +576,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he has it for drone exposure",
+        "holds position for drone exposure",
         "counter UAV for replicator 2",
-        "trading at ~2.5 fwd p/s when he bought (probably 3-4 now)",
-        "higher upside with other drone companies"
+        "was trading at ~2.5 fwd p/s when bought"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -570,19 +592,19 @@
         "reposts": 3,
         "replies": 7
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013384152700076499",
       "date": "2026-01-19",
       "stance": "bullish",
-      "mention_type": "comparison",
+      "mention_type": "explicit_stance",
       "reasons": [
-        "28 vs 2.5 p/s comparison shows ONDS is richly priced"
+        "much cheaper valuation at 2.5 p/s vs ONDS at 28"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$AIRO",
       "text": "@platochi @bennybigbull $ONDS is richly priced compared to other drone companies like $AIRO (28 vs 2.5 p/s)\n\nStandalone it’s a justified pick, is what I’m trying to say.",
       "url": "https://x.com/aleabitoreddit/status/2013384152700076499",
@@ -593,8 +615,8 @@
         "reposts": 1,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013391730410955200",
@@ -617,17 +639,15 @@
         "reposts": 4,
         "replies": 5
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013527028318846987",
       "date": "2026-01-20",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "potential beneficiary of Replicator 2 counter-UAV spending"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AIRO",
@@ -640,8 +660,8 @@
         "reposts": 31,
         "replies": 25
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013621368831778896",
@@ -661,17 +681,15 @@
         "reposts": 129,
         "replies": 45
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013668604022083930",
       "date": "2026-01-20",
-      "stance": "bullish",
+      "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "up 70% since he posted thesis and still keeps going up"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AIRO",
@@ -684,8 +702,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015096496019112151",
@@ -707,8 +725,8 @@
         "reposts": 100,
         "replies": 83
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018396671206736123",

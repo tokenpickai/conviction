@@ -18,8 +18,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "great longs for 2026",
-        "supply chain disruptions from China will cause money to flow into securing supply"
+        "rare earths/materials like lithium are great longs for 2026",
+        "supply chain disruptions from China"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -33,8 +33,8 @@
         "reposts": 100,
         "replies": 83
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

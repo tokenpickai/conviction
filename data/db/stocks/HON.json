@@ -18,7 +18,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "supplies engine for MQ-9 Reaper drone used in operation"
+        "supplies engine for MQ-9 Reaper drone"
       ],
       "is_risk": false,
       "conviction": null,
@@ -32,8 +32,8 @@
         "reposts": 965,
         "replies": 180
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

@@ -15,8 +15,8 @@
     {
       "tweet_id": "2006970261288137153",
       "date": "2026-01-02",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
+      "stance": "neutral",
+      "mention_type": "background",
       "reasons": [
         "tax harvesting situation looks hilarious from retail data"
       ],
@@ -32,8 +32,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012228706576515101",
@@ -41,8 +41,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "AI makes users more productive on it rather than replacing it",
-        "sold off indiscriminately despite business remaining relevant"
+        "software sold off indiscriminately creating opportunities",
+        "AI makes users more productive on the platform not replacing it",
+        "down 53.3% in 3 months"
       ],
       "is_risk": false,
       "conviction": "low",
@@ -56,8 +57,8 @@
         "reposts": 0,
         "replies": 7
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013640586893406716",
@@ -65,7 +66,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "initiated position"
+        "initiated positions"
       ],
       "is_risk": false,
       "conviction": null,
@@ -79,8 +80,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013642124500312097",
@@ -88,15 +89,15 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "$1B FY2025 revenue",
+        "$1B FY 2025 revenue",
         "91% gross margins",
         "40% y/y growth",
         "$1.6B cash no debt",
         "seems oversold",
-        "AI like Opus does not replace Figma"
+        "AI like Opus doesn't replace Figma"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$FIG",
       "text": "@ShortsHoward @charlieliner Yeah $1B FY 2025 revenue, 91% gross margins (unholy) 40% y/y growth, $1.6B cash no debt.\n\nSeems oversold, AI like Opus doesn’t replace figma.",
       "url": "https://x.com/aleabitoreddit/status/2013642124500312097",
@@ -107,8 +108,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013645875479040336",
@@ -117,10 +118,10 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "high gross margins",
-        "just needs to lower misc expenses to print profits"
+        "just need to lower misc expenses and it prints"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$FIG",
       "text": "@ShortsHoward @charlieliner Gross margins though. They just need to lower misc expenses and $FIG prints",
       "url": "https://x.com/aleabitoreddit/status/2013645875479040336",
@@ -131,8 +132,8 @@
         "reposts": 0,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015096496019112151",
@@ -156,8 +157,8 @@
         "reposts": 100,
         "replies": 83
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018972810912399375",

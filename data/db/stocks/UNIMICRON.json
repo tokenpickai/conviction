@@ -10,7 +10,7 @@
   "thesis_summary": null,
   "first_mention": "2025-12-01",
   "last_mention": "2026-05-30",
-  "total_mentions": 15,
+  "total_mentions": 13,
   "mentions": [
     {
       "tweet_id": "1995543748353347989",
@@ -36,96 +36,12 @@
       "prompt_version": "extract-v1"
     },
     {
-      "tweet_id": "2014731960418238574",
-      "date": "2026-01-23",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "foundational supplier for MU and Samsung memory substrates",
-        "supplies NVDA Rubin/Blackwell",
-        "provides the S (substrate) in TSMC CoWoS process",
-        "supplies Apple iPhones and M-series",
-        "supplies Google TPUs",
-        "supplies AMZN/Hyperscaler ASICs",
-        "supplies Intel ABF substrates",
-        "supplies Amkor",
-        "provides IC Substrates for HBM4/Memory and GPUs/CPUs",
-        "provides Glass Core Substrates for CoPoS",
-        "sits in center of memory bottleneck, CoWoS bottleneck, and interconnects bottleneck",
-        "exposure to future cycles with Glass Core substrates",
-        "incredible long at $16B market cap",
-        "one of the most significant choke points in global AI supply chain"
-      ],
-      "is_risk": false,
-      "conviction": "high",
-      "raw_mention": "Unimicron",
-      "text": "I've hold positions in the $MU that markets sleep on:\n\nUnimicron.\n\nThis one is an incredible long at $16B as they're foundational for:\n\n- $MU and Samsung memory substrates\n- $NVDA Rubin/Blackwell\n- TSMC for CoWoS process\n- Apple (iPhones and M-series)\n- Google TPUs\n- AMZN/Hyperscaler ASICs\n- Intel for ABF substrates\n- Amkor that buys Unimicron substrates\n- and all the world's semis.\n\nUnimicron is one of the most significant \"choke points\" in the global AI supply chain as they provide the future:\n\n- IC Substrates for HBM4 / Memory (DRAM/NAND) + GPUs/CPUs\n- The \"S\" (substrate) in TSM CoWoS\n- Glass Core Substrates for CoPoS\n\nfor 2026-2028\n\nand all the foundational parts for customer devices like IPhones and semiconductors used today.\n\nThey're in the center of the memory bottleneck, CoWoS bottleneck, and interconnects bottleneck for Hyperscaler ASiCs.\n\nAs well as the future cycles with Glass Core substrates and more.\n\nAI revolves around the other Micron and you get exposure to most popular bottlenecks like HBM today and tomorrow.",
-      "url": "https://x.com/aleabitoreddit/status/2014731960418238574",
-      "kind": "post",
-      "engagement": {
-        "views": 111262,
-        "likes": 457,
-        "reposts": 27,
-        "replies": 25
-      },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
-    },
-    {
-      "tweet_id": "2014740860714508739",
-      "date": "2026-01-23",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "sits in so many future buildouts and potential bottlenecks",
-        "incredibly interesting"
-      ],
-      "is_risk": false,
-      "conviction": null,
-      "raw_mention": "Unimicron",
-      "text": "@PhotonCap Unimicron sits in so many future buildouts and potential bottlenecks so it’s incredibly interesting to me as well.\n\nThat being said it’s hard for Westerners to get access to since it trades on TWSE",
-      "url": "https://x.com/aleabitoreddit/status/2014740860714508739",
-      "kind": "reply",
-      "engagement": {
-        "views": 2453,
-        "likes": 8,
-        "reposts": 0,
-        "replies": 0
-      },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
-    },
-    {
-      "tweet_id": "2014773177671680458",
-      "date": "2026-01-23",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "incredible long",
-        "positionally sits in so many different buildouts"
-      ],
-      "is_risk": false,
-      "conviction": null,
-      "raw_mention": "Unimicron",
-      "text": "@genZinvest0r That’s fair! I’m just putting Unimicron on people’s radar since this a stock the vast majority of people have not heard about before.\n\nIt just seems like an incredible long to me since positionally it sits in so many different buildouts",
-      "url": "https://x.com/aleabitoreddit/status/2014773177671680458",
-      "kind": "reply",
-      "engagement": {
-        "views": 1947,
-        "likes": 2,
-        "reposts": 0,
-        "replies": 1
-      },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
-    },
-    {
       "tweet_id": "2015096496019112151",
       "date": "2026-01-24",
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "long for hbm, ic substrates, glass core, cowos, and all other bottlenecks"
+        "long for HBM, IC substrates, glass core, CoWoS, and all other bottlenecks"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -139,8 +55,29 @@
         "reposts": 100,
         "replies": 83
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2015167262727299369",
+      "date": "2026-01-24",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Unimicron",
+      "text": "@platochi $COHR is like the Western Unimicron (in the sense they show up everywhere on future bottlenecks like SiC to InP, not comparing downstream/upstream). \n\nWhen I do these supply chain mapping in space, robotics, AI, I like to invest in ones that just pop up multiple places.",
+      "url": "https://x.com/aleabitoreddit/status/2015167262727299369",
+      "kind": "reply",
+      "engagement": {
+        "views": 1867,
+        "likes": 7,
+        "reposts": 0,
+        "replies": 0
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015549311732658520",
@@ -148,11 +85,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "substrates/glass core play",
-        "critical to entire AI buildout or captures overflow"
+        "substrates/glass core",
+        "critical to AI buildout or captures overflow"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "Unimicron",
       "text": "TLDR of my top foreign stocks:  \n\n1. Nitto Boseki - T-Glass (Japan) \n\n2. Unimicron - Substrates/Glass Core (Taiwan) \n\n3. Samsung/SK Hynix - HBM (Korea) \n\n4. Kioxia - NAND w/ $SNDK (Japan)\n\n 5. Nanya Technologies - Memory (Taiwan) \n\nUS supply chains like $INTC (foundry), $MU (memory),  or $LPTH (germanium) are typically my longs of preference \"Made in America\" bottleneck + supply chains. But some of these foreign companies are either critical to the entire AI buildout or capture a lot of the overflow.\n\nIf you're wondering how you get access to foreign markets?   \n\n- $IBKR    \n\nThere are US OTC equivalents for companies like Nitto Boseki like $NBCLF.   If you're on Robinhood, $EWY / $FLKR provides access to large KR memory exposure.\n \nSome like Nitto Boseki are near monopolies so these are the very rare foreign companies I go out of my way to invest in.",
       "url": "https://x.com/aleabitoreddit/status/2015549311732658520",
@@ -163,8 +100,8 @@
         "reposts": 76,
         "replies": 37
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2020258804953411966",

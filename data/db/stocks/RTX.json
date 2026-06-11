@@ -18,8 +18,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "supplies MTS-B sensors for MQ-9 Reaper drone",
-        "supplies Tomahawk cruise missiles used in operation"
+        "supplies MTS-B sensors for MQ-9 Reaper and Tomahawk missiles"
       ],
       "is_risk": false,
       "conviction": null,
@@ -33,8 +32,8 @@
         "reposts": 965,
         "replies": 180
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011029875361218700",
@@ -42,8 +41,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "Bunker Bombs supplier",
-        "Department of War stocks beneficiary"
+        "Bunker Bombs",
+        "beneficiary of US intervention catalysts"
       ],
       "is_risk": false,
       "conviction": null,
@@ -57,8 +56,8 @@
         "reposts": 27,
         "replies": 24
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016921538780680402",
@@ -78,8 +77,8 @@
         "reposts": 56,
         "replies": 50
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2027637911097839997",

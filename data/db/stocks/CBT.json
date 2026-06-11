@@ -15,11 +15,9 @@
     {
       "tweet_id": "2016129326824227195",
       "date": "2026-01-27",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "Fumed Silica play for aluminosilicate glass bottleneck"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$CBT",
@@ -32,8 +30,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

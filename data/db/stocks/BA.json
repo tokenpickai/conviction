@@ -18,8 +18,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "direct supplier of F/A-18E/F Super Hornet used in precision strikes",
-        "direct supplier of B-1B Lancer used in operation"
+        "direct supplier of F/A-18E/F Super Hornet and B-1B Lancer used in operations"
       ],
       "is_risk": false,
       "conviction": null,
@@ -33,8 +32,8 @@
         "reposts": 965,
         "replies": 180
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011029875361218700",
@@ -42,8 +41,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "Bunker Bombs supplier",
-        "Department of War stocks beneficiary"
+        "Bunker Bombs",
+        "beneficiary of US intervention catalysts"
       ],
       "is_risk": false,
       "conviction": null,
@@ -57,8 +56,8 @@
         "reposts": 27,
         "replies": 24
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2031457195091759114",

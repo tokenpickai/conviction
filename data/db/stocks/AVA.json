@@ -17,9 +17,7 @@
       "date": "2026-01-07",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "not in position to do share buybacks given their size"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AVA",
@@ -32,8 +30,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

@@ -212,8 +212,7 @@
       "stance": "neutral",
       "mention_type": "explicit_stance",
       "reasons": [
-        "extremely large Japanese giant",
-        "InP substrate production is just a small part of their business"
+        "stock would likely be fine since InP substrate production is just a small part of their business"
       ],
       "is_risk": false,
       "conviction": null,
@@ -227,8 +226,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

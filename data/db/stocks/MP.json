@@ -10,7 +10,7 @@
   "thesis_summary": null,
   "first_mention": "2025-09-17",
   "last_mention": "2026-05-13",
-  "total_mentions": 23,
+  "total_mentions": 25,
   "mentions": [
     {
       "tweet_id": "1968431919105966479",
@@ -203,9 +203,7 @@
       "date": "2026-01-16",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "NdPr magnets supplier (tier 3)"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$MP",
@@ -218,17 +216,15 @@
         "reposts": 101,
         "replies": 49
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012076432122630269",
       "date": "2026-01-16",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "Tesla still bottlenecked by NdPr magnets from MP"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$MP",
@@ -241,17 +237,15 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012961717828165680",
       "date": "2026-01-18",
       "stance": "neutral",
       "mention_type": "comparison",
-      "reasons": [
-        "by the time it hits $10B+ like MP it's probably already priced in"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$MP",
@@ -264,17 +258,15 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013136961981358354",
       "date": "2026-01-19",
       "stance": "neutral",
-      "mention_type": "comparison",
-      "reasons": [
-        "known bottleneck"
-      ],
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$MP",
@@ -287,8 +279,8 @@
         "reposts": 2,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013376770121105710",
@@ -296,8 +288,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "US must rely on domestic sources for rare earth elements",
-        "Greenland blockage creates need for domestic critical material providers"
+        "US critical material provider",
+        "good dip buying opportunity if it drops",
+        "domestic rare earth source as Greenland is blocked"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -311,17 +304,15 @@
         "reposts": 62,
         "replies": 38
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015813438216548835",
       "date": "2026-01-26",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "rose premarket on USAR news then down 8-15%+"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$MP",
@@ -334,8 +325,50 @@
         "reposts": 2,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2016901907676278904",
+      "date": "2026-01-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "@MPMaterials",
+      "text": "@platochi @MPMaterials Nothing wrong with a little bit of copy pasta with $UAMY. \n\nBut it's extremely rare the Department of Energy calls an article explicitly false. And on top of that, the sector sells off 10-20%.",
+      "url": "https://x.com/aleabitoreddit/status/2016901907676278904",
+      "kind": "reply",
+      "engagement": {
+        "views": 6099,
+        "likes": 14,
+        "reposts": 1,
+        "replies": 1
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2016902810470928605",
+      "date": "2026-01-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "@MPMaterials",
+      "text": "@KAnalyser1 @platochi @MPMaterials Probably frontrunning government shutdown risk-off.",
+      "url": "https://x.com/aleabitoreddit/status/2016902810470928605",
+      "kind": "reply",
+      "engagement": {
+        "views": 1100,
+        "likes": 3,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018190781098717355",

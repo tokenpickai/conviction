@@ -8,33 +8,10 @@
   "company": null,
   "industry": null,
   "thesis_summary": null,
-  "first_mention": "2026-01-17",
+  "first_mention": "2026-03-23",
   "last_mention": "2026-03-23",
-  "total_mentions": 2,
+  "total_mentions": 1,
   "mentions": [
-    {
-      "tweet_id": "2012462671019561407",
-      "date": "2026-01-17",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "short-medium term InP bottleneck is even more severe following EO seizing InP supply chain assets"
-      ],
-      "is_risk": false,
-      "conviction": null,
-      "raw_mention": "$ATI",
-      "text": "@KAnalyser1 Good question, I didn't put 1+1 together at the time and missed the one-hop relational impact with $AXTI.    \n\nMy take is basically, no impact short/medium term, but leans slightly positive for AXT since there's a 6 month limbo. Emcore is very tiny in comparison, but US gov is trying to gain control of any little % of the upstream control. \n\nThis was just affirmation that US government now views InP supply chains as a national security priority and is validating the InP bottlenek thesis I put out earlier. \n\nTLDR: EOs seizing InP supply chain assets was a move to regain independence from China long term, but short-medium term bottleneck is even more severe with $ATI",
-      "url": "https://x.com/aleabitoreddit/status/2012462671019561407",
-      "kind": "reply",
-      "engagement": {
-        "views": 2722,
-        "likes": 19,
-        "reposts": 0,
-        "replies": 0
-      },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
-    },
     {
       "tweet_id": "2035984148159164870",
       "date": "2026-03-23",

@@ -15,11 +15,9 @@
     {
       "tweet_id": "2014371668437950742",
       "date": "2026-01-22",
-      "stance": "bearish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "does not sit inside the NVDA/MU HBM4 stack"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$MRAM",
@@ -32,8 +30,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015124524749160480",
@@ -45,7 +43,7 @@
         "very high upside vertical"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": "low",
       "raw_mention": "$MRAM",
       "text": "@jseth53 $MRAM is interesting. Good balance sheet, and very high upside vertical. \n\nAlso need to make a correction to $VELO above, they have around $49.9M in cash -$11m Q4, so they're probably sitting on $38m now with $23m debt | $64m in liabilities, which looks slightly better. But still not the best balance sheet.",
       "url": "https://x.com/aleabitoreddit/status/2015124524749160480",
@@ -56,8 +54,8 @@
         "reposts": 2,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2036264013370368378",

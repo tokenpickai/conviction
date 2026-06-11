@@ -3,8 +3,8 @@ name: daily-prices
 on:
   # Uncomment the schedule after forking and configuring your secrets.
   # Runs weekdays at 20:30 UTC (after US market close at 16:00 ET).
-  # schedule:
-  #   - cron: "30 20 * * 1-5"
+  schedule:
+    - cron: "30 20 * * 1-5"
   workflow_dispatch:
 
 concurrency:

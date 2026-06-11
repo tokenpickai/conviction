@@ -1,0 +1,39 @@
+{
+  "ticker": "SSNLF",
+  "cashtag": "Samsung",
+  "price_symbol": "SSNLF",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-01-23",
+  "last_mention": "2026-01-23",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2014731960418238574",
+      "date": "2026-01-23",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Samsung",
+      "text": "I've hold positions in the $MU that markets sleep on:\n\nUnimicron.\n\nThis one is an incredible long at $16B as they're foundational for:\n\n- $MU and Samsung memory substrates\n- $NVDA Rubin/Blackwell\n- TSMC for CoWoS process\n- Apple (iPhones and M-series)\n- Google TPUs\n- AMZN/Hyperscaler ASICs\n- Intel for ABF substrates\n- Amkor that buys Unimicron substrates\n- and all the world's semis.\n\nUnimicron is one of the most significant \"choke points\" in the global AI supply chain as they provide the future:\n\n- IC Substrates for HBM4 / Memory (DRAM/NAND) + GPUs/CPUs\n- The \"S\" (substrate) in TSM CoWoS\n- Glass Core Substrates for CoPoS\n\nfor 2026-2028\n\nand all the foundational parts for customer devices like IPhones and semiconductors used today.\n\nThey're in the center of the memory bottleneck, CoWoS bottleneck, and interconnects bottleneck for Hyperscaler ASiCs.\n\nAs well as the future cycles with Glass Core substrates and more.\n\nAI revolves around the other Micron and you get exposure to most popular bottlenecks like HBM today and tomorrow.",
+      "url": "https://x.com/aleabitoreddit/status/2014731960418238574",
+      "kind": "post",
+      "engagement": {
+        "views": 111262,
+        "likes": 457,
+        "reposts": 27,
+        "replies": 25
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

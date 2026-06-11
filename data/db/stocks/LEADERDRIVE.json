@@ -1,6 +1,6 @@
 {
   "ticker": "LEADERDRIVE",
-  "cashtag": "Leaderdrive",
+  "cashtag": "LeaderDrive",
   "price_symbol": "LEADERDRIVE",
   "exchange": "US",
   "currency": "USD",
@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-05-13",
-  "last_mention": "2026-05-13",
-  "total_mentions": 1,
+  "last_mention": "2026-06-09",
+  "total_mentions": 2,
   "mentions": [
     {
       "tweet_id": "2054723392306401499",
@@ -29,6 +29,30 @@
         "likes": 32,
         "reposts": 1,
         "replies": 2
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064221488878846124",
+      "date": "2026-06-09",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "good long term hold",
+        "picked as an investment idea"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "LeaderDrive",
+      "text": "I do see a lot of comments about \"harvesting the leeks\".\n\nAnd I hope my picks like LeaderDrive can help change that perspective around certain equities being good long term holds.\n\nI think my only Chinese listed pick was Innolight last year, and that's up triple digits to ATH? https://t.co/rt7St2dEI1",
+      "url": "https://x.com/aleabitoreddit/status/2064221488878846124",
+      "kind": "post",
+      "engagement": {
+        "views": 834427,
+        "likes": 1028,
+        "reposts": 34,
+        "replies": 633
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

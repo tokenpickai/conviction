@@ -10,7 +10,7 @@
   "thesis_summary": null,
   "first_mention": "2025-07-02",
   "last_mention": "2026-04-23",
-  "total_mentions": 40,
+  "total_mentions": 42,
   "mentions": [
     {
       "tweet_id": "1940464309450199197",
@@ -545,12 +545,54 @@
       "prompt_version": "extract-v1"
     },
     {
+      "tweet_id": "2007113531158908939",
+      "date": "2026-01-02",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MSTR",
+      "text": "@Para_Capital Looking @ $AIRO from the fund/vertical not the exec team. For example, @chamath was frowned upon until he got that 20B Groq exit. Or Saylor was a meme until $MSTR pulled off a heist. It does make a large difference, but it's not everything. \n\nIn terms of $AIRO / $ONDS, especially with Russia/Ukraine conflicts + NATO + DoD funneling money into drone segments, the vertical should command a premium (but Airo, trades like it's distressed).\n\nThe RQ-35 Heidrun IP, seemed extremely interesting for GPS-denied environments. But they have a ton of misc companies like training that are just side quests.  \n\nSo similar to $SMCI, there was also backlog delays with caused the crash in Airo (the $6.3M vs $23.7M miss). But the $20m drone shipments was just shifted not cancelled. \n\nNet cash is $68.8M which is extremely solid given its mini $250m MC, and it trades at 2.1x EV to revenue, compared to others like $AVAV at 9.4x. I think $ONDS was like 20-30 off the top of my head. \n\nSo TLDR: solid cash position, attractive vertical, drop based on differed revenue not cancelled, low market cap presents good upside. \n\nIt shouldn't trade like a distressed company because of cash position + just deferred rev.",
+      "url": "https://x.com/aleabitoreddit/status/2007113531158908939",
+      "kind": "reply",
+      "engagement": {
+        "views": 3446,
+        "likes": 10,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2007135756511522942",
+      "date": "2026-01-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MSTR",
+      "text": "@soulbiri1 Most things are off to a good start lol. $CRWV, $CIFR, to $AAOI both up over 10%. $NBIS up 7%, $SMCI up 6%, $MRVL, $MSTR, $TSM up 5%.\n\nAll your memory stocks are up 8% every day. \n\nGreen everywhere aside from a few",
+      "url": "https://x.com/aleabitoreddit/status/2007135756511522942",
+      "kind": "reply",
+      "engagement": {
+        "views": 3161,
+        "likes": 14,
+        "reposts": 0,
+        "replies": 2
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
       "tweet_id": "2007872395990937749",
       "date": "2026-01-04",
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "supply lock-up from Venezuelan seizure seen as bullish for MSTR and Bitcoin holders"
+        "event seen as bullish for MSTR as it effectively locks up Bitcoin supply for many years"
       ],
       "is_risk": false,
       "conviction": null,
@@ -564,8 +606,8 @@
         "reposts": 736,
         "replies": 255
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011326360762138675",
@@ -573,10 +615,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
+        "long since $156",
         "mnav went closer to 1 again",
         "derisked since Bitcoin treasury companies weren't delisted from MSCI",
-        "down 60-70%+ from highs",
-        "good recovery play"
+        "down 60-70% from highs, good recovery play"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -590,8 +632,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012041474456871146",
@@ -611,8 +653,8 @@
         "reposts": 2,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2017266820684865889",
@@ -620,10 +662,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "will heavy add"
+        "plans to heavy add"
       ],
       "is_risk": false,
-      "conviction": "high",
+      "conviction": "medium",
       "raw_mention": "$MSTR",
       "text": "@hedgedwolf Lost count of how many times I’ve seen stuff like $SOL bounce from $100-120 range to $165-$185.\n\nAnyway just saw this as an attractive opportunity, I’ll probably cost avg one more time if it drops another few percent.\n\nI’ll probably heavy add $CRCL and $MSTR to the list as well",
       "url": "https://x.com/aleabitoreddit/status/2017266820684865889",
@@ -634,8 +676,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018191681682841914",

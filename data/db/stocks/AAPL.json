@@ -10,7 +10,7 @@
   "thesis_summary": null,
   "first_mention": "2025-09-22",
   "last_mention": "2026-06-01",
-  "total_mentions": 70,
+  "total_mentions": 78,
   "mentions": [
     {
       "tweet_id": "1970228982777029075",
@@ -82,6 +82,174 @@
       },
       "extractor_model": "claude-sonnet-4-6",
       "prompt_version": "extract-v1"
+    },
+    {
+      "tweet_id": "2011353420649623561",
+      "date": "2026-01-14",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$APPL",
+      "text": "If you’re wondering why $INTC is flying after hours:\n\nTrump accidentally leaked in an interview that $APPL invested. https://t.co/1B8JMOc5BV",
+      "url": "https://x.com/aleabitoreddit/status/2011353420649623561",
+      "kind": "post",
+      "engagement": {
+        "views": 214760,
+        "likes": 478,
+        "reposts": 22,
+        "replies": 22
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2011357253572743390",
+      "date": "2026-01-14",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "@Aspie_Supremacy Trump worded it was \"Apple went in, Nvidia went in\" from his live interview few hours ago. https://t.co/65lMCoK3cY",
+      "url": "https://x.com/aleabitoreddit/status/2011357253572743390",
+      "kind": "reply",
+      "engagement": {
+        "views": 2947,
+        "likes": 15,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2011358447653261779",
+      "date": "2026-01-14",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$APPL",
+      "text": "@TheEEInvestor There's no public disclosures or news at all regarding $APPL investments in $INTC yet. \n\nBut I'd say Trump probably knows a bit more than others as the sitting President and is prone to say more things than he should in his live interviews.",
+      "url": "https://x.com/aleabitoreddit/status/2011358447653261779",
+      "kind": "reply",
+      "engagement": {
+        "views": 3790,
+        "likes": 17,
+        "reposts": 0,
+        "replies": 2
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2011464974317810143",
+      "date": "2026-01-14",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "@AbBanglawala Trump himself? \n\nThen again he might be mistaking Apple for SoftBank, who knows.",
+      "url": "https://x.com/aleabitoreddit/status/2011464974317810143",
+      "kind": "reply",
+      "engagement": {
+        "views": 1336,
+        "likes": 4,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2014045203737588190",
+      "date": "2026-01-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$APPL",
+      "text": "@Crypto_fox7 Yep. Not every day do you get a company backstopped by the White House like $INTC. \n\nBoth the government and all the Mag7 companies like $NVDA and $APPL are just pushing for Intel to succeed.",
+      "url": "https://x.com/aleabitoreddit/status/2014045203737588190",
+      "kind": "reply",
+      "engagement": {
+        "views": 2749,
+        "likes": 14,
+        "reposts": 0,
+        "replies": 0
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2014505817509355841",
+      "date": "2026-01-22",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$APPL",
+      "text": "Nitto Boseki - $NBCLF | 3110:\n\nThe story of an extreme bottleneck for AI:\n\n> Spin Yarn/Glass in 1923\n> Be good at it\n> Create \"T-Glass\" for tennis rackets\n> Wait 100Y, everyone needs it\n> $TSM for CoWoS\n> $APPL for M-Series Ultra/Max\n> $NVDA for Blackwell + Vera Rubin\n> $TSLA for chips inside FSD cars\n> $AMD for MI300/MI400 AI accelerators\n> $ANET for 800G to 1.6T and 3.2T\n> Have Apple to Nvidia to TSM fighting over supply\n> Sold out through 2026\n> Apple, Nvidia, and Qualcomm sends teams live on site to literally beg this Yarn Maker for glass supply\n> Now is 80-90% market share of the high-end T-glass used in semiconductors\n\nThe $4.23 Billion monopoly that every tech company in the world is fighting over:\n\nA random Japanese Yarn Spinner. \n\nDisclosure: I own positions.",
+      "url": "https://x.com/aleabitoreddit/status/2014505817509355841",
+      "kind": "post",
+      "engagement": {
+        "views": 34548,
+        "likes": 222,
+        "reposts": 14,
+        "replies": 23
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2014731960418238574",
+      "date": "2026-01-23",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "I've hold positions in the $MU that markets sleep on:\n\nUnimicron.\n\nThis one is an incredible long at $16B as they're foundational for:\n\n- $MU and Samsung memory substrates\n- $NVDA Rubin/Blackwell\n- TSMC for CoWoS process\n- Apple (iPhones and M-series)\n- Google TPUs\n- AMZN/Hyperscaler ASICs\n- Intel for ABF substrates\n- Amkor that buys Unimicron substrates\n- and all the world's semis.\n\nUnimicron is one of the most significant \"choke points\" in the global AI supply chain as they provide the future:\n\n- IC Substrates for HBM4 / Memory (DRAM/NAND) + GPUs/CPUs\n- The \"S\" (substrate) in TSM CoWoS\n- Glass Core Substrates for CoPoS\n\nfor 2026-2028\n\nand all the foundational parts for customer devices like IPhones and semiconductors used today.\n\nThey're in the center of the memory bottleneck, CoWoS bottleneck, and interconnects bottleneck for Hyperscaler ASiCs.\n\nAs well as the future cycles with Glass Core substrates and more.\n\nAI revolves around the other Micron and you get exposure to most popular bottlenecks like HBM today and tomorrow.",
+      "url": "https://x.com/aleabitoreddit/status/2014731960418238574",
+      "kind": "post",
+      "engagement": {
+        "views": 111262,
+        "likes": 457,
+        "reposts": 27,
+        "replies": 25
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2016641705957900646",
+      "date": "2026-01-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$APPL",
+      "text": "@ShortsHoward Nope on this one I had way OTM options. Big cap like $APPL have extremely low IV so I like leverage on these, not so much for smaller companies.",
+      "url": "https://x.com/aleabitoreddit/status/2016641705957900646",
+      "kind": "reply",
+      "engagement": {
+        "views": 726,
+        "likes": 2,
+        "reposts": 0,
+        "replies": 0
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2022196582884790607",

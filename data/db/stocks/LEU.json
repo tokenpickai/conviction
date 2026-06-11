@@ -15,10 +15,10 @@
     {
       "tweet_id": "2012969495384764662",
       "date": "2026-01-18",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
+      "stance": "neutral",
+      "mention_type": "background",
       "reasons": [
-        "Centrus Energy is currently the only company in the US with a license to enrich uranium to HALEU levels"
+        "only company in U.S. with license to enrich uranium to HALEU levels"
       ],
       "is_risk": false,
       "conviction": null,
@@ -32,8 +32,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016584615679643966",
@@ -42,9 +42,9 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "only company in the US that can currently enrich uranium into HALEU for SMR nuclear power plants",
-        "DOE said one campus would attract 50 billion in investments from enrichment to recycling",
-        "Trump administration has made nuclear power a cornerstone of national energy policy",
-        "was on the original bottleneck list"
+        "HALEU is a bottleneck",
+        "DOE said one campus would attract 50 Billion in investments",
+        "surprised it's only up 2% on the news"
       ],
       "is_risk": false,
       "conviction": null,
@@ -58,8 +58,8 @@
         "reposts": 20,
         "replies": 24
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016586744662261846",
@@ -67,8 +67,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
+        "his favorite",
         "best one by default as the only one that can currently produce HALEU",
-        "HALEU production is a bottleneck"
+        "HALEU is a bottleneck"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -82,8 +83,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016590495968055600",
@@ -91,8 +92,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "only one that can produce HALEU today",
-        "potential beneficiary of DOE and private investor supply chain investment"
+        "only one that can produce HALEU today"
       ],
       "is_risk": false,
       "conviction": null,
@@ -106,8 +106,8 @@
         "reposts": 4,
         "replies": 5
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016619810126516488",
@@ -127,8 +127,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016936292605710633",
@@ -148,8 +148,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016983734407614742",
@@ -169,8 +169,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

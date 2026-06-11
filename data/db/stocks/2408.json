@@ -10,7 +10,7 @@
   "thesis_summary": null,
   "first_mention": "2025-11-04",
   "last_mention": "2026-02-03",
-  "total_mentions": 5,
+  "total_mentions": 6,
   "mentions": [
     {
       "tweet_id": "1985770241532838347",
@@ -36,19 +36,40 @@
       "prompt_version": "extract-v1"
     },
     {
+      "tweet_id": "2010893400510460394",
+      "date": "2026-01-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nanya",
+      "text": "@DavidSm96042513 Honestly $CRSR never even crossed my mind, I always associated them with gaming chairs. Yeah 34% of their revenue are memory products.\n\nIt’s really interesting they’re connected to Nanya, I need to give this a deeper look to see if there’s anything",
+      "url": "https://x.com/aleabitoreddit/status/2010893400510460394",
+      "kind": "reply",
+      "engagement": {
+        "views": 8317,
+        "likes": 38,
+        "reposts": 2,
+        "replies": 6
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
       "tweet_id": "2016487104000446545",
       "date": "2026-01-28",
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "forward P/E only ~13.62",
-        "+357.7% Revenue Growth Y/Y",
-        "+804.27% Net Income Growth Y/Y",
-        "specialized in legacy and specialty DRAM",
-        "last man standing after Micron/SK Hynix/Samsung exited consumer lines",
-        "supply fell off a cliff while demand stayed steady",
-        "scarcity premium for older memory",
-        "selling water in a desert"
+        "forward P/E only ~13.62, likely lower with price hikes",
+        "+357.7% Revenue Growth / +804.27% Net Income Growth Y/Y",
+        "stock price can't keep up with profits",
+        "last man standing in legacy/specialty DRAM after MU/SK Hynix/Samsung exited",
+        "legacy DRAM supply fell off a cliff while demand stayed steady",
+        "buyers paying scarcity premium for older memory",
+        "supply shock in legacy DRAM market",
+        "essentially selling water in a desert and can keep raising prices"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -62,8 +83,8 @@
         "reposts": 19,
         "replies": 15
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016490140336894221",
@@ -71,9 +92,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "maybe 9.5-ish forward p/e",
-        "growing a lot faster",
-        "keep raising memory prices"
+        "forward P/E maybe 9.5-ish but growing a lot faster than MU",
+        "forward P/E gets lower even as stock price increases due to memory price hikes"
       ],
       "is_risk": false,
       "conviction": null,
@@ -87,8 +107,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016494564790735121",
@@ -96,8 +116,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "$29B market cap",
-        "higher upside given smaller MC"
+        "smaller market cap ($29B vs $461B Micron) means higher typical upside"
       ],
       "is_risk": false,
       "conviction": null,
@@ -111,8 +130,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018610332521140542",

@@ -18,11 +18,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "outperformed Nvidia over 5 years with 1301.55% return",
-        "claims to have bought it"
+        "1301.55% 5y return outperforming Nvidia",
+        "claims he bought it"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$BBW",
       "text": "People are long $MU / $SNDK for \"The Memory Supercycle\".\n\nOr \"Copper\" because of demand.\n\nBut is obvious trade in front of you?\n\n$BBW - Build a Bear.\n\n5y Return:\n\nTeddy Bear: 1301.55%\nNvidia: +1,258.68%\n\nWhile you're fighting for crumbs in the GPU/Memory/Copper supply chains, you could have just bought a Teddy Bear like I did.",
       "url": "https://x.com/aleabitoreddit/status/2015506107075264735",
@@ -33,8 +33,8 @@
         "reposts": 43,
         "replies": 33
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015509897736265902",
@@ -54,8 +54,8 @@
         "reposts": 2,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015511455899197713",
@@ -75,8 +75,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

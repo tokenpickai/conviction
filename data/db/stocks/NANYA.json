@@ -8,39 +8,16 @@
   "company": null,
   "industry": null,
   "thesis_summary": null,
-  "first_mention": "2026-01-12",
+  "first_mention": "2026-01-23",
   "last_mention": "2026-03-25",
   "total_mentions": 9,
   "mentions": [
     {
-      "tweet_id": "2010893400510460394",
-      "date": "2026-01-12",
+      "tweet_id": "2014819163827798511",
+      "date": "2026-01-23",
       "stance": "neutral",
       "mention_type": "background",
       "reasons": [],
-      "is_risk": false,
-      "conviction": null,
-      "raw_mention": "Nanya",
-      "text": "@DavidSm96042513 Honestly $CRSR never even crossed my mind, I always associated them with gaming chairs. Yeah 34% of their revenue are memory products.\n\nIt’s really interesting they’re connected to Nanya, I need to give this a deeper look to see if there’s anything",
-      "url": "https://x.com/aleabitoreddit/status/2010893400510460394",
-      "kind": "reply",
-      "engagement": {
-        "views": 8317,
-        "likes": 38,
-        "reposts": 2,
-        "replies": 6
-      },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
-    },
-    {
-      "tweet_id": "2014819163827798511",
-      "date": "2026-01-23",
-      "stance": "bullish",
-      "mention_type": "background",
-      "reasons": [
-        "ended up 100%+ in just 3 months"
-      ],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "Nanya",
@@ -53,17 +30,39 @@
         "reposts": 1,
         "replies": 5
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2015549311732658520",
+      "date": "2026-01-25",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "memory",
+        "critical to AI buildout or captures overflow"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "Nanya Technologies",
+      "text": "TLDR of my top foreign stocks:  \n\n1. Nitto Boseki - T-Glass (Japan) \n\n2. Unimicron - Substrates/Glass Core (Taiwan) \n\n3. Samsung/SK Hynix - HBM (Korea) \n\n4. Kioxia - NAND w/ $SNDK (Japan)\n\n 5. Nanya Technologies - Memory (Taiwan) \n\nUS supply chains like $INTC (foundry), $MU (memory),  or $LPTH (germanium) are typically my longs of preference \"Made in America\" bottleneck + supply chains. But some of these foreign companies are either critical to the entire AI buildout or capture a lot of the overflow.\n\nIf you're wondering how you get access to foreign markets?   \n\n- $IBKR    \n\nThere are US OTC equivalents for companies like Nitto Boseki like $NBCLF.   If you're on Robinhood, $EWY / $FLKR provides access to large KR memory exposure.\n \nSome like Nitto Boseki are near monopolies so these are the very rare foreign companies I go out of my way to invest in.",
+      "url": "https://x.com/aleabitoreddit/status/2015549311732658520",
+      "kind": "post",
+      "engagement": {
+        "views": 348071,
+        "likes": 738,
+        "reposts": 76,
+        "replies": 37
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016338341902615034",
       "date": "2026-01-27",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "captured a lot of legacy with memory"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "nanya",
@@ -76,8 +75,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016681010793153018",
@@ -85,7 +84,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "Asia memory long idea alternative"
+        "Asia memory long idea"
       ],
       "is_risk": false,
       "conviction": null,
@@ -99,8 +98,8 @@
         "reposts": 37,
         "replies": 11
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2017064502983086289",
@@ -108,11 +107,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "owns it",
+        "owns Nanya",
         "up 1000%+ since last year"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": null,
       "raw_mention": "Nanya",
       "text": "@HelixCapital_ Probably Sandisk but no firm opinion, I own both $SNDK and Nanya right now (ended up buying Sandisk after ER, but have Kioxia as Sandisk proxy)\n\nThey’re both up 1000%+ since last year so hard to complain.",
       "url": "https://x.com/aleabitoreddit/status/2017064502983086289",
@@ -123,8 +122,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2017097752535322767",
@@ -144,8 +143,8 @@
         "reposts": 33,
         "replies": 16
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018703864409870379",

@@ -9,8 +9,8 @@
   "industry": "InP Substrates",
   "thesis_summary": "他看好 AXT 的磷化铟基板地位,称其为 CPO 产业链上游卡位,已有 500%+ 浮盈。",
   "first_mention": "2025-12-22",
-  "last_mention": "2026-05-30",
-  "total_mentions": 505,
+  "last_mention": "2026-06-11",
+  "total_mentions": 513,
   "mentions": [
     {
       "tweet_id": "2003040048930074770",
@@ -795,12 +795,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "controls 60-70% of world InP substrate market via Tongmei",
-        "controls refining of raw Indium 78%+ of supply chain",
-        "opportunity in the InP bottleneck itself"
+        "controls ~60-70% of InP substrate market via Tongmei",
+        "InP bottleneck play",
+        "opportunities with the bottleneck itself"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$AXTI",
       "text": "2026 Newsletter.\n\nThematic Investments: Evolution, Disruption, and Bottlenecks\n\n1. Soft Robotics - Evolution to $TSLA, $ONDS, Boston Dynamics. \n\n2. SiPh - InP Bottleneck | $AXTI, $LITE, $GOOGL\n\n3. Glass Substrates - Bottleneck | $NVDA, $INTC, $TSM\n\n4. Money Movement - Disruption to $V, Stripe, $BOA\n\n5. AI Cloud Layers - Bottleneck | $NBIS, $IREN, $HUT. \n\n6. LLM Cybersecuirty - Evolution to $CRWD, $CSCO, $MSFT \n\n7. LEO Space Infrastructure | Evolution to $RKLB,  SpaceX, $ASTS\n\n8. Consumer Agentic Workflows (50 Step) - Disruption to the Consumer Workforce, from Manus, $PATH Cognition\n\n9. Distributed Computing Latency - Bottleneck | $TSLA, $AMZN, $GOOGL,\n\n10. Copper Interconnect Life Extension -  Bottleneck | $NVDA (LPU/Groq), $AMD, $INTC\n\n_\n\nThis is an light overview of thematic investments I find the most interesting from a public-information synthesis perspective + second/third-order effects from bottlenecks!\n_\n\n1. Soft Robotics: The Evolution to Robotics\n\nTraditional robotics (Optimus, Boston Dynamics) relies on Inverse Kinematics to rigid joints. Soft robotics changes the math.\n\nWe've met the point where hardware (Optimus, Boston Dynamics, Figure) met LLMs (Gemini, Grok, Opus), and we're at the beginning of possible widespread commercialization.\n\nBy using materials inspired by octopus tentacles and human skin, robots are moving away from gears and toward fluidity to handle extremely delicate tasks like handling produce like the human hand, to picking up extremely heavy surfaces adding Octopus-like extensions to $ONDS/Andruil Drones. \n\nThe evolution is thinking outside the box in terms of what robotics can do. I remember working with some Stanford PHds in this field like 7 years ago, and it just so happens AI is starting to be commercialized after many years of research. So expected, this field to be as well. \n\nPossibilities are limitless adding organism-like fluidity to rigid robotics, this is just the natural evolution. \n\nMost of these are prob private companies. \n\n_\n\n2. Silicon Photonics - Bottleneck of the AI Infrastructure \"InP Chokepoint\"\n\nBlackwell Ultra Clusters to Google TPUs have hit the upper wall and requires photonics for interconnects | OCS to scale up. \n\nThe Substrates: $AXTI (via Tongmei) and Sumitomo (Japan) control roughly 60-70% of the world's InP substrate market.\n\nThe Materials: Companies like Vital Materials (China) and AXT control the refining of the raw Indium itself (78%+ of supply chain).\n\nIf you are a US tech giant, your entire \"AI Growth Story\" for 2026 depends on materials controlled by geopolitical rivals.\n\nThe only scalable solution is engineering around it, either by delivering light-on-chip, while using 90% less InP or companies that use tiny slivers of Indium Phosphide instead of large, expensive wafers.\n\nThere's opportunities with the bottleneck itself like AXT, Sumitomo. Or companies that help address it like $POET. \n\n_\n\n3. Glass Substrates - Fixing the Bottleneck for CPOs from $NVDA to others. \n\nThe shift toward glass substrates is essentially the semiconductor industry’s answer to a physical wall they are hitting with current materials.\n\nCurrent chips sit on a substrate made of organic materials (essentially specialized plastic). As chips get larger, like Nvidia's massive GPU packages, plastic substrates warps.\n\nSo, glass substrates is becoming the industry standard for Co-Packaged Optics (CPO) because they solve the single biggest problem in photonics with alignment.\n\nUS Government already sees this as a necessity and we've seen huge subsidies funneling down to some of these companies. \n\nCompanies like $INTC, Samsung Electronics, Absolics (SKC Subsidiary), DNP,  and others are the main beneficiaries, especially as MRVL and $AVGO (driving glass for optical switches) move forward with CPO revolution.\n\n_\n\n4. Money Movement - The Disruption to Card Networks, Banking, Exchange, and Payments\n\nFor decades, moving money has been a \"toll road\" business. Every time you swiped a card, 2% to 3% of that money vanished into the pockets of the Card Networks (Visa/Mastercard) and Issuing Banks. \n\nOr buying/selling crypto from an exchange would be .2-1%. It was the most profitable, \"un-killable\" business model in history.\n\nUntil now. The \"Genius Act\" of 2025 just handed companies like $XRP with Money Transmitter Licenses or Banking Charters the keys to the kingdom.\n\nNot really theoretical for me. I happen to be working on this myself at my own startup with some folks who created V / $PYPL's real-time payment networks.\n\nBut basically companies with existing MTLs or pursuing banking charters leveraging the Genius Act and some other tech can now bypass legacy % fees by doing settlement on top of the Federal Reserve and blockchains, effectively converting percentage-based fees into a few cents. \n\nWould 99% companies do it? Probably not since every single margin from across the payment industry would just go to 0. I'd be happy though. \n\nBut basically Bridge's $1.1B acquisition by Stripe should have been a red-alarm to existing companies that days of 1-Day ACH, interchange models, $25 international transfers, are soon to be over. \n\nThis extends to many other adjacents from low fee disruptions like $HOOD, Mercury all the way to Stablecoin Neobanks, or companies making their own stablecoins like $SOFI. \n_\n\n5. AI Cloud Layers - The Solution to HyperScaler compute Bottleneck\n\nWhile Hyperscalers are stuck in 3-5 year grid interconnection queues, miners like WULF and IREN are sitting on plug-ready GWs today\n\nThis is the opportunity of a lifetime as hyperscaler funnel their cash cow Cloud revenues down to tiny companies.\n\nThere's many different layers to this from Fluidstack, Poolside, Fireworks on the GPU orchestration layer, to the bare metal layer that companies like IREN are building. \n\nThen there's becoming the hyperscaler themselves like NBIS owning the physical locations, the GPU, software orchestration, and then providing simple interfaces for inference. \n\nThis is the opportunity for a few small companies to become Amazon Web Service or Microsoft Azure over the next year or two, or get acquired (eg. GOOGL buying Intersect for $4.7B)\n\nNeoclouds like NBIS, IREN, CRWV, down to colo plays like CIFR, WULF, HUT (and private sectors -> Energy) stand to benefit. \n\n_\n\n6. LLM Cybersecurity - The Evolution to Modern Security and Vulnerability Defense\n\nRecent reports (e.g., from Anthropic's Red Team) showed that advanced models like Opus (and future iterations) could autonomously scan open-source smart contracts and identify \"Zero-Day\" exploits worth millions of dollars in minutes.\n\nThe Implication: If an AI can find a logic flaw in a immutable Blockchain contract, it can find a flaw in a bank's SWIFT API or a power grid's control software. \n\nSame with KYC/AML. Models like Gemini Nano Banana are able to create realistic images/videos of people and people are able to get past a lot of programs. \n\nThere's tons of things as an unsexy alpha in this field like LLMs automating away SOC2/PCI dss compliance to agents sitting on a server, continuously monitor logs, and auto-generate the evidence needed for auditors.\n\n7. LEO Space Infrastructure | The Evolution to Expanding into the final frontier. \n\nSpace \n\nis the next big thing. This is not anything new. (hope you got the joke). But anywhere from  companies like $RKLB, SpaceX. Companies that fix orbital congestion or launch cadence bottlenecks. To companies that commercialize the infrastructure like ASTS or Starlink present many opportunities over the next year. \n\nSo companies like Impulse, Blue Origin, $ASOZF to RKLB, $ASTS stand to benefit across the entire chain. \n\n8. Consumer Agentic Workflows (50 Step) - Disruption to the Consumer Workforce, from Manus, PATH Cognition\n\nThis one is simple and needs no explanation. But largely obvious in potential impact on employment + cost saving.  \n\nHow do you automate away business development? How do you automate away marketing? How do you automate away software engineers? \n\nThis is going past few step ChatGPT answers and directly in to the real world where an AI agent can roam X, find the right people, DM someone, continue conversations, and lead to a sales call in just one workflow. \n\nThis is the end of the \"Chatbot\" era and the beginning of the \"Action\" era replacing everyone previously required in a company. \n\nI haven't quite seen this done at scale yet with any company. Public companies like META that own these, don't really present the best exposure. Maybe $PATH for public space.  \n\n9. Distributed Computing Latency - Fixing the Bottleneck for AI Compute Capacity Strains\n\nHyperscalers like GOOGL Cloud, MSFT Azure at max capacity.\n\nElon Musk already floated distributed computing as the future of solving this issue (eg. having networks of $TSLA's providing compute for LLMs for inference).\n\nThe \"Tesla Compute Cloud\" thesis is fascinating, but the  single biggest physical barrier I've identified is: Inference Latency.\n\nToo generate \"Token B,\" the model must first finish generating \"Token A.\" It cannot do both at the same time. If you split a massive model (like Grok-3) across 5 different cars to fit it in memory, you have to send data between those cars for every single token generated.\n\nSo, if your network latency between cars is even 20ms (optimistic for 5G), and you are generating 50 tokens, you just added 1 full second of pure \"waiting time\" (latency) on top of the compute time. In a data center using NVLink, that wait time is measured in nanoseconds.\n\nSame applies to any spare computer, GPU, and others owned by retail users. And there's billions of consumer GPUs (Teslas, iPhones, Gaming PCs) that sit idle 90% of the time.\n\nSolving the \"distributed latency\" problem for inference presents one of the single greatest arbitrage opportunity in the history of computing.\n\nHaven't really seen any companies that accomplished this at scale yet. Maybe NVIDIA Dynamo, $AKAM, TSLA, getting a little closer. \n\n10. Copper Interconnect Life Extension -  Addressing the Bottlenecks of Nvidia and Others\n\nSince we can't have infinite InP, we have to engineer around it with what we have (eg. Copper), so copper cables can do things that physics said it shouldnt like carrying 224G signals across a rack without signal loss.\n\nThe industry is hitting a hard stop on InP where, US cannot physically cannot mine and refine enough InP to turn every link in a data center into fiber optics.\n\nIf anything helps, then it's good. EG.  NVDA's $20B \"Acqui-hire\" of Groq's team and IP. LPU is more about inference latency/architecture but it addresses copper life extension as a byproduct. Groq’s entire architecture beat Nvidia on latency because it rejected optics. Groq uses a \"deterministic\" mesh that relies on direct electrical (copper) connections between chips, avoiding the \"jitter\" and conversion time of optical switches.\n\nCompanies like $ALAB, $CRDO, Groq, or anyone who can find ways to engineer around the optical bottleneck with copper will be a winner.\n\n_\n\nThere are tons of trades from both private sector investments to public! Just wrote up my thoughts on the fly today, but happy to elaborate later. \n\nRegardless I believe a lot of these thematic investments from:\n\nInvesting in InQ Bottleneck Workarounds ( $POET ) or the bottleneck itself ( $AXTI ) to Disruptors ( $CRCL ) in the public sector. \n\nTo Investing in copper extension bottleneck fixes (Groq), bank charter disruptors (Mercury) to evolutionary companies (Lightmatter, Festo) in the private sector. \n\nPresent asymmetrical upside in 2026. \n\nHappy New Year!",
       "url": "https://x.com/aleabitoreddit/status/2006709693012467774",
@@ -811,8 +811,8 @@
         "reposts": 119,
         "replies": 30
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2006964097515180284",
@@ -820,7 +820,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "bottleneck play in private markets thesis"
+        "bottleneck thesis"
       ],
       "is_risk": false,
       "conviction": null,
@@ -834,8 +834,60 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2007071108831338685",
+      "date": "2026-01-02",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "CEO says 40% of InP supply chain",
+        "InP will be huge bottleneck for hyperscaler AI buildout 2026-2027"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "$AXTI",
+      "text": "Welcome to 2026. Jan 1st ratings:\n\nStrong Buy:\n$TTD\n$SMCI\n$AIRO\n$INTC\n$HIMS\n$AXTI\n$TSM\n$NBIS\n$CIFR\nSamsung Electronics (KRX: 005930)\n$HUT\n$IREN\n$WULF\n$GLXY\n$TSSI\n$META\n$ETOR\n$CRCL\n\nBuy:\n$KRKNF\n$ONDS\n$GEMI\n$NVDA\n$MU\n$AMKR\nSK Hynix\n$SNAP\n$RDDT\n$AAOI\n$COHR\n$FISV\n$FLY\n$DJT\n$LITE\n$AMZN\n$MRVL\n$AVGO\n$OSS\n$BULL\n$ORCL\n$CRDO\n$ALAB\n\nAvoid:\n$RGTI\n$QBTS\n$RGTI\n$BMNR\n$ETH\n$PLTR\n$WMT\n\n_\n\nTLDR thoughts:\n\nTTD - Complete valuation reset dropping 67% YTD, compounded by EOY tax sell-off. Great recovery play going into 2026. \n\nSMCI - Trades like distressed company just because they delayed revenue by 1 quarter for new blackwell specs. Forward revenue is increasing 50% Y/Y, P/S close to .5 now. Great recovery play from tax harvesting. \n\nAIRO - Roughly ~1/6th balance sheet was cash. Everyone seems to be into drones, especially with accelerated gov inevstments. Another IPO name that got sold off. Great recovery play going into 2026 with esp. hot segment. Roughly ~3.8x P/S compared to ONDS trading at 25-30 P/S, but obviously there's quite a lot of other businesses like their education sector which messed up margin calculations quite a bit. \n\nINTC - It's literally become the semi arm of the US government. Hyperscalers will likely be incentived (strongly pressured) to use Intel whatever chance it gets over TSM, Samsung, etc. I would not bet against the US government. \n\nHIMS - Huge selloff going into 2026. Down from $70's. Sales/Traffic is down, but Zava acquisition/growth should add a huge tailwind going into 2026.  Esp. with few hundred mill buybacks, strong recovery play first two monts in. \n\nAXTI - Posted thesis on this earlier. CEO - \"40% of Inp supply chain\", InP will be a huge, huge bottleneck for hyperscaler AI buildout 2026-2027 until there's enough time to engineer around it in 2028. \n\nTSM - I've covered this quote a lot. Increasing margins. Maxed out demand. Just extremely good compounder next few years. \n\nSamsung Electronics - benefits from foundry/memory. just golden egg regarding all the tailwinds helping the buisness. \n\nNBIS - Extremely strong buy, $7-9B ARR, it's literally 5 different companies growing triple digits Y/Y. management quoted 20-30% EBIT margins, it's just a waiting agme. \n\nCIFR, HUT, IREN, WULF, GLXY - Whole datacenter space is extremely sold off after Oracle/OpenAI fears. OpenAI recently raised $40B, another $10B from $AMZN, and more. So a lot of fears regarding capex spend has been de-risked. It's multifaceted too, eg. Bitcoin drop, affects $CIFR balance sheet, $GLXY in crypto space. But generally huge recovery play/ramp for neoclouds sector.\n\nTSSI - Similar to SMCI. deferred revenue = nuke. Should recover after tax harvesting + lot of revenue gets recognized\n \nMETA - Huge algorithmic selloff post earnings due to one-time tax. They also cut capex/opex spend of their reality labs and other departments and this should be a huge tailwind for EPS going into 2026. \n\nETOR - Literally sitting on $1.2B with a $2.8B marketcap and growing double digits Y/Y still. $150M buyback should be a nice tailwind, and tax harvesting from YTD performance should subside. \n\nCRCL - Same as stablecoin thesis should be really solid going into 2026\n\nBuy \n\nKRKNF - Anduril partner+ scale. Probable uplisting in 2026, lot of tailwinds from defense spending. \n\nONDS -pretty explosive revenue growth, new $10m contracts left and right. large cash balance to fund r&d. Pretty high p/s but there's valuation premiums for speculative leaders in the space like rklb.\n\nGEMI - So i typically dont like exchanges, but gemini got nuked from $30+ IPO sub $10. pretty solid recovery play. \n\nNVDA - Huge backlog lol. Everyone knows bull case for nvidia\n\nMU - Memory is hot \n\nSK Hynix - Memory is hot\n\nAMKR - benefits from \"made in america\" chip expansion in  prod.\n\nSNAP - Opex Cut from memory, increase revenue from memory monetization,  $400m from perplixity. $1.5B revenue/quarter. They could literally stop growing revenue complelty if they convert all of that to $1B+ FCF/year, it would re-rate snap completly. \n\nRDDT - This is not going anywhere for the next 10+ years tbh, it's like robinhood of social media, growing extremely fast from new ways to monetize revenue, and just extrmeely profitable. \n\nAAOI - interconnect play for amzn, msft asic scale up. \n\nCOHR - benefits from photonics rollout for next gen asics. \n\nFISV - Nuked a bit too much post ER, strong recovery play esp. post tax-harves.t \n\nFLY - Space is hot from SpaceX IPO. Should do well given tax harvesting is over, and they have medium lift coming up with northrop. \n\nDJT - I never thought i'd put this here lol, but this is just because of their TAE merger. \n\nLITE - Large BOM from Google TPU rollout, attractive valuation. Slight selloff after Google TPU revised est. but it's basically in every single hyperscaler asic deployment.  \n\nAMZN - one of the mag7 that's not overvalued\n\nMRVL - Selloff from analyst misinformation, strong buy going into 2026. Especially with msft maia revenue doubling Marvell's current revenue when it ramps up\n\nAVGO - Like NVDA just strong long, as AI infrastructure deployment ramps up\n\nOSS - I made a post speculating that they're one of andruils' suppliers. but regardless, edge computing will be hot 2026 and its 180m mc presents attracctive upside. \n\nBULL - similar to robinhood where they have a huge userbase, but they just need to figure out monetization \n \nOracle - Sold off a bit too much imo. I put this on avoid months ago but after the from from $330 to $190, it's more attractive again esp. after openai raised another $40B\n\nCRDO -extremely high margin, necessary connectivity for dc rollout\n\nALAB - extremely high margin, necessary connectivity for dc rollout \n\nAvoid:\nThere's a lot of stuff on the \"overvalued list\" like $RKLB that i like but I wouldn't quite say avoid it either aside from these. \n\nRGTI , QBTS, RGTI - Quantum names are still overvalued and likely won't deliver fcf in the next few ytears. \nBMNR, ETH - if you saw my eth post, not exactly bullish since the amount of ETH burn is just single-low double digits every day, which is a joke. \nPLTR - one of the most overvalued ai names\nWMT - How is this 40 p/e? This is Walmart?\n\n__\n(these are based on today's prices)\n\nTLDR: \n\nIPO names like Circle, Etoro, AIRO, Klarna, Figma,  present attractive upsides post drop + tax harvesting going into 2026.\n\nTons of names like SMCI, HIMS that dropped 40% or so past 3 months, are amazing swing/recovery trades post-tax harvest + Jan effect. \n\nLot of the names that doom dropped like FiserV or The Trade Desk present good recovery trades too post-tax harvest.  \n\nMany datacenter stocks like nebius, iren, cifr, wulf, galaxy, are amazing recovery trades too. \n\nLot of other segments like memory, bottlenecks, photonics, and others are just great longs in 2026, despite each hitting ATHs. \n\nThere's still quite a lot of overvalued names from Quantum, to certain Space stocks (eg. planet or rocketlab), specific AI names like Palantir to retail stocks like Walmart that I would probably avoid for the time being until there's a slight correction.\n\nThis was a TLDR just if I'm short term trading-only (not long term) but feel free to ask questions.",
+      "url": "https://x.com/aleabitoreddit/status/2007071108831338685",
+      "kind": "post",
+      "engagement": {
+        "views": 2896934,
+        "likes": 1546,
+        "reposts": 213,
+        "replies": 100
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2007154198983651473",
+      "date": "2026-01-02",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "no risk from board procedure, routine since board member passed away",
+        "Northland and others gave them $100M to fund InP substrate expansion",
+        "7N prices on SMM have reached ATHs",
+        "American markets paying premium on top of ATH prices",
+        "watch prices as proxy for demand and possible margin increases like HBM",
+        "200%+ premium for 6N on Western markets via Indium Corp"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AXTI",
+      "text": "@AustinAver70395 No risk there. It's routine procedure since one of $AXTI's board members passed away sadly. \n\nNorthland and others wouldnt give them $100M to fund InP substrate expansion (exercised the $13m) if there were risk there. \n\nThat being said 7N prices on SMM have reached ATHs, and American markets are paying premium on top of that. \n\nSo I'd mainly watch prices as a proxy for demand and possible margin increases like HBM for AXT. (it's like 200%+ premium for 6N on Western markets via Indium Corp)",
+      "url": "https://x.com/aleabitoreddit/status/2007154198983651473",
+      "kind": "reply",
+      "engagement": {
+        "views": 2008,
+        "likes": 6,
+        "reposts": 0,
+        "replies": 0
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007202015940931878",
@@ -843,13 +895,14 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "controls 40% of InP supply chain",
-        "low cost Beijing factory with owned materials suppliers",
-        "captures spread between Chinese costs and Western premium prices",
-        "margins should expand rapidly with $100m share sale capacity funding",
-        "sits at center of InP substrate and feedstock bottlenecks",
-        "benefits from margin arbitrage between China production and US hyperscaler premiums",
-        "controls major percentage of merchant substrate output for Western AI buildout"
+        "controls 40% of InP supply chain, critical bottleneck",
+        "low-cost Beijing factory captures margin arbitrage between Chinese manufacturing costs and high global selling prices",
+        "margins should expand rapidly next quarter",
+        "$100m share sale injection funds production capacity",
+        "benefits from both InP substrate price surge and feedstock price surge",
+        "asymmetrical upside at $16 / ~$850M MC",
+        "sits at center of both InP substrate and feedstock bottlenecks",
+        "controls major percentage of world's merchant substrate output for Western hyperscaler AI buildout"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -863,8 +916,8 @@
         "reposts": 21,
         "replies": 18
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007207971013677388",
@@ -872,10 +925,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "China suspended export ban on gallium/germanium until Nov 27 2026",
-        "$100m offering gives 12 month runway to capitalize on InP price frenzy",
-        "at center of InP bottleneck",
-        "only major pure-play on NASDAQ for InP material bottleneck exposure"
+        "12-month runway of unhindered ramp due to China suspending gallium/germanium export ban",
+        "center of InP bottleneck, one year of unhindered ramp is enough upside",
+        "only major pure-play on NASDAQ giving direct exposure to material bottleneck",
+        "risk of export restriction not likely until Nov 27 next year"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -889,8 +942,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007210829117304953",
@@ -898,10 +951,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "bottom of entire AI supply chain for photonics",
+        "bottom of entire AI photonics supply chain",
         "owns 10+ materials companies producing high-purity chemicals",
-        "materials hedge fund that produces output substrate",
-        "has control and market share over critical InP bottleneck"
+        "vertically integrated materials hedge fund with control over critical InP bottleneck"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -915,8 +967,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007336559000117561",
@@ -924,9 +976,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "controls ~40% of InP supply chain per CEO",
-        "holds chokepoint in AI infrastructure buildout",
-        "small company with outsized strategic position"
+        "CEO claims 40% of InP supply chain",
+        "small company controlling a chokepoint for AI infrastructure"
       ],
       "is_risk": false,
       "conviction": null,
@@ -940,8 +991,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007340991989330098",
@@ -949,13 +1000,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "estimates ~30% of global InP substrate supply capacity and ~25-30% of InP raw material",
-        "expects HBM-like supply squeeze by mid-2026",
-        "low dilution risk after Northland $100M fundraise",
-        "vendors raising prices to Western buyers per proprietary data, margins expected to rise",
-        "owns entire cost structure so price increases flow directly to significant margin improvement",
-        "sub-$1B market cap despite holding critical bottleneck",
-        "would justify $10B valuation if supply chain were fully US-based"
+        "estimates ~30% of global InP substrate supply and ~25-30% of InP raw material",
+        "plans to hold until mid-2026 expecting HBM-like supply squeeze",
+        "low dilution risk after Northland $100M capital raise",
+        "vendors raising prices for Western customers implies margin expansion",
+        "AXTI owns entire cost structure so price increases translate directly to margin improvement",
+        "hidden alpha factor overlooked by market"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -969,31 +1019,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
-    },
-    {
-      "tweet_id": "2007340991989330098",
-      "date": "2026-01-03",
-      "stance": "bearish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "Chinese regulatory permitting is the biggest risk factor"
-      ],
-      "is_risk": true,
-      "conviction": null,
-      "raw_mention": "$AXTI",
-      "text": "@beauty_oe 私は個人的に、世界のInP基板（Indium Phosphide substrate）供給能力の約30%、および**インジウム・リン（Indium Phosphide）原料については約25〜30%**をカバーしていると試算しています。\n\n$AXTI CEOが「サプライチェーンの40%を握っている」と発言した点については、彼の方がより内部情報を持っているはずなので、今後の増産を織り込めばその水準に達する可能性はあると思います。一方で、ウェブサイトに記載されている60%という数字はやや過大に見えます。\n\n私は2026年半ばまで保有する予定で、その頃にはHBMと同様の供給逼迫（サプライスクイーズ）が起きると見ています。また、Northlandによる1億ドルの資金調達後は希薄化リスクが低い点も評価しています。\nさらに、一部の非公開・有料データでは、これらのベンダーが欧米向けに価格を引き上げていることが示されており、マージンも上昇すると予想しています。これは見過ごされがちな隠れたアルファ要因で、$AXTIはコスト構造全体を自社で保有しているため、価格上昇はそのまま大幅な利益率改善につながるからです。\n\n最大のリスク要因は中国当局による許認可（パーミッティング）ですが、それこそがこれほど重要なボトルネックを握っていながら時価総額が10億ドル未満に抑えられている理由です。\nもしサプライチェーンがすべて米国に存在していれば、評価額が100億ドル規模になっても不思議ではないと考えています。",
-      "url": "https://x.com/aleabitoreddit/status/2007340991989330098",
-      "kind": "reply",
-      "engagement": {
-        "views": 4197,
-        "likes": 22,
-        "reposts": 1,
-        "replies": 1
-      },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007346907941937452",
@@ -1001,11 +1028,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "$100m to fund capacity expansion",
-        "should be capped out on sales",
-        "Chinese vendors starting InP price hikes for Western companies",
-        "owns supply chain as vertically integrated company so price hikes increase margins",
-        "would scale up if HBM type shock for substrate prices"
+        "$100m to fund capacity expansion for direct revenue increase, should be capped out on sales",
+        "vertically integrated so Chinese InP price hikes to Western companies just increase AXT margins",
+        "would scale up further if HBM-type shock hits substrate prices"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -1019,14 +1044,14 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007382889911201983",
       "date": "2026-01-03",
       "stance": "neutral",
-      "mention_type": "background",
+      "mention_type": "comparison",
       "reasons": [],
       "is_risk": false,
       "conviction": null,
@@ -1040,8 +1065,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007788288137171171",
@@ -1061,8 +1086,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008155137018155478",
@@ -1082,18 +1107,16 @@
         "reposts": 39,
         "replies": 50
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008465608862822659",
       "date": "2026-01-06",
-      "stance": "bearish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "revenue nuked to Japan as well"
-      ],
-      "is_risk": true,
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
       "conviction": null,
       "raw_mention": "AXTI",
       "text": "@AndDegen @illyquid @grok It’s nuanced, AXTI gets their revenue nuked to Japan as well.\n\nI’ll do a follow up analysis on the situation",
@@ -1105,8 +1128,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008582578186678307",
@@ -1114,7 +1137,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "became monopoly of InP substrates after China export control ban on Japanese competitors"
+        "became the monopoly of InP substrates",
+        "China export control eliminates its only other competitor"
       ],
       "is_risk": false,
       "conviction": null,
@@ -1128,8 +1152,8 @@
         "reposts": 31,
         "replies": 31
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008589181501517850",
@@ -1137,8 +1161,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "would become main global supplier of InP substrates as Japanese manufacturers lose Indium feedstock",
-        "tradeoff of losing Japanese market offset by global supply role"
+        "would be the main supplier globally for InP substrates",
+        "loses Japanese market revenue but gains global supply dominance"
       ],
       "is_risk": false,
       "conviction": null,
@@ -1152,8 +1176,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008591523059847514",
@@ -1161,8 +1185,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "whole AI supply chain suddenly dependent on single source for next two years",
-        "companies like LITE will shift capacity to AXTI as main supplier",
+        "whole AI supply chain became dependent on single source AXTI for next two years",
+        "LITE will probably shift capacity from Sumitomo/JX to AXTI",
         "raised $100M for more capacity"
       ],
       "is_risk": false,
@@ -1177,8 +1201,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008633673743298617",
@@ -1186,8 +1210,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "entire AI buildout will be bottlenecked by it after China's new export controls",
-        "valued at only $1B despite critical importance"
+        "entire AI buildout will be bottlenecked by AXTI after China's new export controls",
+        "only $1B market cap despite being the bottleneck"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -1201,8 +1225,8 @@
         "reposts": 86,
         "replies": 55
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008635617018868008",
@@ -1210,10 +1234,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "effectively a single point of failure monopoly after China crippled Japan's InP substrates supply chains with export controls",
-        "valued at $1.1B which he finds hilariously small given importance to hyperscalers",
-        "future AI buildout relies on optical",
-        "flows downstream to hyperscalers including NVDA, GOOGL, MSFT, META"
+        "single point of failure monopoly after China crippled Japan's InP substrates supply chains",
+        "hilariously small valuation at $1.1B given importance to hyperscalers",
+        "future AI buildout relies on optical"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -1227,8 +1250,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008636261976674661",
@@ -1236,8 +1259,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "for 2026-2027 with current architectures heavily reliant on AXTI",
-        "US will eventually engineer around InP substrates bottleneck but not yet"
+        "heavily reliant on AXTI for 2026-2027 with current architectures"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -1251,8 +1273,8 @@
         "reposts": 2,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008706766574678180",
@@ -1261,8 +1283,8 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "very little risk for 2026 calendar year",
-        "if AXTI stopped exporting InP substrates the AI buildout would not be able to ramp",
-        "AXT would effectively become a monopoly once inventory runs out for competitors"
+        "if AXTI stopped exporting InP substrates the AI buildout could not ramp",
+        "would effectively become a monopoly once competitor inventory runs out"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -1276,8 +1298,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008808147755168039",
@@ -1285,15 +1307,14 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "export regulations created a monopoly position for it",
-        "today's +20% move should have been larger given the monopoly situation",
-        "real volatility/move expected in 1-2 months when bottleneck materializes",
-        "market cap is still very small",
-        "no media coverage yet",
-        "audience is simply entering the market ahead of the crowd"
+        "export regulations created monopoly position",
+        "today's +20% move should have been bigger",
+        "bottleneck expected in 1-2 months will drive real move",
+        "market cap still very small",
+        "no media coverage yet, early entry opportunity"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": "high",
       "raw_mention": "$AXTI",
       "text": "@beauty_oe 本日の輸出規制により $AXTI が独占状態となったことを考えれば、今日の+20%を超える上昇はもっと大きくあるべきだったと考えていました！\n\nしかし、本格的な変動は $SNDKやメモリ市場で起きた事例のように、1〜2ヶ月後にボトルネックが生じた際に起こるでしょう。\n時価総額は依然として非常に小さく、メディアでの報道も皆無です。ここにいる皆さんは、単に市場より一足早く参入しているに過ぎません",
       "url": "https://x.com/aleabitoreddit/status/2008808147755168039",
@@ -1304,17 +1325,15 @@
         "reposts": 2,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008854319806787681",
       "date": "2026-01-07",
       "stance": "neutral",
-      "mention_type": "comparison",
-      "reasons": [
-        "he points out larger concerns over shift to photonics as he's mentioned with AXTI multiple times"
-      ],
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AXTI",
@@ -1327,17 +1346,15 @@
         "reposts": 55,
         "replies": 30
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008869090497302547",
       "date": "2026-01-07",
       "stance": "neutral",
-      "mention_type": "comparison",
-      "reasons": [
-        "he sees AXTI bottlenecking optical components required for scale out"
-      ],
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AXTI",
@@ -1350,17 +1367,15 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008877319239487537",
       "date": "2026-01-07",
       "stance": "neutral",
-      "mention_type": "comparison",
-      "reasons": [
-        "he expects huge optical bottleneck for optical components with AXTI"
-      ],
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AXTI",
@@ -1373,17 +1388,15 @@
         "reposts": 2,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008914099456164320",
       "date": "2026-01-07",
-      "stance": "bullish",
+      "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "up 50%+ in a week or so"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AXTI",
@@ -1396,8 +1409,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008933754904133680",
@@ -1417,14 +1430,14 @@
         "reposts": 0,
         "replies": 7
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008941799382057128",
       "date": "2026-01-07",
       "stance": "bullish",
-      "mention_type": "background",
+      "mention_type": "explicit_stance",
       "reasons": [
         "single point of failure for the AI supply chain"
       ],
@@ -1440,8 +1453,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009041831296946384",
@@ -1450,13 +1463,13 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "owns entire cost structure/supply chain so indium price increases benefit their margins",
-        "7n indium feedstock prices spiking with bifurcation between Asian and Western supply chains inflating future margins",
-        "hyperscalers/Western supply chains pay premiums for substrates and are capacity strained",
-        "effectively becomes largest InP substrate provider after Japanese supply chain got export controlled",
-        "CEO stated they were 40% of InP supply chain before export controls",
-        "raised $100M to increase capacity",
-        "single company point of failure for photonics AI ramp — entire supply chain depends on them",
-        "valued at only $1.3B despite being a bottleneck for entire AI supply chain"
+        "largest InP substrate provider after Japanese export controls",
+        "40% of InP supply chain before export controls, raising $100M to increase capacity",
+        "single company point of failure on photonics AI ramp",
+        "valued at only $1.3B vs random quantum companies at $10B+",
+        "hyperscalers pay premiums for substrates and are capacity strained",
+        "7n indium feedstock price spiking benefits western export margins",
+        "hard to model bottleneck where TAM suddenly expands for every AI deployment"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -1470,8 +1483,8 @@
         "reposts": 3,
         "replies": 7
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009044396143182025",
@@ -1479,13 +1492,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "just getting started",
-        "only beginning the ramp up after the export control nuke on Japan's supply chains",
-        "single point of failure and a monopoly for Western's AI deployment using photonics valued at $1.3B",
-        "room to grow compared to random quantum and energy companies valued at $10B+"
+        "just getting started, only beginning ramp up after export control on Japan's supply chains",
+        "single point of failure and monopoly for Western AI deployment using photonics",
+        "valued at $1.3B with room to grow compared to $10B+ quantum/energy companies"
       ],
       "is_risk": false,
-      "conviction": "high",
+      "conviction": "medium",
       "raw_mention": "$AXTI",
       "text": "@shahriar_m1031 $AXTI is just getting started imo. This is only beginning the ramp up after the export control nuke on Japan's supply chains.\n\nThis is single point of failure and a monopoly for Western's AI deployment using photonics valued at $1.3B.\n\nYou have random quantum and energy companies are valued at $10B+. I think there's room to grow.",
       "url": "https://x.com/aleabitoreddit/status/2009044396143182025",
@@ -1496,8 +1508,8 @@
         "reposts": 1,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009045147980538325",
@@ -1505,11 +1517,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "inability to export to US would be a huge threat to America's AI buildout",
-        "hyperscalers are engineering around dependency but that takes 3 years, making them dependent in the meantime"
+        "if AXTI unable to export to US there are bigger problems for AI buildout implying critical importance",
+        "hyperscalers are dependent on it while engineering around takes 3 years"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$AXTI",
       "text": "@NEgleston @jaysyoon If $AXTI is not able to export to US, then there are bigger problems to worry about regarding the AI buildout\n\nIt's a huge threat to America which is why hyperscalers are engineering around it (which would take 3 years), in the meantime they're dependent\n\nhttps://t.co/Vpq5KQdm13",
       "url": "https://x.com/aleabitoreddit/status/2009045147980538325",
@@ -1520,8 +1532,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009052378021150795",
@@ -1529,10 +1541,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "single point of failure for the Western AI buildout"
+        "single point of failure for Western AI buildout"
       ],
       "is_risk": false,
-      "conviction": "high",
+      "conviction": "medium",
       "raw_mention": "$AXTI",
       "text": "@twplsource I don't want subscribers or want to sell anything to followers!\n\nMade my profile out of pure interest testing my own thesis against the markets and getting fulfillment in helping others too. \n\nBut to answer your question $OSS and $AXTI are way too different stocks. \n\nThere's $1.5T US Gov spending into defense which helps $OSS a LOT. Hard to imagine when they're already backlogged. \n\nThen $AXTI is single point of failure for the Western AI buildout. \n\nBoth are incredibly interesting, so I wouldn't say one is better than the other.",
       "url": "https://x.com/aleabitoreddit/status/2009052378021150795",
@@ -1543,8 +1555,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009169397168869831",
@@ -1552,12 +1564,13 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "allowed to ship to Western countries under export controls while Japanese competitors are effectively banned",
-        "Sumitomo cannot source materials at scale since China controls majority of critical materials for InP substrate production",
-        "Japan has no leverage like the US to negotiate exemptions from China's export controls"
+        "allowed to ship to Western countries under export controls",
+        "Japanese competitors (Sumitomo/JX) effectively banned from getting critical materials from China",
+        "Sumitomo would not have materials to ship at scale since China controls majority of critical materials for InP substrate production",
+        "US trade deal with China unlocked supply of raw materials for US commercial tech companies until Nov 2026"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$AXTI",
       "text": "@jaysyoon So this is pretty nuanced but i'll try my best to explain:\n\n1) It's actually a ban. Not just export controls. This refers to anything related to military end-users or for military purposes. For major defense contractors like, Sumitomo Electric, this is effectively a ban. \n\nThere was also the Secondary Boycott rule, which directly impacts Sumitomo/JX:\n\nEg. if another company buys InP feedstock then tries to transfer the feedstock/finish transceiver to a Japanese company, China could ban the related companies next.\n\nThis part is really nuanced. So if you're wondering why US is fine under these export controls, US allowed Nvidia to sell H200 chips to China and in exchange, China \"unlocked\" the supply of raw materials like indium and gallium for U.S. commercial tech companies. This was Announcement No. 72, which suspended the strictest \"principle bans\" on \"gallium, germanium, and indium\" for U.S. civilian customers until nov 27, 2026. But implicitly, Microsoft, Lite, and others are treated more as commercial (even they're not,  MSFT does serve the US gov), since this was an exchange to allow China train its AI models the critical materials. Unfortunately, Japan has no leverage like the US on this.\n\n2) InP was already added to China's official dual use export control list prior to the 2026 announcement. Metal reports and company disclosures confirmed that InP were placed under export licensing requirements in February 2025.\n\nThe Jan 2026 announcement regarding Japan applies to all items on China's dual use export control list  (800-900 items). Since InP was already finalized as a dual-use item in 2025, it is automatically included in the new restrictions targeting Japan.\n\n$AXTI is allowed to ship to Western countries from export controls and optical makers but not to Japan. (Western hyperscalers are main target anyway)\n\nSumitomo would not have the materials able to make the finished products to ship at scale since China controls majority of the world's critical materials required for inp substrate prod. \n\nSo it's not quite the same position.",
       "url": "https://x.com/aleabitoreddit/status/2009169397168869831",
@@ -1568,8 +1581,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009176232416669998",
@@ -1578,12 +1591,12 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "effectively a monopoly for InP",
-        "single point of failure for AI buildout for major hyperscalers",
-        "China export control ban on Japan strengthens monopoly position",
-        "markets are starting to find out"
+        "single point of failure for AI buildout",
+        "bottleneck for all major hyperscalers",
+        "China export control ban on Japan strengthens position"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$AXTI",
       "text": "$AXTI is effectively a monopoly for InP, and the single point of failure for the AI buildout for:\n\n- Nvidia ($4.6T)\n- Microsoft ($3.59T)\n- Meta ($1.64T)\n- Amazon ($2.57T)\n- Google ($3.89T)\n\nafter China's export control ban on Japan.\n\nLooks like markets are starting to find out. https://t.co/rxGkcHYBtS",
       "url": "https://x.com/aleabitoreddit/status/2009176232416669998",
@@ -1594,8 +1607,8 @@
         "reposts": 37,
         "replies": 29
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009184670013907045",
@@ -1603,12 +1616,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "all leading tech companies are bottlenecked by this one small company",
-        "holds a monopolistic position in the InP bottleneck",
-        "curious how market will value the InP bottleneck in coming months"
+        "InP bottleneck monopoly position",
+        "world-leading tech companies bottlenecked by this single small company"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$AXTI",
       "text": "@beauty_oe 世界をリードするテック企業すべてが、これほど小さな一企業によってボトルネック状態に陥るというのは、恐らく史上初めてのことだろう。しかも、その企業は現在、そのボトルネックにおいて独占的な地位を築いている。\n\n今後数ヶ月で $AXTI がどのような結末を迎えるのか、そして市場がこの InP（インジウムリン）のボトルネックをどう評価するのか、非常に興味深い",
       "url": "https://x.com/aleabitoreddit/status/2009184670013907045",
@@ -1619,8 +1631,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009187551974707515",
@@ -1628,14 +1640,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "all world's trillion dollar hyperscalers are bottlenecked by this single company",
-        "monopoly position in that bottleneck post-export China control ban on Japan",
-        "AI supply chains estimated to hit critical state in 3-6 months when Sumitomo/JX run out of inventory",
-        "hyperscalers ramping up with no more capacity for photonic components",
-        "MSFT alone projected to take up double digits of entire InP supply chain output from Maia ramp in Q4 2026/2027 and hasn't started ramping yet"
+        "monopoly position in InP bottleneck post-export control ban",
+        "all hyperscalers bottlenecked by this tiny company",
+        "AI supply chains hit critical state in 3-6 months when Sumitomo/JX run out of inventory"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$AXTI",
       "text": "@teslabulltr This is probably the first time in history all the world's trillion dollar hyperscalers are bottlenecked by such a tiny company in $AXTI.\n\nAnd that company would have a monopoly position in that bottleneck post-export China control ban on Japan. \n\nI don't know how markets will evaluate this bottleneck, I'm just simply pointing it out. You should do your own research! \n\nHowever, I would estimate that AI supply chains hit a critical state in 3-6 months time when Sumitomo/JX start running out of inventory and when hyperscalers start to ramp up + realize there's no more capacity for photonic components (by second order effect bc of inp).\n\n$MSFT alone was projected to take up double digits of the entire InP supply chain output from Maia ramp in Q4 2026, 2027, and they haven't even started to ramp up yet.",
       "url": "https://x.com/aleabitoreddit/status/2009187551974707515",
@@ -1646,8 +1656,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009198276235448369",
@@ -1655,14 +1665,14 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "game theory supply bottleneck of a critical material controlled between all world's trillion dollar companies desperate for allocation",
-        "forward TAM and margins can increase exponentially like HBM once supply shortage kicks in",
-        "owns entire cost structure/supply chain so any indium price increases benefit their margins",
-        "Western supply chains pay premiums for substrates already",
-        "Japanese InP substrate supply chain got export controlled making AXTI the largest InP substrate provider when Sumitomo/JX materials run out",
-        "CEO said they were 40% of InP supply chain before export controls and before $100M fundraise to increase capacity",
-        "valued at only $1.3B while random quantum companies with no material impact are worth $10B+",
-        "purest asymmetry play as a monopoly bottleneck of entire AI supply chain"
+        "controls game theory supply bottleneck of critical material between all trillion dollar companies",
+        "TAM and margins increase exponentially like HBM once supply shortage kicks in",
+        "owns entire cost structure/supply chain so price increases benefit margins",
+        "largest InP substrate provider after Japan export controls",
+        "CEO said 40% of InP supply chain before export controls",
+        "purest asymmetry play which is now a monopoly",
+        "valued at $1.3B while random quantum companies with no material impact worth $10B+",
+        "7n indium feedstock prices spiking with bifurcation between Asian and Western supply chains inflating future margins"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -1676,8 +1686,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009200373496496218",
@@ -1685,13 +1695,13 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "7n indium prices exploding on SMM and trading at even higher premium in US markets",
-        "CEO said they control 40% of the InP supply chain",
-        "substrate supply chain would likely be monopolized by them after Japan export controls",
-        "one company bottlenecks hyperscaler optics, optical transceivers, LiDAR, optical modules, and silicon photonics laser dies"
+        "7n indium prices exploding on SMM and trades at even higher premium in US",
+        "CEO said they control 40% of InP supply chain",
+        "supply chain likely monopolized by them after Japan export controls",
+        "one company bottlenecks hyperscaler optics, transceivers, LiDAR, optical modules, silicon photonics"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$AXTI",
       "text": "@HenryKengie FYI 7n prices are exploding on SMM (and it trades at an even higher premium in US markets)\n\nIt's a critical material used in:\n- Hyperscaler optics (TPU pods, etc)\n- Optical transceivers (5g, data)\n- LiDAR (robotaxis, drones, military)\n-Optical Modules (interconnect clusters)\n- Silicon photonics laser dies (Nvidia’s future co-packaged optics and Intel/Broadcom SiPh engines use  InP CW laser arrays.)\n\n$AXTI's CEO said they control 40% of the InP majority of the supply chain. And the substrate supply chain would likely be monopolized by them after Japan export controls.\n\nSo one company bottlenecks everything above.",
       "url": "https://x.com/aleabitoreddit/status/2009200373496496218",
@@ -1702,8 +1712,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009321878071201826",
@@ -1711,13 +1721,13 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "controls InP material in a bottleneck scenario",
-        "7-N Indium prices parabolically exploding to daily ATHs in 2026",
+        "InP bottleneck play",
         "hyperscalers scrambling for material",
-        "live game theory scenario for materials controlled by AXTI"
+        "7-N Indium parabolically exploding reaching daily ATHs",
+        "game theory scenario for materials controlled by AXTI"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$AXTI",
       "text": "You're watching the InP \"bottleneck\" play out real time while hyperscalers scramble for material.\n\n7-N Indium (required for photonics) is now parabolically exploding on SMM, reaching daily ATHs in 2026. \n\nThis is a live \"Game Theory\" scenario for materials controlled by $AXTI. https://t.co/3YDMVfjGTx",
       "url": "https://x.com/aleabitoreddit/status/2009321878071201826",
@@ -1728,33 +1738,8 @@
         "reposts": 22,
         "replies": 30
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
-    },
-    {
-      "tweet_id": "2009326688963055667",
-      "date": "2026-01-08",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "exponential InP price increase expected to continue through 2026",
-        "hyperscalers outbidding each other for immediate supply",
-        "cost originally cheap as niche telecom product making demand surge more impactful"
-      ],
-      "is_risk": false,
-      "conviction": null,
-      "raw_mention": "$AXTI",
-      "text": "@ShortsHoward ~Dec 27th was just just the start of the exponential increase in price, and I expect this to continue increase over the course of this year.  \n\nEspecially as hyperscalers try and outbid each other for immediate supply when the cost itself is so cheap (originally niche telecom product).\n\nAlso first photo was a benchmark, this graph is more representative.",
-      "url": "https://x.com/aleabitoreddit/status/2009326688963055667",
-      "kind": "reply",
-      "engagement": {
-        "views": 2933,
-        "likes": 15,
-        "reposts": 0,
-        "replies": 0
-      },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009330986522448103",
@@ -1762,13 +1747,14 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "institutional movement and hedge funds recognizing AXTI's InP monopoly position",
-        "Northland $100m funding following the trade",
-        "99%+ of people unaware of bottleneck or company yet",
-        "InP price ramp only started 1.5 weeks ago with more to come in months"
+        "InP monopoly position",
+        "institutional movement and hedge funds entering trade",
+        "Northland $100m funding",
+        "99%+ of people not yet aware of bottleneck/company",
+        "InP prices expected to shoot up even higher"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$AXTI",
       "text": "@Rod2ZEROnBACK This is likely all institutional movement, and a lot of hedge funds realizing $AXTI's InP monopoly position + trying to enter the trade following Northland $100m funding.\n\nThis is completely novel development too playing out real time, and 99%+ of people aren't even aware of this bottleneck/company yet (my follower group on X is a bubble)\n\nThe real fun starts in a few months when InP prices shoot up even higher, since it only stated to ramp 1 1/2 weeks ago.",
       "url": "https://x.com/aleabitoreddit/status/2009330986522448103",
@@ -1779,8 +1765,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009353462006399199",
@@ -1788,12 +1774,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "1-2 year InP bottleneck for 2026-2027 remains intact",
-        "current ASIC/GPU architectures all dependent on InP",
-        "POET only a workaround from 2028 onward and still requires InP"
+        "1-2 year InP bottleneck for 2026-2027",
+        "everything currently dependent on InP",
+        "current ASIC/GPU architectures dependent on InP"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$AXTI",
       "text": "@AlphaAllegro $POET is basically nonexistent for the $AXTI 1-2 year InP bottleneck for 2026-2027 and current asic/GPU architectures but it’s one of the engineering workarounds to lower InP usage 2028 onward (still requires InP though) \n\nEg. Foxconn h2 orders, low yield, lack of hyperscaler qualification, and not in current architecture designs like TPU ironwood, and everything is currently dependent on InP.\n\nBut future designs might use it going out in 2028",
       "url": "https://x.com/aleabitoreddit/status/2009353462006399199",
@@ -1804,8 +1790,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009388507341754743",
@@ -1813,13 +1799,13 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "former earnings immaterial to bottleneck thesis",
-        "price shock from Dec 27th onwards matters for future margins",
-        "export control delays just defer revenue to Q1, not lost",
-        "InP demand squeeze starting Dec 27th is the key inflection"
+        "lowered Q4 revenue is immaterial to the bottleneck thesis",
+        "export control delays just defer revenue to Q1 2026, not lost revenue",
+        "cares about future earnings with inflated margins from pricing power",
+        "InP demand squeeze starting ~Dec 27th onwards is the real catalyst"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$AXTI",
       "text": "$AXTI drops 29.54% AHs on:\n\n- Lowered Q4 2025 revenue expectations to a range of $23M midpoint, from $27m-$30m.\n\nThoughts: this is immaterial to the bottleneck issue since price shock just came in end of ~December 27th into January (now). This was former earnings, we care about future earning projections with inflated margins from pricing power.\n\n- AXTI received export control delays and expect to recognize the revenue Q1 2026.\n\nThis just realizes the former backlog Q1.  This is not lost revenue. Export controls have known delays and risks.\n\nTLDR: former earnings are immaterial to thesis and these are just known delays that recognizes the same revenue next quarter. \n\nCare more about what happens at the inflection point of demand squeeze starting ~Dec 27th onwards, not former backlogged earnings before the InP craze.",
       "url": "https://x.com/aleabitoreddit/status/2009388507341754743",
@@ -1830,8 +1816,57 @@
         "reposts": 24,
         "replies": 52
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2009390847884947869",
+      "date": "2026-01-08",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "InP prices and shortages represent a huge squeeze",
+        "market is reacting to former revenue recognition from 2024 contracts while ignoring current dynamics"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "InP",
+      "text": "@Paulyy_K That decision is up to you. \n\nAll I’m saying is I’m laughing a bit because what we’re seeing with InP prices and shortages is a huge squeeze.\n\nYet people are reacting to former revenue recognition and contracts made in 2024 or q1-q3 last year (with 1q recognition deferred) https://t.co/5ScwrUYBDG",
+      "url": "https://x.com/aleabitoreddit/status/2009390847884947869",
+      "kind": "reply",
+      "engagement": {
+        "views": 3467,
+        "likes": 19,
+        "reposts": 1,
+        "replies": 1
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2009391744035770486",
+      "date": "2026-01-08",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "no change in the situation",
+        "supply shortage and price squeeze happening now",
+        "market reacting to old contracts and deferred revenue is amusing"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "AXTI (implied from context)",
+      "text": "@beauty_oe 状況に変化はありません。これは2024年や昨年の第1〜第3四半期に締結された古い契約と、1四半期分の収益繰延べ（デファラル）に対する滑稽な反応です。\n\n主要な供給不足や価格高騰（スクイーズ）が起きているのは、まさに今です。市場は通常、先を見越して動くものですから、供給不足が本格化する前の過去の四半期を気にしている様子は、見ていて面白いですね。",
+      "url": "https://x.com/aleabitoreddit/status/2009391744035770486",
+      "kind": "reply",
+      "engagement": {
+        "views": 5956,
+        "likes": 28,
+        "reposts": 1,
+        "replies": 1
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009394498200322144",
@@ -1839,9 +1874,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "bottleneck flows downstream to COHR, LITE, GOOGL, MSFT",
-        "will be monopoly status in a few quarters once Sumitomo/JX face material export control shortages",
-        "people illogically reacting to old earnings presents opportunity"
+        "will be monopoly status in a few quarters once Sumitomo/JX face shortages from material export controls",
+        "people illogically reacting to former earnings presents a great opportunity",
+        "bottleneck flows downstream"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -1855,8 +1890,32 @@
         "reposts": 1,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2009396976690057415",
+      "date": "2026-01-08",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "lack of understanding current/future InP bottlenecks presents an opportunity",
+        "people selling based on deferred revenue from old contracts"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "InP (AXTI implied)",
+      "text": "@TraderSmooth The lack of understanding current/future bottlenecks around InP presents an opportunity if people are selling based on deferred revenue from 2024 or q1-3 2025 contracts.",
+      "url": "https://x.com/aleabitoreddit/status/2009396976690057415",
+      "kind": "reply",
+      "engagement": {
+        "views": 1658,
+        "likes": 4,
+        "reposts": 1,
+        "replies": 1
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009398085680812084",
@@ -1864,11 +1923,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "sold off on old 2024-early 2025 contracts when forward estimates matter most during actual shortage/price squeeze",
-        "after hour lack of liquidity on small cap makes a difference"
+        "sold off on 2024-early 2025 contracts plus 1Q deferral when forward estimates matter most",
+        "actual shortage/price squeeze happening now",
+        "after-hours low liquidity on small cap exaggerates move"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$AXTI",
       "text": "@william_R2Rclub Yeah I was laughing a lot that $AXTI got sold off on 2024-early 2025 contracts + 1Q deferral when forward estimates matter the most during the actual shortage/price squeeze happening now. \n\nAfter hour lack of liquidity on a small cap makes quite a difference too",
       "url": "https://x.com/aleabitoreddit/status/2009398085680812084",
@@ -1879,8 +1939,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009399797271417276",
@@ -1888,11 +1948,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "seeing something different with SMM prices and increased future pricing power",
+        "seeing something different with SMM prices",
+        "increased future pricing power",
         "substrate bottleneck happening now"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$AXTI",
       "text": "@itsdsha It’s been a solid 13 days since posting about the substrate bottleneck happening now. \n\nI’m seeing something different with SMM prices and increased future pricing power with $AXTI, but people are free to sell if they want to react to deferred revenue from contracts made in 2024. https://t.co/Sxuw0B3rez",
       "url": "https://x.com/aleabitoreddit/status/2009399797271417276",
@@ -1903,29 +1964,34 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
-      "tweet_id": "2009404405964321080",
+      "tweet_id": "2009403259526791421",
       "date": "2026-01-08",
-      "stance": "neutral",
-      "mention_type": "background",
-      "reasons": [],
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "expecting a major InP shortage around now",
+        "game theory type allocations over next 2-3 quarters",
+        "presents a pretty good opportunity",
+        "expects algorithm stop loss hunting and retail panic selling first"
+      ],
       "is_risk": false,
-      "conviction": null,
-      "raw_mention": "contracts",
-      "text": "@4drant There’s no forward guidance. \n\nThis is solely a reaction to the contracts made a year ago with one quarter revenue deferral.",
-      "url": "https://x.com/aleabitoreddit/status/2009404405964321080",
+      "conviction": "high",
+      "raw_mention": "AXTI (implied from context)",
+      "text": "@dl123abc @william_R2Rclub Hmm, if I were an algorithm, I’d go stop loss hunting -&gt; trigger any retail short term panic sellers first.\n\nIm expecting a major InP shortage around now and game theory type allocations over the next 2-3 quarters, so this presents a pretty good opportunity.",
+      "url": "https://x.com/aleabitoreddit/status/2009403259526791421",
       "kind": "reply",
       "engagement": {
-        "views": 1103,
-        "likes": 1,
+        "views": 772,
+        "likes": 13,
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009407689349341557",
@@ -1933,10 +1999,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "market overreacting to contracted revenue deferral from over a year ago",
-        "no forward revenue guidance reported",
-        "cares more about real-time substrate bottleneck",
-        "increasing InP prices as structural driver"
+        "people are overreacting to contracted revenue deferral",
+        "no forward revenue guidance was reported",
+        "cares more about real-time substrate bottleneck and increasing InP prices than 2024 contracted revenue"
       ],
       "is_risk": false,
       "conviction": null,
@@ -1950,8 +2015,8 @@
         "reposts": 8,
         "replies": 35
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009409349819757031",
@@ -1959,11 +2024,11 @@
       "stance": "neutral",
       "mention_type": "background",
       "reasons": [
-        "low liquidity with $19-$21 spread"
+        "low liquidity with wide spread between $19 and $21"
       ],
-      "is_risk": true,
+      "is_risk": false,
       "conviction": null,
-      "raw_mention": "$AXTI",
+      "raw_mention": "It",
       "text": "@straightcash385 It’s low liquidity, the spread is $19 and $21 lol https://t.co/W1cQJYo6Hn",
       "url": "https://x.com/aleabitoreddit/status/2009409349819757031",
       "kind": "reply",
@@ -1973,8 +2038,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009411116724896223",
@@ -1982,12 +2047,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "levered to AI buildout that hit copper wall and shifting to photonics",
-        "hyperscalers securing EML capacity in 2025",
-        "InP substrates critical material for AI buildout with photonics"
+        "levered to AI buildout shifting from copper to photonics",
+        "hyperscalers started securing EML capacity in 2025",
+        "InP substrates is a critical material for AI buildout with photonics"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$AXTI",
       "text": "@Buncahn Sure, I’m not here to convince you I’m just posting my own thesis about $AXTI.\n\nThe nuance I’ll point out is that this is levered to the AI buildout that hit the copper wall and is shifting to photonics with newer interconnects and ASIC architectures.\n\nOnly later on in 2025 did hyperscalers really start securing EML capacity.\n\nInP substrates is a critical material required for the AI buildout with photonics, not previous copper generations or former architectures.",
       "url": "https://x.com/aleabitoreddit/status/2009411116724896223",
@@ -1998,8 +2063,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009423554547487107",
@@ -2008,13 +2073,15 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "secured $100m from Northland for capex expansion",
-        "InP substrates bottleneck AI industry deployment with photonics",
-        "InP substrate production is duopoly (Sumitomo, AXTI)",
-        "InP feedstock another bottleneck for substrate producers",
-        "Western hyperscalers paying markups on SMM prices since Dec 24th",
-        "effectively became monopoly after China export controls on Japan 2 days ago",
-        "7n prices hit ATHs",
-        "owns mines all the way to substrate production so captures price increases"
+        "InP substrates bottleneck for AI deployment with photonics",
+        "InP substrate production is a duopoly becoming monopoly after China export controls on Japan",
+        "InP feedstock is another bottleneck",
+        "western hyperscalers paying markups on top of SMM prices",
+        "effectively became monopoly after China export controls on Japan",
+        "competitor has est 3-6 months inventory",
+        "7n prices at ATHs and AXTI owns mines all the way to substrate production",
+        "price increases and bifurcation in premiums increase bottom line",
+        "deferred contracted revenue from 2024 not material"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -2028,8 +2095,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009424935765295556",
@@ -2037,8 +2104,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "market mispricing by focusing on 2024 contracted backlog revenue recognition timing over current structural demand",
-        "AH price movement driven by low liquidity not fundamentals (e.g. $2 spread, one 100-share sale drops price 10%)"
+        "finds it funny market would price in revenue recognition timing from 2024 backlog over current structural demand",
+        "AH movement is just low liquidity with $2 spread"
       ],
       "is_risk": false,
       "conviction": null,
@@ -2052,8 +2119,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009429709860507753",
@@ -2061,14 +2128,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "InP and AXTI will likely be next bottleneck in upcoming months",
-        "existing shortages from NVDA EML H1 2025",
-        "MSFT requires world's double digit InP output for H2 2026-2027 program",
-        "TAM might squeeze from few hundred million to few billion or tens of billions",
-        "hyperscalers like GOOGL desperate for allocation so TPU program doesn't stall",
+        "next bottleneck in upcoming months based on existing InP shortages",
         "buying into bit-allocation, feedstock control, and bottlenecks",
         "$1.3B company bottlenecking entire AI buildout looks cheap",
-        "expecting extremely large price squeeze (seeing it now on SMM)",
+        "expects extremely large price squeeze increasing bottom line",
         "single point of failure if China continues export controls on Japan"
       ],
       "is_risk": false,
@@ -2083,8 +2146,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009436652184457529",
@@ -2092,10 +2155,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "controls both quantity (regulated monopoly) and price (monopoly at scale) for AI buildout with photonics after China export control",
-        "death of duopoly changed former pricing structure",
-        "TAM goes from few hundred million to $10B+ as hyperscalers would pay billions so programs don't stall",
-        "controls majority of supply chain and price structure of material used by every hyperscaler",
+        "controls both quantity (regulated monopoly) and price for AI buildout with photonics",
+        "death of duopoly changed pricing structure",
+        "TAM could go from few hundred million to $10B+ as hyperscalers would pay billions to prevent program stalls",
+        "controls majority of supply chain and price structure",
         "places lot more value than $1.3B market cap"
       ],
       "is_risk": false,
@@ -2110,8 +2173,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009439229542322256",
@@ -2119,14 +2182,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "controls the price",
-        "controls majority of InP supply chain",
-        "can control pricing by controlling supply chain",
-        "can increase prices 100%+, 500%, 2000% and hyperscalers would still pay because no alternative",
-        "price increase only few percent increase on TPU cluster BOM because price was negligible before"
+        "controls supply chain so can control pricing",
+        "can increase prices 100%-2000% and hyperscalers would still pay because no alternative",
+        "price increase only a few percent on TPU cluster BOM"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$AXTI",
       "text": "@MRWahdy @beauty_oe ^ clarification, $AXTI controls the price. Regarding quantity, that was referring to controlling majority of the InP supply chain. \n\nThey have a certain amount of inventory, which obviously is controlled by China for permits.   \n\nPoint was that can double, triple, capacity, but if you control both the supply chain, you can control pricing.  You can have finite material and increase prices 100%+, 500%, 2000%, and hyperscalers would still pay because there's no alternative.   \n\nEven that much increase would only be a few percent increase on TPU cluster BOM because the price was so negligible before.",
       "url": "https://x.com/aleabitoreddit/status/2009439229542322256",
@@ -2137,8 +2198,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009446195933139114",
@@ -2146,15 +2207,15 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "sits in middle of two different bottlenecks",
-        "InP Feedstock duopoly (Vital, AXTI with China controlling 78-80% supply)",
-        "InP Substrates monopoly (AXTI) after export controls 2 days ago",
-        "becomes monopoly in 3-6 months as Sumitomo lacks materials to produce at scale",
-        "owns mineral mines all the way to refining and substrate production",
-        "controls supply chain and cost structure translating to margins",
-        "TAM could inflate from few hundred million to $10B+ for AI buildout with photonics",
-        "$1B company controls two different bottlenecks for AI buildout",
-        "buying into bottleneck like HBM with MU and SNDK"
+        "sits in middle of two different bottlenecks (feedstock and substrates)",
+        "InP substrate monopoly after export controls restrict Sumitomo and Japanese companies",
+        "becomes monopoly in 3-6 months as competitor inventory depletes",
+        "game theory on price squeezes based on limited materials",
+        "owns mineral mines all the way to substrate production and supply chain + cost structure",
+        "translates into margins",
+        "TAM could inflate from few hundred million to $10B+",
+        "$1B company controls two bottlenecks for AI buildout",
+        "buying into bottleneck like HBM at the start"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -2168,16 +2229,16 @@
         "reposts": 2,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009555729645211855",
       "date": "2026-01-09",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
+      "stance": "neutral",
+      "mention_type": "background",
       "reasons": [
-        "contributed to his gains"
+        "smaller parts of portfolio"
       ],
       "is_risk": false,
       "conviction": "low",
@@ -2191,18 +2252,17 @@
         "reposts": 1,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009567495796265302",
       "date": "2026-01-09",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
+      "stance": "neutral",
+      "mention_type": "background",
       "reasons": [
-        "new monopolistic bottleneck position",
         "$100m funding to double capacity",
-        "could deliver substrates at scale to western suppliers"
+        "new monopolistic bottleneck position"
       ],
       "is_risk": false,
       "conviction": null,
@@ -2216,8 +2276,8 @@
         "reposts": 14,
         "replies": 18
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009575813793116456",
@@ -2225,11 +2285,13 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "controls flow of InP substrates after Japanese competitors export banned",
+        "two biggest Japanese competitors got export control banned",
+        "controls the flow of InP substrates and materials",
         "monopolistic position in two different bottlenecks",
-        "TAM goes from few hundred million to few billions or $10B+",
-        "MC only $1.2B for monopolistic position",
-        "can increase prices 3000%+ with minimal BOM impact"
+        "TAM goes from few hundred million to few billions or $10B+ when hyperscalers fight for allocations",
+        "MC is still only $1.2Bish for a monopolistic position",
+        "pricing power based on critical resource with finite supply",
+        "don't need to produce more material, just increase prices"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -2243,8 +2305,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009579146863931835",
@@ -2252,9 +2314,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
+        "extreme bottleneck over the next few months",
         "$1B effective monopoly bottlenecks $15T+ AI buildout",
-        "expecting HBM scenario",
-        "buying into bottleneck through purest exposure"
+        "buying into the bottleneck through purest exposure way possible",
+        "expecting an HBM scenario"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -2268,16 +2331,17 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010260199605506440",
       "date": "2026-01-11",
-      "stance": "neutral",
-      "mention_type": "comparison",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
       "reasons": [
-        "sold off 40% because of delayed 2024 contracted earnings when it's 2026"
+        "sold off 40% because of delayed 2024 contracted earnings when it's 2026",
+        "markets correct themselves eventually"
       ],
       "is_risk": false,
       "conviction": null,
@@ -2291,8 +2355,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010651116699029710",
@@ -2300,14 +2364,15 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "recent drop on export control issues is widely misinterpreted — double edged sword that benefits AXT",
-        "export controls cement AXT's control over InP substrate market in medium term",
-        "main Japanese competitors Sumitomo and JX face material shortage ceiling",
-        "if Sumitomo runs out of feedstock, Western AI customers will have zero alternative but to buy from AXTI",
-        "may become the main source for InP wafers at scale"
+        "controls nearly 80% of InP market with Sumitomo",
+        "export controls are double edged sword benefiting AXT medium term",
+        "Japanese competitors Sumitomo and JX face ceiling from material shortages",
+        "may become main source for InP wafers at scale",
+        "short-term revenue loss but medium-term control over InP substrate market",
+        "Western AI customers will have zero alternative but to buy from AXTI if Sumitomo runs out of feedstock"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": "high",
       "raw_mention": "$AXTI",
       "text": "Markets are witnessing a supply shock happen real time with InP. \n\nHere's the timeline this week: \n\nFastmarket Research, 2025: \n\nUS-based $AXTI and Japan's Sumitomo control nearly 80% of the InP market. \n\nChina Commerce Ministry - Jan 6 2026: China announces new export restrictions on \"dual-use\" items to Japan.\n\nJiji via Nippon - Jan 9, 2026: \n\nChinese suppliers have started informing Japanese clients: \"We can no longer export Rare Metals (Japanese group of 31 minerals like Gallium, Indium, Germanium) to Japan.\"\n\nLiu Junhong CGTN - Jan 10th, 2026:\n\n\"When it comes to strategic materials... Japan's dependence on China is relatively high\"\n\nSMM - Jan 12th, 2026:\n\n7N Indium hits record high on SMM at 812.45 ~ 901.04 USD/KG.\n\nCommentary: \n\n$AXTI recently dropped on facing export control issues on pre-earnings this week.\n\nHowever, this is widely misinterpreted, since this a double edged sword that benefits AXT.  \n\nRecent export issues cements AXT's control over the InP substrate market in the medium term from short-term revenue loss (from the inability to export to Japan). \n\nExport control bans hurt their main Japanese competitors in Sumitomo and JX are impacted the most, as they may face a ceiling in from material shortages. \n\nIf Sumitomo runs out of feedstock in a few months, Western AI customers (Nvidia, Broadcom, Lumentum, etc.) will have zero alternative but to buy from AXTI, regardless of the price or permit delays. \n\nWe're already seeing feedstock prices explode real-time as companies scramble for long term inventory. \n\nAXTI may become the main source for InP wafers at scale and markets are watching this bottleneck unfold real-time.",
       "url": "https://x.com/aleabitoreddit/status/2010651116699029710",
@@ -2318,8 +2383,8 @@
         "reposts": 17,
         "replies": 11
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010654358959247376",
@@ -2327,7 +2392,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "has always liked AXTI"
+        "says he has always liked AXTI"
       ],
       "is_risk": false,
       "conviction": null,
@@ -2341,8 +2406,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010658570690298043",
@@ -2351,11 +2416,11 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "main beneficiary of China's export controls on Japan",
-        "double edged sword: short term revenue hit but medium-longer term control over supply chains",
-        "IQE still buys InP substrates from AXTI to grow crystals, so bottleneck doesn't change"
+        "short term revenue hit but medium-longer term control over supply chains",
+        "IQE still buys InP substrates from AXTI so bottleneck doesn't change"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$AXTI",
       "text": "@jdrewburke $AXTI is the main beneficiary of China's export controls on Japan as a double edged sword from short term revenue hit but medium-longer term control over supply chains. \n\nAs you mentioned the likely Japanese supply chain shock threw IQE a lifeline, since the smaller player became one of the only \"safe\" Western epi-foundry. And they likely got record demand as mentioned from their earnings because hyperscalers are fighting to secure any non-Chinese capacity. \n\nHowever, funny thing is they still buy the InP substrates from $AXTI to grow the crystals on top (AXT listes IQE as one of the main overseas customers for InP substrates), so bottleneck doesn't exactly change.",
       "url": "https://x.com/aleabitoreddit/status/2010658570690298043",
@@ -2366,8 +2431,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010667066202702177",
@@ -2376,13 +2441,12 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "Craig-Hallum re-rates to Buy with $26 PT, 160% increase",
-        "benefits from trifecta of dynamics including constraints on competitors Sumitomo and JX",
-        "increasing capacity after capital raise",
-        "EPS pegged at $0.75 by 2028 on conservative 30x multiple",
-        "critical defense/AI supply chains can trade at 50x-60x implying $37.50 PT",
-        "if Supply Shock thesis holds could become strategic monopoly with massive re-rating",
-        "step-ladder valuation with analysts expected to walk target up",
-        "institutions validating the thesis"
+        "trifecta of dynamics constraining competitors while increasing AXT capacity",
+        "#1 Semiconductor Analyst pegs $0.75 EPS by 2028 with 30x multiple",
+        "could trade at 50x-60x if valued like critical defense/AI supply chain companies",
+        "Supply Shock thesis could make it a strategic monopoly with massive re-rating",
+        "step-ladder valuation where analysts walk the target up",
+        "institutions are validating the thesis"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -2396,8 +2460,29 @@
         "reposts": 16,
         "replies": 15
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2010667066202702177",
+      "date": "2026-01-12",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AXT",
+      "text": "Just in: Craig-Hallum re-rates $AXTI to \"Buy\" with a $26 price target, a 160% increase. \n\nThey stated AXT benefits from a \"trifecta of dynamics\" that put:\n\n- constraints on competitors (Sumitomo, JX) \n- while increasing capacity after Northland's Capital raise.\n \nShannon, ranked as the #1 Semiconductor Analyst on WSJ, pegs AXT at $0.75 EPS by 2028, applying a 30x multiple by assuming AXT is a \"normal\" growth company. \n\nCritical defense/AI supply chains (like Heico or specialized chip firms) can easily trade at 50x-60x, which would set $AXTI at a $37.50 PT (for a growth company).\n\nHowever, if the \"Supply Shock\" thesis holds and $AXT becomes a strategic monopoly, the math completely breaks like $MU or Sandisk, and we might see a massive re-rating upward. \n\nThis is a \"Step-Ladder\" valuation, analysts typically walk the target up. If $AXTI goes to $28 next week, he will likely issue a new note raising it to $32.\n\nInstitutions are validating the thesis, but are trailing both the price and alpha on X.",
+      "url": "https://x.com/aleabitoreddit/status/2010667066202702177",
+      "kind": "post",
+      "engagement": {
+        "views": 61020,
+        "likes": 243,
+        "reposts": 16,
+        "replies": 15
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010669985291522392",
@@ -2405,11 +2490,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "posted thesis at the start before 50%+ move",
-        "now has institutional validation after 100%+ move"
+        "posted early, now has institutional validation after 100%+ move",
+        "not a random pump and dump stock"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$AXTI",
       "text": "@trodoszalay Yep, same as $VLN. The most money to be made is when you discover things others don't. \n\nI feel like everyone complains about \"Why didn't you tell me about this stock before it went up 400%\" as people pile on at the top like $MU. \n\nThen complain when I post about stuff like $AIRO, $AXTI, $OSS, or $VLN at the start and they go up 50%+ the next week. \n\nRetail thinks $AXTI is some random pump and dump stock, but now you have institutional validation after a 100%+ move.\n\nAgain, alpha is when you discover things majority of markets miss. You miss out by the time you wait for institutions to tell you to buy.",
       "url": "https://x.com/aleabitoreddit/status/2010669985291522392",
@@ -2420,8 +2505,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010670575228964938",
@@ -2429,8 +2514,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "main thesis is around InP bottleneck",
-        "massive supply shortage expected in 2-3 months"
+        "main thesis is around InP bottleneck and massive supply shortage in 2-3 months",
+        "claims credit as one of the first to publicly post the thesis"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -2444,8 +2529,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010670771698561130",
@@ -2453,9 +2538,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "institutional validation is conservative",
-        "main thesis is around InP bottleneck",
-        "massive supply shortage expected in 2-3 months"
+        "institutional validation with very conservative PTs",
+        "main thesis is around InP bottleneck and massive supply shortage in 2-3 months"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -2469,19 +2553,18 @@
         "reposts": 1,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010748026365829362",
       "date": "2026-01-12",
       "stance": "neutral",
-      "mention_type": "explicit_stance",
+      "mention_type": "background",
       "reasons": [
-        "swings 50% every day",
-        "high volatility - could be $35 or $12.5 tomorrow"
+        "swings 50% every day, highly volatile"
       ],
-      "is_risk": true,
+      "is_risk": false,
       "conviction": null,
       "raw_mention": "$AXTI",
       "text": "@SharesGem $AXTI literally swings 50% every day. Could be $35 tomorrow or $12.5",
@@ -2493,18 +2576,15 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010891219581423678",
       "date": "2026-01-12",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "stockpiles of InP may be insufficient for the scale required by hyperscalers building out photonics",
-        "analysts underestimating supply constraints mirrors memory capacity mistake in 2024 where prices became extremely inelastic"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AXTI",
@@ -2517,8 +2597,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010916127925293347",
@@ -2538,8 +2618,8 @@
         "reposts": 29,
         "replies": 8
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011323464305848672",
@@ -2547,7 +2627,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "up 60%"
+        "up 60%, one of his picks"
       ],
       "is_risk": false,
       "conviction": null,
@@ -2561,8 +2641,8 @@
         "reposts": 8,
         "replies": 89
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011335633445286396",
@@ -2582,17 +2662,15 @@
         "reposts": 6,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011499385285460336",
       "date": "2026-01-14",
       "stance": "neutral",
       "mention_type": "comparison",
-      "reasons": [
-        "cited as analogy for LPTH's bottleneck-fix monopoly role (InP comparison)"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AXTI",
@@ -2605,17 +2683,15 @@
         "reposts": 1,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011501137258823738",
       "date": "2026-01-14",
       "stance": "neutral",
       "mention_type": "comparison",
-      "reasons": [
-        "cited as analogy for LPTH's role as a US-based critical material supplier"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AXTI",
@@ -2628,17 +2704,15 @@
         "reposts": 1,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011544724847673787",
       "date": "2026-01-14",
       "stance": "neutral",
       "mention_type": "comparison",
-      "reasons": [
-        "cited as less safe than LPTH due to non-US supply chain"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AXTI",
@@ -2651,8 +2725,8 @@
         "reposts": 2,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011892589109395927",
@@ -2660,7 +2734,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "AI bottleneck",
+        "AI bottleneck play",
         "up 78% since posting and 20% today"
       ],
       "is_risk": false,
@@ -2675,16 +2749,16 @@
         "reposts": 2,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011924749342089527",
       "date": "2026-01-15",
       "stance": "bullish",
-      "mention_type": "background",
+      "mention_type": "explicit_stance",
       "reasons": [
-        "posted thesis at the start before any moment happens"
+        "posted thesis at the start before movement happened"
       ],
       "is_risk": false,
       "conviction": null,
@@ -2698,8 +2772,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012225583741063567",
@@ -2707,10 +2781,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "for AI bottlenecks"
+        "AI bottlenecks thesis",
+        "holding share position for a year for re-rating"
       ],
       "is_risk": false,
-      "conviction": "high",
+      "conviction": "medium",
       "raw_mention": "$AXTI",
       "text": "@goosedf Yes? $AIRO for drones, $OSS for edge, $SSYS for robotics, $AXTI for AI bottlenecks, $LPTH for defense bottlenecks and $VLN for mispricing were the most recent posts. \n\nI’m holding my share positions for a year since re-rating doesn’t happen in a day or week. Might take months to play out.",
       "url": "https://x.com/aleabitoreddit/status/2012225583741063567",
@@ -2721,8 +2796,8 @@
         "reposts": 2,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012436515868352958",
@@ -2731,9 +2806,8 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "controls ~80% of InP supply chain with Sumitomo",
-        "EO forcing HieFo divestiture validates InP bottleneck thesis",
-        "US government views InP supply chains as national security priority",
-        "InP bottleneck increases near term benefiting InP supply chains and substrates"
+        "InP bottleneck increase near term",
+        "InP supply chains + substrates"
       ],
       "is_risk": false,
       "conviction": null,
@@ -2747,8 +2821,8 @@
         "reposts": 29,
         "replies": 21
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012438404311740553",
@@ -2756,12 +2830,13 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "Craig-Hallum $26 PT Buy analyst report reaffirms thesis",
-        "Trump executive order for InP supply control reaffirms thesis",
-        "plays a critical role in AI buildout alongside InP"
+        "Craig-Hallum $26 PT Buy rating reaffirms thesis",
+        "critical role in AI buildout",
+        "Trump EO validates InP supply chain importance",
+        "was one of the only people to mention it early"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$AXTI",
       "text": "@itsakek It's a neutral development. \n\nCraig-Hallum's $AXTI $26 PT \"Buy\" analyst report and Trump's executive order for InP supply control is just reaffirming the thesis. \n\nMajority of people thought AXT was just a pump/dump $600m penny stock a month ago at $14 since I was one of the only people to mention it. \n\nFollow-up news like this just validates how critical of a role both InP and AXT plays in the AI buildout.",
       "url": "https://x.com/aleabitoreddit/status/2012438404311740553",
@@ -2772,8 +2847,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012458647192994053",
@@ -2781,9 +2856,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "still holds",
-        "intended as 1 year hold",
-        "does DD on it"
+        "still holds shares",
+        "meant to be 1 year hold"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -2797,8 +2871,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012462671019561407",
@@ -2806,11 +2880,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "no short/medium term impact but leans slightly positive due to 6 month limbo from EO",
-        "US government now views InP supply chains as national security priority validating InP bottleneck thesis"
+        "leans slightly positive due to 6-month limbo from EO",
+        "US government views InP supply chains as national security priority",
+        "validates InP bottleneck thesis"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$AXTI",
       "text": "@KAnalyser1 Good question, I didn't put 1+1 together at the time and missed the one-hop relational impact with $AXTI.    \n\nMy take is basically, no impact short/medium term, but leans slightly positive for AXT since there's a 6 month limbo. Emcore is very tiny in comparison, but US gov is trying to gain control of any little % of the upstream control. \n\nThis was just affirmation that US government now views InP supply chains as a national security priority and is validating the InP bottlenek thesis I put out earlier. \n\nTLDR: EOs seizing InP supply chain assets was a move to regain independence from China long term, but short-medium term bottleneck is even more severe with $ATI",
       "url": "https://x.com/aleabitoreddit/status/2012462671019561407",
@@ -2821,16 +2896,39 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
-      "tweet_id": "2012522511741985059",
+      "tweet_id": "2012462671019561407",
       "date": "2026-01-17",
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "benefits from the bottleneck itself"
+        "short-medium term bottleneck is even more severe"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$ATI",
+      "text": "@KAnalyser1 Good question, I didn't put 1+1 together at the time and missed the one-hop relational impact with $AXTI.    \n\nMy take is basically, no impact short/medium term, but leans slightly positive for AXT since there's a 6 month limbo. Emcore is very tiny in comparison, but US gov is trying to gain control of any little % of the upstream control. \n\nThis was just affirmation that US government now views InP supply chains as a national security priority and is validating the InP bottlenek thesis I put out earlier. \n\nTLDR: EOs seizing InP supply chain assets was a move to regain independence from China long term, but short-medium term bottleneck is even more severe with $ATI",
+      "url": "https://x.com/aleabitoreddit/status/2012462671019561407",
+      "kind": "reply",
+      "engagement": {
+        "views": 2722,
+        "likes": 19,
+        "reposts": 0,
+        "replies": 0
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2012522511741985059",
+      "date": "2026-01-17",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [
+        "bottleneck player"
       ],
       "is_risk": false,
       "conviction": null,
@@ -2844,17 +2942,15 @@
         "reposts": 2,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012852391654326506",
       "date": "2026-01-18",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "example of novel information discovery around InP bottlenecks"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AXTI",
@@ -2867,8 +2963,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012957864026087525",
@@ -2876,9 +2972,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "under the radar small cap bottleneck play",
-        "chose as top pick after research",
-        "wouldn't be surprised if went up 5x over the next year"
+        "chose as top pick from bottleneck research"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -2892,8 +2986,8 @@
         "reposts": 92,
         "replies": 49
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012961292966117410",
@@ -2901,9 +2995,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "bottleneck is very large",
-        "AI is a big sector so doesn't need to be spread across",
-        "InP is used in many other sectors too"
+        "bottleneck is so big",
+        "AI is such a big sector",
+        "InP used in many other sectors too"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -2917,8 +3011,8 @@
         "reposts": 29,
         "replies": 7
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013247566326968433",
@@ -2938,8 +3032,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013644584841101483",
@@ -2947,7 +3041,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "holds rather than trades due to random 20% moves"
+        "holds instead of trading volatility"
       ],
       "is_risk": false,
       "conviction": null,
@@ -2961,17 +3055,15 @@
         "reposts": 1,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013668604022083930",
       "date": "2026-01-20",
-      "stance": "bullish",
+      "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "up 70% since he posted thesis and still keeps going up"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AXTI",
@@ -2984,16 +3076,17 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013998753422705140",
       "date": "2026-01-21",
       "stance": "neutral",
-      "mention_type": "background",
+      "mention_type": "explicit_stance",
       "reasons": [
-        "has random 30% movements"
+        "normal volatility",
+        "random 30% movements"
       ],
       "is_risk": false,
       "conviction": null,
@@ -3007,20 +3100,17 @@
         "reposts": 1,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2014389183905964248",
       "date": "2026-01-22",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "photonics InP bottleneck play in a few months time",
-        "watching how many months of feedstock/precursors Western companies have post export-ban"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": null,
       "raw_mention": "$AXTI",
       "text": "@0x_ysn Not really related to memory since $AXTI is for photonics inp bottleneck in a few months time.\n\nWe’ll see how many months of feedstock/precursors Western companies have + use up post export-ban 2 weeks ago.",
       "url": "https://x.com/aleabitoreddit/status/2014389183905964248",
@@ -3031,8 +3121,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2014500318827168215",
@@ -3040,10 +3130,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "increases revenue from capacity expansion from Northland's $100m raise",
-        "owns both supply chains for upstream materials and substrate production",
+        "if moonshot fails, revenue still increases from capacity expansion via Northland $100m raise and gets re-rated anyway",
+        "owns both upstream precursor/feedstock supply chains and substrate production",
         "incredibly defensible position",
-        "capacity expansion should be fully absorbed"
+        "~80% of precursors come from China, it's a physics problem",
+        "leading in substrates alongside Sumitomo",
+        "capacity expansion should be fully absorbed given massive InP per module needs for Rubin and networking"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -3057,8 +3149,8 @@
         "reposts": 2,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2014808195014001018",
@@ -3080,8 +3172,8 @@
         "reposts": 16,
         "replies": 22
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015096496019112151",
@@ -3089,9 +3181,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "bottlenecks for InP / Germanium",
+        "bottleneck for InP/Germanium",
         "huge theme going into 2026",
-        "low downside risk due to capacity ramp"
+        "waiting game for supply chain disruption",
+        "low downside risk due to capacity ramp -> revenue increase"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -3105,8 +3198,8 @@
         "reposts": 100,
         "replies": 83
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016934299568853309",
@@ -3115,7 +3208,7 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "photonics ramping up",
-        "7n InP prices going higher",
+        "7n InP prices are going higher",
         "China export controls on Japan will tighten inventory"
       ],
       "is_risk": false,
@@ -3130,8 +3223,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2017269310042124617",
@@ -3141,8 +3234,8 @@
       "reasons": [
         "extremely bullish",
         "net buyer at these levels",
-        "7n indium prices increase every day",
-        "photonics ramp are incredible if you look at 2027-2027"
+        "7n indium prices increasing every day",
+        "photonics ramp incredible looking at 2027"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -3156,8 +3249,8 @@
         "reposts": 0,
         "replies": 5
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2017278999727378786",
@@ -3165,13 +3258,14 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "7N Indium prices hit ATHs with no signs of slowing",
-        "western hyperscalers soaking up InP substrates and precursors supply for AI buildout",
-        "supply shock feels inevitable",
-        "waiting game for upstream suppliers to increase prices like NAND"
+        "InP substrates/precursors bottleneck playing out in real time",
+        "7N Indium prices hitting ATHs",
+        "Western hyperscalers soaking up all InP supply for AI buildout",
+        "waiting game for upstream suppliers to increase prices",
+        "supply shock feels inevitable"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$AXTI",
       "text": "7N Indium prices have just hit ATHs on SMM with zero signs of slowing down.  \n\nThe $AXTI bottleneck is playing out real time.\n\nWestern hyperscalers appear to be soaking up every bit of the InP substrates + precursors supply for the AI buildout.  \n\nLike $SNDK and $MU, it's just a waiting game for the upstream suppliers like AXT to increase prices (like NAND). \n\nThe supply shock feels inevitable.",
       "url": "https://x.com/aleabitoreddit/status/2017278999727378786",
@@ -3182,8 +3276,8 @@
         "reposts": 19,
         "replies": 19
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2017285527310094713",
@@ -3191,8 +3285,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "closest thing to NAND/HBM type price squeeze play for photonics",
-        "pure upside maintained over LPTH"
+        "next closest thing to NAND/HBM type price squeeze play for photonics",
+        "pure upside he'd maintain AXT over LPTH"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -3206,32 +3300,8 @@
         "reposts": 3,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
-    },
-    {
-      "tweet_id": "2017294279987892450",
-      "date": "2026-01-30",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "upstream precursors missed by market despite staggering photonics buildout growth",
-        "expecting upstream precursors to be a major bottleneck"
-      ],
-      "is_risk": false,
-      "conviction": null,
-      "raw_mention": "$AXTI",
-      "text": "@PhotonCap Absolutely, when you map the photonics buildout and projected growth with $LITE and others, people can just see how staggering it is.\n\nBut they miss upstream precursors that make it all happen, which is why I’m expecting it to be a major bottleneck.",
-      "url": "https://x.com/aleabitoreddit/status/2017294279987892450",
-      "kind": "reply",
-      "engagement": {
-        "views": 2153,
-        "likes": 8,
-        "reposts": 1,
-        "replies": 1
-      },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018501667076084190",
@@ -11827,6 +11897,97 @@
         "likes": 1641,
         "reposts": 71,
         "replies": 134
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063465386960736396",
+      "date": "2026-06-06",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AXTI",
+      "text": "I think my personal style of investing is a bit different, just some reflection:\n\nIt's inherently discretionary, based on stuff markets don't know yet. And a culmination of life experiences?\n\nIf you look at $AXTI, $RPI, $SIVE, $IQE and others. \n\nLot of it is guessing on https://t.co/5GGFN54PjZ",
+      "url": "https://x.com/aleabitoreddit/status/2063465386960736396",
+      "kind": "post",
+      "engagement": {
+        "views": 1183820,
+        "likes": 3140,
+        "reposts": 302,
+        "replies": 237
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064714994403742179",
+      "date": "2026-06-10",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "still holds position"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AXTI",
+      "text": "@MosheFeins48329 Still have my $AXTI, and positions in others I haven’t mentioned as much like $ALRIB or $LPK.\n\nAxt different reason though, one part is dilution concerns, so there’s some newer float structure risks.\n\nOther part is not wanting to cause more export controls by talking about some",
+      "url": "https://x.com/aleabitoreddit/status/2064714994403742179",
+      "kind": "reply",
+      "engagement": {
+        "views": 31850,
+        "likes": 137,
+        "reposts": 4,
+        "replies": 6
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064942505553170886",
+      "date": "2026-06-11",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "China's control over InP threatens AI DC buildout",
+        "AXTI is a major point of failure in the supply chain"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$AXTI",
+      "text": "Oh look… a new report by Reuters shows China’s control over InP threatens the AI DC buildout.\n\nWho could have guessed $AXTI would have been a major point of failure? https://t.co/mu9sOWGHN6 https://t.co/nm5cMhxz01",
+      "url": "https://x.com/aleabitoreddit/status/2064942505553170886",
+      "kind": "post",
+      "engagement": {
+        "views": 746563,
+        "likes": 1086,
+        "reposts": 72,
+        "replies": 240
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064943854068060238",
+      "date": "2026-06-11",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "thesis being validated by Reuters and Chinese/US trade negotiations"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$AXTI",
+      "text": "@Ud197601 Everyone kept calling $AXTI a scam, and my thesis BS on $RDDT.\n\nGlad to see my thesis being validated by Reuters and Chinese/US trade negotiations lol.",
+      "url": "https://x.com/aleabitoreddit/status/2064943854068060238",
+      "kind": "reply",
+      "engagement": {
+        "views": 32979,
+        "likes": 110,
+        "reposts": 0,
+        "replies": 9
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

@@ -5,8 +5,8 @@
   "exchange": "US",
   "currency": "USD",
   "ticker_mapped": false,
-  "company": null,
-  "industry": null,
+  "company": "Uber",
+  "industry": "Mobility/Delivery Platform",
   "thesis_summary": null,
   "first_mention": "2025-11-24",
   "last_mention": "2026-03-01",
@@ -633,8 +633,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016365769203057034",
@@ -654,8 +654,8 @@
         "reposts": 2,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2028112194949513586",

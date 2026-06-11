@@ -1,6 +1,6 @@
 {
   "ticker": "TSLA",
-  "cashtag": "Tesla Optimus",
+  "cashtag": "$TSLA",
   "price_symbol": "TSLA",
   "exchange": "US",
   "currency": "USD",
@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2025-08-25",
-  "last_mention": "2026-06-04",
-  "total_mentions": 93,
+  "last_mention": "2026-06-08",
+  "total_mentions": 94,
   "mentions": [
     {
       "tweet_id": "1960080191876702263",
@@ -817,13 +817,9 @@
     {
       "tweet_id": "2006709693012467774",
       "date": "2026-01-01",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "evolution target for soft robotics",
-        "distributed computing via Tesla Compute Cloud thesis",
-        "copper interconnect life extension adjacency"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$TSLA",
@@ -836,17 +832,15 @@
         "reposts": 119,
         "replies": 30
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2006779022509031445",
       "date": "2026-01-01",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "robotics is just a division, hard to get direct exposure"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$TSLA",
@@ -859,17 +853,15 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008157864792080568",
       "date": "2026-01-05",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "stopped showing up as much last quarter"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$TSLA",
@@ -882,17 +874,15 @@
         "reposts": 1,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012071822481900030",
       "date": "2026-01-16",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "actuators supply chain still in China via Sanhua ($685M order)"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$TSLA",
@@ -905,17 +895,15 @@
         "reposts": 101,
         "replies": 49
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012078220603191472",
       "date": "2026-01-16",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "vertically integrates its own software via Dojo AI5 and XAI"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$TSLA",
@@ -928,17 +916,15 @@
         "reposts": 2,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012294901694681525",
       "date": "2026-01-16",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "VGP inferred as Optimus supplier"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$TSLA",
@@ -951,8 +937,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012518524087144515",
@@ -972,17 +958,15 @@
         "reposts": 1,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012521815944409328",
       "date": "2026-01-17",
       "stance": "neutral",
-      "mention_type": "background",
-      "reasons": [
-        "majority of people thought TSLA would maintain its leadership when it went to China in 2019"
-      ],
+      "mention_type": "comparison",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$TSLA",
@@ -995,8 +979,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012585079680225595",
@@ -1016,8 +1000,8 @@
         "reposts": 0,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013664829282599094",
@@ -1037,8 +1021,8 @@
         "reposts": 51,
         "replies": 35
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013721417481887923",
@@ -1058,8 +1042,8 @@
         "reposts": 1,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013895541277762034",
@@ -1079,8 +1063,8 @@
         "reposts": 39,
         "replies": 33
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013912079162560966",
@@ -1100,8 +1084,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2014505817509355841",
@@ -1121,20 +1105,18 @@
         "reposts": 14,
         "replies": 23
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2014796410974343603",
       "date": "2026-01-23",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "mass production Optimus Gen 3 announced but statements imply delays"
-      ],
-      "is_risk": true,
+      "reasons": [],
+      "is_risk": false,
       "conviction": null,
-      "raw_mention": "Tesla",
+      "raw_mention": "Elon / Fremont (Tesla)",
       "text": "@jayjay12246 I mean I thought it would be earlier given Elon said 2 days ago that they've officially started mass production \"Mass Production Optimus Gen 3 (V3) humanoid robot at its Fremont\". \n\nBut his statements today imply delays, so really not quite sure. https://t.co/qxSZxmYsbt",
       "url": "https://x.com/aleabitoreddit/status/2014796410974343603",
       "kind": "reply",
@@ -1144,8 +1126,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016651304027009278",
@@ -1165,8 +1147,8 @@
         "reposts": 19,
         "replies": 20
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016883354004758910",
@@ -1186,8 +1168,8 @@
         "reposts": 11,
         "replies": 13
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016936292605710633",
@@ -1207,8 +1189,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018390358384869519",
@@ -2057,6 +2039,27 @@
         "likes": 134,
         "reposts": 15,
         "replies": 15
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063851425462173726",
+      "date": "2026-06-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$TSLA",
+      "text": "I do think LeaderDrive (688017) is China's standout component leader in the robotics sector.\n\nI've done a lot of research on other robotics picks / $TSLA Optimus suppliers, but LeaderDrive is extremely unique.\n\nCompared to others doing lower margin assembly, or lower value https://t.co/m2AU7VZQY7 https://t.co/iiAOKQ2Ja7",
+      "url": "https://x.com/aleabitoreddit/status/2063851425462173726",
+      "kind": "post",
+      "engagement": {
+        "views": 720961,
+        "likes": 1037,
+        "reposts": 83,
+        "replies": 383
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

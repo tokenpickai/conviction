@@ -212,6 +212,7 @@ def main():
     # ---- write per-ticker files (data layer only)
     STOCKS_DIR.mkdir(parents=True, exist_ok=True)
     index_rows = []
+    written_symbols = set()
     for sym, ms in sorted(per.items()):
         ms.sort(key=lambda m: (m["_dt"] or datetime.min.replace(tzinfo=timezone.utc)))
         res = resolve(sym, tmap)
@@ -252,6 +253,7 @@ def main():
             "price_status": prev_price_status,
         }
         save_json(STOCKS_DIR / f"{sym}.json", stock_doc)
+        written_symbols.add(sym)
 
         index_rows.append({
             "ticker": sym,
@@ -267,6 +269,10 @@ def main():
             "total_mentions": stock_doc["total_mentions"],
             "price_status": prev_price_status,
         })
+
+    for stale_file in STOCKS_DIR.glob("*.json"):
+        if stale_file.stem not in written_symbols:
+            stale_file.unlink()
 
     index_rows.sort(key=lambda r: -r["total_mentions"])
     index_doc = {

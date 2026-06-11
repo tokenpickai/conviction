@@ -32,8 +32,8 @@
         "reposts": 3,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007489901877436756",
@@ -41,8 +41,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "maintained presence in Venezuela unlike other US majors",
-        "has staff, licenses, and fields ready to ramp up immediately"
+        "most obvious beneficiary of regime change",
+        "maintained presence in Venezuela unlike other majors",
+        "has staff, licenses, and fields ready to ramp immediately"
       ],
       "is_risk": false,
       "conviction": null,
@@ -56,8 +57,8 @@
         "reposts": 430,
         "replies": 105
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007513114720551033",
@@ -65,7 +66,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "had assets trapped that are now unlocked"
+        "assets trapped in Venezuela now unlocked"
       ],
       "is_risk": false,
       "conviction": null,
@@ -79,8 +80,8 @@
         "reposts": 0,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007514976177836145",
@@ -88,8 +89,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "will likely see benefit and re-rate heavily",
-        "US shifting to nation-building mode faster than expected"
+        "will likely see benefit and re-rate heavily with shift to nation-building mode"
       ],
       "is_risk": false,
       "conviction": null,
@@ -103,17 +103,15 @@
         "reposts": 1,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007649811621880238",
       "date": "2026-01-03",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "he says never fully left, operating under special OFAC license"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$CVX",
@@ -126,8 +124,8 @@
         "reposts": 153,
         "replies": 30
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007758407948788162",
@@ -135,7 +133,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "Most obvious oil play from locked up assets",
+        "most obvious oil play from locked up assets",
         "$17T in oil"
       ],
       "is_risk": false,
@@ -150,8 +148,8 @@
         "reposts": 82,
         "replies": 28
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008235337643086305",
@@ -159,8 +157,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "basically owns Venezuela's oil sector as last man standing",
-        "only up 5% which he views as underpricing the news"
+        "surprised only up 5%",
+        "basically owns Venezuela's oil as last man standing"
       ],
       "is_risk": false,
       "conviction": null,
@@ -174,8 +172,8 @@
         "reposts": 14,
         "replies": 26
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008339827624997004",
@@ -183,15 +181,15 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "basically become unspoken US Gov national arm for Oil",
+        "became unspoken US Gov national arm for oil",
         "only one standing in Venezuela",
-        "critical importance given Trump wants to harvest oil and lower prices before midterm elections",
-        "inherited Venezuela's oil sector",
+        "critical importance for Trump's oil harvesting and price lowering goals",
+        "5% bump not pricing in inherited country's oil sector",
         "Venezuelan assets are derisked",
-        "deserves P/E multiple added for Venezuelan assets"
+        "deserves p/e multiple expansion"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$CVX",
       "text": "@GlobalCollapse So I definitely agree about $VLO with immediate profit expansion.\n\nHowever, this is is taking the geopolitical angle that $CVX has basically become unspoken US Gov national arm for Oil, similar to Intel for semis.\n\nIt’s the only one standing in Venezuela, and is of critical importance given Trump wants to harvest the oil, and lower oil prices before midterm elections.\n\nIf you look at it in the way it basically inherited a country’s oil sector a 5% bump is not quite pricing that in.\n\nIt’s not quite Chevron found a new vertical, it’s more like Chevron became the oil operator of Venezuela and that angle alone deserves p/e multiple added given its Venezuelan assets are derisked",
       "url": "https://x.com/aleabitoreddit/status/2008339827624997004",
@@ -202,8 +200,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008352067765837942",
@@ -211,10 +209,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "only U.S. major currently left in Venezuela that can immediately deploy subsidies",
-        "US government likely to subsidize oil spend, de-risking capex",
-        "markets may re-rate in anticipation of subsidies",
-        "bullish for oil firms like Chevron"
+        "only US major currently left in Venezuela that can immediately deploy subsidies",
+        "US subsidies basically guaranteed",
+        "capitalizing on $17T Venezuelan oil reserves without risking own capital",
+        "market re-rating anticipated due to subsidies replacing high capex spend"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -228,8 +226,8 @@
         "reposts": 17,
         "replies": 12
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008355980858511802",
@@ -237,10 +235,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "only company left in Venezuela, basically controls oil production capacity of the country",
-        "US government likely to subsidize all capex, de-risking the company",
-        "allows Chevron to reap profits and boost FCF without spend",
-        "net positive for US with cheaper oil production"
+        "only one left in Venezuela controlling oil production capacity",
+        "US government likely to subsidize capex, de-risking the company",
+        "lets it reap profits and boost FCF without own spend"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -254,8 +251,8 @@
         "reposts": 0,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008425368966062263",
@@ -266,7 +263,7 @@
         "looks safest given US gov subsidies for development"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$CVX",
       "text": "@FrontRangeHQ I did but it’s extremely risky so $VLO, $AVAV, and $CVX look the safest right now given US gov subsidies for development. \n\nI’d be wary of the $5.9b amber energy bid that won so I’d change these weightings after today.",
       "url": "https://x.com/aleabitoreddit/status/2008425368966062263",
@@ -277,17 +274,15 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011132603550802098",
       "date": "2026-01-13",
       "stance": "neutral",
       "mention_type": "comparison",
-      "reasons": [
-        "example of turning lower risk into higher risk with options"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$CVX",
@@ -300,8 +295,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2024322169376035019",

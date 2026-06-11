@@ -18,10 +18,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says claim attached to CITGO auction, likely paid in US Dollars in 2025",
-        "he says ~$1.8B cash injection into company trading at ~$580M",
-        "he says ~200% to 300% return from current levels",
-        "he says high probability, lower multiple"
+        "~$1.87B claim value vs ~$582M market cap",
+        "claim attached to Delaware Court CITGO auction",
+        "~$1.8B cash injection into $580M company",
+        "~200% to 300% return from current levels",
+        "high probability lower multiple ~3x return"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -35,8 +36,8 @@
         "reposts": 153,
         "replies": 30
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-04-27",
-  "last_mention": "2026-05-12",
-  "total_mentions": 7,
+  "last_mention": "2026-06-09",
+  "total_mentions": 8,
   "mentions": [
     {
       "tweet_id": "2048923293974184076",
@@ -174,6 +174,27 @@
       "engagement": {
         "views": 14266,
         "likes": 61,
+        "reposts": 0,
+        "replies": 4
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064316855154884671",
+      "date": "2026-06-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Towa",
+      "text": "@super_avg Towa is $1-2B range. $LRCX is a $400B company. $KLAC is a $275B company.\n\nWhat part of $10–100B range did you miss?\n\nI don’t have exposure to vast majority of names above, just throwing out ideas",
+      "url": "https://x.com/aleabitoreddit/status/2064316855154884671",
+      "kind": "reply",
+      "engagement": {
+        "views": 17233,
+        "likes": 66,
         "reposts": 0,
         "replies": 4
       },

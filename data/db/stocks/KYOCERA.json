@@ -15,11 +15,9 @@
     {
       "tweet_id": "2015164232795627975",
       "date": "2026-01-24",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "SiC and ceramic packaging"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "Kyocera",
@@ -32,8 +30,8 @@
         "reposts": 15,
         "replies": 18
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

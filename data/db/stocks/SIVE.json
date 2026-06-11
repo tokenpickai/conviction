@@ -1,6 +1,6 @@
 {
   "ticker": "SIVE",
-  "cashtag": "Sivers (contextual)",
+  "cashtag": "$SIVE",
   "price_symbol": "SIVE.ST",
   "exchange": "Nasdaq Stockholm",
   "currency": "SEK",
@@ -9,8 +9,8 @@
   "industry": "AI Photonics/CPO Lasers",
   "thesis_summary": "他把 SIVE 当作硅光/CPO 的上游激光瓶颈,反复强调它是产业链核心受益者,通过 POET 供货给 Ayar、Celestial 等光引擎厂商。",
   "first_mention": "2025-12-23",
-  "last_mention": "2026-06-05",
-  "total_mentions": 647,
+  "last_mention": "2026-06-11",
+  "total_mentions": 667,
   "mentions": [
     {
       "tweet_id": "2003604861414408240",
@@ -15805,6 +15805,476 @@
         "likes": 25,
         "reposts": 2,
         "replies": 2
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063235166336856251",
+      "date": "2026-06-06",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "claims all his profits come from SIVE to AAOI"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SIVE",
+      "text": "If you’re curious:\n\n$4649 for 107,894,491 (100M+) impressions!\n\nAll of this is going to dog rescues, will be doing large donations later!\n\nIt’s ~$600 / dog rescued, so it scales proportionally with Serenity fan count!\n\nI also believe in making all my profits off $SIVE to $AAOI https://t.co/MqFWfvTCgH",
+      "url": "https://x.com/aleabitoreddit/status/2063235166336856251",
+      "kind": "post",
+      "engagement": {
+        "views": 567287,
+        "likes": 3997,
+        "reposts": 134,
+        "replies": 563
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063465386960736396",
+      "date": "2026-06-06",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SIVE",
+      "text": "I think my personal style of investing is a bit different, just some reflection:\n\nIt's inherently discretionary, based on stuff markets don't know yet. And a culmination of life experiences?\n\nIf you look at $AXTI, $RPI, $SIVE, $IQE and others. \n\nLot of it is guessing on https://t.co/5GGFN54PjZ",
+      "url": "https://x.com/aleabitoreddit/status/2063465386960736396",
+      "kind": "post",
+      "engagement": {
+        "views": 1183820,
+        "likes": 3140,
+        "reposts": 302,
+        "replies": 237
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063573828928954442",
+      "date": "2026-06-07",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SIVE",
+      "text": "@KHu08400080 Not all dilution is bad and depends on what structure.  \n\nIf you're doing a $600m ATM to build out laser fab capacity with $AAOI for $471m / month H1 2027 (at lower MC ranges), then that's accretive. \n\nIf you're diluting 15% for NASDAQ listing requirements with $SIVE, and using",
+      "url": "https://x.com/aleabitoreddit/status/2063573828928954442",
+      "kind": "reply",
+      "engagement": {
+        "views": 40911,
+        "likes": 273,
+        "reposts": 7,
+        "replies": 13
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063603368178938193",
+      "date": "2026-06-07",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "bullish read through on SiPH supply chain",
+        "now upstream Nvidia ecosystem",
+        "Nvidia requires supply volumes beyond imagination"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "$SIVE",
+      "text": "On top: $NVDA CEO also called out Silicon Photonics (optical networking) with memory. \n\nStating that Nvidia would require “supply volumes beyond imagination”.\n\nWhat a bullish read through on the SiPH supply chain from $SIVE (now upstream Nvidia ecosystem) to $SOI https://t.co/m6jub4nfzx https://t.co/VhGfnaTpzh",
+      "url": "https://x.com/aleabitoreddit/status/2063603368178938193",
+      "kind": "post",
+      "engagement": {
+        "views": 841821,
+        "likes": 1770,
+        "reposts": 147,
+        "replies": 290
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063886704306802891",
+      "date": "2026-06-08",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "JP Morgan bought 5%+ ownership",
+        "first major signal of institutional buying of the float",
+        "surprised stock is only up 3.36% off the news"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$SIVE",
+      "text": "Surprised $SIVE is only up 3.36% off the news JP Morgan (institutional) bought 5%+ ownership of Sivers.\n\nJust in the last month alone.\n\nFirst major signal of major institutional buying of the float for Sivers. https://t.co/eSfKSQCEhM https://t.co/HCWzZjMG7t",
+      "url": "https://x.com/aleabitoreddit/status/2063886704306802891",
+      "kind": "post",
+      "engagement": {
+        "views": 1388247,
+        "likes": 1642,
+        "reposts": 122,
+        "replies": 280
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063951279278391414",
+      "date": "2026-06-08",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "JP Morgan disclosed buying 5.25%+ of the company",
+        "US institutions can easily acquire 25% with their capital",
+        "constrained only by float available from retail"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SIVE",
+      "text": "I think the implications of JP Morgan's disclosure of buying 5.25%+ of $SIVE is a lot greater than people think.\n\n&gt; $135M is pennies to US institutions. They can easily acquire 25% with their capital. \n\nThey're just constrained by the amount of float that's available from retail https://t.co/x0FraFAEdT https://t.co/n21sgaCovv",
+      "url": "https://x.com/aleabitoreddit/status/2063951279278391414",
+      "kind": "post",
+      "engagement": {
+        "views": 791066,
+        "likes": 1838,
+        "reposts": 168,
+        "replies": 220
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063952532939145542",
+      "date": "2026-06-08",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "new news of US institutional accumulation of 5%+ of the company"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SIVE",
+      "text": "@_king142 It's primarily just new news of US institutional accumulation of 5%+ of the company. \n\nWhether it's JPM asset management or hedge funds using JPM, since US retail doesn't have access to synthetic exposure to $SIVE.",
+      "url": "https://x.com/aleabitoreddit/status/2063952532939145542",
+      "kind": "reply",
+      "engagement": {
+        "views": 25876,
+        "likes": 156,
+        "reposts": 7,
+        "replies": 7
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063953669536862702",
+      "date": "2026-06-08",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "reference laser for GFS",
+        "laser 1.6T LRO with JBL + many more pluggable players",
+        "SIVE + Ayar + NVDA NVLink",
+        "likely SIVE + Lightmatter / MRVL Celestial with NVDA NVLink",
+        "likely SIVE into AMD CPO ecosystem",
+        "very compelling long idea"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "$SIVE",
+      "text": "@LightLogix I mean... \n\n&gt; $SIVE reference laser for $GFS \n&gt; $SIVE laser 1.6T LRO with $JBL + many more pluggable players\n&gt; $SIVE + Ayar + $NVDA NVLink\n&gt; likely $SIVE + Lightmatter / $MRVL Celestial with $NVDA NVLink\n&gt; Likely $SIVE -&gt; $AMD CPO ecosystem too. \n\nvery compelling long idea.",
+      "url": "https://x.com/aleabitoreddit/status/2063953669536862702",
+      "kind": "reply",
+      "engagement": {
+        "views": 70113,
+        "likes": 331,
+        "reposts": 26,
+        "replies": 10
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064223473929752811",
+      "date": "2026-06-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SIVE",
+      "text": "@Hosdrugs Don't worry! My priority is helping out retail investors. \n\nI get into little skirmishes with media all the time like over in Sweden with $SIVE or UK with $RPI. \n\nI'm used to it now. As long as I see retail followers benefiting, then I'm happy to continue sharing my ideas.",
+      "url": "https://x.com/aleabitoreddit/status/2064223473929752811",
+      "kind": "reply",
+      "engagement": {
+        "views": 42981,
+        "likes": 451,
+        "reposts": 1,
+        "replies": 79
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064237083510952402",
+      "date": "2026-06-09",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "bottleneck H1 2027",
+        "constrains how much JBL can make"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$SIVE",
+      "text": "Just a random thought: $JBL seems highkey compelling long idea at $38B.\n\nDon’t really think markets have priced in their 1.6T LRO pluggable transceiver business yet.\n\nEspecially if it’s “how much can you make” with $SIVE as the bottleneck H1 2027. Not really is there enough https://t.co/Jp87VqVxme",
+      "url": "https://x.com/aleabitoreddit/status/2064237083510952402",
+      "kind": "post",
+      "engagement": {
+        "views": 411339,
+        "likes": 1122,
+        "reposts": 89,
+        "replies": 316
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064246556690469123",
+      "date": "2026-06-09",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "massive catalyst: $8.2M volume orders for Space applications",
+        "Beamforming ICs powering Space LEO/multi-orbit satellite communication"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "$SIVE",
+      "text": "A massive catalyst arrived today with $SIVE:\n\nSivers announced $8.2M volume orders starting for Space applications (allspace). \n\nThis is for Beamforming ICs powering Space LEO/multi-orbit satellite communication.\n\nThe bigger implication is not the contract size: \n\nBut that Sivers https://t.co/Pts8N19ubM https://t.co/BbywhhzgsW",
+      "url": "https://x.com/aleabitoreddit/status/2064246556690469123",
+      "kind": "post",
+      "engagement": {
+        "views": 718409,
+        "likes": 1884,
+        "reposts": 155,
+        "replies": 362
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064253530353873052",
+      "date": "2026-06-09",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "funded with CHIPS Act",
+        "in major hyperscaler supply chains",
+        "powering Ayar for CPO",
+        "JP Morgan / US institutions trying to buy up the float"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "Sivers",
+      "text": "@ju5t1n14n Many work against the interest of retail investors. \n\nEspecially as JP Morgan / US institutions are trying to buy up the float.\n\nYou have a company funded with CHIPS Act, in major hyperscaler supply chains from $NVDA to others, powering Ayar for CPO, $JBL for pluggables. And now",
+      "url": "https://x.com/aleabitoreddit/status/2064253530353873052",
+      "kind": "reply",
+      "engagement": {
+        "views": 27989,
+        "likes": 217,
+        "reposts": 9,
+        "replies": 7
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064303128225440049",
+      "date": "2026-06-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SIVE",
+      "text": "@TalentActivity I do really like $GFS, $JBL, and others tied with $SIVE.\n\nThey’re all just kinda large by now, and less chance to triple.\n\nIf I were running a hedge fund I’d pick up Jabil,  it I’m personally maximizing returns + don’t like options on higher IV equities.",
+      "url": "https://x.com/aleabitoreddit/status/2064303128225440049",
+      "kind": "reply",
+      "engagement": {
+        "views": 15098,
+        "likes": 122,
+        "reposts": 4,
+        "replies": 11
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064361170270933269",
+      "date": "2026-06-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SIVE",
+      "text": "I don’t quite think photonics from $AAOI to $LITE or $SIVE are disappearing anytime soon…\n\nJust extremely volatile.\n\nAnyway, curious what other people are buying today? https://t.co/Io9SVuq583",
+      "url": "https://x.com/aleabitoreddit/status/2064361170270933269",
+      "kind": "post",
+      "engagement": {
+        "views": 719697,
+        "likes": 2286,
+        "reposts": 92,
+        "replies": 640
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064608597343125931",
+      "date": "2026-06-10",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "Blackrock entered positions as passive owners following index listing",
+        "Fidelity Research starting direct positions",
+        "JP Morgan showed up last month and bought ~5.25% of the company"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "$SIVE",
+      "text": "Yep, Blackrock has now entered $SIVE positions as passive owners following index listing.\n\nFidelity Research has shown up as starting direct positions of Sivers too.\n\nRemember when JP Morgan showed up last month with small positions…\n\nThen bought ~5.25% of the company? \n\nThis https://t.co/01Vy8M4Zei https://t.co/5ZB3v8nR1G",
+      "url": "https://x.com/aleabitoreddit/status/2064608597343125931",
+      "kind": "post",
+      "engagement": {
+        "views": 592784,
+        "likes": 1674,
+        "reposts": 122,
+        "replies": 256
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064610108370526388",
+      "date": "2026-06-10",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "investor base evolving from local Swedish investors to US institutions"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Sivers (contextual)",
+      "text": "@AnesSaad8 Yep, went from:\n\nLocal Swedish investors/funds-&gt; US investors\n\nNow US investors -&gt; US institutions. \n\nThe cycle of life",
+      "url": "https://x.com/aleabitoreddit/status/2064610108370526388",
+      "kind": "reply",
+      "engagement": {
+        "views": 22680,
+        "likes": 217,
+        "reposts": 4,
+        "replies": 14
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064677169750782046",
+      "date": "2026-06-10",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "Blackrock tracking passively after MSCI/Nasdaq listing",
+        "Fidelity Research is their active investment arm, not passive"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SIVE",
+      "text": "@veggiepoultry That’s correct with $SIVE and Blackrock after MSCI/nasdaq. Blackrock is passive and tracks sivers based on MC.\n\nFidelity Research is their active investment arm, so that’s not passive.",
+      "url": "https://x.com/aleabitoreddit/status/2064677169750782046",
+      "kind": "reply",
+      "engagement": {
+        "views": 18243,
+        "likes": 155,
+        "reposts": 8,
+        "replies": 4
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064705380933074945",
+      "date": "2026-06-10",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "recovering as they should",
+        "initial selloff was just stupid"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SIVE",
+      "text": "Glad optical players from $LITE to $AAOI and $SIVE are slightly recovering as they should.\n\nThe initial selloff was just stupid. https://t.co/DsOdQAWf9i",
+      "url": "https://x.com/aleabitoreddit/status/2064705380933074945",
+      "kind": "post",
+      "engagement": {
+        "views": 434944,
+        "likes": 1941,
+        "reposts": 112,
+        "replies": 307
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064884912667439129",
+      "date": "2026-06-10",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "retail frontran institutions on next architectural shifts",
+        "institutions like JP Morgan and Fidelity Research now on the cap table",
+        "close to 0 US institutional ownership previously"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SIVE",
+      "text": "Basically this… and it’s how cycles work.\n\nRetail was early and completely frontran institutions on next architectural shifts.\n\nThere was close to 0 US institutional ownership on $SIVE.\n\nAnd now you see active institutions like JP Morgan, Fidelity Research, and others on the cap https://t.co/DmZwPvhG5I",
+      "url": "https://x.com/aleabitoreddit/status/2064884912667439129",
+      "kind": "post",
+      "engagement": {
+        "views": 481343,
+        "likes": 1460,
+        "reposts": 93,
+        "replies": 247
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064983882802565169",
+      "date": "2026-06-11",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SIVE",
+      "text": "I like $SIVE",
+      "url": "https://x.com/aleabitoreddit/status/2064983882802565169",
+      "kind": "post",
+      "engagement": {
+        "views": 275076,
+        "likes": 2314,
+        "reposts": 133,
+        "replies": 328
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

@@ -193,11 +193,9 @@
     {
       "tweet_id": "2006709693012467774",
       "date": "2026-01-01",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "making their own stablecoins as part of money movement disruption"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$SOFI",
@@ -210,19 +208,19 @@
         "reposts": 119,
         "replies": 30
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009555729645211855",
       "date": "2026-01-09",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
+      "stance": "neutral",
+      "mention_type": "background",
       "reasons": [
-        "traded 10%+ drops"
+        "trading 10%+ drops"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": null,
       "raw_mention": "$SOFI",
       "text": "@moninvestor Thanks! $OSS and $AXTI are smaller parts of my portfolio. I should have taken larger position sizes though in hindsight.\n\nMost of my gains came from portfolio margin into stocks that dropped 50-70% from last year into Jan effect like $GLXY, then just 10%+ trading drops like $SOFI or $ASTS. \n\nI don’t really post my short trades though aside from maybe $CRDO, which is up over 7% from two days ago",
       "url": "https://x.com/aleabitoreddit/status/2009555729645211855",
@@ -233,8 +231,8 @@
         "reposts": 1,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013912079162560966",
@@ -254,8 +252,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2019634501245338000",

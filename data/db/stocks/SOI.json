@@ -9,8 +9,8 @@
   "industry": "SOI Wafers",
   "thesis_summary": null,
   "first_mention": "2026-03-01",
-  "last_mention": "2026-06-05",
-  "total_mentions": 215,
+  "last_mention": "2026-06-10",
+  "total_mentions": 218,
   "mentions": [
     {
       "tweet_id": "2028203665430057068",
@@ -4965,6 +4965,77 @@
         "likes": 139,
         "reposts": 12,
         "replies": 15
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063603368178938193",
+      "date": "2026-06-07",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "bullish read through on SiPH supply chain"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SOI",
+      "text": "On top: $NVDA CEO also called out Silicon Photonics (optical networking) with memory. \n\nStating that Nvidia would require “supply volumes beyond imagination”.\n\nWhat a bullish read through on the SiPH supply chain from $SIVE (now upstream Nvidia ecosystem) to $SOI https://t.co/m6jub4nfzx https://t.co/VhGfnaTpzh",
+      "url": "https://x.com/aleabitoreddit/status/2063603368178938193",
+      "kind": "post",
+      "engagement": {
+        "views": 841821,
+        "likes": 1770,
+        "reposts": 147,
+        "replies": 290
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064708118509199546",
+      "date": "2026-06-10",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "expects recovery after selloff",
+        "European supply chain to play follow the leader"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SOI",
+      "text": "@aphexinvests I’d expect $SOI, $XFAB, $IQE and others in the European supply chain to play follow the leader and recover as well.\n\nEverything got sold off with photonics / power semis recently.",
+      "url": "https://x.com/aleabitoreddit/status/2064708118509199546",
+      "kind": "reply",
+      "engagement": {
+        "views": 56068,
+        "likes": 224,
+        "reposts": 11,
+        "replies": 13
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064910057767309551",
+      "date": "2026-06-10",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "CPO related name in his portfolio",
+        "if alpha is strong enough these should keep going up regardless of macro"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SOI",
+      "text": "这周我自己的投资组合表现令人失望。\n\n目前今年迄今（YTD）仅上涨了 +3,612.10%。\n\n我在获利时会分享，但我也同样会经历大幅回撤！\n\n比如像 Foci/Shunsin $SOI, $AAOI 以及其他 CPO 相关标的。\n\n如果 Alpha 足够强，不管宏观大环境如何，这些股票都应该继续涨才对… https://t.co/JaOVP6Mq1I https://t.co/FrMjDs2JBp",
+      "url": "https://x.com/aleabitoreddit/status/2064910057767309551",
+      "kind": "post",
+      "engagement": {
+        "views": 665788,
+        "likes": 2117,
+        "reposts": 46,
+        "replies": 481
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

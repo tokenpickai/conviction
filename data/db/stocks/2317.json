@@ -1,6 +1,6 @@
 {
   "ticker": "2317",
-  "cashtag": "2317",
+  "cashtag": "Foxconn",
   "price_symbol": "2317",
   "exchange": "US",
   "currency": "USD",
@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-03-30",
-  "last_mention": "2026-03-30",
-  "total_mentions": 1,
+  "last_mention": "2026-06-09",
+  "total_mentions": 2,
   "mentions": [
     {
       "tweet_id": "2038777289115345200",
@@ -29,6 +29,27 @@
         "likes": 338,
         "reposts": 51,
         "replies": 20
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064525490921369849",
+      "date": "2026-06-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Foxconn",
+      "text": "@NathanJoooo This was in response to that erroneous article.\n\nI would trust Foxconn/Lumentum/Nvidia industry projections over an analyst firm that messed up $MU HBM4 so badly and said “no” to all their timelines together",
+      "url": "https://x.com/aleabitoreddit/status/2064525490921369849",
+      "kind": "reply",
+      "engagement": {
+        "views": 33780,
+        "likes": 276,
+        "reposts": 10,
+        "replies": 11
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

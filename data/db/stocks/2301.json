@@ -1,0 +1,39 @@
+{
+  "ticker": "2301",
+  "cashtag": "Lite-On (2301)",
+  "price_symbol": "2301",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-08",
+  "last_mention": "2026-06-08",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2063869376542192013",
+      "date": "2026-06-08",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Lite-On (2301)",
+      "text": "Okay chat, here's your compiled list chat of your favorite 800V DC related ideas. \n\n1. $IFNNY - $115.8B \n2. $ON - $46.2B\n3. Lite-On (2301) - $16.03B\n4. 6504.T - $14.1B \n5. $VICR - $12.8B \n6. $LFUS - $11.57B\n7. https://t.co/Qj5MrQ62An - $8.34B \n8. $VSH - $7.86B\n9. $ENPH - $7.36B https://t.co/o3MVB7cMVO",
+      "url": "https://x.com/aleabitoreddit/status/2063869376542192013",
+      "kind": "post",
+      "engagement": {
+        "views": 2132104,
+        "likes": 1951,
+        "reposts": 256,
+        "replies": 381
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

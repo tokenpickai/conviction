@@ -15,10 +15,10 @@
     {
       "tweet_id": "2012071822481900030",
       "date": "2026-01-16",
-      "stance": "bearish",
-      "mention_type": "explicit_stance",
+      "stance": "neutral",
+      "mention_type": "background",
       "reasons": [
-        "disrupted by China's Leaderdrive which copied their technology at 40% lower cost"
+        "leader but disrupted by China's Leaderdrive at 40% lower cost"
       ],
       "is_risk": true,
       "conviction": null,
@@ -32,20 +32,20 @@
         "reposts": 101,
         "replies": 49
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012085118958231697",
       "date": "2026-01-16",
-      "stance": "bullish",
+      "stance": "explicit_stance",
       "mention_type": "explicit_stance",
       "reasons": [
-        "scaling up rapidly on humanoid orders per recent earnings call",
-        "great long at current levels"
+        "scaling up rapidly on humanoid orders from previous earnings call",
+        "great long at these levels"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "Harmonic Drive",
       "text": "@TheMaximu5 This post was about the US supply chain angle. Harmonic Drive is a Japanese company.\n\nThey're scaling up rapidly on humanoid orders from their previous earnings call so my opinion is that it's a great long at these levels. https://t.co/E0DECC8Y3i",
       "url": "https://x.com/aleabitoreddit/status/2012085118958231697",
@@ -56,8 +56,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2054335940026573222",

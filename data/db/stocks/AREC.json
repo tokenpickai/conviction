@@ -19,7 +19,7 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "captures value from neodymium, gallium, germanium, and lithium",
-        "net beneficiary of multiple themes as a critical mineral refiner"
+        "net beneficiary of multiple themes as critical mineral refiner"
       ],
       "is_risk": false,
       "conviction": "low",
@@ -33,8 +33,8 @@
         "reposts": 2,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

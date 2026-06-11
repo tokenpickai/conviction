@@ -17,9 +17,7 @@
       "date": "2026-01-16",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "smaller company that PDYN fills gaps with"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$DPRO",
@@ -32,8 +30,8 @@
         "reposts": 2,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012976046136774864",
@@ -44,7 +42,7 @@
         "US defense likely to benefit from Greenland trade tensions"
       ],
       "is_risk": false,
-      "conviction": "low",
+      "conviction": null,
       "raw_mention": "$DPRO",
       "text": "@StockSavvyShay I'm a bull that's excited about Greenland trade tensions.   \n\nUS defense like $UAVS and $DPRO are likely to benefit. Same with rare earth/critical materials.   \n\nCan't say the same about the pharma bulls in $NVO, European luxury like $LVMH, or possibly big tech.\n\nAs you mentioned, I agree it's just noise to the AI trade.",
       "url": "https://x.com/aleabitoreddit/status/2012976046136774864",
@@ -55,8 +53,8 @@
         "reposts": 4,
         "replies": 16
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013382311056642527",
@@ -64,9 +62,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he has it for drone exposure",
-        "potential 2.8 fwd p/s valuation",
-        "higher upside with other drone companies"
+        "holds position for drone exposure",
+        "potential 2.8 fwd p/s from rev calculations"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -80,8 +77,8 @@
         "reposts": 3,
         "replies": 7
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013391730410955200",
@@ -90,7 +87,8 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "reminds him of early stage RKLB",
-        "very speculative upside"
+        "very speculative upside",
+        "plans to do a write-up"
       ],
       "is_risk": false,
       "conviction": "low",
@@ -104,8 +102,8 @@
         "reposts": 4,
         "replies": 5
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013535456781312289",
@@ -113,7 +111,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "looking to scale up on 4-6%+ drop"
+        "looking to scale up position on 4-6%+ dip"
       ],
       "is_risk": false,
       "conviction": null,
@@ -127,8 +125,8 @@
         "reposts": 1,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013621368831778896",
@@ -136,24 +134,20 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "initiated small positions",
         "vertically integrated defense prime, not just a drone maker",
         "controls entire ecosystem from factory infrastructure to end-drone",
-        "largest beneficiary of NDAA that banned DJI which controlled est. 70-80% of market share",
-        "embedded production via Micro-Factories installed at US bases creates stickiness impossible for competitors to displace",
-        "contract with U.S. Army (Sept 2025) to install Micro-Factories at US bases",
-        "went from $5M drone capacity ramp in 2025 to $400M",
-        "partnership with Global Ordnance as sub-contractor where Ordnance received $750M IDIQ",
-        "benefits from US-CAD programs including $220M CAD funding to NATO",
-        "possible triple digits or 1000%+ revenue growth Y/Y",
+        "largest beneficiary of NDAA banning DJI which had 70-80% market share",
+        "embedded production moat via Micro-Factories at US bases creating stickiness",
+        "capacity ramp from $5M to $400M drone capacity in 2025",
+        "partnership with Global Ordnance ($750M IDIQ sub-contractor)",
+        "benefits from US-CAD programs like $220M CAD NATO funding",
+        "possible triple digit or 1000%+ revenue growth Y/Y",
         "revenue hits balance sheet by surprise in earnings",
-        "European countries like Sweden use DPRO drones for life-saving operations",
-        "DEF-C reconnaissance drones for Ukraine conflict via Global Ordnance",
         "nonkinetic drones can be transformed with kinetic applications",
         "$51M cash on hand healthy balance sheet",
         "just 20% of capacity ramp would be ~2.2 fwd ev/revenue",
-        "Northland giving $20 price targets",
-        "revenue expected to catch up to infrastructure deployed across US army including Replicator programs"
+        "Northland giving $20 PT",
+        "hunch revenue will catch up to infrastructure deployed across US army"
       ],
       "is_risk": false,
       "conviction": "low",
@@ -167,8 +161,8 @@
         "reposts": 129,
         "replies": 45
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013624142252376385",
@@ -177,7 +171,7 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "nuanced infrastructure setup plus large capacity ramp",
-        "no flashy contracts as subcontractor means revenue hits Q reports that algos might not price in"
+        "no flashy contracts since it's a subcontractor so hits Q reports that algos might not price in"
       ],
       "is_risk": false,
       "conviction": null,
@@ -191,8 +185,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013633245783462258",
@@ -200,7 +194,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "one of the only public CAD drone companies and benefits a lot from that"
+        "one of the only public CAD drone companies, benefits a lot from that"
       ],
       "is_risk": false,
       "conviction": null,
@@ -214,8 +208,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013638601238602024",
@@ -223,12 +217,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "NDAA compliant and benefits from both Canada and US funding",
-        "drone infrastructure buildout has potential",
-        "not expected to be priced in until future earnings"
+        "benefits from both Canada and US funding as NDAA compliant",
+        "drone infra buildout has potential"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "low",
       "raw_mention": "$DPRO",
       "text": "@tweet_tj Good question! It’s kinda like $RKLB is from New Zealand but benefits from US DoD funding.\n\n$DPRO gets benefits from both Canada and US funding as its ndaa compliant \n\nAgain there are tons of risks since its early stage and don’t expect much to be priced in until their future earnings. I just thought their drone infra buildout had potential",
       "url": "https://x.com/aleabitoreddit/status/2013638601238602024",
@@ -239,8 +232,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013647870235234509",
@@ -248,7 +241,6 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "incredibly risky given low revenue so position sizing is important",
         "speculative bet on drone revenue recognition from capacity"
       ],
       "is_risk": true,
@@ -263,8 +255,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015096496019112151",
@@ -286,8 +278,8 @@
         "reposts": 100,
         "replies": 83
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2020258804953411966",

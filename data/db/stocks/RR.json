@@ -122,11 +122,9 @@
     {
       "tweet_id": "2006779022509031445",
       "date": "2026-01-01",
-      "stance": "bearish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "nowhere close to the types of verticals he is looking at"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$RR",
@@ -139,8 +137,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2054335940026573222",

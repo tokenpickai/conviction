@@ -5,8 +5,8 @@
   "exchange": "US",
   "currency": "USD",
   "ticker_mapped": false,
-  "company": null,
-  "industry": null,
+  "company": "Coinbase",
+  "industry": "Crypto Exchange/Infrastructure",
   "thesis_summary": null,
   "first_mention": "2025-07-02",
   "last_mention": "2026-06-03",
@@ -432,8 +432,9 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "recent correction makes value decent at $57B",
-        "providing infra for Blackrock IBIT etfs",
-        "USDC revenue sharing with Circle gives good long term value"
+        "providing infra for Blackrock IBIT ETFs",
+        "USDC revenue sharing with Circle",
+        "good long term value"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -447,8 +448,8 @@
         "reposts": 100,
         "replies": 83
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2017262857017258345",
@@ -456,7 +457,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "crashed a bit much"
+        "crashed a bit much",
+        "bought the falling knife"
       ],
       "is_risk": false,
       "conviction": null,
@@ -470,8 +472,8 @@
         "reposts": 12,
         "replies": 51
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018747881818382450",

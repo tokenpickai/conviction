@@ -10,7 +10,7 @@
   "thesis_summary": null,
   "first_mention": "2025-12-31",
   "last_mention": "2026-05-09",
-  "total_mentions": 4,
+  "total_mentions": 5,
   "mentions": [
     {
       "tweet_id": "2006257257789698424",
@@ -32,6 +32,30 @@
       },
       "extractor_model": "claude-sonnet-4-6",
       "prompt_version": "extract-v1"
+    },
+    {
+      "tweet_id": "2007084099174047817",
+      "date": "2026-01-02",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "first-to-market with US Government heavily involved",
+        "interesting for NVDA/AVGO/MRVL CPO play"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SKC/Absolics",
+      "text": "@meeijer Thanks! There's a lot I'm missing but still doing a lot of research into them.\n\n$SKC/Absolics (~$2.5B MC) was interesting for $NVDA, $AVGO / $MVRL CPO play as the first-to-market with US Government heavily involved,  \n\n$SHMD (~$250m) was also pretty interesting too since $AVGO was a likely customer and they're probably on $INTC, Samsung roadmaps. \n\nBut generally market presents a ton of interesting opportunities.",
+      "url": "https://x.com/aleabitoreddit/status/2007084099174047817",
+      "kind": "reply",
+      "engagement": {
+        "views": 6476,
+        "likes": 19,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2049392965391695891",

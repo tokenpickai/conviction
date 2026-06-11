@@ -30,17 +30,15 @@
         "reposts": 3,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012078220603191472",
       "date": "2026-01-16",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "smaller company that PDYN fills gaps with"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$RCAT",
@@ -53,8 +51,8 @@
         "reposts": 2,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015127456446087428",
@@ -65,7 +63,7 @@
         "thematically bullish on drone sector"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": "low",
       "raw_mention": "$RCAT",
       "text": "@B38B37 No problem! There's a lot of drone sector stocks like $RCAT, $PDYN too that should be thematically bullish.\n\nThere's just too many stocks to look at and I try not to comment if I didn't do enough research into them yet. \n\n$OSS should be interesting going forward with War sector tailwinds",
       "url": "https://x.com/aleabitoreddit/status/2015127456446087428",
@@ -76,8 +74,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2020449851905909183",

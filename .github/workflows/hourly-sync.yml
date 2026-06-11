@@ -2,8 +2,8 @@ name: hourly-sync
 
 on:
   # Uncomment the schedule after forking and configuring your secrets:
-  # schedule:
-  #   - cron: "0 * * * *"
+  schedule:
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 concurrency:

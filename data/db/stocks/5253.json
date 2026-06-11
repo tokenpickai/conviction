@@ -1,0 +1,39 @@
+{
+  "ticker": "5253",
+  "cashtag": "Cover Corp (5253.T)",
+  "price_symbol": "5253",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-01-25",
+  "last_mention": "2026-01-25",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2015560158395695375",
+      "date": "2026-01-25",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Cover Corp (5253.T)",
+      "text": "@skowihx Cover Corp (5253.T) that owns Hololive for VTubers?\n\nAnime girls are a known bottleneck for software engineers.",
+      "url": "https://x.com/aleabitoreddit/status/2015560158395695375",
+      "kind": "reply",
+      "engagement": {
+        "views": 5999,
+        "likes": 24,
+        "reposts": 0,
+        "replies": 0
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

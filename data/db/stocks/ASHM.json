@@ -19,7 +19,7 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "largest holder of Venezuelan debt",
-        "bonds likely 100%+ higher re-rated if there is restructuring post regime change"
+        "bonds likely 100%+ higher re-rated if there's restructuring"
       ],
       "is_risk": false,
       "conviction": null,
@@ -33,8 +33,8 @@
         "reposts": 3,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007489901877436756",
@@ -42,9 +42,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
+        "2x-3x multiple from distressed Venezuelan debt",
         "largest institutional holders of Venezuelan debt",
-        "bonds trade 10-20 cents, analysts estimate recovery 30-55 cents on regime change",
-        "2x-3x multiple on marked-down assets"
+        "bonds trade at 10-20 cents with recovery estimates of 30-55 cents"
       ],
       "is_risk": false,
       "conviction": null,
@@ -58,8 +58,8 @@
         "reposts": 430,
         "replies": 105
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007513114720551033",
@@ -67,9 +67,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "holds distressed assets like bonds",
-        "little institutions frontran the event (surprise military action)",
-        "tons of potential upside"
+        "distressed assets like bonds with tons of potential upside",
+        "little institutions frontran these events"
       ],
       "is_risk": false,
       "conviction": null,
@@ -83,8 +82,8 @@
         "reposts": 0,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007514976177836145",
@@ -92,8 +91,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "will likely see benefit and re-rate heavily",
-        "US shifting to nation-building mode faster than expected"
+        "will likely see benefit and re-rate heavily with shift to nation-building mode"
       ],
       "is_risk": false,
       "conviction": null,
@@ -107,18 +105,15 @@
         "reposts": 1,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007682243276443931",
       "date": "2026-01-04",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "he says were risky, distressed assets frozen because of Venezuelan government",
-        "he says regime change from Maduro unlocked all their value"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$ASHM",
@@ -131,8 +126,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007758407948788162",
@@ -154,8 +149,8 @@
         "reposts": 82,
         "replies": 28
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008235337643086305",
@@ -175,8 +170,8 @@
         "reposts": 14,
         "replies": 26
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

@@ -30,17 +30,15 @@
         "reposts": 39,
         "replies": 50
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008157864792080568",
       "date": "2026-01-05",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "entering 2026 as a replacement for previously popular names"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$ZETA",
@@ -53,8 +51,8 @@
         "reposts": 1,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

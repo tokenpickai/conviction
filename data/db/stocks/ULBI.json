@@ -18,15 +18,12 @@
       "stance": "bearish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "has -50.3M in debt",
-        "has -84.8M total accrued expenses",
-        "has only $9.3M left",
-        "has commodity status with 22% gross margin",
-        "low P/S is explained by weak fundamentals not value",
+        "-50.3M in debt, -84.8M total accrued expenses, with $9.3M left",
+        "commodity status as 22% gross margin",
         "likely heavy dilution ahead"
       ],
       "is_risk": true,
-      "conviction": "medium",
+      "conviction": null,
       "raw_mention": "$ULBI",
       "text": "@_gautam94 @KawzInvests Just a heads up $ULBI has -50.3M in debt, -84.8M total accrued expenses, with $9.3M left. \n\nThey're also commodity status as 22% gross margin. \n\nThat's the reason for low P/S number, there is likely heavy dilution ahead. I'd likely stay away",
       "url": "https://x.com/aleabitoreddit/status/2010660608660959717",
@@ -37,8 +34,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

@@ -1,0 +1,42 @@
+{
+  "ticker": "PHISON",
+  "cashtag": "Phison Electronics",
+  "price_symbol": "PHISON",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-01-28",
+  "last_mention": "2026-01-28",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2016681010793153018",
+      "date": "2026-01-28",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "SSD controllers for Kioxia/SNDK",
+        "up 383% 1Y"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Phison Electronics",
+      "text": "Some other Asia memory long ideas like Nanya (if you don’t want $MU, Samsung, SK Hynix types)\n\n- Winbond (dram/flash) up 847% 1Y\n\n- Macronix (ROM/ NOR flash) up 389% 1Y\n\n- Phison Electronics (SSD controllers for Kioxia $SNDK) up 383% 1Y\n\nSome other interesting ones are Tokyo Electron for NAND/DRAM equipment for indirect beneficiaries",
+      "url": "https://x.com/aleabitoreddit/status/2016681010793153018",
+      "kind": "post",
+      "engagement": {
+        "views": 59958,
+        "likes": 251,
+        "reposts": 37,
+        "replies": 11
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

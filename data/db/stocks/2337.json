@@ -21,7 +21,7 @@
         "fills MLC NAND void from Samsung/SanDisk pivot",
         "owns wafer fabs",
         "upping MLC NAND production",
-        "Last Man Standing for legacy storage as competitors focus on HBM"
+        "last man standing for legacy storage"
       ],
       "is_risk": false,
       "conviction": null,
@@ -35,8 +35,8 @@
         "reposts": 33,
         "replies": 16
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2033792436892570083",

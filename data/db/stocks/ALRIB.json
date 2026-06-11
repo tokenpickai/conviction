@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-04-08",
-  "last_mention": "2026-06-01",
-  "total_mentions": 40,
+  "last_mention": "2026-06-10",
+  "total_mentions": 41,
   "mentions": [
     {
       "tweet_id": "2041929392331616431",
@@ -969,6 +969,29 @@
         "likes": 686,
         "reposts": 41,
         "replies": 228
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064714994403742179",
+      "date": "2026-06-10",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "holds position"
+      ],
+      "is_risk": false,
+      "conviction": "low",
+      "raw_mention": "$ALRIB",
+      "text": "@MosheFeins48329 Still have my $AXTI, and positions in others I haven’t mentioned as much like $ALRIB or $LPK.\n\nAxt different reason though, one part is dilution concerns, so there’s some newer float structure risks.\n\nOther part is not wanting to cause more export controls by talking about some",
+      "url": "https://x.com/aleabitoreddit/status/2064714994403742179",
+      "kind": "reply",
+      "engagement": {
+        "views": 31850,
+        "likes": 137,
+        "reposts": 4,
+        "replies": 6
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

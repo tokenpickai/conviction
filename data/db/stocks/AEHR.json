@@ -17,9 +17,7 @@
       "date": "2026-01-16",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "SiC test supplier (tier 2)"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AEHR",
@@ -32,17 +30,18 @@
         "reposts": 101,
         "replies": 49
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2014740074131575056",
       "date": "2026-01-23",
-      "stance": "bullish",
+      "stance": "neutral",
       "mention_type": "explicit_stance",
       "reasons": [
         "has the structure of a moonshot",
-        "$5.5M Sonoma order recently in line with MU HBM4 16-hi qualification phase"
+        "$5.5M Sonoma order in line with MU HBM4 16-hi qualification phase",
+        "no confirmed links yet"
       ],
       "is_risk": false,
       "conviction": "low",
@@ -56,8 +55,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015096496019112151",
@@ -65,7 +64,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "sit in two different hot verticals in AI and Robotics",
+        "sits in two hot verticals AI and Robotics",
         "$5.5m Sonoma order might be linked with Micron and SiC Testing",
         "extremely good moonshot sub $1B MC"
       ],
@@ -81,8 +80,8 @@
         "reposts": 100,
         "replies": 83
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015143021374054642",
@@ -90,7 +89,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "toll booth for hbm4, SiC wafers, photonics"
+        "toll booth for HBM4, SiC wafers, photonics"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -104,8 +103,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015164232795627975",
@@ -128,8 +127,8 @@
         "reposts": 15,
         "replies": 18
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018576691296457118",

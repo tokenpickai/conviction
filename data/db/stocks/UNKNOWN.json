@@ -157,29 +157,31 @@
       "prompt_version": "extract-v1"
     },
     {
-      "tweet_id": "2016249140855156962",
-      "date": "2026-01-27",
+      "tweet_id": "2016511571137327207",
+      "date": "2026-01-28",
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "owns ~25-30% of semi-grade material supply chain in the world",
-        "potential material composite chokepoint with NVDA architectures in 2027",
-        "hidden beneficiary of material transitions as power rises to 2000W with Rubin deployments"
+        "US company owns large % of AlSiC supply chain",
+        "AlSiC material could be used for NVDA Rubin gen thermal",
+        "Space + Defense vertical gives low downside risk due to DoD/Raytheon/Northrop/NASA reliance",
+        "same thermal material used for hypersonic missiles, F-35s, Mars exploration can handle warpage for 2000W+ AI deployments",
+        "markets haven't priced this in yet"
       ],
       "is_risk": false,
-      "conviction": "medium",
-      "raw_mention": "interesting company on here",
-      "text": "There's an interesting company on here that happens to own ~25-30% of this semi-grade material supply chain in the world.\n\nThermal is probably an issue, so might be a potential material composite chokepoint with $NVDA architectures in 2027.\n\nThere was no issue with H200s (<1000W) but as you get higher to 2000w with Rubin deployments, might be a hidden beneficiary of material transitions.",
-      "url": "https://x.com/aleabitoreddit/status/2016249140855156962",
+      "conviction": "high",
+      "raw_mention": "mystery company (AlSiC supplier)",
+      "text": "I'm surprised majority of the X detectives in the comments guessed this right.\n\nI'll do a write-up on this mystery company soon. \n\nFrom my research, it was unique to have US company own a large % of the AlSiC supply chain, as this material could be used for $NVDA Rubin gen for thermal. \n\nBetter yet, Space + Defense vertical usage of AlSiC gives this company low downside risk bc of DoD/Raytheon/Northrop/NASA reliance of the material  composite.\n\nBut, who knew the same thermal material used for hypersonic missiles, f-35 fighter jets, and Mars space exploration could also be used to handle warpage for 2000W+ AI deployments?\n\nDoesn’t seem like markets have yet.",
+      "url": "https://x.com/aleabitoreddit/status/2016511571137327207",
       "kind": "post",
       "engagement": {
-        "views": 198257,
-        "likes": 200,
-        "reposts": 11,
-        "replies": 19
+        "views": 143578,
+        "likes": 143,
+        "reposts": 6,
+        "replies": 20
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2032196145263587754",

@@ -5,12 +5,12 @@
   "exchange": "US",
   "currency": "USD",
   "ticker_mapped": false,
-  "company": null,
-  "industry": null,
+  "company": "GlobalFoundries",
+  "industry": "Semiconductor Foundry",
   "thesis_summary": null,
   "first_mention": "2026-01-19",
-  "last_mention": "2026-06-05",
-  "total_mentions": 46,
+  "last_mention": "2026-06-11",
+  "total_mentions": 50,
   "mentions": [
     {
       "tweet_id": "2013376770121105710",
@@ -18,11 +18,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "US foundry",
-        "benefits from trade war with Europe hurting semiconductor supply chain"
+        "US foundry beneficiary",
+        "good dip buy if it drops"
       ],
       "is_risk": false,
-      "conviction": "low",
+      "conviction": "medium",
       "raw_mention": "$GFS",
       "text": "US Futures are down due to Greenland Tariff news.\n\nMany popular names on EU stock exchanges are now down:\n\n$ONDS (-8.55%) or $RKLB (-7.65%). \n\nHere's how to potentially profit off the situation:\n\nTier 1: Supply Chains\n\nThis is a dispute with NATO Allies. This threatens supply chains. \n\nMany US defense systems rely on European components (optics from Germany, chips from UK/Netherlands).  Greenland is a massive potential source of Rare Earth Elements (REEs). \n\nThe blockage of Greenland means the US must rely on domestic sources.\n\nA trade war with Europe creates chaos for defense contractors and other sectors.\n\nUS Critical Material providers like $MP or bottleneck hedges like $LPTH would be a good dip buying opportunity if they drop.\n\nTier 2: US Direct Conflict/War\n\nWar sectors like ( $AVAV or $KTOS ) are actually extremely resilient since fundamentally, the dispute goes back to US National Security. \n\nEU (Rheinmetall, SAAB) defense stocks are rallying, while US ( eg. $ONDS ) got sold off. US tickers are being mispriced by fearful European retail investors.\n\nDefense stocks might drop initially during \"risk-off\" panic but they actually end up being the primary beneficiaries of the tension with NATO allies. (you never know with Trump). \n\nAny large drops (if they happen) overnight or pre-market, this might be a good buying opportunity if there's an indiscriminate selloff.\n\nTier 3: US Semi Supply Chains/Foundry\n\nA trade war with Europe (specifically the Netherlands/ASML and Germany/Zeiss) hurts the semiconductor supply chain immensely. \n\nThrough all this pain, the vertically integrated \"Made in America\" hardware companies would benefit the most. \n\nCompanies like $COHR, $AMKR, or US foundries like $INTC, $GFS might be a good dip buy if they drop.\n\nThis is more nuanced since markets think they're still risky because a lot of the \"domestic\" players still rely on European imports (ASML lithography, Zeiss optics) to operate. \n\nHowever, this is US national security for supply chain sovereignty and this is an asymmetrical bet on US policy that they won't let these companies fail (eg. National Security Exemptions for Intel).\n\nProbably avoid: \n\nFalling knives on Tech/SaaS since they're considered \"risk assets\" and usually get sold off the most, unless it goes extreme. \n\n_\n\nEuropean markets are likely panic-selling into a void, given low liquidity.\n\nThe arbitrage bots might force US overnight prices down to match the \"implied prices\" of European/Futures. \n\nHowever, this might be the excellent opportunity if there's a gap-down on names on sectors that actually benefit from the situation. \n\nDirectionality, markets are likely going to see red.\n\nBut expect many of these -7% or -9% numbers to recover to reasonable levels like -1.5%, with some flipping positive.",
       "url": "https://x.com/aleabitoreddit/status/2013376770121105710",
@@ -33,8 +33,8 @@
         "reposts": 62,
         "replies": 38
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2033885603423785170",
@@ -991,6 +991,92 @@
         "likes": 736,
         "reposts": 58,
         "replies": 201
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063953669536862702",
+      "date": "2026-06-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$GFS",
+      "text": "@LightLogix I mean... \n\n&gt; $SIVE reference laser for $GFS \n&gt; $SIVE laser 1.6T LRO with $JBL + many more pluggable players\n&gt; $SIVE + Ayar + $NVDA NVLink\n&gt; likely $SIVE + Lightmatter / $MRVL Celestial with $NVDA NVLink\n&gt; Likely $SIVE -&gt; $AMD CPO ecosystem too. \n\nvery compelling long idea.",
+      "url": "https://x.com/aleabitoreddit/status/2063953669536862702",
+      "kind": "reply",
+      "engagement": {
+        "views": 70113,
+        "likes": 331,
+        "reposts": 26,
+        "replies": 10
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064303128225440049",
+      "date": "2026-06-09",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "likes it as tied with SIVE"
+      ],
+      "is_risk": false,
+      "conviction": "low",
+      "raw_mention": "$GFS",
+      "text": "@TalentActivity I do really like $GFS, $JBL, and others tied with $SIVE.\n\nThey’re all just kinda large by now, and less chance to triple.\n\nIf I were running a hedge fund I’d pick up Jabil,  it I’m personally maximizing returns + don’t like options on higher IV equities.",
+      "url": "https://x.com/aleabitoreddit/status/2064303128225440049",
+      "kind": "reply",
+      "engagement": {
+        "views": 15098,
+        "likes": 122,
+        "reposts": 4,
+        "replies": 11
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064314680521507114",
+      "date": "2026-06-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$GFS",
+      "text": "Names like:\n\n- $ASX\n- Sumitomo Electric\n- $JBL\n- $VICR\n- $GFS \n- $AAOI \n- AlChip \n- $TSEM\n- $FN\n- Furukawa Electric\n- $CLS\n- $NBIS\n- $NOK\n- $AMKR\n- $LITE\n- $COHR\n\nOff the top of my head.\n\nSo basically, AI exposure trading in the $10-100B range.\n\nLikely have compelling ROI right https://t.co/Ohd1Vy7Ews",
+      "url": "https://x.com/aleabitoreddit/status/2064314680521507114",
+      "kind": "post",
+      "engagement": {
+        "views": 794415,
+        "likes": 1796,
+        "reposts": 195,
+        "replies": 376
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065009883133644963",
+      "date": "2026-06-11",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$GFS",
+      "text": "Why do I keep getting these questions!!! \n\n$XFAB is building a Silicon Photonics foundry alternative to $TSEM and $GFS. And has Europe backing it + $NVDA evaluations. \n\nIt takes time... Like October 2026, should finish up development. \n\nThen 2027 production scaled into 2028 (mass https://t.co/aOgpUfnBhO https://t.co/OH9w6XDwYF",
+      "url": "https://x.com/aleabitoreddit/status/2065009883133644963",
+      "kind": "post",
+      "engagement": {
+        "views": 289086,
+        "likes": 901,
+        "reposts": 61,
+        "replies": 225
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

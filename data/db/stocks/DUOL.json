@@ -155,7 +155,7 @@
       "tweet_id": "2013956280193597529",
       "date": "2026-01-21",
       "stance": "neutral",
-      "mention_type": "comparison",
+      "mention_type": "background",
       "reasons": [],
       "is_risk": false,
       "conviction": null,
@@ -169,8 +169,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018972810912399375",

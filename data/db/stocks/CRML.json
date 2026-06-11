@@ -15,11 +15,9 @@
     {
       "tweet_id": "2013379570993352816",
       "date": "2026-01-19",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "Tanbreez and all its rare earth deposits"
-      ],
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$CRML",
@@ -32,8 +30,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

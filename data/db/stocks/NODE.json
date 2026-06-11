@@ -15,7 +15,7 @@
     {
       "tweet_id": "2011834016409010283",
       "date": "2026-01-15",
-      "stance": "bullish",
+      "stance": "neutral",
       "mention_type": "background",
       "reasons": [],
       "is_risk": false,
@@ -30,8 +30,8 @@
         "reposts": 2,
         "replies": 9
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011908685589565813",
@@ -53,8 +53,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

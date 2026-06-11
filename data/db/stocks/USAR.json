@@ -15,11 +15,9 @@
     {
       "tweet_id": "2015805598265479518",
       "date": "2026-01-26",
-      "stance": "bullish",
+      "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "US Gov $1.6B funding"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$USAR",
@@ -32,8 +30,8 @@
         "reposts": 123,
         "replies": 59
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015812891509973473",
@@ -41,12 +39,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "US Gov not selling at ~$17.17",
-        "entry point at $26 looks better now",
-        "dilution with strike at $21.5 noted but not a concern given government position"
+        "not worried about US Gov position at ~$17.17 since they're not selling",
+        "entry point at $26 looks better now"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "low",
       "raw_mention": "$USAR",
       "text": "@ponzisseur I didn't have time through the deal structure fully yet, I was watching $USAR pre-market and I think it hit +55% at one point?\n\nI did see that there was a lot of dilution with a strike at $21.5, not worried about US Gov at ~$17.17 since they're not selling. Entry point at $26 looks a lot better now though!",
       "url": "https://x.com/aleabitoreddit/status/2015812891509973473",
@@ -57,17 +54,15 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015813438216548835",
       "date": "2026-01-26",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "sector sell-the-news event after USAR news"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$USAR",
@@ -80,8 +75,8 @@
         "reposts": 2,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018190781098717355",

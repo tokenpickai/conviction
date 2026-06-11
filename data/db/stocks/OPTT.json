@@ -18,12 +18,12 @@
       "stance": "bearish",
       "mention_type": "explicit_stance",
       "reasons": [
+        "susceptible to large movements due to hype on contracts like Andruil partnerships",
         "$11m cash and $10m debt with $17m liabilities",
-        "incredibly likely they'll dilute if there's any retail interest",
-        "capital dilution is imminent"
+        "capital dilution seems imminent if there's retail interest"
       ],
       "is_risk": true,
-      "conviction": "high",
+      "conviction": null,
       "raw_mention": "$OPTT",
       "text": "@KakashiCapital_ For $OPTT, I made this comment to someone else where it's really susceptible to large movements (so profitable), bc there's hype on contracts like partnerships feeding into Andruil.\n\nBut they have $11m cash and $10m debt with $17m liabilities so it seems incredibly likely they’ll dilute if there's any retail interest. \n\nFeels like capital dilution is imminent unless there's any alpha i missed",
       "url": "https://x.com/aleabitoreddit/status/2015144783321469360",
@@ -34,8 +34,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2031449992981000333",

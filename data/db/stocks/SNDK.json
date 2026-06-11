@@ -9,8 +9,8 @@
   "industry": "Memory",
   "thesis_summary": "他看好 SanDisk 的存储周期上行。",
   "first_mention": "2025-11-25",
-  "last_mention": "2026-06-04",
-  "total_mentions": 141,
+  "last_mention": "2026-06-10",
+  "total_mentions": 142,
   "mentions": [
     {
       "tweet_id": "1993283099162189962",
@@ -62,9 +62,7 @@
       "date": "2026-01-07",
       "stance": "neutral",
       "mention_type": "comparison",
-      "reasons": [
-        "cited as historical analogy for how bottleneck-driven moves play out in memory markets"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$SNDK",
@@ -77,8 +75,8 @@
         "reposts": 2,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008885171156811870",
@@ -86,7 +84,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says much easier to full port into SNDK and MU and not touch it"
+        "much easier to full port and not touch"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -100,8 +98,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009446195933139114",
@@ -121,8 +119,8 @@
         "reposts": 2,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013895541277762034",
@@ -142,8 +140,8 @@
         "reposts": 39,
         "replies": 33
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013912079162560966",
@@ -163,17 +161,15 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2014002413146173863",
       "date": "2026-01-21",
       "stance": "neutral",
       "mention_type": "comparison",
-      "reasons": [
-        "historical analogy: rallied from $30 to $470 during memory rally"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$SNDK",
@@ -186,8 +182,8 @@
         "reposts": 60,
         "replies": 31
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2014808195014001018",
@@ -207,18 +203,15 @@
         "reposts": 16,
         "replies": 22
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015241123896369372",
       "date": "2026-01-24",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "Samsung NAND price hike of 100% vs estimates of 33-38% is a blowout",
-        "extra 65% increase is pure added high-margin profit"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$SNDK",
@@ -231,8 +224,8 @@
         "reposts": 128,
         "replies": 62
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015247206828417231",
@@ -240,11 +233,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "massive gross margin expansion from NAND and DRAM price hikes",
-        "great exposure to the memory cycle supercycle"
+        "massive gross margin expansion",
+        "great exposure to memory supercycle"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$SNDK",
       "text": "@bombayquant This was just NAND prices that were raised to 100%.  DRAM prices were also raised by ~10-15% above estimates.\n\nThis is a massive gross margin expansion for companies like $SNDK, Samsung, $MU, and SK Hynix.\n\nFwd blended gross margins for $MU might actually be 77%+ from 68%... I just did napkin modeling with NAND only with 73-75%, but if you combine the two, it's just shocking.\n\nThere were some \"80% figure\" leaks earlier that were dismissed as noise, but now that it's out with 100%, I'm curious how markets price this in.\n\nBut yeah those tickers seems like great exposure to the memory cycle supercycle.",
       "url": "https://x.com/aleabitoreddit/status/2015247206828417231",
@@ -255,8 +248,8 @@
         "reposts": 5,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015251312003387439",
@@ -264,11 +257,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "NAND increase is actually more than 100%",
-        "numbers break traditional modeling estimates"
+        "100%+ NAND price increase breaks traditional modeling estimates"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$SNDK",
       "text": "@DheerajNam Wow thanks for pointing out that it’s actually more than a 100%+ increase. I missed that. \n\nThese numbers just break traditional modeling estimates for companies like $MU, $SNDK, SK Hynix, and Samsung.",
       "url": "https://x.com/aleabitoreddit/status/2015251312003387439",
@@ -279,8 +271,8 @@
         "reposts": 2,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015506107075264735",
@@ -300,13 +292,13 @@
         "reposts": 43,
         "replies": 33
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015549311732658520",
       "date": "2026-01-25",
-      "stance": "bullish",
+      "stance": "neutral",
       "mention_type": "background",
       "reasons": [],
       "is_risk": false,
@@ -321,8 +313,8 @@
         "reposts": 76,
         "replies": 37
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016681010793153018",
@@ -342,20 +334,20 @@
         "reposts": 37,
         "replies": 11
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016976274573713441",
       "date": "2026-01-29",
       "stance": "neutral",
-      "mention_type": "explicit_stance",
+      "mention_type": "background",
       "reasons": [
-        "does not directly own Sandisk right now",
-        "feels FOMO looking at the chart every day"
+        "has exposure via Kioxia but doesn't directly own Sandisk",
+        "feels FOMO looking at the chart"
       ],
       "is_risk": false,
-      "conviction": "low",
+      "conviction": null,
       "raw_mention": "$SNDK",
       "text": "@LouPariPassu I have $SNDK exposure via Kioxia, but don’t directly own Sandisk right now. I do feel a bit of FOMO though looking at the chart every day.",
       "url": "https://x.com/aleabitoreddit/status/2016976274573713441",
@@ -366,19 +358,15 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016988540744454279",
       "date": "2026-01-29",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "Sandisk pays Kioxia $1.165B for manufacturing services",
-        "operates one of world's largest NAND flash manufacturing sites with Kioxia",
-        "earnings look like a blowout"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$SNDK",
@@ -391,17 +379,15 @@
         "reposts": 73,
         "replies": 14
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016989682769567944",
       "date": "2026-01-29",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "mentions short sellers at $500"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$SNDK",
@@ -414,8 +400,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016993953015615621",
@@ -423,7 +409,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "Q3 sales $4.6B vs est $2.9B",
+        "massive earnings beat vs estimates",
+        "Q3 guide sales $4.6B vs est $2.9B",
         "EPS $13.00 vs est $4.21"
       ],
       "is_risk": false,
@@ -438,8 +425,8 @@
         "reposts": 4,
         "replies": 27
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2017064502983086289",
@@ -447,12 +434,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "owns it",
+        "owns SNDK",
         "bought after ER",
         "up 1000%+ since last year"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": null,
       "raw_mention": "$SNDK",
       "text": "@HelixCapital_ Probably Sandisk but no firm opinion, I own both $SNDK and Nanya right now (ended up buying Sandisk after ER, but have Kioxia as Sandisk proxy)\n\nThey’re both up 1000%+ since last year so hard to complain.",
       "url": "https://x.com/aleabitoreddit/status/2017064502983086289",
@@ -463,8 +450,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2017097752535322767",
@@ -484,8 +471,8 @@
         "reposts": 33,
         "replies": 16
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2017278999727378786",
@@ -505,8 +492,8 @@
         "reposts": 19,
         "replies": 19
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018185060353278016",
@@ -3133,6 +3120,27 @@
         "likes": 833,
         "reposts": 89,
         "replies": 143
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064741308460351493",
+      "date": "2026-06-10",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "Just in case you weren’t aware…\n\nThe broader index is down a significant -3-4%.\n\nStocks don’t move in a straight lineup unless you’re $SNDK. \n\nAnd are largely affected by wider selloffs. \n\nCurious what my follower portfolios look like you’re green this week + long only? https://t.co/XRlXdeHbm1 https://t.co/EiLrL9WX4R",
+      "url": "https://x.com/aleabitoreddit/status/2064741308460351493",
+      "kind": "post",
+      "engagement": {
+        "views": 745832,
+        "likes": 949,
+        "reposts": 47,
+        "replies": 436
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

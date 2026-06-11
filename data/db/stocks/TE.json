@@ -531,8 +531,7 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "historical architect of Venezuela's critical infrastructure",
-        "likely to receive no-bid or sole-source service contracts",
-        "bringing in new firm would take years"
+        "likely to receive no-bid or sole-source service contracts for repairs"
       ],
       "is_risk": false,
       "conviction": null,
@@ -546,8 +545,8 @@
         "reposts": 430,
         "replies": 105
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008155137018155478",
@@ -567,8 +566,8 @@
         "reposts": 39,
         "replies": 50
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2023061769313542601",

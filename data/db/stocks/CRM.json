@@ -131,15 +131,11 @@
     {
       "tweet_id": "2012239990923858417",
       "date": "2026-01-16",
-      "stance": "bearish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "harder to fight the trend",
-        "opportunity cost versus defense and AI supply chain tailwinds",
-        "not his preferred trade"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
-      "conviction": "low",
+      "conviction": null,
       "raw_mention": "$CRM",
       "text": "@amitisinvesting Personally, not really! It’s not due to valuations (even if discounted) but mainly opportunity cost since there’s so many tailwinds with defense like drones as well as AI supply chains from memory to materials.\n\nI don’t think we’ll see another year like this in a decade where random commodity materials like Indium Phopshide end up becoming critical for AI/photonics and TAM goes up 4000%+.\n\nI think if analysts are able to identify them before others due, it’s like the modern gold rush.\n\nThat being said sure companies like $ADBE, $CRM and others might see a 20% rebound (and you can play options for leverage) but harder to fight the trend +  not my cup of tea.",
       "url": "https://x.com/aleabitoreddit/status/2012239990923858417",
@@ -150,8 +146,8 @@
         "reposts": 0,
         "replies": 5
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2044534220874518942",

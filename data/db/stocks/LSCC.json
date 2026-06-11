@@ -17,9 +17,7 @@
       "date": "2026-01-10",
       "stance": "neutral",
       "mention_type": "comparison",
-      "reasons": [
-        "trades around 19x-23x EV/Revenue as a valuation comparison"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$LSCC",
@@ -32,17 +30,15 @@
         "reposts": 51,
         "replies": 56
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012071822481900030",
       "date": "2026-01-16",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "sensor fusion FPGAs supplier (tier 3)"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$LSCC",
@@ -55,8 +51,8 @@
         "reposts": 101,
         "replies": 49
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2054335940026573222",

@@ -15,11 +15,9 @@
     {
       "tweet_id": "2013668604022083930",
       "date": "2026-01-20",
-      "stance": "bullish",
+      "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "up roughly 20-30% since he posted thesis"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$VLH",
@@ -32,8 +30,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

@@ -5,21 +5,42 @@
   "exchange": "US",
   "currency": "USD",
   "ticker_mapped": false,
-  "company": null,
-  "industry": null,
+  "company": "AeroVironment",
+  "industry": "Defense Drones/Autonomy",
   "thesis_summary": null,
-  "first_mention": "2026-01-03",
+  "first_mention": "2026-01-02",
   "last_mention": "2026-03-26",
-  "total_mentions": 41,
+  "total_mentions": 42,
   "mentions": [
+    {
+      "tweet_id": "2007113531158908939",
+      "date": "2026-01-02",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AVAV",
+      "text": "@Para_Capital Looking @ $AIRO from the fund/vertical not the exec team. For example, @chamath was frowned upon until he got that 20B Groq exit. Or Saylor was a meme until $MSTR pulled off a heist. It does make a large difference, but it's not everything. \n\nIn terms of $AIRO / $ONDS, especially with Russia/Ukraine conflicts + NATO + DoD funneling money into drone segments, the vertical should command a premium (but Airo, trades like it's distressed).\n\nThe RQ-35 Heidrun IP, seemed extremely interesting for GPS-denied environments. But they have a ton of misc companies like training that are just side quests.  \n\nSo similar to $SMCI, there was also backlog delays with caused the crash in Airo (the $6.3M vs $23.7M miss). But the $20m drone shipments was just shifted not cancelled. \n\nNet cash is $68.8M which is extremely solid given its mini $250m MC, and it trades at 2.1x EV to revenue, compared to others like $AVAV at 9.4x. I think $ONDS was like 20-30 off the top of my head. \n\nSo TLDR: solid cash position, attractive vertical, drop based on differed revenue not cancelled, low market cap presents good upside. \n\nIt shouldn't trade like a distressed company because of cash position + just deferred rev.",
+      "url": "https://x.com/aleabitoreddit/status/2007113531158908939",
+      "kind": "reply",
+      "engagement": {
+        "views": 3446,
+        "likes": 10,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2007387427820978510",
       "date": "2026-01-03",
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "recently unveiled Red Dragon and updated Switchblade 600 variants specifically for maritime operations",
-        "drones linked to ships and jets via sensors"
+        "unveiled Red Dragon and updated Switchblade 600 variants for maritime operations",
+        "defense and aerospace beneficiary"
       ],
       "is_risk": false,
       "conviction": null,
@@ -33,8 +54,8 @@
         "reposts": 965,
         "replies": 180
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007758407948788162",
@@ -42,11 +63,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "Maritime operations",
+        "maritime operations",
         "post $1T funding for defense"
       ],
       "is_risk": false,
-      "conviction": "low",
+      "conviction": "medium",
       "raw_mention": "$AVAV",
       "text": "Maduro is now captured in NY, facing charges. \n\nThe first thing that came to everyone's mind is:\n\nHow do you profit off the US invasion of Venezuela and Regime Change?\n\nHere's how.\n\nThis is the \"Nation Building\" port:\n\n1. $GDRZF @$1.68 - $8B+ claims, $200m MC. (30%)\n\n2. $ASHM @ £175.10 - 3x NAV bonds recovery (20%)\n\n3. $CVX @ $155.90 - Most obvious oil play from locked up assets + $17T in oil (15% allocation / calls)\n\n4. $TRGP @ $186.77 - Diluent exporter to Venezuela (10% allocation / calls)\n\n5. $AVAV @ $256.19  - Maritime operations and post $1T funding for defense.  ( 10% allocation)\n\n6. $CF @ $80.13 - Disruption of Trinidad & Tobago ammonia exports.  (5% allocation)\n\n7. $HII @ $349.7 - Profiting off the blockade from shipbuilding (5% allocation)\n\n8. $OI @ $15.16 - Claims ~$700M, 35% cash injection relative to market cap (5% allocation)\n\nThis setup looks to be the optimal way to capitalize on the US invasion of Venezuela - from profiting off the blockade to the new $17T+ in oil resources now owned by the United States. \n\n\"Nation Building\" is the most underrated theme going into 2027. \n\nWatch what happens on Monday and the following months.",
       "url": "https://x.com/aleabitoreddit/status/2007758407948788162",
@@ -57,8 +78,8 @@
         "reposts": 82,
         "replies": 28
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008235337643086305",
@@ -80,8 +101,8 @@
         "reposts": 14,
         "replies": 26
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008425368966062263",
@@ -92,7 +113,7 @@
         "looks safest given US gov subsidies for development"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$AVAV",
       "text": "@FrontRangeHQ I did but it’s extremely risky so $VLO, $AVAV, and $CVX look the safest right now given US gov subsidies for development. \n\nI’d be wary of the $5.9b amber energy bid that won so I’d change these weightings after today.",
       "url": "https://x.com/aleabitoreddit/status/2008425368966062263",
@@ -103,17 +124,15 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008454507823591467",
       "date": "2026-01-06",
       "stance": "neutral",
       "mention_type": "comparison",
-      "reasons": [
-        "trades at ~9.3 p/s as a larger company benchmark"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AVAV",
@@ -126,17 +145,15 @@
         "reposts": 25,
         "replies": 23
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008910857003221451",
       "date": "2026-01-07",
       "stance": "neutral",
-      "mention_type": "comparison",
-      "reasons": [
-        "got premiums from Venezuela's invasion"
-      ],
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AVAV",
@@ -149,8 +166,8 @@
         "reposts": 85,
         "replies": 60
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009277084875538708",
@@ -172,17 +189,15 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009278429724614950",
       "date": "2026-01-08",
       "stance": "neutral",
       "mention_type": "comparison",
-      "reasons": [
-        "used as conservative aerospace valuation benchmark for AIRO"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AVAV",
@@ -195,8 +210,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009318848277909826",
@@ -204,13 +219,15 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
+        "really likes it",
         "won $800m+ contract in Dec",
         "made kamikaze switchblade drones that successfully disabled Venezuelan air defenses",
-        "likely huge winner given $1.5T+ defense spending",
+        "$1.5T+ in defense spending tailwind",
+        "huge winner likely",
         "upside given small market cap"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": "high",
       "raw_mention": "$AVAV",
       "text": "@octo_data It's not 10x but I really like $AVAV. \n\nThey won a $800m+ contract earlier last Dec, and then made the kamikaze switchblade drones that successfully disabled Venezuelan air defenses. \n\nGiven the success and $1.5T+ in defense spending, they'll likely be a huge winner, and upside is there given its small MC.",
       "url": "https://x.com/aleabitoreddit/status/2009318848277909826",
@@ -221,8 +238,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010573877798482313",
@@ -234,7 +251,7 @@
         "$4b backlog",
         "$887m contract recently",
         "150% y/y revenue growth",
-        "benefits from $1.5T Department of War funding",
+        "more coming from $1.5T Department of War funding",
         "used in every military engagement by the Department of War"
       ],
       "is_risk": false,
@@ -249,8 +266,8 @@
         "reposts": 14,
         "replies": 30
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010590351032209424",
@@ -258,7 +275,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "cost averaging up",
+        "been cost averaging up",
         "does the drone striking"
       ],
       "is_risk": false,
@@ -273,8 +290,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010916127925293347",
@@ -294,8 +311,8 @@
         "reposts": 29,
         "replies": 8
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011029875361218700",
@@ -303,8 +320,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "Drone Strikes play",
-        "Department of War stocks beneficiary"
+        "Drone Strikes",
+        "pure play War vertical",
+        "beneficiary of US intervention catalysts"
       ],
       "is_risk": false,
       "conviction": null,
@@ -318,8 +336,8 @@
         "reposts": 27,
         "replies": 24
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011333482144731617",
@@ -339,18 +357,15 @@
         "reposts": 3,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012208047494500441",
       "date": "2026-01-16",
-      "stance": "bullish",
-      "mention_type": "comparison",
-      "reasons": [
-        "kamikaze drones are really cool",
-        "marketcaps follow the tech eventually"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AVAV",
@@ -363,8 +378,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013376770121105710",
@@ -372,10 +387,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "extremely resilient war sector",
-        "dispute goes back to US National Security",
-        "primary beneficiaries of tension with NATO allies",
-        "US tickers being mispriced by fearful European retail"
+        "war/defense sector resilient",
+        "dispute goes back to US national security",
+        "defense stocks primary beneficiaries of NATO tension",
+        "US tickers mispriced by fearful European retail"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -389,8 +404,8 @@
         "reposts": 62,
         "replies": 38
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013382311056642527",
@@ -398,9 +413,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he has it for drone exposure",
+        "holds position",
         "in the replicator program",
-        "lower valuation at 8-9 fwd EV/revenue vs ONDS at 28s+"
+        "fwd EV/revenue 8-9x much cheaper than ONDS"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -414,8 +429,8 @@
         "reposts": 3,
         "replies": 7
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013391730410955200",
@@ -423,8 +438,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "gold standard",
-        "already part of replicator",
+        "gold standard in drones",
+        "already part of replicator program",
         "already successful"
       ],
       "is_risk": false,
@@ -439,17 +454,15 @@
         "reposts": 4,
         "replies": 5
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013527028318846987",
       "date": "2026-01-20",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "part of $1.5T proposed defense spending via Replicator Switchblade drone programs"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$AVAV",
@@ -462,8 +475,8 @@
         "reposts": 31,
         "replies": 25
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013621368831778896",
@@ -483,8 +496,8 @@
         "reposts": 129,
         "replies": 45
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013689876038681058",
@@ -494,7 +507,7 @@
       "reasons": [
         "great dip buy on 15% drop",
         "main revenue is $1B+ switchblade replicator",
-        "market panic over $175m contract renegotiation is overblown"
+        "market panicking over $175m contract renegotiation is overreaction"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -508,8 +521,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013691795130228801",
@@ -517,13 +530,14 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "added to position on 16% dip",
-        "market misread SCAR program news as cancellation when it was a contract renegotiation",
-        "8-K filing states they will continue providing capabilities for SCAR program",
-        "SCAR contract is small ($175m) relative to crown jewel Switchblade via Replicator program"
+        "added to position on the 16% dip",
+        "SCAR program not canceled, just contract re-negotiation",
+        "8-K filings confirm continued capabilities and products for SCAR program",
+        "SCAR was a small $175m fw revenue contract",
+        "crown jewel is Switchblade via Replicator"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": "high",
       "raw_mention": "$AVAV",
       "text": "I’ve added to my $AVAV positions on the 16% dip.\n\nMarkets made a mistake with regarding the Scar program news.\n\n- Markets thought SCAR program was canceled hence 15%+ selloff.\n\n- It’s not. In the 8-K regulatory filings they said they would “continue providing capabilities and products for the SCAR program.”\n\n- This was contract re-negotiation. Not cancelled. \n\nAlso this was a small $175m fw revenue contract. $AVAV crown jewel is Switchblade via Replicator\n\nSo I personally ended up buying the dip today.",
       "url": "https://x.com/aleabitoreddit/status/2013691795130228801",
@@ -534,8 +548,8 @@
         "reposts": 12,
         "replies": 25
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013693411526881594",
@@ -543,16 +557,16 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "$1.5T proposed DoD funding tailwind",
-        "tailwinds from Venezuela raid and other global conflicts",
+        "$1.5T proposed DoD funding tailwinds",
+        "tailwinds from Venezuela raid and global conflicts",
         "$874m IDIQ deal last month",
         "$500m UAS missile deal in October",
         "$42m LRR program deal in December",
-        "total contracts exceeding $1.4B+ in recent period"
+        "totaling $1.4B+ in contracts"
       ],
       "is_risk": false,
-      "conviction": null,
-      "raw_mention": "$AVAV",
+      "conviction": "high",
+      "raw_mention": "$AVAV (implied)",
       "text": "@diyinvestguy Perhaps the $1.5T proposed DoD funding + tailwinds from Venezuela raid + other global conflicts.\n\nOr maybe the $874m idiq deal last month, a $500m uas missile deal in October, another $42m LRR program deal in December, and more totaling $1.4B+?",
       "url": "https://x.com/aleabitoreddit/status/2013693411526881594",
       "kind": "reply",
@@ -562,8 +576,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013696273270911214",
@@ -571,13 +585,13 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "secured $1.4B+ in contracts in the past 4 months",
+        "secured $1.4B+ in contracts in past 4 months",
         "contract renegotiation possibly better long term",
-        "moving from OTA/R&D agreement to FFP contract locks in price for volume",
-        "selloff based on complete misunderstanding of the news"
+        "moving from OTA/R&D to FFP contract means locking in price for volume",
+        "situation completely misunderstood by market"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$AVAV",
       "text": "@victor_privin $AVAV secured $1.4B+ in contracts in the past 4 months.\n\nThis is a contract renegotiation (possibly better long term). \n\nOTA agreements a lot of times is for prototyping and R&amp;D. Moving to an FFP contract = locking in price for volume.\n\nCompletely misunderstood",
       "url": "https://x.com/aleabitoreddit/status/2013696273270911214",
@@ -588,8 +602,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013703080806883488",
@@ -597,12 +611,13 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "renegotiated contract from R&D type to long term volume contract",
-        "17% selloff was unwarranted and stupid",
-        "personally added to position on the selloff"
+        "renegotiated contract from R&D to long term volume contract",
+        "sold off 17% for no reason",
+        "selloff was stupid",
+        "personally added on the dip"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": "high",
       "raw_mention": "$AVAV",
       "text": "@Para_Capital I mean this is the $CRDO Amazon wire incident equivalent. But in the Defense sector.\n\nBe $AVAV:\n\n-> Renegotiates contract from R&D type to long term volume contract. \n-> Media: \"Oh no the fancy Scar program got halted\" \n-> Sells off 17% for no reason. \n\nup to you though, I personally added since I thought this selloff was stupid.",
       "url": "https://x.com/aleabitoreddit/status/2013703080806883488",
@@ -613,8 +628,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015096496019112151",
@@ -622,7 +637,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "selloff from misinformation about converting R&D contracts presents considerable upside"
+        "selloff from misinformation about converting R&D contracts",
+        "considerable upside from long term contract"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -636,8 +652,8 @@
         "reposts": 100,
         "replies": 83
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016936961374867484",
@@ -645,9 +661,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "really like it"
+        "really likes it"
       ],
-      "is_risk": true,
+      "is_risk": false,
       "conviction": "medium",
       "raw_mention": "$AVAV",
       "text": "@__visionxry__ Yeah I really like $AVAV. That being said there’s a government shutdown tomorrow so maybe not the best timing today for government contractors",
@@ -659,8 +675,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018396671206736123",

@@ -302,17 +302,15 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2014768672452313419",
       "date": "2026-01-23",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "has access to most markets"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$IBKR",
@@ -325,8 +323,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015549311732658520",
@@ -346,8 +344,8 @@
         "reposts": 76,
         "replies": 37
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015551832794464396",
@@ -367,8 +365,8 @@
         "reposts": 1,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016491400150626592",
@@ -388,8 +386,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016509082358919603",
@@ -398,10 +396,10 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "second order beneficiary of US retail investing internationally in memory/semi supercycles",
-        "has access to TW or JP stocks"
+        "has access to TW and JP stocks that competitors don't"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "low",
       "raw_mention": "$IBKR",
       "text": "@hippygecko It’s interesting that $IBKR is second order beneficiary of US retail investing internationally in the memory/semi supercycles. $HOOD doesn’t have access to these types of TW or JP stocks.\n\nPretty sure @vladtenev should make this his #1 priority. https://t.co/ne4ZdKaZYy",
       "url": "https://x.com/aleabitoreddit/status/2016509082358919603",
@@ -412,8 +410,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018580217976254488",

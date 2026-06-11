@@ -53,8 +53,8 @@
         "reposts": 14,
         "replies": 23
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2019181182026686661",

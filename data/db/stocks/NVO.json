@@ -5,8 +5,8 @@
   "exchange": "US",
   "currency": "USD",
   "ticker_mapped": false,
-  "company": null,
-  "industry": null,
+  "company": "Novo Nordisk",
+  "industry": "Pharmaceuticals/GLP-1",
   "thesis_summary": null,
   "first_mention": "2025-08-23",
   "last_mention": "2026-05-09",
@@ -257,9 +257,9 @@
       "stance": "bearish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "cannot say it benefits from Greenland trade tensions"
+        "pharma bulls unlikely to benefit from Greenland trade tensions"
       ],
-      "is_risk": false,
+      "is_risk": true,
       "conviction": null,
       "raw_mention": "$NVO",
       "text": "@StockSavvyShay I'm a bull that's excited about Greenland trade tensions.   \n\nUS defense like $UAVS and $DPRO are likely to benefit. Same with rare earth/critical materials.   \n\nCan't say the same about the pharma bulls in $NVO, European luxury like $LVMH, or possibly big tech.\n\nAs you mentioned, I agree it's just noise to the AI trade.",
@@ -271,8 +271,8 @@
         "reposts": 4,
         "replies": 16
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2019903479486279877",

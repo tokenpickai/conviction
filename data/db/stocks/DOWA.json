@@ -196,33 +196,31 @@
       "prompt_version": "extract-v1"
     },
     {
-      "tweet_id": "2008586745315504255",
-      "date": "2026-01-06",
+      "tweet_id": "2007202015940931878",
+      "date": "2026-01-02",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "can still provide certain amounts but cannot fill gap left by China Indium supply cut"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
-      "raw_mention": "Dowa",
-      "text": "@itsthesquonky Today China’s Ministry of Commerce has announced a ban on the export of \"dual-use\" items to Japan.\n\nJapanese companies (like Sumitomo Electric and JX Nippon Mining & Metals) are the leaders in producing  InP substrates. But China dominates the supply of Indium, the critical raw material required to produce InP substrates. \n\nThe wording of the ban is broad (\"any other uses that could contribute to strengthening Japan’s military capabilities\"). This allows Beijing to cut off exports of raw Indium to Japanese tech giants because companies. eg Sumitomo contribute to many military use cases. Indium Phosphide (InP) would be under this definition.\n\nJapanese manufacturers likely have stockpiles, so production won't stop today. But stockpiles dwindle in a few months, Japan will lack the feedstock required to make the finished InP Substrates at scale. \n\nDowa and others will still able to provide certain amounts, but without China, Japanese manufacturers cannot create enough InP substrate required for the AI buildout. \n\nSo basically this was just an export control nuke on the Japanese supply chain -> Western Supply chain to solidify dependence on China.",
-      "url": "https://x.com/aleabitoreddit/status/2008586745315504255",
-      "kind": "reply",
+      "raw_mention": "$DOWA",
+      "text": "The InP substrate shortage and \"Spread\" Arbitrage - $AXTI\n\nMarket research is showing InP and optical components to become analogous to the HBM shortage and price craze.\n\nThe initial bottleneck was caused by $NVDA monopolizing of the production capacity of EML from $COHR to $LITE (TrendForce). \n\nHere's the breakdown:\n\n$NVDA has reportedly engaged in strategic capacity reservations for EML laser chips, pushing lead times for these specific components beyond 2027. \n\nBy booking out the finished goods capacity of IDMs like $LITE and $COHR (who are constrained by InP), Nvidia has effectively removed the capacity for optical engines.\n\nThe \"Second Order effect\": As a result, many hyperscalers have likely delayed their roadmaps/ramp from $MSFT to $AMZN and are looking for capacity. \n\nOptical makers have also scrambled for alternative sources. \n\nSince the primary IDMs are booked, hyperscalers are moving upstream to secure wafers, substrate, and feedstock capacity directly, creating a effect that is amplifying demand at the materials level.\n\nBoth 6N and 7N Indium are at all time highs on the Shanghai Metal Markets; prices sit higher on Western markets, representing a price bifurcation between China and Western markets. \n\n6N for example sits ~$412.83-$425.46 per kg.\n\n6N Western prices are ~$668.00 (Jan 1st, source: Indium Corporation at 5-9 kg quantities), over 50%+ premium. (Spot direct negotiations to hyperscalers would likely have different prices). \n\nPremiums for 7N would likely higher margin, with  substrates commanding the most premium (not public data, but some estimates go into triple digit premiums)\n\nHowever, the bottleneck has now migrated upstream to substrate itself (and third order effect, feedstock) to secure capacity. \n\n$AXTI perhaps plays one of the most critical roles and unique roles as \"40% of the InP supply chain\" ( $AXTI CEO ER quote) in the InP bottleneck:\n\nLow costs: AXTI's factory is in Beijing. They source materials (own 10+ materials suppliers) and refine them themselves into finish substrates.\n\nSell High: They sell finished InP substrates to the global market, where prices are inflated by the shortage and the Western Indium price. \n\nArbitrage: As long as AXTI continues their export permits, they capture the massive spread between low Chinese manufacturing costs and high global selling prices.\n\nThis is compared to Western companies that are largely affected by upstream material costs and Western premiums. As a result $AXTI, margins next quarter should expand rapidly on top of their production capacity funded by the $100m share sale injection by Northland. \n\nThis is implicated from reports from late December reports from Asian Metal, indicating that Chinese suppliers explicitly \"raised offering prices\" for exports to the US:\n\nDecember 19, 2025: Asian Metal reported that \"Indium ingot suppliers raise offering prices in United States,\" marking the beginning of the specific divergence in Western pricing.\n\nDecember 24, 2025: They subsequently reported that \"Suppliers of indium ingot raise quotes in China,\" confirming that the pricing pressure had solidified across both domestic and export channels by the end of the week.\n\nThis stems from capacity monopolization by hyperscalers, extended lead times, and a decoupling of \"AI\" material pricing from commodity baselines.\n\nThe conditions for a \"Massive Price Increase\" for InP substrates are not just present, they are active. \n\nThroughout 2026, both the price of InP substrates, and by one-hop, the commodity price of Indium would likely see a rapid surge as hyperscalers go upstream to secure demand.\n\nThe company that benefits both ways from the a possible parabolic rally in InP substrate + InP feedstock prices would be $AXTI, presenting an asymmetrical upside at $16, ~$850M MC. However, the risks are present as they're heavily reliant on export permits and US-China trade relations. \n\nTLDR, AXT: \n\n1. Sits in the center of both InP substrate and InP feedstock bottlenecks\n\n2. Benefits from margin arbitrage and substrate price surges between China production and US hyperscaler premiums during allocation battles. \n\n3. Controls a major a major percentage of the world's merchant output for substrates required for the Western hyperscaler AI buildout. \n\nHyperscalers saw Nvidia monopolized EML capacity and are likely looking at companies like $AXTI, Sumitomo or feedstock (Vital, $AXTI, $DOWA) to secure their roadmaps now. \n\nAXT is one of the most interesting companies at $850m given it controls the critical bottleneck to the hyperscaler AI buildout and captures both the InP substrate price surge + margin arbitrage opportunities.",
+      "url": "https://x.com/aleabitoreddit/status/2007202015940931878",
+      "kind": "post",
       "engagement": {
-        "views": 5168,
-        "likes": 34,
-        "reposts": 1,
-        "replies": 3
+        "views": 64288,
+        "likes": 189,
+        "reposts": 21,
+        "replies": 18
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009423554547487107",
       "date": "2026-01-08",
       "stance": "neutral",
-      "mention_type": "comparison",
+      "mention_type": "background",
       "reasons": [],
       "is_risk": false,
       "conviction": null,
@@ -236,14 +234,14 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009446195933139114",
       "date": "2026-01-08",
       "stance": "neutral",
-      "mention_type": "comparison",
+      "mention_type": "background",
       "reasons": [],
       "is_risk": false,
       "conviction": null,
@@ -257,8 +255,8 @@
         "reposts": 2,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

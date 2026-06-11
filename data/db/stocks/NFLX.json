@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2025-12-10",
-  "last_mention": "2026-02-27",
-  "total_mentions": 3,
+  "last_mention": "2026-06-10",
+  "total_mentions": 4,
   "mentions": [
     {
       "tweet_id": "1998846813177262295",
@@ -77,6 +77,27 @@
         "likes": 807,
         "reposts": 57,
         "replies": 73
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064742286064562618",
+      "date": "2026-06-10",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$NFLX",
+      "text": "@CryptoHafuya Idk $RDDT $HOOD $NFLX and your popular retail stocks are all green",
+      "url": "https://x.com/aleabitoreddit/status/2064742286064562618",
+      "kind": "reply",
+      "engagement": {
+        "views": 33686,
+        "likes": 88,
+        "reposts": 0,
+        "replies": 9
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

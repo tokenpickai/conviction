@@ -18,9 +18,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "competitors starved of Venezuelan oil",
         "ability to source heavy crude from diverse locations",
-        "leverage to diesel margins makes it resilient"
+        "leverage to diesel margins makes it resilient if competitors starved of Venezuelan oil"
       ],
       "is_risk": false,
       "conviction": null,
@@ -34,8 +33,8 @@
         "reposts": 965,
         "replies": 180
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007489901877436756",
@@ -43,8 +42,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "refineries built to process Venezuela's heavy, sour crude",
-        "flood of Venezuelan oil would lower feedstock costs and widen profit margins"
+        "refineries specifically built to process Venezuela's heavy sour crude",
+        "flood of Venezuelan oil would lower feedstock costs and widen margins"
       ],
       "is_risk": false,
       "conviction": null,
@@ -58,17 +57,15 @@
         "reposts": 430,
         "replies": 105
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008339827624997004",
       "date": "2026-01-05",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "immediate profit expansion"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$VLO",
@@ -81,8 +78,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008352067765837942",
@@ -90,11 +87,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "refiner built to process Venezuelan heavy crude",
+        "built to process Venezuelan heavy crude",
         "subsidies mean oil flows faster"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": "low",
       "raw_mention": "$VLO",
       "text": "Just in: \n\n1. Trump likely to Subsidize Oil Firms in Venezuela.\n\n2. Trump is now currently meeting US Oil company leaders to discuss these subsidies and boosting Oil Production immediately\n\nHere’s what companies likely receives the funding and benefits:\n\n$CVX - Chevron US subsidies are basically guaranteed as they are the only U.S. major currently left that can use to immediately deploy these subsidies.\n\nRefiners\n\n$VLO, $PSX and $MPC - These refiners are built to process Venezuelan heavy crude. Subsidies mean the oil flows faster, albeit the exact allocations are more speculative due to multiple players.\n\nService Companies\n\n$HAL, $BKR - These companies don't own the oil but they do fix the pipes. Many of these companies will likely receive subsidizes, as the US fixes extremely old pipelines. \n\nThis is incredibly rewarding for US companies to capitalize on the $17T gold mine of Venezuelan oil reserves, without risking their own capital.\n\nMarkets were initially pricing in high capex spend with a few of these, and now we might see a market re-rating in anticipation of these subsidies.\n\nUS funding oil company spend changes the equation across the board and is bullish for oil firms like Chevron.",
       "url": "https://x.com/aleabitoreddit/status/2008352067765837942",
@@ -105,8 +102,8 @@
         "reposts": 17,
         "replies": 12
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008425368966062263",
@@ -117,7 +114,7 @@
         "looks safest given US gov subsidies for development"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$VLO",
       "text": "@FrontRangeHQ I did but it’s extremely risky so $VLO, $AVAV, and $CVX look the safest right now given US gov subsidies for development. \n\nI’d be wary of the $5.9b amber energy bid that won so I’d change these weightings after today.",
       "url": "https://x.com/aleabitoreddit/status/2008425368966062263",
@@ -128,8 +125,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

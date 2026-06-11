@@ -18,9 +18,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "frames of humanoids like Boston Dynamics Atlas",
+        "frames/skeleton of humanoids like Boston Dynamics Atlas",
         "at the bottom of robotics supply chain",
-        "nobody was doing Robotics or Defense bottlenecks"
+        "overlooked — nobody was doing Robotics or Defense bottlenecks"
       ],
       "is_risk": false,
       "conviction": null,
@@ -34,17 +34,15 @@
         "reposts": 2,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011875689033818160",
       "date": "2026-01-15",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "already up quite a decent amount since news published"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$SSYS",
@@ -57,8 +55,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011879749610815814",
@@ -66,9 +64,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "at the bottom of supply chains for Boston Dynamics, Tesla Optimus, Meta Humanoids",
-        "skeleton/frame of all the humanoids",
-        "Atlas abandoned metal frames for Stratasys Nylon 12CF carbon fiber for limbs"
+        "at the bottom of supply chains of Boston Dynamics, Tesla Optimus, Meta Humanoids",
+        "Atlas abandoned metal frames for Stratasys Nylon 12CF carbon fiber limbs"
       ],
       "is_risk": false,
       "conviction": null,
@@ -82,8 +79,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011880439267672119",
@@ -91,9 +88,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "following public information after OpenAI robotics push",
-        "up 6% since he posted",
-        "skeleton/frames of all humanoid robots"
+        "skeleton/frames of all the humanoid robots",
+        "OpenAI robotics push catalyst",
+        "already up 6% since he posted"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -107,8 +104,8 @@
         "reposts": 0,
         "replies": 8
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011882980541976885",
@@ -117,11 +114,11 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "frame/skeleton of humanoid robots",
-        "revenue increases exponentially if Atlas, Optimus or others achieve scale",
+        "revenue increases exponentially if robotics achieves scale",
         "most asymmetry on the robotics ramp"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": null,
       "raw_mention": "$SSYS",
       "text": "@UmidKD I don't know. Don't have one. \n\n$SSYS basically the frame/skeleton of humanoid robots and revenue ramp depends on robotics scale up. \n\nIf Atlas from Boston Dynamics or Optimus or others achieves scale, then revenue increases exponentially.  \n\nNo robotics player achieved anything at scale yet, hence why revenue's been lower so far. \n\nBut this is just my personal thought regarding getting the most asymmetry on the robotics ramp.",
       "url": "https://x.com/aleabitoreddit/status/2011882980541976885",
@@ -132,8 +129,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011890935727341766",
@@ -141,8 +138,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "so obscure in the robotics bottleneck",
-        "extremely surprised a politician found it"
+        "obscure robotics bottleneck play, very under the radar"
       ],
       "is_risk": false,
       "conviction": null,
@@ -156,8 +152,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011892589109395927",
@@ -165,8 +161,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "robotics bottleneck very under the radar",
-        "until humanoid production from Atlas to Optimus ramp up"
+        "robotics bottleneck, very under the radar until humanoid production ramps up"
       ],
       "is_risk": false,
       "conviction": null,
@@ -180,8 +175,8 @@
         "reposts": 2,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011913703294181842",
@@ -190,10 +185,10 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "forward looking toward robotics scale up",
-        "2026 might be the inflection point for robotics",
-        "more than 1/4th cash, no debt, gives lower downside risk",
-        "make money for each robot produced on scale up",
-        "do components as well eg. ghost robotics + material"
+        "2026 might be inflection point for robotics",
+        "more than 1/4th cash, no debt gives lower downside risk",
+        "makes money for each robot produced on scale up",
+        "bet on the future of robotics"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -207,8 +202,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011924749342089527",
@@ -230,8 +225,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012054895684370533",
@@ -240,12 +235,10 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "certification monopoly for US supply chains",
-        "Boston Dynamics pivoted to electric Atlas using lightweight structural frames from SSYS",
-        "other research prototypes from Meta Humanoids to others started following suit",
-        "ChatGPT announced push into robotics today",
-        "likely hit the inflection point for robotics",
-        "companies formerly in prototyping stage with SSYS as lightweight structural frame are now scaling",
-        "benefits robotics at scale"
+        "Boston Dynamics pivoted to lightweight structural frames using SSYS",
+        "humanoid/robotics prototyping companies now scaling with SSYS as lightweight structural frame",
+        "benefits from robotics at scale",
+        "ChatGPT push into robotics signals inflection point"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -259,8 +252,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012096646994076025",
@@ -268,11 +261,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "priced as a dying hardware company but now likely frame of every humanoid robot",
-        "new information discovery/synthesis"
+        "was priced as a dying hardware company but now likely frame of every humanoid robot"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$SSYS",
       "text": "@rioferdy838 Definitely not lol. That’s HFT or institutional algorithms with $SSYS. I’ve noticed that they track my X posts nowadays\n\nAlso I do post quite a lot of new information discovery/synthesis. This was priced as a dying hardware company but now they’re the likely frame of every humanoid robot.",
       "url": "https://x.com/aleabitoreddit/status/2012096646994076025",
@@ -283,8 +275,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012120051747635438",
@@ -292,12 +284,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "supplies structural frames/skeletons for humanoid robots including Boston Dynamics Atlas and Meta's humanoid",
-        "robotics ramp-up is the key catalyst",
-        "OpenAI-related news yesterday seen as a strong catalyst"
+        "supplies frame/skeleton for humanoid robots like Boston Dynamics Atlas and Meta",
+        "robotics ramp-up could be starting now",
+        "OpenAI news is a catalyst"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": null,
       "raw_mention": "$SSYS",
       "text": "@yasutaketin $SSYS は、ボストン・ダイナミクスの「Atlas」やMetaのヒューマノイドなど、あらゆる人型ロボットの**機体フレーム（骨格）**を担っているため、非常に興味深い銘柄です。\n今後の展開はロボティクスの普及（ランプアップ）次第であり、本格的な立ち上がりには時間がかかるかもしれませんが、あるいは今まさに始まっている可能性もあります！いずれにせよ、昨日のOpenAIに関するニュースは、絶好の**カタリスト（材料）**になったと考えています。",
       "url": "https://x.com/aleabitoreddit/status/2012120051747635438",
@@ -308,17 +300,15 @@
         "reposts": 1,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012128738205696165",
       "date": "2026-01-16",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "correcting prior typo of $SYSS to $SSYS"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$SSYS",
@@ -331,19 +321,19 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012130466367713552",
       "date": "2026-01-16",
-      "stance": "bullish",
+      "stance": "explicit_stance",
       "mention_type": "explicit_stance",
       "reasons": [
-        "chosen over Hyundai for more direct robotics exposure"
+        "more direct robotics exposure than Hyundai/Boston Dynamics parent"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$SSYS",
       "text": "@ChiefLiquidity So I really really like Boston dynamics. However Hyundai is a massive company and you aren’t getting the most direct exposure to their robotics vertical.\n\nHence why I opted with $SSYS. I do have indirect exposure to them through Korean ETFs though",
       "url": "https://x.com/aleabitoreddit/status/2012130466367713552",
@@ -354,8 +344,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012225583741063567",
@@ -363,10 +353,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "for robotics"
+        "robotics thesis",
+        "holding share position for a year for re-rating"
       ],
       "is_risk": false,
-      "conviction": "high",
+      "conviction": "medium",
       "raw_mention": "$SSYS",
       "text": "@goosedf Yes? $AIRO for drones, $OSS for edge, $SSYS for robotics, $AXTI for AI bottlenecks, $LPTH for defense bottlenecks and $VLN for mispricing were the most recent posts. \n\nI’m holding my share positions for a year since re-rating doesn’t happen in a day or week. Might take months to play out.",
       "url": "https://x.com/aleabitoreddit/status/2012225583741063567",
@@ -377,17 +368,15 @@
         "reposts": 2,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012294901694681525",
       "date": "2026-01-16",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "acknowledges prior wording was too strong; mappings are casual and much is not public information"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$SSYS",
@@ -400,8 +389,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012316373482140144",
@@ -409,13 +398,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "still holds shares",
-        "core catalyst remains: OpenAI seeking US-based supply chain",
-        "security moat for domestic hardware design",
-        "risk of Physical AI prototypes on Chinese printers for Defense/DoD applications",
-        "defense certification stronghold for military applications",
+        "still holds shares despite thesis correction",
+        "OpenAI seeking US-based supply chain is core catalyst",
+        "security moat for domestic hardware design - risk to have Physical AI prototypes on Chinese printers for Defense/DoD",
         "has robotics customers and defense contractors",
-        "Debbie Schultz is long"
+        "defense certification stronghold for military applications"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -429,8 +416,8 @@
         "reposts": 8,
         "replies": 46
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012458647192994053",
@@ -438,9 +425,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "still holds",
-        "intended as 1 year hold",
-        "does DD on it"
+        "still holds shares",
+        "meant to be 1 year hold"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -454,17 +440,15 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013670172934971446",
       "date": "2026-01-20",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "messed up on SSYS thesis regarding prototyping/ramp-up"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$SSYS",
@@ -477,8 +461,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018567746846601627",

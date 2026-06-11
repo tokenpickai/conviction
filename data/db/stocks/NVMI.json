@@ -18,10 +18,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "missed from his HBM4/memory supply chain list"
+        "missed from HBM4/memory supercycle list"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "low",
       "raw_mention": "$NVMI",
       "text": "@Mamocap Thanks missed out on $NVMI. \n\nSomeone else mentioned $CAMT, I left it out of the list above by accident.",
       "url": "https://x.com/aleabitoreddit/status/2014372900200124922",
@@ -32,8 +32,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

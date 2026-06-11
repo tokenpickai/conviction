@@ -41,10 +41,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
+        "already owns it",
         "up close to 300%"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$KTOS",
       "text": "@RJCcapital Already own $KTOS, up close to 300%.\n\nI’m a whale after playing God of War on PlayStation https://t.co/IFJKe9j5xM",
       "url": "https://x.com/aleabitoreddit/status/2010579253444927876",
@@ -55,8 +56,8 @@
         "reposts": 1,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011029875361218700",
@@ -65,7 +66,7 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "Valkyries for drawing enemy fire, jam radars, and lead F-35s and B-21s",
-        "Department of War stocks beneficiary"
+        "pure play War vertical"
       ],
       "is_risk": false,
       "conviction": null,
@@ -79,8 +80,8 @@
         "reposts": 27,
         "replies": 24
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013376770121105710",
@@ -88,9 +89,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "extremely resilient war sector",
-        "primary beneficiaries of tension with NATO allies",
-        "US tickers being mispriced by fearful European retail"
+        "war/defense sector resilient",
+        "dispute goes back to US national security",
+        "defense stocks primary beneficiaries of NATO tension",
+        "US tickers mispriced by fearful European retail"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -104,8 +106,8 @@
         "reposts": 62,
         "replies": 38
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013382311056642527",
@@ -113,8 +115,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he has it for drone exposure",
-        "higher upside with other drone companies"
+        "holds position for drone exposure"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -128,8 +129,8 @@
         "reposts": 3,
         "replies": 7
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013391730410955200",
@@ -137,8 +138,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "already part of replicator",
-        "already successful"
+        "already successful alongside AVAV in replicator"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -152,8 +152,8 @@
         "reposts": 4,
         "replies": 5
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

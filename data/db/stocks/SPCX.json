@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-05-25",
-  "last_mention": "2026-05-30",
-  "total_mentions": 2,
+  "last_mention": "2026-06-11",
+  "total_mentions": 5,
   "mentions": [
     {
       "tweet_id": "2058968617681899915",
@@ -50,6 +50,69 @@
         "likes": 1512,
         "reposts": 51,
         "replies": 200
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065073494220849660",
+      "date": "2026-06-11",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SPCX",
+      "text": "Woah, Frankfurt Bank strategists say:\n\n8% of US current-account deficit could be refinanced in a single day by overseas demand for SpaceX ( $SPCX ) shares.\n\nExcited to see how markets react around a Mega-IPO... \n\nDon't think there's been any historical precedence like this yet? https://t.co/W2apWN6QG4",
+      "url": "https://x.com/aleabitoreddit/status/2065073494220849660",
+      "kind": "post",
+      "engagement": {
+        "views": 438889,
+        "likes": 718,
+        "reposts": 46,
+        "replies": 333
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065085633190830200",
+      "date": "2026-06-11",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SPCX",
+      "text": "@Moon1ightSt not sure, we'll see if it's good or bad for overall markets since it might be a liquidity vacuum of people selling other assets for $SPCX!\n\nBut we'll find out soon! For the USD at least, it's very positive.",
+      "url": "https://x.com/aleabitoreddit/status/2065085633190830200",
+      "kind": "reply",
+      "engagement": {
+        "views": 7481,
+        "likes": 40,
+        "reposts": 0,
+        "replies": 4
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065088136884220158",
+      "date": "2026-06-11",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SPCX",
+      "text": "At this point I can't tell anymore if markets from $META to $MSFT are correcting because of macro.\n\nOr just liquidity pull from $SPCX + index inclusion.\n\nAnd institutions frontrunning Nasdaq 100 and other rebalancing of SpaceX...\n\nAnyone know? https://t.co/sTLjsGq95V https://t.co/yPITtYfVHQ",
+      "url": "https://x.com/aleabitoreddit/status/2065088136884220158",
+      "kind": "post",
+      "engagement": {
+        "views": 288290,
+        "likes": 653,
+        "reposts": 28,
+        "replies": 244
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

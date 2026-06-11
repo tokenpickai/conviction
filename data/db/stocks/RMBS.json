@@ -40,11 +40,10 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "has positions in it",
-        "reminds him of ARM but for HBM",
-        "pretty nonexistent in retail eyes",
-        "all its licenses to sk Hynix, Samsung, and micron should pay dividends",
+        "like ARM but for HBM",
+        "licenses to SK Hynix, Samsung, and Micron should pay dividends",
         "gross margins are crazy high",
-        "expects it to get rerated over this year"
+        "expects rerate over this year"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -58,8 +57,8 @@
         "reposts": 3,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2014368177682292774",
@@ -67,11 +66,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "memory IP play in memory supercycle supply chain",
-        "markets haven't priced some of these in yet"
+        "memory IP for HBM4/memory supercycle",
+        "sleeper pick that markets haven't priced in"
       ],
       "is_risk": false,
-      "conviction": "low",
+      "conviction": "medium",
       "raw_mention": "$RMBS",
       "text": "Memory Supercycle Supply Chain TLDR:\n\nUS Sleeper HBM4/Memory alpha picks that benefit from $MU and SK/Samsung:\n\n$VECO ($2B) -Laser annealing\n$PLAB ($2.1B) - Lithography photomask\n$ADEA ($2.18B) - Hybrid bonding\n$ACLS ($2.9B) - Ion implantation\n$FORM ($6.43B) - HBM wafer testing\n$ONTO ($10.6B) - Packaging metrology\n$AMKR ($13.1B) -Advanced packaging\n$RMBS ($13.55B) - Memory IP\n$MKSI ($14.9B) - Laser subsystems\n\nDidn't include big players like $TER and $KLAC since just wanted to focus on lesser known ones. \n\nThere's some indirect beneficiaries too like $SMTC and $MTSI. Markets definitely haven't priced some of these in yet. \n\nLet me know if I missed any. \n\nJust wanted to publish these in case you find any of them interesting.",
       "url": "https://x.com/aleabitoreddit/status/2014368177682292774",
@@ -82,8 +81,8 @@
         "reposts": 172,
         "replies": 55
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2014370292441964667",
@@ -92,9 +91,10 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "sleeper pick",
-        "Samsung stated availability of Rambus HBM4 IP solutions will be critical",
-        "profits off Samsung, SK Hynix, and MU during memory cycle",
-        "81%+ gross profit margins"
+        "Samsung said availability of Rambus HBM4 IP solutions will be critical",
+        "profiting off Samsung, SK Hynix, and MU during memory cycle",
+        "81%+ gross profit margins",
+        "should just print"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -108,8 +108,8 @@
         "reposts": 2,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2023382523745829083",

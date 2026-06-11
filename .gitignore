@@ -1,12 +1,14 @@
 # ===== Secrets / tokens — NEVER commit =====
 *.env
 .env
+keys
 secrets/
 
 # ===== Python =====
 __pycache__/
 *.py[cod]
 *.egg-info/
+.venv/
 
 # ===== IDE / OS =====
 .idea/

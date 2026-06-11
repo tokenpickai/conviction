@@ -19,18 +19,18 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "initiated long positions",
-        "likely main supplier for Tesla Optimus ramp",
-        "major design win with humanoid developer announced November 2023",
-        "expects $500-$1200 revenue per robot per CEO Shoshani statements in ERs",
-        "markets have completely overlooked this robotics sector play",
-        "robotics ramp expected to hit inflection point this year",
-        "material science/patent moat for Bulk Metal Foil and Z-Foil technology",
-        "vertically integrated",
-        "clean balance sheet: ~$65M net cash",
+        "main robotics sector exposure tethered to TSLA Optimus",
+        "likely main supplier for Tesla Optimus ramp with high BOM per robot",
+        "Citron Research called it the Hidden Tesla Optimus Play",
+        "sellside/buyside analysts confirm notable application is Tesla Optimus",
+        "expects robotics inflection point this year driven by OpenAI push",
+        "revenue up 5.3% Y/Y with potential exponential ramp from robotics",
         "40.5% gross margins",
-        "asymmetrical upside given small $574M market cap vs potential $7.5B annual revenue at scale",
-        "high BOM capture per robot deployed",
-        "OpenAI push to robotics as near-term catalyst"
+        "~$65M net cash, clean balance sheet",
+        "material science/patent moat for Bulk Metal Foil and Z-Foil technology, vertically integrated",
+        "CEO Shoshani stated $500-$1,200 revenue per robot in ERs",
+        "asymmetrical upside given $574M market cap and potential $7.5B annual revenue at scale",
+        "high probability correlation to TSLA Optimus supply chain"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -44,8 +44,8 @@
         "reposts": 51,
         "replies": 35
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013666615112437839",
@@ -67,8 +67,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013667593740034383",
@@ -77,8 +77,7 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "people underestimate inflection point for robotics",
-        "$2.5-$4B revenue ramp from current levels presents high upside",
-        "great exposure to robotics ramp",
+        "$2.5-$4B revenue ramp from current levels presents high upside and great robotics exposure",
         "Citron and others likely just got timing off, were months or years ahead"
       ],
       "is_risk": false,
@@ -93,8 +92,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013670172934971446",
@@ -102,12 +101,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "directly tethered to the amount of robots produced",
-        "high % revenue capture for each robot",
-        "est. 3-8% BOM value per Tesla Optimus is incredible given how small VPG is"
+        "robotics play directly tethered to amount of robots produced",
+        "estimated 3-8% BOM value for each Tesla Optimus is incredible given how small VPG is"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$VPG",
       "text": "@ak_dfranco I messed up on my $SSYS thesis regarding prototyping/ramp-up, so I wanted a robotics play directly tethered to the amount of robots produced with high % revenue for each robot.\n\nThis is speculation but an est. 3-8% ~BOM value for each Tesla Optimus is incredible for $VPG given how small they are.",
       "url": "https://x.com/aleabitoreddit/status/2013670172934971446",
@@ -118,8 +116,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013721417481887923",
@@ -127,8 +125,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "not very well known since markets haven't focused on robotics supply chains yet",
-        "analogous to LITE for Google TPU — key under-the-radar supply chain play for robotics/Tesla Optimus ramp"
+        "like the LITE for robotics/TSLA Optimus ramp up",
+        "not very well known since markets haven't focused on robotics supply chains yet"
       ],
       "is_risk": false,
       "conviction": null,
@@ -142,8 +140,8 @@
         "reposts": 1,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013862825014309361",
@@ -165,8 +163,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013895541277762034",
@@ -174,15 +172,15 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says asymmetrical exposure to robotics humanoid ramp",
-        "he says makes est. 3-9% BOM cost of every humanoid",
-        "he says humanoid-specific gross margin projected 50-55%",
-        "he says integrated actuator/sensor modules achieve 55% margins",
-        "he says high operating leverage",
-        "he says small $580m company critical in robotics supply chain",
-        "he says likely strongly re-rated if stars align for robotics ramp",
-        "he says 2026 inflection point for robotics",
-        "he says best exposure to Tesla and humanoid robotics ramp"
+        "least known robotic supply chain stock with best asymmetrical exposure to humanoid ramp",
+        "est. ~3-9% BOM cost of every humanoid robot",
+        "$8.5B revenue potential from Tesla alone if 10M production target hit",
+        "CEO quoted $500-$1,200 value capture per robot",
+        "humanoid-specific gross margin projected 50-55% at scale",
+        "integrated actuator/sensor modules directly tethered to humanoid exposure",
+        "small $580m MC company with high operating leverage for re-rating",
+        "believes 2026 to be the inflection point for robotics",
+        "has taken long positions"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -196,8 +194,8 @@
         "reposts": 39,
         "replies": 33
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013912079162560966",
@@ -205,11 +203,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says long position tethered to humanoid ramp",
-        "he says inflection point for robotics"
+        "long position tethered to humanoid ramp",
+        "under the radar considering inflection point for robotics",
+        "institutions like Citron already entered last year"
       ],
       "is_risk": false,
-      "conviction": "high",
+      "conviction": "medium",
       "raw_mention": "$VPG",
       "text": "@dizstocks I normally don’t reply to disingenuous leading questions like this but I’m posting information synthesis on robotic supply chain stocks linked to Tesla Optimus.\n\nUnfortunately I try and discover alpha to find the next $30->$453 $SNDK at the start rather than bull posting the same known $SOFI, $ASTS, $TSLA finx theme for confirmation bias.\n\nAnd people really seem to dislike when the information turns out to be directionally right and companies like $OSS get re-rated 60%+. If it wasn’t, the company would crash the next day instead of constantly going up like $LPTH\n\nNobody knows how markets price in the information, it could be right or wrong. And I have no control what HFT algorithms do that scan my posts. That being said $VPG ended the day flat. \n\nThis is a long position tethered to humanoid ramp that several institution like Citron already entered last year. It’s just under the radar now considering the inflection point for robotics.",
       "url": "https://x.com/aleabitoreddit/status/2013912079162560966",
@@ -220,8 +219,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013941132481515912",
@@ -229,12 +228,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says Tesla Optimus beneficiary in Western robot supply chain",
-        "he says really premium niche stock",
-        "he says this is real opportunity"
+        "niche gem among Tesla Optimus beneficiary stocks in Western robot supply chain",
+        "opportunity because markets are focused on AI and not yet looking at robotics/drone supply chain"
       ],
       "is_risk": false,
-      "conviction": "high",
+      "conviction": "medium",
       "raw_mention": "$VPG",
       "text": "@leavego8102 $VPG 를 이제라도 알게 되셔서 다행이네요! 테슬라 옵티머스 수혜주 중 서구 로봇 공급망 쪽에서는 정말 알짜배기 니치 종목이거든요. 다들 AI에만 몰두하느라 우주나 로봇, 드론 공급망 쪽은 아직 많이들 안 보는데, 그래서 저는 여기가 진짜 기회라고 생각해요",
       "url": "https://x.com/aleabitoreddit/status/2013941132481515912",
@@ -245,8 +243,8 @@
         "reposts": 1,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2014002413146173863",
@@ -254,9 +252,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "his top robotics sector stock",
-        "markets starting to find out about it",
-        "may be inflection point for robotics humanoids"
+        "top robotics sector stock",
+        "may be the inflection point for robotics humanoids"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -270,8 +267,8 @@
         "reposts": 60,
         "replies": 31
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2014808195014001018",
@@ -293,8 +290,8 @@
         "reposts": 16,
         "replies": 22
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015096496019112151",
@@ -302,8 +299,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "long play tethered to optimus ramp",
-        "should see industrial use cases EOY 2026 and consumer EOY 2027"
+        "long play tethered to Optimus ramp",
+        "industrial use cases EOY 2026 and consumer EOY 2027",
+        "optimus production may start hitting balance sheet now or Q2"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -317,8 +315,8 @@
         "reposts": 100,
         "replies": 83
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016651304027009278",
@@ -326,12 +324,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "robotic supply chain play for Optimus",
-        "Optimus ramping up now",
-        "Elon has dedicated factories from Model S and X"
+        "one of the biggest news for robotic supply chains of Optimus",
+        "Optimus ramping up with dedicated factories from Model S and X"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$VPG",
       "text": "FYI: Markets often miss statements in earnings calls like $TSLA and their second order effects (price them in much later)\n\nThis is probably one of the biggest news for robotic supply chains of Optimus like $VPG.\n\nEspecially that Optimus will ramping up now and that Elon has dedicated factories from Model S and X.",
       "url": "https://x.com/aleabitoreddit/status/2016651304027009278",
@@ -342,8 +339,8 @@
         "reposts": 19,
         "replies": 20
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016676270592123291",
@@ -351,10 +348,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "shares similar thoughts with revenue recognition"
+        "shares similar thoughts on VPG and revenue recognition"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$VPG",
       "text": "@willkyi Spot on, I share similar thoughts with $VPG and revenue recognition.",
       "url": "https://x.com/aleabitoreddit/status/2016676270592123291",
@@ -365,8 +362,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016883354004758910",
@@ -374,11 +371,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "supplies sensors to Tesla Optimus at $500-$1.2k per robot",
-        "potential $850m revenue/year near term from 1M units",
-        "potential $8.5B revenue/year at 10M unit scale",
+        "napkin math shows $850M revenue/year at 1M Optimus units",
+        "scales to $8.5B revenue at 10M unit target",
         "50% to 55% gross margins",
-        "small $589M market cap relative to revenue potential"
+        "small $589M company relative to revenue potential"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -392,8 +388,8 @@
         "reposts": 11,
         "replies": 13
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016885874072736154",
@@ -401,10 +397,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he owns positions"
+        "owns positions"
       ],
       "is_risk": false,
-      "conviction": "high",
+      "conviction": "medium",
       "raw_mention": "$VPG",
       "text": "@StocksSoccer I do own positions, this was my take on $VPG earlier\n\nhttps://t.co/OE9toKfSbh",
       "url": "https://x.com/aleabitoreddit/status/2016885874072736154",
@@ -415,21 +411,21 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016892015339036823",
       "date": "2026-01-29",
-      "stance": "neutral",
+      "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "no assurance on Tesla volume commitment",
-        "has multiple humanoid customers including assumed Figure"
+        "multiple humanoid customers including assumed Figure",
+        "acknowledges risk that market needs to price in with no assurance"
       ],
-      "is_risk": true,
-      "conviction": null,
-      "raw_mention": "VPG",
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "VPG (implied from context)",
       "text": "@ShortsHoward That’s the risk markets need to price in. No assurance there\n\nThey do have multiple humanoid customers though, the other is assumed to be Figure. Not completely sure though",
       "url": "https://x.com/aleabitoreddit/status/2016892015339036823",
       "kind": "reply",
@@ -439,8 +435,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016936292605710633",
@@ -460,8 +456,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016983734407614742",
@@ -481,8 +477,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018386956456272242",

@@ -10,7 +10,7 @@
   "thesis_summary": null,
   "first_mention": "2025-10-18",
   "last_mention": "2026-01-29",
-  "total_mentions": 7,
+  "total_mentions": 6,
   "mentions": [
     {
       "tweet_id": "1979693975348076683",
@@ -41,7 +41,7 @@
       "reasons": [
         "amazing long for antimony",
         "one of the only US players",
-        "$245m sole source contract is huge for stockpiles"
+        "$245m sole source contract for stockpiles"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -55,8 +55,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015805598265479518",
@@ -78,17 +78,15 @@
         "reposts": 123,
         "replies": 59
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015813438216548835",
       "date": "2026-01-26",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "rose premarket on USAR news then down 8-15%+"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$UAMY",
@@ -101,8 +99,8 @@
         "reposts": 2,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016896340576653639",
@@ -110,11 +108,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "stock down 17% after Reuters article",
-        "company issued press release calling article inaccurate and misleading",
-        "Department of Energy called the article false and relying on unnamed misinformed sources",
-        "company states binding long-term government contracts remain fully in effect",
-        "wonders if inaccurate press release presents buying opportunity after 17% drop"
+        "Reuters article called inaccurate and misleading by company",
+        "Department of Energy explicitly called the article false",
+        "down 17% on potentially false article may present buying opportunity"
       ],
       "is_risk": false,
       "conviction": "low",
@@ -128,8 +124,8 @@
         "reposts": 13,
         "replies": 21
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016901907676278904",
@@ -137,11 +133,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "extremely rare for Department of Energy to explicitly call an article false",
-        "sector sold off 10-20% on false reporting"
+        "extremely rare for Department of Energy to call an article explicitly false",
+        "sector sold off 10-20% on potentially false information"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$UAMY",
       "text": "@platochi @MPMaterials Nothing wrong with a little bit of copy pasta with $UAMY. \n\nBut it's extremely rare the Department of Energy calls an article explicitly false. And on top of that, the sector sells off 10-20%.",
       "url": "https://x.com/aleabitoreddit/status/2016901907676278904",
@@ -152,31 +148,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
-    },
-    {
-      "tweet_id": "2016902810470928605",
-      "date": "2026-01-29",
-      "stance": "neutral",
-      "mention_type": "background",
-      "reasons": [
-        "sector selloff probably frontrunning government shutdown risk-off"
-      ],
-      "is_risk": true,
-      "conviction": null,
-      "raw_mention": "$UAMY",
-      "text": "@KAnalyser1 @platochi @MPMaterials Probably frontrunning government shutdown risk-off.",
-      "url": "https://x.com/aleabitoreddit/status/2016902810470928605",
-      "kind": "reply",
-      "engagement": {
-        "views": 1100,
-        "likes": 3,
-        "reposts": 0,
-        "replies": 1
-      },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

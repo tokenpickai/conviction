@@ -18,8 +18,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "incredible",
-        "would go super long on this"
+        "calls it incredible",
+        "would go super long"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -33,8 +33,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011455204374577469",
@@ -42,7 +42,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "bought on 4% drop today"
+        "bought on 4% drop",
+        "sees good opportunities from fear"
       ],
       "is_risk": false,
       "conviction": null,
@@ -56,8 +57,8 @@
         "reposts": 3,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011496801548058735",
@@ -65,15 +66,14 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "only US alternative to Chinese Germanium glass via Black Diamond (Chalcogenide glass)",
-        "China owns ~70% of Germanium supply and has export controlled it",
-        "sole supplier to major US defense contractors: ONDS, L3Harris, Lockheed, Anduril, UMAC, RTX/Northrop",
-        "strong balance sheet: ~$75-80M cash, -$5M debt",
-        "revenue growing from $37.2M FY2025 to est. ~$61.6M FY2026",
-        "expanding gross margins: 27.2% FY2025 to 35-40% FY2026",
-        "backlog growing from ~$40M FY2025 to $90M+ FY2026",
+        "only US alternative for Germanium glass via Black Diamond",
+        "China owns 70% of Germanium supply creating dependency",
+        "sole supplier to major US defense contractors (L3Harris, Lockheed, Raytheon, Anduril)",
+        "strong balance sheet with ~$75-80M cash and -$5M debt",
+        "FY2026 revenue est ~$61.6M with expanding margins to 35-40%",
+        "FY2026 backlog $90M+",
         "sold out capacity",
-        "initiated a long position"
+        "military contractors will rely on them for advanced weapons"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -87,8 +87,8 @@
         "reposts": 152,
         "replies": 114
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011499385285460336",
@@ -96,12 +96,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "monopoly on alternative to critical raw material China just export controlled",
-        "China produces ~60-70% of world Germanium",
-        "owns proprietary Black Diamond (Chalcogenide glass) with exclusive license from US Naval Research Laboratory",
-        "Black Diamond performs like Germanium but uses zero Germanium",
-        "Raytheon, Lockheed, L3Harris likely to switch from Chinese supply chains to Black Diamond",
-        "very early alpha at ~$600M market cap"
+        "monopoly on alternative to critical raw material China choked off",
+        "proprietary Black Diamond (Chalcogenide glass) performs like Germanium but uses zero Germanium",
+        "exclusive license with U.S. Naval Research Laboratory",
+        "Raytheon, Lockheed, L3Harris likely switching from Chinese supply chains to Black Diamond",
+        "incredibly early alpha at $600M MC"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -115,8 +114,8 @@
         "reposts": 1,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011499779428401658",
@@ -124,7 +123,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "Anduril confirmed as a customer"
+        "Anduril confirmed as user"
       ],
       "is_risk": false,
       "conviction": null,
@@ -138,8 +137,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011501137258823738",
@@ -147,10 +146,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "US equivalent of AXTI in its sector",
-        "top military contractors (Anduril, Lockheed, L3Harris, ONDS) switching to them",
-        "monopoly via US Naval Research Lab licenses",
-        "could be a $10B+ company"
+        "US alternative like AXTI for military contractors",
+        "monopoly via US naval research lab licenses",
+        "top military contractors switching to them",
+        "can easily see $10B+ company down the road"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -164,8 +163,8 @@
         "reposts": 1,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011524924507385967",
@@ -173,10 +172,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "sole source contractor for majority of major US defense contractors",
-        "monopoly over US-made Pentagon-approved glass",
-        "supports US army buildout and reduces dependence on China",
-        "could be $10B+"
+        "sole source contractor for major US defense contractors",
+        "monopoly over US-made approved glass required by Pentagon",
+        "reduces US dependence on China",
+        "maybe $10B+"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -190,8 +189,8 @@
         "reposts": 1,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011531528896143665",
@@ -199,7 +198,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "huge beneficiary of imminent US attack on Iran / war escalation"
+        "huge beneficiary of potential US-Iran conflict",
+        "go omega long on war stocks"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -213,8 +213,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011544724847673787",
@@ -222,9 +222,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "favorite long of 2026 so far",
-        "safer than AXTI because it is US supply chain",
-        "also has monopoly over the bottleneck fix"
+        "favorite long of 2026",
+        "safer than AXTI since US supply chain",
+        "has monopoly over bottleneck fix"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -238,8 +238,8 @@
         "reposts": 2,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011719103812157580",
@@ -247,9 +247,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "can supply all sectors requiring germanium: cameras for FSD, space satellites, machine vision for robotics",
-        "currently backlogged in defense sector (stinger missiles to ghost drones) which takes priority",
-        "could be $10B+ if US companies adopt Black Diamond instead of germanium glass"
+        "can supply everything requiring germanium across cameras for FSD, space satellites, machine vision for robotics",
+        "backlogged in defense sector for stinger missiles to ghost drones",
+        "could be $10B+ if US companies start using black diamond instead of germanium glass",
+        "addresses China bottleneck (germanium supply)"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -263,8 +264,8 @@
         "reposts": 3,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011725997096518098",
@@ -272,9 +273,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "pure play contractor serving majority of US defense contractors",
-        "addresses China bottleneck",
-        "better value than KRKNF: broader customer base at only ~$700M market cap vs KRKNF at $2B+ for single customer exposure"
+        "pure play contractor involving majority of US defense contractors",
+        "addresses China bottleneck at $700m valuation",
+        "Andruil as a customer"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -288,8 +289,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011732705063682155",
@@ -297,17 +298,16 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "up 25%",
+        "monopoly on alternative to critical raw material China choked off",
+        "proprietary Black Diamond (Chalcogenide glass) performs like Germanium but uses zero Germanium",
+        "exclusive license with U.S. Naval Research Laboratory",
         "supplies most major defense contractors from Anduril to Lockheed at 1/3rd the MC of KRKNF",
-        "TAM is huge",
-        "owns monopoly on alternative to Germanium via Black Diamond (Chalcogenide glass) with exclusive license from U.S. Naval Research Laboratory",
-        "China produces ~60-70% of world's Germanium — Black Diamond uses zero Germanium",
-        "Raytheon, Lockheed, and L3Harris switching from Chinese supply chains to Black Diamond for missile/drone programs",
-        "additional verticals: Space Satellites, Robotaxis, Robotics",
-        "at full capacity, backlogged for Stinger Missiles and Ghost drones",
+        "Raytheon, Lockheed, L3Harris switching from Chinese supply chains to Black Diamond",
+        "huge TAM across defense, space satellites, robotaxis, robotics",
+        "at full capacity from demand, backlogged for Stinger Missiles and Ghost drones",
         "early discovery at $700m MC",
         "favorite long of 2026",
-        "targets $10B+ MC"
+        "on its way to $10B+ MC"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -321,8 +321,8 @@
         "reposts": 46,
         "replies": 39
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011743086742008151",
@@ -342,21 +342,21 @@
         "reposts": 0,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012071822481900030",
       "date": "2026-01-16",
-      "stance": "bullish",
+      "stance": "explicit_stance",
       "mention_type": "explicit_stance",
       "reasons": [
-        "vision supplier (tier 2)",
+        "vision for robotics T2",
         "coincidental robotics bottleneck exposure",
-        "also bought for DoD/military bottleneck exposure"
+        "DoD/military bottleneck exposure"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$LPTH",
       "text": "Boston Dynamics/Optimus/Robotic supply chains TLDR:\n\n- $ALGM ($6.5B) motor/sensing (Optimus) \n- $NOVT ($4.7B) feedback (Atlas, Figure)\n- $VICR ($6.5B) power (Atlas)\n- $OUST ($1.64B) LiDAR (Spot, Atlas)\n- $AMBA ($2.7B) - Chips (Atlas, Figure)\n- $AEHR ($812m) - SiC Test (t2)\n- $RRX ($10.5B) - Joints (Agility, Apollo)\n- $TKR ($6.53B) - Harmonic Strain (t2)\n- $MP ($11.82B) - NdPr magnets (t3)\n- $LSCC ($11.6B) - Sensor Fusion FPGAs (t3)\n\nI'm personally in:\n- $SYSS ($998M) - Skeleton (Optimus, Atlas, Figure)\n- $LPTH ($701M) - Vision (T2)\n\nWas researching these companies after OpenAI's push into robotics yesterday and wanted to do a TLDR format of findings. \n\nAgain, robotics OEMs generally don't publish BOMs, so most of these are confirmed but some are unconfirmed but very likely from cross-referencing public findings. \n\nBut we should see an inflection point for robotics going into 2026-2027. \n\nThoughts:\n\n- Harmonic Drive Systems (6324.T). Was tracking this as the leader but they just got disrupted by China's Leaderdrive that copied their technology and at 40% lower cost.\n\n- Based on this, $TKR (US) is probably the most \"alpha\" up there since through Cone Drive acqusition, they're the primary US-based provider of harmonic gearing vs. Harmonic Drive / Leaderdrive. \n \n- $AMBA and $VICR are probably the most interesting ones outside of $SYSS that I've found in the US supply chains.\n\n- I picked $SYSS as my choice for robotics bottleneck exposure since they're the skeletons/materials for each humanoid on scale up (eg. with Boston Dynamics Atlas as known users) and effective US certification monopoly. \n\n- $LPTH happened to be a coincidental Robotics bottleneck exposure since I bought this for DoD/military bottleneck exposure too . \n\nThese are just the \"under the radar ones\" in the US for the mass production scale-up. Don't own any of them aside from two, but I'm still looking into them. \n\nUnfortunately many supply chains like $TSLA's actuators ($685M order with Sanhua) are still in China. But I expect many of them to flow back to the US, so still looking for alpha in terms of supply chain BOM. \n\nIf I missed any feel free to mention others.",
       "url": "https://x.com/aleabitoreddit/status/2012071822481900030",
@@ -367,16 +367,16 @@
         "reposts": 101,
         "replies": 49
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012076432122630269",
       "date": "2026-01-16",
-      "stance": "bullish",
+      "stance": "explicit_stance",
       "mention_type": "explicit_stance",
       "reasons": [
-        "Tesla still bottlenecked by black diamond from LPTH"
+        "Tesla bottlenecked by black diamond from LPTH"
       ],
       "is_risk": false,
       "conviction": null,
@@ -390,8 +390,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012225583741063567",
@@ -399,10 +399,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "for defense bottlenecks"
+        "defense bottlenecks thesis",
+        "holding share position for a year for re-rating"
       ],
       "is_risk": false,
-      "conviction": "high",
+      "conviction": "medium",
       "raw_mention": "$LPTH",
       "text": "@goosedf Yes? $AIRO for drones, $OSS for edge, $SSYS for robotics, $AXTI for AI bottlenecks, $LPTH for defense bottlenecks and $VLN for mispricing were the most recent posts. \n\nI’m holding my share positions for a year since re-rating doesn’t happen in a day or week. Might take months to play out.",
       "url": "https://x.com/aleabitoreddit/status/2012225583741063567",
@@ -413,8 +414,8 @@
         "reposts": 2,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012458647192994053",
@@ -422,8 +423,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "believes in his thesis enough to cost average up",
-        "intended as 1 year hold"
+        "believes in thesis and cost averages up",
+        "meant to be 1 year hold"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -437,8 +438,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012827175314239662",
@@ -446,16 +447,14 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "critical point of failure for US Dept of War",
-        "sole source supplier for germanium-free optics (Black Diamond) to defense contractors",
-        "exclusive license from US Naval Research Lab",
-        "germanium supply shock (China export ban, US has zero domestic refining capacity until 2030)",
-        "demand explosion from AI data centers, space, and defense sectors",
-        "sole source for Lockheed Stinger missile seekers",
-        "sole source for Blue UAS drone thermal cameras (ONDS, UMAC)",
-        "4-year gap with no domestic germanium alternative",
-        "central to US national security",
-        "small $670M market cap for critical bottleneck position"
+        "critical point of failure for US Dept of Defense",
+        "exclusive license to commercialize Black Diamond germanium replacement from US Naval Research Lab",
+        "sole source supplier of advanced weapons optical assemblies",
+        "germanium price tripled and China banned exports to US military",
+        "no domestic germanium refining capacity until 2029/2030",
+        "demand shock from AI data centers, space, and defense sectors",
+        "small $670M market cap relative to national security importance",
+        "main way around germanium chokepoint for Western countries"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -469,16 +468,17 @@
         "reposts": 64,
         "replies": 29
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012836065061777507",
       "date": "2026-01-18",
-      "stance": "neutral",
-      "mention_type": "background",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
       "reasons": [
-        "$90M backlog indicates longer term orders being taken"
+        "critical bottleneck player",
+        "$90M backlog showing longer term orders"
       ],
       "is_risk": false,
       "conviction": null,
@@ -492,8 +492,8 @@
         "reposts": 1,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012957864026087525",
@@ -501,9 +501,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "under the radar small cap bottleneck play",
-        "chose as top pick after research",
-        "wouldn't be surprised if went up 5x over the next year"
+        "chose as top pick from bottleneck research"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -517,8 +515,8 @@
         "reposts": 92,
         "replies": 49
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012961292966117410",
@@ -540,8 +538,8 @@
         "reposts": 29,
         "replies": 7
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012963701389967869",
@@ -549,10 +547,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "most US companies will move off China germanium supply chains especially for defense",
+        "US companies will move off China germanium supply chains for defense",
         "will use Lightpath black diamond in next 2 years",
-        "4 year window until Korea Zinc starts ramping up in 2030",
-        "vendors like Lockheed Stingers to Andruil Ghost expected to lock into Lightpath's material for production"
+        "4 year window until Korea Zinc ramps up in 2030",
+        "vendors like Lockheed Stingers to Anduril Ghost will be locked into Lightpath material"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -566,8 +564,8 @@
         "reposts": 5,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013247566326968433",
@@ -575,7 +573,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "big bottleneck for Germanium"
+        "Germanium is one of the big bottlenecks"
       ],
       "is_risk": false,
       "conviction": null,
@@ -589,8 +587,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013376770121105710",
@@ -598,8 +596,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "bottleneck hedge for critical materials",
-        "benefits from US reliance on domestic sources"
+        "bottleneck hedge",
+        "good dip buying opportunity if it drops"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -613,8 +611,8 @@
         "reposts": 62,
         "replies": 38
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013535456781312289",
@@ -622,7 +620,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "5% drop is stupid/unjustified"
+        "5% drop is just stupid"
       ],
       "is_risk": false,
       "conviction": null,
@@ -636,8 +634,8 @@
         "reposts": 1,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013578670863192486",
@@ -646,9 +644,9 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "big beneficiary of US-EU supply chain disruption",
-        "US imports significant germanium from Germany and Belgium creating disruption risk",
-        "offers bottleneck alternative with Black Diamond manufactured 100% in US with mainly US precursors",
-        "current selloff is wide indiscriminate selloff not thesis-driven"
+        "US imports significant germanium from Germany/Belgium",
+        "offers bottleneck alternative with black diamond manufactured 100% in US",
+        "selloff is wide indiscriminate"
       ],
       "is_risk": false,
       "conviction": null,
@@ -662,17 +660,15 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013632820866908655",
       "date": "2026-01-20",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "bought during TACO trade panic dip, recovered +9.0%"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$LPTH",
@@ -685,17 +681,15 @@
         "reposts": 16,
         "replies": 32
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013640586893406716",
       "date": "2026-01-20",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "going from -5% to +7% was extremely profitable 6 hour buy"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$LPTH",
@@ -708,8 +702,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013651017171083560",
@@ -729,17 +723,15 @@
         "reposts": 4,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013668604022083930",
       "date": "2026-01-20",
-      "stance": "bullish",
+      "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "up roughly 20-30% since he posted thesis"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$LPTH",
@@ -752,16 +744,16 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013912079162560966",
       "date": "2026-01-21",
       "stance": "bullish",
-      "mention_type": "background",
+      "mention_type": "explicit_stance",
       "reasons": [
-        "he says constantly going up"
+        "constantly going up, implying directionally correct thesis"
       ],
       "is_risk": false,
       "conviction": null,
@@ -775,8 +767,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015096496019112151",
@@ -784,10 +776,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "bottlenecks for InP / Germanium",
+        "bottleneck for InP/Germanium",
         "huge theme going into 2026",
-        "made in America w/ black diamond",
-        "low downside risk due to capacity ramp"
+        "made in America with black diamond",
+        "low downside risk due to capacity ramp -> revenue increase"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -801,8 +793,8 @@
         "reposts": 100,
         "replies": 83
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015549311732658520",
@@ -810,12 +802,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "germanium play",
-        "Made in America bottleneck and supply chain",
-        "preferred long"
+        "germanium",
+        "Made in America bottleneck + supply chains",
+        "longs of preference"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$LPTH",
       "text": "TLDR of my top foreign stocks:  \n\n1. Nitto Boseki - T-Glass (Japan) \n\n2. Unimicron - Substrates/Glass Core (Taiwan) \n\n3. Samsung/SK Hynix - HBM (Korea) \n\n4. Kioxia - NAND w/ $SNDK (Japan)\n\n 5. Nanya Technologies - Memory (Taiwan) \n\nUS supply chains like $INTC (foundry), $MU (memory),  or $LPTH (germanium) are typically my longs of preference \"Made in America\" bottleneck + supply chains. But some of these foreign companies are either critical to the entire AI buildout or capture a lot of the overflow.\n\nIf you're wondering how you get access to foreign markets?   \n\n- $IBKR    \n\nThere are US OTC equivalents for companies like Nitto Boseki like $NBCLF.   If you're on Robinhood, $EWY / $FLKR provides access to large KR memory exposure.\n \nSome like Nitto Boseki are near monopolies so these are the very rare foreign companies I go out of my way to invest in.",
       "url": "https://x.com/aleabitoreddit/status/2015549311732658520",
@@ -826,17 +818,15 @@
         "reposts": 76,
         "replies": 37
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015813438216548835",
       "date": "2026-01-26",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "rose premarket on USAR news then down 8-15%+"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$LPTH",
@@ -849,8 +839,8 @@
         "reposts": 2,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2017269310042124617",
@@ -858,10 +848,11 @@
       "stance": "bearish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "concerning stuff regarding cheaper germanium alternatives"
+        "concerning stuff regarding cheaper germanium alternatives",
+        "trimmed positions"
       ],
       "is_risk": true,
-      "conviction": "low",
+      "conviction": null,
       "raw_mention": "$LPTH",
       "text": "@Swiftrooney_ $AXTI I’m actually extremely bullish on out of the group of stocks I’ve posted and im a net buyer at these levels. \n\nI’ll make a follow-up post but I just see 7n indium prices increase every day. And the photonics ramp are incredible if you look at 2027-2027.\n\nI did take cut on others like $OSS, after a 100% rally but still hold positions. $LPTH there was some concerning stuff regarding cheaper germanium alternatives so I did trim some positions. \n\nI’m in a weird situation where I need to be truthful/objective but don’t enjoy posting bear updates or when I sell since I don’t want to spread panic. So I just lean on the side of caution by refraining from it unless it’s extremely material (like an ATM)\n\nLast time I posted about selling $IREN I had a flood of negative comment spam for the next few weeks.",
       "url": "https://x.com/aleabitoreddit/status/2017269310042124617",
@@ -872,8 +863,8 @@
         "reposts": 0,
         "replies": 5
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2017285527310094713",
@@ -885,7 +876,7 @@
         "long term supply chain pivot to Made in America"
       ],
       "is_risk": false,
-      "conviction": "low",
+      "conviction": "medium",
       "raw_mention": "$LPTH",
       "text": "@theodore_invest So $AXTI is the next closest thing to NAND/HBM type price squeeze play (for photonics) that I've found.\n\n$LPTH is a germanium bottleneck fix w/black diamond that is more of an long term supply chain pivot to Made in America over time. \n\nDifferent risk levels and upside but pure upside I'd maintain AXT.",
       "url": "https://x.com/aleabitoreddit/status/2017285527310094713",
@@ -896,8 +887,8 @@
         "reposts": 3,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018396671206736123",

@@ -15,11 +15,9 @@
     {
       "tweet_id": "2006709693012467774",
       "date": "2026-01-01",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "LEO space infrastructure play benefiting across entire chain"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$ASOZF",
@@ -32,8 +30,8 @@
         "reposts": 119,
         "replies": 30
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

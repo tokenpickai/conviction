@@ -15,12 +15,9 @@
     {
       "tweet_id": "2013527028318846987",
       "date": "2026-01-20",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "role in US domestic hardware",
-        "Made in America supply chain buildout thesis intact"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$SKY",
@@ -33,8 +30,8 @@
         "reposts": 31,
         "replies": 25
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

@@ -38,11 +38,11 @@
     {
       "tweet_id": "2014768672452313419",
       "date": "2026-01-23",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
+      "stance": "neutral",
+      "mention_type": "background",
       "reasons": [
         "up 267% 1Y",
-        "similar exposure to Unimicron for US investors wanting to avoid foreign fees"
+        "similar US play for similar exposure to Unimicron"
       ],
       "is_risk": false,
       "conviction": null,
@@ -56,8 +56,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2037085574813942094",

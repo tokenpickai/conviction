@@ -10,7 +10,7 @@
   "thesis_summary": null,
   "first_mention": "2025-09-27",
   "last_mention": "2026-05-19",
-  "total_mentions": 29,
+  "total_mentions": 30,
   "mentions": [
     {
       "tweet_id": "1972016308662513748",
@@ -499,6 +499,29 @@
       "prompt_version": "extract-v1"
     },
     {
+      "tweet_id": "2007073654979326364",
+      "date": "2026-01-02",
+      "stance": "neutral",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "exception to neocloud segment being solid buys"
+      ],
+      "is_risk": true,
+      "conviction": null,
+      "raw_mention": "$SLNH",
+      "text": "@Bash29398256308 Almost every Neocloud segment stock is a extremely solid buy (maybe aside from $SLNH)\n\n$WYFI is kinda T2 with NScale's $865m agreement. But it's valuation got completely reset from $40 to $15. So it's an extremely attractive buy up there along with $NBIS, $IREN, $CIFR, $WULF and the others.",
+      "url": "https://x.com/aleabitoreddit/status/2007073654979326364",
+      "kind": "reply",
+      "engagement": {
+        "views": 8021,
+        "likes": 29,
+        "reposts": 1,
+        "replies": 5
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
       "tweet_id": "2015096496019112151",
       "date": "2026-01-24",
       "stance": "bearish",
@@ -518,8 +541,8 @@
         "reposts": 100,
         "replies": 83
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2049969772251709921",

@@ -15,13 +15,9 @@
     {
       "tweet_id": "2010877487681835338",
       "date": "2026-01-12",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "proxy for Korean memory/foundry mega cycle",
-        "lower expense ratio (0.19%)",
-        "high exposure to SK Hynix and Samsung Electronics"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$FLKR",
@@ -34,8 +30,8 @@
         "reposts": 37,
         "replies": 38
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015549311732658520",
@@ -55,8 +51,8 @@
         "reposts": 76,
         "replies": 37
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018112505923670184",

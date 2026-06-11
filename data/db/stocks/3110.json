@@ -8,10 +8,31 @@
   "company": null,
   "industry": null,
   "thesis_summary": null,
-  "first_mention": "2026-01-22",
+  "first_mention": "2026-01-08",
   "last_mention": "2026-03-30",
-  "total_mentions": 4,
+  "total_mentions": 5,
   "mentions": [
+    {
+      "tweet_id": "2009345632126030102",
+      "date": "2026-01-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nittobo",
+      "text": "@Citrini7 Holy grail of research info, thanks for posting it free.\n\nAlso some of these are affected by China’s new dual export controls the other day since Ajinomoto, Nittobo, and Mitsubishi Gas Chemical and others use Chinese raw precursors, so it does require a secondary look",
+      "url": "https://x.com/aleabitoreddit/status/2009345632126030102",
+      "kind": "reply",
+      "engagement": {
+        "views": 9019,
+        "likes": 67,
+        "reposts": 1,
+        "replies": 3
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2014505817509355841",
       "date": "2026-01-22",
@@ -21,12 +42,12 @@
         "extreme bottleneck for AI",
         "80-90% market share of high-end T-glass used in semiconductors",
         "sold out through 2026",
-        "Apple, Nvidia, Qualcomm send teams on site to beg for glass supply",
-        "TSM, Apple, Nvidia, Tesla, AMD, Arista all need it"
+        "Apple, Nvidia, Qualcomm fighting over supply",
+        "monopoly position"
       ],
       "is_risk": false,
-      "conviction": null,
-      "raw_mention": "3110",
+      "conviction": "high",
+      "raw_mention": "$NBCLF | 3110",
       "text": "Nitto Boseki - $NBCLF | 3110:\n\nThe story of an extreme bottleneck for AI:\n\n> Spin Yarn/Glass in 1923\n> Be good at it\n> Create \"T-Glass\" for tennis rackets\n> Wait 100Y, everyone needs it\n> $TSM for CoWoS\n> $APPL for M-Series Ultra/Max\n> $NVDA for Blackwell + Vera Rubin\n> $TSLA for chips inside FSD cars\n> $AMD for MI300/MI400 AI accelerators\n> $ANET for 800G to 1.6T and 3.2T\n> Have Apple to Nvidia to TSM fighting over supply\n> Sold out through 2026\n> Apple, Nvidia, and Qualcomm sends teams live on site to literally beg this Yarn Maker for glass supply\n> Now is 80-90% market share of the high-end T-glass used in semiconductors\n\nThe $4.23 Billion monopoly that every tech company in the world is fighting over:\n\nA random Japanese Yarn Spinner. \n\nDisclosure: I own positions.",
       "url": "https://x.com/aleabitoreddit/status/2014505817509355841",
       "kind": "post",
@@ -36,14 +57,14 @@
         "reposts": 14,
         "replies": 23
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2014515063370219836",
       "date": "2026-01-22",
-      "stance": "neutral",
-      "mention_type": "background",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
       "reasons": [],
       "is_risk": false,
       "conviction": null,
@@ -57,8 +78,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2024771275340775579",

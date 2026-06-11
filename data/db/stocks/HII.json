@@ -32,8 +32,8 @@
         "reposts": 965,
         "replies": 180
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007758407948788162",
@@ -41,7 +41,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "Profiting off the blockade from shipbuilding"
+        "profiting off the blockade from shipbuilding"
       ],
       "is_risk": false,
       "conviction": "low",
@@ -55,17 +55,15 @@
         "reposts": 82,
         "replies": 28
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2008235337643086305",
       "date": "2026-01-05",
       "stance": "neutral",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "performed on-par"
-      ],
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$HII",
@@ -78,8 +76,8 @@
         "reposts": 14,
         "replies": 26
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2031457195091759114",

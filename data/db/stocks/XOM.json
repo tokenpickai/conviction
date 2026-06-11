@@ -17,9 +17,7 @@
       "date": "2026-01-03",
       "stance": "neutral",
       "mention_type": "background",
-      "reasons": [
-        "he says claims ~$1.6B"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$XOM",
@@ -32,8 +30,8 @@
         "reposts": 153,
         "replies": 30
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2027637911097839997",

@@ -16,14 +16,12 @@
       "tweet_id": "2015119903200797074",
       "date": "2026-01-24",
       "stance": "neutral",
-      "mention_type": "explicit_stance",
+      "mention_type": "background",
       "reasons": [
-        "seems interesting",
-        "has not researched it yet but plans to",
-        "not well versed in energy weapons"
+        "seems interesting but hasn't researched it yet"
       ],
       "is_risk": false,
-      "conviction": "low",
+      "conviction": null,
       "raw_mention": "$EOPSF",
       "text": "@ShortSeller Haven't research it yet but I will soon since $EOPSF seems interesting. I'm not well versed in energy weapons unfortunately. https://t.co/6XddprIHda",
       "url": "https://x.com/aleabitoreddit/status/2015119903200797074",
@@ -34,8 +32,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

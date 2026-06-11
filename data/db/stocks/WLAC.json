@@ -1111,14 +1111,15 @@
     {
       "tweet_id": "2015131553329013156",
       "date": "2026-01-24",
-      "stance": "neutral",
+      "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "heavily delayed from Q4 2025 IPO extended to June 30 2026",
-        "$127m fluidstack contract recently is really bullish"
+        "liked it",
+        "heavily delayed IPO to June 2026",
+        "$127m FluidStack contract recently is really bullish"
       ],
-      "is_risk": true,
-      "conviction": "low",
+      "is_risk": false,
+      "conviction": "medium",
       "raw_mention": "$WLAC",
       "text": "@Sumojoe118 I liked $WLAC, but they got heavily delayed from their Q4 2025 IPO, and extended it to June 30, 2026. \n\nSo haven't really commented since it's in a lull state, but the $127m fluidstack contract recently is really bullish.",
       "url": "https://x.com/aleabitoreddit/status/2015131553329013156",
@@ -1129,8 +1130,8 @@
         "reposts": 2,
         "replies": 5
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2033722672035860824",

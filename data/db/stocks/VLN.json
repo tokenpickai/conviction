@@ -10,7 +10,7 @@
   "thesis_summary": null,
   "first_mention": "2026-01-09",
   "last_mention": "2026-04-11",
-  "total_mentions": 75,
+  "total_mentions": 76,
   "mentions": [
     {
       "tweet_id": "2009637599661510665",
@@ -19,18 +19,17 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "initiated a position",
-        "$93.5M cash, zero debt, EV of ~$65M",
-        "~$11M inventory (only ~2 months), not $82M as misreported",
-        "projected $70M+ revenue with blended 63-65% gross margins jumping from 43%",
-        "market artificially suppressed by ticker collision typo confusing VLN with Velan Inc. inventory figure of $82M",
-        "algorithms pricing as if <1 year runway due to phantom $82M inventory pile",
-        "CES 2026 diversification into robotics/medical verticals with 6-month sales cycle vs 5-year automotive cycle",
-        "new robotics/medical chip (VS6320) carries ~69-70% gross margins vs ~42-45% automotive blended",
-        "RGo Robotics and CIS Corporation partnership wins announced at CES",
-        "fabless semi with 60%+ gross margins typically trade at 4x-8x EV/Revenue; conservative base case $493.5M vs $155M MC",
-        "slight AI/Robotics premium could value at $653.5M (~320%+ upside)",
-        "revenue and earnings beat expected driven by new verticals and higher blended margins",
-        "$82M+ cash modeled back in once typo corrected"
+        "$93.5M in cash, 0 debt",
+        "~$11M inventory, not $82M — ticker collision typo caused mispricing",
+        "high gross margins ~69.1% CIB/ProAV, 43.2% automotive",
+        "projected $70M+ revenue with blended 63-65% gross margins",
+        "$155M MC is irrational for a company with $93M cash and $70M+ revenue",
+        "analysts/scanners confused VLN NYSE with Velan Inc (VLS Toronto) causing false $82M inventory burn narrative",
+        "new CES 2026 info: diversified into robotics, medical, machine vision verticals",
+        "robotics segments have 6-month sales cycle vs 5-year automotive cycle, revenue hits this year",
+        "new verticals have ~69-70% gross margins, blended margins higher than street consensus",
+        "fabless semi with 60%+ gross margins typically trades 4x-8x EV/Revenue, conservative base case $493.5M",
+        "taking advantage of a database collision error"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -44,8 +43,8 @@
         "reposts": 57,
         "replies": 85
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009640115157479743",
@@ -53,12 +52,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "ticker collision error caused analysts and algorithms to model off VLN Toronto rather than VLN NYSE",
+        "ticker collision error with analysts modeling off VLN Toronto vs VLN NYSE",
         "$100M+ in assets, $70M+ yearly revenue with 60%+ gross margins valued at only $155M",
-        "conservative EV/revenue model yields ~$493.5M valuation"
+        "would value around $493.5M using conservative EV/revenue models"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$VLN",
       "text": "@DivGuru It's a pretty hilarious ticker collision error with analysts and algorithms modelling off $VLN in Toronto, rather than $VLN NYSE.\n\nI couldn't believe my eyes that they had $100m+ in assets, $70m+ yearly revenue with 60%+ gross margins and was valued at $155m lol so dug deeper. \n\nI would value them around $493.5M if i just used conservative EV/revenue models.",
       "url": "https://x.com/aleabitoreddit/status/2009640115157479743",
@@ -69,8 +68,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009641912991674745",
@@ -78,11 +77,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "warrants are not debt; strike is $11.5 which is 10x current levels, so dilution risk only materializes at 10x upside"
+        "warrants are potential shares not owed money, strike is $11.5 which is 10x current levels"
       ],
       "is_risk": false,
       "conviction": null,
-      "raw_mention": "$VLN",
+      "raw_mention": "$VLN (implied from context)",
       "text": "@MMKustermann Warrants are not loans, they're potential shares not owed money. And the strike is $11.5, which is 10x current levels (if it does go up 10x).",
       "url": "https://x.com/aleabitoreddit/status/2009641912991674745",
       "kind": "reply",
@@ -92,8 +91,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009642945574760550",
@@ -101,10 +100,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "base case projection of ~$500M MC if things go as planned"
+        "market mispricing from novel information synthesis",
+        "hopes it rerates to $500M MC as base case projection"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$VLN",
       "text": "@Jetson_Dad Thanks, I’m just posting my own thesis on what I found with the markets mispricing from $VLN with novel information synthesis.\n\nAny premiums aside hope it rerates to $500m MC, which was my base case projection if things go as planned.",
       "url": "https://x.com/aleabitoreddit/status/2009642945574760550",
@@ -115,8 +115,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009644353543979313",
@@ -124,8 +124,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "analysts modeling off false cash burn",
-        "accidental mispricing based on Toronto spend"
+        "accidental mispricing based on false cash burn modeling",
+        "analysts were modeling off incorrect inventory figures"
       ],
       "is_risk": false,
       "conviction": null,
@@ -139,8 +139,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009664554431848941",
@@ -153,7 +153,7 @@
       ],
       "is_risk": false,
       "conviction": null,
-      "raw_mention": "$VLN",
+      "raw_mention": "VLN (implied)",
       "text": "@FrontRangeHQ I’m pretty sure hft algorithms read my posts, definitely wasn’t me. \n\nI just wanted pointed out all reports were based off a false $82m capex number. \n\nMarkets will decide how to reprice something based on information discovery",
       "url": "https://x.com/aleabitoreddit/status/2009664554431848941",
       "kind": "reply",
@@ -163,8 +163,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009665076006105291",
@@ -172,13 +172,13 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "should be a $700m growing semiconductor stock",
-        "artificially suppressed by false $82m capex number",
-        "$93m cash and $70m revenue",
-        "60%+ gross margins"
+        "should have been a $700m growing semiconductor stock",
+        "artificially suppressed by a false $82m capex number",
+        "$93m cash and $70m revenue off 60%+ gross margins",
+        "not random microcap penny stocks"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$VLN",
       "text": "@FeroceResearch @zephyr_z9 Or maybe $VLN should have been a $700m growing semiconductor stock but was artificially suppressed by a false $82m capex number?\n\nThese aren’t random microcap penny stocks they have $93m cash and $70m revenue off 60%+ gross margins.",
       "url": "https://x.com/aleabitoreddit/status/2009665076006105291",
@@ -189,8 +189,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009667279139881095",
@@ -198,10 +198,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "artificially suppressed by a false $82m capex number",
-        "legitimate growing semi",
-        "has $93m cash and $70m revenue off 60%+ gross margins",
-        "could have been a $700m growing semiconductor stock"
+        "legitimate growing semiconductor stock",
+        "artificially suppressed by false $82m capex number",
+        "$93m cash and $70m revenue off 60%+ gross margins"
       ],
       "is_risk": false,
       "conviction": null,
@@ -215,8 +214,8 @@
         "reposts": 2,
         "replies": 6
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009668088359514486",
@@ -224,12 +223,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "artificially suppressed by a false $82M capex number",
-        "legitimate growing semi with $93M cash and $70M revenue off 60%+ gross margins",
-        "even at $222M MC still completely undervalued; should be $700M+"
+        "could have been $700M+ growing semiconductor stock but artificially suppressed by false $82M capex number",
+        "$222M is still a complete joke valuation",
+        "legitimate growing semi with $93M cash and $70M revenue off 60%+ gross margins"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$VLN",
       "text": "@LibertadEterno $VLN could have been a $700m+ growing semiconductor stock but was artificially suppressed by a false $82m capex number.\n\nEven though it’s back to $222m that’s still a complete joke.\n\nThis isn’t some random microcap, it’s a legitimate growing semi with $93m cash and $70m revenue off 60%+ gross margins.\n\nI just pointed out a massive market error, and that’s markets pricing in information discovery",
       "url": "https://x.com/aleabitoreddit/status/2009668088359514486",
@@ -240,8 +239,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009672143999787356",
@@ -249,8 +248,7 @@
       "stance": "neutral",
       "mention_type": "background",
       "reasons": [
-        "markets not being efficient example",
-        "numbers mismatch from Canadian VLN"
+        "markets not efficient — numbers mixed up with Canadian VLN"
       ],
       "is_risk": false,
       "conviction": null,
@@ -264,8 +262,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009673197403463813",
@@ -275,12 +273,12 @@
       "reasons": [
         "likes the underlying business",
         "no premium applied to robotics computer vision vertical",
-        "semi expected to grow",
-        "mismatch expected to correct"
+        "expects mismatch to correct",
+        "1Y hold for semiconductor to grow and mismatch to correct"
       ],
       "is_risk": false,
       "conviction": "medium",
-      "raw_mention": "underlying business",
+      "raw_mention": "$VLN (implied from context)",
       "text": "@Whopzbet @yianisz I actually like the underlying business here. Even if it gets rerated to $5, there’s no premium being applied to their robotics computer vision vertical or others.\n\nThis is just a 1Y hold (long term capital gains) for the both the semi to grow and for the mismatch to correct.",
       "url": "https://x.com/aleabitoreddit/status/2009673197403463813",
       "kind": "reply",
@@ -290,8 +288,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009676399905517886",
@@ -304,7 +302,8 @@
         "68-69% margins for robotics vertical",
         "growing 20-30%",
         "$80m+ revenue from CES projections",
-        "ticker collision confusion created mispricing opportunity"
+        "considered undervalued at $700m valuation",
+        "prior capex concern was a ticker collision misunderstanding"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -318,8 +317,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009679875880431737",
@@ -327,12 +326,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "semi supply chains for robotics exposure",
-        "revenue of $70m vs cash pile of $93m makes MC look extremely off",
+        "semi supply chains for robotics",
+        "$70m revenue and $93m cash pile with MC looking extremely off",
         "could easily be priced at $7-$8 today"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$VLN",
       "text": "@SingularityRes Yeah I was looking at semi supply chains for robotics and then their $70m revenue, $93m cash pile and MC just looked extremely, extremely off.\n\nCould easily be priced at $7-$8 today but the ticker collision with the Canadian $VLN just made me laugh.",
       "url": "https://x.com/aleabitoreddit/status/2009679875880431737",
@@ -343,8 +342,31 @@
         "reposts": 0,
         "replies": 8
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2009679875880431737",
+      "date": "2026-01-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [
+        "ticker collision"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "the Canadian $VLN",
+      "text": "@SingularityRes Yeah I was looking at semi supply chains for robotics and then their $70m revenue, $93m cash pile and MC just looked extremely, extremely off.\n\nCould easily be priced at $7-$8 today but the ticker collision with the Canadian $VLN just made me laugh.",
+      "url": "https://x.com/aleabitoreddit/status/2009679875880431737",
+      "kind": "reply",
+      "engagement": {
+        "views": 6589,
+        "likes": 38,
+        "reposts": 0,
+        "replies": 8
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009689623015108831",
@@ -352,11 +374,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "personally assigns value of ~$700M (~$6.5/share)",
-        "holding shares for a year for long-term capital gains",
-        "legitimate fabless semi in robotics/self-driving AI space growing 20-30% Y/Y",
-        "NVDA or CRDO-like margins for robotics segment",
-        "suppressed because market thought company was -$82M in cash with <1 year runway"
+        "personally assigns value of ~$700M (~$6.5)",
+        "holding shares for a year for long term capital gains",
+        "legitimate fabless semi in robotics/self driving AI space growing 20-30% y/y",
+        "insanely high margins for robotics segment",
+        "was suppressed because market thought they were -$82M in cash with <1 year runway"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -370,8 +392,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009693974181867825",
@@ -379,11 +401,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "over 1.6M shares shorted yet short sellers and algorithms have not understood the valuation disconnect",
-        "personal opinion it should trade at $7 from $2"
+        "valuation disconnect",
+        "should trade at $7 from $2",
+        "1.6M shares shorted suggesting short sellers misunderstand"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$VLN",
       "text": "@robswainept It’s funny, this is even through over 1.6M shares shorted. \n\nI don’t think some short sellers or some algorithms understood the valuation disconnect with $VLN yet. \n\nPersonal opinion is that it should trade at $7 from $2. https://t.co/1bcz3Zl86j",
       "url": "https://x.com/aleabitoreddit/status/2009693974181867825",
@@ -394,8 +417,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009702902420652084",
@@ -403,13 +426,14 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "algorithms modeling -$82M off balance sheet due to ticker collision typo, creating mispricing",
+        "algorithmic short trade about to go wrong due to ticker collision",
         "napkin math fair value ~$7.30 vs $2.28 current price",
-        "forward 2027 $130M revenue at 5x EV/Sales plus $93.5M net cash",
-        "NVDA-like margins in robotics and non-automotive vertical",
-        "lightweight high-margin fabless semi with $93M+ cash and $11M+ inventory",
-        "algorithms pricing in <1Y runway with massive cash burns incorrectly",
-        "ticker collision with VLN.TO causing algorithmic short error"
+        "forward 2027 $130M at 5x EV/Sales plus $93.5M net cash",
+        "NVDA-like margins for robotics and non-automotive vertical",
+        "lightweight high-margin fabless semi",
+        "$93m+ cash pile and $11m+ in inventory",
+        "algorithms incorrectly pricing in <1Y runway with massive cash burns",
+        "ticker collision causing mispricing"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -423,8 +447,8 @@
         "reposts": 19,
         "replies": 29
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009708441573707876",
@@ -432,8 +456,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "ticker collision with VLN.TO causing algorithms to model -$82M off balance sheet",
-        "fair value of stock would be $5+"
+        "genuine alpha of the decade from ticker collision discovery",
+        "fair value $5+ while algorithms shorting off wrong balance sheet data"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -447,8 +471,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009710665142018224",
@@ -456,11 +480,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "algorithms have messed up badly due to ticker collision",
-        "shortable shares keep going down every minute, short availability nearly exhausted"
+        "algorithms messed up badly due to ticker collision",
+        "shortable shares declining rapidly"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": null,
       "raw_mention": "$VLN",
       "text": "@Tradesofadegen It’s just amusing to watch this unfold because I’ve never seen algorithms mess up this badly, especially because of ticker collision with $VLN.\n\nLooks like shortable shares just keeps going down every single minute. (This is live data just different timezone) https://t.co/ORWElItOFP",
       "url": "https://x.com/aleabitoreddit/status/2009710665142018224",
@@ -471,8 +495,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009713188192108557",
@@ -481,10 +505,10 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "short share availability almost capped out",
-        "algorithms have really messed up VLN"
+        "algorithms messed up the stock"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": null,
       "raw_mention": "$VLN",
       "text": "@Tradesofadegen Looks like short share availability is almost capped out. Algorithms seem to have really messed $VLN up https://t.co/dOv14HSiux",
       "url": "https://x.com/aleabitoreddit/status/2009713188192108557",
@@ -495,29 +519,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
-    },
-    {
-      "tweet_id": "2009716604440064361",
-      "date": "2026-01-09",
-      "stance": "bullish",
-      "mention_type": "background",
-      "reasons": [],
-      "is_risk": false,
-      "conviction": null,
-      "raw_mention": "$VLN",
-      "text": "@Tradesofadegen Live data lol https://t.co/nOM1u3Dzwy",
-      "url": "https://x.com/aleabitoreddit/status/2009716604440064361",
-      "kind": "self_thread",
-      "engagement": {
-        "views": 2523,
-        "likes": 24,
-        "reposts": 2,
-        "replies": 3
-      },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009717659185885489",
@@ -525,11 +528,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "company deserves re-rating because markets mistakenly used wrong ticker for data",
-        "algorithms shorting off incorrect information is a cherry on top for retail who discovered the discrepancy"
+        "company deserves re-rating due to market using wrong ticker data",
+        "algorithms shorting off wrong information benefits retail who discovered discrepancy"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": null,
       "raw_mention": "$VLN",
       "text": "@rioferdy838 @Tradesofadegen No I’m just saying the company deserves to be re-rated because markets mistakenly used the wrong ticker for data.\n\nBut it just so happens that algorithms are shorting off this information too extremely early on, which is a cherry on top for retail who discovered this discrepancy on $VLN",
       "url": "https://x.com/aleabitoreddit/status/2009717659185885489",
@@ -540,8 +543,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009720858898772293",
@@ -549,11 +552,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "algorithms shorting maximum shares at these levels to point of running out",
-        "algorithms really messed up modeling"
+        "algorithms shorting max shares and about to run out",
+        "algorithms messed up modeling"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": null,
       "raw_mention": "$VLN",
       "text": "@sslickith I still can’t believe algorithms are shorting the maximum amount of shares at these levels to the point they’re about to run out for $VLN\n\nThey really messed up modeling https://t.co/BUFviLSUX6",
       "url": "https://x.com/aleabitoreddit/status/2009720858898772293",
@@ -564,8 +567,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009723451163242535",
@@ -575,10 +578,10 @@
       "reasons": [
         "modeled ~$7.30 share price from $2.5 currently",
         "forward 2027 $130M at 5x EV/Sales plus $93.5M net cash",
-        "algorithms shorting due to ticker mix-up is additional upside catalyst"
+        "algorithms shorting due to mixed up tickers is cherry on top"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$VLN",
       "text": "@TomListon2or2 I mean I modeled for ~$7.30 (from $2.5 currently) share price.\n\nFrom forward 2027, $130M 5x EV/Sales + $93.5M net cash.\n\nI think algorithms piling in to short sell $VLN because they mixed up tickers is just a cherry on top. \n\nThat being said I’m just posting info discovery, markets will decide how to price that in",
       "url": "https://x.com/aleabitoreddit/status/2009723451163242535",
@@ -589,8 +592,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009742235277930728",
@@ -598,8 +601,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "no debt, $93.5M in cash, $11M in inventory",
-        "liabilities such as $11.5 strike warrants or employee share bonuses are not interest-bearing debt"
+        "no debt",
+        "$93.5M in cash",
+        "$11M in inventory",
+        "liabilities are opex costs or warrants/employee bonuses settled in shares, not debt"
       ],
       "is_risk": false,
       "conviction": null,
@@ -613,8 +618,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009743779092410700",
@@ -622,12 +627,13 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "algorithmic price suppression due to ingesting data from the $82M typo",
-        "$93M cash, $11M inventory, $70-80M yearly revenue with 60%+ blended gross margins, 20-30% Y/Y growth in automotive and robotics computer vision segments",
-        "without suppression would be a $7 stock"
+        "algorithmic price suppression due to $82M typo",
+        "might be a $7 stock",
+        "AI fabless semi with $93M cash, $11M inventory, $70-80M yearly revenue, 60%+ blended gross margins, 20-30% y/y growth",
+        "automotive and robotics computer vision segments"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$VLN",
       "text": "@CompoundAtValue It’s algorithmic price suppression due to ingesting data from the $82m typo. Otherwise $VLN might be a $7 stock by now. \n\nI’d suggest you try modeling yourself what a AI fabless semi would be valued at with $93m cash, $11m in inventory, $70-80m yearly revenue with 60%+ blended gross margins, 20-30% y/y growth, in automotive and robotics computer vision segments.",
       "url": "https://x.com/aleabitoreddit/status/2009743779092410700",
@@ -638,8 +644,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009908150296826364",
@@ -647,14 +653,14 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "fabless semiconductor at 2.1x Sales with $253M MC",
+        "fabless semiconductor at 2.1x Sales, $253m MC",
         "$93.55M cash, $10.97M inventory, zero debt",
-        "blended GAAP margins of 63%, non-GAAP 66.7%",
+        "blended margins 63% GAAP / 66.7% non-GAAP",
         "CIB gross margin 69.1%",
         "forward revenue ~$80M with 20%+ Y/Y growth",
-        "76.3% of revenue from robotics segments with NVDA-like 69-70% gross margins",
-        "robotics revenue growing +40.4% while automotive shrinking 37.9%",
-        "growing part of business (robotics) almost two times as profitable as shrinking part (automotive)"
+        "76.3% revenue from robotics with NVDA-like 69-70% gross margins",
+        "robotics segment growing 40.4% while automotive shrinking 37.9%",
+        "growing business (robotics) almost twice as profitable as shrinking part (automotive)"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -668,8 +674,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009917560935104835",
@@ -677,8 +683,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "stock up 58%",
-        "modeled fair value at $7.00"
+        "modeling it for $7.00"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -692,8 +697,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009918872174883116",
@@ -701,7 +706,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "found discrepancies between analyst reports and balance sheets as the source of mispricing"
+        "found discrepancies between analyst reports and balance sheets"
       ],
       "is_risk": false,
       "conviction": null,
@@ -715,8 +720,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2009989364462333990",
@@ -724,11 +729,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "algorithmic shorts went wrong on Friday",
-        "short availability in IBKR dropped from 2.2M to 190k on the way up",
         "screeners didn't correct the -$82m burn yet",
+        "climbing back to fair value",
         "covering all shares sold short usually leads to more price volatility or increases",
-        "climbing back to fair value"
+        "short availability dropped from 2.2M to 190k in IBKR on the way up"
       ],
       "is_risk": false,
       "conviction": null,
@@ -742,8 +746,8 @@
         "reposts": 1,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010000327123317051",
@@ -751,11 +755,13 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "has $80m+ forward revenue with 69-70% NVDA-like margins for robotics vertical",
-        "has $93.5m+ cash and $11m inventory",
-        "customers include Samsung, Mobileye, Mercedes, Logitech, Siemens and other major OEMs",
-        "trades at ~2.5x EV/revenue vs peers Lattice and Macom at 14-18x",
-        "suppressed by misinformation about inventory burn / data error causing mispricing"
+        "$80m+ forward revenue off 69-70% margins for robotics vertical",
+        "$95M cash + $11m inventory",
+        "major OEM customers including Samsung, Mobileye, Mercedes, Logitech, Siemens",
+        "trades at ~2.5 EV/revenue vs comps at 14-18x",
+        "genuine mispricing",
+        "-$82m technical glitch caused data contamination",
+        "misinformation about inventory burn suppressed the stock"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -769,8 +775,8 @@
         "reposts": 1,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010000980067389501",
@@ -778,11 +784,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "corrects cash on hand figure to $93.5m + $11m inventory"
+        "$93.5m cash on hand + $11m inventory (correction)"
       ],
       "is_risk": false,
       "conviction": null,
-      "raw_mention": "$VLN",
+      "raw_mention": "$VLN (implied from context)",
       "text": "@illyquid correction* $93.5m cash on hand + $11m inventory.",
       "url": "https://x.com/aleabitoreddit/status/2010000980067389501",
       "kind": "self_thread",
@@ -792,8 +798,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010002533088182642",
@@ -801,8 +807,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "negative data was due to ticker collision between NYSE and TSX listings, not real financials",
-        "automated systems did not fact-check the erroneous data"
+        "data error from ticker collision between NYSE and TSX VLN caused contaminated data"
       ],
       "is_risk": false,
       "conviction": null,
@@ -816,8 +821,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010016015330291787",
@@ -825,17 +830,14 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "extreme mispricing at $2.5 due to algorithmic error from -$82M inventory burn data error",
-        "ticker collision between $VLN NYSE and $VLN Toronto caused contaminated scanner data",
-        "zero debt",
-        "has $93.5M cash and $11M+ in inventory",
+        "extreme mispricing at $2.5 due to -$82M inventory burn data error",
+        "algorithmic pricing suppression from ticker collision with $VLN Toronto",
+        "zero debt with $93.5M cash and $11M+ inventory",
         "~$80M+ estimated forward revenue",
         "69.1% gross margins on robotics/machine vision/industrial vertical growing 40% Y/Y",
-        "blended gross margins of 63.0%",
-        "tier-1 customers including Mercedes, Samsung, Mobileye, Siemens, Logitech",
-        "trades at 2.4x EV/Revenue vs comparable companies at 13-23x",
-        "NVDA-margin fabless chipmaker in robotics/AI space",
-        "algorithms still modeling negative EV from erroneous -$82M burn, requiring manual correction"
+        "trades at 2.4x EV/revenue vs comparable companies at 13-23x",
+        "Tier-1 customers: Mercedes, Samsung, Mobileye, Siemens, Logitech",
+        "NVDA-margin fabless chipmaker in robotics/AI space"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -849,8 +851,8 @@
         "reposts": 51,
         "replies": 56
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010024809208643887",
@@ -858,11 +860,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "-$82M burn made an extremely big material difference to valuation",
-        "pivoted core IP to new chipset for broad applications including machine vision in robotics and medical verticals",
-        "new vertical has 69-70% gross margins similar to NVDA",
-        "new vertical now makes up 75%+ of revenue growing 40%+ Y/Y",
-        "without the -$82M error would likely be trading above $10+ with 10-12x EV multiple"
+        "pivoted core IP to new chipset for robotics/medical with 69-70% gross margins",
+        "robotics vertical now 75%+ of revenue growing 40%+ Y/Y",
+        "without -$82M burn error might be trading above $10+ with 10-12x EV multiple",
+        "material transformation from low-margin automotive to high-margin robotics"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -876,8 +877,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010026534187512115",
@@ -885,10 +886,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "incredible discovery when researching robotics supply chains",
-        "$80M+ forward revenue with 69% gross margins from growing robotics segments",
-        "was trading almost 1:1 with cash and inventory balance",
-        "2.4x EV/revenue looks completely off when related companies trade at 14-18x or 30x+ with premiums"
+        "incredible discovery in robotics supply chains",
+        "$80M+ forward revenue with 69% gross margins trading near 1:1 cash/inventory to market cap",
+        "2.4x EV/revenue vs related companies at 14-18x or 30+ multiples"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -902,8 +902,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010047332235260390",
@@ -911,10 +911,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "$80M forward revenue NVDA-margin fabless robotics semi trading close to 1:1 cash/inventory to market cap",
-        "even after 60% run still sits at 2.4x EV/revenue while similar companies trade 14-18x",
-        "re-rating to a standard 10x EV/revenue would be over 3x current prices",
-        "extreme mispricing from algorithm hallucination on contaminated data"
+        "NVDA-margin fabless robotics semi trading near 1:1 cash/inventory to market cap",
+        "2.4x EV/revenue vs similar companies at 14-18x",
+        "re-rating to standard 10x EV/revenue would be 3x+ current prices",
+        "extreme mispricing from algorithm hallucination"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -928,8 +928,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010049741460218026",
@@ -937,9 +937,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "one of the biggest anomalies he has ever found",
-        "required manual cross-check of financial reports vs analyst/scanner reports to confirm",
-        "algorithms and LLMs got the analysis wrong due to contaminated data; only manual review could spot the discrepancy"
+        "one of the biggest anomalies ever found",
+        "only manual review could spot the discrepancy that algorithms and LLMs missed"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -953,8 +952,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010073763308814496",
@@ -974,8 +973,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010077751538266218",
@@ -984,10 +983,10 @@
       "mention_type": "explicit_stance",
       "reasons": [
         "personally holding shares 1Y+",
-        "expects it would take time to price in premiums like 14-18x EV/revenue",
-        "short term re-rating to 5-7x EV/revenue still around double current prices",
-        "extremely high margins for fastest growing segments",
-        "expects robotics to be a huge theme in 2026 and into 2027"
+        "short term 5-7x EV/revenue likely which is double current prices",
+        "longer term premiums like 14-18x EV/revenue expected",
+        "extremely high margins on fastest growing segments",
+        "expects robotics to be huge theme in 2026-2027"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -1001,8 +1000,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010116701757874336",
@@ -1010,13 +1009,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "actually makes chipsets; semiconductor is in its name",
-        "regulated semiconductor on NYSE with information in public filings",
-        "not a pump and dump; actual semiconductor firm with tier-1 customers from Samsung to Mercedes",
-        "$93.5M in cash not $30M, zero debt",
-        "some liabilities are $11.5 strike warrants, opex, or equity bonuses paid in shares",
-        "-.04 EPS Q3 while shifting to positive late 2026 is extremely good given new chip for robotics sector growing 40% Y/Y",
-        "scanners like MarketWatch conflating $VLN NYSE with $VLN Toronto"
+        "$93.5M cash with 0 debt",
+        "actual semiconductor firm with T1 customers like Samsung and Mercedes",
+        "-.04 EPS while shifting to positive late 2026 is good given new robotics chip growing 40% Y/Y",
+        "screener data conflating $VLN NYSE with $VLN Toronto"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -1030,16 +1026,17 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010260199605506440",
       "date": "2026-01-11",
-      "stance": "neutral",
-      "mention_type": "comparison",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
       "reasons": [
-        "traded close to 1:1 with cash/MC because of ticker collision"
+        "trading close to 1:1 with cash/MC because of ticker collision",
+        "markets correct themselves eventually"
       ],
       "is_risk": false,
       "conviction": null,
@@ -1053,8 +1050,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010298726221480119",
@@ -1062,10 +1059,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "zero debt, $93.5M cash and $11M in inventory",
-        "almost every algorithm or LLM modeled off contaminated data thinking VLN will go under in 1 year from $100M in costs from -$82M inventory burn",
-        "data error still not corrected causing algorithmic shorts",
-        "only retail on X found out about this early"
+        "0 debt with $93.5M cash and $11M inventory",
+        "algorithms and LLMs modeling off contaminated data from -$82M inventory burn error",
+        "algorithmic shorts based on incorrect data still not corrected",
+        "retail on X found out about mispricing early"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -1079,19 +1076,17 @@
         "reposts": 3,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010300269654061457",
       "date": "2026-01-11",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "all algorithms including Opus use contaminated data for VLN; requires manual review to identify the discrepancy"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
-      "conviction": "high",
+      "conviction": null,
       "raw_mention": "$VLN",
       "text": "@ENTJ_46 Eg. With opus, ^ they all use contaminated data, and this requires manual review with $VLN https://t.co/wTpg2BTVYn",
       "url": "https://x.com/aleabitoreddit/status/2010300269654061457",
@@ -1102,8 +1097,8 @@
         "reposts": 0,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010301050214109600",
@@ -1111,13 +1106,13 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "repricing event driven by -$82m balance sheet error on a legitimate semiconductor company",
-        "customers include Samsung, LG, Mercedes and others",
-        "algorithms and LLMs still using contaminated/erroneous data, creating mispricing opportunity",
-        "markets pricing in corrected information"
+        "repricing event from -$82M data error on balance sheet",
+        "legitimate semiconductor with Samsung, LG, Mercedes as customers",
+        "algorithms and LLMs still use contaminated data",
+        "information discovery and markets pricing it in"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "high",
       "raw_mention": "$VLN",
       "text": "@pmgdeep1 @illyquid This is a repricing event from -$82 Million modeled off the balance sheet of a legitimate semiconductor that has Samsung, LG, Mercedes and others as customers.\n\nYou’re completely misunderstanding if you think $VLN a pump and dump when every algorithm and LLM still use contaminated data. \n\nThis is purely information discovery and markets pricing it in.\n\nI’d suggest you read my pinned post if you want to understand the financials rather than just looking at marketcap.",
       "url": "https://x.com/aleabitoreddit/status/2010301050214109600",
@@ -1128,8 +1123,8 @@
         "reposts": 0,
         "replies": 4
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010587880180293647",
@@ -1137,14 +1132,13 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "trading close to 2 ev/revenue which is ridiculous for the profile",
-        "fabless semi with t1 customers",
-        "extremely high margin",
-        "trading close to 1:1 marketcap to cash/assets with no debt",
+        "extremely high margin fabless semi trading close to 2 EV/revenue",
+        "t1 customers",
+        "no debt with close to 1:1 marketcap to cash/assets",
         "$80m fwd revenue off 63% gross margins",
-        "69.1% gross margins on robotics/industrial vertical",
-        "robotics/industrial is 75%+ of revenue growing 40% y/y",
-        "bear cases (insider sales, Israeli company) don't address the financials"
+        "69.1% gross margins on robotics/industrial vertical which is 75%+ of revenue growing 40% y/y",
+        "bear cases (insider sales, Israeli company) don't hold up against financials",
+        "crazy valuation (undervalued)"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -1158,8 +1152,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010594797262696647",
@@ -1167,8 +1161,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "shouldn't trade close to 1:1 with assets/MC",
-        "close to 2 EV/revenue while others trade 14-18",
+        "bought because it shouldn't trade close to 1:1 with assets/MC",
+        "trades at close to 2 EV/revenue while peers trade 14-18",
         "gross margins close to 70%"
       ],
       "is_risk": false,
@@ -1183,8 +1177,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010669985291522392",
@@ -1192,7 +1186,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "most money to be made when discovered before others"
+        "discovered early before move, went up 50%+ the next week"
       ],
       "is_risk": false,
       "conviction": null,
@@ -1206,8 +1200,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010686362769559697",
@@ -1215,11 +1209,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "cares more about fundamentals than illiquid premarket prices",
-        "sees illiquid premarket price as buying opportunity"
+        "sees dip as buying opportunity",
+        "cares more about fundamentals than illiquid premarket prices"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$VLN",
       "text": "@toninojiv @trodoszalay I see just that as a buying opportunity since I care more about $VLN fundamentals than illiquid premarket prices",
       "url": "https://x.com/aleabitoreddit/status/2010686362769559697",
@@ -1230,8 +1224,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010698748477731165",
@@ -1254,8 +1248,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010750210688123114",
@@ -1275,14 +1269,37 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2010750859253354743",
+      "date": "2026-01-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [
+        "down only 6 cents"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "it (VLN)",
+      "text": "@1000UMAX Bro it’s down a total of 6 cents",
+      "url": "https://x.com/aleabitoreddit/status/2010750859253354743",
+      "kind": "reply",
+      "engagement": {
+        "views": 1490,
+        "likes": 10,
+        "reposts": 0,
+        "replies": 2
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2010874498405286278",
       "date": "2026-01-12",
       "stance": "neutral",
-      "mention_type": "background",
+      "mention_type": "quote_or_other",
       "reasons": [],
       "is_risk": false,
       "conviction": null,
@@ -1296,8 +1313,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011323464305848672",
@@ -1305,7 +1322,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "up 60%"
+        "up 60%, one of his picks"
       ],
       "is_risk": false,
       "conviction": null,
@@ -1319,8 +1336,8 @@
         "reposts": 8,
         "replies": 89
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011381532397846755",
@@ -1328,11 +1345,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "probably MM algo strike defense at $2.5",
-        "short term price doesn't matter because markets correct itself over time"
+        "short term price pinning likely due to MM algo strike defense at $2.5",
+        "markets correct over time after MM hedging/gamma unwinds",
+        "expects correction after shorting stops if data source corrects next earnings"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": null,
       "raw_mention": "$VLN",
       "text": "@Dubchee My thoughts on $VLN is that it’s probably MM algo strike defense at $2.5 since option chain is only $2.5 and $5. (You can see it pinned to that price last Friday for hours).\n\nShort term price doesn’t matter because markets correct itself over time, esp after MMs finish hedging, gamma unwinds, or we stop seeing shorting if data source corrects next earnings.",
       "url": "https://x.com/aleabitoreddit/status/2011381532397846755",
@@ -1343,8 +1361,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2011455204374577469",
@@ -1352,7 +1370,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "bought on -8% drop"
+        "bought on -8% drop",
+        "sees good opportunities from fear"
       ],
       "is_risk": false,
       "conviction": null,
@@ -1366,8 +1385,8 @@
         "reposts": 3,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012209300798632101",
@@ -1375,13 +1394,12 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "sitting on $120m cash off $200m MC",
-        "doing $80m forward revenue",
-        "63% gross margins",
+        "sitting on $120m off $200m MC",
+        "$80m forward revenue with 63% gross margins",
         "MC should catch up to fundamentals"
       ],
       "is_risk": false,
-      "conviction": "high",
+      "conviction": "medium",
       "raw_mention": "$VLN",
       "text": "@ShortsHoward Thesis should play out by itself without me posting. My thesis with $NBIS for 2026 hasn't changed at all since last year.\n\nSame with $VLN, it's basically sitting on $120m off $200m MC right now doing $80m forward revenue, 63% gross margins. \n\nMC should catch up to fundamentals once market makers stop with their shenanigans from mass OI expiry today across the board.",
       "url": "https://x.com/aleabitoreddit/status/2012209300798632101",
@@ -1392,8 +1410,8 @@
         "reposts": 1,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012225583741063567",
@@ -1401,10 +1419,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "for mispricing"
+        "mispricing thesis",
+        "holding share position for a year for re-rating"
       ],
       "is_risk": false,
-      "conviction": "high",
+      "conviction": "medium",
       "raw_mention": "$VLN",
       "text": "@goosedf Yes? $AIRO for drones, $OSS for edge, $SSYS for robotics, $AXTI for AI bottlenecks, $LPTH for defense bottlenecks and $VLN for mispricing were the most recent posts. \n\nI’m holding my share positions for a year since re-rating doesn’t happen in a day or week. Might take months to play out.",
       "url": "https://x.com/aleabitoreddit/status/2012225583741063567",
@@ -1415,8 +1434,8 @@
         "reposts": 2,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2012458647192994053",
@@ -1424,9 +1443,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "still holds",
-        "intended as 1 year hold",
-        "does DD on it"
+        "still holds shares",
+        "meant to be 1 year hold"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -1440,8 +1458,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2013851945266749642",
@@ -1449,7 +1467,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "deeply misvalued",
+        "still deeply misvalued",
         "low downside risk due to cash balance"
       ],
       "is_risk": false,
@@ -1464,8 +1482,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015096496019112151",
@@ -1473,11 +1491,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "$80m fwd revenue off 63-69% gross margins",
+        "$80m fwd revenue off 63% -> 69% gross margins",
         "considerable opportunity for re-rating"
       ],
-      "is_risk": true,
-      "conviction": "low",
+      "is_risk": false,
+      "conviction": "medium",
       "raw_mention": "VLN",
       "text": "Jan 25th Ratings. Post EU Tariffs and $INTC ER.\n\nStrong Buy:\n$SNAP\n$META\nSamsung Electronics\nSK Hynix\n$MU\nUnimicron\n$TSM\n$CRCL\n$AXTI \n$LPTH \n$COPX\n$LIT\n$AEHR\n$FORM\n$AMKR\n$AVGO\n$MRVL\n\nBuy:\n$COIN\n$SMCI\n$GOOGL\n$FIG\n$AMZN\n$IBIT\n$RDDT\n$TTD\n$HIMS\n$HOOD\n$COHR\n$AMBA\n$IREN\n$POET\n$AAOI\n$LASR\n$VPG\n$OSS\n$INTC\n$UMAC\n$ONDS\n$AIRO\n$DPRO\n$AVAV\n$BULL\n$ETOR\nVLN\nNBIS\nGLXY\nCIFR\nHUT\nWULF\n\nQuestionable\n$VELO\n$SKYT\n\nAvoid\n$UAVS\n$BKKT\nWLMT\nSLNH\n$PLTR\nCRWV\n$ORCL\n$BMNR\n$IONQ , RGTI, QBTS\n\n_\n\nStrong Buy\n\nSnapchat - Bottomed around $7.4, imo very strong at this level. Increased FCF from memory opex reduction and memory monetization into 2027. Just a waiting game for re-rating. \n\nMeta - 26% Y/Y revenue growth is extremely strong, produced $10B+ FCF last quarter. Expect it to pick up after next quarter earnings due to optics (700%+ Q/Q EPS optics) that caused selloff last time from BBB. \n\nSamsung Electronics - Holy grail for semis, samsung provides exposure to both hbm and foundry. \n\nSK Hynix - memory supercycle\n\nMicron - memory supercycle, but with US backing. \n\nUnimicron - unholy long for hbm, ic substrates, glass core, cowos, and all other bottlenecks.\n\nTSM - money printer, literally can't go wrong with this. \n\nCircle - 2-3x projected rate cuts would likely hurt circle net income a lot, hence why it's being priced in. But amazing long at $16B as they print money and should start seeing expansion of USDC. \n\nAXTI - LPTH: Bottlenecks for InP / Germanium, etc. Will be a huge theme going into 2026. It's just a waiting game for both supply chain disruption (in AXT) or made in America w/ black diamond in Lightpath. \n\nLow downside risk imo due to capacity ramp -> revenue increase, but moonshot HBM type price increases might be questionable. \n\nCOPX - LI: Rare Earths/Materials like Copper, Lithium are great longs for 2026. Similar with bottlenecks above, supply chain disruptions from China will cause money to flow into securing supply + buildout out new supply chains. \n\nAEHR - Honestly, they sit in two different hot verticals in AI and Robotics. $5.5m Sonoma order might be linked with Micron and SiC Testing. Seems like an extremely good moonshot sub $1B MC. \n\nFORM - Likely to be important in US supply chains since they do DRAM/HBM, and Foundry/Logic. & Yield is especailyl important w/ hbm4. \n\nAMKR - extreme beneficiary of made in america us supply chains and tsm -> US\n\nAVGO - Large correction recently post earnings. Strong buy IMO at these levels given hyperscaler ASICs will continue to ramp (even though there's been some delays). \n\nMRVL - Same story with Broadcom, marvell selloff after rumors of Microsoft maia delays. It's just a waiting game for ~2x revenue in 2027 and when markets start pricing that in, and after celestial acqusition, they're doing great stuff in other segments like interconnects. \n\nBuy\n\nCoinbase - Recent correction to Crypto makes Coinbase value decent again at $57B. Was never a fan of their exchange portion, but providing infra for Blackrock IBIT etfs + USDC revenue sharing with Circle, gives Coinbase pretty good long term value. \n\nSMCI - Extreme selloff from the $60's+ back to $30's presents attractive opportunity here. Markets are extremely concerned about gross margins -> SMCI expanding overseas, especially with soverign AI + buying lower end nvda gpus. and SMCI's margins should increase over there. Also likely due to deals to become sticky w/ customers. It's not like they're dying revenue growth to $36B+. \n\nGOOGL - Gemini at this point would likely take over chatgpt, so i'd remain long google. \n\nFigma - Software selloff provides good opportunity into a lot of the hammered names like Figma which extremely high gross margins + sturdy growth\n\nAmazon - Basically same price as last year, they've been growing, AWS is doing fine, they're in robotics + space LEOs, and just seems like a great long going forward\n\nBitcoin - Always an attractive Long\n\nReddit - High valuations, but extremely high gross margins and not going anywhere since everyone uses reddit. \n\nTTD - Selloff from 2025 presents attractive valuations again\n\nHIMS - Honestly extremely attractive for me at $29, might be put into strong buy again, but of course revenue deceleration is very worrysome. Main alpha is that markets arent pricing in Zava acqusition and just from sheer customer base, they can derive a lot of revenue from new customers. \n \nRobinhood - Selloff from $140 back to $100 presents a good opportunity for Robinhood again. They're not going anywere, plus new product revenue expansion from banking + others, should present positive tailwinds. \n\nCoherent - Long US supply chains, esp. for photonics, inp, etc. \n\nAMBA - Moonshot long for edge AI inference for robotic ramps + edge compute. \n\nPOET - Basically 1/2 cash now, backdoor into marvell + hyperscalers through celestial. Attractive upside at $6.8 given underwriters bought at $7.25\n\nAAOI - long play tethered to msft maia and aws trainium. both of them haven't really taken off yet so it's just a waiting agme\n\nLASR - energy directed weapons are super cool. i dont quite like the fundamentals like low 20% revenue growth, but the technology is just way too cool. \n\nVPG - Long play tethered to optimus ramp. we should see industrial use cases EOY 2026 and consumer EOY 2027, so maybe optimus productions starts hitting balance sheet now or q2. \n\nOSS - Long play on defense sector and edge AI + $200m contract. \n\nINTC - long on us policy, earnings didn't really change any perspective, just short term price. \n\nUMAC - Great long play at these levels on drone manufacturing in US.\n\nONDS, Airo, DPRO - Same with AIRO, DPRO, bullish on drone sector. There's not much of a massive tailwind compared to a few weeks ago when US was invading venezuela and threatening greenland, but thematically bullish. \n\nAVAV - selloff from misinformation about converting r&D type contracts -> long term contract presents considerable upside \n\nBULL - I do like brokerages like robinhood, webull, etc. that have a ton of retail users since there's endless ways to monetize once you own the customer base. selloff back to $8 presents attractive upsdie\n\nETOR - selloff way overblown, high net income y/y, basically 50% cash, low downside risk. just waiting for re-rating per earnings. they're doing well too, 70%+ Y/Y AUM, so not sure why they're being priced in like this.  \n\nVLN - not quite the same anymore as close to 1:1 assets/nav, at one point they had $11m+ inv (off 63%) gross margins, $93M cash, so would have been closer to 110-120m : $140m MC, which made no sense. That being said still $80m fwd revenue off 63% -> 69% gross margins, seems like considerable opportunity for re-rating. Markets just don't seem to like companies eg. Etoro related to a certain country, I guess\n\nNebius - $15B clickhouse valuation just goes to show Sum of Parts, where I wouldn't be surpirsed if their subsidaries like Avride ended up overtaking the main business. That being said, near term selling pressure due to $2B+ ATM being sold on open market. Should ramp up extremely fast as they meet their $7B ARR target EOY 2026. \n \nGLXY, CIFR, HUT, IREN, WULF - Remain long on the colo, and other neocloud sector plays. That being said most are up 30-40%+ since 2025, so they're not exactly a strong buy anymore as they've been priced in. But lot of upside remains. \n\nQuestionable\n\nVELO - Lot of people asked my opinion on this since FinX loves this stock. They have really cool customers like SpaceX, but fundamentals look terrible.\n\n~$11.8M cash + $17.5M offering vs. ~$23M. debt. They barely have any runway left and people buying now are likely to be diluted. \n\nVelo is the perfect example of amazing customer base like IQE (EU for inP supply chain), but terrible fundamentals. \n\nSKYT - It's a great made in america supply chain company for a lot of cool stuff like quantum components or edge. Benefits from CHIP act, but very slow revenue growth. It's a lot better speculative long than Velo since it has better fundamenatls. \n\nLower gross margins like 24%, very low operating margins, is obviously priced into MC but U.S. pure-play foundry should be a good story for premium. Bottom line are not really growing too fast though. \n \nAvoid\n\nUAVS - Endless dilution machine with over 100%+ of marketcap given over to arbitrage investors that can convert 100%+ of the shares under 25% market value to sell on retail\n\nBKKT - $300m ATM dilution right now while MC is $550m. Endless dilution machine\n\nWalmart - 43 p/e, there's no way. \n\nSLNH - Lot of dilution ahead. \n\nPalantir - Concern over valuation P/E \n\nCoreweave - Concerns over large debt, $1B+ in debt interest hurts FCF a ton. Then there's allocation/buildout for OpenAI, which has extreme, extreme concerns if they can fulfill contract obligations, especially since gemini is taking over market share of openai. \n\nOracle - There might be technical rebound, but seriously, they've spent so much capex just for openai (eg. stargate), and like coreweave, OpenAI, which has extreme concerns over if they can fufill contracts obligations\n\nBMNR - endless dilution machine to fund silly projects like $200m into mr. beast's company. Expect long eth staking etfs, short bmnr plays, and premium to go under as $200m cash into mr.  beast's company for example is not very liquid. \n\nIONQ, RGTI, QBTS - Quantum valuations are very stretched. \n\n_\n\nOverall Thoughts:\n\nI'm personally staying extremely long, this is just personal thoughts NFI. \n\nA lot of small caps and speculative companies have already been re-rated since Jan 1st and I don't expect many of the 50-100% moves to continue (we've seen a lot of profit taking Friday on some of these names). \n\nThat being said, Trump is trying to cut rates even more (another 2-3x projected), esp. since Midterms is coming up. \n\nSPY Up = better chance of getting elected. So I'm staying very long until after Midterms.\n\nThat being said a lot of this helps growth, speculative companies etc. But we're already seeing this largely priced in like Rocketlab, one of my favorite longs, reaching $45B+ MC off $155m quarterly revenue, so I'm questioning valuations a bit -> pivoting a lot of positions into more value (eg. software drop or memory supercycle). \n\nThematically I'm extremely bullish on \n- AI, Memory, Semis\n- Bottlenecks\n- Critical Materials, etc. \n\nVery bullish on\n- Made in America supply chains \n\nBullish on \n- Defense Sector\n\nAnd would look for swing trades/recovery/re-rating for stuff like software to social media companies around now given the recent selloff.",
       "url": "https://x.com/aleabitoreddit/status/2015096496019112151",
@@ -1488,8 +1506,8 @@
         "reposts": 100,
         "replies": 83
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2017378760220413962",
@@ -1497,11 +1515,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "~$110m ish cash/inventory and $170m MC",
+        "~$110m cash/inventory vs $170m MC",
         "$80M revenue and high gross margins"
       ],
       "is_risk": false,
-      "conviction": "high",
+      "conviction": null,
       "raw_mention": "$VLN",
       "text": "@soulbiri1 @Swiftrooney_ To me strong yes. I really don't understand what markets have against Israeli stocks like $ETOR, $NBIS, and $VLN because those are my worst performers. \n\nI lost off so much from Etoro but they're half cash and basically 4 forward earnings to EV. Growing AUM 77% Y/Y. \n\nThen $VLN is basically ~$110m ish cash/inventory and $170m MC. And $80M revenue and high gross margins. \n\nSo personally not quite sure what's going on.",
       "url": "https://x.com/aleabitoreddit/status/2017378760220413962",
@@ -1512,8 +1530,8 @@
         "reposts": 0,
         "replies": 3
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2018496117374370053",

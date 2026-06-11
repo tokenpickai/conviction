@@ -16,10 +16,8 @@
       "tweet_id": "2013136961981358354",
       "date": "2026-01-19",
       "stance": "neutral",
-      "mention_type": "comparison",
-      "reasons": [
-        "known bottleneck"
-      ],
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$UUUU",
@@ -32,8 +30,8 @@
         "reposts": 2,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2035984148159164870",

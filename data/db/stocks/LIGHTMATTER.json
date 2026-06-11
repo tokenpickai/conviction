@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-04-30",
-  "last_mention": "2026-06-03",
-  "total_mentions": 4,
+  "last_mention": "2026-06-11",
+  "total_mentions": 5,
   "mentions": [
     {
       "tweet_id": "2049763657975026064",
@@ -91,6 +91,27 @@
         "views": 9163,
         "likes": 92,
         "reposts": 3,
+        "replies": 2
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065109445554954254",
+      "date": "2026-06-11",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Lightmatter",
+      "text": "@ratna555 I see the Lightmatter/Ayar type companies, probably going higher than $5B if they IPO. \n\nSince they're both part of $NVDA NVLink CPO ecosystem, heavy backers like NVidia/Intel/AMD/Google, and popular theme.",
+      "url": "https://x.com/aleabitoreddit/status/2065109445554954254",
+      "kind": "reply",
+      "engagement": {
+        "views": 6560,
+        "likes": 38,
+        "reposts": 1,
         "replies": 2
       },
       "extractor_model": "claude-opus-4-6",

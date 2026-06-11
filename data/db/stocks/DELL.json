@@ -10,7 +10,7 @@
   "thesis_summary": null,
   "first_mention": "2025-09-16",
   "last_mention": "2026-05-29",
-  "total_mentions": 14,
+  "total_mentions": 15,
   "mentions": [
     {
       "tweet_id": "1968051910663118861",
@@ -212,13 +212,32 @@
       "prompt_version": "extract-v1"
     },
     {
+      "tweet_id": "2007099013913616665",
+      "date": "2026-01-02",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$DELL",
+      "text": "@itsthesquonky Sure, $SMCI trades at PEG <.5, compared to $DELL ~1.2 PEG, despite growing 4x faster.\n\nRevenue is increasing 50% Y/Y, and the main drop recently was due to backlog delays from Q1 to Q2, not loss. They even increased revenue projections from $33B -> $36B.\n\nThe main issue was gross margin compression, which I believe is transitory, just given new DLC segments and acquiring new customers (where it will increase at scale).\n\nI think markets are missing sovereign AI, where other countries rely on OEMs like $SMCI for DC deployments. And other countries. eg. Malaysia, would likely command higher margins too.\n\nRegardless $17B valuation for less than .5 P/S, seems pretty attractive. But a lot of the revenue increase is pass through from more expensive components, so gross margins are the things to watch.  \n\nTLDR: Markets are pricing in doom and gloom + accounting issues. I believe $SMCI is past that accounting issues, and 1 quarter delay is not too material + margins should recover. So stock price should be a good swing trade especially as it trades near 1Y low.",
+      "url": "https://x.com/aleabitoreddit/status/2007099013913616665",
+      "kind": "reply",
+      "engagement": {
+        "views": 4138,
+        "likes": 15,
+        "reposts": 2,
+        "replies": 1
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
       "tweet_id": "2008910857003221451",
       "date": "2026-01-07",
       "stance": "neutral",
       "mention_type": "comparison",
-      "reasons": [
-        "commodity seller with 8-14% margins"
-      ],
+      "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$DELL",
@@ -231,8 +250,8 @@
         "reposts": 85,
         "replies": 60
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2025279186244681945",

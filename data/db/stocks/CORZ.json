@@ -291,13 +291,10 @@
     {
       "tweet_id": "2012562412457562304",
       "date": "2026-01-17",
-      "stance": "bearish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "depends on Coreweave for revenue",
-        "if Coreweave tenant goes down so does their near term revenue"
-      ],
-      "is_risk": true,
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
       "conviction": null,
       "raw_mention": "$CORZ",
       "text": "Breaking: Elon Musk has sued OpenAI for $134 Billion.\n\nPrediction markets have priced the odds of Elon winning at 59% as of today.   \n\nThis may be alarming.   \n\nIf OpenAI loses this: \n\nMarkets may trigger a contagion across the AI ecosystem tied to OpenAI.  \n\n$AMD or $CRWV and companies like $ORCL (Stargate) to $MSFT are massive losers as they're heavily levered to OpenAI.  \n\nThen there's third order effects on companies as $APLD and $CORZ involved to Coreweave. \n\nSame goes with $AMD partners, such as $RIOT.  \n\n For example: \n\n1. Microsoft / Oracle -> Write down billions in investment, buildout + GPU utilization lag would cost billions \n\n2. CoreWeave -> Massive risk to backlog revenue, utilization lag + already at risk due to massive debt interest \n\n3. APLD / CORZ -> Depend on Coreweave for revenue, if the tenant goes down, so does their near term revenue.   \n\nIf OpenAI are forced to pay massive damages, return to a strict non-profit status, or declare bankruptcy due to liquidity crises (and cannot fulfill its contractual obligations):  \n\nThis might trigger a contagion event across many AI sector names tied to OpenAI.   \n\nOf course this is the worst case scenario. \n\nMy expectation is middle ground: \n \n-> Musk wins the trial (or forces a settlement just before the verdict). \n\n-> OpenAI is forced to pay a massive fine (e.g., $10B–$20B) and possibly open-source its older models \n\n-> $MSFT likely steps in to pay the fine or restructure the debt since there's too much at stake.   \n\nOr in the 41% chance Musk loses: nothing happens, and companies tied to OpenAI will be fine.  \n\nHowever it looks markets already priced in a lot of that uncertainty with OpenAI contagion risk with Oracle ($330 -> $195) and Coreweave ($150 -> $101).   \n\nThis lawsuit is definitely one of the biggest events markets are watching.",
@@ -309,8 +306,8 @@
         "reposts": 79,
         "replies": 66
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

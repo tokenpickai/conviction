@@ -18,8 +18,8 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "becoming the AMAT and LRCX of China since the latter two got banned",
-        "default infrastructure for Chinese semi industry"
+        "becoming the AMAT and LRCX of China since those got banned",
+        "default infra for Chinese semi industry"
       ],
       "is_risk": false,
       "conviction": null,
@@ -33,8 +33,8 @@
         "reposts": 29,
         "replies": 8
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2021599607294484734",

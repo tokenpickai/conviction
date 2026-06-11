@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-02-16",
-  "last_mention": "2026-06-05",
-  "total_mentions": 92,
+  "last_mention": "2026-06-09",
+  "total_mentions": 94,
   "mentions": [
     {
       "tweet_id": "2023414518333001807",
@@ -2197,6 +2197,48 @@
         "likes": 150,
         "reposts": 3,
         "replies": 8
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063465386960736396",
+      "date": "2026-06-06",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$RPI",
+      "text": "I think my personal style of investing is a bit different, just some reflection:\n\nIt's inherently discretionary, based on stuff markets don't know yet. And a culmination of life experiences?\n\nIf you look at $AXTI, $RPI, $SIVE, $IQE and others. \n\nLot of it is guessing on https://t.co/5GGFN54PjZ",
+      "url": "https://x.com/aleabitoreddit/status/2063465386960736396",
+      "kind": "post",
+      "engagement": {
+        "views": 1183820,
+        "likes": 3140,
+        "reposts": 302,
+        "replies": 237
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064223473929752811",
+      "date": "2026-06-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$RPI",
+      "text": "@Hosdrugs Don't worry! My priority is helping out retail investors. \n\nI get into little skirmishes with media all the time like over in Sweden with $SIVE or UK with $RPI. \n\nI'm used to it now. As long as I see retail followers benefiting, then I'm happy to continue sharing my ideas.",
+      "url": "https://x.com/aleabitoreddit/status/2064223473929752811",
+      "kind": "reply",
+      "engagement": {
+        "views": 42981,
+        "likes": 451,
+        "reposts": 1,
+        "replies": 79
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

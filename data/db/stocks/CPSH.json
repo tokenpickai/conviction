@@ -10,19 +10,16 @@
   "thesis_summary": null,
   "first_mention": "2026-01-18",
   "last_mention": "2026-02-21",
-  "total_mentions": 6,
+  "total_mentions": 7,
   "mentions": [
     {
       "tweet_id": "2012957864026087525",
       "date": "2026-01-18",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "thermal / aluminum silicon carbide bottleneck",
-        "wouldn't be surprised if went up 5x over the next year"
-      ],
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
       "is_risk": false,
-      "conviction": "low",
+      "conviction": null,
       "raw_mention": "$CPSH",
       "text": "Personal TLDR research. \n \nWestern supply chain bottlenecks like $LPTH and $AXTI:  \n\n$MTRN - Beryllium (Spor Mountain) \n$HALEU - Uranium | SMRs \n$ESE - Space fuel tanks (through Vacco) \n$GHM - Vacuum Ejectors & Surface Condensers | U.S. Navy \n$FEIM - Atomic Clocks  \n$OPXS - Light Laser Periscopes  \n$TAYD - Vibration  \n$PKE - Heat \n$VNP.TO - Western gallium  \n$TDY - Rad-Hard Image Sensors  $RDW - Roll-Out Solar Arrays \n$PDFS - Exensio Yield for Intel 18A  \n$WOLF - Silicon Carbide  \n$RELL - Ultracapacitors & Magnetrons  \n$CPSH - Thermal / Aluminum Silicon Carbide  \n$VREX - X-Ray Tubes  \n$GSM - Western Silicon Metal  \n$INTT - Extreme Thermal Cycling  \n$CODA - Turbidity (Murkiness)  \n$NTI - Corrosion  $PLAB - Photomask  \n$MKSI - Plasma Control \n$KULR - Explosive Heat  \n$PESI - Radioactive mixed waste.  \n$CVV - Gas-to-Solid Deposition.  \n$LPKFF - Laser Induced Deep Etching/  Glass Substrates    \n\nThese are just more of the \"under the radar\" small caps I was researching -> ended up choosing $AXTI and $LPTH if people were interested.   \n\n Lot of them have terrible fundamentals despite being vital eg: $IQE (already pretty known), so it's not a good idea to just blindly buy a bottleneck.     \n\nThere were a lot more out there I haven't finished researching (so didn't include), and it's a lot harder to pinpoint ones that haven't been priced in.     \n\nBut wouldn't be surprised if a lot of these went up 5x over the next year.",
       "url": "https://x.com/aleabitoreddit/status/2012957864026087525",
@@ -33,8 +30,8 @@
         "reposts": 92,
         "replies": 49
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016921538780680402",
@@ -42,18 +39,18 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "US AlSiC pure play chokepoint",
-        "~25% of near-term semi-grade AlSiC market",
-        "sole-source provider for many DoD applications",
-        "customers include US Navy, Army, DoE, Space Force, NASA, LMT, RTX, Northrop, General Dynamics",
-        "AlSiC may be used for AI thermal management as chips scale to 2300-2500W in 2027-2028",
-        "similar to InP bottleneck for photonics or Toto ceramics for memory",
-        "primary US/Western hedge for AlSiC",
-        "healthy balance sheet, almost 0 debt",
+        "US AlSiC pure play chokepoint representing ~25% of near-term semi-grade AlSiC market",
+        "customers include US Navy, Army, Dept of Energy, Space Force/NASA, Lockheed, Raytheon, Northrop, General Dynamics",
+        "AlSiC may be used for AI thermal warpage as architectures scale to 2300-2500W in 2027-2028",
+        "similar to how InP became a bottleneck as photonics scaled up",
+        "healthy balance sheet: $12.7M-$13.8M cash, almost 0 debt",
         "Y/Y revenue up +107.29%, net income up +119.94%",
-        "$15.5M order from leading Semi likely Infineon",
-        "expanding production hints to higher demand",
-        "US DoD contractors give lower downside risk at $100M-$200M MC"
+        "low downside risk at $100M MC given US Government strategic interest and Defense Contractors",
+        "$15.5M new order from leading semi likely Infineon",
+        "expanding production hinting at higher demand",
+        "sole-source provider for many customer applications",
+        "only worth ~$100M MC currently",
+        "long US supply chains"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -67,8 +64,8 @@
         "reposts": 56,
         "replies": 50
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016927731800559651",
@@ -76,7 +73,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "decently long wait but posted as proof in case it ends up well"
+        "decently long wait but posting as proof in case it ends up well"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -90,8 +87,32 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2016928809174651051",
+      "date": "2026-01-29",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "lower risk but if it works it works type play",
+        "expects copper-diamond or AlSiC mix usage but may be early"
+      ],
+      "is_risk": false,
+      "conviction": "low",
+      "raw_mention": "$CPSH",
+      "text": "@PhotonCap No problem! This is just one of those lower risk but if it works it works type plays for me.\n\nI would expect to see some copper-diamond or AlSiC mix but maybe I’m a bit early",
+      "url": "https://x.com/aleabitoreddit/status/2016928809174651051",
+      "kind": "reply",
+      "engagement": {
+        "views": 3225,
+        "likes": 7,
+        "reposts": 0,
+        "replies": 2
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2016983734407614742",
@@ -101,11 +122,13 @@
       "reasons": [
         "applications for Defense/Space/Industrial could be used for AI",
         "sole source for many programs",
-        "proprietary injection molding process for tungsten",
-        "ballistic protection system upgrades on US Navy Aircraft Carriers and surface ships"
+        "proprietary injection molding process for tungsten (controlled fragmentation warheads)",
+        "US Navy warships ballistic protection panels more commercialized",
+        "novel armored floor for legacy and future vertical lift rotorcraft",
+        "revenue numbers still low as many are research contracts"
       ],
       "is_risk": false,
-      "conviction": "medium",
+      "conviction": null,
       "raw_mention": "$CPSH",
       "text": "@Vmaxpax These are HFT algorithms reacting to my posts, you see this with every ticker mention I do from $ETOR, $VPG, $LEU, and others. \n\nYou're correct I should have worded the nuance better.\n\nThe point was the applicationsfor Defense/Space/Industrial could be used for -> AI. The revenue numbers are low as many are still research contracts but they are sole source for many programs. \n\nThis is the correction:\n\n- U.S. Army Combat Capabilities Development Command (DEVCOM) had two year contract with $CPSH to see if CPSH’s proprietary injection molding process for tungsten can create \"controlled fragmentation\" warheads”.\n\n- For Hawk Helicators it was from their website\n\n\"Sustaining legacy fleets, like the UH-60 Black Hawk, provides a  unique opportunity to incorporate novel materials. In addition to improving system performance and reducing weight, modernization efforts  must consider configurational flexibility and simplicity to support  operations across diverse scenarios.\" \n\n- This was SBIR research to design a \"novel armored floor that provides ballistic protection and which can be  implemented in both legacy (UH-60) and future vertical lift (FVL)  rotorcraft\"\n\n-  For US Navy, this was the quote verbatim from their PR:\n\n\"The panels are an integrated component of advanced ballistic shields  developed in support of ballistic protection system upgrades on U.S.  Navy Aircraft Carriers and other surface ships\" \n\nAll the applications usage above are true. Some, like US Navy Warships, are more commercialized compared to tungsten that can \"controlled fragmentation\" warheads”.",
       "url": "https://x.com/aleabitoreddit/status/2016983734407614742",
@@ -116,8 +139,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2020258804953411966",

@@ -11,7 +11,13 @@
     "SLOIF": "SOI",
     "SOITEC": "SOI",
     "LPKF": "LPK",
-    "HAMMOND": "HPS.A"
+    "HAMMOND": "HPS.A",
+    "000660": "SK HYNIX",
+    "005930": "SAMSUNG",
+    "3105": "WIN_SEMI",
+    "3363": "FOCI",
+    "SHUNSIN": "6451",
+    "WINSEMI": "WIN_SEMI"
   },
   "_us_confirmed": "AXTI NVDA AAOI LITE COHR MRVL NBIS IREN CIFR TSM TSEM JBL POET MU AVGO AEHR AMD INTC SMCI MTSI OSS CRDO LASR ALAB FN AMKR were checked or are standard US listings (USD)",
   "4092": {
@@ -28,7 +34,9 @@
     "exchange": "Taiwan",
     "currency": "TWD",
     "verified": true,
-    "note": "Shunsin (Foxconn optical subsidiary) - exchange/code"
+    "note": "Shunsin (Foxconn optical subsidiary) - exchange/code",
+    "company": "Shunsin Technology",
+    "industry": "Optical Packaging/Test"
   },
   "AAOI": {
     "company": "Applied Optoelectronics",
@@ -38,20 +46,39 @@
     "company": "Aehr Test Systems",
     "industry": "Semiconductor Burn-in Test Equipment"
   },
+  "AIRO": {
+    "company": "AIRO Group",
+    "industry": "Aerospace/Defense Autonomy"
+  },
   "AMD": {
     "company": "AMD",
     "industry": "GPU/AI Chips"
+  },
+  "AMKR": {
+    "company": "Amkor Technology",
+    "industry": "Semiconductor Packaging/OSAT"
   },
   "AMZN": {
     "company": "Amazon",
     "industry": "Hyperscaler",
     "thesis_summary": "当天主要在陈述供应链关系/背景,未明确表态。"
   },
+  "ARM": {
+    "company": "Arm Holdings",
+    "industry": "CPU/IP Licensing"
+  },
   "ASST": {},
-  "AVAV": {},
+  "AVAV": {
+    "company": "AeroVironment",
+    "industry": "Defense Drones/Autonomy"
+  },
   "AVGO": {
     "company": "Broadcom",
     "industry": "AI ASIC/Networking Chips"
+  },
+  "BKKT": {
+    "company": "Bakkt",
+    "industry": "Crypto Infrastructure"
   },
   "AXTI": {
     "company": "AXT Inc",
@@ -63,7 +90,10 @@
     "company": "Coherent",
     "industry": "Optical Comms"
   },
-  "COIN": {},
+  "COIN": {
+    "company": "Coinbase",
+    "industry": "Crypto Exchange/Infrastructure"
+  },
   "CRCL": {
     "company": "Circle"
   },
@@ -74,7 +104,27 @@
     "company": "iShares MSCI South Korea ETF",
     "exclude": true
   },
+  "ETOR": {
+    "company": "eToro",
+    "industry": "Brokerage/Fintech"
+  },
+  "FLNC": {
+    "company": "Fluence Energy",
+    "industry": "Grid Storage/Energy"
+  },
   "FN": {},
+  "FOCI": {
+    "price_symbol": "3363.TW",
+    "exchange": "Taiwan",
+    "currency": "TWD",
+    "verified": true,
+    "company": "FOCI Fiber Optic Communications",
+    "industry": "Optical Components/CPO"
+  },
+  "GFS": {
+    "company": "GlobalFoundries",
+    "industry": "Semiconductor Foundry"
+  },
   "GOOGL": {
     "company": "Alphabet",
     "industry": "Hyperscaler",
@@ -95,6 +145,10 @@
   },
   "IBKR": {
     "company": "Interactive Brokers"
+  },
+  "IBIT": {
+    "company": "iShares Bitcoin Trust ETF",
+    "exclude": true
   },
   "INFQ": {},
   "INTC": {
@@ -122,6 +176,10 @@
   "KOSPI": {},
   "KRKNF": {},
   "LANDMARK": {},
+  "LASR": {
+    "company": "nLIGHT",
+    "industry": "Industrial Lasers/Photonics"
+  },
   "LITE": {
     "company": "Lumentum",
     "industry": "Optical Comms/CPO",
@@ -168,6 +226,10 @@
     "company": "Nebius",
     "industry": "AI Cloud/GPU"
   },
+  "NVO": {
+    "company": "Novo Nordisk",
+    "industry": "Pharmaceuticals/GLP-1"
+  },
   "NVDA": {
     "company": "NVIDIA",
     "industry": "AI Chips",
@@ -179,7 +241,18 @@
     "company": "One Stop Systems",
     "industry": "Edge AI Compute/GPU Systems"
   },
-  "PLTR": {},
+  "OKLO": {
+    "company": "Oklo",
+    "industry": "Nuclear/Power"
+  },
+  "ONDS": {
+    "company": "Ondas Holdings",
+    "industry": "Autonomous Systems/Drones"
+  },
+  "PLTR": {
+    "company": "Palantir",
+    "industry": "AI/Data Software"
+  },
   "POET": {
     "company": "POET Technologies",
     "industry": "Optical Engine Packaging",
@@ -188,6 +261,10 @@
   "PYPL": {},
   "RDDT": {
     "company": "Reddit"
+  },
+  "RGTI": {
+    "company": "Rigetti Computing",
+    "industry": "Quantum Computing"
   },
   "RIOT": {},
   "RPI": {
@@ -199,7 +276,14 @@
     "company": "Raspberry Pi Holdings"
   },
   "RVI": {},
-  "SAMSUNG": {},
+  "SAMSUNG": {
+    "price_symbol": "005930.KS",
+    "exchange": "Korea Exchange",
+    "currency": "KRW",
+    "verified": true,
+    "company": "Samsung Electronics",
+    "industry": "Memory/HBM/Semiconductors"
+  },
   "SIVE": {
     "price_symbol": "SIVE.ST",
     "exchange": "Nasdaq Stockholm",
@@ -221,6 +305,10 @@
     "thesis_summary": "他当天多次提及,延续既有关注。"
   },
   "SK HYNIX": {
+    "price_symbol": "000660.KS",
+    "exchange": "Korea Exchange",
+    "currency": "KRW",
+    "verified": true,
     "company": "SK Hynix",
     "industry": "Memory/HBM (Korea)"
   },
@@ -244,6 +332,10 @@
   },
   "SOITEC": {},
   "SUMITOMO": {},
+  "SPY": {
+    "company": "SPDR S&P 500 ETF Trust",
+    "exclude": true
+  },
   "TSEM": {
     "company": "Tower Semiconductor",
     "industry": "Semiconductor Foundry",
@@ -256,6 +348,14 @@
     "company": "TSMC",
     "industry": "Wafer Foundry"
   },
+  "UBER": {
+    "company": "Uber",
+    "industry": "Mobility/Delivery Platform"
+  },
+  "UPWK": {
+    "company": "Upwork",
+    "industry": "Online Freelance Marketplace"
+  },
   "V": {},
   "VLN": {
     "company": "Valens Semiconductor",
@@ -265,7 +365,14 @@
     "company": "Vishay Precision Group",
     "industry": "Precision Sensors/Foil Resistors"
   },
-  "WIN_SEMI": {},
+  "WIN_SEMI": {
+    "price_symbol": "3105.TW",
+    "exchange": "Taiwan",
+    "currency": "TWD",
+    "verified": true,
+    "company": "WIN Semiconductors",
+    "industry": "Compound Semiconductor Foundry/Photonics"
+  },
   "XFAB": {
     "price_symbol": "XFAB.PA",
     "exchange": "Euronext Paris",

@@ -18,9 +18,10 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says over 45 times (4500%+) upside in pure assets if full claim paid",
-        "he says they won $1.1B arbitral award which is 5x their share price (floor)",
-        "he says they could swap debt for control of Siembra Minera rights, one of largest undeveloped gold/copper deposits on earth"
+        "$8.1B+ in claims from Gold Reserves vs $289M market cap",
+        "already won $1.1B arbitral award which is 5x share price floor",
+        "potential ~45x return driven by regime change and swapping debt for mining rights",
+        "one of the largest undeveloped gold/copper deposits on earth"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -34,8 +35,8 @@
         "reposts": 153,
         "replies": 30
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007653270102388974",
@@ -43,11 +44,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says institutions were largely caught off guard",
-        "he says valuing sudden return of $19T+ in mineral rights has definitely not been priced in yet",
-        "he says likely see a frenzy for many of these names in overnight trading and market open",
-        "he says this is the new gold rush in 2026",
-        "he says retail has opportunity of a lifetime"
+        "sudden return of $19T+ in mineral rights not priced in yet for small $200M company",
+        "institutions caught off guard",
+        "expects frenzy in overnight trading and market open"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -61,8 +60,8 @@
         "reposts": 1,
         "replies": 2
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007682243276443931",
@@ -70,11 +69,11 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says were risky, distressed assets frozen because of Venezuelan government",
-        "he says regime change from Maduro unlocked all their value (gold mines, bonds)"
+        "regime change from Maduro unlocked value of gold mines and bonds",
+        "previously risky distressed assets now unlocked"
       ],
       "is_risk": false,
-      "conviction": null,
+      "conviction": "medium",
       "raw_mention": "$GRZ.V",
       "text": "@hereforgoodish2 Many of these like $GRZ.V or $ASHM were risky, distressed assets, frozen because of Venezuelan government. \n\nNow that there's a regime change from Maduro, all of their value (gold mines, bonds) just got unlocked. \n\nFor that reason, lot of these are not on Nasdaq / NYSE because of small marketcap or foreign companies with Venezuelan interest, so you would need to go to $IBKR or others to access then.",
       "url": "https://x.com/aleabitoreddit/status/2007682243276443931",
@@ -85,8 +84,8 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

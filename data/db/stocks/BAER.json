@@ -18,12 +18,11 @@
       "stance": "neutral",
       "mention_type": "explicit_stance",
       "reasons": [
-        "has $202.9M+ debt",
-        "has $400.3M+ preferred stock liabilities that accrue interest",
-        "has new $331.5M financing package",
-        "~$24M+ annual debt interest cuts into FCF significantly",
-        "conservative FCF of ~$13-19M is effectively trapped servicing debt",
-        "has not yet looked into what the company is doing operationally"
+        "$202.9M+ debt and $400.3M+ preferred stock liabilities",
+        "~$24M+ debt interest per year cuts into FCF",
+        "conservative FCF ~$13-19M basically trapped for debt payoff",
+        "new $331.5M financing package adds to liabilities",
+        "hasn't looked deeply into company operations yet"
       ],
       "is_risk": true,
       "conviction": null,
@@ -37,8 +36,8 @@
         "reposts": 2,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

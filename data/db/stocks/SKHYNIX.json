@@ -8,10 +8,52 @@
   "company": null,
   "industry": null,
   "thesis_summary": null,
-  "first_mention": "2026-06-02",
+  "first_mention": "2026-01-28",
   "last_mention": "2026-06-02",
-  "total_mentions": 1,
+  "total_mentions": 3,
   "mentions": [
+    {
+      "tweet_id": "2016681010793153018",
+      "date": "2026-01-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK Hynix",
+      "text": "Some other Asia memory long ideas like Nanya (if you don’t want $MU, Samsung, SK Hynix types)\n\n- Winbond (dram/flash) up 847% 1Y\n\n- Macronix (ROM/ NOR flash) up 389% 1Y\n\n- Phison Electronics (SSD controllers for Kioxia $SNDK) up 383% 1Y\n\nSome other interesting ones are Tokyo Electron for NAND/DRAM equipment for indirect beneficiaries",
+      "url": "https://x.com/aleabitoreddit/status/2016681010793153018",
+      "kind": "post",
+      "engagement": {
+        "views": 59958,
+        "likes": 251,
+        "reposts": 37,
+        "replies": 11
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2016681501887529027",
+      "date": "2026-01-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK Hynix",
+      "text": "@WaterFish2000 $EWY is for SK Hynix and Samsung Electronics exposure.\n\nThis post was for other beneficiaries that are specifically not them.",
+      "url": "https://x.com/aleabitoreddit/status/2016681501887529027",
+      "kind": "reply",
+      "engagement": {
+        "views": 1893,
+        "likes": 10,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2061991402196886000",
       "date": "2026-06-02",

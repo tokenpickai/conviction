@@ -18,9 +18,9 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "he says claims ~$700M, 35% cash injection relative to market cap",
-        "he says this is a sleeper hit",
-        "he says if they get $700M from Citgo sale it dramatically improves their balance sheet"
+        "claims ~$700M which is 35% cash injection relative to market cap",
+        "calls it a sleeper hit",
+        "dramatically improves balance sheet if they get $700M from Citgo sale"
       ],
       "is_risk": false,
       "conviction": "medium",
@@ -34,8 +34,8 @@
         "reposts": 153,
         "replies": 30
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007758407948788162",
@@ -43,7 +43,7 @@
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
-        "Claims ~$700M",
+        "claims ~$700M",
         "35% cash injection relative to market cap"
       ],
       "is_risk": false,
@@ -58,16 +58,18 @@
         "reposts": 82,
         "replies": 28
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007823102622007454",
       "date": "2026-01-04",
-      "stance": "neutral",
-      "mention_type": "background",
-      "reasons": [],
-      "is_risk": false,
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "removing from the list"
+      ],
+      "is_risk": true,
       "conviction": null,
       "raw_mention": "$OI",
       "text": "@KingofBears7 Ur right thanks, remove $OI from the list then",
@@ -79,16 +81,17 @@
         "reposts": 0,
         "replies": 0
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2007823817889263721",
       "date": "2026-01-04",
-      "stance": "neutral",
-      "mention_type": "background",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
       "reasons": [
-        "sold arbitration rights already"
+        "sold arbitration rights already",
+        "missed the sale in research"
       ],
       "is_risk": true,
       "conviction": null,
@@ -102,8 +105,8 @@
         "reposts": 0,
         "replies": 1
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],

@@ -8,47 +8,20 @@
   "company": null,
   "industry": null,
   "thesis_summary": null,
-  "first_mention": "2026-01-22",
+  "first_mention": "2026-01-25",
   "last_mention": "2026-01-25",
-  "total_mentions": 3,
+  "total_mentions": 2,
   "mentions": [
-    {
-      "tweet_id": "2014505817509355841",
-      "date": "2026-01-22",
-      "stance": "bullish",
-      "mention_type": "explicit_stance",
-      "reasons": [
-        "extreme bottleneck for AI",
-        "80-90% market share of high-end T-glass used in semiconductors",
-        "sold out through 2026",
-        "Apple, Nvidia, Qualcomm send teams on site to beg for glass supply",
-        "TSM, Apple, Nvidia, Tesla, AMD, Arista all need it"
-      ],
-      "is_risk": false,
-      "conviction": null,
-      "raw_mention": "$NBCLF",
-      "text": "Nitto Boseki - $NBCLF | 3110:\n\nThe story of an extreme bottleneck for AI:\n\n> Spin Yarn/Glass in 1923\n> Be good at it\n> Create \"T-Glass\" for tennis rackets\n> Wait 100Y, everyone needs it\n> $TSM for CoWoS\n> $APPL for M-Series Ultra/Max\n> $NVDA for Blackwell + Vera Rubin\n> $TSLA for chips inside FSD cars\n> $AMD for MI300/MI400 AI accelerators\n> $ANET for 800G to 1.6T and 3.2T\n> Have Apple to Nvidia to TSM fighting over supply\n> Sold out through 2026\n> Apple, Nvidia, and Qualcomm sends teams live on site to literally beg this Yarn Maker for glass supply\n> Now is 80-90% market share of the high-end T-glass used in semiconductors\n\nThe $4.23 Billion monopoly that every tech company in the world is fighting over:\n\nA random Japanese Yarn Spinner. \n\nDisclosure: I own positions.",
-      "url": "https://x.com/aleabitoreddit/status/2014505817509355841",
-      "kind": "post",
-      "engagement": {
-        "views": 34548,
-        "likes": 222,
-        "reposts": 14,
-        "replies": 23
-      },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
-    },
     {
       "tweet_id": "2015549311732658520",
       "date": "2026-01-25",
       "stance": "bullish",
       "mention_type": "explicit_stance",
       "reasons": [
+        "T-Glass",
         "near monopoly",
-        "critical to entire AI buildout or captures overflow",
-        "rare foreign company he goes out of his way to invest in",
-        "T-Glass play"
+        "critical to AI buildout",
+        "rare foreign company he goes out of his way to invest in"
       ],
       "is_risk": false,
       "conviction": "high",
@@ -62,8 +35,8 @@
         "reposts": 76,
         "replies": 37
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     },
     {
       "tweet_id": "2015549311732658520",
@@ -83,8 +56,8 @@
         "reposts": 76,
         "replies": 37
       },
-      "extractor_model": "claude-sonnet-4-6",
-      "prompt_version": "extract-v1"
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],
