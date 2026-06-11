@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2025-09-08",
-  "last_mention": "2026-01-02",
-  "total_mentions": 38,
+  "last_mention": "2026-06-11",
+  "total_mentions": 39,
   "mentions": [
     {
       "tweet_id": "1965104785255985546",
@@ -888,6 +888,27 @@
         "likes": 29,
         "reposts": 1,
         "replies": 5
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065130589204992048",
+      "date": "2026-06-11",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$WYFI",
+      "text": "New Anthropic news looks like a potential tailwind for the Neocloud colo sector.\n\nSuch as $WULF, $CIFR, $WYFI, $HUT and others (not named yet). \n\nAs Anthropic is pursuing its first DC leases. \n\n\"The AI company has signed more than a dozen letters of intent with U.S. developers\" https://t.co/LIkHo2QgRs",
+      "url": "https://x.com/aleabitoreddit/status/2065130589204992048",
+      "kind": "post",
+      "engagement": {
+        "views": 28618,
+        "likes": 238,
+        "reposts": 12,
+        "replies": 100
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-06-11T17:31:59.759027+00:00",
+    "generated_at": "2026-06-11T18:15:16.002628+00:00",
     "total_tickers": 948,
-    "total_mentions": 13565,
+    "total_mentions": 13569,
     "dates": "ET (US Eastern); matches render/pipeline.py",
     "note": "Data layer only — facts + raw mentions. All windowed/stance aggregation + rankings are computed by render at runtime. Prices pending."
   },
@@ -227,8 +227,8 @@
       "company": "Cipher Mining",
       "industry": "Bitcoin Miner/AI Datacenter",
       "first_mention": "2025-09-03",
-      "last_mention": "2026-06-01",
-      "total_mentions": 201,
+      "last_mention": "2026-06-11",
+      "total_mentions": 202,
       "price_status": "ok"
     },
     {
@@ -521,8 +521,8 @@
       "company": "TeraWulf",
       "industry": "Bitcoin Miner/AI Datacenter",
       "first_mention": "2025-09-03",
-      "last_mention": "2026-06-01",
-      "total_mentions": 92,
+      "last_mention": "2026-06-11",
+      "total_mentions": 93,
       "price_status": "ok"
     },
     {
@@ -871,8 +871,8 @@
       "company": null,
       "industry": null,
       "first_mention": "2025-09-08",
-      "last_mention": "2026-01-02",
-      "total_mentions": 38,
+      "last_mention": "2026-06-11",
+      "total_mentions": 39,
       "price_status": "pending"
     },
     {
@@ -1968,6 +1968,20 @@
       "price_status": "ok"
     },
     {
+      "ticker": "HUT",
+      "cashtag": "$HUT",
+      "price_symbol": "HUT",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": null,
+      "industry": null,
+      "first_mention": "2025-09-03",
+      "last_mention": "2026-06-11",
+      "total_mentions": 11,
+      "price_status": "pending"
+    },
+    {
       "ticker": "MSSCORPS",
       "cashtag": "MSScorps",
       "price_symbol": "MSSCORPS",
@@ -2134,20 +2148,6 @@
       "last_mention": "2026-03-13",
       "total_mentions": 10,
       "price_status": "ok"
-    },
-    {
-      "ticker": "HUT",
-      "cashtag": "HUT",
-      "price_symbol": "HUT",
-      "exchange": "US",
-      "currency": "USD",
-      "ticker_mapped": false,
-      "company": null,
-      "industry": null,
-      "first_mention": "2025-09-03",
-      "last_mention": "2026-01-24",
-      "total_mentions": 10,
-      "price_status": "pending"
     },
     {
       "ticker": "SEI",
