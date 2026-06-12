@@ -732,10 +732,10 @@ table.stbl{width:100%;border-collapse:collapse;font-size:12.5px}
 # ---- embedded base page <head> (CSS vars/fonts/layout base). render now writes the whole page itself. ----
 BASE_HEAD='''<!DOCTYPE html><html lang="zh"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>@aleabitoreddit 个股评论追踪</title>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Noto+Serif+SC:wght@500;600;700;900&family=Noto+Sans+SC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Roboto+Mono:wght@400;500;600;700&family=Roboto+Serif:opsz,wght@8..144,500;8..144,600;8..144,700;8..144,900&display=swap" rel="stylesheet">
 <style>
 
-:root{--paper:#f4f1ea;--card:#fbf9f4;--ink:#1c1a17;--ink-soft:#55514a;--ink-faint:#8a8479;--line:#dcd6c8;--line-strong:#c6bfae;--accent:#1f5c4d;--accent-soft:#e3ede8;--bull:#1f7a4d;--bull-bg:#e6f1e9;--bear:#a8392b;--bear-bg:#f4e3df;--neutral:#8a7a3f;--neutral-bg:#f0ebd9;--gold:#b8893a;--mono:'IBM Plex Mono',monospace;--sans:'Noto Sans SC',sans-serif;--serif:'Noto Serif SC','Fraunces',serif;--shadow:0 1px 0 rgba(0,0,0,.04),0 10px 28px -18px rgba(28,26,23,.38);}
+:root{--paper:#f4f1ea;--card:#fbf9f4;--ink:#1c1a17;--ink-soft:#55514a;--ink-faint:#8a8479;--line:#dcd6c8;--line-strong:#c6bfae;--accent:#1f5c4d;--accent-soft:#e3ede8;--bull:#1f7a4d;--bull-bg:#e6f1e9;--bear:#a8392b;--bear-bg:#f4e3df;--neutral:#8a7a3f;--neutral-bg:#f0ebd9;--gold:#b8893a;--mono:'Roboto Mono',monospace;--sans:'Roboto',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--serif:'Roboto Serif',Georgia,serif;--shadow:0 1px 0 rgba(0,0,0,.04),0 10px 28px -18px rgba(28,26,23,.38);}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--paper);background-image:radial-gradient(rgba(28,26,23,.025) 1px,transparent 1px);background-size:4px 4px;font-family:var(--sans);color:var(--ink);display:flex}
 .sidenav{position:fixed;left:0;top:0;bottom:0;width:180px;background:var(--card);border-right:2px solid var(--ink);padding:26px 0;display:flex;flex-direction:column;z-index:10}
