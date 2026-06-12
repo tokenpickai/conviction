@@ -9,8 +9,8 @@
   "industry": "Optical Modules",
   "thesis_summary": null,
   "first_mention": "2025-12-11",
-  "last_mention": "2026-06-11",
-  "total_mentions": 416,
+  "last_mention": "2026-06-12",
+  "total_mentions": 417,
   "mentions": [
     {
       "tweet_id": "1999240464420250042",
@@ -9752,6 +9752,30 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065289672356745561",
+      "date": "2026-06-12",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "core high conviction idea from 2025",
+        "price appreciation from $30 to $175"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "$AAOI",
+      "text": "Just some reflection, my core high conviction ideas from 2025 aged super well!\n\nFrom \n$ALAB: $97-&gt; $372\n$LITE: $330 -&gt; $904\n$AAOI: $30 -&gt; $175\n\nAnd others like $NBIS, $RKLB, and $TSM!\n\nThis was back when I had close to no followers! \n\nI got some nuances slightly off before more https://t.co/1DKeY2x200 https://t.co/Xm8MsmzZYw",
+      "url": "https://x.com/aleabitoreddit/status/2065289672356745561",
+      "kind": "post",
+      "engagement": {
+        "views": 320874,
+        "likes": 1031,
+        "reposts": 47,
+        "replies": 275
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -10256,7 +10280,5 @@
       "close": 172.78
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-12T11:12:25.259967+00:00"
+  "price_status": "ok"
 }

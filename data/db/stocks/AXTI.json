@@ -9,8 +9,8 @@
   "industry": "InP Substrates",
   "thesis_summary": "他看好 AXT 的磷化铟基板地位,称其为 CPO 产业链上游卡位,已有 500%+ 浮盈。",
   "first_mention": "2025-12-22",
-  "last_mention": "2026-06-11",
-  "total_mentions": 513,
+  "last_mention": "2026-06-12",
+  "total_mentions": 514,
   "mentions": [
     {
       "tweet_id": "2003040048930074770",
@@ -11991,6 +11991,30 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065291889885274552",
+      "date": "2026-06-12",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "InP substrate bottleneck confirmed by companies and governments",
+        "CPO related idea needs longer timeframe to play out"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$AXTI",
+      "text": "@Expelliamus9 $AXTI took many months to play out, before companies and governments started confirming the InP substrate bottleneck.\n\nI don’t think CPO related ideas should be judged in a 1 month timeframe!",
+      "url": "https://x.com/aleabitoreddit/status/2065291889885274552",
+      "kind": "reply",
+      "engagement": {
+        "views": 13748,
+        "likes": 84,
+        "reposts": 0,
+        "replies": 6
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -12467,7 +12491,5 @@
       "close": 88.34
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-12T11:12:20.258409+00:00"
+  "price_status": "ok"
 }

@@ -9,8 +9,8 @@
   "industry": "Optical Comms/CPO Components",
   "thesis_summary": null,
   "first_mention": "2026-01-10",
-  "last_mention": "2026-06-04",
-  "total_mentions": 71,
+  "last_mention": "2026-06-12",
+  "total_mentions": 72,
   "mentions": [
     {
       "tweet_id": "2010016015330291787",
@@ -1526,6 +1526,27 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065333919252418913",
+      "date": "2026-06-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MTSI",
+      "text": "VPEC new price hikes on Epiwafers today. \n\nPositive bottleneck read through on companies like $IQE and Landmark (3081) in terms of pricing power/demand for epiwafers.\n\nThis follows $MTSI investment into IQE to secure capacity, and shows how important some of these chokepoints https://t.co/EeOR3HjzPV https://t.co/843v31W4gs",
+      "url": "https://x.com/aleabitoreddit/status/2065333919252418913",
+      "kind": "post",
+      "engagement": {
+        "views": 200473,
+        "likes": 401,
+        "reposts": 25,
+        "replies": 198
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -1950,7 +1971,5 @@
       "close": 374.76
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-12T11:13:07.960245+00:00"
+  "price_status": "ok"
 }

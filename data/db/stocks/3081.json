@@ -1,6 +1,6 @@
 {
   "ticker": "3081",
-  "cashtag": "LandMark (3081)",
+  "cashtag": "Landmark (3081)",
   "price_symbol": "3081",
   "exchange": "US",
   "currency": "USD",
@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-05-03",
-  "last_mention": "2026-05-12",
-  "total_mentions": 2,
+  "last_mention": "2026-06-12",
+  "total_mentions": 3,
   "mentions": [
     {
       "tweet_id": "2051028253130006901",
@@ -55,10 +55,29 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065333919252418913",
+      "date": "2026-06-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Landmark (3081)",
+      "text": "VPEC new price hikes on Epiwafers today. \n\nPositive bottleneck read through on companies like $IQE and Landmark (3081) in terms of pricing power/demand for epiwafers.\n\nThis follows $MTSI investment into IQE to secure capacity, and shows how important some of these chokepoints https://t.co/EeOR3HjzPV https://t.co/843v31W4gs",
+      "url": "https://x.com/aleabitoreddit/status/2065333919252418913",
+      "kind": "post",
+      "engagement": {
+        "views": 200473,
+        "likes": 401,
+        "reposts": 25,
+        "replies": 198
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],
-  "price_status": "not_covered",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-12T11:18:36.092739+00:00"
+  "price_status": "pending"
 }

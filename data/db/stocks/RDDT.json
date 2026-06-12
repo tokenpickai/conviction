@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2025-09-14",
-  "last_mention": "2026-06-11",
-  "total_mentions": 141,
+  "last_mention": "2026-06-12",
+  "total_mentions": 142,
   "mentions": [
     {
       "tweet_id": "1967200142525956510",
@@ -3319,6 +3319,27 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065291355447079133",
+      "date": "2026-06-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$RDDT",
+      "text": "@soulbiri1 Thx, Good times! Yeah 99% of my followers are new in the past few months. \n\nSo they didn’t get to see all the cool stuff I’ve posted last year… back when I was just sharing ideas with a few friends from $RDDT like u",
+      "url": "https://x.com/aleabitoreddit/status/2065291355447079133",
+      "kind": "reply",
+      "engagement": {
+        "views": 11406,
+        "likes": 75,
+        "reposts": 0,
+        "replies": 7
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -4071,7 +4092,5 @@
       "close": 173.26
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-12T11:12:45.723460+00:00"
+  "price_status": "ok"
 }

@@ -212841,5 +212841,339 @@
     "extractor_model": "claude-opus-4-6",
     "prompt_version": "extract-v2",
     "extracted_at": "2026-06-12T00:09:32.966442+00:00"
+  },
+  "2065351180314955924": {
+    "tweet_id": "2065351180314955924",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$TSM",
+        "symbol": "TSM",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-12T12:44:18.059900+00:00"
+  },
+  "2065355321338630384": {
+    "tweet_id": "2065355321338630384",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "NCI",
+        "symbol": "NCI",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Ulvac",
+        "symbol": "ULVAC",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-12T12:44:18.059900+00:00"
+  },
+  "2065355577191243893": {
+    "tweet_id": "2065355577191243893",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-12T12:44:18.059900+00:00"
+  },
+  "2065333919252418913": {
+    "tweet_id": "2065333919252418913",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$IQE",
+        "symbol": "IQE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "positive bottleneck read through on epiwafer pricing power/demand",
+          "MTSI invested into IQE to secure capacity",
+          "important chokepoint"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Landmark (3081)",
+        "symbol": "3081",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$MTSI",
+        "symbol": "MTSI",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-12T12:44:18.059900+00:00"
+  },
+  "2065337180478931454": {
+    "tweet_id": "2065337180478931454",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$IQE",
+        "symbol": "IQE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "critical to western supply chains",
+          "probably a long way to go"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$XFAB",
+        "symbol": "XFAB",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "critical to western supply chains",
+          "probably a long way to go"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.82,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-12T12:44:18.059900+00:00"
+  },
+  "2065289672356745561": {
+    "tweet_id": "2065289672356745561",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$ALAB",
+        "symbol": "ALAB",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "core high conviction idea from 2025",
+          "price appreciation from $97 to $372"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "core high conviction idea from 2025",
+          "price appreciation from $330 to $904"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$AAOI",
+        "symbol": "AAOI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "core high conviction idea from 2025",
+          "price appreciation from $30 to $175"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$NBIS",
+        "symbol": "NBIS",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$RKLB",
+        "symbol": "RKLB",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$TSM",
+        "symbol": "TSM",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.92,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-12T12:44:18.059900+00:00"
+  },
+  "2065291355447079133": {
+    "tweet_id": "2065291355447079133",
+    "has_investment_content": false,
+    "tickers": [
+      {
+        "raw_mention": "$RDDT",
+        "symbol": "RDDT",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-12T12:44:18.059900+00:00"
+  },
+  "2065291889885274552": {
+    "tweet_id": "2065291889885274552",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$AXTI",
+        "symbol": "AXTI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "InP substrate bottleneck confirmed by companies and governments",
+          "CPO related idea needs longer timeframe to play out"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-12T12:44:18.059900+00:00"
+  },
+  "2065262802328293497": {
+    "tweet_id": "2065262802328293497",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$NBIS",
+        "symbol": "NBIS",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$ALAB",
+        "symbol": "ALAB",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$RKLB",
+        "symbol": "RKLB",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.8,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-12T12:44:18.059900+00:00"
+  },
+  "2065263502156251310": {
+    "tweet_id": "2065263502156251310",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-12T12:44:18.059900+00:00"
+  },
+  "2065263747418165537": {
+    "tweet_id": "2065263747418165537",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$ALAB",
+        "symbol": "ALAB",
+        "stance": "bearish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "lost conviction"
+        ],
+        "is_risk": true,
+        "conviction_signal": "low"
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-12T12:44:18.059900+00:00"
+  },
+  "2065263956768457132": {
+    "tweet_id": "2065263956768457132",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$NBIS",
+        "symbol": "NBIS",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "looks like the next hyperscaler",
+          "excited to see its growth"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-12T12:44:18.059900+00:00"
   }
 }

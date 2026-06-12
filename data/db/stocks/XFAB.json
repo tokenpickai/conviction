@@ -1,6 +1,6 @@
 {
   "ticker": "XFAB",
-  "cashtag": "XFAB (implied from context)",
+  "cashtag": "$XFAB",
   "price_symbol": "XFAB.PA",
   "exchange": "Euronext Paris",
   "currency": "EUR",
@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-05-27",
-  "last_mention": "2026-06-11",
-  "total_mentions": 33,
+  "last_mention": "2026-06-12",
+  "total_mentions": 34,
   "mentions": [
     {
       "tweet_id": "2059537337324085541",
@@ -848,6 +848,30 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065337180478931454",
+      "date": "2026-06-12",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "critical to western supply chains",
+        "probably a long way to go"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$XFAB",
+      "text": "@RyanU_1F42B $IQE, $XFAB, and others are just not really well known but they're both critical to western supply chains.\n\nProbably a long way to go imo",
+      "url": "https://x.com/aleabitoreddit/status/2065337180478931454",
+      "kind": "reply",
+      "engagement": {
+        "views": 18834,
+        "likes": 103,
+        "reposts": 9,
+        "replies": 8
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -884,7 +908,5 @@
       "close": 10.26
     }
   ],
-  "price_status": "partial",
-  "price_unit": "EUR",
-  "price_updated_at": "2026-06-12T11:13:52.452792+00:00"
+  "price_status": "partial"
 }

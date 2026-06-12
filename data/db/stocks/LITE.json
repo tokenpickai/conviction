@@ -9,8 +9,8 @@
   "industry": "Optical Comms/CPO",
   "thesis_summary": "他视 Lumentum 为 CPO 战略受益者,认为已大幅上涨但仍有空间,是光通信主线标的。",
   "first_mention": "2025-10-25",
-  "last_mention": "2026-06-11",
-  "total_mentions": 485,
+  "last_mention": "2026-06-12",
+  "total_mentions": 486,
   "mentions": [
     {
       "tweet_id": "1981968303271592379",
@@ -10608,6 +10608,30 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065289672356745561",
+      "date": "2026-06-12",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "core high conviction idea from 2025",
+        "price appreciation from $330 to $904"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "$LITE",
+      "text": "Just some reflection, my core high conviction ideas from 2025 aged super well!\n\nFrom \n$ALAB: $97-&gt; $372\n$LITE: $330 -&gt; $904\n$AAOI: $30 -&gt; $175\n\nAnd others like $NBIS, $RKLB, and $TSM!\n\nThis was back when I had close to no followers! \n\nI got some nuances slightly off before more https://t.co/1DKeY2x200 https://t.co/Xm8MsmzZYw",
+      "url": "https://x.com/aleabitoreddit/status/2065289672356745561",
+      "kind": "post",
+      "engagement": {
+        "views": 320874,
+        "likes": 1031,
+        "reposts": 47,
+        "replies": 275
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -11240,7 +11264,5 @@
       "close": 889.59
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-12T11:12:21.437968+00:00"
+  "price_status": "ok"
 }

@@ -1,6 +1,6 @@
 {
   "ticker": "NCI",
-  "cashtag": "Rasa/NCI",
+  "cashtag": "NCI",
   "price_symbol": "NCI",
   "exchange": "US",
   "currency": "USD",
@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-05-11",
-  "last_mention": "2026-05-19",
-  "total_mentions": 2,
+  "last_mention": "2026-06-12",
+  "total_mentions": 3,
   "mentions": [
     {
       "tweet_id": "2053949746239435197",
@@ -53,6 +53,27 @@
         "likes": 54,
         "reposts": 0,
         "replies": 7
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065355321338630384",
+      "date": "2026-06-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "NCI",
+      "text": "@Moon1ightSt Japan can just stop NCI/Rasa from shipping red phosphorous over to China and cripple the photonics supply chain... \n\nOr certain furnaces/machines from Ulvac and cripple the robotics buildout...\n\nThat's why I say it's a slippery slope. There's so many different chokepoints each",
+      "url": "https://x.com/aleabitoreddit/status/2065355321338630384",
+      "kind": "reply",
+      "engagement": {
+        "views": 10970,
+        "likes": 73,
+        "reposts": 2,
+        "replies": 12
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
@@ -152,7 +173,5 @@
       "close": 10.97
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-12T11:19:19.977577+00:00"
+  "price_status": "ok"
 }

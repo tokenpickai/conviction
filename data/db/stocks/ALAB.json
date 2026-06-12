@@ -9,8 +9,8 @@
   "industry": "AI Interconnect Semis (PCIe/CXL)",
   "thesis_summary": null,
   "first_mention": "2025-07-21",
-  "last_mention": "2026-04-18",
-  "total_mentions": 81,
+  "last_mention": "2026-06-12",
+  "total_mentions": 84,
   "mentions": [
     {
       "tweet_id": "1947207626930225347",
@@ -1887,6 +1887,74 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065262802328293497",
+      "date": "2026-06-11",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$ALAB",
+      "text": "Woah, $NBIS, $ALAB, and $RKLB got added to Nasdaq 100!\n\nFun to see both Astera, Rocketlab and Weebius grow up from being small companies…\n\nInto the largest ones on Nasdaq https://t.co/ntqBmkri6T",
+      "url": "https://x.com/aleabitoreddit/status/2065262802328293497",
+      "kind": "post",
+      "engagement": {
+        "views": 284711,
+        "likes": 1905,
+        "reposts": 90,
+        "replies": 312
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065263747418165537",
+      "date": "2026-06-11",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "lost conviction"
+      ],
+      "is_risk": true,
+      "conviction": "low",
+      "raw_mention": "$ALAB",
+      "text": "@soulbiri1 I lost conviction in $ALAB but I’m happy my three high conviction picks from 2025 turned out so well",
+      "url": "https://x.com/aleabitoreddit/status/2065263747418165537",
+      "kind": "reply",
+      "engagement": {
+        "views": 16618,
+        "likes": 53,
+        "reposts": 0,
+        "replies": 5
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065289672356745561",
+      "date": "2026-06-12",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "core high conviction idea from 2025",
+        "price appreciation from $97 to $372"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "$ALAB",
+      "text": "Just some reflection, my core high conviction ideas from 2025 aged super well!\n\nFrom \n$ALAB: $97-&gt; $372\n$LITE: $330 -&gt; $904\n$AAOI: $30 -&gt; $175\n\nAnd others like $NBIS, $RKLB, and $TSM!\n\nThis was back when I had close to no followers! \n\nI got some nuances slightly off before more https://t.co/1DKeY2x200 https://t.co/Xm8MsmzZYw",
+      "url": "https://x.com/aleabitoreddit/status/2065289672356745561",
+      "kind": "post",
+      "engagement": {
+        "views": 320874,
+        "likes": 1031,
+        "reposts": 47,
+        "replies": 275
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -2795,7 +2863,5 @@
       "close": 367.47
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-12T11:13:02.825087+00:00"
+  "price_status": "ok"
 }

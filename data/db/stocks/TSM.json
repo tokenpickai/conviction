@@ -9,8 +9,8 @@
   "industry": "Wafer Foundry",
   "thesis_summary": null,
   "first_mention": "2025-09-09",
-  "last_mention": "2026-06-06",
-  "total_mentions": 209,
+  "last_mention": "2026-06-12",
+  "total_mentions": 211,
   "mentions": [
     {
       "tweet_id": "1965290061714600032",
@@ -4707,6 +4707,48 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065289672356745561",
+      "date": "2026-06-12",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$TSM",
+      "text": "Just some reflection, my core high conviction ideas from 2025 aged super well!\n\nFrom \n$ALAB: $97-&gt; $372\n$LITE: $330 -&gt; $904\n$AAOI: $30 -&gt; $175\n\nAnd others like $NBIS, $RKLB, and $TSM!\n\nThis was back when I had close to no followers! \n\nI got some nuances slightly off before more https://t.co/1DKeY2x200 https://t.co/Xm8MsmzZYw",
+      "url": "https://x.com/aleabitoreddit/status/2065289672356745561",
+      "kind": "post",
+      "engagement": {
+        "views": 320874,
+        "likes": 1031,
+        "reposts": 47,
+        "replies": 275
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065351180314955924",
+      "date": "2026-06-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$TSM",
+      "text": "Bro I still can't believe Japan's WF6 supply chain got shut down from China export controls.\n\nWhich affects $TSM, Samsung, and SK Hynix. \n\nAre we really playing global supply chain warfare and game theory over AI supremacy? \n\nJapan probably has the most amount of obscure https://t.co/h9SyTppmzZ https://t.co/rtSzk3ZbfC",
+      "url": "https://x.com/aleabitoreddit/status/2065351180314955924",
+      "kind": "post",
+      "engagement": {
+        "views": 116115,
+        "likes": 348,
+        "reposts": 23,
+        "replies": 229
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -5475,7 +5517,5 @@
       "close": 421.07
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-12T11:12:35.652410+00:00"
+  "price_status": "ok"
 }
