@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-06-11T18:15:16.002628+00:00",
+    "generated_at": "2026-06-12T00:09:38.149344+00:00",
     "total_tickers": 948,
-    "total_mentions": 13569,
+    "total_mentions": 13572,
     "dates": "ET (US Eastern); matches render/pipeline.py",
     "note": "Data layer only — facts + raw mentions. All windowed/stance aggregation + rankings are computed by render at runtime. Prices pending."
   },
@@ -59,8 +59,8 @@
       "company": "Lumentum",
       "industry": "Optical Comms/CPO",
       "first_mention": "2025-10-25",
-      "last_mention": "2026-06-10",
-      "total_mentions": 484,
+      "last_mention": "2026-06-11",
+      "total_mentions": 485,
       "price_status": "ok"
     },
     {
@@ -157,8 +157,8 @@
       "company": "Marvell",
       "industry": "AI Semis/CPO",
       "first_mention": "2025-08-25",
-      "last_mention": "2026-06-08",
-      "total_mentions": 248,
+      "last_mention": "2026-06-11",
+      "total_mentions": 249,
       "price_status": "ok"
     },
     {
@@ -325,8 +325,8 @@
       "company": "SanDisk",
       "industry": "Memory",
       "first_mention": "2025-11-25",
-      "last_mention": "2026-06-10",
-      "total_mentions": 142,
+      "last_mention": "2026-06-11",
+      "total_mentions": 143,
       "price_status": "ok"
     },
     {

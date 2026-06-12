@@ -9,8 +9,8 @@
   "industry": "AI Semis/CPO",
   "thesis_summary": "当天主要在陈述供应链关系/背景,未明确表态。",
   "first_mention": "2025-08-25",
-  "last_mention": "2026-06-08",
-  "total_mentions": 248,
+  "last_mention": "2026-06-11",
+  "total_mentions": 249,
   "mentions": [
     {
       "tweet_id": "1960080191876702263",
@@ -5377,6 +5377,27 @@
         "likes": 219,
         "reposts": 3,
         "replies": 19
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065136761077158061",
+      "date": "2026-06-11",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MRVL",
+      "text": "Just in case you’re wondering why indexes + individual names like $SNDK to $MRVL to $LITE are green now.\n\nTrump just cancelled attacks on Iran.\n\nThis market is so volatile… https://t.co/mYzzYeU5rL",
+      "url": "https://x.com/aleabitoreddit/status/2065136761077158061",
+      "kind": "post",
+      "engagement": {
+        "views": 124980,
+        "likes": 867,
+        "reposts": 35,
+        "replies": 219
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

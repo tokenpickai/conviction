@@ -9,8 +9,8 @@
   "industry": "Memory",
   "thesis_summary": "他看好 SanDisk 的存储周期上行。",
   "first_mention": "2025-11-25",
-  "last_mention": "2026-06-10",
-  "total_mentions": 142,
+  "last_mention": "2026-06-11",
+  "total_mentions": 143,
   "mentions": [
     {
       "tweet_id": "1993283099162189962",
@@ -3141,6 +3141,27 @@
         "likes": 949,
         "reposts": 47,
         "replies": 436
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065136761077158061",
+      "date": "2026-06-11",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "Just in case you’re wondering why indexes + individual names like $SNDK to $MRVL to $LITE are green now.\n\nTrump just cancelled attacks on Iran.\n\nThis market is so volatile… https://t.co/mYzzYeU5rL",
+      "url": "https://x.com/aleabitoreddit/status/2065136761077158061",
+      "kind": "post",
+      "engagement": {
+        "views": 124980,
+        "likes": 867,
+        "reposts": 35,
+        "replies": 219
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

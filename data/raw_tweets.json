@@ -1,5 +1,62 @@
 [
   {
+    "tweet_id": "2065136761077158061",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2065136761077158061",
+    "created_at": "Thu Jun 11 18:19:06 +0000 2026",
+    "text": "Just in case you’re wondering why indexes + individual names like $SNDK to $MRVL to $LITE are green now.\n\nTrump just cancelled attacks on Iran.\n\nThis market is so volatile… https://t.co/mYzzYeU5rL",
+    "lang": "en",
+    "like_count": 867,
+    "retweet_count": 35,
+    "reply_count": 219,
+    "quote_count": 8,
+    "view_count": 124980,
+    "bookmark_count": 56,
+    "conversation_id": "2065136761077158061",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "start": 173,
+          "end": 196,
+          "url": "https://t.co/mYzzYeU5rL",
+          "expanded_url": "https://x.com/aleabitoreddit/status/2065136761077158061/photo/1",
+          "display_url": "pic.x.com/mYzzYeU5rL",
+          "media_key": "3_2065136753175072768"
+        }
+      ],
+      "cashtags": [
+        {
+          "start": 66,
+          "end": 71,
+          "tag": "SNDK"
+        },
+        {
+          "start": 75,
+          "end": 80,
+          "tag": "MRVL"
+        },
+        {
+          "start": 84,
+          "end": 89,
+          "tag": "LITE"
+        }
+      ]
+    },
+    "cashtags": [
+      "SNDK",
+      "MRVL",
+      "LITE"
+    ]
+  },
+  {
     "tweet_id": "2065130589204992048",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2065130589204992048",
