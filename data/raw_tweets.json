@@ -1,5 +1,151 @@
 [
   {
+    "tweet_id": "2065462946785030506",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2065462946785030506",
+    "created_at": "Fri Jun 12 15:55:15 +0000 2026",
+    "text": "$SPCX is now trading! \n\nAnd it’s now over $2.15T+ MC. https://t.co/HLQ8ZkbBvi",
+    "lang": "en",
+    "like_count": 1167,
+    "retweet_count": 45,
+    "reply_count": 240,
+    "quote_count": 14,
+    "view_count": 195615,
+    "bookmark_count": 23,
+    "conversation_id": "2065462946785030506",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "start": 54,
+          "end": 77,
+          "url": "https://t.co/HLQ8ZkbBvi",
+          "expanded_url": "https://x.com/aleabitoreddit/status/2065462946785030506/photo/1",
+          "display_url": "pic.x.com/HLQ8ZkbBvi",
+          "media_key": "3_2065462941135302656"
+        }
+      ],
+      "cashtags": [
+        {
+          "start": 0,
+          "end": 5,
+          "tag": "SPCX"
+        }
+      ]
+    },
+    "cashtags": [
+      "SPCX"
+    ]
+  },
+  {
+    "tweet_id": "2065450603623653587",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2065450603623653587",
+    "created_at": "Fri Jun 12 15:06:12 +0000 2026",
+    "text": "@uberlag Wow it’s cool to see $SIVE on CNBC now! I’m surprised it’s up there lol",
+    "lang": "en",
+    "like_count": 251,
+    "retweet_count": 12,
+    "reply_count": 8,
+    "quote_count": 0,
+    "view_count": 16820,
+    "bookmark_count": 6,
+    "conversation_id": "2065434058474307866",
+    "is_reply": true,
+    "in_reply_to_id": "2065450067427774560",
+    "in_reply_to_username": "uberlag",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "start": 30,
+          "end": 35,
+          "tag": "SIVE"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 0,
+          "end": 8,
+          "username": "uberlag",
+          "id": "1899180254742147072"
+        }
+      ]
+    },
+    "cashtags": [
+      "SIVE"
+    ]
+  },
+  {
+    "tweet_id": "2065434058474307866",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2065434058474307866",
+    "created_at": "Fri Jun 12 14:00:28 +0000 2026",
+    "text": "All the $SNDK short sellers went extinct.\n\nCan’t believe it’s almost $2000 now?\n\nThat aside feels like everyone is just waiting for the $SPCX IPO in a few hours. https://t.co/EahzuEy1KE https://t.co/eKKhtk8tmi",
+    "lang": "en",
+    "like_count": 969,
+    "retweet_count": 62,
+    "reply_count": 192,
+    "quote_count": 4,
+    "view_count": 417258,
+    "bookmark_count": 45,
+    "conversation_id": "2065434058474307866",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2016993953015615621",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "start": 162,
+          "end": 185,
+          "url": "https://t.co/EahzuEy1KE",
+          "expanded_url": "https://x.com/aleabitoreddit/status/2065434058474307866/photo/1",
+          "display_url": "pic.x.com/EahzuEy1KE",
+          "media_key": "3_2065434052052852736"
+        },
+        {
+          "start": 186,
+          "end": 209,
+          "url": "https://t.co/eKKhtk8tmi",
+          "expanded_url": "https://twitter.com/aleabitoreddit/status/2016993953015615621",
+          "display_url": "x.com/aleabitoreddit…"
+        }
+      ],
+      "cashtags": [
+        {
+          "start": 8,
+          "end": 13,
+          "tag": "SNDK"
+        },
+        {
+          "start": 136,
+          "end": 141,
+          "tag": "SPCX"
+        }
+      ]
+    },
+    "cashtags": [
+      "SNDK",
+      "SPCX"
+    ]
+  },
+  {
     "tweet_id": "2065355577191243893",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2065355577191243893",

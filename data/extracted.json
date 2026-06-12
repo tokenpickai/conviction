@@ -213175,5 +213175,71 @@
     "extractor_model": "claude-opus-4-6",
     "prompt_version": "extract-v2",
     "extracted_at": "2026-06-12T12:44:18.059900+00:00"
+  },
+  "2065462946785030506": {
+    "tweet_id": "2065462946785030506",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SPCX",
+        "symbol": "SPCX",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.6,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-12T20:57:23.730923+00:00"
+  },
+  "2065434058474307866": {
+    "tweet_id": "2065434058474307866",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SNDK",
+        "symbol": "SNDK",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SPCX",
+        "symbol": "SPCX",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.6,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-12T20:57:23.730923+00:00"
+  },
+  "2065450603623653587": {
+    "tweet_id": "2065450603623653587",
+    "has_investment_content": false,
+    "tickers": [
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.7,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-12T20:57:23.730923+00:00"
   }
 }

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-06-12T12:44:48.328947+00:00",
+    "generated_at": "2026-06-12T20:57:33.837558+00:00",
     "total_tickers": 949,
-    "total_mentions": 13593,
+    "total_mentions": 13597,
     "dates": "ET (US Eastern); matches render/pipeline.py",
     "note": "Data layer only — facts + raw mentions. All windowed/stance aggregation + rankings are computed by render at runtime. Prices pending."
   },
@@ -31,8 +31,8 @@
       "company": "Sivers Semiconductor",
       "industry": "AI Photonics/CPO Lasers",
       "first_mention": "2025-12-23",
-      "last_mention": "2026-06-11",
-      "total_mentions": 667,
+      "last_mention": "2026-06-12",
+      "total_mentions": 668,
       "price_status": "partial"
     },
     {
@@ -325,8 +325,8 @@
       "company": "SanDisk",
       "industry": "Memory",
       "first_mention": "2025-11-25",
-      "last_mention": "2026-06-11",
-      "total_mentions": 143,
+      "last_mention": "2026-06-12",
+      "total_mentions": 144,
       "price_status": "ok"
     },
     {
@@ -2766,6 +2766,20 @@
       "price_status": "ok"
     },
     {
+      "ticker": "SPCX",
+      "cashtag": "$SPCX",
+      "price_symbol": "SPCX",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": null,
+      "industry": null,
+      "first_mention": "2026-05-25",
+      "last_mention": "2026-06-12",
+      "total_mentions": 7,
+      "price_status": "pending"
+    },
+    {
       "ticker": "VIAV",
       "cashtag": "Viavi (VIAV)",
       "price_symbol": "VIAV",
@@ -3378,20 +3392,6 @@
       "industry": null,
       "first_mention": "2025-12-31",
       "last_mention": "2026-05-09",
-      "total_mentions": 5,
-      "price_status": "pending"
-    },
-    {
-      "ticker": "SPCX",
-      "cashtag": "$SPCX",
-      "price_symbol": "SPCX",
-      "exchange": "US",
-      "currency": "USD",
-      "ticker_mapped": false,
-      "company": null,
-      "industry": null,
-      "first_mention": "2026-05-25",
-      "last_mention": "2026-06-11",
       "total_mentions": 5,
       "price_status": "pending"
     },

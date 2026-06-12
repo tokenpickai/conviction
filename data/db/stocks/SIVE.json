@@ -9,8 +9,8 @@
   "industry": "AI Photonics/CPO Lasers",
   "thesis_summary": "他把 SIVE 当作硅光/CPO 的上游激光瓶颈,反复强调它是产业链核心受益者,通过 POET 供货给 Ayar、Celestial 等光引擎厂商。",
   "first_mention": "2025-12-23",
-  "last_mention": "2026-06-11",
-  "total_mentions": 667,
+  "last_mention": "2026-06-12",
+  "total_mentions": 668,
   "mentions": [
     {
       "tweet_id": "2003604861414408240",
@@ -16275,6 +16275,27 @@
         "likes": 2314,
         "reposts": 133,
         "replies": 328
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065450603623653587",
+      "date": "2026-06-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SIVE",
+      "text": "@uberlag Wow it’s cool to see $SIVE on CNBC now! I’m surprised it’s up there lol",
+      "url": "https://x.com/aleabitoreddit/status/2065450603623653587",
+      "kind": "reply",
+      "engagement": {
+        "views": 16820,
+        "likes": 251,
+        "reposts": 12,
+        "replies": 8
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
