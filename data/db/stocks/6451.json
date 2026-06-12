@@ -1418,5 +1418,7 @@
       "close": 666.0
     }
   ],
-  "price_status": "ok"
+  "price_status": "partial",
+  "price_unit": "TWD",
+  "price_updated_at": "2026-06-12T11:13:21.450607+00:00"
 }

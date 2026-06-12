@@ -884,5 +884,7 @@
       "close": 10.26
     }
   ],
-  "price_status": "ok"
+  "price_status": "partial",
+  "price_unit": "EUR",
+  "price_updated_at": "2026-06-12T11:13:52.452792+00:00"
 }
