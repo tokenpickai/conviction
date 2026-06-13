@@ -160,6 +160,13 @@
       "prompt_version": "extract-v2"
     }
   ],
-  "price_series": [],
-  "price_status": "pending"
+  "price_series": [
+    {
+      "date": "2026-06-12",
+      "close": 160.95
+    }
+  ],
+  "price_status": "ok",
+  "price_unit": "USD",
+  "price_updated_at": "2026-06-13T08:40:37.934687+00:00"
 }
