@@ -213241,5 +213241,123 @@
     "extractor_model": "claude-opus-4-6",
     "prompt_version": "extract-v2",
     "extracted_at": "2026-06-12T20:57:23.730923+00:00"
+  },
+  "2065779524248510758": {
+    "tweet_id": "2065779524248510758",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "long thesis posted at 4 SEK, now up ~1900%",
+          "US institutions from JPM to Fidelity recently entering positions",
+          "calls it his 2nd greatest thesis of all time"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$AXTI",
+        "symbol": "AXTI",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.97,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-13T15:21:17.682355+00:00"
+  },
+  "2065758024896037020": {
+    "tweet_id": "2065758024896037020",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.6,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-13T15:21:17.682355+00:00"
+  },
+  "2065759604013953507": {
+    "tweet_id": "2065759604013953507",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-13T15:21:17.682355+00:00"
+  },
+  "2065736884752703865": {
+    "tweet_id": "2065736884752703865",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Foosung (093370)",
+        "symbol": "093370",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "massive beneficiary of China export controls on Japan disrupting WF6 supply chain",
+          "25% of world's WF6 supply affected"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$TSM",
+        "symbol": "TSM",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.92,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-13T15:21:17.682355+00:00"
+  },
+  "2065739482398396908": {
+    "tweet_id": "2065739482398396908",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-13T15:21:17.682355+00:00"
+  },
+  "2065744524547346688": {
+    "tweet_id": "2065744524547346688",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.75,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-13T15:21:17.682355+00:00"
+  },
+  "2065650434644304165": {
+    "tweet_id": "2065650434644304165",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$AXTI",
+        "symbol": "AXTI",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.8,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-13T15:21:17.682355+00:00"
   }
 }

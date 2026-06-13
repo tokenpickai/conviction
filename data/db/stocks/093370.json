@@ -1,0 +1,42 @@
+{
+  "ticker": "093370",
+  "cashtag": "Foosung (093370)",
+  "price_symbol": "093370",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-13",
+  "last_mention": "2026-06-13",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2065736884752703865",
+      "date": "2026-06-13",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "massive beneficiary of China export controls on Japan disrupting WF6 supply chain",
+        "25% of world's WF6 supply affected"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Foosung (093370)",
+      "text": "Okay my fellow Koreans, it's been awhile. \n\nFoosung (093370, ~$1.2B MC) looks like a massive beneficiary soon. \n\nBasically China export controlled Japan, causing their WF₆ supply chain to go down.\n\nMeaning 25% of the world's supply required for SK Hynix, Samsung, $TSM go bye https://t.co/nxooHksF7D",
+      "url": "https://x.com/aleabitoreddit/status/2065736884752703865",
+      "kind": "post",
+      "engagement": {
+        "views": 224719,
+        "likes": 1114,
+        "reposts": 80,
+        "replies": 155
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

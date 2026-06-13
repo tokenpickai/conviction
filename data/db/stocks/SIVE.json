@@ -9,8 +9,8 @@
   "industry": "AI Photonics/CPO Lasers",
   "thesis_summary": "他把 SIVE 当作硅光/CPO 的上游激光瓶颈,反复强调它是产业链核心受益者,通过 POET 供货给 Ayar、Celestial 等光引擎厂商。",
   "first_mention": "2025-12-23",
-  "last_mention": "2026-06-12",
-  "total_mentions": 668,
+  "last_mention": "2026-06-13",
+  "total_mentions": 669,
   "mentions": [
     {
       "tweet_id": "2003604861414408240",
@@ -16299,6 +16299,31 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065779524248510758",
+      "date": "2026-06-13",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "long thesis posted at 4 SEK, now up ~1900%",
+        "US institutions from JPM to Fidelity recently entering positions",
+        "calls it his 2nd greatest thesis of all time"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "$SIVE",
+      "text": "It’s been officially 3 months since I posted my $SIVE long thesis back at 4 SEK.\n\nThis idea is now up ~1900%… \n\nWith many US institutions from JPM to Fidelity only recently entering positions.\n\nProbably my 2nd greatest thesis of all time after $AXTI.\n\nDid you listen anon? https://t.co/dSZ6AeTJYL https://t.co/7Rg7pujShY",
+      "url": "https://x.com/aleabitoreddit/status/2065779524248510758",
+      "kind": "post",
+      "engagement": {
+        "views": 84728,
+        "likes": 782,
+        "reposts": 31,
+        "replies": 203
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -16739,7 +16764,5 @@
       "close": 78.8
     }
   ],
-  "price_status": "partial",
-  "price_unit": "SEK",
-  "price_updated_at": "2026-06-13T08:37:23.318033+00:00"
+  "price_status": "partial"
 }
