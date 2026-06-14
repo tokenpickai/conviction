@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-06-14T08:58:00.520321+00:00",
+    "generated_at": "2026-06-14T15:30:16.437038+00:00",
     "total_tickers": 950,
-    "total_mentions": 13612,
+    "total_mentions": 13621,
     "dates": "ET (US Eastern); matches render/pipeline.py",
     "note": "Data layer only — facts + raw mentions. All windowed/stance aggregation + rankings are computed by render at runtime. Prices pending."
   },
@@ -31,8 +31,8 @@
       "company": "Sivers Semiconductor",
       "industry": "AI Photonics/CPO Lasers",
       "first_mention": "2025-12-23",
-      "last_mention": "2026-06-13",
-      "total_mentions": 672,
+      "last_mention": "2026-06-14",
+      "total_mentions": 673,
       "price_status": "partial"
     },
     {
@@ -45,8 +45,8 @@
       "company": "AXT Inc",
       "industry": "InP Substrates",
       "first_mention": "2025-12-22",
-      "last_mention": "2026-06-13",
-      "total_mentions": 516,
+      "last_mention": "2026-06-14",
+      "total_mentions": 517,
       "price_status": "ok"
     },
     {
@@ -59,8 +59,8 @@
       "company": "Lumentum",
       "industry": "Optical Comms/CPO",
       "first_mention": "2025-10-25",
-      "last_mention": "2026-06-12",
-      "total_mentions": 486,
+      "last_mention": "2026-06-14",
+      "total_mentions": 487,
       "price_status": "ok"
     },
     {
@@ -87,8 +87,8 @@
       "company": "IREN (Iris Energy)",
       "industry": "Bitcoin Miner→AI Datacenter (Neocloud)",
       "first_mention": "2025-08-31",
-      "last_mention": "2026-06-09",
-      "total_mentions": 432,
+      "last_mention": "2026-06-14",
+      "total_mentions": 433,
       "price_status": "ok"
     },
     {
@@ -101,8 +101,8 @@
       "company": "Applied Optoelectronics",
       "industry": "Optical Modules",
       "first_mention": "2025-12-11",
-      "last_mention": "2026-06-12",
-      "total_mentions": 417,
+      "last_mention": "2026-06-14",
+      "total_mentions": 418,
       "price_status": "ok"
     },
     {
@@ -395,8 +395,8 @@
       "company": "Jabil",
       "industry": "Optical Module Manufacturing",
       "first_mention": "2025-12-01",
-      "last_mention": "2026-06-09",
-      "total_mentions": 127,
+      "last_mention": "2026-06-14",
+      "total_mentions": 128,
       "price_status": "ok"
     },
     {
@@ -694,6 +694,20 @@
       "price_status": "partial"
     },
     {
+      "ticker": "GFS",
+      "cashtag": "$GFS",
+      "price_symbol": "GFS",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": "GlobalFoundries",
+      "industry": "Semiconductor Foundry",
+      "first_mention": "2026-01-19",
+      "last_mention": "2026-06-14",
+      "total_mentions": 51,
+      "price_status": "ok"
+    },
+    {
       "ticker": "LPTH",
       "cashtag": "$LPTH",
       "price_symbol": "LPTH",
@@ -705,20 +719,6 @@
       "first_mention": "2026-01-14",
       "last_mention": "2026-04-23",
       "total_mentions": 51,
-      "price_status": "ok"
-    },
-    {
-      "ticker": "GFS",
-      "cashtag": "$GFS",
-      "price_symbol": "GFS",
-      "exchange": "US",
-      "currency": "USD",
-      "ticker_mapped": false,
-      "company": "GlobalFoundries",
-      "industry": "Semiconductor Foundry",
-      "first_mention": "2026-01-19",
-      "last_mention": "2026-06-11",
-      "total_mentions": 50,
       "price_status": "ok"
     },
     {
@@ -2346,6 +2346,20 @@
       "price_status": "pending"
     },
     {
+      "ticker": "SPCX",
+      "cashtag": "$SPCX",
+      "price_symbol": "SPCX",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": null,
+      "industry": null,
+      "first_mention": "2026-05-25",
+      "last_mention": "2026-06-14",
+      "total_mentions": 9,
+      "price_status": "ok"
+    },
+    {
       "ticker": "USAR",
       "cashtag": "$USAR",
       "price_symbol": "USAR",
@@ -2524,20 +2538,6 @@
       "industry": null,
       "first_mention": "2026-01-22",
       "last_mention": "2026-04-23",
-      "total_mentions": 8,
-      "price_status": "ok"
-    },
-    {
-      "ticker": "SPCX",
-      "cashtag": "$SPCX",
-      "price_symbol": "SPCX",
-      "exchange": "US",
-      "currency": "USD",
-      "ticker_mapped": false,
-      "company": null,
-      "industry": null,
-      "first_mention": "2026-05-25",
-      "last_mention": "2026-06-13",
       "total_mentions": 8,
       "price_status": "ok"
     },
@@ -5132,6 +5132,20 @@
       "price_status": "pending"
     },
     {
+      "ticker": "SPCE",
+      "cashtag": "$SPCE",
+      "price_symbol": "SPCE",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": null,
+      "industry": null,
+      "first_mention": "2026-05-30",
+      "last_mention": "2026-06-14",
+      "total_mentions": 3,
+      "price_status": "ok"
+    },
+    {
       "ticker": "STM",
       "cashtag": "$STM",
       "price_symbol": "STM",
@@ -6766,20 +6780,6 @@
       "industry": null,
       "first_mention": "2026-03-30",
       "last_mention": "2026-04-20",
-      "total_mentions": 2,
-      "price_status": "ok"
-    },
-    {
-      "ticker": "SPCE",
-      "cashtag": "$SPCE",
-      "price_symbol": "SPCE",
-      "exchange": "US",
-      "currency": "USD",
-      "ticker_mapped": false,
-      "company": null,
-      "industry": null,
-      "first_mention": "2026-05-30",
-      "last_mention": "2026-05-30",
       "total_mentions": 2,
       "price_status": "ok"
     },

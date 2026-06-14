@@ -213512,5 +213512,105 @@
     "extractor_model": "claude-opus-4-6",
     "prompt_version": "extract-v2",
     "extracted_at": "2026-06-14T08:57:29.888720+00:00"
+  },
+  "2066180704661356593": {
+    "tweet_id": "2066180704661356593",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SPCE",
+        "symbol": "SPCE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SPCX",
+        "symbol": "SPCX",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "went up 1900% because markets priced in future revenue from JBL and GFS"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$JBL",
+        "symbol": "JBL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$GFS",
+        "symbol": "GFS",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AXTI",
+        "symbol": "AXTI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "InP substrate",
+          "game theory on ASP hikes",
+          "export controls",
+          "photonics demand"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$IREN",
+        "symbol": "IREN",
+        "stance": "bearish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "$6B ATM that needs to be bought through first"
+        ],
+        "is_risk": true,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AAOI",
+        "symbol": "AAOI",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.82,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-14T15:30:06.854448+00:00"
   }
 }
