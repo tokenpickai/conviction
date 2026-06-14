@@ -1,6 +1,7 @@
-import json, datetime, sys, glob, os
+import json, datetime, sys, glob, os, re
 from collections import defaultdict
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 SPLIT=1/3
 def _argval(flag,default=None):
@@ -32,7 +33,8 @@ for _f in glob.glob(os.path.join(DB,'stocks','*.json')):
         allm[s].append((dd,m.get('stance'),m.get('mention_type'),(m.get('reasons') or [None])[0],m.get('url') or ''))
         MENT[s].append({'date':m['date'],'stance':m.get('stance'),'mtype':m.get('mention_type'),
                         'reasons':m.get('reasons') or [],'is_risk':bool(m.get('is_risk')),
-                        'text':m.get('text') or '','url':m.get('url') or '','eng':m.get('engagement') or {}})
+                        'text':m.get('text') or '','url':m.get('url') or '','eng':m.get('engagement') or {},
+                        'text_may_be_truncated':m.get('text_may_be_truncated'),'media':m.get('media') or []})
 
 # as-of date: first positional CLI arg (YYYY-MM-DD), ignoring --flags and their values; else latest mention date
 _skip=set()
@@ -41,32 +43,53 @@ for _i,_x in enumerate(sys.argv):
 _pos=[a for _i,a in enumerate(sys.argv[1:],1) if not a.startswith('-') and _i not in _skip]
 DAY=datetime.date.fromisoformat(_pos[0]) if _pos else (_maxdate or datetime.date.today())
 
+def _update_stamp():
+    try:
+        mf=json.load(open(os.path.join(DB,'manifest.json'),encoding='utf-8'))
+        raw=mf.get('generated_at')
+        if raw:
+            dt=datetime.datetime.fromisoformat(raw.replace('Z','+00:00'))
+        else:
+            dt=datetime.datetime.now(datetime.timezone.utc)
+    except Exception:
+        dt=datetime.datetime.now(datetime.timezone.utc)
+    pt=dt.astimezone(ZoneInfo('America/Los_Angeles'))
+    return pt.strftime('%Y-%m-%d %I:%M %p PT').replace(' 0',' ')
+
+UPDATE_STAMP=_update_stamp()
+TCO_AT_END_RE=re.compile(r'https?://t\.co/[A-Za-z0-9_]+\s*$')
+
+def text_may_be_truncated(tx, stored_flag=None):
+    if stored_flag is not None:
+        return bool(stored_flag)
+    tx=(tx or '').strip()
+    return len(tx) >= 275 and bool(TCO_AT_END_RE.search(tx))
+
 # ---- i18n: en/zh built-in; other languages loaded from SCRIPT_DIR/lang/{code}.json; default en ----
 LANG=(_argval('--lang') or 'en').lower()
 STR={
  'en':{
-  'doc_title':"@aleabitoreddit — Stock Opinion Tracker",'brand':"Stock Opinion<br>Tracker",
+  'doc_title':"@aleabitoreddit — Serenity",'brand':"Serenity",
   'nav_day':"Daily",'nav_week':"Weekly",'nav_month':"Monthly",'nav_quarter':"Quarterly",
-  'side_foot':"Information aggregation<br>not investment advice",
   'disc_main':"Aggregation and tracking of public posts, summarized automatically by AI. It may contain errors or omissions and is not guaranteed accurate — always refer to the original posts and verify independently. This tracker does not constitute investment advice of any kind.",
   'disc_detail_top':"Stock detail · Aggregates the account's public posts only — not investment advice",
   'disc_chart':"Information aggregation only — not investment advice.",
   'q_methodology':"Methodology: bullish/bearish opinions the account expressed in posts (stances) — NOT actual holdings.",
   'stance_bull':"Bullish",'stance_bear':"Bearish",'stance_mixed':"Mixed",'stance_neutral':"Neutral",'stance_none':"No stance",
   'pfx_day':"today",'pfx_week':"this week",'pfx_month':"this month",'pfx_quarter':"this quarter",
-  'badge_bull':"▲ Bullish · {pfx}",'badge_bear':"▼ Bearish · {pfx}",'badge_neutral':"● Neutral · {pfx}",
-  'badge_mixed':"🔄 Mixed · {pfx}",'badge_none':"● No stance · {pfx}",
-  'surf_bear_n':"🔻 Bearish · {pfx} ({n})",'shift':"🔄 Stance shift: {a}→{b}",
+  'badge_bull':"<i class='fa-solid fa-caret-up'></i> Bullish · {pfx}",'badge_bear':"<i class='fa-solid fa-caret-down'></i> Bearish · {pfx}",'badge_neutral':"<i class='fa-solid fa-circle'></i> Neutral · {pfx}",
+  'badge_mixed':"<i class='fa-solid fa-rotate'></i> Mixed · {pfx}",'badge_none':"<i class='fa-regular fa-circle'></i> No stance · {pfx}",
+  'surf_bear_n':"<i class='fa-solid fa-caret-down'></i> Bearish · {pfx} ({n})",'shift':"<i class='fa-solid fa-rotate'></i> Stance shift: {a} <i class='fa-solid fa-arrow-right'></i> {b}",
   'gain_lbl':"Gain",'chg_daily_lbl':"vs prior close",'gain_pending':"n/a",'count_unit':"",
   'tally_lbl':"Stance · {pfx}",'tally_bgonly':"No stance · {pfx} (background only)",'bgonly_inline':"Background mention only",
   'u_bull':"bull",'u_bear':"bear",'u_neu':"neu",
   'foot_first':"First mention {date}",'foot_first_last':"First mention {d1} · Latest {d2}",
-  'updated':"🕐 Updated ET {date} · Your local: <span class='local-date'></span>",'detail_go':"Detail →",'detail':"Detail",
+  'updated':"<i class='fa-regular fa-clock'></i> Updated {date}",'detail_go':"Detail <i class='fa-solid fa-arrow-right'></i>",'detail':"Detail",
   'gain_tip':"From {fd} {px1} → to {ld} {px2}",
   'legend_stance_scroll':"| Stance = {pfx} stance; rolling window; counts are per-window",
-  'subhd_notable':"▼ Notable {pfx} (bearish / stance shift)",'subhd_new':"▼ New {pfx}",
-  'newc_line':"{n} first appeared {pfx} (tap for detail):",'subhd_rest':"▼ Other mentions",
-  'restc_line':"{n} more mentioned {pfx}, ongoing or background (tap for detail):",'chips_more':"+{n} more ↓",
+  'subhd_notable':"<i class='fa-solid fa-chevron-down'></i> Notable {pfx} (bearish / stance shift)",'subhd_new':"<i class='fa-solid fa-chevron-down'></i> New {pfx}",
+  'newc_line':"{n} first appeared {pfx} (tap for detail):",'subhd_rest':"<i class='fa-solid fa-chevron-down'></i> Other mentions",
+  'restc_line':"{n} more mentioned {pfx}, ongoing or background (tap for detail):",'chips_more':"+{n} more <i class='fa-solid fa-chevron-down'></i>",
   'head_day_mentions':"Mentions today",'freq_7d':"7d",'freq_28d':"28d",
   'subhd_day':"Most-discussed today (by mentions today)",
   'head_week_mentions':"Mentions this week",'freq_near7':"last 7d",'freq_near28':"last 28d",
@@ -74,17 +97,17 @@ STR={
   'sec_count':"{range} · {ntk} names · {nment} mentions",'period_none':"No bearish or stance-shift names this period.",
   'head_month_mentions':"Mentions (28d)",'month_count':"28d · {ntk} names · {nment} mentions",
   'sec_count':"{range} · {ntk} names · {nment} mentions",'period_none':"No bearish or stance-shift names this period.",
-  'subhd_month_top':"▼ Most-discussed this month (by 28d mentions) & stance mix",
-  'subhd_month_new':"▼ New names this month (first appearance & ≥5 mentions in 28d)",
+  'subhd_month_top':"<i class='fa-solid fa-chevron-down'></i> Most-discussed this month (by 28d mentions) & stance mix",
+  'subhd_month_new':"<i class='fa-solid fa-chevron-down'></i> New names this month (first appearance & >=5 mentions in 28d)",
   'trow_month_n':"{c} this month",
-  'legend_new':"🆕 New = first appeared this month",
-  'legend_resurg':"↑ Re-active = dormant name back this month (prior 28d ≤2, this month ≥5)",
-  'legend_bar':"Bar = 28d stance mix (<b class='gb'>▲bull</b> / <b class='gr'>▼bear</b> / ●neu)",'tag_new':"🆕 New",'tag_resurg':"↑ Re-active",
+  'legend_new':"<i class='fa-solid fa-star'></i> New = first appeared this month",
+  'legend_resurg':"<i class='fa-solid fa-arrow-trend-up'></i> Re-active = dormant name back this month (prior 28d ≤2, this month ≥5)",
+  'legend_bar':"Bar = 28d stance mix (<b class='gb'><i class='fa-solid fa-caret-up'></i> bull</b> / <b class='gr'><i class='fa-solid fa-caret-down'></i> bear</b> / <i class='fa-solid fa-circle'></i> neu)",'tag_new':"<i class='fa-solid fa-star'></i> New",'tag_resurg':"<i class='fa-solid fa-arrow-trend-up'></i> Re-active",
   'quarter_count':"90d · {n} names · {v} mentions",
-  'subhd_q_overview':"▼ Quarter direction (by # of names, not # of stances)",
+  'subhd_q_overview':"<i class='fa-solid fa-chevron-down'></i> Quarter direction (by # of names, not # of stances)",
   'q_net_bull':"Net-bullish names",'q_net_bear':"Net-bearish names",'q_balanced':"Balanced",'q_with_stance':"With stance",
   'q_summary':"By # of names: net-bullish <b class='gb'>{pbk}%</b> · net-bearish <b class='gr'>{prk}%</b> (of which {npure} bearish-only) | total stances — bull {TB} / bear {TR} / neutral {TN} (counts skew to a few high-frequency names, so direction is judged by # of names)",
-  'subhd_q_table':"▼ All-names table (quarter)",
+  'subhd_q_table':"<i class='fa-solid fa-chevron-down'></i> All-names table (quarter)",
   'q_table_hint':"| Tap Gain / Mentions / Bull / Bear / Neutral headers to sort; ≥3 mentions in 90d ({n} names); blank industry (—) = unclassified",
   'th_ticker':"Ticker",'th_industry':"Industry",'th_first':"First mention",'th_last':"Latest mention",
   'th_gain':"Gain",'th_mentions':"Mentions",'th_bull':"Bull",'th_bear':"Bear",'th_neu':"Neutral",
@@ -94,6 +117,7 @@ STR={
   'dd_reasons_bull':"Bull case",'dd_reasons_risk':"Risks mentioned",'dd_newest_first':"Newest first",
   'dd_no_bull':"(No explicit bull case)",'dd_no_risk':"(No risks mentioned)",'dd_no_detail':"No detail",
   'dd_all_posts':"All posts",'dd_posts_meta':"Reverse chronological · original language kept, tap to open",
+  'dd_show_more':"show more on X",
   'post_initial':"Initial view",
   'chart_leg_bull':"Mentioned while bullish",'chart_leg_bear':"Mentioned while bearish",
   'chart_leg_note':"Dot = mention day (same-day merged); Y = closing price (non-trading days use last available close)",
@@ -103,34 +127,33 @@ STR={
   'tag_background':"Background",'tag_comparison':"Analogy",'tag_quote':"Quote",'tag_mention':"Mention",
   'dd_ph_title':"No detail for {tk}",
   'dd_ph_body':"This name has only brief or background mentions — no expandable record yet.<br>Tap ← Back (top-right) to return.",
-  'dd_view_all':"View all posts ({n}) ↓",
+  'dd_view_all':"View all posts ({n}) <i class='fa-solid fa-chevron-down'></i>",
   'dd_disc_body':"This page aggregates the account's public posts — stance, self-stated reasons, posting frequency, and the price path since first mention.",
   'disc_top':"⚠️ Aggregation and tracking of {link}'s public posts, summarized automatically by AI. <b>It may contain errors or omissions and is not guaranteed accurate — refer to the original posts and verify independently.</b> This tracker does not constitute investment advice.",
   'disc_top_sub':"Stance labels (bull / bear / neutral) are AI-inferred from the original text and may be inaccurate · No stance = mentioned only, no view expressed",
  },
  'zh':{
-  'doc_title':"@aleabitoreddit 个股评论追踪",'brand':"个股评论<br>追踪",
+  'doc_title':"@aleabitoreddit — Serenity",'brand':"Serenity",
   'nav_day':"日报",'nav_week':"周报",'nav_month':"月报",'nav_quarter':"季报",
-  'side_foot':"仅供信息整理<br>不构成投资建议",
   'disc_main':"公开推文的整理与追踪,由 AI 自动归纳,可能存在错误或遗漏,不保证信息绝对准确,请以原推文为准并自行核实。本追踪不构成任何投资建议。",
   'disc_detail_top':"个股详情 · 仅整理博主的公开发言,不构成投资建议",
   'disc_chart':"仅供信息整理,不构成投资建议。",
   'q_methodology':"统计口径:博主在推文中表达的看多/看空观点(表态),非其实际持仓。",
   'stance_bull':"看多",'stance_bear':"看空",'stance_mixed':"多空并存",'stance_neutral':"中性",'stance_none':"未表态",
   'pfx_day':"今日",'pfx_week':"本周",'pfx_month':"近28日",'pfx_quarter':"近90日",
-  'badge_bull':"▲ {pfx}看多",'badge_bear':"▼ {pfx}看空",'badge_neutral':"● {pfx}中性",
-  'badge_mixed':"🔄 {pfx}多空并存",'badge_none':"● {pfx}未表态",
-  'surf_bear_n':"🔻 {pfx}看空({n}条)",'shift':"🔄 较上次表态:{a}→{b}",
+  'badge_bull':"<i class='fa-solid fa-caret-up'></i> {pfx}看多",'badge_bear':"<i class='fa-solid fa-caret-down'></i> {pfx}看空",'badge_neutral':"<i class='fa-solid fa-circle'></i> {pfx}中性",
+  'badge_mixed':"<i class='fa-solid fa-rotate'></i> {pfx}多空并存",'badge_none':"<i class='fa-regular fa-circle'></i> {pfx}未表态",
+  'surf_bear_n':"<i class='fa-solid fa-caret-down'></i> {pfx}看空({n}条)",'shift':"<i class='fa-solid fa-rotate'></i> 较上次表态:{a} <i class='fa-solid fa-arrow-right'></i> {b}",
   'gain_lbl':"涨幅",'chg_daily_lbl':"较上一交易日",'gain_pending':"暂未接入",'count_unit':"次",
   'tally_lbl':"{pfx}表态",'tally_bgonly':"{pfx}表态:无(仅背景提及)",'bgonly_inline':"仅作为背景提及，未表态",
   'u_bull':"多",'u_bear':"空",'u_neu':"中",
   'foot_first':"首提 {date}",'foot_first_last':"首提 {d1} · 最近 {d2}",
-  'updated':"🕐 数据更新 美东 {date} · 本地时间: <span class='local-date'></span>",'detail_go':"详情 →",'detail':"详情",
+  'updated':"<i class='fa-regular fa-clock'></i> 数据更新 {date}",'detail_go':"详情 <i class='fa-solid fa-arrow-right'></i>",'detail':"详情",
   'gain_tip':"起 {fd} {px1} → 止 {ld} {px2}",
   'legend_stance_scroll':"| 立场={pfx}表态,窗口滚动;次数为窗口计数",
-  'subhd_notable':"▼ {pfx}值得注意(看空 / 立场转变)",'subhd_new':"▼ {pfx}新出现的标的",
-  'newc_line':"{pfx}首次进入视野 {n} 只(可点进二级页):",'subhd_rest':"▼ 其余顺带提及",
-  'restc_line':"{pfx}还顺带提到 {n} 只,延续既有关注或背景提及(可点进二级页):",'chips_more':"展开剩余 {n} 只 ↓",
+  'subhd_notable':"<i class='fa-solid fa-chevron-down'></i> {pfx}值得注意(看空 / 立场转变)",'subhd_new':"<i class='fa-solid fa-chevron-down'></i> {pfx}新出现的标的",
+  'newc_line':"{pfx}首次进入视野 {n} 只(可点进二级页):",'subhd_rest':"<i class='fa-solid fa-chevron-down'></i> 其余顺带提及",
+  'restc_line':"{pfx}还顺带提到 {n} 只,延续既有关注或背景提及(可点进二级页):",'chips_more':"展开剩余 {n} 只 <i class='fa-solid fa-chevron-down'></i>",
   'head_day_mentions':"当天提及",'freq_7d':"7日内",'freq_28d':"28日内",
   'subhd_day':"当天重点讨论的标的(按当天提及量)",
   'head_week_mentions':"本周提及",'freq_near7':"近7日",'freq_near28':"近28日",
@@ -138,17 +161,17 @@ STR={
   'sec_count':"{range} {ntk} 只标的 · {nment} 次提及",'period_none':"本期无看空或立场转变的标的。",
   'head_month_mentions':"近28日提及",'month_count':"近28日 {ntk} 只标的 · {nment} 次提及",
   'sec_count':"{range} {ntk} 只标的 · {nment} 次提及",'period_none':"本期无看空或立场转变的标的。",
-  'subhd_month_top':"▼ 本月讨论最多的标的(按近28日提及量)与其立场分布",
-  'subhd_month_new':"▼ 本月新增标的(首次进入视野且近28日 ≥5 次)",
+  'subhd_month_top':"<i class='fa-solid fa-chevron-down'></i> 本月讨论最多的标的(按近28日提及量)与其立场分布",
+  'subhd_month_new':"<i class='fa-solid fa-chevron-down'></i> 本月新增标的(首次进入视野且近28日 >=5 次)",
   'trow_month_n':"本月 {c} 次",
-  'legend_new':"🆕 新增 = 本月首次进入视野",
-  'legend_resurg':"↑ 新活跃 = 老标的沉寂后本月重新放量(前28天 ≤2 次、本月 ≥5 次)",
-  'legend_bar':"条形 = 近28日表态分布(<b class='gb'>▲多</b> / <b class='gr'>▼空</b> / ●中)",'tag_new':"🆕 新增",'tag_resurg':"↑ 新活跃",
+  'legend_new':"<i class='fa-solid fa-star'></i> 新增 = 本月首次进入视野",
+  'legend_resurg':"<i class='fa-solid fa-arrow-trend-up'></i> 新活跃 = 老标的沉寂后本月重新放量(前28天 ≤2 次、本月 ≥5 次)",
+  'legend_bar':"条形 = 近28日表态分布(<b class='gb'><i class='fa-solid fa-caret-up'></i> 多</b> / <b class='gr'><i class='fa-solid fa-caret-down'></i> 空</b> / <i class='fa-solid fa-circle'></i> 中)",'tag_new':"<i class='fa-solid fa-star'></i> 新增",'tag_resurg':"<i class='fa-solid fa-arrow-trend-up'></i> 新活跃",
   'quarter_count':"近90日 {n} 只标的 · {v} 次提及",
-  'subhd_q_overview':"▼ 季度方向总览(按标的数,非表态次数)",
+  'subhd_q_overview':"<i class='fa-solid fa-chevron-down'></i> 季度方向总览(按标的数,非表态次数)",
   'q_net_bull':"净看多标的",'q_net_bear':"净看空标的",'q_balanced':"多空持平",'q_with_stance':"有表态",
   'q_summary':"按标的数:净看多 <b class='gb'>{pbk}%</b> · 净看空 <b class='gr'>{prk}%</b>(其中纯看空 {npure} 只)　| 累计表态次数 看多 {TB} / 看空 {TR} / 中性 {TN}(次数受少数高频标的影响,故方向以标的数为准)",
-  'subhd_q_table':"▼ 季度全标的表",
+  'subhd_q_table':"<i class='fa-solid fa-chevron-down'></i> 季度全标的表",
   'q_table_hint':"| 点 涨幅 / 提及次数 / 看多 / 看空 / 中性 列头可排序;近90日 ≥3 次提及({n} 只);行业空(—)=未分类",
   'th_ticker':"代码",'th_industry':"行业",'th_first':"首次提及",'th_last':"最近提及",
   'th_gain':"涨幅",'th_mentions':"提及次数",'th_bull':"看多",'th_bear':"看空",'th_neu':"中性",
@@ -158,6 +181,7 @@ STR={
   'dd_reasons_bull':"看好的理由",'dd_reasons_risk':"提到的风险",'dd_newest_first':"最新在前",
   'dd_no_bull':"(暂无明确看多理由)",'dd_no_risk':"暂未提及风险",'dd_no_detail':"暂无详情",
   'dd_all_posts':"全部发言",'dd_posts_meta':"按时间倒序 · 原文保留英文,点击跳原帖",
+  'dd_show_more':"在 X 查看更多",
   'post_initial':"初始观点",
   'chart_leg_bull':"看多时提及",'chart_leg_bear':"看空时提及",
   'chart_leg_note':"圆点=提及当天(同日合并); 纵轴=收盘价(非交易日使用最近交易日收盘价)",
@@ -167,7 +191,7 @@ STR={
   'tag_background':"背景",'tag_comparison':"比喻",'tag_quote':"引用",'tag_mention':"提及",
   'dd_ph_title':"暂无 {tk} 的详情",
   'dd_ph_body':"该标的仅少量或背景提及,尚未形成可展开的记录。<br>点击右上角「← 返回」回到看板。",
-  'dd_view_all':"查看全部帖子（共 {n} 条）↓",
+  'dd_view_all':"查看全部帖子（共 {n} 条）<i class='fa-solid fa-chevron-down'></i>",
   'dd_disc_body':"本页整理的是博主的公开发言——立场、自述理由、发帖频次,以及自首次提及以来的价格走势。",
   'disc_top':"⚠️ 本页为对博主 {link} 公开推文的整理与追踪,由 AI 自动归纳,<b>可能存在错误或遗漏,不保证信息绝对准确,请以原推文为准并自行核实</b>。本追踪不构成任何投资建议。",
   'disc_top_sub':"立场标签(看多 / 看空 / 中性)由 AI 对原文的语义分析推断，可能存在误判 · 未表态 = 仅提及、未表达态度",
@@ -302,7 +326,7 @@ def chg_tip(s):
     return t('gain_tip', fd=fd.isoformat(), px1=pxtxt(fp,s), ld=ld, px2=pxtxt(lp,s))
 def chg_info(s):
     tip=chg_tip(s)
-    return f' <span class="qinfo" data-tip="{tip}" onclick="event.stopPropagation()">!</span>' if tip else ''
+    return f' <span class="qinfo" data-tip="{tip}" onclick="event.stopPropagation()"><i class="fa-regular fa-circle-question"></i></span>' if tip else ''
 def dd_data():
     STXT={'bull':t('stance_bull'),'bear':t('stance_bear'),'shift':t('stance_mixed'),'neutral':t('stance_neutral'),'none':t('stance_none')}
     out={}
@@ -359,18 +383,17 @@ def dd_data():
             return res
         reasonsBull=collect(False,'bullish',6)
         reasonsRisk=collect(True,None,4)
-        # posts: ALL as-of DAY, newest-first; compact row shows a truncated preview + ↗ to 原帖
+        # posts: ALL as-of DAY, newest-first; preserve original tweet spacing for readability.
         TAG={'background':t('tag_background'),'comparison':t('tag_comparison'),'quote_or_other':t('tag_quote')}
-        def clip(tx):
-            tx=' '.join((tx or '').split())          # 合并换行/空白 → 单行预览
-            return tx if len(tx)<=300 else tx[:300].rstrip()+'…'
         posts=[]
         for m in reversed(ms):
             if m['mtype']=='explicit_stance':
                 tag={'bullish':t('stance_bull'),'bearish':t('stance_bear'),'neutral':t('stance_neutral')}.get(m['stance'],t('stance_neutral')); st=m['stance']
             else:
                 tag=TAG.get(m['mtype'],t('tag_mention')); st='meta'
-            posts.append({'d':m['date'],'tag':tag,'st':st,'text':clip(m['text']),'url':m['url']})
+            posts.append({'d':m['date'],'tag':tag,'st':st,'text':m['text'],'url':m['url'],
+                          'cut':text_may_be_truncated(m['text'],m.get('text_may_be_truncated')),
+                          'media':m.get('media') or []})
         if posts: posts[-1]['first']=True            # 最早一条 = 初始观点
         out[s]={'co':co_of(s),'industry':ind_of(s),'otc':(not okp),'stance':stance,'stanceTxt':STXT.get(stance,'—'),
                 'first':ymd(fdate),'last':ymd(last(s)),'total':total(s),'bull':eb,'bear':er,'neu':en,
@@ -460,8 +483,8 @@ def period_section(cfg):
     rowhtml='\n'.join(srow(s,c,tg) for s,c,tg in rows) or f'<div class="cbox">{t("period_none")}</div>'
     return f'''<section id="{sid}" class="period-sec">
 <div class="sec"><div class="sechd"><div class="st">{cfg['title']}</div><div class="datepill">{cfg['pill']}</div>
-<div class="sn"><span class="cnt">{t('sec_count',range=cfg['range'],ntk=ntk,nment=nment)}</span><span class="upd">{t('updated',date=DAY.strftime("%Y-%m-%d"))}</span></div></div>
-<div class="subhd">▼ {cfg['subhd']} <span style="color:var(--ink-soft);font-weight:400;font-size:12.5px">　{t('legend_stance_scroll',pfx=pfx)}</span></div></div>
+<div class="sn"><span class="cnt">{t('sec_count',range=cfg['range'],ntk=ntk,nment=nment)}</span><span class="upd">{t('updated',date=UPDATE_STAMP)}</span></div></div>
+<div class="subhd"><i class="fa-solid fa-chevron-down"></i> {cfg['subhd']} <span style="color:var(--ink-soft);font-weight:400;font-size:12.5px">　{t('legend_stance_scroll',pfx=pfx)}</span></div></div>
 <div class="wall">{''.join(bigcard(s, w0, w1, pfx, head_lbl, freq, cfg.get('chg')) for s in big)}</div>
 <div class="daypad">
 <div class="subhd" style="margin-top:20px">{t('subhd_notable',pfx=pfx)}</div>
@@ -500,8 +523,8 @@ def month_section():
     legparts.append(t('legend_bar'))
     LEG=f'<div class="leg">{"　·　".join(legparts)}</div>'
     return f'''<section id="month" class="period-sec">
-<div class="sec"><div class="sechd"><div class="st">{t('nav_month')}</div><div class="datepill">{M0.strftime("%Y-%m-%d")} ~ {DAY.strftime("%m-%d")} ET</div>
-<div class="sn"><span class="cnt">{t('month_count',ntk=ntk,nment=nment)}</span><span class="upd">{t('updated',date=DAY.strftime("%Y-%m-%d"))}</span></div></div>
+<div class="sec"><div class="sechd"><div class="st">{t('nav_month')}</div><div class="datepill">{M0.strftime("%Y-%m-%d")} ~ {DAY.strftime("%m-%d")}</div>
+<div class="sn"><span class="cnt">{t('month_count',ntk=ntk,nment=nment)}</span><span class="upd">{t('updated',date=UPDATE_STAMP)}</span></div></div>
 <div class="subhd">{t('subhd_month_top')}</div></div>
 <div class="daypad">
 <div class="toplist-wrap"><div class="toplist">{''.join(trow(i,s) for i,s in enumerate(top,1))}</div>{LEG}</div>
@@ -535,15 +558,15 @@ def quarter_section():
             f'<td class="q-chg">{mention_chg(s)}</td><td class="q-n men"><b>{c}</b></td>'
             f'<td class="q-n b">{eb}</td><td class="q-n r">{er}</td><td class="q-n n">{en}</td></tr>')
     thead=(f'<thead><tr><th>{t("th_ticker")}</th><th>{t("th_industry")}</th><th>{t("th_first")}</th><th>{t("th_last")}</th>'
-        f'<th class="sortable num" data-dir="" onclick="qsort(\'chg\',this)">{t("th_gain")} <span class="qinfo" data-tip="{t("gain_formula_tip")}" onclick="event.stopPropagation()">!</span><span class="sar"></span></th>'
+        f'<th class="sortable num" data-dir="" onclick="qsort(\'chg\',this)">{t("th_gain")} <span class="qinfo" data-tip="{t("gain_formula_tip")}" onclick="event.stopPropagation()"><i class="fa-regular fa-circle-question"></i></span><span class="sar"></span></th>'
         f'<th class="sortable num on" data-dir="desc" onclick="qsort(\'men\',this)">{t("th_mentions")}<span class="sar"></span></th>'
         f'<th class="sortable num" data-dir="" onclick="qsort(\'bull\',this)">{t("th_bull")}<span class="sar"></span></th>'
         f'<th class="sortable num" data-dir="" onclick="qsort(\'bear\',this)">{t("th_bear")}<span class="sar"></span></th>'
         f'<th class="sortable num" data-dir="" onclick="qsort(\'neu\',this)">{t("th_neu")}<span class="sar"></span></th></tr></thead>')
     table=f'<div class="stbl-wrap"><table class="stbl" id="qtbl">{thead}<tbody>{"".join(qrow(s) for s in rows)}</tbody></table></div>'
     return f'''<section id="quarter" class="period-sec">
-<div class="sec"><div class="sechd"><div class="st">{t('nav_quarter')}</div><div class="datepill">{Q0.strftime("%Y-%m-%d")} ~ {DAY.strftime("%m-%d")} ET</div>
-<div class="sn"><span class="cnt">{t('quarter_count',n=len(syms),v=all_v)}</span><span class="upd">{t('updated',date=DAY.strftime("%Y-%m-%d"))}</span></div></div>
+<div class="sec"><div class="sechd"><div class="st">{t('nav_quarter')}</div><div class="datepill">{Q0.strftime("%Y-%m-%d")} ~ {DAY.strftime("%m-%d")}</div>
+<div class="sn"><span class="cnt">{t('quarter_count',n=len(syms),v=all_v)}</span><span class="upd">{t('updated',date=UPDATE_STAMP)}</span></div></div>
 <div class="subhd">{t('subhd_q_overview')}</div></div>
 <div class="daypad">
 <div class="ovbox">
@@ -562,10 +585,10 @@ def quarter_section():
 W7=(DAY-datetime.timedelta(days=6),DAY)
 DAYCFG=dict(id='day',title=t('nav_day'),pfx=t('pfx_day'),win=(DAY,DAY),big=3,head=t('head_day_mentions'),
   freq=[(t('freq_7d'),'w7'),(t('freq_28d'),'w28')],chg='daily',chglbl=t('chg_daily_lbl'),
-  pill=str(DAY)+' ET',range=t('pfx_day'),subhd=t('subhd_day'))
+  pill=str(DAY),range=t('pfx_day'),subhd=t('subhd_day'))
 WKCFG=dict(id='week',title=t('nav_week'),pfx=t('pfx_week'),win=W7,big=10,head=t('head_week_mentions'),
   freq=[(t('freq_near28'),'w28')],chg='mention',chglbl=t('gain_lbl'),
-  pill=f'{W7[0].strftime("%Y-%m-%d")} ~ {DAY.strftime("%m-%d")} ET',range=t('freq_near7'),subhd=t('subhd_week'))
+  pill=f'{W7[0].strftime("%Y-%m-%d")} ~ {DAY.strftime("%m-%d")}',range=t('freq_near7'),subhd=t('subhd_week'))
 
 SHARED_CSS='''<style>
 .card.big{display:flex;flex-direction:column}
@@ -703,14 +726,14 @@ table.stbl{width:100%;border-collapse:collapse;font-size:12.5px}
 /* ===== 响应式自适应(C 包,保持原设计) ===== */
 @media(max-width:900px){
   .toplist,.qblock,.qoverview,.qbulls,.secsub,.cols2,.cols3,.empty{padding-left:20px;padding-right:20px}
-  .disclaimer-top,.qbigbar{margin-left:20px;margin-right:20px}
+  .qbigbar{margin-left:20px;margin-right:20px}
 }
 @media(max-width:600px){
   body{flex-direction:column}
-  .sidenav{position:static;width:auto;flex-direction:row;align-items:center;gap:2px;border-right:none;border-bottom:2px solid var(--ink);padding:8px 12px;overflow-x:auto}
+  .sidenav{position:static;width:auto;flex-direction:row;align-items:center;gap:2px;border-right:none;border-bottom:1px solid var(--line);padding:8px 12px;overflow-x:auto}
   .sidenav .brand{padding:0 10px 0 0;margin:0 6px 0 0;border-bottom:none;border-right:1px dashed var(--line);display:flex;align-items:center;gap:8px;flex:0 0 auto}
   .sidenav .glyph{margin-bottom:0;width:30px;height:30px;font-size:15px}
-  .sidenav .bt,.sidenav .bs,.sidenav .foot,.navlink .ni{display:none}
+  .sidenav .bt,.sidenav .bs,.navlink .ni{display:none}
   .navlink span:not(.ni){display:inline}
   .navlink{padding:7px 11px;border-left:none;border-bottom:2px solid transparent;font-size:14px;flex:0 0 auto}
   .navlink.on{border-left:none;border-bottom-color:var(--accent);background:transparent}
@@ -720,11 +743,10 @@ table.stbl{width:100%;border-collapse:collapse;font-size:12.5px}
   .sechd .st{white-space:nowrap}
   .sechd .sn{margin-left:0;align-items:flex-start}
   .wall,.wall.smallwall,.daypad,.toplist,.qblock,.qoverview,.qbulls,.secsub,.cols2,.cols3,.shifts,.empty{padding-left:14px;padding-right:14px}
-  .disclaimer-top,.qbigbar{margin-left:14px;margin-right:14px}
+  .qbigbar{margin-left:14px;margin-right:14px}
   .wall,.wall.smallwall,.mwall,.twocol,.cols2,.cols3{grid-template-columns:1fr}
   #qtbl{min-width:660px}
   #ddBody{padding:18px 14px 80px}
-  .ddbar{padding-left:14px;padding-right:14px}
   .ddmeta{text-align:left}
 }
 </style></head>'''
@@ -732,36 +754,32 @@ table.stbl{width:100%;border-collapse:collapse;font-size:12.5px}
 # ---- embedded base page <head> (CSS vars/fonts/layout base). render now writes the whole page itself. ----
 BASE_HEAD='''<!DOCTYPE html><html lang="zh"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>@aleabitoreddit 个股评论追踪</title>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Roboto+Mono:wght@400;500;600;700&family=Roboto+Serif:opsz,wght@8..144,500;8..144,600;8..144,700;8..144,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 
-:root{--paper:#f4f1ea;--card:#fbf9f4;--ink:#1c1a17;--ink-soft:#55514a;--ink-faint:#8a8479;--line:#dcd6c8;--line-strong:#c6bfae;--accent:#1f5c4d;--accent-soft:#e3ede8;--bull:#1f7a4d;--bull-bg:#e6f1e9;--bear:#a8392b;--bear-bg:#f4e3df;--neutral:#8a7a3f;--neutral-bg:#f0ebd9;--gold:#b8893a;--mono:'Roboto Mono',monospace;--sans:'Roboto',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--serif:'Roboto Serif',Georgia,serif;--shadow:0 1px 0 rgba(0,0,0,.04),0 10px 28px -18px rgba(28,26,23,.38);}
+:root{--paper:#f9f7f3;--card:#fbf9f4;--ink:#1c1a17;--ink-soft:#55514a;--ink-faint:#8a8479;--line:#dcd6c8;--line-strong:#c6bfae;--accent:#1f5c4d;--accent-soft:#e3ede8;--bull:#1f7a4d;--bull-bg:#e6f1e9;--bear:#a8392b;--bear-bg:#f4e3df;--neutral:#8a7a3f;--neutral-bg:#f0ebd9;--gold:#b8893a;--mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace;--sans:'Inter',ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--serif:'Inter',ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;--shadow:0 1px 0 rgba(0,0,0,.04),0 10px 28px -18px rgba(28,26,23,.38);}
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--paper);background-image:radial-gradient(rgba(28,26,23,.025) 1px,transparent 1px);background-size:4px 4px;font-family:var(--sans);color:var(--ink);display:flex}
-.sidenav{position:fixed;left:0;top:0;bottom:0;width:180px;background:var(--card);border-right:2px solid var(--ink);padding:26px 0;display:flex;flex-direction:column;z-index:10}
+body{background:var(--paper);font-family:var(--sans);font-feature-settings:"tnum","ss01","cv11","cv02";color:var(--ink);display:flex}
+.sidenav{position:fixed;left:0;top:0;bottom:0;width:180px;background:var(--card);border-right:1px solid var(--line);padding:26px 0;display:flex;flex-direction:column;z-index:10}
 .sidenav .brand{padding:0 22px 22px;border-bottom:1px dashed var(--line);margin-bottom:14px}
-.sidenav .glyph{width:38px;height:38px;border:2px solid var(--ink);border-radius:50%;display:grid;place-items:center;font-family:var(--serif);font-weight:700;font-size:18px;background:var(--accent);color:var(--paper);margin-bottom:10px}
+.sidenav .glyph{width:42px;height:42px;border:1px solid var(--line-strong);border-radius:50%;display:block;object-fit:cover;background:var(--card);margin-bottom:10px}
 .sidenav .bt{font-family:var(--serif);font-weight:700;font-size:15px;line-height:1.2}
 .sidenav .bs{font-family:var(--mono);font-size:9.5px;color:var(--ink-faint);margin-top:4px}
 .navlink{display:flex;align-items:center;gap:10px;padding:11px 22px;font-family:var(--serif);font-size:15px;color:var(--ink-soft);text-decoration:none;border-left:3px solid transparent;cursor:pointer}
 .navlink:hover{background:var(--paper)}
 .navlink.on{color:var(--accent);border-left-color:var(--accent);font-weight:700;background:var(--accent-soft)}
-.navlink .ni{font-family:var(--mono);font-size:10px;color:var(--ink-faint)}
-.sidenav .foot{margin-top:auto;padding:16px 22px 0;border-top:1px dashed var(--line);font-family:var(--mono);font-size:9px;color:var(--ink-faint);line-height:1.6}
+.navlink .ni{display:none;font-family:var(--mono);font-size:10px;color:var(--ink-faint)}
 .main{margin-left:180px;flex:1;min-width:0}
-.disclaimer-top{margin:20px 44px 24px;padding:14px 18px;background:var(--card);border:1px solid var(--line-strong);border-left:4px solid var(--gold);border-radius:8px}
-.disclaimer-top .dt-main{font-size:13px;line-height:1.65;color:var(--ink-soft)}
-.disclaimer-top .dt-main b{color:var(--ink)}
-.disclaimer-top .dt-main a,.sidenav .bs a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent)}
-.disclaimer-top .dt-sub{margin-top:8px;font-size:11.5px;color:var(--ink-faint)}
+.sidenav .bs a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent)}
 .stbl .q-dt .qpx{display:block;font-family:var(--mono);font-size:10px;color:var(--ink-faint);margin-top:2px;font-weight:400}
-.qinfo{display:inline-flex;align-items:center;justify-content:center;width:13px;height:13px;border:1px solid var(--ink-faint);border-radius:50%;font-size:9px;font-weight:700;font-style:normal;color:var(--ink-faint);cursor:help;position:relative;vertical-align:middle}
-.qinfo:hover{border-color:var(--accent);color:var(--accent)}
+.qinfo{display:inline-flex;align-items:center;justify-content:center;width:14px;height:14px;font-size:12px;font-weight:400;font-style:normal;color:var(--ink-faint);cursor:help;position:relative;vertical-align:middle}
+.qinfo:hover{color:var(--accent)}
 .qinfo:hover::after{content:attr(data-tip);position:absolute;top:160%;left:50%;transform:translateX(-50%);width:max-content;max-width:210px;white-space:normal;text-align:center;line-height:1.5;background:var(--ink);color:var(--paper);font-size:11px;font-weight:400;letter-spacing:normal;padding:7px 11px;border-radius:6px;z-index:60;box-shadow:0 4px 14px rgba(0,0,0,.2);pointer-events:none}
 .sec{padding:34px 44px 10px}
 .sechd{display:flex;align-items:baseline;gap:14px;border-bottom:2px solid var(--ink);padding-bottom:12px;margin-bottom:8px}
 .sechd .st{font-family:var(--serif);font-weight:900;font-size:30px}
-.sechd .datepill{font-family:var(--mono);font-weight:600;font-size:16px;color:var(--paper);background:var(--accent);padding:5px 14px;border-radius:6px;letter-spacing:.02em}
+.sechd .datepill{font-family:var(--mono);font-weight:500;font-size:13px;color:var(--ink-soft);background:transparent;padding:0;border-radius:0;letter-spacing:0}
 .sechd .sn{margin-left:auto;display:flex;flex-direction:column;align-items:flex-end;gap:4px}
 .sechd .sn .cnt{font-family:var(--mono);font-size:12px;color:var(--accent);background:var(--accent-soft);padding:4px 12px;border-radius:5px}
 .sechd .sn .upd{font-family:var(--mono);font-size:12px;color:var(--ink-soft);font-weight:500}
@@ -782,6 +800,7 @@ body{background:var(--paper);background-image:radial-gradient(rgba(28,26,23,.025
 .cid .co{font-family:var(--serif);font-size:13.5px;color:var(--ink-soft);margin-top:5px;font-weight:500}
 .cid .ind{font-family:var(--mono);font-size:10px;color:var(--ink-faint);margin-top:2px}
 .badge{font-family:var(--serif);font-weight:700;font-size:13.5px;padding:6px 12px;border-radius:5px;white-space:nowrap}
+.badge i,.stag i,.mtag i,.leg i,.ddsplit i{font-size:.9em;margin-right:4px}
 .badge.bull{background:var(--bull-bg);color:var(--bull)}.badge.bear{background:var(--bear-bg);color:var(--bear)}.badge.neutral{background:var(--neutral-bg);color:var(--neutral)}
 .badge.mini{font-size:10.5px;padding:3px 8px}
 .countline{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;padding-top:17px}
@@ -812,7 +831,7 @@ body{background:var(--paper);background-image:radial-gradient(rgba(28,26,23,.025
 .sco{font-family:var(--serif);font-size:11.5px;color:var(--ink-faint);margin-bottom:7px}
 .snums{font-family:var(--mono);font-size:10.5px;color:var(--ink-soft)}
 @media(max-width:1280px){.wall{grid-template-columns:repeat(2,minmax(0,1fr))}.wall.smallwall{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media(max-width:900px){.sidenav{width:54px}.sidenav .bt,.sidenav .bs,.navlink span:not(.ni),.sidenav .foot{display:none}.main{margin-left:54px}.wall,.wall.smallwall{grid-template-columns:1fr;padding:0 20px}.sec{padding:24px 20px 10px}}
+@media(max-width:900px){.sidenav{width:54px}.sidenav .brand{padding-left:8px;padding-right:8px}.sidenav .glyph{width:34px;height:34px}.sidenav .bt,.sidenav .bs,.navlink span:not(.ni){display:none}.navlink .ni{display:inline}.main{margin-left:54px}.wall,.wall.smallwall{grid-template-columns:1fr;padding:0 20px}.sec{padding:24px 20px 10px}}
 
 /* 排行榜行 */
 .toplist{max-width:760px;padding:0 44px}
@@ -884,9 +903,6 @@ html{scroll-behavior:smooth}
 
 /* ===== 二级页:个股详情 ===== */
 #ddPage{display:none;position:fixed;inset:0;z-index:200;background:var(--paper);overflow-y:auto}
-.ddbar{position:sticky;top:0;background:var(--paper);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:14px;padding:11px 28px;z-index:5}
-.ddback{font-family:var(--mono);font-size:13px;background:var(--ink);color:#fff;border:none;border-radius:6px;padding:7px 15px;cursor:pointer}
-.ddbart{font-size:12px;color:var(--ink-soft)}
 #ddBody{max-width:1360px;margin:0 auto;padding:24px 40px 90px}
 .ddhead{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:16px;margin-bottom:6px}
 .ddtk{font-family:var(--mono);font-weight:800;font-size:30px;color:var(--ink);line-height:1}
@@ -936,26 +952,32 @@ html{scroll-behavior:smooth}
 .postcount{background:var(--ink);color:var(--paper);font-family:var(--mono);font-size:12.5px;font-weight:600;padding:5px 15px;border-radius:18px}
 .postsnote{margin-left:auto;font-size:11.5px;color:var(--ink-faint)}
 .plist{border-top:1px solid var(--line)}
-.prow{display:flex;align-items:flex-start;gap:14px;padding:13px 6px;border-bottom:1px solid var(--line);text-decoration:none}
+.prow{display:grid;grid-template-columns:90px 92px 82px minmax(0,1fr);align-items:flex-start;gap:14px;padding:13px 6px;border-bottom:1px solid var(--line);text-decoration:none}
 .prow:hover{background:var(--card)}
-.prd{font-family:var(--mono);font-size:11.5px;color:var(--ink-faint);flex:none;width:90px;padding-top:2px}
-.prtag{flex:none;font-size:10.5px;font-weight:600;padding:2px 9px;border-radius:9px}
+.prd{font-family:var(--mono);font-size:11.5px;color:var(--ink-faint);padding-top:2px}
+.prtag{font-size:10.5px;font-weight:600;padding:2px 9px;border-radius:9px;text-align:center;box-sizing:border-box;width:100%}
 .prtag.bullish{background:var(--bull-bg);color:var(--bull)}.prtag.bearish{background:var(--bear-bg);color:var(--bear)}.prtag.neutral,.prtag.meta{background:var(--paper);color:var(--ink-soft);border:1px solid var(--line)}
 .prtag.first{background:#efe7d4;color:#8a6a1f}
-.prtx{flex:1;font-size:13.5px;line-height:1.55;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.prtag.ghost{visibility:hidden}
+.prtx{flex:1;font-size:13.5px;line-height:1.6;color:var(--ink);white-space:pre-wrap;word-break:break-word}
 .prlk{color:var(--accent);font-family:var(--mono)}
+.cashtag{color:#1d9bf0;font-weight:600}
+.prmore{display:inline-block;margin-left:4px;color:var(--accent);font-family:var(--mono);font-size:12px;font-weight:600}
+.pmedia{display:grid;grid-template-columns:repeat(2,minmax(0,180px));gap:8px;margin-top:10px;max-width:380px}
+.pmedia img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:8px;border:1px solid var(--line);background:var(--paper)}
+.pmedia.one{grid-template-columns:minmax(0,260px);max-width:260px}.pmedia.one img{aspect-ratio:16/10}
+@media(max-width:760px){.prow{grid-template-columns:82px 92px minmax(0,1fr);gap:7px 10px}.prtag.first{grid-column:3}.prtx{grid-column:1/-1}}
 
 </style>'''
 
 def build():
     head=BASE_HEAD+SHARED_CSS   # 基础头已内嵌,render 完全自给,无需任何外部 html
     head=head.replace('@aleabitoreddit 个股评论追踪',t('doc_title'))
-    nav=f'''<nav class="sidenav"><div class="brand"><div class="glyph">S</div><div class="bt">{t('brand')}</div><div class="bs"><a href="https://x.com/aleabitoreddit" target="_blank" rel="noopener">@aleabitoreddit</a></div></div>
+    nav=f'''<nav class="sidenav"><div class="brand"><img class="glyph" src="assets/serenity-avatar.jpg" alt="Serenity avatar"><div class="bt">{t('brand')}</div><div class="bs"><a href="https://x.com/aleabitoreddit" target="_blank" rel="noopener">@aleabitoreddit</a></div></div>
 <a class="navlink on" data-t="day"><span>{t('nav_day')}</span><span class="ni">DAY</span></a>
 <a class="navlink" data-t="week"><span>{t('nav_week')}</span><span class="ni">WK</span></a>
 <a class="navlink" data-t="month"><span>{t('nav_month')}</span><span class="ni">MO</span></a>
-<a class="navlink" data-t="quarter"><span>{t('nav_quarter')}</span><span class="ni">Q</span></a>
-<div class="foot">{t('side_foot')}</div></nav>'''
+<a class="navlink" data-t="quarter"><span>{t('nav_quarter')}</span><span class="ni">QTR</span></a></nav>'''
     secs=period_section(DAYCFG)+period_section(WKCFG)
     secs+=month_section()
     secs+=quarter_section()
@@ -964,7 +986,7 @@ def build():
       'dd_ph_title','dd_ph_body','post_initial','dd_view_all',
       'dd_first_mention','dd_last_mention','dd_total','dd_first_px','dd_today','freq_7d','freq_28d',
       'dd_reasons_bull','dd_reasons_risk','dd_newest_first','dd_no_bull','dd_no_risk',
-      'dd_all_posts','dd_posts_meta','dd_disc_body','chart_no_cover','disc_chart','count_unit']
+      'dd_all_posts','dd_posts_meta','dd_show_more','count_unit']
     i18n_js='<script>var I18N='+json.dumps({k:t(k) for k in JS_KEYS},ensure_ascii=False)+';function I(k,o){var s=I18N[k]||k;if(o)for(var p in o)s=s.split("{"+p+"}").join(o[p]);return s;}</script>'
     script='''<script>
 const links=[...document.querySelectorAll('.navlink')];
@@ -972,7 +994,10 @@ links.forEach(l=>l.addEventListener('click',e=>{e.preventDefault();const t=docum
 const secs=links.map(l=>document.getElementById(l.dataset.t));
 const obs=new IntersectionObserver(es=>{es.forEach(en=>{if(en.isIntersecting){links.forEach(l=>l.classList.toggle('on',l.dataset.t===en.target.id));}});},{rootMargin:'-30% 0px -60% 0px'});
 secs.forEach(x=>x&&obs.observe(x));
-function esc(t){return t==null?'':(''+t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function decodeEntities(t){var el=document.createElement('textarea');el.innerHTML=t==null?'':String(t);return el.value;}
+function esc(t){return decodeEntities(t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function fmtPostText(t){return esc(t).replace(/(^|[^A-Za-z0-9_$])([$][A-Za-z0-9][A-Za-z0-9]{0,14})(?=$|[^A-Za-z0-9])/g,'$1<span class="cashtag">$2</span>');}
+function mediaHtml(items){items=(items||[]).filter(function(m){return m&&m.type==='photo'&&m.url;});if(!items.length)return '';var cls='pmedia '+(items.length===1?'one':'');return '<div class="'+cls+'">'+items.slice(0,4).map(function(m){return '<img loading="lazy" src="'+esc(m.url)+'" alt="'+esc(m.alt_text||'Post image')+'">';}).join('')+'</div>';}
 function fmtN(n){if(n==null)return '';n=+n;if(n>=1e6)return (n/1e6).toFixed(1)+'M';if(n>=1000)return (n/1000).toFixed(1)+'k';return ''+n;}
 var ddOpenTicker=null;
 function hashTicker(){
@@ -1013,9 +1038,9 @@ function renderDD(tk){
   var d=window.DD_DATA&&DD_DATA[tk];
   if(!d){document.getElementById('ddBody').innerHTML='<div class="ddph"><div style="font-size:18px;color:var(--ink);margin-bottom:10px">'+I('dd_ph_title',{tk:tk})+'</div><div style="font-size:13px;line-height:1.7">'+I18N.dd_ph_body+'</div></div>';ddOpenTicker=tk;openDD();return;}
   var pill=d.stance==='bull'?'<span class="ddpill bull">'+I18N.stance_bull+'</span>':d.stance==='bear'?'<span class="ddpill bear">'+I18N.stance_bear+'</span>':d.stance==='shift'?'<span class="ddpill cw">'+I18N.stance_mixed+'</span>':d.stance==='none'?'<span class="ddpill neutral">'+I18N.stance_none+'</span>':'<span class="ddpill neutral">'+I18N.stance_neutral+'</span>';
-  var split='<span class="tup">▲</span>'+d.bull+' '+I18N.stance_bull+' · <span class="tdn">▼</span>'+d.bear+' '+I18N.stance_bear+' · <span class="tnt">●</span>'+d.neu+' '+I18N.stance_neutral;
-  function mkR(a,empty,cls){if(!a||!a.length)return '<li class="empty">'+empty+'</li>';return a.map(function(r){return '<li><span class="rdot '+cls+'"></span><span class="rt">'+esc(r[0])+'</span><a class="rsrc" href="'+r[1]+'" target="_blank" rel="noopener">'+r[2]+' ↗</a></li>';}).join('');}
-  function postRow(t){var fb=t.first?'<span class="prtag first">'+I18N.post_initial+'</span>':'';return '<a class="prow" href="'+t.url+'" target="_blank" rel="noopener"><span class="prd">'+t.d+'</span><span class="prtag '+t.st+'">'+t.tag+'</span>'+fb+'<span class="prtx">'+esc(t.text)+' <span class="prlk">↗</span></span></a>';}
+  var split='<span class="tup"><i class="fa-solid fa-caret-up"></i></span>'+d.bull+' '+I18N.stance_bull+' · <span class="tdn"><i class="fa-solid fa-caret-down"></i></span>'+d.bear+' '+I18N.stance_bear+' · <span class="tnt"><i class="fa-solid fa-circle"></i></span>'+d.neu+' '+I18N.stance_neutral;
+  function mkR(a,empty,cls){if(!a||!a.length)return '<li class="empty">'+empty+'</li>';return a.map(function(r){return '<li><span class="rdot '+cls+'"></span><span class="rt">'+esc(r[0])+'</span><a class="rsrc" href="'+r[1]+'" target="_blank" rel="noopener">'+r[2]+' <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>';}).join('');}
+  function postRow(t){var fb=t.first?'<span class="prtag first">'+I18N.post_initial+'</span>':'<span class="prtag first ghost">'+I18N.post_initial+'</span>';var more=t.cut?' <span class="prmore">... '+I18N.dd_show_more+'</span>':'';return '<a class="prow" href="'+t.url+'" target="_blank" rel="noopener"><span class="prd">'+t.d+'</span><span class="prtag '+t.st+'">'+t.tag+'</span>'+fb+'<div class="prtx">'+fmtPostText(t.text)+more+' <span class="prlk"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>'+mediaHtml(t.media)+'</div></a>';}
   var firstPxTxt=d.firstPx?((d.cur?d.cur+' ':'')+d.firstPx):'—';
   var _ps=d.posts,_head=_ps.slice(0,20),_rest=_ps.slice(20);
   var plistHtml='<div class="plist">'+_head.map(postRow).join('')+(_rest.length?'<div id="ddRest" style="display:none">'+_rest.map(postRow).join('')+'</div>':'')+'</div>'+(_rest.length?'<div class="ddmore" onclick="ddMore(this)">'+I('dd_view_all',{n:_ps.length})+'</div>':'');
@@ -1026,7 +1051,7 @@ function renderDD(tk){
     '<div class="rcols"><div class="rpanel bull"><div class="rph"><span class="rpdot bull"></span>'+I18N.dd_reasons_bull+'<span class="rpn">'+I18N.dd_newest_first+'</span></div><ul class="rlist">'+mkR(d.reasonsBull,I18N.dd_no_bull,'bull')+'</ul></div><div class="rpanel bear"><div class="rph"><span class="rpdot bear"></span>'+I18N.dd_reasons_risk+'<span class="rpn">'+I18N.dd_newest_first+'</span></div><ul class="rlist">'+mkR(d.reasonsRisk,I18N.dd_no_risk,'bear')+'</ul></div></div>'+
     '<div class="postsbar"><span class="postcount">'+I18N.dd_all_posts+' '+d.total+'</span><span class="postsnote">'+I18N.dd_posts_meta+'</span></div>'+
     plistHtml+
-    '<div class="dddisc">'+I18N.dd_disc_body+(d.otc?I18N.chart_no_cover:'')+' '+I18N.disc_chart+'</div>';
+    '';
   ddOpenTicker=tk;openDD();
 }
 function dd(tk){if(hashTicker()!==tk)history.pushState({ticker:tk},'',tickerHash(tk));renderDD(tk);}
@@ -1034,15 +1059,11 @@ function syncTickerRoute(){var tk=hashTicker();if(tk)renderDD(tk);else if(ddOpen
 window.addEventListener('hashchange',syncTickerRoute);
 window.addEventListener('popstate',syncTickerRoute);
 function qsort(k,th){var tb=document.getElementById('qtbl').tBodies[0];var rows=[].slice.call(tb.rows);var dir=th.getAttribute('data-dir')==='desc'?'asc':'desc';var hs=document.querySelectorAll('#qtbl th.sortable');for(var i=0;i<hs.length;i++){hs[i].setAttribute('data-dir','');hs[i].classList.remove('on');}th.setAttribute('data-dir',dir);th.classList.add('on');var asc=dir==='asc';rows.sort(function(a,b){var x=parseFloat(a.getAttribute('data-'+k)),y=parseFloat(b.getAttribute('data-'+k));var xn=isNaN(x),yn=isNaN(y);if(xn&&yn)return 0;if(xn)return 1;if(yn)return -1;return asc?x-y:y-x;});for(var j=0;j<rows.length;j++)tb.appendChild(rows[j]);}
-(function(){var d=new Date();var ld=d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');var els=document.querySelectorAll('.local-date');for(var i=0;i<els.length;i++)els[i].textContent=ld;})();
 syncTickerRoute();
 </script>'''
-    overlay=f'<div id="ddPage"><div class="ddbar"><button class="ddback" onclick="closeDD()">{t("dd_back")}</button><span class="ddbart">{t("disc_detail_top")}</span></div><div id="ddBody"></div></div>'
+    overlay='<div id="ddPage"><div id="ddBody"></div></div>'
     dddata='<script>var DD_DATA='+json.dumps(dd_data(),ensure_ascii=False)+';</script>'
-    _lnk='<a href="https://x.com/aleabitoreddit" target="_blank" rel="noopener">@aleabitoreddit</a>'
-    disclaimer=(f'<div class="disclaimer-top"><div class="dt-main">{t("disc_top",link=_lnk)}</div>'
-      f'<div class="dt-sub">{t("disc_top_sub")}</div></div>')
-    body=f'<body>\n{nav}\n<div class="main">\n{disclaimer}\n{secs}\n</div>\n{overlay}\n{i18n_js}\n{dddata}\n{script}\n</body></html>'
+    body=f'<body>\n{nav}\n<div class="main">\n{secs}\n</div>\n{overlay}\n{i18n_js}\n{dddata}\n{script}\n</body></html>'
     out_name=f'serenity-tracker-{DAY.isoformat()}{"" if LANG=="en" else "-"+LANG}.html'
     open(out_name,'w',encoding='utf-8').write(head+body)
     print('built '+os.path.abspath(out_name))

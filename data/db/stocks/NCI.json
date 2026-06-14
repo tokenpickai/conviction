@@ -25,6 +25,9 @@
       "conviction": "medium",
       "raw_mention": "NCI",
       "text": "@EVOLBullStocks I actually like NCI a lot and hope Japanese chemical players get more attention. \n\nIt's just a very boring type of industry (but great compounders) and investors seem to prefer the $SNDK hypergrowth stories right now.",
+      "text_source": null,
+      "text_may_be_truncated": null,
+      "media": [],
       "url": "https://x.com/aleabitoreddit/status/2053949746239435197",
       "kind": "reply",
       "engagement": {
@@ -46,6 +49,9 @@
       "conviction": null,
       "raw_mention": "Rasa/NCI",
       "text": "@JuicedWealth I was thinking about export controls on Rasa/NCI but that would cause a lot of downstream collateral damage on $IQE, $LITE, etc. if you halted China's InP substrate production in general.\n\nBut halting China's humanoid production with Ulvac and other chokepoints doesn't really do as much collateral harm.",
+      "text_source": null,
+      "text_may_be_truncated": null,
+      "media": [],
       "url": "https://x.com/aleabitoreddit/status/2056943109448307141",
       "kind": "reply",
       "engagement": {
@@ -66,14 +72,17 @@
       "is_risk": false,
       "conviction": null,
       "raw_mention": "NCI",
-      "text": "@Moon1ightSt Japan can just stop NCI/Rasa from shipping red phosphorous over to China and cripple the photonics supply chain... \n\nOr certain furnaces/machines from Ulvac and cripple the robotics buildout...\n\nThat's why I say it's a slippery slope. There's so many different chokepoints each",
+      "text": "Japan can just stop NCI/Rasa from shipping red phosphorous over to China and cripple the photonics supply chain... \n\nOr certain furnaces/machines from Ulvac and cripple the robotics buildout...\n\nThat's why I say it's a slippery slope. There's so many different chokepoints each country holds.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
       "url": "https://x.com/aleabitoreddit/status/2065355321338630384",
       "kind": "reply",
       "engagement": {
-        "views": 10970,
-        "likes": 73,
+        "views": 22722,
+        "likes": 110,
         "reposts": 2,
-        "replies": 12
+        "replies": 17
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

@@ -12,6 +12,7 @@ on:
       - main
     paths:
       - "data/**"
+      - "assets/**"
       - "scripts/serenity_render.py"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
@@ -49,6 +50,8 @@ jobs:
           latest="$(ls -t serenity-tracker-*.html | head -n 1)"
           cp "$latest" public/index.html
           cp "$latest" "public/$latest"
+          cp -R assets public/assets
+          echo "serenity.xconviction.com" > public/CNAME
 
       - uses: actions/configure-pages@v5
 

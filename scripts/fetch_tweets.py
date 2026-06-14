@@ -35,7 +35,7 @@ import json
 import os
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -54,12 +54,15 @@ MAX_PAGES_SAFETY = 200            # 200 * 100 = 20k tweets hard cap
 MAX_RESULTS_PER_PAGE = 100        # X API v2 maximum
 
 # tweet.fields to request
-TWEET_FIELDS = ",".join([
+TWEET_FIELDS_BASE = [
     "text", "created_at", "conversation_id", "in_reply_to_user_id",
-    "public_metrics", "entities", "lang", "referenced_tweets",
-])
-EXPANSIONS = "referenced_tweets.id,in_reply_to_user_id"
+    "public_metrics", "entities", "lang", "referenced_tweets", "attachments",
+]
+TWEET_FIELDS = ",".join(TWEET_FIELDS_BASE + ["note_tweet"])
+TWEET_FIELDS_FALLBACK = ",".join(TWEET_FIELDS_BASE)
+EXPANSIONS = "referenced_tweets.id,in_reply_to_user_id,attachments.media_keys"
 USER_FIELDS = "username"
+MEDIA_FIELDS = "media_key,type,url,preview_image_url,width,height,alt_text"
 
 
 # ----------------------------------------------------------------------------- helpers
@@ -134,6 +137,16 @@ def _build_user_map(includes: dict) -> dict:
     return m
 
 
+def _build_media_map(includes: dict) -> dict:
+    """Build {media_key: media object} from includes.media."""
+    out = {}
+    for m in (includes.get("media") or []):
+        key = m.get("media_key")
+        if key:
+            out[key] = m
+    return out
+
+
 def _extract_cashtags(entities: dict) -> list:
     """Extract cashtag symbols from X API v2 entities."""
     out = []
@@ -144,6 +157,61 @@ def _extract_cashtags(entities: dict) -> list:
     return out
 
 
+def _looks_truncated_text(text: str, entities: dict) -> bool:
+    """Heuristic for old/short-form API text that likely points at a longer X post.
+
+    A trailing t.co URL is not enough by itself: it can be a quote tweet, image,
+    card, or external link. It becomes suspicious when the text is near the old
+    short-form boundary and ends with a t.co URL.
+    """
+    text = (text or "").strip()
+    urls = (entities or {}).get("urls") or []
+    if len(text) < 275 or not urls:
+        return False
+    return any((u.get("url") or "") and text.endswith(u.get("url")) for u in urls)
+
+
+def _tweet_text_info(t: dict) -> dict:
+    note = t.get("note_tweet") or {}
+    note_text = (note.get("text") or "").strip()
+    if note_text:
+        return {
+            "text": note_text,
+            "entities": note.get("entities") or t.get("entities") or {},
+            "text_source": "note_tweet",
+            "text_may_be_truncated": False,
+        }
+    entities = t.get("entities") or {}
+    text = t.get("text", "")
+    return {
+        "text": text,
+        "entities": entities,
+        "text_source": "text",
+        "text_may_be_truncated": _looks_truncated_text(text, entities),
+    }
+
+
+def _extract_photo_media(t: dict, media_map: dict) -> list:
+    photos = []
+    keys = ((t.get("attachments") or {}).get("media_keys") or [])
+    for key in keys:
+        m = media_map.get(key) or {}
+        if m.get("type") != "photo":
+            continue
+        url = m.get("url") or m.get("preview_image_url")
+        if not url:
+            continue
+        photos.append({
+            "media_key": key,
+            "type": "photo",
+            "url": url,
+            "width": m.get("width"),
+            "height": m.get("height"),
+            "alt_text": m.get("alt_text"),
+        })
+    return photos
+
+
 def _ref_type_id(referenced_tweets: list, ref_type: str) -> str | None:
     """Get the tweet id for a given reference type (replied_to / quoted / retweeted)."""
     for ref in (referenced_tweets or []):
@@ -152,10 +220,11 @@ def _ref_type_id(referenced_tweets: list, ref_type: str) -> str | None:
     return None
 
 
-def slim_tweet(t: dict, kind: str, user_map: dict, owner_username: str) -> dict:
+def slim_tweet(t: dict, kind: str, user_map: dict, media_map: dict, owner_username: str) -> dict:
     """Map X API v2 tweet object to the schema extract.py/build_db.py expect."""
     metrics = t.get("public_metrics") or {}
-    entities = t.get("entities") or {}
+    text_info = _tweet_text_info(t)
+    entities = text_info["entities"]
     refs = t.get("referenced_tweets") or []
 
     in_reply_to_uid = t.get("in_reply_to_user_id")
@@ -167,7 +236,9 @@ def slim_tweet(t: dict, kind: str, user_map: dict, owner_username: str) -> dict:
         "kind": kind,
         "url": f"https://x.com/{owner_username}/status/{tweet_id}",
         "created_at": iso_to_twitter_date(t.get("created_at", "")),
-        "text": t.get("text", ""),
+        "text": text_info["text"],
+        "text_source": text_info["text_source"],
+        "text_may_be_truncated": text_info["text_may_be_truncated"],
         "lang": t.get("lang"),
         "like_count": metrics.get("like_count"),
         "retweet_count": metrics.get("retweet_count"),
@@ -186,6 +257,7 @@ def slim_tweet(t: dict, kind: str, user_map: dict, owner_username: str) -> dict:
         "retweeted_tweet_id": _ref_type_id(refs, "retweeted"),
         "entities": entities,
         "cashtags": _extract_cashtags(entities),
+        "media": _extract_photo_media(t, media_map),
     }
 
 
@@ -203,7 +275,7 @@ def reply_kind(t: dict, owner_username: str) -> str:
 
 
 # ----------------------------------------------------------------------------- main fetch
-def fetch(username: str, backfill: bool) -> None:
+def fetch(username: str, backfill: bool, days: int | None = None) -> None:
     token = get_bearer_token()
     s = auth_session(token)
 
@@ -213,10 +285,13 @@ def fetch(username: str, backfill: bool) -> None:
 
     # load state for incremental mode
     state = load_json(STATE_PATH, {})
-    since_id = None if backfill else state.get("newest_tweet_id")
+    since_id = None if (backfill or days) else state.get("newest_tweet_id")
+    start_time = None
+    if days:
+        start_time = (datetime.now(timezone.utc) - timedelta(days=days)).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
     # fallback: if no state but raw_tweets.json exists, infer since_id from it
-    if not backfill and not since_id:
+    if not backfill and not days and not since_id:
         existing = load_json(RAW_PATH, [])
         if existing:
             max_id = max(
@@ -228,10 +303,12 @@ def fetch(username: str, backfill: bool) -> None:
                 since_id = max_id
                 log(f"  state.json missing; inferred since_id={since_id} from raw_tweets.json")
 
-    mode = "BACKFILL (full history)" if backfill else "INCREMENTAL"
+    mode = f"RECENT {days}D ENRICHMENT" if days else ("BACKFILL (full history)" if backfill else "INCREMENTAL")
     log(f"Mode: {mode}")
     if since_id:
         log(f"  since_id={since_id} (fetching only newer tweets)")
+    if start_time:
+        log(f"  start_time={start_time}")
 
     # pagination
     pagination_token = None
@@ -240,6 +317,7 @@ def fetch(username: str, backfill: bool) -> None:
     kept_new = []
     kind_counts = {}
     newest_id_this_run = None
+    tweet_fields = TWEET_FIELDS
 
     while True:
         page += 1
@@ -249,12 +327,15 @@ def fetch(username: str, backfill: bool) -> None:
 
         params = {
             "max_results": MAX_RESULTS_PER_PAGE,
-            "tweet.fields": TWEET_FIELDS,
+            "tweet.fields": tweet_fields,
             "expansions": EXPANSIONS,
             "user.fields": USER_FIELDS,
+            "media.fields": MEDIA_FIELDS,
         }
         if since_id:
             params["since_id"] = since_id
+        if start_time:
+            params["start_time"] = start_time
         if pagination_token:
             params["pagination_token"] = pagination_token
 
@@ -277,6 +358,11 @@ def fetch(username: str, backfill: bool) -> None:
             time.sleep(retry_after)
             continue
 
+        if r.status_code == 400 and "note_tweet" in tweet_fields:
+            log("  note_tweet field rejected; retrying with standard text field only.")
+            tweet_fields = TWEET_FIELDS_FALLBACK
+            continue
+
         if r.status_code != 200:
             log(f"  HTTP {r.status_code} on page {page}: {r.text[:300]}")
             break
@@ -291,6 +377,7 @@ def fetch(username: str, backfill: bool) -> None:
             break
 
         user_map = _build_user_map(includes)
+        media_map = _build_media_map(includes)
         seen_total += len(tweets)
 
         for t in tweets:
@@ -312,7 +399,7 @@ def fetch(username: str, backfill: bool) -> None:
                     kind = "reply"
 
             kind_counts[kind] = kind_counts.get(kind, 0) + 1
-            kept_new.append(slim_tweet(t, kind, user_map, username))
+            kept_new.append(slim_tweet(t, kind, user_map, media_map, username))
 
         log(f"  page {page}: api={len(tweets)} kept_running={len(kept_new)}")
 
@@ -328,10 +415,26 @@ def fetch(username: str, backfill: bool) -> None:
     existing = load_json(RAW_PATH, [])
     by_id = {t["tweet_id"]: t for t in existing if t.get("tweet_id")}
     added = 0
+    updated = 0
     for t in kept_new:
-        if t["tweet_id"] and t["tweet_id"] not in by_id:
-            by_id[t["tweet_id"]] = t
+        tid = t.get("tweet_id")
+        if not tid:
+            continue
+        if tid not in by_id:
+            by_id[tid] = t
             added += 1
+        else:
+            merged_tweet = dict(by_id[tid])
+            changed = False
+            for key, val in t.items():
+                if val in (None, "", [], {}):
+                    continue
+                if merged_tweet.get(key) != val:
+                    merged_tweet[key] = val
+                    changed = True
+            if changed:
+                by_id[tid] = merged_tweet
+                updated += 1
 
     merged = sorted(by_id.values(), key=lambda t: t.get("tweet_id") or "", reverse=True)
     save_json(RAW_PATH, merged)
@@ -352,6 +455,7 @@ def fetch(username: str, backfill: bool) -> None:
     log(f"  pages fetched      : {page}")
     log(f"  tweets seen (API)  : {seen_total}")
     log(f"  kept new this run  : {added}")
+    log(f"  updated existing   : {updated}")
     log(f"  breakdown (run)    : posts={kind_counts.get('post', 0)} "
         f"self_thread={kind_counts.get('self_thread', 0)} reply={kind_counts.get('reply', 0)}")
     log(f"  total in store     : {len(merged)}  -> {RAW_PATH}")
@@ -364,8 +468,10 @@ def main():
     ap.add_argument("--user", default=DEFAULT_USER, help="screen name (no @)")
     ap.add_argument("--backfill", action="store_true",
                     help="ignore saved state and pull full history")
+    ap.add_argument("--days", type=int,
+                    help="fetch recent tweets from the last N days and enrich existing records")
     args = ap.parse_args()
-    fetch(args.user, args.backfill)
+    fetch(args.user, args.backfill, args.days)
 
 
 if __name__ == "__main__":

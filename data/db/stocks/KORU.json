@@ -25,6 +25,9 @@
       "conviction": null,
       "raw_mention": "$KORU",
       "text": "@sjw_ekremabi Can't recommend 3x leveraged ETFs like $KORU because of volatility decay over time and black swan events. \n\nJust look at what happened with Silver on Friday crashing 33%. Not saying it's going to happen with Korean ETFs, but the risk is nonzero. \n\nJust use margin on $EWY or $FLKR if you want more leverage.",
+      "text_source": null,
+      "text_may_be_truncated": null,
+      "media": [],
       "url": "https://x.com/aleabitoreddit/status/2018508722071617603",
       "kind": "reply",
       "engagement": {
@@ -46,6 +49,9 @@
       "conviction": null,
       "raw_mention": "$KORU",
       "text": "Trade idea that I published to my shower thoughts channel: \n\nKorean Index volatility arbitrage and taking advantage of Black-Scholes models. \n\n$EWY long options seem mispriced.\n\nThis is Blackrock's Korea Index, which is majority memory (Samsung Electronics, Sk Hynix).\n\nThe stock swings 2-5+% a day, and is up 136.25% 1Y, despite priced like a normal index IV.\n\nSamsung is volatile. SK Hynix is volatile (eg. 65% - 80% est). \n\nBut the combination of the two through the index is priced way less than both low beta $GOOGL (37.33%) and $AMZN (39.12%) at ~32% IV. \n\nI've been watching $EWY for a bit and it does look volatile. \n\nAs for pricing my guess is MMs priced in IV based on historical averages (5-10 years), where the Korean index was completely flat. And were expecting calls 2 years out to revert to the mean. \n\nBut this volatility should be the new norm as markets price in the new memory supercycle (eg. $TSM went from 30% IV to 46.2% IV). \n\nLong calls should benefit from both Samsung + Sk Hynix carrying the index. \n\nAnd the main benefit is vega expansion that you won't get from $KORU. \n\nYou also can't get this option MM pinning like individual US stocks since this is Korea's national index and long term. \n\nTLDR: Individual components SK Hynix + Samsung are highly volatile.\n\nThey're basically half of the index, but options in index are priced with low volatility, perhaps due to historical 5-10 year data.  \n\nLong calls benefit from vega expansion that weren't priced in correctly as MM forward vol estimates are anchored too heavily on historical realized vol, which was low for $EWY over the past 5-10 years",
+      "text_source": null,
+      "text_may_be_truncated": null,
+      "media": [],
       "url": "https://x.com/aleabitoreddit/status/2022283819374854167",
       "kind": "post",
       "engagement": {
@@ -70,6 +76,9 @@
       "conviction": "low",
       "raw_mention": "$KORU",
       "text": "@iverson3 $KORU works… until it doesn’t. 3x leverage on a steep correction if there is one won’t look pretty.",
+      "text_source": null,
+      "text_may_be_truncated": null,
+      "media": [],
       "url": "https://x.com/aleabitoreddit/status/2027192848786108543",
       "kind": "reply",
       "engagement": {
@@ -93,6 +102,9 @@
       "conviction": "high",
       "raw_mention": "$KORU",
       "text": "@onejhor Zero exposure to $KORU. I've been warning people not to touch 3x leveraged instruments for this exact reason.\n\nI do have $EWY long calls mainly as a IV arbitrage play as MM's mispriced this at 32% IV. \n\nStock moving up and down 7-13% a day is evidence they heavily mispriced it, and should benefit from vega expansion.",
+      "text_source": null,
+      "text_may_be_truncated": null,
+      "media": [],
       "url": "https://x.com/aleabitoreddit/status/2028798611069583361",
       "kind": "reply",
       "engagement": {

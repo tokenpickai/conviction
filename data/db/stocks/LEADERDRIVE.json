@@ -22,6 +22,9 @@
       "conviction": null,
       "raw_mention": "Leaderdrive",
       "text": "@BC17743 Leaderdrive",
+      "text_source": null,
+      "text_may_be_truncated": null,
+      "media": [],
       "url": "https://x.com/aleabitoreddit/status/2054723392306401499",
       "kind": "reply",
       "engagement": {
@@ -45,14 +48,17 @@
       "is_risk": false,
       "conviction": null,
       "raw_mention": "LeaderDrive",
-      "text": "I do see a lot of comments about \"harvesting the leeks\".\n\nAnd I hope my picks like LeaderDrive can help change that perspective around certain equities being good long term holds.\n\nI think my only Chinese listed pick was Innolight last year, and that's up triple digits to ATH? https://t.co/rt7St2dEI1",
+      "text": "I do see a lot of comments about \"harvesting the leeks\".\n\nAnd I hope my picks like LeaderDrive can help change that perspective around certain equities being good long term holds.\n\nI think my only Chinese listed pick was Innolight last year, and that's up triple digits to ATH?\n\nAll my ideas come from a Western perspective (eg. institutional research from JP Morgan / Goldman Sachs I synthesize) and what US hyperscalers like $GOOGL or $MSFT require. \n\nAnd I do consider about geopolitical tensions + game theory all the time, such as with $AXTI.\n\nI think a foreigner's perspective brings a different kind of alpha here, and I'm excited to share how this plays out.\n\nRegardless, I'm excited to see how adventures in Chinese equities go! \n\n(also, I'm just 1 person posting thoughts throughout the day. there's a lot of conspiracy theories going around saying I'm some Chinese institution.\n\nand yes, English is my primary language, i typo sometimes since I post 20+ a day on mobile mostly).",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
       "url": "https://x.com/aleabitoreddit/status/2064221488878846124",
       "kind": "post",
       "engagement": {
-        "views": 834427,
-        "likes": 1028,
-        "reposts": 34,
-        "replies": 633
+        "views": 847849,
+        "likes": 1032,
+        "reposts": 37,
+        "replies": 636
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

@@ -22,6 +22,9 @@
       "conviction": null,
       "raw_mention": "$SPCX",
       "text": "I’m fully convinced the Stock Market secretly revolves around building the Death Star and Battle Droids:\n\n$RKLB / $SPCX / $PL = Death Star\n\n$LASR / $SIVE = Laser Beams\n\n$TSLA / Unitree = Battle Droids https://t.co/C53qKjWrS8",
+      "text_source": null,
+      "text_may_be_truncated": null,
+      "media": [],
       "url": "https://x.com/aleabitoreddit/status/2058968617681899915",
       "kind": "post",
       "engagement": {
@@ -43,6 +46,9 @@
       "conviction": null,
       "raw_mention": "$SPCX",
       "text": "Everyone is out there making life changing returns on $RDDT.\n\nFully leveraged on the wrong $SPCE (Virgin Galactic) ticker.\n\nInstead of $SPCX, which is yet to launch. \n\nI guess this just goes to show how much retail demand there is for SpaceX’s IPO. https://t.co/AzcpV5fZ3P",
+      "text_source": null,
+      "text_may_be_truncated": null,
+      "media": [],
       "url": "https://x.com/aleabitoreddit/status/2060806434963763294",
       "kind": "post",
       "engagement": {
@@ -64,13 +70,25 @@
       "conviction": null,
       "raw_mention": "$SPCX",
       "text": "Woah, Frankfurt Bank strategists say:\n\n8% of US current-account deficit could be refinanced in a single day by overseas demand for SpaceX ( $SPCX ) shares.\n\nExcited to see how markets react around a Mega-IPO... \n\nDon't think there's been any historical precedence like this yet? https://t.co/W2apWN6QG4",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [
+        {
+          "media_key": "3_2065071805833101313",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKib3b5bQAE6OXG.jpg",
+          "width": 1493,
+          "height": 496,
+          "alt_text": null
+        }
+      ],
       "url": "https://x.com/aleabitoreddit/status/2065073494220849660",
       "kind": "post",
       "engagement": {
-        "views": 438889,
-        "likes": 718,
-        "reposts": 46,
-        "replies": 333
+        "views": 911596,
+        "likes": 1009,
+        "reposts": 68,
+        "replies": 348
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
@@ -85,13 +103,16 @@
       "conviction": null,
       "raw_mention": "$SPCX",
       "text": "@Moon1ightSt not sure, we'll see if it's good or bad for overall markets since it might be a liquidity vacuum of people selling other assets for $SPCX!\n\nBut we'll find out soon! For the USD at least, it's very positive.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
       "url": "https://x.com/aleabitoreddit/status/2065085633190830200",
       "kind": "reply",
       "engagement": {
-        "views": 7481,
-        "likes": 40,
+        "views": 18904,
+        "likes": 81,
         "reposts": 0,
-        "replies": 4
+        "replies": 5
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
@@ -106,13 +127,99 @@
       "conviction": null,
       "raw_mention": "$SPCX",
       "text": "At this point I can't tell anymore if markets from $META to $MSFT are correcting because of macro.\n\nOr just liquidity pull from $SPCX + index inclusion.\n\nAnd institutions frontrunning Nasdaq 100 and other rebalancing of SpaceX...\n\nAnyone know? https://t.co/sTLjsGq95V https://t.co/yPITtYfVHQ",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [
+        {
+          "media_key": "3_2065088129690927104",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKiqtnAagAAHdVR.jpg",
+          "width": 1181,
+          "height": 1024,
+          "alt_text": null
+        },
+        {
+          "media_key": "3_2065088129703505920",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKiqtnDacAA7jOC.jpg",
+          "width": 1164,
+          "height": 1033,
+          "alt_text": null
+        }
+      ],
       "url": "https://x.com/aleabitoreddit/status/2065088136884220158",
       "kind": "post",
       "engagement": {
-        "views": 288290,
-        "likes": 653,
-        "reposts": 28,
-        "replies": 244
+        "views": 722821,
+        "likes": 1073,
+        "reposts": 62,
+        "replies": 288
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065434058474307866",
+      "date": "2026-06-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SPCX",
+      "text": "All the $SNDK short sellers went extinct.\n\nCan’t believe it’s almost $2000 now?\n\nThat aside feels like everyone is just waiting for the $SPCX IPO in a few hours. https://t.co/EahzuEy1KE https://t.co/eKKhtk8tmi",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2065434052052852736",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKnlU8ObIAA5R5f.jpg",
+          "width": 1260,
+          "height": 1195,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2065434058474307866",
+      "kind": "post",
+      "engagement": {
+        "views": 501781,
+        "likes": 1091,
+        "reposts": 70,
+        "replies": 201
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065462946785030506",
+      "date": "2026-06-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SPCX",
+      "text": "$SPCX is now trading! \n\nAnd it’s now over $2.15T+ MC. https://t.co/HLQ8ZkbBvi",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2065462941135302656",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKn_mgcacAAzmxH.jpg",
+          "width": 1228,
+          "height": 1219,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2065462946785030506",
+      "kind": "post",
+      "engagement": {
+        "views": 282241,
+        "likes": 1421,
+        "reposts": 53,
+        "replies": 275
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

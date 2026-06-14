@@ -22,13 +22,25 @@
       "conviction": null,
       "raw_mention": "$INHD",
       "text": "Can someone tell me what caused $INHD to go up 3660.95%? https://t.co/qYFnOwUQFC",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2064156938552950784",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKVbzJsbQAAsfap.jpg",
+          "width": 1008,
+          "height": 1091,
+          "alt_text": null
+        }
+      ],
       "url": "https://x.com/aleabitoreddit/status/2064156945150595504",
       "kind": "post",
       "engagement": {
-        "views": 767536,
-        "likes": 1395,
-        "reposts": 90,
-        "replies": 456
+        "views": 773014,
+        "likes": 1339,
+        "reposts": 74,
+        "replies": 455
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

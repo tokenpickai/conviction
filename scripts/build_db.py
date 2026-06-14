@@ -197,6 +197,9 @@ def main():
                 "conviction": tk.get("conviction_signal"),
                 "raw_mention": tk.get("raw_mention"),
                 "text": rt.get("text"),
+                "text_source": rt.get("text_source"),
+                "text_may_be_truncated": rt.get("text_may_be_truncated"),
+                "media": rt.get("media") or [],
                 "url": rt.get("url"),
                 "kind": rt.get("kind"),
                 "engagement": {

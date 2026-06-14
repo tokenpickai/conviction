@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-06-13T20:50:27.677047+00:00",
-    "total_tickers": 950,
-    "total_mentions": 13602,
+    "generated_at": "2026-06-13T05:06:12.780814+00:00",
+    "total_tickers": 949,
+    "total_mentions": 13598,
     "dates": "ET (US Eastern); matches render/pipeline.py",
     "note": "Data layer only — facts + raw mentions. All windowed/stance aggregation + rankings are computed by render at runtime. Prices pending."
   },
@@ -31,8 +31,8 @@
       "company": "Sivers Semiconductor",
       "industry": "AI Photonics/CPO Lasers",
       "first_mention": "2025-12-23",
-      "last_mention": "2026-06-13",
-      "total_mentions": 669,
+      "last_mention": "2026-06-12",
+      "total_mentions": 668,
       "price_status": "partial"
     },
     {
@@ -46,7 +46,7 @@
       "industry": "InP Substrates",
       "first_mention": "2025-12-22",
       "last_mention": "2026-06-13",
-      "total_mentions": 516,
+      "total_mentions": 515,
       "price_status": "ok"
     },
     {
@@ -213,8 +213,8 @@
       "company": "TSMC",
       "industry": "Wafer Foundry",
       "first_mention": "2025-09-09",
-      "last_mention": "2026-06-13",
-      "total_mentions": 212,
+      "last_mention": "2026-06-12",
+      "total_mentions": 211,
       "price_status": "ok"
     },
     {
@@ -2777,7 +2777,7 @@
       "first_mention": "2026-05-25",
       "last_mention": "2026-06-12",
       "total_mentions": 7,
-      "price_status": "ok"
+      "price_status": "pending"
     },
     {
       "ticker": "VIAV",
@@ -7092,20 +7092,6 @@
       "price_status": "pending"
     },
     {
-      "ticker": "093370",
-      "cashtag": "Foosung (093370)",
-      "price_symbol": "093370",
-      "exchange": "US",
-      "currency": "USD",
-      "ticker_mapped": false,
-      "company": null,
-      "industry": null,
-      "first_mention": "2026-06-13",
-      "last_mention": "2026-06-13",
-      "total_mentions": 1,
-      "price_status": "pending"
-    },
-    {
       "ticker": "2301",
       "cashtag": "Lite-On (2301)",
       "price_symbol": "2301",
@@ -11093,7 +11079,7 @@
       "first_mention": "2026-04-04",
       "last_mention": "2026-04-04",
       "total_mentions": 1,
-      "price_status": "ok"
+      "price_status": "partial"
     },
     {
       "ticker": "MTCH",
