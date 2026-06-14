@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-06-13T05:06:12.780814+00:00",
-    "total_tickers": 949,
-    "total_mentions": 13598,
+    "generated_at": "2026-06-14T08:58:00.520321+00:00",
+    "total_tickers": 950,
+    "total_mentions": 13612,
     "dates": "ET (US Eastern); matches render/pipeline.py",
     "note": "Data layer only — facts + raw mentions. All windowed/stance aggregation + rankings are computed by render at runtime. Prices pending."
   },
@@ -31,8 +31,8 @@
       "company": "Sivers Semiconductor",
       "industry": "AI Photonics/CPO Lasers",
       "first_mention": "2025-12-23",
-      "last_mention": "2026-06-12",
-      "total_mentions": 668,
+      "last_mention": "2026-06-13",
+      "total_mentions": 672,
       "price_status": "partial"
     },
     {
@@ -46,7 +46,7 @@
       "industry": "InP Substrates",
       "first_mention": "2025-12-22",
       "last_mention": "2026-06-13",
-      "total_mentions": 515,
+      "total_mentions": 516,
       "price_status": "ok"
     },
     {
@@ -199,8 +199,8 @@
       "company": "Soitec",
       "industry": "SOI Wafers",
       "first_mention": "2026-03-01",
-      "last_mention": "2026-06-10",
-      "total_mentions": 218,
+      "last_mention": "2026-06-13",
+      "total_mentions": 219,
       "price_status": "partial"
     },
     {
@@ -213,8 +213,8 @@
       "company": "TSMC",
       "industry": "Wafer Foundry",
       "first_mention": "2025-09-09",
-      "last_mention": "2026-06-12",
-      "total_mentions": 211,
+      "last_mention": "2026-06-13",
+      "total_mentions": 212,
       "price_status": "ok"
     },
     {
@@ -302,6 +302,20 @@
       "price_status": "ok"
     },
     {
+      "ticker": "SNDK",
+      "cashtag": "$SNDK",
+      "price_symbol": "SNDK",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": "SanDisk",
+      "industry": "Memory",
+      "first_mention": "2025-11-25",
+      "last_mention": "2026-06-13",
+      "total_mentions": 145,
+      "price_status": "ok"
+    },
+    {
       "ticker": "HIMS",
       "cashtag": "$HIMS",
       "price_symbol": "HIMS",
@@ -312,20 +326,6 @@
       "industry": null,
       "first_mention": "2025-07-07",
       "last_mention": "2026-05-30",
-      "total_mentions": 144,
-      "price_status": "ok"
-    },
-    {
-      "ticker": "SNDK",
-      "cashtag": "$SNDK",
-      "price_symbol": "SNDK",
-      "exchange": "US",
-      "currency": "USD",
-      "ticker_mapped": false,
-      "company": "SanDisk",
-      "industry": "Memory",
-      "first_mention": "2025-11-25",
-      "last_mention": "2026-06-12",
       "total_mentions": 144,
       "price_status": "ok"
     },
@@ -457,7 +457,7 @@
     },
     {
       "ticker": "SK HYNIX",
-      "cashtag": "SK Hynix",
+      "cashtag": "SK하이닉스",
       "price_symbol": "000660.KS",
       "exchange": "Korea Exchange",
       "currency": "KRW",
@@ -465,8 +465,8 @@
       "company": "SK Hynix",
       "industry": "Memory/HBM (Korea)",
       "first_mention": "2025-12-01",
-      "last_mention": "2026-06-09",
-      "total_mentions": 100,
+      "last_mention": "2026-06-13",
+      "total_mentions": 102,
       "price_status": "pending"
     },
     {
@@ -568,6 +568,20 @@
       "price_status": "ok"
     },
     {
+      "ticker": "SAMSUNG",
+      "cashtag": "Samsung",
+      "price_symbol": "005930.KS",
+      "exchange": "Korea Exchange",
+      "currency": "KRW",
+      "ticker_mapped": true,
+      "company": "Samsung Electronics",
+      "industry": "Memory/HBM/Semiconductors",
+      "first_mention": "2025-12-28",
+      "last_mention": "2026-06-13",
+      "total_mentions": 73,
+      "price_status": "pending"
+    },
+    {
       "ticker": "MTSI",
       "cashtag": "$MTSI",
       "price_symbol": "MTSI",
@@ -580,20 +594,6 @@
       "last_mention": "2026-06-12",
       "total_mentions": 72,
       "price_status": "ok"
-    },
-    {
-      "ticker": "SAMSUNG",
-      "cashtag": "Samsung",
-      "price_symbol": "005930.KS",
-      "exchange": "Korea Exchange",
-      "currency": "KRW",
-      "ticker_mapped": true,
-      "company": "Samsung Electronics",
-      "industry": "Memory/HBM/Semiconductors",
-      "first_mention": "2025-12-28",
-      "last_mention": "2026-06-09",
-      "total_mentions": 72,
-      "price_status": "pending"
     },
     {
       "ticker": "SNAP",
@@ -2528,6 +2528,20 @@
       "price_status": "ok"
     },
     {
+      "ticker": "SPCX",
+      "cashtag": "$SPCX",
+      "price_symbol": "SPCX",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": null,
+      "industry": null,
+      "first_mention": "2026-05-25",
+      "last_mention": "2026-06-13",
+      "total_mentions": 8,
+      "price_status": "ok"
+    },
+    {
       "ticker": "TOWA",
       "cashtag": "Towa",
       "price_symbol": "TOWA",
@@ -2764,20 +2778,6 @@
       "last_mention": "2026-05-12",
       "total_mentions": 7,
       "price_status": "ok"
-    },
-    {
-      "ticker": "SPCX",
-      "cashtag": "$SPCX",
-      "price_symbol": "SPCX",
-      "exchange": "US",
-      "currency": "USD",
-      "ticker_mapped": false,
-      "company": null,
-      "industry": null,
-      "first_mention": "2026-05-25",
-      "last_mention": "2026-06-12",
-      "total_mentions": 7,
-      "price_status": "pending"
     },
     {
       "ticker": "VIAV",
@@ -5296,6 +5296,20 @@
       "industry": null,
       "first_mention": "2026-04-27",
       "last_mention": "2026-05-04",
+      "total_mentions": 2,
+      "price_status": "pending"
+    },
+    {
+      "ticker": "093370",
+      "cashtag": "후성(093370)",
+      "price_symbol": "093370",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": null,
+      "industry": null,
+      "first_mention": "2026-06-13",
+      "last_mention": "2026-06-13",
       "total_mentions": 2,
       "price_status": "pending"
     },
@@ -11079,7 +11093,7 @@
       "first_mention": "2026-04-04",
       "last_mention": "2026-04-04",
       "total_mentions": 1,
-      "price_status": "partial"
+      "price_status": "ok"
     },
     {
       "ticker": "MTCH",

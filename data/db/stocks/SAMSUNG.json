@@ -9,8 +9,8 @@
   "industry": "Memory/HBM/Semiconductors",
   "thesis_summary": null,
   "first_mention": "2025-12-28",
-  "last_mention": "2026-06-09",
-  "total_mentions": 72,
+  "last_mention": "2026-06-13",
+  "total_mentions": 73,
   "mentions": [
     {
       "tweet_id": "2005469051464958117",
@@ -1848,6 +1848,39 @@
         "likes": 784,
         "reposts": 46,
         "replies": 195
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065736884752703865",
+      "date": "2026-06-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Samsung",
+      "text": "Okay my fellow Koreans, it's been awhile. \n\nFoosung (093370, ~$1.2B MC) looks like a massive beneficiary soon. \n\nBasically China export controlled Japan, causing their WF₆ supply chain to go down.\n\nMeaning 25% of the world's supply required for SK Hynix, Samsung, $TSM go bye bye. \n\nIf you remember the Straight of Homuz with Oil, that's a lot. \n\nFoosung's importance just shot through the roof given from some est. they're 10% of the supply chain? \n\nSo that number goes up, massive bottleneck for demand. Then this looks like the best pure play beneficiary outside of China (even if precursors pricing are rough). \n\nDon't have positions, just wanted to publish an idea.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2065735351449387009",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKr3W38bgAE_7a_.jpg",
+          "width": 1863,
+          "height": 1251,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2065736884752703865",
+      "kind": "post",
+      "engagement": {
+        "views": 410135,
+        "likes": 1574,
+        "reposts": 122,
+        "replies": 182
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

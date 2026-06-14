@@ -9,8 +9,8 @@
   "industry": "SOI Wafers",
   "thesis_summary": null,
   "first_mention": "2026-03-01",
-  "last_mention": "2026-06-10",
-  "total_mentions": 218,
+  "last_mention": "2026-06-13",
+  "total_mentions": 219,
   "mentions": [
     {
       "tweet_id": "2028203665430057068",
@@ -5699,6 +5699,30 @@
         "likes": 2428,
         "reposts": 59,
         "replies": 536
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065930011023204509",
+      "date": "2026-06-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SOI",
+      "text": "If I had to stereotype my X experiences with markets:\n\nChina 🇨🇳: set on cloning me with AI, can only think of trades in short term timeframes from A-shares PTSD.\n\nAmerica 🇺🇸:  bullish on anything futuristic like $SPCX, don’t care about valuations\n\nEurope 🇪🇺: from $SIVE to $SOI, cares more about water usage than the AI buildout. Somehow can only look at past 12 months. (Belgium is cool so far), looking at you France + Sweden\n\nKorea 🇰🇷: leveraged degens. I’ve never seen a market so volatile. Equivalent of 50x hyperliquid traders but with stock markets.\n\nJapan 🇯🇵: somehow supportive of everything, haven’t seen any Japanese person aggressively bear post and short stocks before.\n\nNot enough data on other places yet like Latin America, but will have some soon enough ig.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2065930011023204509",
+      "kind": "post",
+      "engagement": {
+        "views": 389858,
+        "likes": 2304,
+        "reposts": 151,
+        "replies": 457
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

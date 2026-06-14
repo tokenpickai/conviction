@@ -9,8 +9,8 @@
   "industry": "AI Photonics/CPO Lasers",
   "thesis_summary": "他把 SIVE 当作硅光/CPO 的上游激光瓶颈,反复强调它是产业链核心受益者,通过 POET 供货给 Ayar、Celestial 等光引擎厂商。",
   "first_mention": "2025-12-23",
-  "last_mention": "2026-06-12",
-  "total_mentions": 668,
+  "last_mention": "2026-06-13",
+  "total_mentions": 672,
   "mentions": [
     {
       "tweet_id": "2003604861414408240",
@@ -18385,6 +18385,122 @@
         "likes": 291,
         "reposts": 13,
         "replies": 9
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065779524248510758",
+      "date": "2026-06-13",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "up ~1900% since thesis at 4 SEK",
+        "US institutions from JPM to Fidelity recently entering positions",
+        "2nd greatest thesis of all time"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "$SIVE",
+      "text": "It’s been officially 3 months since I posted my $SIVE long thesis back at 4 SEK.\n\nThis idea is now up ~1900%… \n\nWith many US institutions from JPM to Fidelity only recently entering positions.\n\nProbably my 2nd greatest thesis of all time after $AXTI.\n\nDid you listen anon? https://t.co/dSZ6AeTJYL https://t.co/7Rg7pujShY",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [
+        {
+          "media_key": "3_2065779515587272704",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKsfhkLboAAbrlF.jpg",
+          "width": 1260,
+          "height": 1163,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2065779524248510758",
+      "kind": "post",
+      "engagement": {
+        "views": 346493,
+        "likes": 1347,
+        "reposts": 54,
+        "replies": 267
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065908647981699572",
+      "date": "2026-06-13",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "not selling a share",
+        "looks like only at the start of the next supercycle",
+        "important to AI names keep compounding"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "$SIVE",
+      "text": "@JaaidevV I personally like $SIVE, usually the same names keep on compounding like $SNDK if they’re important to AI?\n\nI’m not selling a share, since it looks like we’re only at the start of the next supercycle.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2065908647981699572",
+      "kind": "reply",
+      "engagement": {
+        "views": 17045,
+        "likes": 169,
+        "reposts": 4,
+        "replies": 6
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065908871898808736",
+      "date": "2026-06-13",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "Nasdaq listing liquidity requirements and M&A is very positive",
+        "wants to see it trade on US markets"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$SIVE",
+      "text": "@KingDavidvs It’s for Nasdaq listing liquidity requirements and M&amp;A, very positive since I want to see $SIVE trade on US markets.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2065908871898808736",
+      "kind": "reply",
+      "engagement": {
+        "views": 9343,
+        "likes": 119,
+        "reposts": 6,
+        "replies": 4
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065930011023204509",
+      "date": "2026-06-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SIVE",
+      "text": "If I had to stereotype my X experiences with markets:\n\nChina 🇨🇳: set on cloning me with AI, can only think of trades in short term timeframes from A-shares PTSD.\n\nAmerica 🇺🇸:  bullish on anything futuristic like $SPCX, don’t care about valuations\n\nEurope 🇪🇺: from $SIVE to $SOI, cares more about water usage than the AI buildout. Somehow can only look at past 12 months. (Belgium is cool so far), looking at you France + Sweden\n\nKorea 🇰🇷: leveraged degens. I’ve never seen a market so volatile. Equivalent of 50x hyperliquid traders but with stock markets.\n\nJapan 🇯🇵: somehow supportive of everything, haven’t seen any Japanese person aggressively bear post and short stocks before.\n\nNot enough data on other places yet like Latin America, but will have some soon enough ig.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2065930011023204509",
+      "kind": "post",
+      "engagement": {
+        "views": 389858,
+        "likes": 2304,
+        "reposts": 151,
+        "replies": 457
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

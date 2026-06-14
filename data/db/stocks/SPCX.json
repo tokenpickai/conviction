@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-05-25",
-  "last_mention": "2026-06-12",
-  "total_mentions": 7,
+  "last_mention": "2026-06-13",
+  "total_mentions": 8,
   "mentions": [
     {
       "tweet_id": "2058968617681899915",
@@ -225,43 +225,25 @@
       "prompt_version": "extract-v2"
     },
     {
-      "tweet_id": "2065434058474307866",
-      "date": "2026-06-12",
+      "tweet_id": "2065930011023204509",
+      "date": "2026-06-13",
       "stance": "neutral",
       "mention_type": "background",
       "reasons": [],
       "is_risk": false,
       "conviction": null,
       "raw_mention": "$SPCX",
-      "text": "All the $SNDK short sellers went extinct.\n\nCan’t believe it’s almost $2000 now?\n\nThat aside feels like everyone is just waiting for the $SPCX IPO in a few hours. https://t.co/EahzuEy1KE https://t.co/eKKhtk8tmi",
-      "url": "https://x.com/aleabitoreddit/status/2065434058474307866",
+      "text": "If I had to stereotype my X experiences with markets:\n\nChina 🇨🇳: set on cloning me with AI, can only think of trades in short term timeframes from A-shares PTSD.\n\nAmerica 🇺🇸:  bullish on anything futuristic like $SPCX, don’t care about valuations\n\nEurope 🇪🇺: from $SIVE to $SOI, cares more about water usage than the AI buildout. Somehow can only look at past 12 months. (Belgium is cool so far), looking at you France + Sweden\n\nKorea 🇰🇷: leveraged degens. I’ve never seen a market so volatile. Equivalent of 50x hyperliquid traders but with stock markets.\n\nJapan 🇯🇵: somehow supportive of everything, haven’t seen any Japanese person aggressively bear post and short stocks before.\n\nNot enough data on other places yet like Latin America, but will have some soon enough ig.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2065930011023204509",
       "kind": "post",
       "engagement": {
-        "views": 417258,
-        "likes": 969,
-        "reposts": 62,
-        "replies": 192
-      },
-      "extractor_model": "claude-opus-4-6",
-      "prompt_version": "extract-v2"
-    },
-    {
-      "tweet_id": "2065462946785030506",
-      "date": "2026-06-12",
-      "stance": "neutral",
-      "mention_type": "background",
-      "reasons": [],
-      "is_risk": false,
-      "conviction": null,
-      "raw_mention": "$SPCX",
-      "text": "$SPCX is now trading! \n\nAnd it’s now over $2.15T+ MC. https://t.co/HLQ8ZkbBvi",
-      "url": "https://x.com/aleabitoreddit/status/2065462946785030506",
-      "kind": "post",
-      "engagement": {
-        "views": 195615,
-        "likes": 1167,
-        "reposts": 45,
-        "replies": 240
+        "views": 389858,
+        "likes": 2304,
+        "reposts": 151,
+        "replies": 457
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

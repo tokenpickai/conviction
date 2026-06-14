@@ -213260,5 +213260,257 @@
     "extractor_model": "claude-opus-4-6",
     "prompt_version": "extract-v2",
     "extracted_at": "2026-06-13T05:05:09.852779+00:00"
+  },
+  "2065973347897557093": {
+    "tweet_id": "2065973347897557093",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-14T08:57:29.888720+00:00"
+  },
+  "2065982517992452441": {
+    "tweet_id": "2065982517992452441",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-14T08:57:29.888720+00:00"
+  },
+  "2065930011023204509": {
+    "tweet_id": "2065930011023204509",
+    "has_investment_content": false,
+    "tickers": [
+      {
+        "raw_mention": "$SPCX",
+        "symbol": "SPCX",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SOI",
+        "symbol": "SOI",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-14T08:57:29.888720+00:00"
+  },
+  "2065779524248510758": {
+    "tweet_id": "2065779524248510758",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "up ~1900% since thesis at 4 SEK",
+          "US institutions from JPM to Fidelity recently entering positions",
+          "2nd greatest thesis of all time"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$AXTI",
+        "symbol": "AXTI",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.97,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-14T08:57:29.888720+00:00"
+  },
+  "2065908647981699572": {
+    "tweet_id": "2065908647981699572",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "not selling a share",
+          "looks like only at the start of the next supercycle",
+          "important to AI names keep compounding"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$SNDK",
+        "symbol": "SNDK",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-14T08:57:29.888720+00:00"
+  },
+  "2065908871898808736": {
+    "tweet_id": "2065908871898808736",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "Nasdaq listing liquidity requirements and M&A is very positive",
+          "wants to see it trade on US markets"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.92,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-14T08:57:29.888720+00:00"
+  },
+  "2065758024896037020": {
+    "tweet_id": "2065758024896037020",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "후성(093370)",
+        "symbol": "093370",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "WF6 supply chain bottleneck play due to China tungsten export controls on Japan",
+          "critical supplier to memory semiconductor manufacturers like SK Hynix",
+          "identified as optimal undervalued exposure to the bottleneck at ~$1.2B market cap",
+          "global supply chain 25-35% impacted by precursor shortage and cost increases"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "SK하이닉스",
+        "symbol": "000660",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.82,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-14T08:57:29.888720+00:00"
+  },
+  "2065759604013953507": {
+    "tweet_id": "2065759604013953507",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-14T08:57:29.888720+00:00"
+  },
+  "2065736884752703865": {
+    "tweet_id": "2065736884752703865",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Foosung (093370)",
+        "symbol": "093370",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "massive beneficiary of China export controls on Japan WF6 supply",
+          "25% of world WF6 supply disrupted creates bottleneck",
+          "~10% of supply chain, number goes up with disruption",
+          "best pure play beneficiary outside of China"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$TSM",
+        "symbol": "TSM",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "SK Hynix",
+        "symbol": "SK Hynix",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Samsung",
+        "symbol": "Samsung",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-14T08:57:29.888720+00:00"
+  },
+  "2065739482398396908": {
+    "tweet_id": "2065739482398396908",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.75,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-14T08:57:29.888720+00:00"
+  },
+  "2065744524547346688": {
+    "tweet_id": "2065744524547346688",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.7,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-14T08:57:29.888720+00:00"
   }
 }

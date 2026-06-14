@@ -10,7 +10,7 @@
   "thesis_summary": "他看好 AXT 的磷化铟基板地位,称其为 CPO 产业链上游卡位,已有 500%+ 浮盈。",
   "first_mention": "2025-12-22",
   "last_mention": "2026-06-13",
-  "total_mentions": 515,
+  "total_mentions": 516,
   "mentions": [
     {
       "tweet_id": "2003040048930074770",
@@ -13604,6 +13604,39 @@
         "likes": 427,
         "reposts": 34,
         "replies": 123
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065779524248510758",
+      "date": "2026-06-13",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AXTI",
+      "text": "It’s been officially 3 months since I posted my $SIVE long thesis back at 4 SEK.\n\nThis idea is now up ~1900%… \n\nWith many US institutions from JPM to Fidelity only recently entering positions.\n\nProbably my 2nd greatest thesis of all time after $AXTI.\n\nDid you listen anon? https://t.co/dSZ6AeTJYL https://t.co/7Rg7pujShY",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [
+        {
+          "media_key": "3_2065779515587272704",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKsfhkLboAAbrlF.jpg",
+          "width": 1260,
+          "height": 1163,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2065779524248510758",
+      "kind": "post",
+      "engagement": {
+        "views": 346493,
+        "likes": 1347,
+        "reposts": 54,
+        "replies": 267
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

@@ -1,5 +1,484 @@
 [
   {
+    "tweet_id": "2065982517992452441",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2065982517992452441",
+    "created_at": "Sun Jun 14 02:19:51 +0000 2026",
+    "text": "@famouschen Local swedish markets are not very forward looking, so it’s understandable if this is the same with day to day life.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 123,
+    "retweet_count": 1,
+    "reply_count": 12,
+    "quote_count": 0,
+    "view_count": 18236,
+    "bookmark_count": 2,
+    "conversation_id": "2065973347897557093",
+    "is_reply": true,
+    "in_reply_to_id": "2065975700713333111",
+    "in_reply_to_username": "famouschen",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 11,
+          "username": "famouschen",
+          "id": "118579243"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2065973347897557093",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2065973347897557093",
+    "created_at": "Sun Jun 14 01:43:24 +0000 2026",
+    "text": "Do people in Sweden have a hard time making plans for lunch a day in advance?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 559,
+    "retweet_count": 6,
+    "reply_count": 143,
+    "quote_count": 1,
+    "view_count": 160431,
+    "bookmark_count": 17,
+    "conversation_id": "2065973347897557093",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2065930011023204509",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2065930011023204509",
+    "created_at": "Sat Jun 13 22:51:12 +0000 2026",
+    "text": "If I had to stereotype my X experiences with markets:\n\nChina 🇨🇳: set on cloning me with AI, can only think of trades in short term timeframes from A-shares PTSD.\n\nAmerica 🇺🇸:  bullish on anything futuristic like $SPCX, don’t care about valuations\n\nEurope 🇪🇺: from $SIVE to $SOI, cares more about water usage than the AI buildout. Somehow can only look at past 12 months. (Belgium is cool so far), looking at you France + Sweden\n\nKorea 🇰🇷: leveraged degens. I’ve never seen a market so volatile. Equivalent of 50x hyperliquid traders but with stock markets.\n\nJapan 🇯🇵: somehow supportive of everything, haven’t seen any Japanese person aggressively bear post and short stocks before.\n\nNot enough data on other places yet like Latin America, but will have some soon enough ig.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 2304,
+    "retweet_count": 151,
+    "reply_count": 457,
+    "quote_count": 52,
+    "view_count": 389858,
+    "bookmark_count": 409,
+    "conversation_id": "2065930011023204509",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "start": 212,
+          "end": 217,
+          "tag": "SPCX"
+        },
+        {
+          "start": 264,
+          "end": 269,
+          "tag": "SIVE"
+        },
+        {
+          "start": 273,
+          "end": 277,
+          "tag": "SOI"
+        }
+      ]
+    },
+    "cashtags": [
+      "SPCX",
+      "SIVE",
+      "SOI"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2065908871898808736",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2065908871898808736",
+    "created_at": "Sat Jun 13 21:27:12 +0000 2026",
+    "text": "@KingDavidvs It’s for Nasdaq listing liquidity requirements and M&amp;A, very positive since I want to see $SIVE trade on US markets.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 119,
+    "retweet_count": 6,
+    "reply_count": 4,
+    "quote_count": 0,
+    "view_count": 9343,
+    "bookmark_count": 8,
+    "conversation_id": "2065779524248510758",
+    "is_reply": true,
+    "in_reply_to_id": "2065781899398717812",
+    "in_reply_to_username": "KingDavidvs",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "start": 107,
+          "end": 112,
+          "tag": "SIVE"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 0,
+          "end": 12,
+          "username": "KingDavidvs",
+          "id": "1546444063162990592"
+        }
+      ]
+    },
+    "cashtags": [
+      "SIVE"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2065908647981699572",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2065908647981699572",
+    "created_at": "Sat Jun 13 21:26:19 +0000 2026",
+    "text": "@JaaidevV I personally like $SIVE, usually the same names keep on compounding like $SNDK if they’re important to AI?\n\nI’m not selling a share, since it looks like we’re only at the start of the next supercycle.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 169,
+    "retweet_count": 4,
+    "reply_count": 6,
+    "quote_count": 2,
+    "view_count": 17045,
+    "bookmark_count": 16,
+    "conversation_id": "2065779524248510758",
+    "is_reply": true,
+    "in_reply_to_id": "2065781136803119568",
+    "in_reply_to_username": "JaaidevV",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "start": 28,
+          "end": 33,
+          "tag": "SIVE"
+        },
+        {
+          "start": 83,
+          "end": 88,
+          "tag": "SNDK"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 0,
+          "end": 9,
+          "username": "JaaidevV",
+          "id": "702154306003165184"
+        }
+      ]
+    },
+    "cashtags": [
+      "SIVE",
+      "SNDK"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2065779524248510758",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2065779524248510758",
+    "created_at": "Sat Jun 13 12:53:13 +0000 2026",
+    "text": "It’s been officially 3 months since I posted my $SIVE long thesis back at 4 SEK.\n\nThis idea is now up ~1900%… \n\nWith many US institutions from JPM to Fidelity only recently entering positions.\n\nProbably my 2nd greatest thesis of all time after $AXTI.\n\nDid you listen anon? https://t.co/dSZ6AeTJYL https://t.co/7Rg7pujShY",
+    "text_source": "text",
+    "text_may_be_truncated": true,
+    "lang": "en",
+    "like_count": 1347,
+    "retweet_count": 54,
+    "reply_count": 267,
+    "quote_count": 13,
+    "view_count": 346493,
+    "bookmark_count": 114,
+    "conversation_id": "2065779524248510758",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2033463897521520947",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "start": 48,
+          "end": 53,
+          "tag": "SIVE"
+        },
+        {
+          "start": 244,
+          "end": 249,
+          "tag": "AXTI"
+        }
+      ],
+      "urls": [
+        {
+          "start": 273,
+          "end": 296,
+          "url": "https://t.co/dSZ6AeTJYL",
+          "expanded_url": "https://x.com/aleabitoreddit/status/2065779524248510758/photo/1",
+          "display_url": "pic.x.com/dSZ6AeTJYL",
+          "media_key": "3_2065779515587272704"
+        },
+        {
+          "start": 297,
+          "end": 320,
+          "url": "https://t.co/7Rg7pujShY",
+          "expanded_url": "https://twitter.com/aleabitoreddit/status/2033463897521520947",
+          "display_url": "x.com/aleabitoreddit…"
+        }
+      ]
+    },
+    "cashtags": [
+      "SIVE",
+      "AXTI"
+    ],
+    "media": [
+      {
+        "media_key": "3_2065779515587272704",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HKsfhkLboAAbrlF.jpg",
+        "width": 1260,
+        "height": 1163,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2065759604013953507",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2065759604013953507",
+    "created_at": "Sat Jun 13 11:34:04 +0000 2026",
+    "text": "@TLEROY5 Yep, the US Gov needs to hire Korean moms to do supply chain vulnerability analysis.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 90,
+    "retweet_count": 2,
+    "reply_count": 5,
+    "quote_count": 0,
+    "view_count": 20114,
+    "bookmark_count": 1,
+    "conversation_id": "2065758024896037020",
+    "is_reply": true,
+    "in_reply_to_id": "2065758578149892514",
+    "in_reply_to_username": "TLEROY5",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 8,
+          "username": "TLEROY5",
+          "id": "1049069388765249536"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2065758024896037020",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2065758024896037020",
+    "created_at": "Sat Jun 13 11:27:47 +0000 2026",
+    "text": "한국 어머니들은 원래 이렇게 사기캐인가요?\n어머님이 WF6의 3차 파급 효과(third-order effect)에 따른 공급망 차질을 파악하셨다니 정말 놀랍습니다.\n\n중국의 대(對)일본 텅스텐 수출 통제로 인해,\n전구체 부족 및 원가 상승이 발생하여 글로벌 공급망의 25~35%가 타격을 입게 된다는 사실을 말이죠.\n\n게다가 후성(093370)이 SK하이닉스 같은 메모리 반도체 제조사들에게 얼마나 중요한 기업인지 짚어내시고,\n\n이 공급망에 얽힌 수많은 기업들 중에서도 시가총액 12억 달러(약 1조 6천억 원) 규모의 이 한국 기업을, 해당 병목 현상에 투자할 수 있는 가장 최적의 저평가된 투자처(exposure)로 정확히 발굴해 내시다니요?\n\n진심으로 감탄했습니다.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "ko",
+    "like_count": 799,
+    "retweet_count": 44,
+    "reply_count": 121,
+    "quote_count": 7,
+    "view_count": 435263,
+    "bookmark_count": 287,
+    "conversation_id": "2065758024896037020",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2065749772183707658",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "start": 177,
+          "end": 200,
+          "url": "https://t.co/u88EGb5zgb",
+          "expanded_url": "https://twitter.com/zozpzowi/status/2065749772183707658",
+          "display_url": "x.com/zozpzowi/statu…"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2065744524547346688",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2065744524547346688",
+    "created_at": "Sat Jun 13 10:34:08 +0000 2026",
+    "text": "@CrystalHea55020 아마 아닐 거예요. 그래서 병목이라고 하는 거잖아요. 공급이 수요를 못 따라가고 있으니까요.\n\n그래도 좋은 쪽으로 생각해보면, 그것 때문에 이런 한국 기업들의 가격 결정력이 더 커진다는 겁니다",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ko",
+    "like_count": 88,
+    "retweet_count": 1,
+    "reply_count": 6,
+    "quote_count": 0,
+    "view_count": 24520,
+    "bookmark_count": 6,
+    "conversation_id": "2065736884752703865",
+    "is_reply": true,
+    "in_reply_to_id": "2065742884721328636",
+    "in_reply_to_username": "CrystalHea55020",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 16,
+          "username": "CrystalHea55020",
+          "id": "1798629539242729472"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2065739482398396908",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2065739482398396908",
+    "created_at": "Sat Jun 13 10:14:06 +0000 2026",
+    "text": "@zozpzowi News of Japan's supply chain going down got released recently... Feels like it's really early on still.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 86,
+    "retweet_count": 0,
+    "reply_count": 6,
+    "quote_count": 0,
+    "view_count": 40681,
+    "bookmark_count": 9,
+    "conversation_id": "2065736884752703865",
+    "is_reply": true,
+    "in_reply_to_id": "2065739071423725571",
+    "in_reply_to_username": "zozpzowi",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 9,
+          "username": "zozpzowi",
+          "id": "1931288764233781248"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2065736884752703865",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2065736884752703865",
+    "created_at": "Sat Jun 13 10:03:47 +0000 2026",
+    "text": "Okay my fellow Koreans, it's been awhile. \n\nFoosung (093370, ~$1.2B MC) looks like a massive beneficiary soon. \n\nBasically China export controlled Japan, causing their WF₆ supply chain to go down.\n\nMeaning 25% of the world's supply required for SK Hynix, Samsung, $TSM go bye bye. \n\nIf you remember the Straight of Homuz with Oil, that's a lot. \n\nFoosung's importance just shot through the roof given from some est. they're 10% of the supply chain? \n\nSo that number goes up, massive bottleneck for demand. Then this looks like the best pure play beneficiary outside of China (even if precursors pricing are rough). \n\nDon't have positions, just wanted to publish an idea.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1574,
+    "retweet_count": 122,
+    "reply_count": 182,
+    "quote_count": 28,
+    "view_count": 410135,
+    "bookmark_count": 1017,
+    "conversation_id": "2065736884752703865",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "start": 264,
+          "end": 268,
+          "tag": "TSM"
+        }
+      ]
+    },
+    "cashtags": [
+      "TSM"
+    ],
+    "media": [
+      {
+        "media_key": "3_2065735351449387009",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HKr3W38bgAE_7a_.jpg",
+        "width": 1863,
+        "height": 1251,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2065650434644304165",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2065650434644304165",
