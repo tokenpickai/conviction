@@ -213612,5 +213612,1016 @@
     "extractor_model": "claude-opus-4-6",
     "prompt_version": "extract-v2",
     "extracted_at": "2026-06-14T15:30:06.854448+00:00"
+  },
+  "2066554149622399421": {
+    "tweet_id": "2066554149622399421",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066535221554733278": {
+    "tweet_id": "2066535221554733278",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "core laser chokepoint over next generation photonics from 1.6T pluggables to CPO",
+          "embedded in many hyperscaler suppliers from Jabil to Ayar",
+          "should go brrr 2027, ramps + qualifications should get priced in now",
+          "highest upside out of all core European longs",
+          "laser company ability to vertically integrate and acquire downstream to make lasers more valuable"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$LPK",
+        "symbol": "LPK",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "glass core substrate monopoly with LIDE",
+          "more than 80% of major global players selected their equipment",
+          "still undervalued despite monopoly"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$SOI",
+        "symbol": "SOI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "silicon photonics SoI substrate pure monopoly",
+          "coming out of legacy drag segments",
+          "already re-rated the most but holding anyway"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$RPI",
+        "symbol": "RPI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "Raspberry Pis being used for AI hardware deployments",
+          "previously educational/hobby but now used for edge/local AI",
+          "revenue increase extremely material and played out well"
+        ],
+        "is_risk": false,
+        "conviction_signal": "low"
+      },
+      {
+        "raw_mention": "$IQE",
+        "symbol": "IQE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "critical epiwafer player for Western photonics like Macom, Tower, Lumentum",
+          "latent capacity relative to Landmark was undervalued",
+          "downstream players + govs wouldn't let it go under",
+          "lot more derisked now, very important",
+          "new Tower long term agreement alongside Macom",
+          "chance of rerating like Landmark if they convert latent capacity"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$ALRIB",
+        "symbol": "ALRIB",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "kinda monopoly in MBE space",
+          "exposure to quantum / quantum dot + silicon photonics",
+          "Microsoft Quantum buying their machines as direct hyperscaler validation",
+          "de-risked at current market caps",
+          "still undervalued despite monopoly"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$XFAB",
+        "symbol": "XFAB",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "SiC foundry backed by EU/US CHIPS Act with power semi upside",
+          "152% Y/Y growth for their SiC vertical",
+          "silicon photonics foundry past 2027 getting evaled by Nvidia",
+          "leading Europe's value chain efforts in photonics like early Tower Semi",
+          "trading below replacement P/B",
+          "Nvidia as direct eval of their silicon photonics foundry"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "Jabil",
+        "symbol": "JBL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Ayar",
+        "symbol": "AYAR",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Macom",
+        "symbol": "MTSI",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Tower",
+        "symbol": "TSEM",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Lumentum",
+        "symbol": "LITE",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Landmark",
+        "symbol": "LMRK",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "nvidia",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "coherent",
+        "symbol": "COHR",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Microsoft Quantum",
+        "symbol": "MSFT",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.93,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066521694836330618": {
+    "tweet_id": "2066521694836330618",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$AAOI",
+        "symbol": "AAOI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "photonics theme thesis playing out"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$EWY",
+        "symbol": "EWY",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "memory theme thesis playing out"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$NBIS",
+        "symbol": "NBIS",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "neocloud theme thesis playing out",
+          "reaching ATHs",
+          "could end up like AWS one day"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$IREN",
+        "symbol": "IREN",
+        "stance": "bearish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "$6B of constant selling pressure from the ATM",
+          "still stagnant"
+        ],
+        "is_risk": true,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$MU",
+        "symbol": "MU",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "could end up like a mini NVDA if memory demand is structural"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "SK Hynix",
+        "symbol": "SK Hynix",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "could end up like a mini NVDA if memory demand is structural"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Samsung",
+        "symbol": "Samsung",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "could end up like a mini NVDA if memory demand is structural"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$NVDA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.88,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066498742942159288": {
+    "tweet_id": "2066498742942159288",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "qualified and likely primary/sole source with JBL and hyperscaler pluggable suppliers",
+          "supplies Ayar and NVDA NVLink CPO ecosystems",
+          "foundational reference laser for GFS and pluggable/CPO/NPO deployments",
+          "current valuations attractive relative to positioning",
+          "massive number of hyperscaler suppliers for 2027-2028",
+          "potential NASDAQ listing enabling M&A and TAM expansion",
+          "each laser sold becomes more valuable with vertical integration"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$JBL",
+        "symbol": "JBL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$NVDA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$GFS",
+        "symbol": "GFS",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AMD",
+        "symbol": "AMD",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$POET",
+        "symbol": "POET",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066499830697107960": {
+    "tweet_id": "2066499830697107960",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Win Semi",
+        "symbol": "WIN",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.7,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066503764476150010": {
+    "tweet_id": "2066503764476150010",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "likely laser ramping with AEVA soon",
+          "likely ramping with AAPL for next Apple Watch refresh",
+          "AI DCs for photonics are main focus",
+          "Apple revenue is cherry on top of core AI DC business"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$AEVA",
+        "symbol": "AEVA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AAPL",
+        "symbol": "AAPL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.92,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066509405634597036": {
+    "tweet_id": "2066509405634597036",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "likely primary source for Ayar first gen after MTSI and LITE removed",
+          "qualified into many different hyperscaler supply chains",
+          "revenue expected to be extremely material when volume ramp happens",
+          "JBL and other pluggable players use SIVE",
+          "O-Net producing ELS with SIVE for Asian supply chains"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$MTSI",
+        "symbol": "MTSI",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$MRVL",
+        "symbol": "MRVL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$JBL",
+        "symbol": "JBL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AAOI",
+        "symbol": "AAOI",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AEHR",
+        "symbol": "AEHR",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.92,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066435132471513578": {
+    "tweet_id": "2066435132471513578",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$IQE",
+        "symbol": "IQE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.7,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066436773895623109": {
+    "tweet_id": "2066436773895623109",
+    "has_investment_content": false,
+    "tickers": [
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.8,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066421816793714938": {
+    "tweet_id": "2066421816793714938",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$IQE",
+        "symbol": "IQE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "important to Western optical supply chains",
+          "multi year InP epiwafer deal with Tower Semi",
+          "MTSI had to secure supply with IQE"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$TSEM",
+        "symbol": "TSEM",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$MTSI",
+        "symbol": "MTSI",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.92,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066404298163154976": {
+    "tweet_id": "2066404298163154976",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Foosung (093370)",
+        "symbol": "093370",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "major winner from bottleneck created by Chinese export controls on Japan",
+          "21% gain in a day from spotted bottleneck"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      }
+    ],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066360345774764496": {
+    "tweet_id": "2066360345774764496",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$WOLF",
+        "symbol": "WOLF",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SPCX",
+        "symbol": "SPCX",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.82,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066361895595192583": {
+    "tweet_id": "2066361895595192583",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "EU macro positive",
+          "laser group up from InP bottleneck easing",
+          "possible Nasdaq listing timeline announcement"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066368351367311465": {
+    "tweet_id": "2066368351367311465",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$WOLF",
+        "symbol": "WOLF",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066340661633372452": {
+    "tweet_id": "2066340661633372452",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$AXTI",
+        "symbol": "AXTI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "InP substrate export easing relieves mass production bottlenecks",
+          "substrates company benefits from more capacity",
+          "part of his optical positions"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$IQE",
+        "symbol": "IQE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "InP substrate export easing relieves mass production bottlenecks",
+          "epiwafers company benefits from more capacity",
+          "part of his optical positions"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AAOI",
+        "symbol": "AAOI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "InP substrate export easing relieves mass production bottlenecks",
+          "laser company benefits from ability to make more",
+          "part of his optical positions"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "InP substrate export easing relieves mass production bottlenecks",
+          "part of his optical positions"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "InP substrate export easing relieves mass production bottlenecks",
+          "part of his optical positions"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "VPEC",
+        "symbol": "VPEC",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "Taiwanese optical player expected to benefit from InP substrate export easing"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Landmark",
+        "symbol": "Landmark",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "Taiwanese optical player expected to benefit from InP substrate export easing"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.92,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066349181212742113": {
+    "tweet_id": "2066349181212742113",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$POET",
+        "symbol": "POET",
+        "stance": "bearish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "sitting on too much cash after another $400m private placement",
+          "not a fan of POET",
+          "tech may not get qualified into hyperscalers"
+        ],
+        "is_risk": true,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066349585652666382": {
+    "tweet_id": "2066349585652666382",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Leaderdrive (688017)",
+        "symbol": "688017",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "still likes it",
+          "long term idea"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.92,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066331049605627951": {
+    "tweet_id": "2066331049605627951",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$NVDA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$GOOGL",
+        "symbol": "GOOGL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Delta Electronics (2308)",
+        "symbol": "2308",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$VRT",
+        "symbol": "VRT",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Song Chuan Precision (7788)",
+        "symbol": "7788",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Schneider Electric",
+        "symbol": "SCHNEIDER",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Eaton",
+        "symbol": "ETN",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Siemens",
+        "symbol": "SIEMENS",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066332819383824684": {
+    "tweet_id": "2066332819383824684",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$NVTS",
+        "symbol": "NVTS",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$POWI",
+        "symbol": "POWI",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$ON",
+        "symbol": "ON",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$WOLF",
+        "symbol": "WOLF",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AOSL",
+        "symbol": "AOSL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$XFAB",
+        "symbol": "XFAB",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "power semi exposure benefits from Q3 pull forward of 800V DC adoption",
+          "has exposure (disclosed holding)"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$NVTS",
+        "symbol": "NVTS",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "power semi exposure benefits from Q3 pull forward of 800V DC adoption",
+          "has exposure (disclosed holding, navitas)"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.82,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-15T16:26:47.074090+00:00"
   }
 }

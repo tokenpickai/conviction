@@ -9,8 +9,8 @@
   "industry": "Semiconductor Foundry",
   "thesis_summary": null,
   "first_mention": "2026-01-19",
-  "last_mention": "2026-06-14",
-  "total_mentions": 51,
+  "last_mention": "2026-06-15",
+  "total_mentions": 52,
   "mentions": [
     {
       "tweet_id": "2013376770121105710",
@@ -1268,6 +1268,30 @@
         "likes": 151,
         "reposts": 8,
         "replies": 41
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066498742942159288",
+      "date": "2026-06-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$GFS",
+      "text": "$SIVE is the next SIVE.\n\nDon’t think you’ll find another company.\n\nThat’s qualified and likely primary/sole source with:\n\n- $JBL and other pluggable hyperscaler suppliers \n- Ayar and the $NVDA NVLink CPO ecosystems\n\nWhile being the foundational reference laser for $GFS and pluggable/CPO/NPO deployments.\n\nThat hyperscalers like $AMD and others use, at current valuations.\n\nEven $POET buys $SIVE lasers and Poet is about the same valuation just off having one $50m purchase agreement. \n\nAmount of hyperscaler suppliers for 2027 into 2028 is just ridiculous. \n\nFrom the general meeting today in a few hours, we’ll hopefully see NASDAQ listing timelines confirmed.\n\nSo they can have room for M&A to TAM expansion and to make each laser they sell more valuable.\n\nFollowing what $LITE did to grow into a $75B company.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066498742942159288",
+      "kind": "post",
+      "engagement": {
+        "views": 355422,
+        "likes": 1308,
+        "reposts": 88,
+        "replies": 231
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

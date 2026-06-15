@@ -9,8 +9,8 @@
   "industry": "Bitcoin Miner→AI Datacenter (Neocloud)",
   "thesis_summary": null,
   "first_mention": "2025-08-31",
-  "last_mention": "2026-06-14",
-  "total_mentions": 433,
+  "last_mention": "2026-06-15",
+  "total_mentions": 434,
   "mentions": [
     {
       "tweet_id": "1962015302121848955",
@@ -11367,6 +11367,33 @@
         "likes": 151,
         "reposts": 8,
         "replies": 41
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066521694836330618",
+      "date": "2026-06-15",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "$6B of constant selling pressure from the ATM",
+        "still stagnant"
+      ],
+      "is_risk": true,
+      "conviction": null,
+      "raw_mention": "$IREN",
+      "text": "I’ve written a thesis on these 3 themes early on:\n\nNeoclouds, Photonics, and Memory.\n\nNow, it’s fun to sit back and watch all my thesis ideas play out from $AAOI to $EWY to $NBIS. \n\nEven got my warnings right too, $IREN is still stagnant due to the $6B of constant selling pressure from the ATM, while $NBIS reaches ATHs.\n\nBut the bagholders still don’t want to admit it.\n\nThink a core part is knowing what theme comes next with markets, then comes picking the winner + heavy concentration in them.\n\nIf you went long on software and chose the ideal stock, you’d probably end up not as happy? \n\nPhotonics is still probably the earliest out of the three.\n\nBut I can see Nebius end up like AWS one day.\n\nAnd $MU / SK Hynix / Samsung potentially end up like a mini $NVDA if memory demand is structural.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066521694836330618",
+      "kind": "post",
+      "engagement": {
+        "views": 191989,
+        "likes": 1299,
+        "reposts": 66,
+        "replies": 257
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

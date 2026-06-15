@@ -10,7 +10,7 @@
   "thesis_summary": null,
   "first_mention": "2026-05-25",
   "last_mention": "2026-06-14",
-  "total_mentions": 9,
+  "total_mentions": 10,
   "mentions": [
     {
       "tweet_id": "2058968617681899915",
@@ -268,6 +268,47 @@
         "likes": 151,
         "reposts": 8,
         "replies": 41
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066360345774764496",
+      "date": "2026-06-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SPCX",
+      "text": "Yep, very stupid to be a bear.\n\nWhen Trump is doing everything to boost markets before Midterms. \n\nOn top, your $WOLF power semi basket should go brrr from 800 VDC acceleration.\n\n$LITE optical basket should go brrr from InP easing.  \n\n$SPCX successful IPO gives more appetite to risk on themes/IPOs (eg. Space sector).  \n\nAnd overall macro go brr from War/Strait peace deals.\n\nIt’s already kind of showing, since 2026 rate hike odds also crashed from 65% -> 35% following the news. Along with crude futures dropping. \n\nI've actually found Europe to be the most price sensitive to Iran tensions, so EU markets would probably be the most bullish overall… \n\n(South Korea/TW was originally with Sk Hynix moving directly in correlation to crude oil futures, but stopped caring after awhile).\n\nBut basically: Murica go brrrr.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2066360182477856768",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK0vo06aoAAyXkd.jpg",
+          "width": 1260,
+          "height": 836,
+          "alt_text": null
+        },
+        {
+          "media_key": "3_2066360182444318720",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK0vo0ya4AAT56P.jpg",
+          "width": 1246,
+          "height": 920,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2066360345774764496",
+      "kind": "post",
+      "engagement": {
+        "views": 516811,
+        "likes": 1487,
+        "reposts": 95,
+        "replies": 214
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

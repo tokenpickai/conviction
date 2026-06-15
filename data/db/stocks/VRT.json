@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2025-11-20",
-  "last_mention": "2026-05-30",
-  "total_mentions": 12,
+  "last_mention": "2026-06-14",
+  "total_mentions": 13,
   "mentions": [
     {
       "tweet_id": "1991506376342843438",
@@ -315,6 +315,39 @@
         "likes": 1290,
         "reposts": 126,
         "replies": 130
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066331049605627951",
+      "date": "2026-06-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$VRT",
+      "text": "$NVDA and $GOOGL lead 800V DC ahead of schedule. \n\n\"Ahead of schedule\", pulled up to Q3 2026 with small volume shipments starting . \n\n- Delta Electronics (2308), $VRT\n- Song Chuan Precision (7788)\n- Schneider Electric, Eaton, Siemens.\n\nAll flagged as beneficiaries. \n\n\"Market sources indicate that Nvidia’s Vera Rubin platform and Google’s next-generation AI data centers will be the first to adopt the technology\"\n\nSource: Commercial Times \n\nThe power semi trade should be happy to hear this.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2066330134790172672",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK0UT0jacAAay8k.jpg",
+          "width": 1767,
+          "height": 1094,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2066331049605627951",
+      "kind": "post",
+      "engagement": {
+        "views": 689939,
+        "likes": 1172,
+        "reposts": 106,
+        "replies": 210
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

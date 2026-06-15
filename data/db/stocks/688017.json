@@ -1,6 +1,6 @@
 {
   "ticker": "688017",
-  "cashtag": "LeaderDrive",
+  "cashtag": "Leaderdrive (688017)",
   "price_symbol": "688017",
   "exchange": "US",
   "currency": "USD",
@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-06-04",
-  "last_mention": "2026-06-08",
-  "total_mentions": 8,
+  "last_mention": "2026-06-14",
+  "total_mentions": 9,
   "mentions": [
     {
       "tweet_id": "2062723902728802341",
@@ -223,6 +223,33 @@
         "likes": 202,
         "reposts": 4,
         "replies": 58
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066349585652666382",
+      "date": "2026-06-14",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "still likes it",
+        "long term idea"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "Leaderdrive (688017)",
+      "text": "@LuBtc888 I still like Leaderdrive (688017) from earlier this month, these are long term ideas I'm sharing!",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066349585652666382",
+      "kind": "reply",
+      "engagement": {
+        "views": 26397,
+        "likes": 76,
+        "reposts": 6,
+        "replies": 24
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

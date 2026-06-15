@@ -1,6 +1,6 @@
 {
   "ticker": "093370",
-  "cashtag": "후성(093370)",
+  "cashtag": "Foosung (093370)",
   "price_symbol": "093370",
   "exchange": "US",
   "currency": "USD",
@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-06-13",
-  "last_mention": "2026-06-13",
-  "total_mentions": 2,
+  "last_mention": "2026-06-15",
+  "total_mentions": 3,
   "mentions": [
     {
       "tweet_id": "2065736884752703865",
@@ -75,6 +75,42 @@
         "likes": 799,
         "reposts": 44,
         "replies": 121
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066404298163154976",
+      "date": "2026-06-15",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "major winner from bottleneck created by Chinese export controls on Japan",
+        "21% gain in a day from spotted bottleneck"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "Foosung (093370)",
+      "text": "I did say Foosung (093370) was going to be a major winner from the bottleneck created by Chinese export controls on Japan…\n\nMost people chase 7.5% index returns, yet random bottlenecks spotted might be 21% in a day lol https://t.co/50znQb5Qei https://t.co/NOqBMzK7zM",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2066404285160820736",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK1Xv8NbEAAj2l5.jpg",
+          "width": 1063,
+          "height": 1051,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2066404298163154976",
+      "kind": "post",
+      "engagement": {
+        "views": 420914,
+        "likes": 867,
+        "reposts": 35,
+        "replies": 214
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

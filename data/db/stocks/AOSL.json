@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-04-22",
-  "last_mention": "2026-04-22",
-  "total_mentions": 1,
+  "last_mention": "2026-06-14",
+  "total_mentions": 2,
   "mentions": [
     {
       "tweet_id": "2047021963391238380",
@@ -32,6 +32,30 @@
         "likes": 97,
         "reposts": 4,
         "replies": 7
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066332819383824684",
+      "date": "2026-06-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AOSL",
+      "text": "@JSCC2020Lee Yep, $NVTS, $POWI, $ON, $WOLF, $AOSL $XFAB, and others with power semi exposure probably get a bump from q3 pull forward. \n\n(disclosure have exposure to xfab + navitas)",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066332819383824684",
+      "kind": "reply",
+      "engagement": {
+        "views": 37811,
+        "likes": 197,
+        "reposts": 14,
+        "replies": 16
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

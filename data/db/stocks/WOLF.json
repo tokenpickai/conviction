@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-01-18",
-  "last_mention": "2026-05-28",
-  "total_mentions": 12,
+  "last_mention": "2026-06-14",
+  "total_mentions": 15,
   "mentions": [
     {
       "tweet_id": "2012957864026087525",
@@ -321,6 +321,95 @@
         "likes": 1167,
         "reposts": 114,
         "replies": 219
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066332819383824684",
+      "date": "2026-06-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$WOLF",
+      "text": "@JSCC2020Lee Yep, $NVTS, $POWI, $ON, $WOLF, $AOSL $XFAB, and others with power semi exposure probably get a bump from q3 pull forward. \n\n(disclosure have exposure to xfab + navitas)",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066332819383824684",
+      "kind": "reply",
+      "engagement": {
+        "views": 37811,
+        "likes": 197,
+        "reposts": 14,
+        "replies": 16
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066360345774764496",
+      "date": "2026-06-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$WOLF",
+      "text": "Yep, very stupid to be a bear.\n\nWhen Trump is doing everything to boost markets before Midterms. \n\nOn top, your $WOLF power semi basket should go brrr from 800 VDC acceleration.\n\n$LITE optical basket should go brrr from InP easing.  \n\n$SPCX successful IPO gives more appetite to risk on themes/IPOs (eg. Space sector).  \n\nAnd overall macro go brr from War/Strait peace deals.\n\nIt’s already kind of showing, since 2026 rate hike odds also crashed from 65% -> 35% following the news. Along with crude futures dropping. \n\nI've actually found Europe to be the most price sensitive to Iran tensions, so EU markets would probably be the most bullish overall… \n\n(South Korea/TW was originally with Sk Hynix moving directly in correlation to crude oil futures, but stopped caring after awhile).\n\nBut basically: Murica go brrrr.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2066360182477856768",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK0vo06aoAAyXkd.jpg",
+          "width": 1260,
+          "height": 836,
+          "alt_text": null
+        },
+        {
+          "media_key": "3_2066360182444318720",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK0vo0ya4AAT56P.jpg",
+          "width": 1246,
+          "height": 920,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2066360345774764496",
+      "kind": "post",
+      "engagement": {
+        "views": 516811,
+        "likes": 1487,
+        "reposts": 95,
+        "replies": 214
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066368351367311465",
+      "date": "2026-06-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$WOLF",
+      "text": "@Joseph363555684 No positions in $WOLF right now, but I’m cheering it on anyway since it’s a core part of American supply chains. \n\nStill think financials are a bit toxic, but maybe with more market support + subsidies it will go brrr",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066368351367311465",
+      "kind": "reply",
+      "engagement": {
+        "views": 18928,
+        "likes": 93,
+        "reposts": 1,
+        "replies": 7
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

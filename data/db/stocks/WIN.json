@@ -1,6 +1,6 @@
 {
   "ticker": "WIN",
-  "cashtag": "Win",
+  "cashtag": "Win Semi",
   "price_symbol": "WIN",
   "exchange": "US",
   "currency": "USD",
@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-04-02",
-  "last_mention": "2026-05-12",
-  "total_mentions": 7,
+  "last_mention": "2026-06-15",
+  "total_mentions": 8,
   "mentions": [
     {
       "tweet_id": "2039709630217994270",
@@ -191,6 +191,30 @@
         "likes": 106,
         "reposts": 3,
         "replies": 5
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066499830697107960",
+      "date": "2026-06-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Win Semi",
+      "text": "@asianinvestors No, Win Semi and multiple other foundries are handling laser volume ramp.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066499830697107960",
+      "kind": "reply",
+      "engagement": {
+        "views": 15556,
+        "likes": 144,
+        "reposts": 2,
+        "replies": 8
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

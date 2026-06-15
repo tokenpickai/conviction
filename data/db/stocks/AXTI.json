@@ -10,7 +10,7 @@
   "thesis_summary": "他看好 AXT 的磷化铟基板地位,称其为 CPO 产业链上游卡位,已有 500%+ 浮盈。",
   "first_mention": "2025-12-22",
   "last_mention": "2026-06-14",
-  "total_mentions": 517,
+  "total_mentions": 518,
   "mentions": [
     {
       "tweet_id": "2003040048930074770",
@@ -13666,6 +13666,51 @@
         "likes": 151,
         "reposts": 8,
         "replies": 41
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066340661633372452",
+      "date": "2026-06-14",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "InP substrate export easing relieves mass production bottlenecks",
+        "substrates company benefits from more capacity",
+        "part of his optical positions"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AXTI",
+      "text": "Today, there's a new report that China eased InP substrate exports. \n\nWhich is expected to relieve mass production bottlenecks in the photonics market (source: Digitimes)\n\nMy optical positions are very happy to hear this:\n\nFrom $AXTI (substrates), $IQE (epiwafers) to $AAOI (lasers) / $LITE / $SIVE, and others. \n\nTaiwanese optical players like VPEC, Landmark, and others should go brrr as well. \n\nJust to recap: the photonics market, especially for laser companies is moreso \"how much can you make\" rather than how much demand is there. \n\nInP substrates was one of the main bottlenecks affecting upstream capacity.   \n\nSo if you're able to make more = more revenue.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2066335663856005121",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK0ZVp7bsAEiM8P.jpg",
+          "width": 1641,
+          "height": 913,
+          "alt_text": null
+        },
+        {
+          "media_key": "3_2066340425468981248",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK0dq0UbsAAD5IE.jpg",
+          "width": 1656,
+          "height": 1154,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2066340661633372452",
+      "kind": "post",
+      "engagement": {
+        "views": 323023,
+        "likes": 1354,
+        "reposts": 135,
+        "replies": 200
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

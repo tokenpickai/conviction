@@ -1,6 +1,6 @@
 {
   "ticker": "LITE",
-  "cashtag": "$LITE",
+  "cashtag": "Lumentum",
   "price_symbol": "LITE",
   "exchange": "US",
   "currency": "USD",
@@ -9,8 +9,8 @@
   "industry": "Optical Comms/CPO",
   "thesis_summary": "他视 Lumentum 为 CPO 战略受益者,认为已大幅上涨但仍有空间,是光通信主线标的。",
   "first_mention": "2025-10-25",
-  "last_mention": "2026-06-14",
-  "total_mentions": 487,
+  "last_mention": "2026-06-15",
+  "total_mentions": 493,
   "mentions": [
     {
       "tweet_id": "1981968303271592379",
@@ -12237,6 +12237,187 @@
         "likes": 151,
         "reposts": 8,
         "replies": 41
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066340661633372452",
+      "date": "2026-06-14",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "InP substrate export easing relieves mass production bottlenecks",
+        "part of his optical positions"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$LITE",
+      "text": "Today, there's a new report that China eased InP substrate exports. \n\nWhich is expected to relieve mass production bottlenecks in the photonics market (source: Digitimes)\n\nMy optical positions are very happy to hear this:\n\nFrom $AXTI (substrates), $IQE (epiwafers) to $AAOI (lasers) / $LITE / $SIVE, and others. \n\nTaiwanese optical players like VPEC, Landmark, and others should go brrr as well. \n\nJust to recap: the photonics market, especially for laser companies is moreso \"how much can you make\" rather than how much demand is there. \n\nInP substrates was one of the main bottlenecks affecting upstream capacity.   \n\nSo if you're able to make more = more revenue.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2066335663856005121",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK0ZVp7bsAEiM8P.jpg",
+          "width": 1641,
+          "height": 913,
+          "alt_text": null
+        },
+        {
+          "media_key": "3_2066340425468981248",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK0dq0UbsAAD5IE.jpg",
+          "width": 1656,
+          "height": 1154,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2066340661633372452",
+      "kind": "post",
+      "engagement": {
+        "views": 323023,
+        "likes": 1354,
+        "reposts": 135,
+        "replies": 200
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066360345774764496",
+      "date": "2026-06-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$LITE",
+      "text": "Yep, very stupid to be a bear.\n\nWhen Trump is doing everything to boost markets before Midterms. \n\nOn top, your $WOLF power semi basket should go brrr from 800 VDC acceleration.\n\n$LITE optical basket should go brrr from InP easing.  \n\n$SPCX successful IPO gives more appetite to risk on themes/IPOs (eg. Space sector).  \n\nAnd overall macro go brr from War/Strait peace deals.\n\nIt’s already kind of showing, since 2026 rate hike odds also crashed from 65% -> 35% following the news. Along with crude futures dropping. \n\nI've actually found Europe to be the most price sensitive to Iran tensions, so EU markets would probably be the most bullish overall… \n\n(South Korea/TW was originally with Sk Hynix moving directly in correlation to crude oil futures, but stopped caring after awhile).\n\nBut basically: Murica go brrrr.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2066360182477856768",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK0vo06aoAAyXkd.jpg",
+          "width": 1260,
+          "height": 836,
+          "alt_text": null
+        },
+        {
+          "media_key": "3_2066360182444318720",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK0vo0ya4AAT56P.jpg",
+          "width": 1246,
+          "height": 920,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2066360345774764496",
+      "kind": "post",
+      "engagement": {
+        "views": 516811,
+        "likes": 1487,
+        "reposts": 95,
+        "replies": 214
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066361895595192583",
+      "date": "2026-06-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$LITE",
+      "text": "@hisarchive lol I’m super bullish on my $SIVE position too.\n\n&gt; EU macro positive\n&gt; $LITE + laser group up 4-6% overnight trading from InP bottleneck easing\n&gt; possible Nasdaq listing timeline announcement today\n\nWe’ll see what happens.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066361895595192583",
+      "kind": "reply",
+      "engagement": {
+        "views": 113254,
+        "likes": 367,
+        "reposts": 21,
+        "replies": 22
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066498742942159288",
+      "date": "2026-06-15",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$LITE",
+      "text": "$SIVE is the next SIVE.\n\nDon’t think you’ll find another company.\n\nThat’s qualified and likely primary/sole source with:\n\n- $JBL and other pluggable hyperscaler suppliers \n- Ayar and the $NVDA NVLink CPO ecosystems\n\nWhile being the foundational reference laser for $GFS and pluggable/CPO/NPO deployments.\n\nThat hyperscalers like $AMD and others use, at current valuations.\n\nEven $POET buys $SIVE lasers and Poet is about the same valuation just off having one $50m purchase agreement. \n\nAmount of hyperscaler suppliers for 2027 into 2028 is just ridiculous. \n\nFrom the general meeting today in a few hours, we’ll hopefully see NASDAQ listing timelines confirmed.\n\nSo they can have room for M&A to TAM expansion and to make each laser they sell more valuable.\n\nFollowing what $LITE did to grow into a $75B company.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066498742942159288",
+      "kind": "post",
+      "engagement": {
+        "views": 355422,
+        "likes": 1308,
+        "reposts": 88,
+        "replies": 231
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066509405634597036",
+      "date": "2026-06-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$LITE",
+      "text": "Ayar started off multi-sourcing with $MTSI and $LITE. \n\nThen removed them from their website and likely made $SIVE primary source (likely for first gen). \n\nIt's every hyperscaler supplier intention to multi-source, there's nothing material being added there. \n\nAyar is one of the bigger CPO players, but if CPO mapping is correct more revenue should come from $MRVL Celestial, maybe Lightmatter/Lightelligence. \n\nAyar is also just one customer of many... This is not even including $JBL + other pluggable players that use $SIVE. \n\nOr even O-Net producing ELS with $SIVE for Asian supply chains.\n\nNobody can accurately estimate revenues right now, it's just that they've been qualified into so many different hyperscaler supply chains like what I've done previously with $AAOI or $AEHR. \n\nThat when volume ramp happens... And it's a hyperscaler supplier, you expect revenue numbers to be extremely material.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066509405634597036",
+      "kind": "reply",
+      "engagement": {
+        "views": 10312,
+        "likes": 115,
+        "reposts": 4,
+        "replies": 2
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066535221554733278",
+      "date": "2026-06-15",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Lumentum",
+      "text": "Just as a recap, these were all my core European longs:\n\n1. $SIVE\n2. $LPK\n3. $SOI\n4. $RPI \n5. $IQE\n6. $ALRIB\n7. $XFAB\n\nSivers: As you know by now, core laser chokepoint over next generation photonics, from 1.6T pluggables to CPO.\n\nEmbedded in many hyperscaler suppliers from Jabil to Ayar. Should go brrr 2027 but markets are forward looking, so ramps + qualifications should get priced in now. \n\nLPK Laser - Glass core substrate \"monopoly\" with LIDE. \n\n\"More than 80% of major global players have selected our equipment for process validation, learning and scaling to mass production\"\n\nSoitec - Silicon photonics SoI substrate pure monopoly while coming out of legacy drag segments.  \n\nRaspberry Pi - Was my fun idea around Raspberry Pis being used for AI hardware deployments. \n\nPreviously this thing was mainly educational or hobby boards, but now used for edge/local AI. Just thought revenue increase would be extremely material and it played out well. \n\nIQE - Critical epiwafer player for your Western photonics like Macom, Tower, Lumentum, and others. \n\nWas kinda going under, but thought their latent capacity relative to Landmark was undervalued. \n\nAlso given how important it was, I thought that your downstream players + Govs wouldn't let it go under, so it was more of a moonshot idea earlier in the year. \n\nLot more derisked now, very important.\n\nRiber - Kinda monopoly in the MBE space, exposure to Quantum / quantum dot + silicon photonics. \n\nFound out from OSINT help from a friend latentvalue that Microsoft Quantum was buying their machines, so this was direct hyperscaler validation + kinda de-risked at current MCs.\n\nXFab - SiC foundry backed by EU/US CHIPS Act with power semi upside. (152% Y/Y growth for their sic vertical). \n\nMain growth was their silicon photonics foundry past 2027 that's getting evaled by nvidia. And that they're leading Europe's value chain efforts in photonics, kinda like an early tower semi. \n\nWe'll see how this plays out, thought power semi exposure + low P/B would derisk the company until they scale their photbunchonics efforts. \n\nFrom my own personal thoughts:\n\nOut of the  maybe $SOI has already been re-rated the most? But I'm holding anyway. \n\n$LPK and $ALRIB I think are still undervalued despite their monopolies. \n\n$RPI is just kinda seeing how things go at this point, would be hilarious if they ended up like a mini nvidia for low end edge ai. \n\n$IQE probably has a long way to go given new tower long term agreement, alongside macom. And if they convert latent capacity, I still think it has a chance of rerating like landmark. \n\n$XFAB idk if im missing something or are markets missing something. you have nvidia as a direct eval of their silicon photonics foundry, and it's trading below replacement P/B. i think im right though. \n\n$SIVE I see has the highest upside out of all of them given laser company ability to vertically integrate, acquire companies downstream to make their lasers more valuable, etc. Just like coherent/lumentum. \n\nThere's like 1-2 more random ones that aren't really material, but just in general.\n\nThese are the ones I've liked the most.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066535221554733278",
+      "kind": "post",
+      "engagement": {
+        "views": 196486,
+        "likes": 1101,
+        "reposts": 100,
+        "replies": 195
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
