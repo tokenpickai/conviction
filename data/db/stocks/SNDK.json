@@ -4219,7 +4219,13 @@
     {
       "date": "2026-06-12",
       "close": 1980.1
+    },
+    {
+      "date": "2026-06-15",
+      "close": 2107.8601
     }
   ],
-  "price_status": "ok"
+  "price_status": "ok",
+  "price_unit": "USD",
+  "price_updated_at": "2026-06-16T15:33:25.373781+00:00"
 }

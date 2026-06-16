@@ -952,5 +952,7 @@
     }
   ],
   "price_series": [],
-  "price_status": "pending"
+  "price_status": "not_covered",
+  "price_unit": "TWD",
+  "price_updated_at": "2026-06-16T15:34:16.878821+00:00"
 }
