@@ -214623,5 +214623,835 @@
     "extractor_model": "claude-opus-4-6",
     "prompt_version": "extract-v2",
     "extracted_at": "2026-06-15T16:26:47.074090+00:00"
+  },
+  "2066791570569916832": {
+    "tweet_id": "2066791570569916832",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$MU",
+        "symbol": "MU",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "predicted it would be the next NVDA",
+          "memory theme playing out well",
+          "$1.23T market cap reached"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$NVDA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Samsung Electronics",
+        "symbol": "Samsung Electronics",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Sk Hynix",
+        "symbol": "SK Hynix",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SNDK",
+        "symbol": "SNDK",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "put more concentration into memory theme"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$EWY",
+        "symbol": "EWY",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "longs are up a lot"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066792646778253330": {
+    "tweet_id": "2066792646778253330",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$EWY",
+        "symbol": "EWY",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "leaps are up a similar amount",
+          "2028 dated leaps",
+          "insane gains on South Korean index"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      }
+    ],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066794162507387073": {
+    "tweet_id": "2066794162507387073",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$AMD",
+        "symbol": "AMD",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "would not be surprised if AMD signed LTAs with SIVE",
+          "Trendforce report that AMD trying to secure CW laser capacity"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066919948212195832": {
+    "tweet_id": "2066919948212195832",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$MU",
+        "symbol": "MU",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "modeled gross margins way ahead of time and got it spot on",
+          "priced in earnings ahead of time",
+          "more DRAM/NAND hikes followed"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066868456457416871": {
+    "tweet_id": "2066868456457416871",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$GOOGL",
+        "symbol": "GOOGL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AMZN",
+        "symbol": "AMZN",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$MSFT",
+        "symbol": "MSFT",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$META",
+        "symbol": "META",
+        "stance": "bearish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "more lukewarm on META for funding AI capex sustainability"
+        ],
+        "is_risk": true,
+        "conviction_signal": "low"
+      },
+      {
+        "raw_mention": "$ORCL",
+        "symbol": "ORCL",
+        "stance": "bearish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "very iffy about ORCL for funding AI capex sustainability"
+        ],
+        "is_risk": true,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$CRWV",
+        "symbol": "CRWV",
+        "stance": "bearish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "sees bubbles forming around debt interest",
+          "OpenAI contagion risk"
+        ],
+        "is_risk": true,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$NVDA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AMD",
+        "symbol": "AMD",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "doesn't see a bubble in upstream semiconductors",
+          "profit from buildout would be insane to make up for capex decreasing"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$CBRS",
+        "symbol": "CBRS",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$MU",
+        "symbol": "MU",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AVGO",
+        "symbol": "AVGO",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.82,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066838650193949091": {
+    "tweet_id": "2066838650193949091",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SPCX",
+        "symbol": "SPCX",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.8,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066839512244953460": {
+    "tweet_id": "2066839512244953460",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SPCX",
+        "symbol": "SPCX",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$NBIS",
+        "symbol": "NBIS",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066823176785457323": {
+    "tweet_id": "2066823176785457323",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$AXTI",
+        "symbol": "AXTI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "mapped InP substrate supply chain",
+          "tracked high purity indium pricing",
+          "modeled game theory around bottleneck hikes/supply shocks",
+          "Reuters confirmed InP substrates can halt AI buildout",
+          "still holding shares"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066825876097134659": {
+    "tweet_id": "2066825876097134659",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$IREN",
+        "symbol": "IREN",
+        "stance": "bearish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "excessive ATMs"
+        ],
+        "is_risk": false,
+        "conviction_signal": "low"
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066834785264337018": {
+    "tweet_id": "2066834785264337018",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Foci",
+        "symbol": "FOCI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "still holding",
+          "thinks Foci will end up a bottleneck for TSM COUPE / NVDA"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "Nextronics",
+        "symbol": "NEXTRONICS",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "still holding",
+          "beneficiary of optical components relative to MC in NVDA supply chains"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$NVDA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$TSM",
+        "symbol": "TSM",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066785056031670657": {
+    "tweet_id": "2066785056031670657",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$AAOI",
+        "symbol": "AAOI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "directionally his thematic ideas turned out correct",
+          "ideas from early theme still playing out"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AXTI",
+        "symbol": "AXTI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "directionally his thematic ideas turned out correct"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "feels like dejavu seeing current $3B MC optical longs",
+          "compares to earlier successful picks at similar stage"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066785528259969485": {
+    "tweet_id": "2066785528259969485",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$AAOI",
+        "symbol": "AAOI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "ideas from memory to photonics are still playing out"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066786172677075072": {
+    "tweet_id": "2066786172677075072",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$AXTI",
+        "symbol": "AXTI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "every single photonics idea went up triple % digits",
+          "got the entire theme + supply chain right"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      }
+    ],
+    "confidence": 0.88,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066787468960305646": {
+    "tweet_id": "2066787468960305646",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Shunsin",
+        "symbol": "SHUNSIN",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "should benefit the fastest given H2 scale out with Foxconn"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "Win Semi",
+        "symbol": "WIN_SEMI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "great regardless but benefits from photonics vertical"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "Foci",
+        "symbol": "FOCI",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Msscorps",
+        "symbol": "MSSCORPS",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AXTI",
+        "symbol": "AXTI",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.8,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066789172774592611": {
+    "tweet_id": "2066789172774592611",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "potential to be the next $75B LITE if they follow same M&A route after NASDAQ listing"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066707573139763211": {
+    "tweet_id": "2066707573139763211",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$AMD",
+        "symbol": "AMD",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$NVDA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "CW laser beneficiary",
+          "AMD went to GFS for CPO, Sivers reference laser level",
+          "owns position"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$AAOI",
+        "symbol": "AAOI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "CW laser beneficiary",
+          "Rosenblatt analyst checks",
+          "owns position"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "Lumentum",
+        "symbol": "LITE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Coherent",
+        "symbol": "COHR",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Macom",
+        "symbol": "MTSI",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066751027702079858": {
+    "tweet_id": "2066751027702079858",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$NVDA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$COHR",
+        "symbol": "COHR",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$MRVL",
+        "symbol": "MRVL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AMD",
+        "symbol": "AMD",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AMZN",
+        "symbol": "AMZN",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$META",
+        "symbol": "META",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AAOI",
+        "symbol": "AAOI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "one of few merchant CW laser players others need to fight over"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$MTSI",
+        "symbol": "MTSI",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "one of few merchant CW laser players others need to fight over"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.88,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066700296693424329": {
+    "tweet_id": "2066700296693424329",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.99,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066687870791024821": {
+    "tweet_id": "2066687870791024821",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.99,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2066676986324648239": {
+    "tweet_id": "2066676986324648239",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SPCX",
+        "symbol": "SPCX",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.7,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-16T18:20:35.290458+00:00"
   }
 }

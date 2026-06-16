@@ -9,8 +9,8 @@
   "industry": "Bitcoin Miner→AI Datacenter (Neocloud)",
   "thesis_summary": null,
   "first_mention": "2025-08-31",
-  "last_mention": "2026-06-15",
-  "total_mentions": 434,
+  "last_mention": "2026-06-16",
+  "total_mentions": 435,
   "mentions": [
     {
       "tweet_id": "1962015302121848955",
@@ -11397,6 +11397,32 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066825876097134659",
+      "date": "2026-06-16",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "excessive ATMs"
+      ],
+      "is_risk": false,
+      "conviction": "low",
+      "raw_mention": "$IREN",
+      "text": "@hoarderresearch yep, trying my best! Always a fun time to get anonymous threats of violence when i post about $IREN excessive ATMs from time to time.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066825876097134659",
+      "kind": "reply",
+      "engagement": {
+        "views": 13435,
+        "likes": 140,
+        "reposts": 0,
+        "replies": 13
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -12193,7 +12219,5 @@
       "close": 60.85
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-16T15:33:08.203855+00:00"
+  "price_status": "ok"
 }

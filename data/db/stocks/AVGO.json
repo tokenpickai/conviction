@@ -9,8 +9,8 @@
   "industry": "AI ASIC/Networking Chips",
   "thesis_summary": null,
   "first_mention": "2025-09-09",
-  "last_mention": "2026-06-06",
-  "total_mentions": 139,
+  "last_mention": "2026-06-16",
+  "total_mentions": 140,
   "mentions": [
     {
       "tweet_id": "1965451719078527468",
@@ -3441,6 +3441,30 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066868456457416871",
+      "date": "2026-06-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AVGO",
+      "text": "Just some random thoughts, I do think AI is the most disruptive technology in human history. \n\nTo the level of agricultural or industrial revolution.\n\nSince Anthropic, OpenAi, XAI, and others are racing to build superintelligence. \n\nThe amount of economic impact can't be measured if AI helps find cures for cancer or accelerates discovery for Quantum Computing. \n\nOr if AI end up displacing the workforce, which increases profitability for companies. \n\nThe US Gov has every incentive to keep the buildout going too, as the implications from Warfare, Cybersecurity, is also immeasurable if China takes the lead. \n\nSo there's likely to be incentives and subsidies to win, even if there's not enough profit derived LLM training/inference. \n\nAs for sustainability, when you look upstream, $GOOGL is able to fund it majorly with their own cashflow, same with $AMZN, $MSFT. \n\nMore lukewarm on $META. Very iffy about $ORCL. \n\nBut I do see some bubbles forming around debt interest like $CRWV.\n\nMaybe circular valuations that's happening with OpenAI backlog agreements or $NVDA / $AMD agreements with Neoclouds to buy their GPUs.\n\nBut as seen with $MSFT and having OpenAI be a major part of the backlog, it did correct off the information, so \"bubbles\" like that do pop despite the overall markets increasing.\n\nDefinitely don't see a bubble in upstream semiconductors from $LITE to Sk Hynix though since the amount of profit they get from the buildout would likely be insane to make up for capex decreasing. \n\nOpenAI was actually my biggest fear from contagion, eg. $CRWV, $CBRS and others, but they just raised a lot.\n\nSo think it will be fine for another 1 1/2 years of capex, especially if they IPO this year. \n\nI also don't think we'll get massive Fed tightening despite \"predictions\" since this will trigger a contagion since many of these players rely heavily on debt. \n\nAnd although the Fed is independent, don't think Trump would have supported someone who is against his administration goals.  \n\nAs for semiconductor valuations going up every day like $AMD or $MU, there's probably going to be some corrections here and there. Everything going up together is kinda unhealthy. \n\nCan't time the capex peak but just from $AVGO and other projections, it just keeps accelerating exponentially into 2028. \n\nEspecially as everyone is starting to sign multi year agreements as well. \n\nOpenAI contagion / hyperscaler capex decreasing / fed tightening was what I'm looking out for, and no blaring signs of any of those yet. \n\nSo I think the music will keep playing for this year at the bare minimum.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066868456457416871",
+      "kind": "post",
+      "engagement": {
+        "views": 394012,
+        "likes": 1715,
+        "reposts": 161,
+        "replies": 264
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -4217,7 +4241,5 @@
       "close": 393.94
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-16T15:33:28.573748+00:00"
+  "price_status": "ok"
 }

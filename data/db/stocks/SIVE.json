@@ -9,8 +9,8 @@
   "industry": "AI Photonics/CPO Lasers",
   "thesis_summary": "他把 SIVE 当作硅光/CPO 的上游激光瓶颈,反复强调它是产业链核心受益者,通过 POET 供货给 Ayar、Celestial 等光引擎厂商。",
   "first_mention": "2025-12-23",
-  "last_mention": "2026-06-15",
-  "total_mentions": 680,
+  "last_mention": "2026-06-16",
+  "total_mentions": 685,
   "mentions": [
     {
       "tweet_id": "2003604861414408240",
@@ -18747,6 +18747,149 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066707573139763211",
+      "date": "2026-06-15",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "CW laser beneficiary",
+        "AMD went to GFS for CPO, Sivers reference laser level",
+        "owns position"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$SIVE",
+      "text": "New reports that $AMD is scrambling for CW laser supply. \n\nAnd is negotiating large-scale purchase orders for CW Lasers to ensure its production capacity is not constrained by $NVDA (Trendforce)\n\nObvious CW laser beneficiaries: \n- $SIVE (AMD went to GFS for CPO, Sivers reference laser level)\n- $AAOI (Rosenblatt analyst checks)\n\nLumentum/Coherent are kinda booked out way into 2028 as well. \n\nLumentum is especially constrained for CW capacity already from existing EML contracts (so they probably are buying from Sumitomo/Furukawa and co). \n\nMaybe Macom and Japanese giants still have spare capacity. (disclosure, own aaoi/sivers).\n\nI predicted this last year and said hyperscalers should go more upstream to secure capacity... at laser levels, epiwafer levels, or even inp substrate levels. \n\nTo not get bottlenecked by Nvidia.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2066707560393322496",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK5rk4fbsAAHD25.jpg",
+          "width": 1200,
+          "height": 443,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2066707573139763211",
+      "kind": "post",
+      "engagement": {
+        "views": 508310,
+        "likes": 1924,
+        "reposts": 185,
+        "replies": 319
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066751027702079858",
+      "date": "2026-06-16",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "one of few merchant CW laser players others need to fight over"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$SIVE",
+      "text": "Other way around, $NVDA bottlenecked the entire industry for EML capacity.\n\nAnd did the same with CW capacity ONCE AGAIN with $LITE, $COHR, and $MRVL (if they have LTA in place with Celestial)\n\nI said this a few months ago, we'd see this exact same playbook. But $AMD, $AMZN, $META, and others are just so stupidly slow that they let themselves get bottlenecked.\n\nNow there's only a few merchant players like $AAOI, $MTSI, and $SIVE that they all need to fight over.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066751027702079858",
+      "kind": "reply",
+      "engagement": {
+        "views": 21409,
+        "likes": 160,
+        "reposts": 9,
+        "replies": 6
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066785056031670657",
+      "date": "2026-06-16",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "feels like dejavu seeing current $3B MC optical longs",
+        "compares to earlier successful picks at similar stage"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$SIVE",
+      "text": "Fun throwback to random ideas back in 2025.\n\nBack then, $AAOI was $2B MC, $LITE was a $26B MC, $AXTI was $500M\n\nNow:\n- AAOI is $15.37B\n- Lumentum is $74.47B\n- AXT is $7.24B\n\nWas working off less information back then, given it was an early theme. \n\nObviously nuances with ASIC programs might have been missed as more details came out. \n\nBut directionally, glad thematically my ideas turned out correct. \n\nFeels like dejavu seeing current $3B MC optical longs like $SIVE.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066785056031670657",
+      "kind": "post",
+      "engagement": {
+        "views": 351076,
+        "likes": 1021,
+        "reposts": 54,
+        "replies": 195
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066789172774592611",
+      "date": "2026-06-16",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "potential to be the next $75B LITE if they follow same M&A route after NASDAQ listing"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "$SIVE",
+      "text": "@aletir99 When has US investors ever cared about what people in Sweden think?\n\nI still think $SIVE has the potential to be the next $75B $LITE if they follow the same M&amp;A route after NASDAQ Listing.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066789172774592611",
+      "kind": "reply",
+      "engagement": {
+        "views": 46052,
+        "likes": 251,
+        "reposts": 15,
+        "replies": 9
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066794162507387073",
+      "date": "2026-06-16",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "would not be surprised if AMD signed LTAs with SIVE",
+        "Trendforce report that AMD trying to secure CW laser capacity"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$SIVE",
+      "text": "@beauty_oe Yep, I would not be surprised if $AMD signed LTAs with $SIVE given the new Trendforce report that they're going around trying to secure CW laser capacity.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066794162507387073",
+      "kind": "reply",
+      "engagement": {
+        "views": 56686,
+        "likes": 270,
+        "reposts": 13,
+        "replies": 11
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -19187,7 +19330,5 @@
       "close": 78.8
     }
   ],
-  "price_status": "partial",
-  "price_unit": "SEK",
-  "price_updated_at": "2026-06-16T15:33:02.550970+00:00"
+  "price_status": "partial"
 }

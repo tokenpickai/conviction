@@ -9,8 +9,8 @@
   "industry": "Optical Modules",
   "thesis_summary": null,
   "first_mention": "2025-12-11",
-  "last_mention": "2026-06-15",
-  "total_mentions": 421,
+  "last_mention": "2026-06-16",
+  "total_mentions": 425,
   "mentions": [
     {
       "tweet_id": "1999240464420250042",
@@ -11230,6 +11230,122 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066707573139763211",
+      "date": "2026-06-15",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "CW laser beneficiary",
+        "Rosenblatt analyst checks",
+        "owns position"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$AAOI",
+      "text": "New reports that $AMD is scrambling for CW laser supply. \n\nAnd is negotiating large-scale purchase orders for CW Lasers to ensure its production capacity is not constrained by $NVDA (Trendforce)\n\nObvious CW laser beneficiaries: \n- $SIVE (AMD went to GFS for CPO, Sivers reference laser level)\n- $AAOI (Rosenblatt analyst checks)\n\nLumentum/Coherent are kinda booked out way into 2028 as well. \n\nLumentum is especially constrained for CW capacity already from existing EML contracts (so they probably are buying from Sumitomo/Furukawa and co). \n\nMaybe Macom and Japanese giants still have spare capacity. (disclosure, own aaoi/sivers).\n\nI predicted this last year and said hyperscalers should go more upstream to secure capacity... at laser levels, epiwafer levels, or even inp substrate levels. \n\nTo not get bottlenecked by Nvidia.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2066707560393322496",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK5rk4fbsAAHD25.jpg",
+          "width": 1200,
+          "height": 443,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2066707573139763211",
+      "kind": "post",
+      "engagement": {
+        "views": 508310,
+        "likes": 1924,
+        "reposts": 185,
+        "replies": 319
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066751027702079858",
+      "date": "2026-06-16",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "one of few merchant CW laser players others need to fight over"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$AAOI",
+      "text": "Other way around, $NVDA bottlenecked the entire industry for EML capacity.\n\nAnd did the same with CW capacity ONCE AGAIN with $LITE, $COHR, and $MRVL (if they have LTA in place with Celestial)\n\nI said this a few months ago, we'd see this exact same playbook. But $AMD, $AMZN, $META, and others are just so stupidly slow that they let themselves get bottlenecked.\n\nNow there's only a few merchant players like $AAOI, $MTSI, and $SIVE that they all need to fight over.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066751027702079858",
+      "kind": "reply",
+      "engagement": {
+        "views": 21409,
+        "likes": 160,
+        "reposts": 9,
+        "replies": 6
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066785056031670657",
+      "date": "2026-06-16",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "directionally his thematic ideas turned out correct",
+        "ideas from early theme still playing out"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AAOI",
+      "text": "Fun throwback to random ideas back in 2025.\n\nBack then, $AAOI was $2B MC, $LITE was a $26B MC, $AXTI was $500M\n\nNow:\n- AAOI is $15.37B\n- Lumentum is $74.47B\n- AXT is $7.24B\n\nWas working off less information back then, given it was an early theme. \n\nObviously nuances with ASIC programs might have been missed as more details came out. \n\nBut directionally, glad thematically my ideas turned out correct. \n\nFeels like dejavu seeing current $3B MC optical longs like $SIVE.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066785056031670657",
+      "kind": "post",
+      "engagement": {
+        "views": 351076,
+        "likes": 1021,
+        "reposts": 54,
+        "replies": 195
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066785528259969485",
+      "date": "2026-06-16",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "ideas from memory to photonics are still playing out"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$AAOI",
+      "text": "@cchronobreakk I don't need to open any new US stock position when all my ideas from memory to photonics like $AAOI are still playing out?",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066785528259969485",
+      "kind": "reply",
+      "engagement": {
+        "views": 13799,
+        "likes": 126,
+        "reposts": 1,
+        "replies": 10
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -11742,7 +11858,5 @@
       "close": 191.55
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-16T15:33:09.463385+00:00"
+  "price_status": "ok"
 }

@@ -1,6 +1,6 @@
 {
   "ticker": "MSSCORPS",
-  "cashtag": "MSScorps",
+  "cashtag": "Msscorps",
   "price_symbol": "MSSCORPS",
   "exchange": "US",
   "currency": "USD",
@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-05-02",
-  "last_mention": "2026-05-21",
-  "total_mentions": 11,
+  "last_mention": "2026-06-16",
+  "total_mentions": 12,
   "mentions": [
     {
       "tweet_id": "2050762148545216899",
@@ -298,10 +298,32 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066787468960305646",
+      "date": "2026-06-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Msscorps",
+      "text": "@aistruder CPO hasn't ramped up yet so very early. Shunsin should actually benefit the fastest though given H2 scale out with Foxconn. \n\nWin Semi is great regardless but benefits from photonics vertical. Foci/Msscorps are more h2 2027. \n\n$AXTI took like 5-7 months to fully play out.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066787468960305646",
+      "kind": "reply",
+      "engagement": {
+        "views": 12463,
+        "likes": 91,
+        "reposts": 4,
+        "replies": 7
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],
-  "price_status": "not_covered",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-16T15:35:25.969605+00:00"
+  "price_status": "pending"
 }

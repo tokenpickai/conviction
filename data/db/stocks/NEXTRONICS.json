@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-05-12",
-  "last_mention": "2026-06-05",
-  "total_mentions": 5,
+  "last_mention": "2026-06-16",
+  "total_mentions": 6,
   "mentions": [
     {
       "tweet_id": "2054335940026573222",
@@ -143,10 +143,35 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066834785264337018",
+      "date": "2026-06-16",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "still holding",
+        "beneficiary of optical components relative to MC in NVDA supply chains"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "Nextronics",
+      "text": "Still holding Foci/Nextronics. There was a CPO bear post from an analyst that said there would be delays (which $NVDA denied), which caused CPO related stocks to crash. \n\nPersonally think Foci will end up a bottleneck for $TSM COUPE / $NVDA and Nextronics to be a beneficiary of optical components relative to MC in $NVDA supply chains. \n\nWe'll see how this plays out.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066834785264337018",
+      "kind": "reply",
+      "engagement": {
+        "views": 10728,
+        "likes": 75,
+        "reposts": 0,
+        "replies": 4
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],
-  "price_status": "not_covered",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-16T15:37:10.564891+00:00"
+  "price_status": "pending"
 }

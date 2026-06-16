@@ -9,8 +9,8 @@
   "industry": "Memory",
   "thesis_summary": "他看好 SanDisk 的存储周期上行。",
   "first_mention": "2025-11-25",
-  "last_mention": "2026-06-13",
-  "total_mentions": 145,
+  "last_mention": "2026-06-16",
+  "total_mentions": 146,
   "mentions": [
     {
       "tweet_id": "1993283099162189962",
@@ -3669,6 +3669,41 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066791570569916832",
+      "date": "2026-06-16",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "put more concentration into memory theme"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$SNDK",
+      "text": "I did say $MU looked like the next $NVDA. Now we're at a $1.23T MC.\n\nStarted talking more about Samsung Electronics/Sk Hynix back in 2025. \n\nPut more concentration into the memory theme like $SNDK and others, Jan of this year. \n\nAnd I'm glad my prediction with Micron + memory is playing out well! \n\nHope people had fun with $EWY longs too, those are up a lot.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2066791554648571904",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK639_ebAAA-Ajo.jpg",
+          "width": 1200,
+          "height": 986,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2066791570569916832",
+      "kind": "post",
+      "engagement": {
+        "views": 563840,
+        "likes": 1718,
+        "reposts": 108,
+        "replies": 246
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -4225,7 +4260,5 @@
       "close": 2107.8601
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-16T15:33:25.373781+00:00"
+  "price_status": "ok"
 }

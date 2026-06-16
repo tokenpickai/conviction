@@ -9,8 +9,8 @@
   "industry": "Compound Semiconductor Foundry/Photonics",
   "thesis_summary": null,
   "first_mention": "2026-03-27",
-  "last_mention": "2026-06-02",
-  "total_mentions": 25,
+  "last_mention": "2026-06-16",
+  "total_mentions": 26,
   "mentions": [
     {
       "tweet_id": "2037387801285841118",
@@ -690,10 +690,34 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066787468960305646",
+      "date": "2026-06-16",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "great regardless but benefits from photonics vertical"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "Win Semi",
+      "text": "@aistruder CPO hasn't ramped up yet so very early. Shunsin should actually benefit the fastest though given H2 scale out with Foxconn. \n\nWin Semi is great regardless but benefits from photonics vertical. Foci/Msscorps are more h2 2027. \n\n$AXTI took like 5-7 months to fully play out.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066787468960305646",
+      "kind": "reply",
+      "engagement": {
+        "views": 12463,
+        "likes": 91,
+        "reposts": 4,
+        "replies": 7
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],
-  "price_status": "not_covered",
-  "price_unit": "TWD",
-  "price_updated_at": "2026-06-16T15:34:41.452542+00:00"
+  "price_status": "pending"
 }

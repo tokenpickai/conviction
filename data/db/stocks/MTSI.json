@@ -1,6 +1,6 @@
 {
   "ticker": "MTSI",
-  "cashtag": "Macom",
+  "cashtag": "$MTSI",
   "price_symbol": "MTSI",
   "exchange": "US",
   "currency": "USD",
@@ -9,8 +9,8 @@
   "industry": "Optical Comms/CPO Components",
   "thesis_summary": null,
   "first_mention": "2026-01-10",
-  "last_mention": "2026-06-15",
-  "total_mentions": 75,
+  "last_mention": "2026-06-16",
+  "total_mentions": 77,
   "mentions": [
     {
       "tweet_id": "2010016015330291787",
@@ -1853,6 +1853,63 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066707573139763211",
+      "date": "2026-06-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Macom",
+      "text": "New reports that $AMD is scrambling for CW laser supply. \n\nAnd is negotiating large-scale purchase orders for CW Lasers to ensure its production capacity is not constrained by $NVDA (Trendforce)\n\nObvious CW laser beneficiaries: \n- $SIVE (AMD went to GFS for CPO, Sivers reference laser level)\n- $AAOI (Rosenblatt analyst checks)\n\nLumentum/Coherent are kinda booked out way into 2028 as well. \n\nLumentum is especially constrained for CW capacity already from existing EML contracts (so they probably are buying from Sumitomo/Furukawa and co). \n\nMaybe Macom and Japanese giants still have spare capacity. (disclosure, own aaoi/sivers).\n\nI predicted this last year and said hyperscalers should go more upstream to secure capacity... at laser levels, epiwafer levels, or even inp substrate levels. \n\nTo not get bottlenecked by Nvidia.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2066707560393322496",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK5rk4fbsAAHD25.jpg",
+          "width": 1200,
+          "height": 443,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2066707573139763211",
+      "kind": "post",
+      "engagement": {
+        "views": 508310,
+        "likes": 1924,
+        "reposts": 185,
+        "replies": 319
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066751027702079858",
+      "date": "2026-06-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MTSI",
+      "text": "Other way around, $NVDA bottlenecked the entire industry for EML capacity.\n\nAnd did the same with CW capacity ONCE AGAIN with $LITE, $COHR, and $MRVL (if they have LTA in place with Celestial)\n\nI said this a few months ago, we'd see this exact same playbook. But $AMD, $AMZN, $META, and others are just so stupidly slow that they let themselves get bottlenecked.\n\nNow there's only a few merchant players like $AAOI, $MTSI, and $SIVE that they all need to fight over.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066751027702079858",
+      "kind": "reply",
+      "engagement": {
+        "views": 21409,
+        "likes": 160,
+        "reposts": 9,
+        "replies": 6
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -2285,7 +2342,5 @@
       "close": 384.77
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-16T15:33:47.792014+00:00"
+  "price_status": "ok"
 }

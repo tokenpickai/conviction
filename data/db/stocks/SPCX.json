@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-05-25",
-  "last_mention": "2026-06-14",
-  "total_mentions": 10,
+  "last_mention": "2026-06-16",
+  "total_mentions": 13,
   "mentions": [
     {
       "tweet_id": "2058968617681899915",
@@ -312,6 +312,96 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066676986324648239",
+      "date": "2026-06-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SPCX",
+      "text": "Apparently, $SPCX is a $2.5T company now. \n\nI did say Americans would buy anything futuristic without caring about valuations... \n\nI guess everything in Murica go brrr. https://t.co/QAKU0D9EIH https://t.co/z39MGDkKE4",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2066676866187206656",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK5PqPqbIAAmuN-.jpg",
+          "width": 1458,
+          "height": 1231,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2066676986324648239",
+      "kind": "post",
+      "engagement": {
+        "views": 673890,
+        "likes": 1848,
+        "reposts": 81,
+        "replies": 338
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066838650193949091",
+      "date": "2026-06-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SPCX",
+      "text": "Woah, $SPCX acquired Cursor for $60B.\n\nI did not think it was worth that much…\n\nMaybe network effect or data for improving models became invaluable? \n\nI’m sure Elon has a plan in mind, the Twitter acquisition paid extreme dividends. https://t.co/FoZ1wb6DI9",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2066838635568300032",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK7iydkaAAAHMZI.jpg",
+          "width": 1205,
+          "height": 800,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2066838650193949091",
+      "kind": "post",
+      "engagement": {
+        "views": 239974,
+        "likes": 1127,
+        "reposts": 74,
+        "replies": 272
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066839512244953460",
+      "date": "2026-06-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SPCX",
+      "text": "@88magalhaes Lmfao actually $SPCX uses $NBIS now. Did not think of that angle.\n\nDon’t think it’s anything newly material though for Nebius, just a fun connection.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066839512244953460",
+      "kind": "reply",
+      "engagement": {
+        "views": 23757,
+        "likes": 137,
+        "reposts": 5,
+        "replies": 10
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -324,7 +414,5 @@
       "close": 192.5
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-16T15:35:39.459304+00:00"
+  "price_status": "ok"
 }

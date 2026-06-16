@@ -9,8 +9,8 @@
   "industry": "InP Substrates",
   "thesis_summary": "他看好 AXT 的磷化铟基板地位,称其为 CPO 产业链上游卡位,已有 500%+ 浮盈。",
   "first_mention": "2025-12-22",
-  "last_mention": "2026-06-14",
-  "total_mentions": 518,
+  "last_mention": "2026-06-16",
+  "total_mentions": 522,
   "mentions": [
     {
       "tweet_id": "2003040048930074770",
@@ -13714,6 +13714,122 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066785056031670657",
+      "date": "2026-06-16",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "directionally his thematic ideas turned out correct"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AXTI",
+      "text": "Fun throwback to random ideas back in 2025.\n\nBack then, $AAOI was $2B MC, $LITE was a $26B MC, $AXTI was $500M\n\nNow:\n- AAOI is $15.37B\n- Lumentum is $74.47B\n- AXT is $7.24B\n\nWas working off less information back then, given it was an early theme. \n\nObviously nuances with ASIC programs might have been missed as more details came out. \n\nBut directionally, glad thematically my ideas turned out correct. \n\nFeels like dejavu seeing current $3B MC optical longs like $SIVE.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066785056031670657",
+      "kind": "post",
+      "engagement": {
+        "views": 351076,
+        "likes": 1021,
+        "reposts": 54,
+        "replies": 195
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066786172677075072",
+      "date": "2026-06-16",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "every single photonics idea went up triple % digits",
+        "got the entire theme + supply chain right"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "$AXTI",
+      "text": "@yangqisniper $AXTI was a fun one. \n\nActually every single one of my photonics ideas last year went up triple % digits. Got the entire theme + supply chain right! https://t.co/vpWpPO18b7",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2066786012257566720",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK6y7YdbwAAqSNI.jpg",
+          "width": 1173,
+          "height": 261,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2066786172677075072",
+      "kind": "reply",
+      "engagement": {
+        "views": 9563,
+        "likes": 80,
+        "reposts": 2,
+        "replies": 5
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066787468960305646",
+      "date": "2026-06-16",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AXTI",
+      "text": "@aistruder CPO hasn't ramped up yet so very early. Shunsin should actually benefit the fastest though given H2 scale out with Foxconn. \n\nWin Semi is great regardless but benefits from photonics vertical. Foci/Msscorps are more h2 2027. \n\n$AXTI took like 5-7 months to fully play out.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066787468960305646",
+      "kind": "reply",
+      "engagement": {
+        "views": 12463,
+        "likes": 91,
+        "reposts": 4,
+        "replies": 7
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066823176785457323",
+      "date": "2026-06-16",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "mapped InP substrate supply chain",
+        "tracked high purity indium pricing",
+        "modeled game theory around bottleneck hikes/supply shocks",
+        "Reuters confirmed InP substrates can halt AI buildout",
+        "still holding shares"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$AXTI",
+      "text": "Yeah... I'm not quite sure why everyone likes just throwing personal accusations.\n\nLike \"scam\" or  \"memestock\" every time I post a thesis. \n\nLike when I bought $AXTI (still holding shares btw):\n\n- spent the time mapping the InP substrate supply chain\n- found analyst sources around market share\n- tracked high purity indium pricing on SMM\n- modeled game theory around bottleneck hikes/supply shocks. \n- tracked Gov publications like seizure of optical companies or export controls \n\nThen just posted the idea for free, cause it's a hobby. \n\nEveryone just threw out personal insults as it went up in price...\n\nJust for Reuters to confirm it 7M later that InP substrates can halt the AI buildout.\n\nI'm just sharing ideas out for free, could always be wrong, and they usually take some time to play out. \n\nBut would prefer instead if folks/media played devil's advocate on the thesis side like export controls or ASP pricing power...\n\nOver just making up narratives or personal accusations like \"memestock\" or \"foreign institutional team\" when they lack the technical depth to understand AI supply chains.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066823176785457323",
+      "kind": "post",
+      "engagement": {
+        "views": 304047,
+        "likes": 1145,
+        "reposts": 46,
+        "replies": 265
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -14198,7 +14314,5 @@
       "close": 110.74
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-16T15:33:04.209921+00:00"
+  "price_status": "ok"
 }

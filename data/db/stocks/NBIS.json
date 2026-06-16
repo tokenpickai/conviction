@@ -9,8 +9,8 @@
   "industry": "AI Cloud/GPU",
   "thesis_summary": null,
   "first_mention": "2025-07-21",
-  "last_mention": "2026-06-15",
-  "total_mentions": 760,
+  "last_mention": "2026-06-16",
+  "total_mentions": 761,
   "mentions": [
     {
       "tweet_id": "1947298901108957475",
@@ -20697,6 +20697,30 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066839512244953460",
+      "date": "2026-06-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$NBIS",
+      "text": "@88magalhaes Lmfao actually $SPCX uses $NBIS now. Did not think of that angle.\n\nDon’t think it’s anything newly material though for Nebius, just a fun connection.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2066839512244953460",
+      "kind": "reply",
+      "engagement": {
+        "views": 23757,
+        "likes": 137,
+        "reposts": 5,
+        "replies": 10
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -21613,7 +21637,5 @@
       "close": 260.07
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-16T15:33:01.568011+00:00"
+  "price_status": "ok"
 }
