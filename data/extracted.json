@@ -215484,5 +215484,403 @@
     "extractor_model": "claude-opus-4-6",
     "prompt_version": "extract-v2",
     "extracted_at": "2026-06-17T00:04:59.789917+00:00"
+  },
+  "2067242455141888281": {
+    "tweet_id": "2067242455141888281",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$XLU",
+        "symbol": "XLU",
+        "stance": "neutral",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "original thesis was extreme demand from AI, capex, and rate cuts",
+          "Iran War threw a knife into the thesis",
+          "rate cut projections went from 3-4 down to 0, with possibility of hikes",
+          "cut majority concentration but still holds a tiny bit",
+          "utilities trade was heavily dependent on rate cuts"
+        ],
+        "is_risk": true,
+        "conviction_signal": "low"
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T14:25:27.823682+00:00"
+  },
+  "2067235336842097124": {
+    "tweet_id": "2067235336842097124",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$XFAB",
+        "symbol": "XFAB",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "leading Europe's silicon photonics value chain efforts with PhotonixFab",
+          "optical AI DC and power semi adjacent exposure",
+          "major beneficiary of sovereign AI push alongside IMEC and others",
+          "owns positions"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T14:25:27.823682+00:00"
+  },
+  "2067216066905088237": {
+    "tweet_id": "2067216066905088237",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$LPK",
+        "symbol": "LPK",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "claims 80% of customers among major global players selected LPKF equipment",
+          "glass substrates is the next packaging shift",
+          "major players ramping H2 2026-2027",
+          "possible upstream exposure to TSM CoPoS 2028",
+          "expects markets to price it in as volume ramp approaches"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T14:25:27.823682+00:00"
+  },
+  "2067228895129358388": {
+    "tweet_id": "2067228895129358388",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "LeaderDrive (688017)",
+        "symbol": "688017",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "still early on into robotics ramp",
+          "expects them to be a clear winner given China's lead in low cost mass production robotics"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.92,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T14:25:27.823682+00:00"
+  },
+  "2067206734427697196": {
+    "tweet_id": "2067206734427697196",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$AMD",
+        "symbol": "AMD",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "CW laser bottleneck play",
+          "limited independent Western supply chain capacity",
+          "CW laser chokepoint is invaluable",
+          "owns the stock"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$AAOI",
+        "symbol": "AAOI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "CW laser bottleneck play",
+          "limited independent Western supply chain capacity",
+          "CW laser chokepoint is invaluable",
+          "owns the stock"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "Macom",
+        "symbol": "MACOM",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Lumentum",
+        "symbol": "LITE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Coherent",
+        "symbol": "COHR",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Nvidia",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Sumitomo",
+        "symbol": "SUMITOMO",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Furukawa",
+        "symbol": "FURUKAWA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.93,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T14:25:27.823682+00:00"
+  },
+  "2067135190640845161": {
+    "tweet_id": "2067135190640845161",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T14:25:27.823682+00:00"
+  },
+  "2067136132794695723": {
+    "tweet_id": "2067136132794695723",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T14:25:27.823682+00:00"
+  },
+  "2067136894136447245": {
+    "tweet_id": "2067136894136447245",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T14:25:27.823682+00:00"
+  },
+  "2067138937613881411": {
+    "tweet_id": "2067138937613881411",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T14:25:27.823682+00:00"
+  },
+  "2067117980656533764": {
+    "tweet_id": "2067117980656533764",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Kioxia",
+        "symbol": "KIOXIA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$INTC",
+        "symbol": "INTC",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T14:25:27.823682+00:00"
+  },
+  "2067119250091991141": {
+    "tweet_id": "2067119250091991141",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Kioxia",
+        "symbol": "KIOXIA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T14:25:27.823682+00:00"
+  },
+  "2067120480373658104": {
+    "tweet_id": "2067120480373658104",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$INTC",
+        "symbol": "INTC",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.82,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T14:25:27.823682+00:00"
+  },
+  "2067071462360666165": {
+    "tweet_id": "2067071462360666165",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$AAOI",
+        "symbol": "AAOI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "scarce laser capacity that AMD and other hyperscalers are looking for",
+          "US transceiver supply chain for mass production of 800g/1.6T, largest in America",
+          "demand far exceeds supply while assembly gets outsourced to Asia",
+          "quoting $471M monthly revenue in H1 entering H2 of 2027, $5.6B ARR off $13.5B MC",
+          "major inflection volume hits in 2028"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$AMD",
+        "symbol": "AMD",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$NVDA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$NBIS",
+        "symbol": "NBIS",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T14:25:27.823682+00:00"
+  },
+  "2067079883420049889": {
+    "tweet_id": "2067079883420049889",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$AEHR",
+        "symbol": "AEHR",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AAOI",
+        "symbol": "AAOI",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T14:25:27.823682+00:00"
   }
 }

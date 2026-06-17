@@ -1,6 +1,6 @@
 {
   "ticker": "NVDA",
-  "cashtag": "$NVDA",
+  "cashtag": "Nvidia",
   "price_symbol": "NVDA",
   "exchange": "US",
   "currency": "USD",
@@ -9,8 +9,8 @@
   "industry": "AI Chips",
   "thesis_summary": "当天主要在陈述供应链关系/背景,未明确表态。",
   "first_mention": "2025-07-21",
-  "last_mention": "2026-06-16",
-  "total_mentions": 462,
+  "last_mention": "2026-06-17",
+  "total_mentions": 464,
   "mentions": [
     {
       "tweet_id": "1947292748563796124",
@@ -11418,6 +11418,71 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067071462360666165",
+      "date": "2026-06-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$NVDA",
+      "text": "I’m not sure why many folks are super bearish on my high conviction $AAOI long… \n\nEver since $30, then on the way up to $170. (Yes I do think every bear is wrong, we’ll see who’s right).\n\nThey have scarce laser capacity that $AMD and other hyperscalers are looking for.\n\nWhile the entire industry is bottlenecked by $NVDA. \n\nAlong with a US transceiver supply chain for mass production of 800g/1.6T (management - largest in America).\n\nWhile demand far exceeds supply and while assembly gets outsourced to Asia.\n\nThen they’re quoting $471M monthly revenue in H1 entering H2 of 2027. Which is $5.6B ARR, off a $13.5B MC…\n\nWhile a lot of major inflection volume hits even later in 2028.\n\nAs for fluctuations, there might be active $600M ATMs that get tapped into at random times. \n\nAnd random bear posts + macro from time to time that cause more volatility (eg. Analyst notes saying bear on $LITE due to false CPO delay rumors, then that brings down others in the sector).\n\nAlso we’re a year out so timelines are still a little early.\n\nI haven’t seen such fast revenue ramp since $NBIS.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067071462360666165",
+      "kind": "post",
+      "engagement": {
+        "views": 588067,
+        "likes": 1579,
+        "reposts": 102,
+        "replies": 186
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067206734427697196",
+      "date": "2026-06-17",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nvidia",
+      "text": "Trendforce reports that $AMD is actively trying to secure CW laser supply with multiple major procurement orders...\n\nIs probably just the start of the bottleneck?  \n\nThere's not much independent capacity in Western supply chains left other than $SIVE or $AAOI and maybe Macom. \n\nEspecially after Lumentum/Coherent got locked up with multi-year agreements with Nvidia. (disclosure, own Sive and aaoi)\n\nLumentum is already CW laser constrained and is likely buying off Japanese companies like Sumitomo/Furukawa if I had to guess per ER, and those are probably running at max capacity.  \n\nFrom the Trendforce report, this is:\n\n\"to ensure that its future capacity will not be constrained by NVIDIA and other major Cloud Service Providers (CSPs).\"\n\nI wouldn't be surprised if other hyperscalers like Amazon, Microsoft, and others saw Nvidia / AMD signing LTAs, and are trying to secure capacity next. \n\nA lot of it is game theory on not getting choked out by competitors, and looks like AMD is tipping the first domino after Nvidia.\n\nBut my opinion is that this just goes and show how invaluable this CW laser chokepoint is and the companies are inside it.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067204210115129344",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLAvRs4asAAR-AS.jpg",
+          "width": 2143,
+          "height": 1065,
+          "alt_text": null
+        },
+        {
+          "media_key": "3_2067204260266471424",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLAvUntbcAACulF.jpg",
+          "width": 1635,
+          "height": 611,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2067206734427697196",
+      "kind": "post",
+      "engagement": {
+        "views": 155685,
+        "likes": 933,
+        "reposts": 69,
+        "replies": 114
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -12338,7 +12403,5 @@
       "close": 207.41
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-17T12:35:19.591724+00:00"
+  "price_status": "ok"
 }

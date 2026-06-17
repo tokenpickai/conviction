@@ -1,6 +1,6 @@
 {
   "ticker": "COHR",
-  "cashtag": "$COHR",
+  "cashtag": "Coherent",
   "price_symbol": "COHR",
   "exchange": "US",
   "currency": "USD",
@@ -9,8 +9,8 @@
   "industry": "Optical Comms",
   "thesis_summary": null,
   "first_mention": "2025-12-01",
-  "last_mention": "2026-06-16",
-  "total_mentions": 228,
+  "last_mention": "2026-06-17",
+  "total_mentions": 229,
   "mentions": [
     {
       "tweet_id": "1995543748353347989",
@@ -5697,6 +5697,47 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067206734427697196",
+      "date": "2026-06-17",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Coherent",
+      "text": "Trendforce reports that $AMD is actively trying to secure CW laser supply with multiple major procurement orders...\n\nIs probably just the start of the bottleneck?  \n\nThere's not much independent capacity in Western supply chains left other than $SIVE or $AAOI and maybe Macom. \n\nEspecially after Lumentum/Coherent got locked up with multi-year agreements with Nvidia. (disclosure, own Sive and aaoi)\n\nLumentum is already CW laser constrained and is likely buying off Japanese companies like Sumitomo/Furukawa if I had to guess per ER, and those are probably running at max capacity.  \n\nFrom the Trendforce report, this is:\n\n\"to ensure that its future capacity will not be constrained by NVIDIA and other major Cloud Service Providers (CSPs).\"\n\nI wouldn't be surprised if other hyperscalers like Amazon, Microsoft, and others saw Nvidia / AMD signing LTAs, and are trying to secure capacity next. \n\nA lot of it is game theory on not getting choked out by competitors, and looks like AMD is tipping the first domino after Nvidia.\n\nBut my opinion is that this just goes and show how invaluable this CW laser chokepoint is and the companies are inside it.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067204210115129344",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLAvRs4asAAR-AS.jpg",
+          "width": 2143,
+          "height": 1065,
+          "alt_text": null
+        },
+        {
+          "media_key": "3_2067204260266471424",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLAvUntbcAACulF.jpg",
+          "width": 1635,
+          "height": 611,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2067206734427697196",
+      "kind": "post",
+      "engagement": {
+        "views": 155685,
+        "likes": 933,
+        "reposts": 69,
+        "replies": 114
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -6245,7 +6286,5 @@
       "close": 382.81
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-17T12:35:27.753844+00:00"
+  "price_status": "ok"
 }

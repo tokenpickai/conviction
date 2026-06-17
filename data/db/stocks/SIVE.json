@@ -9,8 +9,8 @@
   "industry": "AI Photonics/CPO Lasers",
   "thesis_summary": "他把 SIVE 当作硅光/CPO 的上游激光瓶颈,反复强调它是产业链核心受益者,通过 POET 供货给 Ayar、Celestial 等光引擎厂商。",
   "first_mention": "2025-12-23",
-  "last_mention": "2026-06-16",
-  "total_mentions": 686,
+  "last_mention": "2026-06-17",
+  "total_mentions": 688,
   "mentions": [
     {
       "tweet_id": "2003604861414408240",
@@ -18926,6 +18926,76 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067138937613881411",
+      "date": "2026-06-17",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SIVE",
+      "text": "@00000sol0 True, headline difference:\n\nSerenity Research takes a stake in $SIVE, what a big deal! \n\n\"Serenity\" took a stake in $SIVE, must be a retail meme.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067138937613881411",
+      "kind": "reply",
+      "engagement": {
+        "views": 20884,
+        "likes": 174,
+        "reposts": 0,
+        "replies": 22
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067206734427697196",
+      "date": "2026-06-17",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "CW laser bottleneck play",
+        "limited independent Western supply chain capacity",
+        "CW laser chokepoint is invaluable",
+        "owns the stock"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "$SIVE",
+      "text": "Trendforce reports that $AMD is actively trying to secure CW laser supply with multiple major procurement orders...\n\nIs probably just the start of the bottleneck?  \n\nThere's not much independent capacity in Western supply chains left other than $SIVE or $AAOI and maybe Macom. \n\nEspecially after Lumentum/Coherent got locked up with multi-year agreements with Nvidia. (disclosure, own Sive and aaoi)\n\nLumentum is already CW laser constrained and is likely buying off Japanese companies like Sumitomo/Furukawa if I had to guess per ER, and those are probably running at max capacity.  \n\nFrom the Trendforce report, this is:\n\n\"to ensure that its future capacity will not be constrained by NVIDIA and other major Cloud Service Providers (CSPs).\"\n\nI wouldn't be surprised if other hyperscalers like Amazon, Microsoft, and others saw Nvidia / AMD signing LTAs, and are trying to secure capacity next. \n\nA lot of it is game theory on not getting choked out by competitors, and looks like AMD is tipping the first domino after Nvidia.\n\nBut my opinion is that this just goes and show how invaluable this CW laser chokepoint is and the companies are inside it.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067204210115129344",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLAvRs4asAAR-AS.jpg",
+          "width": 2143,
+          "height": 1065,
+          "alt_text": null
+        },
+        {
+          "media_key": "3_2067204260266471424",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLAvUntbcAACulF.jpg",
+          "width": 1635,
+          "height": 611,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2067206734427697196",
+      "kind": "post",
+      "engagement": {
+        "views": 155685,
+        "likes": 933,
+        "reposts": 69,
+        "replies": 114
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -19366,7 +19436,5 @@
       "close": 78.8
     }
   ],
-  "price_status": "partial",
-  "price_unit": "SEK",
-  "price_updated_at": "2026-06-17T12:35:15.612969+00:00"
+  "price_status": "partial"
 }

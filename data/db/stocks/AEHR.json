@@ -9,8 +9,8 @@
   "industry": "Semiconductor Burn-in Test Equipment",
   "thesis_summary": null,
   "first_mention": "2026-01-16",
-  "last_mention": "2026-06-15",
-  "total_mentions": 119,
+  "last_mention": "2026-06-16",
+  "total_mentions": 120,
   "mentions": [
     {
       "tweet_id": "2012071822481900030",
@@ -3106,6 +3106,30 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067079883420049889",
+      "date": "2026-06-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AEHR",
+      "text": "@AsianbeBlazin Yep, but there hasn’t been any much news with $AEHR. \n\nNot really heavily debated stock like $AAOI aside from one or two comments saying AEHR would go back down to $25.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067079883420049889",
+      "kind": "reply",
+      "engagement": {
+        "views": 23552,
+        "likes": 77,
+        "reposts": 1,
+        "replies": 6
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -3526,7 +3550,5 @@
       "close": 104.83
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-17T12:35:50.362870+00:00"
+  "price_status": "ok"
 }

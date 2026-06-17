@@ -1,6 +1,6 @@
 {
   "ticker": "688017",
-  "cashtag": "Leaderdrive (688017)",
+  "cashtag": "LeaderDrive (688017)",
   "price_symbol": "688017",
   "exchange": "US",
   "currency": "USD",
@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-06-04",
-  "last_mention": "2026-06-14",
-  "total_mentions": 9,
+  "last_mention": "2026-06-17",
+  "total_mentions": 10,
   "mentions": [
     {
       "tweet_id": "2062723902728802341",
@@ -253,10 +253,35 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067228895129358388",
+      "date": "2026-06-17",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "still early on into robotics ramp",
+        "expects them to be a clear winner given China's lead in low cost mass production robotics"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "LeaderDrive (688017)",
+      "text": "@ChenHW8899 I would personally long LeaderDrive (688017) if I were in China!\n\nStill really early on into robotics ramp, but I think they’ll be a clear winner given China’s lead in low cost, mass production robotics.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067228895129358388",
+      "kind": "reply",
+      "engagement": {
+        "views": 7828,
+        "likes": 57,
+        "reposts": 4,
+        "replies": 24
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],
-  "price_status": "not_covered",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-17T12:37:46.292169+00:00"
+  "price_status": "pending"
 }

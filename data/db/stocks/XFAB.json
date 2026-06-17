@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-05-27",
-  "last_mention": "2026-06-15",
-  "total_mentions": 36,
+  "last_mention": "2026-06-17",
+  "total_mentions": 37,
   "mentions": [
     {
       "tweet_id": "2059537337324085541",
@@ -1049,6 +1049,52 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067235336842097124",
+      "date": "2026-06-17",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "leading Europe's silicon photonics value chain efforts with PhotonixFab",
+        "optical AI DC and power semi adjacent exposure",
+        "major beneficiary of sovereign AI push alongside IMEC and others",
+        "owns positions"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$XFAB",
+      "text": "Don’t think there’s any new news from $XFAB. \n\nTheir company needs to do a better job with marketing materials though.\n\nSince nobody thinks they’re optical ai dc or power semi adjacent exposure apparently.\n\nHowever, I would have thought that since they’re leading Europe’s silicon photonics value chain efforts with PhotonixFab.\n\nAnd apparently everyone + EU are discussing sovereign AI supply chains after Fable’s export controls.\n\nOne might think they’re a major beneficiary alongside IMEC, ligentec and others in the sovereign AI push?\n\nAnyway, markets can always disagree or maybe they didn’t link things together.\n\nRegardless, I’m just curious how this plays out.  (Disclosure, own positions)",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067235321750880256",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLBLkowaAAAhbNt.jpg",
+          "width": 1239,
+          "height": 988,
+          "alt_text": null
+        },
+        {
+          "media_key": "3_2067235321763516417",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLBLkoza0AEjsxB.jpg",
+          "width": 1233,
+          "height": 1100,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2067235336842097124",
+      "kind": "post",
+      "engagement": {
+        "views": 120506,
+        "likes": 364,
+        "reposts": 18,
+        "replies": 109
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -1085,7 +1131,5 @@
       "close": 10.26
     }
   ],
-  "price_status": "partial",
-  "price_unit": "EUR",
-  "price_updated_at": "2026-06-17T12:36:25.910814+00:00"
+  "price_status": "partial"
 }
