@@ -10,7 +10,7 @@
   "thesis_summary": "他把 SIVE 当作硅光/CPO 的上游激光瓶颈,反复强调它是产业链核心受益者,通过 POET 供货给 Ayar、Celestial 等光引擎厂商。",
   "first_mention": "2025-12-23",
   "last_mention": "2026-06-16",
-  "total_mentions": 685,
+  "total_mentions": 686,
   "mentions": [
     {
       "tweet_id": "2003604861414408240",
@@ -18887,6 +18887,42 @@
         "likes": 270,
         "reposts": 13,
         "replies": 11
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067033934194696469",
+      "date": "2026-06-16",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "InP DFB lasers remain the focus for CPO per Mizuho",
+        "VCSEL and microLED remain unproven for short distance 1.6T+"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$SIVE",
+      "text": "Mizuho Research: No delays on CPO or 800v dc. \n\nRevised up optical engine projections from $NVDA demand ramp.  \n\n- Next phase in CPO for long term, believes InP DFB lasers remains the focus (hello $SIVE). VSCEL and microLED remain \"unproven\" in short distance in rack + chip to chip for 1.6T+ \n\n- HVDC deployment on track, 800VDC incremental volume 2027, with higher penetration in 2028.\n\nWhat a stupid CPO related selloff recently.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067030204183359488",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK-RBORaMAAEM5y.jpg",
+          "width": 1013,
+          "height": 292,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2067033934194696469",
+      "kind": "post",
+      "engagement": {
+        "views": 17111,
+        "likes": 173,
+        "reposts": 15,
+        "replies": 49
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

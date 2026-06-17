@@ -1,5 +1,58 @@
 [
   {
+    "tweet_id": "2067033934194696469",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2067033934194696469",
+    "created_at": "Tue Jun 16 23:57:48 +0000 2026",
+    "text": "Mizuho Research: No delays on CPO or 800v dc. \n\nRevised up optical engine projections from $NVDA demand ramp.  \n\n- Next phase in CPO for long term, believes InP DFB lasers remains the focus (hello $SIVE). VSCEL and microLED remain \"unproven\" in short distance in rack + chip to chip for 1.6T+ \n\n- HVDC deployment on track, 800VDC incremental volume 2027, with higher penetration in 2028.\n\nWhat a stupid CPO related selloff recently.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 173,
+    "retweet_count": 15,
+    "reply_count": 49,
+    "quote_count": 3,
+    "view_count": 17111,
+    "bookmark_count": 29,
+    "conversation_id": "2067033934194696469",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2064554061253451815",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "start": 91,
+          "end": 96,
+          "tag": "NVDA"
+        },
+        {
+          "start": 197,
+          "end": 202,
+          "tag": "SIVE"
+        }
+      ]
+    },
+    "cashtags": [
+      "NVDA",
+      "SIVE"
+    ],
+    "media": [
+      {
+        "media_key": "3_2067030204183359488",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HK-RBORaMAAEM5y.jpg",
+        "width": 1013,
+        "height": 292,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2066919948212195832",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2066919948212195832",

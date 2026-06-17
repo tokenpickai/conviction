@@ -215453,5 +215453,36 @@
     "extractor_model": "claude-opus-4-6",
     "prompt_version": "extract-v2",
     "extracted_at": "2026-06-16T18:20:35.290458+00:00"
+  },
+  "2067033934194696469": {
+    "tweet_id": "2067033934194696469",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$NVDA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "InP DFB lasers remain the focus for CPO per Mizuho",
+          "VCSEL and microLED remain unproven for short distance 1.6T+"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.92,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T00:04:59.789917+00:00"
   }
 }
