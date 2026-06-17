@@ -215882,5 +215882,101 @@
     "extractor_model": "claude-opus-4-6",
     "prompt_version": "extract-v2",
     "extracted_at": "2026-06-17T14:25:27.823682+00:00"
+  },
+  "2067272647545930045": {
+    "tweet_id": "2067272647545930045",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SPCX",
+        "symbol": "SPCX",
+        "stance": "neutral",
+        "mention_type": "quote_or_other",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T22:17:11.797229+00:00"
+  },
+  "2067267047781015579": {
+    "tweet_id": "2067267047781015579",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$AEHR",
+        "symbol": "AEHR",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "receives follow up production order from major Silicon Photonics Customer for wafer level burn in systems",
+          "up 11.29% today",
+          "was in the $30s only 2 months ago, now at $116"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.82,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T22:17:11.797229+00:00"
+  },
+  "2067260268166713561": {
+    "tweet_id": "2067260268166713561",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$NBIS",
+        "symbol": "NBIS",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "all time highs"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$IREN",
+        "symbol": "IREN",
+        "stance": "bearish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "bagholders funding $6B ATM",
+          "stuck at same price since November"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T22:17:11.797229+00:00"
+  },
+  "2067262644286107793": {
+    "tweet_id": "2067262644286107793",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$JBL",
+        "symbol": "JBL",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "his pick if he had to choose one"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-17T22:17:11.797229+00:00"
   }
 }

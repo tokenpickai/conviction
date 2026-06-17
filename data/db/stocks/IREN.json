@@ -9,8 +9,8 @@
   "industry": "Bitcoin Miner→AI Datacenter (Neocloud)",
   "thesis_summary": null,
   "first_mention": "2025-08-31",
-  "last_mention": "2026-06-16",
-  "total_mentions": 435,
+  "last_mention": "2026-06-17",
+  "total_mentions": 436,
   "mentions": [
     {
       "tweet_id": "1962015302121848955",
@@ -11420,6 +11420,42 @@
         "likes": 140,
         "reposts": 0,
         "replies": 13
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067260268166713561",
+      "date": "2026-06-17",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "bagholders funding $6B ATM",
+        "stuck at same price since November"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$IREN",
+      "text": "And 7 months later... $NBIS is all time highs. \n\nWhile $IREN bagholders are still funding the $6,000,000,000 ATM and stuck at the same price back in November. \n\nGuess this settles the debate? https://t.co/wYvbhw4xK3 https://t.co/1CKhfpy1BO",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067259643592912897",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLBhsWrbMAEIfy2.jpg",
+          "width": 1843,
+          "height": 1433,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2067260268166713561",
+      "kind": "post",
+      "engagement": {
+        "views": 384129,
+        "likes": 1778,
+        "reposts": 158,
+        "replies": 173
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

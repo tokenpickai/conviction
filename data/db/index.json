@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-06-17T14:26:13.136676+00:00",
+    "generated_at": "2026-06-17T22:17:26.305609+00:00",
     "total_tickers": 954,
-    "total_mentions": 13783,
+    "total_mentions": 13788,
     "dates": "ET (US Eastern); matches render/pipeline.py",
     "note": "Data layer only — facts + raw mentions. All windowed/stance aggregation + rankings are computed by render at runtime. Prices pending."
   },
@@ -17,8 +17,8 @@
       "company": "Nebius",
       "industry": "AI Cloud/GPU",
       "first_mention": "2025-07-21",
-      "last_mention": "2026-06-16",
-      "total_mentions": 762,
+      "last_mention": "2026-06-17",
+      "total_mentions": 763,
       "price_status": "ok"
     },
     {
@@ -87,8 +87,8 @@
       "company": "IREN (Iris Energy)",
       "industry": "Bitcoin Miner→AI Datacenter (Neocloud)",
       "first_mention": "2025-08-31",
-      "last_mention": "2026-06-16",
-      "total_mentions": 435,
+      "last_mention": "2026-06-17",
+      "total_mentions": 436,
       "price_status": "ok"
     },
     {
@@ -387,7 +387,7 @@
     },
     {
       "ticker": "JBL",
-      "cashtag": "Jabil",
+      "cashtag": "$JBL",
       "price_symbol": "JBL",
       "exchange": "US",
       "currency": "USD",
@@ -395,8 +395,8 @@
       "company": "Jabil",
       "industry": "Optical Module Manufacturing",
       "first_mention": "2025-12-01",
-      "last_mention": "2026-06-15",
-      "total_mentions": 131,
+      "last_mention": "2026-06-17",
+      "total_mentions": 132,
       "price_status": "ok"
     },
     {
@@ -451,8 +451,8 @@
       "company": "Aehr Test Systems",
       "industry": "Semiconductor Burn-in Test Equipment",
       "first_mention": "2026-01-16",
-      "last_mention": "2026-06-16",
-      "total_mentions": 120,
+      "last_mention": "2026-06-17",
+      "total_mentions": 121,
       "price_status": "ok"
     },
     {
@@ -1716,6 +1716,20 @@
       "price_status": "ok"
     },
     {
+      "ticker": "SPCX",
+      "cashtag": "$SPCX",
+      "price_symbol": "SPCX",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": null,
+      "industry": null,
+      "first_mention": "2026-05-25",
+      "last_mention": "2026-06-17",
+      "total_mentions": 14,
+      "price_status": "ok"
+    },
+    {
       "ticker": "WMT",
       "cashtag": "$WMT",
       "price_symbol": "WMT",
@@ -1798,20 +1812,6 @@
       "last_mention": "2026-02-27",
       "total_mentions": 13,
       "price_status": "pending"
-    },
-    {
-      "ticker": "SPCX",
-      "cashtag": "$SPCX",
-      "price_symbol": "SPCX",
-      "exchange": "US",
-      "currency": "USD",
-      "ticker_mapped": false,
-      "company": null,
-      "industry": null,
-      "first_mention": "2026-05-25",
-      "last_mention": "2026-06-16",
-      "total_mentions": 13,
-      "price_status": "ok"
     },
     {
       "ticker": "TER",

@@ -1,5 +1,265 @@
 [
   {
+    "tweet_id": "2067272647545930045",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2067272647545930045",
+    "created_at": "Wed Jun 17 15:46:21 +0000 2026",
+    "text": "Jim Cramer gave $SPCX his blessing. https://t.co/DSbyBt9f0D https://t.co/ScSuzUwL50",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1352,
+    "retweet_count": 128,
+    "reply_count": 181,
+    "quote_count": 4,
+    "view_count": 282983,
+    "bookmark_count": 20,
+    "conversation_id": "2067272647545930045",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2067177198390215149",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "start": 36,
+          "end": 59,
+          "url": "https://t.co/DSbyBt9f0D",
+          "expanded_url": "https://x.com/aleabitoreddit/status/2067272647545930045/photo/1",
+          "display_url": "pic.x.com/DSbyBt9f0D",
+          "media_key": "3_2067272596392214528"
+        },
+        {
+          "start": 60,
+          "end": 83,
+          "url": "https://t.co/ScSuzUwL50",
+          "expanded_url": "https://twitter.com/jimcramer/status/2067177198390215149",
+          "display_url": "x.com/jimcramer/stat…"
+        }
+      ],
+      "cashtags": [
+        {
+          "start": 16,
+          "end": 21,
+          "tag": "SPCX"
+        }
+      ]
+    },
+    "cashtags": [
+      "SPCX"
+    ],
+    "media": [
+      {
+        "media_key": "3_2067272596392214528",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HLBteTnbgAA4wSp.jpg",
+        "width": 883,
+        "height": 1016,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2067267047781015579",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2067267047781015579",
+    "created_at": "Wed Jun 17 15:24:06 +0000 2026",
+    "text": "$AEHR receives follow up production order from major Silicon Photonics Customer for wafer level burn in systems.\n\nNow up 11.29% today to $116. \n\nOnly 2 months ago it was in the $30's, good times. https://t.co/It24lVLmBe https://t.co/MhEQmNgAek",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 959,
+    "retweet_count": 122,
+    "reply_count": 99,
+    "quote_count": 5,
+    "view_count": 251997,
+    "bookmark_count": 132,
+    "conversation_id": "2067267047781015579",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2039388766083944750",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "start": 196,
+          "end": 219,
+          "url": "https://t.co/It24lVLmBe",
+          "expanded_url": "https://x.com/aleabitoreddit/status/2067267047781015579/photo/1",
+          "display_url": "pic.x.com/It24lVLmBe",
+          "media_key": "3_2067266948698955776"
+        },
+        {
+          "start": 196,
+          "end": 219,
+          "url": "https://t.co/It24lVLmBe",
+          "expanded_url": "https://x.com/aleabitoreddit/status/2067267047781015579/photo/1",
+          "display_url": "pic.x.com/It24lVLmBe",
+          "media_key": "3_2067266976842698752"
+        },
+        {
+          "start": 220,
+          "end": 243,
+          "url": "https://t.co/MhEQmNgAek",
+          "expanded_url": "https://twitter.com/aleabitoreddit/status/2039388766083944750",
+          "display_url": "x.com/aleabitoreddit…"
+        }
+      ],
+      "cashtags": [
+        {
+          "start": 0,
+          "end": 5,
+          "tag": "AEHR"
+        }
+      ]
+    },
+    "cashtags": [
+      "AEHR"
+    ],
+    "media": [
+      {
+        "media_key": "3_2067266948698955776",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HLBoVkUbYAAeVsp.jpg",
+        "width": 1383,
+        "height": 1700,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2067266976842698752",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HLBoXNKa0AAzyLV.jpg",
+        "width": 1998,
+        "height": 811,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2067262644286107793",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2067262644286107793",
+    "created_at": "Wed Jun 17 15:06:36 +0000 2026",
+    "text": "@Raccoononomics $JBL would be my pick if I had to choose one.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 86,
+    "retweet_count": 2,
+    "reply_count": 11,
+    "quote_count": 0,
+    "view_count": 15878,
+    "bookmark_count": 31,
+    "conversation_id": "2067260268166713561",
+    "is_reply": true,
+    "in_reply_to_id": "2067260754273685572",
+    "in_reply_to_username": "Raccoononomics",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 15,
+          "username": "Raccoononomics",
+          "id": "1880721605774499840"
+        }
+      ],
+      "cashtags": [
+        {
+          "start": 16,
+          "end": 20,
+          "tag": "JBL"
+        }
+      ]
+    },
+    "cashtags": [
+      "JBL"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2067260268166713561",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2067260268166713561",
+    "created_at": "Wed Jun 17 14:57:10 +0000 2026",
+    "text": "And 7 months later... $NBIS is all time highs. \n\nWhile $IREN bagholders are still funding the $6,000,000,000 ATM and stuck at the same price back in November. \n\nGuess this settles the debate? https://t.co/wYvbhw4xK3 https://t.co/1CKhfpy1BO",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1778,
+    "retweet_count": 158,
+    "reply_count": 173,
+    "quote_count": 17,
+    "view_count": 384129,
+    "bookmark_count": 108,
+    "conversation_id": "2067260268166713561",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "1990452960758042917",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "start": 192,
+          "end": 215,
+          "url": "https://t.co/wYvbhw4xK3",
+          "expanded_url": "https://x.com/aleabitoreddit/status/2067260268166713561/photo/1",
+          "display_url": "pic.x.com/wYvbhw4xK3",
+          "media_key": "3_2067259643592912897"
+        },
+        {
+          "start": 216,
+          "end": 239,
+          "url": "https://t.co/1CKhfpy1BO",
+          "expanded_url": "https://twitter.com/aleabitoreddit/status/1990452960758042917",
+          "display_url": "x.com/aleabitoreddit…"
+        }
+      ],
+      "cashtags": [
+        {
+          "start": 22,
+          "end": 27,
+          "tag": "NBIS"
+        },
+        {
+          "start": 55,
+          "end": 60,
+          "tag": "IREN"
+        }
+      ]
+    },
+    "cashtags": [
+      "NBIS",
+      "IREN"
+    ],
+    "media": [
+      {
+        "media_key": "3_2067259643592912897",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HLBhsWrbMAEIfy2.jpg",
+        "width": 1843,
+        "height": 1433,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2067242455141888281",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2067242455141888281",

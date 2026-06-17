@@ -1,6 +1,6 @@
 {
   "ticker": "JBL",
-  "cashtag": "Jabil",
+  "cashtag": "$JBL",
   "price_symbol": "JBL",
   "exchange": "US",
   "currency": "USD",
@@ -9,8 +9,8 @@
   "industry": "Optical Module Manufacturing",
   "thesis_summary": "他首次提及 JBL,把它归入\"超大规模厂商→光模块/收发器代工\"环节,称其为算力客户供应光收发器。",
   "first_mention": "2025-12-01",
-  "last_mention": "2026-06-15",
-  "total_mentions": 131,
+  "last_mention": "2026-06-17",
+  "total_mentions": 132,
   "mentions": [
     {
       "tweet_id": "1995559972525294001",
@@ -3184,6 +3184,32 @@
         "likes": 1101,
         "reposts": 100,
         "replies": 195
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067262644286107793",
+      "date": "2026-06-17",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "his pick if he had to choose one"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$JBL",
+      "text": "@Raccoononomics $JBL would be my pick if I had to choose one.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067262644286107793",
+      "kind": "reply",
+      "engagement": {
+        "views": 15878,
+        "likes": 86,
+        "reposts": 2,
+        "replies": 11
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
