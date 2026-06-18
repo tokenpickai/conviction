@@ -1,6 +1,6 @@
 {
   "ticker": "SIVE",
-  "cashtag": "$SIVE",
+  "cashtag": "$SIVEF",
   "price_symbol": "SIVE.ST",
   "exchange": "Nasdaq Stockholm",
   "currency": "SEK",
@@ -10,7 +10,7 @@
   "thesis_summary": "他把 SIVE 当作硅光/CPO 的上游激光瓶颈,反复强调它是产业链核心受益者,通过 POET 供货给 Ayar、Celestial 等光引擎厂商。",
   "first_mention": "2025-12-23",
   "last_mention": "2026-06-18",
-  "total_mentions": 689,
+  "total_mentions": 690,
   "mentions": [
     {
       "tweet_id": "2003604861414408240",
@@ -19021,6 +19021,33 @@
         "likes": 1081,
         "reposts": 61,
         "replies": 204
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067626358940082653",
+      "date": "2026-06-18",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "likely guess for AMD large purchase agreements for CW lasers",
+        "AMD + GFS/Sivers reference laser"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SIVEF",
+      "text": "@degenlurker_ $AAOI + $SIVEF were my two likely guesses for $AMD large purchase agreements for CW lasers. We'll see what happens. \n\ngiven aaoi + amd analyst channel checks. and amd + gfs/sivers reference laser.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067626358940082653",
+      "kind": "reply",
+      "engagement": {
+        "views": 24616,
+        "likes": 199,
+        "reposts": 8,
+        "replies": 14
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

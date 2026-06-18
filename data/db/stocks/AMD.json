@@ -9,8 +9,8 @@
   "industry": "GPU/AI Chips",
   "thesis_summary": null,
   "first_mention": "2025-09-11",
-  "last_mention": "2026-06-17",
-  "total_mentions": 135,
+  "last_mention": "2026-06-18",
+  "total_mentions": 136,
   "mentions": [
     {
       "tweet_id": "1966185091467718795",
@@ -3384,6 +3384,30 @@
         "likes": 933,
         "reposts": 69,
         "replies": 114
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067626358940082653",
+      "date": "2026-06-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AMD",
+      "text": "@degenlurker_ $AAOI + $SIVEF were my two likely guesses for $AMD large purchase agreements for CW lasers. We'll see what happens. \n\ngiven aaoi + amd analyst channel checks. and amd + gfs/sivers reference laser.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067626358940082653",
+      "kind": "reply",
+      "engagement": {
+        "views": 24616,
+        "likes": 199,
+        "reposts": 8,
+        "replies": 14
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

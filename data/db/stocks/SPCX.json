@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-05-25",
-  "last_mention": "2026-06-17",
-  "total_mentions": 14,
+  "last_mention": "2026-06-18",
+  "total_mentions": 15,
   "mentions": [
     {
       "tweet_id": "2058968617681899915",
@@ -432,6 +432,39 @@
         "likes": 1352,
         "reposts": 128,
         "replies": 181
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067604528959238272",
+      "date": "2026-06-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SPCX",
+      "text": "I think Jim Cramer’s law needs to be studied in history books.\n\nEven $SPCX can’t withstand his blessing. https://t.co/8Hr7898NmA https://t.co/xGiAOImQXE",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067604522617470976",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLGbW9KbAAA9N_0.jpg",
+          "width": 1107,
+          "height": 1149,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2067604528959238272",
+      "kind": "post",
+      "engagement": {
+        "views": 339304,
+        "likes": 1473,
+        "reposts": 65,
+        "replies": 239
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

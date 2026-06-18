@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-06-18T12:07:17.099596+00:00",
-    "total_tickers": 955,
-    "total_mentions": 13797,
+    "generated_at": "2026-06-18T21:31:13.730152+00:00",
+    "total_tickers": 957,
+    "total_mentions": 13813,
     "dates": "ET (US Eastern); matches render/pipeline.py",
     "note": "Data layer only — facts + raw mentions. All windowed/stance aggregation + rankings are computed by render at runtime. Prices pending."
   },
@@ -23,7 +23,7 @@
     },
     {
       "ticker": "SIVE",
-      "cashtag": "$SIVE",
+      "cashtag": "$SIVEF",
       "price_symbol": "SIVE.ST",
       "exchange": "Nasdaq Stockholm",
       "currency": "SEK",
@@ -32,7 +32,7 @@
       "industry": "AI Photonics/CPO Lasers",
       "first_mention": "2025-12-23",
       "last_mention": "2026-06-18",
-      "total_mentions": 689,
+      "total_mentions": 690,
       "price_status": "partial"
     },
     {
@@ -102,7 +102,7 @@
       "industry": "Optical Modules",
       "first_mention": "2025-12-11",
       "last_mention": "2026-06-18",
-      "total_mentions": 429,
+      "total_mentions": 430,
       "price_status": "ok"
     },
     {
@@ -283,8 +283,8 @@
       "company": "Micron",
       "industry": "Memory/HBM",
       "first_mention": "2025-09-25",
-      "last_mention": "2026-06-16",
-      "total_mentions": 165,
+      "last_mention": "2026-06-18",
+      "total_mentions": 166,
       "price_status": "ok"
     },
     {
@@ -311,8 +311,8 @@
       "company": "SanDisk",
       "industry": "Memory",
       "first_mention": "2025-11-25",
-      "last_mention": "2026-06-16",
-      "total_mentions": 146,
+      "last_mention": "2026-06-18",
+      "total_mentions": 148,
       "price_status": "ok"
     },
     {
@@ -381,8 +381,8 @@
       "company": "AMD",
       "industry": "GPU/AI Chips",
       "first_mention": "2025-09-11",
-      "last_mention": "2026-06-17",
-      "total_mentions": 135,
+      "last_mention": "2026-06-18",
+      "total_mentions": 136,
       "price_status": "ok"
     },
     {
@@ -414,6 +414,20 @@
       "price_status": "ok"
     },
     {
+      "ticker": "INTC",
+      "cashtag": "$INTC",
+      "price_symbol": "INTC",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": "Intel",
+      "industry": "CPU/Foundry/Glass Substrate",
+      "first_mention": "2025-09-23",
+      "last_mention": "2026-06-18",
+      "total_mentions": 125,
+      "price_status": "ok"
+    },
+    {
       "ticker": "TSEM",
       "cashtag": "Tower",
       "price_symbol": "TSEM",
@@ -425,20 +439,6 @@
       "first_mention": "2026-02-10",
       "last_mention": "2026-06-15",
       "total_mentions": 125,
-      "price_status": "ok"
-    },
-    {
-      "ticker": "INTC",
-      "cashtag": "$INTC",
-      "price_symbol": "INTC",
-      "exchange": "US",
-      "currency": "USD",
-      "ticker_mapped": false,
-      "company": "Intel",
-      "industry": "CPU/Foundry/Glass Substrate",
-      "first_mention": "2025-09-23",
-      "last_mention": "2026-06-17",
-      "total_mentions": 124,
       "price_status": "ok"
     },
     {
@@ -457,7 +457,7 @@
     },
     {
       "ticker": "SK HYNIX",
-      "cashtag": "Sk Hynix",
+      "cashtag": "SK Hynix",
       "price_symbol": "000660.KS",
       "exchange": "Korea Exchange",
       "currency": "KRW",
@@ -465,8 +465,8 @@
       "company": "SK Hynix",
       "industry": "Memory/HBM (Korea)",
       "first_mention": "2025-12-01",
-      "last_mention": "2026-06-16",
-      "total_mentions": 104,
+      "last_mention": "2026-06-18",
+      "total_mentions": 105,
       "price_status": "pending"
     },
     {
@@ -549,8 +549,8 @@
       "company": "Apple",
       "industry": null,
       "first_mention": "2025-09-22",
-      "last_mention": "2026-06-15",
-      "total_mentions": 79,
+      "last_mention": "2026-06-18",
+      "total_mentions": 80,
       "price_status": "ok"
     },
     {
@@ -591,8 +591,8 @@
       "company": "Samsung Electronics",
       "industry": "Memory/HBM/Semiconductors",
       "first_mention": "2025-12-28",
-      "last_mention": "2026-06-15",
-      "total_mentions": 74,
+      "last_mention": "2026-06-18",
+      "total_mentions": 75,
       "price_status": "pending"
     },
     {
@@ -1618,6 +1618,20 @@
       "price_status": "ok"
     },
     {
+      "ticker": "SPCX",
+      "cashtag": "$SPCX",
+      "price_symbol": "SPCX",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": null,
+      "industry": null,
+      "first_mention": "2026-05-25",
+      "last_mention": "2026-06-18",
+      "total_mentions": 15,
+      "price_status": "ok"
+    },
+    {
       "ticker": "WOLF",
       "cashtag": "$WOLF",
       "price_symbol": "WOLF",
@@ -1712,20 +1726,6 @@
       "industry": null,
       "first_mention": "2026-01-03",
       "last_mention": "2026-05-24",
-      "total_mentions": 14,
-      "price_status": "ok"
-    },
-    {
-      "ticker": "SPCX",
-      "cashtag": "$SPCX",
-      "price_symbol": "SPCX",
-      "exchange": "US",
-      "currency": "USD",
-      "ticker_mapped": false,
-      "company": null,
-      "industry": null,
-      "first_mention": "2026-05-25",
-      "last_mention": "2026-06-17",
       "total_mentions": 14,
       "price_status": "ok"
     },
@@ -3256,6 +3256,20 @@
       "price_status": "pending"
     },
     {
+      "ticker": "ACMR",
+      "cashtag": "$ACMR",
+      "price_symbol": "ACMR",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": null,
+      "industry": null,
+      "first_mention": "2026-01-12",
+      "last_mention": "2026-06-18",
+      "total_mentions": 5,
+      "price_status": "ok"
+    },
+    {
       "ticker": "ADBE",
       "cashtag": "$ADBE",
       "price_symbol": "ADBE",
@@ -3532,6 +3546,20 @@
       "industry": null,
       "first_mention": "2026-05-06",
       "last_mention": "2026-05-06",
+      "total_mentions": 4,
+      "price_status": "pending"
+    },
+    {
+      "ticker": "2316",
+      "cashtag": "WUS (2316)",
+      "price_symbol": "2316",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": null,
+      "industry": null,
+      "first_mention": "2026-03-26",
+      "last_mention": "2026-06-18",
       "total_mentions": 4,
       "price_status": "pending"
     },
@@ -4264,20 +4292,6 @@
       "price_status": "pending"
     },
     {
-      "ticker": "2316",
-      "cashtag": "WUS TW (implied)",
-      "price_symbol": "2316",
-      "exchange": "US",
-      "currency": "USD",
-      "ticker_mapped": false,
-      "company": null,
-      "industry": null,
-      "first_mention": "2026-03-26",
-      "last_mention": "2026-06-17",
-      "total_mentions": 3,
-      "price_status": "pending"
-    },
-    {
       "ticker": "3081",
       "cashtag": "Landmark (3081)",
       "price_symbol": "3081",
@@ -4372,20 +4386,6 @@
       "industry": null,
       "first_mention": "2026-01-22",
       "last_mention": "2026-03-23",
-      "total_mentions": 3,
-      "price_status": "ok"
-    },
-    {
-      "ticker": "ACMR",
-      "cashtag": "$ACMR",
-      "price_symbol": "ACMR",
-      "exchange": "US",
-      "currency": "USD",
-      "ticker_mapped": false,
-      "company": null,
-      "industry": null,
-      "first_mention": "2026-01-12",
-      "last_mention": "2026-03-16",
       "total_mentions": 3,
       "price_status": "ok"
     },
@@ -12272,6 +12272,20 @@
       "price_status": "pending"
     },
     {
+      "ticker": "SKM",
+      "cashtag": "Sk Telecom",
+      "price_symbol": "SKM",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": null,
+      "industry": null,
+      "first_mention": "2026-06-18",
+      "last_mention": "2026-06-18",
+      "total_mentions": 1,
+      "price_status": "pending"
+    },
+    {
       "ticker": "SKPJF",
       "cashtag": "$SKPJF",
       "price_symbol": "SKPJF",
@@ -12296,6 +12310,20 @@
       "industry": null,
       "first_mention": "2026-01-20",
       "last_mention": "2026-01-20",
+      "total_mentions": 1,
+      "price_status": "pending"
+    },
+    {
+      "ticker": "SK_SQUARE",
+      "cashtag": "SK Square",
+      "price_symbol": "SK_SQUARE",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": null,
+      "industry": null,
+      "first_mention": "2026-06-18",
+      "last_mention": "2026-06-18",
       "total_mentions": 1,
       "price_status": "pending"
     },

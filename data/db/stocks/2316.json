@@ -1,6 +1,6 @@
 {
   "ticker": "2316",
-  "cashtag": "WUS TW (implied)",
+  "cashtag": "WUS (2316)",
   "price_symbol": "2316",
   "exchange": "US",
   "currency": "USD",
@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-03-26",
-  "last_mention": "2026-06-17",
-  "total_mentions": 3,
+  "last_mention": "2026-06-18",
+  "total_mentions": 4,
   "mentions": [
     {
       "tweet_id": "2037085574813942094",
@@ -107,6 +107,33 @@
         "likes": 53,
         "reposts": 0,
         "replies": 3
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067658240612262198",
+      "date": "2026-06-18",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "NAV discount with AI growth",
+        "has exposure"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "WUS (2316)",
+      "text": "Anyone got a list or ideas of the biggest NAV discounts. But independently has AI growth?\n\nStuff more extreme end like $ACMR and WUS (2316) compared to SK Square.\n\nHave exposure to the ones above, just wanted to research more opportunities.\n\nSeems to be getting noticed recently",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067658240612262198",
+      "kind": "post",
+      "engagement": {
+        "views": 121221,
+        "likes": 440,
+        "reposts": 18,
+        "replies": 212
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

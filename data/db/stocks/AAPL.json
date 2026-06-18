@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2025-09-22",
-  "last_mention": "2026-06-15",
-  "total_mentions": 79,
+  "last_mention": "2026-06-18",
+  "total_mentions": 80,
   "mentions": [
     {
       "tweet_id": "1970228982777029075",
@@ -1916,6 +1916,39 @@
         "likes": 145,
         "reposts": 4,
         "replies": 13
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067624913834549685",
+      "date": "2026-06-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AAPL",
+      "text": "Trump announced Intel + Apple partnership, sending $INTC up 8% today. \n\nIntel execs were reportedly surprised by the $AAPL announcement by Donald Trump.\n\nTBH, the President should lead Intel's marketing team at this point.\n\nFeel's like he's hard carrying the stock. https://t.co/eCSS46U6eb",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [
+        {
+          "media_key": "3_2067624236366356480",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLGtScma4AA4KSI.jpg",
+          "width": 2085,
+          "height": 925,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2067624913834549685",
+      "kind": "post",
+      "engagement": {
+        "views": 158830,
+        "likes": 948,
+        "reposts": 45,
+        "replies": 182
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

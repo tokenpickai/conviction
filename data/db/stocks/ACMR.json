@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-01-12",
-  "last_mention": "2026-03-16",
-  "total_mentions": 3,
+  "last_mention": "2026-06-18",
+  "total_mentions": 5,
   "mentions": [
     {
       "tweet_id": "2010916127925293347",
@@ -85,6 +85,62 @@
         "likes": 30,
         "reposts": 0,
         "replies": 5
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067658240612262198",
+      "date": "2026-06-18",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "NAV discount with AI growth",
+        "has exposure"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$ACMR",
+      "text": "Anyone got a list or ideas of the biggest NAV discounts. But independently has AI growth?\n\nStuff more extreme end like $ACMR and WUS (2316) compared to SK Square.\n\nHave exposure to the ones above, just wanted to research more opportunities.\n\nSeems to be getting noticed recently",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067658240612262198",
+      "kind": "post",
+      "engagement": {
+        "views": 121221,
+        "likes": 440,
+        "reposts": 18,
+        "replies": 212
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067662075066036313",
+      "date": "2026-06-18",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "~$18.2B worth of assets from ACMR China vs $7.3B market cap (NAV discount)",
+        "standalone AI vertical is important",
+        "US parent expansion takes off in H2 2026",
+        "slightly more derisked due to assets they own"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$ACMR",
+      "text": "I’m just finding new ideas. As for $ACMR up to you. It’s just my example on what I’m trying to look for, since it’s has around ~$18.2B worth of assets from ACMR China. And it’s currently trades at a $7.3B MC.\n\nI don’t think they can fully liquidate it, which is why it trades discount to nav.\n\nBut that’s also why standalone ai vertical is important, think their us parent expansion takes off in h2 2026.\n\nI just think these type of companies are slightly more derisked since of assets they own",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067662075066036313",
+      "kind": "reply",
+      "engagement": {
+        "views": 11400,
+        "likes": 53,
+        "reposts": 0,
+        "replies": 4
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

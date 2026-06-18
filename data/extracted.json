@@ -216160,5 +216160,255 @@
     "extractor_model": "claude-opus-4-6",
     "prompt_version": "extract-v2",
     "extracted_at": "2026-06-18T12:06:50.407658+00:00"
+  },
+  "2067658240612262198": {
+    "tweet_id": "2067658240612262198",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$ACMR",
+        "symbol": "ACMR",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "NAV discount with AI growth",
+          "has exposure"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "WUS (2316)",
+        "symbol": "2316",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "NAV discount with AI growth",
+          "has exposure"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "SK Square",
+        "symbol": "SK_SQUARE",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-18T21:30:46.390718+00:00"
+  },
+  "2067660174777868382": {
+    "tweet_id": "2067660174777868382",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Sk Telecom",
+        "symbol": "SKM",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.6,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-18T21:30:46.390718+00:00"
+  },
+  "2067662075066036313": {
+    "tweet_id": "2067662075066036313",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$ACMR",
+        "symbol": "ACMR",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "~$18.2B worth of assets from ACMR China vs $7.3B market cap (NAV discount)",
+          "standalone AI vertical is important",
+          "US parent expansion takes off in H2 2026",
+          "slightly more derisked due to assets they own"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.92,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-18T21:30:46.390718+00:00"
+  },
+  "2067621883525394768": {
+    "tweet_id": "2067621883525394768",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$MU",
+        "symbol": "MU",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SNDK",
+        "symbol": "SNDK",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$EWY",
+        "symbol": "EWY",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "SK Hynix",
+        "symbol": "SK Hynix",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Samsung",
+        "symbol": "Samsung",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.8,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-18T21:30:46.390718+00:00"
+  },
+  "2067626358940082653": {
+    "tweet_id": "2067626358940082653",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$AAOI",
+        "symbol": "AAOI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "likely guess for AMD large purchase agreements for CW lasers",
+          "AMD analyst channel checks"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SIVEF",
+        "symbol": "SIVEF",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "likely guess for AMD large purchase agreements for CW lasers",
+          "AMD + GFS/Sivers reference laser"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AMD",
+        "symbol": "AMD",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-18T21:30:46.390718+00:00"
+  },
+  "2067626543892054042": {
+    "tweet_id": "2067626543892054042",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SNDK",
+        "symbol": "SNDK",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-18T21:30:46.390718+00:00"
+  },
+  "2067624913834549685": {
+    "tweet_id": "2067624913834549685",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$INTC",
+        "symbol": "INTC",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AAPL",
+        "symbol": "AAPL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-18T21:30:46.390718+00:00"
+  },
+  "2067604528959238272": {
+    "tweet_id": "2067604528959238272",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SPCX",
+        "symbol": "SPCX",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-18T21:30:46.390718+00:00"
   }
 }
