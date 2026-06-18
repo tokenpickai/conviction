@@ -1010,6 +1010,7 @@ html{scroll-behavior:smooth}
 .tweetcard:hover .twopen{color:#1d9bf0}
 .twtext{font-size:14.5px;line-height:1.55;color:#e7e9ea;white-space:pre-wrap;word-break:break-word;padding-left:45px}
 .twtext .cashtag{color:#1d9bf0}
+.twmore{display:inline-block;margin-top:2px;color:#1d9bf0;font-weight:500}
 .tweetcard .pmedia{margin-left:45px;max-width:520px;grid-template-columns:repeat(2,minmax(0,1fr))}
 .tweetcard .pmedia.one{max-width:420px;grid-template-columns:1fr}
 .tweetcard .pmedia img{border-color:#2f3336;background:#16181c}
@@ -1096,6 +1097,7 @@ secs.forEach(x=>x&&obs.observe(x));
 function decodeEntities(t){var el=document.createElement('textarea');el.innerHTML=t==null?'':String(t);return el.value;}
 function esc(t){return decodeEntities(t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 function fmtPostText(t){return esc(t).replace(/(^|[^A-Za-z0-9_$])([$][A-Za-z0-9][A-Za-z0-9]{0,14})(?=$|[^A-Za-z0-9])/g,'$1<span class="cashtag">$2</span>');}
+function shortPostText(t,limit){t=decodeEntities(t||'').trim();limit=limit||280;if(t.length<=limit)return {text:t,cut:false};var cut=t.slice(0,limit),i=Math.max(cut.lastIndexOf(' '),cut.lastIndexOf('\\n'));if(i>limit*0.72)cut=cut.slice(0,i);return {text:cut.trim(),cut:true};}
 function mediaHtml(items){items=(items||[]).filter(function(m){return m&&m.type==='photo'&&m.url;});if(!items.length)return '';var cls='pmedia '+(items.length===1?'one':'');return '<div class="'+cls+'">'+items.slice(0,4).map(function(m){return '<img loading="lazy" src="'+esc(m.url)+'" alt="'+esc(m.alt_text||'Post image')+'">';}).join('')+'</div>';}
 function fmtN(n){if(n==null)return '';n=+n;if(n>=1e6)return (n/1e6).toFixed(1)+'M';if(n>=1000)return (n/1000).toFixed(1)+'k';return ''+n;}
 var ddOpenTicker=null;
@@ -1139,7 +1141,8 @@ function reportHtml(r,postMap){
   function tweetCard(c){
     var p=postMap&&postMap[c.tweet_id];
     if(!p)return '<a class="rcite" href="'+esc(c.url||'#')+'" target="_blank" rel="noopener">'+esc(c.date||'')+' · '+esc(c.label||c.tweet_id||'source')+' <i class="fa-solid fa-arrow-up-right-from-square"></i></a>';
-    return '<a class="tweetcard" href="'+esc(p.url||c.url||'#')+'" target="_blank" rel="noopener"><div class="twhead"><img class="twav" src="assets/serenity-avatar.jpg" alt="Serenity avatar"><div><div class="twnm">Serenity <i class="fa-solid fa-circle-check" style="color:#1d9bf0;font-size:12px"></i></div><div class="twmeta">@aleabitoreddit · '+esc(p.d||c.date||'')+'</div></div><span class="twopen"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div><div class="twtext">'+fmtPostText(p.text||'')+'</div>'+mediaHtml(p.media)+'</a>';
+    var sp=shortPostText(p.text,280),more=sp.cut?'\\n<span class="twmore">Read more</span>':'';
+    return '<a class="tweetcard" href="'+esc(p.url||c.url||'#')+'" target="_blank" rel="noopener"><div class="twhead"><img class="twav" src="assets/serenity-avatar.jpg" alt="Serenity avatar"><div><div class="twnm">Serenity <i class="fa-solid fa-circle-check" style="color:#1d9bf0;font-size:12px"></i></div><div class="twmeta">@aleabitoreddit · '+esc(p.d||c.date||'')+'</div></div><span class="twopen"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div><div class="twtext">'+fmtPostText(sp.text)+more+'</div>'+mediaHtml(p.media)+'</a>';
   }
   function cites(a){if(!a||!a.length)return '';var cards=[],chips=[];a.forEach(function(c){var h=tweetCard(c);if(h.indexOf('tweetcard')>=0)cards.push(h);else chips.push(h);});return (cards.length?'<div class="tweetrefs">'+cards+'</div>':'')+(chips.length?'<div class="thesis-cites">'+chips.join('')+'</div>':'');}
   var secs=(r.sections||[]).map(function(s){return '<section class="thesis-sec"><h3>'+esc(s.heading||'')+'</h3>'+paras(s.body)+cites(s.citations)+'</section>';}).join('');
