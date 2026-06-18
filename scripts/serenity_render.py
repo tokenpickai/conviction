@@ -137,7 +137,7 @@ STR={
   'tag_background':"Background",'tag_comparison':"Analogy",'tag_quote':"Quote",'tag_mention':"Mention",
   'dd_ph_title':"No detail for {tk}",
   'dd_ph_body':"This name has only brief or background mentions — no expandable record yet.<br>Tap ← Back (top-right) to return.",
-  'dd_view_all':"View all posts ({n}) <i class='fa-solid fa-chevron-down'></i>",
+  'dd_view_all':"Show more posts ({n}) <i class='fa-solid fa-chevron-down'></i>",
   'dd_disc_body':"This page aggregates the account's public posts — stance, self-stated reasons, posting frequency, and the price path since first mention.",
   'disc_top':"⚠️ Aggregation and tracking of {link}'s public posts, summarized automatically by AI. <b>It may contain errors or omissions and is not guaranteed accurate — refer to the original posts and verify independently.</b> This tracker does not constitute investment advice.",
   'disc_top_sub':"Stance labels (bull / bear / neutral) are AI-inferred from the original text and may be inaccurate · No stance = mentioned only, no view expressed",
@@ -201,7 +201,7 @@ STR={
   'tag_background':"背景",'tag_comparison':"比喻",'tag_quote':"引用",'tag_mention':"提及",
   'dd_ph_title':"暂无 {tk} 的详情",
   'dd_ph_body':"该标的仅少量或背景提及,尚未形成可展开的记录。<br>点击右上角「← 返回」回到看板。",
-  'dd_view_all':"查看全部帖子（共 {n} 条）<i class='fa-solid fa-chevron-down'></i>",
+  'dd_view_all':"查看更多帖子（剩余 {n} 条）<i class='fa-solid fa-chevron-down'></i>",
   'dd_disc_body':"本页整理的是博主的公开发言——立场、自述理由、发帖频次,以及自首次提及以来的价格走势。",
   'disc_top':"⚠️ 本页为对博主 {link} 公开推文的整理与追踪,由 AI 自动归纳,<b>可能存在错误或遗漏,不保证信息绝对准确,请以原推文为准并自行核实</b>。本追踪不构成任何投资建议。",
   'disc_top_sub':"立场标签(看多 / 看空 / 中性)由 AI 对原文的语义分析推断，可能存在误判 · 未表态 = 仅提及、未表达态度",
@@ -984,6 +984,9 @@ html{scroll-behavior:smooth}
 .ddfreq{display:flex;gap:16px;justify-content:flex-end;margin-top:9px}
 .ddfreq .fc{display:flex;flex-direction:column;align-items:center}.ddfreq .fc i{font-style:normal;font-size:10px;color:var(--ink-faint)}.ddfreq .fc b{font-size:16px;color:var(--ink)}
 .ddchart{margin:18px 0 8px}.cc-svg{position:relative;width:100%;height:220px}
+.charttitle{margin:22px 0 8px}
+.charttitle h3{font-family:var(--serif);font-size:17px;font-weight:800;color:var(--ink);line-height:1.3}
+.charttitle p{font-size:12px;color:var(--ink-faint);margin-top:4px}
 .cdot{position:absolute;width:11px;height:11px;border-radius:50%;border:2px solid var(--paper);transform:translate(-50%,-50%);cursor:pointer;box-shadow:0 0 0 1px rgba(0,0,0,.15)}
 .cc-leg{display:flex;gap:16px;align-items:center;flex-wrap:wrap;font-size:11.5px;color:var(--ink-soft);margin-top:8px}.cc-leg i{width:10px;height:10px;border-radius:50%;display:inline-block;margin-right:4px;vertical-align:middle}.cc-leg .g{color:var(--ink-faint)}
 .ddchart-ph{padding:22px;text-align:center;color:var(--ink-faint);font-size:13px;border:1px dashed var(--line-strong);border-radius:6px;margin:18px 0 8px}
@@ -1048,11 +1051,13 @@ html{scroll-behavior:smooth}
 .rph .rpn{margin-left:auto;font-family:inherit;font-weight:400;font-size:11px;color:var(--ink-faint)}
 .rlist .rdot{width:6px;height:6px;border-radius:50%;margin-top:8px;flex:none}.rlist .rdot.bull{background:var(--bull)}.rlist .rdot.bear{background:var(--bear)}
 /* 全部发言:第三张图式紧凑行(#5) */
-.postsbar{display:flex;align-items:center;gap:12px;margin:32px 0 4px}
+.postsbar{display:flex;align-items:center;gap:12px;margin:32px 0 4px;flex-wrap:wrap}
+.postsbar h3{font-family:var(--serif);font-size:17px;font-weight:800;color:var(--ink);line-height:1.3;margin-right:auto}
 .postcount{background:var(--ink);color:var(--paper);font-family:var(--mono);font-size:12.5px;font-weight:600;padding:5px 15px;border-radius:18px}
-.postsnote{margin-left:auto;font-size:11.5px;color:var(--ink-faint)}
+.postsnote{font-size:11.5px;color:var(--ink-faint)}
 .plist{border-top:1px solid var(--line)}
 .prow{display:grid;grid-template-columns:90px 92px 82px minmax(0,1fr);align-items:flex-start;gap:14px;padding:13px 6px;border-bottom:1px solid var(--line);text-decoration:none}
+.prow.hidden{display:none}
 .prow:hover{background:var(--card)}
 .prd{font-family:var(--mono);font-size:11.5px;color:var(--ink-faint);padding-top:2px}
 .prtag{font-size:10.5px;font-weight:600;padding:2px 9px;border-radius:9px;text-align:center;box-sizing:border-box;width:100%}
@@ -1114,7 +1119,13 @@ function closeDD(){
     else{history.replaceState(null,'',location.pathname+location.search);hideDD();}
   }else hideDD();
 }
-function ddMore(b){var r=document.getElementById('ddRest');if(r)r.style.display='block';b.style.display='none';}
+function ddMore(b){
+  var r=document.getElementById('ddRest');if(!r)return;
+  var hidden=[...r.querySelectorAll('.prow.hidden')];
+  hidden.slice(0,10).forEach(function(x){x.classList.remove('hidden');});
+  var left=r.querySelectorAll('.prow.hidden').length;
+  if(left)b.innerHTML=I('dd_view_all',{n:left});else b.style.display='none';
+}
 function ddChart(d){
   if(d.otc||!d.series||d.series.length<2) return '<div class="ddchart-ph">'+I18N.chart_ph_no_series+'</div>';
   var W=760,H=220,P=16,s=d.series,cs=s.map(function(p){return p.c;});
@@ -1135,7 +1146,7 @@ function ddChart(d){
   }).join('');
   return '<div class="ddchart"><div class="cc-svg"><svg viewBox="0 0 '+W+' '+H+'" width="100%" height="220" preserveAspectRatio="none"><defs><linearGradient id="ddfill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1f7a4d" stop-opacity="0.14"/><stop offset="100%" stop-color="#1f7a4d" stop-opacity="0"/></linearGradient></defs><path d="'+area+'" fill="url(#ddfill)"/><path d="'+line+'" fill="none" stroke="#1f7a4d" stroke-width="2"/></svg>'+dots+'</div><div class="cc-leg"><span><i style="background:var(--bull)"></i>'+I18N.chart_leg_bull+'</span><span><i style="background:var(--bear)"></i>'+I18N.chart_leg_bear+'</span><span class="g">'+I18N.chart_leg_note+'</span></div></div>';
 }
-function reportHtml(r,postMap){
+function reportHtml(r,postMap,tk){
   if(!r)return '';
   function paras(a){return (a||[]).map(function(p){return '<p>'+esc(p)+'</p>';}).join('');}
   function tweetCard(c){
@@ -1148,7 +1159,7 @@ function reportHtml(r,postMap){
   var secs=(r.sections||[]).map(function(s){return '<section class="thesis-sec"><h3>'+esc(s.heading||'')+'</h3>'+paras(s.body)+cites(s.citations)+'</section>';}).join('');
   var summary=paras(r.one_minute_summary);
   var final=paras(r.final_takeaway);
-  return '<article class="thesis"><div class="thesis-kicker">SERENITY THESIS REPORT</div><h2 class="thesis-title">'+esc(r.title||'')+'</h2><div class="thesis-sub">'+esc(r.subtitle||'')+'</div>'+(r.core_label?'<div class="thesis-core">'+esc(r.core_label)+'</div>':'')+(summary?'<div class="thesis-summary">'+summary+'</div>':'')+secs+(final?'<section class="thesis-final"><h3>最後結論</h3>'+final+'</section>':'')+'</article>';
+  return '<article class="thesis"><div class="thesis-kicker">SERENITY $'+esc(tk)+' THESIS REPORT</div><h2 class="thesis-title">'+esc(r.title||'')+'</h2><div class="thesis-sub">'+esc(r.subtitle||'')+'</div>'+(r.core_label?'<div class="thesis-core">'+esc(r.core_label)+'</div>':'')+(summary?'<div class="thesis-summary">'+summary+'</div>':'')+secs+(final?'<section class="thesis-final"><h3>最後結論</h3>'+final+'</section>':'')+'</article>';
 }
 function renderDD(tk){
   var d=window.DD_DATA&&DD_DATA[tk];
@@ -1156,18 +1167,19 @@ function renderDD(tk){
   var pill=d.stance==='bull'?'<span class="ddpill bull">'+I18N.stance_bull+'</span>':d.stance==='bear'?'<span class="ddpill bear">'+I18N.stance_bear+'</span>':d.stance==='shift'?'<span class="ddpill cw">'+I18N.stance_mixed+'</span>':d.stance==='none'?'<span class="ddpill neutral">'+I18N.stance_none+'</span>':'<span class="ddpill neutral">'+I18N.stance_neutral+'</span>';
   var split='<span class="tup"><i class="fa-solid fa-caret-up"></i></span>'+d.bull+' '+I18N.stance_bull+' · <span class="tdn"><i class="fa-solid fa-caret-down"></i></span>'+d.bear+' '+I18N.stance_bear+' · <span class="tnt"><i class="fa-solid fa-circle"></i></span>'+d.neu+' '+I18N.stance_neutral;
   function mkR(a,empty,cls){if(!a||!a.length)return '<li class="empty">'+empty+'</li>';return a.map(function(r){return '<li><span class="rdot '+cls+'"></span><span class="rt">'+esc(r[0])+'</span><a class="rsrc" href="'+r[1]+'" target="_blank" rel="noopener">'+r[2]+' <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>';}).join('');}
-  function postRow(t){var fb=t.first?'<span class="prtag first">'+I18N.post_initial+'</span>':'<span class="prtag first ghost">'+I18N.post_initial+'</span>';var more=t.cut?' <span class="prmore">... '+I18N.dd_show_more+'</span>':'';return '<a class="prow" href="'+t.url+'" target="_blank" rel="noopener"><span class="prd">'+t.d+'</span><span class="prtag '+t.st+'">'+t.tag+'</span>'+fb+'<div class="prtx">'+fmtPostText(t.text)+more+' <span class="prlk"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>'+mediaHtml(t.media)+'</div></a>';}
+  function postRow(t,hidden){var fb=t.first?'<span class="prtag first">'+I18N.post_initial+'</span>':'<span class="prtag first ghost">'+I18N.post_initial+'</span>';var more=t.cut?' <span class="prmore">... '+I18N.dd_show_more+'</span>':'';return '<a class="prow '+(hidden?'hidden':'')+'" href="'+t.url+'" target="_blank" rel="noopener"><span class="prd">'+t.d+'</span><span class="prtag '+t.st+'">'+t.tag+'</span>'+fb+'<div class="prtx">'+fmtPostText(t.text)+more+' <span class="prlk"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>'+mediaHtml(t.media)+'</div></a>';}
   var firstPxTxt=d.firstPx?((d.cur?d.cur+' ':'')+d.firstPx):'—';
-  var _ps=d.posts,_head=_ps.slice(0,20),_rest=_ps.slice(20);
+  var _ps=d.posts,_latest=_ps.length?_ps[0].d:null,_head=_ps.filter(function(p){return p.d===_latest;}),_rest=_ps.filter(function(p){return p.d!==_latest;});
   var postMap={};_ps.forEach(function(p){if(p.id)postMap[p.id]=p;});
-  var plistHtml='<div class="plist">'+_head.map(postRow).join('')+(_rest.length?'<div id="ddRest" style="display:none">'+_rest.map(postRow).join('')+'</div>':'')+'</div>'+(_rest.length?'<div class="ddmore" onclick="ddMore(this)">'+I('dd_view_all',{n:_ps.length})+'</div>':'');
+  var plistHtml='<div class="plist">'+_head.map(function(p){return postRow(p,false);}).join('')+(_rest.length?'<div id="ddRest">'+_rest.map(function(p){return postRow(p,true);}).join('')+'</div>':'')+'</div>'+(_rest.length?'<div class="ddmore" onclick="ddMore(this)">'+I('dd_view_all',{n:_rest.length})+'</div>':'');
   document.getElementById('ddBody').innerHTML=
     '<div class="ddhead"><div class="ddhl"><div class="ddtk">'+tk+'<span class="market detail">'+esc(d.market||'')+'</span><span class="theme detail '+(d.theme==='Other'?'other':'')+'">'+esc(d.theme||'Other')+'</span></div><div class="ddco">'+esc(d.co)+(d.industry?' · <span class="ddind">'+esc(d.industry)+'</span>':'')+'</div><div class="ddpills">'+pill+'</div></div>'+
     '<div class="ddmeta"><div class="ddmrow">'+I18N.dd_first_mention+' <b>'+d.first+'</b>　·　'+I18N.dd_last_mention+' <b>'+d.last+'</b></div><div class="ddmrow">'+I18N.dd_total+' <b>'+d.total+'</b>'+(I18N.count_unit?' '+I18N.count_unit:'')+'　·　'+I18N.dd_first_px+' <b>'+firstPxTxt+'</b></div><div class="ddsplit">'+split+'</div><div class="ddfreq"><span class="fc"><i>'+I18N.dd_today+'</i><b>'+d.m_today+'</b></span><span class="fc"><i>'+I18N.freq_7d+'</i><b>'+d.m7+'</b></span><span class="fc"><i>'+I18N.freq_28d+'</i><b>'+d.m28+'</b></span></div></div></div>'+
-    reportHtml(d.report,postMap)+
+    reportHtml(d.report,postMap,tk)+
+    '<div class="charttitle"><h3>$'+tk+' price path since Serenity first mentioned it</h3><p>Dots mark Serenity posts by inferred stance.</p></div>'+
     ddChart(d)+
     '<div class="rcols"><div class="rpanel bull"><div class="rph"><span class="rpdot bull"></span>'+I18N.dd_reasons_bull+'<span class="rpn">'+I18N.dd_newest_first+'</span></div><ul class="rlist">'+mkR(d.reasonsBull,I18N.dd_no_bull,'bull')+'</ul></div><div class="rpanel bear"><div class="rph"><span class="rpdot bear"></span>'+I18N.dd_reasons_risk+'<span class="rpn">'+I18N.dd_newest_first+'</span></div><ul class="rlist">'+mkR(d.reasonsRisk,I18N.dd_no_risk,'bear')+'</ul></div></div>'+
-    '<div class="postsbar"><span class="postcount">'+I18N.dd_all_posts+' '+d.total+'</span><span class="postsnote">'+I18N.dd_posts_meta+'</span></div>'+
+    '<div class="postsbar"><h3>Today\\'s $'+tk+' mentions</h3><span class="postcount">All $'+tk+' posts '+d.total+'</span></div>'+
     plistHtml+
     '';
   ddOpenTicker=tk;openDD();
