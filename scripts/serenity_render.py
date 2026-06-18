@@ -18,12 +18,22 @@ SCRIPT_DIR=Path(__file__).resolve().parent
 _db_override=_argval('--db') or os.environ.get('SERENITY_DB')
 DB=str(Path(_db_override).resolve()) if _db_override else str(SCRIPT_DIR.parent/'data'/'db')
 STOCK={}                       # sym -> {company, industry, currency, price_series, price_status}
+REPORTS={}                     # sym -> long-form ticker research report
 allm=defaultdict(list)         # sym -> [(date, stance, mention_type, reason, url), ...] (all mentions)
 MENT=defaultdict(list)         # sym -> [full mention dicts] (for the per-stock detail page)
 _maxdate=None
+for _rf in glob.glob(str(Path(DB).parent/'reports'/'*.json')):
+    try:
+        _r=json.load(open(_rf,encoding='utf-8'))
+        _sym=(_r.get('ticker') or '').upper()
+        if _sym:
+            REPORTS[_sym]=_r
+    except Exception:
+        pass
 for _f in glob.glob(os.path.join(DB,'stocks','*.json')):
     _d=json.load(open(_f,encoding='utf-8')); s=_d['ticker']
     STOCK[s]={'company':_d.get('company'),'industry':_d.get('industry'),
+              'exchange':_d.get('exchange') or 'US','price_symbol':_d.get('price_symbol') or s,
               'currency':_d.get('currency') or 'USD',
               'price_series':_d.get('price_series') or [],'price_status':_d.get('price_status')}
     for m in _d.get('mentions',[]):
@@ -31,7 +41,7 @@ for _f in glob.glob(os.path.join(DB,'stocks','*.json')):
         dd=datetime.date.fromisoformat(m['date'])
         if _maxdate is None or dd>_maxdate: _maxdate=dd
         allm[s].append((dd,m.get('stance'),m.get('mention_type'),(m.get('reasons') or [None])[0],m.get('url') or ''))
-        MENT[s].append({'date':m['date'],'stance':m.get('stance'),'mtype':m.get('mention_type'),
+        MENT[s].append({'tweet_id':m.get('tweet_id'),'date':m['date'],'stance':m.get('stance'),'mtype':m.get('mention_type'),
                         'reasons':m.get('reasons') or [],'is_risk':bool(m.get('is_risk')),
                         'text':m.get('text') or '','url':m.get('url') or '','eng':m.get('engagement') or {},
                         'text_may_be_truncated':m.get('text_may_be_truncated'),'media':m.get('media') or []})
@@ -251,6 +261,58 @@ def prior_dir(s,before):
     return None
 def cur_of(s):
     c=STOCK.get(s,{}).get('currency','USD');return c if c!='USD' else ''
+def market_of(s):
+    d=STOCK.get(s,{})
+    ex=(d.get('exchange') or '').lower()
+    cur=(d.get('currency') or 'USD').upper()
+    ps=(d.get('price_symbol') or s).upper()
+    if 'otc' in ex or ps.endswith('F') and cur=='USD':
+        return 'OTC'
+    if cur=='USD' and (not ex or ex=='us' or 'nasdaq' in ex or 'nyse' in ex or 'amex' in ex):
+        return 'US'
+    if cur in ('SEK','EUR','GBP','CHF','DKK','NOK') or any(x in ex for x in ('stockholm','london','paris','xetra','swiss','oslo','copenhagen','helsinki','milan','amsterdam','europe')):
+        return 'EU'
+    if cur in ('JPY',) or 'tokyo' in ex or ps.endswith('.T'):
+        return 'JP'
+    if cur in ('KRW',) or 'korea' in ex or ps.endswith('.KS') or ps.endswith('.KQ'):
+        return 'KR'
+    if cur in ('HKD',) or 'hong kong' in ex or ps.endswith('.HK'):
+        return 'HK'
+    if cur in ('CAD',) or 'toronto' in ex or ps.endswith('.TO') or ps.endswith('.V'):
+        return 'CA'
+    if cur in ('AUD',) or 'asx' in ex or ps.endswith('.AX'):
+        return 'AU'
+    if cur in ('TWD',) or 'taiwan' in ex or ps.endswith('.TW'):
+        return 'TW'
+    if cur in ('CNY','CNH') or 'china' in ex:
+        return 'CN'
+    return cur or 'Other'
+def market_pill(s):
+    return f'<span class="market">{market_of(s)}</span>'
+def theme_of(s):
+    d=STOCK.get(s,{})
+    hay=' '.join(str(x or '') for x in (s,d.get('company'),d.get('industry'))).lower()
+    if any(x in hay for x in ('hbm','memory','dram','nand','sandisk','sk hynix','micron','samsung')):
+        return 'HBM'
+    if any(x in hay for x in ('inp substrate','axt inc','axti')):
+        return 'InP substrates'
+    if any(x in hay for x in ('cpo','photonic','optical','laser','lightwave','poet','lumentum','coherent','applied optoelectronics','jabil')):
+        return 'CPO'
+    if any(x in hay for x in ('power','grid','nuclear','utility','utilities','energy storage','electrical')):
+        return 'Power'
+    if any(x in hay for x in ('cooling','thermal','liquid cooling','ai servers','super micro','vertiv')):
+        return 'Cooling'
+    if any(x in hay for x in ('networking','interconnect','connectivity','pcie','cxl','aec','ethernet','switch','broadcom','marvell','credo','astera')):
+        return 'Networking'
+    if any(x in hay for x in ('ai cloud','gpu cloud','neocloud','datacenter','data center','hyperscaler','bitcoin miner','oci','oracle','coreweave','nebius','iren','wulf','cipher')):
+        return 'AI cloud'
+    if any(x in hay for x in ('ai chip','gpu','asic','custom silicon','semiconductor foundry','wafer foundry','cpu','foundry','semis','nvidia','amd','tsmc','intel','globalfoundries','tower semiconductor')):
+        return 'Custom silicon'
+    return 'Other'
+def theme_pill(s):
+    th=theme_of(s)
+    cls='other' if th=='Other' else ''
+    return f'<span class="theme {cls}">{th}</span>'
 def ymd(d):return d.strftime('%Y-%m-%d') if d else '—'
 def co_of(s):return STOCK.get(s,{}).get('company') or s
 def ind_of(s):return STOCK.get(s,{}).get('industry') or ''
@@ -391,18 +453,18 @@ def dd_data():
                 tag={'bullish':t('stance_bull'),'bearish':t('stance_bear'),'neutral':t('stance_neutral')}.get(m['stance'],t('stance_neutral')); st=m['stance']
             else:
                 tag=TAG.get(m['mtype'],t('tag_mention')); st='meta'
-            posts.append({'d':m['date'],'tag':tag,'st':st,'text':m['text'],'url':m['url'],
+            posts.append({'id':m.get('tweet_id'),'d':m['date'],'tag':tag,'st':st,'text':m['text'],'url':m['url'],
                           'cut':text_may_be_truncated(m['text'],m.get('text_may_be_truncated')),
                           'media':m.get('media') or []})
         if posts: posts[-1]['first']=True            # 最早一条 = 初始观点
-        out[s]={'co':co_of(s),'industry':ind_of(s),'otc':(not okp),'stance':stance,'stanceTxt':STXT.get(stance,'—'),
+        out[s]={'co':co_of(s),'industry':ind_of(s),'market':market_of(s),'theme':theme_of(s),'otc':(not okp),'stance':stance,'stanceTxt':STXT.get(stance,'—'),
                 'first':ymd(fdate),'last':ymd(last(s)),'total':total(s),'bull':eb,'bear':er,'neu':en,
                 'm_today':cnt(s,DAY,DAY),'m7':cnt(s,DAY-datetime.timedelta(days=6),DAY),'m28':cnt(s,DAY-datetime.timedelta(days=27),DAY),
                 'firstPx':(f'{basePx:g}' if basePx else None),'cur':cur_of(s),
                 'gain':((('+' if gain>=0 else '')+f'{gain:.1f}%') if gain is not None else None),
                 'series':series,'dots':dots,
                 'reasonsBull':reasonsBull,'reasonsRisk':reasonsRisk,
-                'posts':posts}
+                'posts':posts,'report':REPORTS.get(s)}
     return out
 
 def _freqline(s, freq, w1):
@@ -416,7 +478,7 @@ def _freqline(s, freq, w1):
     return ' · '.join(parts)
 def bigcard(s, w0, w1, pfx, head_lbl, freq, chg_kind):
     c=cnt(s,w0,w1); eb,er,en=win_exp(s,w0,w1); bk,bl=badge(eb,er,en,pfx); cls=BCLASS[bk]
-    cur=cur_of(s); curh=f'<span class="cur">{cur}</span>' if cur else ''
+    curh=market_pill(s)+theme_pill(s)
     chglbl=t('chg_daily_lbl') if chg_kind=='daily' else t('gain_lbl')
     chg_fn=daily_chg if chg_kind=='daily' else mention_chg
     info=chg_info(s) if chg_kind=='mention' else ''
@@ -469,12 +531,12 @@ def period_section(cfg):
     rows.sort(key=lambda x:-x[1])
     def srow(s,c,tags):
         chips=' '.join(f'<span class="stag {k}">{tg}</span>' for k,tg in tags)
-        return (f'<div class="surfrow" onclick="dd(\'{s}\')"><span class="tk">{s}</span><span class="sco2">{co_of(s)}</span>{chips}'
+        return (f'<div class="surfrow" onclick="dd(\'{s}\')"><span class="tk">{s}</span>{market_pill(s)}{theme_pill(s)}<span class="sco2">{co_of(s)}</span>{chips}'
           f'<span class="rrt">{chg_fn(s)}{chg_info(s) if cfg.get("chg")=="mention" else ""}<span class="sfreq">{pfx} {c} · {freqline_plain(s)}</span><span class="go">{t("detail_go")}</span></span></div>')
-    def chips(lst): return ' '.join(f'<span class="rchip" onclick="dd(\'{s}\')">{s}·{c}</span>' for s,c in sorted(lst,key=lambda x:-x[1]))
+    def chips(lst): return ' '.join(f'<span class="rchip" onclick="dd(\'{s}\')">{s} <em>{market_of(s)}</em> <em>{theme_of(s)}</em> · {c}</span>' for s,c in sorted(lst,key=lambda x:-x[1]))
     def chips_collapsed(lst):
         items=sorted(lst,key=lambda x:-x[1]); N=14
-        mk=lambda pairs:' '.join(f'<span class="rchip" onclick="dd(\'{s}\')">{s}·{c}</span>' for s,c in pairs)
+        mk=lambda pairs:' '.join(f'<span class="rchip" onclick="dd(\'{s}\')">{s} <em>{market_of(s)}</em> <em>{theme_of(s)}</em> · {c}</span>' for s,c in pairs)
         if len(items)<=N: return mk(items)
         gid=f'rest_{sid}'
         return (f'{mk(items[:N])} <span id="{gid}" style="display:none">{mk(items[N:])}</span>'
@@ -513,7 +575,7 @@ def month_section():
         else:
             bar,num=distbar_html(eb,er,en); mid=f'{num}{bar}'
         return (f'<div class="trow" onclick="dd(\'{s}\')">'
-          f'<span class="trk">{i}</span><span class="ttag">{mtag(s)}</span><span class="ttk">{s}</span>'
+          f'<span class="trk">{i}</span><span class="ttag">{mtag(s)}</span><span class="ttk">{s}{market_pill(s)}{theme_pill(s)}</span>'
           f'{mid}<span class="tn2">{t("trow_month_n",c=f"<b>{c}</b>")}</span>'
           f'<span class="tchg">{t("gain_lbl")} {mention_chg(s)}{chg_info(s)}</span><span class="sgo">{t("detail")}</span></div>')
     ntk=len(syms); nment=sum(cnt(s,M0,DAY) for s in syms)
@@ -551,9 +613,8 @@ def quarter_section():
         c=cnt(s,Q0,DAY); eb,er,en=we[s]; pct=mention_pct(s)
         dchg='' if pct is None else f'{pct:.4f}'
         ind=ind_of(s) or '<span class="muted">—</span>'
-        cur=cur_of(s); curh=f'<span class="cur"> {cur}</span>' if cur else ''
         return (f'<tr onclick="dd(\'{s}\')" data-chg="{dchg}" data-men="{c}" data-bull="{eb}" data-bear="{er}" data-neu="{en}">'
-            f'<td class="q-tk">{s}{curh}</td><td class="q-ind">{ind}</td>'
+            f'<td class="q-tk">{s}{market_pill(s)}{theme_pill(s)}</td><td class="q-ind">{ind}</td>'
             f'<td class="q-dt">{ymd(first(s))}{pxcell(first_px(s),s)}</td><td class="q-dt">{ymd(last(s))}{pxcell(last_px(s),s)}</td>'
             f'<td class="q-chg">{mention_chg(s)}</td><td class="q-n men"><b>{c}</b></td>'
             f'<td class="q-n b">{eb}</td><td class="q-n r">{er}</td><td class="q-n n">{en}</td></tr>')
@@ -598,6 +659,12 @@ SHARED_CSS='''<style>
 .chg{font-family:var(--mono);font-size:11px;padding:1px 7px;border-radius:4px;font-weight:600}
 .chg.pending{background:var(--paper);color:var(--ink-faint);border:1px dashed var(--line-strong);font-weight:400}
 .chg.up{background:var(--bull-bg);color:var(--bull)}.chg.down{background:var(--bear-bg);color:var(--bear)}
+.market{display:inline-flex;align-items:center;vertical-align:middle;margin-left:6px;padding:1px 6px;border:1px solid var(--line);border-radius:999px;background:var(--paper);color:var(--ink-soft);font-family:var(--mono);font-size:9.5px;font-weight:700;line-height:1.35}
+.market.detail{font-size:11px;margin-left:10px;transform:translateY(-4px)}
+.theme{display:inline-flex;align-items:center;vertical-align:middle;margin-left:5px;padding:1px 7px;border:1px solid rgba(29,155,240,.22);border-radius:999px;background:rgba(29,155,240,.07);color:#1d6fa5;font-family:var(--mono);font-size:9.5px;font-weight:700;line-height:1.35;white-space:nowrap}
+.theme.other{border-color:var(--line);background:var(--paper);color:var(--ink-faint)}
+.theme.detail{font-size:11px;margin-left:6px;transform:translateY(-4px)}
+.rchip em{font-style:normal;color:var(--ink-soft);font-size:9.5px}
 .surfrow .rrt{margin-left:auto;display:flex;align-items:center;gap:10px}
 .badge.cw{background:#f3e7cc;color:#8a6a1f}.card.cw::before{background:var(--gold)}
 .distrow .dlbl{font-size:11px;color:var(--ink-faint)}
@@ -715,6 +782,8 @@ table.stbl{width:100%;border-collapse:collapse;font-size:12.5px}
 .stbl tbody tr:hover{background:var(--paper)}
 .stbl td{padding:9px 14px;vertical-align:middle}
 .stbl .q-tk{font-family:var(--mono);font-weight:700;white-space:nowrap}
+.stbl .q-tk .market{margin-left:5px}
+.stbl .q-tk .theme{margin-left:4px}
 .stbl .q-ind{color:var(--ink-soft);max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .stbl .q-dt{font-family:var(--mono);font-size:11px;color:var(--ink-faint);white-space:nowrap}
 .stbl .q-chg{text-align:right;white-space:nowrap}
@@ -918,6 +987,36 @@ html{scroll-behavior:smooth}
 .cdot{position:absolute;width:11px;height:11px;border-radius:50%;border:2px solid var(--paper);transform:translate(-50%,-50%);cursor:pointer;box-shadow:0 0 0 1px rgba(0,0,0,.15)}
 .cc-leg{display:flex;gap:16px;align-items:center;flex-wrap:wrap;font-size:11.5px;color:var(--ink-soft);margin-top:8px}.cc-leg i{width:10px;height:10px;border-radius:50%;display:inline-block;margin-right:4px;vertical-align:middle}.cc-leg .g{color:var(--ink-faint)}
 .ddchart-ph{padding:22px;text-align:center;color:var(--ink-faint);font-size:13px;border:1px dashed var(--line-strong);border-radius:6px;margin:18px 0 8px}
+.thesis{margin:18px 0 24px;border:1px solid var(--line);border-radius:8px;background:var(--card);box-shadow:var(--shadow);padding:22px 24px}
+.thesis-kicker{font-family:var(--mono);font-size:11px;font-weight:700;color:var(--accent);letter-spacing:.02em;margin-bottom:9px}
+.thesis-title{font-family:var(--serif);font-size:25px;font-weight:900;line-height:1.25;color:var(--ink);margin-bottom:8px}
+.thesis-sub{font-size:14px;line-height:1.7;color:var(--ink-soft);max-width:920px}
+.thesis-core{display:inline-flex;margin-top:14px;font-family:var(--mono);font-size:12px;color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:7px 10px}
+.thesis-summary{margin-top:16px;padding:14px 16px;border-left:3px solid var(--accent);background:var(--paper);font-size:14px;line-height:1.8;color:var(--ink)}
+.thesis-sec{border-top:1px solid var(--line);padding-top:18px;margin-top:18px}
+.thesis-sec h3{font-family:var(--serif);font-size:17px;font-weight:800;line-height:1.35;margin-bottom:10px;color:var(--ink)}
+.thesis-sec p{font-size:14px;line-height:1.85;color:var(--ink-soft);margin:9px 0}
+.thesis-cites{display:flex;flex-wrap:wrap;gap:8px;margin-top:11px}
+.rcite{font-family:var(--mono);font-size:10.5px;color:var(--accent);text-decoration:none;border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:5px 9px}
+.rcite:hover{border-color:var(--accent);background:var(--accent-soft)}
+.tweetrefs{display:grid;gap:12px;margin-top:14px}
+.tweetcard{display:block;text-decoration:none;color:inherit;border:1px solid var(--line);border-radius:10px;background:#050505;box-shadow:0 0 0 1px rgba(255,255,255,.04),0 8px 22px -16px rgba(0,0,0,.75);padding:15px 16px}
+.tweetcard:hover{border-color:rgba(29,155,240,.55)}
+.twhead{display:flex;align-items:center;gap:9px;margin-bottom:9px;color:#f7f9f9}
+.twav{width:36px;height:36px;border-radius:50%;object-fit:cover;flex:none}
+.twnm{font-size:14px;font-weight:800;line-height:1;color:#f7f9f9}
+.twmeta{font-family:var(--sans);font-size:13px;color:#71767b;margin-top:2px}
+.twopen{margin-left:auto;color:#71767b;font-size:14px}
+.tweetcard:hover .twopen{color:#1d9bf0}
+.twtext{font-size:14.5px;line-height:1.55;color:#e7e9ea;white-space:pre-wrap;word-break:break-word;padding-left:45px}
+.twtext .cashtag{color:#1d9bf0}
+.tweetcard .pmedia{margin-left:45px;max-width:520px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.tweetcard .pmedia.one{max-width:420px;grid-template-columns:1fr}
+.tweetcard .pmedia img{border-color:#2f3336;background:#16181c}
+@media(max-width:760px){.tweetcard{padding:13px}.twtext,.tweetcard .pmedia{padding-left:0;margin-left:0}.twav{width:32px;height:32px}}
+.thesis-final{margin-top:20px;border-top:1px solid var(--line);padding-top:16px}
+.thesis-final h3{font-family:var(--serif);font-size:17px;font-weight:800;margin-bottom:8px}
+.thesis-final p{font-size:14px;line-height:1.85;color:var(--ink-soft);margin:8px 0}
 .ddsec{font-family:var(--serif);font-weight:700;font-size:16px;color:var(--ink);margin:28px 0 12px}.ddsec.sm{font-size:14px;margin:0 0 10px}.ddsec span{font-weight:400;font-size:11.5px;color:var(--ink-faint);margin-left:6px}
 .hzrow{display:flex;gap:10px;flex-wrap:wrap}
 .hz{flex:1;min-width:88px;border:1px solid var(--line);border-radius:7px;padding:10px 8px;text-align:center;background:var(--card)}
@@ -1034,6 +1133,20 @@ function ddChart(d){
   }).join('');
   return '<div class="ddchart"><div class="cc-svg"><svg viewBox="0 0 '+W+' '+H+'" width="100%" height="220" preserveAspectRatio="none"><defs><linearGradient id="ddfill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1f7a4d" stop-opacity="0.14"/><stop offset="100%" stop-color="#1f7a4d" stop-opacity="0"/></linearGradient></defs><path d="'+area+'" fill="url(#ddfill)"/><path d="'+line+'" fill="none" stroke="#1f7a4d" stroke-width="2"/></svg>'+dots+'</div><div class="cc-leg"><span><i style="background:var(--bull)"></i>'+I18N.chart_leg_bull+'</span><span><i style="background:var(--bear)"></i>'+I18N.chart_leg_bear+'</span><span class="g">'+I18N.chart_leg_note+'</span></div></div>';
 }
+function reportHtml(r,postMap){
+  if(!r)return '';
+  function paras(a){return (a||[]).map(function(p){return '<p>'+esc(p)+'</p>';}).join('');}
+  function tweetCard(c){
+    var p=postMap&&postMap[c.tweet_id];
+    if(!p)return '<a class="rcite" href="'+esc(c.url||'#')+'" target="_blank" rel="noopener">'+esc(c.date||'')+' · '+esc(c.label||c.tweet_id||'source')+' <i class="fa-solid fa-arrow-up-right-from-square"></i></a>';
+    return '<a class="tweetcard" href="'+esc(p.url||c.url||'#')+'" target="_blank" rel="noopener"><div class="twhead"><img class="twav" src="assets/serenity-avatar.jpg" alt="Serenity avatar"><div><div class="twnm">Serenity <i class="fa-solid fa-circle-check" style="color:#1d9bf0;font-size:12px"></i></div><div class="twmeta">@aleabitoreddit · '+esc(p.d||c.date||'')+'</div></div><span class="twopen"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div><div class="twtext">'+fmtPostText(p.text||'')+'</div>'+mediaHtml(p.media)+'</a>';
+  }
+  function cites(a){if(!a||!a.length)return '';var cards=[],chips=[];a.forEach(function(c){var h=tweetCard(c);if(h.indexOf('tweetcard')>=0)cards.push(h);else chips.push(h);});return (cards.length?'<div class="tweetrefs">'+cards+'</div>':'')+(chips.length?'<div class="thesis-cites">'+chips.join('')+'</div>':'');}
+  var secs=(r.sections||[]).map(function(s){return '<section class="thesis-sec"><h3>'+esc(s.heading||'')+'</h3>'+paras(s.body)+cites(s.citations)+'</section>';}).join('');
+  var summary=paras(r.one_minute_summary);
+  var final=paras(r.final_takeaway);
+  return '<article class="thesis"><div class="thesis-kicker">SERENITY THESIS REPORT</div><h2 class="thesis-title">'+esc(r.title||'')+'</h2><div class="thesis-sub">'+esc(r.subtitle||'')+'</div>'+(r.core_label?'<div class="thesis-core">'+esc(r.core_label)+'</div>':'')+(summary?'<div class="thesis-summary">'+summary+'</div>':'')+secs+(final?'<section class="thesis-final"><h3>最後結論</h3>'+final+'</section>':'')+'</article>';
+}
 function renderDD(tk){
   var d=window.DD_DATA&&DD_DATA[tk];
   if(!d){document.getElementById('ddBody').innerHTML='<div class="ddph"><div style="font-size:18px;color:var(--ink);margin-bottom:10px">'+I('dd_ph_title',{tk:tk})+'</div><div style="font-size:13px;line-height:1.7">'+I18N.dd_ph_body+'</div></div>';ddOpenTicker=tk;openDD();return;}
@@ -1043,10 +1156,12 @@ function renderDD(tk){
   function postRow(t){var fb=t.first?'<span class="prtag first">'+I18N.post_initial+'</span>':'<span class="prtag first ghost">'+I18N.post_initial+'</span>';var more=t.cut?' <span class="prmore">... '+I18N.dd_show_more+'</span>':'';return '<a class="prow" href="'+t.url+'" target="_blank" rel="noopener"><span class="prd">'+t.d+'</span><span class="prtag '+t.st+'">'+t.tag+'</span>'+fb+'<div class="prtx">'+fmtPostText(t.text)+more+' <span class="prlk"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>'+mediaHtml(t.media)+'</div></a>';}
   var firstPxTxt=d.firstPx?((d.cur?d.cur+' ':'')+d.firstPx):'—';
   var _ps=d.posts,_head=_ps.slice(0,20),_rest=_ps.slice(20);
+  var postMap={};_ps.forEach(function(p){if(p.id)postMap[p.id]=p;});
   var plistHtml='<div class="plist">'+_head.map(postRow).join('')+(_rest.length?'<div id="ddRest" style="display:none">'+_rest.map(postRow).join('')+'</div>':'')+'</div>'+(_rest.length?'<div class="ddmore" onclick="ddMore(this)">'+I('dd_view_all',{n:_ps.length})+'</div>':'');
   document.getElementById('ddBody').innerHTML=
-    '<div class="ddhead"><div class="ddhl"><div class="ddtk">'+tk+'</div><div class="ddco">'+esc(d.co)+(d.industry?' · <span class="ddind">'+esc(d.industry)+'</span>':'')+'</div><div class="ddpills">'+pill+'</div></div>'+
+    '<div class="ddhead"><div class="ddhl"><div class="ddtk">'+tk+'<span class="market detail">'+esc(d.market||'')+'</span><span class="theme detail '+(d.theme==='Other'?'other':'')+'">'+esc(d.theme||'Other')+'</span></div><div class="ddco">'+esc(d.co)+(d.industry?' · <span class="ddind">'+esc(d.industry)+'</span>':'')+'</div><div class="ddpills">'+pill+'</div></div>'+
     '<div class="ddmeta"><div class="ddmrow">'+I18N.dd_first_mention+' <b>'+d.first+'</b>　·　'+I18N.dd_last_mention+' <b>'+d.last+'</b></div><div class="ddmrow">'+I18N.dd_total+' <b>'+d.total+'</b>'+(I18N.count_unit?' '+I18N.count_unit:'')+'　·　'+I18N.dd_first_px+' <b>'+firstPxTxt+'</b></div><div class="ddsplit">'+split+'</div><div class="ddfreq"><span class="fc"><i>'+I18N.dd_today+'</i><b>'+d.m_today+'</b></span><span class="fc"><i>'+I18N.freq_7d+'</i><b>'+d.m7+'</b></span><span class="fc"><i>'+I18N.freq_28d+'</i><b>'+d.m28+'</b></span></div></div></div>'+
+    reportHtml(d.report,postMap)+
     ddChart(d)+
     '<div class="rcols"><div class="rpanel bull"><div class="rph"><span class="rpdot bull"></span>'+I18N.dd_reasons_bull+'<span class="rpn">'+I18N.dd_newest_first+'</span></div><ul class="rlist">'+mkR(d.reasonsBull,I18N.dd_no_bull,'bull')+'</ul></div><div class="rpanel bear"><div class="rph"><span class="rpdot bear"></span>'+I18N.dd_reasons_risk+'<span class="rpn">'+I18N.dd_newest_first+'</span></div><ul class="rlist">'+mkR(d.reasonsRisk,I18N.dd_no_risk,'bear')+'</ul></div></div>'+
     '<div class="postsbar"><span class="postcount">'+I18N.dd_all_posts+' '+d.total+'</span><span class="postsnote">'+I18N.dd_posts_meta+'</span></div>'+
