@@ -1,0 +1,59 @@
+{
+  "ticker": "WUS_KUNSHAN",
+  "cashtag": "WUS Kunshan",
+  "price_symbol": "WUS_KUNSHAN",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-17",
+  "last_mention": "2026-06-17",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2067412467404398942",
+      "date": "2026-06-17",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "WUS Kunshan",
+      "text": "I agree with Palliser Capital here.\n\nAs a shareholder, it’s just so stupid how WUS (2316 TW) MC can be ~$1B MC.\n\nWhile they own a 11.26% stake of WUS Kunshan, a $39.3B (¥282B CNY) company…\n\nWhich is worth $4.42B pre-tax. Just sell 1/4th or something?\n\nAnd you get an extra ~$1.1B for PCB growth at the inflection point with AI demand.\n\nWhich is more than your current MC pre-tax, purely in cash. \n\nAnd there’s still $3.3B in assets + markets might revalue your company because of willingness to trim locked up assets.\n\nNobody is asking you to trim everything, but the NAV disconnect is insanity. \n\nWUS TW management should really reconsider.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067412460399927296",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLDsrdpaoAAnh34.jpg",
+          "width": 1214,
+          "height": 1176,
+          "alt_text": null
+        },
+        {
+          "media_key": "3_2067412460420878336",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLDsrduaUAANAAR.jpg",
+          "width": 1251,
+          "height": 1425,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2067412467404398942",
+      "kind": "post",
+      "engagement": {
+        "views": 198087,
+        "likes": 519,
+        "reposts": 26,
+        "replies": 92
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

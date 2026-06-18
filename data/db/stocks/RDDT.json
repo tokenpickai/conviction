@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2025-09-14",
-  "last_mention": "2026-06-12",
-  "total_mentions": 142,
+  "last_mention": "2026-06-17",
+  "total_mentions": 143,
   "mentions": [
     {
       "tweet_id": "1967200142525956510",
@@ -3775,6 +3775,30 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067432111594930241",
+      "date": "2026-06-17",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$RDDT",
+      "text": "@cryptogal928 $RDDT poll results would probably be: \n\n40%: -$10k+ in credit card debt\n30%: $0-100K \n29.99%: $0 after 0DTE options went worthless\n.01%: $100k+",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067432111594930241",
+      "kind": "reply",
+      "engagement": {
+        "views": 12961,
+        "likes": 114,
+        "reposts": 0,
+        "replies": 16
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -4543,7 +4567,5 @@
       "close": 165.95
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-18T11:40:36.990497+00:00"
+  "price_status": "ok"
 }

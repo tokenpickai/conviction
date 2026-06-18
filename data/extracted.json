@@ -215978,5 +215978,187 @@
     "extractor_model": "claude-opus-4-6",
     "prompt_version": "extract-v2",
     "extracted_at": "2026-06-17T22:17:11.797229+00:00"
+  },
+  "2067542382523122001": {
+    "tweet_id": "2067542382523122001",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$AAOI",
+        "symbol": "AAOI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "laser companies are his personal favorites",
+          "huge revenue expansion potential beyond lasers into full optical modules, optical engines, and ELS components",
+          "most revenue ramp starts in H1/H2 2027, still very early stage"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "laser companies are his personal favorites",
+          "huge revenue expansion potential beyond lasers into full optical modules, optical engines, and ELS components",
+          "most revenue ramp starts in H1/H2 2027, still very early stage"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$COHR",
+        "symbol": "COHR",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.92,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-18T12:06:50.407658+00:00"
+  },
+  "2067513458812473533": {
+    "tweet_id": "2067513458812473533",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$ALRIB",
+        "symbol": "ALRIB",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "2nd ROSIE System expected to be delivered shortly to a leading quantum computing player",
+          "intensifying BD for products used for BTO/STO on photonics with strong interest",
+          "MBE duopoly with Veeco",
+          "exposure to Quantum",
+          "positive development overall"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "Veeco",
+        "symbol": "VECO",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-18T12:06:50.407658+00:00"
+  },
+  "2067429702319673542": {
+    "tweet_id": "2067429702319673542",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-18T12:06:50.407658+00:00"
+  },
+  "2067431489361580440": {
+    "tweet_id": "2067431489361580440",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-18T12:06:50.407658+00:00"
+  },
+  "2067432111594930241": {
+    "tweet_id": "2067432111594930241",
+    "has_investment_content": false,
+    "tickers": [
+      {
+        "raw_mention": "$RDDT",
+        "symbol": "RDDT",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-18T12:06:50.407658+00:00"
+  },
+  "2067434325210267974": {
+    "tweet_id": "2067434325210267974",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-18T12:06:50.407658+00:00"
+  },
+  "2067412467404398942": {
+    "tweet_id": "2067412467404398942",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "WUS (2316 TW)",
+        "symbol": "2316",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "massive NAV disconnect vs stake in WUS Kunshan",
+          "11.26% stake in WUS Kunshan worth $4.42B pre-tax vs ~$1B MC",
+          "PCB growth at inflection point with AI demand",
+          "trimming 1/4th of stake would unlock >$1.1B in cash",
+          "still $3.3B in remaining assets after partial trim",
+          "market could revalue company on willingness to unlock assets"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "WUS Kunshan",
+        "symbol": "WUS_KUNSHAN",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.92,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-18T12:06:50.407658+00:00"
+  },
+  "2067419504678994324": {
+    "tweet_id": "2067419504678994324",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "WUS TW (implied)",
+        "symbol": "2316",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "trimming 1/4th or 1/5th of stake should re-rate the company",
+          "having that much cash on hand for growth"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-18T12:06:50.407658+00:00"
   }
 }

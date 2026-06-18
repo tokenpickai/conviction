@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-04-08",
-  "last_mention": "2026-06-15",
-  "total_mentions": 42,
+  "last_mention": "2026-06-18",
+  "total_mentions": 43,
   "mentions": [
     {
       "tweet_id": "2041929392331616431",
@@ -1148,10 +1148,55 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067513458812473533",
+      "date": "2026-06-18",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "2nd ROSIE System expected to be delivered shortly to a leading quantum computing player",
+        "intensifying BD for products used for BTO/STO on photonics with strong interest",
+        "MBE duopoly with Veeco",
+        "exposure to Quantum",
+        "positive development overall"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$ALRIB",
+      "text": "$ALRIB general meeting notes came out today.\n\n-2nd ROSIE System expected to be delivered shortly to a leading quantum computing player” in the US.\n\n- They’re also intensifying BD for their products used for BTO/STO on photonics and recorded strong interest. \n\nJust for background, they’re the MBE duopoly with Veeco, which got re-rated heavily recently (Disclosure own Riber), with exposure to Quantum.\n\nPositive development overall.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067513445436866560",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLFIhkObwAAzdXX.jpg",
+          "width": 1243,
+          "height": 904,
+          "alt_text": null
+        },
+        {
+          "media_key": "3_2067513445441003520",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLFIhkPa4AAbp52.jpg",
+          "width": 1181,
+          "height": 1130,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2067513458812473533",
+      "kind": "post",
+      "engagement": {
+        "views": 185268,
+        "likes": 424,
+        "reposts": 24,
+        "replies": 124
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],
-  "price_status": "not_covered",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-18T11:41:11.529942+00:00"
+  "price_status": "pending"
 }
