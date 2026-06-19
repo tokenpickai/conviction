@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-06-19T12:38:58.680228+00:00",
-    "total_tickers": 959,
-    "total_mentions": 13862,
+    "generated_at": "2026-06-19T19:17:13.923361+00:00",
+    "total_tickers": 961,
+    "total_mentions": 13880,
     "dates": "ET (US Eastern); matches render/pipeline.py",
     "note": "Data layer only — facts + raw mentions. All windowed/stance aggregation + rankings are computed by render at runtime. Prices pending."
   },
@@ -60,7 +60,7 @@
       "industry": "Optical Comms/CPO",
       "first_mention": "2025-10-25",
       "last_mention": "2026-06-19",
-      "total_mentions": 501,
+      "total_mentions": 502,
       "price_status": "ok"
     },
     {
@@ -115,8 +115,8 @@
       "company": "Microsoft",
       "industry": "Hyperscaler",
       "first_mention": "2025-07-28",
-      "last_mention": "2026-06-16",
-      "total_mentions": 282,
+      "last_mention": "2026-06-19",
+      "total_mentions": 283,
       "price_status": "ok"
     },
     {
@@ -144,7 +144,7 @@
       "industry": "Hyperscaler",
       "first_mention": "2025-07-28",
       "last_mention": "2026-06-19",
-      "total_mentions": 255,
+      "total_mentions": 256,
       "price_status": "ok"
     },
     {
@@ -171,8 +171,8 @@
       "company": "Coherent",
       "industry": "Optical Comms",
       "first_mention": "2025-12-01",
-      "last_mention": "2026-06-18",
-      "total_mentions": 230,
+      "last_mention": "2026-06-19",
+      "total_mentions": 231,
       "price_status": "ok"
     },
     {
@@ -316,20 +316,6 @@
       "price_status": "ok"
     },
     {
-      "ticker": "HIMS",
-      "cashtag": "$HIMS",
-      "price_symbol": "HIMS",
-      "exchange": "US",
-      "currency": "USD",
-      "ticker_mapped": false,
-      "company": "Hims & Hers",
-      "industry": null,
-      "first_mention": "2025-07-07",
-      "last_mention": "2026-05-30",
-      "total_mentions": 144,
-      "price_status": "ok"
-    },
-    {
       "ticker": "RDDT",
       "cashtag": "$RDDT",
       "price_symbol": "RDDT",
@@ -340,6 +326,20 @@
       "industry": null,
       "first_mention": "2025-09-14",
       "last_mention": "2026-06-19",
+      "total_mentions": 145,
+      "price_status": "ok"
+    },
+    {
+      "ticker": "HIMS",
+      "cashtag": "$HIMS",
+      "price_symbol": "HIMS",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": "Hims & Hers",
+      "industry": null,
+      "first_mention": "2025-07-07",
+      "last_mention": "2026-05-30",
       "total_mentions": 144,
       "price_status": "ok"
     },
@@ -367,8 +367,8 @@
       "company": "POET Technologies",
       "industry": "Optical Engine Packaging",
       "first_mention": "2025-12-11",
-      "last_mention": "2026-06-15",
-      "total_mentions": 137,
+      "last_mention": "2026-06-19",
+      "total_mentions": 138,
       "price_status": "ok"
     },
     {
@@ -438,7 +438,7 @@
       "industry": "Semiconductor Foundry",
       "first_mention": "2026-02-10",
       "last_mention": "2026-06-19",
-      "total_mentions": 126,
+      "total_mentions": 127,
       "price_status": "ok"
     },
     {
@@ -452,7 +452,7 @@
       "industry": "Semiconductor Burn-in Test Equipment",
       "first_mention": "2026-01-16",
       "last_mention": "2026-06-19",
-      "total_mentions": 122,
+      "total_mentions": 123,
       "price_status": "ok"
     },
     {
@@ -652,6 +652,20 @@
       "price_status": "ok"
     },
     {
+      "ticker": "LPK",
+      "cashtag": "$LPK",
+      "price_symbol": "LPK.DE",
+      "exchange": "Frankfurt Xetra",
+      "currency": "EUR",
+      "ticker_mapped": true,
+      "company": null,
+      "industry": null,
+      "first_mention": "2026-04-20",
+      "last_mention": "2026-06-19",
+      "total_mentions": 56,
+      "price_status": "partial"
+    },
+    {
       "ticker": "6451",
       "cashtag": "Shunsin",
       "price_symbol": "6451.TW",
@@ -678,20 +692,6 @@
       "last_mention": "2026-05-20",
       "total_mentions": 53,
       "price_status": "ok"
-    },
-    {
-      "ticker": "LPK",
-      "cashtag": "$LPK",
-      "price_symbol": "LPK.DE",
-      "exchange": "Frankfurt Xetra",
-      "currency": "EUR",
-      "ticker_mapped": true,
-      "company": null,
-      "industry": null,
-      "first_mention": "2026-04-20",
-      "last_mention": "2026-06-19",
-      "total_mentions": 53,
-      "price_status": "partial"
     },
     {
       "ticker": "VPG",
@@ -862,6 +862,20 @@
       "price_status": "ok"
     },
     {
+      "ticker": "XFAB",
+      "cashtag": "$XFAB",
+      "price_symbol": "XFAB.PA",
+      "exchange": "Euronext Paris",
+      "currency": "EUR",
+      "ticker_mapped": true,
+      "company": null,
+      "industry": null,
+      "first_mention": "2026-05-27",
+      "last_mention": "2026-06-19",
+      "total_mentions": 40,
+      "price_status": "partial"
+    },
+    {
       "ticker": "WYFI",
       "cashtag": "$WYFI",
       "price_symbol": "WYFI",
@@ -874,20 +888,6 @@
       "last_mention": "2026-06-11",
       "total_mentions": 39,
       "price_status": "ok"
-    },
-    {
-      "ticker": "XFAB",
-      "cashtag": "$XFAB",
-      "price_symbol": "XFAB.PA",
-      "exchange": "Euronext Paris",
-      "currency": "EUR",
-      "ticker_mapped": true,
-      "company": null,
-      "industry": null,
-      "first_mention": "2026-05-27",
-      "last_mention": "2026-06-19",
-      "total_mentions": 39,
-      "price_status": "partial"
     },
     {
       "ticker": "FOCI",
@@ -1646,6 +1646,20 @@
       "price_status": "ok"
     },
     {
+      "ticker": "AIXA",
+      "cashtag": "$AIXA",
+      "price_symbol": "AIXA",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": null,
+      "industry": null,
+      "first_mention": "2026-02-27",
+      "last_mention": "2026-06-19",
+      "total_mentions": 14,
+      "price_status": "pending"
+    },
+    {
       "ticker": "ALMU",
       "cashtag": "$ALMU",
       "price_symbol": "ALMU",
@@ -1755,20 +1769,6 @@
       "first_mention": "2025-12-10",
       "last_mention": "2026-02-08",
       "total_mentions": 14,
-      "price_status": "pending"
-    },
-    {
-      "ticker": "AIXA",
-      "cashtag": "$AIXA",
-      "price_symbol": "AIXA",
-      "exchange": "US",
-      "currency": "USD",
-      "ticker_mapped": false,
-      "company": null,
-      "industry": null,
-      "first_mention": "2026-02-27",
-      "last_mention": "2026-05-07",
-      "total_mentions": 13,
       "price_status": "pending"
     },
     {
@@ -2290,6 +2290,20 @@
       "price_status": "ok"
     },
     {
+      "ticker": "CRM",
+      "cashtag": "$CRM",
+      "price_symbol": "CRM",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": null,
+      "industry": null,
+      "first_mention": "2025-09-26",
+      "last_mention": "2026-06-19",
+      "total_mentions": 9,
+      "price_status": "ok"
+    },
+    {
       "ticker": "HIMX",
       "cashtag": "$HIMX",
       "price_symbol": "HIMX",
@@ -2428,20 +2442,6 @@
       "last_mention": "2026-02-16",
       "total_mentions": 8,
       "price_status": "pending"
-    },
-    {
-      "ticker": "CRM",
-      "cashtag": "$CRM",
-      "price_symbol": "CRM",
-      "exchange": "US",
-      "currency": "USD",
-      "ticker_mapped": false,
-      "company": null,
-      "industry": null,
-      "first_mention": "2025-09-26",
-      "last_mention": "2026-05-30",
-      "total_mentions": 8,
-      "price_status": "ok"
     },
     {
       "ticker": "DGXX",
@@ -2780,6 +2780,20 @@
       "price_status": "pending"
     },
     {
+      "ticker": "MXL",
+      "cashtag": "$MXL",
+      "price_symbol": "MXL",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": null,
+      "industry": null,
+      "first_mention": "2026-03-17",
+      "last_mention": "2026-06-19",
+      "total_mentions": 7,
+      "price_status": "ok"
+    },
+    {
       "ticker": "OPTT",
       "cashtag": "$OPTT",
       "price_symbol": "OPTT",
@@ -3030,20 +3044,6 @@
       "last_mention": "2026-02-11",
       "total_mentions": 6,
       "price_status": "pending"
-    },
-    {
-      "ticker": "MXL",
-      "cashtag": "$MXL",
-      "price_symbol": "MXL",
-      "exchange": "US",
-      "currency": "USD",
-      "ticker_mapped": false,
-      "company": null,
-      "industry": null,
-      "first_mention": "2026-03-17",
-      "last_mention": "2026-05-11",
-      "total_mentions": 6,
-      "price_status": "ok"
     },
     {
       "ticker": "NET",
@@ -3506,6 +3506,20 @@
       "last_mention": "2026-01-06",
       "total_mentions": 5,
       "price_status": "pending"
+    },
+    {
+      "ticker": "VSH",
+      "cashtag": "$VSH",
+      "price_symbol": "VSH",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": null,
+      "industry": null,
+      "first_mention": "2026-02-06",
+      "last_mention": "2026-06-19",
+      "total_mentions": 5,
+      "price_status": "ok"
     },
     {
       "ticker": "XLE",
@@ -4262,20 +4276,6 @@
       "last_mention": "2026-02-07",
       "total_mentions": 4,
       "price_status": "pending"
-    },
-    {
-      "ticker": "VSH",
-      "cashtag": "$VSH",
-      "price_symbol": "VSH",
-      "exchange": "US",
-      "currency": "USD",
-      "ticker_mapped": false,
-      "company": null,
-      "industry": null,
-      "first_mention": "2026-02-06",
-      "last_mention": "2026-06-08",
-      "total_mentions": 4,
-      "price_status": "ok"
     },
     {
       "ticker": "WDC",
@@ -7886,6 +7886,34 @@
       "industry": null,
       "first_mention": "2026-03-30",
       "last_mention": "2026-03-30",
+      "total_mentions": 1,
+      "price_status": "pending"
+    },
+    {
+      "ticker": "6976",
+      "cashtag": "Taiyo Yuden",
+      "price_symbol": "6976",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": null,
+      "industry": null,
+      "first_mention": "2026-06-19",
+      "last_mention": "2026-06-19",
+      "total_mentions": 1,
+      "price_status": "pending"
+    },
+    {
+      "ticker": "6981",
+      "cashtag": "Murata",
+      "price_symbol": "6981",
+      "exchange": "US",
+      "currency": "USD",
+      "ticker_mapped": false,
+      "company": null,
+      "industry": null,
+      "first_mention": "2026-06-19",
+      "last_mention": "2026-06-19",
       "total_mentions": 1,
       "price_status": "pending"
     },

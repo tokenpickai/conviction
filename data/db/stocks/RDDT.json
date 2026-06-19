@@ -10,7 +10,7 @@
   "thesis_summary": null,
   "first_mention": "2025-09-14",
   "last_mention": "2026-06-19",
-  "total_mentions": 144,
+  "total_mentions": 145,
   "mentions": [
     {
       "tweet_id": "1967200142525956510",
@@ -3822,6 +3822,30 @@
         "likes": 381,
         "reposts": 7,
         "replies": 83
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067950550084120814",
+      "date": "2026-06-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$RDDT",
+      "text": "Yes, choosing the right theme is extremely important. \n\nEven if $POET doesn't really do anything, it still gets brought up thematically due to $LITE, $COHR, and others.\n\nEven if $RDDT outperforms extremely hard, it still gets brought down from $META, $MSFT, $CRM, and other software basket names.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067950550084120814",
+      "kind": "reply",
+      "engagement": {
+        "views": 10027,
+        "likes": 94,
+        "reposts": 3,
+        "replies": 8
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

@@ -217116,5 +217116,263 @@
     "extractor_model": "claude-opus-4-6",
     "prompt_version": "extract-v2",
     "extracted_at": "2026-06-19T12:37:55.693368+00:00"
+  },
+  "2067977551809741278": {
+    "tweet_id": "2067977551809741278",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T19:16:46.066377+00:00"
+  },
+  "2067958378488623499": {
+    "tweet_id": "2067958378488623499",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$LPK",
+        "symbol": "LPK",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "NASDAQ listing actively on their radar",
+          "70% market share targeted",
+          "TAM greatly exceeds former projections",
+          "4-5 base case of players with orders this year",
+          "industry ready for high volume ramps",
+          "very undervalued based on discussions",
+          "owns positions"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      }
+    ],
+    "confidence": 0.97,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T19:16:46.066377+00:00"
+  },
+  "2067961365558636989": {
+    "tweet_id": "2067961365558636989",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$LPK",
+        "symbol": "LPK",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "80% are now qualifying with LPK equipment",
+          "converting qualification into 70% targeted market share during HVM is bullish"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T19:16:46.066377+00:00"
+  },
+  "2067962980239802581": {
+    "tweet_id": "2067962980239802581",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$LPK",
+        "symbol": "LPK",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "short term ramp could be parabolic",
+          "equipment suppliers switching from qualification to volume production get re-rated to $3-7B MCs"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$AEHR",
+        "symbol": "AEHR",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AIXA",
+        "symbol": "AIXA",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$XFAB",
+        "symbol": "XFAB",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "much higher long-term upside",
+          "could lead European photonic supply chains",
+          "building a TSEM alternative with MTP"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$TSEM",
+        "symbol": "TSEM",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.93,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T19:16:46.066377+00:00"
+  },
+  "2067964557491122389": {
+    "tweet_id": "2067964557491122389",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T19:16:46.066377+00:00"
+  },
+  "2067954339982008731": {
+    "tweet_id": "2067954339982008731",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Taiyo Yuden",
+        "symbol": "6976",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$VSH",
+        "symbol": "VSH",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Murata",
+        "symbol": "6981",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T19:16:46.066377+00:00"
+  },
+  "2067955980693131608": {
+    "tweet_id": "2067955980693131608",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$MXL",
+        "symbol": "MXL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T19:16:46.066377+00:00"
+  },
+  "2067950550084120814": {
+    "tweet_id": "2067950550084120814",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$POET",
+        "symbol": "POET",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$COHR",
+        "symbol": "COHR",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$RDDT",
+        "symbol": "RDDT",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$META",
+        "symbol": "META",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$MSFT",
+        "symbol": "MSFT",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$CRM",
+        "symbol": "CRM",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T19:16:46.066377+00:00"
   }
 }

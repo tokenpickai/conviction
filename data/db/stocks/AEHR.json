@@ -10,7 +10,7 @@
   "thesis_summary": null,
   "first_mention": "2026-01-16",
   "last_mention": "2026-06-19",
-  "total_mentions": 122,
+  "total_mentions": 123,
   "mentions": [
     {
       "tweet_id": "2012071822481900030",
@@ -3198,6 +3198,30 @@
         "likes": 381,
         "reposts": 7,
         "replies": 83
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067962980239802581",
+      "date": "2026-06-19",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AEHR",
+      "text": "So short term ramp, I see $LPK probably might be more parabolic. \n\nSince when equipment suppliers switch from qualification to volume production as seen with $AEHR or $AIXA recently, they tend to get re-rated to $3-7B MCs. \n\nBut 99% are structurally more capped on where they head. \n\nLong term, I personally see $XFAB has much much higher upside if they're able able to lead European's photonic supply chains and build out a $TSEM alternative with MTP. But are earlier on in the process.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067962980239802581",
+      "kind": "reply",
+      "engagement": {
+        "views": 12144,
+        "likes": 115,
+        "reposts": 4,
+        "replies": 7
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

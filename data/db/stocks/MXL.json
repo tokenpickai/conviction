@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-03-17",
-  "last_mention": "2026-05-11",
-  "total_mentions": 6,
+  "last_mention": "2026-06-19",
+  "total_mentions": 7,
   "mentions": [
     {
       "tweet_id": "2033885603423785170",
@@ -162,6 +162,30 @@
         "likes": 92,
         "reposts": 0,
         "replies": 16
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067955980693131608",
+      "date": "2026-06-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MXL",
+      "text": "Sometimes, I just like sharing ideas to see how it does in markets or if others find it interesting!\n\n$MXL, for example, I called out right literally right before that tripled for example, but didn't take positions.\n\nI'm basically fully allocated for this year, so if I do add a new name, I have to change weights around.\n\nI do change positions a lot, just due to different bottlenecks / architecture changes or macro, especially earlier in the year during wartime.\n\nBut I think a lot of my names are just waiting to play out, especially with CPO.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067955980693131608",
+      "kind": "reply",
+      "engagement": {
+        "views": 7262,
+        "likes": 73,
+        "reposts": 3,
+        "replies": 6
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

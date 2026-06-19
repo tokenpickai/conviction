@@ -1,0 +1,67 @@
+{
+  "ticker": "6976",
+  "cashtag": "Taiyo Yuden",
+  "price_symbol": "6976",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-19",
+  "last_mention": "2026-06-19",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2067954339982008731",
+      "date": "2026-06-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Taiyo Yuden",
+      "text": "Remind me whenever I call out a bottleneck, I should go long myself.\n\nJust floated this idea out around MLCC bottlenecks awhile back. \n\nTaiyo Yuden up 211.38%\n$VSH up 146.15%\nMurata up 155.43% \n\nWithin the last 2 months... \n\nFeels bad. https://t.co/rwHNVYCuk0 https://t.co/XlIGnz34rq",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [
+        {
+          "media_key": "3_2067954332159582208",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLLZgjQaIAAGhHc.jpg",
+          "width": 1182,
+          "height": 1121,
+          "alt_text": null
+        },
+        {
+          "media_key": "3_2067954332109295616",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLLZgjEa0AAP2CQ.jpg",
+          "width": 1173,
+          "height": 1085,
+          "alt_text": null
+        },
+        {
+          "media_key": "3_2067954332105109504",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLLZgjDa8AABq0T.jpg",
+          "width": 1170,
+          "height": 1057,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2067954339982008731",
+      "kind": "post",
+      "engagement": {
+        "views": 103401,
+        "likes": 461,
+        "reposts": 12,
+        "replies": 99
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}
