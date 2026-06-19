@@ -1713,7 +1713,13 @@
     {
       "date": "2026-06-17",
       "close": 80.64
+    },
+    {
+      "date": "2026-06-18",
+      "close": 85.83
     }
   ],
-  "price_status": "ok"
+  "price_status": "ok",
+  "price_unit": "USD",
+  "price_updated_at": "2026-06-19T12:19:36.682547+00:00"
 }
