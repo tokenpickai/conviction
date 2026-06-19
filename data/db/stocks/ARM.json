@@ -9,8 +9,8 @@
   "industry": "CPU/IP Licensing",
   "thesis_summary": null,
   "first_mention": "2025-09-28",
-  "last_mention": "2026-06-08",
-  "total_mentions": 49,
+  "last_mention": "2026-06-19",
+  "total_mentions": 50,
   "mentions": [
     {
       "tweet_id": "1972494903130341846",
@@ -1285,6 +1285,32 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067945397923037693",
+      "date": "2026-06-19",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "larger cap long idea that played out well"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$ARM",
+      "text": "I think something to highlight also is not all my ideas are green, especially on short term timeframes!\n\nMy core three themes are Neoclouds (Energy), Memory, and Photonics. \n\nAnd I'm glad I chose the literal top performers for each segment from $NBIS to $EWY leaps to $SIVE. \n\nHowever, I still have pretty large losses following the false analyst report on CPO delays that $NVDA refuted:\n\nThat nuked 3 of my TW CPO longs from Foci, Msscorp, Xintec and others. (which are heavily red). Shunsin / Win Semi are holding up much better though. \n\nSome of the other ones in Japan that I've mentioned like Towa, Harmonic Drive, NCI, etc. are performing much better following short-term volatility. \n\nAs for Korea yes I have PTSD for from Auros and now Foosung that are both both red (I didn't own 093370 though, just got PTSD watching price action). \n\nIdk if I'll touch Korea again, just way too volatile. But I still think those will end up green eventually following Sk hynix/samsung qualifications + HVM, and the future japanese supply chain shutdown. \n\nI also did change some of my previous long ideas like $XLU following the Iran War nuking all chances of rate cuts from 3-4 down to 0, and that didn't play out too well. Three software names I mentioned previously like $TTD, $META ended up red. $SNAP, I also changed my thesis after noticing the endless SBC accounting methods. $RDDT idea was finally in the green from $130 -> $170 after a long time. \n\nBut I think the vast majority of my ideas like $MRVL, $NBIS, $ARM, $INTC, $MU, $LITE, SK Hynix, Samsung, for larger cap. \n\nDown to $AXTI, $LITE, $AAOI, $RPI, $IQE, and others for smaller cap positions directionally play out pretty well. \n\nWith random stuff like $SIMO, $HPS.A, $TSEM, $AEHR, $LPK, $SOI, $ALRIB, and so on all ended up turning out aight too. \n\nThe blended average is kinda overwhelmingly green since majority of my long ideas are triple digit YTD.  \n\nBut I've definitely missed a few. \n\nAlso entry point is really important too... I mentioned $AAOI at $30 or $AXTI at ~$13, but not everyone has the same entry point. So if someone bought AOI at $220 and it dropped to $160, I'd feel bad. \n\nBut regardless, I'd prefer to judge how ideas play out on medium term timeframes over a few months rather than a few weeks.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067945397923037693",
+      "kind": "post",
+      "engagement": {
+        "views": 38124,
+        "likes": 381,
+        "reposts": 7,
+        "replies": 83
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -2017,7 +2043,5 @@
       "close": 439.46
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-19T12:19:41.096938+00:00"
+  "price_status": "ok"
 }

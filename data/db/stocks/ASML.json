@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2025-10-06",
-  "last_mention": "2026-05-16",
-  "total_mentions": 28,
+  "last_mention": "2026-06-18",
+  "total_mentions": 29,
   "mentions": [
     {
       "tweet_id": "1975327662903337144",
@@ -700,6 +700,39 @@
         "likes": 2737,
         "reposts": 264,
         "replies": 153
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067795114211340290",
+      "date": "2026-06-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$ASML",
+      "text": "How does China manage to smuggle in something the size of a school bus from $ASML? \n\nIs the real question. https://t.co/Yru8VY5hPO",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067795098868629504",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLJIr9BbwAANPf2.jpg",
+          "width": 1229,
+          "height": 666,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2067795114211340290",
+      "kind": "post",
+      "engagement": {
+        "views": 233785,
+        "likes": 945,
+        "reposts": 42,
+        "replies": 239
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
@@ -1415,7 +1448,5 @@
       "close": 1929.6801
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-19T12:20:07.069334+00:00"
+  "price_status": "ok"
 }

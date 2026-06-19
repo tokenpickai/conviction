@@ -216410,5 +216410,711 @@
     "extractor_model": "claude-opus-4-6",
     "prompt_version": "extract-v2",
     "extracted_at": "2026-06-18T21:30:46.390718+00:00"
+  },
+  "2067945397923037693": {
+    "tweet_id": "2067945397923037693",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$NBIS",
+        "symbol": "NBIS",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "top performer in Neoclouds/Energy segment",
+          "triple digit YTD"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$EWY",
+        "symbol": "EWY",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "top performer in Memory segment via leaps"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "top performer in Photonics segment"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$NVDA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Foci",
+        "symbol": "FOCI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "CPO long position",
+          "heavily red short term following false analyst report on CPO delays"
+        ],
+        "is_risk": true,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "Msscorp",
+        "symbol": "MSSCORP",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "CPO long position",
+          "heavily red short term following false analyst report on CPO delays"
+        ],
+        "is_risk": true,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "Xintec",
+        "symbol": "XINTEC",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "CPO long position",
+          "heavily red short term following false analyst report on CPO delays"
+        ],
+        "is_risk": true,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "Shunsin",
+        "symbol": "SHUNSIN",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "CPO long",
+          "holding up much better"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "Win Semi",
+        "symbol": "WINSEMI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "CPO long",
+          "holding up much better"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "Towa",
+        "symbol": "TOWA",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "performing much better following short-term volatility"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "Harmonic Drive",
+        "symbol": "HARMONICDRIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "performing much better following short-term volatility"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "NCI",
+        "symbol": "NCI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "performing much better following short-term volatility"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "Auros",
+        "symbol": "AUROS",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "long position currently red",
+          "expects will end up green following SK Hynix/Samsung qualifications and HVM"
+        ],
+        "is_risk": true,
+        "conviction_signal": "low"
+      },
+      {
+        "raw_mention": "Foosung",
+        "symbol": "FOOSUNG",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "long position currently red",
+          "expects will end up green following SK Hynix/Samsung qualifications and HVM"
+        ],
+        "is_risk": true,
+        "conviction_signal": "low"
+      },
+      {
+        "raw_mention": "093370",
+        "symbol": "093370",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Sk hynix",
+        "symbol": "SKHYNIX",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "samsung",
+        "symbol": "SAMSUNG",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$XLU",
+        "symbol": "XLU",
+        "stance": "neutral",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "changed thesis after Iran War nuked rate cut expectations from 3-4 down to 0",
+          "didn't play out well"
+        ],
+        "is_risk": true,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$TTD",
+        "symbol": "TTD",
+        "stance": "neutral",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "ended up red"
+        ],
+        "is_risk": true,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$META",
+        "symbol": "META",
+        "stance": "neutral",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "ended up red"
+        ],
+        "is_risk": true,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SNAP",
+        "symbol": "SNAP",
+        "stance": "bearish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "changed thesis after noticing endless SBC accounting methods"
+        ],
+        "is_risk": true,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$RDDT",
+        "symbol": "RDDT",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "idea finally in the green from $130 to $170"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$MRVL",
+        "symbol": "MRVL",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "larger cap long idea that played out well"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$ARM",
+        "symbol": "ARM",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "larger cap long idea that played out well"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$INTC",
+        "symbol": "INTC",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "larger cap long idea that played out well"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$MU",
+        "symbol": "MU",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "larger cap long idea that played out well"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "long idea that played out well"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$AXTI",
+        "symbol": "AXTI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "smaller cap position that directionally played out well",
+          "mentioned at ~$13"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$AAOI",
+        "symbol": "AAOI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "smaller cap position that directionally played out well",
+          "mentioned at $30"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$RPI",
+        "symbol": "RPI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "smaller cap position that directionally played out well"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$IQE",
+        "symbol": "IQE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "smaller cap position that directionally played out well"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$SIMO",
+        "symbol": "SIMO",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "long idea that turned out okay"
+        ],
+        "is_risk": false,
+        "conviction_signal": "low"
+      },
+      {
+        "raw_mention": "$HPS.A",
+        "symbol": "HPS.A",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "long idea that turned out okay"
+        ],
+        "is_risk": false,
+        "conviction_signal": "low"
+      },
+      {
+        "raw_mention": "$TSEM",
+        "symbol": "TSEM",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "long idea that turned out okay"
+        ],
+        "is_risk": false,
+        "conviction_signal": "low"
+      },
+      {
+        "raw_mention": "$AEHR",
+        "symbol": "AEHR",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "long idea that turned out okay"
+        ],
+        "is_risk": false,
+        "conviction_signal": "low"
+      },
+      {
+        "raw_mention": "$LPK",
+        "symbol": "LPK",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "long idea that turned out okay"
+        ],
+        "is_risk": false,
+        "conviction_signal": "low"
+      },
+      {
+        "raw_mention": "$SOI",
+        "symbol": "SOI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "long idea that turned out okay"
+        ],
+        "is_risk": false,
+        "conviction_signal": "low"
+      },
+      {
+        "raw_mention": "$ALRIB",
+        "symbol": "ALRIB",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "long idea that turned out okay"
+        ],
+        "is_risk": false,
+        "conviction_signal": "low"
+      }
+    ],
+    "confidence": 0.82,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T12:37:55.693368+00:00"
+  },
+  "2067947990271275333": {
+    "tweet_id": "2067947990271275333",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$MU",
+        "symbol": "MU",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "ATH despite earlier Chinese DRAM/NAND flooding narratives"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SNDK",
+        "symbol": "SNDK",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Samsung",
+        "symbol": "SAMSUNG",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "YMTC",
+        "symbol": "YMTC",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "CXMT",
+        "symbol": "CXMT",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.82,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T12:37:55.693368+00:00"
+  },
+  "2067949008744825340": {
+    "tweet_id": "2067949008744825340",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$XFAB",
+        "symbol": "XFAB",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "defends idea, says it hasn't even been a month yet",
+          "prefers validation on medium term timeframes"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$SOI",
+        "symbol": "SOI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "up over 175% since he shared the idea"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      }
+    ],
+    "confidence": 0.92,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T12:37:55.693368+00:00"
+  },
+  "2067949816769048928": {
+    "tweet_id": "2067949816769048928",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Taiyo Yuden",
+        "symbol": "TAIYOYUDEN",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "up like 3x",
+          "MLCC theme"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T12:37:55.693368+00:00"
+  },
+  "2067896191338311750": {
+    "tweet_id": "2067896191338311750",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Kioxia",
+        "symbol": "KIOXIA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.8,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T12:37:55.693368+00:00"
+  },
+  "2067900211721376253": {
+    "tweet_id": "2067900211721376253",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$AAOI",
+        "symbol": "AAOI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "$471m/month projections",
+          "lot of independent supply",
+          "located in the US",
+          "bears are regarded when entire industry is laser/capacity constrained"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.92,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T12:37:55.693368+00:00"
+  },
+  "2067901319709622498": {
+    "tweet_id": "2067901319709622498",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$XFAB",
+        "symbol": "XFAB",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "2027/2028 play",
+          "should recover independently H2 without silicon photonics",
+          "should come out of automotive slump"
+        ],
+        "is_risk": false,
+        "conviction_signal": "low"
+      }
+    ],
+    "confidence": 0.88,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T12:37:55.693368+00:00"
+  },
+  "2067901599704645819": {
+    "tweet_id": "2067901599704645819",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$EWY",
+        "symbol": "EWY",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "went long on Samsung through EWY",
+          "still thinks it's cheap given operating income forecasts"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.92,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T12:37:55.693368+00:00"
+  },
+  "2067903014724395473": {
+    "tweet_id": "2067903014724395473",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$RPI",
+        "symbol": "RPI",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.82,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T12:37:55.693368+00:00"
+  },
+  "2067823653883113578": {
+    "tweet_id": "2067823653883113578",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T12:37:55.693368+00:00"
+  },
+  "2067810292822929796": {
+    "tweet_id": "2067810292822929796",
+    "has_investment_content": false,
+    "tickers": [
+      {
+        "raw_mention": "$INTC",
+        "symbol": "INTC",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.7,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T12:37:55.693368+00:00"
+  },
+  "2067800345888403704": {
+    "tweet_id": "2067800345888403704",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.99,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T12:37:55.693368+00:00"
+  },
+  "2067795114211340290": {
+    "tweet_id": "2067795114211340290",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$ASML",
+        "symbol": "ASML",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-19T12:37:55.693368+00:00"
   }
 }

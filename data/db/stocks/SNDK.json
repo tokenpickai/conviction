@@ -9,8 +9,8 @@
   "industry": "Memory",
   "thesis_summary": "他看好 SanDisk 的存储周期上行。",
   "first_mention": "2025-11-25",
-  "last_mention": "2026-06-18",
-  "total_mentions": 148,
+  "last_mention": "2026-06-19",
+  "total_mentions": 149,
   "mentions": [
     {
       "tweet_id": "1993283099162189962",
@@ -3761,6 +3761,30 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067947990271275333",
+      "date": "2026-06-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "i personally don't see any chance of oversupply, if anything photonics/lasers will be extremely supply constrained. \n\nit would be the same media playbook that went on with YMTC/CXMT earlier in the year with Chinese DRAM/NAND flooding narratives, now $MU, $SNDK, Samsung, and others are ATH.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067947990271275333",
+      "kind": "reply",
+      "engagement": {
+        "views": 1235,
+        "likes": 17,
+        "reposts": 0,
+        "replies": 3
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -4329,7 +4353,5 @@
       "close": 2184.75
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-19T12:19:03.878145+00:00"
+  "price_status": "ok"
 }

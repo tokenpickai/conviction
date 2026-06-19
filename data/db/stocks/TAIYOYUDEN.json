@@ -1,0 +1,62 @@
+{
+  "ticker": "TAIYOYUDEN",
+  "cashtag": "Taiyo Yuden",
+  "price_symbol": "TAIYOYUDEN",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-19",
+  "last_mention": "2026-06-19",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2067949816769048928",
+      "date": "2026-06-19",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "up like 3x",
+        "MLCC theme"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "Taiyo Yuden",
+      "text": "@yuntungshieh Shared this list awhile back around MLCC.\n\nTaiyo Yuden is up like 3x. https://t.co/eUZuQn9N5N",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067949325544796160",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLLU9IKbMAAlRrz.jpg",
+          "width": 1345,
+          "height": 1013,
+          "alt_text": null
+        },
+        {
+          "media_key": "3_2067949803716419584",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLLVY9fbIAA6WdU.jpg",
+          "width": 2688,
+          "height": 1828,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2067949816769048928",
+      "kind": "reply",
+      "engagement": {
+        "views": 137,
+        "likes": 6,
+        "reposts": 0,
+        "replies": 0
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-05-27",
-  "last_mention": "2026-06-17",
-  "total_mentions": 37,
+  "last_mention": "2026-06-19",
+  "total_mentions": 39,
   "mentions": [
     {
       "tweet_id": "2059537337324085541",
@@ -1095,6 +1095,61 @@
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067901319709622498",
+      "date": "2026-06-19",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "2027/2028 play",
+        "should recover independently H2 without silicon photonics",
+        "should come out of automotive slump"
+      ],
+      "is_risk": false,
+      "conviction": "low",
+      "raw_mention": "$XFAB",
+      "text": "@commieserenity $XFAB is more of a 2027/2028 play, but should recover independently h2 imo without silicon photonics, as they should come out of the automotive slump.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067901319709622498",
+      "kind": "reply",
+      "engagement": {
+        "views": 6619,
+        "likes": 62,
+        "reposts": 2,
+        "replies": 10
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067949008744825340",
+      "date": "2026-06-19",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "defends idea, says it hasn't even been a month yet",
+        "prefers validation on medium term timeframes"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$XFAB",
+      "text": "@carlosfagar $XFAB hasn't even been a month...\n\nI made this post saying I'd prefer if long ideas were validated on medium term timeframes, not in 3 weeks lol. \n\n$SOI is up over 175% since I shared my idea?",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067949008744825340",
+      "kind": "reply",
+      "engagement": {
+        "views": 675,
+        "likes": 14,
+        "reposts": 0,
+        "replies": 4
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [
@@ -1131,7 +1186,5 @@
       "close": 10.26
     }
   ],
-  "price_status": "partial",
-  "price_unit": "EUR",
-  "price_updated_at": "2026-06-19T12:19:49.707868+00:00"
+  "price_status": "partial"
 }

@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-02-03",
-  "last_mention": "2026-02-16",
-  "total_mentions": 3,
+  "last_mention": "2026-06-19",
+  "total_mentions": 4,
   "mentions": [
     {
       "tweet_id": "2018610332521140542",
@@ -78,6 +78,30 @@
       "engagement": {
         "views": 8787,
         "likes": 49,
+        "reposts": 0,
+        "replies": 3
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067947990271275333",
+      "date": "2026-06-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "CXMT",
+      "text": "i personally don't see any chance of oversupply, if anything photonics/lasers will be extremely supply constrained. \n\nit would be the same media playbook that went on with YMTC/CXMT earlier in the year with Chinese DRAM/NAND flooding narratives, now $MU, $SNDK, Samsung, and others are ATH.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2067947990271275333",
+      "kind": "reply",
+      "engagement": {
+        "views": 1235,
+        "likes": 17,
         "reposts": 0,
         "replies": 3
       },
