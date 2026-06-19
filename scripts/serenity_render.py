@@ -313,6 +313,11 @@ def theme_pill(s):
     th=theme_of(s)
     cls='other' if th=='Other' else ''
     return f'<span class="theme {cls}">{th}</span>'
+def report_update_pill(s):
+    ups=(REPORTS.get(s) or {}).get('updates') or []
+    if not ups: return ''
+    d=(ups[0].get('date') or '')[5:] or 'new'
+    return f'<span class="updchip"><i class="fa-solid fa-file-lines"></i> 報告更新 {d}</span>'
 def ymd(d):return d.strftime('%Y-%m-%d') if d else '—'
 def co_of(s):return STOCK.get(s,{}).get('company') or s
 def ind_of(s):return STOCK.get(s,{}).get('industry') or ''
@@ -478,7 +483,7 @@ def _freqline(s, freq, w1):
     return ' · '.join(parts)
 def bigcard(s, w0, w1, pfx, head_lbl, freq, chg_kind):
     c=cnt(s,w0,w1); eb,er,en=win_exp(s,w0,w1); bk,bl=badge(eb,er,en,pfx); cls=BCLASS[bk]
-    curh=market_pill(s)+theme_pill(s)
+    curh=market_pill(s)+theme_pill(s)+report_update_pill(s)
     chglbl=t('chg_daily_lbl') if chg_kind=='daily' else t('gain_lbl')
     chg_fn=daily_chg if chg_kind=='daily' else mention_chg
     info=chg_info(s) if chg_kind=='mention' else ''
@@ -531,12 +536,12 @@ def period_section(cfg):
     rows.sort(key=lambda x:-x[1])
     def srow(s,c,tags):
         chips=' '.join(f'<span class="stag {k}">{tg}</span>' for k,tg in tags)
-        return (f'<div class="surfrow" onclick="dd(\'{s}\')"><span class="tk">{s}</span>{market_pill(s)}{theme_pill(s)}<span class="sco2">{co_of(s)}</span>{chips}'
+        return (f'<div class="surfrow" onclick="dd(\'{s}\')"><span class="tk">{s}</span>{market_pill(s)}{theme_pill(s)}{report_update_pill(s)}<span class="sco2">{co_of(s)}</span>{chips}'
           f'<span class="rrt">{chg_fn(s)}{chg_info(s) if cfg.get("chg")=="mention" else ""}<span class="sfreq">{pfx} {c} · {freqline_plain(s)}</span><span class="go">{t("detail_go")}</span></span></div>')
-    def chips(lst): return ' '.join(f'<span class="rchip" onclick="dd(\'{s}\')">{s} <em>{market_of(s)}</em> <em>{theme_of(s)}</em> · {c}</span>' for s,c in sorted(lst,key=lambda x:-x[1]))
+    def chips(lst): return ' '.join(f'<span class="rchip" onclick="dd(\'{s}\')">{s} <em>{market_of(s)}</em> <em>{theme_of(s)}</em>{report_update_pill(s)} · {c}</span>' for s,c in sorted(lst,key=lambda x:-x[1]))
     def chips_collapsed(lst):
         items=sorted(lst,key=lambda x:-x[1]); N=14
-        mk=lambda pairs:' '.join(f'<span class="rchip" onclick="dd(\'{s}\')">{s} <em>{market_of(s)}</em> <em>{theme_of(s)}</em> · {c}</span>' for s,c in pairs)
+        mk=lambda pairs:' '.join(f'<span class="rchip" onclick="dd(\'{s}\')">{s} <em>{market_of(s)}</em> <em>{theme_of(s)}</em>{report_update_pill(s)} · {c}</span>' for s,c in pairs)
         if len(items)<=N: return mk(items)
         gid=f'rest_{sid}'
         return (f'{mk(items[:N])} <span id="{gid}" style="display:none">{mk(items[N:])}</span>'
@@ -575,7 +580,7 @@ def month_section():
         else:
             bar,num=distbar_html(eb,er,en); mid=f'{num}{bar}'
         return (f'<div class="trow" onclick="dd(\'{s}\')">'
-          f'<span class="trk">{i}</span><span class="ttag">{mtag(s)}</span><span class="ttk">{s}{market_pill(s)}{theme_pill(s)}</span>'
+          f'<span class="trk">{i}</span><span class="ttag">{mtag(s)}</span><span class="ttk">{s}{market_pill(s)}{theme_pill(s)}{report_update_pill(s)}</span>'
           f'{mid}<span class="tn2">{t("trow_month_n",c=f"<b>{c}</b>")}</span>'
           f'<span class="tchg">{t("gain_lbl")} {mention_chg(s)}{chg_info(s)}</span><span class="sgo">{t("detail")}</span></div>')
     ntk=len(syms); nment=sum(cnt(s,M0,DAY) for s in syms)
@@ -614,7 +619,7 @@ def quarter_section():
         dchg='' if pct is None else f'{pct:.4f}'
         ind=ind_of(s) or '<span class="muted">—</span>'
         return (f'<tr onclick="dd(\'{s}\')" data-chg="{dchg}" data-men="{c}" data-bull="{eb}" data-bear="{er}" data-neu="{en}">'
-            f'<td class="q-tk">{s}{market_pill(s)}{theme_pill(s)}</td><td class="q-ind">{ind}</td>'
+            f'<td class="q-tk">{s}{market_pill(s)}{theme_pill(s)}{report_update_pill(s)}</td><td class="q-ind">{ind}</td>'
             f'<td class="q-dt">{ymd(first(s))}{pxcell(first_px(s),s)}</td><td class="q-dt">{ymd(last(s))}{pxcell(last_px(s),s)}</td>'
             f'<td class="q-chg">{mention_chg(s)}</td><td class="q-n men"><b>{c}</b></td>'
             f'<td class="q-n b">{eb}</td><td class="q-n r">{er}</td><td class="q-n n">{en}</td></tr>')
@@ -664,6 +669,8 @@ SHARED_CSS='''<style>
 .theme{display:inline-flex;align-items:center;vertical-align:middle;margin-left:5px;padding:1px 7px;border:1px solid rgba(29,155,240,.22);border-radius:999px;background:rgba(29,155,240,.07);color:#1d6fa5;font-family:var(--mono);font-size:9.5px;font-weight:700;line-height:1.35;white-space:nowrap}
 .theme.other{border-color:var(--line);background:var(--paper);color:var(--ink-faint)}
 .theme.detail{font-size:11px;margin-left:6px;transform:translateY(-4px)}
+.updchip{display:inline-flex;align-items:center;gap:4px;vertical-align:middle;margin-left:6px;padding:2px 7px;border:1px solid rgba(31,92,77,.24);border-radius:999px;background:var(--accent-soft);color:var(--accent);font-family:var(--mono);font-size:9.5px;font-weight:700;line-height:1.35;white-space:nowrap}
+.updchip i{font-size:9px}
 .rchip em{font-style:normal;color:var(--ink-soft);font-size:9.5px}
 .surfrow .rrt{margin-left:auto;display:flex;align-items:center;gap:10px}
 .badge.cw{background:#f3e7cc;color:#8a6a1f}.card.cw::before{background:var(--gold)}
@@ -974,7 +981,8 @@ html{scroll-behavior:smooth}
 #ddPage{display:none;position:fixed;inset:0;z-index:200;background:var(--paper);overflow-y:auto}
 #ddBody{max-width:1360px;margin:0 auto;padding:24px 40px 90px}
 .ddhead{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:16px;margin-bottom:6px}
-.ddtk{font-family:var(--mono);font-weight:800;font-size:30px;color:var(--ink);line-height:1}
+.ddtk{font-family:var(--mono);font-weight:800;font-size:30px;color:var(--ink);line-height:1;display:flex;align-items:center;flex-wrap:wrap;gap:7px 8px}
+.ddtk .market.detail,.ddtk .theme.detail{margin-left:0;transform:none}
 .theme-cn{font-family:var(--sans);font-size:12px;font-weight:600;color:var(--ink-soft);margin-left:6px;vertical-align:middle}
 .ddco{font-size:13px;color:var(--ink-soft);margin-top:7px}.ddind{color:var(--ink-faint)}
 .ddpills{margin-top:11px}
@@ -992,6 +1000,21 @@ html{scroll-behavior:smooth}
 .cc-leg{display:flex;gap:16px;align-items:center;flex-wrap:wrap;font-size:11.5px;color:var(--ink-soft);margin-top:8px}.cc-leg i{width:10px;height:10px;border-radius:50%;display:inline-block;margin-right:4px;vertical-align:middle}.cc-leg .g{color:var(--ink-faint)}
 .ddchart-ph{padding:22px;text-align:center;color:var(--ink-faint);font-size:13px;border:1px dashed var(--line-strong);border-radius:6px;margin:18px 0 8px}
 .thesis{margin:18px 0 24px;border:1px solid var(--line);border-radius:8px;background:var(--card);box-shadow:var(--shadow);padding:22px 24px}
+.updates{margin:18px 0 18px;border:1px solid rgba(31,92,77,.28);border-left:5px solid var(--accent);border-radius:8px;background:linear-gradient(0deg,var(--accent-soft),var(--accent-soft));box-shadow:0 1px 0 rgba(0,0,0,.04);padding:0}
+.updates summary{list-style:none;cursor:pointer;padding:16px 18px}
+.updates summary::-webkit-details-marker{display:none}
+.updates-k{font-family:var(--mono);font-size:11px;font-weight:800;color:var(--accent);letter-spacing:.02em;margin-bottom:7px}
+.updates h2{font-family:var(--serif);font-size:19px;font-weight:900;line-height:1.3;color:var(--ink);margin-bottom:7px}
+.updates-meta{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 12px}
+.upill{font-family:var(--mono);font-size:10.5px;font-weight:700;border-radius:999px;padding:4px 8px;background:var(--paper);border:1px solid var(--line);color:var(--ink-soft)}
+.upill.high{background:var(--accent-soft);border-color:rgba(31,92,77,.25);color:var(--accent)}
+.updates p{font-size:14px;line-height:1.8;color:var(--ink-soft);margin:8px 0}
+.updates summary p{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.updates-body{border-top:1px solid rgba(31,92,77,.18);background:var(--card);padding:0 18px 18px}
+.updates ul{margin:0 0 0 18px;padding-top:12px;color:var(--ink-soft)}
+.updates li{font-size:14px;line-height:1.75;margin:5px 0}
+.update-more{font-family:var(--mono);font-size:11px;font-weight:700;color:var(--accent);display:inline-flex;align-items:center;gap:5px;margin-top:8px}
+.updates[open] .update-more{display:none}
 .thesis-kicker{font-family:var(--mono);font-size:11px;font-weight:700;color:var(--accent);letter-spacing:.02em;margin-bottom:9px}
 .thesis-title{font-family:var(--serif);font-size:25px;font-weight:900;line-height:1.25;color:var(--ink);margin-bottom:8px}
 .thesis-sub{font-size:14px;line-height:1.7;color:var(--ink-soft);max-width:920px}
@@ -1077,6 +1100,21 @@ html{scroll-behavior:smooth}
 .pmedia img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:8px;border:1px solid var(--line);background:var(--paper)}
 .pmedia.one{grid-template-columns:minmax(0,260px);max-width:260px}.pmedia.one img{aspect-ratio:16/10}
 @media(max-width:760px){.prow{grid-template-columns:82px 92px minmax(0,1fr);gap:7px 10px}.prtag.first{grid-column:3}.prtx{grid-column:1/-1}}
+@media(max-width:600px){
+  #ddBody{padding:16px 14px 72px}
+  .ddhead{gap:12px;padding-bottom:14px}
+  .ddhl,.ddmeta{width:100%}
+  .ddtk{font-size:28px;gap:7px}
+  .ddco{line-height:1.45}
+  .ddmeta{text-align:left;line-height:1.75}
+  .ddfreq{justify-content:flex-start;gap:18px}
+  .thesis{padding:18px 16px;margin-top:16px}
+  .thesis-title{font-size:22px}
+  .thesis-core{display:flex;width:100%;line-height:1.55}
+  .jargon-tip{position:fixed;left:16px;right:16px;top:18%;bottom:auto;width:auto;max-width:none}
+  .jargon-tip::after{display:none}
+  .postsbar{align-items:flex-start}
+}
 
 </style>'''
 
@@ -1112,11 +1150,12 @@ const GLOSSARY=[
   ['photonics','光子學 - 用光來傳輸、處理或運算訊號的技術。'],['optical interconnects','光互連 - 用光取代電訊號，在晶片、伺服器或資料中心之間高速傳輸資料。'],
   ['optical module','光模組 - 把電訊號和光訊號互相轉換的通訊元件。'],['optical modules','光模組 - 把電訊號和光訊號互相轉換的通訊元件。'],
   ['transceiver','收發器 - 同時負責發送與接收訊號的光通訊模組。'],['transceivers','收發器 - 同時負責發送與接收訊號的光通訊模組。'],
-  ['CW laser','CW laser (Continuous Wave Laser) 連續波雷射 - 持續輸出穩定光源的雷射，常用於 CPO 或矽光子系統。'],['EML','EML (Electro-absorption Modulated Laser) 電吸收調變雷射 - 高速光通訊常用的雷射類型。'],
+  ['laser','雷射 - 用來產生高集中度光束的元件，是光通訊供應鏈的核心零件之一。'],['CW laser','CW laser (Continuous Wave Laser) 連續波雷射 - 持續輸出穩定光源的雷射，常用於 CPO 或矽光子系統。'],['EML','EML (Electro-absorption Modulated Laser) 電吸收調變雷射 - 高速光通訊常用的雷射類型。'],
   ['InP','InP (Indium Phosphide) 磷化銦 - 適合製造高速光電與雷射元件的化合物半導體材料。'],['800G','800G - 每秒 800Gbps 的光通訊速度，是 AI 資料中心常見升級方向。'],['1.6T','1.6T - 每秒 1.6Tbps 的光通訊速度，約為 800G 的兩倍。'],
   ['CPO','CPO (Co-Packaged Optics) 共同封裝光學 - 把光學元件放到更靠近晶片的位置，降低功耗並提高頻寬。'],['NPO','NPO (Near-Packaged Optics) 近封裝光學 - 光學元件非常靠近晶片，但不一定完全共同封裝。'],['pluggable','可插拔光模組 - 可以像零件一樣插拔更換的光通訊模組。'],
   ['supply chain','供應鏈 - 從材料、零件、製造到交付客戶的整個產業鏈。'],['bottleneck','瓶頸 - 限制整個系統產能或成長速度的關鍵限制。'],['chokepoint','關鍵卡點 - 供應稀缺且難以替代的環節，通常具有較高議價能力。'],
   ['TAM','TAM (Total Addressable Market) 總潛在市場規模 - 一個產品或技術理論上可以服務的最大市場。'],['LTA','LTA (Long-Term Agreement) 長期供應協議 - 客戶與供應商提前鎖定未來產能或供貨條件的合約。'],['volume ramp','量產爬坡 - 產品從小量出貨逐步擴大到大規模量產的過程。']
+  ,['revenue ramp','收入爬坡 - 新產品或新客戶開始放量，收入快速增加的階段。'],['optical engines','光引擎 - 把雷射、調變與光訊號處理整合起來的核心光通訊元件。']
 ];
 const GLOSS_MAP=Object.fromEntries(GLOSSARY.map(function(x){return [x[0].toLowerCase(),x[1]];}));
 const GLOSS_RE=new RegExp('\\\\b('+GLOSSARY.map(function(x){return x[0].replace(/[.*+?^${}()|[\\]\\\\]/g,'\\\\$&');}).sort(function(a,b){return b.length-a.length;}).join('|')+')\\\\b','gi');
@@ -1178,10 +1217,18 @@ function reportHtml(r,postMap,tk){
     return '<a class="tweetcard" href="'+esc(p.url||c.url||'#')+'" target="_blank" rel="noopener"><div class="twhead"><img class="twav" src="assets/serenity-avatar.jpg" alt="Serenity avatar"><div><div class="twnm">Serenity <i class="fa-solid fa-circle-check" style="color:#1d9bf0;font-size:12px"></i></div><div class="twmeta">@aleabitoreddit · '+esc(p.d||c.date||'')+'</div></div><span class="twopen"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div><div class="twtext">'+fmtPostText(sp.text)+more+'</div>'+mediaHtml(p.media)+'</a>';
   }
   function cites(a){if(!a||!a.length)return '';var cards=[],chips=[];a.forEach(function(c){var h=tweetCard(c);if(h.indexOf('tweetcard')>=0)cards.push(h);else chips.push(h);});return (cards.length?'<div class="tweetrefs">'+cards+'</div>':'')+(chips.length?'<div class="thesis-cites">'+chips.join('')+'</div>':'');}
+  function updateHtml(){
+    var u=(r.updates||[])[0];if(!u)return '';
+    var stance={still_bullish:'仍偏多',more_bullish:'更加看多',more_cautious:'轉為謹慎',thesis_changed:'論點改變',bearish_reversal:'轉為看空',new_catalyst:'新增催化',new_risk:'新增風險'}[u.stance]||u.stance||'更新';
+    var imp={high:'重要更新',medium:'一般更新',low:'小更新'}[u.importance]||u.importance||'更新';
+    var src=(u.source_tweet_ids||[]).map(function(id){var p=postMap&&postMap[id];return {tweet_id:id,date:p&&p.d,url:p&&p.url,label:'Serenity 原文'};});
+    var bullets=(u.bullets||[]).map(function(b){return '<li>'+glossText(b)+'</li>';}).join('');
+    return '<details class="updates"><summary><div class="updates-k">最新更新 · '+esc(u.date||'')+'</div><h2>'+glossText(u.title||'')+'</h2><div class="updates-meta"><span class="upill high">'+esc(imp)+'</span><span class="upill">'+esc(stance)+'</span></div>'+paras([u.summary||''])+'<span class="update-more">展開更新內容 <i class="fa-solid fa-chevron-down"></i></span></summary><div class="updates-body">'+(bullets?'<ul>'+bullets+'</ul>':'')+cites(src)+'</div></details>';
+  }
   var secs=(r.sections||[]).map(function(s){return '<section class="thesis-sec"><h3>'+glossText(s.heading||'')+'</h3>'+paras(s.body)+cites(s.citations)+'</section>';}).join('');
   var summary=paras(r.one_minute_summary);
   var final=paras(r.final_takeaway);
-  return '<article class="thesis"><div class="thesis-kicker">SERENITY $'+esc(tk)+' 投資論點報告</div><h2 class="thesis-title">'+glossText(r.title||'')+'</h2><div class="thesis-sub">'+glossText(r.subtitle||'')+'</div>'+(r.core_label?'<div class="thesis-core">'+glossText(r.core_label)+'</div>':'')+(summary?'<div class="thesis-summary">'+summary+'</div>':'')+secs+(final?'<section class="thesis-final"><h3>最後結論</h3>'+final+'</section>':'')+'</article>';
+  return updateHtml()+'<article class="thesis"><div class="thesis-kicker">SERENITY $'+esc(tk)+' 投資論點報告</div><h2 class="thesis-title">'+glossText(r.title||'')+'</h2><div class="thesis-sub">'+glossText(r.subtitle||'')+'</div>'+(r.core_label?'<div class="thesis-core">'+glossText(r.core_label)+'</div>':'')+(summary?'<div class="thesis-summary">'+summary+'</div>':'')+secs+(final?'<section class="thesis-final"><h3>最後結論</h3>'+final+'</section>':'')+'</article>';
 }
 function renderDD(tk){
   var d=window.DD_DATA&&DD_DATA[tk];

@@ -9,6 +9,22 @@
     "她最早在 2025 年 12 月把 $AAOI 放進 Mag7 ASIC 供應鏈框架，後來在 1.6T / hyperscaler 訂單、雷射瓶頸、AMD 搶 CW laser、以及美國供應鏈重估的資訊逐步出現後，反而在更高市值時提高確信度。",
     "真正要觀察的不是短期股價，而是 Serenity 的產業鏈問題：誰控制最難擴產的稀缺層？誰能在 Amazon、Microsoft、AMD、Nvidia 爭搶光學產能時變成不可忽視的節點？"
   ],
+  "updates": [
+    {
+      "date": "2026-06-18",
+      "importance": "high",
+      "stance": "still_bullish",
+      "title": "立場未反轉，但投資論點從雷射瓶頸延伸到平台化擴張",
+      "summary": "Serenity 最新貼文仍然明確偏多 $AAOI。新增重點不是推翻原本的雷射瓶頸論點，而是把雷射公司想像成可往光通訊模組 (optical modules)、光引擎 (optical engines)、ELS components 進一步擴張的平台型供應商。",
+      "bullets": [
+        "立場未反轉，仍偏多。",
+        "新增重點：$AAOI / $SIVE 這類雷射公司不只賣雷射 (laser)，也可能往完整光通訊模組、光引擎與 ELS 元件擴張。",
+        "時間線仍偏 2027：Serenity 認為多數收入爬坡 (revenue ramp) 會在 2027 上半年到下半年真正開始。",
+        "這使原投資論點從「供應鏈瓶頸」升級成「稀缺雷射 (laser) 能力 + 下游產品擴張」的組合。"
+      ],
+      "source_tweet_ids": ["2067542382523122001"]
+    }
+  ],
   "sections": [
     {
       "heading": "一、Serenity 最初看到的不是光模組，而是 Mag7 ASIC 供應鏈",
@@ -293,6 +309,7 @@
     {"tweet_id": "2065105141238489398", "date": "2026-06-11", "url": "https://x.com/aleabitoreddit/status/2065105141238489398"},
     {"tweet_id": "2065289672356745561", "date": "2026-06-12", "url": "https://x.com/aleabitoreddit/status/2065289672356745561"},
     {"tweet_id": "2039709630217994270", "date": "2026-04-02", "url": "https://x.com/aleabitoreddit/status/2039709630217994270"},
-    {"tweet_id": "2061395355695226960", "date": "2026-06-01", "url": "https://x.com/aleabitoreddit/status/2061395355695226960"}
+    {"tweet_id": "2061395355695226960", "date": "2026-06-01", "url": "https://x.com/aleabitoreddit/status/2061395355695226960"},
+    {"tweet_id": "2067542382523122001", "date": "2026-06-18", "url": "https://x.com/aleabitoreddit/status/2067542382523122001"}
   ]
 }
