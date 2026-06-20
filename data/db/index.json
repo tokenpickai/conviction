@@ -1,11 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-06-19T23:53:55.564913+00:00",
+    "generated_at": "2026-06-20T10:20:42.510453+00:00",
     "total_tickers": 961,
     "total_mentions": 13880,
     "dates": "ET (US Eastern); matches render/pipeline.py",
-    "note": "Data layer only — facts + raw mentions. All windowed/stance aggregation + rankings are computed by render at runtime. Prices pending.",
-    "prices_updated_at": "2026-06-20T08:41:17.254249+00:00"
+    "note": "Data layer only — facts + raw mentions. All windowed/stance aggregation + rankings are computed by render at runtime. Prices pending."
   },
   "stocks": [
     {
@@ -468,7 +467,7 @@
       "first_mention": "2025-12-01",
       "last_mention": "2026-06-18",
       "total_mentions": 105,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "CRCL",
@@ -580,7 +579,7 @@
       "first_mention": "2025-12-28",
       "last_mention": "2026-06-19",
       "total_mentions": 77,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "VLN",
@@ -818,7 +817,7 @@
       "first_mention": "2026-04-08",
       "last_mention": "2026-06-19",
       "total_mentions": 44,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "UPWK",
@@ -902,7 +901,7 @@
       "first_mention": "2026-03-17",
       "last_mention": "2026-06-19",
       "total_mentions": 38,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "FLNC",
@@ -1168,7 +1167,7 @@
       "first_mention": "2025-10-19",
       "last_mention": "2026-05-20",
       "total_mentions": 28,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "KRKNF",
@@ -1196,7 +1195,7 @@
       "first_mention": "2026-03-27",
       "last_mention": "2026-06-19",
       "total_mentions": 27,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ASTS",
@@ -1434,7 +1433,7 @@
       "first_mention": "2025-12-30",
       "last_mention": "2026-06-17",
       "total_mentions": 19,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "TGT",
@@ -1658,7 +1657,7 @@
       "first_mention": "2026-02-27",
       "last_mention": "2026-06-19",
       "total_mentions": 14,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ALMU",
@@ -1868,7 +1867,7 @@
       "first_mention": "2025-12-01",
       "last_mention": "2026-05-30",
       "total_mentions": 13,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "VRT",
@@ -1896,7 +1895,7 @@
       "first_mention": "2026-03-25",
       "last_mention": "2026-06-05",
       "total_mentions": 13,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "AMC",
@@ -1924,7 +1923,7 @@
       "first_mention": "2026-03-16",
       "last_mention": "2026-06-15",
       "total_mentions": 12,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "MSSCORPS",
@@ -1938,7 +1937,7 @@
       "first_mention": "2026-05-02",
       "last_mention": "2026-06-16",
       "total_mentions": 12,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "OPEN",
@@ -2078,7 +2077,7 @@
       "first_mention": "2026-04-14",
       "last_mention": "2026-05-31",
       "total_mentions": 10,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6315",
@@ -2092,7 +2091,7 @@
       "first_mention": "2026-04-27",
       "last_mention": "2026-05-11",
       "total_mentions": 10,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "688017",
@@ -2106,7 +2105,7 @@
       "first_mention": "2026-06-04",
       "last_mention": "2026-06-17",
       "total_mentions": 10,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "AMAT",
@@ -2190,7 +2189,7 @@
       "first_mention": "2026-04-29",
       "last_mention": "2026-06-19",
       "total_mentions": 10,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SEI",
@@ -2232,7 +2231,7 @@
       "first_mention": "2025-09-09",
       "last_mention": "2026-06-01",
       "total_mentions": 10,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "VNP",
@@ -2246,7 +2245,7 @@
       "first_mention": "2026-01-26",
       "last_mention": "2026-04-09",
       "total_mentions": 10,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "VST",
@@ -2274,7 +2273,7 @@
       "first_mention": "2026-04-14",
       "last_mention": "2026-05-25",
       "total_mentions": 9,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "CEG",
@@ -2330,7 +2329,7 @@
       "first_mention": "2025-12-22",
       "last_mention": "2026-06-09",
       "total_mentions": 9,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "LMT",
@@ -2358,7 +2357,7 @@
       "first_mention": "2026-01-23",
       "last_mention": "2026-03-25",
       "total_mentions": 9,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "QLCM",
@@ -2372,7 +2371,7 @@
       "first_mention": "2025-10-10",
       "last_mention": "2026-03-30",
       "total_mentions": 9,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SMTOY",
@@ -2400,7 +2399,7 @@
       "first_mention": "2026-04-27",
       "last_mention": "2026-06-19",
       "total_mentions": 9,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "USAR",
@@ -2470,7 +2469,7 @@
       "first_mention": "2026-01-04",
       "last_mention": "2026-05-23",
       "total_mentions": 8,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "JPM",
@@ -2526,7 +2525,7 @@
       "first_mention": "2025-12-01",
       "last_mention": "2026-06-03",
       "total_mentions": 8,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SKYT",
@@ -2582,7 +2581,7 @@
       "first_mention": "2026-04-02",
       "last_mention": "2026-06-15",
       "total_mentions": 8,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "YSS",
@@ -2610,7 +2609,7 @@
       "first_mention": "2026-05-10",
       "last_mention": "2026-05-25",
       "total_mentions": 7,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ASHM",
@@ -2736,7 +2735,7 @@
       "first_mention": "2026-01-25",
       "last_mention": "2026-06-19",
       "total_mentions": 7,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "KRUS",
@@ -2778,7 +2777,7 @@
       "first_mention": "2026-01-28",
       "last_mention": "2026-05-09",
       "total_mentions": 7,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "MXL",
@@ -2876,7 +2875,7 @@
       "first_mention": "2026-03-30",
       "last_mention": "2026-05-12",
       "total_mentions": 6,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "AMBA",
@@ -2918,7 +2917,7 @@
       "first_mention": "2026-05-06",
       "last_mention": "2026-06-19",
       "total_mentions": 6,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "BA",
@@ -3016,7 +3015,7 @@
       "first_mention": "2026-02-27",
       "last_mention": "2026-06-14",
       "total_mentions": 6,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "LRCX",
@@ -3072,7 +3071,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-06-16",
       "total_mentions": 6,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "NFE",
@@ -3184,7 +3183,7 @@
       "first_mention": "2025-12-02",
       "last_mention": "2026-05-21",
       "total_mentions": 6,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "UAMY",
@@ -3212,7 +3211,7 @@
       "first_mention": "2026-01-23",
       "last_mention": "2026-03-26",
       "total_mentions": 5,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "3110",
@@ -3226,7 +3225,7 @@
       "first_mention": "2026-01-08",
       "last_mention": "2026-03-30",
       "total_mentions": 5,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6324",
@@ -3240,7 +3239,7 @@
       "first_mention": "2026-01-16",
       "last_mention": "2026-05-26",
       "total_mentions": 5,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6451.TW",
@@ -3338,7 +3337,7 @@
       "first_mention": "2026-01-12",
       "last_mention": "2026-04-14",
       "total_mentions": 5,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "LGN",
@@ -3366,7 +3365,7 @@
       "first_mention": "2026-04-30",
       "last_mention": "2026-06-11",
       "total_mentions": 5,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "MOD",
@@ -3436,7 +3435,7 @@
       "first_mention": "2025-12-31",
       "last_mention": "2026-05-09",
       "total_mentions": 5,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "U",
@@ -3548,7 +3547,7 @@
       "first_mention": "2026-05-06",
       "last_mention": "2026-06-06",
       "total_mentions": 4,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "078150",
@@ -3562,7 +3561,7 @@
       "first_mention": "2026-05-06",
       "last_mention": "2026-05-06",
       "total_mentions": 4,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "093370",
@@ -3576,7 +3575,7 @@
       "first_mention": "2026-06-13",
       "last_mention": "2026-06-19",
       "total_mentions": 4,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "2316",
@@ -3590,7 +3589,7 @@
       "first_mention": "2026-03-26",
       "last_mention": "2026-06-18",
       "total_mentions": 4,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "2454",
@@ -3604,7 +3603,7 @@
       "first_mention": "2026-06-03",
       "last_mention": "2026-06-03",
       "total_mentions": 4,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "5802",
@@ -3618,7 +3617,7 @@
       "first_mention": "2026-03-30",
       "last_mention": "2026-05-08",
       "total_mentions": 4,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ALCHIP",
@@ -3632,7 +3631,7 @@
       "first_mention": "2025-12-17",
       "last_mention": "2026-06-09",
       "total_mentions": 4,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "APP",
@@ -3814,7 +3813,7 @@
       "first_mention": "2026-02-03",
       "last_mention": "2026-06-19",
       "total_mentions": 4,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "DRAM",
@@ -3870,7 +3869,7 @@
       "first_mention": "2026-03-29",
       "last_mention": "2026-06-17",
       "total_mentions": 4,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "GLD",
@@ -3954,7 +3953,7 @@
       "first_mention": "2026-02-26",
       "last_mention": "2026-06-08",
       "total_mentions": 4,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "LAC",
@@ -3982,7 +3981,7 @@
       "first_mention": "2026-01-18",
       "last_mention": "2026-04-30",
       "total_mentions": 4,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "MRAM",
@@ -4080,7 +4079,7 @@
       "first_mention": "2026-04-10",
       "last_mention": "2026-05-15",
       "total_mentions": 4,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "NKE",
@@ -4136,7 +4135,7 @@
       "first_mention": "2026-03-25",
       "last_mention": "2026-03-26",
       "total_mentions": 4,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "PLAB",
@@ -4206,7 +4205,7 @@
       "first_mention": "2026-01-28",
       "last_mention": "2026-06-19",
       "total_mentions": 4,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SK_HYNIX",
@@ -4220,7 +4219,7 @@
       "first_mention": "2026-01-08",
       "last_mention": "2026-03-28",
       "total_mentions": 4,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SPOT",
@@ -4262,7 +4261,7 @@
       "first_mention": "2026-04-15",
       "last_mention": "2026-06-04",
       "total_mentions": 4,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "VIX",
@@ -4332,7 +4331,7 @@
       "first_mention": "2026-02-03",
       "last_mention": "2026-06-19",
       "total_mentions": 4,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "0100",
@@ -4360,7 +4359,7 @@
       "first_mention": "2026-05-03",
       "last_mention": "2026-06-12",
       "total_mentions": 3,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "322310",
@@ -4374,7 +4373,7 @@
       "first_mention": "2026-04-30",
       "last_mention": "2026-05-03",
       "total_mentions": 3,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "4977",
@@ -4388,7 +4387,7 @@
       "first_mention": "2026-04-16",
       "last_mention": "2026-05-12",
       "total_mentions": 3,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6503",
@@ -4402,7 +4401,7 @@
       "first_mention": "2026-04-07",
       "last_mention": "2026-05-08",
       "total_mentions": 3,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6961",
@@ -4416,7 +4415,7 @@
       "first_mention": "2026-04-15",
       "last_mention": "2026-04-19",
       "total_mentions": 3,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "AAL",
@@ -4500,7 +4499,7 @@
       "first_mention": "2026-04-05",
       "last_mention": "2026-04-26",
       "total_mentions": 3,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ATEYY",
@@ -4514,7 +4513,7 @@
       "first_mention": "2026-04-05",
       "last_mention": "2026-04-20",
       "total_mentions": 3,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "AXIA",
@@ -4570,7 +4569,7 @@
       "first_mention": "2026-01-01",
       "last_mention": "2026-05-08",
       "total_mentions": 3,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "BYD",
@@ -4640,7 +4639,7 @@
       "first_mention": "2026-02-25",
       "last_mention": "2026-03-25",
       "total_mentions": 3,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "EOS.AX",
@@ -4654,7 +4653,7 @@
       "first_mention": "2026-04-02",
       "last_mention": "2026-04-11",
       "total_mentions": 3,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "EQR.AX",
@@ -4668,7 +4667,7 @@
       "first_mention": "2026-04-02",
       "last_mention": "2026-04-11",
       "total_mentions": 3,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ESLT",
@@ -4724,7 +4723,7 @@
       "first_mention": "2026-05-24",
       "last_mention": "2026-05-28",
       "total_mentions": 3,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "FIDELITY",
@@ -4752,7 +4751,7 @@
       "first_mention": "2026-04-15",
       "last_mention": "2026-05-30",
       "total_mentions": 3,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "FTX",
@@ -4766,7 +4765,7 @@
       "first_mention": "2025-11-24",
       "last_mention": "2026-04-23",
       "total_mentions": 3,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "GD",
@@ -4808,7 +4807,7 @@
       "first_mention": "2025-09-17",
       "last_mention": "2026-05-02",
       "total_mentions": 3,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "GRZ.V",
@@ -4836,7 +4835,7 @@
       "first_mention": "2026-04-06",
       "last_mention": "2026-04-06",
       "total_mentions": 3,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "IFNNY",
@@ -4850,7 +4849,7 @@
       "first_mention": "2026-02-07",
       "last_mention": "2026-06-08",
       "total_mentions": 3,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "JD",
@@ -4962,7 +4961,7 @@
       "first_mention": "2025-12-22",
       "last_mention": "2026-06-17",
       "total_mentions": 3,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "MIND",
@@ -5354,7 +5353,7 @@
       "first_mention": "2026-04-27",
       "last_mention": "2026-05-04",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "2308",
@@ -5368,7 +5367,7 @@
       "first_mention": "2026-05-09",
       "last_mention": "2026-06-14",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "2317",
@@ -5382,7 +5381,7 @@
       "first_mention": "2026-03-30",
       "last_mention": "2026-06-09",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "2337",
@@ -5410,7 +5409,7 @@
       "first_mention": "2026-01-08",
       "last_mention": "2026-04-11",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "300308",
@@ -5424,7 +5423,7 @@
       "first_mention": "2026-03-30",
       "last_mention": "2026-03-31",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "300376",
@@ -5438,7 +5437,7 @@
       "first_mention": "2026-06-08",
       "last_mention": "2026-06-08",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "3017",
@@ -5452,7 +5451,7 @@
       "first_mention": "2026-04-10",
       "last_mention": "2026-05-09",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "3163",
@@ -5466,7 +5465,7 @@
       "first_mention": "2026-03-30",
       "last_mention": "2026-05-12",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "3374",
@@ -5480,7 +5479,7 @@
       "first_mention": "2026-06-02",
       "last_mention": "2026-06-05",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6187",
@@ -5494,7 +5493,7 @@
       "first_mention": "2026-03-30",
       "last_mention": "2026-05-13",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6268",
@@ -5508,7 +5507,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-05-12",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6728",
@@ -5522,7 +5521,7 @@
       "first_mention": "2026-05-19",
       "last_mention": "2026-05-19",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "688498",
@@ -5536,7 +5535,7 @@
       "first_mention": "2026-03-30",
       "last_mention": "2026-04-07",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "AA",
@@ -5578,7 +5577,7 @@
       "first_mention": "2026-06-04",
       "last_mention": "2026-06-04",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "AIRWALLETX",
@@ -5606,7 +5605,7 @@
       "first_mention": "2026-04-02",
       "last_mention": "2026-04-11",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ALCJ",
@@ -5620,7 +5619,7 @@
       "first_mention": "2026-04-02",
       "last_mention": "2026-04-11",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "AMSL",
@@ -5634,7 +5633,7 @@
       "first_mention": "2025-10-16",
       "last_mention": "2026-04-09",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "AOSL",
@@ -5746,7 +5745,7 @@
       "first_mention": "2026-04-01",
       "last_mention": "2026-05-26",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "CEREBRAS",
@@ -5760,7 +5759,7 @@
       "first_mention": "2026-04-16",
       "last_mention": "2026-04-16",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "CHGG",
@@ -5802,7 +5801,7 @@
       "first_mention": "2026-05-14",
       "last_mention": "2026-05-14",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "CRED",
@@ -5928,7 +5927,7 @@
       "first_mention": "2026-04-02",
       "last_mention": "2026-04-11",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ENPH",
@@ -5956,7 +5955,7 @@
       "first_mention": "2026-04-30",
       "last_mention": "2026-04-30",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ENTG",
@@ -6054,7 +6053,7 @@
       "first_mention": "2026-05-18",
       "last_mention": "2026-06-04",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "FITTECH",
@@ -6068,7 +6067,7 @@
       "first_mention": "2026-04-15",
       "last_mention": "2026-04-24",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "GAP",
@@ -6138,7 +6137,7 @@
       "first_mention": "2026-02-07",
       "last_mention": "2026-04-09",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "HGRAF",
@@ -6152,7 +6151,7 @@
       "first_mention": "2026-04-02",
       "last_mention": "2026-04-11",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "INTU",
@@ -6194,7 +6193,7 @@
       "first_mention": "2026-05-01",
       "last_mention": "2026-05-03",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "LCID",
@@ -6222,7 +6221,7 @@
       "first_mention": "2026-05-13",
       "last_mention": "2026-06-09",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "LMND",
@@ -6250,7 +6249,7 @@
       "first_mention": "2026-02-26",
       "last_mention": "2026-06-15",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "LPK.DE",
@@ -6278,7 +6277,7 @@
       "first_mention": "2026-03-29",
       "last_mention": "2026-05-24",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "LUXNET",
@@ -6292,7 +6291,7 @@
       "first_mention": "2026-03-29",
       "last_mention": "2026-04-02",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "LYFT",
@@ -6334,7 +6333,7 @@
       "first_mention": "2026-02-04",
       "last_mention": "2026-06-01",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "MICRON",
@@ -6348,7 +6347,7 @@
       "first_mention": "2026-02-06",
       "last_mention": "2026-04-02",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "MITK",
@@ -6390,7 +6389,7 @@
       "first_mention": "2026-03-17",
       "last_mention": "2026-03-24",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "NB",
@@ -6488,7 +6487,7 @@
       "first_mention": "2026-04-11",
       "last_mention": "2026-04-11",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "NVT",
@@ -6530,7 +6529,7 @@
       "first_mention": "2026-03-22",
       "last_mention": "2026-05-22",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "OPENAI",
@@ -6544,7 +6543,7 @@
       "first_mention": "2026-01-24",
       "last_mention": "2026-05-06",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "P4O.DE",
@@ -6558,7 +6557,7 @@
       "first_mention": "2026-04-02",
       "last_mention": "2026-04-11",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "PAYP",
@@ -6964,7 +6963,7 @@
       "first_mention": "2025-09-17",
       "last_mention": "2026-03-23",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "UUUU",
@@ -7090,7 +7089,7 @@
       "first_mention": "2026-06-02",
       "last_mention": "2026-06-19",
       "total_mentions": 2,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "Z",
@@ -7146,7 +7145,7 @@
       "first_mention": "2026-06-06",
       "last_mention": "2026-06-06",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "034730",
@@ -7174,7 +7173,7 @@
       "first_mention": "2026-04-27",
       "last_mention": "2026-04-27",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "2301",
@@ -7188,7 +7187,7 @@
       "first_mention": "2026-06-08",
       "last_mention": "2026-06-08",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "2340",
@@ -7202,7 +7201,7 @@
       "first_mention": "2026-05-19",
       "last_mention": "2026-05-19",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "2344",
@@ -7230,7 +7229,7 @@
       "first_mention": "2026-05-21",
       "last_mention": "2026-05-21",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "2360",
@@ -7244,7 +7243,7 @@
       "first_mention": "2026-03-30",
       "last_mention": "2026-03-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "2368",
@@ -7258,7 +7257,7 @@
       "first_mention": "2026-03-26",
       "last_mention": "2026-03-26",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "2455",
@@ -7272,7 +7271,7 @@
       "first_mention": "2026-04-10",
       "last_mention": "2026-04-10",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "2462",
@@ -7300,7 +7299,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-05-12",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "2525",
@@ -7314,7 +7313,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-05-12",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "268A",
@@ -7328,7 +7327,7 @@
       "first_mention": "2026-04-10",
       "last_mention": "2026-04-10",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "277810",
@@ -7342,7 +7341,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-05-12",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "300024",
@@ -7356,7 +7355,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-05-12",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "300394",
@@ -7370,7 +7369,7 @@
       "first_mention": "2026-03-30",
       "last_mention": "2026-03-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "300502",
@@ -7384,7 +7383,7 @@
       "first_mention": "2026-03-30",
       "last_mention": "2026-03-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "300570",
@@ -7398,7 +7397,7 @@
       "first_mention": "2026-03-30",
       "last_mention": "2026-03-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "3231",
@@ -7412,7 +7411,7 @@
       "first_mention": "2026-05-21",
       "last_mention": "2026-05-21",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "3324",
@@ -7426,7 +7425,7 @@
       "first_mention": "2026-05-09",
       "last_mention": "2026-05-09",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "3446",
@@ -7454,7 +7453,7 @@
       "first_mention": "2026-04-10",
       "last_mention": "2026-04-10",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "3587",
@@ -7468,7 +7467,7 @@
       "first_mention": "2026-04-14",
       "last_mention": "2026-04-14",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "4004",
@@ -7496,7 +7495,7 @@
       "first_mention": "2026-06-06",
       "last_mention": "2026-06-06",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "4061",
@@ -7538,7 +7537,7 @@
       "first_mention": "2026-03-26",
       "last_mention": "2026-03-26",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "4958",
@@ -7552,7 +7551,7 @@
       "first_mention": "2026-03-26",
       "last_mention": "2026-03-26",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "4971",
@@ -7580,7 +7579,7 @@
       "first_mention": "2026-04-07",
       "last_mention": "2026-04-07",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "5019",
@@ -7636,7 +7635,7 @@
       "first_mention": "2026-04-10",
       "last_mention": "2026-04-10",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "5332",
@@ -7664,7 +7663,7 @@
       "first_mention": "2026-05-25",
       "last_mention": "2026-05-25",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "5765",
@@ -7692,7 +7691,7 @@
       "first_mention": "2026-04-30",
       "last_mention": "2026-04-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6223",
@@ -7706,7 +7705,7 @@
       "first_mention": "2026-04-14",
       "last_mention": "2026-04-14",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6239",
@@ -7720,7 +7719,7 @@
       "first_mention": "2026-03-30",
       "last_mention": "2026-03-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6501",
@@ -7748,7 +7747,7 @@
       "first_mention": "2026-06-08",
       "last_mention": "2026-06-08",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6613",
@@ -7762,7 +7761,7 @@
       "first_mention": "2026-04-11",
       "last_mention": "2026-04-11",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6669",
@@ -7776,7 +7775,7 @@
       "first_mention": "2026-05-21",
       "last_mention": "2026-05-21",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6706",
@@ -7790,7 +7789,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-05-12",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6777",
@@ -7804,7 +7803,7 @@
       "first_mention": "2026-04-10",
       "last_mention": "2026-04-10",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6789",
@@ -7818,7 +7817,7 @@
       "first_mention": "2026-05-25",
       "last_mention": "2026-05-25",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6857",
@@ -7832,7 +7831,7 @@
       "first_mention": "2026-04-14",
       "last_mention": "2026-04-14",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "688313",
@@ -7846,7 +7845,7 @@
       "first_mention": "2026-04-07",
       "last_mention": "2026-04-07",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6916",
@@ -7860,7 +7859,7 @@
       "first_mention": "2026-05-31",
       "last_mention": "2026-05-31",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6967",
@@ -7874,7 +7873,7 @@
       "first_mention": "2026-03-30",
       "last_mention": "2026-03-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6971",
@@ -7888,7 +7887,7 @@
       "first_mention": "2026-03-30",
       "last_mention": "2026-03-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6976",
@@ -7902,7 +7901,7 @@
       "first_mention": "2026-06-19",
       "last_mention": "2026-06-19",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "6981",
@@ -7916,7 +7915,7 @@
       "first_mention": "2026-06-19",
       "last_mention": "2026-06-19",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "7788",
@@ -7930,7 +7929,7 @@
       "first_mention": "2026-06-14",
       "last_mention": "2026-06-14",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "7794",
@@ -7958,7 +7957,7 @@
       "first_mention": "2026-03-26",
       "last_mention": "2026-03-26",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "8035",
@@ -8000,7 +7999,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-05-12",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "8996",
@@ -8014,7 +8013,7 @@
       "first_mention": "2026-05-09",
       "last_mention": "2026-05-09",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "9404",
@@ -8028,7 +8027,7 @@
       "first_mention": "2026-03-26",
       "last_mention": "2026-03-26",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "9468",
@@ -8042,7 +8041,7 @@
       "first_mention": "2026-03-26",
       "last_mention": "2026-03-26",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "9984",
@@ -8070,7 +8069,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-05-12",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ABSL",
@@ -8126,7 +8125,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-05-12",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ADEA",
@@ -8322,7 +8321,7 @@
       "first_mention": "2026-03-23",
       "last_mention": "2026-03-23",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "AMBQ",
@@ -8350,7 +8349,7 @@
       "first_mention": "2026-05-14",
       "last_mention": "2026-05-14",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "AMT",
@@ -8392,7 +8391,7 @@
       "first_mention": "2026-03-30",
       "last_mention": "2026-03-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "API",
@@ -8434,7 +8433,7 @@
       "first_mention": "2026-03-23",
       "last_mention": "2026-03-23",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ARBE",
@@ -8476,7 +8475,7 @@
       "first_mention": "2026-03-23",
       "last_mention": "2026-03-23",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ASAN",
@@ -8504,7 +8503,7 @@
       "first_mention": "2026-05-10",
       "last_mention": "2026-05-10",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ASIAVITAL",
@@ -8518,7 +8517,7 @@
       "first_mention": "2026-05-30",
       "last_mention": "2026-05-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ASMC",
@@ -8532,7 +8531,7 @@
       "first_mention": "2026-04-22",
       "last_mention": "2026-04-22",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ASOZF",
@@ -8588,7 +8587,7 @@
       "first_mention": "2026-05-14",
       "last_mention": "2026-05-14",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "AVA",
@@ -8616,7 +8615,7 @@
       "first_mention": "2026-03-23",
       "last_mention": "2026-03-23",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "AZURE",
@@ -8728,7 +8727,7 @@
       "first_mention": "2026-05-30",
       "last_mention": "2026-05-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "BKR",
@@ -8756,7 +8755,7 @@
       "first_mention": "2026-03-23",
       "last_mention": "2026-03-23",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "BLSKY",
@@ -8826,7 +8825,7 @@
       "first_mention": "2026-03-29",
       "last_mention": "2026-03-29",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "BROWAVE",
@@ -8840,7 +8839,7 @@
       "first_mention": "2026-05-13",
       "last_mention": "2026-05-13",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "BSL",
@@ -8910,7 +8909,7 @@
       "first_mention": "2026-04-24",
       "last_mention": "2026-04-24",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "BZ",
@@ -8980,7 +8979,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-05-12",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "CAVA",
@@ -9050,7 +9049,7 @@
       "first_mention": "2026-05-30",
       "last_mention": "2026-05-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "CITI",
@@ -9064,7 +9063,7 @@
       "first_mention": "2026-05-15",
       "last_mention": "2026-05-15",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "CLF",
@@ -9106,7 +9105,7 @@
       "first_mention": "2026-04-11",
       "last_mention": "2026-04-11",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "CNEX",
@@ -9120,7 +9119,7 @@
       "first_mention": "2026-03-28",
       "last_mention": "2026-03-28",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "COHERENT",
@@ -9134,7 +9133,7 @@
       "first_mention": "2026-03-29",
       "last_mention": "2026-03-29",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "COP",
@@ -9204,7 +9203,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-05-12",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "CURSOR",
@@ -9344,7 +9343,7 @@
       "first_mention": "2026-05-30",
       "last_mention": "2026-05-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "DGDX",
@@ -9484,7 +9483,7 @@
       "first_mention": "2026-05-10",
       "last_mention": "2026-05-10",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "DUK",
@@ -9554,7 +9553,7 @@
       "first_mention": "2026-05-14",
       "last_mention": "2026-05-14",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ENR",
@@ -9596,7 +9595,7 @@
       "first_mention": "2026-04-05",
       "last_mention": "2026-04-05",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "EPD",
@@ -9666,7 +9665,7 @@
       "first_mention": "2026-04-10",
       "last_mention": "2026-04-10",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "EXALF",
@@ -9820,7 +9819,7 @@
       "first_mention": "2026-06-19",
       "last_mention": "2026-06-19",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "FPLSF",
@@ -9834,7 +9833,7 @@
       "first_mention": "2026-03-25",
       "last_mention": "2026-03-25",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "FRMI",
@@ -9932,7 +9931,7 @@
       "first_mention": "2026-05-09",
       "last_mention": "2026-05-09",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "GILT",
@@ -10086,7 +10085,7 @@
       "first_mention": "2026-05-22",
       "last_mention": "2026-05-22",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "GUSH",
@@ -10254,7 +10253,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-05-12",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "HUBSPOT",
@@ -10324,7 +10323,7 @@
       "first_mention": "2026-03-23",
       "last_mention": "2026-03-23",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "IMSR",
@@ -10366,7 +10365,7 @@
       "first_mention": "2026-03-23",
       "last_mention": "2026-03-23",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "INHD",
@@ -10394,7 +10393,7 @@
       "first_mention": "2026-05-30",
       "last_mention": "2026-05-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "INTT",
@@ -10548,7 +10547,7 @@
       "first_mention": "2026-05-30",
       "last_mention": "2026-05-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "KITT",
@@ -10688,7 +10687,7 @@
       "first_mention": "2026-05-01",
       "last_mention": "2026-05-01",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "LDOS",
@@ -10716,7 +10715,7 @@
       "first_mention": "2026-05-14",
       "last_mention": "2026-05-14",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "LFUS",
@@ -10744,7 +10743,7 @@
       "first_mention": "2026-03-22",
       "last_mention": "2026-03-22",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "LGO",
@@ -10828,7 +10827,7 @@
       "first_mention": "2026-05-30",
       "last_mention": "2026-05-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "LPKK",
@@ -10842,7 +10841,7 @@
       "first_mention": "2026-04-21",
       "last_mention": "2026-04-21",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "LTCC",
@@ -10870,7 +10869,7 @@
       "first_mention": "2026-05-30",
       "last_mention": "2026-05-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "LVMH",
@@ -10912,7 +10911,7 @@
       "first_mention": "2026-03-23",
       "last_mention": "2026-03-23",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "M7U",
@@ -10954,7 +10953,7 @@
       "first_mention": "2026-04-30",
       "last_mention": "2026-04-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "MAG7",
@@ -10996,7 +10995,7 @@
       "first_mention": "2026-06-03",
       "last_mention": "2026-06-03",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "MEGMEET",
@@ -11010,7 +11009,7 @@
       "first_mention": "2026-05-30",
       "last_mention": "2026-05-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "MEI",
@@ -11052,7 +11051,7 @@
       "first_mention": "2026-06-01",
       "last_mention": "2026-06-01",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "MELI",
@@ -11094,7 +11093,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-05-12",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "MOONPAY",
@@ -11206,7 +11205,7 @@
       "first_mention": "2026-05-03",
       "last_mention": "2026-05-03",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "MVST",
@@ -11318,7 +11317,7 @@
       "first_mention": "2026-05-10",
       "last_mention": "2026-05-10",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "NITTO_BOSEKI",
@@ -11332,7 +11331,7 @@
       "first_mention": "2026-05-23",
       "last_mention": "2026-05-23",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "NLIGHT",
@@ -11472,7 +11471,7 @@
       "first_mention": "2026-04-05",
       "last_mention": "2026-04-05",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "NTU",
@@ -11486,7 +11485,7 @@
       "first_mention": "2026-03-23",
       "last_mention": "2026-03-23",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "NVMI",
@@ -11640,7 +11639,7 @@
       "first_mention": "2026-05-13",
       "last_mention": "2026-05-13",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "PDD",
@@ -11668,7 +11667,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-05-12",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "PESI",
@@ -11724,7 +11723,7 @@
       "first_mention": "2026-05-06",
       "last_mention": "2026-05-06",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "PHISON",
@@ -11766,7 +11765,7 @@
       "first_mention": "2026-05-14",
       "last_mention": "2026-05-14",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "PLUG",
@@ -11794,7 +11793,7 @@
       "first_mention": "2026-04-08",
       "last_mention": "2026-04-08",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "QBUT",
@@ -11822,7 +11821,7 @@
       "first_mention": "2026-04-20",
       "last_mention": "2026-04-20",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "QUANTUM",
@@ -11892,7 +11891,7 @@
       "first_mention": "2026-06-03",
       "last_mention": "2026-06-03",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "RIVN",
@@ -11934,7 +11933,7 @@
       "first_mention": "2026-05-28",
       "last_mention": "2026-05-28",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ROCKETLAB",
@@ -12060,7 +12059,7 @@
       "first_mention": "2026-04-05",
       "last_mention": "2026-04-05",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SANHUA",
@@ -12074,7 +12073,7 @@
       "first_mention": "2026-05-14",
       "last_mention": "2026-05-14",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SATL",
@@ -12116,7 +12115,7 @@
       "first_mention": "2026-06-14",
       "last_mention": "2026-06-14",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SCHW",
@@ -12158,7 +12157,7 @@
       "first_mention": "2026-04-20",
       "last_mention": "2026-04-20",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SEMCO",
@@ -12214,7 +12213,7 @@
       "first_mention": "2026-04-05",
       "last_mention": "2026-04-05",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SHA.DE",
@@ -12228,7 +12227,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-05-12",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SHIN-ETSU",
@@ -12284,7 +12283,7 @@
       "first_mention": "2026-06-14",
       "last_mention": "2026-06-14",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SILC",
@@ -12326,7 +12325,7 @@
       "first_mention": "2026-05-02",
       "last_mention": "2026-05-02",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SKM",
@@ -12354,7 +12353,7 @@
       "first_mention": "2026-04-05",
       "last_mention": "2026-04-05",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SKY",
@@ -12382,7 +12381,7 @@
       "first_mention": "2026-06-18",
       "last_mention": "2026-06-18",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SLVC",
@@ -12396,7 +12395,7 @@
       "first_mention": "2026-03-23",
       "last_mention": "2026-03-23",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SMALL CAPS",
@@ -12438,7 +12437,7 @@
       "first_mention": "2026-05-10",
       "last_mention": "2026-05-10",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SMR",
@@ -12676,7 +12675,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-05-12",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SYAAF",
@@ -12718,7 +12717,7 @@
       "first_mention": "2026-03-23",
       "last_mention": "2026-03-23",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "SYY",
@@ -12760,7 +12759,7 @@
       "first_mention": "2026-06-19",
       "last_mention": "2026-06-19",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "TAYD",
@@ -12844,7 +12843,7 @@
       "first_mention": "2026-04-29",
       "last_mention": "2026-04-29",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "TOWER SEMI",
@@ -12858,7 +12857,7 @@
       "first_mention": "2026-04-30",
       "last_mention": "2026-04-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "TSE",
@@ -12914,7 +12913,7 @@
       "first_mention": "2026-05-14",
       "last_mention": "2026-05-14",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "UBTECH",
@@ -12928,7 +12927,7 @@
       "first_mention": "2026-06-04",
       "last_mention": "2026-06-04",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "UHR",
@@ -12942,7 +12941,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-05-12",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ULBI",
@@ -12970,7 +12969,7 @@
       "first_mention": "2026-06-12",
       "last_mention": "2026-06-12",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "USFD",
@@ -13054,7 +13053,7 @@
       "first_mention": "2026-06-05",
       "last_mention": "2026-06-05",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "VLH",
@@ -13124,7 +13123,7 @@
       "first_mention": "2026-06-14",
       "last_mention": "2026-06-14",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "VREX",
@@ -13222,7 +13221,7 @@
       "first_mention": "2026-05-09",
       "last_mention": "2026-05-09",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "WLFI",
@@ -13236,7 +13235,7 @@
       "first_mention": "2026-04-16",
       "last_mention": "2026-04-16",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "WLMT",
@@ -13292,7 +13291,7 @@
       "first_mention": "2026-05-30",
       "last_mention": "2026-05-30",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "WUS_KUNSHAN",
@@ -13306,7 +13305,7 @@
       "first_mention": "2026-06-17",
       "last_mention": "2026-06-17",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "XBOT",
@@ -13320,7 +13319,7 @@
       "first_mention": "2026-05-12",
       "last_mention": "2026-05-12",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "XLS",
@@ -13390,7 +13389,7 @@
       "first_mention": "2026-05-06",
       "last_mention": "2026-05-06",
       "total_mentions": 1,
-      "price_status": "not_covered"
+      "price_status": "pending"
     },
     {
       "ticker": "ZBH",
