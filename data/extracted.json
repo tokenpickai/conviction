@@ -217374,5 +217374,497 @@
     "extractor_model": "claude-opus-4-6",
     "prompt_version": "extract-v2",
     "extracted_at": "2026-06-19T19:16:46.066377+00:00"
+  },
+  "2068301039946887269": {
+    "tweet_id": "2068301039946887269",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$AXTI",
+        "symbol": "AXTI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "InP substrate position validated by Reuters, Epiwafer company earnings, and institutions"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$RDDT",
+        "symbol": "RDDT",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$RPI",
+        "symbol": "RPI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "earnings blew away projections with 58% fwd revenue growth",
+          "high growth AI hardware company"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "most successful idea",
+          "validated by institutional buying from Fidelity Research and JP Morgan",
+          "formally announced partnerships from JBL to GFS"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$JBL",
+        "symbol": "JBL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$GFS",
+        "symbol": "GFS",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AAOI",
+        "symbol": "AAOI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$RKLB",
+        "symbol": "RKLB",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$HOOD",
+        "symbol": "HOOD",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$IQE",
+        "symbol": "IQE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SOI",
+        "symbol": "SOI",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$NBIS",
+        "symbol": "NBIS",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$IREN",
+        "symbol": "IREN",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$INTC",
+        "symbol": "INTC",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$TSM",
+        "symbol": "TSM",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$MRVL",
+        "symbol": "MRVL",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AEHR",
+        "symbol": "AEHR",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$EWY",
+        "symbol": "EWY",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.82,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-20T16:07:03.921208+00:00"
+  },
+  "2068269343033655490": {
+    "tweet_id": "2068269343033655490",
+    "has_investment_content": false,
+    "tickers": [
+      {
+        "raw_mention": "$RDDT",
+        "symbol": "RDDT",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-20T16:07:03.921208+00:00"
+  },
+  "2068275360735822088": {
+    "tweet_id": "2068275360735822088",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-20T16:07:03.921208+00:00"
+  },
+  "2068294330750751111": {
+    "tweet_id": "2068294330750751111",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-20T16:07:03.921208+00:00"
+  },
+  "2068180134667182470": {
+    "tweet_id": "2068180134667182470",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$CAMT",
+        "symbol": "CAMT",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Priortech",
+        "symbol": "PRIO",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [
+          "owns 21% of CAMT, ~1.35x their MC, seems more like holding co"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Bit Digital",
+        "symbol": "BTBT",
+        "stance": "bearish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "NAV discount is not clean",
+          "lot of dilution",
+          "not AI parent"
+        ],
+        "is_risk": true,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$WYFI",
+        "symbol": "WYFI",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Wistron (3231)",
+        "symbol": "3231",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "best one I've seen since SIVE",
+          "Q1 revenue up with 144% Y/Y growth",
+          "owns 35.46% of Wiwynn ~0.66x of MC",
+          "growing very fast independently"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Ayar",
+        "symbol": "AYAR",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [
+          "part of favorite trio with SIVE and Wiwynn"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Wiwynn",
+        "symbol": "6669",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "one of favorite trio",
+          "expects Wiwynn to keep on growing"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Sin-American Silicon 5483",
+        "symbol": "5483",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [
+          "owns 46.64% of GlobalWafers",
+          "MC $3.5B vs stake value ~$7.9B",
+          "not growing too fast independently",
+          "trading heavily at discount to NAV"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "GlobalWafers (6488)",
+        "symbol": "6488",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Iljin Holdings",
+        "symbol": "ILJIN_HOLDINGS",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [
+          "owns 42.99% of Iljin Electric",
+          "$0.22B MC vs ~$1.13B NAV holding",
+          "transformer/cable DC related",
+          "doesn't trust korean stocks for NAV unlock"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Iljin Electric",
+        "symbol": "ILJIN_ELECTRIC",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Simmtech Holdings",
+        "symbol": "SIMMTECH_HOLDINGS",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [
+          "~$0.17B MC vs ~$1.0B of parent",
+          "6x+ NAV",
+          "PCB substrate related",
+          "doesn't trust korean governance"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$ACMR",
+        "symbol": "ACMR",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "H-Share subsidiary listing soon",
+          "biggest NAV discounts with independent growth",
+          "may put more concentration into it"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "WUS",
+        "symbol": "WUS",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "H-Share subsidiary listing soon",
+          "biggest NAV discounts with independent growth",
+          "highly successful activist going after WUS",
+          "expects some middle ground",
+          "may put more concentration into it"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.82,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-20T16:07:03.921208+00:00"
+  },
+  "2068182306100330848": {
+    "tweet_id": "2068182306100330848",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Mirae",
+        "symbol": "MIRAE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [
+          "will look into it soon"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Daeduck",
+        "symbol": "DAEDUCK",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [
+          "~28-30% of 353200",
+          "underlying assets ~3.8x of MC",
+          "FC-BGA and MLB related",
+          "Korean governance concern"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "353200",
+        "symbol": "353200",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "DB",
+        "symbol": "DB",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [
+          "~3.7x of underlying assets (DB HiTek)",
+          "foundry related",
+          "Korean governance concern"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "DB HiTek",
+        "symbol": "DB_HITEK",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Hyosung",
+        "symbol": "HYOSUNG",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [
+          "~3.6x underlying assets",
+          "transformers",
+          "Korean governance concern"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.8,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-20T16:07:03.921208+00:00"
   }
 }
