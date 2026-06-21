@@ -1191,6 +1191,11 @@ html{scroll-behavior:smooth}
 .ddsplit{margin-top:3px}.tup{color:var(--bull)}.tdn{color:var(--bear)}.tnt{color:var(--ink-faint)}
 .ddfreq{display:flex;gap:16px;justify-content:flex-end;margin-top:9px}
 .ddfreq .fc{display:flex;flex-direction:column;align-items:center}.ddfreq .fc i{font-style:normal;font-size:10px;color:var(--ink-faint)}.ddfreq .fc b{font-size:16px;color:var(--ink)}
+.ddrel{margin:12px 0 2px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;color:var(--ink-faint);font-size:12px}
+.ddrel-label{font-family:var(--mono);font-size:10.5px;font-weight:800;color:var(--ink-soft);letter-spacing:.02em}
+.ddrel button{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink-soft);font-family:var(--mono);font-size:11px;font-weight:800;padding:5px 9px;cursor:pointer}
+.ddrel button:hover{border-color:rgba(29,155,240,.32);background:rgba(29,155,240,.06);color:var(--accent)}
+.ddrel .mini-market{font-size:8.5px;font-weight:800;color:var(--ink-faint);border:1px solid var(--line);border-radius:999px;padding:0 4px;line-height:1.35}
 .ddchart{margin:18px 0 8px}.cc-svg{position:relative;width:100%;height:220px}
 .charttitle{margin:22px 0 8px}
 .charttitle h3{font-family:var(--serif);font-size:17px;font-weight:800;color:var(--ink);line-height:1.3}
@@ -1648,6 +1653,24 @@ function renderDD(tk){
   function mkR(a,empty,cls){if(!a||!a.length)return '<li class="empty">'+empty+'</li>';return a.map(function(r){return '<li><span class="rdot '+cls+'"></span><span class="rt">'+(zh?glossText(zhReasonText(r[0])):esc(r[0]))+'</span><a class="rsrc" href="'+r[1]+'" target="_blank" rel="noopener">'+r[2]+' <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>';}).join('');}
   function postTag(t){if(!zh)return t.tag;var m={'Bullish':Z.bull,'Bearish':Z.bear,'Neutral':Z.neutral,'Background':Z.background,'Analogy':Z.analogy,'Quote':Z.quote,'Mention':Z.mention};return m[t.tag]||t.tag;}
   function postRow(t,hidden){var fb=t.first?'<span class="prtag first">'+(zh?Z.initial:I18N.post_initial)+'</span>':'<span class="prtag first ghost">'+(zh?Z.initial:I18N.post_initial)+'</span>';var more=t.cut?' <span class="prmore">... '+I18N.dd_show_more+'</span>':'';return '<a class="prow '+(hidden?'hidden':'')+'" href="'+t.url+'" target="_blank" rel="noopener"><span class="prd">'+t.d+'</span><span class="prtag '+t.st+'">'+postTag(t)+'</span>'+fb+'<div class="prtx">'+fmtPostText(t.text)+more+' <span class="prlk"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>'+mediaHtml(t.media)+'</div></a>';}
+  function relatedHtml(){
+    var pool=Object.keys(DD_DATA||{}).filter(function(s){
+      if(s===tk)return false;
+      var x=DD_DATA[s]||{};
+      return (d.theme&&d.theme!=='Other'&&x.theme===d.theme)||(d.industry&&x.industry===d.industry);
+    }).map(function(s){
+      var x=DD_DATA[s]||{}, score=0;
+      if(d.theme&&d.theme!=='Other'&&x.theme===d.theme)score+=10000;
+      if(d.industry&&x.industry===d.industry)score+=5000;
+      if(x.report)score+=1000;
+      score+=(x.total||0);
+      return {s:s,x:x,score:score};
+    }).sort(function(a,b){return b.score-a.score;}).slice(0,7);
+    if(!pool.length)return '';
+    return '<div class="ddrel"><span class="ddrel-label">'+(zh?'相關標的':'Related')+'</span>'+pool.map(function(o){
+      return '<button type="button" onclick="dd(\\''+o.s+'\\')" title="'+esc(o.x.co||o.s)+'">'+o.s+'<span class="mini-market">'+esc(o.x.market||'')+'</span></button>';
+    }).join('')+'</div>';
+  }
   var firstPxTxt=d.firstPx?((d.cur?d.cur+' ':'')+d.firstPx):'—';
   var _ps=d.posts,_latest=_ps.length?_ps[0].d:null,_head=_ps.filter(function(p){return p.d===_latest;}),_rest=_ps.filter(function(p){return p.d!==_latest;});
   var postMap={};_ps.forEach(function(p){if(p.id)postMap[p.id]=p;});
@@ -1655,6 +1678,7 @@ function renderDD(tk){
   document.getElementById('ddBody').innerHTML=
     '<div class="ddhead"><div class="ddhl"><button class="ddhome" type="button" onclick="ddHome()" aria-label="返回首頁"><i class="fa-solid fa-house"></i><span>首頁</span></button><div class="ddtk">'+tk+'<span class="market detail">'+esc(d.market||'')+'</span><span class="theme detail '+(d.theme==='Other'?'other':'')+'">'+themeText+'</span></div><div class="ddco">'+esc(d.co)+(d.industry?' · <span class="ddind">'+industryText+'</span>':'')+'</div><div class="ddpills">'+pill+'</div></div>'+
     '<div class="ddmeta"><div class="ddmrow">'+(zh?Z.first:I18N.dd_first_mention)+' <b>'+d.first+'</b>　·　'+(zh?Z.last:I18N.dd_last_mention)+' <b>'+d.last+'</b></div><div class="ddmrow">'+(zh?Z.total:I18N.dd_total)+' <b>'+d.total+'</b>'+(I18N.count_unit?' '+I18N.count_unit:'')+'　·　'+(zh?Z.firstPx:I18N.dd_first_px)+' <b>'+firstPxTxt+'</b></div><div class="ddsplit">'+split+'</div><div class="ddfreq"><span class="fc"><i>'+(zh?Z.today:I18N.dd_today)+'</i><b>'+d.m_today+'</b></span><span class="fc"><i>'+I18N.freq_7d+'</i><b>'+d.m7+'</b></span><span class="fc"><i>'+I18N.freq_28d+'</i><b>'+d.m28+'</b></span></div></div></div>'+
+    relatedHtml()+
     reportHtml(d.report,postMap,tk)+
     '<div class="charttitle"><h3>'+(zh?'$'+tk+' 自 Serenity 首次提及以來的股價走勢':'$'+tk+' price path since Serenity first mentioned it')+'</h3><p>'+(zh?'圓點標記 Serenity 發文，顏色代表立場。':'Dots mark Serenity posts by inferred stance.')+'</p></div>'+
     ddChart(d,zh)+
