@@ -22,40 +22,40 @@ LOW_SIGNAL_TYPES = {"background", "watchlist", "list", "comparison"}
 
 TICKER_COPY = {
     "AAOI": {
-        "title": "最新貼文強化雷射產能與美國供應鏈 thesis",
-        "summary": "Serenity 最新貼文仍然偏多 $AAOI。這次新增重點不是改變原本 thesis，而是把 $AAOI 放在產業雷射與產能受限的背景下：她提到公司有 $471m/month projection、較多獨立供應來源，且供應位於美國，因此 bears 低估了供應鏈稀缺性。",
+        "title": "最新貼文強化雷射產能與美國供應鏈投資論點",
+        "summary": "Serenity 最新貼文仍然偏多 $AAOI。這次新增重點不是改變原本投資論點，而是把 $AAOI 放在產業雷射與產能受限的背景下：她提到公司有 $471m/month projection、較多獨立供應來源，且供應位於美國，因此 bears 低估了供應鏈稀缺性。",
         "bullets": [
             "立場未反轉，仍偏多。",
             "新增重點：Serenity 強調產業仍受 laser / capacity 限制，而 $AAOI 有較清楚的供應位置。",
             "她把 $AAOI 視為 photonics 主題中已經驗證過的 smaller-cap idea，並提到早期大約在 $30 就開始看好。",
-            "這是對原 thesis 的驗證與補強，不是新的重估報告；核心仍是稀缺光通訊能力與 2027 前後的收入爬坡。"
+            "這是對原投資論點的驗證與補強，不是新的重估報告；核心仍是稀缺光通訊能力與 2027 前後的收入爬坡。"
         ],
     },
     "AXTI": {
-        "title": "InP thesis 獲得外部驗證，但仍需和稀釋風險分開看",
-        "summary": "Serenity 最新貼文把 $AXTI 列為早期遭受大量質疑、但後來被外部資訊驗證的原創想法。她提到 Reuters、Epiwafer company earnings 與 institutions 對 InP substrate 供應鏈的驗證。這補強 InP substrate bottleneck thesis，但不等於移除先前提到的授權股數與稀釋風險。",
+        "title": "InP 投資論點獲得外部驗證，但仍需和稀釋風險分開看",
+        "summary": "Serenity 最新貼文把 $AXTI 列為早期遭受大量質疑、但後來被外部資訊驗證的原創想法。她提到 Reuters、Epiwafer company earnings 與 institutions 對 InP substrate 供應鏈的驗證。這補強 InP substrate bottleneck 投資論點，但不等於移除先前提到的授權股數與稀釋風險。",
         "bullets": [
-            "最新立場偏向 thesis validation：InP substrate 供應鏈邏輯被外部資料支持。",
+            "最新立場偏向投資論點驗證：InP substrate 供應鏈邏輯被外部資料支持。",
             "這次更新補強的是產業驗證層，而不是否定先前的稀釋紅旗。",
-            "閱讀 $AXTI 報告時，應把「InP thesis 是否正確」和「公司治理 / 稀釋是否可接受」分開判斷。",
+            "閱讀 $AXTI 報告時，應把「InP 投資論點是否正確」和「公司治理 / 稀釋是否可接受」分開判斷。",
             "若後續 Serenity 明確改變對稀釋的看法，才需要重寫完整報告。"
         ],
     },
     "NBIS": {
-        "title": "Neocloud thesis 持續被股價表現驗證",
-        "summary": "Serenity 最新貼文把 $NBIS 放在她三個核心 AI 主題之一：Neoclouds / Energy。她表示 $NBIS 是該主題裡的 top performer，並提到 YTD 已達 triple digit 表現。這比較像是 thesis played out 的確認，而不是新的 thesis 轉向。",
+        "title": "Neocloud 投資論點持續被股價表現驗證",
+        "summary": "Serenity 最新貼文把 $NBIS 放在她三個核心 AI 主題之一：Neoclouds / Energy。她表示 $NBIS 是該主題裡的 top performer，並提到 YTD 已達 triple digit 表現。這比較像是投資論點正在驗證的確認，而不是新的投資論點轉向。",
         "bullets": [
-            "立場仍偏多，重點是原本 Neocloud / Energy thesis 正在被市場表現驗證。",
+            "立場仍偏多，重點是原本 Neocloud / Energy 投資論點正在被市場表現驗證。",
             "Serenity 把 $NBIS 與 photonics、memory 等核心主題並列，顯示它仍屬於她追蹤的主線。",
-            "這次更新不應解讀成新的買點，只能說明原 thesis 的方向性已經 played out。",
+            "這次更新不應解讀成新的買點，只能說明原投資論點的方向性正在驗證。",
             "後續真正需要更新的是估值、容量擴張與 energy availability 是否還能支撐 upside。"
         ],
     },
     "SIVE": {
-        "title": "SIVE thesis 新增機構買盤與 JBL / GFS 合作驗證",
-        "summary": "Serenity 最新貼文把 $SIVE 稱為她最成功的 idea 之一，並提到 Fidelity Research、JP Morgan 等 institutional buying，以及 JBL、GFS 等正式合作關係。這讓原本關於 silicon photonics / supply-chain validation 的 thesis 得到更強外部驗證。",
+        "title": "SIVE 投資論點新增機構買盤與 JBL / GFS 合作驗證",
+        "summary": "Serenity 最新貼文把 $SIVE 稱為她最成功的 idea 之一，並提到 Fidelity Research、JP Morgan 等 institutional buying，以及 JBL、GFS 等正式合作關係。這讓原本關於 silicon photonics / supply-chain validation 的投資論點得到更強外部驗證。",
         "bullets": [
-            "立場仍偏多，而且新增資訊屬於 thesis validation。",
+            "立場仍偏多，而且新增資訊屬於投資論點驗證。",
             "Serenity 指出機構買盤與正式合作關係，降低了「只是敘事」的疑慮。",
             "JBL / GFS 等合作訊號讓 $SIVE 從概念題材更接近供應鏈落地。",
             "後續要觀察的是合作是否轉化為收入、毛利與持續訂單，而不是只停留在 partnership headline。"
@@ -115,10 +115,10 @@ def generic_copy(ticker, posts):
         for reason in post.get("reasons") or []:
             if reason and reason not in reasons:
                 reasons.append(reason)
-    reason_text = "、".join(reasons[:3]) if reasons else "新增貼文提供了比一般提及更高的 thesis signal"
+    reason_text = "、".join(reasons[:3]) if reasons else "新增貼文提供了比一般提及更高的投資論點訊號"
     return {
-        "title": f"{ticker} 出現新的 thesis validation 訊號",
-        "summary": f"Serenity 最新貼文對 ${ticker} 提供了新的高訊號資訊：{reason_text}。目前較適合視為原報告的補充更新，而不是完整 thesis 重寫。",
+        "title": f"{ticker} 出現新的投資論點驗證訊號",
+        "summary": f"Serenity 最新貼文對 ${ticker} 提供了新的高訊號資訊：{reason_text}。目前較適合視為原報告的補充更新，而不是完整投資論點重寫。",
         "bullets": [
             "此更新由最新 Serenity 貼文自動產生，僅收錄明確立場或高訊號內容。",
             f"新增訊號：{reason_text}。",
