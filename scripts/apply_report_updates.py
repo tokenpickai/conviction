@@ -136,6 +136,25 @@ def existing_source_sets(report):
     return sets
 
 
+def update_content_key(update):
+    bullets = tuple((x or "").strip() for x in update.get("bullets") or [])
+    return (
+        (update.get("title") or "").strip(),
+        (update.get("summary") or "").strip(),
+        bullets,
+    )
+
+
+def is_duplicate_update(report, new_update):
+    new_ids = set(new_update["source_tweet_ids"])
+    if any(new_ids and new_ids.issubset(ids) for ids in existing_source_sets(report)):
+        return "duplicate source tweets"
+    new_key = update_content_key(new_update)
+    if any(update_content_key(update) == new_key for update in report.get("updates") or []):
+        return "duplicate update content"
+    return ""
+
+
 def build_update(ticker, candidate, posts):
     source_ids = []
     for post in posts:
@@ -182,9 +201,9 @@ def apply_candidates(candidates_path, reports_dir, dry_run=False):
         should_apply = candidate.get("classification") in ACTIONABLE and bool(posts_for_update)
         if should_apply:
             new_update = build_update(ticker, candidate, posts_for_update)
-            new_ids = set(new_update["source_tweet_ids"])
-            if any(new_ids and new_ids.issubset(ids) for ids in existing_source_sets(report)):
-                skipped.append((ticker, "duplicate source tweets"))
+            duplicate_reason = is_duplicate_update(report, new_update)
+            if duplicate_reason:
+                skipped.append((ticker, duplicate_reason))
             else:
                 updates = report.get("updates") or []
                 report["updates"] = [new_update] + updates
