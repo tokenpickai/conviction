@@ -51,6 +51,12 @@ jobs:
       - name: Check report update candidates
         run: python scripts/check_report_updates.py
 
+      - name: Apply report updates
+        run: python scripts/apply_report_updates.py
+
+      - name: Refresh report update candidates
+        run: python scripts/check_report_updates.py
+
       - name: Build report queue
         run: python scripts/build_report_queue.py
 

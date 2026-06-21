@@ -1,6 +1,705 @@
 {
   "data_generated_at": "2026-06-20T20:59:31.693048+00:00",
-  "existing_reports": [],
+  "existing_reports": [
+    {
+      "company": "Nebius",
+      "evidence": [
+        {
+          "date": "2026-01-24",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "$15B Clickhouse valuation shows sum of parts",
+            "subsidiaries like Avride could overtake main business",
+            "should ramp extremely fast to $7B ARR target EOY 2026"
+          ],
+          "score": 203,
+          "stance": "bullish",
+          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
+          "tweet_id": "2015096496019112151",
+          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
+        },
+        {
+          "date": "2025-11-20",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "incredibly undervalued and detached from fundamentals",
+            "$7-9B forward ARR, 20-30% EBIT",
+            "enterprise contracts from Shopify, Accenture, Cursor, foreign governments",
+            "hyperscaler contracts from Meta and Microsoft give revenue visibility"
+          ],
+          "score": 189,
+          "stance": "bullish",
+          "text_preview": "Based on the equity ranking table: Here's a deeper analysis of each stock, alongside how I reposition my portfolio to capitalize on the market reset: · $NBIS at $92, PT $400 / 1Y · $RKLB at $43, PT $500 / 5Y · $CRCL at…",
+          "tweet_id": "1991452423186182524",
+          "url": "https://x.com/aleabitoreddit/status/1991452423186182524"
+        },
+        {
+          "date": "2025-12-10",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "insanely undervalued due to forward revenue/growth from DC business (7-9B ARR)",
+            "4 subsidiaries markets don't price in (growing 100%+ Y/Y)",
+            "rate cuts benefit business model"
+          ],
+          "score": 179,
+          "stance": "bullish",
+          "text_preview": "Post-Fed Interest Rate 25BPS cut. December 11th ratings: Strong Buy: $CRCL $COIN $AMKR $CRDO $IBIT $MSTR $AMZN $SMCI $TSM $TSSI Sk Hynix $SNAP Samsung Electronics $ALAB $META $NBIS $CIFR Buy: $KRUS $AVGO $NFLX $KRKNF $H…",
+          "tweet_id": "1998846813177262295",
+          "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
+        },
+        {
+          "date": "2026-01-01",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "opportunity to become AWS or Azure",
+            "owns physical locations, GPU, software orchestration, provides inference interfaces",
+            "opportunity of a lifetime as hyperscalers funnel cash to small companies"
+          ],
+          "score": 168,
+          "stance": "bullish",
+          "text_preview": "2026 Newsletter. Thematic Investments: Evolution, Disruption, and Bottlenecks 1. Soft Robotics - Evolution to $TSLA, $ONDS, Boston Dynamics. 2. SiPh - InP Bottleneck | $AXTI, $LITE, $GOOGL 3. Glass Substrates - Bottlene…",
+          "tweet_id": "2006709693012467774",
+          "url": "https://x.com/aleabitoreddit/status/2006709693012467774"
+        },
+        {
+          "date": "2026-01-02",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "$7-9B ARR",
+            "literally 5 different companies growing triple digits Y/Y",
+            "management quoted 20-30% EBIT margins"
+          ],
+          "score": 157,
+          "stance": "bullish",
+          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
+          "tweet_id": "2007071108831338685",
+          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
+        },
+        {
+          "date": "2025-10-11",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "strongest conviction buy",
+            "$400 aggressive PT for next year",
+            "strongest Neocloud"
+          ],
+          "score": 153,
+          "stance": "bullish",
+          "text_preview": "Based Friday Market Close (-3.6% SPY day), Thoughts and Explanations Strong Buy $IBIT $LTC $WLAC $NBIS $MP $TSM (For Next Year) $ETOR $DKNG $SNAP Buy $UPWK $CRDO $ALAB $AMZN $META $UNH $SG $TGT $BULL $FLY $CIFR $WULF $I…",
+          "tweet_id": "1977079938835718513",
+          "url": "https://x.com/aleabitoreddit/status/1977079938835718513"
+        }
+      ],
+      "explicit_stance_posts": 622,
+      "first_mention": "2025-07-21",
+      "has_report": true,
+      "high_conviction_posts": 323,
+      "industry": "AI Cloud/GPU",
+      "last_mention": "2026-06-20",
+      "market": "US",
+      "priority": "none",
+      "report_score": 3662,
+      "risk_posts": 15,
+      "signal_terms": [
+        "allocation",
+        "amazon",
+        "amd",
+        "amzn",
+        "ban",
+        "bearish",
+        "bottleneck",
+        "capacity",
+        "chokepoint",
+        "confirmed",
+        "conviction",
+        "dilution",
+        "export control",
+        "favorite",
+        "gfs",
+        "highest conviction",
+        "holding",
+        "hyperscaler"
+      ],
+      "stance_counts": {
+        "bearish": 3,
+        "bullish": 637,
+        "neutral": 122
+      },
+      "status": "has_report",
+      "substantive_posts": 670,
+      "ticker": "NBIS",
+      "total_mentions": 765,
+      "unique_mention_days": 192,
+      "why": [
+        "762 total mentions across 192 days",
+        "622 explicit stance posts",
+        "670 substantive thesis-like posts",
+        "323 high-conviction mentions",
+        "15 risk/caution posts",
+        "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
+        "latest mention 2026-06-20"
+      ]
+    },
+    {
+      "company": "IREN (Iris Energy)",
+      "evidence": [
+        {
+          "date": "2026-01-24",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "long on colo and neocloud sector",
+            "lot of upside remains"
+          ],
+          "score": 200,
+          "stance": "bullish",
+          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
+          "tweet_id": "2015096496019112151",
+          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
+        },
+        {
+          "date": "2025-12-10",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "would not put money if they kept buying GPUs for AI cloud - dilution",
+            "might do colo",
+            "immense GW capacity so still promising"
+          ],
+          "score": 173,
+          "stance": "neutral",
+          "text_preview": "Post-Fed Interest Rate 25BPS cut. December 11th ratings: Strong Buy: $CRCL $COIN $AMKR $CRDO $IBIT $MSTR $AMZN $SMCI $TSM $TSSI Sk Hynix $SNAP Samsung Electronics $ALAB $META $NBIS $CIFR Buy: $KRUS $AVGO $NFLX $KRKNF $H…",
+          "tweet_id": "1998846813177262295",
+          "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
+        },
+        {
+          "date": "2026-01-01",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "sitting on plug-ready GWs while hyperscalers stuck in 3-5 year grid queues",
+            "bare metal layer builder",
+            "opportunity of a lifetime"
+          ],
+          "score": 161,
+          "stance": "bullish",
+          "text_preview": "2026 Newsletter. Thematic Investments: Evolution, Disruption, and Bottlenecks 1. Soft Robotics - Evolution to $TSLA, $ONDS, Boston Dynamics. 2. SiPh - InP Bottleneck | $AXTI, $LITE, $GOOGL 3. Glass Substrates - Bottlene…",
+          "tweet_id": "2006709693012467774",
+          "url": "https://x.com/aleabitoreddit/status/2006709693012467774"
+        },
+        {
+          "date": "2026-01-02",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "datacenter space extremely sold off",
+            "capex spend fears de-risked",
+            "huge recovery play/ramp for neoclouds sector"
+          ],
+          "score": 157,
+          "stance": "bullish",
+          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
+          "tweet_id": "2007071108831338685",
+          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
+        },
+        {
+          "date": "2026-03-07",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "$6B dilution off $12.2B market cap",
+            "sells shares into rallies",
+            "pivoted to GPU offerings away from colo thesis"
+          ],
+          "score": 153,
+          "stance": "bearish",
+          "text_preview": "Most people on X make the mistake of getting married to a stock. If your thesis materially changes with $HIMS or $IREN, so should your position. If the bull case with $IREN last year was monetizing 3GW capacity through…",
+          "tweet_id": "2030357884199129395",
+          "url": "https://x.com/aleabitoreddit/status/2030357884199129395"
+        },
+        {
+          "date": "2025-10-11",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "Neocloud trade",
+            "funding round was at 70%+ of stock price which is a bullish tell"
+          ],
+          "score": 144,
+          "stance": "bullish",
+          "text_preview": "Based Friday Market Close (-3.6% SPY day), Thoughts and Explanations Strong Buy $IBIT $LTC $WLAC $NBIS $MP $TSM (For Next Year) $ETOR $DKNG $SNAP Buy $UPWK $CRDO $ALAB $AMZN $META $UNH $SG $TGT $BULL $FLY $CIFR $WULF $I…",
+          "tweet_id": "1977079938835718513",
+          "url": "https://x.com/aleabitoreddit/status/1977079938835718513"
+        }
+      ],
+      "explicit_stance_posts": 286,
+      "first_mention": "2025-08-31",
+      "has_report": true,
+      "high_conviction_posts": 37,
+      "industry": "Bitcoin Miner→AI Datacenter (Neocloud)",
+      "last_mention": "2026-06-20",
+      "market": "US",
+      "priority": "none",
+      "report_score": 3495,
+      "risk_posts": 155,
+      "signal_terms": [
+        "allocation",
+        "amazon",
+        "amd",
+        "amzn",
+        "ban",
+        "bearish",
+        "bottleneck",
+        "capacity",
+        "chokepoint",
+        "confirmed",
+        "conviction",
+        "dilution",
+        "export control",
+        "favorite",
+        "gfs",
+        "highest conviction",
+        "holding",
+        "hyperscaler"
+      ],
+      "stance_counts": {
+        "bearish": 175,
+        "bullish": 115,
+        "neutral": 147
+      },
+      "status": "has_report",
+      "substantive_posts": 350,
+      "ticker": "IREN",
+      "total_mentions": 437,
+      "unique_mention_days": 156,
+      "why": [
+        "437 total mentions across 156 days",
+        "286 explicit stance posts",
+        "350 substantive thesis-like posts",
+        "37 high-conviction mentions",
+        "155 risk/caution posts",
+        "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
+        "latest mention 2026-06-20"
+      ]
+    },
+    {
+      "company": "AXT Inc",
+      "evidence": [
+        {
+          "date": "2026-01-24",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "bottleneck for InP/Germanium",
+            "huge theme going into 2026",
+            "waiting game for supply chain disruption",
+            "low downside risk due to capacity ramp -> revenue increase"
+          ],
+          "score": 212,
+          "stance": "bullish",
+          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
+          "tweet_id": "2015096496019112151",
+          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
+        },
+        {
+          "date": "2026-01-02",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "controls 40% of InP supply chain, critical bottleneck",
+            "low-cost Beijing factory captures margin arbitrage between Chinese manufacturing costs and high global selling prices",
+            "margins should expand rapidly next quarter",
+            "$100m share sale injection funds production capacity"
+          ],
+          "score": 156,
+          "stance": "bullish",
+          "text_preview": "The InP substrate shortage and \"Spread\" Arbitrage - $AXTI Market research is showing InP and optical components to become analogous to the HBM shortage and price craze. The initial bottleneck was caused by $NVDA monopol…",
+          "tweet_id": "2007202015940931878",
+          "url": "https://x.com/aleabitoreddit/status/2007202015940931878"
+        },
+        {
+          "date": "2026-01-01",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "controls ~60-70% of InP substrate market via Tongmei",
+            "InP bottleneck play",
+            "opportunities with the bottleneck itself"
+          ],
+          "score": 155,
+          "stance": "bullish",
+          "text_preview": "2026 Newsletter. Thematic Investments: Evolution, Disruption, and Bottlenecks 1. Soft Robotics - Evolution to $TSLA, $ONDS, Boston Dynamics. 2. SiPh - InP Bottleneck | $AXTI, $LITE, $GOOGL 3. Glass Substrates - Bottlene…",
+          "tweet_id": "2006709693012467774",
+          "url": "https://x.com/aleabitoreddit/status/2006709693012467774"
+        },
+        {
+          "date": "2025-12-27",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "produces majority of world's InP substrates required for photonics",
+            "part of duopoly controlling ~60% of supply",
+            "entire Western AI roadmap tethered to this company",
+            "prices will spike significantly"
+          ],
+          "score": 154,
+          "stance": "bullish",
+          "text_preview": "The \"InP Chokepoint\": The Bottleneck of the AI Buildout explanation: The future of $NVDA Blackwell, $META MTAI, $GOOGL TPU, and $MSFT Maia ramp is tied to: A $700M small cap $AXTI and $SMTOY. The AI \"Growth\" story ends…",
+          "tweet_id": "2004936335702753729",
+          "url": "https://x.com/aleabitoreddit/status/2004936335702753729"
+        },
+        {
+          "date": "2026-01-02",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "CEO says 40% of InP supply chain",
+            "InP will be huge bottleneck for hyperscaler AI buildout 2026-2027"
+          ],
+          "score": 154,
+          "stance": "bullish",
+          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
+          "tweet_id": "2007071108831338685",
+          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
+        },
+        {
+          "date": "2025-12-30",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "owns 40% of entire InP supply chain",
+            "extreme bottleneck and InP supply shock",
+            "critical materials game theory play",
+            "InP substrate capacity could be valued 10x-100x current prices in bidding war"
+          ],
+          "score": 153,
+          "stance": "bullish",
+          "text_preview": "When I made my WSB post, I'm half joking about $AXTI. But not about the extreme bottleneck and InP supply shock. This is a call on critical materials game theory. If we see many historically at bottlenecks: 1. Dysprosiu…",
+          "tweet_id": "2005918544924664315",
+          "url": "https://x.com/aleabitoreddit/status/2005918544924664315"
+        }
+      ],
+      "explicit_stance_posts": 359,
+      "first_mention": "2025-12-22",
+      "has_report": true,
+      "high_conviction_posts": 134,
+      "industry": "InP Substrates",
+      "last_mention": "2026-06-20",
+      "market": "US",
+      "priority": "none",
+      "report_score": 3398,
+      "risk_posts": 15,
+      "signal_terms": [
+        "allocation",
+        "amazon",
+        "amd",
+        "amzn",
+        "ban",
+        "bearish",
+        "bottleneck",
+        "capacity",
+        "chokepoint",
+        "confirmed",
+        "conviction",
+        "dilution",
+        "export control",
+        "favorite",
+        "gfs",
+        "holding",
+        "hyperscaler",
+        "jabil"
+      ],
+      "stance_counts": {
+        "bearish": 4,
+        "bullish": 351,
+        "neutral": 167
+      },
+      "status": "has_report",
+      "substantive_posts": 399,
+      "ticker": "AXTI",
+      "total_mentions": 524,
+      "unique_mention_days": 137,
+      "why": [
+        "522 total mentions across 137 days",
+        "359 explicit stance posts",
+        "399 substantive thesis-like posts",
+        "134 high-conviction mentions",
+        "15 risk/caution posts",
+        "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
+        "latest mention 2026-06-20"
+      ]
+    },
+    {
+      "company": "Sivers Semiconductor",
+      "evidence": [
+        {
+          "date": "2026-04-19",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "laser revenue scales aggressively with JBL, MRVL, Ayar, O-Net",
+            "not many laser suppliers in the world",
+            "mini CHIPS act chokepoint trading at <$1B MC",
+            "CPO/1.6T will blow away conservative analyst projections"
+          ],
+          "score": 167,
+          "stance": "bullish",
+          "text_preview": "Frontrunning 1.6T/CPO within the broader photonics supercycle is the most compelling investment to me. I have high conviction in that statement. Which is why I'm long the entire supply chain (+1 extra bottlenecK) 1. $SI…",
+          "tweet_id": "2046003874553901188",
+          "url": "https://x.com/aleabitoreddit/status/2046003874553901188"
+        },
+        {
+          "date": "2026-03-16",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "InP CW DFB laser maker",
+            "next $LITE for CPO/silicon photonics",
+            "supplies lasers to POET Starlight and Ayar SuperNova",
+            "valued at $140M vs POET at 11x more"
+          ],
+          "score": 157,
+          "stance": "bullish",
+          "text_preview": "I’m long $SIVE at $140M. I believe this is the next $LITE that markets and institutions missed. $SIVE makes InP CW DFB lasers. Closest comparison is $LITE in the current EML laser bottleneck. But instead of supplying to…",
+          "tweet_id": "2033466880661606646",
+          "url": "https://x.com/aleabitoreddit/status/2033466880661606646"
+        },
+        {
+          "date": "2026-06-15",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "core laser chokepoint over next generation photonics from 1.6T pluggables to CPO",
+            "embedded in many hyperscaler suppliers from Jabil to Ayar",
+            "should go brrr 2027, ramps + qualifications should get priced in now",
+            "highest upside out of all core European longs"
+          ],
+          "score": 156,
+          "stance": "bullish",
+          "text_preview": "Just as a recap, these were all my core European longs: 1. $SIVE 2. $LPK 3. $SOI 4. $RPI 5. $IQE 6. $ALRIB 7. $XFAB Sivers: As you know by now, core laser chokepoint over next generation photonics, from 1.6T pluggables…",
+          "tweet_id": "2066535221554733278",
+          "url": "https://x.com/aleabitoreddit/status/2066535221554733278"
+        },
+        {
+          "date": "2026-05-23",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "chokepoint and partially a bottleneck for leading CPO players",
+            "architecturally unique CW lasers for leading CPO players",
+            "controls output supply of CW lasers given allocations",
+            "targeting M&A to expand revenue for TAM expansion"
+          ],
+          "score": 155,
+          "stance": "bullish",
+          "text_preview": "Photonics is nuanced and using ChatGPT/Gemini makes you miss all of it: 1. $SIVE is actually a chokepoint and partially a bottleneck. The reason it's a chokepoint is leading CPO/optical hyperscaler players go through Si…",
+          "tweet_id": "2058374522353672558",
+          "url": "https://x.com/aleabitoreddit/status/2058374522353672558"
+        },
+        {
+          "date": "2026-05-28",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "most compelling CPO/photonics exposure",
+            "plans to acquire more ownership",
+            "expects strongly positive earnings transcripts",
+            "AlChip/Amazon private placements positive for Ayar implying Trainium 4 design in"
+          ],
+          "score": 154,
+          "stance": "bullish",
+          "text_preview": "$SIVE is the most compelling CPO/photonics exposure to me. Addressing the disinformation: I haven’t sold and don’t plan to sell a single share. I do think this ends up the next $80B+ $LITE one day from ~$2.1B. And I per…",
+          "tweet_id": "2060002002994971046",
+          "url": "https://x.com/aleabitoreddit/status/2060002002994971046"
+        },
+        {
+          "date": "2026-05-16",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "core chokepoint and IP holder for next generation of photonics",
+            "supplies CW lasers tethered to CPO and pluggable transceivers for 1.6T and 3.2",
+            "comfortable hold for next few years as they scale to become the next $LITE",
+            "asymmetric risk/reward ratio"
+          ],
+          "score": 149,
+          "stance": "bullish",
+          "text_preview": "When I see comments like this (and there are a lot) from retail investors: I immediately think they lack the technical depth. I'll walk through each one from $SIVE to $LPK: 1. Photonics TAM goes from $14B -> $154B In ju…",
+          "tweet_id": "2055822766600016238",
+          "url": "https://x.com/aleabitoreddit/status/2055822766600016238"
+        }
+      ],
+      "explicit_stance_posts": 598,
+      "first_mention": "2025-12-23",
+      "has_report": true,
+      "high_conviction_posts": 287,
+      "industry": "AI Photonics/CPO Lasers",
+      "last_mention": "2026-06-20",
+      "market": "Nasdaq Stockholm",
+      "priority": "none",
+      "report_score": 3341,
+      "risk_posts": 2,
+      "signal_terms": [
+        "allocation",
+        "amazon",
+        "amd",
+        "amzn",
+        "ban",
+        "bearish",
+        "bottleneck",
+        "capacity",
+        "channel check",
+        "chokepoint",
+        "confirmed",
+        "conviction",
+        "dilution",
+        "export control",
+        "favorite",
+        "gfs",
+        "globalfoundries",
+        "holding"
+      ],
+      "stance_counts": {
+        "bullish": 597,
+        "neutral": 85
+      },
+      "status": "has_report",
+      "substantive_posts": 609,
+      "ticker": "SIVE",
+      "total_mentions": 693,
+      "unique_mention_days": 93,
+      "why": [
+        "682 total mentions across 93 days",
+        "598 explicit stance posts",
+        "609 substantive thesis-like posts",
+        "287 high-conviction mentions",
+        "2 risk/caution posts",
+        "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
+        "latest mention 2026-06-20"
+      ]
+    },
+    {
+      "company": "Applied Optoelectronics",
+      "evidence": [
+        {
+          "date": "2026-01-24",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "long play tethered to MSFT Maia and AWS Trainium",
+            "just a waiting game"
+          ],
+          "score": 200,
+          "stance": "bullish",
+          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
+          "tweet_id": "2015096496019112151",
+          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
+        },
+        {
+          "date": "2026-05-16",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "building largest Made in America supply chains for CW laser fab and 1.6T assembly",
+            "extreme optionality for other segments since entire supply chain in house",
+            "likely going to keep rising as it hits $400m+/month revenue target H2 2026",
+            "sovereign DC requirements for older gen pluggables"
+          ],
+          "score": 149,
+          "stance": "bullish",
+          "text_preview": "When I see comments like this (and there are a lot) from retail investors: I immediately think they lack the technical depth. I'll walk through each one from $SIVE to $LPK: 1. Photonics TAM goes from $14B -> $154B In ju…",
+          "tweet_id": "2055822766600016238",
+          "url": "https://x.com/aleabitoreddit/status/2055822766600016238"
+        },
+        {
+          "date": "2026-01-02",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "interconnect play for AMZN/MSFT ASIC scale up"
+          ],
+          "score": 145,
+          "stance": "bullish",
+          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
+          "tweet_id": "2007071108831338685",
+          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
+        },
+        {
+          "date": "2026-05-31",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "favorite photonics exposure in US market",
+            "went long at $28 on hyperscaler qualification guess",
+            "high conviction after 1.6T and volume orders with hyperscalers",
+            "capacity projections at $90 for 2027 bullish"
+          ],
+          "score": 143,
+          "stance": "bullish",
+          "text_preview": "$AAOI is actually my favorite photonics exposure in the US market right now. I went long last year with low sizing at $28, back when I guessed they were qualifying with $AMZN and $MSFT. High conviction post earnings at…",
+          "tweet_id": "2061252644195504239",
+          "url": "https://x.com/aleabitoreddit/status/2061252644195504239"
+        },
+        {
+          "date": "2026-06-16",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "scarce laser capacity that AMD and other hyperscalers are looking for",
+            "US transceiver supply chain for mass production of 800g/1.6T, largest in America",
+            "demand far exceeds supply while assembly gets outsourced to Asia",
+            "quoting $471M monthly revenue in H1 entering H2 of 2027, $5.6B ARR off $13.5B MC"
+          ],
+          "score": 140,
+          "stance": "bullish",
+          "text_preview": "I’m not sure why many folks are super bearish on my high conviction $AAOI long… Ever since $30, then on the way up to $170. (Yes I do think every bear is wrong, we’ll see who’s right). They have scarce laser capacity th…",
+          "tweet_id": "2067071462360666165",
+          "url": "https://x.com/aleabitoreddit/status/2067071462360666165"
+        },
+        {
+          "date": "2026-03-04",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "could easily be a 3x by next year",
+            "only pure Made in America optical transceiver play",
+            "already has US supply chain setup years ahead",
+            "will leapfrog LITE FY 2026 revenue projections with ~40% gross margins"
+          ],
+          "score": 133,
+          "stance": "bullish",
+          "text_preview": "High conviction long: $AAOI. I genuinely think this could easily be a 3x by next year. Nvidia funded $COHR, who does Malaysia manufacturing for 800G/1.6T. $LITE uses FN in Thailand for volume production, and has it's ow…",
+          "tweet_id": "2029219794025644382",
+          "url": "https://x.com/aleabitoreddit/status/2029219794025644382"
+        }
+      ],
+      "explicit_stance_posts": 301,
+      "first_mention": "2025-12-11",
+      "has_report": true,
+      "high_conviction_posts": 94,
+      "industry": "Optical Modules",
+      "last_mention": "2026-06-20",
+      "market": "US",
+      "priority": "none",
+      "report_score": 3210,
+      "risk_posts": 10,
+      "signal_terms": [
+        "allocation",
+        "amazon",
+        "amd",
+        "amzn",
+        "ban",
+        "bearish",
+        "bottleneck",
+        "capacity",
+        "channel check",
+        "chokepoint",
+        "confirmed",
+        "conviction",
+        "dilution",
+        "export control",
+        "favorite",
+        "gfs",
+        "holding",
+        "hyperscaler"
+      ],
+      "stance_counts": {
+        "bearish": 6,
+        "bullish": 294,
+        "neutral": 131
+      },
+      "status": "has_report",
+      "substantive_posts": 333,
+      "ticker": "AAOI",
+      "total_mentions": 433,
+      "unique_mention_days": 120,
+      "why": [
+        "431 total mentions across 120 days",
+        "301 explicit stance posts",
+        "333 substantive thesis-like posts",
+        "94 high-conviction mentions",
+        "10 risk/caution posts",
+        "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
+        "latest mention 2026-06-20"
+      ]
+    }
+  ],
   "next_reports": [
     {
       "company": "Cipher Mining",
@@ -30308,709 +31007,10 @@
   "stocks_skipped": 712,
   "summary": {
     "candidate": 68,
-    "has_report": 0,
+    "has_report": 5,
     "needs_regeneration": 0,
     "needs_report": 184,
-    "needs_update": 5
+    "needs_update": 0
   },
-  "updates_due": [
-    {
-      "company": "Nebius",
-      "evidence": [
-        {
-          "date": "2026-01-24",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "$15B Clickhouse valuation shows sum of parts",
-            "subsidiaries like Avride could overtake main business",
-            "should ramp extremely fast to $7B ARR target EOY 2026"
-          ],
-          "score": 203,
-          "stance": "bullish",
-          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
-          "tweet_id": "2015096496019112151",
-          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
-        },
-        {
-          "date": "2025-11-20",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "incredibly undervalued and detached from fundamentals",
-            "$7-9B forward ARR, 20-30% EBIT",
-            "enterprise contracts from Shopify, Accenture, Cursor, foreign governments",
-            "hyperscaler contracts from Meta and Microsoft give revenue visibility"
-          ],
-          "score": 189,
-          "stance": "bullish",
-          "text_preview": "Based on the equity ranking table: Here's a deeper analysis of each stock, alongside how I reposition my portfolio to capitalize on the market reset: · $NBIS at $92, PT $400 / 1Y · $RKLB at $43, PT $500 / 5Y · $CRCL at…",
-          "tweet_id": "1991452423186182524",
-          "url": "https://x.com/aleabitoreddit/status/1991452423186182524"
-        },
-        {
-          "date": "2025-12-10",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "insanely undervalued due to forward revenue/growth from DC business (7-9B ARR)",
-            "4 subsidiaries markets don't price in (growing 100%+ Y/Y)",
-            "rate cuts benefit business model"
-          ],
-          "score": 179,
-          "stance": "bullish",
-          "text_preview": "Post-Fed Interest Rate 25BPS cut. December 11th ratings: Strong Buy: $CRCL $COIN $AMKR $CRDO $IBIT $MSTR $AMZN $SMCI $TSM $TSSI Sk Hynix $SNAP Samsung Electronics $ALAB $META $NBIS $CIFR Buy: $KRUS $AVGO $NFLX $KRKNF $H…",
-          "tweet_id": "1998846813177262295",
-          "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
-        },
-        {
-          "date": "2026-01-01",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "opportunity to become AWS or Azure",
-            "owns physical locations, GPU, software orchestration, provides inference interfaces",
-            "opportunity of a lifetime as hyperscalers funnel cash to small companies"
-          ],
-          "score": 168,
-          "stance": "bullish",
-          "text_preview": "2026 Newsletter. Thematic Investments: Evolution, Disruption, and Bottlenecks 1. Soft Robotics - Evolution to $TSLA, $ONDS, Boston Dynamics. 2. SiPh - InP Bottleneck | $AXTI, $LITE, $GOOGL 3. Glass Substrates - Bottlene…",
-          "tweet_id": "2006709693012467774",
-          "url": "https://x.com/aleabitoreddit/status/2006709693012467774"
-        },
-        {
-          "date": "2026-01-02",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "$7-9B ARR",
-            "literally 5 different companies growing triple digits Y/Y",
-            "management quoted 20-30% EBIT margins"
-          ],
-          "score": 157,
-          "stance": "bullish",
-          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
-          "tweet_id": "2007071108831338685",
-          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
-        },
-        {
-          "date": "2025-10-11",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "strongest conviction buy",
-            "$400 aggressive PT for next year",
-            "strongest Neocloud"
-          ],
-          "score": 153,
-          "stance": "bullish",
-          "text_preview": "Based Friday Market Close (-3.6% SPY day), Thoughts and Explanations Strong Buy $IBIT $LTC $WLAC $NBIS $MP $TSM (For Next Year) $ETOR $DKNG $SNAP Buy $UPWK $CRDO $ALAB $AMZN $META $UNH $SG $TGT $BULL $FLY $CIFR $WULF $I…",
-          "tweet_id": "1977079938835718513",
-          "url": "https://x.com/aleabitoreddit/status/1977079938835718513"
-        }
-      ],
-      "explicit_stance_posts": 622,
-      "first_mention": "2025-07-21",
-      "has_report": true,
-      "high_conviction_posts": 323,
-      "industry": "AI Cloud/GPU",
-      "last_mention": "2026-06-20",
-      "market": "US",
-      "priority": "high",
-      "report_score": 3662,
-      "risk_posts": 15,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "amzn",
-        "ban",
-        "bearish",
-        "bottleneck",
-        "capacity",
-        "chokepoint",
-        "confirmed",
-        "conviction",
-        "dilution",
-        "export control",
-        "favorite",
-        "gfs",
-        "highest conviction",
-        "holding",
-        "hyperscaler"
-      ],
-      "stance_counts": {
-        "bearish": 3,
-        "bullish": 637,
-        "neutral": 122
-      },
-      "status": "needs_update",
-      "substantive_posts": 670,
-      "ticker": "NBIS",
-      "total_mentions": 765,
-      "unique_mention_days": 192,
-      "why": [
-        "762 total mentions across 192 days",
-        "622 explicit stance posts",
-        "670 substantive thesis-like posts",
-        "323 high-conviction mentions",
-        "15 risk/caution posts",
-        "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
-        "latest mention 2026-06-20"
-      ]
-    },
-    {
-      "company": "IREN (Iris Energy)",
-      "evidence": [
-        {
-          "date": "2026-01-24",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "long on colo and neocloud sector",
-            "lot of upside remains"
-          ],
-          "score": 200,
-          "stance": "bullish",
-          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
-          "tweet_id": "2015096496019112151",
-          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
-        },
-        {
-          "date": "2025-12-10",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "would not put money if they kept buying GPUs for AI cloud - dilution",
-            "might do colo",
-            "immense GW capacity so still promising"
-          ],
-          "score": 173,
-          "stance": "neutral",
-          "text_preview": "Post-Fed Interest Rate 25BPS cut. December 11th ratings: Strong Buy: $CRCL $COIN $AMKR $CRDO $IBIT $MSTR $AMZN $SMCI $TSM $TSSI Sk Hynix $SNAP Samsung Electronics $ALAB $META $NBIS $CIFR Buy: $KRUS $AVGO $NFLX $KRKNF $H…",
-          "tweet_id": "1998846813177262295",
-          "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
-        },
-        {
-          "date": "2026-01-01",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "sitting on plug-ready GWs while hyperscalers stuck in 3-5 year grid queues",
-            "bare metal layer builder",
-            "opportunity of a lifetime"
-          ],
-          "score": 161,
-          "stance": "bullish",
-          "text_preview": "2026 Newsletter. Thematic Investments: Evolution, Disruption, and Bottlenecks 1. Soft Robotics - Evolution to $TSLA, $ONDS, Boston Dynamics. 2. SiPh - InP Bottleneck | $AXTI, $LITE, $GOOGL 3. Glass Substrates - Bottlene…",
-          "tweet_id": "2006709693012467774",
-          "url": "https://x.com/aleabitoreddit/status/2006709693012467774"
-        },
-        {
-          "date": "2026-01-02",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "datacenter space extremely sold off",
-            "capex spend fears de-risked",
-            "huge recovery play/ramp for neoclouds sector"
-          ],
-          "score": 157,
-          "stance": "bullish",
-          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
-          "tweet_id": "2007071108831338685",
-          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
-        },
-        {
-          "date": "2026-03-07",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "$6B dilution off $12.2B market cap",
-            "sells shares into rallies",
-            "pivoted to GPU offerings away from colo thesis"
-          ],
-          "score": 153,
-          "stance": "bearish",
-          "text_preview": "Most people on X make the mistake of getting married to a stock. If your thesis materially changes with $HIMS or $IREN, so should your position. If the bull case with $IREN last year was monetizing 3GW capacity through…",
-          "tweet_id": "2030357884199129395",
-          "url": "https://x.com/aleabitoreddit/status/2030357884199129395"
-        },
-        {
-          "date": "2025-10-11",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "Neocloud trade",
-            "funding round was at 70%+ of stock price which is a bullish tell"
-          ],
-          "score": 144,
-          "stance": "bullish",
-          "text_preview": "Based Friday Market Close (-3.6% SPY day), Thoughts and Explanations Strong Buy $IBIT $LTC $WLAC $NBIS $MP $TSM (For Next Year) $ETOR $DKNG $SNAP Buy $UPWK $CRDO $ALAB $AMZN $META $UNH $SG $TGT $BULL $FLY $CIFR $WULF $I…",
-          "tweet_id": "1977079938835718513",
-          "url": "https://x.com/aleabitoreddit/status/1977079938835718513"
-        }
-      ],
-      "explicit_stance_posts": 286,
-      "first_mention": "2025-08-31",
-      "has_report": true,
-      "high_conviction_posts": 37,
-      "industry": "Bitcoin Miner→AI Datacenter (Neocloud)",
-      "last_mention": "2026-06-20",
-      "market": "US",
-      "priority": "high",
-      "report_score": 3495,
-      "risk_posts": 155,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "amzn",
-        "ban",
-        "bearish",
-        "bottleneck",
-        "capacity",
-        "chokepoint",
-        "confirmed",
-        "conviction",
-        "dilution",
-        "export control",
-        "favorite",
-        "gfs",
-        "highest conviction",
-        "holding",
-        "hyperscaler"
-      ],
-      "stance_counts": {
-        "bearish": 175,
-        "bullish": 115,
-        "neutral": 147
-      },
-      "status": "needs_update",
-      "substantive_posts": 350,
-      "ticker": "IREN",
-      "total_mentions": 437,
-      "unique_mention_days": 156,
-      "why": [
-        "437 total mentions across 156 days",
-        "286 explicit stance posts",
-        "350 substantive thesis-like posts",
-        "37 high-conviction mentions",
-        "155 risk/caution posts",
-        "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
-        "latest mention 2026-06-20"
-      ]
-    },
-    {
-      "company": "AXT Inc",
-      "evidence": [
-        {
-          "date": "2026-01-24",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "bottleneck for InP/Germanium",
-            "huge theme going into 2026",
-            "waiting game for supply chain disruption",
-            "low downside risk due to capacity ramp -> revenue increase"
-          ],
-          "score": 212,
-          "stance": "bullish",
-          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
-          "tweet_id": "2015096496019112151",
-          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
-        },
-        {
-          "date": "2026-01-02",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "controls 40% of InP supply chain, critical bottleneck",
-            "low-cost Beijing factory captures margin arbitrage between Chinese manufacturing costs and high global selling prices",
-            "margins should expand rapidly next quarter",
-            "$100m share sale injection funds production capacity"
-          ],
-          "score": 156,
-          "stance": "bullish",
-          "text_preview": "The InP substrate shortage and \"Spread\" Arbitrage - $AXTI Market research is showing InP and optical components to become analogous to the HBM shortage and price craze. The initial bottleneck was caused by $NVDA monopol…",
-          "tweet_id": "2007202015940931878",
-          "url": "https://x.com/aleabitoreddit/status/2007202015940931878"
-        },
-        {
-          "date": "2026-01-01",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "controls ~60-70% of InP substrate market via Tongmei",
-            "InP bottleneck play",
-            "opportunities with the bottleneck itself"
-          ],
-          "score": 155,
-          "stance": "bullish",
-          "text_preview": "2026 Newsletter. Thematic Investments: Evolution, Disruption, and Bottlenecks 1. Soft Robotics - Evolution to $TSLA, $ONDS, Boston Dynamics. 2. SiPh - InP Bottleneck | $AXTI, $LITE, $GOOGL 3. Glass Substrates - Bottlene…",
-          "tweet_id": "2006709693012467774",
-          "url": "https://x.com/aleabitoreddit/status/2006709693012467774"
-        },
-        {
-          "date": "2025-12-27",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "produces majority of world's InP substrates required for photonics",
-            "part of duopoly controlling ~60% of supply",
-            "entire Western AI roadmap tethered to this company",
-            "prices will spike significantly"
-          ],
-          "score": 154,
-          "stance": "bullish",
-          "text_preview": "The \"InP Chokepoint\": The Bottleneck of the AI Buildout explanation: The future of $NVDA Blackwell, $META MTAI, $GOOGL TPU, and $MSFT Maia ramp is tied to: A $700M small cap $AXTI and $SMTOY. The AI \"Growth\" story ends…",
-          "tweet_id": "2004936335702753729",
-          "url": "https://x.com/aleabitoreddit/status/2004936335702753729"
-        },
-        {
-          "date": "2026-01-02",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "CEO says 40% of InP supply chain",
-            "InP will be huge bottleneck for hyperscaler AI buildout 2026-2027"
-          ],
-          "score": 154,
-          "stance": "bullish",
-          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
-          "tweet_id": "2007071108831338685",
-          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
-        },
-        {
-          "date": "2025-12-30",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "owns 40% of entire InP supply chain",
-            "extreme bottleneck and InP supply shock",
-            "critical materials game theory play",
-            "InP substrate capacity could be valued 10x-100x current prices in bidding war"
-          ],
-          "score": 153,
-          "stance": "bullish",
-          "text_preview": "When I made my WSB post, I'm half joking about $AXTI. But not about the extreme bottleneck and InP supply shock. This is a call on critical materials game theory. If we see many historically at bottlenecks: 1. Dysprosiu…",
-          "tweet_id": "2005918544924664315",
-          "url": "https://x.com/aleabitoreddit/status/2005918544924664315"
-        }
-      ],
-      "explicit_stance_posts": 359,
-      "first_mention": "2025-12-22",
-      "has_report": true,
-      "high_conviction_posts": 134,
-      "industry": "InP Substrates",
-      "last_mention": "2026-06-20",
-      "market": "US",
-      "priority": "high",
-      "report_score": 3398,
-      "risk_posts": 15,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "amzn",
-        "ban",
-        "bearish",
-        "bottleneck",
-        "capacity",
-        "chokepoint",
-        "confirmed",
-        "conviction",
-        "dilution",
-        "export control",
-        "favorite",
-        "gfs",
-        "holding",
-        "hyperscaler",
-        "jabil"
-      ],
-      "stance_counts": {
-        "bearish": 4,
-        "bullish": 351,
-        "neutral": 167
-      },
-      "status": "needs_update",
-      "substantive_posts": 399,
-      "ticker": "AXTI",
-      "total_mentions": 524,
-      "unique_mention_days": 137,
-      "why": [
-        "522 total mentions across 137 days",
-        "359 explicit stance posts",
-        "399 substantive thesis-like posts",
-        "134 high-conviction mentions",
-        "15 risk/caution posts",
-        "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
-        "latest mention 2026-06-20"
-      ]
-    },
-    {
-      "company": "Sivers Semiconductor",
-      "evidence": [
-        {
-          "date": "2026-04-19",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "laser revenue scales aggressively with JBL, MRVL, Ayar, O-Net",
-            "not many laser suppliers in the world",
-            "mini CHIPS act chokepoint trading at <$1B MC",
-            "CPO/1.6T will blow away conservative analyst projections"
-          ],
-          "score": 167,
-          "stance": "bullish",
-          "text_preview": "Frontrunning 1.6T/CPO within the broader photonics supercycle is the most compelling investment to me. I have high conviction in that statement. Which is why I'm long the entire supply chain (+1 extra bottlenecK) 1. $SI…",
-          "tweet_id": "2046003874553901188",
-          "url": "https://x.com/aleabitoreddit/status/2046003874553901188"
-        },
-        {
-          "date": "2026-03-16",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "InP CW DFB laser maker",
-            "next $LITE for CPO/silicon photonics",
-            "supplies lasers to POET Starlight and Ayar SuperNova",
-            "valued at $140M vs POET at 11x more"
-          ],
-          "score": 157,
-          "stance": "bullish",
-          "text_preview": "I’m long $SIVE at $140M. I believe this is the next $LITE that markets and institutions missed. $SIVE makes InP CW DFB lasers. Closest comparison is $LITE in the current EML laser bottleneck. But instead of supplying to…",
-          "tweet_id": "2033466880661606646",
-          "url": "https://x.com/aleabitoreddit/status/2033466880661606646"
-        },
-        {
-          "date": "2026-06-15",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "core laser chokepoint over next generation photonics from 1.6T pluggables to CPO",
-            "embedded in many hyperscaler suppliers from Jabil to Ayar",
-            "should go brrr 2027, ramps + qualifications should get priced in now",
-            "highest upside out of all core European longs"
-          ],
-          "score": 156,
-          "stance": "bullish",
-          "text_preview": "Just as a recap, these were all my core European longs: 1. $SIVE 2. $LPK 3. $SOI 4. $RPI 5. $IQE 6. $ALRIB 7. $XFAB Sivers: As you know by now, core laser chokepoint over next generation photonics, from 1.6T pluggables…",
-          "tweet_id": "2066535221554733278",
-          "url": "https://x.com/aleabitoreddit/status/2066535221554733278"
-        },
-        {
-          "date": "2026-05-23",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "chokepoint and partially a bottleneck for leading CPO players",
-            "architecturally unique CW lasers for leading CPO players",
-            "controls output supply of CW lasers given allocations",
-            "targeting M&A to expand revenue for TAM expansion"
-          ],
-          "score": 155,
-          "stance": "bullish",
-          "text_preview": "Photonics is nuanced and using ChatGPT/Gemini makes you miss all of it: 1. $SIVE is actually a chokepoint and partially a bottleneck. The reason it's a chokepoint is leading CPO/optical hyperscaler players go through Si…",
-          "tweet_id": "2058374522353672558",
-          "url": "https://x.com/aleabitoreddit/status/2058374522353672558"
-        },
-        {
-          "date": "2026-05-28",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "most compelling CPO/photonics exposure",
-            "plans to acquire more ownership",
-            "expects strongly positive earnings transcripts",
-            "AlChip/Amazon private placements positive for Ayar implying Trainium 4 design in"
-          ],
-          "score": 154,
-          "stance": "bullish",
-          "text_preview": "$SIVE is the most compelling CPO/photonics exposure to me. Addressing the disinformation: I haven’t sold and don’t plan to sell a single share. I do think this ends up the next $80B+ $LITE one day from ~$2.1B. And I per…",
-          "tweet_id": "2060002002994971046",
-          "url": "https://x.com/aleabitoreddit/status/2060002002994971046"
-        },
-        {
-          "date": "2026-05-16",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "core chokepoint and IP holder for next generation of photonics",
-            "supplies CW lasers tethered to CPO and pluggable transceivers for 1.6T and 3.2",
-            "comfortable hold for next few years as they scale to become the next $LITE",
-            "asymmetric risk/reward ratio"
-          ],
-          "score": 149,
-          "stance": "bullish",
-          "text_preview": "When I see comments like this (and there are a lot) from retail investors: I immediately think they lack the technical depth. I'll walk through each one from $SIVE to $LPK: 1. Photonics TAM goes from $14B -> $154B In ju…",
-          "tweet_id": "2055822766600016238",
-          "url": "https://x.com/aleabitoreddit/status/2055822766600016238"
-        }
-      ],
-      "explicit_stance_posts": 598,
-      "first_mention": "2025-12-23",
-      "has_report": true,
-      "high_conviction_posts": 287,
-      "industry": "AI Photonics/CPO Lasers",
-      "last_mention": "2026-06-20",
-      "market": "Nasdaq Stockholm",
-      "priority": "high",
-      "report_score": 3341,
-      "risk_posts": 2,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "amzn",
-        "ban",
-        "bearish",
-        "bottleneck",
-        "capacity",
-        "channel check",
-        "chokepoint",
-        "confirmed",
-        "conviction",
-        "dilution",
-        "export control",
-        "favorite",
-        "gfs",
-        "globalfoundries",
-        "holding"
-      ],
-      "stance_counts": {
-        "bullish": 597,
-        "neutral": 85
-      },
-      "status": "needs_update",
-      "substantive_posts": 609,
-      "ticker": "SIVE",
-      "total_mentions": 693,
-      "unique_mention_days": 93,
-      "why": [
-        "682 total mentions across 93 days",
-        "598 explicit stance posts",
-        "609 substantive thesis-like posts",
-        "287 high-conviction mentions",
-        "2 risk/caution posts",
-        "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
-        "latest mention 2026-06-20"
-      ]
-    },
-    {
-      "company": "Applied Optoelectronics",
-      "evidence": [
-        {
-          "date": "2026-01-24",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "long play tethered to MSFT Maia and AWS Trainium",
-            "just a waiting game"
-          ],
-          "score": 200,
-          "stance": "bullish",
-          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
-          "tweet_id": "2015096496019112151",
-          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
-        },
-        {
-          "date": "2026-05-16",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "building largest Made in America supply chains for CW laser fab and 1.6T assembly",
-            "extreme optionality for other segments since entire supply chain in house",
-            "likely going to keep rising as it hits $400m+/month revenue target H2 2026",
-            "sovereign DC requirements for older gen pluggables"
-          ],
-          "score": 149,
-          "stance": "bullish",
-          "text_preview": "When I see comments like this (and there are a lot) from retail investors: I immediately think they lack the technical depth. I'll walk through each one from $SIVE to $LPK: 1. Photonics TAM goes from $14B -> $154B In ju…",
-          "tweet_id": "2055822766600016238",
-          "url": "https://x.com/aleabitoreddit/status/2055822766600016238"
-        },
-        {
-          "date": "2026-01-02",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "interconnect play for AMZN/MSFT ASIC scale up"
-          ],
-          "score": 145,
-          "stance": "bullish",
-          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
-          "tweet_id": "2007071108831338685",
-          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
-        },
-        {
-          "date": "2026-05-31",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "favorite photonics exposure in US market",
-            "went long at $28 on hyperscaler qualification guess",
-            "high conviction after 1.6T and volume orders with hyperscalers",
-            "capacity projections at $90 for 2027 bullish"
-          ],
-          "score": 143,
-          "stance": "bullish",
-          "text_preview": "$AAOI is actually my favorite photonics exposure in the US market right now. I went long last year with low sizing at $28, back when I guessed they were qualifying with $AMZN and $MSFT. High conviction post earnings at…",
-          "tweet_id": "2061252644195504239",
-          "url": "https://x.com/aleabitoreddit/status/2061252644195504239"
-        },
-        {
-          "date": "2026-06-16",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "scarce laser capacity that AMD and other hyperscalers are looking for",
-            "US transceiver supply chain for mass production of 800g/1.6T, largest in America",
-            "demand far exceeds supply while assembly gets outsourced to Asia",
-            "quoting $471M monthly revenue in H1 entering H2 of 2027, $5.6B ARR off $13.5B MC"
-          ],
-          "score": 140,
-          "stance": "bullish",
-          "text_preview": "I’m not sure why many folks are super bearish on my high conviction $AAOI long… Ever since $30, then on the way up to $170. (Yes I do think every bear is wrong, we’ll see who’s right). They have scarce laser capacity th…",
-          "tweet_id": "2067071462360666165",
-          "url": "https://x.com/aleabitoreddit/status/2067071462360666165"
-        },
-        {
-          "date": "2026-03-04",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "could easily be a 3x by next year",
-            "only pure Made in America optical transceiver play",
-            "already has US supply chain setup years ahead",
-            "will leapfrog LITE FY 2026 revenue projections with ~40% gross margins"
-          ],
-          "score": 133,
-          "stance": "bullish",
-          "text_preview": "High conviction long: $AAOI. I genuinely think this could easily be a 3x by next year. Nvidia funded $COHR, who does Malaysia manufacturing for 800G/1.6T. $LITE uses FN in Thailand for volume production, and has it's ow…",
-          "tweet_id": "2029219794025644382",
-          "url": "https://x.com/aleabitoreddit/status/2029219794025644382"
-        }
-      ],
-      "explicit_stance_posts": 301,
-      "first_mention": "2025-12-11",
-      "has_report": true,
-      "high_conviction_posts": 94,
-      "industry": "Optical Modules",
-      "last_mention": "2026-06-20",
-      "market": "US",
-      "priority": "high",
-      "report_score": 3210,
-      "risk_posts": 10,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "amzn",
-        "ban",
-        "bearish",
-        "bottleneck",
-        "capacity",
-        "channel check",
-        "chokepoint",
-        "confirmed",
-        "conviction",
-        "dilution",
-        "export control",
-        "favorite",
-        "gfs",
-        "holding",
-        "hyperscaler"
-      ],
-      "stance_counts": {
-        "bearish": 6,
-        "bullish": 294,
-        "neutral": 131
-      },
-      "status": "needs_update",
-      "substantive_posts": 333,
-      "ticker": "AAOI",
-      "total_mentions": 433,
-      "unique_mention_days": 120,
-      "why": [
-        "431 total mentions across 120 days",
-        "301 explicit stance posts",
-        "333 substantive thesis-like posts",
-        "94 high-conviction mentions",
-        "10 risk/caution posts",
-        "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
-        "latest mention 2026-06-20"
-      ]
-    }
-  ]
+  "updates_due": []
 }

@@ -267,13 +267,15 @@ The checker uses each report's `coverage_through` date as the boundary. Posts on
 - `update_candidate`: new post likely deserves a compact dated update above the report
 - `regeneration_candidate`: new posts may make the existing report structurally stale
 
-The checker writes `data/report_update_candidates.json`. This file is the automation handoff: it tells us which reports need attention without immediately publishing weak AI-generated text.
+The checker writes `data/report_update_candidates.json`. This file is the automation handoff: it tells us which reports need attention.
+
+`scripts/apply_report_updates.py` runs after the checker. It publishes compact dated updates only when the candidate contains clear thesis signal, such as explicit bullish / bearish stance, high-conviction validation, or a risk post. Low-signal background mentions are not published; their dates are still marked reviewed by advancing `coverage_through`, so the same weak mention does not keep resurfacing.
 
 Current rule:
 
 - Detection is automatic on every sync.
-- Polished report text is not auto-published yet.
-- High-signal candidates should feed a smaller report-update writer next.
+- Compact report updates are auto-published when signal is clear enough.
+- Low-signal mentions are auto-ignored and marked reviewed.
 - Regeneration candidates should stay review-gated before replacing a flagship report.
 
 Every new or regenerated report should include:

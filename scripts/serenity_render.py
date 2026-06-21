@@ -316,8 +316,15 @@ def theme_pill(s):
 def report_update_pill(s):
     ups=(REPORTS.get(s) or {}).get('updates') or []
     if not ups: return ''
-    d=(ups[0].get('date') or '')[5:] or 'new'
-    return f'<span class="updchip"><i class="fa-solid fa-file-lines"></i> 報告更新 {d}</span>'
+    raw=ups[0].get('date') or ''
+    d=raw[5:] or 'new'
+    fresh=''
+    try:
+        if (DAY-datetime.date.fromisoformat(raw)).days<=3:
+            fresh=' fresh'
+    except Exception:
+        pass
+    return f'<span class="updchip{fresh}"><i class="fa-solid fa-file-lines"></i> 報告更新 {d}</span>'
 def ymd(d):return d.strftime('%Y-%m-%d') if d else '—'
 def co_of(s):return STOCK.get(s,{}).get('company') or s
 def ind_of(s):return STOCK.get(s,{}).get('industry') or ''
@@ -685,8 +692,13 @@ SHARED_CSS='''<style>
 .theme{display:inline-flex;align-items:center;vertical-align:middle;margin-left:5px;padding:1px 7px;border:1px solid rgba(29,155,240,.22);border-radius:999px;background:rgba(29,155,240,.07);color:#1d6fa5;font-family:var(--mono);font-size:9.5px;font-weight:700;line-height:1.35;white-space:nowrap}
 .theme.other{border-color:var(--line);background:var(--paper);color:var(--ink-faint)}
 .theme.detail{font-size:11px;margin-left:6px;transform:translateY(-4px)}
-.updchip{display:inline-flex;align-items:center;gap:4px;vertical-align:middle;margin-left:6px;padding:2px 7px;border:1px solid rgba(31,92,77,.24);border-radius:999px;background:var(--accent-soft);color:var(--accent);font-family:var(--mono);font-size:9.5px;font-weight:700;line-height:1.35;white-space:nowrap}
+.updchip{position:relative;display:inline-flex;align-items:center;gap:4px;vertical-align:middle;margin-left:6px;padding:2px 7px;border:1px solid rgba(31,92,77,.24);border-radius:999px;background:var(--accent-soft);color:var(--accent);font-family:var(--mono);font-size:9.5px;font-weight:700;line-height:1.35;white-space:nowrap}
 .updchip i{font-size:9px}
+.updchip.fresh{animation:updatePulse 2.6s ease-in-out infinite}
+.updchip.fresh::after{content:"";position:absolute;inset:-4px;border:1px solid rgba(31,92,77,.22);border-radius:999px;opacity:0;animation:updateRing 2.6s ease-out infinite;pointer-events:none}
+@keyframes updatePulse{0%,100%{box-shadow:0 0 0 rgba(31,92,77,0)}45%{box-shadow:0 0 0 3px rgba(31,92,77,.08)}}
+@keyframes updateRing{0%{transform:scale(.96);opacity:.7}72%,100%{transform:scale(1.22);opacity:0}}
+@media (prefers-reduced-motion:reduce){.updchip.fresh,.updchip.fresh::after{animation:none}}
 .rchip em{font-style:normal;color:var(--ink-soft);font-size:9.5px}
 .surfrow .rrt{margin-left:auto;display:flex;align-items:center;gap:10px}
 .badge.cw{background:#f3e7cc;color:#8a6a1f}.card.cw::before{background:var(--gold)}
@@ -1235,13 +1247,15 @@ function reportHtml(r,postMap,tk){
   }
   function cites(a){if(!a||!a.length)return '';var cards=[],chips=[];a.forEach(function(c){var h=tweetCard(c);if(h.indexOf('tweetcard')>=0)cards.push(h);else chips.push(h);});return (cards.length?'<div class="tweetrefs">'+cards+'</div>':'')+(chips.length?'<div class="thesis-cites">'+chips.join('')+'</div>':'');}
   function updateHtml(){
-    var u=(r.updates||[])[0];if(!u)return '';
+    var updates=r.updates||[];if(!updates.length)return '';
+    return updates.map(function(u,idx){
     var stance={still_bullish:'仍偏多',more_bullish:'更加看多',more_cautious:'轉為謹慎',thesis_changed:'論點改變',bearish_reversal:'轉為看空',new_catalyst:'新增催化',new_risk:'新增風險'}[u.stance]||u.stance||'更新';
     var imp={high:'重要更新',medium:'一般更新',low:'小更新'}[u.importance]||u.importance||'更新';
-    var genDate=(r.generated_at||'').slice(0,10),updateLabel=(u.date&&genDate&&u.date<genDate)?'重要歷史立場更新':'最新更新';
+    var genDate=(r.generated_at||'').slice(0,10),updateLabel=u.label||(idx>0?'歷史更新':((u.date&&genDate&&u.date<genDate)?'重要歷史立場更新':'最新更新'));
     var src=(u.source_tweet_ids||[]).map(function(id){var p=postMap&&postMap[id];return {tweet_id:id,date:p&&p.d,url:p&&p.url,label:'Serenity 原文'};});
     var bullets=(u.bullets||[]).map(function(b){return '<li>'+glossText(b)+'</li>';}).join('');
     return '<details class="updates"><summary><div class="updates-k">'+updateLabel+' · '+esc(u.date||'')+'</div><h2>'+glossText(u.title||'')+'</h2><div class="updates-meta"><span class="upill high">'+esc(imp)+'</span><span class="upill">'+esc(stance)+'</span></div>'+paras([u.summary||''])+'<span class="update-more">展開更新內容 <i class="fa-solid fa-chevron-down"></i></span></summary><div class="updates-body">'+(bullets?'<ul>'+bullets+'</ul>':'')+cites(src)+'</div></details>';
+    }).join('');
   }
   var secs=(r.sections||[]).map(function(s){return '<section class="thesis-sec"><h3>'+esc(s.heading||'')+'</h3>'+paras(s.body)+cites(s.citations)+'</section>';}).join('');
   var summary=paras(r.one_minute_summary);

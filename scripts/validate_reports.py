@@ -174,7 +174,7 @@ def validate_report(path, stocks_dir=STOCKS_DIR, min_sections=8, max_sections=10
         if not update.get("title") or not update.get("summary"):
             result.add("error", "bad_update_content", f"Update {idx} needs title and summary.")
         for tweet_id in update.get("source_tweet_ids") or []:
-            all_citations.append({"tweet_id": tweet_id, "date": update.get("date"), "url": ""})
+            all_citations.append({"tweet_id": tweet_id, "url": ""})
 
     source_posts = report.get("source_posts_used") or []
     if not isinstance(source_posts, list):

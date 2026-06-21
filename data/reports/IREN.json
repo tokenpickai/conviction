@@ -1,368 +1,368 @@
 {
-  "ticker": "IREN",
-  "language": "zh-Hant",
-  "title": "Serenity 的 $IREN 論點：從 Neocloud 潛力股到 ATM 稀釋警示",
-  "subtitle": "這是一個 thesis material changed 的案例：Serenity 早期看好 IREN 的 GW capacity 與 hyperscaler deal optionality，但後來因 $6B ATM、GPU pivot 與股東稀釋風險而轉向明確看空現有持有人。",
   "core_label": "Bitcoin miner 轉型 AI data center / Neocloud",
-  "coverage_through": "2026-06-17",
+  "coverage_through": "2026-06-20",
+  "final_takeaway": [
+    "Serenity 的 $IREN thesis 是一個明確的立場轉變案例：早期看多 neocloud / GW capacity / possible hyperscaler deal，後來因 GPU pivot 與 $6B ATM 轉為看空現有持有人。",
+    "她不是否認 IREN 作為公司可能成功，而是認為公司成功不等於 current shareholders 成功；如果 ATM 稀釋成為主要融資方式，股東可能只是替 buildout 提供 liquidity。",
+    "對讀者最重要的啟發是：AI infrastructure thesis 不能只看 demand 和 capacity，也要看 capital structure、融資方式、selling pressure、以及每一美元成長是否真的回到每股價值。"
+  ],
+  "language": "zh-Hant",
   "one_minute_summary": [
     "Serenity 一開始並不是討厭 $IREN。2025 年 9-10 月，她把 IREN 放進 neocloud thesis：miner-to-HPC、GW power capacity、降息受益、可能拿到 hyperscaler 合約，都是早期看多理由。",
     "但她一開始就把 $IREN 放在比 $NBIS 更 speculative 的位置，原因很清楚：$NBIS 已有 MSFT 合約與 full-stack moat，$IREN 則主要靠 raw GW capacity 與未來 deal optionality。",
     "真正轉折發生在 2026 年 3 月。Serenity 認為 $IREN 從 asset-light colo thesis 轉向買 GPU / GPU offering，加上 $6B ATM，讓 bull case material changed；她公開說自己已不看好現有股東的 risk/reward。",
     "她後來的結論很尖銳：$IREN 公司本身可能成功、data center footprint 可能變大，但如果用 ATM 把大量新股賣給市場，existing shareholders 可能成為融資 liquidity，股價回報不一定跟公司成長同步。"
   ],
+  "quality_notes": {
+    "known_limits": [
+      "本報告只使用本地資料庫中 Serenity 的公開貼文，不加入外部公司資料或最新財報。",
+      "IREN 相關貼文數量很大，引用以 thesis 轉折點與高信號貼文為主。"
+    ],
+    "reference_article_parity": [
+      "本報告刻意重建 Serenity 從早期 bullish 到後期 bearish 的完整時間線，而不是只截取最新結論。",
+      "IREN 是 report lifecycle 中的 material thesis changed 範例，適合用來測試後續自動更新 / 重新生成規則。"
+    ]
+  },
   "sections": [
     {
-      "heading": "一、最早的 IREN thesis：Bitcoin miner 轉向 AI compute",
       "body": [
         "Serenity 最早注意 $IREN，是因為它代表一批 Bitcoin miners 轉向 AI compute / HPC 的機會。她在 2025 年 9 月說，$IREN 漲到 30 美元以上後仍值得觀察，並把它和 $NBIS 跟隨 $CRWV 暴漲的板塊聯動放在一起看。這時候她的基本想法是：如果 miners 有電力、場地與基礎設施，就可能從 BTC mining 轉成 AI compute 供應商。",
         "這個初始 thesis 其實很直覺：AI demand 爆發，hyperscalers 缺 compute，而 miners 有 power / land / data center assets。Serenity 看到的是『閒置或可轉用的電力資產』被 AI buildout 重新定價的機會。$IREN 在這個框架裡不是最確定的公司，但它是 early neocloud basket 裡的一個高 beta 名字。"
       ],
       "citations": [
         {
-          "tweet_id": "1963203275005858261",
           "date": "2025-09-03",
-          "url": "https://x.com/aleabitoreddit/status/1963203275005858261",
+          "excerpt": "pivoting from BTC into AI",
           "label": "初始觀察",
-          "excerpt": "pivoting from BTC into AI"
+          "tweet_id": "1963203275005858261",
+          "url": "https://x.com/aleabitoreddit/status/1963203275005858261"
         },
         {
-          "tweet_id": "1972016308662513748",
           "date": "2025-09-27",
-          "url": "https://x.com/aleabitoreddit/status/1972016308662513748",
+          "excerpt": "With compute: $IREN",
           "label": "Neocloud basket",
-          "excerpt": "With compute: $IREN"
+          "tweet_id": "1972016308662513748",
+          "url": "https://x.com/aleabitoreddit/status/1972016308662513748"
         }
-      ]
+      ],
+      "heading": "一、最早的 IREN thesis：Bitcoin miner 轉向 AI compute"
     },
     {
-      "heading": "二、早期看多理由：GW capacity 與 future Mag7 deal optionality",
       "body": [
         "Serenity 早期喜歡 $IREN 的最大理由，是它有大量 GW capacity。她多次說 $IREN 比其他玩家有更大的 power capacity，即使當時還沒有 hyperscaler deal。這使它成為一個 option-like neocloud：如果 Microsoft、Google、Amazon、Oracle 或其他大型客戶真的需要外包 AI compute，$IREN 有機會被市場重新定價。",
         "她在 2025 年 10 月仍把 $IREN 放在 Buy / neocloud basket 裡，理由包括 huge GW、可能出現 Mag7 或類似 deal、以及 neocloud sector 被 AI buildout 推動。這時候 Serenity 的判斷不是『IREN 已經勝出』，而是『如果 deal 來了，raw capacity 會讓它有很高彈性』。"
       ],
       "citations": [
         {
-          "tweet_id": "1975974445782348070",
           "date": "2025-10-08",
-          "url": "https://x.com/aleabitoreddit/status/1975974445782348070",
+          "excerpt": "lot larger GW capacity",
           "label": "GW capacity",
-          "excerpt": "lot larger GW capacity"
+          "tweet_id": "1975974445782348070",
+          "url": "https://x.com/aleabitoreddit/status/1975974445782348070"
         },
         {
-          "tweet_id": "1979976235825635419",
           "date": "2025-10-19",
-          "url": "https://x.com/aleabitoreddit/status/1979976235825635419",
+          "excerpt": "Huge GW, expect mag7",
           "label": "期待 deal",
-          "excerpt": "Huge GW, expect mag7"
+          "tweet_id": "1979976235825635419",
+          "url": "https://x.com/aleabitoreddit/status/1979976235825635419"
         }
-      ]
+      ],
+      "heading": "二、早期看多理由：GW capacity 與 future Mag7 deal optionality"
     },
     {
-      "heading": "三、但它一直不是 NBIS：Serenity 把 IREN 定位為更投機",
       "body": [
         "即使早期看多，Serenity 從一開始就沒有把 $IREN 放到 $NBIS 同一層。她說 $IREN 很好，但更 speculative，而且需要 dilution。她也說自己最確信的是 $NBIS，$CIFR 像 Nebius-light，$IREN 則是因為 GW capacity 與 future Mag7 deals 才值得配置。",
         "這個差異很重要。$NBIS 在 Serenity 眼中有已簽 MSFT 合約、full-stack orchestration、企業客戶與 sum-of-parts；$IREN 則更像 raw asset + possible deal。換句話說，$IREN 的 upside 可能很大，但需要更多外部事件與管理層執行來證明。"
       ],
       "citations": [
         {
-          "tweet_id": "1967448919467864526",
           "date": "2025-09-15",
-          "url": "https://x.com/aleabitoreddit/status/1967448919467864526",
+          "excerpt": "more speculative atm",
           "label": "more speculative",
-          "excerpt": "more speculative atm"
+          "tweet_id": "1967448919467864526",
+          "url": "https://x.com/aleabitoreddit/status/1967448919467864526"
         },
         {
-          "tweet_id": "1973801383355953192",
           "date": "2025-10-02",
-          "url": "https://x.com/aleabitoreddit/status/1973801383355953192",
+          "excerpt": "more speculative",
           "label": "相對 NBIS / CIFR",
-          "excerpt": "more speculative"
+          "tweet_id": "1973801383355953192",
+          "url": "https://x.com/aleabitoreddit/status/1973801383355953192"
         }
-      ]
+      ],
+      "heading": "三、但它一直不是 NBIS：Serenity 把 IREN 定位為更投機"
     },
     {
-      "heading": "四、Serenity 真的買過，也曾把它放進 neocloud trade",
       "body": [
         "這份報告不能把 Serenity 後來的 bearish stance 倒推成她從未看好。她在 2025 年 9 月 26 日明確說自己在 $IREN 下跌 13% 時以約 40.13 美元加碼 shares，也買了短期 calls，但同時提醒那種 calls 不建議跟單。這代表她早期確實把 IREN 當成高 beta neocloud trade。",
         "她也曾表示如果持有一年，買點不必過度糾結，並提過 $80 price target 很保守。這些早期貼文說明 Serenity 的 thesis 是會變的：她不是事後一直 bearish，而是先相信 neocloud sector 的方向，之後因公司融資與執行路線改變而重新評估。"
       ],
       "citations": [
         {
-          "tweet_id": "1971599988204634554",
           "date": "2025-09-26",
-          "url": "https://x.com/aleabitoreddit/status/1971599988204634554",
+          "excerpt": "Added $IREN shares",
           "label": "實際加碼",
-          "excerpt": "Added $IREN shares"
+          "tweet_id": "1971599988204634554",
+          "url": "https://x.com/aleabitoreddit/status/1971599988204634554"
         },
         {
-          "tweet_id": "1972339422277615780",
           "date": "2025-09-28",
-          "url": "https://x.com/aleabitoreddit/status/1972339422277615780",
+          "excerpt": "$80 is extremely conservative",
           "label": "早期 price target",
-          "excerpt": "$80 is extremely conservative"
+          "tweet_id": "1972339422277615780",
+          "url": "https://x.com/aleabitoreddit/status/1972339422277615780"
         }
-      ]
+      ],
+      "heading": "四、Serenity 真的買過，也曾把它放進 neocloud trade"
     },
     {
-      "heading": "五、第一次降溫：capacity 不等於 profit，middleware 會吃掉 margin",
       "body": [
         "2025 年 10 月下旬，Serenity 對 $IREN 開始更謹慎。她把重點從『有多少 GW』轉向『這些 GW 能不能變成高品質 profit』。她認為 IREN 如果依賴 middleware / orchestration partners 來把 capacity 變成 AI cloud revenue，長期 margin 可能不如 full-stack 的 $NBIS。",
         "她用 Oracle GPU-as-a-service 的困境作警示：contract size、buildout 或 MW / GW 不等於賺錢，利用率、軟體編排、折舊、power / cooling、customer ramp 都會影響 economics。因此 IREN 的 raw capacity 雖然能帶來 upside，但它同時也帶來更高 execution risk。"
       ],
       "citations": [
         {
-          "tweet_id": "1982428584431251483",
           "date": "2025-10-26",
-          "url": "https://x.com/aleabitoreddit/status/1982428584431251483",
+          "excerpt": "revenue means nothing",
           "label": "capacity vs profit",
-          "excerpt": "revenue means nothing"
+          "tweet_id": "1982428584431251483",
+          "url": "https://x.com/aleabitoreddit/status/1982428584431251483"
         },
         {
-          "tweet_id": "1982477197844898027",
           "date": "2025-10-26",
-          "url": "https://x.com/aleabitoreddit/status/1982477197844898027",
+          "excerpt": "cuts into margins",
           "label": "middleware margin risk",
-          "excerpt": "cuts into margins"
+          "tweet_id": "1982477197844898027",
+          "url": "https://x.com/aleabitoreddit/status/1982477197844898027"
         }
-      ]
+      ],
+      "heading": "五、第一次降溫：capacity 不等於 profit，middleware 會吃掉 margin"
     },
     {
-      "heading": "六、Material change：從 asset-light colo 變成 GPU buying / GPU offering",
       "body": [
         "真正讓 Serenity 改變立場的，不只是她覺得 $NBIS 更好，而是她認為 $IREN 的 bull case 變了。她後來回顧時說，去年看多 $IREN 的 bull case 是 monetizing 3GW capacity through colo，理想情境是 asset-light，用 FCF 支持 GPU-related expansion。",
         "但當公司走向 GPU offerings、買 GPU、並用大規模 ATM 來支持 expansion，Serenity 認為 shareholder math 改變了。這就是她所說的 material changed：同一家公司也許仍在做 AI data center，但對現有股東來說，回報來源、風險結構、稀釋程度都已經不是原來那個 thesis。"
       ],
       "citations": [
         {
-          "tweet_id": "2029524132568994011",
           "date": "2026-03-05",
-          "url": "https://x.com/aleabitoreddit/status/2029524132568994011",
+          "excerpt": "materially changed",
           "label": "bull case changed",
-          "excerpt": "materially changed"
+          "tweet_id": "2029524132568994011",
+          "url": "https://x.com/aleabitoreddit/status/2029524132568994011"
         },
         {
-          "tweet_id": "2030357884199129395",
           "date": "2026-03-07",
-          "url": "https://x.com/aleabitoreddit/status/2030357884199129395",
+          "excerpt": "your thesis has changed",
           "label": "thesis materially changes",
-          "excerpt": "your thesis has changed"
+          "tweet_id": "2030357884199129395",
+          "url": "https://x.com/aleabitoreddit/status/2030357884199129395"
         }
-      ]
+      ],
+      "heading": "六、Material change：從 asset-light colo 變成 GPU buying / GPU offering"
     },
     {
-      "heading": "七、核心反轉：$6B ATM 是 Serenity 的股東回報紅線",
       "body": [
         "2026 年 3 月後，Serenity 對 $IREN 的主要觀點集中在 $6B ATM。她認為這不是普通融資，而是一個足以壓制股價、稀釋現有股東、並把 retail holders 變成融資 liquidity 的結構性 overhang。她多次說，$IREN 公司本身可能會做大，但 existing shareholders 未必得到相同回報。",
         "這是 IREN report 最關鍵的一句話：Serenity 區分『公司成功』與『股東賺錢』。她認為 $IREN 可以 fundamentally succeed、建立 massive data center footprint，但如果過程是用 $6B ATM 在每次 rally 裡賣新股，現有股東可能承擔最重的稀釋成本。"
       ],
       "citations": [
         {
-          "tweet_id": "2030700123433619875",
           "date": "2026-03-08",
-          "url": "https://x.com/aleabitoreddit/status/2030700123433619875",
+          "excerpt": "$6 Billion ATM is massive",
           "label": "$6B ATM thesis",
-          "excerpt": "$6 Billion ATM is massive"
+          "tweet_id": "2030700123433619875",
+          "url": "https://x.com/aleabitoreddit/status/2030700123433619875"
         },
         {
-          "tweet_id": "2030705320063041564",
           "date": "2026-03-08",
-          "url": "https://x.com/aleabitoreddit/status/2030705320063041564",
+          "excerpt": "company will succeed",
           "label": "company vs share price",
-          "excerpt": "company will succeed"
+          "tweet_id": "2030705320063041564",
+          "url": "https://x.com/aleabitoreddit/status/2030705320063041564"
         }
-      ]
+      ],
+      "heading": "七、核心反轉：$6B ATM 是 Serenity 的股東回報紅線"
     },
     {
-      "heading": "八、為什麼她說不是單純 FUD：融資方式不同，股東結果不同",
       "body": [
         "Serenity 反覆強調她不是只討厭 dilution，而是區分不同融資方式。她拿 $NBIS 與 $IREN 對比：Nebius 從 Nvidia 取得戰略資金，沒有立即公開市場賣壓；IREN 則是 ATM，把新股賣進公開市場，直接抽走 public liquidity 並壓制 momentum。",
         "她後來也拿 $AAOI 的 ATM 來對比，說不是所有 ATM 都一樣。若金額相對公司與用途可控，並且用於 capacity expansion，市場也許能吸收；但 $IREN 的 $6B ATM 相對當時 market cap 太大，所以她把它視為 shareholder return 的核心風險。"
       ],
       "citations": [
         {
-          "tweet_id": "2031785810052465078",
           "date": "2026-03-11",
-          "url": "https://x.com/aleabitoreddit/status/2031785810052465078",
+          "excerpt": "difference is night and day",
           "label": "NBIS vs IREN financing",
-          "excerpt": "difference is night and day"
+          "tweet_id": "2031785810052465078",
+          "url": "https://x.com/aleabitoreddit/status/2031785810052465078"
         },
         {
-          "tweet_id": "2032198562877227199",
           "date": "2026-03-12",
-          "url": "https://x.com/aleabitoreddit/status/2032198562877227199",
+          "excerpt": "excessive ATMs",
           "label": "ATM 不同",
-          "excerpt": "excessive ATMs"
+          "tweet_id": "2032198562877227199",
+          "url": "https://x.com/aleabitoreddit/status/2032198562877227199"
         }
-      ]
+      ],
+      "heading": "八、為什麼她說不是單純 FUD：融資方式不同，股東結果不同"
     },
     {
-      "heading": "九、最新立場：她看的是等待 dilution cycle，而不是否定 AI data center",
       "body": [
         "到 2026 年 6 月，Serenity 對 $IREN 的語氣仍然偏負面。她說 $IREN holders 仍在 funding $6B ATM，股價相對去年 11 月仍停滯；也把 $IREN 當作她『警告說對了』的例子。這不是因為她否認 neocloud theme，而是她認為 IREN 的融資結構把 upside 從現有股東手中拿走。",
         "她也留下了一個可能重新變好的條件：等現有 holders 承擔 dilution cycle 後再考慮 long，可能比現在成為 ATM liquidity 更合理。換句話說，Serenity 對 $IREN 的最新框架不是永久否定公司，而是認為 timing 與 capital structure 決定了 current equity holders 的風險回報不吸引。"
       ],
       "citations": [
         {
-          "tweet_id": "2030706151667696055",
           "date": "2026-03-08",
-          "url": "https://x.com/aleabitoreddit/status/2030706151667696055",
+          "excerpt": "before going long",
           "label": "等待 dilution cycle",
-          "excerpt": "before going long"
+          "tweet_id": "2030706151667696055",
+          "url": "https://x.com/aleabitoreddit/status/2030706151667696055"
         },
         {
-          "tweet_id": "2067260268166713561",
           "date": "2026-06-17",
-          "url": "https://x.com/aleabitoreddit/status/2067260268166713561",
+          "excerpt": "funding the $6,000,000,000 ATM",
           "label": "最新對比 NBIS",
-          "excerpt": "funding the $6,000,000,000 ATM"
+          "tweet_id": "2067260268166713561",
+          "url": "https://x.com/aleabitoreddit/status/2067260268166713561"
         }
-      ]
+      ],
+      "heading": "九、最新立場：她看的是等待 dilution cycle，而不是否定 AI data center"
     },
     {
-      "heading": "十、今日如何理解 Serenity 的 IREN thesis",
       "body": [
         "如果只看 early posts，$IREN 是 neocloud / AI datacenter 的高 beta upside play；如果只看 latest posts，$IREN 像是 ATM dilution 的反面教材。完整看下來，Serenity 真正想表達的是：investment thesis 不是只看公司方向對不對，也要看融資方式、股本結構、股東承擔的成本。",
         "因此 $IREN 在 Serenity 框架裡是一個非常有教育意義的案例。AI data center demand 可能是真的，GW capacity 可能有價值，甚至公司最後可能成功；但如果 financing structure 把 upside 用稀釋轉移出去，現有股東就不一定能分享成果。這就是她為什麼從 early bullish 轉成 later bearish。"
       ],
       "citations": [
         {
-          "tweet_id": "2030360849689497659",
           "date": "2026-03-07",
-          "url": "https://x.com/aleabitoreddit/status/2030360849689497659",
+          "excerpt": "I was long $IREN",
           "label": "曾經 long，但 thesis changed",
-          "excerpt": "I was long $IREN"
+          "tweet_id": "2030360849689497659",
+          "url": "https://x.com/aleabitoreddit/status/2030360849689497659"
         },
         {
-          "tweet_id": "2063571485739106593",
           "date": "2026-06-07",
-          "url": "https://x.com/aleabitoreddit/status/2063571485739106593",
+          "excerpt": "toxic financing structure",
           "label": "toxic financing structure",
-          "excerpt": "toxic financing structure"
+          "tweet_id": "2063571485739106593",
+          "url": "https://x.com/aleabitoreddit/status/2063571485739106593"
         }
-      ]
+      ],
+      "heading": "十、今日如何理解 Serenity 的 IREN thesis"
     }
   ],
-  "final_takeaway": [
-    "Serenity 的 $IREN thesis 是一個明確的立場轉變案例：早期看多 neocloud / GW capacity / possible hyperscaler deal，後來因 GPU pivot 與 $6B ATM 轉為看空現有持有人。",
-    "她不是否認 IREN 作為公司可能成功，而是認為公司成功不等於 current shareholders 成功；如果 ATM 稀釋成為主要融資方式，股東可能只是替 buildout 提供 liquidity。",
-    "對讀者最重要的啟發是：AI infrastructure thesis 不能只看 demand 和 capacity，也要看 capital structure、融資方式、selling pressure、以及每一美元成長是否真的回到每股價值。"
-  ],
-  "quality_notes": {
-    "reference_article_parity": [
-      "本報告刻意重建 Serenity 從早期 bullish 到後期 bearish 的完整時間線，而不是只截取最新結論。",
-      "IREN 是 report lifecycle 中的 material thesis changed 範例，適合用來測試後續自動更新 / 重新生成規則。"
-    ],
-    "known_limits": [
-      "本報告只使用本地資料庫中 Serenity 的公開貼文，不加入外部公司資料或最新財報。",
-      "IREN 相關貼文數量很大，引用以 thesis 轉折點與高信號貼文為主。"
-    ]
-  },
   "source_posts_used": [
     {
-      "tweet_id": "1963203275005858261",
       "date": "2025-09-03",
+      "tweet_id": "1963203275005858261",
       "url": "https://x.com/aleabitoreddit/status/1963203275005858261"
     },
     {
-      "tweet_id": "1967448919467864526",
       "date": "2025-09-15",
+      "tweet_id": "1967448919467864526",
       "url": "https://x.com/aleabitoreddit/status/1967448919467864526"
     },
     {
-      "tweet_id": "1971599988204634554",
       "date": "2025-09-26",
+      "tweet_id": "1971599988204634554",
       "url": "https://x.com/aleabitoreddit/status/1971599988204634554"
     },
     {
-      "tweet_id": "1972016308662513748",
       "date": "2025-09-27",
+      "tweet_id": "1972016308662513748",
       "url": "https://x.com/aleabitoreddit/status/1972016308662513748"
     },
     {
-      "tweet_id": "1972339422277615780",
       "date": "2025-09-28",
+      "tweet_id": "1972339422277615780",
       "url": "https://x.com/aleabitoreddit/status/1972339422277615780"
     },
     {
-      "tweet_id": "1973801383355953192",
       "date": "2025-10-02",
+      "tweet_id": "1973801383355953192",
       "url": "https://x.com/aleabitoreddit/status/1973801383355953192"
     },
     {
-      "tweet_id": "1975974445782348070",
       "date": "2025-10-08",
+      "tweet_id": "1975974445782348070",
       "url": "https://x.com/aleabitoreddit/status/1975974445782348070"
     },
     {
-      "tweet_id": "1979976235825635419",
       "date": "2025-10-19",
+      "tweet_id": "1979976235825635419",
       "url": "https://x.com/aleabitoreddit/status/1979976235825635419"
     },
     {
-      "tweet_id": "1982428584431251483",
       "date": "2025-10-26",
+      "tweet_id": "1982428584431251483",
       "url": "https://x.com/aleabitoreddit/status/1982428584431251483"
     },
     {
-      "tweet_id": "1982477197844898027",
       "date": "2025-10-26",
+      "tweet_id": "1982477197844898027",
       "url": "https://x.com/aleabitoreddit/status/1982477197844898027"
     },
     {
-      "tweet_id": "2029524132568994011",
       "date": "2026-03-05",
+      "tweet_id": "2029524132568994011",
       "url": "https://x.com/aleabitoreddit/status/2029524132568994011"
     },
     {
-      "tweet_id": "2029993746658643978",
       "date": "2026-03-06",
+      "tweet_id": "2029993746658643978",
       "url": "https://x.com/aleabitoreddit/status/2029993746658643978"
     },
     {
-      "tweet_id": "2030357884199129395",
       "date": "2026-03-07",
+      "tweet_id": "2030357884199129395",
       "url": "https://x.com/aleabitoreddit/status/2030357884199129395"
     },
     {
-      "tweet_id": "2030360849689497659",
       "date": "2026-03-07",
+      "tweet_id": "2030360849689497659",
       "url": "https://x.com/aleabitoreddit/status/2030360849689497659"
     },
     {
-      "tweet_id": "2030700123433619875",
       "date": "2026-03-08",
+      "tweet_id": "2030700123433619875",
       "url": "https://x.com/aleabitoreddit/status/2030700123433619875"
     },
     {
-      "tweet_id": "2030705320063041564",
       "date": "2026-03-08",
+      "tweet_id": "2030705320063041564",
       "url": "https://x.com/aleabitoreddit/status/2030705320063041564"
     },
     {
-      "tweet_id": "2030706151667696055",
       "date": "2026-03-08",
+      "tweet_id": "2030706151667696055",
       "url": "https://x.com/aleabitoreddit/status/2030706151667696055"
     },
     {
-      "tweet_id": "2031785810052465078",
       "date": "2026-03-11",
+      "tweet_id": "2031785810052465078",
       "url": "https://x.com/aleabitoreddit/status/2031785810052465078"
     },
     {
-      "tweet_id": "2032198562877227199",
       "date": "2026-03-12",
+      "tweet_id": "2032198562877227199",
       "url": "https://x.com/aleabitoreddit/status/2032198562877227199"
     },
     {
-      "tweet_id": "2063571485739106593",
       "date": "2026-06-07",
+      "tweet_id": "2063571485739106593",
       "url": "https://x.com/aleabitoreddit/status/2063571485739106593"
     },
     {
-      "tweet_id": "2067260268166713561",
       "date": "2026-06-17",
+      "tweet_id": "2067260268166713561",
       "url": "https://x.com/aleabitoreddit/status/2067260268166713561"
     }
-  ]
+  ],
+  "subtitle": "這是一個 thesis material changed 的案例：Serenity 早期看好 IREN 的 GW capacity 與 hyperscaler deal optionality，但後來因 $6B ATM、GPU pivot 與股東稀釋風險而轉向明確看空現有持有人。",
+  "ticker": "IREN",
+  "title": "Serenity 的 $IREN 論點：從 Neocloud 潛力股到 ATM 稀釋警示"
 }
