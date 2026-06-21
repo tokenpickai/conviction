@@ -90,7 +90,7 @@ LANG=(LANG_ARG or 'zh').lower()
 STR={
  'en':{
   'doc_title':"@aleabitoreddit — Serenity",'brand':"Serenity",
-  'nav_day':"Daily",'nav_week':"Weekly",'nav_month':"Monthly",'nav_quarter':"Quarterly",'nav_reports':"Reports",
+  'nav_day':"Daily",'nav_week':"Weekly",'nav_month':"Monthly",'nav_quarter':"Quarterly",'nav_reports':"Thesis",
   'disc_main':"Aggregation and tracking of public posts, summarized automatically by AI. It may contain errors or omissions and is not guaranteed accurate — always refer to the original posts and verify independently. This tracker does not constitute investment advice of any kind.",
   'disc_detail_top':"Stock detail · Aggregates the account's public posts only — not investment advice",
   'disc_chart':"Information aggregation only — not investment advice.",
@@ -154,7 +154,7 @@ STR={
  },
  'zh':{
   'doc_title':"@aleabitoreddit — Serenity",'brand':"Serenity",
-  'nav_day':"每日",'nav_week':"每週",'nav_month':"每月",'nav_quarter':"每季",'nav_reports':"報告",
+  'nav_day':"每日",'nav_week':"每週",'nav_month':"每月",'nav_quarter':"每季",'nav_reports':"投資論點",
   'disc_main':"公開貼文的整理與追蹤，由 AI 自動歸納，可能存在錯誤或遺漏；請以原文為準並自行核實。本追蹤不構成任何投資建議。",
   'disc_detail_top':"個股詳情 · 僅整理 Serenity 的公開貼文，不構成投資建議",
   'disc_chart':"僅供資訊整理，不構成投資建議。",
@@ -333,7 +333,7 @@ def report_update_pill(s):
             fresh=' fresh'
     except Exception:
         pass
-    return f'<span class="updchip{fresh}"><i class="fa-solid fa-file-lines"></i> 報告更新 {d}</span>'
+    return f'<span class="updchip{fresh}"><i class="fa-solid fa-file-lines"></i> 論點更新 {d}</span>'
 def ymd(d):return d.strftime('%Y-%m-%d') if d else '—'
 def co_of(s):return STOCK.get(s,{}).get('company') or s
 def ind_of(s):return STOCK.get(s,{}).get('industry') or ''
@@ -744,17 +744,17 @@ def reports_section():
     else:
         fhtml='<div class="ops-empty">目前沒有 report generation failure。</div>'
     return f'''<section id="reports" class="period-sec">
-<div class="sec"><div class="sechd"><div class="st">{t('nav_reports')}</div><div class="datepill">report ops</div>
+<div class="sec"><div class="sechd"><div class="st">{t('nav_reports')}</div><div class="datepill">memo ops</div>
 <div class="sn"><span class="cnt">已發布 {len(REPORTS)} 份 · 待生成 {summary.get('needs_report',0)} 份 · 待更新 {len(updates_due)} 份</span><span class="upd">{t('updated',date=UPDATE_STAMP)}</span></div></div>
-<div class="subhd"><i class="fa-solid fa-chevron-down"></i> 報告生成與品質檢查</div></div>
+<div class="subhd"><i class="fa-solid fa-chevron-down"></i> 投資論點生成與品質檢查</div></div>
 <div class="daypad">
 <div class="ops-grid">
-<div class="ops-card"><span>已發布報告</span><b>{len(REPORTS)}</b></div>
+<div class="ops-card"><span>已發布論點</span><b>{len(REPORTS)}</b></div>
 <div class="ops-card"><span>待生成</span><b>{summary.get('needs_report',0)}</b></div>
 <div class="ops-card"><span>候選觀察</span><b>{summary.get('candidate',0)}</b></div>
 <div class="ops-card"><span>失敗紀錄</span><b>{len(failures)}</b></div>
 </div>
-<div class="subhd" style="margin-top:24px"><i class="fa-solid fa-file-lines"></i> 已發布報告</div>
+<div class="subhd" style="margin-top:24px"><i class="fa-solid fa-file-lines"></i> 已發布投資論點</div>
 <div class="ops-table-wrap"><table class="ops-table"><thead><tr><th>標的</th><th>標題</th><th>覆蓋至</th><th>生成日</th><th>段落</th><th>引用</th><th>狀態</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div>
 <div class="subhd" style="margin-top:24px"><i class="fa-solid fa-list-check"></i> 下一批候選</div>
 <div class="ops-table-wrap"><table class="ops-table"><thead><tr><th>標的</th><th>公司</th><th>優先</th><th>分數</th><th>提及</th><th>最近</th></tr></thead><tbody>{''.join(qrows)}</tbody></table></div>
@@ -1375,7 +1375,7 @@ function reportHtml(r,postMap,tk){
   var secs=(r.sections||[]).map(function(s){return '<section class="thesis-sec"><h3>'+esc(s.heading||'')+'</h3>'+paras(s.body)+cites(s.citations)+'</section>';}).join('');
   var summary=paras(r.one_minute_summary);
   var final=paras(r.final_takeaway);
-  return updateHtml()+'<article class="thesis"><div class="thesis-kicker">SERENITY $'+esc(tk)+' 投資論點報告</div><h2 class="thesis-title">'+glossText(r.title||'')+'</h2><div class="thesis-sub">'+glossText(r.subtitle||'')+'</div>'+(r.core_label?'<div class="thesis-core">'+glossText(r.core_label)+'</div>':'')+(summary?'<div class="thesis-summary">'+summary+'</div>':'')+secs+(final?'<section class="thesis-final"><h3>最後結論</h3>'+final+'</section>':'')+'</article>';
+  return updateHtml()+'<article class="thesis"><div class="thesis-kicker">SERENITY $'+esc(tk)+' 投資論點</div><h2 class="thesis-title">'+glossText(r.title||'')+'</h2><div class="thesis-sub">'+glossText(r.subtitle||'')+'</div>'+(r.core_label?'<div class="thesis-core">'+glossText(r.core_label)+'</div>':'')+(summary?'<div class="thesis-summary">'+summary+'</div>':'')+secs+(final?'<section class="thesis-final"><h3>最後結論</h3>'+final+'</section>':'')+'</article>';
 }
 function renderDD(tk){
   var d=window.DD_DATA&&DD_DATA[tk];
