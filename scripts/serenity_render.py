@@ -801,7 +801,7 @@ SHARED_CSS='''<style>
 .ops-table tr:last-child td{border-bottom:none}
 .ops-tk{font-family:var(--mono);font-weight:800;color:var(--ink);white-space:normal;line-height:1.55}
 .ops-title{color:var(--ink);line-height:1.45;overflow:hidden;text-overflow:ellipsis}
-.ops-num{font-family:var(--mono);text-align:right;color:var(--ink)}
+.ops-num{font-family:var(--mono);text-align:left;color:var(--ink)}
 .ops-status{display:inline-flex;border-radius:999px;padding:3px 8px;font-family:var(--mono);font-size:10.5px;font-weight:700;border:1px solid var(--line);white-space:nowrap}
 .ops-status.ok{background:var(--bull-bg);color:var(--bull);border-color:rgba(31,122,77,.18)}
 .ops-status.warn{background:#f3e7cc;color:#8a6a1f;border-color:rgba(138,106,31,.2)}
