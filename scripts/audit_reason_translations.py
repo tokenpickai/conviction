@@ -9,6 +9,7 @@ not have a `zhReasonText` mapping in the static renderer.
 """
 
 import argparse
+import json
 import re
 import sys
 from pathlib import Path
@@ -20,6 +21,7 @@ import serenity_render  # noqa: E402
 
 
 RENDERER = ROOT / "scripts" / "serenity_render.py"
+REASON_TRANSLATIONS = ROOT / "data" / "reason_translations.json"
 ASCII_WORD_RE = re.compile(r"\b[A-Za-z][A-Za-z0-9+\-/]{2,}\b")
 SINGLE_KEY_RE = re.compile(r"^\s*'((?:\\'|[^'])*)'\s*:", re.MULTILINE)
 DOUBLE_KEY_RE = re.compile(r'^\s*"((?:\\"|[^"])*)"\s*:', re.MULTILINE)
@@ -37,6 +39,9 @@ def load_translation_keys():
         keys.add(raw.replace("\\'", "'"))
     for raw in DOUBLE_KEY_RE.findall(text):
         keys.add(raw.replace('\\"', '"'))
+    if REASON_TRANSLATIONS.exists():
+        data = json.loads(REASON_TRANSLATIONS.read_text(encoding="utf-8"))
+        keys.update(str(k) for k in data)
     return keys
 
 

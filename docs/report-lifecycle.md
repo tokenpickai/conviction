@@ -132,6 +132,31 @@ To generate the next report from the queue:
 python scripts/generate_report_batch.py --limit 1
 ```
 
+To let the system choose the next ticker inside a topic cluster:
+
+```bash
+python scripts/generate_daily_report.py --cluster photonics
+```
+
+The command above previews the next selection without spending model credits. To generate one report and run the full guarded pipeline:
+
+```bash
+python scripts/generate_daily_report.py --cluster photonics --limit 1 --execute
+```
+
+The guarded pipeline:
+
+- selects the next ticker from the full decision list
+- generates the report
+- translates any new compact reason-panel snippets into `data/reason_translations.json`
+- refreshes report update candidates, queue, and decisions
+- validates reports
+- renders the dashboard
+- audits reason-panel translations
+- browser-smokes report pages
+
+The `daily-report` GitHub workflow can run this manually. Its schedule is guarded by the repo variable `AUTO_DAILY_REPORTS=true`, so scheduled generation stays off until explicitly enabled.
+
 To preview the next batch without spending API credits:
 
 ```bash

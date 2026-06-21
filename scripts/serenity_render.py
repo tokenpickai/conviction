@@ -55,6 +55,7 @@ for _f in glob.glob(os.path.join(DB,'stocks','*.json')):
 REPORT_QUEUE=_load_json(Path(DB).parent/'report_queue.json',{})
 REPORT_DECISIONS=_load_json(Path(DB).parent/'report_decisions.json',{})
 REPORT_FAILURES=_load_json(Path(DB).parent/'report_generation_failures.json',{})
+REASON_TRANSLATIONS=_load_json(Path(DB).parent/'reason_translations.json',{})
 
 # as-of date: first positional CLI arg (YYYY-MM-DD), ignoring --flags and their values; else latest mention date
 _skip=set()
@@ -1441,7 +1442,7 @@ function renderDD(tk){
   var themeText=zh&&themeZh[d.theme]?themeZh[d.theme]:esc(d.theme||'Other');
   var pill=d.stance==='bull'?'<span class="ddpill bull">'+(zh?Z.bull:I18N.stance_bull)+'</span>':d.stance==='bear'?'<span class="ddpill bear">'+(zh?Z.bear:I18N.stance_bear)+'</span>':d.stance==='shift'?'<span class="ddpill cw">'+(zh?Z.mixed:I18N.stance_mixed)+'</span>':d.stance==='none'?'<span class="ddpill neutral">'+(zh?Z.none:I18N.stance_none)+'</span>':'<span class="ddpill neutral">'+(zh?Z.neutral:I18N.stance_neutral)+'</span>';
   var split='<span class="tup"><i class="fa-solid fa-caret-up"></i></span>'+d.bull+' '+(zh?Z.bull:I18N.stance_bull)+' · <span class="tdn"><i class="fa-solid fa-caret-down"></i></span>'+d.bear+' '+(zh?Z.bear:I18N.stance_bear)+' · <span class="tnt"><i class="fa-solid fa-circle"></i></span>'+d.neu+' '+(zh?Z.neutral:I18N.stance_neutral);
-  function zhReasonText(s){var m={
+  function zhReasonText(s){if(AUTO_REASON_TRANSLATIONS&&AUTO_REASON_TRANSLATIONS[s])return AUTO_REASON_TRANSLATIONS[s];var m={
     'laser companies are his personal favorites':'Serenity 最偏好的方向是雷射公司',
     'huge revenue expansion potential beyond lasers into full optical modules, optical engines, and ELS components':'除了雷射之外，完整光通訊模組 (optical modules)、光引擎與 ELS 元件都有很大的收入擴張潛力',
     'most revenue ramp starts in H1/H2 2027, still very early stage':'多數收入爬坡 (volume ramp) 會從 2027 上半年 / 下半年開始，目前仍屬早期階段',
@@ -1672,8 +1673,9 @@ function qsort(k,th){var tb=document.getElementById('qtbl').tBodies[0];var rows=
 syncTickerRoute();
 </script>'''
     overlay='<div id="ddPage"><div id="ddBody"></div></div>'
+    reason_translations_js='<script>var AUTO_REASON_TRANSLATIONS='+json.dumps(REASON_TRANSLATIONS,ensure_ascii=False)+';</script>'
     dddata='<script>var DD_DATA='+json.dumps(dd_data(),ensure_ascii=False)+';</script>'
-    body=f'<body>\n{nav}\n<div class="main">\n{secs}\n</div>\n{overlay}\n{i18n_js}\n{dddata}\n{script}\n</body></html>'
+    body=f'<body>\n{nav}\n<div class="main">\n{secs}\n</div>\n{overlay}\n{i18n_js}\n{reason_translations_js}\n{dddata}\n{script}\n</body></html>'
     suffix='' if (LANG_ARG is None or LANG=='zh') else f'-{LANG}'
     out_name=f'serenity-tracker-{DAY.isoformat()}{suffix}.html'
     open(out_name,'w',encoding='utf-8').write(head+body)

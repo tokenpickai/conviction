@@ -1,0 +1,70 @@
+name: daily-report
+
+on:
+  schedule:
+    - cron: "42 10 * * *"
+  workflow_dispatch:
+    inputs:
+      cluster:
+        description: "Report cluster to process"
+        required: true
+        default: "photonics"
+        type: choice
+        options:
+          - photonics
+          - neocloud
+          - memory
+      limit:
+        description: "Number of reports to generate"
+        required: true
+        default: "1"
+      execute:
+        description: "Generate reports instead of previewing"
+        required: true
+        default: true
+        type: boolean
+
+concurrency:
+  group: daily-report
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: ${{ github.event_name == 'workflow_dispatch' || vars.AUTO_DAILY_REPORTS == 'true' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m pip install playwright
+          python -m playwright install chromium
+
+      - name: Generate daily report
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          cluster="${{ github.event.inputs.cluster || 'photonics' }}"
+          limit="${{ github.event.inputs.limit || '1' }}"
+          execute="${{ github.event.inputs.execute || 'true' }}"
+          cmd=(python scripts/generate_daily_report.py --cluster "$cluster" --limit "$limit")
+          if [ "$execute" = "true" ]; then
+            cmd+=(--execute)
+          fi
+          "${cmd[@]}"
+
+      - name: Commit generated report
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Generate daily report $(date -u +%Y-%m-%d)"
+          git push
