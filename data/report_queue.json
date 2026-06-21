@@ -561,6 +561,147 @@
       ]
     },
     {
+      "company": "Cipher Mining",
+      "evidence": [
+        {
+          "date": "2026-01-24",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "remain long on colo and neocloud sector",
+            "lot of upside remains"
+          ],
+          "score": 200,
+          "stance": "bullish",
+          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
+          "tweet_id": "2015096496019112151",
+          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
+        },
+        {
+          "date": "2025-11-20",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "second favorite stock in Neocloud sector",
+            "avoids GPU procurement, management, and depreciation risk",
+            "backing from AMZN and GOOGL for long term revenue anchors",
+            "high-margin annuity structure built on space, power, and cooling for hyperscalers"
+          ],
+          "score": 183,
+          "stance": "bullish",
+          "text_preview": "Based on the equity ranking table: Here's a deeper analysis of each stock, alongside how I reposition my portfolio to capitalize on the market reset: · $NBIS at $92, PT $400 / 1Y · $RKLB at $43, PT $500 / 5Y · $CRCL at…",
+          "tweet_id": "1991452423186182524",
+          "url": "https://x.com/aleabitoreddit/status/1991452423186182524"
+        },
+        {
+          "date": "2025-12-10",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "not affected by GPU depreciation arguments - colo models",
+            "backstopped by google",
+            "contracts with Amazon - fundamentally disrisked",
+            "one of top buys in neocloud sector"
+          ],
+          "score": 182,
+          "stance": "bullish",
+          "text_preview": "Post-Fed Interest Rate 25BPS cut. December 11th ratings: Strong Buy: $CRCL $COIN $AMKR $CRDO $IBIT $MSTR $AMZN $SMCI $TSM $TSSI Sk Hynix $SNAP Samsung Electronics $ALAB $META $NBIS $CIFR Buy: $KRUS $AVGO $NFLX $KRKNF $H…",
+          "tweet_id": "1998846813177262295",
+          "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
+        },
+        {
+          "date": "2026-01-02",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "datacenter space extremely sold off after Oracle/OpenAI fears",
+            "capex spend fears de-risked by OpenAI raising $40B",
+            "huge recovery play/ramp for neoclouds sector"
+          ],
+          "score": 157,
+          "stance": "bullish",
+          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
+          "tweet_id": "2007071108831338685",
+          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
+        },
+        {
+          "date": "2025-10-11",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "Neocloud trade",
+            "like Meta X CRWV",
+            "more details likely to come soon",
+            "funding round backstopped by GOOGL via Fluidstack"
+          ],
+          "score": 150,
+          "stance": "bullish",
+          "text_preview": "Based Friday Market Close (-3.6% SPY day), Thoughts and Explanations Strong Buy $IBIT $LTC $WLAC $NBIS $MP $TSM (For Next Year) $ETOR $DKNG $SNAP Buy $UPWK $CRDO $ALAB $AMZN $META $UNH $SG $TGT $BULL $FLY $CIFR $WULF $I…",
+          "tweet_id": "1977079938835718513",
+          "url": "https://x.com/aleabitoreddit/status/1977079938835718513"
+        },
+        {
+          "date": "2025-11-14",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "$5.5B Colo deal with AMZN",
+            "$3B deal with GOOGL",
+            "$1.2B in cash",
+            "isolated from credit market volatility"
+          ],
+          "score": 140,
+          "stance": "bullish",
+          "text_preview": "We're seeing a live crash in AI + DC stocks right now with $IREN down 37.88% this week to $NBIS down 35.27% this month. Panic stems from Credit Tightening, High Interest Debt, OpenAI contagion, Macro, and most important…",
+          "tweet_id": "1989352983348589023",
+          "url": "https://x.com/aleabitoreddit/status/1989352983348589023"
+        }
+      ],
+      "explicit_stance_posts": 144,
+      "first_mention": "2025-09-03",
+      "has_report": true,
+      "high_conviction_posts": 23,
+      "industry": "Bitcoin Miner/AI Datacenter",
+      "last_mention": "2026-06-11",
+      "market": "US",
+      "priority": "none",
+      "report_score": 3317,
+      "risk_posts": 12,
+      "signal_terms": [
+        "allocation",
+        "amazon",
+        "amd",
+        "amzn",
+        "ban",
+        "bearish",
+        "bottleneck",
+        "capacity",
+        "chokepoint",
+        "confirmed",
+        "conviction",
+        "dilution",
+        "export control",
+        "favorite",
+        "highest conviction",
+        "holding",
+        "hyperscaler",
+        "lawsuit"
+      ],
+      "stance_counts": {
+        "bearish": 10,
+        "bullish": 140,
+        "neutral": 52
+      },
+      "status": "has_report",
+      "substantive_posts": 176,
+      "ticker": "CIFR",
+      "total_mentions": 202,
+      "unique_mention_days": 78,
+      "why": [
+        "202 total mentions across 78 days",
+        "144 explicit stance posts",
+        "176 substantive thesis-like posts",
+        "23 high-conviction mentions",
+        "12 risk/caution posts",
+        "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
+        "latest mention 2026-06-11"
+      ]
+    },
+    {
       "company": "Applied Optoelectronics",
       "evidence": [
         {
@@ -701,147 +842,6 @@
     }
   ],
   "next_reports": [
-    {
-      "company": "Cipher Mining",
-      "evidence": [
-        {
-          "date": "2026-01-24",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "remain long on colo and neocloud sector",
-            "lot of upside remains"
-          ],
-          "score": 200,
-          "stance": "bullish",
-          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
-          "tweet_id": "2015096496019112151",
-          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
-        },
-        {
-          "date": "2025-11-20",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "second favorite stock in Neocloud sector",
-            "avoids GPU procurement, management, and depreciation risk",
-            "backing from AMZN and GOOGL for long term revenue anchors",
-            "high-margin annuity structure built on space, power, and cooling for hyperscalers"
-          ],
-          "score": 183,
-          "stance": "bullish",
-          "text_preview": "Based on the equity ranking table: Here's a deeper analysis of each stock, alongside how I reposition my portfolio to capitalize on the market reset: · $NBIS at $92, PT $400 / 1Y · $RKLB at $43, PT $500 / 5Y · $CRCL at…",
-          "tweet_id": "1991452423186182524",
-          "url": "https://x.com/aleabitoreddit/status/1991452423186182524"
-        },
-        {
-          "date": "2025-12-10",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "not affected by GPU depreciation arguments - colo models",
-            "backstopped by google",
-            "contracts with Amazon - fundamentally disrisked",
-            "one of top buys in neocloud sector"
-          ],
-          "score": 182,
-          "stance": "bullish",
-          "text_preview": "Post-Fed Interest Rate 25BPS cut. December 11th ratings: Strong Buy: $CRCL $COIN $AMKR $CRDO $IBIT $MSTR $AMZN $SMCI $TSM $TSSI Sk Hynix $SNAP Samsung Electronics $ALAB $META $NBIS $CIFR Buy: $KRUS $AVGO $NFLX $KRKNF $H…",
-          "tweet_id": "1998846813177262295",
-          "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
-        },
-        {
-          "date": "2026-01-02",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "datacenter space extremely sold off after Oracle/OpenAI fears",
-            "capex spend fears de-risked by OpenAI raising $40B",
-            "huge recovery play/ramp for neoclouds sector"
-          ],
-          "score": 157,
-          "stance": "bullish",
-          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
-          "tweet_id": "2007071108831338685",
-          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
-        },
-        {
-          "date": "2025-10-11",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "Neocloud trade",
-            "like Meta X CRWV",
-            "more details likely to come soon",
-            "funding round backstopped by GOOGL via Fluidstack"
-          ],
-          "score": 150,
-          "stance": "bullish",
-          "text_preview": "Based Friday Market Close (-3.6% SPY day), Thoughts and Explanations Strong Buy $IBIT $LTC $WLAC $NBIS $MP $TSM (For Next Year) $ETOR $DKNG $SNAP Buy $UPWK $CRDO $ALAB $AMZN $META $UNH $SG $TGT $BULL $FLY $CIFR $WULF $I…",
-          "tweet_id": "1977079938835718513",
-          "url": "https://x.com/aleabitoreddit/status/1977079938835718513"
-        },
-        {
-          "date": "2025-11-14",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "$5.5B Colo deal with AMZN",
-            "$3B deal with GOOGL",
-            "$1.2B in cash",
-            "isolated from credit market volatility"
-          ],
-          "score": 140,
-          "stance": "bullish",
-          "text_preview": "We're seeing a live crash in AI + DC stocks right now with $IREN down 37.88% this week to $NBIS down 35.27% this month. Panic stems from Credit Tightening, High Interest Debt, OpenAI contagion, Macro, and most important…",
-          "tweet_id": "1989352983348589023",
-          "url": "https://x.com/aleabitoreddit/status/1989352983348589023"
-        }
-      ],
-      "explicit_stance_posts": 144,
-      "first_mention": "2025-09-03",
-      "has_report": false,
-      "high_conviction_posts": 23,
-      "industry": "Bitcoin Miner/AI Datacenter",
-      "last_mention": "2026-06-11",
-      "market": "US",
-      "priority": "high",
-      "report_score": 3317,
-      "risk_posts": 12,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "amzn",
-        "ban",
-        "bearish",
-        "bottleneck",
-        "capacity",
-        "chokepoint",
-        "confirmed",
-        "conviction",
-        "dilution",
-        "export control",
-        "favorite",
-        "highest conviction",
-        "holding",
-        "hyperscaler",
-        "lawsuit"
-      ],
-      "stance_counts": {
-        "bearish": 10,
-        "bullish": 140,
-        "neutral": 52
-      },
-      "status": "needs_report",
-      "substantive_posts": 176,
-      "ticker": "CIFR",
-      "total_mentions": 202,
-      "unique_mention_days": 78,
-      "why": [
-        "202 total mentions across 78 days",
-        "144 explicit stance posts",
-        "176 substantive thesis-like posts",
-        "23 high-conviction mentions",
-        "12 risk/caution posts",
-        "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
-        "latest mention 2026-06-11"
-      ]
-    },
     {
       "company": "CoreWeave",
       "evidence": [
@@ -31002,14 +31002,14 @@
       ]
     }
   ],
-  "reports_available": 5,
+  "reports_available": 6,
   "stocks_scanned": 969,
   "stocks_skipped": 712,
   "summary": {
     "candidate": 68,
-    "has_report": 5,
+    "has_report": 6,
     "needs_regeneration": 0,
-    "needs_report": 184,
+    "needs_report": 183,
     "needs_update": 0
   },
   "updates_due": []

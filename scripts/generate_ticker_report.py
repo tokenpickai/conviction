@@ -24,7 +24,7 @@ DEFAULT_MAX_ITEMS = 18
 DEFAULT_TEXT_LIMIT = 650
 DEFAULT_MAX_TOKENS = 6500
 DEFAULT_TIMEOUT = 120
-FAST_SYSTEM_PROMPT = """你是一位投資研究寫手。請根據 Serenity（@aleabitoreddit）的公開 X 貼文，為指定股票產生一版可靠的繁體中文 thesis report v1。
+FAST_SYSTEM_PROMPT = """你是一位投資研究寫手。請根據 Serenity（@aleabitoreddit）的公開 X 貼文，為指定股票產生一版可靠的繁體中文 flagship thesis report。
 
 要求：
 - 只根據提供的貼文證據，不要補外部資料。
@@ -32,8 +32,9 @@ FAST_SYSTEM_PROMPT = """你是一位投資研究寫手。請根據 Serenity（@a
 - 寫得清楚、像人工整理，不要像機械摘要。
 - 嚴格避免投資建議措辭。
 - 輸出 ONLY valid JSON，不要 markdown fence。
-- 請嚴格控制長度：one_minute_summary 正好 3 條；sections 正好 5 段；每段 body 正好 1 個段落；每段最多 2 個 citations；final_takeaway 正好 2 條。
+- 請嚴格控制長度：one_minute_summary 正好 3 條；sections 正好 8 段；每段 body 正好 1 個段落；每段至少 1 個、最多 2 個 citations；final_takeaway 正好 2 條。
 - 每個 body 段落請控制在 180 個中文字以內，避免輸出被截斷。
+- 不要使用「草稿」「初稿」「v1」「draft」等字眼。
 
 JSON schema:
 {
@@ -280,16 +281,20 @@ def build_fast_prompt(stock, mentions, text_limit=650):
         "target_shape": [
             "一、Serenity 最初如何看這檔股票",
             "二、核心 thesis 是什麼",
-            "三、供應鏈位置與產業邏輯",
-            "四、哪些貼文提高或驗證了 thesis",
-            "五、風險、反方與今日如何理解"
+            "三、公司 / 資產到底提供什麼能力",
+            "四、供應鏈位置與產業邏輯",
+            "五、哪些貼文提高或驗證了 thesis",
+            "六、Serenity 如何比較同類標的",
+            "七、風險、反方與需要驗證的地方",
+            "八、今日如何理解這份 thesis"
         ],
     }
     return (
-        "請生成一版 concise but high-quality report v1。"
-        "請嚴格寫 5 個 sections，每個 section 的 body 只能有 1 個段落。"
+        "請生成一版 concise but high-quality flagship report。"
+        "請嚴格寫 8 個 sections，每個 section 的 body 只能有 1 個段落。"
         "每個 section 至少附 1 個、最多 2 個 citations，優先引用最關鍵 tweet_id。"
-        "不要超過 schema 指定長度，務必輸出完整 valid JSON。\n\n"
+        "不要超過 schema 指定長度，務必輸出完整 valid JSON。"
+        "不要使用「草稿」「初稿」「v1」「draft」等字眼。\n\n"
         + json.dumps(payload, ensure_ascii=False, indent=2)
     )
 

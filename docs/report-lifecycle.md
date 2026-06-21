@@ -290,6 +290,13 @@ Set it to the latest Serenity post date that was considered while writing the re
 
 Before full automation, use a manual review workflow:
 
+```bash
+python scripts/generate_next_report.py --dry-run
+python scripts/generate_next_report.py
+```
+
+`generate_next_report.py` selects the top eligible `needs_report` ticker from `data/report_queue.json`, writes the model output to a temporary draft, validates it, and only then publishes it into `data/reports`. If generation or validation fails, it records the error in `data/report_generation_failures.json` instead of publishing a broken report.
+
 1. Pick one ticker with enough post history.
 2. Export or inspect all Serenity posts mentioning that ticker.
 3. Decide whether it is a candidate, update, or regeneration case.
