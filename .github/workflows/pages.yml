@@ -46,6 +46,7 @@ jobs:
       - name: Render dashboard
         run: |
           python scripts/serenity_render.py
+          python scripts/audit_reason_translations.py
           mkdir -p public
           latest="$(ls -t serenity-tracker-*.html | head -n 1)"
           cp "$latest" public/index.html

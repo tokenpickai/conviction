@@ -476,7 +476,9 @@ def dd_data():
                    'unlock','damaging','hurt','hurts','dragged','stagnant','correlation','bitcoin exposure',
                    'liquidity','multi-sourcing','delayed','execution','concern','too high','not hold',
                    'red flag','exposure','contagion','bubble','bubbles','eaten alive','regulating away',
-                   'lower supply','gov','government','share increase','refining','precursors')
+                   'lower supply','gov','government','share increase','refining','precursors',
+                   'uncertain','lack','lacks','would lack','export controlled','capacity issues',
+                   'potential issues','priced in','premium','overextended')
             return any(t in hay for t in terms)
         def collect(want_risk,want_stance,capn):
             seen=set(); res=[]
@@ -1601,13 +1603,31 @@ function renderDD(tk){
     'expects significant rerate if higher confidence mapping to NVDA CPO ecosystem is released':'如果釋出與 NVDA CPO ecosystem 更高信心的 mapping，Serenity 預期可能明顯 rerate',
     'laser supplier for next gen architectures, not just CPO scale up':'不只是 CPO scale up，而是下一代架構的雷射供應商',
     'Sivers and Jabil developed 1.6T optical transceivers with CW lasers designing around EML bottlenecks':'Sivers 與 Jabil 開發 1.6T optical transceivers，用 CW lasers 繞開 EML 瓶頸',
-    'Jabil management says they created a \\'relatively dramatic moat\\'':'Jabil 管理層稱其建立了「相當明顯的 moat」',
+    "Jabil management says they created a 'relatively dramatic moat'":'Jabil 管理層稱其建立了「相當明顯的 moat」',
     'immediately used for next gen 1.6T pluggable transceivers':'可立即用於下一代 1.6T 可插拔 transceivers',
     'probably one of the better names to invest in':'Serenity 認為這可能是較好的投資標的之一',
     'probably better ROI than a depreciating car':'Serenity 開玩笑說，ROI 可能比折舊的車更好',
     'upstream ecosystem from hyperscaler AI buildout should go brrr':'超大規模雲端 AI buildout 的上游 ecosystem 可能持續受益',
     'pushing hard CoPoS':'TSMC 正積極推動 CoPoS',
-    'VisEra/others might go brrr earlier than expected':'VisEra 等供應鏈可能比預期更早受益'
+    'VisEra/others might go brrr earlier than expected':'VisEra 等供應鏈可能比預期更早受益',
+    'long idea that played out well':'長線 thesis 已經驗證得不錯',
+    "doesn't see a bubble in upstream semiconductors":'Serenity 不認為上游半導體已經形成泡沫',
+    'profit from buildout would be insane to make up for capex decreasing':'即使 capex 增速下降，AI buildout 帶來的利潤仍可能非常可觀',
+    'InP substrate export easing relieves mass production bottlenecks':'InP substrate 出口放寬，緩解量產瓶頸',
+    'part of his optical positions':'Serenity 光通訊 / photonics 部位之一',
+    'core high conviction idea from 2025':'2025 年的核心高信心 idea 之一',
+    'price appreciation from $330 to $904':'股價從約 330 美元上漲到 904 美元，驗證原 thesis',
+    'CPO scale up optical products shipping H2 2027':'CPO scale-up optical products 預計 2027 下半年出貨',
+    'formal ramp up in 2028':'正式放量預計在 2028 年',
+    'no delays, aligns with previous timelines':'目前沒有延遲，與先前時程一致',
+    'needs to buy the substrates':'仍需要外部採購 substrates',
+    'uncertain near-term supply chain impact':'短期供應鏈影響仍不確定',
+    'would lack InP to produce opticals for GOOGL TPU Ironwood':'若 InP 供應受限，可能缺少生產 GOOGL TPU Ironwood opticals 所需材料',
+    'sold photonic positions short term':'Serenity 短期賣出 photonics 部位',
+    'Sumitomo export controlled causing capacity issues downstream':'Sumitomo 出口管制可能造成下游產能問題',
+    'sold positions at ~$385':'Serenity 約在 385 美元附近賣出部位',
+    'found some potential issues in internal research':'內部研究發現一些潛在問題',
+    'already priced in with a premium':'估值已經反映相當高的 premium'
   };return m[s]||s;}
   function mkR(a,empty,cls){if(!a||!a.length)return '<li class="empty">'+empty+'</li>';return a.map(function(r){return '<li><span class="rdot '+cls+'"></span><span class="rt">'+(zh?glossText(zhReasonText(r[0])):esc(r[0]))+'</span><a class="rsrc" href="'+r[1]+'" target="_blank" rel="noopener">'+r[2]+' <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>';}).join('');}
   function postTag(t){if(!zh)return t.tag;var m={'Bullish':Z.bull,'Bearish':Z.bear,'Neutral':Z.neutral,'Background':Z.background,'Analogy':Z.analogy,'Quote':Z.quote,'Mention':Z.mention};return m[t.tag]||t.tag;}

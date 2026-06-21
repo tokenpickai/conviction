@@ -36,6 +36,9 @@ jobs:
       - name: Validate reports
         run: python scripts/validate_reports.py
 
+      - name: Audit reason translations
+        run: python scripts/audit_reason_translations.py
+
       - name: Browser smoke report pages
         run: python scripts/smoke_report_render.py
 
