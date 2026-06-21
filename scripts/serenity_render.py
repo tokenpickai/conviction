@@ -1176,8 +1176,8 @@ html{scroll-behavior:smooth}
 /* ===== 二级页:个股详情 ===== */
 #ddPage{display:none;position:fixed;inset:0;z-index:200;background:var(--paper);overflow-y:auto}
 #ddBody{max-width:1360px;margin:0 auto;padding:24px 40px 90px}
-.ddhead{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,420px);gap:22px;align-items:start;padding-bottom:8px;margin-bottom:0}
-.ddhl{min-width:0}
+.ddhead{display:block;padding-bottom:0;margin-bottom:0}
+.ddhl{min-width:0;max-width:980px}
 .ddhome{display:inline-flex;align-items:center;gap:6px;margin-bottom:12px;border:1px solid var(--line);background:transparent;color:var(--ink-faint);border-radius:999px;padding:5px 9px;font-size:12px;text-decoration:none;cursor:pointer}
 .ddhome:hover{color:var(--accent);border-color:rgba(29,155,240,.28);background:rgba(29,155,240,.05)}
 .ddhome i{font-size:11px}
@@ -1188,32 +1188,27 @@ html{scroll-behavior:smooth}
 .ddpills{margin-top:11px}
 .ddpill{font-size:11px;padding:3px 11px;border-radius:11px;font-weight:600}
 .ddpill.bull{background:var(--bull-bg);color:var(--bull)}.ddpill.bear{background:var(--bear-bg);color:var(--bear)}.ddpill.cw{background:#f3e7cc;color:#8a6a1f}.ddpill.neutral{background:var(--card);color:var(--ink-soft);border:1px solid var(--line)}
-.ddmeta{font-family:var(--mono);font-size:11.5px;color:var(--ink-faint);text-align:left;line-height:1.75;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px}.ddmeta b{color:var(--ink)}
-.ddmrow{display:flex;flex-wrap:wrap;gap:0 8px;justify-content:space-between}
-.ddsplit{margin-top:7px;padding-top:7px;border-top:1px solid var(--line)}.tup{color:var(--bull)}.tdn{color:var(--bear)}.tnt{color:var(--ink-faint)}
-.ddfreq{display:flex;gap:16px;justify-content:flex-start;margin-top:9px}
-.ddfreq .fc{display:flex;flex-direction:column;align-items:center}.ddfreq .fc i{font-style:normal;font-size:10px;color:var(--ink-faint)}.ddfreq .fc b{font-size:16px;color:var(--ink)}
-.ddrel{margin:10px 0 18px;padding:0 0 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:8px;flex-wrap:wrap;color:var(--ink-faint);font-size:12px}
+.ddmeta{display:flex;align-items:center;flex-wrap:wrap;gap:9px 17px;margin-top:17px;font-family:var(--mono);font-size:11.5px;color:var(--ink-faint);text-align:left;line-height:1.5}.ddmeta b{color:var(--ink);font-size:12.5px}
+.ddmi{display:inline-flex;align-items:baseline;gap:6px;white-space:nowrap}.ddmi i{font-style:normal;color:var(--ink-soft);font-family:var(--sans);font-weight:650}
+.ddsplit{display:inline-flex;align-items:center;gap:8px;color:var(--ink-soft)}.tup{color:var(--bull)}.tdn{color:var(--bear)}.tnt{color:var(--ink-faint)}
+.ddfreq{display:inline-flex;align-items:center;gap:12px}
+.ddfreq .fc{display:inline-flex;align-items:baseline;gap:4px}.ddfreq .fc i{font-style:normal;font-size:11px;color:var(--ink-soft);font-family:var(--sans);font-weight:650}.ddfreq .fc b{font-size:13px;color:var(--ink)}
+.ddrel{margin:20px 0 18px;padding:0 0 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:8px;flex-wrap:wrap;color:var(--ink-faint);font-size:12px}
 .ddrel-label{font-family:var(--mono);font-size:10.5px;font-weight:800;color:var(--ink-soft);letter-spacing:.02em}
 .ddrel button{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink-soft);font-family:var(--mono);font-size:11px;font-weight:800;padding:5px 9px;cursor:pointer}
 .ddrel button:hover{border-color:rgba(29,155,240,.32);background:rgba(29,155,240,.06);color:var(--accent)}
 .ddrel .mini-market{font-size:8.5px;font-weight:800;color:var(--ink-faint);border:1px solid var(--line);border-radius:999px;padding:0 4px;line-height:1.35}
-@media(max-width:980px){
-  .ddhead{grid-template-columns:1fr;gap:14px}
-  .ddmeta{max-width:520px}
-  .ddrel{margin-top:12px}
-}
 @media(max-width:600px){
-  .ddhead{gap:12px;padding-bottom:4px}
+  .ddhead{padding-bottom:4px}
   .ddhome{margin-bottom:10px;padding:5px 8px}
   .ddtk{font-size:27px;gap:6px}
   .ddco{font-size:12.5px;line-height:1.5}
   .ddpills{margin-top:9px}
-  .ddmeta{font-size:11px;padding:10px 11px;line-height:1.65}
-  .ddmrow{display:block}
-  .ddsplit{line-height:1.7}
-  .ddfreq{justify-content:space-between;gap:8px}
-  .ddfreq .fc{min-width:64px}
+  .ddmeta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 12px;margin-top:15px;font-size:11px}
+  .ddmi{display:flex;justify-content:space-between;gap:8px;min-width:0}
+  .ddsplit,.ddfreq{grid-column:1/-1}
+  .ddsplit{line-height:1.7;flex-wrap:wrap}
+  .ddfreq{justify-content:flex-start;gap:16px;flex-wrap:wrap}
   .ddrel{gap:7px;margin-bottom:16px;padding-bottom:14px}
   .ddrel-label{flex:0 0 100%}
   .ddrel button{font-size:10.5px;padding:5px 8px}
@@ -1699,7 +1694,7 @@ function renderDD(tk){
   var plistHtml='<div class="plist">'+_head.map(function(p){return postRow(p,false);}).join('')+(_rest.length?'<div id="ddRest">'+_rest.map(function(p){return postRow(p,true);}).join('')+'</div>':'')+'</div>'+(_rest.length?'<div class="ddmore" '+(zh?'data-zh="1" ':'')+'onclick="ddMore(this)">'+(zh?Z.showMore+' ('+_rest.length+') <i class="fa-solid fa-chevron-down"></i>':I('dd_view_all',{n:_rest.length}))+'</div>':'');
   document.getElementById('ddBody').innerHTML=
     '<div class="ddhead"><div class="ddhl"><button class="ddhome" type="button" onclick="ddHome()" aria-label="返回首頁"><i class="fa-solid fa-house"></i><span>首頁</span></button><div class="ddtk">'+tk+'<span class="market detail">'+esc(d.market||'')+'</span><span class="theme detail '+(d.theme==='Other'?'other':'')+'">'+themeText+'</span></div><div class="ddco">'+esc(d.co)+(d.industry?' · <span class="ddind">'+industryText+'</span>':'')+'</div><div class="ddpills">'+pill+'</div></div>'+
-    '<div class="ddmeta"><div class="ddmrow">'+(zh?Z.first:I18N.dd_first_mention)+' <b>'+d.first+'</b>　·　'+(zh?Z.last:I18N.dd_last_mention)+' <b>'+d.last+'</b></div><div class="ddmrow">'+(zh?Z.total:I18N.dd_total)+' <b>'+d.total+'</b>'+(I18N.count_unit?' '+I18N.count_unit:'')+'　·　'+(zh?Z.firstPx:I18N.dd_first_px)+' <b>'+firstPxTxt+'</b></div><div class="ddsplit">'+split+'</div><div class="ddfreq"><span class="fc"><i>'+(zh?Z.today:I18N.dd_today)+'</i><b>'+d.m_today+'</b></span><span class="fc"><i>'+I18N.freq_7d+'</i><b>'+d.m7+'</b></span><span class="fc"><i>'+I18N.freq_28d+'</i><b>'+d.m28+'</b></span></div></div></div>'+
+    '<div class="ddmeta"><span class="ddmi"><i>'+(zh?Z.first:I18N.dd_first_mention)+'</i><b>'+d.first+'</b></span><span class="ddmi"><i>'+(zh?Z.last:I18N.dd_last_mention)+'</i><b>'+d.last+'</b></span><span class="ddmi"><i>'+(zh?Z.total:I18N.dd_total)+'</i><b>'+d.total+(I18N.count_unit?' '+I18N.count_unit:'')+'</b></span><span class="ddmi"><i>'+(zh?Z.firstPx:I18N.dd_first_px)+'</i><b>'+firstPxTxt+'</b></span><span class="ddsplit">'+split+'</span><span class="ddfreq"><span class="fc"><i>'+(zh?Z.today:I18N.dd_today)+'</i><b>'+d.m_today+'</b></span><span class="fc"><i>'+I18N.freq_7d+'</i><b>'+d.m7+'</b></span><span class="fc"><i>'+I18N.freq_28d+'</i><b>'+d.m28+'</b></span></span></div></div>'+
     relatedHtml()+
     reportHtml(d.report,postMap,tk)+
     '<div class="charttitle"><h3>'+(zh?'$'+tk+' 自 Serenity 首次提及以來的股價走勢':'$'+tk+' price path since Serenity first mentioned it')+'</h3><p>'+(zh?'圓點標記 Serenity 發文，顏色代表立場。':'Dots mark Serenity posts by inferred stance.')+'</p></div>'+
