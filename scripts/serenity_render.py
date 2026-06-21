@@ -53,6 +53,7 @@ for _f in glob.glob(os.path.join(DB,'stocks','*.json')):
                         'text':m.get('text') or '','url':m.get('url') or '','eng':m.get('engagement') or {},
                         'text_may_be_truncated':m.get('text_may_be_truncated'),'media':m.get('media') or []})
 REPORT_QUEUE=_load_json(Path(DB).parent/'report_queue.json',{})
+REPORT_DECISIONS=_load_json(Path(DB).parent/'report_decisions.json',{})
 REPORT_FAILURES=_load_json(Path(DB).parent/'report_generation_failures.json',{})
 
 # as-of date: first positional CLI arg (YYYY-MM-DD), ignoring --flags and their values; else latest mention date
@@ -714,9 +715,53 @@ def _report_health(report):
         return ('warn','需複查')
     return ('bad','不足')
 
+def _decision_reason(item):
+    bits=[]
+    mentions=item.get('total_mentions')
+    days=item.get('unique_mention_days')
+    if mentions and days:
+        bits.append(f'累計 {mentions} 次提及，橫跨 {days} 天')
+    elif mentions:
+        bits.append(f'累計 {mentions} 次提及')
+    why=item.get('why') or []
+    for w in why:
+        m=re.search(r'(\d+)\s+explicit stance posts', str(w))
+        if m:
+            bits.append(f'{m.group(1)} 則明確表態')
+            continue
+        m=re.search(r'(\d+)\s+substantive thesis-like posts', str(w))
+        if m:
+            bits.append(f'{m.group(1)} 則具論點內容')
+            continue
+        m=re.search(r'(\d+)\s+risk/caution posts', str(w))
+        if m:
+            bits.append(f'{m.group(1)} 則風險 / 謹慎訊號')
+            continue
+        m=re.search(r'(\d+)\s+high-conviction mentions', str(w))
+        if m:
+            bits.append(f'{m.group(1)} 則高信心提及')
+            continue
+        if str(w).startswith('high-signal terms:'):
+            terms=str(w).split(':',1)[1].strip()
+            if terms:
+                bits.append('高訊號詞：'+terms)
+    return ' · '.join(bits[:3]) or 'Serenity 訊號足夠，值得整理成完整投資論點'
+
+def _decision_action_class(action):
+    return {
+        'write_new_thesis':'new',
+        'write_update':'upd',
+        'regenerate_thesis':'regen',
+        'watch_for_more_signal':'watch',
+        'no_action':'ok',
+    }.get(action,'watch')
+
 def reports_section():
     summary=REPORT_QUEUE.get('summary') or {}
-    next_reports=REPORT_QUEUE.get('next_reports') or []
+    dsummary=REPORT_DECISIONS.get('summary') or {}
+    automation_next=REPORT_DECISIONS.get('automation_next') or []
+    if not automation_next:
+        automation_next=REPORT_QUEUE.get('next_reports') or []
     updates_due=REPORT_QUEUE.get('updates_due') or []
     rows=[]
     for s,report in sorted(REPORTS.items(), key=lambda kv:(kv[1].get('generated_at') or '', kv[0]), reverse=True):
@@ -728,28 +773,33 @@ def reports_section():
             f'<td class="ops-title">{_h(title)}</td><td>{_h(coverage)}</td><td>{_h(gen)}</td></tr>'
         )
     qrows=[]
-    for item in next_reports[:10]:
+    for item in automation_next[:10]:
         s=(item.get('ticker') or '').upper()
+        action=item.get('action') or ('write_new_thesis' if item.get('status')=='needs_report' else 'watch_for_more_signal')
+        label=item.get('public_label') or ('撰寫新投資論點' if action=='write_new_thesis' else '觀察更多訊號')
+        reason=_decision_reason(item)
         qrows.append(
             f'<tr onclick="dd(\'{s}\')"><td class="ops-tk">{_h(s)}{market_pill(s)}{theme_pill(s)}</td>'
-            f'<td class="ops-title">{_h(item.get("company") or "")}</td>'
-            f'<td class="ops-num">{_h(item.get("report_score"))}</td><td class="ops-num">{_h(item.get("total_mentions"))}</td>'
+            f'<td><span class="ops-action {_decision_action_class(action)}">{_h(label)}</span></td>'
+            f'<td class="ops-title"><b>{_h(item.get("company") or co_of(s))}</b><span>{_h(reason)}</span></td>'
             f'<td>{_h(item.get("last_mention") or "—")}</td></tr>'
         )
+    qempty='<tr><td colspan="4" class="ops-empty-cell">目前沒有需要自動處理的投資論點。</td></tr>' if not qrows else ''
+    automation_ready=dsummary.get('automation_ready', summary.get('needs_report',0))
     return f'''<section id="reports" class="period-sec">
 <div class="sec"><div class="sechd"><div class="st">{t('nav_reports')}</div><div class="datepill">investment memo</div>
-<div class="sn"><span class="cnt">已發布 {len(REPORTS)} 份 · 待生成 {summary.get('needs_report',0)} 份 · 待更新 {len(updates_due)} 份</span><span class="upd">{t('updated',date=UPDATE_STAMP)}</span></div></div>
+<div class="sn"><span class="cnt">已發布 {len(REPORTS)} 份 · 下一批 {automation_ready} 檔 · 待更新 {len(updates_due)} 份</span><span class="upd">{t('updated',date=UPDATE_STAMP)}</span></div></div>
 <div class="subhd"><i class="fa-solid fa-chevron-down"></i> Serenity 投資論點總覽</div></div>
 <div class="daypad">
 <div class="ops-grid">
 <div class="ops-card"><span>已發布論點</span><b>{len(REPORTS)}</b></div>
-<div class="ops-card"><span>待生成</span><b>{summary.get('needs_report',0)}</b></div>
+<div class="ops-card"><span>下一批論點</span><b>{automation_ready}</b></div>
 <div class="ops-card"><span>候選觀察</span><b>{summary.get('candidate',0)}</b></div>
 </div>
 <div class="subhd" style="margin-top:24px"><i class="fa-solid fa-file-lines"></i> 已發布投資論點</div>
 <div class="ops-table-wrap"><table class="ops-table ops-published"><colgroup><col class="ops-col-ticker"><col class="ops-col-title"><col class="ops-col-date"><col class="ops-col-date"></colgroup><thead><tr><th>標的</th><th>標題</th><th>覆蓋至</th><th>生成日</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div>
-<div class="subhd" style="margin-top:24px"><i class="fa-solid fa-list-check"></i> 下一批候選</div>
-<div class="ops-table-wrap"><table class="ops-table ops-candidates"><colgroup><col class="ops-col-ticker"><col class="ops-col-title"><col class="ops-col-score"><col class="ops-col-count"><col class="ops-col-date"></colgroup><thead><tr><th>標的</th><th>公司</th><th>熱度</th><th>提及</th><th>最近</th></tr></thead><tbody>{''.join(qrows)}</tbody></table></div>
+<div class="subhd" style="margin-top:24px"><i class="fa-solid fa-list-check"></i> 下一批投資論點</div>
+<div class="ops-table-wrap"><table class="ops-table ops-candidates"><colgroup><col class="ops-col-ticker"><col class="ops-col-action"><col class="ops-col-title"><col class="ops-col-date"></colgroup><thead><tr><th>標的</th><th>下一步</th><th>為什麼值得寫</th><th>最近</th></tr></thead><tbody>{''.join(qrows)}{qempty}</tbody></table></div>
 </div><div style="height:40px"></div></section>'''
 
 W7=(DAY-datetime.timedelta(days=6),DAY)
@@ -796,13 +846,13 @@ SHARED_CSS='''<style>
 .rchip{display:inline-block;font-family:var(--mono);font-size:11px;background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:1px 7px;margin:2px;cursor:pointer;color:var(--ink)}
 .morechip{display:inline-block;font-size:11px;border:1px dashed var(--line-strong);border-radius:4px;padding:1px 9px;margin:2px;cursor:pointer;color:var(--ink-soft);background:transparent}
 .morechip:hover{color:var(--accent);border-color:var(--accent)}
-.ops-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:8px 0 22px}
+.ops-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:8px 0 22px}
 .ops-card{border:1px solid var(--line);background:var(--card);border-radius:8px;padding:14px 15px}
 .ops-card span{display:block;font-size:11.5px;color:var(--ink-soft);margin-bottom:7px}
 .ops-card b{font-family:var(--mono);font-size:24px;color:var(--ink)}
 .ops-table-wrap{overflow:auto;border:1px solid var(--line);border-radius:8px;background:var(--card)}
 .ops-table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:12.5px;min-width:780px}
-.ops-col-ticker{width:190px}.ops-col-date{width:126px}.ops-col-score{width:92px}.ops-col-count{width:82px}
+.ops-col-ticker{width:190px}.ops-col-date{width:126px}.ops-col-score{width:92px}.ops-col-count{width:82px}.ops-col-action{width:150px}
 .ops-published .ops-col-ticker{width:220px}
 .ops-table th{position:sticky;top:0;background:var(--paper);color:var(--ink-faint);font-family:var(--mono);font-size:10.5px;text-align:left;font-weight:700;padding:9px 10px;border-bottom:1px solid var(--line)}
 .ops-table td{padding:10px;border-bottom:1px solid var(--line);vertical-align:middle;color:var(--ink-soft)}
@@ -810,16 +860,25 @@ SHARED_CSS='''<style>
 .ops-table tr:last-child td{border-bottom:none}
 .ops-tk{font-family:var(--mono);font-weight:800;color:var(--ink);white-space:normal;line-height:1.55}
 .ops-title{color:var(--ink);line-height:1.45;overflow:hidden;text-overflow:ellipsis}
+.ops-title b{display:block;color:var(--ink);font-weight:650;margin-bottom:2px}
+.ops-title span{display:block;color:var(--ink-soft);font-size:12px;line-height:1.55;white-space:normal}
 .ops-num{font-family:var(--mono);text-align:left;color:var(--ink)}
+.ops-action{display:inline-flex;align-items:center;border-radius:999px;padding:3px 8px;font-size:11px;font-weight:700;border:1px solid var(--line);white-space:nowrap}
+.ops-action.new{background:rgba(29,155,240,.08);color:#1d6fa5;border-color:rgba(29,155,240,.22)}
+.ops-action.upd{background:var(--bull-bg);color:var(--bull);border-color:rgba(31,122,77,.18)}
+.ops-action.regen{background:#f3e7cc;color:#8a6a1f;border-color:rgba(138,106,31,.2)}
+.ops-action.watch{background:var(--paper);color:var(--ink-soft)}
+.ops-action.ok{background:var(--paper);color:var(--ink-faint)}
 .ops-status{display:inline-flex;border-radius:999px;padding:3px 8px;font-family:var(--mono);font-size:10.5px;font-weight:700;border:1px solid var(--line);white-space:nowrap}
 .ops-status.ok{background:var(--bull-bg);color:var(--bull);border-color:rgba(31,122,77,.18)}
 .ops-status.warn{background:#f3e7cc;color:#8a6a1f;border-color:rgba(138,106,31,.2)}
 .ops-status.bad{background:var(--bear-bg);color:var(--bear);border-color:rgba(173,65,65,.2)}
 .ops-empty{border:1px dashed var(--line-strong);border-radius:8px;padding:14px;color:var(--ink-soft);font-size:12.5px;background:var(--card)}
+.ops-empty-cell{padding:18px!important;color:var(--ink-soft);text-align:center;font-size:12.5px}
 .ops-fails{display:grid;gap:8px}
 .ops-fail{border:1px solid rgba(173,65,65,.22);border-radius:8px;background:var(--bear-bg);padding:12px 14px}
 .ops-fail b{font-family:var(--mono);color:var(--bear);margin-right:8px}.ops-fail span{font-family:var(--mono);font-size:10.5px;color:var(--ink-faint)}.ops-fail p{font-size:12.5px;color:var(--ink-soft);margin-top:6px;line-height:1.55}
-@media(max-width:820px){.ops-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ops-card b{font-size:21px}}
+@media(max-width:820px){.ops-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ops-card b{font-size:21px}.ops-col-action{width:128px}.ops-candidates{min-width:720px}}
 .twocol{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:6px}
 .mwall{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:6px}
 .mcard{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--neutral);border-radius:8px;padding:13px 15px;cursor:pointer;box-shadow:var(--shadow);display:flex;flex-direction:column;min-width:0;overflow-wrap:break-word}
