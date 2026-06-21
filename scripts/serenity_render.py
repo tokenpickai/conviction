@@ -1315,11 +1315,11 @@ def build():
     head=BASE_HEAD+SHARED_CSS   # 基础头已内嵌,render 完全自给,无需任何外部 html
     head=head.replace('@aleabitoreddit 个股评论追踪',t('doc_title'))
     nav=f'''<nav class="sidenav"><div class="brand"><img class="glyph" src="assets/serenity-avatar.jpg" alt="Serenity avatar"><div class="bt">{t('brand')}</div><div class="bs"><a href="https://x.com/aleabitoreddit" target="_blank" rel="noopener">@aleabitoreddit</a></div></div>
-<a class="navlink on" data-t="day"><span>{t('nav_day')}</span><span class="ni">DAY</span></a>
-<a class="navlink" data-t="week"><span>{t('nav_week')}</span><span class="ni">WK</span></a>
-<a class="navlink" data-t="month"><span>{t('nav_month')}</span><span class="ni">MO</span></a>
-<a class="navlink" data-t="quarter"><span>{t('nav_quarter')}</span><span class="ni">QTR</span></a>
-<a class="navlink" data-t="reports"><span>{t('nav_reports')}</span><span class="ni">RPT</span></a></nav>'''
+<a class="navlink on" data-t="day"><span>{t('nav_day')}</span><span class="ni">日</span></a>
+<a class="navlink" data-t="week"><span>{t('nav_week')}</span><span class="ni">週</span></a>
+<a class="navlink" data-t="month"><span>{t('nav_month')}</span><span class="ni">月</span></a>
+<a class="navlink" data-t="quarter"><span>{t('nav_quarter')}</span><span class="ni">季</span></a>
+<a class="navlink" data-t="reports"><span>{t('nav_reports')}</span><span class="ni">論</span></a></nav>'''
     secs=period_section(DAYCFG)+period_section(WKCFG)
     secs+=month_section()
     secs+=quarter_section()
