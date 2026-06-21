@@ -1,4 +1,4 @@
-import json, datetime, sys, glob, os, re
+import json, datetime, sys, glob, os, re, html
 from collections import defaultdict
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -22,6 +22,13 @@ REPORTS={}                     # sym -> long-form ticker research report
 allm=defaultdict(list)         # sym -> [(date, stance, mention_type, reason, url), ...] (all mentions)
 MENT=defaultdict(list)         # sym -> [full mention dicts] (for the per-stock detail page)
 _maxdate=None
+def _load_json(path, default):
+    try:
+        if Path(path).exists():
+            return json.load(open(path, encoding='utf-8'))
+    except Exception:
+        pass
+    return default
 for _rf in glob.glob(str(Path(DB).parent/'reports'/'*.json')):
     try:
         _r=json.load(open(_rf,encoding='utf-8'))
@@ -45,6 +52,8 @@ for _f in glob.glob(os.path.join(DB,'stocks','*.json')):
                         'reasons':m.get('reasons') or [],'is_risk':bool(m.get('is_risk')),
                         'text':m.get('text') or '','url':m.get('url') or '','eng':m.get('engagement') or {},
                         'text_may_be_truncated':m.get('text_may_be_truncated'),'media':m.get('media') or []})
+REPORT_QUEUE=_load_json(Path(DB).parent/'report_queue.json',{})
+REPORT_FAILURES=_load_json(Path(DB).parent/'report_generation_failures.json',{})
 
 # as-of date: first positional CLI arg (YYYY-MM-DD), ignoring --flags and their values; else latest mention date
 _skip=set()
@@ -81,7 +90,7 @@ LANG=(LANG_ARG or 'zh').lower()
 STR={
  'en':{
   'doc_title':"@aleabitoreddit — Serenity",'brand':"Serenity",
-  'nav_day':"Daily",'nav_week':"Weekly",'nav_month':"Monthly",'nav_quarter':"Quarterly",
+  'nav_day':"Daily",'nav_week':"Weekly",'nav_month':"Monthly",'nav_quarter':"Quarterly",'nav_reports':"Reports",
   'disc_main':"Aggregation and tracking of public posts, summarized automatically by AI. It may contain errors or omissions and is not guaranteed accurate — always refer to the original posts and verify independently. This tracker does not constitute investment advice of any kind.",
   'disc_detail_top':"Stock detail · Aggregates the account's public posts only — not investment advice",
   'disc_chart':"Information aggregation only — not investment advice.",
@@ -145,7 +154,7 @@ STR={
  },
  'zh':{
   'doc_title':"@aleabitoreddit — Serenity",'brand':"Serenity",
-  'nav_day':"每日",'nav_week':"每週",'nav_month':"每月",'nav_quarter':"每季",
+  'nav_day':"每日",'nav_week':"每週",'nav_month':"每月",'nav_quarter':"每季",'nav_reports':"報告",
   'disc_main':"公開貼文的整理與追蹤，由 AI 自動歸納，可能存在錯誤或遺漏；請以原文為準並自行核實。本追蹤不構成任何投資建議。",
   'disc_detail_top':"個股詳情 · 僅整理 Serenity 的公開貼文，不構成投資建議",
   'disc_chart':"僅供資訊整理，不構成投資建議。",
@@ -671,6 +680,88 @@ def quarter_section():
 {table}
 </div><div style="height:40px"></div></section>'''
 
+def _h(x):
+    return html.escape(str(x if x is not None else ''), quote=True)
+
+def _report_citation_count(report):
+    ids=set()
+    for src in report.get('source_posts_used') or []:
+        if src.get('tweet_id'): ids.add(str(src.get('tweet_id')))
+    for sec in report.get('sections') or []:
+        for c in sec.get('citations') or []:
+            if c.get('tweet_id'): ids.add(str(c.get('tweet_id')))
+    for upd in report.get('updates') or []:
+        for tid in upd.get('source_tweet_ids') or []:
+            if tid: ids.add(str(tid))
+    return len(ids)
+
+def _report_health(report):
+    sections=len(report.get('sections') or [])
+    cites=_report_citation_count(report)
+    coverage=report.get('coverage_through') or ''
+    if sections>=8 and cites>=8 and coverage:
+        return ('ok','合格')
+    if sections>=5 and cites>=5:
+        return ('warn','需複查')
+    return ('bad','不足')
+
+def reports_section():
+    summary=REPORT_QUEUE.get('summary') or {}
+    failures=REPORT_FAILURES.get('failures') or []
+    next_reports=REPORT_QUEUE.get('next_reports') or []
+    updates_due=REPORT_QUEUE.get('updates_due') or []
+    rows=[]
+    for s,report in sorted(REPORTS.items(), key=lambda kv:(kv[1].get('generated_at') or '', kv[0]), reverse=True):
+        cls,label=_report_health(report)
+        sections=len(report.get('sections') or [])
+        cites=_report_citation_count(report)
+        coverage=report.get('coverage_through') or '—'
+        gen=(report.get('generated_at') or '')[:10] or '—'
+        title=report.get('title') or co_of(s)
+        rows.append(
+            f'<tr onclick="dd(\'{s}\')"><td class="ops-tk">{s}{market_pill(s)}{theme_pill(s)}{report_update_pill(s)}</td>'
+            f'<td class="ops-title">{_h(title)}</td><td>{_h(coverage)}</td><td>{_h(gen)}</td>'
+            f'<td class="ops-num">{sections}</td><td class="ops-num">{cites}</td><td><span class="ops-status {cls}">{label}</span></td></tr>'
+        )
+    qrows=[]
+    for item in next_reports[:10]:
+        s=(item.get('ticker') or '').upper()
+        qrows.append(
+            f'<tr onclick="dd(\'{s}\')"><td class="ops-tk">{_h(s)}{market_pill(s)}{theme_pill(s)}</td>'
+            f'<td class="ops-title">{_h(item.get("company") or "")}</td><td>{_h(item.get("priority"))}</td>'
+            f'<td class="ops-num">{_h(item.get("report_score"))}</td><td class="ops-num">{_h(item.get("total_mentions"))}</td>'
+            f'<td>{_h(item.get("last_mention") or "—")}</td></tr>'
+        )
+    fhtml=''
+    if failures:
+        fitems=[]
+        for fail in failures[:5]:
+            fitems.append(
+                f'<div class="ops-fail"><b>{_h(fail.get("ticker"))}</b><span>{_h(fail.get("failed_at"))}</span>'
+                f'<p>{_h(fail.get("error"))}</p></div>'
+            )
+        fhtml='<div class="ops-fails">'+''.join(fitems)+'</div>'
+    else:
+        fhtml='<div class="ops-empty">目前沒有 report generation failure。</div>'
+    return f'''<section id="reports" class="period-sec">
+<div class="sec"><div class="sechd"><div class="st">{t('nav_reports')}</div><div class="datepill">report ops</div>
+<div class="sn"><span class="cnt">已發布 {len(REPORTS)} 份 · 待生成 {summary.get('needs_report',0)} 份 · 待更新 {len(updates_due)} 份</span><span class="upd">{t('updated',date=UPDATE_STAMP)}</span></div></div>
+<div class="subhd"><i class="fa-solid fa-chevron-down"></i> 報告生成與品質檢查</div></div>
+<div class="daypad">
+<div class="ops-grid">
+<div class="ops-card"><span>已發布報告</span><b>{len(REPORTS)}</b></div>
+<div class="ops-card"><span>待生成</span><b>{summary.get('needs_report',0)}</b></div>
+<div class="ops-card"><span>候選觀察</span><b>{summary.get('candidate',0)}</b></div>
+<div class="ops-card"><span>失敗紀錄</span><b>{len(failures)}</b></div>
+</div>
+<div class="subhd" style="margin-top:24px"><i class="fa-solid fa-file-lines"></i> 已發布報告</div>
+<div class="ops-table-wrap"><table class="ops-table"><thead><tr><th>標的</th><th>標題</th><th>覆蓋至</th><th>生成日</th><th>段落</th><th>引用</th><th>狀態</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div>
+<div class="subhd" style="margin-top:24px"><i class="fa-solid fa-list-check"></i> 下一批候選</div>
+<div class="ops-table-wrap"><table class="ops-table"><thead><tr><th>標的</th><th>公司</th><th>優先</th><th>分數</th><th>提及</th><th>最近</th></tr></thead><tbody>{''.join(qrows)}</tbody></table></div>
+<div class="subhd" style="margin-top:24px"><i class="fa-solid fa-triangle-exclamation"></i> 生成失敗</div>
+{fhtml}
+</div><div style="height:40px"></div></section>'''
+
 W7=(DAY-datetime.timedelta(days=6),DAY)
 DAYCFG=dict(id='day',title=t('nav_day'),pfx=t('pfx_day'),win=(DAY,DAY),big=3,head=t('head_day_mentions'),
   freq=[(t('freq_7d'),'w7'),(t('freq_28d'),'w28')],chg='daily',chglbl=t('chg_daily_lbl'),
@@ -715,6 +806,28 @@ SHARED_CSS='''<style>
 .rchip{display:inline-block;font-family:var(--mono);font-size:11px;background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:1px 7px;margin:2px;cursor:pointer;color:var(--ink)}
 .morechip{display:inline-block;font-size:11px;border:1px dashed var(--line-strong);border-radius:4px;padding:1px 9px;margin:2px;cursor:pointer;color:var(--ink-soft);background:transparent}
 .morechip:hover{color:var(--accent);border-color:var(--accent)}
+.ops-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:8px 0 22px}
+.ops-card{border:1px solid var(--line);background:var(--card);border-radius:8px;padding:14px 15px}
+.ops-card span{display:block;font-size:11.5px;color:var(--ink-soft);margin-bottom:7px}
+.ops-card b{font-family:var(--mono);font-size:24px;color:var(--ink)}
+.ops-table-wrap{overflow:auto;border:1px solid var(--line);border-radius:8px;background:var(--card)}
+.ops-table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:780px}
+.ops-table th{position:sticky;top:0;background:var(--paper);color:var(--ink-faint);font-family:var(--mono);font-size:10.5px;text-align:left;font-weight:700;padding:9px 10px;border-bottom:1px solid var(--line)}
+.ops-table td{padding:10px;border-bottom:1px solid var(--line);vertical-align:middle;color:var(--ink-soft)}
+.ops-table tr{cursor:pointer}.ops-table tr:hover td{background:var(--paper)}
+.ops-table tr:last-child td{border-bottom:none}
+.ops-tk{font-family:var(--mono);font-weight:800;color:var(--ink);white-space:nowrap}
+.ops-title{max-width:420px;color:var(--ink);line-height:1.45}
+.ops-num{font-family:var(--mono);text-align:right;color:var(--ink)}
+.ops-status{display:inline-flex;border-radius:999px;padding:3px 8px;font-family:var(--mono);font-size:10.5px;font-weight:700;border:1px solid var(--line);white-space:nowrap}
+.ops-status.ok{background:var(--bull-bg);color:var(--bull);border-color:rgba(31,122,77,.18)}
+.ops-status.warn{background:#f3e7cc;color:#8a6a1f;border-color:rgba(138,106,31,.2)}
+.ops-status.bad{background:var(--bear-bg);color:var(--bear);border-color:rgba(173,65,65,.2)}
+.ops-empty{border:1px dashed var(--line-strong);border-radius:8px;padding:14px;color:var(--ink-soft);font-size:12.5px;background:var(--card)}
+.ops-fails{display:grid;gap:8px}
+.ops-fail{border:1px solid rgba(173,65,65,.22);border-radius:8px;background:var(--bear-bg);padding:12px 14px}
+.ops-fail b{font-family:var(--mono);color:var(--bear);margin-right:8px}.ops-fail span{font-family:var(--mono);font-size:10.5px;color:var(--ink-faint)}.ops-fail p{font-size:12.5px;color:var(--ink-soft);margin-top:6px;line-height:1.55}
+@media(max-width:820px){.ops-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ops-card b{font-size:21px}}
 .twocol{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:6px}
 .mwall{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:6px}
 .mcard{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--neutral);border-radius:8px;padding:13px 15px;cursor:pointer;box-shadow:var(--shadow);display:flex;flex-direction:column;min-width:0;overflow-wrap:break-word}
@@ -1154,10 +1267,12 @@ def build():
 <a class="navlink on" data-t="day"><span>{t('nav_day')}</span><span class="ni">DAY</span></a>
 <a class="navlink" data-t="week"><span>{t('nav_week')}</span><span class="ni">WK</span></a>
 <a class="navlink" data-t="month"><span>{t('nav_month')}</span><span class="ni">MO</span></a>
-<a class="navlink" data-t="quarter"><span>{t('nav_quarter')}</span><span class="ni">QTR</span></a></nav>'''
+<a class="navlink" data-t="quarter"><span>{t('nav_quarter')}</span><span class="ni">QTR</span></a>
+<a class="navlink" data-t="reports"><span>{t('nav_reports')}</span><span class="ni">RPT</span></a></nav>'''
     secs=period_section(DAYCFG)+period_section(WKCFG)
     secs+=month_section()
     secs+=quarter_section()
+    secs+=reports_section()
     JS_KEYS=['stance_bull','stance_bear','stance_neutral','stance_mixed','stance_none',
       'chart_ph_no_series','chart_dot_tip','chart_leg_bull','chart_leg_bear','chart_leg_note',
       'dd_ph_title','dd_ph_body','post_initial','dd_view_all',
