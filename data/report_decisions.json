@@ -614,74 +614,6 @@
     },
     {
       "action": "write_new_thesis",
-      "company": "Coherent",
-      "evidence": [
-        {
-          "date": "2026-01-24",
-          "score": 197,
-          "stance": "bullish",
-          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
-          "tweet_id": "2015096496019112151",
-          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
-        },
-        {
-          "date": "2025-12-10",
-          "score": 167,
-          "stance": "bullish",
-          "text_preview": "Post-Fed Interest Rate 25BPS cut. December 11th ratings: Strong Buy: $CRCL $COIN $AMKR $CRDO $IBIT $MSTR $AMZN $SMCI $TSM $TSSI Sk Hynix $SNAP Samsung Electronics $ALAB $META $NBIS $CIFR Buy: $KRUS $AVGO $NFLX $KRKNF $H…",
-          "tweet_id": "1998846813177262295",
-          "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
-        },
-        {
-          "date": "2025-12-27",
-          "score": 148,
-          "stance": "bullish",
-          "text_preview": "The \"InP Chokepoint\": The Bottleneck of the AI Buildout explanation: The future of $NVDA Blackwell, $META MTAI, $GOOGL TPU, and $MSFT Maia ramp is tied to: A $700M small cap $AXTI and $SMTOY. The AI \"Growth\" story ends…",
-          "tweet_id": "2004936335702753729",
-          "url": "https://x.com/aleabitoreddit/status/2004936335702753729"
-        }
-      ],
-      "first_mention": "2025-12-01",
-      "has_report": false,
-      "last_mention": "2026-06-21",
-      "priority": "high",
-      "public_label": "撰寫新投資論點",
-      "report_score": 2923,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "amzn",
-        "ban",
-        "bottleneck",
-        "capacity",
-        "chokepoint",
-        "confirmed",
-        "conviction",
-        "dilution",
-        "export control",
-        "favorite",
-        "gfs",
-        "globalfoundries",
-        "holding",
-        "hyperscaler",
-        "jabil"
-      ],
-      "ticker": "COHR",
-      "total_mentions": 234,
-      "unique_mention_days": 104,
-      "why": [
-        "234 total mentions across 104 days",
-        "63 explicit stance posts",
-        "149 substantive thesis-like posts",
-        "8 high-conviction mentions",
-        "3 risk/caution posts",
-        "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
-        "latest mention 2026-06-21"
-      ]
-    },
-    {
-      "action": "write_new_thesis",
       "company": "NVIDIA",
       "evidence": [
         {
@@ -1358,6 +1290,74 @@
         "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
         "latest mention 2026-06-20"
       ]
+    },
+    {
+      "action": "write_new_thesis",
+      "company": "Intel",
+      "evidence": [
+        {
+          "date": "2026-01-24",
+          "score": 200,
+          "stance": "bullish",
+          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
+          "tweet_id": "2015096496019112151",
+          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
+        },
+        {
+          "date": "2026-01-02",
+          "score": 157,
+          "stance": "bullish",
+          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
+          "tweet_id": "2007071108831338685",
+          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
+        },
+        {
+          "date": "2026-04-09",
+          "score": 143,
+          "stance": "bullish",
+          "text_preview": "Here's a bunch of random 30 US-available random stocks I like today and why: 1. $INTC - America's hope for foundry, national security 2. $MRVL - scales rev from future maia asics and add ons like cpo, they do everything…",
+          "tweet_id": "2042187668931616964",
+          "url": "https://x.com/aleabitoreddit/status/2042187668931616964"
+        }
+      ],
+      "first_mention": "2025-09-23",
+      "has_report": false,
+      "last_mention": "2026-06-20",
+      "priority": "high",
+      "public_label": "撰寫新投資論點",
+      "report_score": 2635,
+      "signal_terms": [
+        "allocation",
+        "amazon",
+        "amd",
+        "amzn",
+        "ban",
+        "bottleneck",
+        "capacity",
+        "chokepoint",
+        "confirmed",
+        "conviction",
+        "dilution",
+        "export control",
+        "favorite",
+        "gfs",
+        "holding",
+        "hyperscaler",
+        "jabil",
+        "jbl"
+      ],
+      "ticker": "INTC",
+      "total_mentions": 128,
+      "unique_mention_days": 78,
+      "why": [
+        "128 total mentions across 78 days",
+        "37 explicit stance posts",
+        "69 substantive thesis-like posts",
+        "6 high-conviction mentions",
+        "2 risk/caution posts",
+        "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
+        "latest mention 2026-06-20"
+      ]
     }
   ],
   "data_generated_at": "2026-06-21T18:12:54.338079+00:00",
@@ -1972,74 +1972,6 @@
         "10 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
         "latest mention 2026-06-19"
-      ]
-    },
-    {
-      "action": "write_new_thesis",
-      "company": "Coherent",
-      "evidence": [
-        {
-          "date": "2026-01-24",
-          "score": 197,
-          "stance": "bullish",
-          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
-          "tweet_id": "2015096496019112151",
-          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
-        },
-        {
-          "date": "2025-12-10",
-          "score": 167,
-          "stance": "bullish",
-          "text_preview": "Post-Fed Interest Rate 25BPS cut. December 11th ratings: Strong Buy: $CRCL $COIN $AMKR $CRDO $IBIT $MSTR $AMZN $SMCI $TSM $TSSI Sk Hynix $SNAP Samsung Electronics $ALAB $META $NBIS $CIFR Buy: $KRUS $AVGO $NFLX $KRKNF $H…",
-          "tweet_id": "1998846813177262295",
-          "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
-        },
-        {
-          "date": "2025-12-27",
-          "score": 148,
-          "stance": "bullish",
-          "text_preview": "The \"InP Chokepoint\": The Bottleneck of the AI Buildout explanation: The future of $NVDA Blackwell, $META MTAI, $GOOGL TPU, and $MSFT Maia ramp is tied to: A $700M small cap $AXTI and $SMTOY. The AI \"Growth\" story ends…",
-          "tweet_id": "2004936335702753729",
-          "url": "https://x.com/aleabitoreddit/status/2004936335702753729"
-        }
-      ],
-      "first_mention": "2025-12-01",
-      "has_report": false,
-      "last_mention": "2026-06-21",
-      "priority": "high",
-      "public_label": "撰寫新投資論點",
-      "report_score": 2923,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "amzn",
-        "ban",
-        "bottleneck",
-        "capacity",
-        "chokepoint",
-        "confirmed",
-        "conviction",
-        "dilution",
-        "export control",
-        "favorite",
-        "gfs",
-        "globalfoundries",
-        "holding",
-        "hyperscaler",
-        "jabil"
-      ],
-      "ticker": "COHR",
-      "total_mentions": 234,
-      "unique_mention_days": 104,
-      "why": [
-        "234 total mentions across 104 days",
-        "63 explicit stance posts",
-        "149 substantive thesis-like posts",
-        "8 high-conviction mentions",
-        "3 risk/caution posts",
-        "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
-        "latest mention 2026-06-21"
       ]
     },
     {
@@ -17786,19 +17718,87 @@
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
         "latest mention 2026-06-21"
       ]
+    },
+    {
+      "action": "no_action",
+      "company": "Coherent",
+      "evidence": [
+        {
+          "date": "2026-01-24",
+          "score": 197,
+          "stance": "bullish",
+          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
+          "tweet_id": "2015096496019112151",
+          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
+        },
+        {
+          "date": "2025-12-10",
+          "score": 167,
+          "stance": "bullish",
+          "text_preview": "Post-Fed Interest Rate 25BPS cut. December 11th ratings: Strong Buy: $CRCL $COIN $AMKR $CRDO $IBIT $MSTR $AMZN $SMCI $TSM $TSSI Sk Hynix $SNAP Samsung Electronics $ALAB $META $NBIS $CIFR Buy: $KRUS $AVGO $NFLX $KRKNF $H…",
+          "tweet_id": "1998846813177262295",
+          "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
+        },
+        {
+          "date": "2025-12-27",
+          "score": 148,
+          "stance": "bullish",
+          "text_preview": "The \"InP Chokepoint\": The Bottleneck of the AI Buildout explanation: The future of $NVDA Blackwell, $META MTAI, $GOOGL TPU, and $MSFT Maia ramp is tied to: A $700M small cap $AXTI and $SMTOY. The AI \"Growth\" story ends…",
+          "tweet_id": "2004936335702753729",
+          "url": "https://x.com/aleabitoreddit/status/2004936335702753729"
+        }
+      ],
+      "first_mention": "2025-12-01",
+      "has_report": true,
+      "last_mention": "2026-06-21",
+      "priority": "none",
+      "public_label": "暫無動作",
+      "report_score": 2923,
+      "signal_terms": [
+        "allocation",
+        "amazon",
+        "amd",
+        "amzn",
+        "ban",
+        "bottleneck",
+        "capacity",
+        "chokepoint",
+        "confirmed",
+        "conviction",
+        "dilution",
+        "export control",
+        "favorite",
+        "gfs",
+        "globalfoundries",
+        "holding",
+        "hyperscaler",
+        "jabil"
+      ],
+      "ticker": "COHR",
+      "total_mentions": 234,
+      "unique_mention_days": 104,
+      "why": [
+        "234 total mentions across 104 days",
+        "63 explicit stance posts",
+        "149 substantive thesis-like posts",
+        "8 high-conviction mentions",
+        "3 risk/caution posts",
+        "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
+        "latest mention 2026-06-21"
+      ]
     }
   ],
-  "generated_at": "2026-06-21T20:48:49Z",
+  "generated_at": "2026-06-21T21:05:00Z",
   "source_files": {
     "queue": "data/report_queue.json",
     "updates": "data/report_update_candidates.json"
   },
   "summary": {
-    "automation_ready": 179,
+    "automation_ready": 178,
     "by_action": {
-      "no_action": 10,
+      "no_action": 11,
       "watch_for_more_signal": 69,
-      "write_new_thesis": 179
+      "write_new_thesis": 178
     },
     "total_decisions": 258
   }

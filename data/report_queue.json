@@ -1382,6 +1382,138 @@
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
         "latest mention 2026-06-21"
       ]
+    },
+    {
+      "company": "Coherent",
+      "evidence": [
+        {
+          "date": "2026-01-24",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "long US supply chains for photonics, InP"
+          ],
+          "score": 197,
+          "stance": "bullish",
+          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
+          "tweet_id": "2015096496019112151",
+          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
+        },
+        {
+          "date": "2025-12-10",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "same with Lite"
+          ],
+          "score": 167,
+          "stance": "bullish",
+          "text_preview": "Post-Fed Interest Rate 25BPS cut. December 11th ratings: Strong Buy: $CRCL $COIN $AMKR $CRDO $IBIT $MSTR $AMZN $SMCI $TSM $TSSI Sk Hynix $SNAP Samsung Electronics $ALAB $META $NBIS $CIFR Buy: $KRUS $AVGO $NFLX $KRKNF $H…",
+          "tweet_id": "1998846813177262295",
+          "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
+        },
+        {
+          "date": "2025-12-27",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "seeing record booking",
+            "supply-constrained by InP lasers per CEO Q3 ER",
+            "ramping 6-inch InP wafers for 4x capacity",
+            "will increase prices from pass down"
+          ],
+          "score": 148,
+          "stance": "bullish",
+          "text_preview": "The \"InP Chokepoint\": The Bottleneck of the AI Buildout explanation: The future of $NVDA Blackwell, $META MTAI, $GOOGL TPU, and $MSFT Maia ramp is tied to: A $700M small cap $AXTI and $SMTOY. The AI \"Growth\" story ends…",
+          "tweet_id": "2004936335702753729",
+          "url": "https://x.com/aleabitoreddit/status/2004936335702753729"
+        },
+        {
+          "date": "2026-01-02",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "benefits from photonics rollout for next gen ASICs"
+          ],
+          "score": 145,
+          "stance": "bullish",
+          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
+          "tweet_id": "2007071108831338685",
+          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
+        },
+        {
+          "date": "2026-04-09",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "They do everything vertically integrated",
+            "captures optical cycle"
+          ],
+          "score": 143,
+          "stance": "bullish",
+          "text_preview": "Here's a bunch of random 30 US-available random stocks I like today and why: 1. $INTC - America's hope for foundry, national security 2. $MRVL - scales rev from future maia asics and add ons like cpo, they do everything…",
+          "tweet_id": "2042187668931616964",
+          "url": "https://x.com/aleabitoreddit/status/2042187668931616964"
+        },
+        {
+          "date": "2026-03-13",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "does everything from materials/substrates to lasers to transceivers",
+            "fundamental supplier to many other verticals",
+            "defensible compounder"
+          ],
+          "score": 128,
+          "stance": "bullish",
+          "text_preview": "I've been the first few to cover many supply chain photonic names. Most are up 100-400%+ since I've posted. Here's the TLDR overview of my thesis posts: “Safest” Longs as of Today: - $TSEM (Tower Semi) - $SOI (Soitec) -…",
+          "tweet_id": "2032577275439485080",
+          "url": "https://x.com/aleabitoreddit/status/2032577275439485080"
+        }
+      ],
+      "explicit_stance_posts": 63,
+      "first_mention": "2025-12-01",
+      "has_report": true,
+      "high_conviction_posts": 8,
+      "industry": "Optical Comms",
+      "last_mention": "2026-06-21",
+      "market": "US",
+      "priority": "none",
+      "report_score": 2923,
+      "risk_posts": 3,
+      "signal_terms": [
+        "allocation",
+        "amazon",
+        "amd",
+        "amzn",
+        "ban",
+        "bottleneck",
+        "capacity",
+        "chokepoint",
+        "confirmed",
+        "conviction",
+        "dilution",
+        "export control",
+        "favorite",
+        "gfs",
+        "globalfoundries",
+        "holding",
+        "hyperscaler",
+        "jabil"
+      ],
+      "stance_counts": {
+        "bearish": 2,
+        "bullish": 64,
+        "neutral": 168
+      },
+      "status": "has_report",
+      "substantive_posts": 149,
+      "ticker": "COHR",
+      "total_mentions": 234,
+      "unique_mention_days": 104,
+      "why": [
+        "234 total mentions across 104 days",
+        "63 explicit stance posts",
+        "149 substantive thesis-like posts",
+        "8 high-conviction mentions",
+        "3 risk/caution posts",
+        "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
+        "latest mention 2026-06-21"
+      ]
     }
   ],
   "next_reports": [
@@ -2603,138 +2735,6 @@
         "10 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
         "latest mention 2026-06-19"
-      ]
-    },
-    {
-      "company": "Coherent",
-      "evidence": [
-        {
-          "date": "2026-01-24",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "long US supply chains for photonics, InP"
-          ],
-          "score": 197,
-          "stance": "bullish",
-          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
-          "tweet_id": "2015096496019112151",
-          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
-        },
-        {
-          "date": "2025-12-10",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "same with Lite"
-          ],
-          "score": 167,
-          "stance": "bullish",
-          "text_preview": "Post-Fed Interest Rate 25BPS cut. December 11th ratings: Strong Buy: $CRCL $COIN $AMKR $CRDO $IBIT $MSTR $AMZN $SMCI $TSM $TSSI Sk Hynix $SNAP Samsung Electronics $ALAB $META $NBIS $CIFR Buy: $KRUS $AVGO $NFLX $KRKNF $H…",
-          "tweet_id": "1998846813177262295",
-          "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
-        },
-        {
-          "date": "2025-12-27",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "seeing record booking",
-            "supply-constrained by InP lasers per CEO Q3 ER",
-            "ramping 6-inch InP wafers for 4x capacity",
-            "will increase prices from pass down"
-          ],
-          "score": 148,
-          "stance": "bullish",
-          "text_preview": "The \"InP Chokepoint\": The Bottleneck of the AI Buildout explanation: The future of $NVDA Blackwell, $META MTAI, $GOOGL TPU, and $MSFT Maia ramp is tied to: A $700M small cap $AXTI and $SMTOY. The AI \"Growth\" story ends…",
-          "tweet_id": "2004936335702753729",
-          "url": "https://x.com/aleabitoreddit/status/2004936335702753729"
-        },
-        {
-          "date": "2026-01-02",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "benefits from photonics rollout for next gen ASICs"
-          ],
-          "score": 145,
-          "stance": "bullish",
-          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
-          "tweet_id": "2007071108831338685",
-          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
-        },
-        {
-          "date": "2026-04-09",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "They do everything vertically integrated",
-            "captures optical cycle"
-          ],
-          "score": 143,
-          "stance": "bullish",
-          "text_preview": "Here's a bunch of random 30 US-available random stocks I like today and why: 1. $INTC - America's hope for foundry, national security 2. $MRVL - scales rev from future maia asics and add ons like cpo, they do everything…",
-          "tweet_id": "2042187668931616964",
-          "url": "https://x.com/aleabitoreddit/status/2042187668931616964"
-        },
-        {
-          "date": "2026-03-13",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "does everything from materials/substrates to lasers to transceivers",
-            "fundamental supplier to many other verticals",
-            "defensible compounder"
-          ],
-          "score": 128,
-          "stance": "bullish",
-          "text_preview": "I've been the first few to cover many supply chain photonic names. Most are up 100-400%+ since I've posted. Here's the TLDR overview of my thesis posts: “Safest” Longs as of Today: - $TSEM (Tower Semi) - $SOI (Soitec) -…",
-          "tweet_id": "2032577275439485080",
-          "url": "https://x.com/aleabitoreddit/status/2032577275439485080"
-        }
-      ],
-      "explicit_stance_posts": 63,
-      "first_mention": "2025-12-01",
-      "has_report": false,
-      "high_conviction_posts": 8,
-      "industry": "Optical Comms",
-      "last_mention": "2026-06-21",
-      "market": "US",
-      "priority": "high",
-      "report_score": 2923,
-      "risk_posts": 3,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "amzn",
-        "ban",
-        "bottleneck",
-        "capacity",
-        "chokepoint",
-        "confirmed",
-        "conviction",
-        "dilution",
-        "export control",
-        "favorite",
-        "gfs",
-        "globalfoundries",
-        "holding",
-        "hyperscaler",
-        "jabil"
-      ],
-      "stance_counts": {
-        "bearish": 2,
-        "bullish": 64,
-        "neutral": 168
-      },
-      "status": "needs_report",
-      "substantive_posts": 149,
-      "ticker": "COHR",
-      "total_mentions": 234,
-      "unique_mention_days": 104,
-      "why": [
-        "234 total mentions across 104 days",
-        "63 explicit stance posts",
-        "149 substantive thesis-like posts",
-        "8 high-conviction mentions",
-        "3 risk/caution posts",
-        "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
-        "latest mention 2026-06-21"
       ]
     },
     {
@@ -31117,14 +31117,14 @@
       ]
     }
   ],
-  "reports_available": 10,
+  "reports_available": 11,
   "stocks_scanned": 972,
   "stocks_skipped": 714,
   "summary": {
     "candidate": 69,
-    "has_report": 10,
+    "has_report": 11,
     "needs_regeneration": 0,
-    "needs_report": 179,
+    "needs_report": 178,
     "needs_update": 0
   },
   "updates_due": []

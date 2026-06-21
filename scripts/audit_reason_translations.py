@@ -48,7 +48,7 @@ def englishy(text):
         and not re.fullmatch(r"[A-Z]{1,5}", w)
         and not re.fullmatch(r"\d+[A-Za-z]*", w)
     ]
-    return len(prose_words) >= 3
+    return len(prose_words) >= 2
 
 
 def main():

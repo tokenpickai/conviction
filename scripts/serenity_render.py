@@ -1542,6 +1542,7 @@ function renderDD(tk){
     'massive bottleneck for refining/precursors needed to make them':'製造 InP substrates 所需 refining / precursors 也存在重大瓶頸',
     '14th shareholder vote on 50M share increase putting people on edge':'14 日股東會將投票是否增加 5,000 萬股授權，讓市場緊張',
     'proposed 50M share dilution (70M to 120M shares)':'提議增加 5,000 萬股授權，從 7,000 萬股到 1.2 億股',
+    'dilution overhang':'潛在稀釋壓力仍壓在股價上方',
     'up to $2B dilution':'潛在稀釋規模最高約 20 億美元',
     'board filing is a red flag':'董事會提出此文件本身就是紅旗',
     'would not hold if dilution passes':'若稀釋通過，Serenity 表示自己不會持有',
@@ -1627,7 +1628,13 @@ function renderDD(tk){
     'Sumitomo export controlled causing capacity issues downstream':'Sumitomo 出口管制可能造成下游產能問題',
     'sold positions at ~$385':'Serenity 約在 385 美元附近賣出部位',
     'found some potential issues in internal research':'內部研究發現一些潛在問題',
-    'already priced in with a premium':'估值已經反映相當高的 premium'
+    'already priced in with a premium':'估值已經反映相當高的 premium',
+    "still thinks there's upside":'Serenity 仍認為有上行空間',
+    'less likely to double at current prices as fast on shares only':'以目前股價來看，單靠持股快速翻倍的機率較低',
+    'gets upside from CPO as new growth vector':'CPO 作為新成長向量，仍能帶來上行空間',
+    'CPO related name he likes':'Serenity 喜歡的 CPO 相關標的',
+    "if Chinese suppliers stop selling 6N polycrystal, Coherent's laser and transceiver business effectively hits a wall":'如果中國供應商停止出售 6N 多晶材料，Coherent 的雷射與 transceiver 業務可能直接撞牆',
+    'categorized as compounder':'被歸類為較穩健的 compounder'
   };return m[s]||s;}
   function mkR(a,empty,cls){if(!a||!a.length)return '<li class="empty">'+empty+'</li>';return a.map(function(r){return '<li><span class="rdot '+cls+'"></span><span class="rt">'+(zh?glossText(zhReasonText(r[0])):esc(r[0]))+'</span><a class="rsrc" href="'+r[1]+'" target="_blank" rel="noopener">'+r[2]+' <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>';}).join('');}
   function postTag(t){if(!zh)return t.tag;var m={'Bullish':Z.bull,'Bearish':Z.bear,'Neutral':Z.neutral,'Background':Z.background,'Analogy':Z.analogy,'Quote':Z.quote,'Mention':Z.mention};return m[t.tag]||t.tag;}
