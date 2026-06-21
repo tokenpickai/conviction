@@ -90,6 +90,36 @@ Command:
 python scripts/build_report_queue.py
 ```
 
+## Report Decisions
+
+Use `scripts/build_report_decisions.py` after the update checker and queue builder.
+
+This creates `data/report_decisions.json`, the unified decision layer for automation and public dashboard signals.
+
+Decision actions:
+
+- `write_new_thesis`: uncovered ticker has enough evidence for a flagship investment thesis
+- `write_update`: existing thesis has new material context worth adding above the full memo
+- `regenerate_thesis`: existing thesis may be structurally stale and should be rewritten
+- `watch_for_more_signal`: promising, but not strong enough yet
+- `no_action`: published thesis is currently clean
+
+Command:
+
+```bash
+python scripts/check_report_updates.py
+python scripts/build_report_queue.py
+python scripts/build_report_decisions.py
+```
+
+To inspect the next automation-ready items:
+
+```bash
+jq '.automation_next[:10] | map({ticker, action, priority, report_score, why})' data/report_decisions.json
+```
+
+This layer should stay deterministic and cheap. It decides what should happen next; AI generation should remain in the controlled report-generation scripts.
+
 To view only the next report backlog:
 
 ```bash

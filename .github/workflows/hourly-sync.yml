@@ -60,6 +60,9 @@ jobs:
       - name: Build report queue
         run: python scripts/build_report_queue.py
 
+      - name: Build report decisions
+        run: python scripts/build_report_decisions.py
+
       - name: Validate reports
         run: python scripts/validate_reports.py
 
