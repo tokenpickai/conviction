@@ -469,6 +469,14 @@ def dd_data():
                 dots.append({'d':dy,'c':(cl if cl is not None else ser[0]['close']),'s':st})
         # horizons from first mention
         # reasons (newest-first, exact-dedup, top N), split by is_risk
+        def risk_reason_text(r):
+            hay=(r or '').lower()
+            terms=('risk','debt','interest','dilution','atm','pressure','sell','selling','bear','bearish',
+                   'unlock','damaging','hurt','hurts','dragged','stagnant','correlation','bitcoin exposure',
+                   'liquidity','multi-sourcing','delayed','execution','concern','too high','not hold',
+                   'red flag','exposure','contagion','bubble','bubbles','eaten alive','regulating away',
+                   'lower supply','gov','government','share increase','refining','precursors')
+            return any(t in hay for t in terms)
         def collect(want_risk,want_stance,capn):
             seen=set(); res=[]
             for m in reversed(ms):
@@ -478,6 +486,7 @@ def dd_data():
                 for r in (m['reasons'] or []):
                     k=(r or '').strip().lower()
                     if not k or k in seen: continue
+                    if want_risk and not risk_reason_text(r): continue
                     seen.add(k); res.append([r,m['url'],m['date']])
                     if len(res)>=capn: return res
             return res
@@ -1476,7 +1485,70 @@ function renderDD(tk){
     'board filing is a red flag':'董事會提出此文件本身就是紅旗',
     'would not hold if dilution passes':'若稀釋通過，Serenity 表示自己不會持有',
     'doubling the float':'幾乎等於大幅增加流通股本',
-    'equity getting wiped out':'股東權益可能被嚴重稀釋'
+    'equity getting wiped out':'股東權益可能被嚴重稀釋',
+    'smaller cap position that directionally played out well':'較小市值部位的方向判斷已經驗證',
+    'mentioned at $30':'Serenity 早在約 30 美元時就提過',
+    '$471m/month projections':'公司被提到有每月約 4.71 億美元的 projection',
+    'lot of independent supply':'有較多獨立供應來源',
+    'located in the US':'供應位置在美國',
+    'bears are regarded when entire industry is laser/capacity constrained':'Serenity 認為在整個產業受雷射 / 產能限制時，空方低估了供應瓶頸',
+    'InP substrate position validated by Reuters, Epiwafer company earnings, and institutions':'InP substrate thesis 已被 Reuters、Epiwafer 公司財報與機構買盤驗證',
+    'mentioned at ~$13':'Serenity 早在約 13 美元附近就提過',
+    'agreements with Google':'與 Google 相關協議',
+    'no $6B new share dilution':'沒有 60 億美元的新股稀釋壓力',
+    'much more asymmetrical upside':'Serenity 認為上行更不對稱',
+    'colo model for AMZN and GOOGL through Fluidstack':'透過 Fluidstack 對接 AMZN / GOOGL 的 colo 模式',
+    'positive catalyst for neocloud sector from data center energy deals':'data center 能源交易對 neocloud sector 是正面催化',
+    'second-order tailwind from already secured GW capacity':'已鎖定 GW 級容量帶來第二層順風',
+    'negative until less correlation with Bitcoin':'在與 Bitcoin 相關性降低前仍偏負面',
+    'balance sheet had a lot of Bitcoin exposure':'資產負債表有較多 Bitcoin 曝險',
+    'attachment to crypto dragged it down due to BTC balance sheets':'BTC 資產負債表讓它受 crypto 類股拖累',
+    'part of broad miner sell-off across the board':'受到整體 miner 類股賣壓拖累',
+    'implies $54 x 2 = $108 price target':'Serenity 用 54 美元乘以 2 推出約 108 美元目標價',
+    '100-1000%+ YTD performer in his portfolio':'Serenity 提到這是她組合裡 YTD 100% 到 1000%+ 的標的之一',
+    'part of his 30-stock portfolio he expects to keep going up':'被列入她認為仍可能上漲的 30 檔組合',
+    '100%+ return YTD':'YTD 報酬已超過 100%',
+    'hit 100-1000%+ YTD':'YTD 報酬達到 100% 到 1000%+ 區間',
+    'went long and wrote thesis':'Serenity 表示自己做多並寫過 thesis',
+    'Clarity Act is extremely damaging':'CLARITY Act 對 thesis 可能非常不利',
+    'massive share unlock coming':'即將面臨大量股份解禁',
+    'CLARITY act regulating away yield is biggest bear case':'若 CLARITY Act 壓低 yield，這是最大 bear case',
+    'rate cuts + lower supply would hurt Circle':'降息加上供給下降可能傷害 Circle 收入',
+    'hyperscaler buildout delay spillover benefits Neocloud segment':'超大規模雲端建設延後，可能讓需求外溢到 neocloud segment',
+    'GPUs they hold have gone up in price':'它們持有的 GPU 價格上升',
+    'H100s up 29%+ and A100s up 23%+ last month':'H100 上月上漲 29%+，A100 上漲 23%+',
+    'incredible tailwind':'強烈順風',
+    'GPU depreciation fears eased':'GPU depreciation 疑慮有所緩解',
+    'tailwinds from increased capex spend across hyperscalers':'超大規模雲端服務商 capex 增加帶來順風',
+    'sees bubbles forming around debt interest':'Serenity 看到債務利息周圍可能形成泡沫',
+    'OpenAI contagion risk':'OpenAI 連鎖風險',
+    'getting eaten alive by debt interest':'債務利息正在嚴重侵蝕公司',
+    'debt interest too high':'債務利息過高',
+    '$6B of constant selling pressure from the ATM':'60 億美元 ATM 帶來持續賣壓',
+    'still stagnant':'股價 / thesis 仍停滯',
+    '$6B ATM that needs to be bought through first':'需要先消化 60 億美元 ATM 賣壓',
+    '$6B ATMs':'60 億美元 ATM 增發壓力',
+    'top performer in Neoclouds/Energy segment':'Neoclouds / Energy segment 裡的 top performer',
+    'triple digit YTD':'YTD 已達三位數報酬',
+    'all time highs':'創歷史新高',
+    'neocloud theme thesis playing out':'neocloud 主題 thesis 正在驗證',
+    'reaching ATHs':'正在接近 / 創下歷史新高',
+    'could end up like AWS one day':'Serenity 認為未來有機會像 AWS 一樣重要',
+    'probably rangebound for Q1 due to 25M share ATM offering being tapped':'因 2,500 萬股 ATM offering 被啟用，Q1 可能區間震盪',
+    'not a fan of the second ATM right after $138 convertible note funding':'Serenity 不喜歡在 1.38 億美元可轉債融資後立刻又做第二次 ATM',
+    'has an active 25M share ATM running':'仍有 2,500 萬股 ATM 正在進行',
+    'ATM offering a risk as management could dilute and add selling pressure':'ATM offering 是風險，管理層可能稀釋股東並增加賣壓',
+    'around the same starting point as Lumentum which went from 2.88B to 67B MC in 2 years':'起點類似 Lumentum；Lumentum 曾在兩年內從 28.8 億美元市值到 670 億美元',
+    'expects significant rerate if higher confidence mapping to NVDA CPO ecosystem is released':'如果釋出與 NVDA CPO ecosystem 更高信心的 mapping，Serenity 預期可能明顯 rerate',
+    'laser supplier for next gen architectures, not just CPO scale up':'不只是 CPO scale up，而是下一代架構的雷射供應商',
+    'Sivers and Jabil developed 1.6T optical transceivers with CW lasers designing around EML bottlenecks':'Sivers 與 Jabil 開發 1.6T optical transceivers，用 CW lasers 繞開 EML 瓶頸',
+    'Jabil management says they created a \\'relatively dramatic moat\\'':'Jabil 管理層稱其建立了「相當明顯的 moat」',
+    'immediately used for next gen 1.6T pluggable transceivers':'可立即用於下一代 1.6T 可插拔 transceivers',
+    'probably one of the better names to invest in':'Serenity 認為這可能是較好的投資標的之一',
+    'probably better ROI than a depreciating car':'Serenity 開玩笑說，ROI 可能比折舊的車更好',
+    'upstream ecosystem from hyperscaler AI buildout should go brrr':'超大規模雲端 AI buildout 的上游 ecosystem 可能持續受益',
+    'pushing hard CoPoS':'TSMC 正積極推動 CoPoS',
+    'VisEra/others might go brrr earlier than expected':'VisEra 等供應鏈可能比預期更早受益'
   };return m[s]||s;}
   function mkR(a,empty,cls){if(!a||!a.length)return '<li class="empty">'+empty+'</li>';return a.map(function(r){return '<li><span class="rdot '+cls+'"></span><span class="rt">'+(zh?glossText(zhReasonText(r[0])):esc(r[0]))+'</span><a class="rsrc" href="'+r[1]+'" target="_blank" rel="noopener">'+r[2]+' <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>';}).join('');}
   function postTag(t){if(!zh)return t.tag;var m={'Bullish':Z.bull,'Bearish':Z.bear,'Neutral':Z.neutral,'Background':Z.background,'Analogy':Z.analogy,'Quote':Z.quote,'Mention':Z.mention};return m[t.tag]||t.tag;}
