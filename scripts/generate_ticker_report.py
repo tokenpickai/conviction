@@ -8,6 +8,7 @@ MVP scope: one ticker at a time. The renderer consumes data/reports/{TICKER}.jso
 import argparse
 import json
 import os
+import signal
 import sys
 import time
 from pathlib import Path
@@ -18,7 +19,46 @@ DATA_DIR = ROOT / "data"
 STOCKS_DIR = DATA_DIR / "db" / "stocks"
 REPORTS_DIR = DATA_DIR / "reports"
 
-DEFAULT_MODEL = "claude-opus-4-6"
+DEFAULT_MODEL = "claude-sonnet-4-6"
+DEFAULT_MAX_ITEMS = 18
+DEFAULT_TEXT_LIMIT = 650
+DEFAULT_MAX_TOKENS = 6500
+DEFAULT_TIMEOUT = 120
+FAST_SYSTEM_PROMPT = """你是一位投資研究寫手。請根據 Serenity（@aleabitoreddit）的公開 X 貼文，為指定股票產生一版可靠的繁體中文 thesis report v1。
+
+要求：
+- 只根據提供的貼文證據，不要補外部資料。
+- 每段都要能回扣到 Serenity 原貼文。
+- 寫得清楚、像人工整理，不要像機械摘要。
+- 嚴格避免投資建議措辭。
+- 輸出 ONLY valid JSON，不要 markdown fence。
+- 請嚴格控制長度：one_minute_summary 正好 3 條；sections 正好 5 段；每段 body 正好 1 個段落；每段最多 2 個 citations；final_takeaway 正好 2 條。
+- 每個 body 段落請控制在 180 個中文字以內，避免輸出被截斷。
+
+JSON schema:
+{
+  "ticker": "...",
+  "language": "zh-Hant",
+  "title": "...",
+  "subtitle": "...",
+  "core_label": "...",
+  "one_minute_summary": ["不超過 80 字", "不超過 80 字", "不超過 80 字"],
+  "sections": [
+    {
+      "heading": "一、...",
+      "body": ["單一段落，不超過 180 字"],
+      "citations": [
+        {"tweet_id":"...", "date":"YYYY-MM-DD", "url":"...", "label":"...", "excerpt":"短摘錄"}
+      ]
+    }
+  ],
+  "final_takeaway": ["...", "..."],
+  "quality_notes": {
+    "reference_article_parity": ["這是可靠 v1，可再人工擴寫"],
+    "known_limits": ["僅使用本次 curated evidence，不代表已讀完整 corpus"]
+  }
+}
+"""
 
 
 SYSTEM_PROMPT = """你是一位投資研究寫手。你的任務不是給投資建議，而是根據 Serenity（@aleabitoreddit）的公開 X 貼文，重建她對某一檔股票的完整投資論述。
@@ -71,7 +111,15 @@ def save_json(path, obj):
     tmp.replace(path)
 
 
-def get_client():
+class ModelTimeoutError(TimeoutError):
+    pass
+
+
+def _timeout_handler(signum, frame):
+    raise ModelTimeoutError("model call timed out")
+
+
+def get_client(timeout=DEFAULT_TIMEOUT):
     try:
         import anthropic
     except ImportError:
@@ -82,11 +130,11 @@ def get_client():
     api_key = (os.environ.get("ANTHROPIC_API_KEY") or "").strip()
     base_url = (os.environ.get("ANTHROPIC_BASE_URL") or "").strip()
     if base_url and auth_token:
-        return anthropic.Anthropic(auth_token=auth_token, base_url=base_url, timeout=120.0)
+        return anthropic.Anthropic(auth_token=auth_token, base_url=base_url, timeout=float(timeout), max_retries=0)
     if not api_key:
         print("ERROR: ANTHROPIC_API_KEY is not set.", file=sys.stderr)
         sys.exit(1)
-    return anthropic.Anthropic(api_key=api_key, timeout=120.0)
+    return anthropic.Anthropic(api_key=api_key, timeout=float(timeout), max_retries=0)
 
 
 def compact_text(text, limit=1600):
@@ -163,7 +211,7 @@ def curate_mentions(stock, max_items=70):
     return chosen
 
 
-def build_prompt(stock, mentions):
+def build_prompt(stock, mentions, text_limit=DEFAULT_TEXT_LIMIT):
     evidence = []
     for m in mentions:
         reasons = m.get("reasons") or []
@@ -176,7 +224,7 @@ def build_prompt(stock, mentions):
             "is_risk": bool(m.get("is_risk")),
             "conviction": m.get("conviction"),
             "reasons": reasons[:8],
-            "text": compact_text(m.get("text"), 1500),
+            "text": compact_text(m.get("text"), text_limit),
         })
 
     payload = {
@@ -210,6 +258,42 @@ def build_prompt(stock, mentions):
     )
 
 
+def build_fast_prompt(stock, mentions, text_limit=650):
+    evidence = []
+    for m in mentions:
+        evidence.append({
+            "tweet_id": m.get("tweet_id"),
+            "date": m.get("date"),
+            "url": m.get("url"),
+            "stance": m.get("stance"),
+            "mention_type": m.get("mention_type"),
+            "is_risk": bool(m.get("is_risk")),
+            "reasons": (m.get("reasons") or [])[:5],
+            "text": compact_text(m.get("text"), text_limit),
+        })
+    payload = {
+        "ticker": stock.get("ticker"),
+        "company": stock.get("company"),
+        "industry": stock.get("industry"),
+        "market": stock.get("exchange"),
+        "evidence_posts": evidence,
+        "target_shape": [
+            "一、Serenity 最初如何看這檔股票",
+            "二、核心 thesis 是什麼",
+            "三、供應鏈位置與產業邏輯",
+            "四、哪些貼文提高或驗證了 thesis",
+            "五、風險、反方與今日如何理解"
+        ],
+    }
+    return (
+        "請生成一版 concise but high-quality report v1。"
+        "請嚴格寫 5 個 sections，每個 section 的 body 只能有 1 個段落。"
+        "每個 section 至少附 1 個、最多 2 個 citations，優先引用最關鍵 tweet_id。"
+        "不要超過 schema 指定長度，務必輸出完整 valid JSON。\n\n"
+        + json.dumps(payload, ensure_ascii=False, indent=2)
+    )
+
+
 def strip_fences(s):
     s = s.strip()
     if s.startswith("```"):
@@ -221,16 +305,22 @@ def strip_fences(s):
     return s.strip()
 
 
-def call_model(client, model, prompt):
+def call_model(client, model, prompt, max_tokens=DEFAULT_MAX_TOKENS, timeout=DEFAULT_TIMEOUT, system_prompt=SYSTEM_PROMPT):
     last_err = None
     for attempt in range(1, 4):
         try:
-            resp = client.messages.create(
-                model=model,
-                max_tokens=12000,
-                system=SYSTEM_PROMPT,
-                messages=[{"role": "user", "content": prompt}],
-            )
+            old_handler = signal.signal(signal.SIGALRM, _timeout_handler)
+            signal.alarm(timeout)
+            try:
+                resp = client.messages.create(
+                    model=model,
+                    max_tokens=max_tokens,
+                    system=system_prompt,
+                    messages=[{"role": "user", "content": prompt}],
+                )
+            finally:
+                signal.alarm(0)
+                signal.signal(signal.SIGALRM, old_handler)
             raw = "".join(b.text for b in resp.content if getattr(b, "type", None) == "text")
             return json.loads(strip_fences(raw))
         except Exception as exc:
@@ -246,7 +336,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("ticker")
     ap.add_argument("--model", default=DEFAULT_MODEL)
-    ap.add_argument("--max-items", type=int, default=70)
+    ap.add_argument("--max-items", type=int, default=DEFAULT_MAX_ITEMS)
+    ap.add_argument("--text-limit", type=int, default=DEFAULT_TEXT_LIMIT)
+    ap.add_argument("--max-tokens", type=int, default=DEFAULT_MAX_TOKENS)
+    ap.add_argument("--timeout", type=int, default=DEFAULT_TIMEOUT, help="seconds per model attempt")
+    ap.add_argument("--mode", choices=["full", "fast"], default="fast")
+    ap.add_argument("--out", help="write report to this path instead of data/reports/{TICKER}.json")
+    ap.add_argument("--dry-run", action="store_true", help="print prompt size and curated post IDs without calling the model")
     args = ap.parse_args()
 
     ticker = args.ticker.upper()
@@ -258,15 +354,36 @@ def main():
 
     mentions = curate_mentions(stock, args.max_items)
     print(f"Curated {len(mentions)} evidence posts from {stock.get('total_mentions')} mentions.")
-    prompt = build_prompt(stock, mentions)
-    report = call_model(get_client(), args.model, prompt)
+    if args.mode == "fast":
+        prompt = build_fast_prompt(stock, mentions, min(args.text_limit, 700))
+        system_prompt = FAST_SYSTEM_PROMPT
+    else:
+        prompt = build_prompt(stock, mentions, args.text_limit)
+        system_prompt = SYSTEM_PROMPT
+    print(f"Prompt size: {len(prompt):,} chars; model={args.model}; max_tokens={args.max_tokens}; timeout={args.timeout}s.")
+    if args.dry_run:
+        for m in mentions:
+            print(f"{m.get('date')} {m.get('tweet_id')} {m.get('stance')} {m.get('mention_type')}")
+        return
+    report = call_model(
+        get_client(args.timeout),
+        args.model,
+        prompt,
+        max_tokens=args.max_tokens,
+        timeout=args.timeout,
+        system_prompt=system_prompt,
+    )
     report["ticker"] = ticker
     report["generated_at"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    report["coverage_through"] = stock.get("last_mention") or max(
+        (m.get("date") or "" for m in mentions),
+        default="",
+    )
     report["source_posts_used"] = [
         {"tweet_id": m.get("tweet_id"), "date": m.get("date"), "url": m.get("url")}
         for m in mentions
     ]
-    out = REPORTS_DIR / f"{ticker}.json"
+    out = Path(args.out).resolve() if args.out else REPORTS_DIR / f"{ticker}.json"
     save_json(out, report)
     print(f"Wrote {out}")
 

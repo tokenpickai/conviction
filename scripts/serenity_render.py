@@ -75,8 +75,9 @@ def text_may_be_truncated(tx, stored_flag=None):
     tx=(tx or '').strip()
     return len(tx) >= 275 and bool(TCO_AT_END_RE.search(tx))
 
-# ---- i18n: en/zh built-in; other languages loaded from SCRIPT_DIR/lang/{code}.json; default en ----
-LANG=(_argval('--lang') or 'en').lower()
+# ---- i18n: en/zh built-in; other languages loaded from SCRIPT_DIR/lang/{code}.json; default zh ----
+LANG_ARG=_argval('--lang')
+LANG=(LANG_ARG or 'zh').lower()
 STR={
  'en':{
   'doc_title':"@aleabitoreddit — Serenity",'brand':"Serenity",
@@ -144,67 +145,66 @@ STR={
  },
  'zh':{
   'doc_title':"@aleabitoreddit — Serenity",'brand':"Serenity",
-  'nav_day':"日报",'nav_week':"周报",'nav_month':"月报",'nav_quarter':"季报",
-  'disc_main':"公开推文的整理与追踪,由 AI 自动归纳,可能存在错误或遗漏,不保证信息绝对准确,请以原推文为准并自行核实。本追踪不构成任何投资建议。",
-  'disc_detail_top':"个股详情 · 仅整理博主的公开发言,不构成投资建议",
-  'disc_chart':"仅供信息整理,不构成投资建议。",
-  'q_methodology':"统计口径:博主在推文中表达的看多/看空观点(表态),非其实际持仓。",
-  'stance_bull':"看多",'stance_bear':"看空",'stance_mixed':"多空并存",'stance_neutral':"中性",'stance_none':"未表态",
-  'pfx_day':"今日",'pfx_week':"本周",'pfx_month':"近28日",'pfx_quarter':"近90日",
+  'nav_day':"每日",'nav_week':"每週",'nav_month':"每月",'nav_quarter':"每季",
+  'disc_main':"公開貼文的整理與追蹤，由 AI 自動歸納，可能存在錯誤或遺漏；請以原文為準並自行核實。本追蹤不構成任何投資建議。",
+  'disc_detail_top':"個股詳情 · 僅整理 Serenity 的公開貼文，不構成投資建議",
+  'disc_chart':"僅供資訊整理，不構成投資建議。",
+  'q_methodology':"統計口徑：Serenity 在貼文中表達的看多 / 看空觀點，並非實際持倉。",
+  'stance_bull':"看多",'stance_bear':"看空",'stance_mixed':"多空並存",'stance_neutral':"中性",'stance_none':"未表態",
+  'pfx_day':"今日",'pfx_week':"本週",'pfx_month':"近 28 日",'pfx_quarter':"近 90 日",
   'badge_bull':"<i class='fa-solid fa-caret-up'></i> {pfx}看多",'badge_bear':"<i class='fa-solid fa-caret-down'></i> {pfx}看空",'badge_neutral':"<i class='fa-solid fa-circle'></i> {pfx}中性",
-  'badge_mixed':"<i class='fa-solid fa-rotate'></i> {pfx}多空并存",'badge_none':"<i class='fa-regular fa-circle'></i> {pfx}未表态",
-  'surf_bear_n':"<i class='fa-solid fa-caret-down'></i> {pfx}看空({n}条)",'shift':"<i class='fa-solid fa-rotate'></i> 较上次表态:{a} <i class='fa-solid fa-arrow-right'></i> {b}",
-  'gain_lbl':"涨幅",'chg_daily_lbl':"较上一交易日",'gain_pending':"暂未接入",'count_unit':"次",
-  'tally_lbl':"{pfx}表态",'tally_bgonly':"{pfx}表态:无(仅背景提及)",'bgonly_inline':"仅作为背景提及，未表态",
+  'badge_mixed':"<i class='fa-solid fa-rotate'></i> {pfx}多空並存",'badge_none':"<i class='fa-regular fa-circle'></i> {pfx}未表態",
+  'surf_bear_n':"<i class='fa-solid fa-caret-down'></i> {pfx}看空（{n} 則）",'shift':"<i class='fa-solid fa-rotate'></i> 較上次表態：{a} <i class='fa-solid fa-arrow-right'></i> {b}",
+  'gain_lbl':"漲幅",'chg_daily_lbl':"較前收",'gain_pending':"暫無資料",'count_unit':"次",
+  'tally_lbl':"{pfx}立場",'tally_bgonly':"{pfx}立場：未表態（僅背景提及）",'bgonly_inline':"僅作為背景提及，未表態",
   'u_bull':"多",'u_bear':"空",'u_neu':"中",
-  'foot_first':"首提 {date}",'foot_first_last':"首提 {d1} · 最近 {d2}",
-  'updated':"<i class='fa-regular fa-clock'></i> 数据更新 {date}",'detail_go':"详情 <i class='fa-solid fa-arrow-right'></i>",'detail':"详情",
+  'foot_first':"首次提及 {date}",'foot_first_last':"首次提及 {d1} · 最近 {d2}",
+  'updated':"<i class='fa-regular fa-clock'></i> 更新 {date}",'detail_go':"詳情 <i class='fa-solid fa-arrow-right'></i>",'detail':"詳情",
   'gain_tip':"起 {fd} {px1} → 止 {ld} {px2}",
-  'legend_stance_scroll':"| 立场={pfx}表态,窗口滚动;次数为窗口计数",
-  'subhd_notable':"<i class='fa-solid fa-chevron-down'></i> {pfx}值得注意(看空 / 立场转变)",'subhd_new':"<i class='fa-solid fa-chevron-down'></i> {pfx}新出现的标的",
-  'newc_line':"{pfx}首次进入视野 {n} 只(可点进二级页):",'subhd_rest':"<i class='fa-solid fa-chevron-down'></i> 其余顺带提及",
-  'restc_line':"{pfx}还顺带提到 {n} 只,延续既有关注或背景提及(可点进二级页):",'chips_more':"展开剩余 {n} 只 <i class='fa-solid fa-chevron-down'></i>",
-  'head_day_mentions':"当天提及",'freq_7d':"7日内",'freq_28d':"28日内",
-  'subhd_day':"当天重点讨论的标的(按当天提及量)",
-  'head_week_mentions':"本周提及",'freq_near7':"近7日",'freq_near28':"近28日",
-  'subhd_week':"本周重点讨论的标的(按近7日提及量)",
-  'sec_count':"{range} {ntk} 只标的 · {nment} 次提及",'period_none':"本期无看空或立场转变的标的。",
-  'head_month_mentions':"近28日提及",'month_count':"近28日 {ntk} 只标的 · {nment} 次提及",
-  'sec_count':"{range} {ntk} 只标的 · {nment} 次提及",'period_none':"本期无看空或立场转变的标的。",
-  'subhd_month_top':"<i class='fa-solid fa-chevron-down'></i> 本月讨论最多的标的(按近28日提及量)与其立场分布",
-  'subhd_month_new':"<i class='fa-solid fa-chevron-down'></i> 本月新增标的(首次进入视野且近28日 >=5 次)",
+  'legend_stance_scroll':"| 立場 = {pfx}表態；滾動視窗；次數為該視窗內計數",
+  'subhd_notable':"<i class='fa-solid fa-chevron-down'></i> {pfx}值得注意（看空 / 立場轉變）",'subhd_new':"<i class='fa-solid fa-chevron-down'></i> {pfx}新出現的標的",
+  'newc_line':"{pfx}首次進入視野 {n} 檔（可點進詳情）：",'subhd_rest':"<i class='fa-solid fa-chevron-down'></i> 其他提及",
+  'restc_line':"{pfx}另外提到 {n} 檔，屬於既有關注或背景提及（可點進詳情）：",'chips_more':"展開剩餘 {n} 檔 <i class='fa-solid fa-chevron-down'></i>",
+  'head_day_mentions':"今日提及",'freq_7d':"近 7 日",'freq_28d':"近 28 日",
+  'subhd_day':"今日討論最多的標的（按今日提及次數）",
+  'head_week_mentions':"本週提及",'freq_near7':"近 7 日",'freq_near28':"近 28 日",
+  'subhd_week':"本週討論最多的標的（按近 7 日提及次數）",
+  'sec_count':"{range} · {ntk} 檔標的 · {nment} 次提及",'period_none':"本期沒有看空或立場轉變的標的。",
+  'head_month_mentions':"近 28 日提及",'month_count':"近 28 日 · {ntk} 檔標的 · {nment} 次提及",
+  'subhd_month_top':"<i class='fa-solid fa-chevron-down'></i> 本月討論最多的標的（按近 28 日提及次數）與立場分布",
+  'subhd_month_new':"<i class='fa-solid fa-chevron-down'></i> 本月新增標的（首次進入視野且近 28 日 >= 5 次）",
   'trow_month_n':"本月 {c} 次",
-  'legend_new':"<i class='fa-solid fa-star'></i> 新增 = 本月首次进入视野",
-  'legend_resurg':"<i class='fa-solid fa-arrow-trend-up'></i> 新活跃 = 老标的沉寂后本月重新放量(前28天 ≤2 次、本月 ≥5 次)",
-  'legend_bar':"条形 = 近28日表态分布(<b class='gb'><i class='fa-solid fa-caret-up'></i> 多</b> / <b class='gr'><i class='fa-solid fa-caret-down'></i> 空</b> / <i class='fa-solid fa-circle'></i> 中)",'tag_new':"<i class='fa-solid fa-star'></i> 新增",'tag_resurg':"<i class='fa-solid fa-arrow-trend-up'></i> 新活跃",
-  'quarter_count':"近90日 {n} 只标的 · {v} 次提及",
-  'subhd_q_overview':"<i class='fa-solid fa-chevron-down'></i> 季度方向总览(按标的数,非表态次数)",
-  'q_net_bull':"净看多标的",'q_net_bear':"净看空标的",'q_balanced':"多空持平",'q_with_stance':"有表态",
-  'q_summary':"按标的数:净看多 <b class='gb'>{pbk}%</b> · 净看空 <b class='gr'>{prk}%</b>(其中纯看空 {npure} 只)　| 累计表态次数 看多 {TB} / 看空 {TR} / 中性 {TN}(次数受少数高频标的影响,故方向以标的数为准)",
-  'subhd_q_table':"<i class='fa-solid fa-chevron-down'></i> 季度全标的表",
-  'q_table_hint':"| 点 涨幅 / 提及次数 / 看多 / 看空 / 中性 列头可排序;近90日 ≥3 次提及({n} 只);行业空(—)=未分类",
-  'th_ticker':"代码",'th_industry':"行业",'th_first':"首次提及",'th_last':"最近提及",
-  'th_gain':"涨幅",'th_mentions':"提及次数",'th_bull':"看多",'th_bear':"看空",'th_neu':"中性",
-  'gain_formula_tip':"涨幅 =(最近提及价 − 首提价)÷ 首提价",
+  'legend_new':"<i class='fa-solid fa-star'></i> 新增 = 本月首次進入視野",
+  'legend_resurg':"<i class='fa-solid fa-arrow-trend-up'></i> 重新活躍 = 老標的沉寂後本月重新放量（前 28 天 ≤ 2 次、本月 ≥ 5 次）",
+  'legend_bar':"條形 = 近 28 日立場分布（<b class='gb'><i class='fa-solid fa-caret-up'></i> 多</b> / <b class='gr'><i class='fa-solid fa-caret-down'></i> 空</b> / <i class='fa-solid fa-circle'></i> 中）",'tag_new':"<i class='fa-solid fa-star'></i> 新增",'tag_resurg':"<i class='fa-solid fa-arrow-trend-up'></i> 重新活躍",
+  'quarter_count':"近 90 日 · {n} 檔標的 · {v} 次提及",
+  'subhd_q_overview':"<i class='fa-solid fa-chevron-down'></i> 季度方向總覽（按標的數，不按表態次數）",
+  'q_net_bull':"看多",'q_net_bear':"看空",'q_balanced':"持平",'q_with_stance':"有表態",
+  'q_summary':"按標的數：淨看多 <b class='gb'>{pbk}%</b> · 淨看空 <b class='gr'>{prk}%</b>（其中純看空 {npure} 檔）　| 累計表態次數：看多 {TB} / 看空 {TR} / 中性 {TN}",
+  'subhd_q_table':"<i class='fa-solid fa-chevron-down'></i> 季度全標的表",
+  'q_table_hint':"| 點選 漲幅 / 提及次數 / 看多 / 看空 / 中性 欄位可排序；近 90 日 ≥ 3 次提及（{n} 檔）；產業空白（—）= 未分類",
+  'th_ticker':"代號",'th_industry':"產業",'th_first':"首次提及",'th_last':"最近提及",
+  'th_gain':"漲幅",'th_mentions':"提及次數",'th_bull':"看多",'th_bear':"看空",'th_neu':"中性",
+  'gain_formula_tip':"漲幅 =（最近提及價 − 首次提及價）÷ 首次提及價",
   'dd_back':"← 返回",'dd_first_mention':"首次提及",'dd_last_mention':"最近提及",
-  'dd_total':"总提及",'dd_first_px':"首提价",'dd_today':"今日",
-  'dd_reasons_bull':"看好的理由",'dd_reasons_risk':"提到的风险",'dd_newest_first':"最新在前",
-  'dd_no_bull':"(暂无明确看多理由)",'dd_no_risk':"暂未提及风险",'dd_no_detail':"暂无详情",
-  'dd_all_posts':"全部发言",'dd_posts_meta':"按时间倒序 · 原文保留英文,点击跳原帖",
+  'dd_total':"總提及",'dd_first_px':"首次提及價格",'dd_today':"今日",
+  'dd_reasons_bull':"看多理由",'dd_reasons_risk':"提到的風險",'dd_newest_first':"最新在前",
+  'dd_no_bull':"（暫無明確看多理由）",'dd_no_risk':"暫未提及風險",'dd_no_detail':"暫無詳情",
+  'dd_all_posts':"全部貼文",'dd_posts_meta':"按時間倒序 · 原文保留英文，點擊跳原帖",
   'dd_show_more':"在 X 查看更多",
-  'post_initial':"初始观点",
-  'chart_leg_bull':"看多时提及",'chart_leg_bear':"看空时提及",
-  'chart_leg_note':"圆点=提及当天(同日合并); 纵轴=收盘价(非交易日使用最近交易日收盘价)",
-  'chart_dot_tip':"{date} · {stance}时提及 · 收盘 {c}",
-  'chart_ph_no_series':"无连续价格数据(行情未覆盖) — 仅记录提及时间点,不绘制价格曲线",
-  'chart_no_cover':"该票行情未覆盖,价格曲线有限。",
-  'tag_background':"背景",'tag_comparison':"比喻",'tag_quote':"引用",'tag_mention':"提及",
-  'dd_ph_title':"暂无 {tk} 的详情",
-  'dd_ph_body':"该标的仅少量或背景提及,尚未形成可展开的记录。<br>点击右上角「← 返回」回到看板。",
-  'dd_view_all':"查看更多帖子（剩余 {n} 条）<i class='fa-solid fa-chevron-down'></i>",
-  'dd_disc_body':"本页整理的是博主的公开发言——立场、自述理由、发帖频次,以及自首次提及以来的价格走势。",
-  'disc_top':"⚠️ 本页为对博主 {link} 公开推文的整理与追踪,由 AI 自动归纳,<b>可能存在错误或遗漏,不保证信息绝对准确,请以原推文为准并自行核实</b>。本追踪不构成任何投资建议。",
-  'disc_top_sub':"立场标签(看多 / 看空 / 中性)由 AI 对原文的语义分析推断，可能存在误判 · 未表态 = 仅提及、未表达态度",
+  'post_initial':"初始觀點",
+  'chart_leg_bull':"看多時提及",'chart_leg_bear':"看空時提及",
+  'chart_leg_note':"圓點 = 提及當天（同日合併）；縱軸 = 收盤價（非交易日使用最近交易日收盤價）",
+  'chart_dot_tip':"{date} · {stance}時提及 · 收盤 {c}",
+  'chart_ph_no_series':"無連續價格資料（行情未覆蓋）— 僅記錄提及時間點，不繪製價格曲線",
+  'chart_no_cover':"該標的行情未覆蓋，價格曲線有限。",
+  'tag_background':"背景",'tag_comparison':"類比",'tag_quote':"引用",'tag_mention':"提及",
+  'dd_ph_title':"暫無 {tk} 的詳情",
+  'dd_ph_body':"該標的僅少量或背景提及，尚未形成可展開的記錄。<br>點擊右上角「← 返回」回到看板。",
+  'dd_view_all':"查看更多貼文（剩餘 {n} 則）<i class='fa-solid fa-chevron-down'></i>",
+  'dd_disc_body':"本頁整理的是 Serenity 的公開貼文：立場、自述理由、發文頻率，以及自首次提及以來的價格走勢。",
+  'disc_top':"⚠️ 本頁為對 {link} 公開貼文的整理與追蹤，由 AI 自動歸納，<b>可能存在錯誤或遺漏；請以原文為準並自行核實</b>。本追蹤不構成任何投資建議。",
+  'disc_top_sub':"立場標籤（看多 / 看空 / 中性）由 AI 根據原文語意推斷，可能存在誤判 · 未表態 = 僅提及，未表達方向",
  },
 }
 def _load_lang(code):
@@ -321,6 +321,23 @@ def report_update_pill(s):
 def ymd(d):return d.strftime('%Y-%m-%d') if d else '—'
 def co_of(s):return STOCK.get(s,{}).get('company') or s
 def ind_of(s):return STOCK.get(s,{}).get('industry') or ''
+INDUSTRY_ZH={
+    'Optical Modules':'光通訊模組',
+    'Optical Comms':'光通訊',
+    'AI Cloud/GPU':'AI 雲端 / GPU',
+    'AI Photonics/CPO Lasers':'AI 光子學 / CPO 雷射',
+    'InP Substrates':'磷化銦基板',
+    'AI Chips':'AI 晶片',
+    'Hyperscaler':'超大規模雲端服務商',
+    'SOI Wafers':'SOI 晶圓',
+    'Wafer Foundry':'晶圓代工',
+    'Compound Semiconductors':'化合物半導體',
+}
+def ind_label(s):
+    ind=ind_of(s)
+    if not ind:return ''
+    if LANG=='zh' and ind in INDUSTRY_ZH:return f'{INDUSTRY_ZH[ind]} ({ind})'
+    return ind
 BCLASS={'bull':'bull','bear':'bear','shift':'cw','neu':'neutral','none':'neutral'}
 def distbar_html(eb,er,en):
     tot=eb+er+en
@@ -551,7 +568,7 @@ def period_section(cfg):
     return f'''<section id="{sid}" class="period-sec">
 <div class="sec"><div class="sechd"><div class="st">{cfg['title']}</div><div class="datepill">{cfg['pill']}</div>
 <div class="sn"><span class="cnt">{t('sec_count',range=cfg['range'],ntk=ntk,nment=nment)}</span><span class="upd">{t('updated',date=UPDATE_STAMP)}</span></div></div>
-<div class="subhd"><i class="fa-solid fa-chevron-down"></i> {cfg['subhd']} <span style="color:var(--ink-soft);font-weight:400;font-size:12.5px">　{t('legend_stance_scroll',pfx=pfx)}</span></div></div>
+<div class="subhd"><i class="fa-solid fa-chevron-down"></i> {cfg['subhd']}</div></div>
 <div class="wall">{''.join(bigcard(s, w0, w1, pfx, head_lbl, freq, cfg.get('chg')) for s in big)}</div>
 <div class="daypad">
 <div class="subhd" style="margin-top:20px">{t('subhd_notable',pfx=pfx)}</div>
@@ -617,7 +634,7 @@ def quarter_section():
     def qrow(s):
         c=cnt(s,Q0,DAY); eb,er,en=we[s]; pct=mention_pct(s)
         dchg='' if pct is None else f'{pct:.4f}'
-        ind=ind_of(s) or '<span class="muted">—</span>'
+        ind=ind_label(s) or '<span class="muted">—</span>'
         return (f'<tr onclick="dd(\'{s}\')" data-chg="{dchg}" data-men="{c}" data-bull="{eb}" data-bear="{er}" data-neu="{en}">'
             f'<td class="q-tk">{s}{market_pill(s)}{theme_pill(s)}{report_update_pill(s)}</td><td class="q-ind">{ind}</td>'
             f'<td class="q-dt">{ymd(first(s))}{pxcell(first_px(s),s)}</td><td class="q-dt">{ymd(last(s))}{pxcell(last_px(s),s)}</td>'
@@ -642,7 +659,6 @@ def quarter_section():
 <div class="ovs"><div class="ovn">{len(stanced)}</div><div class="ovl">{t('q_with_stance')}</div></div></div>
 <div class="ovbar"><i class="b" style="width:{pbk}%"></i><i class="r" style="width:{prk}%"></i><i class="n" style="width:{pnk}%"></i></div>
 <div class="ovcap">{t('q_summary',pbk=pbk,prk=prk,npure=npure,TB=TB,TR=TR,TN=TN)}</div>
-<div class="ovnote">{t('q_methodology')}</div>
 </div>
 <div class="subhd" style="margin-top:28px">{t('subhd_q_table')} <span style="color:var(--ink-soft);font-weight:400;font-size:12.5px">　{t('q_table_hint',n=len(rows))}</span></div>
 {table}
@@ -698,9 +714,10 @@ SHARED_CSS='''<style>
 .mcard .mreason{font-size:11.5px;color:var(--ink-soft);font-style:italic;padding-top:6px;border-top:1px dashed var(--line)}
 .trow .badge.mini{margin-left:0}
 .subhd{font-size:13.5px;color:var(--ink-soft);margin:20px 0 14px}
-.trow{display:grid;grid-template-columns:26px 70px 58px 175px 1fr 102px 140px 74px;align-items:center;gap:12px;padding:11px 4px;border-bottom:1px dashed var(--line);cursor:pointer}
+.trow{display:grid;grid-template-columns:26px 70px minmax(160px,220px) minmax(150px,175px) minmax(80px,1fr) 102px 140px 74px;align-items:center;gap:12px;padding:11px 4px;border-bottom:1px dashed var(--line);cursor:pointer}
 .trow:hover{background:var(--card)}
 .trow .trk,.trow .ttk,.trow .tn{width:auto}.trow .trk{text-align:center}
+.trow .ttk{display:flex;align-items:center;gap:4px;flex-wrap:wrap;min-width:0;line-height:1.35}
 .trow .distbar{height:15px;min-width:0;border-radius:5px}
 .ttag{display:flex;align-items:center}
 .tchg{font-family:var(--mono);font-size:10px;color:var(--ink-faint);display:flex;align-items:center;gap:5px;white-space:nowrap;justify-content:flex-end}
@@ -1150,12 +1167,12 @@ const GLOSSARY=[
   ['photonics','光子學 - 用光來傳輸、處理或運算訊號的技術。'],['optical interconnects','光互連 - 用光取代電訊號，在晶片、伺服器或資料中心之間高速傳輸資料。'],
   ['optical module','光模組 - 把電訊號和光訊號互相轉換的通訊元件。'],['optical modules','光模組 - 把電訊號和光訊號互相轉換的通訊元件。'],
   ['transceiver','收發器 - 同時負責發送與接收訊號的光通訊模組。'],['transceivers','收發器 - 同時負責發送與接收訊號的光通訊模組。'],
-  ['laser','雷射 - 用來產生高集中度光束的元件，是光通訊供應鏈的核心零件之一。'],['CW laser','CW laser (Continuous Wave Laser) 連續波雷射 - 持續輸出穩定光源的雷射，常用於 CPO 或矽光子系統。'],['EML','EML (Electro-absorption Modulated Laser) 電吸收調變雷射 - 高速光通訊常用的雷射類型。'],
+  ['laser','雷射 - 用來產生高集中度光束的元件，是光通訊供應鏈的核心零件之一。'],['CW laser','CW laser (Continuous Wave Laser) 連續波雷射 - 持續輸出穩定光源的雷射，常用於 CPO 或矽光子系統。'],['CW DFB','CW DFB (Continuous Wave Distributed Feedback) 連續波分佈回饋雷射 - 適合提供穩定單波長光源，是矽光子與 CPO 架構常被討論的雷射類型。'],['DFB','DFB (Distributed Feedback) 分佈回饋雷射 - 可輸出穩定波長的半導體雷射，常用於高速光通訊。'],['EML','EML (Electro-absorption Modulated Laser) 電吸收調變雷射 - 高速光通訊常用的雷射類型。'],
   ['InP','InP (Indium Phosphide) 磷化銦 - 適合製造高速光電與雷射元件的化合物半導體材料。'],['800G','800G - 每秒 800Gbps 的光通訊速度，是 AI 資料中心常見升級方向。'],['1.6T','1.6T - 每秒 1.6Tbps 的光通訊速度，約為 800G 的兩倍。'],
-  ['CPO','CPO (Co-Packaged Optics) 共同封裝光學 - 把光學元件放到更靠近晶片的位置，降低功耗並提高頻寬。'],['NPO','NPO (Near-Packaged Optics) 近封裝光學 - 光學元件非常靠近晶片，但不一定完全共同封裝。'],['pluggable','可插拔光模組 - 可以像零件一樣插拔更換的光通訊模組。'],
+  ['silicon photonics','矽光子 - 在矽晶片平台上整合光學元件，用光來傳輸資料。'],['SiPh','SiPh (Silicon Photonics) 矽光子 - 在矽晶片平台上整合光學元件，用光來傳輸資料。'],['CPO','CPO (Co-Packaged Optics) 共同封裝光學 - 把光學元件放到更靠近晶片的位置，降低功耗並提高頻寬。'],['NPO','NPO (Near-Packaged Optics) 近封裝光學 - 光學元件非常靠近晶片，但不一定完全共同封裝。'],['pluggable','可插拔光模組 - 可以像零件一樣插拔更換的光通訊模組。'],
   ['supply chain','供應鏈 - 從材料、零件、製造到交付客戶的整個產業鏈。'],['bottleneck','瓶頸 - 限制整個系統產能或成長速度的關鍵限制。'],['chokepoint','關鍵卡點 - 供應稀缺且難以替代的環節，通常具有較高議價能力。'],
   ['TAM','TAM (Total Addressable Market) 總潛在市場規模 - 一個產品或技術理論上可以服務的最大市場。'],['LTA','LTA (Long-Term Agreement) 長期供應協議 - 客戶與供應商提前鎖定未來產能或供貨條件的合約。'],['volume ramp','量產爬坡 - 產品從小量出貨逐步擴大到大規模量產的過程。']
-  ,['revenue ramp','收入爬坡 - 新產品或新客戶開始放量，收入快速增加的階段。'],['optical engines','光引擎 - 把雷射、調變與光訊號處理整合起來的核心光通訊元件。']
+  ,['revenue ramp','收入爬坡 - 新產品或新客戶開始放量，收入快速增加的階段。'],['optical engines','光引擎 - 把雷射、調變與光訊號處理整合起來的核心光通訊元件。'],['ELS','ELS (External Laser Source) 外部光源 - 把雷射光源放在主要晶片或模組外部，再把光導入系統的設計。'],['NRE','NRE (Non-Recurring Engineering) 一次性工程開發費 - 為特定客戶或產品開發前期設計、驗證所產生的非重複收入。']
 ];
 const GLOSS_MAP=Object.fromEntries(GLOSSARY.map(function(x){return [x[0].toLowerCase(),x[1]];}));
 const GLOSS_RE=new RegExp('\\\\b('+GLOSSARY.map(function(x){return x[0].replace(/[.*+?^${}()|[\\]\\\\]/g,'\\\\$&');}).sort(function(a,b){return b.length-a.length;}).join('|')+')\\\\b','gi');
@@ -1213,7 +1230,7 @@ function reportHtml(r,postMap,tk){
   function tweetCard(c){
     var p=postMap&&postMap[c.tweet_id];
     if(!p)return '<a class="rcite" href="'+esc(c.url||'#')+'" target="_blank" rel="noopener">'+esc(c.date||'')+' · '+esc(c.label||c.tweet_id||'source')+' <i class="fa-solid fa-arrow-up-right-from-square"></i></a>';
-    var sp=shortPostText(p.text,280),more=sp.cut?'\\n<span class="twmore">Read more</span>':'';
+    var sp=shortPostText(p.text,280),more=sp.cut?'\\n<span class="twmore">閱讀更多</span>':'';
     return '<a class="tweetcard" href="'+esc(p.url||c.url||'#')+'" target="_blank" rel="noopener"><div class="twhead"><img class="twav" src="assets/serenity-avatar.jpg" alt="Serenity avatar"><div><div class="twnm">Serenity <i class="fa-solid fa-circle-check" style="color:#1d9bf0;font-size:12px"></i></div><div class="twmeta">@aleabitoreddit · '+esc(p.d||c.date||'')+'</div></div><span class="twopen"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div><div class="twtext">'+fmtPostText(sp.text)+more+'</div>'+mediaHtml(p.media)+'</a>';
   }
   function cites(a){if(!a||!a.length)return '';var cards=[],chips=[];a.forEach(function(c){var h=tweetCard(c);if(h.indexOf('tweetcard')>=0)cards.push(h);else chips.push(h);});return (cards.length?'<div class="tweetrefs">'+cards+'</div>':'')+(chips.length?'<div class="thesis-cites">'+chips.join('')+'</div>':'');}
@@ -1221,11 +1238,12 @@ function reportHtml(r,postMap,tk){
     var u=(r.updates||[])[0];if(!u)return '';
     var stance={still_bullish:'仍偏多',more_bullish:'更加看多',more_cautious:'轉為謹慎',thesis_changed:'論點改變',bearish_reversal:'轉為看空',new_catalyst:'新增催化',new_risk:'新增風險'}[u.stance]||u.stance||'更新';
     var imp={high:'重要更新',medium:'一般更新',low:'小更新'}[u.importance]||u.importance||'更新';
+    var genDate=(r.generated_at||'').slice(0,10),updateLabel=(u.date&&genDate&&u.date<genDate)?'重要歷史立場更新':'最新更新';
     var src=(u.source_tweet_ids||[]).map(function(id){var p=postMap&&postMap[id];return {tweet_id:id,date:p&&p.d,url:p&&p.url,label:'Serenity 原文'};});
     var bullets=(u.bullets||[]).map(function(b){return '<li>'+glossText(b)+'</li>';}).join('');
-    return '<details class="updates"><summary><div class="updates-k">最新更新 · '+esc(u.date||'')+'</div><h2>'+glossText(u.title||'')+'</h2><div class="updates-meta"><span class="upill high">'+esc(imp)+'</span><span class="upill">'+esc(stance)+'</span></div>'+paras([u.summary||''])+'<span class="update-more">展開更新內容 <i class="fa-solid fa-chevron-down"></i></span></summary><div class="updates-body">'+(bullets?'<ul>'+bullets+'</ul>':'')+cites(src)+'</div></details>';
+    return '<details class="updates"><summary><div class="updates-k">'+updateLabel+' · '+esc(u.date||'')+'</div><h2>'+glossText(u.title||'')+'</h2><div class="updates-meta"><span class="upill high">'+esc(imp)+'</span><span class="upill">'+esc(stance)+'</span></div>'+paras([u.summary||''])+'<span class="update-more">展開更新內容 <i class="fa-solid fa-chevron-down"></i></span></summary><div class="updates-body">'+(bullets?'<ul>'+bullets+'</ul>':'')+cites(src)+'</div></details>';
   }
-  var secs=(r.sections||[]).map(function(s){return '<section class="thesis-sec"><h3>'+glossText(s.heading||'')+'</h3>'+paras(s.body)+cites(s.citations)+'</section>';}).join('');
+  var secs=(r.sections||[]).map(function(s){return '<section class="thesis-sec"><h3>'+esc(s.heading||'')+'</h3>'+paras(s.body)+cites(s.citations)+'</section>';}).join('');
   var summary=paras(r.one_minute_summary);
   var final=paras(r.final_takeaway);
   return updateHtml()+'<article class="thesis"><div class="thesis-kicker">SERENITY $'+esc(tk)+' 投資論點報告</div><h2 class="thesis-title">'+glossText(r.title||'')+'</h2><div class="thesis-sub">'+glossText(r.subtitle||'')+'</div>'+(r.core_label?'<div class="thesis-core">'+glossText(r.core_label)+'</div>':'')+(summary?'<div class="thesis-summary">'+summary+'</div>':'')+secs+(final?'<section class="thesis-final"><h3>最後結論</h3>'+final+'</section>':'')+'</article>';
@@ -1234,9 +1252,11 @@ function renderDD(tk){
   var d=window.DD_DATA&&DD_DATA[tk];
   if(!d){document.getElementById('ddBody').innerHTML='<div class="ddph"><div style="font-size:18px;color:var(--ink);margin-bottom:10px">'+I('dd_ph_title',{tk:tk})+'</div><div style="font-size:13px;line-height:1.7">'+I18N.dd_ph_body+'</div></div>';ddOpenTicker=tk;openDD();return;}
   var zh=!!d.report;
-  var Z={bull:'看多',bear:'看空',neutral:'中性',mixed:'多空混合',none:'僅提及',first:'首次提及',last:'最近提及',total:'總提及',firstPx:'首次提及價格',today:'今日',bullCase:'看多理由',risks:'提到的風險',newest:'最新在前',initial:'初始觀點',background:'背景',analogy:'比喻',quote:'引用',mention:'提及',showMore:'查看更多貼文'};
+  var Z={bull:'看多',bear:'看空',neutral:'中性',mixed:'多空混合',none:'僅提及',first:'首次提及',last:'最近提及',total:'總提及',firstPx:'首次提及價格',today:'今日',bullCase:'看多理由',risks:'提到的風險',newest:'最新在前',initial:'初始觀點',background:'背景',analogy:'類比',quote:'引用',mention:'提及',showMore:'查看更多貼文'};
   var industryZh={'Optical Modules':'光通訊模組','Optical Comms':'光通訊','AI Cloud/GPU':'AI 雲端 / GPU','AI Photonics/CPO Lasers':'AI 光子學 / CPO 雷射','InP Substrates':'磷化銦基板','AI Chips':'AI 晶片','Hyperscaler':'超大規模雲端服務商','SOI Wafers':'SOI 晶圓','Wafer Foundry':'晶圓代工','Compound Semiconductors':'化合物半導體'};
+  var themeZh={'InP substrates':'磷化銦基板 (InP substrates)','CPO':'CPO','HBM':'HBM','Power':'電力 (Power)','Cooling':'散熱 (Cooling)','Networking':'網路互連 (Networking)','AI cloud':'AI 雲端 (AI cloud)','Custom silicon':'客製化晶片 (Custom silicon)','Other':'Other'};
   var industryText=zh&&industryZh[d.industry]?industryZh[d.industry]+' ('+esc(d.industry)+')':esc(d.industry||'');
+  var themeText=zh&&themeZh[d.theme]?themeZh[d.theme]:esc(d.theme||'Other');
   var pill=d.stance==='bull'?'<span class="ddpill bull">'+(zh?Z.bull:I18N.stance_bull)+'</span>':d.stance==='bear'?'<span class="ddpill bear">'+(zh?Z.bear:I18N.stance_bear)+'</span>':d.stance==='shift'?'<span class="ddpill cw">'+(zh?Z.mixed:I18N.stance_mixed)+'</span>':d.stance==='none'?'<span class="ddpill neutral">'+(zh?Z.none:I18N.stance_none)+'</span>':'<span class="ddpill neutral">'+(zh?Z.neutral:I18N.stance_neutral)+'</span>';
   var split='<span class="tup"><i class="fa-solid fa-caret-up"></i></span>'+d.bull+' '+(zh?Z.bull:I18N.stance_bull)+' · <span class="tdn"><i class="fa-solid fa-caret-down"></i></span>'+d.bear+' '+(zh?Z.bear:I18N.stance_bear)+' · <span class="tnt"><i class="fa-solid fa-circle"></i></span>'+d.neu+' '+(zh?Z.neutral:I18N.stance_neutral);
   function zhReasonText(s){var m={
@@ -1252,7 +1272,99 @@ function renderDD(tk){
     '$600m dilution ongoing caps upside':'仍有 6 億美元稀釋壓力，可能限制短期上行空間',
     '$600m ATM causes a lot of near term pressure':'6 億美元 ATM 增發造成短期壓力',
     'extreme pluggable exposure':'對可插拔光模組 (pluggable) 曝險很高',
-    'debating if CPO helps them more than it hurts':'仍需判斷共同封裝光學 (CPO) 對公司是利多大於利空，還是反過來'
+    'debating if CPO helps them more than it hurts':'仍需判斷共同封裝光學 (CPO) 對公司是利多大於利空，還是反過來',
+    'InP CW DFB laser maker':'InP CW DFB 雷射製造商',
+    'next $LITE for CPO/silicon photonics':'Serenity 認為它可能是 CPO / 矽光子 (silicon photonics) 時代的下一個 $LITE',
+    'supplies lasers to POET Starlight and Ayar SuperNova':'供應雷射給 POET Starlight 與 Ayar SuperNova',
+    'valued at $140M vs POET at 11x more':'當時市值約 1.4 億美元，但 $POET 估值高出約 11 倍',
+    'undiscovered by institutions':'機構投資人仍未充分發現',
+    '$453M pipeline next few years':'未來幾年有約 4.53 億美元 pipeline',
+    'refinanced debt to $17M total':'已完成再融資，總債務約 1,700 萬美元',
+    'WIN Semi foundry qualification in progress for volume production':'Win Semi 代工 qualification 進行中，有助於未來量產',
+    'pure play InP laser segment for silicon photonics + CPO':'純粹的 InP 雷射業務，對應矽光子 (silicon photonics) 與 CPO',
+    'Lidar segment ramping with $53-138M projected revenue':'LiDAR 業務也在爬坡，預估收入約 5,300 萬至 1.38 億美元',
+    'undiscovered by institutions due to Stockholm listing':'因為在 Stockholm 上市，許多機構還沒有充分覆蓋',
+    'cw dfb laser supplier to Ayar and POET and other CPO companies':'Ayar、POET 與其他 CPO 公司所需的 CW DFB 雷射供應商',
+    'capital rotating into silicon photonics/CPO makes timing right':'資金開始輪動到矽光子 (silicon photonics) / CPO，時機變得更有利',
+    'the next LITE for CPO/Silicon photonics':'CPO / 矽光子 (silicon photonics) 週期裡的下一個 $LITE 類型標的',
+    'new choice':'Serenity 新選出的重點標的',
+    'could be the next $LITE for silicon photonics/CPO':'可能成為矽光子 (silicon photonics) / CPO 領域的下一個 $LITE',
+    'sits in the CW DFB laser bottleneck of next gen photonic architectures':'位在下一代光子架構的 CW DFB 雷射瓶頸',
+    'laser supplier to Ayar, POET, and likely other silicon photonics/CPO players':'供應雷射給 Ayar、POET，以及其他可能的矽光子 / CPO 玩家',
+    'Win semi ongoing qualification allows them to scale up capacity':'Win Semi qualification 若完成，可幫助 SIVE 擴大量產能力',
+    'widely undiscovered name':'市場仍普遍沒有發現這個標的',
+    'personal bull case scenario is $10 billion+':'Serenity 個人 bull case 是 100 億美元以上市值',
+    'should deserve a much higher valuation than POET':'Serenity 認為它應該比 $POET 享有更高估值',
+    'does the lasers for silicon photonics/CPO but is 1/6th the valuation of POET and 1/20th the valuation of Ayar':'它做的是矽光子 / CPO 所需雷射，但估值遠低於 $POET 與 Ayar',
+    'InP CW DFB laser exposure for new photonics architectural shift':'提供下一代光子架構轉換所需的 InP CW DFB 雷射曝險',
+    'supplies POET/Ayar/other CPO companies':'供應 POET、Ayar 與其他 CPO 公司',
+    'early enough to tailor custom lasers to fit specifications before they got popular':'很早就能依客戶規格客製雷射，早於這些架構變熱門之前',
+    'potential Win Semi qualification offsets volume risks':'潛在 Win Semi qualification 可降低量產風險',
+    'personal CW DFB laser exposure for rotation from EML to SiPh cycle':'Serenity 用它作為從 EML 週期輪動到 SiPh / CW DFB 週期的個人曝險',
+    'long term holding':'Serenity 表示偏長期持有',
+    'laser supplier to up and coming CPO/silicon photonics companies':'供應雷射給正在崛起的 CPO / 矽光子公司',
+    'waiting for mass order ramp':'等待大量訂單與量產爬坡',
+    'thesis validation as InP CW DFB laser array supplier for silicon photonics CPO':'作為矽光子 / CPO 的 InP CW DFB 雷射陣列供應商， thesis 獲得驗證',
+    'major partnership with O-Net and Enablence for CPO':'與 O-Net、Enablence 的 CPO 重大合作',
+    'looks like the early $LITE for CPO/Silicon photonics at $212M valuation which looks absurd':'以約 2.12 億美元估值來看，像是早期的 CPO / 矽光子 $LITE，Serenity 認為估值很不合理',
+    'laser supplier for Asian CPO supply chain via Enablence -> O-Net for AI DCs':'透過 Enablence → O-Net 供應亞洲 AI data center CPO 供應鏈所需雷射',
+    'laser supplier for US hyperscaler supply chains via POET -> MRVL Celestial':'透過 POET → MRVL Celestial 進入美國 hyperscaler 供應鏈',
+    'laser supplier to NVDA-backed Ayar for merchant models':'供應雷射給 NVDA 投資的 Ayar，對應 merchant model',
+    'risk reward looks extremely promising':'Serenity 認為風險報酬非常有吸引力',
+    'captures rotation from EML to SiPh/CW DFB architectural change':'捕捉從 EML 到 SiPh / CW DFB 架構轉換的輪動',
+    'hasn\\'t been re-rated yet':'尚未完成估值重估',
+    'CPO TAM exponential growth':'CPO TAM 可能呈指數級成長',
+    'highest upside potential':'Serenity 認為上行潛力最高',
+    'chokepoint in AI photonics supply chain':'AI photonics 供應鏈裡的關鍵瓶頸',
+    'CPO/silicon photonics paradigm shift':'CPO / 矽光子架構轉換',
+    'upstream laser supplier in CPO supply chain':'CPO 供應鏈裡的上游雷射供應商',
+    'high potential beneficiary':'高潛力受益者',
+    'used for light sources in scale up and laser arrays':'用於量產擴張與雷射陣列的光源',
+    'extremely undiscovered opportunity':'市場仍極度低估、尚未充分發現的機會',
+    'supplies POET and Ayar':'供應 POET 與 Ayar',
+    'wins in both captive and merchant models':'在 captive 與 merchant 模式中都有機會受益',
+    'CPO/Silicon photonics is main growth engine past 2027':'2027 年後主要成長引擎是 CPO / 矽光子',
+    'laser company for hyperscaler photonic supply chains':'hyperscaler 光子供應鏈裡的雷射公司',
+    'makes silicon photonics/CPO scale up & scale out work':'幫助矽光子 / CPO 完成 scale up 與 scale out',
+    'has actual revenue':'已經有實際收入，不是純概念公司',
+    'most undervalued and unknown photonics company on the market':'Serenity 認為它是市場上最被低估、最不知名的 photonics 公司之一',
+    'extreme TAM expansion from AI':'AI 帶來極大的 TAM 擴張',
+    'Win semi qualification is critical':'Win Semi qualification 是關鍵',
+    'fabless through Win Semi so capex is lightweight':'透過 Win Semi 採 fabless 模式，資本支出較輕',
+    'doesn\\'t see much downside risk long run aside from dilution':'除稀釋外，Serenity 認為長期下行風險相對有限',
+    'light source for many customers rather than one':'不是只服務單一客戶，而是多個客戶的光源供應商',
+    'likely guess for AMD large purchase agreements for CW lasers':'Serenity 推測 AMD 可能會簽下大型 CW laser 採購協議',
+    'AMD + GFS/Sivers reference laser':'AMD + GFS / Sivers reference laser 可能形成重要供應鏈線索',
+    'hopes it becomes an American company':'Serenity 希望它未來能變成更偏美國市場的公司',
+    'affected by regional Swedish market liquidity':'受瑞典本地市場流動性影響',
+    'main concern is laser multi-sourcing':'主要風險是客戶可能採用多來源雷射供應',
+    'he doesn\\'t know anything about it yet':'Serenity 當時還不了解 $SIVE',
+    'he says by derivative of POET not being a big name, Sivers likely wouldn\\'t be a major player':'她當時認為若 $POET 也不是大玩家，Sivers 可能也未必是主要玩家',
+    'CPO ramp gets delayed':'CPO 量產爬坡延後',
+    'dilution to scale up capacity to compete with $LITE and others':'為了擴產與 $LITE 等公司競爭，可能需要增發稀釋',
+    '$LITE, $COHR competition on scale after $NVDA just gave them $4B':'$LITE、$COHR 在規模上競爭力強，且獲得 $NVDA 大額支持',
+    'volume risks':'量產與出貨放量仍有風險',
+    'execution':'執行風險',
+    'materials supplier for LITE and photonics':'$LITE / photonics 的上游材料供應商',
+    '$500M market cap':'當時市值約 5 億美元',
+    'controls 60-70%+ of world\\'s InP substrates with SMTOY':'與 Sumitomo 一起控制全球 InP substrates 約 60-70% 以上供應',
+    'InP substrates required for future AI buildout':'未來 AI buildout 需要 InP substrates',
+    'entire AI industry bottlenecked by this company':'整個 AI 產業可能被這家公司所在環節卡住',
+    '$700M company could become center of AI supply chain':'約 7 億美元市值公司可能成為 AI 供應鏈核心瓶頸',
+    'mapped InP substrate supply chain':'已梳理 InP substrate 供應鏈',
+    'tracked high purity indium pricing':'追蹤高純度 indium 價格',
+    'modeled game theory around bottleneck hikes/supply shocks':'推演瓶頸漲價與供應衝擊下的賽局',
+    'Reuters confirmed InP substrates can halt AI buildout':'Reuters 相關報導確認 InP substrates 可能影響 AI buildout',
+    'Chinese gov risk always a consideration':'中國政府 / 出口管制風險一直需要考慮',
+    'massive bottleneck for inp substrates':'InP substrates 本身存在重大瓶頸',
+    'massive bottleneck for refining/precursors needed to make them':'製造 InP substrates 所需 refining / precursors 也存在重大瓶頸',
+    '14th shareholder vote on 50M share increase putting people on edge':'14 日股東會將投票是否增加 5,000 萬股授權，讓市場緊張',
+    'proposed 50M share dilution (70M to 120M shares)':'提議增加 5,000 萬股授權，從 7,000 萬股到 1.2 億股',
+    'up to $2B dilution':'潛在稀釋規模最高約 20 億美元',
+    'board filing is a red flag':'董事會提出此文件本身就是紅旗',
+    'would not hold if dilution passes':'若稀釋通過，Serenity 表示自己不會持有',
+    'doubling the float':'幾乎等於大幅增加流通股本',
+    'equity getting wiped out':'股東權益可能被嚴重稀釋'
   };return m[s]||s;}
   function mkR(a,empty,cls){if(!a||!a.length)return '<li class="empty">'+empty+'</li>';return a.map(function(r){return '<li><span class="rdot '+cls+'"></span><span class="rt">'+(zh?glossText(zhReasonText(r[0])):esc(r[0]))+'</span><a class="rsrc" href="'+r[1]+'" target="_blank" rel="noopener">'+r[2]+' <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>';}).join('');}
   function postTag(t){if(!zh)return t.tag;var m={'Bullish':Z.bull,'Bearish':Z.bear,'Neutral':Z.neutral,'Background':Z.background,'Analogy':Z.analogy,'Quote':Z.quote,'Mention':Z.mention};return m[t.tag]||t.tag;}
@@ -1262,7 +1374,7 @@ function renderDD(tk){
   var postMap={};_ps.forEach(function(p){if(p.id)postMap[p.id]=p;});
   var plistHtml='<div class="plist">'+_head.map(function(p){return postRow(p,false);}).join('')+(_rest.length?'<div id="ddRest">'+_rest.map(function(p){return postRow(p,true);}).join('')+'</div>':'')+'</div>'+(_rest.length?'<div class="ddmore" '+(zh?'data-zh="1" ':'')+'onclick="ddMore(this)">'+(zh?Z.showMore+' ('+_rest.length+') <i class="fa-solid fa-chevron-down"></i>':I('dd_view_all',{n:_rest.length}))+'</div>':'');
   document.getElementById('ddBody').innerHTML=
-    '<div class="ddhead"><div class="ddhl"><div class="ddtk">'+tk+'<span class="market detail">'+esc(d.market||'')+'</span><span class="theme detail '+(d.theme==='Other'?'other':'')+'">'+esc(d.theme||'Other')+'</span></div><div class="ddco">'+esc(d.co)+(d.industry?' · <span class="ddind">'+industryText+'</span>':'')+'</div><div class="ddpills">'+pill+'</div></div>'+
+    '<div class="ddhead"><div class="ddhl"><div class="ddtk">'+tk+'<span class="market detail">'+esc(d.market||'')+'</span><span class="theme detail '+(d.theme==='Other'?'other':'')+'">'+themeText+'</span></div><div class="ddco">'+esc(d.co)+(d.industry?' · <span class="ddind">'+industryText+'</span>':'')+'</div><div class="ddpills">'+pill+'</div></div>'+
     '<div class="ddmeta"><div class="ddmrow">'+(zh?Z.first:I18N.dd_first_mention)+' <b>'+d.first+'</b>　·　'+(zh?Z.last:I18N.dd_last_mention)+' <b>'+d.last+'</b></div><div class="ddmrow">'+(zh?Z.total:I18N.dd_total)+' <b>'+d.total+'</b>'+(I18N.count_unit?' '+I18N.count_unit:'')+'　·　'+(zh?Z.firstPx:I18N.dd_first_px)+' <b>'+firstPxTxt+'</b></div><div class="ddsplit">'+split+'</div><div class="ddfreq"><span class="fc"><i>'+(zh?Z.today:I18N.dd_today)+'</i><b>'+d.m_today+'</b></span><span class="fc"><i>'+I18N.freq_7d+'</i><b>'+d.m7+'</b></span><span class="fc"><i>'+I18N.freq_28d+'</i><b>'+d.m28+'</b></span></div></div></div>'+
     reportHtml(d.report,postMap,tk)+
     '<div class="charttitle"><h3>'+(zh?'$'+tk+' 自 Serenity 首次提及以來的股價走勢':'$'+tk+' price path since Serenity first mentioned it')+'</h3><p>'+(zh?'圓點標記 Serenity 發文，顏色代表立場。':'Dots mark Serenity posts by inferred stance.')+'</p></div>'+
@@ -1292,7 +1404,8 @@ syncTickerRoute();
     overlay='<div id="ddPage"><div id="ddBody"></div></div>'
     dddata='<script>var DD_DATA='+json.dumps(dd_data(),ensure_ascii=False)+';</script>'
     body=f'<body>\n{nav}\n<div class="main">\n{secs}\n</div>\n{overlay}\n{i18n_js}\n{dddata}\n{script}\n</body></html>'
-    out_name=f'serenity-tracker-{DAY.isoformat()}{"" if LANG=="en" else "-"+LANG}.html'
+    suffix='' if (LANG_ARG is None or LANG=='zh') else f'-{LANG}'
+    out_name=f'serenity-tracker-{DAY.isoformat()}{suffix}.html'
     open(out_name,'w',encoding='utf-8').write(head+body)
     print('built '+os.path.abspath(out_name))
 

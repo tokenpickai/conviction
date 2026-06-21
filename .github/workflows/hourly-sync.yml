@@ -48,6 +48,15 @@ jobs:
       - name: Verify data
         run: python scripts/verify_data.py
 
+      - name: Check report update candidates
+        run: python scripts/check_report_updates.py
+
+      - name: Build report queue
+        run: python scripts/build_report_queue.py
+
+      - name: Validate reports
+        run: python scripts/validate_reports.py
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions"

@@ -1,0 +1,306 @@
+{
+  "actionable": 5,
+  "candidates": [
+    {
+      "classification": "update_candidate",
+      "coverage_through": "2026-06-18",
+      "current_report_stance": "still_bullish",
+      "cutoff_date": "2026-06-18",
+      "importance": "high",
+      "new_posts": 3,
+      "posts": [
+        {
+          "conviction": "medium",
+          "date": "2026-06-19",
+          "is_risk": false,
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "smaller cap position that directionally played out well",
+            "mentioned at $30"
+          ],
+          "score": 88,
+          "stance": "bullish",
+          "text_preview": "I think something to highlight also is not all my ideas are green, especially on short term timeframes! My core three themes are Neoclouds (Energy), Memory, and Photonics. And I'm glad I chose the literal top performers for each segment from $NBIS to $EWY lea…",
+          "tweet_id": "2067945397923037693",
+          "url": "https://x.com/aleabitoreddit/status/2067945397923037693"
+        },
+        {
+          "conviction": null,
+          "date": "2026-06-20",
+          "is_risk": false,
+          "mention_type": "explicit_stance",
+          "reasons": [],
+          "score": 85,
+          "stance": "bullish",
+          "text_preview": "I think u must be new here. Many of my ideas get intense backlash at the start, especially the more original they are. $AXTI - endless hate to the point I got banned from the $RDDT WSB forum. They thought it was some scam Chinese company, but Reuters, Epiwafe…",
+          "tweet_id": "2068301039946887269",
+          "url": "https://x.com/aleabitoreddit/status/2068301039946887269"
+        },
+        {
+          "conviction": null,
+          "date": "2026-06-19",
+          "is_risk": false,
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "$471m/month projections",
+            "lot of independent supply",
+            "located in the US",
+            "bears are regarded when entire industry is laser/capacity constrained"
+          ],
+          "score": 48,
+          "stance": "bullish",
+          "text_preview": "@TW_trades_ Let’s just say bears are regarded when the entire industry is laser/capacity constrained. Then $AAOI comes in with $471m/month projections with a lot of independent supply, which happens to be located in the US too.",
+          "tweet_id": "2067900211721376253",
+          "url": "https://x.com/aleabitoreddit/status/2067900211721376253"
+        }
+      ],
+      "reason": "AAOI has new high-signal thesis evidence.",
+      "signal_terms": [
+        "ban",
+        "capacity",
+        "gfs",
+        "holding",
+        "jbl",
+        "long",
+        "nvda",
+        "own",
+        "played out",
+        "sell",
+        "thesis"
+      ],
+      "source_tweet_ids": [
+        "2067945397923037693",
+        "2068301039946887269",
+        "2067900211721376253"
+      ],
+      "ticker": "AAOI",
+      "top_score": 88
+    },
+    {
+      "classification": "update_candidate",
+      "coverage_through": "2026-06-16",
+      "current_report_stance": "more_cautious",
+      "cutoff_date": "2026-06-16",
+      "importance": "high",
+      "new_posts": 2,
+      "posts": [
+        {
+          "conviction": "medium",
+          "date": "2026-06-19",
+          "is_risk": false,
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "smaller cap position that directionally played out well",
+            "mentioned at ~$13"
+          ],
+          "score": 88,
+          "stance": "bullish",
+          "text_preview": "I think something to highlight also is not all my ideas are green, especially on short term timeframes! My core three themes are Neoclouds (Energy), Memory, and Photonics. And I'm glad I chose the literal top performers for each segment from $NBIS to $EWY lea…",
+          "tweet_id": "2067945397923037693",
+          "url": "https://x.com/aleabitoreddit/status/2067945397923037693"
+        },
+        {
+          "conviction": null,
+          "date": "2026-06-20",
+          "is_risk": false,
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "InP substrate position validated by Reuters, Epiwafer company earnings, and institutions"
+          ],
+          "score": 88,
+          "stance": "bullish",
+          "text_preview": "I think u must be new here. Many of my ideas get intense backlash at the start, especially the more original they are. $AXTI - endless hate to the point I got banned from the $RDDT WSB forum. They thought it was some scam Chinese company, but Reuters, Epiwafe…",
+          "tweet_id": "2068301039946887269",
+          "url": "https://x.com/aleabitoreddit/status/2068301039946887269"
+        }
+      ],
+      "reason": "AXTI has new high-signal thesis evidence.",
+      "signal_terms": [
+        "ban",
+        "gfs",
+        "holding",
+        "jbl",
+        "long",
+        "nvda",
+        "own",
+        "played out",
+        "sell",
+        "thesis"
+      ],
+      "source_tweet_ids": [
+        "2067945397923037693",
+        "2068301039946887269"
+      ],
+      "ticker": "AXTI",
+      "top_score": 88
+    },
+    {
+      "classification": "update_candidate",
+      "coverage_through": "2026-06-17",
+      "current_report_stance": "bearish",
+      "cutoff_date": "2026-06-17",
+      "importance": "medium",
+      "new_posts": 1,
+      "posts": [
+        {
+          "conviction": null,
+          "date": "2026-06-20",
+          "is_risk": false,
+          "mention_type": "background",
+          "reasons": [],
+          "score": 51,
+          "stance": "neutral",
+          "text_preview": "I think u must be new here. Many of my ideas get intense backlash at the start, especially the more original they are. $AXTI - endless hate to the point I got banned from the $RDDT WSB forum. They thought it was some scam Chinese company, but Reuters, Epiwafe…",
+          "tweet_id": "2068301039946887269",
+          "url": "https://x.com/aleabitoreddit/status/2068301039946887269"
+        }
+      ],
+      "reason": "IREN has new high-signal thesis evidence.",
+      "signal_terms": [
+        "ban",
+        "gfs",
+        "jbl",
+        "own",
+        "sell",
+        "thesis"
+      ],
+      "source_tweet_ids": [
+        "2068301039946887269"
+      ],
+      "ticker": "IREN",
+      "top_score": 51
+    },
+    {
+      "classification": "update_candidate",
+      "coverage_through": "2026-06-17",
+      "current_report_stance": "unknown",
+      "cutoff_date": "2026-06-17",
+      "importance": "high",
+      "new_posts": 2,
+      "posts": [
+        {
+          "conviction": "high",
+          "date": "2026-06-19",
+          "is_risk": false,
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "top performer in Neoclouds/Energy segment",
+            "triple digit YTD"
+          ],
+          "score": 86,
+          "stance": "bullish",
+          "text_preview": "I think something to highlight also is not all my ideas are green, especially on short term timeframes! My core three themes are Neoclouds (Energy), Memory, and Photonics. And I'm glad I chose the literal top performers for each segment from $NBIS to $EWY lea…",
+          "tweet_id": "2067945397923037693",
+          "url": "https://x.com/aleabitoreddit/status/2067945397923037693"
+        },
+        {
+          "conviction": null,
+          "date": "2026-06-20",
+          "is_risk": false,
+          "mention_type": "explicit_stance",
+          "reasons": [],
+          "score": 85,
+          "stance": "bullish",
+          "text_preview": "I think u must be new here. Many of my ideas get intense backlash at the start, especially the more original they are. $AXTI - endless hate to the point I got banned from the $RDDT WSB forum. They thought it was some scam Chinese company, but Reuters, Epiwafe…",
+          "tweet_id": "2068301039946887269",
+          "url": "https://x.com/aleabitoreddit/status/2068301039946887269"
+        }
+      ],
+      "reason": "NBIS has new high-signal thesis evidence.",
+      "signal_terms": [
+        "ban",
+        "gfs",
+        "holding",
+        "jbl",
+        "long",
+        "nvda",
+        "own",
+        "sell",
+        "thesis"
+      ],
+      "source_tweet_ids": [
+        "2067945397923037693",
+        "2068301039946887269"
+      ],
+      "ticker": "NBIS",
+      "top_score": 86
+    },
+    {
+      "classification": "update_candidate",
+      "coverage_through": "2026-06-18",
+      "current_report_stance": "bullish",
+      "cutoff_date": "2026-06-18",
+      "importance": "high",
+      "new_posts": 3,
+      "posts": [
+        {
+          "conviction": "high",
+          "date": "2026-06-20",
+          "is_risk": false,
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "most successful idea",
+            "validated by institutional buying from Fidelity Research and JP Morgan",
+            "formally announced partnerships from JBL to GFS"
+          ],
+          "score": 106,
+          "stance": "bullish",
+          "text_preview": "I think u must be new here. Many of my ideas get intense backlash at the start, especially the more original they are. $AXTI - endless hate to the point I got banned from the $RDDT WSB forum. They thought it was some scam Chinese company, but Reuters, Epiwafe…",
+          "tweet_id": "2068301039946887269",
+          "url": "https://x.com/aleabitoreddit/status/2068301039946887269"
+        },
+        {
+          "conviction": "high",
+          "date": "2026-06-19",
+          "is_risk": false,
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "top performer in Photonics segment"
+          ],
+          "score": 83,
+          "stance": "bullish",
+          "text_preview": "I think something to highlight also is not all my ideas are green, especially on short term timeframes! My core three themes are Neoclouds (Energy), Memory, and Photonics. And I'm glad I chose the literal top performers for each segment from $NBIS to $EWY lea…",
+          "tweet_id": "2067945397923037693",
+          "url": "https://x.com/aleabitoreddit/status/2067945397923037693"
+        },
+        {
+          "conviction": null,
+          "date": "2026-06-19",
+          "is_risk": false,
+          "mention_type": "comparison",
+          "reasons": [],
+          "score": 50,
+          "stance": "neutral",
+          "text_preview": "In terms of personal notes: 1. Priortech owns 21% of $CAMT, ~1.35x their MC, seems more like holding co. 2. Bit Digital people kept shouting, but NAV discount is not clean $WYFI, lot of dilution + not AI parent. 3. Wistron (3231) is the best one I've seen sin…",
+          "tweet_id": "2068180134667182470",
+          "url": "https://x.com/aleabitoreddit/status/2068180134667182470"
+        }
+      ],
+      "reason": "SIVE has new high-signal thesis evidence.",
+      "signal_terms": [
+        "ban",
+        "dilution",
+        "favorite",
+        "gfs",
+        "holding",
+        "jbl",
+        "long",
+        "nvda",
+        "own",
+        "owns",
+        "sell",
+        "thesis"
+      ],
+      "source_tweet_ids": [
+        "2068301039946887269",
+        "2067945397923037693",
+        "2068180134667182470"
+      ],
+      "ticker": "SIVE",
+      "top_score": 106
+    }
+  ],
+  "data_generated_at": "2026-06-20T20:59:31.693048+00:00",
+  "reports_checked": 5,
+  "reports_with_new_posts": 5
+}
