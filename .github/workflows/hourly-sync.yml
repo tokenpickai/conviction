@@ -66,6 +66,9 @@ jobs:
       - name: Validate reports
         run: python scripts/validate_reports.py
 
+      - name: Audit reports
+        run: python scripts/audit_reports.py
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions"

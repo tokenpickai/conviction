@@ -95,6 +95,10 @@ def smoke_one(page, base_url, html_name, report):
     page.on("console", on_console)
     page.on("pageerror", on_page_error)
     page.goto(url, wait_until="domcontentloaded")
+    try:
+        page.wait_for_selector("#ddPage", state="visible", timeout=2000)
+    except Exception:
+        pass
     page.wait_for_timeout(150)
 
     state = page.evaluate(

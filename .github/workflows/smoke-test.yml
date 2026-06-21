@@ -36,6 +36,9 @@ jobs:
       - name: Validate reports
         run: python scripts/validate_reports.py
 
+      - name: Audit reports
+        run: python scripts/audit_reports.py
+
       - name: Audit reason translations
         run: python scripts/audit_reason_translations.py
 
