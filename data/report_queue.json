@@ -1246,6 +1246,142 @@
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
         "latest mention 2026-06-08"
       ]
+    },
+    {
+      "company": "Lumentum",
+      "evidence": [
+        {
+          "date": "2025-12-10",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "long term benefits from being in middle of both tpu ironwood + blackwell buildout"
+          ],
+          "score": 167,
+          "stance": "bullish",
+          "text_preview": "Post-Fed Interest Rate 25BPS cut. December 11th ratings: Strong Buy: $CRCL $COIN $AMKR $CRDO $IBIT $MSTR $AMZN $SMCI $TSM $TSSI Sk Hynix $SNAP Samsung Electronics $ALAB $META $NBIS $CIFR Buy: $KRUS $AVGO $NFLX $KRKNF $H…",
+          "tweet_id": "1998846813177262295",
+          "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
+        },
+        {
+          "date": "2026-01-02",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "large BOM from Google TPU rollout",
+            "attractive valuation",
+            "basically in every single hyperscaler ASIC deployment"
+          ],
+          "score": 151,
+          "stance": "bullish",
+          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
+          "tweet_id": "2007071108831338685",
+          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
+        },
+        {
+          "date": "2025-12-27",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "works with Google on TPU v7",
+            "largely depends on InP substrate",
+            "will increase prices from pass down"
+          ],
+          "score": 145,
+          "stance": "bullish",
+          "text_preview": "The \"InP Chokepoint\": The Bottleneck of the AI Buildout explanation: The future of $NVDA Blackwell, $META MTAI, $GOOGL TPU, and $MSFT Maia ramp is tied to: A $700M small cap $AXTI and $SMTOY. The AI \"Growth\" story ends…",
+          "tweet_id": "2004936335702753729",
+          "url": "https://x.com/aleabitoreddit/status/2004936335702753729"
+        },
+        {
+          "date": "2026-04-09",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "$GOOGL TPU exposure decently high part of BOM",
+            "As long as Google's AI program keeps running I think $LITE will do well"
+          ],
+          "score": 143,
+          "stance": "bullish",
+          "text_preview": "Here's a bunch of random 30 US-available random stocks I like today and why: 1. $INTC - America's hope for foundry, national security 2. $MRVL - scales rev from future maia asics and add ons like cpo, they do everything…",
+          "tweet_id": "2042187668931616964",
+          "url": "https://x.com/aleabitoreddit/status/2042187668931616964"
+        },
+        {
+          "date": "2025-12-22",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "standard for Optical Circuit Switching (OCS) + optical networking",
+            "in every single TPU from Google, every NVDA Blackwell, AMZN Trainium, and other hyperscaler ASICs",
+            "takes 8-12% BOM share of every Google TPU spend",
+            "takes ~2-3% BOM share of every NVDA GPU deployment"
+          ],
+          "score": 131,
+          "stance": "bullish",
+          "text_preview": "The $LITE thesis: The hidden monopoly in the AI. Lumentum is up 316% YTD, but might be 1000%+ by 2027. Micron ($300B) or TSM ($1.5T) sit in the center of every TPU/GPU deployed. But same with $LITE, but it's a $26B MC.…",
+          "tweet_id": "2003019490871869644",
+          "url": "https://x.com/aleabitoreddit/status/2003019490871869644"
+        },
+        {
+          "date": "2026-03-13",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "very high BOM related to optical due to OCS monopoly for Google",
+            "extremely undervalued relative to forward potential if Google TPU thesis holds",
+            "Google $175-180B capex planned for 2026 with plans to increase Y/Y"
+          ],
+          "score": 122,
+          "stance": "bullish",
+          "text_preview": "I've been the first few to cover many supply chain photonic names. Most are up 100-400%+ since I've posted. Here's the TLDR overview of my thesis posts: “Safest” Longs as of Today: - $TSEM (Tower Semi) - $SOI (Soitec) -…",
+          "tweet_id": "2032577275439485080",
+          "url": "https://x.com/aleabitoreddit/status/2032577275439485080"
+        }
+      ],
+      "explicit_stance_posts": 131,
+      "first_mention": "2025-10-25",
+      "has_report": true,
+      "high_conviction_posts": 33,
+      "industry": "Optical Comms/CPO",
+      "last_mention": "2026-06-21",
+      "market": "US",
+      "priority": "none",
+      "report_score": 3039,
+      "risk_posts": 6,
+      "signal_terms": [
+        "allocation",
+        "amazon",
+        "amd",
+        "amzn",
+        "ban",
+        "bearish",
+        "bottleneck",
+        "capacity",
+        "chokepoint",
+        "confirmed",
+        "conviction",
+        "dilution",
+        "export control",
+        "favorite",
+        "gfs",
+        "globalfoundries",
+        "holding",
+        "hyperscaler"
+      ],
+      "stance_counts": {
+        "bearish": 2,
+        "bullish": 133,
+        "neutral": 369
+      },
+      "status": "has_report",
+      "substantive_posts": 270,
+      "ticker": "LITE",
+      "total_mentions": 508,
+      "unique_mention_days": 146,
+      "why": [
+        "504 total mentions across 146 days",
+        "131 explicit stance posts",
+        "270 substantive thesis-like posts",
+        "33 high-conviction mentions",
+        "6 risk/caution posts",
+        "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
+        "latest mention 2026-06-21"
+      ]
     }
   ],
   "next_reports": [
@@ -1649,142 +1785,6 @@
         "7 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
         "latest mention 2026-06-19"
-      ]
-    },
-    {
-      "company": "Lumentum",
-      "evidence": [
-        {
-          "date": "2025-12-10",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "long term benefits from being in middle of both tpu ironwood + blackwell buildout"
-          ],
-          "score": 167,
-          "stance": "bullish",
-          "text_preview": "Post-Fed Interest Rate 25BPS cut. December 11th ratings: Strong Buy: $CRCL $COIN $AMKR $CRDO $IBIT $MSTR $AMZN $SMCI $TSM $TSSI Sk Hynix $SNAP Samsung Electronics $ALAB $META $NBIS $CIFR Buy: $KRUS $AVGO $NFLX $KRKNF $H…",
-          "tweet_id": "1998846813177262295",
-          "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
-        },
-        {
-          "date": "2026-01-02",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "large BOM from Google TPU rollout",
-            "attractive valuation",
-            "basically in every single hyperscaler ASIC deployment"
-          ],
-          "score": 151,
-          "stance": "bullish",
-          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
-          "tweet_id": "2007071108831338685",
-          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
-        },
-        {
-          "date": "2025-12-27",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "works with Google on TPU v7",
-            "largely depends on InP substrate",
-            "will increase prices from pass down"
-          ],
-          "score": 145,
-          "stance": "bullish",
-          "text_preview": "The \"InP Chokepoint\": The Bottleneck of the AI Buildout explanation: The future of $NVDA Blackwell, $META MTAI, $GOOGL TPU, and $MSFT Maia ramp is tied to: A $700M small cap $AXTI and $SMTOY. The AI \"Growth\" story ends…",
-          "tweet_id": "2004936335702753729",
-          "url": "https://x.com/aleabitoreddit/status/2004936335702753729"
-        },
-        {
-          "date": "2026-04-09",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "$GOOGL TPU exposure decently high part of BOM",
-            "As long as Google's AI program keeps running I think $LITE will do well"
-          ],
-          "score": 143,
-          "stance": "bullish",
-          "text_preview": "Here's a bunch of random 30 US-available random stocks I like today and why: 1. $INTC - America's hope for foundry, national security 2. $MRVL - scales rev from future maia asics and add ons like cpo, they do everything…",
-          "tweet_id": "2042187668931616964",
-          "url": "https://x.com/aleabitoreddit/status/2042187668931616964"
-        },
-        {
-          "date": "2025-12-22",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "standard for Optical Circuit Switching (OCS) + optical networking",
-            "in every single TPU from Google, every NVDA Blackwell, AMZN Trainium, and other hyperscaler ASICs",
-            "takes 8-12% BOM share of every Google TPU spend",
-            "takes ~2-3% BOM share of every NVDA GPU deployment"
-          ],
-          "score": 131,
-          "stance": "bullish",
-          "text_preview": "The $LITE thesis: The hidden monopoly in the AI. Lumentum is up 316% YTD, but might be 1000%+ by 2027. Micron ($300B) or TSM ($1.5T) sit in the center of every TPU/GPU deployed. But same with $LITE, but it's a $26B MC.…",
-          "tweet_id": "2003019490871869644",
-          "url": "https://x.com/aleabitoreddit/status/2003019490871869644"
-        },
-        {
-          "date": "2026-03-13",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "very high BOM related to optical due to OCS monopoly for Google",
-            "extremely undervalued relative to forward potential if Google TPU thesis holds",
-            "Google $175-180B capex planned for 2026 with plans to increase Y/Y"
-          ],
-          "score": 122,
-          "stance": "bullish",
-          "text_preview": "I've been the first few to cover many supply chain photonic names. Most are up 100-400%+ since I've posted. Here's the TLDR overview of my thesis posts: “Safest” Longs as of Today: - $TSEM (Tower Semi) - $SOI (Soitec) -…",
-          "tweet_id": "2032577275439485080",
-          "url": "https://x.com/aleabitoreddit/status/2032577275439485080"
-        }
-      ],
-      "explicit_stance_posts": 131,
-      "first_mention": "2025-10-25",
-      "has_report": false,
-      "high_conviction_posts": 33,
-      "industry": "Optical Comms/CPO",
-      "last_mention": "2026-06-21",
-      "market": "US",
-      "priority": "high",
-      "report_score": 3039,
-      "risk_posts": 6,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "amzn",
-        "ban",
-        "bearish",
-        "bottleneck",
-        "capacity",
-        "chokepoint",
-        "confirmed",
-        "conviction",
-        "dilution",
-        "export control",
-        "favorite",
-        "gfs",
-        "globalfoundries",
-        "holding",
-        "hyperscaler"
-      ],
-      "stance_counts": {
-        "bearish": 2,
-        "bullish": 133,
-        "neutral": 369
-      },
-      "status": "needs_report",
-      "substantive_posts": 270,
-      "ticker": "LITE",
-      "total_mentions": 508,
-      "unique_mention_days": 146,
-      "why": [
-        "504 total mentions across 146 days",
-        "131 explicit stance posts",
-        "270 substantive thesis-like posts",
-        "33 high-conviction mentions",
-        "6 risk/caution posts",
-        "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
-        "latest mention 2026-06-21"
       ]
     },
     {
@@ -31117,14 +31117,14 @@
       ]
     }
   ],
-  "reports_available": 9,
+  "reports_available": 10,
   "stocks_scanned": 972,
   "stocks_skipped": 714,
   "summary": {
     "candidate": 69,
-    "has_report": 9,
+    "has_report": 10,
     "needs_regeneration": 0,
-    "needs_report": 180,
+    "needs_report": 179,
     "needs_update": 0
   },
   "updates_due": []
