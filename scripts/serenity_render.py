@@ -1177,6 +1177,9 @@ html{scroll-behavior:smooth}
 #ddPage{display:none;position:fixed;inset:0;z-index:200;background:var(--paper);overflow-y:auto}
 #ddBody{max-width:1360px;margin:0 auto;padding:24px 40px 90px}
 .ddhead{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:16px;margin-bottom:6px}
+.ddhome{display:inline-flex;align-items:center;gap:6px;margin-bottom:10px;border:1px solid var(--line);background:transparent;color:var(--ink-faint);border-radius:999px;padding:5px 9px;font-size:12px;text-decoration:none;cursor:pointer}
+.ddhome:hover{color:var(--accent);border-color:rgba(29,155,240,.28);background:rgba(29,155,240,.05)}
+.ddhome i{font-size:11px}
 .ddtk{font-family:var(--mono);font-weight:800;font-size:30px;color:var(--ink);line-height:1;display:flex;align-items:center;flex-wrap:wrap;gap:7px 8px}
 .ddtk .market.detail,.ddtk .theme.detail{margin-left:0;transform:none}
 .theme-cn{font-family:var(--sans);font-size:12px;font-weight:600;color:var(--ink-soft);margin-left:6px;vertical-align:middle}
@@ -1375,6 +1378,11 @@ function closeDD(){
     if(history.state&&history.state.ticker){history.back();}
     else{history.replaceState(null,'',location.pathname+location.search);hideDD();}
   }else hideDD();
+}
+function ddHome(){
+  history.replaceState(null,'',location.pathname+location.search);
+  hideDD();
+  window.scrollTo({top:0,behavior:'smooth'});
 }
 function ddMore(b){
   var r=document.getElementById('ddRest');if(!r)return;
@@ -1645,7 +1653,7 @@ function renderDD(tk){
   var postMap={};_ps.forEach(function(p){if(p.id)postMap[p.id]=p;});
   var plistHtml='<div class="plist">'+_head.map(function(p){return postRow(p,false);}).join('')+(_rest.length?'<div id="ddRest">'+_rest.map(function(p){return postRow(p,true);}).join('')+'</div>':'')+'</div>'+(_rest.length?'<div class="ddmore" '+(zh?'data-zh="1" ':'')+'onclick="ddMore(this)">'+(zh?Z.showMore+' ('+_rest.length+') <i class="fa-solid fa-chevron-down"></i>':I('dd_view_all',{n:_rest.length}))+'</div>':'');
   document.getElementById('ddBody').innerHTML=
-    '<div class="ddhead"><div class="ddhl"><div class="ddtk">'+tk+'<span class="market detail">'+esc(d.market||'')+'</span><span class="theme detail '+(d.theme==='Other'?'other':'')+'">'+themeText+'</span></div><div class="ddco">'+esc(d.co)+(d.industry?' · <span class="ddind">'+industryText+'</span>':'')+'</div><div class="ddpills">'+pill+'</div></div>'+
+    '<div class="ddhead"><div class="ddhl"><button class="ddhome" type="button" onclick="ddHome()" aria-label="返回首頁"><i class="fa-solid fa-house"></i><span>首頁</span></button><div class="ddtk">'+tk+'<span class="market detail">'+esc(d.market||'')+'</span><span class="theme detail '+(d.theme==='Other'?'other':'')+'">'+themeText+'</span></div><div class="ddco">'+esc(d.co)+(d.industry?' · <span class="ddind">'+industryText+'</span>':'')+'</div><div class="ddpills">'+pill+'</div></div>'+
     '<div class="ddmeta"><div class="ddmrow">'+(zh?Z.first:I18N.dd_first_mention)+' <b>'+d.first+'</b>　·　'+(zh?Z.last:I18N.dd_last_mention)+' <b>'+d.last+'</b></div><div class="ddmrow">'+(zh?Z.total:I18N.dd_total)+' <b>'+d.total+'</b>'+(I18N.count_unit?' '+I18N.count_unit:'')+'　·　'+(zh?Z.firstPx:I18N.dd_first_px)+' <b>'+firstPxTxt+'</b></div><div class="ddsplit">'+split+'</div><div class="ddfreq"><span class="fc"><i>'+(zh?Z.today:I18N.dd_today)+'</i><b>'+d.m_today+'</b></span><span class="fc"><i>'+I18N.freq_7d+'</i><b>'+d.m7+'</b></span><span class="fc"><i>'+I18N.freq_28d+'</i><b>'+d.m28+'</b></span></div></div></div>'+
     reportHtml(d.report,postMap,tk)+
     '<div class="charttitle"><h3>'+(zh?'$'+tk+' 自 Serenity 首次提及以來的股價走勢':'$'+tk+' price path since Serenity first mentioned it')+'</h3><p>'+(zh?'圓點標記 Serenity 發文，顏色代表立場。':'Dots mark Serenity posts by inferred stance.')+'</p></div>'+
