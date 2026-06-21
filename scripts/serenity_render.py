@@ -738,9 +738,9 @@ def reports_section():
 <div class="ops-card"><span>候選觀察</span><b>{summary.get('candidate',0)}</b></div>
 </div>
 <div class="subhd" style="margin-top:24px"><i class="fa-solid fa-file-lines"></i> 已發布投資論點</div>
-<div class="ops-table-wrap"><table class="ops-table"><thead><tr><th>標的</th><th>標題</th><th>覆蓋至</th><th>生成日</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div>
+<div class="ops-table-wrap"><table class="ops-table ops-published"><colgroup><col class="ops-col-ticker"><col class="ops-col-title"><col class="ops-col-date"><col class="ops-col-date"></colgroup><thead><tr><th>標的</th><th>標題</th><th>覆蓋至</th><th>生成日</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div>
 <div class="subhd" style="margin-top:24px"><i class="fa-solid fa-list-check"></i> 下一批候選</div>
-<div class="ops-table-wrap"><table class="ops-table"><thead><tr><th>標的</th><th>公司</th><th>熱度</th><th>提及</th><th>最近</th></tr></thead><tbody>{''.join(qrows)}</tbody></table></div>
+<div class="ops-table-wrap"><table class="ops-table ops-candidates"><colgroup><col class="ops-col-ticker"><col class="ops-col-title"><col class="ops-col-score"><col class="ops-col-count"><col class="ops-col-date"></colgroup><thead><tr><th>標的</th><th>公司</th><th>熱度</th><th>提及</th><th>最近</th></tr></thead><tbody>{''.join(qrows)}</tbody></table></div>
 </div><div style="height:40px"></div></section>'''
 
 W7=(DAY-datetime.timedelta(days=6),DAY)
@@ -792,13 +792,15 @@ SHARED_CSS='''<style>
 .ops-card span{display:block;font-size:11.5px;color:var(--ink-soft);margin-bottom:7px}
 .ops-card b{font-family:var(--mono);font-size:24px;color:var(--ink)}
 .ops-table-wrap{overflow:auto;border:1px solid var(--line);border-radius:8px;background:var(--card)}
-.ops-table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:780px}
+.ops-table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:12.5px;min-width:780px}
+.ops-col-ticker{width:190px}.ops-col-date{width:126px}.ops-col-score{width:92px}.ops-col-count{width:82px}
+.ops-published .ops-col-ticker{width:220px}
 .ops-table th{position:sticky;top:0;background:var(--paper);color:var(--ink-faint);font-family:var(--mono);font-size:10.5px;text-align:left;font-weight:700;padding:9px 10px;border-bottom:1px solid var(--line)}
 .ops-table td{padding:10px;border-bottom:1px solid var(--line);vertical-align:middle;color:var(--ink-soft)}
 .ops-table tr{cursor:pointer}.ops-table tr:hover td{background:var(--paper)}
 .ops-table tr:last-child td{border-bottom:none}
-.ops-tk{font-family:var(--mono);font-weight:800;color:var(--ink);white-space:nowrap}
-.ops-title{max-width:420px;color:var(--ink);line-height:1.45}
+.ops-tk{font-family:var(--mono);font-weight:800;color:var(--ink);white-space:normal;line-height:1.55}
+.ops-title{color:var(--ink);line-height:1.45;overflow:hidden;text-overflow:ellipsis}
 .ops-num{font-family:var(--mono);text-align:right;color:var(--ink)}
 .ops-status{display:inline-flex;border-radius:999px;padding:3px 8px;font-family:var(--mono);font-size:10.5px;font-weight:700;border:1px solid var(--line);white-space:nowrap}
 .ops-status.ok{background:var(--bull-bg);color:var(--bull);border-color:rgba(31,122,77,.18)}
