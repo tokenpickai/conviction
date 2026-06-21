@@ -707,59 +707,40 @@ def _report_health(report):
 
 def reports_section():
     summary=REPORT_QUEUE.get('summary') or {}
-    failures=REPORT_FAILURES.get('failures') or []
     next_reports=REPORT_QUEUE.get('next_reports') or []
     updates_due=REPORT_QUEUE.get('updates_due') or []
     rows=[]
     for s,report in sorted(REPORTS.items(), key=lambda kv:(kv[1].get('generated_at') or '', kv[0]), reverse=True):
-        cls,label=_report_health(report)
-        sections=len(report.get('sections') or [])
-        cites=_report_citation_count(report)
         coverage=report.get('coverage_through') or '—'
         gen=(report.get('generated_at') or '')[:10] or '—'
         title=report.get('title') or co_of(s)
         rows.append(
             f'<tr onclick="dd(\'{s}\')"><td class="ops-tk">{s}{market_pill(s)}{theme_pill(s)}{report_update_pill(s)}</td>'
-            f'<td class="ops-title">{_h(title)}</td><td>{_h(coverage)}</td><td>{_h(gen)}</td>'
-            f'<td class="ops-num">{sections}</td><td class="ops-num">{cites}</td><td><span class="ops-status {cls}">{label}</span></td></tr>'
+            f'<td class="ops-title">{_h(title)}</td><td>{_h(coverage)}</td><td>{_h(gen)}</td></tr>'
         )
     qrows=[]
     for item in next_reports[:10]:
         s=(item.get('ticker') or '').upper()
         qrows.append(
             f'<tr onclick="dd(\'{s}\')"><td class="ops-tk">{_h(s)}{market_pill(s)}{theme_pill(s)}</td>'
-            f'<td class="ops-title">{_h(item.get("company") or "")}</td><td>{_h(item.get("priority"))}</td>'
+            f'<td class="ops-title">{_h(item.get("company") or "")}</td>'
             f'<td class="ops-num">{_h(item.get("report_score"))}</td><td class="ops-num">{_h(item.get("total_mentions"))}</td>'
             f'<td>{_h(item.get("last_mention") or "—")}</td></tr>'
         )
-    fhtml=''
-    if failures:
-        fitems=[]
-        for fail in failures[:5]:
-            fitems.append(
-                f'<div class="ops-fail"><b>{_h(fail.get("ticker"))}</b><span>{_h(fail.get("failed_at"))}</span>'
-                f'<p>{_h(fail.get("error"))}</p></div>'
-            )
-        fhtml='<div class="ops-fails">'+''.join(fitems)+'</div>'
-    else:
-        fhtml='<div class="ops-empty">目前沒有 report generation failure。</div>'
     return f'''<section id="reports" class="period-sec">
-<div class="sec"><div class="sechd"><div class="st">{t('nav_reports')}</div><div class="datepill">memo ops</div>
+<div class="sec"><div class="sechd"><div class="st">{t('nav_reports')}</div><div class="datepill">investment memo</div>
 <div class="sn"><span class="cnt">已發布 {len(REPORTS)} 份 · 待生成 {summary.get('needs_report',0)} 份 · 待更新 {len(updates_due)} 份</span><span class="upd">{t('updated',date=UPDATE_STAMP)}</span></div></div>
-<div class="subhd"><i class="fa-solid fa-chevron-down"></i> 投資論點生成與品質檢查</div></div>
+<div class="subhd"><i class="fa-solid fa-chevron-down"></i> Serenity 投資論點總覽</div></div>
 <div class="daypad">
 <div class="ops-grid">
 <div class="ops-card"><span>已發布論點</span><b>{len(REPORTS)}</b></div>
 <div class="ops-card"><span>待生成</span><b>{summary.get('needs_report',0)}</b></div>
 <div class="ops-card"><span>候選觀察</span><b>{summary.get('candidate',0)}</b></div>
-<div class="ops-card"><span>失敗紀錄</span><b>{len(failures)}</b></div>
 </div>
 <div class="subhd" style="margin-top:24px"><i class="fa-solid fa-file-lines"></i> 已發布投資論點</div>
-<div class="ops-table-wrap"><table class="ops-table"><thead><tr><th>標的</th><th>標題</th><th>覆蓋至</th><th>生成日</th><th>段落</th><th>引用</th><th>狀態</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div>
+<div class="ops-table-wrap"><table class="ops-table"><thead><tr><th>標的</th><th>標題</th><th>覆蓋至</th><th>生成日</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div>
 <div class="subhd" style="margin-top:24px"><i class="fa-solid fa-list-check"></i> 下一批候選</div>
-<div class="ops-table-wrap"><table class="ops-table"><thead><tr><th>標的</th><th>公司</th><th>優先</th><th>分數</th><th>提及</th><th>最近</th></tr></thead><tbody>{''.join(qrows)}</tbody></table></div>
-<div class="subhd" style="margin-top:24px"><i class="fa-solid fa-triangle-exclamation"></i> 生成失敗</div>
-{fhtml}
+<div class="ops-table-wrap"><table class="ops-table"><thead><tr><th>標的</th><th>公司</th><th>熱度</th><th>提及</th><th>最近</th></tr></thead><tbody>{''.join(qrows)}</tbody></table></div>
 </div><div style="height:40px"></div></section>'''
 
 W7=(DAY-datetime.timedelta(days=6),DAY)
