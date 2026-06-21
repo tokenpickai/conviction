@@ -1176,26 +1176,48 @@ html{scroll-behavior:smooth}
 /* ===== 二级页:个股详情 ===== */
 #ddPage{display:none;position:fixed;inset:0;z-index:200;background:var(--paper);overflow-y:auto}
 #ddBody{max-width:1360px;margin:0 auto;padding:24px 40px 90px}
-.ddhead{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:16px;margin-bottom:6px}
-.ddhome{display:inline-flex;align-items:center;gap:6px;margin-bottom:10px;border:1px solid var(--line);background:transparent;color:var(--ink-faint);border-radius:999px;padding:5px 9px;font-size:12px;text-decoration:none;cursor:pointer}
+.ddhead{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,420px);gap:22px;align-items:start;padding-bottom:8px;margin-bottom:0}
+.ddhl{min-width:0}
+.ddhome{display:inline-flex;align-items:center;gap:6px;margin-bottom:12px;border:1px solid var(--line);background:transparent;color:var(--ink-faint);border-radius:999px;padding:5px 9px;font-size:12px;text-decoration:none;cursor:pointer}
 .ddhome:hover{color:var(--accent);border-color:rgba(29,155,240,.28);background:rgba(29,155,240,.05)}
 .ddhome i{font-size:11px}
-.ddtk{font-family:var(--mono);font-weight:800;font-size:30px;color:var(--ink);line-height:1;display:flex;align-items:center;flex-wrap:wrap;gap:7px 8px}
+.ddtk{font-family:var(--mono);font-weight:800;font-size:30px;color:var(--ink);line-height:1.05;display:flex;align-items:center;flex-wrap:wrap;gap:7px 8px}
 .ddtk .market.detail,.ddtk .theme.detail{margin-left:0;transform:none}
 .theme-cn{font-family:var(--sans);font-size:12px;font-weight:600;color:var(--ink-soft);margin-left:6px;vertical-align:middle}
-.ddco{font-size:13px;color:var(--ink-soft);margin-top:7px}.ddind{color:var(--ink-faint)}
+.ddco{font-size:13px;color:var(--ink-soft);margin-top:8px;line-height:1.55;max-width:820px}.ddind{color:var(--ink-faint)}
 .ddpills{margin-top:11px}
 .ddpill{font-size:11px;padding:3px 11px;border-radius:11px;font-weight:600}
 .ddpill.bull{background:var(--bull-bg);color:var(--bull)}.ddpill.bear{background:var(--bear-bg);color:var(--bear)}.ddpill.cw{background:#f3e7cc;color:#8a6a1f}.ddpill.neutral{background:var(--card);color:var(--ink-soft);border:1px solid var(--line)}
-.ddmeta{font-family:var(--mono);font-size:11.5px;color:var(--ink-faint);text-align:right;line-height:1.85}.ddmeta b{color:var(--ink)}
-.ddsplit{margin-top:3px}.tup{color:var(--bull)}.tdn{color:var(--bear)}.tnt{color:var(--ink-faint)}
-.ddfreq{display:flex;gap:16px;justify-content:flex-end;margin-top:9px}
+.ddmeta{font-family:var(--mono);font-size:11.5px;color:var(--ink-faint);text-align:left;line-height:1.75;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px}.ddmeta b{color:var(--ink)}
+.ddmrow{display:flex;flex-wrap:wrap;gap:0 8px;justify-content:space-between}
+.ddsplit{margin-top:7px;padding-top:7px;border-top:1px solid var(--line)}.tup{color:var(--bull)}.tdn{color:var(--bear)}.tnt{color:var(--ink-faint)}
+.ddfreq{display:flex;gap:16px;justify-content:flex-start;margin-top:9px}
 .ddfreq .fc{display:flex;flex-direction:column;align-items:center}.ddfreq .fc i{font-style:normal;font-size:10px;color:var(--ink-faint)}.ddfreq .fc b{font-size:16px;color:var(--ink)}
-.ddrel{margin:12px 0 2px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;color:var(--ink-faint);font-size:12px}
+.ddrel{margin:10px 0 18px;padding:0 0 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:8px;flex-wrap:wrap;color:var(--ink-faint);font-size:12px}
 .ddrel-label{font-family:var(--mono);font-size:10.5px;font-weight:800;color:var(--ink-soft);letter-spacing:.02em}
 .ddrel button{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink-soft);font-family:var(--mono);font-size:11px;font-weight:800;padding:5px 9px;cursor:pointer}
 .ddrel button:hover{border-color:rgba(29,155,240,.32);background:rgba(29,155,240,.06);color:var(--accent)}
 .ddrel .mini-market{font-size:8.5px;font-weight:800;color:var(--ink-faint);border:1px solid var(--line);border-radius:999px;padding:0 4px;line-height:1.35}
+@media(max-width:980px){
+  .ddhead{grid-template-columns:1fr;gap:14px}
+  .ddmeta{max-width:520px}
+  .ddrel{margin-top:12px}
+}
+@media(max-width:600px){
+  .ddhead{gap:12px;padding-bottom:4px}
+  .ddhome{margin-bottom:10px;padding:5px 8px}
+  .ddtk{font-size:27px;gap:6px}
+  .ddco{font-size:12.5px;line-height:1.5}
+  .ddpills{margin-top:9px}
+  .ddmeta{font-size:11px;padding:10px 11px;line-height:1.65}
+  .ddmrow{display:block}
+  .ddsplit{line-height:1.7}
+  .ddfreq{justify-content:space-between;gap:8px}
+  .ddfreq .fc{min-width:64px}
+  .ddrel{gap:7px;margin-bottom:16px;padding-bottom:14px}
+  .ddrel-label{flex:0 0 100%}
+  .ddrel button{font-size:10.5px;padding:5px 8px}
+}
 .ddchart{margin:18px 0 8px}.cc-svg{position:relative;width:100%;height:220px}
 .charttitle{margin:22px 0 8px}
 .charttitle h3{font-family:var(--serif);font-size:17px;font-weight:800;color:var(--ink);line-height:1.3}
