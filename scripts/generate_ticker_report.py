@@ -198,10 +198,14 @@ def curate_mentions(stock, max_items=70):
     risks = [m for m in explicit if m.get("is_risk")]
     high = sorted(explicit, key=score_mention, reverse=True)
     recent = list(reversed(unique))
+    recent_explicit = list(reversed(explicit))
+    recent_risks = list(reversed(risks))
 
-    add(explicit[:10])
-    add(risks[:12])
-    add(high[:35])
+    add(recent_explicit[:8])
+    add(recent_risks[:8])
+    add(explicit[:6])
+    add(risks[:10])
+    add(high[:30])
     add(recent[:18])
 
     if len(chosen) < max_items:

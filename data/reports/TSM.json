@@ -1,0 +1,289 @@
+{
+  "ticker": "TSM",
+  "language": "zh-Hant",
+  "title": "TSMC：AI 半導體供應鏈的不可替代核心",
+  "subtitle": "從 Serenity 2025 年初建倉到 2026 年持續強力買入的完整觀點梳理",
+  "core_label": "Strong Buy — 壟斷型晶圓代工，AI 資本支出浪潮的最終受益者",
+  "one_minute_summary": [
+    "Serenity 自 2025 年 9 月公開明確看多 TSM，視其為 NVDA、AVGO 等 AI 算力鏈流量的下一個承接者，並以市值從 $1.3T 升至 $1.8T 作為目標錨點。",
+    "其核心邏輯是：無論投資人押注哪個超大型雲端業者或 AI 晶片設計公司，最終都必須通過 TSMC 生產，構成事實壟斷，且在當時市值被認為低估。",
+    "2026 年初至中期，Serenity 持續將 TSM 列入「Strong Buy」評級，並援引 CoPoS 製程推進、ARM AGI CPU 採用 3nm、以及 Google $80B AI 資本支出等新催化劑驗證 thesis。"
+  ],
+  "sections": [
+    {
+      "heading": "一、Serenity 最初如何看這檔股票",
+      "body": [
+        "Serenity 在 2025 年 9 月 9 日第一次公開提及 TSM，將其列為個人最看好的核心持股之一，與 HOOD、RKLB、CREDO 並列。隔日他進一步明確喊出「screaming buy」，指出市場資金正沿著 NVDA → AVGO 的漲勢鏈條流動，下一站就是 TSM，並依據各家公司財報中揭露的訂單積壓，設定市值目標區間為 $1.3T 至 $1.8T，同時認為當時 IV 約 32 的選擇權隱含波動率相對合理，因此罕見地選擇買入 LEAPS 長期買權。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "1965681856214696110",
+          "date": "2025-09-10",
+          "url": "https://x.com/aleabitoreddit/status/1965681856214696110",
+          "label": "首次喊出 screaming buy 並設定目標市值",
+          "excerpt": "$TSM is a screaming buy. $1.3T -> $1.8T given all the backlogs from Oracle/NBIS... IV is decent ~32"
+        },
+        {
+          "tweet_id": "1965290061714600032",
+          "date": "2025-09-09",
+          "url": "https://x.com/aleabitoreddit/status/1965290061714600032",
+          "label": "首次公開列為核心看多持股",
+          "excerpt": "If I had to pick stocks I'm bullish on it would be $TSM, $HOOD, $RKLB, $CREDO, $NBIS"
+        }
+      ]
+    },
+    {
+      "heading": "二、核心 thesis 是什麼",
+      "body": [
+        "Serenity 的核心論點可用一句話概括：AI 生態中所有競爭者最終都依賴 TSMC 生產，因此 TSM 是整個賽局的「共同分母」。他在 2025 年 9 月 11 日明確寫道，投資人不需要在 ORCL 對 AMZN、AMD 對 AVGO、NBIS 對 IREN 之間費心挑選，直接買 TSM 就能捕捉全部上行空間，因為「上述所有標的都依賴它」。他同時強調 TSM 在當時被低估，並以財報中的前瞻成長數字與資本支出計畫作為市值從 $1.3T 走向 $1.8T 的依據。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "1966185091467718795",
+          "date": "2025-09-11",
+          "url": "https://x.com/aleabitoreddit/status/1966185091467718795",
+          "label": "核心 thesis 最完整陳述",
+          "excerpt": "Just buy $TSM, everything above is dependent on it. Undervalued and a monopoly, will likely run from $1.3T -> $1.8T MC"
+        }
+      ]
+    },
+    {
+      "heading": "三、公司 / 資產到底提供什麼能力",
+      "body": [
+        "Serenity 將 TSMC 定位為「半導體與 AI 的骨幹」（backbone of semis/AI），其不可取代性來自於先進製程的技術壟斷。2026 年 4 月他在 30 檔推薦股的清單中對 TSM 的描述僅用四個字「backbone of semis/AI」，言簡意賅。更具體的技術面則體現在 2026 年 3 月的 ARM AGI CPU 報導中，他指出該晶片採用 TSMC 3nm 製程、面向 OpenAI 與 META 的 agentic AI 工作負載，稱 TSMC 為此事件的「主要受益者」，印證了先進製程節點構成實質進入障礙。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2042187668931616964",
+          "date": "2026-04-09",
+          "url": "https://x.com/aleabitoreddit/status/2042187668931616964",
+          "label": "定性描述 TSM 為 AI 骨幹",
+          "excerpt": "$TSM - backbone of semis/ai"
+        },
+        {
+          "tweet_id": "2036532579638399109",
+          "date": "2026-03-24",
+          "url": "https://x.com/aleabitoreddit/status/2036532579638399109",
+          "label": "ARM 3nm 案例驗證製程壟斷",
+          "excerpt": "136 Neoverse V3 cores, built on $TSM 3nm process... Main beneficiary is $TSM"
+        }
+      ]
+    },
+    {
+      "heading": "四、供應鏈位置與產業邏輯",
+      "body": [
+        "Serenity 多次從供應鏈上游的角度說明 TSMC 的結構性地位。在 2025 年 12 月的 Microsoft Maia 300 研究中，他詳細拆解 MRVL 作為設計主導者、向 TSMC 採購 2nm 晶圓與 CoWoS 先進封裝的分工關係，估算相關收益達數十億美元量級。2026 年 6 月，他在評論 Google $80B AI 資本支出時，將 TSM 列為從光模組到 DRAM 整個上游生態受益鏈的核心節點之一，認為「上游生態系應該會大漲」，進一步佐證 TSM 在超大型雲端業者投資浪潮中的必然受益地位。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2003476197028852074",
+          "date": "2025-12-23",
+          "url": "https://x.com/aleabitoreddit/status/2003476197028852074",
+          "label": "Maia 300 供應鏈拆解，TSMC 收 2nm 與 CoWoS 訂單",
+          "excerpt": "pay TSMC for the 2nm wafers and CoWoS packaging... $18B+ is estimated to flow down to suppliers"
+        },
+        {
+          "tweet_id": "2061596599588114444",
+          "date": "2026-06-01",
+          "url": "https://x.com/aleabitoreddit/status/2061596599588114444",
+          "label": "Google $80B 資本支出，TSM 列為上游受益鏈",
+          "excerpt": "Upstream ecosystem from $LITE to $AVGO to Mediatek to $TSM to $MU should go brrr"
+        }
+      ]
+    },
+    {
+      "heading": "五、哪些貼文提高或驗證了 thesis",
+      "body": [
+        "Thesis 的驗證路徑跨越超過九個月。2025 年 9 月 10 日 Serenity 公開槓桿部位後，隔日追蹤顯示 TSM 單日漲幅達 3.23%，初步印證方向正確。進入 2026 年，他在元旦評級清單中將 TSM 列為「Strong Buy」，理由是「利潤率持續提升、需求已達滿載、未來數年是極佳的複利標的」。同年 5 月他更點名 TSMC 正積極推進 CoPoS 封裝技術，認為旗下 VisEra 等子公司的業績可能提前爆發，為 thesis 加入新的技術催化劑。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2007071108831338685",
+          "date": "2026-01-02",
+          "url": "https://x.com/aleabitoreddit/status/2007071108831338685",
+          "label": "2026 元旦評級列 TSM Strong Buy，援引利潤率與需求滿載",
+          "excerpt": "TSM - increasing margins, maxed out demand, extremely good compounder next few years"
+        },
+        {
+          "tweet_id": "2053205192980721797",
+          "date": "2026-05-09",
+          "url": "https://x.com/aleabitoreddit/status/2053205192980721797",
+          "label": "CoPoS 推進為新催化劑",
+          "excerpt": "$TSM pushing hard CoPoS - VisEra/others might go brrr earlier than expected"
+        }
+      ]
+    },
+    {
+      "heading": "六、Serenity 如何比較同類標的",
+      "body": [
+        "在半導體競爭標的的比較框架中，Serenity 始終將 TSM 置於比 NVDA、AVGO、AMD 更上游的「必選」層級。他在 2025 年 9 月明確建議：與其在 AI 晶片設計公司之間選邊站，不如直接買 TSMC，因為所有競爭者都是 TSM 的客戶。相對地，他給予 NVDA 的評級僅為「Buy」（非 Strong Buy），而 TSM 則長期維持 Strong Buy，隱含其認為 TSM 在風險調整後的性價比高於 NVDA。他也在 CPU 短缺議題中，將 TSM 與 OSAT 及先進封裝夥伴並列為 AMD 之外的主要受益者，高於設備商 AMAT、LRCX。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "1966185091467718795",
+          "date": "2025-09-11",
+          "url": "https://x.com/aleabitoreddit/status/1966185091467718795",
+          "label": "對比競爭標的，TSM 是共同分母",
+          "excerpt": "If you're debating $ORCL vs. $AMZN... It's easy. Just buy $TSM, everything above is dependent on it"
+        },
+        {
+          "tweet_id": "2047185481285439665",
+          "date": "2026-04-23",
+          "url": "https://x.com/aleabitoreddit/status/2047185481285439665",
+          "label": "CPU 短缺受益排序，TSM 優先於設備商",
+          "excerpt": "$TSM and OSAT/advanced packaging partners are the main beneficiaries apart from $AMD"
+        }
+      ]
+    },
+    {
+      "heading": "七、風險、反方與需要驗證的地方",
+      "body": [
+        "Serenity 在 2025 年 10 月財報季間接提示了一個執行層面的風險：他指出許多散戶押注 TSM 短期週選擇權方向正確，卻因「隨機事件」遭到消滅，並強調「這就是為什麼不應該做短期選擇權」。這暗示 TSM 雖方向看多，但短期股價波動仍可能因突發事件而偏離預期。此外，2026 年 5 月他提及蘋果轉向英特爾代工生產部分晶片，雖非直接利空但意味著 TSM 客戶集中度存在潛在變化。上述兩點是 thesis 中相對少見的保留意見，值得持續追蹤。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "1979089482562572430",
+          "date": "2025-10-17",
+          "url": "https://x.com/aleabitoreddit/status/1979089482562572430",
+          "label": "警示短期選擇權風險，方向對但隨機事件會殺倉",
+          "excerpt": "It's correct directionally but random events like this happen to wipe out calls"
+        },
+        {
+          "tweet_id": "2053205192980721797",
+          "date": "2026-05-09",
+          "url": "https://x.com/aleabitoreddit/status/2053205192980721797",
+          "label": "蘋果轉向英特爾為潛在客戶結構變化訊號",
+          "excerpt": "$AAPL goes with $INTC for semi production, which is a major shift cause they normally go with TSM"
+        }
+      ]
+    },
+    {
+      "heading": "八、今日如何理解這份 thesis",
+      "body": [
+        "2026 年 6 月，Serenity 回顧自己 2025 年的高信念標的，點名 TSM 與 ALAB、LITE、AAOI 等已大幅上漲的股票並列，確認 thesis「熟成得很好」。他在同期的個人回覆中仍以「probably one of the better names」與「better RoI than your depreciating car」描述 TSM，維持長期正面看法。綜合其貼文脈絡，這份 thesis 的核心邏輯——TSMC 作為 AI 資本支出的不可繞過節點——從 2025 年 9 月至 2026 年 6 月未曾動搖，且隨著 ARM 3nm、CoPoS、超大型業者擴產等事件持續獲得新的支撐依據。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2065289672356745561",
+          "date": "2026-06-12",
+          "url": "https://x.com/aleabitoreddit/status/2065289672356745561",
+          "label": "回顧 2025 年高信念標的，TSM 驗證良好",
+          "excerpt": "my core high conviction ideas from 2025 aged super well... $NBIS, $RKLB, and $TSM"
+        },
+        {
+          "tweet_id": "2063445323008331872",
+          "date": "2026-06-06",
+          "url": "https://x.com/aleabitoreddit/status/2063445323008331872",
+          "label": "最新仍維持正面看法",
+          "excerpt": "$TSM is probably one of the better names to do that for. Probably better RoI than your depreciating car"
+        }
+      ]
+    }
+  ],
+  "final_takeaway": [
+    "Serenity 的 TSM thesis 建立在一個簡潔但有力的結構邏輯上：AI 晶片生態的每一條支線最終匯聚於 TSMC，使其成為整個產業資本支出擴張中唯一無法被繞過的節點，而非眾多受益者之一。",
+    "從 2025 年 9 月首次建倉 LEAPS 到 2026 年中多次確認持續看好，其觀點的一致性與多個外部催化劑（ARM 3nm 採用、Google $80B 擴產、CoPoS 推進）的先後驗證，構成這份報告最值得注意的參考價值所在。"
+  ],
+  "quality_notes": {
+    "reference_article_parity": [
+      "本報告依據 curated evidence 整理，可供進一步人工擴寫或補充財務數據"
+    ],
+    "known_limits": [
+      "僅使用本次提供的 17 則貼文，不代表已讀取 Serenity 完整發文紀錄；所有數字（市值目標、選擇權規模等）均源自其社群貼文，非官方財務資料"
+    ]
+  },
+  "generated_at": "2026-06-21T06:14:53Z",
+  "coverage_through": "2026-06-20",
+  "source_posts_used": [
+    {
+      "tweet_id": "1965290061714600032",
+      "date": "2025-09-09",
+      "url": "https://x.com/aleabitoreddit/status/1965290061714600032"
+    },
+    {
+      "tweet_id": "1965681856214696110",
+      "date": "2025-09-10",
+      "url": "https://x.com/aleabitoreddit/status/1965681856214696110"
+    },
+    {
+      "tweet_id": "1965774785943888031",
+      "date": "2025-09-10",
+      "url": "https://x.com/aleabitoreddit/status/1965774785943888031"
+    },
+    {
+      "tweet_id": "1965821528744014328",
+      "date": "2025-09-10",
+      "url": "https://x.com/aleabitoreddit/status/1965821528744014328"
+    },
+    {
+      "tweet_id": "1966185091467718795",
+      "date": "2025-09-11",
+      "url": "https://x.com/aleabitoreddit/status/1966185091467718795"
+    },
+    {
+      "tweet_id": "1968008602121388492",
+      "date": "2025-09-16",
+      "url": "https://x.com/aleabitoreddit/status/1968008602121388492"
+    },
+    {
+      "tweet_id": "1979089482562572430",
+      "date": "2025-10-17",
+      "url": "https://x.com/aleabitoreddit/status/1979089482562572430"
+    },
+    {
+      "tweet_id": "2003476197028852074",
+      "date": "2025-12-23",
+      "url": "https://x.com/aleabitoreddit/status/2003476197028852074"
+    },
+    {
+      "tweet_id": "2007071108831338685",
+      "date": "2026-01-02",
+      "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
+    },
+    {
+      "tweet_id": "2015096496019112151",
+      "date": "2026-01-24",
+      "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
+    },
+    {
+      "tweet_id": "2036532579638399109",
+      "date": "2026-03-24",
+      "url": "https://x.com/aleabitoreddit/status/2036532579638399109"
+    },
+    {
+      "tweet_id": "2042187668931616964",
+      "date": "2026-04-09",
+      "url": "https://x.com/aleabitoreddit/status/2042187668931616964"
+    },
+    {
+      "tweet_id": "2047185481285439665",
+      "date": "2026-04-23",
+      "url": "https://x.com/aleabitoreddit/status/2047185481285439665"
+    },
+    {
+      "tweet_id": "2047520460884353096",
+      "date": "2026-04-23",
+      "url": "https://x.com/aleabitoreddit/status/2047520460884353096"
+    },
+    {
+      "tweet_id": "2053205192980721797",
+      "date": "2026-05-09",
+      "url": "https://x.com/aleabitoreddit/status/2053205192980721797"
+    },
+    {
+      "tweet_id": "2061596599588114444",
+      "date": "2026-06-01",
+      "url": "https://x.com/aleabitoreddit/status/2061596599588114444"
+    },
+    {
+      "tweet_id": "2063445323008331872",
+      "date": "2026-06-06",
+      "url": "https://x.com/aleabitoreddit/status/2063445323008331872"
+    },
+    {
+      "tweet_id": "2065289672356745561",
+      "date": "2026-06-12",
+      "url": "https://x.com/aleabitoreddit/status/2065289672356745561"
+    }
+  ]
+}

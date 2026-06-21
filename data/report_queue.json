@@ -839,9 +839,7 @@
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
         "latest mention 2026-06-20"
       ]
-    }
-  ],
-  "next_reports": [
+    },
     {
       "company": "CoreWeave",
       "evidence": [
@@ -933,12 +931,12 @@
       ],
       "explicit_stance_posts": 87,
       "first_mention": "2025-07-21",
-      "has_report": false,
+      "has_report": true,
       "high_conviction_posts": 10,
       "industry": "GPU Cloud/Neocloud",
       "last_mention": "2026-06-16",
       "market": "US",
-      "priority": "high",
+      "priority": "none",
       "report_score": 3204,
       "risk_posts": 62,
       "signal_terms": [
@@ -966,7 +964,7 @@
         "bullish": 39,
         "neutral": 82
       },
-      "status": "needs_report",
+      "status": "has_report",
       "substantive_posts": 159,
       "ticker": "CRWV",
       "total_mentions": 188,
@@ -1067,12 +1065,12 @@
       ],
       "explicit_stance_posts": 94,
       "first_mention": "2025-09-09",
-      "has_report": false,
+      "has_report": true,
       "high_conviction_posts": 35,
       "industry": "Wafer Foundry",
       "last_mention": "2026-06-20",
       "market": "US",
-      "priority": "high",
+      "priority": "none",
       "report_score": 3201,
       "risk_posts": 1,
       "signal_terms": [
@@ -1099,7 +1097,7 @@
         "bullish": 100,
         "neutral": 114
       },
-      "status": "needs_report",
+      "status": "has_report",
       "substantive_posts": 142,
       "ticker": "TSM",
       "total_mentions": 214,
@@ -1201,12 +1199,12 @@
       ],
       "explicit_stance_posts": 77,
       "first_mention": "2025-07-03",
-      "has_report": false,
+      "has_report": true,
       "high_conviction_posts": 25,
       "industry": null,
       "last_mention": "2026-06-08",
       "market": "US",
-      "priority": "high",
+      "priority": "none",
       "report_score": 3133,
       "risk_posts": 15,
       "signal_terms": [
@@ -1234,7 +1232,7 @@
         "bullish": 56,
         "neutral": 25
       },
-      "status": "needs_report",
+      "status": "has_report",
       "substantive_posts": 88,
       "ticker": "CRCL",
       "total_mentions": 99,
@@ -1248,7 +1246,9 @@
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
         "latest mention 2026-06-08"
       ]
-    },
+    }
+  ],
+  "next_reports": [
     {
       "company": "Amazon",
       "evidence": [
@@ -31002,14 +31002,14 @@
       ]
     }
   ],
-  "reports_available": 6,
+  "reports_available": 9,
   "stocks_scanned": 969,
   "stocks_skipped": 712,
   "summary": {
     "candidate": 68,
-    "has_report": 6,
+    "has_report": 9,
     "needs_regeneration": 0,
-    "needs_report": 183,
+    "needs_report": 180,
     "needs_update": 0
   },
   "updates_due": []
