@@ -1221,20 +1221,22 @@ html{scroll-behavior:smooth}
 .cc-leg{display:flex;gap:16px;align-items:center;flex-wrap:wrap;font-size:11.5px;color:var(--ink-soft);margin-top:8px}.cc-leg i{width:10px;height:10px;border-radius:50%;display:inline-block;margin-right:4px;vertical-align:middle}.cc-leg .g{color:var(--ink-faint)}
 .ddchart-ph{padding:22px;text-align:center;color:var(--ink-faint);font-size:13px;border:1px dashed var(--line-strong);border-radius:6px;margin:18px 0 8px}
 .thesis{margin:18px 0 24px;border:1px solid var(--line);border-radius:8px;background:var(--card);box-shadow:var(--shadow);padding:22px 24px}
-.updates{margin:18px 0 18px;border:1px solid rgba(31,92,77,.28);border-left:5px solid var(--accent);border-radius:8px;background:linear-gradient(0deg,var(--accent-soft),var(--accent-soft));box-shadow:0 1px 0 rgba(0,0,0,.04);padding:0}
-.updates summary{list-style:none;cursor:pointer;padding:16px 18px}
+.updates{position:relative;margin:18px 0 18px;border:1px solid rgba(31,92,77,.22);border-left:0;border-radius:8px;background:linear-gradient(90deg,rgba(31,92,77,.08),rgba(31,92,77,.025) 38%,var(--card) 100%);box-shadow:0 10px 28px -24px rgba(31,92,77,.7);padding:0;overflow:hidden}
+.updates::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--accent)}
+.updates summary{list-style:none;cursor:pointer;padding:16px 18px 16px 22px}
 .updates summary::-webkit-details-marker{display:none}
-.updates-k{font-family:var(--mono);font-size:11px;font-weight:800;color:var(--accent);letter-spacing:.02em;margin-bottom:7px}
-.updates h2{font-family:var(--serif);font-size:19px;font-weight:900;line-height:1.3;color:var(--ink);margin-bottom:7px}
-.updates-meta{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 12px}
+.updates-top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+.updates-k{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:11px;font-weight:800;color:var(--accent);letter-spacing:.02em}
+.updates h2{font-family:var(--serif);font-size:20px;font-weight:900;line-height:1.28;color:var(--ink);margin-bottom:8px;max-width:980px}
+.updates-meta{display:flex;flex-wrap:wrap;gap:8px;margin:0}
 .upill{font-family:var(--mono);font-size:10.5px;font-weight:700;border-radius:999px;padding:4px 8px;background:var(--paper);border:1px solid var(--line);color:var(--ink-soft)}
-.upill.high{background:var(--accent-soft);border-color:rgba(31,92,77,.25);color:var(--accent)}
+.upill.high{background:#1f5c4d;color:#fff;border-color:#1f5c4d}
 .updates p{font-size:14px;line-height:1.8;color:var(--ink-soft);margin:8px 0}
 .updates summary p{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .updates-body{border-top:1px solid rgba(31,92,77,.18);background:var(--card);padding:0 18px 18px}
 .updates ul{margin:0 0 0 18px;padding-top:12px;color:var(--ink-soft)}
 .updates li{font-size:14px;line-height:1.75;margin:5px 0}
-.update-more{font-family:var(--mono);font-size:11px;font-weight:700;color:var(--accent);display:inline-flex;align-items:center;gap:5px;margin-top:8px}
+.update-more{font-family:var(--mono);font-size:11px;font-weight:800;color:var(--accent);display:inline-flex;align-items:center;gap:5px;margin-top:8px}
 .updates[open] .update-more{display:none}
 .thesis-kicker{font-family:var(--mono);font-size:11px;font-weight:700;color:var(--accent);letter-spacing:.02em;margin-bottom:9px}
 .thesis-title{font-family:var(--serif);font-size:25px;font-weight:900;line-height:1.25;color:var(--ink);margin-bottom:8px}
@@ -1453,7 +1455,7 @@ function reportHtml(r,postMap,tk){
     var genDate=(r.generated_at||'').slice(0,10),updateLabel=u.label||(idx>0?'歷史更新':((u.date&&genDate&&u.date<genDate)?'重要歷史立場更新':'最新更新'));
     var src=(u.source_tweet_ids||[]).map(function(id){var p=postMap&&postMap[id];return {tweet_id:id,date:p&&p.d,url:p&&p.url,label:'Serenity 原文'};});
     var bullets=(u.bullets||[]).map(function(b){return '<li>'+glossText(b)+'</li>';}).join('');
-    return '<details class="updates"><summary><div class="updates-k">'+updateLabel+' · '+esc(u.date||'')+'</div><h2>'+glossText(u.title||'')+'</h2><div class="updates-meta"><span class="upill high">'+esc(imp)+'</span><span class="upill">'+esc(stance)+'</span></div>'+paras([u.summary||''])+'<span class="update-more">展開更新內容 <i class="fa-solid fa-chevron-down"></i></span></summary><div class="updates-body">'+(bullets?'<ul>'+bullets+'</ul>':'')+cites(src)+'</div></details>';
+    return '<details class="updates"><summary><div class="updates-top"><div class="updates-k"><i class="fa-solid fa-file-lines"></i>'+updateLabel+' · '+esc(u.date||'')+'</div><div class="updates-meta"><span class="upill high">'+esc(imp)+'</span><span class="upill">'+esc(stance)+'</span></div></div><h2>'+glossText(u.title||'')+'</h2>'+paras([u.summary||''])+'<span class="update-more">展開更新內容 <i class="fa-solid fa-chevron-down"></i></span></summary><div class="updates-body">'+(bullets?'<ul>'+bullets+'</ul>':'')+cites(src)+'</div></details>';
     }).join('');
   }
   var secs=(r.sections||[]).map(function(s){return '<section class="thesis-sec"><h3>'+esc(s.heading||'')+'</h3>'+paras(s.body)+cites(s.citations)+'</section>';}).join('');
