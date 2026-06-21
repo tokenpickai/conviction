@@ -9,8 +9,8 @@
   "industry": "GPU/AI Chips",
   "thesis_summary": null,
   "first_mention": "2025-09-11",
-  "last_mention": "2026-06-18",
-  "total_mentions": 136,
+  "last_mention": "2026-06-21",
+  "total_mentions": 137,
   "mentions": [
     {
       "tweet_id": "1966185091467718795",
@@ -3408,6 +3408,30 @@
         "likes": 199,
         "reposts": 8,
         "replies": 14
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068616131129270289",
+      "date": "2026-06-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AMD",
+      "text": "We're in a massive EML bottleneck right now and CW lasers are getting bottlenecked now too. \n\nTo my knowledge, $COHR is buying EMLs off $LITE because they can't make enough. \n\n$LITE is majority allocated to EML, so they can't make enough CW lasers. \n\nSo they're buying CW lasers off competitors from their ER transcript, (probably Sumitomo, Furukawa and others), which likely feeds into $NVDA contracts. \n\nThen $AMD and your hyperscalers need capacity too but we're already in a shortage. \n\nAny capacity that comes online would likely be bought, since looks like we're in a shortage for next few years (lumentum already sold out into 2028).  \n\nNot quite the same as your sk hynix/samsung/micron memory dynamic but there's still a massive moat with EML with probably only single digit amounts of players able to do this.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2068616131129270289",
+      "kind": "reply",
+      "engagement": {
+        "views": 9024,
+        "likes": 49,
+        "reposts": 3,
+        "replies": 4
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

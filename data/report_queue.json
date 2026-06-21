@@ -1,5 +1,5 @@
 {
-  "data_generated_at": "2026-06-20T20:59:31.693048+00:00",
+  "data_generated_at": "2026-06-21T12:28:17.828974+00:00",
   "existing_reports": [
     {
       "company": "Nebius",
@@ -511,15 +511,15 @@
           "url": "https://x.com/aleabitoreddit/status/2055822766600016238"
         }
       ],
-      "explicit_stance_posts": 598,
+      "explicit_stance_posts": 602,
       "first_mention": "2025-12-23",
       "has_report": true,
-      "high_conviction_posts": 287,
+      "high_conviction_posts": 288,
       "industry": "AI Photonics/CPO Lasers",
-      "last_mention": "2026-06-20",
+      "last_mention": "2026-06-21",
       "market": "Nasdaq Stockholm",
       "priority": "none",
-      "report_score": 3341,
+      "report_score": 3351,
       "risk_posts": 2,
       "signal_terms": [
         "allocation",
@@ -542,22 +542,22 @@
         "holding"
       ],
       "stance_counts": {
-        "bullish": 597,
+        "bullish": 601,
         "neutral": 85
       },
       "status": "has_report",
-      "substantive_posts": 609,
+      "substantive_posts": 613,
       "ticker": "SIVE",
-      "total_mentions": 693,
-      "unique_mention_days": 93,
+      "total_mentions": 697,
+      "unique_mention_days": 94,
       "why": [
-        "682 total mentions across 93 days",
-        "598 explicit stance posts",
-        "609 substantive thesis-like posts",
-        "287 high-conviction mentions",
+        "686 total mentions across 94 days",
+        "602 explicit stance posts",
+        "613 substantive thesis-like posts",
+        "288 high-conviction mentions",
         "2 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
-        "latest mention 2026-06-20"
+        "latest mention 2026-06-21"
       ]
     },
     {
@@ -795,7 +795,7 @@
       "has_report": true,
       "high_conviction_posts": 94,
       "industry": "Optical Modules",
-      "last_mention": "2026-06-20",
+      "last_mention": "2026-06-21",
       "market": "US",
       "priority": "none",
       "report_score": 3210,
@@ -823,21 +823,21 @@
       "stance_counts": {
         "bearish": 6,
         "bullish": 294,
-        "neutral": 131
+        "neutral": 132
       },
       "status": "has_report",
-      "substantive_posts": 333,
+      "substantive_posts": 334,
       "ticker": "AAOI",
-      "total_mentions": 433,
-      "unique_mention_days": 120,
+      "total_mentions": 434,
+      "unique_mention_days": 121,
       "why": [
-        "431 total mentions across 120 days",
+        "432 total mentions across 121 days",
         "301 explicit stance posts",
-        "333 substantive thesis-like posts",
+        "334 substantive thesis-like posts",
         "94 high-conviction mentions",
         "10 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
-        "latest mention 2026-06-20"
+        "latest mention 2026-06-21"
       ]
     },
     {
@@ -1742,7 +1742,7 @@
       "has_report": false,
       "high_conviction_posts": 33,
       "industry": "Optical Comms/CPO",
-      "last_mention": "2026-06-20",
+      "last_mention": "2026-06-21",
       "market": "US",
       "priority": "high",
       "report_score": 3039,
@@ -1770,21 +1770,21 @@
       "stance_counts": {
         "bearish": 2,
         "bullish": 133,
-        "neutral": 364
+        "neutral": 369
       },
       "status": "needs_report",
-      "substantive_posts": 267,
+      "substantive_posts": 270,
       "ticker": "LITE",
-      "total_mentions": 503,
-      "unique_mention_days": 145,
+      "total_mentions": 508,
+      "unique_mention_days": 146,
       "why": [
-        "499 total mentions across 145 days",
+        "504 total mentions across 146 days",
         "131 explicit stance posts",
-        "267 substantive thesis-like posts",
+        "270 substantive thesis-like posts",
         "33 high-conviction mentions",
         "6 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
-        "latest mention 2026-06-20"
+        "latest mention 2026-06-21"
       ]
     },
     {
@@ -2692,7 +2692,7 @@
       "has_report": false,
       "high_conviction_posts": 8,
       "industry": "Optical Comms",
-      "last_mention": "2026-06-19",
+      "last_mention": "2026-06-21",
       "market": "US",
       "priority": "high",
       "report_score": 2923,
@@ -2720,21 +2720,21 @@
       "stance_counts": {
         "bearish": 2,
         "bullish": 64,
-        "neutral": 165
+        "neutral": 168
       },
       "status": "needs_report",
-      "substantive_posts": 147,
+      "substantive_posts": 149,
       "ticker": "COHR",
-      "total_mentions": 231,
-      "unique_mention_days": 103,
+      "total_mentions": 234,
+      "unique_mention_days": 104,
       "why": [
-        "231 total mentions across 103 days",
+        "234 total mentions across 104 days",
         "63 explicit stance posts",
-        "147 substantive thesis-like posts",
+        "149 substantive thesis-like posts",
         "8 high-conviction mentions",
         "3 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
-        "latest mention 2026-06-19"
+        "latest mention 2026-06-21"
       ]
     },
     {
@@ -2825,7 +2825,7 @@
       "has_report": false,
       "high_conviction_posts": 4,
       "industry": "AI Chips",
-      "last_mention": "2026-06-19",
+      "last_mention": "2026-06-21",
       "market": "US",
       "priority": "high",
       "report_score": 2913,
@@ -2853,21 +2853,21 @@
       "stance_counts": {
         "bearish": 8,
         "bullish": 45,
-        "neutral": 412
+        "neutral": 414
       },
       "status": "needs_report",
-      "substantive_posts": 231,
+      "substantive_posts": 232,
       "ticker": "NVDA",
-      "total_mentions": 465,
-      "unique_mention_days": 195,
+      "total_mentions": 467,
+      "unique_mention_days": 196,
       "why": [
-        "465 total mentions across 195 days",
+        "467 total mentions across 196 days",
         "44 explicit stance posts",
-        "231 substantive thesis-like posts",
+        "232 substantive thesis-like posts",
         "4 high-conviction mentions",
         "4 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
-        "latest mention 2026-06-19"
+        "latest mention 2026-06-21"
       ]
     },
     {
@@ -3098,7 +3098,7 @@
       "has_report": false,
       "high_conviction_posts": 5,
       "industry": "AI Semis/CPO",
-      "last_mention": "2026-06-20",
+      "last_mention": "2026-06-21",
       "market": "US",
       "priority": "high",
       "report_score": 2880,
@@ -3125,21 +3125,21 @@
       ],
       "stance_counts": {
         "bullish": 53,
-        "neutral": 200
+        "neutral": 201
       },
       "status": "needs_report",
-      "substantive_posts": 126,
+      "substantive_posts": 127,
       "ticker": "MRVL",
-      "total_mentions": 253,
-      "unique_mention_days": 112,
+      "total_mentions": 254,
+      "unique_mention_days": 113,
       "why": [
-        "253 total mentions across 112 days",
+        "254 total mentions across 113 days",
         "53 explicit stance posts",
-        "126 substantive thesis-like posts",
+        "127 substantive thesis-like posts",
         "5 high-conviction mentions",
         "3 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
-        "latest mention 2026-06-20"
+        "latest mention 2026-06-21"
       ]
     },
     {
@@ -3367,7 +3367,7 @@
       "has_report": false,
       "high_conviction_posts": 14,
       "industry": null,
-      "last_mention": "2026-06-20",
+      "last_mention": "2026-06-21",
       "market": "US",
       "priority": "high",
       "report_score": 2792,
@@ -3395,21 +3395,21 @@
       "stance_counts": {
         "bearish": 14,
         "bullish": 46,
-        "neutral": 113
+        "neutral": 114
       },
       "status": "needs_report",
       "substantive_posts": 103,
       "ticker": "HOOD",
-      "total_mentions": 173,
-      "unique_mention_days": 108,
+      "total_mentions": 174,
+      "unique_mention_days": 109,
       "why": [
-        "173 total mentions across 108 days",
+        "174 total mentions across 109 days",
         "54 explicit stance posts",
         "103 substantive thesis-like posts",
         "14 high-conviction mentions",
         "13 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
-        "latest mention 2026-06-20"
+        "latest mention 2026-06-21"
       ]
     },
     {
@@ -4405,7 +4405,7 @@
       "has_report": false,
       "high_conviction_posts": 5,
       "industry": "GPU/AI Chips",
-      "last_mention": "2026-06-18",
+      "last_mention": "2026-06-21",
       "market": "US",
       "priority": "high",
       "report_score": 2564,
@@ -4433,21 +4433,21 @@
       "stance_counts": {
         "bearish": 3,
         "bullish": 31,
-        "neutral": 102
+        "neutral": 103
       },
       "status": "needs_report",
-      "substantive_posts": 94,
+      "substantive_posts": 95,
       "ticker": "AMD",
-      "total_mentions": 136,
-      "unique_mention_days": 83,
+      "total_mentions": 137,
+      "unique_mention_days": 84,
       "why": [
-        "136 total mentions across 83 days",
+        "137 total mentions across 84 days",
         "32 explicit stance posts",
-        "94 substantive thesis-like posts",
+        "95 substantive thesis-like posts",
         "5 high-conviction mentions",
         "5 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
-        "latest mention 2026-06-18"
+        "latest mention 2026-06-21"
       ]
     },
     {
@@ -5167,10 +5167,10 @@
       "has_report": false,
       "high_conviction_posts": 1,
       "industry": "Optical Engine Packaging",
-      "last_mention": "2026-06-19",
+      "last_mention": "2026-06-21",
       "market": "US",
       "priority": "high",
-      "report_score": 2472,
+      "report_score": 2475,
       "risk_posts": 11,
       "signal_terms": [
         "allocation",
@@ -5195,21 +5195,21 @@
       "stance_counts": {
         "bearish": 8,
         "bullish": 25,
-        "neutral": 105
+        "neutral": 107
       },
       "status": "needs_report",
-      "substantive_posts": 80,
+      "substantive_posts": 81,
       "ticker": "POET",
-      "total_mentions": 138,
-      "unique_mention_days": 75,
+      "total_mentions": 140,
+      "unique_mention_days": 76,
       "why": [
-        "138 total mentions across 75 days",
+        "140 total mentions across 76 days",
         "38 explicit stance posts",
-        "80 substantive thesis-like posts",
+        "81 substantive thesis-like posts",
         "1 high-conviction mentions",
         "11 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
-        "latest mention 2026-06-19"
+        "latest mention 2026-06-21"
       ]
     },
     {
@@ -6889,7 +6889,7 @@
       "has_report": false,
       "high_conviction_posts": 6,
       "industry": null,
-      "last_mention": "2026-06-19",
+      "last_mention": "2026-06-20",
       "market": "Frankfurt Xetra",
       "priority": "high",
       "report_score": 2203,
@@ -6916,20 +6916,20 @@
       ],
       "stance_counts": {
         "bullish": 40,
-        "neutral": 16
+        "neutral": 17
       },
       "status": "needs_report",
       "substantive_posts": 44,
       "ticker": "LPK",
-      "total_mentions": 56,
-      "unique_mention_days": 32,
+      "total_mentions": 57,
+      "unique_mention_days": 33,
       "why": [
-        "56 total mentions across 32 days",
+        "57 total mentions across 33 days",
         "40 explicit stance posts",
         "44 substantive thesis-like posts",
         "6 high-conviction mentions",
         "high-signal terms: allocation, amd, amzn, bottleneck, capacity, chokepoint",
-        "latest mention 2026-06-19"
+        "latest mention 2026-06-20"
       ]
     },
     {
@@ -7015,7 +7015,7 @@
       "has_report": false,
       "high_conviction_posts": 5,
       "industry": "Memory",
-      "last_mention": "2026-06-19",
+      "last_mention": "2026-06-21",
       "market": "US",
       "priority": "high",
       "report_score": 2186,
@@ -7042,20 +7042,20 @@
       ],
       "stance_counts": {
         "bullish": 44,
-        "neutral": 105
+        "neutral": 107
       },
       "status": "needs_report",
       "substantive_posts": 76,
       "ticker": "SNDK",
-      "total_mentions": 149,
-      "unique_mention_days": 84,
+      "total_mentions": 151,
+      "unique_mention_days": 85,
       "why": [
-        "149 total mentions across 84 days",
+        "151 total mentions across 85 days",
         "44 explicit stance posts",
         "76 substantive thesis-like posts",
         "5 high-conviction mentions",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
-        "latest mention 2026-06-19"
+        "latest mention 2026-06-21"
       ]
     },
     {
@@ -7804,10 +7804,10 @@
       "has_report": false,
       "high_conviction_posts": 0,
       "industry": "Optical Module Manufacturing",
-      "last_mention": "2026-06-20",
+      "last_mention": "2026-06-21",
       "market": "US",
       "priority": "high",
-      "report_score": 2089,
+      "report_score": 2105,
       "risk_posts": 0,
       "signal_terms": [
         "allocation",
@@ -7831,19 +7831,19 @@
       ],
       "stance_counts": {
         "bullish": 9,
-        "neutral": 124
+        "neutral": 127
       },
       "status": "needs_report",
-      "substantive_posts": 56,
+      "substantive_posts": 58,
       "ticker": "JBL",
-      "total_mentions": 133,
-      "unique_mention_days": 60,
+      "total_mentions": 136,
+      "unique_mention_days": 61,
       "why": [
-        "133 total mentions across 60 days",
+        "136 total mentions across 61 days",
         "9 explicit stance posts",
-        "56 substantive thesis-like posts",
+        "58 substantive thesis-like posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
-        "latest mention 2026-06-20"
+        "latest mention 2026-06-21"
       ]
     },
     {
@@ -9801,6 +9801,124 @@
       ]
     },
     {
+      "company": "GlobalFoundries",
+      "evidence": [
+        {
+          "date": "2026-01-19",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "US foundry beneficiary",
+            "good dip buy if it drops"
+          ],
+          "score": 103,
+          "stance": "bullish",
+          "text_preview": "US Futures are down due to Greenland Tariff news. Many popular names on EU stock exchanges are now down: $ONDS (-8.55%) or $RKLB (-7.65%). Here's how to potentially profit off the situation: Tier 1: Supply Chains This i…",
+          "tweet_id": "2013376770121105710",
+          "url": "https://x.com/aleabitoreddit/status/2013376770121105710"
+        },
+        {
+          "date": "2026-05-28",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 96,
+          "stance": "neutral",
+          "text_preview": "$SIVE is the most compelling CPO/photonics exposure to me. Addressing the disinformation: I haven’t sold and don’t plan to sell a single share. I do think this ends up the next $80B+ $LITE one day from ~$2.1B. And I per…",
+          "tweet_id": "2060002002994971046",
+          "url": "https://x.com/aleabitoreddit/status/2060002002994971046"
+        },
+        {
+          "date": "2026-03-31",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "foundry likely on overdrive",
+            "foundry chokepoint beneficiary"
+          ],
+          "score": 95,
+          "stance": "bullish",
+          "text_preview": "The market are missing the implications from $NVDA investing: $2B into $COHR for optical. $2B into $LITE for optical. and $2B into $MRVL for optical today. Nvidia did this exact same playbook last year. They realized th…",
+          "tweet_id": "2039011647264903382",
+          "url": "https://x.com/aleabitoreddit/status/2039011647264903382"
+        },
+        {
+          "date": "2026-06-04",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 88,
+          "stance": "neutral",
+          "text_preview": "$SIVE looks like both a chokepoint and a bottleneck for CPO next year. Keep seeing information published from nontechnical people who miss any nuances. Here’s the reason why: 1. CW lasers are bottlenecked signaled by $L…",
+          "tweet_id": "2062433114933334487",
+          "url": "https://x.com/aleabitoreddit/status/2062433114933334487"
+        },
+        {
+          "date": "2026-04-23",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 82,
+          "stance": "neutral",
+          "text_preview": "All the hyperscalers $SIVE likely ends up in 2027-2028 is staggering at a $900m MC. Markets don't understand what's coming. From speculative mapping: > $SIVE -> $POET -> $MRVL -> 1. $AMZN (purchase agreement/warrants wi…",
+          "tweet_id": "2047209727738957983",
+          "url": "https://x.com/aleabitoreddit/status/2047209727738957983"
+        },
+        {
+          "date": "2026-05-03",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 76,
+          "stance": "neutral",
+          "text_preview": "It's pretty insane to see $SIVE become a Tier 1 laser supplier for CPO. This is my prediction/guess with est. mapping: $NVDA ate up all the capacity with $COHR, $LITE after their new $2B+ spending spree. Same playbook w…",
+          "tweet_id": "2050833230736269767",
+          "url": "https://x.com/aleabitoreddit/status/2050833230736269767"
+        }
+      ],
+      "explicit_stance_posts": 7,
+      "first_mention": "2026-01-19",
+      "has_report": false,
+      "high_conviction_posts": 2,
+      "industry": "Semiconductor Foundry",
+      "last_mention": "2026-06-21",
+      "market": "US",
+      "priority": "high",
+      "report_score": 1823,
+      "risk_posts": 0,
+      "signal_terms": [
+        "allocation",
+        "amazon",
+        "amd",
+        "amzn",
+        "ban",
+        "bottleneck",
+        "capacity",
+        "chokepoint",
+        "confirmed",
+        "conviction",
+        "dilution",
+        "export control",
+        "favorite",
+        "gfs",
+        "globalfoundries",
+        "hyperscaler",
+        "jabil",
+        "jbl"
+      ],
+      "stance_counts": {
+        "bullish": 7,
+        "neutral": 49
+      },
+      "status": "needs_report",
+      "substantive_posts": 34,
+      "ticker": "GFS",
+      "total_mentions": 56,
+      "unique_mention_days": 33,
+      "why": [
+        "56 total mentions across 33 days",
+        "7 explicit stance posts",
+        "34 substantive thesis-like posts",
+        "2 high-conviction mentions",
+        "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
+        "latest mention 2026-06-21"
+      ]
+    },
+    {
       "company": null,
       "evidence": [
         {
@@ -10341,124 +10459,6 @@
         "1 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, capacity, conviction",
         "latest mention 2026-04-12"
-      ]
-    },
-    {
-      "company": "GlobalFoundries",
-      "evidence": [
-        {
-          "date": "2026-01-19",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "US foundry beneficiary",
-            "good dip buy if it drops"
-          ],
-          "score": 103,
-          "stance": "bullish",
-          "text_preview": "US Futures are down due to Greenland Tariff news. Many popular names on EU stock exchanges are now down: $ONDS (-8.55%) or $RKLB (-7.65%). Here's how to potentially profit off the situation: Tier 1: Supply Chains This i…",
-          "tweet_id": "2013376770121105710",
-          "url": "https://x.com/aleabitoreddit/status/2013376770121105710"
-        },
-        {
-          "date": "2026-05-28",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 96,
-          "stance": "neutral",
-          "text_preview": "$SIVE is the most compelling CPO/photonics exposure to me. Addressing the disinformation: I haven’t sold and don’t plan to sell a single share. I do think this ends up the next $80B+ $LITE one day from ~$2.1B. And I per…",
-          "tweet_id": "2060002002994971046",
-          "url": "https://x.com/aleabitoreddit/status/2060002002994971046"
-        },
-        {
-          "date": "2026-03-31",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "foundry likely on overdrive",
-            "foundry chokepoint beneficiary"
-          ],
-          "score": 95,
-          "stance": "bullish",
-          "text_preview": "The market are missing the implications from $NVDA investing: $2B into $COHR for optical. $2B into $LITE for optical. and $2B into $MRVL for optical today. Nvidia did this exact same playbook last year. They realized th…",
-          "tweet_id": "2039011647264903382",
-          "url": "https://x.com/aleabitoreddit/status/2039011647264903382"
-        },
-        {
-          "date": "2026-06-04",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 88,
-          "stance": "neutral",
-          "text_preview": "$SIVE looks like both a chokepoint and a bottleneck for CPO next year. Keep seeing information published from nontechnical people who miss any nuances. Here’s the reason why: 1. CW lasers are bottlenecked signaled by $L…",
-          "tweet_id": "2062433114933334487",
-          "url": "https://x.com/aleabitoreddit/status/2062433114933334487"
-        },
-        {
-          "date": "2026-04-23",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 82,
-          "stance": "neutral",
-          "text_preview": "All the hyperscalers $SIVE likely ends up in 2027-2028 is staggering at a $900m MC. Markets don't understand what's coming. From speculative mapping: > $SIVE -> $POET -> $MRVL -> 1. $AMZN (purchase agreement/warrants wi…",
-          "tweet_id": "2047209727738957983",
-          "url": "https://x.com/aleabitoreddit/status/2047209727738957983"
-        },
-        {
-          "date": "2026-05-03",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 76,
-          "stance": "neutral",
-          "text_preview": "It's pretty insane to see $SIVE become a Tier 1 laser supplier for CPO. This is my prediction/guess with est. mapping: $NVDA ate up all the capacity with $COHR, $LITE after their new $2B+ spending spree. Same playbook w…",
-          "tweet_id": "2050833230736269767",
-          "url": "https://x.com/aleabitoreddit/status/2050833230736269767"
-        }
-      ],
-      "explicit_stance_posts": 7,
-      "first_mention": "2026-01-19",
-      "has_report": false,
-      "high_conviction_posts": 2,
-      "industry": "Semiconductor Foundry",
-      "last_mention": "2026-06-20",
-      "market": "US",
-      "priority": "high",
-      "report_score": 1788,
-      "risk_posts": 0,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "amzn",
-        "ban",
-        "bottleneck",
-        "capacity",
-        "chokepoint",
-        "confirmed",
-        "conviction",
-        "dilution",
-        "export control",
-        "favorite",
-        "gfs",
-        "globalfoundries",
-        "hyperscaler",
-        "jabil",
-        "jbl"
-      ],
-      "stance_counts": {
-        "bullish": 7,
-        "neutral": 46
-      },
-      "status": "needs_report",
-      "substantive_posts": 32,
-      "ticker": "GFS",
-      "total_mentions": 53,
-      "unique_mention_days": 32,
-      "why": [
-        "53 total mentions across 32 days",
-        "7 explicit stance posts",
-        "32 substantive thesis-like posts",
-        "2 high-conviction mentions",
-        "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
-        "latest mention 2026-06-20"
       ]
     },
     {
@@ -13454,10 +13454,10 @@
       "has_report": false,
       "high_conviction_posts": 0,
       "industry": null,
-      "last_mention": "2026-06-18",
+      "last_mention": "2026-06-20",
       "market": "US",
       "priority": "high",
-      "report_score": 1193,
+      "report_score": 1207,
       "risk_posts": 0,
       "signal_terms": [
         "amazon",
@@ -13482,19 +13482,19 @@
       "stance_counts": {
         "bearish": 1,
         "bullish": 4,
-        "neutral": 23
+        "neutral": 24
       },
       "status": "needs_report",
       "substantive_posts": 14,
       "ticker": "ASML",
-      "total_mentions": 29,
-      "unique_mention_days": 25,
+      "total_mentions": 30,
+      "unique_mention_days": 26,
       "why": [
-        "28 total mentions across 25 days",
+        "29 total mentions across 26 days",
         "4 explicit stance posts",
         "14 substantive thesis-like posts",
         "high-signal terms: amazon, amd, amzn, ban, bottleneck, capacity",
-        "latest mention 2026-06-18"
+        "latest mention 2026-06-20"
       ]
     },
     {
@@ -19849,6 +19849,129 @@
       "company": null,
       "evidence": [
         {
+          "date": "2026-06-19",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "performing much better following short-term volatility"
+          ],
+          "score": 77,
+          "stance": "bullish",
+          "text_preview": "I think something to highlight also is not all my ideas are green, especially on short term timeframes! My core three themes are Neoclouds (Energy), Memory, and Photonics. And I'm glad I chose the literal top performers…",
+          "tweet_id": "2067945397923037693",
+          "url": "https://x.com/aleabitoreddit/status/2067945397923037693"
+        },
+        {
+          "date": "2026-04-29",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "sleeper beneficiary for HBM4 spend from SK Hynix, Samsung, MU",
+            "monopoly in compression modeling processes",
+            "should get materially re-rated from spike in unavoidable inflows for new HBM4 memory cycle",
+            "largely forgotten beneficiary despite monopoly"
+          ],
+          "score": 61,
+          "stance": "bullish",
+          "text_preview": "Yeah... the more I look into things, $TOWA / $TOWCF (6315) at ~$1.34b looks like a sleeper beneficiary for HBM4 spend from SK Hynix, Samsung, $MU. It’s hyper cyclical with spending cycles. But we’re seeing hikes in cape…",
+          "tweet_id": "2049646205039522009",
+          "url": "https://x.com/aleabitoreddit/status/2049646205039522009"
+        },
+        {
+          "date": "2026-04-29",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "he says still a must have",
+            "he says they remain a critical chokepoint even with hybrid bonding end of decade"
+          ],
+          "score": 56,
+          "stance": "bullish",
+          "text_preview": "@johndoestocks Good question, $TOWA is still a must have so not a concern. Even with hybrid bonding end of decade hbm5, they might just lose one step of the process but remain a critical chokepoint",
+          "tweet_id": "2049529141083701417",
+          "url": "https://x.com/aleabitoreddit/status/2049529141083701417"
+        },
+        {
+          "date": "2026-04-29",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "SK Hynix, Micron, and Samsung increased capex projections",
+            "big 3 building out HMB4 so capex flows to Towa"
+          ],
+          "score": 46,
+          "stance": "bullish",
+          "text_preview": "@inversorBetico $TOWA biggest signal is SK Hynix, Micron, and Samsung since this is upstream... and the big 3 increased capex projections + building out HMB4 so that capex does flow to Towa. MSSCORP more nuanced. This i…",
+          "tweet_id": "2049596330000150768",
+          "url": "https://x.com/aleabitoreddit/status/2049596330000150768"
+        },
+        {
+          "date": "2026-05-06",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "monopolistic compounder"
+          ],
+          "score": 42,
+          "stance": "bullish",
+          "text_preview": "@2victorspoils I liked Auros for higher upside since they’re part of SK Hynix/Samsung Hbm4 hybrid bonding related roadmaps at ~$280mz Over in Japan, Towa was a bit of a more boring but monopolistic compounder. As the on…",
+          "tweet_id": "2051913276821487905",
+          "url": "https://x.com/aleabitoreddit/status/2051913276821487905"
+        },
+        {
+          "date": "2026-04-27",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "functional monopoly",
+            "flat despite hbm4 capex spend",
+            "good trade for earnings May 10th"
+          ],
+          "score": 39,
+          "stance": "bullish",
+          "text_preview": "@jainsaab88 Not really. Earnings are coming up May 10th, every equipment related name across the board was re-rating hard. But Towa is a functional monopoly and kinda flat despite hbm4 capex spend so thought it would be…",
+          "tweet_id": "2048923293974184076",
+          "url": "https://x.com/aleabitoreddit/status/2048923293974184076"
+        }
+      ],
+      "explicit_stance_posts": 7,
+      "first_mention": "2026-04-27",
+      "has_report": false,
+      "high_conviction_posts": 1,
+      "industry": null,
+      "last_mention": "2026-06-20",
+      "market": "US",
+      "priority": "medium",
+      "report_score": 655,
+      "risk_posts": 0,
+      "signal_terms": [
+        "chokepoint",
+        "holding",
+        "hyperscaler",
+        "long",
+        "nvda",
+        "own",
+        "ramp",
+        "sell",
+        "thesis"
+      ],
+      "stance_counts": {
+        "bearish": 1,
+        "bullish": 6,
+        "neutral": 3
+      },
+      "status": "needs_report",
+      "substantive_posts": 7,
+      "ticker": "TOWA",
+      "total_mentions": 10,
+      "unique_mention_days": 8,
+      "why": [
+        "10 total mentions across 8 days",
+        "7 explicit stance posts",
+        "7 substantive thesis-like posts",
+        "1 high-conviction mentions",
+        "high-signal terms: chokepoint, holding, hyperscaler, long, nvda, own",
+        "latest mention 2026-06-20"
+      ]
+    },
+    {
+      "company": null,
+      "evidence": [
+        {
           "date": "2026-01-29",
           "mention_type": "explicit_stance",
           "reasons": [
@@ -20477,129 +20600,6 @@
         "1 risk/caution posts",
         "high-signal terms: allocation, amazon, amzn, ban, bottleneck, capacity",
         "latest mention 2026-03-23"
-      ]
-    },
-    {
-      "company": null,
-      "evidence": [
-        {
-          "date": "2026-06-19",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "performing much better following short-term volatility"
-          ],
-          "score": 77,
-          "stance": "bullish",
-          "text_preview": "I think something to highlight also is not all my ideas are green, especially on short term timeframes! My core three themes are Neoclouds (Energy), Memory, and Photonics. And I'm glad I chose the literal top performers…",
-          "tweet_id": "2067945397923037693",
-          "url": "https://x.com/aleabitoreddit/status/2067945397923037693"
-        },
-        {
-          "date": "2026-04-29",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "sleeper beneficiary for HBM4 spend from SK Hynix, Samsung, MU",
-            "monopoly in compression modeling processes",
-            "should get materially re-rated from spike in unavoidable inflows for new HBM4 memory cycle",
-            "largely forgotten beneficiary despite monopoly"
-          ],
-          "score": 61,
-          "stance": "bullish",
-          "text_preview": "Yeah... the more I look into things, $TOWA / $TOWCF (6315) at ~$1.34b looks like a sleeper beneficiary for HBM4 spend from SK Hynix, Samsung, $MU. It’s hyper cyclical with spending cycles. But we’re seeing hikes in cape…",
-          "tweet_id": "2049646205039522009",
-          "url": "https://x.com/aleabitoreddit/status/2049646205039522009"
-        },
-        {
-          "date": "2026-04-29",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "he says still a must have",
-            "he says they remain a critical chokepoint even with hybrid bonding end of decade"
-          ],
-          "score": 56,
-          "stance": "bullish",
-          "text_preview": "@johndoestocks Good question, $TOWA is still a must have so not a concern. Even with hybrid bonding end of decade hbm5, they might just lose one step of the process but remain a critical chokepoint",
-          "tweet_id": "2049529141083701417",
-          "url": "https://x.com/aleabitoreddit/status/2049529141083701417"
-        },
-        {
-          "date": "2026-04-29",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "SK Hynix, Micron, and Samsung increased capex projections",
-            "big 3 building out HMB4 so capex flows to Towa"
-          ],
-          "score": 46,
-          "stance": "bullish",
-          "text_preview": "@inversorBetico $TOWA biggest signal is SK Hynix, Micron, and Samsung since this is upstream... and the big 3 increased capex projections + building out HMB4 so that capex does flow to Towa. MSSCORP more nuanced. This i…",
-          "tweet_id": "2049596330000150768",
-          "url": "https://x.com/aleabitoreddit/status/2049596330000150768"
-        },
-        {
-          "date": "2026-05-06",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "monopolistic compounder"
-          ],
-          "score": 42,
-          "stance": "bullish",
-          "text_preview": "@2victorspoils I liked Auros for higher upside since they’re part of SK Hynix/Samsung Hbm4 hybrid bonding related roadmaps at ~$280mz Over in Japan, Towa was a bit of a more boring but monopolistic compounder. As the on…",
-          "tweet_id": "2051913276821487905",
-          "url": "https://x.com/aleabitoreddit/status/2051913276821487905"
-        },
-        {
-          "date": "2026-04-27",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "functional monopoly",
-            "flat despite hbm4 capex spend",
-            "good trade for earnings May 10th"
-          ],
-          "score": 39,
-          "stance": "bullish",
-          "text_preview": "@jainsaab88 Not really. Earnings are coming up May 10th, every equipment related name across the board was re-rating hard. But Towa is a functional monopoly and kinda flat despite hbm4 capex spend so thought it would be…",
-          "tweet_id": "2048923293974184076",
-          "url": "https://x.com/aleabitoreddit/status/2048923293974184076"
-        }
-      ],
-      "explicit_stance_posts": 7,
-      "first_mention": "2026-04-27",
-      "has_report": false,
-      "high_conviction_posts": 1,
-      "industry": null,
-      "last_mention": "2026-06-19",
-      "market": "US",
-      "priority": "medium",
-      "report_score": 622,
-      "risk_posts": 0,
-      "signal_terms": [
-        "chokepoint",
-        "holding",
-        "hyperscaler",
-        "long",
-        "nvda",
-        "own",
-        "ramp",
-        "sell",
-        "thesis"
-      ],
-      "stance_counts": {
-        "bearish": 1,
-        "bullish": 6,
-        "neutral": 2
-      },
-      "status": "needs_report",
-      "substantive_posts": 7,
-      "ticker": "TOWA",
-      "total_mentions": 9,
-      "unique_mention_days": 7,
-      "why": [
-        "9 total mentions across 7 days",
-        "7 explicit stance posts",
-        "7 substantive thesis-like posts",
-        "1 high-conviction mentions",
-        "high-signal terms: chokepoint, holding, hyperscaler, long, nvda, own",
-        "latest mention 2026-06-19"
       ]
     },
     {
@@ -27616,6 +27616,121 @@
       "company": null,
       "evidence": [
         {
+          "date": "2026-01-22",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "extreme bottleneck for AI",
+            "80-90% market share of high-end T-glass used in semiconductors",
+            "sold out through 2026",
+            "Apple, Nvidia, Qualcomm fighting over supply"
+          ],
+          "score": 97,
+          "stance": "bullish",
+          "text_preview": "Nitto Boseki - $NBCLF | 3110: The story of an extreme bottleneck for AI: > Spin Yarn/Glass in 1923 > Be good at it > Create \"T-Glass\" for tennis rackets > Wait 100Y, everyone needs it > $TSM for CoWoS > $APPL for M-Seri…",
+          "tweet_id": "2014505817509355841",
+          "url": "https://x.com/aleabitoreddit/status/2014505817509355841"
+        },
+        {
+          "date": "2026-06-21",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "holds ~90%+ monopoly in glass fiber cloth but refuses to price hike T-Glass ASP meaningfully",
+            "could easily triple valuations with pricing power but Japanese culture prevents it"
+          ],
+          "score": 55,
+          "stance": "bearish",
+          "text_preview": "Nittobo (3110) is one of the most frustrating Japanese companies I've seen. They hold an monopoly in glass fiber cloth, like ~90%+ market share. But refuse to price hike T-Glass ASP, beyond something small like 20-30%.…",
+          "tweet_id": "2068613336217063871",
+          "url": "https://x.com/aleabitoreddit/status/2068613336217063871"
+        },
+        {
+          "date": "2026-01-22",
+          "mention_type": "explicit_stance",
+          "reasons": [],
+          "score": 30,
+          "stance": "bullish",
+          "text_preview": "@joaofrios $3110.T through Tokyo Stock exchange. Not every broker has access to Japanese markets tough. There is an OTC version but I’m sure the spreads are extremely large.",
+          "tweet_id": "2014515063370219836",
+          "url": "https://x.com/aleabitoreddit/status/2014515063370219836"
+        },
+        {
+          "date": "2026-03-30",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 22,
+          "stance": "neutral",
+          "text_preview": "CPO Value Chain Summary from Mirae Asset: Laser Source: Coherent < $COHR > Lumentum < $LITE > Furukawa Electric (TYO: 5801) Yuanjie Semiconductor (SHA: 688498) Innolight Technology / Zhongji Innolight (SZSE: 300308) PIC…",
+          "tweet_id": "2038777289115345200",
+          "url": "https://x.com/aleabitoreddit/status/2038777289115345200"
+        },
+        {
+          "date": "2026-01-08",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 12,
+          "stance": "neutral",
+          "text_preview": "@Citrini7 Holy grail of research info, thanks for posting it free. Also some of these are affected by China’s new dual export controls the other day since Ajinomoto, Nittobo, and Mitsubishi Gas Chemical and others use C…",
+          "tweet_id": "2009345632126030102",
+          "url": "https://x.com/aleabitoreddit/status/2009345632126030102"
+        },
+        {
+          "date": "2026-02-20",
+          "mention_type": "background",
+          "reasons": [],
+          "score": -4,
+          "stance": "neutral",
+          "text_preview": "@SpacemanZN @Yeah_Dave You do realize all the Venezuelan names like $CVX or Gold Reserves held all their gains and are still going up right? Try and name one illiquid \"low cap\" Asian name I've bought. None of them from…",
+          "tweet_id": "2024771275340775579",
+          "url": "https://x.com/aleabitoreddit/status/2024771275340775579"
+        }
+      ],
+      "explicit_stance_posts": 3,
+      "first_mention": "2026-01-08",
+      "has_report": false,
+      "high_conviction_posts": 1,
+      "industry": null,
+      "last_mention": "2026-06-21",
+      "market": "US",
+      "priority": "low",
+      "report_score": 376,
+      "risk_posts": 1,
+      "signal_terms": [
+        "amd",
+        "bottleneck",
+        "export control",
+        "gfs",
+        "globalfoundries",
+        "nvda",
+        "nvidia",
+        "own",
+        "pricing",
+        "secondary",
+        "sold"
+      ],
+      "stance_counts": {
+        "bearish": 1,
+        "bullish": 2,
+        "neutral": 3
+      },
+      "status": "candidate",
+      "substantive_posts": 3,
+      "ticker": "3110",
+      "total_mentions": 6,
+      "unique_mention_days": 5,
+      "why": [
+        "6 total mentions across 5 days",
+        "3 explicit stance posts",
+        "3 substantive thesis-like posts",
+        "1 high-conviction mentions",
+        "1 risk/caution posts",
+        "high-signal terms: amd, bottleneck, export control, gfs, globalfoundries, nvda",
+        "latest mention 2026-06-21"
+      ]
+    },
+    {
+      "company": null,
+      "evidence": [
+        {
           "date": "2026-04-12",
           "mention_type": "explicit_stance",
           "reasons": [
@@ -31003,10 +31118,10 @@
     }
   ],
   "reports_available": 9,
-  "stocks_scanned": 969,
-  "stocks_skipped": 712,
+  "stocks_scanned": 972,
+  "stocks_skipped": 714,
   "summary": {
-    "candidate": 68,
+    "candidate": 69,
     "has_report": 9,
     "needs_regeneration": 0,
     "needs_report": 180,

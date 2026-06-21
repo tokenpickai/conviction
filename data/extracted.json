@@ -217866,5 +217866,526 @@
     "extractor_model": "claude-opus-4-6",
     "prompt_version": "extract-v2",
     "extracted_at": "2026-06-20T16:07:03.921208+00:00"
+  },
+  "2068651355422814294": {
+    "tweet_id": "2068651355422814294",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "laser supplier for next gen architectures, not just CPO scale up",
+          "Sivers and Jabil developed 1.6T optical transceivers with CW lasers designing around EML bottlenecks",
+          "Jabil management says they created a 'relatively dramatic moat'",
+          "immediately used for next gen 1.6T pluggable transceivers",
+          "other pluggable players reached out after Jabil announcement",
+          "laser supplier for CPO scale out players like POET",
+          "likely designed in with Marvell Celestial, Lightmatter, Lightelligence for scale up CPO",
+          "reference laser for foundries like GFS",
+          "O-Net building ELS with SIVE likely for Asian hyperscalers",
+          "favorite laser chokepoint long",
+          "feels like they're everywhere in new optical architectures starting beginning of 2027"
+        ],
+        "is_risk": false,
+        "conviction_signal": "high"
+      },
+      {
+        "raw_mention": "$JBL",
+        "symbol": "JBL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Lumentum",
+        "symbol": "LITE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$POET",
+        "symbol": "POET",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$MRVL",
+        "symbol": "MRVL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$GFS",
+        "symbol": "GFS",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.97,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-21T12:27:21.811339+00:00"
+  },
+  "2068654378198925505": {
+    "tweet_id": "2068654378198925505",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$POET",
+        "symbol": "POET",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$GFS",
+        "symbol": "GFS",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-21T12:27:21.811339+00:00"
+  },
+  "2068655811434623149": {
+    "tweet_id": "2068655811434623149",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$JBL",
+        "symbol": "JBL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "expects significant rerate if higher confidence mapping to NVDA CPO ecosystem is released"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$NVDA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.92,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-21T12:27:21.811339+00:00"
+  },
+  "2068657882036687294": {
+    "tweet_id": "2068657882036687294",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "around the same starting point as Lumentum which went from 2.88B to 67B MC in 2 years"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      }
+    ],
+    "confidence": 0.93,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-21T12:27:21.811339+00:00"
+  },
+  "2068603148311404902": {
+    "tweet_id": "2068603148311404902",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "OE Solutions (138080)",
+        "symbol": "138080",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "one of few EML players in the world with scarce 100G EML laser capacity for 800G/1.6T",
+          "building full ELSFP with CW lasers for CPO, not just selling dies",
+          "Korea's sovereign photonics player",
+          "EML/CW tech probably worth a lot more than current MC as acquisition target",
+          "EML/CW laser shortage means any independent capacity will be sought after",
+          "wafer/module utilization is low (~31% underutilized) so revenue growth before capex needed",
+          "has 20+ years of optical transceiver experience with R&D in US and Netherlands",
+          "working on 200G EML capability"
+        ],
+        "is_risk": false,
+        "conviction_signal": "low"
+      },
+      {
+        "raw_mention": "$AAOI",
+        "symbol": "AAOI",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$COHR",
+        "symbol": "COHR",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SIVE",
+        "symbol": "SIVE",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "major CPO player embedded in Ayar, JBL, GFS, and many other hyperscaler suppliers",
+          "Win Semi and others de-risking volume ramp",
+          "lower risk than OE Solutions"
+        ],
+        "is_risk": false,
+        "conviction_signal": "medium"
+      },
+      {
+        "raw_mention": "$JBL",
+        "symbol": "JBL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$GFS",
+        "symbol": "GFS",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.92,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-21T12:27:21.811339+00:00"
+  },
+  "2068605586070188241": {
+    "tweet_id": "2068605586070188241",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.97,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-21T12:27:21.811339+00:00"
+  },
+  "2068608505679151556": {
+    "tweet_id": "2068608505679151556",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "光迅科技",
+        "symbol": "光迅科技",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "东山精密",
+        "symbol": "东山精密",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.6,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-21T12:27:21.811339+00:00"
+  },
+  "2068612102928154844": {
+    "tweet_id": "2068612102928154844",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "OE Solutions",
+        "symbol": "138080",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$COHR",
+        "symbol": "COHR",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.88,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-21T12:27:21.811339+00:00"
+  },
+  "2068613336217063871": {
+    "tweet_id": "2068613336217063871",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Nittobo (3110)",
+        "symbol": "3110",
+        "stance": "bearish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "holds ~90%+ monopoly in glass fiber cloth but refuses to price hike T-Glass ASP meaningfully",
+          "could easily triple valuations with pricing power but Japanese culture prevents it"
+        ],
+        "is_risk": true,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$SNDK",
+        "symbol": "SNDK",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.82,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-21T12:27:21.811339+00:00"
+  },
+  "2068616131129270289": {
+    "tweet_id": "2068616131129270289",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$COHR",
+        "symbol": "COHR",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$LITE",
+        "symbol": "LITE",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$NVDA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$AMD",
+        "symbol": "AMD",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-21T12:27:21.811339+00:00"
+  },
+  "2068579389722546529": {
+    "tweet_id": "2068579389722546529",
+    "has_investment_content": false,
+    "tickers": [
+      {
+        "raw_mention": "$SNDK",
+        "symbol": "SNDK",
+        "stance": "neutral",
+        "mention_type": "comparison",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-21T12:27:21.811339+00:00"
+  },
+  "2068567767951749467": {
+    "tweet_id": "2068567767951749467",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-21T12:27:21.811339+00:00"
+  },
+  "2068568996878926274": {
+    "tweet_id": "2068568996878926274",
+    "has_investment_content": false,
+    "tickers": [
+      {
+        "raw_mention": "$HOOD",
+        "symbol": "HOOD",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-21T12:27:21.811339+00:00"
+  },
+  "2068537478131118438": {
+    "tweet_id": "2068537478131118438",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$ASML",
+        "symbol": "ASML",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$TOWA",
+        "symbol": "TOWA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "$LPK",
+        "symbol": "LPK",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Ajinomoto",
+        "symbol": "2802",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.9,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-21T12:27:21.811339+00:00"
+  },
+  "2068541545729642895": {
+    "tweet_id": "2068541545729642895",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-21T12:27:21.811339+00:00"
+  },
+  "2068542471127327017": {
+    "tweet_id": "2068542471127327017",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.8,
+    "extractor_model": "claude-opus-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-21T12:27:21.811339+00:00"
   }
 }

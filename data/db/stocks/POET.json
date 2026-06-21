@@ -9,8 +9,8 @@
   "industry": "Optical Engine Packaging",
   "thesis_summary": "当天主要在陈述供应链关系/背景,未明确表态。",
   "first_mention": "2025-12-11",
-  "last_mention": "2026-06-19",
-  "total_mentions": 138,
+  "last_mention": "2026-06-21",
+  "total_mentions": 140,
   "mentions": [
     {
       "tweet_id": "1999242313735016715",
@@ -3462,6 +3462,54 @@
         "likes": 94,
         "reposts": 3,
         "replies": 8
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068651355422814294",
+      "date": "2026-06-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$POET",
+      "text": "That’s a misconception:\n\n$SIVE is the laser supplier for next gen architectures, not just CPO scale up. \n\nPluggable, scale out CPO, scale up CPO, NPO, etc. \n\n- Sivers and $JBL went god-mode and developed 1.6T optical transceivers with CW lasers.\n\nEffectively designing around the EML bottlenecks, and even made things more power efficient. \n\nFrom quotes from Jabil management they created a “relatively dramatic moat”.\n\nSo for the next gen of 1.6T pluggable transceivers, Sivers seems immediately used.\n\nMarkets missed this nuance too: after Jabil’s announcement, other pluggable players reached out, and SIVE is working with them now (prob codevelopment, qualification stage).\n\nThere’s not too many players that build optical transceivers that aren’t vertically integrated like Lumentum (think: Innolight/eoptolink, and maybe others).\n\nSo these are active developments, just not public material yet and could be a new press release anytime.\n\n- for CPO scale out which happens H2 2026 onward like $POET, $SIVE is a laser supplier for those players.\n\n- scale up CPO is h2 2027, from Ayar and Nvidia’a NVLink CPO ecosystem and that’s the main volume ramp across optical players.\n\nBut this is where $SIVE looks like they mog every other player from supply chain mapping.\n\nSince they’ve likely been working + designed in with $MRVL Celestial, Lightmatter, Lightelligence and the others since they were small way back when.\n\nOn top of things like this:\n\nFor foundries like $GFS, $SIVE is the reference laser.\n\nNot even including massive companies like O-Net building ELS with $SIVE, likely for the Asian hyperscalers supply chains.\n\nThis is why $SIVE is by far my favorite laser chokepoint long.\n\nFeels like they’re everywhere in new optical architectures starting beginning of 2027.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2068651355422814294",
+      "kind": "post",
+      "engagement": {
+        "views": 100817,
+        "likes": 480,
+        "reposts": 44,
+        "replies": 126
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068654378198925505",
+      "date": "2026-06-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$POET",
+      "text": "Mapping like\n\n- JP Morgan fireside conference for Jabil timelines + Quotes around 1.6T LRO\n\n- Sivers 2025 annual around $POET various press releases with $GFS and others.\n\n- Old investor customers decks mapped with different investment rounds of cpo startups at the time\n\nAll merged together into a thesis.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2068654378198925505",
+      "kind": "reply",
+      "engagement": {
+        "views": 6686,
+        "likes": 47,
+        "reposts": 2,
+        "replies": 6
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

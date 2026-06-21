@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2025-07-02",
-  "last_mention": "2026-06-20",
-  "total_mentions": 173,
+  "last_mention": "2026-06-21",
+  "total_mentions": 174,
   "mentions": [
     {
       "tweet_id": "1940462531740578167",
@@ -4388,6 +4388,39 @@
         "likes": 1323,
         "reposts": 61,
         "replies": 169
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068568996878926274",
+      "date": "2026-06-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$HOOD",
+      "text": "@yi_ji45961 I’m confused how I can have this in bio, “I only use X”.\n\nThen people still think fake outside accounts are me.\n\nAlso $HOOD doesn’t even support EU/TW assets obviously a scam. https://t.co/WDWj5RVZKb",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2068568989442478080",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLUIiUEbkAAS5Re.jpg",
+          "width": 887,
+          "height": 327,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2068568996878926274",
+      "kind": "reply",
+      "engagement": {
+        "views": 7723,
+        "likes": 72,
+        "reposts": 1,
+        "replies": 14
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

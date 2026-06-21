@@ -1,6 +1,6 @@
 {
   "ticker": "3110",
-  "cashtag": "3110",
+  "cashtag": "Nittobo (3110)",
   "price_symbol": "3110",
   "exchange": "US",
   "currency": "USD",
@@ -9,8 +9,8 @@
   "industry": null,
   "thesis_summary": null,
   "first_mention": "2026-01-08",
-  "last_mention": "2026-03-30",
-  "total_mentions": 5,
+  "last_mention": "2026-06-21",
+  "total_mentions": 6,
   "mentions": [
     {
       "tweet_id": "2009345632126030102",
@@ -134,6 +134,33 @@
         "likes": 338,
         "reposts": 51,
         "replies": 20
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068613336217063871",
+      "date": "2026-06-21",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "holds ~90%+ monopoly in glass fiber cloth but refuses to price hike T-Glass ASP meaningfully",
+        "could easily triple valuations with pricing power but Japanese culture prevents it"
+      ],
+      "is_risk": true,
+      "conviction": null,
+      "raw_mention": "Nittobo (3110)",
+      "text": "Nittobo (3110) is one of the most frustrating Japanese companies I've seen. They hold an monopoly in glass fiber cloth, like ~90%+ market share.\n\nBut refuse to price hike T-Glass ASP, beyond something small like 20-30%.\n\nCould easy triple company valuations if they followed $SNDK + NAND but just due to Japanese culture, they won't do it.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2068613336217063871",
+      "kind": "reply",
+      "engagement": {
+        "views": 6757,
+        "likes": 49,
+        "reposts": 0,
+        "replies": 8
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

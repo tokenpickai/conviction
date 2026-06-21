@@ -1,6 +1,6 @@
 {
   "core_label": "CPO / 矽光子架構裡的 InP CW DFB 雷射供應商",
-  "coverage_through": "2026-06-20",
+  "coverage_through": "2026-06-21",
   "final_takeaway": [
     "從 Serenity 的貼文來看，$SIVE 是她目前光子學供應鏈裡最高純度的 CPO / CW laser chokepoint bet。她真正押的是架構轉換：從 EML / current pluggable bottleneck，走向 silicon photonics、CPO、1.6T 與 external laser source 的新週期。",
     "這篇 thesis 目前已經有多個驗證節點，但真正的收入驗證仍在前方。對讀者來說，最重要的不是把每個合作都直接當成收入，而是觀察 Serenity 的核心問題是否被回答：Sivers 能不能從 laser supplier 變成下一代 photonics architecture 裡不可忽視的標準光源路徑？"
@@ -317,6 +317,27 @@
   "ticker": "SIVE",
   "title": "Serenity 眼中的 $SIVE：下一個 $LITE，還是 CPO 雷射瓶頸的核心入口？",
   "updates": [
+    {
+      "bullets": [
+        "立場仍偏多，而且新增資訊屬於 thesis validation。",
+        "Serenity 指出機構買盤與正式合作關係，降低了「只是敘事」的疑慮。",
+        "JBL / GFS 等合作訊號讓 $SIVE 從概念題材更接近供應鏈落地。",
+        "後續要觀察的是合作是否轉化為收入、毛利與持續訂單，而不是只停留在 partnership headline。"
+      ],
+      "date": "2026-06-21",
+      "generated_by": "scripts/apply_report_updates.py",
+      "importance": "high",
+      "label": "最新更新",
+      "source_tweet_ids": [
+        "2068651355422814294",
+        "2068603148311404902",
+        "2068655811434623149",
+        "2068657882036687294"
+      ],
+      "stance": "more_bullish",
+      "summary": "Serenity 最新貼文把 $SIVE 稱為她最成功的 idea 之一，並提到 Fidelity Research、JP Morgan 等 institutional buying，以及 JBL、GFS 等正式合作關係。這讓原本關於 silicon photonics / supply-chain validation 的 thesis 得到更強外部驗證。",
+      "title": "SIVE thesis 新增機構買盤與 JBL / GFS 合作驗證"
+    },
     {
       "bullets": [
         "立場仍偏多，而且新增資訊屬於 thesis validation。",

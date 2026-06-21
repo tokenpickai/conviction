@@ -1,5 +1,876 @@
 [
   {
+    "tweet_id": "2068657882036687294",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2068657882036687294",
+    "created_at": "Sun Jun 21 11:30:47 +0000 2026",
+    "text": "@jeongpark0509 No price target, but I like to keep in mind:\n\n$LITE went from 2.88B MC in 2024, to $67B MC in 2026.\n\nJust took 2 years and $SIVE is around the same starting point as Lumentum today.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 53,
+    "retweet_count": 2,
+    "reply_count": 12,
+    "quote_count": 0,
+    "view_count": 4715,
+    "bookmark_count": 9,
+    "conversation_id": "2068651355422814294",
+    "is_reply": true,
+    "in_reply_to_id": "2068652733586952325",
+    "in_reply_to_username": "jeongpark0509",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "jeongpark0509",
+          "id": "2060877815491211267"
+        }
+      ],
+      "cashtags": [
+        {
+          "start": 61,
+          "end": 66,
+          "tag": "LITE"
+        },
+        {
+          "start": 138,
+          "end": 143,
+          "tag": "SIVE"
+        }
+      ]
+    },
+    "cashtags": [
+      "LITE",
+      "SIVE"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2068655811434623149",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2068655811434623149",
+    "created_at": "Sun Jun 21 11:22:33 +0000 2026",
+    "text": "@eldan_0123 @CreatorNim Don’t think so. $JBL + $SIVE was known from OFC conference in person. \n\nBut it took an official PR for markets to know.\n\nIf there any release over the more higher confidence mapping to $NVDA cpo ecosystem, I’d expect it to rerate a lot more",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 29,
+    "retweet_count": 1,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 2716,
+    "bookmark_count": 1,
+    "conversation_id": "2068651355422814294",
+    "is_reply": true,
+    "in_reply_to_id": "2068654968538853852",
+    "in_reply_to_username": "eldan_0123",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 11,
+          "username": "eldan_0123",
+          "id": "2057876367056986112"
+        },
+        {
+          "start": 12,
+          "end": 23,
+          "username": "CreatorNim",
+          "id": "80451957"
+        }
+      ],
+      "cashtags": [
+        {
+          "start": 40,
+          "end": 44,
+          "tag": "JBL"
+        },
+        {
+          "start": 47,
+          "end": 52,
+          "tag": "SIVE"
+        },
+        {
+          "start": 209,
+          "end": 214,
+          "tag": "NVDA"
+        }
+      ]
+    },
+    "cashtags": [
+      "JBL",
+      "SIVE",
+      "NVDA"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2068654378198925505",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2068654378198925505",
+    "created_at": "Sun Jun 21 11:16:52 +0000 2026",
+    "text": "Mapping like\n\n- JP Morgan fireside conference for Jabil timelines + Quotes around 1.6T LRO\n\n- Sivers 2025 annual around $POET various press releases with $GFS and others.\n\n- Old investor customers decks mapped with different investment rounds of cpo startups at the time\n\nAll merged together into a thesis.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 47,
+    "retweet_count": 2,
+    "reply_count": 6,
+    "quote_count": 1,
+    "view_count": 6686,
+    "bookmark_count": 8,
+    "conversation_id": "2068651355422814294",
+    "is_reply": true,
+    "in_reply_to_id": "2068652489382240613",
+    "in_reply_to_username": "CreatorNim",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "start": 120,
+          "end": 125,
+          "tag": "POET"
+        },
+        {
+          "start": 154,
+          "end": 158,
+          "tag": "GFS"
+        }
+      ]
+    },
+    "cashtags": [
+      "POET",
+      "GFS"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2068651355422814294",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2068651355422814294",
+    "created_at": "Sun Jun 21 11:04:51 +0000 2026",
+    "text": "That’s a misconception:\n\n$SIVE is the laser supplier for next gen architectures, not just CPO scale up. \n\nPluggable, scale out CPO, scale up CPO, NPO, etc. \n\n- Sivers and $JBL went god-mode and developed 1.6T optical transceivers with CW lasers.\n\nEffectively designing around the EML bottlenecks, and even made things more power efficient. \n\nFrom quotes from Jabil management they created a “relatively dramatic moat”.\n\nSo for the next gen of 1.6T pluggable transceivers, Sivers seems immediately used.\n\nMarkets missed this nuance too: after Jabil’s announcement, other pluggable players reached out, and SIVE is working with them now (prob codevelopment, qualification stage).\n\nThere’s not too many players that build optical transceivers that aren’t vertically integrated like Lumentum (think: Innolight/eoptolink, and maybe others).\n\nSo these are active developments, just not public material yet and could be a new press release anytime.\n\n- for CPO scale out which happens H2 2026 onward like $POET, $SIVE is a laser supplier for those players.\n\n- scale up CPO is h2 2027, from Ayar and Nvidia’a NVLink CPO ecosystem and that’s the main volume ramp across optical players.\n\nBut this is where $SIVE looks like they mog every other player from supply chain mapping.\n\nSince they’ve likely been working + designed in with $MRVL Celestial, Lightmatter, Lightelligence and the others since they were small way back when.\n\nOn top of things like this:\n\nFor foundries like $GFS, $SIVE is the reference laser.\n\nNot even including massive companies like O-Net building ELS with $SIVE, likely for the Asian hyperscalers supply chains.\n\nThis is why $SIVE is by far my favorite laser chokepoint long.\n\nFeels like they’re everywhere in new optical architectures starting beginning of 2027.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 480,
+    "retweet_count": 44,
+    "reply_count": 126,
+    "quote_count": 8,
+    "view_count": 100817,
+    "bookmark_count": 149,
+    "conversation_id": "2068651355422814294",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2068611165832540541",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "start": 25,
+          "end": 30,
+          "tag": "SIVE"
+        },
+        {
+          "start": 171,
+          "end": 175,
+          "tag": "JBL"
+        },
+        {
+          "start": 997,
+          "end": 1002,
+          "tag": "POET"
+        },
+        {
+          "start": 1004,
+          "end": 1009,
+          "tag": "SIVE"
+        },
+        {
+          "start": 1196,
+          "end": 1201,
+          "tag": "SIVE"
+        },
+        {
+          "start": 1322,
+          "end": 1327,
+          "tag": "MRVL"
+        },
+        {
+          "start": 1468,
+          "end": 1472,
+          "tag": "GFS"
+        },
+        {
+          "start": 1474,
+          "end": 1479,
+          "tag": "SIVE"
+        },
+        {
+          "start": 1571,
+          "end": 1576,
+          "tag": "SIVE"
+        },
+        {
+          "start": 1640,
+          "end": 1645,
+          "tag": "SIVE"
+        }
+      ]
+    },
+    "cashtags": [
+      "SIVE",
+      "JBL",
+      "POET",
+      "SIVE",
+      "SIVE",
+      "MRVL",
+      "GFS",
+      "SIVE",
+      "SIVE",
+      "SIVE"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2068616131129270289",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2068616131129270289",
+    "created_at": "Sun Jun 21 08:44:53 +0000 2026",
+    "text": "We're in a massive EML bottleneck right now and CW lasers are getting bottlenecked now too. \n\nTo my knowledge, $COHR is buying EMLs off $LITE because they can't make enough. \n\n$LITE is majority allocated to EML, so they can't make enough CW lasers. \n\nSo they're buying CW lasers off competitors from their ER transcript, (probably Sumitomo, Furukawa and others), which likely feeds into $NVDA contracts. \n\nThen $AMD and your hyperscalers need capacity too but we're already in a shortage. \n\nAny capacity that comes online would likely be bought, since looks like we're in a shortage for next few years (lumentum already sold out into 2028).  \n\nNot quite the same as your sk hynix/samsung/micron memory dynamic but there's still a massive moat with EML with probably only single digit amounts of players able to do this.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 49,
+    "retweet_count": 3,
+    "reply_count": 4,
+    "quote_count": 3,
+    "view_count": 9024,
+    "bookmark_count": 26,
+    "conversation_id": "2068603148311404902",
+    "is_reply": true,
+    "in_reply_to_id": "2068610218481570007",
+    "in_reply_to_username": "HawkChainETH",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "start": 111,
+          "end": 116,
+          "tag": "COHR"
+        },
+        {
+          "start": 136,
+          "end": 141,
+          "tag": "LITE"
+        },
+        {
+          "start": 176,
+          "end": 181,
+          "tag": "LITE"
+        },
+        {
+          "start": 387,
+          "end": 392,
+          "tag": "NVDA"
+        },
+        {
+          "start": 411,
+          "end": 415,
+          "tag": "AMD"
+        }
+      ]
+    },
+    "cashtags": [
+      "COHR",
+      "LITE",
+      "LITE",
+      "NVDA",
+      "AMD"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2068613336217063871",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2068613336217063871",
+    "created_at": "Sun Jun 21 08:33:46 +0000 2026",
+    "text": "Nittobo (3110) is one of the most frustrating Japanese companies I've seen. They hold an monopoly in glass fiber cloth, like ~90%+ market share.\n\nBut refuse to price hike T-Glass ASP, beyond something small like 20-30%.\n\nCould easy triple company valuations if they followed $SNDK + NAND but just due to Japanese culture, they won't do it.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 49,
+    "retweet_count": 0,
+    "reply_count": 8,
+    "quote_count": 0,
+    "view_count": 6757,
+    "bookmark_count": 10,
+    "conversation_id": "2068603148311404902",
+    "is_reply": true,
+    "in_reply_to_id": "2068607307131564056",
+    "in_reply_to_username": "padredelaverde2",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "start": 275,
+          "end": 280,
+          "tag": "SNDK"
+        }
+      ]
+    },
+    "cashtags": [
+      "SNDK"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2068612102928154844",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2068612102928154844",
+    "created_at": "Sun Jun 21 08:28:52 +0000 2026",
+    "text": "Korea is far behind with lasers. Maybe like 1 1/2 years if I had to guess. \n\nWhich is why OE Solutions is the very first/only to produce 100G EML in Korea AFAIK. \n\nUS ($LITE, $COHR) / Japan (Sumitomo, etc). dominates EML lasers. China has now kinda caught up. \n\nUS/Sweden/Japan dominates CW DFB IP. \n\nBut people are rightly saying a few in the world can do this, and the 100G EML IP/process is valuable.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 39,
+    "retweet_count": 1,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 5998,
+    "bookmark_count": 8,
+    "conversation_id": "2068603148311404902",
+    "is_reply": true,
+    "in_reply_to_id": "2068604170702307435",
+    "in_reply_to_username": "AsteroidLabsX",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "start": 175,
+          "end": 180,
+          "tag": "COHR"
+        }
+      ]
+    },
+    "cashtags": [
+      "COHR"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2068608505679151556",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2068608505679151556",
+    "created_at": "Sun Jun 21 08:14:35 +0000 2026",
+    "text": "@Beyucu88 光迅科技 (https://t.co/YLWS3Dq98d) and 东山精密 (https://t.co/NBKJVrwXqu)",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zh",
+    "like_count": 65,
+    "retweet_count": 5,
+    "reply_count": 20,
+    "quote_count": 2,
+    "view_count": 10085,
+    "bookmark_count": 20,
+    "conversation_id": "2068603148311404902",
+    "is_reply": true,
+    "in_reply_to_id": "2068603446669009036",
+    "in_reply_to_username": "Beyucu88",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "start": 16,
+          "end": 39,
+          "url": "https://t.co/YLWS3Dq98d",
+          "expanded_url": "http://002281.SZ",
+          "display_url": "002281.SZ",
+          "unwound_url": "http://002281.SZ"
+        },
+        {
+          "start": 51,
+          "end": 74,
+          "url": "https://t.co/NBKJVrwXqu",
+          "expanded_url": "http://002384.SZ",
+          "display_url": "002384.SZ",
+          "unwound_url": "http://002384.SZ"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 0,
+          "end": 9,
+          "username": "Beyucu88",
+          "id": "2039935762213531648"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2068605586070188241",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2068605586070188241",
+    "created_at": "Sun Jun 21 08:02:59 +0000 2026",
+    "text": "@MichaelIsOnFire Thanks! Yeah I'm not a fan of paywalling/selling research to institutions. \n\nJust prefer to share my thoughts for free to people who want to spend the time and read it.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 67,
+    "retweet_count": 1,
+    "reply_count": 11,
+    "quote_count": 0,
+    "view_count": 5996,
+    "bookmark_count": 0,
+    "conversation_id": "2068603148311404902",
+    "is_reply": true,
+    "in_reply_to_id": "2068604533031284800",
+    "in_reply_to_username": "MichaelIsOnFire",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 16,
+          "username": "MichaelIsOnFire",
+          "id": "27911816"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2068603148311404902",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2068603148311404902",
+    "created_at": "Sun Jun 21 07:53:18 +0000 2026",
+    "text": "I've been getting a lot of questions about OE Solutions (138080) recently. \n\nHere's my research/thoughts so far on it: \n\nThey're a small Korean optical transceiver company, similar to $AAOI. \n\nAnd they've become one the few EML players in the world (eg. $COHR, $LITE, Mitsubishi, Source, Sumitomo), with scarce 100G EML laser capacity for 800G/1.6T. \n\nOE appears to be trying to make the full transceiver, not just the EML. They also have finished ELSFP CPO products, with UHP  CW lasers, which is sampling Q3. \n\nLikewise, OE also seems to be building out the full ELSFP, rather than selling CW laser dies, so that's more market share. \n\nSo you can think of it as Korean AAOI but EML instead of CW, and less capacity/qualifications. And playing catch-up to the rest of the world. \n\nHowever in terms of timelines:\n\n1. 23dBm cooled ELSFP samples start in Q3 2026\n2. Sales base for 800G, and 2027 1.6T \"full force\"\n3. Late H2 2027, H1 2028 onward probably their ELSFP enters the volume production. \n\nAnd it seems they're working on 200G EML capability from their investor snipper 2025 OE IR snippet referenced “100GBaud EML / 200G PAM\". This seems promising given their IP/demos.\n\nELS has just been unveiled recently, sampling starts Q3. 800G/1.6T Optical transceivers are also likely 2027.\n\nSo this is basically Korea's sovereign photonics player, playing catchup to $LITE, $AAOI, and the bigger players.\n\n(Disclosure: I have positions in OE Solutions (138080). This is fundamental research for informational purposes, not financial advice).\n\nAs for OE solution valuations: \n\n1.  Doesn't seem like there's confirmed customers yet for these growth verticals. \n2. Probably not many people understood what they're building toward yet. \n3. Yields data kinda uncertain\n\n1. Customers: We're actually in a major EML/CW laser shortage, so any independent capacity will be sought after. I personally don't think they'll have a hard time finding customers here. I would assume anything they make might get bought out and would get extra support from Korea. \n\n2. Institutional support: Probably not much since it doesn't meet threshold for many US institution given MC size + KR listing. I also don't think many people understood what they're building yet. \n\n3. Yields/Capacity: OE's disclosed wafer/module utilization is low (i remember was around 31% underutilized off the top of my head), so there's enough material revenue they can generate before they need to spend on capex. \n\nI'm also not sure about EML/CW and other yields. Probably need to go ask the company. \n\nIs this some random crap co? No. It's been doing optical transceivers stuff for more than 20Y, has R&D in the U.S. and Netherlands. \n\nBut their entire AI growth vertical seems to happen next year, and hinges mainly around capacity/yields.\n\nAnd I personally think the EML/CW tech is probably worth a lot more than their current MC, if it were an acquisition target. \n\nEspecially from  a larger player that wanted to vertically integrate EML for pluggables and CW lasers for CPO. \n\nMarkets are probably waiting on more certainty around qualifications after Q3 sampling or earnings projections announcements.  \n\nTLDR on thoughts:\n\nSome of my friends discussed this last year, was probably way too early. Saw it got many comments 2 months ago, still too early. \n\nI still think now is early, but later in Q3-Q4 might be more interesting. I personally think it's a lot higher risk than a major CPO player like $SIVE, that's embedded in Ayar, $JBL, $GFS, and many other hyperscaler suppliers. Which also has Win Semi and others de-risking volume ramp. \n\nAs OE Solutions looks like a new player trying to build out an $AAOI for the optical transceivers but sovereign EML and CW laser production for CPO products. \n\nAnd there's a lot of answered questions around customers + volume ramp, which presents material risk. \n\nBut if you believe Korea can build out an 800G/1.6T transceiver EML supply chain and ELSFP with CW lasers. \n\nWith OE Solutions, it might be worth taking a look into. Still researching the company tho, just initial thoughts.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 611,
+    "retweet_count": 44,
+    "reply_count": 140,
+    "quote_count": 11,
+    "view_count": 224796,
+    "bookmark_count": 338,
+    "conversation_id": "2068603148311404902",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2066718742231343411",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "start": 184,
+          "end": 189,
+          "tag": "AAOI"
+        },
+        {
+          "start": 254,
+          "end": 259,
+          "tag": "COHR"
+        },
+        {
+          "start": 261,
+          "end": 266,
+          "tag": "LITE"
+        },
+        {
+          "start": 1365,
+          "end": 1370,
+          "tag": "LITE"
+        },
+        {
+          "start": 1372,
+          "end": 1377,
+          "tag": "AAOI"
+        },
+        {
+          "start": 3462,
+          "end": 3467,
+          "tag": "SIVE"
+        },
+        {
+          "start": 3494,
+          "end": 3498,
+          "tag": "JBL"
+        },
+        {
+          "start": 3500,
+          "end": 3504,
+          "tag": "GFS"
+        },
+        {
+          "start": 3668,
+          "end": 3673,
+          "tag": "AAOI"
+        }
+      ]
+    },
+    "cashtags": [
+      "AAOI",
+      "COHR",
+      "LITE",
+      "LITE",
+      "AAOI",
+      "SIVE",
+      "JBL",
+      "GFS",
+      "AAOI"
+    ],
+    "media": [
+      {
+        "media_key": "3_2068594842159267840",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HLUgDI8bwAANZt6.jpg",
+        "width": 1975,
+        "height": 1084,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2068579389722546529",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2068579389722546529",
+    "created_at": "Sun Jun 21 06:18:53 +0000 2026",
+    "text": "Apparently gym bros are the new hyperscalers.\n\nThey’ve created a new bottleneck with whey protein?\n\nNow there’s $SNDK style price hikes.\n\nMaybe creatine is next with shortages. https://t.co/YY5waMXzKH",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1323,
+    "retweet_count": 54,
+    "reply_count": 214,
+    "quote_count": 29,
+    "view_count": 224785,
+    "bookmark_count": 272,
+    "conversation_id": "2068579389722546529",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "start": 177,
+          "end": 200,
+          "url": "https://t.co/YY5waMXzKH",
+          "expanded_url": "https://x.com/aleabitoreddit/status/2068579389722546529/photo/1",
+          "display_url": "pic.x.com/YY5waMXzKH",
+          "media_key": "3_2068579377361895424"
+        }
+      ],
+      "cashtags": [
+        {
+          "start": 112,
+          "end": 117,
+          "tag": "SNDK"
+        }
+      ]
+    },
+    "cashtags": [
+      "SNDK"
+    ],
+    "media": [
+      {
+        "media_key": "3_2068579377361895424",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HLUR--FawAAyCi5.jpg",
+        "width": 1105,
+        "height": 1183,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2068568996878926274",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2068568996878926274",
+    "created_at": "Sun Jun 21 05:37:35 +0000 2026",
+    "text": "@yi_ji45961 I’m confused how I can have this in bio, “I only use X”.\n\nThen people still think fake outside accounts are me.\n\nAlso $HOOD doesn’t even support EU/TW assets obviously a scam. https://t.co/WDWj5RVZKb",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 72,
+    "retweet_count": 1,
+    "reply_count": 14,
+    "quote_count": 0,
+    "view_count": 7723,
+    "bookmark_count": 0,
+    "conversation_id": "2068567767951749467",
+    "is_reply": true,
+    "in_reply_to_id": "2068568080326996337",
+    "in_reply_to_username": "yi_ji45961",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "start": 188,
+          "end": 211,
+          "url": "https://t.co/WDWj5RVZKb",
+          "expanded_url": "https://x.com/aleabitoreddit/status/2068568996878926274/photo/1",
+          "display_url": "pic.x.com/WDWj5RVZKb",
+          "media_key": "3_2068568989442478080"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 0,
+          "end": 11,
+          "username": "yi_ji45961",
+          "id": "1883175879268081665"
+        }
+      ],
+      "cashtags": [
+        {
+          "start": 130,
+          "end": 135,
+          "tag": "HOOD"
+        }
+      ]
+    },
+    "cashtags": [
+      "HOOD"
+    ],
+    "media": [
+      {
+        "media_key": "3_2068568989442478080",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HLUIiUEbkAAS5Re.jpg",
+        "width": 887,
+        "height": 327,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2068567767951749467",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2068567767951749467",
+    "created_at": "Sun Jun 21 05:32:42 +0000 2026",
+    "text": "Well, looks like prediction markets are about to get a ton of extra regulatory scrutiny.\n\nThey should also investigate how Polymarket pays influencers for undisclosed paid comments to game the X algorithm.\n\nI get offered deals like this all the time as the most subscribed to person on X.\n\nBut as you know, I don’t do paid promotions since I want my research to be without outside influence.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 670,
+    "retweet_count": 24,
+    "reply_count": 152,
+    "quote_count": 6,
+    "view_count": 106996,
+    "bookmark_count": 46,
+    "conversation_id": "2068567767951749467",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "start": 276,
+          "end": 299,
+          "url": "https://t.co/haEr6vjvB0",
+          "expanded_url": "https://x.com/aleabitoreddit/status/2068567767951749467/photo/1",
+          "display_url": "pic.x.com/haEr6vjvB0",
+          "media_key": "3_2068567752504401920"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2068567752504401920",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HLUHaUHaYAAFkoG.jpg",
+        "width": 1243,
+        "height": 917,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2068542471127327017",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2068542471127327017",
+    "created_at": "Sun Jun 21 03:52:11 +0000 2026",
+    "text": "I think after the “Made in America” push with tariffs didn’t turn out too well, but it’s the right direction.\n\nSince administration probably learned how things in America can’t be built without EU/Asia allies. \n\nAnd how even Canada holds a ton of cards from transformers to rare earths.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 115,
+    "retweet_count": 1,
+    "reply_count": 9,
+    "quote_count": 0,
+    "view_count": 19198,
+    "bookmark_count": 9,
+    "conversation_id": "2068537478131118438",
+    "is_reply": true,
+    "in_reply_to_id": "2068541202262306938",
+    "in_reply_to_username": "beauty_oe",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 10,
+          "username": "beauty_oe",
+          "id": "1350097978652991488"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2068541545729642895",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2068541545729642895",
+    "created_at": "Sun Jun 21 03:48:30 +0000 2026",
+    "text": "@soulbiri1 Tbh department of commerce should hire me as an advisor, I’d have a fun time sharing ideas for free.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 158,
+    "retweet_count": 1,
+    "reply_count": 15,
+    "quote_count": 0,
+    "view_count": 17819,
+    "bookmark_count": 1,
+    "conversation_id": "2068537478131118438",
+    "is_reply": true,
+    "in_reply_to_id": "2068538640264056848",
+    "in_reply_to_username": "soulbiri1",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 10,
+          "username": "soulbiri1",
+          "id": "1966602777263800320"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2068537478131118438",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2068537478131118438",
+    "created_at": "Sun Jun 21 03:32:21 +0000 2026",
+    "text": "Trump administration is prob realizing now that the key to winning Trade Wars:\n\nIs through frontier supply chains like Quantum, AI, Robotics.\n\nNot cheap Nike sock exports.\n\nWith $ASML, $TOWA, $LPK, Ajinomoto,  \nover in Japan, EU, TW, Korea, and others holding all the cards…\n\nSince each country holds different monopolies and chokepoints needed to make each industry work.\n\nWhich all happens to be OUTSIDE the US.\n\nTariffing all our partners turned out to be not a great idea. \n\nBut not too late imo to repair relations and weaponize global supply chains through partners if Trump wants better trade deals.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1361,
+    "retweet_count": 79,
+    "reply_count": 171,
+    "quote_count": 15,
+    "view_count": 231917,
+    "bookmark_count": 376,
+    "conversation_id": "2068537478131118438",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "start": 178,
+          "end": 183,
+          "tag": "ASML"
+        },
+        {
+          "start": 185,
+          "end": 190,
+          "tag": "TOWA"
+        },
+        {
+          "start": 192,
+          "end": 196,
+          "tag": "LPK"
+        }
+      ]
+    },
+    "cashtags": [
+      "ASML",
+      "TOWA",
+      "LPK"
+    ],
+    "media": []
+  },
+  {
     "tweet_id": "2068301039946887269",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2068301039946887269",

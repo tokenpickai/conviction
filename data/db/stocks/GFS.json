@@ -9,8 +9,8 @@
   "industry": "Semiconductor Foundry",
   "thesis_summary": null,
   "first_mention": "2026-01-19",
-  "last_mention": "2026-06-20",
-  "total_mentions": 53,
+  "last_mention": "2026-06-21",
+  "total_mentions": 56,
   "mentions": [
     {
       "tweet_id": "2013376770121105710",
@@ -1316,6 +1316,87 @@
         "likes": 1323,
         "reposts": 61,
         "replies": 169
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068603148311404902",
+      "date": "2026-06-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$GFS",
+      "text": "I've been getting a lot of questions about OE Solutions (138080) recently. \n\nHere's my research/thoughts so far on it: \n\nThey're a small Korean optical transceiver company, similar to $AAOI. \n\nAnd they've become one the few EML players in the world (eg. $COHR, $LITE, Mitsubishi, Source, Sumitomo), with scarce 100G EML laser capacity for 800G/1.6T. \n\nOE appears to be trying to make the full transceiver, not just the EML. They also have finished ELSFP CPO products, with UHP  CW lasers, which is sampling Q3. \n\nLikewise, OE also seems to be building out the full ELSFP, rather than selling CW laser dies, so that's more market share. \n\nSo you can think of it as Korean AAOI but EML instead of CW, and less capacity/qualifications. And playing catch-up to the rest of the world. \n\nHowever in terms of timelines:\n\n1. 23dBm cooled ELSFP samples start in Q3 2026\n2. Sales base for 800G, and 2027 1.6T \"full force\"\n3. Late H2 2027, H1 2028 onward probably their ELSFP enters the volume production. \n\nAnd it seems they're working on 200G EML capability from their investor snipper 2025 OE IR snippet referenced “100GBaud EML / 200G PAM\". This seems promising given their IP/demos.\n\nELS has just been unveiled recently, sampling starts Q3. 800G/1.6T Optical transceivers are also likely 2027.\n\nSo this is basically Korea's sovereign photonics player, playing catchup to $LITE, $AAOI, and the bigger players.\n\n(Disclosure: I have positions in OE Solutions (138080). This is fundamental research for informational purposes, not financial advice).\n\nAs for OE solution valuations: \n\n1.  Doesn't seem like there's confirmed customers yet for these growth verticals. \n2. Probably not many people understood what they're building toward yet. \n3. Yields data kinda uncertain\n\n1. Customers: We're actually in a major EML/CW laser shortage, so any independent capacity will be sought after. I personally don't think they'll have a hard time finding customers here. I would assume anything they make might get bought out and would get extra support from Korea. \n\n2. Institutional support: Probably not much since it doesn't meet threshold for many US institution given MC size + KR listing. I also don't think many people understood what they're building yet. \n\n3. Yields/Capacity: OE's disclosed wafer/module utilization is low (i remember was around 31% underutilized off the top of my head), so there's enough material revenue they can generate before they need to spend on capex. \n\nI'm also not sure about EML/CW and other yields. Probably need to go ask the company. \n\nIs this some random crap co? No. It's been doing optical transceivers stuff for more than 20Y, has R&D in the U.S. and Netherlands. \n\nBut their entire AI growth vertical seems to happen next year, and hinges mainly around capacity/yields.\n\nAnd I personally think the EML/CW tech is probably worth a lot more than their current MC, if it were an acquisition target. \n\nEspecially from  a larger player that wanted to vertically integrate EML for pluggables and CW lasers for CPO. \n\nMarkets are probably waiting on more certainty around qualifications after Q3 sampling or earnings projections announcements.  \n\nTLDR on thoughts:\n\nSome of my friends discussed this last year, was probably way too early. Saw it got many comments 2 months ago, still too early. \n\nI still think now is early, but later in Q3-Q4 might be more interesting. I personally think it's a lot higher risk than a major CPO player like $SIVE, that's embedded in Ayar, $JBL, $GFS, and many other hyperscaler suppliers. Which also has Win Semi and others de-risking volume ramp. \n\nAs OE Solutions looks like a new player trying to build out an $AAOI for the optical transceivers but sovereign EML and CW laser production for CPO products. \n\nAnd there's a lot of answered questions around customers + volume ramp, which presents material risk. \n\nBut if you believe Korea can build out an 800G/1.6T transceiver EML supply chain and ELSFP with CW lasers. \n\nWith OE Solutions, it might be worth taking a look into. Still researching the company tho, just initial thoughts.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2068594842159267840",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLUgDI8bwAANZt6.jpg",
+          "width": 1975,
+          "height": 1084,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2068603148311404902",
+      "kind": "post",
+      "engagement": {
+        "views": 224796,
+        "likes": 611,
+        "reposts": 44,
+        "replies": 140
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068651355422814294",
+      "date": "2026-06-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$GFS",
+      "text": "That’s a misconception:\n\n$SIVE is the laser supplier for next gen architectures, not just CPO scale up. \n\nPluggable, scale out CPO, scale up CPO, NPO, etc. \n\n- Sivers and $JBL went god-mode and developed 1.6T optical transceivers with CW lasers.\n\nEffectively designing around the EML bottlenecks, and even made things more power efficient. \n\nFrom quotes from Jabil management they created a “relatively dramatic moat”.\n\nSo for the next gen of 1.6T pluggable transceivers, Sivers seems immediately used.\n\nMarkets missed this nuance too: after Jabil’s announcement, other pluggable players reached out, and SIVE is working with them now (prob codevelopment, qualification stage).\n\nThere’s not too many players that build optical transceivers that aren’t vertically integrated like Lumentum (think: Innolight/eoptolink, and maybe others).\n\nSo these are active developments, just not public material yet and could be a new press release anytime.\n\n- for CPO scale out which happens H2 2026 onward like $POET, $SIVE is a laser supplier for those players.\n\n- scale up CPO is h2 2027, from Ayar and Nvidia’a NVLink CPO ecosystem and that’s the main volume ramp across optical players.\n\nBut this is where $SIVE looks like they mog every other player from supply chain mapping.\n\nSince they’ve likely been working + designed in with $MRVL Celestial, Lightmatter, Lightelligence and the others since they were small way back when.\n\nOn top of things like this:\n\nFor foundries like $GFS, $SIVE is the reference laser.\n\nNot even including massive companies like O-Net building ELS with $SIVE, likely for the Asian hyperscalers supply chains.\n\nThis is why $SIVE is by far my favorite laser chokepoint long.\n\nFeels like they’re everywhere in new optical architectures starting beginning of 2027.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2068651355422814294",
+      "kind": "post",
+      "engagement": {
+        "views": 100817,
+        "likes": 480,
+        "reposts": 44,
+        "replies": 126
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068654378198925505",
+      "date": "2026-06-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$GFS",
+      "text": "Mapping like\n\n- JP Morgan fireside conference for Jabil timelines + Quotes around 1.6T LRO\n\n- Sivers 2025 annual around $POET various press releases with $GFS and others.\n\n- Old investor customers decks mapped with different investment rounds of cpo startups at the time\n\nAll merged together into a thesis.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2068654378198925505",
+      "kind": "reply",
+      "engagement": {
+        "views": 6686,
+        "likes": 47,
+        "reposts": 2,
+        "replies": 6
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"

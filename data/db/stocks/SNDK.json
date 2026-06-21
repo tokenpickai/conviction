@@ -9,8 +9,8 @@
   "industry": "Memory",
   "thesis_summary": "他看好 SanDisk 的存储周期上行。",
   "first_mention": "2025-11-25",
-  "last_mention": "2026-06-19",
-  "total_mentions": 149,
+  "last_mention": "2026-06-21",
+  "total_mentions": 151,
   "mentions": [
     {
       "tweet_id": "1993283099162189962",
@@ -3782,6 +3782,63 @@
         "likes": 17,
         "reposts": 0,
         "replies": 3
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068579389722546529",
+      "date": "2026-06-21",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "Apparently gym bros are the new hyperscalers.\n\nThey’ve created a new bottleneck with whey protein?\n\nNow there’s $SNDK style price hikes.\n\nMaybe creatine is next with shortages. https://t.co/YY5waMXzKH",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2068579377361895424",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLUR--FawAAyCi5.jpg",
+          "width": 1105,
+          "height": 1183,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/aleabitoreddit/status/2068579389722546529",
+      "kind": "post",
+      "engagement": {
+        "views": 224785,
+        "likes": 1323,
+        "reposts": 54,
+        "replies": 214
+      },
+      "extractor_model": "claude-opus-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068613336217063871",
+      "date": "2026-06-21",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "Nittobo (3110) is one of the most frustrating Japanese companies I've seen. They hold an monopoly in glass fiber cloth, like ~90%+ market share.\n\nBut refuse to price hike T-Glass ASP, beyond something small like 20-30%.\n\nCould easy triple company valuations if they followed $SNDK + NAND but just due to Japanese culture, they won't do it.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/aleabitoreddit/status/2068613336217063871",
+      "kind": "reply",
+      "engagement": {
+        "views": 6757,
+        "likes": 49,
+        "reposts": 0,
+        "replies": 8
       },
       "extractor_model": "claude-opus-4-6",
       "prompt_version": "extract-v2"
