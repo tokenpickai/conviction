@@ -905,8 +905,9 @@ SHARED_CSS='''<style>
 .memo-hero b{display:block;font-family:var(--mono);font-size:27px;line-height:1.1;color:var(--ink);margin-top:5px}
 .memo-hero em{display:block;font-style:normal;font-size:12px;color:var(--ink-soft);margin-top:2px}
 .memo-updates{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.memo-update{position:relative;border:1px solid rgba(31,92,77,.22);border-left:4px solid var(--accent);border-radius:8px;background:linear-gradient(90deg,rgba(31,92,77,.08),var(--card) 58%);padding:14px 16px;cursor:pointer;box-shadow:0 10px 24px -24px rgba(31,92,77,.65)}
-.memo-update:hover,.memo-card:hover,.memo-candidate:hover{border-color:rgba(31,92,77,.32);box-shadow:0 10px 24px -22px rgba(31,92,77,.65)}
+.memo-update{position:relative;border:1px solid rgba(31,92,77,.22);border-left:4px solid var(--accent);border-radius:8px;background:linear-gradient(90deg,rgba(31,92,77,.08),var(--card) 58%);padding:14px 16px;cursor:pointer;box-shadow:0 10px 24px -24px rgba(31,92,77,.65);transition:border-color .16s ease,box-shadow .16s ease,transform .16s ease,background .16s ease}
+.memo-update:hover{transform:translateY(-2px);border-color:rgba(31,92,77,.46);border-left-color:#17483c;background:linear-gradient(90deg,rgba(31,92,77,.16),rgba(31,92,77,.055) 46%,var(--card) 100%);box-shadow:0 18px 34px -24px rgba(31,92,77,.95)}
+.memo-card:hover,.memo-candidate:hover{border-color:rgba(31,92,77,.32);box-shadow:0 10px 24px -22px rgba(31,92,77,.65)}
 .memo-update-k{font-family:var(--mono);font-size:10.5px;font-weight:800;color:var(--accent);letter-spacing:.02em;display:flex;align-items:center;gap:6px;margin-bottom:8px}
 .memo-update-t,.memo-ticker{font-family:var(--mono);font-weight:800;color:var(--ink);display:flex;align-items:center;gap:4px;flex-wrap:wrap;line-height:1.45}
 .memo-update h3,.memo-card h3,.memo-candidate h3{font-family:var(--serif);font-size:16px;font-weight:900;line-height:1.32;color:var(--ink);margin:7px 0 6px}
