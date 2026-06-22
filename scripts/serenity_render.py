@@ -906,7 +906,7 @@ SHARED_CSS='''<style>
 .memo-hero em{display:block;font-style:normal;font-size:12px;color:var(--ink-soft);margin-top:2px}
 .memo-updates{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .memo-update{position:relative;border:1px solid rgba(31,92,77,.22);border-left:4px solid var(--accent);border-radius:8px;background:linear-gradient(90deg,rgba(31,92,77,.08),var(--card) 58%);padding:14px 16px;cursor:pointer;box-shadow:0 10px 24px -24px rgba(31,92,77,.65)}
-.memo-update:hover,.memo-card:hover,.memo-candidate:hover{border-color:rgba(29,155,240,.28);box-shadow:0 10px 24px -22px rgba(0,0,0,.35)}
+.memo-update:hover,.memo-card:hover,.memo-candidate:hover{border-color:rgba(31,92,77,.32);box-shadow:0 10px 24px -22px rgba(31,92,77,.65)}
 .memo-update-k{font-family:var(--mono);font-size:10.5px;font-weight:800;color:var(--accent);letter-spacing:.02em;display:flex;align-items:center;gap:6px;margin-bottom:8px}
 .memo-update-t,.memo-ticker{font-family:var(--mono);font-weight:800;color:var(--ink);display:flex;align-items:center;gap:4px;flex-wrap:wrap;line-height:1.45}
 .memo-update h3,.memo-card h3,.memo-candidate h3{font-family:var(--serif);font-size:16px;font-weight:900;line-height:1.32;color:var(--ink);margin:7px 0 6px}
@@ -1218,7 +1218,7 @@ html{scroll-behavior:smooth}
 .ddhead{display:block;padding-bottom:0;margin-bottom:0}
 .ddhl{min-width:0;max-width:980px}
 .ddhome{display:inline-flex;align-items:center;gap:6px;margin-bottom:12px;border:1px solid var(--line);background:transparent;color:var(--ink-faint);border-radius:999px;padding:5px 9px;font-size:12px;text-decoration:none;cursor:pointer}
-.ddhome:hover{color:var(--accent);border-color:rgba(29,155,240,.28);background:rgba(29,155,240,.05)}
+.ddhome:hover{color:var(--accent);border-color:rgba(31,92,77,.28);background:var(--accent-soft)}
 .ddhome i{font-size:11px}
 .ddtk{font-family:var(--mono);font-weight:800;font-size:30px;color:var(--ink);line-height:1.05;display:flex;align-items:center;flex-wrap:wrap;gap:7px 8px}
 .ddtk .market.detail,.ddtk .theme.detail{margin-left:0;transform:none}
@@ -1235,7 +1235,7 @@ html{scroll-behavior:smooth}
 .ddrel{margin:20px 0 18px;padding:0 0 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:8px;flex-wrap:wrap;color:var(--ink-faint);font-size:12px}
 .ddrel-label{font-family:var(--mono);font-size:10.5px;font-weight:800;color:var(--ink-soft);letter-spacing:.02em}
 .ddrel button{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink-soft);font-family:var(--mono);font-size:11px;font-weight:800;padding:5px 9px;cursor:pointer}
-.ddrel button:hover{border-color:rgba(29,155,240,.32);background:rgba(29,155,240,.06);color:var(--accent)}
+.ddrel button:hover{border-color:rgba(31,92,77,.32);background:var(--accent-soft);color:var(--accent)}
 .ddrel .mini-market{font-size:8.5px;font-weight:800;color:var(--ink-faint);border:1px solid var(--line);border-radius:999px;padding:0 4px;line-height:1.35}
 @media(max-width:600px){
   .ddhead{padding-bottom:4px}
