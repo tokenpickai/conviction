@@ -1238,6 +1238,10 @@ html{scroll-behavior:smooth}
 .ddrel button{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink-soft);font-family:var(--mono);font-size:11px;font-weight:800;padding:5px 9px;cursor:pointer}
 .ddrel button:hover{border-color:rgba(31,92,77,.32);background:var(--accent-soft);color:var(--accent)}
 .ddrel .mini-market{font-size:8.5px;font-weight:800;color:var(--ink-faint);border:1px solid var(--line);border-radius:999px;padding:0 4px;line-height:1.35}
+.ddrel .mini-memo{font-size:8.5px;font-weight:850;color:var(--accent);border:1px solid rgba(31,92,77,.24);background:var(--accent-soft);border-radius:999px;padding:0 5px;line-height:1.35}
+.ddmemo-missing{margin:18px 0 16px;border:1px dashed rgba(31,92,77,.28);border-radius:8px;background:rgba(31,92,77,.035);padding:14px 16px;color:var(--ink-soft)}
+.ddmemo-missing b{display:flex;align-items:center;gap:7px;color:var(--ink);font-size:14px;margin-bottom:5px}
+.ddmemo-missing p{font-size:12.5px;line-height:1.65;margin:0}
 @media(max-width:600px){
   .ddhead{padding-bottom:4px}
   .ddhome{margin-bottom:10px;padding:5px 8px}
@@ -1727,8 +1731,13 @@ function renderDD(tk){
     }).sort(function(a,b){return b.score-a.score;}).slice(0,7);
     if(!pool.length)return '';
     return '<div class="ddrel"><span class="ddrel-label">'+(zh?'相關標的':'Related')+'</span>'+pool.map(function(o){
-      return '<button type="button" onclick="dd(\\''+o.s+'\\')" title="'+esc(o.x.co||o.s)+'">'+o.s+'<span class="mini-market">'+esc(o.x.market||'')+'</span></button>';
+      var memo=o.x.report?'<span class="mini-memo">論點</span>':'';
+      return '<button type="button" onclick="dd(\\''+o.s+'\\')" title="'+esc(o.x.co||o.s)+'">'+o.s+'<span class="mini-market">'+esc(o.x.market||'')+'</span>'+memo+'</button>';
     }).join('')+'</div>';
+  }
+  function missingReportHtml(){
+    if(d.report)return '';
+    return '<div class="ddmemo-missing"><b><i class="fa-regular fa-file-lines"></i>尚未整理完整投資論點</b><p>目前先保留 Serenity 的貼文、看多理由、風險與價格路徑；若訊號累積足夠，會整理成完整投資論點。</p></div>';
   }
   var firstPxTxt=d.firstPx?((d.cur?d.cur+' ':'')+d.firstPx):'—';
   var _ps=d.posts,_latest=_ps.length?_ps[0].d:null,_head=_ps.filter(function(p){return p.d===_latest;}),_rest=_ps.filter(function(p){return p.d!==_latest;});
@@ -1739,6 +1748,7 @@ function renderDD(tk){
     '<div class="ddmeta"><span class="ddmi"><i>'+(zh?Z.first:I18N.dd_first_mention)+'</i><b>'+d.first+'</b></span><span class="ddmi"><i>'+(zh?Z.last:I18N.dd_last_mention)+'</i><b>'+d.last+'</b></span><span class="ddmi"><i>'+(zh?Z.total:I18N.dd_total)+'</i><b>'+d.total+(I18N.count_unit?' '+I18N.count_unit:'')+'</b></span><span class="ddmi"><i>'+(zh?Z.firstPx:I18N.dd_first_px)+'</i><b>'+firstPxTxt+'</b></span><span class="ddsplit">'+split+'</span><span class="ddfreq"><span class="fc"><i>'+(zh?Z.today:I18N.dd_today)+'</i><b>'+d.m_today+'</b></span><span class="fc"><i>'+I18N.freq_7d+'</i><b>'+d.m7+'</b></span><span class="fc"><i>'+I18N.freq_28d+'</i><b>'+d.m28+'</b></span></span></div></div>'+
     relatedHtml()+
     reportHtml(d.report,postMap,tk)+
+    missingReportHtml()+
     '<div class="charttitle"><h3>'+(zh?'$'+tk+' 自 Serenity 首次提及以來的股價走勢':'$'+tk+' price path since Serenity first mentioned it')+'</h3><p>'+(zh?'圓點標記 Serenity 發文，顏色代表立場。':'Dots mark Serenity posts by inferred stance.')+'</p></div>'+
     ddChart(d,zh)+
     '<div class="rcols"><div class="rpanel bull"><div class="rph"><span class="rpdot bull"></span>'+(zh?Z.bullCase:I18N.dd_reasons_bull)+'<span class="rpn">'+(zh?Z.newest:I18N.dd_newest_first)+'</span></div><ul class="rlist">'+mkR(d.reasonsBull,I18N.dd_no_bull,'bull')+'</ul></div><div class="rpanel bear"><div class="rph"><span class="rpdot bear"></span>'+(zh?Z.risks:I18N.dd_reasons_risk)+'<span class="rpn">'+(zh?Z.newest:I18N.dd_newest_first)+'</span></div><ul class="rlist">'+mkR(d.reasonsRisk,I18N.dd_no_risk,'bear')+'</ul></div></div>'+
