@@ -766,43 +766,60 @@ def reports_section():
     if not automation_next:
         automation_next=REPORT_QUEUE.get('next_reports') or []
     updates_due=REPORT_QUEUE.get('updates_due') or []
-    rows=[]
+    published=[]
+    updated=[]
     for s,report in sorted(REPORTS.items(), key=lambda kv:(kv[1].get('generated_at') or '', kv[0]), reverse=True):
         coverage=report.get('coverage_through') or '—'
         gen=(report.get('generated_at') or '')[:10] or '—'
         title=report.get('title') or co_of(s)
-        rows.append(
-            f'<tr onclick="dd(\'{s}\')"><td class="ops-tk">{s}{market_pill(s)}{theme_pill(s)}{report_update_pill(s)}</td>'
-            f'<td class="ops-title">{_h(title)}</td><td>{_h(coverage)}</td><td>{_h(gen)}</td></tr>'
+        updates=report.get('updates') or []
+        newest_update=updates[0] if updates else None
+        published.append(
+            f'<article class="memo-card" onclick="dd(\'{s}\')">'
+            f'<div class="memo-top"><div class="memo-ticker">{s}{market_pill(s)}{theme_pill(s)}</div>{report_update_pill(s)}</div>'
+            f'<h3>{_h(title)}</h3><p>{_h(report.get("subtitle") or report.get("core_label") or co_of(s))}</p>'
+            f'<div class="memo-meta"><span>覆蓋至 <b>{_h(coverage)}</b></span><span>生成日 <b>{_h(gen)}</b></span></div>'
+            f'</article>'
         )
-    qrows=[]
+        if newest_update:
+            updated.append((newest_update.get('date') or '', s, newest_update, report))
+    updated.sort(key=lambda x:(x[0], x[1]), reverse=True)
+    updated_cards=[]
+    for date,s,u,report in updated[:6]:
+        updated_cards.append(
+            f'<article class="memo-update" onclick="dd(\'{s}\')">'
+            f'<div class="memo-update-k"><i class="fa-solid fa-file-lines"></i>{_h(date or "—")}</div>'
+            f'<div class="memo-update-t">{s}{market_pill(s)}{theme_pill(s)}</div>'
+            f'<h3>{_h(u.get("title") or report.get("title") or co_of(s))}</h3>'
+            f'<p>{_h(u.get("summary") or report.get("subtitle") or "")}</p>'
+            f'</article>'
+        )
+    candidate_cards=[]
     for item in automation_next[:10]:
         s=(item.get('ticker') or '').upper()
-        action=item.get('action') or ('write_new_thesis' if item.get('status')=='needs_report' else 'watch_for_more_signal')
-        label=item.get('public_label') or ('撰寫新投資論點' if action=='write_new_thesis' else '觀察更多訊號')
         reason=_decision_reason(item)
-        qrows.append(
-            f'<tr onclick="dd(\'{s}\')"><td class="ops-tk">{_h(s)}{market_pill(s)}{theme_pill(s)}</td>'
-            f'<td><span class="ops-action {_decision_action_class(action)}">{_h(label)}</span></td>'
-            f'<td class="ops-title"><b>{_h(item.get("company") or co_of(s))}</b><span>{_h(reason)}</span></td>'
-            f'<td>{_h(item.get("last_mention") or "—")}</td></tr>'
+        candidate_cards.append(
+            f'<article class="memo-candidate" onclick="dd(\'{s}\')">'
+            f'<div class="memo-ticker">{_h(s)}{market_pill(s)}{theme_pill(s)}</div>'
+            f'<h3>{_h(item.get("company") or co_of(s))}</h3>'
+            f'<p>{_h(reason)}</p>'
+            f'<div class="memo-meta"><span>最近提及 <b>{_h(item.get("last_mention") or "—")}</b></span><span>提及 <b>{_h(item.get("total_mentions") or "—")}</b></span></div>'
+            f'</article>'
         )
-    qempty='<tr><td colspan="4" class="ops-empty-cell">目前沒有需要自動處理的投資論點。</td></tr>' if not qrows else ''
+    candidate_empty='<div class="ops-empty">目前沒有新的候選投資論點。</div>' if not candidate_cards else ''
     automation_ready=dsummary.get('automation_ready', summary.get('needs_report',0))
     return f'''<section id="reports" class="period-sec">
 <div class="sec"><div class="sechd"><div class="st">{t('nav_reports')}</div><div class="datepill">investment memo</div>
 <div class="sn"><span class="cnt">已發布 {len(REPORTS)} 份 · 下一批 {automation_ready} 檔 · 待更新 {len(updates_due)} 份</span><span class="upd">{t('updated',date=UPDATE_STAMP)}</span></div></div>
-<div class="subhd"><i class="fa-solid fa-chevron-down"></i> Serenity 投資論點總覽</div></div>
+<div class="subhd"><i class="fa-solid fa-chevron-down"></i> Serenity 投資論點閱讀清單</div></div>
 <div class="daypad">
-<div class="ops-grid">
-<div class="ops-card"><span>已發布論點</span><b>{len(REPORTS)}</b></div>
-<div class="ops-card"><span>下一批論點</span><b>{automation_ready}</b></div>
-<div class="ops-card"><span>候選觀察</span><b>{summary.get('candidate',0)}</b></div>
-</div>
-<div class="subhd" style="margin-top:24px"><i class="fa-solid fa-file-lines"></i> 已發布投資論點</div>
-<div class="ops-table-wrap"><table class="ops-table ops-published"><colgroup><col class="ops-col-ticker"><col class="ops-col-title"><col class="ops-col-date"><col class="ops-col-date"></colgroup><thead><tr><th>標的</th><th>標題</th><th>覆蓋至</th><th>生成日</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div>
-<div class="subhd" style="margin-top:24px"><i class="fa-solid fa-list-check"></i> 下一批投資論點</div>
-<div class="ops-table-wrap"><table class="ops-table ops-candidates"><colgroup><col class="ops-col-ticker"><col class="ops-col-action"><col class="ops-col-title"><col class="ops-col-date"></colgroup><thead><tr><th>標的</th><th>下一步</th><th>為什麼值得寫</th><th>最近</th></tr></thead><tbody>{''.join(qrows)}{qempty}</tbody></table></div>
+<div class="memo-hero"><div><span>Published</span><b>{len(REPORTS)}</b><em>已發布投資論點</em></div><div><span>Updated</span><b>{len(updated)}</b><em>近期有更新</em></div><div><span>Queued</span><b>{automation_ready}</b><em>值得整理候選</em></div></div>
+<div class="subhd" style="margin-top:24px"><i class="fa-solid fa-bolt"></i> 最近更新</div>
+<div class="memo-updates">{''.join(updated_cards) if updated_cards else '<div class="ops-empty">目前沒有新的投資論點更新。</div>'}</div>
+<div class="subhd" style="margin-top:24px"><i class="fa-solid fa-book-open"></i> 已發布投資論點</div>
+<div class="memo-grid">{''.join(published)}</div>
+<div class="subhd" style="margin-top:26px"><i class="fa-solid fa-list-check"></i> 待整理候選</div>
+<div class="memo-candidates">{''.join(candidate_cards)}{candidate_empty}</div>
 </div><div style="height:40px"></div></section>'''
 
 W7=(DAY-datetime.timedelta(days=6),DAY)
@@ -882,6 +899,28 @@ SHARED_CSS='''<style>
 .ops-fail{border:1px solid rgba(173,65,65,.22);border-radius:8px;background:var(--bear-bg);padding:12px 14px}
 .ops-fail b{font-family:var(--mono);color:var(--bear);margin-right:8px}.ops-fail span{font-family:var(--mono);font-size:10.5px;color:var(--ink-faint)}.ops-fail p{font-size:12.5px;color:var(--ink-soft);margin-top:6px;line-height:1.55}
 @media(max-width:820px){.ops-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ops-card b{font-size:21px}.ops-col-action{width:128px}.ops-candidates{min-width:720px}}
+.memo-hero{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:8px 0 22px}
+.memo-hero>div{border-top:1px solid var(--line);padding-top:12px}
+.memo-hero span{display:block;font-family:var(--mono);font-size:10.5px;font-weight:800;color:var(--ink-faint);letter-spacing:.02em;text-transform:uppercase}
+.memo-hero b{display:block;font-family:var(--mono);font-size:27px;line-height:1.1;color:var(--ink);margin-top:5px}
+.memo-hero em{display:block;font-style:normal;font-size:12px;color:var(--ink-soft);margin-top:2px}
+.memo-updates{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.memo-update{position:relative;border:1px solid rgba(31,92,77,.22);border-left:4px solid var(--accent);border-radius:8px;background:linear-gradient(90deg,rgba(31,92,77,.08),var(--card) 58%);padding:14px 16px;cursor:pointer;box-shadow:0 10px 24px -24px rgba(31,92,77,.65)}
+.memo-update:hover,.memo-card:hover,.memo-candidate:hover{border-color:rgba(29,155,240,.28);box-shadow:0 10px 24px -22px rgba(0,0,0,.35)}
+.memo-update-k{font-family:var(--mono);font-size:10.5px;font-weight:800;color:var(--accent);letter-spacing:.02em;display:flex;align-items:center;gap:6px;margin-bottom:8px}
+.memo-update-t,.memo-ticker{font-family:var(--mono);font-weight:800;color:var(--ink);display:flex;align-items:center;gap:4px;flex-wrap:wrap;line-height:1.45}
+.memo-update h3,.memo-card h3,.memo-candidate h3{font-family:var(--serif);font-size:16px;font-weight:900;line-height:1.32;color:var(--ink);margin:7px 0 6px}
+.memo-update p,.memo-card p,.memo-candidate p{font-size:12.5px;line-height:1.65;color:var(--ink-soft);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.memo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.memo-card,.memo-candidate{border:1px solid var(--line);border-radius:8px;background:var(--card);padding:14px 16px;cursor:pointer;min-width:0}
+.memo-top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.memo-meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px;font-family:var(--mono);font-size:10.5px;color:var(--ink-faint)}
+.memo-meta b{color:var(--ink);font-weight:800}
+.memo-candidates{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.memo-candidate{padding:12px 14px}
+.memo-candidate h3{font-family:var(--sans);font-size:14px;margin-top:5px}
+@media(max-width:900px){.memo-updates,.memo-grid,.memo-candidates{grid-template-columns:1fr}}
+@media(max-width:600px){.memo-hero{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.memo-hero b{font-size:22px}.memo-hero em{font-size:11px}.memo-update h3,.memo-card h3{font-size:15.5px}}
 .twocol{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:6px}
 .mwall{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:6px}
 .mcard{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--neutral);border-radius:8px;padding:13px 15px;cursor:pointer;box-shadow:var(--shadow);display:flex;flex-direction:column;min-width:0;overflow-wrap:break-word}
