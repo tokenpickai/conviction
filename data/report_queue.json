@@ -1514,6 +1514,267 @@
         "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
         "latest mention 2026-06-21"
       ]
+    },
+    {
+      "company": "Marvell",
+      "evidence": [
+        {
+          "date": "2026-01-24",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "selloff after rumors of Microsoft Maia delays",
+            "waiting game for ~2x revenue in 2027",
+            "celestial acquisition",
+            "doing great stuff in interconnects"
+          ],
+          "score": 212,
+          "stance": "bullish",
+          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
+          "tweet_id": "2015096496019112151",
+          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
+        },
+        {
+          "date": "2026-04-19",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "compelling as a mini-Broadcom",
+            "potential design with GOOGL past 2028",
+            "MSFT Maia ramp H2 2026 scaling exponentially",
+            "Celestial acquisition was smartest thing"
+          ],
+          "score": 161,
+          "stance": "bullish",
+          "text_preview": "Frontrunning 1.6T/CPO within the broader photonics supercycle is the most compelling investment to me. I have high conviction in that statement. Which is why I'm long the entire supply chain (+1 extra bottlenecK) 1. $SI…",
+          "tweet_id": "2046003874553901188",
+          "url": "https://x.com/aleabitoreddit/status/2046003874553901188"
+        },
+        {
+          "date": "2026-01-02",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "selloff from analyst misinformation",
+            "MSFT Maia revenue doubling Marvell's current revenue when it ramps up"
+          ],
+          "score": 148,
+          "stance": "bullish",
+          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
+          "tweet_id": "2007071108831338685",
+          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
+        },
+        {
+          "date": "2026-04-09",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "scales rev from future maia asics and add ons like cpo",
+            "they do everything"
+          ],
+          "score": 143,
+          "stance": "bullish",
+          "text_preview": "Here's a bunch of random 30 US-available random stocks I like today and why: 1. $INTC - America's hope for foundry, national security 2. $MRVL - scales rev from future maia asics and add ons like cpo, they do everything…",
+          "tweet_id": "2042187668931616964",
+          "url": "https://x.com/aleabitoreddit/status/2042187668931616964"
+        },
+        {
+          "date": "2025-10-11",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "not priced in that it's growing 56% Y/Y like NVDA"
+          ],
+          "score": 141,
+          "stance": "bullish",
+          "text_preview": "Based Friday Market Close (-3.6% SPY day), Thoughts and Explanations Strong Buy $IBIT $LTC $WLAC $NBIS $MP $TSM (For Next Year) $ETOR $DKNG $SNAP Buy $UPWK $CRDO $ALAB $AMZN $META $UNH $SG $TGT $BULL $FLY $CIFR $WULF $I…",
+          "tweet_id": "1977079938835718513",
+          "url": "https://x.com/aleabitoreddit/status/1977079938835718513"
+        },
+        {
+          "date": "2025-12-31",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "Maia ramp revenue modeled at $10-12B in 2027, double FY2025 revenue of $5.77B",
+            "physical impossibility of mid-cycle swap from Marvell to Broadcom for Maia 300",
+            "CEO confirmed purchase orders in hand for entirety of next year's forecast",
+            "Trainium 3 production locked to Marvell's design, cannot swap to Alchip without redesigning chip from scratch"
+          ],
+          "score": 130,
+          "stance": "bullish",
+          "text_preview": "Finally took a deeper look at $MRVL. My first reaction: What are the markets and analysts/news smoking? Revenue derived from Maia ramp is literally double $MRVL's FY 2025 revenue. If we look at the numbers, it's stagger…",
+          "tweet_id": "2006301094394335399",
+          "url": "https://x.com/aleabitoreddit/status/2006301094394335399"
+        }
+      ],
+      "explicit_stance_posts": 53,
+      "first_mention": "2025-08-25",
+      "has_report": true,
+      "high_conviction_posts": 5,
+      "industry": "AI Semis/CPO",
+      "last_mention": "2026-06-21",
+      "market": "US",
+      "priority": "none",
+      "report_score": 2880,
+      "risk_posts": 3,
+      "signal_terms": [
+        "allocation",
+        "amazon",
+        "amd",
+        "amzn",
+        "ban",
+        "bottleneck",
+        "capacity",
+        "chokepoint",
+        "confirmed",
+        "conviction",
+        "dilution",
+        "export control",
+        "favorite",
+        "gfs",
+        "globalfoundries",
+        "holding",
+        "hyperscaler",
+        "jabil"
+      ],
+      "stance_counts": {
+        "bullish": 53,
+        "neutral": 201
+      },
+      "status": "has_report",
+      "substantive_posts": 127,
+      "ticker": "MRVL",
+      "total_mentions": 254,
+      "unique_mention_days": 113,
+      "why": [
+        "254 total mentions across 113 days",
+        "53 explicit stance posts",
+        "127 substantive thesis-like posts",
+        "5 high-conviction mentions",
+        "3 risk/caution posts",
+        "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
+        "latest mention 2026-06-21"
+      ]
+    },
+    {
+      "company": "Aehr Test Systems",
+      "evidence": [
+        {
+          "date": "2026-01-24",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "sits in two hot verticals AI and Robotics",
+            "$5.5m Sonoma order might be linked with Micron and SiC Testing",
+            "extremely good moonshot sub $1B MC"
+          ],
+          "score": 209,
+          "stance": "bullish",
+          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
+          "tweet_id": "2015096496019112151",
+          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
+        },
+        {
+          "date": "2026-03-28",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "testing"
+          ],
+          "score": 117,
+          "stance": "bullish",
+          "text_preview": "Faster compounds: $AAOI - 10x revenue ramp from optical transcivers h2 2027 $NBIS - 10x revenue ramp Q4 2026 $ARM - 5x revenue growth from their new AI CPU $MRVL - 2-3x revenue growth from $MSFT Maia Ramp. $AVGO - Long…",
+          "tweet_id": "2037915721435587028",
+          "url": "https://x.com/aleabitoreddit/status/2037915721435587028"
+        },
+        {
+          "date": "2026-02-21",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "core long as supply chain bottleneck"
+          ],
+          "score": 112,
+          "stance": "bullish",
+          "text_preview": "Year to Date: 316.4% From January 2026 into February 2026. Reflection of my short term trades and longs: > Swing traded tax harvested stocks like $GLXY, $SMCI, and $IREN start of the year > Rode Venezuela stocks from Go…",
+          "tweet_id": "2025112091967811613",
+          "url": "https://x.com/aleabitoreddit/status/2025112091967811613"
+        },
+        {
+          "date": "2026-02-26",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "thermal testing bottleneck for AI chips",
+            "passed qualification phase, inflection from R&D to mass production",
+            "$14M order for burn-in systems",
+            "customers will need more machines as they scale"
+          ],
+          "score": 110,
+          "stance": "bullish",
+          "text_preview": "A simpler overview of $AEHR - $1.1B (without the jargon). One of my long positions: With AI, thermal is a known bottleneck. With new gen $NVDA or $AMD type chips that gets hot, if one chip melts down, it's a disaster. S…",
+          "tweet_id": "2027080026051731630",
+          "url": "https://x.com/aleabitoreddit/status/2027080026051731630"
+        },
+        {
+          "date": "2026-04-09",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 103,
+          "stance": "neutral",
+          "text_preview": "Here's a bunch of random 30 US-available random stocks I like today and why: 1. $INTC - America's hope for foundry, national security 2. $MRVL - scales rev from future maia asics and add ons like cpo, they do everything…",
+          "tweet_id": "2042187668931616964",
+          "url": "https://x.com/aleabitoreddit/status/2042187668931616964"
+        },
+        {
+          "date": "2026-05-23",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 97,
+          "stance": "neutral",
+          "text_preview": "Photonics is nuanced and using ChatGPT/Gemini makes you miss all of it: 1. $SIVE is actually a chokepoint and partially a bottleneck. The reason it's a chokepoint is leading CPO/optical hyperscaler players go through Si…",
+          "tweet_id": "2058374522353672558",
+          "url": "https://x.com/aleabitoreddit/status/2058374522353672558"
+        }
+      ],
+      "explicit_stance_posts": 83,
+      "first_mention": "2026-01-16",
+      "has_report": true,
+      "high_conviction_posts": 25,
+      "industry": "Semiconductor Burn-in Test Equipment",
+      "last_mention": "2026-06-20",
+      "market": "US",
+      "priority": "none",
+      "report_score": 2491,
+      "risk_posts": 0,
+      "signal_terms": [
+        "allocation",
+        "amazon",
+        "amd",
+        "amzn",
+        "ban",
+        "bottleneck",
+        "capacity",
+        "chokepoint",
+        "confirmed",
+        "conviction",
+        "dilution",
+        "export control",
+        "favorite",
+        "gfs",
+        "holding",
+        "hyperscaler",
+        "jabil",
+        "jbl"
+      ],
+      "stance_counts": {
+        "bullish": 82,
+        "neutral": 42
+      },
+      "status": "has_report",
+      "substantive_posts": 94,
+      "ticker": "AEHR",
+      "total_mentions": 124,
+      "unique_mention_days": 61,
+      "why": [
+        "124 total mentions across 61 days",
+        "83 explicit stance posts",
+        "94 substantive thesis-like posts",
+        "25 high-conviction mentions",
+        "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
+        "latest mention 2026-06-20"
+      ]
     }
   ],
   "next_reports": [
@@ -3004,142 +3265,6 @@
         "15 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
         "latest mention 2026-06-20"
-      ]
-    },
-    {
-      "company": "Marvell",
-      "evidence": [
-        {
-          "date": "2026-01-24",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "selloff after rumors of Microsoft Maia delays",
-            "waiting game for ~2x revenue in 2027",
-            "celestial acquisition",
-            "doing great stuff in interconnects"
-          ],
-          "score": 212,
-          "stance": "bullish",
-          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
-          "tweet_id": "2015096496019112151",
-          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
-        },
-        {
-          "date": "2026-04-19",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "compelling as a mini-Broadcom",
-            "potential design with GOOGL past 2028",
-            "MSFT Maia ramp H2 2026 scaling exponentially",
-            "Celestial acquisition was smartest thing"
-          ],
-          "score": 161,
-          "stance": "bullish",
-          "text_preview": "Frontrunning 1.6T/CPO within the broader photonics supercycle is the most compelling investment to me. I have high conviction in that statement. Which is why I'm long the entire supply chain (+1 extra bottlenecK) 1. $SI…",
-          "tweet_id": "2046003874553901188",
-          "url": "https://x.com/aleabitoreddit/status/2046003874553901188"
-        },
-        {
-          "date": "2026-01-02",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "selloff from analyst misinformation",
-            "MSFT Maia revenue doubling Marvell's current revenue when it ramps up"
-          ],
-          "score": 148,
-          "stance": "bullish",
-          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
-          "tweet_id": "2007071108831338685",
-          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
-        },
-        {
-          "date": "2026-04-09",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "scales rev from future maia asics and add ons like cpo",
-            "they do everything"
-          ],
-          "score": 143,
-          "stance": "bullish",
-          "text_preview": "Here's a bunch of random 30 US-available random stocks I like today and why: 1. $INTC - America's hope for foundry, national security 2. $MRVL - scales rev from future maia asics and add ons like cpo, they do everything…",
-          "tweet_id": "2042187668931616964",
-          "url": "https://x.com/aleabitoreddit/status/2042187668931616964"
-        },
-        {
-          "date": "2025-10-11",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "not priced in that it's growing 56% Y/Y like NVDA"
-          ],
-          "score": 141,
-          "stance": "bullish",
-          "text_preview": "Based Friday Market Close (-3.6% SPY day), Thoughts and Explanations Strong Buy $IBIT $LTC $WLAC $NBIS $MP $TSM (For Next Year) $ETOR $DKNG $SNAP Buy $UPWK $CRDO $ALAB $AMZN $META $UNH $SG $TGT $BULL $FLY $CIFR $WULF $I…",
-          "tweet_id": "1977079938835718513",
-          "url": "https://x.com/aleabitoreddit/status/1977079938835718513"
-        },
-        {
-          "date": "2025-12-31",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "Maia ramp revenue modeled at $10-12B in 2027, double FY2025 revenue of $5.77B",
-            "physical impossibility of mid-cycle swap from Marvell to Broadcom for Maia 300",
-            "CEO confirmed purchase orders in hand for entirety of next year's forecast",
-            "Trainium 3 production locked to Marvell's design, cannot swap to Alchip without redesigning chip from scratch"
-          ],
-          "score": 130,
-          "stance": "bullish",
-          "text_preview": "Finally took a deeper look at $MRVL. My first reaction: What are the markets and analysts/news smoking? Revenue derived from Maia ramp is literally double $MRVL's FY 2025 revenue. If we look at the numbers, it's stagger…",
-          "tweet_id": "2006301094394335399",
-          "url": "https://x.com/aleabitoreddit/status/2006301094394335399"
-        }
-      ],
-      "explicit_stance_posts": 53,
-      "first_mention": "2025-08-25",
-      "has_report": false,
-      "high_conviction_posts": 5,
-      "industry": "AI Semis/CPO",
-      "last_mention": "2026-06-21",
-      "market": "US",
-      "priority": "high",
-      "report_score": 2880,
-      "risk_posts": 3,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "amzn",
-        "ban",
-        "bottleneck",
-        "capacity",
-        "chokepoint",
-        "confirmed",
-        "conviction",
-        "dilution",
-        "export control",
-        "favorite",
-        "gfs",
-        "globalfoundries",
-        "holding",
-        "hyperscaler",
-        "jabil"
-      ],
-      "stance_counts": {
-        "bullish": 53,
-        "neutral": 201
-      },
-      "status": "needs_report",
-      "substantive_posts": 127,
-      "ticker": "MRVL",
-      "total_mentions": 254,
-      "unique_mention_days": 113,
-      "why": [
-        "254 total mentions across 113 days",
-        "53 explicit stance posts",
-        "127 substantive thesis-like posts",
-        "5 high-conviction mentions",
-        "3 risk/caution posts",
-        "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
-        "latest mention 2026-06-21"
       ]
     },
     {
@@ -4954,131 +5079,6 @@
         "2 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
         "latest mention 2026-06-19"
-      ]
-    },
-    {
-      "company": "Aehr Test Systems",
-      "evidence": [
-        {
-          "date": "2026-01-24",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "sits in two hot verticals AI and Robotics",
-            "$5.5m Sonoma order might be linked with Micron and SiC Testing",
-            "extremely good moonshot sub $1B MC"
-          ],
-          "score": 209,
-          "stance": "bullish",
-          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
-          "tweet_id": "2015096496019112151",
-          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
-        },
-        {
-          "date": "2026-03-28",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "testing"
-          ],
-          "score": 117,
-          "stance": "bullish",
-          "text_preview": "Faster compounds: $AAOI - 10x revenue ramp from optical transcivers h2 2027 $NBIS - 10x revenue ramp Q4 2026 $ARM - 5x revenue growth from their new AI CPU $MRVL - 2-3x revenue growth from $MSFT Maia Ramp. $AVGO - Long…",
-          "tweet_id": "2037915721435587028",
-          "url": "https://x.com/aleabitoreddit/status/2037915721435587028"
-        },
-        {
-          "date": "2026-02-21",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "core long as supply chain bottleneck"
-          ],
-          "score": 112,
-          "stance": "bullish",
-          "text_preview": "Year to Date: 316.4% From January 2026 into February 2026. Reflection of my short term trades and longs: > Swing traded tax harvested stocks like $GLXY, $SMCI, and $IREN start of the year > Rode Venezuela stocks from Go…",
-          "tweet_id": "2025112091967811613",
-          "url": "https://x.com/aleabitoreddit/status/2025112091967811613"
-        },
-        {
-          "date": "2026-02-26",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "thermal testing bottleneck for AI chips",
-            "passed qualification phase, inflection from R&D to mass production",
-            "$14M order for burn-in systems",
-            "customers will need more machines as they scale"
-          ],
-          "score": 110,
-          "stance": "bullish",
-          "text_preview": "A simpler overview of $AEHR - $1.1B (without the jargon). One of my long positions: With AI, thermal is a known bottleneck. With new gen $NVDA or $AMD type chips that gets hot, if one chip melts down, it's a disaster. S…",
-          "tweet_id": "2027080026051731630",
-          "url": "https://x.com/aleabitoreddit/status/2027080026051731630"
-        },
-        {
-          "date": "2026-04-09",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 103,
-          "stance": "neutral",
-          "text_preview": "Here's a bunch of random 30 US-available random stocks I like today and why: 1. $INTC - America's hope for foundry, national security 2. $MRVL - scales rev from future maia asics and add ons like cpo, they do everything…",
-          "tweet_id": "2042187668931616964",
-          "url": "https://x.com/aleabitoreddit/status/2042187668931616964"
-        },
-        {
-          "date": "2026-05-23",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 97,
-          "stance": "neutral",
-          "text_preview": "Photonics is nuanced and using ChatGPT/Gemini makes you miss all of it: 1. $SIVE is actually a chokepoint and partially a bottleneck. The reason it's a chokepoint is leading CPO/optical hyperscaler players go through Si…",
-          "tweet_id": "2058374522353672558",
-          "url": "https://x.com/aleabitoreddit/status/2058374522353672558"
-        }
-      ],
-      "explicit_stance_posts": 83,
-      "first_mention": "2026-01-16",
-      "has_report": false,
-      "high_conviction_posts": 25,
-      "industry": "Semiconductor Burn-in Test Equipment",
-      "last_mention": "2026-06-20",
-      "market": "US",
-      "priority": "high",
-      "report_score": 2491,
-      "risk_posts": 0,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "amzn",
-        "ban",
-        "bottleneck",
-        "capacity",
-        "chokepoint",
-        "confirmed",
-        "conviction",
-        "dilution",
-        "export control",
-        "favorite",
-        "gfs",
-        "holding",
-        "hyperscaler",
-        "jabil",
-        "jbl"
-      ],
-      "stance_counts": {
-        "bullish": 82,
-        "neutral": 42
-      },
-      "status": "needs_report",
-      "substantive_posts": 94,
-      "ticker": "AEHR",
-      "total_mentions": 124,
-      "unique_mention_days": 61,
-      "why": [
-        "124 total mentions across 61 days",
-        "83 explicit stance posts",
-        "94 substantive thesis-like posts",
-        "25 high-conviction mentions",
-        "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
-        "latest mention 2026-06-20"
       ]
     },
     {
@@ -31117,14 +31117,14 @@
       ]
     }
   ],
-  "reports_available": 11,
+  "reports_available": 13,
   "stocks_scanned": 972,
   "stocks_skipped": 714,
   "summary": {
     "candidate": 69,
-    "has_report": 11,
+    "has_report": 13,
     "needs_regeneration": 0,
-    "needs_report": 178,
+    "needs_report": 176,
     "needs_update": 0
   },
   "updates_due": []

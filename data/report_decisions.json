@@ -750,74 +750,6 @@
     },
     {
       "action": "write_new_thesis",
-      "company": "Marvell",
-      "evidence": [
-        {
-          "date": "2026-01-24",
-          "score": 212,
-          "stance": "bullish",
-          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
-          "tweet_id": "2015096496019112151",
-          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
-        },
-        {
-          "date": "2026-04-19",
-          "score": 161,
-          "stance": "bullish",
-          "text_preview": "Frontrunning 1.6T/CPO within the broader photonics supercycle is the most compelling investment to me. I have high conviction in that statement. Which is why I'm long the entire supply chain (+1 extra bottlenecK) 1. $SI…",
-          "tweet_id": "2046003874553901188",
-          "url": "https://x.com/aleabitoreddit/status/2046003874553901188"
-        },
-        {
-          "date": "2026-01-02",
-          "score": 148,
-          "stance": "bullish",
-          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
-          "tweet_id": "2007071108831338685",
-          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
-        }
-      ],
-      "first_mention": "2025-08-25",
-      "has_report": false,
-      "last_mention": "2026-06-21",
-      "priority": "high",
-      "public_label": "撰寫新投資論點",
-      "report_score": 2880,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "amzn",
-        "ban",
-        "bottleneck",
-        "capacity",
-        "chokepoint",
-        "confirmed",
-        "conviction",
-        "dilution",
-        "export control",
-        "favorite",
-        "gfs",
-        "globalfoundries",
-        "holding",
-        "hyperscaler",
-        "jabil"
-      ],
-      "ticker": "MRVL",
-      "total_mentions": 254,
-      "unique_mention_days": 113,
-      "why": [
-        "254 total mentions across 113 days",
-        "53 explicit stance posts",
-        "127 substantive thesis-like posts",
-        "5 high-conviction mentions",
-        "3 risk/caution posts",
-        "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
-        "latest mention 2026-06-21"
-      ]
-    },
-    {
-      "action": "write_new_thesis",
       "company": "Super Micro",
       "evidence": [
         {
@@ -1357,6 +1289,73 @@
         "2 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
         "latest mention 2026-06-20"
+      ]
+    },
+    {
+      "action": "write_new_thesis",
+      "company": "SK Hynix",
+      "evidence": [
+        {
+          "date": "2026-01-24",
+          "score": 203,
+          "stance": "bullish",
+          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
+          "tweet_id": "2015096496019112151",
+          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
+        },
+        {
+          "date": "2025-12-10",
+          "score": 176,
+          "stance": "bullish",
+          "text_preview": "Post-Fed Interest Rate 25BPS cut. December 11th ratings: Strong Buy: $CRCL $COIN $AMKR $CRDO $IBIT $MSTR $AMZN $SMCI $TSM $TSSI Sk Hynix $SNAP Samsung Electronics $ALAB $META $NBIS $CIFR Buy: $KRUS $AVGO $NFLX $KRKNF $H…",
+          "tweet_id": "1998846813177262295",
+          "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
+        },
+        {
+          "date": "2026-01-02",
+          "score": 145,
+          "stance": "bullish",
+          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
+          "tweet_id": "2007071108831338685",
+          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
+        }
+      ],
+      "first_mention": "2025-12-01",
+      "has_report": false,
+      "last_mention": "2026-06-18",
+      "priority": "high",
+      "public_label": "撰寫新投資論點",
+      "report_score": 2601,
+      "signal_terms": [
+        "allocation",
+        "amazon",
+        "amd",
+        "amzn",
+        "ban",
+        "bearish",
+        "bottleneck",
+        "capacity",
+        "chokepoint",
+        "confirmed",
+        "dilution",
+        "export control",
+        "favorite",
+        "holding",
+        "hyperscaler",
+        "jabil",
+        "long",
+        "margin"
+      ],
+      "ticker": "SK HYNIX",
+      "total_mentions": 105,
+      "unique_mention_days": 58,
+      "why": [
+        "105 total mentions across 58 days",
+        "61 explicit stance posts",
+        "66 substantive thesis-like posts",
+        "19 high-conviction mentions",
+        "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
+        "latest mention 2026-06-18"
       ]
     }
   ],
@@ -2108,74 +2107,6 @@
         "15 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
         "latest mention 2026-06-20"
-      ]
-    },
-    {
-      "action": "write_new_thesis",
-      "company": "Marvell",
-      "evidence": [
-        {
-          "date": "2026-01-24",
-          "score": 212,
-          "stance": "bullish",
-          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
-          "tweet_id": "2015096496019112151",
-          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
-        },
-        {
-          "date": "2026-04-19",
-          "score": 161,
-          "stance": "bullish",
-          "text_preview": "Frontrunning 1.6T/CPO within the broader photonics supercycle is the most compelling investment to me. I have high conviction in that statement. Which is why I'm long the entire supply chain (+1 extra bottlenecK) 1. $SI…",
-          "tweet_id": "2046003874553901188",
-          "url": "https://x.com/aleabitoreddit/status/2046003874553901188"
-        },
-        {
-          "date": "2026-01-02",
-          "score": 148,
-          "stance": "bullish",
-          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
-          "tweet_id": "2007071108831338685",
-          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
-        }
-      ],
-      "first_mention": "2025-08-25",
-      "has_report": false,
-      "last_mention": "2026-06-21",
-      "priority": "high",
-      "public_label": "撰寫新投資論點",
-      "report_score": 2880,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "amzn",
-        "ban",
-        "bottleneck",
-        "capacity",
-        "chokepoint",
-        "confirmed",
-        "conviction",
-        "dilution",
-        "export control",
-        "favorite",
-        "gfs",
-        "globalfoundries",
-        "holding",
-        "hyperscaler",
-        "jabil"
-      ],
-      "ticker": "MRVL",
-      "total_mentions": 254,
-      "unique_mention_days": 113,
-      "why": [
-        "254 total mentions across 113 days",
-        "53 explicit stance posts",
-        "127 substantive thesis-like posts",
-        "5 high-conviction mentions",
-        "3 risk/caution posts",
-        "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
-        "latest mention 2026-06-21"
       ]
     },
     {
@@ -3125,73 +3056,6 @@
         "2 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
         "latest mention 2026-06-19"
-      ]
-    },
-    {
-      "action": "write_new_thesis",
-      "company": "Aehr Test Systems",
-      "evidence": [
-        {
-          "date": "2026-01-24",
-          "score": 209,
-          "stance": "bullish",
-          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
-          "tweet_id": "2015096496019112151",
-          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
-        },
-        {
-          "date": "2026-03-28",
-          "score": 117,
-          "stance": "bullish",
-          "text_preview": "Faster compounds: $AAOI - 10x revenue ramp from optical transcivers h2 2027 $NBIS - 10x revenue ramp Q4 2026 $ARM - 5x revenue growth from their new AI CPU $MRVL - 2-3x revenue growth from $MSFT Maia Ramp. $AVGO - Long…",
-          "tweet_id": "2037915721435587028",
-          "url": "https://x.com/aleabitoreddit/status/2037915721435587028"
-        },
-        {
-          "date": "2026-02-21",
-          "score": 112,
-          "stance": "bullish",
-          "text_preview": "Year to Date: 316.4% From January 2026 into February 2026. Reflection of my short term trades and longs: > Swing traded tax harvested stocks like $GLXY, $SMCI, and $IREN start of the year > Rode Venezuela stocks from Go…",
-          "tweet_id": "2025112091967811613",
-          "url": "https://x.com/aleabitoreddit/status/2025112091967811613"
-        }
-      ],
-      "first_mention": "2026-01-16",
-      "has_report": false,
-      "last_mention": "2026-06-20",
-      "priority": "high",
-      "public_label": "撰寫新投資論點",
-      "report_score": 2491,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "amzn",
-        "ban",
-        "bottleneck",
-        "capacity",
-        "chokepoint",
-        "confirmed",
-        "conviction",
-        "dilution",
-        "export control",
-        "favorite",
-        "gfs",
-        "holding",
-        "hyperscaler",
-        "jabil",
-        "jbl"
-      ],
-      "ticker": "AEHR",
-      "total_mentions": 124,
-      "unique_mention_days": 61,
-      "why": [
-        "124 total mentions across 61 days",
-        "83 explicit stance posts",
-        "94 substantive thesis-like posts",
-        "25 high-conviction mentions",
-        "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
-        "latest mention 2026-06-20"
       ]
     },
     {
@@ -17786,19 +17650,154 @@
         "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
         "latest mention 2026-06-21"
       ]
+    },
+    {
+      "action": "no_action",
+      "company": "Marvell",
+      "evidence": [
+        {
+          "date": "2026-01-24",
+          "score": 212,
+          "stance": "bullish",
+          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
+          "tweet_id": "2015096496019112151",
+          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
+        },
+        {
+          "date": "2026-04-19",
+          "score": 161,
+          "stance": "bullish",
+          "text_preview": "Frontrunning 1.6T/CPO within the broader photonics supercycle is the most compelling investment to me. I have high conviction in that statement. Which is why I'm long the entire supply chain (+1 extra bottlenecK) 1. $SI…",
+          "tweet_id": "2046003874553901188",
+          "url": "https://x.com/aleabitoreddit/status/2046003874553901188"
+        },
+        {
+          "date": "2026-01-02",
+          "score": 148,
+          "stance": "bullish",
+          "text_preview": "Welcome to 2026. Jan 1st ratings: Strong Buy: $TTD $SMCI $AIRO $INTC $HIMS $AXTI $TSM $NBIS $CIFR Samsung Electronics (KRX: 005930) $HUT $IREN $WULF $GLXY $TSSI $META $ETOR $CRCL Buy: $KRKNF $ONDS $GEMI $NVDA $MU $AMKR…",
+          "tweet_id": "2007071108831338685",
+          "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
+        }
+      ],
+      "first_mention": "2025-08-25",
+      "has_report": true,
+      "last_mention": "2026-06-21",
+      "priority": "none",
+      "public_label": "暫無動作",
+      "report_score": 2880,
+      "signal_terms": [
+        "allocation",
+        "amazon",
+        "amd",
+        "amzn",
+        "ban",
+        "bottleneck",
+        "capacity",
+        "chokepoint",
+        "confirmed",
+        "conviction",
+        "dilution",
+        "export control",
+        "favorite",
+        "gfs",
+        "globalfoundries",
+        "holding",
+        "hyperscaler",
+        "jabil"
+      ],
+      "ticker": "MRVL",
+      "total_mentions": 254,
+      "unique_mention_days": 113,
+      "why": [
+        "254 total mentions across 113 days",
+        "53 explicit stance posts",
+        "127 substantive thesis-like posts",
+        "5 high-conviction mentions",
+        "3 risk/caution posts",
+        "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
+        "latest mention 2026-06-21"
+      ]
+    },
+    {
+      "action": "no_action",
+      "company": "Aehr Test Systems",
+      "evidence": [
+        {
+          "date": "2026-01-24",
+          "score": 209,
+          "stance": "bullish",
+          "text_preview": "Jan 25th Ratings. Post EU Tariffs and $INTC ER. Strong Buy: $SNAP $META Samsung Electronics SK Hynix $MU Unimicron $TSM $CRCL $AXTI $LPTH $COPX $LIT $AEHR $FORM $AMKR $AVGO $MRVL Buy: $COIN $SMCI $GOOGL $FIG $AMZN $IBIT…",
+          "tweet_id": "2015096496019112151",
+          "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
+        },
+        {
+          "date": "2026-03-28",
+          "score": 117,
+          "stance": "bullish",
+          "text_preview": "Faster compounds: $AAOI - 10x revenue ramp from optical transcivers h2 2027 $NBIS - 10x revenue ramp Q4 2026 $ARM - 5x revenue growth from their new AI CPU $MRVL - 2-3x revenue growth from $MSFT Maia Ramp. $AVGO - Long…",
+          "tweet_id": "2037915721435587028",
+          "url": "https://x.com/aleabitoreddit/status/2037915721435587028"
+        },
+        {
+          "date": "2026-02-21",
+          "score": 112,
+          "stance": "bullish",
+          "text_preview": "Year to Date: 316.4% From January 2026 into February 2026. Reflection of my short term trades and longs: > Swing traded tax harvested stocks like $GLXY, $SMCI, and $IREN start of the year > Rode Venezuela stocks from Go…",
+          "tweet_id": "2025112091967811613",
+          "url": "https://x.com/aleabitoreddit/status/2025112091967811613"
+        }
+      ],
+      "first_mention": "2026-01-16",
+      "has_report": true,
+      "last_mention": "2026-06-20",
+      "priority": "none",
+      "public_label": "暫無動作",
+      "report_score": 2491,
+      "signal_terms": [
+        "allocation",
+        "amazon",
+        "amd",
+        "amzn",
+        "ban",
+        "bottleneck",
+        "capacity",
+        "chokepoint",
+        "confirmed",
+        "conviction",
+        "dilution",
+        "export control",
+        "favorite",
+        "gfs",
+        "holding",
+        "hyperscaler",
+        "jabil",
+        "jbl"
+      ],
+      "ticker": "AEHR",
+      "total_mentions": 124,
+      "unique_mention_days": 61,
+      "why": [
+        "124 total mentions across 61 days",
+        "83 explicit stance posts",
+        "94 substantive thesis-like posts",
+        "25 high-conviction mentions",
+        "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
+        "latest mention 2026-06-20"
+      ]
     }
   ],
-  "generated_at": "2026-06-21T22:46:17Z",
+  "generated_at": "2026-06-23T00:33:53Z",
   "source_files": {
     "queue": "data/report_queue.json",
     "updates": "data/report_update_candidates.json"
   },
   "summary": {
-    "automation_ready": 178,
+    "automation_ready": 176,
     "by_action": {
-      "no_action": 11,
+      "no_action": 13,
       "watch_for_more_signal": 69,
-      "write_new_thesis": 178
+      "write_new_thesis": 176
     },
     "total_decisions": 258
   }

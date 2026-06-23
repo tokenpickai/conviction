@@ -718,6 +718,53 @@ def _report_health(report):
         return ('warn','需複查')
     return ('bad','不足')
 
+def _serenity_signal_score(s):
+    mentions=total(s)
+    if mentions<=0:
+        return None
+    eb,er,en=win_exp(s,datetime.date(1970,1,1),DAY)
+    stance_posts=eb+er+en
+    if eb<=er or eb==0:
+        return None
+    w7=cnt(s,DAY-datetime.timedelta(days=6),DAY)
+    w28=cnt(s,DAY-datetime.timedelta(days=27),DAY)
+    last_seen=last(s)
+    days_since=(DAY-last_seen).days if last_seen else 999
+    net=eb-er
+    net_ratio=net/max(1,stance_posts)
+    stance_score=min(34, net*1.8 + eb*.35 + net_ratio*18)
+    attention_score=min(24, mentions*.35 + w28*1.05 + w7*2.6)
+    recency_score=max(0, 12 - min(days_since,36)/3)
+    reason_text=' '.join(r for _,_,r,_ in exp[s] if r).lower()
+    thesis_terms=('favorite','high conviction','best','compelling','room to go','love','long','buying','roi','winner','thesis')
+    thesis_score=min(7, sum(1 for term in thesis_terms if term in reason_text)*1.4)
+    risk_penalty=min(18, er*1.1 + (6 if en and en>=eb*.35 else 0))
+    raw=stance_score+attention_score+recency_score+thesis_score-risk_penalty
+    score=max(0,min(100,round(raw)))
+    reasons=[]
+    if eb:
+        reasons.append(f'{eb} 則看多')
+    if w28:
+        reasons.append(f'近 28 日 {w28} 次提及')
+    if er:
+        reasons.append(f'{er} 則看空訊號需留意')
+    return {
+        'ticker':s,'score':score,'bull':eb,'bear':er,'neutral':en,
+        'mentions':mentions,'w28':w28,'w7':w7,'last':ymd(last_seen),
+        'reasons':reasons[:4]
+    }
+
+def serenity_top_signals(n=3, require_report=False):
+    items=[]
+    for s in mdates:
+        if require_report and s not in REPORTS:
+            continue
+        item=_serenity_signal_score(s)
+        if item:
+            items.append(item)
+    items.sort(key=lambda x:(x['score'], x['w28'], x['mentions'], x['bull']), reverse=True)
+    return items[:n]
+
 def _decision_reason(item):
     bits=[]
     mentions=item.get('total_mentions')
@@ -807,6 +854,22 @@ def reports_section():
             f'</article>'
         )
     candidate_empty='<div class="ops-empty">目前沒有新的候選投資論點。</div>' if not candidate_cards else ''
+    top_cards=[]
+    for i,item in enumerate(serenity_top_signals(),1):
+        s=item['ticker']
+        why=' · '.join(item['reasons']) or 'Serenity 綜合訊號較強'
+        medal_cls={1:'gold',2:'silver',3:'bronze'}.get(i,'')
+        medal_icon='fa-crown' if i==1 else 'fa-medal'
+        memo_state='' if s in REPORTS else '<span class="signal-missing"><i class="fa-regular fa-file-lines"></i> 尚未整理</span>'
+        top_cards.append(
+            f'<article class="signal-card rank-{medal_cls}" onclick="dd(\'{s}\')">'
+            f'<div class="signal-rank {medal_cls}"><i class="fa-solid {medal_icon}"></i><span>#{i}</span></div><div class="signal-main">'
+            f'<div class="signal-t">{_h(s)}{market_pill(s)}{theme_pill(s)}{memo_state}</div>'
+            f'<h3>{_h(co_of(s))}</h3><p>{_h(why)}</p>'
+            f'<div class="signal-meta"><span>看多 <b>{item["bull"]}</b></span><span>看空 <b>{item["bear"]}</b></span><span>最近 <b>{_h(item["last"])}</b></span></div>'
+            f'</div><div class="signal-score"><b>{item["score"]}</b><span>score</span></div></article>'
+        )
+    top_empty='<div class="ops-empty">目前沒有足夠的看多訊號可排序。</div>' if not top_cards else ''
     automation_ready=dsummary.get('automation_ready', summary.get('needs_report',0))
     return f'''<section id="reports" class="period-sec">
 <div class="sec"><div class="sechd"><div class="st">{t('nav_reports')}</div><div class="datepill">investment memo</div>
@@ -814,6 +877,9 @@ def reports_section():
 <div class="subhd"><i class="fa-solid fa-chevron-down"></i> Serenity 投資論點閱讀清單</div></div>
 <div class="daypad">
 <div class="memo-hero"><div><span>Published</span><b>{len(REPORTS)}</b><em>已發布投資論點</em></div><div><span>Updated</span><b>{len(updated)}</b><em>近期有更新</em></div><div><span>Queued</span><b>{automation_ready}</b><em>值得整理候選</em></div></div>
+<div class="subhd" style="margin-top:24px"><i class="fa-solid fa-ranking-star"></i> Serenity 綜合訊號 Top 3</div>
+<div class="signal-note">依 Serenity 的公開貼文計算：看多強度、近期熱度、語氣強度，以及看空 / 分歧訊號扣分。尚未整理的高分標的會優先進入投資論點生成。</div>
+<div class="signal-grid">{''.join(top_cards)}{top_empty}</div>
 <div class="subhd" style="margin-top:24px"><i class="fa-solid fa-bolt"></i> 最近更新</div>
 <div class="memo-updates">{''.join(updated_cards) if updated_cards else '<div class="ops-empty">目前沒有新的投資論點更新。</div>'}</div>
 <div class="subhd" style="margin-top:24px"><i class="fa-solid fa-book-open"></i> 已發布投資論點</div>
@@ -920,6 +986,29 @@ SHARED_CSS='''<style>
 .memo-candidates{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 .memo-candidate{padding:12px 14px}
 .memo-candidate h3{font-family:var(--sans);font-size:14px;margin-top:5px}
+.signal-note{font-size:12.5px;color:var(--ink-soft);line-height:1.65;margin:-4px 0 10px;max-width:860px}
+.signal-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.signal-card{position:relative;display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:12px;align-items:start;border:1px solid rgba(31,92,77,.2);border-radius:8px;background:linear-gradient(180deg,rgba(31,92,77,.045),var(--card) 58%);padding:15px 16px;cursor:pointer;min-width:0;transition:border-color .16s ease,box-shadow .16s ease,transform .16s ease,background .16s ease}
+.signal-card.rank-gold{border-color:rgba(186,134,22,.58);background:linear-gradient(180deg,rgba(236,180,43,.24),rgba(236,180,43,.055) 58%,var(--card) 100%)}
+.signal-card.rank-silver{border-color:rgba(136,145,151,.56);background:linear-gradient(180deg,rgba(184,192,198,.22),rgba(184,192,198,.05) 58%,var(--card) 100%)}
+.signal-card.rank-bronze{border-color:rgba(178,93,45,.54);background:linear-gradient(180deg,rgba(198,106,50,.22),rgba(198,106,50,.05) 58%,var(--card) 100%)}
+.signal-card:hover{transform:translateY(-2px);box-shadow:0 18px 34px -26px rgba(31,92,77,.75)}
+.signal-card.rank-gold:hover{border-color:rgba(186,134,22,.82);background:linear-gradient(180deg,rgba(236,180,43,.34),rgba(236,180,43,.085) 55%,var(--card) 100%);box-shadow:0 18px 34px -24px rgba(186,134,22,1)}
+.signal-card.rank-silver:hover{border-color:rgba(136,145,151,.82);background:linear-gradient(180deg,rgba(184,192,198,.32),rgba(184,192,198,.08) 55%,var(--card) 100%);box-shadow:0 18px 34px -24px rgba(136,145,151,.95)}
+.signal-card.rank-bronze:hover{border-color:rgba(178,93,45,.8);background:linear-gradient(180deg,rgba(198,106,50,.32),rgba(198,106,50,.08) 55%,var(--card) 100%);box-shadow:0 18px 34px -24px rgba(178,93,45,.95)}
+.signal-rank{font-family:var(--mono);font-size:12px;font-weight:900;color:var(--accent);border:1px solid rgba(31,92,77,.25);background:var(--accent-soft);border-radius:999px;padding:4px 8px;line-height:1;display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+.signal-rank i{font-size:11px}.signal-rank.gold{color:#7b5200;border-color:rgba(186,134,22,.74);background:rgba(236,180,43,.34)}
+.signal-rank.silver{color:#4f585e;border-color:rgba(136,145,151,.72);background:rgba(184,192,198,.32)}
+.signal-rank.bronze{color:#743817;border-color:rgba(178,93,45,.72);background:rgba(198,106,50,.3)}
+.signal-main{min-width:0}.signal-t{font-family:var(--mono);font-weight:850;color:var(--ink);display:flex;align-items:center;gap:4px;flex-wrap:wrap;line-height:1.45}
+.signal-missing{display:inline-flex;align-items:center;gap:4px;border:1px dashed rgba(31,92,77,.32);border-radius:999px;background:rgba(31,92,77,.045);color:var(--accent);font-size:9px;font-weight:850;padding:1px 6px;line-height:1.45}
+.signal-card h3{font-family:var(--serif);font-size:16px;font-weight:900;line-height:1.28;color:var(--ink);margin:8px 0 6px}
+.signal-card p{font-size:12.5px;line-height:1.6;color:var(--ink-soft);margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.signal-meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;font-family:var(--mono);font-size:10.5px;color:var(--ink-faint)}
+.signal-meta b{color:var(--ink);font-weight:850}.signal-score{text-align:right;font-family:var(--mono);color:var(--ink-faint);min-width:44px}
+.signal-score b{display:block;font-size:25px;line-height:1;color:var(--accent)}.signal-score span{display:block;font-size:9.5px;font-weight:800;text-transform:uppercase;letter-spacing:.03em;margin-top:3px}
+.rank-gold .signal-score b{color:#9a6900}.rank-silver .signal-score b{color:#5f6870}.rank-bronze .signal-score b{color:#88441d}
+@media(max-width:1050px){.signal-grid{grid-template-columns:1fr}}
 @media(max-width:900px){.memo-updates,.memo-grid,.memo-candidates{grid-template-columns:1fr}}
 @media(max-width:600px){.memo-hero{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.memo-hero b{font-size:22px}.memo-hero em{font-size:11px}.memo-update h3,.memo-card h3{font-size:15.5px}}
 .twocol{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:6px}
@@ -1089,12 +1178,18 @@ body{background:var(--paper);font-family:var(--sans);font-feature-settings:"tnum
 .qinfo:hover{color:var(--accent)}
 .qinfo:hover::after{content:attr(data-tip);position:absolute;top:160%;left:50%;transform:translateX(-50%);width:max-content;max-width:210px;white-space:normal;text-align:center;line-height:1.5;background:var(--ink);color:var(--paper);font-size:11px;font-weight:400;letter-spacing:normal;padding:7px 11px;border-radius:6px;z-index:60;box-shadow:0 4px 14px rgba(0,0,0,.2);pointer-events:none}
 .sec{padding:34px 44px 10px}
-.sechd{display:flex;align-items:baseline;gap:14px;border-bottom:2px solid var(--ink);padding-bottom:12px;margin-bottom:8px}
-.sechd .st{font-family:var(--serif);font-weight:900;font-size:30px}
+.sechd{display:flex;align-items:baseline;gap:14px;border-bottom:2px solid var(--ink);padding-bottom:12px;margin-bottom:8px;cursor:pointer}
+.sechd .st{font-family:var(--serif);font-weight:900;font-size:30px;display:inline-flex;align-items:center;gap:10px}
 .sechd .datepill{font-family:var(--mono);font-weight:500;font-size:13px;color:var(--ink-soft);background:transparent;padding:0;border-radius:0;letter-spacing:0}
 .sechd .sn{margin-left:auto;display:flex;flex-direction:column;align-items:flex-end;gap:4px}
 .sechd .sn .cnt{font-family:var(--mono);font-size:12px;color:var(--accent);background:var(--accent-soft);padding:4px 12px;border-radius:5px}
 .sechd .sn .upd{font-family:var(--mono);font-size:12px;color:var(--ink-soft);font-weight:500}
+.sectoggle{border:1px solid var(--line);background:var(--card);color:var(--ink-soft);border-radius:999px;width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;font-size:10px;transition:border-color .16s ease,color .16s ease,background .16s ease,transform .16s ease;flex:0 0 auto}
+.sechd:hover .sectoggle{border-color:rgba(31,92,77,.3);background:var(--accent-soft);color:var(--accent)}
+.period-sec.collapsed>.sec{margin-bottom:0}
+.period-sec.collapsed>.sec>.subhd,.period-sec.collapsed>.wall,.period-sec.collapsed>.daypad,.period-sec.collapsed>.sec+*,.period-sec.collapsed>div:not(.sec){display:none}
+.period-sec.collapsed .sechd{border-bottom-color:var(--line);margin-bottom:0}
+.period-sec.collapsed .sectoggle{transform:rotate(-90deg)}
 .subhd{font-family:var(--mono);font-size:12px;color:var(--ink-faint);margin:18px 0 14px}
 .wall{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;padding:0 44px}
 .wall.smallwall{grid-template-columns:repeat(4,minmax(0,1fr))}
@@ -1389,15 +1484,15 @@ def build():
     head=BASE_HEAD+SHARED_CSS   # 基础头已内嵌,render 完全自给,无需任何外部 html
     head=head.replace('@aleabitoreddit 个股评论追踪',t('doc_title'))
     nav=f'''<nav class="sidenav"><div class="brand"><img class="glyph" src="assets/serenity-avatar.jpg" alt="Serenity avatar"><div class="bt">{t('brand')}</div><div class="bs"><a href="https://x.com/aleabitoreddit" target="_blank" rel="noopener">@aleabitoreddit</a></div></div>
-<a class="navlink on" data-t="day"><span>{t('nav_day')}</span><span class="ni">日</span></a>
+<a class="navlink on" data-t="reports"><span>{t('nav_reports')}</span><span class="ni">論</span></a>
+<a class="navlink" data-t="day"><span>{t('nav_day')}</span><span class="ni">日</span></a>
 <a class="navlink" data-t="week"><span>{t('nav_week')}</span><span class="ni">週</span></a>
 <a class="navlink" data-t="month"><span>{t('nav_month')}</span><span class="ni">月</span></a>
-<a class="navlink" data-t="quarter"><span>{t('nav_quarter')}</span><span class="ni">季</span></a>
-<a class="navlink" data-t="reports"><span>{t('nav_reports')}</span><span class="ni">論</span></a></nav>'''
-    secs=period_section(DAYCFG)+period_section(WKCFG)
+<a class="navlink" data-t="quarter"><span>{t('nav_quarter')}</span><span class="ni">季</span></a></nav>'''
+    secs=reports_section()
+    secs+=period_section(DAYCFG)+period_section(WKCFG)
     secs+=month_section()
     secs+=quarter_section()
-    secs+=reports_section()
     JS_KEYS=['stance_bull','stance_bear','stance_neutral','stance_mixed','stance_none',
       'chart_ph_no_series','chart_dot_tip','chart_leg_bull','chart_leg_bear','chart_leg_note',
       'dd_ph_title','dd_ph_body','post_initial','dd_view_all',
@@ -1407,7 +1502,34 @@ def build():
     i18n_js='<script>var I18N='+json.dumps({k:t(k) for k in JS_KEYS},ensure_ascii=False)+';function I(k,o){var s=I18N[k]||k;if(o)for(var p in o)s=s.split("{"+p+"}").join(o[p]);return s;}</script>'
     script='''<script>
 const links=[...document.querySelectorAll('.navlink')];
-links.forEach(l=>l.addEventListener('click',e=>{e.preventDefault();const t=document.getElementById(l.dataset.t);if(t)t.scrollIntoView({behavior:'smooth',block:'start'});}));
+function sectionStateKey(id){return 'serenity-section-collapsed:'+id;}
+function setSectionCollapsed(sec,collapsed){
+  sec.classList.toggle('collapsed',collapsed);
+  var btn=sec.querySelector('.sectoggle');
+  if(btn){
+    btn.setAttribute('aria-expanded',collapsed?'false':'true');
+    btn.setAttribute('title',collapsed?'展開':'收合');
+  }
+  try{localStorage.setItem(sectionStateKey(sec.id),collapsed?'1':'0');}catch(e){}
+}
+document.querySelectorAll('.period-sec').forEach(function(sec){
+  var hd=sec.querySelector('.sechd');
+  var title=sec.querySelector('.sechd .st');
+  if(!hd)return;
+  var btn=document.createElement('button');
+  btn.type='button';btn.className='sectoggle';btn.setAttribute('aria-label','收合 / 展開');
+  btn.innerHTML='<i class="fa-solid fa-chevron-down"></i>';
+  btn.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();setSectionCollapsed(sec,!sec.classList.contains('collapsed'));});
+  if(title)title.insertBefore(btn,title.firstChild);
+  hd.addEventListener('click',function(e){
+    if(e.target.closest('.sn'))return;
+    setSectionCollapsed(sec,!sec.classList.contains('collapsed'));
+  });
+  var collapsed=false;
+  try{collapsed=localStorage.getItem(sectionStateKey(sec.id))==='1';}catch(e){}
+  setSectionCollapsed(sec,collapsed);
+});
+links.forEach(l=>l.addEventListener('click',e=>{e.preventDefault();const t=document.getElementById(l.dataset.t);if(t){if(t.classList.contains('collapsed'))setSectionCollapsed(t,false);t.scrollIntoView({behavior:'smooth',block:'start'});}}));
 const secs=links.map(l=>document.getElementById(l.dataset.t));
 const obs=new IntersectionObserver(es=>{es.forEach(en=>{if(en.isIntersecting){links.forEach(l=>l.classList.toggle('on',l.dataset.t===en.target.id));}});},{rootMargin:'-30% 0px -60% 0px'});
 secs.forEach(x=>x&&obs.observe(x));
