@@ -51,6 +51,11 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 
+try:
+    from profile_config import load_profile, profile_paths
+except ImportError:  # pragma: no cover
+    from scripts.profile_config import load_profile, profile_paths
+
 SCRIPT_DIR = Path(__file__).resolve().parent
 DATA_DIR = SCRIPT_DIR.parent / "data"
 EXTRACTED = DATA_DIR / "extracted.json"
@@ -149,7 +154,19 @@ def editorial(sym, tmap):
 
 
 def main():
-    argparse.ArgumentParser().parse_args()   # no flags needed anymore (no windows to anchor)
+    global EXTRACTED, RAW, TMAP, DB_DIR, STOCKS_DIR, INDEX_PATH, REVIEW_PATH
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--profile", default=None)
+    args = ap.parse_args()
+    if args.profile:
+        paths = profile_paths(load_profile(args.profile))
+        EXTRACTED = paths["extracted"]
+        RAW = paths["raw_tweets"]
+        TMAP = paths["ticker_map"]
+        DB_DIR = paths["data_dir"]
+        STOCKS_DIR = paths["stocks_dir"]
+        INDEX_PATH = DB_DIR / "index.json"
+        REVIEW_PATH = paths["ticker_review"]
 
     extracted = load_json(EXTRACTED, {})
     raw_list = load_json(RAW, [])

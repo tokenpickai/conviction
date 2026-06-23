@@ -104,6 +104,17 @@ SYSTEM_PROMPT = """你是一位投資研究寫手。你的任務不是給投資�
 """
 
 
+def profile_text(text, profile):
+    name = profile.get("display_name") or profile.get("handle") or "作者"
+    handle = (profile.get("handle") or "").lstrip("@")
+    pronoun = profile.get("pronoun_zh") or "作者"
+    return (
+        text.replace("Serenity", name)
+        .replace("@aleabitoreddit", f"@{handle}" if handle else name)
+        .replace("她", pronoun)
+    )
+
+
 def load_json(path, default):
     if path.exists():
         return json.loads(path.read_text(encoding="utf-8"))
@@ -359,9 +370,10 @@ def main():
     ap.add_argument("--out", help="write report to this path instead of data/reports/{TICKER}.json")
     ap.add_argument("--dry-run", action="store_true", help="print prompt size and curated post IDs without calling the model")
     args = ap.parse_args()
-    paths = profile_paths(load_profile(args.profile)) if args.profile else None
-    stocks_dir = paths["stocks_dir"] if paths else STOCKS_DIR
-    reports_dir = paths["reports_dir"] if paths else REPORTS_DIR
+    profile = load_profile(args.profile)
+    paths = profile_paths(profile)
+    stocks_dir = paths["stocks_dir"]
+    reports_dir = paths["reports_dir"]
 
     ticker = args.ticker.upper()
     stock_path = stocks_dir / f"{ticker}.json"
@@ -373,11 +385,11 @@ def main():
     mentions = curate_mentions(stock, args.max_items)
     print(f"Curated {len(mentions)} evidence posts from {stock.get('total_mentions')} mentions.")
     if args.mode == "fast":
-        prompt = build_fast_prompt(stock, mentions, min(args.text_limit, 700))
-        system_prompt = FAST_SYSTEM_PROMPT
+        prompt = profile_text(build_fast_prompt(stock, mentions, min(args.text_limit, 700)), profile)
+        system_prompt = profile_text(FAST_SYSTEM_PROMPT, profile)
     else:
-        prompt = build_prompt(stock, mentions, args.text_limit)
-        system_prompt = SYSTEM_PROMPT
+        prompt = profile_text(build_prompt(stock, mentions, args.text_limit), profile)
+        system_prompt = profile_text(SYSTEM_PROMPT, profile)
     print(f"Prompt size: {len(prompt):,} chars; model={args.model}; max_tokens={args.max_tokens}; timeout={args.timeout}s.")
     if args.dry_run:
         for m in mentions:

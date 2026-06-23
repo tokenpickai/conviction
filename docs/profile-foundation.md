@@ -14,11 +14,17 @@ Profiles live in `profiles/*.json`. Each profile controls the public dashboard i
 - `slug`: URL folder under the portal, for example `serenity`
 - `display_name`: public profile name
 - `handle`: X handle without `@`
+- `pronoun_zh`: Traditional Chinese pronoun used in generated memos, for example `她`
 - `x_url`: profile URL
 - `avatar`: path copied from the shared `assets/` folder
 - `dashboard.output_prefix`: generated HTML filename prefix
 - `dashboard.data_dir`: profile database folder
 - `dashboard.reports_dir`: profile investment memo folder
+- `dashboard.raw_tweets`: fetched X posts
+- `dashboard.fetch_state`: incremental X cursor/state
+- `dashboard.extracted`: per-post AI extraction output
+- `dashboard.ticker_map`: ticker metadata and exchange mapping
+- `dashboard.prices_cache`: profile price cache
 
 ## Before Adding Profile #2
 
@@ -32,4 +38,14 @@ Use Serenity as the boilerplate, but give the new profile separate data paths be
 - `data/<slug>/report_generation_failures.json`
 - `data/<slug>/reason_translations.json`
 
-The portal, renderer, investment memo queue, update detection, report generation, validation, audits, and scheduled report workflows are profile-aware now. The remaining work before a second profile is making ingestion/extraction/build-db consistently accept profile-scoped raw tweet and database paths.
+The portal, ingestion, extraction, database build, pricing, renderer, investment memo queue, update detection, report generation, validation, audits, and scheduled workflows are profile-aware.
+
+Before adding profile #2, create its profile JSON and seed a profile-specific `ticker_map.json`. Then run:
+
+```bash
+python scripts/fetch_tweets.py --profile <slug>
+python scripts/extract.py --profile <slug>
+python scripts/build_db.py --profile <slug>
+python scripts/verify_data.py --profile <slug>
+python scripts/build_site.py
+```

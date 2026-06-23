@@ -21,6 +21,8 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 REPORTS_DIR = DATA_DIR / "reports"
 DEFAULT_CANDIDATES = DATA_DIR / "report_update_candidates.json"
+ACTIVE_PROFILE_NAME = "Serenity"
+ACTIVE_PROFILE_SLUG = "serenity"
 
 ACTIONABLE = {"update_candidate", "regeneration_candidate"}
 LOW_SIGNAL_TYPES = {"background", "watchlist", "list", "comparison"}
@@ -123,9 +125,9 @@ def generic_copy(ticker, posts):
     reason_text = "、".join(reasons[:3]) if reasons else "新增貼文提供了比一般提及更高的投資論點訊號"
     return {
         "title": f"{ticker} 出現新的投資論點驗證訊號",
-        "summary": f"Serenity 最新貼文對 ${ticker} 提供了新的高訊號資訊：{reason_text}。目前較適合視為原報告的補充更新，而不是完整投資論點重寫。",
+        "summary": f"{ACTIVE_PROFILE_NAME} 最新貼文對 ${ticker} 提供了新的高訊號資訊：{reason_text}。目前較適合視為原報告的補充更新，而不是完整投資論點重寫。",
         "bullets": [
-            "此更新由最新 Serenity 貼文自動產生，僅收錄明確立場或高訊號內容。",
+            f"此更新由最新 {ACTIVE_PROFILE_NAME} 貼文自動產生，僅收錄明確立場或高訊號內容。",
             f"新增訊號：{reason_text}。",
             "若後續出現立場反轉、重大風險或多篇高訊號貼文，才應進入完整報告重寫流程。",
         ],
@@ -166,7 +168,8 @@ def build_update(ticker, candidate, posts):
         tweet_id = str(post.get("tweet_id") or "")
         if tweet_id and tweet_id not in source_ids:
             source_ids.append(tweet_id)
-    copy = TICKER_COPY.get(ticker) or generic_copy(ticker, posts)
+    copy = TICKER_COPY.get(ticker) if ACTIVE_PROFILE_SLUG == "serenity" else None
+    copy = copy or generic_copy(ticker, posts)
     return {
         "date": max_post_date(posts),
         "importance": candidate.get("importance") or "medium",
@@ -227,6 +230,7 @@ def apply_candidates(candidates_path, reports_dir, dry_run=False):
 
 
 def main():
+    global ACTIVE_PROFILE_NAME, ACTIVE_PROFILE_SLUG
     ap = argparse.ArgumentParser()
     ap.add_argument("--profile", default=None)
     ap.add_argument("--candidates", default=str(DEFAULT_CANDIDATES))
@@ -234,7 +238,10 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
     if args.profile:
-        paths = profile_paths(load_profile(args.profile))
+        profile = load_profile(args.profile)
+        paths = profile_paths(profile)
+        ACTIVE_PROFILE_NAME = profile.get("display_name") or ACTIVE_PROFILE_NAME
+        ACTIVE_PROFILE_SLUG = profile.get("slug") or ACTIVE_PROFILE_SLUG
         args.candidates = str(paths["report_update_candidates"])
         args.reports = str(paths["reports_dir"])
 

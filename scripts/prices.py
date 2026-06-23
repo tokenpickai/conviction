@@ -48,6 +48,11 @@ import time
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
+try:
+    from profile_config import load_profile, profile_paths
+except ImportError:  # pragma: no cover
+    from scripts.profile_config import load_profile, profile_paths
+
 SCRIPT_DIR = Path(__file__).resolve().parent
 DATA_DIR = SCRIPT_DIR.parent / "data"
 DB_DIR = DATA_DIR / "db"
@@ -261,13 +266,23 @@ def provider_test(args):
 
 # --------------------------------------------------------------------------- main
 def main():
+    global DATA_DIR, DB_DIR, STOCKS_DIR, INDEX_PATH, TMAP_PATH, CACHE_DIR
     ap = argparse.ArgumentParser()
+    ap.add_argument("--profile", default=None)
     ap.add_argument("--ticker", default="", help="only this ticker (test)")
     ap.add_argument("--min-mentions", type=int, default=DEFAULT_MIN_MENTIONS)
     ap.add_argument("--asof", default="", help="pin 'today' for the 90d window + freshness (YYYY-MM-DD)")
     ap.add_argument("--force", action="store_true", help="ignore cache; full re-fetch from first_mention")
     ap.add_argument("--provider-test", action="store_true", help="just check akshare connectivity")
     args = ap.parse_args()
+    if args.profile:
+        paths = profile_paths(load_profile(args.profile))
+        DB_DIR = paths["data_dir"]
+        DATA_DIR = DB_DIR.parent
+        STOCKS_DIR = paths["stocks_dir"]
+        INDEX_PATH = DB_DIR / "index.json"
+        TMAP_PATH = paths["ticker_map"]
+        CACHE_DIR = paths["prices_cache"]
 
     if args.provider_test:
         provider_test(args)

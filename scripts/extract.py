@@ -38,10 +38,16 @@ Run:
 import argparse
 import json
 import os
+import re
 import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+
+try:
+    from profile_config import load_profile, profile_paths
+except ImportError:  # pragma: no cover
+    from scripts.profile_config import load_profile, profile_paths
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 DATA_DIR = SCRIPT_DIR.parent / "data"
@@ -128,9 +134,20 @@ Output ONLY valid JSON, no prose, no markdown fences. Schema:
 Every input tweet_id MUST appear exactly once in results."""
 
 
+def profile_system_prompt(profile):
+    handle = (profile.get("handle") or OWNER).lstrip("@")
+    name = profile.get("display_name") or handle
+    prompt = SYSTEM_PROMPT.replace("@aleabitoreddit", f"@{handle}").replace('alias "Serenity"', f'alias "{name}"')
+    prompt = re.sub(r"\bHIS\b", "THE AUTHOR'S", prompt)
+    prompt = re.sub(r"\bHE\b", "THE AUTHOR", prompt)
+    prompt = re.sub(r"\bhis\b", "the author's", prompt)
+    prompt = re.sub(r"\bhe\b", "the author", prompt)
+    return prompt
+
+
 def build_user_message(convo_tweets):
-    """Render one conversation's tweets (his only) as the user message."""
-    lines = ["Here are HIS tweets from one conversation, in order:\n"]
+    """Render one conversation's author tweets as the user message."""
+    lines = ["Here are THE AUTHOR'S tweets from one conversation, in order:\n"]
     for t in convo_tweets:
         kind = t.get("kind")
         rt = t.get("in_reply_to_username")
@@ -247,11 +264,20 @@ def call_model(client, model, convo_tweets):
 
 # --------------------------------------------------------------------------- main
 def main():
+    global RAW_PATH, OUT_PATH, OWNER, SYSTEM_PROMPT
     ap = argparse.ArgumentParser()
+    ap.add_argument("--profile", default=None)
     ap.add_argument("--limit", type=int, default=0, help="only process first N tweets (test)")
     ap.add_argument("--since", default="", help="only process tweets created on/after this date, YYYY-MM-DD (e.g. 2026-02-01)")
     ap.add_argument("--model", default=DEFAULT_MODEL)
     args = ap.parse_args()
+    if args.profile:
+        profile = load_profile(args.profile)
+        paths = profile_paths(profile)
+        RAW_PATH = paths["raw_tweets"]
+        OUT_PATH = paths["extracted"]
+        OWNER = (profile.get("handle") or OWNER).lstrip("@")
+        SYSTEM_PROMPT = profile_system_prompt(profile)
 
     raw = load_json(RAW_PATH, [])
     if not raw:

@@ -40,6 +40,11 @@ from pathlib import Path
 
 import requests
 
+try:
+    from profile_config import load_profile, profile_paths
+except ImportError:  # pragma: no cover
+    from scripts.profile_config import load_profile, profile_paths
+
 # ----------------------------------------------------------------------------- config
 API_BASE = "https://api.x.com/2"
 DEFAULT_USER = "aleabitoreddit"
@@ -464,14 +469,26 @@ def fetch(username: str, backfill: bool, days: int | None = None) -> None:
 
 
 def main():
+    global RAW_PATH, STATE_PATH
     ap = argparse.ArgumentParser(description="Fetch @user tweets via X API v2")
-    ap.add_argument("--user", default=DEFAULT_USER, help="screen name (no @)")
+    ap.add_argument("--profile", default=None)
+    ap.add_argument("--user", default=None, help="screen name (no @); overrides profile handle")
     ap.add_argument("--backfill", action="store_true",
                     help="ignore saved state and pull full history")
     ap.add_argument("--days", type=int,
                     help="fetch recent tweets from the last N days and enrich existing records")
     args = ap.parse_args()
-    fetch(args.user, args.backfill, args.days)
+    if args.profile:
+        profile = load_profile(args.profile)
+        paths = profile_paths(profile)
+        RAW_PATH = paths["raw_tweets"]
+        STATE_PATH = paths["fetch_state"]
+        username = args.user or (profile.get("handle") or "").lstrip("@")
+    else:
+        username = args.user or DEFAULT_USER
+    if not username:
+        ap.error("profile handle or --user is required")
+    fetch(username, args.backfill, args.days)
 
 
 if __name__ == "__main__":

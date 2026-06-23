@@ -1525,7 +1525,8 @@ def build():
       'dd_first_mention','dd_last_mention','dd_total','dd_first_px','dd_today','freq_7d','freq_28d',
       'dd_reasons_bull','dd_reasons_risk','dd_newest_first','dd_no_bull','dd_no_risk',
       'dd_all_posts','dd_posts_meta','dd_show_more','count_unit']
-    i18n_js='<script>var I18N='+json.dumps({k:t(k) for k in JS_KEYS},ensure_ascii=False)+';function I(k,o){var s=I18N[k]||k;if(o)for(var p in o)s=s.split("{"+p+"}").join(o[p]);return s;}</script>'
+    i18n_values={k:t(k).replace('Serenity',PROFILE_NAME) for k in JS_KEYS}
+    i18n_js='<script>var I18N='+json.dumps(i18n_values,ensure_ascii=False)+';function I(k,o){var s=I18N[k]||k;if(o)for(var p in o)s=s.split("{"+p+"}").join(o[p]);return s;}</script>'
     script='''<script>
 const links=[...document.querySelectorAll('.navlink')];
 function sectionStateKey(id){return 'serenity-section-collapsed:'+id;}
@@ -1653,7 +1654,7 @@ function reportHtml(r,postMap,tk){
   var secs=(r.sections||[]).map(function(s){return '<section class="thesis-sec"><h3>'+esc(s.heading||'')+'</h3>'+paras(s.body)+cites(s.citations)+'</section>';}).join('');
   var summary=paras(r.one_minute_summary);
   var final=paras(r.final_takeaway);
-  return updateHtml()+'<article class="thesis"><div class="thesis-kicker">SERENITY $'+esc(tk)+' 投資論點</div><h2 class="thesis-title">'+glossText(r.title||'')+'</h2><div class="thesis-sub">'+glossText(r.subtitle||'')+'</div>'+(r.core_label?'<div class="thesis-core">'+glossText(r.core_label)+'</div>':'')+(summary?'<div class="thesis-summary">'+summary+'</div>':'')+secs+(final?'<section class="thesis-final"><h3>最後結論</h3>'+final+'</section>':'')+'</article>';
+  return updateHtml()+'<article class="thesis"><div class="thesis-kicker">'+esc(PROFILE.name.toUpperCase())+' $'+esc(tk)+' 投資論點</div><h2 class="thesis-title">'+glossText(r.title||'')+'</h2><div class="thesis-sub">'+glossText(r.subtitle||'')+'</div>'+(r.core_label?'<div class="thesis-core">'+glossText(r.core_label)+'</div>':'')+(summary?'<div class="thesis-summary">'+summary+'</div>':'')+secs+(final?'<section class="thesis-final"><h3>最後結論</h3>'+final+'</section>':'')+'</article>';
 }
 function renderDD(tk){
   var d=window.DD_DATA&&DD_DATA[tk];
@@ -1860,7 +1861,7 @@ function renderDD(tk){
     'CPO related name he likes':'Serenity 喜歡的 CPO 相關標的',
     "if Chinese suppliers stop selling 6N polycrystal, Coherent's laser and transceiver business effectively hits a wall":'如果中國供應商停止出售 6N 多晶材料，Coherent 的雷射與 transceiver 業務可能直接撞牆',
     'categorized as compounder':'被歸類為較穩健的 compounder'
-  };return m[s]||s;}
+  };return (m[s]||s).split('Serenity').join(PROFILE.name);}
   function mkR(a,empty,cls){if(!a||!a.length)return '<li class="empty">'+empty+'</li>';return a.map(function(r){return '<li><span class="rdot '+cls+'"></span><span class="rt">'+(zh?glossText(zhReasonText(r[0])):esc(r[0]))+'</span><a class="rsrc" href="'+r[1]+'" target="_blank" rel="noopener">'+r[2]+' <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>';}).join('');}
   function postTag(t){if(!zh)return t.tag;var m={'Bullish':Z.bull,'Bearish':Z.bear,'Neutral':Z.neutral,'Background':Z.background,'Analogy':Z.analogy,'Quote':Z.quote,'Mention':Z.mention};return m[t.tag]||t.tag;}
   function postRow(t,hidden){var fb=t.first?'<span class="prtag first">'+(zh?Z.initial:I18N.post_initial)+'</span>':'<span class="prtag first ghost">'+(zh?Z.initial:I18N.post_initial)+'</span>';var more=t.cut?' <span class="prmore">... '+I18N.dd_show_more+'</span>':'';return '<a class="prow '+(hidden?'hidden':'')+'" href="'+t.url+'" target="_blank" rel="noopener"><span class="prd">'+t.d+'</span><span class="prtag '+t.st+'">'+postTag(t)+'</span>'+fb+'<div class="prtx">'+fmtPostText(t.text)+more+' <span class="prlk"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>'+mediaHtml(t.media)+'</div></a>';}

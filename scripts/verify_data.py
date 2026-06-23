@@ -5,6 +5,11 @@ Default db path: ../data/db (relative to this script)
 import json, glob, os, sys, datetime
 from pathlib import Path
 
+try:
+    from profile_config import load_profile, profile_paths
+except ImportError:  # pragma: no cover
+    from scripts.profile_config import load_profile, profile_paths
+
 # Ensure emoji/unicode prints safely on Windows (GBK terminals)
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -18,8 +23,14 @@ def _argval(flag,default=None):
     return default
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-_db_override = _argval('--db') or os.environ.get('SERENITY_DB')
-DB = Path(_db_override).resolve() if _db_override else SCRIPT_DIR.parent / 'data' / 'db'
+_profile_arg = _argval('--profile')
+_db_override = _argval('--db') or os.environ.get('CONVICTION_DB') or os.environ.get('SERENITY_DB')
+if _db_override:
+    DB = Path(_db_override).resolve()
+elif _profile_arg:
+    DB = profile_paths(load_profile(_profile_arg))['data_dir']
+else:
+    DB = SCRIPT_DIR.parent / 'data' / 'db'
 STOCKS_DIR = DB / 'stocks'
 
 print(f"DB path: {DB}")
