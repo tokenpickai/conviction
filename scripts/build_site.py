@@ -52,9 +52,7 @@ def portal_html():
     main{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:48px 20px}
     .wrap{width:min(860px,100%)}
     .eyebrow{font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:800;color:var(--accent);letter-spacing:.04em;text-transform:uppercase}
-    h1{font-size:clamp(36px,7vw,68px);line-height:.95;margin:12px 0 14px;letter-spacing:0}
-    p{font-size:16px;line-height:1.7;color:var(--muted);max-width:620px;margin:0 0 28px}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:28px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:18px}
     a.card{display:flex;align-items:center;gap:14px;text-decoration:none;color:inherit;border:1px solid var(--line);background:var(--card);border-radius:10px;padding:16px;transition:border-color .16s ease,box-shadow .16s ease,transform .16s ease}
     a.card:hover{transform:translateY(-2px);border-color:rgba(31,92,77,.35);box-shadow:0 18px 34px -28px rgba(31,92,77,.9)}
     img{width:52px;height:52px;border-radius:50%;object-fit:cover;border:1px solid var(--line)}
@@ -65,9 +63,7 @@ def portal_html():
 <body>
   <main>
     <div class="wrap">
-      <div class="eyebrow">Curated X conviction dashboards</div>
-      <h1>X Conviction</h1>
-      <p>AI-assisted research dashboards for curated public X profiles, organized around ticker mentions, thesis history, and signal strength.</p>
+      <div class="eyebrow">精選 X 投資觀點追蹤</div>
       <div class="grid">
         <a class="card" href="./serenity/">
           <img src="./serenity/assets/serenity-avatar.jpg" alt="Serenity avatar">
