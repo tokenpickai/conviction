@@ -8,6 +8,7 @@ database rather than calling an LLM, so it can run during hourly sync.
 
 import argparse
 import json
+import re
 from collections import Counter
 from pathlib import Path
 
@@ -24,6 +25,25 @@ DEFAULT_OUT = DATA_DIR / "report_queue.json"
 UPDATE_CANDIDATES = DATA_DIR / "report_update_candidates.json"
 
 LOW_SIGNAL_TYPES = {"watchlist", "list", "comparison", "background"}
+BROAD_PLATFORM_TICKERS = {
+    "AAPL",
+    "AMZN",
+    "GOOG",
+    "GOOGL",
+    "META",
+    "MSFT",
+    "ORCL",
+    "TSLA",
+}
+AI_RELEVANCE_RE = re.compile(
+    r"\b("
+    r"ai|artificial intelligence|aws|azure|google cloud|cloud|gpu|compute|"
+    r"data ?center|datacenter|capex|hyperscaler|llm|frontier model|"
+    r"trainium|inferentia|maia|asic|custom silicon|robotics|robot|"
+    r"accelerator|inference|llama|openai"
+    r")\b",
+    re.IGNORECASE,
+)
 
 
 def load_json(path, default):
@@ -56,6 +76,25 @@ def compact(text, limit=220):
     if len(text) <= limit:
         return text
     return text[: limit - 1].rstrip() + "…"
+
+
+def mention_text(mention):
+    return f"{mention.get('text') or ''}\n{' '.join(mention.get('reasons') or [])}"
+
+
+def is_ai_relevant_mention(mention):
+    return bool(AI_RELEVANCE_RE.search(mention_text(mention)))
+
+
+def ai_relevance_metrics(mentions, substantive):
+    ai_mentions = [m for m in substantive if is_ai_relevant_mention(m)]
+    ai_days = {m.get("date") for m in ai_mentions if m.get("date")}
+    ai_explicit = [m for m in ai_mentions if m.get("mention_type") == "explicit_stance"]
+    return {
+        "ai_substantive_posts": len(ai_mentions),
+        "ai_explicit_posts": len(ai_explicit),
+        "ai_mention_days": len(ai_days),
+    }
 
 
 def report_files(reports_dir):
@@ -95,12 +134,11 @@ def score_stock(stock):
     stances = Counter((m.get("stance") or "unknown") for m in mentions)
     mention_types = Counter((m.get("mention_type") or "unknown") for m in mentions)
 
-    combined_text = "\n".join(
-        f"{m.get('text') or ''}\n{' '.join(m.get('reasons') or [])}"
-        for m in mentions
-    )
+    combined_text = "\n".join(mention_text(m) for m in mentions)
     term_score, hits = term_hits(combined_text)
     term_bonus = min(90, term_score // 3)
+    ai_relevance = ai_relevance_metrics(mentions, substantive)
+    broad_platform = (stock.get("ticker") or "").upper() in BROAD_PLATFORM_TICKERS
 
     score = 0
     score += sum(top_scores[:12])
@@ -130,10 +168,21 @@ def score_stock(stock):
         score -= 80
 
     top_mentions = sorted(mentions, key=mention_score, reverse=True)[:6]
-    reasons = build_reasons(stock, mentions, explicit, substantive, risks, high_conviction, hits)
+    reasons = build_reasons(
+        stock,
+        mentions,
+        explicit,
+        substantive,
+        risks,
+        high_conviction,
+        hits,
+        ai_relevance if broad_platform else None,
+    )
 
     return {
         "score": int(score),
+        "broad_platform": broad_platform,
+        "ai_relevance": ai_relevance,
         "mentions": mentions,
         "unique_days": len(dates),
         "explicit_count": len(explicit),
@@ -147,7 +196,7 @@ def score_stock(stock):
     }
 
 
-def build_reasons(stock, mentions, explicit, substantive, risks, high_conviction, hits):
+def build_reasons(stock, mentions, explicit, substantive, risks, high_conviction, hits, ai_relevance=None):
     reasons = []
     total = len(mentions)
     days = len({m.get("date") for m in mentions if m.get("date")})
@@ -163,6 +212,12 @@ def build_reasons(stock, mentions, explicit, substantive, risks, high_conviction
         reasons.append(f"{len(risks)} risk/caution posts")
     if hits:
         reasons.append("high-signal terms: " + ", ".join(hits[:6]))
+    if ai_relevance:
+        reasons.append(
+            "AI-relevant gate: "
+            f"{ai_relevance['ai_substantive_posts']} substantive posts across "
+            f"{ai_relevance['ai_mention_days']} days"
+        )
     if stock.get("last_mention"):
         reasons.append(f"latest mention {stock.get('last_mention')}")
     return reasons[:7]
@@ -181,6 +236,16 @@ def classify_report_need(metrics, has_report, update_status=None):
     days = metrics["unique_days"]
     explicit = metrics["explicit_count"]
     total = len(metrics["mentions"])
+
+    if metrics.get("broad_platform"):
+        ai = metrics.get("ai_relevance") or {}
+        ai_posts = ai.get("ai_substantive_posts") or 0
+        ai_days = ai.get("ai_mention_days") or 0
+        ai_explicit = ai.get("ai_explicit_posts") or 0
+        if ai_posts < 6 or ai_days < 4 or ai_explicit < 2:
+            if ai_posts >= 3 and ai_days >= 2:
+                return "candidate", "low"
+            return "no_report", "none"
 
     if score >= 520 and substantive >= 8 and days >= 4 and explicit >= 3:
         return "needs_report", "high"
@@ -205,7 +270,7 @@ def queue_item(stock, metrics, status, priority, has_report):
             "text_preview": compact(mention.get("text"), 220),
         })
 
-    return {
+    item = {
         "ticker": stock.get("ticker"),
         "company": stock.get("company"),
         "market": stock.get("exchange"),
@@ -227,6 +292,10 @@ def queue_item(stock, metrics, status, priority, has_report):
         "why": metrics["reasons"],
         "evidence": evidence,
     }
+    if metrics.get("broad_platform"):
+        item["broad_platform"] = True
+        item["ai_relevance"] = metrics.get("ai_relevance") or {}
+    return item
 
 
 def build_queue(stocks_dir=STOCKS_DIR, reports_dir=REPORTS_DIR, update_candidates_path=UPDATE_CANDIDATES, include_existing=True):

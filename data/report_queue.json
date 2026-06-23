@@ -1,5 +1,5 @@
 {
-  "data_generated_at": "2026-06-21T22:46:14.507880+00:00",
+  "data_generated_at": "2026-06-23T08:54:40.809178+00:00",
   "existing_reports": [
     {
       "company": "Nebius",
@@ -1779,6 +1779,12 @@
   ],
   "next_reports": [
     {
+      "ai_relevance": {
+        "ai_explicit_posts": 22,
+        "ai_mention_days": 75,
+        "ai_substantive_posts": 102
+      },
+      "broad_platform": true,
       "company": "Amazon",
       "evidence": [
         {
@@ -1911,7 +1917,7 @@
         "8 high-conviction mentions",
         "2 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bottleneck",
-        "latest mention 2026-06-16"
+        "AI-relevant gate: 102 substantive posts across 75 days"
       ]
     },
     {
@@ -2043,6 +2049,12 @@
       ]
     },
     {
+      "ai_relevance": {
+        "ai_explicit_posts": 34,
+        "ai_mention_days": 70,
+        "ai_substantive_posts": 99
+      },
+      "broad_platform": true,
       "company": "Meta",
       "evidence": [
         {
@@ -2177,7 +2189,7 @@
         "25 high-conviction mentions",
         "7 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
-        "latest mention 2026-06-19"
+        "AI-relevant gate: 99 substantive posts across 70 days"
       ]
     },
     {
@@ -2583,6 +2595,12 @@
       ]
     },
     {
+      "ai_relevance": {
+        "ai_explicit_posts": 41,
+        "ai_mention_days": 57,
+        "ai_substantive_posts": 91
+      },
+      "broad_platform": true,
       "company": "Oracle",
       "evidence": [
         {
@@ -2715,7 +2733,7 @@
         "4 high-conviction mentions",
         "47 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
-        "latest mention 2026-06-16"
+        "AI-relevant gate: 91 substantive posts across 57 days"
       ]
     },
     {
@@ -3926,6 +3944,12 @@
       ]
     },
     {
+      "ai_relevance": {
+        "ai_explicit_posts": 16,
+        "ai_mention_days": 81,
+        "ai_substantive_posts": 107
+      },
+      "broad_platform": true,
       "company": "Alphabet",
       "evidence": [
         {
@@ -4048,6 +4072,7 @@
         "152 substantive thesis-like posts",
         "3 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
+        "AI-relevant gate: 107 substantive posts across 81 days",
         "latest mention 2026-06-16"
       ]
     },
@@ -4959,6 +4984,12 @@
       ]
     },
     {
+      "ai_relevance": {
+        "ai_explicit_posts": 10,
+        "ai_mention_days": 85,
+        "ai_substantive_posts": 123
+      },
+      "broad_platform": true,
       "company": "Microsoft",
       "evidence": [
         {
@@ -5078,6 +5109,7 @@
         "155 substantive thesis-like posts",
         "2 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
+        "AI-relevant gate: 123 substantive posts across 85 days",
         "latest mention 2026-06-19"
       ]
     },
@@ -8387,6 +8419,12 @@
       ]
     },
     {
+      "ai_relevance": {
+        "ai_explicit_posts": 5,
+        "ai_mention_days": 21,
+        "ai_substantive_posts": 21
+      },
+      "broad_platform": true,
       "company": "Tesla",
       "evidence": [
         {
@@ -8508,7 +8546,7 @@
         "1 high-conviction mentions",
         "2 risk/caution posts",
         "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
-        "latest mention 2026-06-08"
+        "AI-relevant gate: 21 substantive posts across 21 days"
       ]
     },
     {
@@ -11888,119 +11926,6 @@
         "1 risk/caution posts",
         "high-signal terms: amazon, amzn, conviction, dilution, export control, holding",
         "latest mention 2025-11-12"
-      ]
-    },
-    {
-      "company": "Apple",
-      "evidence": [
-        {
-          "date": "2026-05-28",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 96,
-          "stance": "neutral",
-          "text_preview": "$SIVE is the most compelling CPO/photonics exposure to me. Addressing the disinformation: I haven’t sold and don’t plan to sell a single share. I do think this ends up the next $80B+ $LITE one day from ~$2.1B. And I per…",
-          "tweet_id": "2060002002994971046",
-          "url": "https://x.com/aleabitoreddit/status/2060002002994971046"
-        },
-        {
-          "date": "2026-04-28",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 74,
-          "stance": "neutral",
-          "text_preview": "I'm happy Japanese communities started positions in $SIVE after doing research! A stronger international shareholder base is always positive. As for some thoughts, my read on the market looks like: 1. $NVDA bought out a…",
-          "tweet_id": "2049032343974007088",
-          "url": "https://x.com/aleabitoreddit/status/2049032343974007088"
-        },
-        {
-          "date": "2026-04-29",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 67,
-          "stance": "neutral",
-          "text_preview": "I am now long MSSCorps (6830) ~$1.4B MC This appears to be a functional monopoly in CPO for inspection. But markets might have conflated that with Material/Failure Analysis with MA-tek and iST (oligopoly). For customers…",
-          "tweet_id": "2049655082250314014",
-          "url": "https://x.com/aleabitoreddit/status/2049655082250314014"
-        },
-        {
-          "date": "2026-04-26",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 66,
-          "stance": "neutral",
-          "text_preview": "Agreed, and glad DNB, one of Europe's leading banks, went out to defend $SIVE valuations alongside me. I still think $SIVE can reach $10B MC in 1 year time as their laser growth scales proportionally to: - $AAPL Watches…",
-          "tweet_id": "2048301213943579012",
-          "url": "https://x.com/aleabitoreddit/status/2048301213943579012"
-        },
-        {
-          "date": "2026-04-27",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 55,
-          "stance": "neutral",
-          "text_preview": "Nope, $SIVE thesis is fully in-tact and I still think it's undervalued. Lot of it was based on $JBL 1.6T bridging the gap into CPO ramp. But having $AMD CPO go with $GFS de-risked the company quite a massive amount. The…",
-          "tweet_id": "2048801270337831047",
-          "url": "https://x.com/aleabitoreddit/status/2048801270337831047"
-        },
-        {
-          "date": "2025-12-04",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "current valuations"
-          ],
-          "score": 54,
-          "stance": "bullish",
-          "text_preview": "@Scepticus16 Prob $meta, $amzn, $googl, $nvda, $appl, $msft, $tsla for me in terms of current valuations",
-          "tweet_id": "1996641921561948448",
-          "url": "https://x.com/aleabitoreddit/status/1996641921561948448"
-        }
-      ],
-      "explicit_stance_posts": 3,
-      "first_mention": "2025-09-22",
-      "has_report": false,
-      "high_conviction_posts": 0,
-      "industry": null,
-      "last_mention": "2026-06-18",
-      "market": "US",
-      "priority": "high",
-      "report_score": 1444,
-      "risk_posts": 0,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "amzn",
-        "ban",
-        "bearish",
-        "bottleneck",
-        "capacity",
-        "chokepoint",
-        "confirmed",
-        "conviction",
-        "gfs",
-        "globalfoundries",
-        "holding",
-        "hyperscaler",
-        "jabil",
-        "jbl",
-        "lawsuit"
-      ],
-      "stance_counts": {
-        "bullish": 3,
-        "neutral": 77
-      },
-      "status": "needs_report",
-      "substantive_posts": 27,
-      "ticker": "AAPL",
-      "total_mentions": 80,
-      "unique_mention_days": 48,
-      "why": [
-        "80 total mentions across 48 days",
-        "3 explicit stance posts",
-        "27 substantive thesis-like posts",
-        "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
-        "latest mention 2026-06-18"
       ]
     },
     {
@@ -24005,6 +23930,126 @@
       ]
     },
     {
+      "ai_relevance": {
+        "ai_explicit_posts": 0,
+        "ai_mention_days": 13,
+        "ai_substantive_posts": 13
+      },
+      "broad_platform": true,
+      "company": "Apple",
+      "evidence": [
+        {
+          "date": "2026-05-28",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 96,
+          "stance": "neutral",
+          "text_preview": "$SIVE is the most compelling CPO/photonics exposure to me. Addressing the disinformation: I haven’t sold and don’t plan to sell a single share. I do think this ends up the next $80B+ $LITE one day from ~$2.1B. And I per…",
+          "tweet_id": "2060002002994971046",
+          "url": "https://x.com/aleabitoreddit/status/2060002002994971046"
+        },
+        {
+          "date": "2026-04-28",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 74,
+          "stance": "neutral",
+          "text_preview": "I'm happy Japanese communities started positions in $SIVE after doing research! A stronger international shareholder base is always positive. As for some thoughts, my read on the market looks like: 1. $NVDA bought out a…",
+          "tweet_id": "2049032343974007088",
+          "url": "https://x.com/aleabitoreddit/status/2049032343974007088"
+        },
+        {
+          "date": "2026-04-29",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 67,
+          "stance": "neutral",
+          "text_preview": "I am now long MSSCorps (6830) ~$1.4B MC This appears to be a functional monopoly in CPO for inspection. But markets might have conflated that with Material/Failure Analysis with MA-tek and iST (oligopoly). For customers…",
+          "tweet_id": "2049655082250314014",
+          "url": "https://x.com/aleabitoreddit/status/2049655082250314014"
+        },
+        {
+          "date": "2026-04-26",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 66,
+          "stance": "neutral",
+          "text_preview": "Agreed, and glad DNB, one of Europe's leading banks, went out to defend $SIVE valuations alongside me. I still think $SIVE can reach $10B MC in 1 year time as their laser growth scales proportionally to: - $AAPL Watches…",
+          "tweet_id": "2048301213943579012",
+          "url": "https://x.com/aleabitoreddit/status/2048301213943579012"
+        },
+        {
+          "date": "2026-04-27",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 55,
+          "stance": "neutral",
+          "text_preview": "Nope, $SIVE thesis is fully in-tact and I still think it's undervalued. Lot of it was based on $JBL 1.6T bridging the gap into CPO ramp. But having $AMD CPO go with $GFS de-risked the company quite a massive amount. The…",
+          "tweet_id": "2048801270337831047",
+          "url": "https://x.com/aleabitoreddit/status/2048801270337831047"
+        },
+        {
+          "date": "2025-12-04",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "current valuations"
+          ],
+          "score": 54,
+          "stance": "bullish",
+          "text_preview": "@Scepticus16 Prob $meta, $amzn, $googl, $nvda, $appl, $msft, $tsla for me in terms of current valuations",
+          "tweet_id": "1996641921561948448",
+          "url": "https://x.com/aleabitoreddit/status/1996641921561948448"
+        }
+      ],
+      "explicit_stance_posts": 3,
+      "first_mention": "2025-09-22",
+      "has_report": false,
+      "high_conviction_posts": 0,
+      "industry": null,
+      "last_mention": "2026-06-18",
+      "market": "US",
+      "priority": "low",
+      "report_score": 1444,
+      "risk_posts": 0,
+      "signal_terms": [
+        "allocation",
+        "amazon",
+        "amd",
+        "amzn",
+        "ban",
+        "bearish",
+        "bottleneck",
+        "capacity",
+        "chokepoint",
+        "confirmed",
+        "conviction",
+        "gfs",
+        "globalfoundries",
+        "holding",
+        "hyperscaler",
+        "jabil",
+        "jbl",
+        "lawsuit"
+      ],
+      "stance_counts": {
+        "bullish": 3,
+        "neutral": 77
+      },
+      "status": "candidate",
+      "substantive_posts": 27,
+      "ticker": "AAPL",
+      "total_mentions": 80,
+      "unique_mention_days": 48,
+      "why": [
+        "80 total mentions across 48 days",
+        "3 explicit stance posts",
+        "27 substantive thesis-like posts",
+        "high-signal terms: allocation, amazon, amd, amzn, ban, bearish",
+        "AI-relevant gate: 13 substantive posts across 13 days",
+        "latest mention 2026-06-18"
+      ]
+    },
+    {
       "company": null,
       "evidence": [
         {
@@ -31121,10 +31166,10 @@
   "stocks_scanned": 972,
   "stocks_skipped": 714,
   "summary": {
-    "candidate": 69,
+    "candidate": 70,
     "has_report": 13,
     "needs_regeneration": 0,
-    "needs_report": 176,
+    "needs_report": 175,
     "needs_update": 0
   },
   "updates_due": []
