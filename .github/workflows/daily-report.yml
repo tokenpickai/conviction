@@ -5,24 +5,27 @@ on:
     - cron: "42 10 * * *"
   workflow_dispatch:
     inputs:
-      cluster:
-        description: "Report cluster to process"
-        required: true
-        default: "photonics"
-        type: choice
-        options:
-          - photonics
-          - neocloud
-          - memory
       limit:
-        description: "Number of reports to generate"
+        description: "Number of investment memos to generate"
         required: true
         default: "1"
       execute:
-        description: "Generate reports instead of previewing"
+        description: "Generate memos instead of previewing"
         required: true
         default: true
         type: boolean
+      mode:
+        description: "Generation mode"
+        required: true
+        default: "fast"
+        type: choice
+        options:
+          - fast
+          - full
+      priorities:
+        description: "Decision priorities to process"
+        required: true
+        default: "high,medium"
 
 concurrency:
   group: daily-report
@@ -43,31 +46,39 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-          python -m pip install playwright
-          python -m playwright install chromium
+        run: pip install -r requirements.txt
 
-      - name: Generate daily report
+      - name: Refresh report decisions
+        run: |
+          python scripts/check_report_updates.py
+          python scripts/build_report_queue.py
+          python scripts/build_report_decisions.py
+
+      - name: Generate investment memo batch
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          cluster="${{ github.event.inputs.cluster || 'photonics' }}"
           limit="${{ github.event.inputs.limit || '1' }}"
           execute="${{ github.event.inputs.execute || 'true' }}"
-          cmd=(python scripts/generate_daily_report.py --cluster "$cluster" --limit "$limit")
-          if [ "$execute" = "true" ]; then
-            cmd+=(--execute)
+          mode="${{ github.event.inputs.mode || 'fast' }}"
+          priorities="${{ github.event.inputs.priorities || 'high,medium' }}"
+          cmd=(python scripts/generate_report_batch.py --limit "$limit" --mode "$mode" --priorities "$priorities")
+          if [ "$execute" != "true" ]; then
+            cmd+=(--dry-run)
           fi
           "${cmd[@]}"
 
-      - name: Audit reports
-        run: python scripts/audit_reports.py
+      - name: Final gates
+        run: |
+          python scripts/validate_reports.py
+          python scripts/audit_reports.py
+          python scripts/audit_reason_translations.py
 
-      - name: Commit generated report
+      - name: Commit generated memo
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.execute == 'true' }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add data/
-          git diff --cached --quiet || git commit -m "Generate daily report $(date -u +%Y-%m-%d)"
+          git diff --cached --quiet || git commit -m "Generate investment memo $(date -u +%Y-%m-%d)"
           git push

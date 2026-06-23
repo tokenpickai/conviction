@@ -126,25 +126,32 @@ To view only the next report backlog:
 jq '.next_reports[:20] | map({ticker, priority, report_score, why})' data/report_queue.json
 ```
 
-To generate the next report from the queue:
+To preview the next automation-ready investment memo without spending API credits:
+
+```bash
+python scripts/generate_report_batch.py --dry-run --limit 5
+```
+
+To generate the next memo from the unified decision layer:
 
 ```bash
 python scripts/generate_report_batch.py --limit 1
 ```
 
-To let the system choose the next ticker inside a topic cluster:
+`generate_report_batch.py` reads `data/report_decisions.json` by default. It processes `write_new_thesis` actions only, uses the guarded single-report generator, translates any new reason snippets, then refreshes report update candidates, queue, decisions, validation, audits, and dashboard rendering.
+
+Existing-report updates are intentionally separate. Hourly sync runs:
 
 ```bash
-python scripts/generate_daily_report.py --cluster photonics
+python scripts/check_report_updates.py
+python scripts/apply_report_updates.py
+python scripts/build_report_queue.py
+python scripts/build_report_decisions.py
 ```
 
-The command above previews the next selection without spending model credits. To generate one report and run the full guarded pipeline:
+This keeps small “new post changed context” updates cheap and deterministic, while full flagship memo generation remains controlled by the daily/manual batch job.
 
-```bash
-python scripts/generate_daily_report.py --cluster photonics --limit 1 --execute
-```
-
-The guarded pipeline:
+The guarded memo pipeline:
 
 - selects the next ticker from the full decision list
 - generates the report
@@ -152,15 +159,14 @@ The guarded pipeline:
 - refreshes report update candidates, queue, and decisions
 - validates reports
 - renders the dashboard
-- audits reason-panel translations
-- browser-smokes report pages
+- audits reports and reason-panel translations
 
 The `daily-report` GitHub workflow can run this manually. Its schedule is guarded by the repo variable `AUTO_DAILY_REPORTS=true`, so scheduled generation stays off until explicitly enabled.
 
-To preview the next batch without spending API credits:
+The older cluster preview command still exists for exploratory work:
 
 ```bash
-python scripts/generate_report_batch.py --dry-run --limit 5
+python scripts/generate_daily_report.py --cluster photonics
 ```
 
 Long-term automation target:
