@@ -50,7 +50,7 @@ def main():
         run([sys.executable, "scripts/build_report_queue.py"])
         run([sys.executable, "scripts/build_report_decisions.py"])
 
-    run([sys.executable, "scripts/serenity_render.py"])
+    run([sys.executable, "scripts/build_site.py"])
     return 0
 
 

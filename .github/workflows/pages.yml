@@ -14,6 +14,7 @@ on:
       - "data/**"
       - "assets/**"
       - "scripts/serenity_render.py"
+      - "scripts/build_site.py"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -45,21 +46,17 @@ jobs:
 
       - name: Render dashboard
         run: |
-          python scripts/serenity_render.py
+          python scripts/build_site.py
           python scripts/audit_reports.py
           python scripts/audit_reason_translations.py
-          mkdir -p public
-          latest="$(ls -t serenity-tracker-*.html | head -n 1)"
-          cp "$latest" public/index.html
-          cp "$latest" "public/$latest"
-          cp -R assets public/assets
-          echo "serenity.xconviction.com" > public/CNAME
+          latest="$(ls -t dist/serenity/serenity-tracker-*.html | head -n 1)"
+          python scripts/smoke_report_render.py --html "$latest"
 
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: public
+          path: dist
 
       - id: deployment
         uses: actions/deploy-pages@v4
