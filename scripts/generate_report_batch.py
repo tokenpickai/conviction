@@ -15,6 +15,11 @@ import subprocess
 import sys
 from pathlib import Path
 
+try:
+    from profile_config import load_profile, profile_paths
+except ImportError:  # pragma: no cover
+    from scripts.profile_config import load_profile, profile_paths
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 QUEUE_PATH = DATA_DIR / "report_queue.json"
@@ -71,7 +76,7 @@ def decision_items(decisions):
     return list(decisions.get("automation_next") or [])
 
 
-def select_queue_items(queue, limit, statuses, priorities, include_existing=False):
+def select_queue_items(queue, limit, statuses, priorities, reports_dir=REPORTS_DIR, include_existing=False):
     selected = []
     statuses = set(statuses)
     priorities = set(priorities)
@@ -85,7 +90,7 @@ def select_queue_items(queue, limit, statuses, priorities, include_existing=Fals
             continue
         if item.get("has_report") and not include_existing:
             continue
-        if (REPORTS_DIR / f"{ticker}.json").exists() and not include_existing:
+        if (reports_dir / f"{ticker}.json").exists() and not include_existing:
             continue
         selected.append(item)
         if len(selected) >= limit:
@@ -93,7 +98,7 @@ def select_queue_items(queue, limit, statuses, priorities, include_existing=Fals
     return selected
 
 
-def select_decision_items(decisions, limit, actions, priorities, include_existing=False):
+def select_decision_items(decisions, limit, actions, priorities, reports_dir=REPORTS_DIR, include_existing=False):
     selected = []
     actions = set(actions)
     priorities = set(priorities)
@@ -107,7 +112,7 @@ def select_decision_items(decisions, limit, actions, priorities, include_existin
             continue
         if item.get("has_report") and not include_existing:
             continue
-        if (REPORTS_DIR / f"{ticker}.json").exists() and not include_existing:
+        if (reports_dir / f"{ticker}.json").exists() and not include_existing:
             continue
         selected.append(item)
         if len(selected) >= limit:
@@ -131,6 +136,8 @@ def legacy_generator_cmd(item, args):
         cmd.extend(["--model", args.model])
     if args.out_dir:
         cmd.extend(["--out", str(Path(args.out_dir) / f"{ticker}.json")])
+    if args.profile:
+        cmd.extend(["--profile", args.profile])
     return cmd
 
 
@@ -138,7 +145,7 @@ def run_legacy_queue_item(item, args, env):
     cmd = legacy_generator_cmd(item, args)
     run(cmd, f"Generate {item['ticker']}", env=env)
     if args.validate:
-        out_path = Path(args.out_dir) / f"{item['ticker']}.json" if args.out_dir else REPORTS_DIR / f"{item['ticker']}.json"
+        out_path = Path(args.out_dir) / f"{item['ticker']}.json" if args.out_dir else args.reports_dir / f"{item['ticker']}.json"
         run([sys.executable, VALIDATOR, out_path], f"Validate {item['ticker']}", env=env)
 
 
@@ -166,11 +173,13 @@ def run_decision_item(item, args, env):
         str(args.timeout),
         "--no-rebuild-queue",
     ]
+    if args.profile:
+        cmd.extend(["--profile", args.profile])
     if args.model:
         cmd.extend(["--model", args.model])
     run(cmd, f"Generate {ticker}", env=env)
     run(
-        [sys.executable, TRANSLATE_REASONS, "--ticker", ticker, "--timeout", str(args.timeout)],
+        [sys.executable, TRANSLATE_REASONS, "--ticker", ticker, "--timeout", str(args.timeout)] + (["--profile", args.profile] if args.profile else []),
         f"Translate {ticker} reason snippets",
         env=env,
     )
@@ -178,13 +187,17 @@ def run_decision_item(item, args, env):
 
 
 def refresh_artifacts(env):
-    run([sys.executable, CHECK_UPDATES], "Check report update candidates", env=env)
-    run([sys.executable, BUILD_QUEUE], "Build report queue", env=env)
-    run([sys.executable, BUILD_DECISIONS], "Build report decisions", env=env)
-    run([sys.executable, VALIDATOR], "Validate reports", env=env)
-    run([sys.executable, AUDIT_REPORTS], "Audit reports", env=env)
-    run([sys.executable, AUDIT_TRANSLATIONS], "Audit reason translations", env=env)
-    run([sys.executable, RENDER], "Render dashboard", env=env)
+    profile_args = ["--profile", refresh_artifacts.profile] if refresh_artifacts.profile else []
+    run([sys.executable, CHECK_UPDATES] + profile_args, "Check report update candidates", env=env)
+    run([sys.executable, BUILD_QUEUE] + profile_args, "Build report queue", env=env)
+    run([sys.executable, BUILD_DECISIONS] + profile_args, "Build report decisions", env=env)
+    run([sys.executable, VALIDATOR] + profile_args, "Validate reports", env=env)
+    run([sys.executable, AUDIT_REPORTS] + profile_args, "Audit reports", env=env)
+    run([sys.executable, AUDIT_TRANSLATIONS] + profile_args, "Audit reason translations", env=env)
+    run([sys.executable, RENDER] + profile_args, "Render dashboard", env=env)
+
+
+refresh_artifacts.profile = None
 
 
 def print_selected(items):
@@ -201,6 +214,7 @@ def print_selected(items):
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--profile", default=None)
     ap.add_argument("--source", choices=["decisions", "queue"], default="decisions")
     ap.add_argument("--decisions", default=str(DECISIONS_PATH))
     ap.add_argument("--queue", default=str(QUEUE_PATH))
@@ -221,6 +235,14 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
     args.validate = not args.no_validate
+    if args.profile:
+        paths = profile_paths(load_profile(args.profile))
+        args.decisions = str(paths["report_decisions"])
+        args.queue = str(paths["report_queue"])
+        args.reports_dir = paths["reports_dir"]
+    else:
+        args.reports_dir = REPORTS_DIR
+    refresh_artifacts.profile = args.profile
 
     priorities = [p.strip() for p in args.priorities.split(",") if p.strip()]
     if args.source == "decisions":
@@ -235,7 +257,7 @@ def main():
             )
             return 1
         actions = [a.strip() for a in args.actions.split(",") if a.strip()]
-        selected = select_decision_items(decisions, args.limit, actions, priorities, args.include_existing)
+        selected = select_decision_items(decisions, args.limit, actions, priorities, args.reports_dir, args.include_existing)
     else:
         queue = load_json(Path(args.queue), None)
         if not queue:
@@ -243,7 +265,7 @@ def main():
             print("Run: python scripts/build_report_queue.py", file=sys.stderr)
             return 1
         statuses = [s.strip() for s in args.statuses.split(",") if s.strip()]
-        selected = select_queue_items(queue, args.limit, statuses, priorities, args.include_existing)
+        selected = select_queue_items(queue, args.limit, statuses, priorities, args.reports_dir, args.include_existing)
 
     if not selected:
         print("No eligible report items.")

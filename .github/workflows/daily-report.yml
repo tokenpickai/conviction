@@ -50,9 +50,9 @@ jobs:
 
       - name: Refresh report decisions
         run: |
-          python scripts/check_report_updates.py
-          python scripts/build_report_queue.py
-          python scripts/build_report_decisions.py
+          python scripts/check_report_updates.py --profile serenity
+          python scripts/build_report_queue.py --profile serenity
+          python scripts/build_report_decisions.py --profile serenity
 
       - name: Generate investment memo batch
         env:
@@ -62,7 +62,7 @@ jobs:
           execute="${{ github.event.inputs.execute || 'true' }}"
           mode="${{ github.event.inputs.mode || 'fast' }}"
           priorities="${{ github.event.inputs.priorities || 'high,medium' }}"
-          cmd=(python scripts/generate_report_batch.py --limit "$limit" --mode "$mode" --priorities "$priorities")
+          cmd=(python scripts/generate_report_batch.py --profile serenity --limit "$limit" --mode "$mode" --priorities "$priorities")
           if [ "$execute" != "true" ]; then
             cmd+=(--dry-run)
           fi
@@ -70,9 +70,9 @@ jobs:
 
       - name: Final gates
         run: |
-          python scripts/validate_reports.py
-          python scripts/audit_reports.py
-          python scripts/audit_reason_translations.py
+          python scripts/validate_reports.py --profile serenity
+          python scripts/audit_reports.py --profile serenity
+          python scripts/audit_reason_translations.py --profile serenity
 
       - name: Commit generated memo
         if: ${{ github.event_name == 'schedule' || github.event.inputs.execute == 'true' }}

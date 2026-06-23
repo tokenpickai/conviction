@@ -20,6 +20,11 @@ import tempfile
 import time
 from pathlib import Path
 
+try:
+    from profile_config import load_profile, profile_paths
+except ImportError:  # pragma: no cover
+    from scripts.profile_config import load_profile, profile_paths
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 QUEUE_PATH = DATA_DIR / "report_queue.json"
@@ -81,7 +86,7 @@ def queue_items(queue):
     return list(queue.get("next_reports") or [])
 
 
-def select_item(queue, ticker=None, statuses=None, priorities=None):
+def select_item(queue, reports_dir=REPORTS_DIR, ticker=None, statuses=None, priorities=None):
     statuses = set(statuses or ["needs_report"])
     priorities = set(priorities or ["high", "medium"])
     ticker = ticker.upper() if ticker else None
@@ -98,7 +103,7 @@ def select_item(queue, ticker=None, statuses=None, priorities=None):
             continue
         if item.get("has_report"):
             continue
-        if (REPORTS_DIR / f"{item_ticker}.json").exists():
+        if (reports_dir / f"{item_ticker}.json").exists():
             continue
         return item
     return None
@@ -165,6 +170,8 @@ def generator_cmd(args, ticker, out_path):
         "--timeout", str(args.timeout),
         "--out", str(out_path),
     ]
+    if args.profile:
+        cmd.extend(["--profile", args.profile])
     if args.model:
         cmd.extend(["--model", args.model])
     if args.generator_dry_run:
@@ -181,6 +188,7 @@ def publish_report(draft_path, final_path):
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--profile", default=None)
     ap.add_argument("--queue", default=str(QUEUE_PATH))
     ap.add_argument("--ticker", help="override queue order and generate this ticker if eligible")
     ap.add_argument("--statuses", default="needs_report", help="comma-separated statuses")
@@ -196,6 +204,13 @@ def main():
     ap.add_argument("--generator-dry-run", action="store_true", help="call generator dry-run for prompt inspection")
     ap.add_argument("--no-rebuild-queue", action="store_true")
     args = ap.parse_args()
+    if args.profile:
+        paths = profile_paths(load_profile(args.profile))
+        args.queue = str(paths["report_queue"])
+        args.failures = str(paths["report_failures"])
+        reports_dir = paths["reports_dir"]
+    else:
+        reports_dir = REPORTS_DIR
 
     queue = load_json(Path(args.queue), None)
     if not queue:
@@ -205,7 +220,7 @@ def main():
 
     statuses = [s.strip() for s in args.statuses.split(",") if s.strip()]
     priorities = [p.strip() for p in args.priorities.split(",") if p.strip()]
-    item = select_item(queue, ticker=args.ticker, statuses=statuses, priorities=priorities)
+    item = select_item(queue, reports_dir=reports_dir, ticker=args.ticker, statuses=statuses, priorities=priorities)
     if not item:
         print("No eligible report queue item.")
         return 0
@@ -221,7 +236,7 @@ def main():
     if args.dry_run:
         return 0
 
-    final_path = REPORTS_DIR / f"{ticker}.json"
+    final_path = reports_dir / f"{ticker}.json"
     env = load_dotenv()
     with tempfile.TemporaryDirectory(prefix="serenity-report-") as tmp_dir:
         draft_path = Path(tmp_dir) / f"{ticker}.json"
@@ -236,7 +251,10 @@ def main():
             print(f"Published {final_path}")
             clear_ticker_failures(Path(args.failures), ticker)
             if not args.no_rebuild_queue:
-                run([sys.executable, str(QUEUE_BUILDER)], "Rebuild report queue")
+                rebuild_cmd = [sys.executable, str(QUEUE_BUILDER)]
+                if args.profile:
+                    rebuild_cmd.extend(["--profile", args.profile])
+                run(rebuild_cmd, "Rebuild report queue")
         except Exception as exc:
             record_failure(Path(args.failures), ticker, "generate_next_report", exc, item, command=cmd)
             print(f"ERROR: {exc}", file=sys.stderr)

@@ -14,6 +14,11 @@ import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 
+try:
+    from profile_config import load_profile, profile_paths
+except ImportError:  # pragma: no cover
+    from scripts.profile_config import load_profile, profile_paths
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 REPORTS_DIR = DATA_DIR / "reports"
@@ -252,6 +257,7 @@ def result_to_dict(result):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("reports", nargs="*", help="Report JSON paths. Defaults to data/reports/*.json")
+    ap.add_argument("--profile", default=None)
     ap.add_argument("--reports-dir", default=str(REPORTS_DIR))
     ap.add_argument("--stocks-dir", default=str(STOCKS_DIR))
     ap.add_argument("--min-sections", type=int, default=8)
@@ -259,6 +265,10 @@ def main():
     ap.add_argument("--min-citations", type=int, default=8)
     ap.add_argument("--json", action="store_true", help="Print machine-readable JSON.")
     args = ap.parse_args()
+    if args.profile:
+        paths_cfg = profile_paths(load_profile(args.profile))
+        args.reports_dir = str(paths_cfg["reports_dir"])
+        args.stocks_dir = str(paths_cfg["stocks_dir"])
 
     paths = [Path(p) for p in args.reports]
     if not paths:

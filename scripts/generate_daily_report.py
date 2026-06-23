@@ -15,6 +15,11 @@ import subprocess
 import sys
 from pathlib import Path
 
+try:
+    from profile_config import load_profile, profile_paths
+except ImportError:  # pragma: no cover
+    from scripts.profile_config import load_profile, profile_paths
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 DECISIONS_PATH = DATA_DIR / "report_decisions.json"
@@ -94,8 +99,11 @@ def compact(text, limit=180):
 
 
 def stock_meta(ticker):
-    path = STOCKS_DIR / f"{ticker}.json"
+    path = stock_meta.stocks_dir / f"{ticker}.json"
     return load_json(path, {})
+
+
+stock_meta.stocks_dir = STOCKS_DIR
 
 
 def haystack(item, stock):
@@ -176,7 +184,7 @@ def select_candidates(decisions, cluster, limit, ticker=None):
             continue
         if item.get("action") != "write_new_thesis":
             continue
-        if item.get("has_report") or (REPORTS_DIR / f"{item_ticker}.json").exists():
+        if item.get("has_report") or (select_candidates.reports_dir / f"{item_ticker}.json").exists():
             continue
         ok, reason = cluster_match(item, cluster)
         if not ok:
@@ -191,6 +199,9 @@ def select_candidates(decisions, cluster, limit, ticker=None):
         )
     )
     return selected[:limit]
+
+
+select_candidates.reports_dir = REPORTS_DIR
 
 
 def run(cmd, stage, env=None):
@@ -211,18 +222,23 @@ def run(cmd, stage, env=None):
 
 
 def refresh_and_gate(env, smoke):
-    run([sys.executable, CHECK_UPDATES], "Check report updates", env=env)
-    run([sys.executable, BUILD_QUEUE], "Build report queue", env=env)
-    run([sys.executable, BUILD_DECISIONS], "Build report decisions", env=env)
-    run([sys.executable, VALIDATE], "Validate reports", env=env)
-    run([sys.executable, RENDER], "Render dashboard", env=env)
-    run([sys.executable, AUDIT_TRANSLATIONS], "Audit reason translations", env=env)
+    profile_args = ["--profile", refresh_and_gate.profile] if refresh_and_gate.profile else []
+    run([sys.executable, CHECK_UPDATES] + profile_args, "Check report updates", env=env)
+    run([sys.executable, BUILD_QUEUE] + profile_args, "Build report queue", env=env)
+    run([sys.executable, BUILD_DECISIONS] + profile_args, "Build report decisions", env=env)
+    run([sys.executable, VALIDATE] + profile_args, "Validate reports", env=env)
+    run([sys.executable, RENDER] + profile_args, "Render dashboard", env=env)
+    run([sys.executable, AUDIT_TRANSLATIONS] + profile_args, "Audit reason translations", env=env)
     if smoke:
         run([sys.executable, SMOKE], "Browser smoke reports", env=env)
 
 
+refresh_and_gate.profile = None
+
+
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--profile", default=None)
     ap.add_argument("--cluster", choices=sorted(CLUSTERS), default="photonics")
     ap.add_argument("--limit", type=int, default=1)
     ap.add_argument("--ticker", help="force a ticker, still checked against cluster unless --any-cluster is used")
@@ -236,8 +252,16 @@ def main():
     ap.add_argument("--timeout", type=int, default=180)
     ap.add_argument("--no-smoke", action="store_true", help="skip browser smoke after generation")
     args = ap.parse_args()
+    if args.profile:
+        paths = profile_paths(load_profile(args.profile))
+        decisions_path = paths["report_decisions"]
+        stock_meta.stocks_dir = paths["stocks_dir"]
+        select_candidates.reports_dir = paths["reports_dir"]
+    else:
+        decisions_path = DECISIONS_PATH
+    refresh_and_gate.profile = args.profile
 
-    decisions = load_json(DECISIONS_PATH, {})
+    decisions = load_json(decisions_path, {})
     if args.ticker and args.any_cluster:
         decisions = {
             "decisions": [
@@ -277,11 +301,13 @@ def main():
             "--timeout", str(args.timeout),
             "--no-rebuild-queue",
         ]
+        if args.profile:
+            cmd.extend(["--profile", args.profile])
         if args.model:
             cmd.extend(["--model", args.model])
         run(cmd, f"Generate {ticker}", env=env)
         run(
-            [sys.executable, TRANSLATE_REASONS, "--ticker", ticker, "--timeout", str(args.timeout)],
+            [sys.executable, TRANSLATE_REASONS, "--ticker", ticker, "--timeout", str(args.timeout)] + (["--profile", args.profile] if args.profile else []),
             f"Translate {ticker} reason snippets",
             env=env,
         )

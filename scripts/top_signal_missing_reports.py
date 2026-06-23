@@ -7,6 +7,7 @@ by the dashboard Top 3, but it does not call an LLM or generate reports.
 """
 
 import argparse
+import os
 import json
 import sys
 from pathlib import Path
@@ -14,9 +15,15 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
+from profile_config import arg_value  # noqa: E402
+
+_PROFILE_ARG = arg_value(sys.argv, "--profile")
+if _PROFILE_ARG:
+    os.environ["CONVICTION_PROFILE"] = _PROFILE_ARG
+
 _argv = sys.argv[:]
 try:
-    sys.argv = [sys.argv[0]]
+    sys.argv = [sys.argv[0]] + (["--profile", _PROFILE_ARG] if _PROFILE_ARG else [])
     import serenity_render as sr  # noqa: E402
 finally:
     sys.argv = _argv
@@ -39,6 +46,7 @@ def missing_signal_items(limit):
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--profile", default=None)
     ap.add_argument("--limit", type=int, default=10)
     ap.add_argument("--json", action="store_true", help="print machine-readable JSON")
     args = ap.parse_args()

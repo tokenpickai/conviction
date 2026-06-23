@@ -17,6 +17,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
+from profile_config import arg_value, load_profile, profile_paths  # noqa: E402
+
+_PROFILE_ARG = arg_value(sys.argv, "--profile")
+if _PROFILE_ARG:
+    import os
+    os.environ["CONVICTION_PROFILE"] = _PROFILE_ARG
+
 import serenity_render  # noqa: E402
 
 
@@ -39,8 +46,9 @@ def load_translation_keys():
         keys.add(raw.replace("\\'", "'"))
     for raw in DOUBLE_KEY_RE.findall(text):
         keys.add(raw.replace('\\"', '"'))
-    if REASON_TRANSLATIONS.exists():
-        data = json.loads(REASON_TRANSLATIONS.read_text(encoding="utf-8"))
+    translations_path = profile_paths(load_profile(_PROFILE_ARG))["reason_translations"] if _PROFILE_ARG else REASON_TRANSLATIONS
+    if translations_path.exists():
+        data = json.loads(translations_path.read_text(encoding="utf-8"))
         keys.update(str(k) for k in data)
     return keys
 
@@ -58,6 +66,7 @@ def englishy(text):
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--profile", default=None)
     ap.add_argument("--ticker", help="audit one ticker only")
     ap.add_argument("--max", type=int, default=80, help="maximum findings to print")
     args = ap.parse_args()

@@ -23,10 +23,10 @@ jobs:
         run: python scripts/build_db.py
 
       - name: Run render EN (deterministic, no API)
-        run: python scripts/serenity_render.py 2026-05-30
+        run: python scripts/serenity_render.py --profile serenity 2026-05-30
 
       - name: Run render ZH
-        run: python scripts/serenity_render.py 2026-05-30 --lang zh
+        run: python scripts/serenity_render.py --profile serenity 2026-05-30 --lang zh
 
       - name: Install browser smoke dependencies
         run: |
@@ -34,13 +34,13 @@ jobs:
           python -m playwright install chromium
 
       - name: Validate reports
-        run: python scripts/validate_reports.py
+        run: python scripts/validate_reports.py --profile serenity
 
       - name: Audit reports
-        run: python scripts/audit_reports.py
+        run: python scripts/audit_reports.py --profile serenity
 
       - name: Audit reason translations
-        run: python scripts/audit_reason_translations.py
+        run: python scripts/audit_reason_translations.py --profile serenity
 
       - name: Browser smoke report pages
         run: python scripts/smoke_report_render.py

@@ -49,25 +49,25 @@ jobs:
         run: python scripts/verify_data.py
 
       - name: Check report update candidates
-        run: python scripts/check_report_updates.py
+        run: python scripts/check_report_updates.py --profile serenity
 
       - name: Apply report updates
-        run: python scripts/apply_report_updates.py
+        run: python scripts/apply_report_updates.py --profile serenity
 
       - name: Refresh report update candidates
-        run: python scripts/check_report_updates.py
+        run: python scripts/check_report_updates.py --profile serenity
 
       - name: Build report queue
-        run: python scripts/build_report_queue.py
+        run: python scripts/build_report_queue.py --profile serenity
 
       - name: Build report decisions
-        run: python scripts/build_report_decisions.py
+        run: python scripts/build_report_decisions.py --profile serenity
 
       - name: Validate reports
-        run: python scripts/validate_reports.py
+        run: python scripts/validate_reports.py --profile serenity
 
       - name: Audit reports
-        run: python scripts/audit_reports.py
+        run: python scripts/audit_reports.py --profile serenity
 
       - name: Commit updated data
         run: |

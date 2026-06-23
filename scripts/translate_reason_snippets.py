@@ -18,6 +18,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
+from profile_config import arg_value, load_profile, profile_paths  # noqa: E402
+
+_PROFILE_ARG = arg_value(sys.argv, "--profile")
+if _PROFILE_ARG:
+    os.environ["CONVICTION_PROFILE"] = _PROFILE_ARG
+
 import audit_reason_translations as audit  # noqa: E402
 import serenity_render  # noqa: E402
 
@@ -143,12 +149,15 @@ def translate_with_model(snippets, model, timeout):
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--profile", default=None)
     ap.add_argument("--ticker", action="append", help="limit to one ticker; can be repeated")
     ap.add_argument("--model", default=DEFAULT_MODEL)
     ap.add_argument("--timeout", type=int, default=90)
     ap.add_argument("--out", default=str(OUT_PATH))
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
+    if args.profile:
+        args.out = str(profile_paths(load_profile(args.profile))["reason_translations"])
 
     missing = missing_snippets(args.ticker)
     if not missing:

@@ -28,7 +28,8 @@ Use Serenity as the boilerplate, but give the new profile separate data paths be
 - `data/<slug>/reports`
 - `data/<slug>/report_queue.json`
 - `data/<slug>/report_decisions.json`
+- `data/<slug>/report_update_candidates.json`
 - `data/<slug>/report_generation_failures.json`
 - `data/<slug>/reason_translations.json`
 
-The portal and renderer are profile-aware now. The remaining work before a second profile is making ingestion, report generation, and scheduled workflows consistently accept a `--profile` argument.
+The portal, renderer, investment memo queue, update detection, report generation, validation, audits, and scheduled report workflows are profile-aware now. The remaining work before a second profile is making ingestion/extraction/build-db consistently accept profile-scoped raw tweet and database paths.

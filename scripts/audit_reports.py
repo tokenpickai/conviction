@@ -10,6 +10,7 @@ untranslated compact reason panels.
 
 import argparse
 import json
+import os
 import re
 import sys
 from dataclasses import dataclass, field
@@ -19,6 +20,12 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 REPORTS_DIR = DATA_DIR / "reports"
 sys.path.insert(0, str(ROOT / "scripts"))
+
+from profile_config import arg_value, load_profile, profile_paths  # noqa: E402
+
+_PROFILE_ARG = arg_value(sys.argv, "--profile")
+if _PROFILE_ARG:
+    os.environ["CONVICTION_PROFILE"] = _PROFILE_ARG
 
 import audit_reason_translations  # noqa: E402
 import serenity_render  # noqa: E402
@@ -173,10 +180,13 @@ def print_text(result):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("reports", nargs="*", help="Report JSON paths. Defaults to data/reports/*.json")
+    ap.add_argument("--profile", default=None)
     ap.add_argument("--reports-dir", default=str(REPORTS_DIR))
     ap.add_argument("--max-reason-findings", type=int, default=80)
     ap.add_argument("--json", action="store_true")
     args = ap.parse_args()
+    if args.profile:
+        args.reports_dir = str(profile_paths(load_profile(args.profile))["reports_dir"])
 
     paths = [Path(p) for p in args.reports] or sorted(Path(args.reports_dir).glob("*.json"))
     result = audit_reports(paths, max_reason_findings=args.max_reason_findings)

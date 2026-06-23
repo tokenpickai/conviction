@@ -25,6 +25,7 @@ def run(cmd, check=True):
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--profile", default="serenity")
     ap.add_argument("--remote", default="origin")
     ap.add_argument("--branch", default="main")
     ap.add_argument(
@@ -47,8 +48,9 @@ def main():
         return 0
 
     if args.rebuild_queue:
-        run([sys.executable, "scripts/build_report_queue.py"])
-        run([sys.executable, "scripts/build_report_decisions.py"])
+        run([sys.executable, "scripts/check_report_updates.py", "--profile", args.profile])
+        run([sys.executable, "scripts/build_report_queue.py", "--profile", args.profile])
+        run([sys.executable, "scripts/build_report_decisions.py", "--profile", args.profile])
 
     run([sys.executable, "scripts/build_site.py"])
     return 0

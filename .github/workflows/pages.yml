@@ -13,8 +13,10 @@ on:
     paths:
       - "data/**"
       - "assets/**"
+      - "profiles/**"
       - "scripts/serenity_render.py"
       - "scripts/build_site.py"
+      - "scripts/profile_config.py"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -49,8 +51,8 @@ jobs:
       - name: Render dashboard
         run: |
           python scripts/build_site.py
-          python scripts/audit_reports.py
-          python scripts/audit_reason_translations.py
+          python scripts/audit_reports.py --profile serenity
+          python scripts/audit_reason_translations.py --profile serenity
           latest="$(ls -t dist/serenity/serenity-tracker-*.html | head -n 1)"
           python scripts/smoke_report_render.py --html "$latest"
 

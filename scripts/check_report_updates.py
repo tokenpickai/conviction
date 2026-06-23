@@ -11,6 +11,11 @@ import argparse
 import json
 from pathlib import Path
 
+try:
+    from profile_config import load_profile, profile_paths
+except ImportError:  # pragma: no cover
+    from scripts.profile_config import load_profile, profile_paths
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 STOCKS_DIR = DATA_DIR / "db" / "stocks"
@@ -263,8 +268,8 @@ def compact(text, limit):
     return text[: limit - 1].rstrip() + "…"
 
 
-def build_output(reports_dir, stocks_dir, since=None):
-    manifest = load_json(DATA_DIR / "db" / "manifest.json", {})
+def build_output(reports_dir, stocks_dir, since=None, manifest_path=DATA_DIR / "db" / "manifest.json"):
+    manifest = load_json(manifest_path, {})
     candidates = []
     checked = 0
 
@@ -297,14 +302,23 @@ def build_output(reports_dir, stocks_dir, since=None):
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--profile", default=None)
     ap.add_argument("--reports", default=str(REPORTS_DIR))
     ap.add_argument("--stocks", default=str(STOCKS_DIR))
     ap.add_argument("--out", default=str(DEFAULT_OUT))
     ap.add_argument("--since", help="override report coverage cutoff, YYYY-MM-DD")
     ap.add_argument("--print", action="store_true", help="print JSON instead of writing it")
     args = ap.parse_args()
+    if args.profile:
+        paths = profile_paths(load_profile(args.profile))
+        args.reports = str(paths["reports_dir"])
+        args.stocks = str(paths["stocks_dir"])
+        args.out = str(paths["report_update_candidates"])
+        manifest_path = paths["manifest"]
+    else:
+        manifest_path = DATA_DIR / "db" / "manifest.json"
 
-    output = build_output(Path(args.reports), Path(args.stocks), since=args.since)
+    output = build_output(Path(args.reports), Path(args.stocks), since=args.since, manifest_path=manifest_path)
     if args.print:
         print(json.dumps(output, ensure_ascii=False, indent=2, sort_keys=True))
     else:

@@ -11,6 +11,7 @@
     "reason_translations": "data/reason_translations.json",
     "report_queue": "data/report_queue.json",
     "report_decisions": "data/report_decisions.json",
+    "report_update_candidates": "data/report_update_candidates.json",
     "report_failures": "data/report_generation_failures.json"
   },
   "portal": {

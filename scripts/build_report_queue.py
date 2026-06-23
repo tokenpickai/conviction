@@ -14,8 +14,10 @@ from pathlib import Path
 
 try:
     from check_report_updates import HIGH_SIGNAL_TERMS, mention_score, term_hits
+    from profile_config import load_profile, profile_paths
 except ImportError:  # pragma: no cover - useful when imported from repo root
     from scripts.check_report_updates import HIGH_SIGNAL_TERMS, mention_score, term_hits
+    from scripts.profile_config import load_profile, profile_paths
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
@@ -298,10 +300,10 @@ def queue_item(stock, metrics, status, priority, has_report):
     return item
 
 
-def build_queue(stocks_dir=STOCKS_DIR, reports_dir=REPORTS_DIR, update_candidates_path=UPDATE_CANDIDATES, include_existing=True):
+def build_queue(stocks_dir=STOCKS_DIR, reports_dir=REPORTS_DIR, update_candidates_path=UPDATE_CANDIDATES, manifest_path=DATA_DIR / "db" / "manifest.json", include_existing=True):
     reports = report_files(reports_dir)
     updates = update_status_map(update_candidates_path)
-    manifest = load_json(DATA_DIR / "db" / "manifest.json", {})
+    manifest = load_json(manifest_path, {})
     items = []
     skipped = 0
 
@@ -357,6 +359,7 @@ def build_queue(stocks_dir=STOCKS_DIR, reports_dir=REPORTS_DIR, update_candidate
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--profile", default=None)
     ap.add_argument("--stocks", default=str(STOCKS_DIR))
     ap.add_argument("--reports", default=str(REPORTS_DIR))
     ap.add_argument("--updates", default=str(UPDATE_CANDIDATES))
@@ -364,11 +367,21 @@ def main():
     ap.add_argument("--hide-existing", action="store_true", help="omit tickers that already have clean reports")
     ap.add_argument("--print", action="store_true", help="print JSON instead of writing it")
     args = ap.parse_args()
+    if args.profile:
+        paths = profile_paths(load_profile(args.profile))
+        args.stocks = str(paths["stocks_dir"])
+        args.reports = str(paths["reports_dir"])
+        args.updates = str(paths["report_update_candidates"])
+        args.out = str(paths["report_queue"])
+        manifest_path = paths["manifest"]
+    else:
+        manifest_path = DATA_DIR / "db" / "manifest.json"
 
     output = build_queue(
         stocks_dir=Path(args.stocks),
         reports_dir=Path(args.reports),
         update_candidates_path=Path(args.updates),
+        manifest_path=manifest_path,
         include_existing=not args.hide_existing,
     )
 

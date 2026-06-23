@@ -17,6 +17,11 @@ import os
 import time
 from pathlib import Path
 
+try:
+    from profile_config import load_profile, profile_paths
+except ImportError:  # pragma: no cover
+    from scripts.profile_config import load_profile, profile_paths
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 QUEUE_PATH = DATA_DIR / "report_queue.json"
@@ -227,12 +232,18 @@ def build_output(queue_path=QUEUE_PATH, updates_path=UPDATES_PATH, watch_limit=2
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--profile", default=None)
     ap.add_argument("--queue", default=str(QUEUE_PATH))
     ap.add_argument("--updates", default=str(UPDATES_PATH))
     ap.add_argument("--out", default=str(DEFAULT_OUT))
     ap.add_argument("--watch-limit", type=int, default=25)
     ap.add_argument("--print", action="store_true", help="print JSON instead of writing it")
     args = ap.parse_args()
+    if args.profile:
+        paths = profile_paths(load_profile(args.profile))
+        args.queue = str(paths["report_queue"])
+        args.updates = str(paths["report_update_candidates"])
+        args.out = str(paths["report_decisions"])
 
     output = build_output(
         queue_path=Path(args.queue),

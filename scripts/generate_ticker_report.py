@@ -13,6 +13,11 @@ import sys
 import time
 from pathlib import Path
 
+try:
+    from profile_config import load_profile, profile_paths
+except ImportError:  # pragma: no cover
+    from scripts.profile_config import load_profile, profile_paths
+
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT = SCRIPT_DIR.parent
 DATA_DIR = ROOT / "data"
@@ -344,6 +349,7 @@ def call_model(client, model, prompt, max_tokens=DEFAULT_MAX_TOKENS, timeout=DEF
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("ticker")
+    ap.add_argument("--profile", default=None)
     ap.add_argument("--model", default=DEFAULT_MODEL)
     ap.add_argument("--max-items", type=int, default=DEFAULT_MAX_ITEMS)
     ap.add_argument("--text-limit", type=int, default=DEFAULT_TEXT_LIMIT)
@@ -353,9 +359,12 @@ def main():
     ap.add_argument("--out", help="write report to this path instead of data/reports/{TICKER}.json")
     ap.add_argument("--dry-run", action="store_true", help="print prompt size and curated post IDs without calling the model")
     args = ap.parse_args()
+    paths = profile_paths(load_profile(args.profile)) if args.profile else None
+    stocks_dir = paths["stocks_dir"] if paths else STOCKS_DIR
+    reports_dir = paths["reports_dir"] if paths else REPORTS_DIR
 
     ticker = args.ticker.upper()
-    stock_path = STOCKS_DIR / f"{ticker}.json"
+    stock_path = stocks_dir / f"{ticker}.json"
     stock = load_json(stock_path, None)
     if not stock:
         print(f"ERROR: missing {stock_path}", file=sys.stderr)
@@ -392,7 +401,7 @@ def main():
         {"tweet_id": m.get("tweet_id"), "date": m.get("date"), "url": m.get("url")}
         for m in mentions
     ]
-    out = Path(args.out).resolve() if args.out else REPORTS_DIR / f"{ticker}.json"
+    out = Path(args.out).resolve() if args.out else reports_dir / f"{ticker}.json"
     save_json(out, report)
     print(f"Wrote {out}")
 

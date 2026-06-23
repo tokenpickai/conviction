@@ -12,6 +12,11 @@ import argparse
 import json
 from pathlib import Path
 
+try:
+    from profile_config import load_profile, profile_paths
+except ImportError:  # pragma: no cover
+    from scripts.profile_config import load_profile, profile_paths
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 REPORTS_DIR = DATA_DIR / "reports"
@@ -223,10 +228,15 @@ def apply_candidates(candidates_path, reports_dir, dry_run=False):
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--profile", default=None)
     ap.add_argument("--candidates", default=str(DEFAULT_CANDIDATES))
     ap.add_argument("--reports", default=str(REPORTS_DIR))
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
+    if args.profile:
+        paths = profile_paths(load_profile(args.profile))
+        args.candidates = str(paths["report_update_candidates"])
+        args.reports = str(paths["reports_dir"])
 
     applied, skipped, advanced = apply_candidates(
         Path(args.candidates),
