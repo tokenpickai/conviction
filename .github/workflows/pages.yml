@@ -53,6 +53,7 @@ jobs:
           python scripts/build_site.py
           python scripts/audit_reports.py --profile serenity
           python scripts/audit_reason_translations.py --profile serenity
+          python scripts/audit_reason_translations.py --profile jukan --all-tickers
           latest="$(ls -t dist/serenity/serenity-tracker-*.html | head -n 1)"
           python scripts/smoke_report_render.py --profile serenity --html "$latest"
           python scripts/smoke_report_render.py --profile jukan --html dist/jukan/index.html

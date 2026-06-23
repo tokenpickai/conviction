@@ -350,10 +350,26 @@ def theme_of(s):
     if any(x in hay for x in ('ai chip','gpu','asic','custom silicon','semiconductor foundry','wafer foundry','cpu','foundry','semis','nvidia','amd','tsmc','intel','globalfoundries','tower semiconductor')):
         return 'Custom silicon'
     return 'Other'
+THEME_ZH={
+    'InP substrates':'磷化銦基板',
+    'CPO':'CPO',
+    'HBM':'HBM',
+    'Power':'電力',
+    'Cooling':'散熱',
+    'Networking':'網路互連',
+    'AI cloud':'AI 雲端',
+    'Custom silicon':'客製化晶片',
+    'Other':'其他',
+}
+def theme_label_value(th):
+    if LANG!='zh':return th
+    zh=THEME_ZH.get(th)
+    if not zh:return th
+    return zh if zh==th else f'{zh} ({th})'
 def theme_pill(s):
     th=theme_of(s)
     cls='other' if th=='Other' else ''
-    return f'<span class="theme {cls}">{th}</span>'
+    return f'<span class="theme {cls}">{theme_label_value(th)}</span>'
 def report_update_pill(s):
     ups=(REPORTS.get(s) or {}).get('updates') or []
     if not ups: return ''
@@ -374,9 +390,22 @@ INDUSTRY_ZH={
     'Optical Comms':'光通訊',
     'AI Cloud/GPU':'AI 雲端 / GPU',
     'AI Photonics/CPO Lasers':'AI 光子學 / CPO 雷射',
+    'AI ASIC/Mobile Semiconductors':'AI ASIC / 行動半導體',
+    'AI ASIC/Networking Chips':'AI ASIC / 網路晶片',
+    'AI Package Substrates/MLCC':'AI 封裝基板 / MLCC',
+    'AI Semis/CPO':'AI 半導體 / CPO',
+    'AI/Connectivity Semiconductors':'AI / 連接晶片',
     'InP Substrates':'磷化銦基板',
     'AI Chips':'AI 晶片',
+    'CPU/Foundry/Glass Substrate':'CPU / 晶圓代工 / 玻璃基板',
+    'GPU/AI Chips':'GPU / AI 晶片',
     'Hyperscaler':'超大規模雲端服務商',
+    'Memory/HBM':'記憶體 / HBM',
+    'Memory/HBM (Korea)':'記憶體 / HBM（韓國）',
+    'Memory/HBM/Semiconductors':'記憶體 / HBM / 半導體',
+    'Optical Components/Electronics':'光學元件 / 電子零組件',
+    'Optics/Photonics':'光學 / 光子學',
+    'PC Hardware':'個人電腦硬體',
     'SOI Wafers':'SOI 晶圓',
     'Wafer Foundry':'晶圓代工',
     'Compound Semiconductors':'化合物半導體',
@@ -1659,12 +1688,11 @@ function reportHtml(r,postMap,tk){
 function renderDD(tk){
   var d=window.DD_DATA&&DD_DATA[tk];
   if(!d){document.getElementById('ddBody').innerHTML='<div class="ddph"><div style="font-size:18px;color:var(--ink);margin-bottom:10px">'+I('dd_ph_title',{tk:tk})+'</div><div style="font-size:13px;line-height:1.7">'+I18N.dd_ph_body+'</div></div>';ddOpenTicker=tk;openDD();return;}
-  var zh=!!d.report;
+  var zh=PROFILE.lang==='zh';
   var Z={bull:'看多',bear:'看空',neutral:'中性',mixed:'多空混合',none:'僅提及',first:'首次提及',last:'最近提及',total:'總提及',firstPx:'首次提及價格',today:'今日',bullCase:'看多理由',risks:'提到的風險',newest:'最新在前',initial:'初始觀點',background:'背景',analogy:'類比',quote:'引用',mention:'提及',showMore:'查看更多貼文'};
-  var industryZh={'Optical Modules':'光通訊模組','Optical Comms':'光通訊','AI Cloud/GPU':'AI 雲端 / GPU','AI Photonics/CPO Lasers':'AI 光子學 / CPO 雷射','InP Substrates':'磷化銦基板','AI Chips':'AI 晶片','Hyperscaler':'超大規模雲端服務商','SOI Wafers':'SOI 晶圓','Wafer Foundry':'晶圓代工','Compound Semiconductors':'化合物半導體'};
-  var themeZh={'InP substrates':'磷化銦基板 (InP substrates)','CPO':'CPO','HBM':'HBM','Power':'電力 (Power)','Cooling':'散熱 (Cooling)','Networking':'網路互連 (Networking)','AI cloud':'AI 雲端 (AI cloud)','Custom silicon':'客製化晶片 (Custom silicon)','Other':'Other'};
+  var industryZh=PROFILE.industryZh||{},themeZh=PROFILE.themeZh||{};
   var industryText=zh&&industryZh[d.industry]?industryZh[d.industry]+' ('+esc(d.industry)+')':esc(d.industry||'');
-  var themeText=zh&&themeZh[d.theme]?themeZh[d.theme]:esc(d.theme||'Other');
+  var themeBase=themeZh[d.theme],themeText=zh&&themeBase?(themeBase===d.theme?themeBase:themeBase+' ('+esc(d.theme)+')'):esc(d.theme||'Other');
   var pill=d.stance==='bull'?'<span class="ddpill bull">'+(zh?Z.bull:I18N.stance_bull)+'</span>':d.stance==='bear'?'<span class="ddpill bear">'+(zh?Z.bear:I18N.stance_bear)+'</span>':d.stance==='shift'?'<span class="ddpill cw">'+(zh?Z.mixed:I18N.stance_mixed)+'</span>':d.stance==='none'?'<span class="ddpill neutral">'+(zh?Z.none:I18N.stance_none)+'</span>':'<span class="ddpill neutral">'+(zh?Z.neutral:I18N.stance_neutral)+'</span>';
   var split='<span class="tup"><i class="fa-solid fa-caret-up"></i></span>'+d.bull+' '+(zh?Z.bull:I18N.stance_bull)+' · <span class="tdn"><i class="fa-solid fa-caret-down"></i></span>'+d.bear+' '+(zh?Z.bear:I18N.stance_bear)+' · <span class="tnt"><i class="fa-solid fa-circle"></i></span>'+d.neu+' '+(zh?Z.neutral:I18N.stance_neutral);
   function zhReasonText(s){if(AUTO_REASON_TRANSLATIONS&&AUTO_REASON_TRANSLATIONS[s])return AUTO_REASON_TRANSLATIONS[s];var m={
@@ -1923,7 +1951,7 @@ function qsort(k,th){var tb=document.getElementById('qtbl').tBodies[0];var rows=
 syncTickerRoute();
 </script>'''
     overlay='<div id="ddPage"><div id="ddBody"></div></div>'
-    profile_js='<script>var PROFILE='+json.dumps({'slug':PROFILE_SLUG,'name':PROFILE_NAME,'handle':PROFILE_HANDLE,'xUrl':PROFILE_X_URL,'avatar':PROFILE_AVATAR},ensure_ascii=False)+';</script>'
+    profile_js='<script>var PROFILE='+json.dumps({'slug':PROFILE_SLUG,'name':PROFILE_NAME,'handle':PROFILE_HANDLE,'xUrl':PROFILE_X_URL,'avatar':PROFILE_AVATAR,'lang':LANG,'industryZh':INDUSTRY_ZH,'themeZh':THEME_ZH},ensure_ascii=False)+';</script>'
     reason_translations_js='<script>var AUTO_REASON_TRANSLATIONS='+json.dumps(REASON_TRANSLATIONS,ensure_ascii=False)+';</script>'
     dddata='<script>var DD_DATA='+json.dumps(dd_data(),ensure_ascii=False)+';</script>'
     crumb=f'<div class="crumb"><a href="../">X Conviction</a><span class="sep">/</span><b>{html.escape(PROFILE_NAME)}</b></div>'

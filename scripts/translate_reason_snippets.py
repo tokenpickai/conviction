@@ -67,10 +67,10 @@ def compact(text, limit=220):
     return text[: limit - 1].rstrip() + "…"
 
 
-def missing_snippets(tickers=None):
+def missing_snippets(tickers=None, all_tickers=False):
     translations = audit.load_translation_keys()
     dd = serenity_render.dd_data()
-    target = [t.upper() for t in tickers] if tickers else sorted(serenity_render.REPORTS)
+    target = [t.upper() for t in tickers] if tickers else (sorted(dd) if all_tickers else sorted(serenity_render.REPORTS))
     out = []
     seen = set()
     for ticker in target:
@@ -118,12 +118,14 @@ def extract_json(text):
     return json.loads(match.group(0))
 
 
-def translate_with_model(snippets, model, timeout):
+def translate_with_model(snippets, model, timeout, profile):
     env = load_dotenv()
     client = get_client(env, timeout)
     if client is None:
         return None
     reasons = [item["reason"] for item in snippets]
+    name = profile.get("display_name") or profile.get("handle") or "作者"
+    pronoun = profile.get("pronoun_zh") or "作者"
     prompt = (
         "Translate these compact investment reason snippets into natural Traditional Chinese for a public "
         "investment thesis dashboard.\n"
@@ -131,7 +133,7 @@ def translate_with_model(snippets, model, timeout):
         "- Return ONLY a JSON object mapping the exact original string to the translation.\n"
         "- Keep tickers, product names, abbreviations, and core jargon like CPO, InP, TPU, GPU, ATM, "
         "transceiver, photonics, neocloud in English when natural.\n"
-        "- Use Serenity as 她, never 他.\n"
+        f"- The tracked author is {name}; refer to the author as {pronoun} when needed.\n"
         "- Keep each translation concise, usually one sentence.\n\n"
         + json.dumps(reasons, ensure_ascii=False, indent=2)
     )
@@ -151,15 +153,17 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--profile", default=None)
     ap.add_argument("--ticker", action="append", help="limit to one ticker; can be repeated")
+    ap.add_argument("--all-tickers", action="store_true", help="translate reasons for every ticker visible in the dashboard")
     ap.add_argument("--model", default=DEFAULT_MODEL)
     ap.add_argument("--timeout", type=int, default=90)
     ap.add_argument("--out", default=str(OUT_PATH))
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
+    profile = load_profile(args.profile)
     if args.profile:
-        args.out = str(profile_paths(load_profile(args.profile))["reason_translations"])
+        args.out = str(profile_paths(profile)["reason_translations"])
 
-    missing = missing_snippets(args.ticker)
+    missing = missing_snippets(args.ticker, all_tickers=args.all_tickers)
     if not missing:
         print("No missing reason translations.")
         return 0
@@ -171,7 +175,7 @@ def main():
     if args.dry_run:
         return 0
 
-    translated = translate_with_model(missing, args.model, args.timeout)
+    translated = translate_with_model(missing, args.model, args.timeout, profile)
     if translated is None:
         return 1
 

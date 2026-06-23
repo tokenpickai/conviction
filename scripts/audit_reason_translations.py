@@ -24,7 +24,12 @@ if _PROFILE_ARG:
     import os
     os.environ["CONVICTION_PROFILE"] = _PROFILE_ARG
 
-import serenity_render  # noqa: E402
+_ORIGINAL_ARGV = sys.argv[:]
+try:
+    sys.argv = [sys.argv[0]] + (["--profile", _PROFILE_ARG] if _PROFILE_ARG else [])
+    import serenity_render  # noqa: E402
+finally:
+    sys.argv = _ORIGINAL_ARGV
 
 
 RENDERER = ROOT / "scripts" / "serenity_render.py"
@@ -68,12 +73,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--profile", default=None)
     ap.add_argument("--ticker", help="audit one ticker only")
+    ap.add_argument("--all-tickers", action="store_true", help="audit every ticker visible in the dashboard")
     ap.add_argument("--max", type=int, default=80, help="maximum findings to print")
     args = ap.parse_args()
 
     translations = load_translation_keys()
     dd = serenity_render.dd_data()
-    tickers = sorted(serenity_render.REPORTS)
+    tickers = sorted(dd) if args.all_tickers else sorted(serenity_render.REPORTS)
     if args.ticker:
         tickers = [args.ticker.upper()]
 
@@ -104,7 +110,8 @@ def main():
             print(f"... {len(findings) - args.max} more")
         return 1
 
-    print(f"PASS: reason panels translated for {len(tickers)} report tickers.")
+    scope = "dashboard" if args.all_tickers else "report"
+    print(f"PASS: reason panels translated for {len(tickers)} {scope} tickers.")
     return 0
 
 
