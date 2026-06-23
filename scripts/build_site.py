@@ -63,12 +63,12 @@ def portal_html():
 <body>
   <main>
     <div class="wrap">
-      <div class="eyebrow">精選 X 投資觀點追蹤</div>
+      <div class="eyebrow">X Conviction</div>
       <div class="grid">
         <a class="card" href="./serenity/">
           <img src="./serenity/assets/serenity-avatar.jpg" alt="Serenity avatar">
           <div><div class="name">Serenity</div><div class="handle">@aleabitoreddit</div></div>
-          <span class="tag">Open</span>
+          <span class="tag">進入</span>
         </a>
       </div>
     </div>

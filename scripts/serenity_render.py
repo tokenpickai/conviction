@@ -873,12 +873,9 @@ def reports_section():
     automation_ready=dsummary.get('automation_ready', summary.get('needs_report',0))
     return f'''<section id="reports" class="period-sec">
 <div class="sec"><div class="sechd"><div class="st">{t('nav_reports')}</div><div class="datepill">investment memo</div>
-<div class="sn"><span class="cnt">已發布 {len(REPORTS)} 份 · 下一批 {automation_ready} 檔 · 待更新 {len(updates_due)} 份</span><span class="upd">{t('updated',date=UPDATE_STAMP)}</span></div></div>
-<div class="subhd"><i class="fa-solid fa-chevron-down"></i> Serenity 投資論點閱讀清單</div></div>
+<div class="sn"><span class="cnt">已發布 {len(REPORTS)} 份 · 下一批 {automation_ready} 檔 · 待更新 {len(updates_due)} 份</span><span class="upd">{t('updated',date=UPDATE_STAMP)}</span></div></div></div>
 <div class="daypad">
-<div class="memo-hero"><div><span>Published</span><b>{len(REPORTS)}</b><em>已發布投資論點</em></div><div><span>Updated</span><b>{len(updated)}</b><em>近期有更新</em></div><div><span>Queued</span><b>{automation_ready}</b><em>值得整理候選</em></div></div>
-<div class="subhd" style="margin-top:24px"><i class="fa-solid fa-ranking-star"></i> Serenity 綜合訊號 Top 3</div>
-<div class="signal-note">依 Serenity 的公開貼文計算：看多強度、近期熱度、語氣強度，以及看空 / 分歧訊號扣分。尚未整理的高分標的會優先進入投資論點生成。</div>
+<div class="subhd" style="margin-top:0"><i class="fa-solid fa-ranking-star"></i> Serenity <span class="jargon" role="button" tabindex="0">綜合訊號<span class="jargon-tip">依 Serenity 的公開貼文計算：看多強度、近期熱度、語氣強度，以及看空 / 分歧訊號扣分。尚未整理的高分標的會優先進入投資論點生成。</span></span> Top 3</div>
 <div class="signal-grid">{''.join(top_cards)}{top_empty}</div>
 <div class="subhd" style="margin-top:24px"><i class="fa-solid fa-bolt"></i> 最近更新</div>
 <div class="memo-updates">{''.join(updated_cards) if updated_cards else '<div class="ops-empty">目前沒有新的投資論點更新。</div>'}</div>
@@ -965,11 +962,6 @@ SHARED_CSS='''<style>
 .ops-fail{border:1px solid rgba(173,65,65,.22);border-radius:8px;background:var(--bear-bg);padding:12px 14px}
 .ops-fail b{font-family:var(--mono);color:var(--bear);margin-right:8px}.ops-fail span{font-family:var(--mono);font-size:10.5px;color:var(--ink-faint)}.ops-fail p{font-size:12.5px;color:var(--ink-soft);margin-top:6px;line-height:1.55}
 @media(max-width:820px){.ops-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ops-card b{font-size:21px}.ops-col-action{width:128px}.ops-candidates{min-width:720px}}
-.memo-hero{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:8px 0 22px}
-.memo-hero>div{border-top:1px solid var(--line);padding-top:12px}
-.memo-hero span{display:block;font-family:var(--mono);font-size:10.5px;font-weight:800;color:var(--ink-faint);letter-spacing:.02em;text-transform:uppercase}
-.memo-hero b{display:block;font-family:var(--mono);font-size:27px;line-height:1.1;color:var(--ink);margin-top:5px}
-.memo-hero em{display:block;font-style:normal;font-size:12px;color:var(--ink-soft);margin-top:2px}
 .memo-updates{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .memo-update{position:relative;border:1px solid rgba(31,92,77,.22);border-left:4px solid var(--accent);border-radius:8px;background:linear-gradient(90deg,rgba(31,92,77,.08),var(--card) 58%);padding:14px 16px;cursor:pointer;box-shadow:0 10px 24px -24px rgba(31,92,77,.65);transition:border-color .16s ease,box-shadow .16s ease,transform .16s ease,background .16s ease}
 .memo-update:hover{transform:translateY(-2px);border-color:rgba(31,92,77,.46);border-left-color:#17483c;background:linear-gradient(90deg,rgba(31,92,77,.16),rgba(31,92,77,.055) 46%,var(--card) 100%);box-shadow:0 18px 34px -24px rgba(31,92,77,.95)}
@@ -986,7 +978,6 @@ SHARED_CSS='''<style>
 .memo-candidates{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 .memo-candidate{padding:12px 14px}
 .memo-candidate h3{font-family:var(--sans);font-size:14px;margin-top:5px}
-.signal-note{font-size:12.5px;color:var(--ink-soft);line-height:1.65;margin:-4px 0 10px;max-width:860px}
 .signal-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 .signal-card{position:relative;display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:12px;align-items:start;border:1px solid rgba(31,92,77,.2);border-radius:8px;background:linear-gradient(180deg,rgba(31,92,77,.045),var(--card) 58%);padding:15px 16px;cursor:pointer;min-width:0;transition:border-color .16s ease,box-shadow .16s ease,transform .16s ease,background .16s ease}
 .signal-card.rank-gold{border-color:rgba(186,134,22,.58);background:linear-gradient(180deg,rgba(236,180,43,.24),rgba(236,180,43,.055) 58%,var(--card) 100%)}
@@ -1010,7 +1001,7 @@ SHARED_CSS='''<style>
 .rank-gold .signal-score b{color:#9a6900}.rank-silver .signal-score b{color:#5f6870}.rank-bronze .signal-score b{color:#88441d}
 @media(max-width:1050px){.signal-grid{grid-template-columns:1fr}}
 @media(max-width:900px){.memo-updates,.memo-grid,.memo-candidates{grid-template-columns:1fr}}
-@media(max-width:600px){.memo-hero{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.memo-hero b{font-size:22px}.memo-hero em{font-size:11px}.memo-update h3,.memo-card h3{font-size:15.5px}}
+@media(max-width:600px){.memo-update h3,.memo-card h3{font-size:15.5px}}
 .twocol{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:6px}
 .mwall{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:6px}
 .mcard{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--neutral);border-radius:8px;padding:13px 15px;cursor:pointer;box-shadow:var(--shadow);display:flex;flex-direction:column;min-width:0;overflow-wrap:break-word}
@@ -1173,6 +1164,11 @@ body{background:var(--paper);font-family:var(--sans);font-feature-settings:"tnum
 .navlink .ni{display:none;font-family:var(--mono);font-size:10px;color:var(--ink-faint)}
 .main{margin-left:180px;flex:1;min-width:0}
 .sidenav .bs a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent)}
+.crumb{font-family:var(--mono);font-size:11px;color:var(--ink-faint);display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.crumb a{color:var(--ink-soft);text-decoration:none;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:rgba(31,92,77,.35)}
+.crumb b{color:var(--ink);font-weight:800}.crumb .sep{color:var(--line-strong)}
+.main>.crumb{padding:24px 44px 0}
 .stbl .q-dt .qpx{display:block;font-family:var(--mono);font-size:10px;color:var(--ink-faint);margin-top:2px;font-weight:400}
 .qinfo{display:inline-flex;align-items:center;justify-content:center;width:14px;height:14px;font-size:12px;font-weight:400;font-style:normal;color:var(--ink-faint);cursor:help;position:relative;vertical-align:middle}
 .qinfo:hover{color:var(--accent)}
@@ -1313,9 +1309,9 @@ html{scroll-behavior:smooth}
 #ddBody{max-width:1360px;margin:0 auto;padding:24px 40px 90px}
 .ddhead{display:block;padding-bottom:0;margin-bottom:0}
 .ddhl{min-width:0;max-width:980px}
-.ddhome{display:inline-flex;align-items:center;gap:6px;margin-bottom:12px;border:1px solid var(--line);background:transparent;color:var(--ink-faint);border-radius:999px;padding:5px 9px;font-size:12px;text-decoration:none;cursor:pointer}
-.ddhome:hover{color:var(--accent);border-color:rgba(31,92,77,.28);background:var(--accent-soft)}
-.ddhome i{font-size:11px}
+.ddback{display:inline-flex;align-items:center;gap:7px;margin-bottom:14px;border:1px solid var(--line);background:transparent;color:var(--ink-faint);border-radius:999px;padding:6px 10px;font-family:var(--mono);font-size:11px;font-weight:800;text-decoration:none;cursor:pointer}
+.ddback:hover{color:var(--accent);border-color:rgba(31,92,77,.28);background:var(--accent-soft)}
+.ddback i{font-size:10px}
 .ddtk{font-family:var(--mono);font-weight:800;font-size:30px;color:var(--ink);line-height:1.05;display:flex;align-items:center;flex-wrap:wrap;gap:7px 8px}
 .ddtk .market.detail,.ddtk .theme.detail{margin-left:0;transform:none}
 .theme-cn{font-family:var(--sans);font-size:12px;font-weight:600;color:var(--ink-soft);margin-left:6px;vertical-align:middle}
@@ -1338,8 +1334,8 @@ html{scroll-behavior:smooth}
 .ddmemo-missing b{display:flex;align-items:center;gap:7px;color:var(--ink);font-size:14px;margin-bottom:5px}
 .ddmemo-missing p{font-size:12.5px;line-height:1.65;margin:0}
 @media(max-width:600px){
+  .main>.crumb{padding:16px 20px 0}
   .ddhead{padding-bottom:4px}
-  .ddhome{margin-bottom:10px;padding:5px 8px}
   .ddtk{font-size:27px;gap:6px}
   .ddco{font-size:12.5px;line-height:1.5}
   .ddpills{margin-top:9px}
@@ -1866,7 +1862,7 @@ function renderDD(tk){
   var postMap={};_ps.forEach(function(p){if(p.id)postMap[p.id]=p;});
   var plistHtml='<div class="plist">'+_head.map(function(p){return postRow(p,false);}).join('')+(_rest.length?'<div id="ddRest">'+_rest.map(function(p){return postRow(p,true);}).join('')+'</div>':'')+'</div>'+(_rest.length?'<div class="ddmore" '+(zh?'data-zh="1" ':'')+'onclick="ddMore(this)">'+(zh?Z.showMore+' ('+_rest.length+') <i class="fa-solid fa-chevron-down"></i>':I('dd_view_all',{n:_rest.length}))+'</div>':'');
   document.getElementById('ddBody').innerHTML=
-    '<div class="ddhead"><div class="ddhl"><button class="ddhome" type="button" onclick="ddHome()" aria-label="返回首頁"><i class="fa-solid fa-house"></i><span>首頁</span></button><div class="ddtk">'+tk+'<span class="market detail">'+esc(d.market||'')+'</span><span class="theme detail '+(d.theme==='Other'?'other':'')+'">'+themeText+'</span></div><div class="ddco">'+esc(d.co)+(d.industry?' · <span class="ddind">'+industryText+'</span>':'')+'</div><div class="ddpills">'+pill+'</div></div>'+
+    '<div class="ddhead"><div class="ddhl"><button class="ddback" type="button" onclick="ddHome()" aria-label="返回 Serenity"><i class="fa-solid fa-arrow-left"></i><span>返回 Serenity</span></button><div class="ddtk">'+tk+'<span class="market detail">'+esc(d.market||'')+'</span><span class="theme detail '+(d.theme==='Other'?'other':'')+'">'+themeText+'</span></div><div class="ddco">'+esc(d.co)+(d.industry?' · <span class="ddind">'+industryText+'</span>':'')+'</div><div class="ddpills">'+pill+'</div></div>'+
     '<div class="ddmeta"><span class="ddmi"><i>'+(zh?Z.first:I18N.dd_first_mention)+'</i><b>'+d.first+'</b></span><span class="ddmi"><i>'+(zh?Z.last:I18N.dd_last_mention)+'</i><b>'+d.last+'</b></span><span class="ddmi"><i>'+(zh?Z.total:I18N.dd_total)+'</i><b>'+d.total+(I18N.count_unit?' '+I18N.count_unit:'')+'</b></span><span class="ddmi"><i>'+(zh?Z.firstPx:I18N.dd_first_px)+'</i><b>'+firstPxTxt+'</b></span><span class="ddsplit">'+split+'</span><span class="ddfreq"><span class="fc"><i>'+(zh?Z.today:I18N.dd_today)+'</i><b>'+d.m_today+'</b></span><span class="fc"><i>'+I18N.freq_7d+'</i><b>'+d.m7+'</b></span><span class="fc"><i>'+I18N.freq_28d+'</i><b>'+d.m28+'</b></span></span></div></div>'+
     relatedHtml()+
     reportHtml(d.report,postMap,tk)+
@@ -1898,7 +1894,8 @@ syncTickerRoute();
     overlay='<div id="ddPage"><div id="ddBody"></div></div>'
     reason_translations_js='<script>var AUTO_REASON_TRANSLATIONS='+json.dumps(REASON_TRANSLATIONS,ensure_ascii=False)+';</script>'
     dddata='<script>var DD_DATA='+json.dumps(dd_data(),ensure_ascii=False)+';</script>'
-    body=f'<body>\n{nav}\n<div class="main">\n{secs}\n</div>\n{overlay}\n{i18n_js}\n{reason_translations_js}\n{dddata}\n{script}\n</body></html>'
+    crumb='<div class="crumb"><a href="../">X Conviction</a><span class="sep">/</span><b>Serenity</b></div>'
+    body=f'<body>\n{nav}\n<div class="main">\n{crumb}\n{secs}\n</div>\n{overlay}\n{i18n_js}\n{reason_translations_js}\n{dddata}\n{script}\n</body></html>'
     suffix='' if (LANG_ARG is None or LANG=='zh') else f'-{LANG}'
     out_name=f'serenity-tracker-{DAY.isoformat()}{suffix}.html'
     open(out_name,'w',encoding='utf-8').write(head+body)
