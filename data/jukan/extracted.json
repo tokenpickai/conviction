@@ -1,0 +1,2331 @@
+{
+  "2069488184036307049": {
+    "tweet_id": "2069488184036307049",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "CXMT",
+        "symbol": "CXMT",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Samsung",
+        "symbol": "Samsung",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "SK Hynix",
+        "symbol": "SK Hynix",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Micron",
+        "symbol": "Micron",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.8,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069388829841363242": {
+    "tweet_id": "2069388829841363242",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$TSM",
+        "symbol": "TSM",
+        "stance": "neutral",
+        "mention_type": "quote_or_other",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069388833440068068": {
+    "tweet_id": "2069388833440068068",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.9,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069375909598269504": {
+    "tweet_id": "2069375909598269504",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "SK하이닉스",
+        "symbol": "000660",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.7,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069368311146815885": {
+    "tweet_id": "2069368311146815885",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "SK Hynix",
+        "symbol": "000660",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Samsung Electronics",
+        "symbol": "005930",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Micron",
+        "symbol": "MU",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.82,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069369835910570013": {
+    "tweet_id": "2069369835910570013",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.7,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069375474632098147": {
+    "tweet_id": "2069375474632098147",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "SK Hynix",
+        "symbol": "000660",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069341573750673728": {
+    "tweet_id": "2069341573750673728",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.85,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069341575948407284": {
+    "tweet_id": "2069341575948407284",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.5,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069278356193919073": {
+    "tweet_id": "2069278356193919073",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Micron",
+        "symbol": "MU",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "building relationship with Anthropic early to secure future memory demand",
+          "Anthropic will consume more memory over time especially as it designs its own ASICs",
+          "investment in Anthropic today has nature of seed capital that could yield much larger future purchases"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Anthropic",
+        "symbol": "ANTHROPIC",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Samsung",
+        "symbol": "SAMSUNG",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "SK hynix",
+        "symbol": "SKHYNIX",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.8,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069266963965350136": {
+    "tweet_id": "2069266963965350136",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "MediaTek",
+        "symbol": "MediaTek",
+        "stance": "neutral",
+        "mention_type": "quote_or_other",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Google",
+        "symbol": "Google",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069266966058320098": {
+    "tweet_id": "2069266966058320098",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.5,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069273885598724279": {
+    "tweet_id": "2069273885598724279",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.5,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069263371766219092": {
+    "tweet_id": "2069263371766219092",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "NVIDIA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069263374706516009": {
+    "tweet_id": "2069263374706516009",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.9,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069256105528881260": {
+    "tweet_id": "2069256105528881260",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069226465812713682": {
+    "tweet_id": "2069226465812713682",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.8,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069207209133887767": {
+    "tweet_id": "2069207209133887767",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "SK Hynix",
+        "symbol": "000660",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Samsung Electronics",
+        "symbol": "005930",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "NVIDIA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Microsoft",
+        "symbol": "MSFT",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069207211239477660": {
+    "tweet_id": "2069207211239477660",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069199186516701474": {
+    "tweet_id": "2069199186516701474",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Samsung Electronics",
+        "symbol": "005930",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.65,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069199188878086340": {
+    "tweet_id": "2069199188878086340",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.9,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069018089304531011": {
+    "tweet_id": "2069018089304531011",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.7,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069017578815857046": {
+    "tweet_id": "2069017578815857046",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.8,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2069017543017410874": {
+    "tweet_id": "2069017543017410874",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.7,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068993045027324384": {
+    "tweet_id": "2068993045027324384",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.8,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068984938062561642": {
+    "tweet_id": "2068984938062561642",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "닉스",
+        "symbol": "닉스",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "still holding"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.6,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068961529484193930": {
+    "tweet_id": "2068961529484193930",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "SK Hynix",
+        "symbol": "000660",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "NVIDIA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.8,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068961531455578398": {
+    "tweet_id": "2068961531455578398",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068940254585970714": {
+    "tweet_id": "2068940254585970714",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.5,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068926089800593705": {
+    "tweet_id": "2068926089800593705",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Google",
+        "symbol": "GOOGL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "MediaTek",
+        "symbol": "MDTKF",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "exclusively securing new higher-priced TPU v9 order from Google",
+          "confirmed as Google's preferred development partner for TPU v9 generation"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068939632516227353": {
+    "tweet_id": "2068939632516227353",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.9,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068932544347980289": {
+    "tweet_id": "2068932544347980289",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Samsung Electro Mechanics",
+        "symbol": "009150",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Qualcomm",
+        "symbol": "QCOM",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "LG Innotek",
+        "symbol": "011070",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068932546285666447": {
+    "tweet_id": "2068932546285666447",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068925825886662672": {
+    "tweet_id": "2068925825886662672",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.7,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068895341706109191": {
+    "tweet_id": "2068895341706109191",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.7,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068913380786942295": {
+    "tweet_id": "2068913380786942295",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.9,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068902999074963474": {
+    "tweet_id": "2068902999074963474",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "SK Hynix",
+        "symbol": "000660",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Samsung Electronics",
+        "symbol": "005930",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068893684066816245": {
+    "tweet_id": "2068893684066816245",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068874815474376949": {
+    "tweet_id": "2068874815474376949",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "TSMC",
+        "symbol": "TSMC",
+        "stance": "neutral",
+        "mention_type": "quote_or_other",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068863522319356301": {
+    "tweet_id": "2068863522319356301",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068833982037565498": {
+    "tweet_id": "2068833982037565498",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Samsung Electronics",
+        "symbol": "005930",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Nvidia",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "AMD",
+        "symbol": "AMD",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Qualcomm",
+        "symbol": "QCOM",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Tesla",
+        "symbol": "TSLA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.7,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068833984034042158": {
+    "tweet_id": "2068833984034042158",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068573474453684291": {
+    "tweet_id": "2068573474453684291",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$MU",
+        "symbol": "MU",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "Citi's ASP assumptions looked too conservative",
+          "consensus may be too low",
+          "potential upside surprise this quarter"
+        ],
+        "is_risk": false,
+        "conviction_signal": "low"
+      }
+    ],
+    "confidence": 0.8,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068578901362909692": {
+    "tweet_id": "2068578901362909692",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.99,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068632971280789890": {
+    "tweet_id": "2068632971280789890",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.99,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068628109226918029": {
+    "tweet_id": "2068628109226918029",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "CXMT",
+        "symbol": "CXMT",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068628112137674975": {
+    "tweet_id": "2068628112137674975",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.9,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068595103233671513": {
+    "tweet_id": "2068595103233671513",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Nvidia",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068561558071062836": {
+    "tweet_id": "2068561558071062836",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.85,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068561137722167678": {
+    "tweet_id": "2068561137722167678",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068543612963770501": {
+    "tweet_id": "2068543612963770501",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "DRAM stocks",
+        "symbol": "DRAM_SECTOR",
+        "stance": "neutral",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "physical DRAM hoarding outperformed buying DRAM stocks since last September"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.6,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068543361141871028": {
+    "tweet_id": "2068543361141871028",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.85,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068515104103285190": {
+    "tweet_id": "2068515104103285190",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.85,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068503582803197993": {
+    "tweet_id": "2068503582803197993",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.85,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068501546313437419": {
+    "tweet_id": "2068501546313437419",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.85,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068489675510268060": {
+    "tweet_id": "2068489675510268060",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Samsung Electronics",
+        "symbol": "Samsung Electronics",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "SK Hynix",
+        "symbol": "SK Hynix",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "TSMC",
+        "symbol": "TSMC",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Nvidia",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068489677590696216": {
+    "tweet_id": "2068489677590696216",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068308376434671713": {
+    "tweet_id": "2068308376434671713",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "HP",
+        "symbol": "HP",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Dell",
+        "symbol": "DELL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068308379605623270": {
+    "tweet_id": "2068308379605623270",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.8,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068252372162453947": {
+    "tweet_id": "2068252372162453947",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.7,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068253595938804157": {
+    "tweet_id": "2068253595938804157",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068249740924600415": {
+    "tweet_id": "2068249740924600415",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068214793333526718": {
+    "tweet_id": "2068214793333526718",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Largan Precision",
+        "symbol": "3008",
+        "stance": "neutral",
+        "mention_type": "quote_or_other",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068203243700924430": {
+    "tweet_id": "2068203243700924430",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.6,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068192486514987366": {
+    "tweet_id": "2068192486514987366",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068158302035611724": {
+    "tweet_id": "2068158302035611724",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Yageo (國巨)",
+        "symbol": "YAGEO",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Kamet (凱美)",
+        "symbol": "KAMET",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Viking Tech (旺詮)",
+        "symbol": "VIKING_TECH",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Walsin Tech (華新科)",
+        "symbol": "WALSIN_TECH",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Ralec (厚聲)",
+        "symbol": "RALEC",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Guangdong Fenghua (風華高科)",
+        "symbol": "FENGHUA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.8,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068158305101647940": {
+    "tweet_id": "2068158305101647940",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068147878976266414": {
+    "tweet_id": "2068147878976266414",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.99,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068136090704465999": {
+    "tweet_id": "2068136090704465999",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.99,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068107984908251479": {
+    "tweet_id": "2068107984908251479",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Kioxia",
+        "symbol": "Kioxia",
+        "stance": "neutral",
+        "mention_type": "quote_or_other",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068118141939683821": {
+    "tweet_id": "2068118141939683821",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068106037350351009": {
+    "tweet_id": "2068106037350351009",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.99,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2068105959323664638": {
+    "tweet_id": "2068105959323664638",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.8,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067636769856860367": {
+    "tweet_id": "2067636769856860367",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "$INTC",
+        "symbol": "INTC",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "UMC",
+        "symbol": "UMC",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.7,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067637000665207280": {
+    "tweet_id": "2067637000665207280",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.5,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067954137736880531": {
+    "tweet_id": "2067954137736880531",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.8,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067886292877377567": {
+    "tweet_id": "2067886292877377567",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067886295888929251": {
+    "tweet_id": "2067886295888929251",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067883664348999865": {
+    "tweet_id": "2067883664348999865",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.99,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067865844689056191": {
+    "tweet_id": "2067865844689056191",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Nvidia",
+        "symbol": "NVDA",
+        "stance": "bearish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "Jensen Huang effectively threatening neo-clouds by implying Nvidia could cut chip allocations if they don't buy Nvidia's full stack"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.65,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067865847688016246": {
+    "tweet_id": "2067865847688016246",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.9,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067828569246691788": {
+    "tweet_id": "2067828569246691788",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "NVIDIA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.8,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067828295232786898": {
+    "tweet_id": "2067828295232786898",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Nan Ya",
+        "symbol": "NAN_YA",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "global leader in glass fiber E glass",
+          "favored by major North American AI players",
+          "capacity effectively locked up by NVIDIA supply chain",
+          "capacity at full utilization",
+          "supply shortages intensifying and prices rising",
+          "NVIDIA accepting mixed T glass and E glass application to pull forward shipments",
+          "revenue share of electronic materials segment could expand to 60%"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Kingboard",
+        "symbol": "KINGBOARD",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "NVIDIA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067828297300574590": {
+    "tweet_id": "2067828297300574590",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.9,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067778789019701321": {
+    "tweet_id": "2067778789019701321",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.85,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067777637192434052": {
+    "tweet_id": "2067777637192434052",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "ASML",
+        "symbol": "ASML",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067778221236727809": {
+    "tweet_id": "2067778221236727809",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.5,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067765436289327207": {
+    "tweet_id": "2067765436289327207",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.5,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067644655181902024": {
+    "tweet_id": "2067644655181902024",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.8,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067636897355280743": {
+    "tweet_id": "2067636897355280743",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.99,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067608412209488302": {
+    "tweet_id": "2067608412209488302",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.85,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067607199363526785": {
+    "tweet_id": "2067607199363526785",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.5,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067597086665986477": {
+    "tweet_id": "2067597086665986477",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.5,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067528626971799556": {
+    "tweet_id": "2067528626971799556",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.85,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067494567218384920": {
+    "tweet_id": "2067494567218384920",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.9,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067481398332797367": {
+    "tweet_id": "2067481398332797367",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.5,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067472814345744688": {
+    "tweet_id": "2067472814345744688",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067471416140964199": {
+    "tweet_id": "2067471416140964199",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Apple",
+        "symbol": "AAPL",
+        "stance": "neutral",
+        "mention_type": "quote_or_other",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Intel",
+        "symbol": "INTC",
+        "stance": "neutral",
+        "mention_type": "quote_or_other",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067469982901178443": {
+    "tweet_id": "2067469982901178443",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.99,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067457952752279770": {
+    "tweet_id": "2067457952752279770",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.7,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067440482524029088": {
+    "tweet_id": "2067440482524029088",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "TSMC",
+        "symbol": "TSM",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Nvidia",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.8,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067429145496477701": {
+    "tweet_id": "2067429145496477701",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067427117504283101": {
+    "tweet_id": "2067427117504283101",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.85,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067418881002725737": {
+    "tweet_id": "2067418881002725737",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Apple",
+        "symbol": "AAPL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Nvidia",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067418883649347713": {
+    "tweet_id": "2067418883649347713",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067410844997312797": {
+    "tweet_id": "2067410844997312797",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "SKhynix",
+        "symbol": "000660",
+        "stance": "neutral",
+        "mention_type": "quote_or_other",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067406692279836735": {
+    "tweet_id": "2067406692279836735",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.99,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067405354040995876": {
+    "tweet_id": "2067405354040995876",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.99,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067385949903040969": {
+    "tweet_id": "2067385949903040969",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.5,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067385879744942253": {
+    "tweet_id": "2067385879744942253",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067381403533349305": {
+    "tweet_id": "2067381403533349305",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.6,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067379602314711497": {
+    "tweet_id": "2067379602314711497",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Samsung preferred",
+        "symbol": "SAMSUNG_PREFERRED",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "trading at a 40% discount to the common shares",
+          "author implies this is too cheap"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067374503915885029": {
+    "tweet_id": "2067374503915885029",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.9,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067376828441145420": {
+    "tweet_id": "2067376828441145420",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.9,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067376339691434198": {
+    "tweet_id": "2067376339691434198",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Winbond",
+        "symbol": "2344",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "entering NVIDIA Vera Rubin supply chain for NOR Flash in second half of 2026",
+          "potential to capture ~50% market share on Vera Rubin platform by 2027",
+          "structural undersupply in NOR Flash driving prices up 100-120% in H1 2026 and >60% in H2 2026",
+          "Micron shifting focus away from NOR, Chinese suppliers excluded by CSPs, creating opportunity",
+          "growing AI server, automotive, and edge AI demand for high-capacity NOR Flash",
+          "quietly qualified during GB200 period, positioned ahead of ramp"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "NVIDIA",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Micron",
+        "symbol": "MU",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Macronix",
+        "symbol": "2337",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.82,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067376342312915356": {
+    "tweet_id": "2067376342312915356",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067371368770109774": {
+    "tweet_id": "2067371368770109774",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Murata",
+        "symbol": "6981",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Samsung Electro Mechanics",
+        "symbol": "009150",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Taiyo Yuden",
+        "symbol": "6976",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Kyocera",
+        "symbol": "6971",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067371370653405230": {
+    "tweet_id": "2067371370653405230",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067156318016930044": {
+    "tweet_id": "2067156318016930044",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "AVGO",
+        "symbol": "AVGO",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067132483498639742": {
+    "tweet_id": "2067132483498639742",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Samsung Electronics",
+        "symbol": "005930",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.7,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067132485604127048": {
+    "tweet_id": "2067132485604127048",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.9,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067111063645261914": {
+    "tweet_id": "2067111063645261914",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "SK Hynix",
+        "symbol": "000660",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.6,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067098300801843678": {
+    "tweet_id": "2067098300801843678",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Ajinomoto",
+        "symbol": "2802",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.72,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067098302689218620": {
+    "tweet_id": "2067098302689218620",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067093616183677033": {
+    "tweet_id": "2067093616183677033",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Samsung",
+        "symbol": "005930",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "in talks with AMD to manufacture CPUs through foundry business",
+          "mass production expected in 2028"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "AMD",
+        "symbol": "AMD",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.65,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067095926704107748": {
+    "tweet_id": "2067095926704107748",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Samsung",
+        "symbol": "005930",
+        "stance": "bullish",
+        "mention_type": "explicit_stance",
+        "reasons": [
+          "yield estimated to have improved to some extent"
+        ],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.6,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067092746364748272": {
+    "tweet_id": "2067092746364748272",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Samsung",
+        "symbol": "005930",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "BYD",
+        "symbol": "BYD",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Google",
+        "symbol": "GOOGL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "AMD",
+        "symbol": "AMD",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "TSMC",
+        "symbol": "TSM",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Tesla",
+        "symbol": "TSLA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Intel",
+        "symbol": "INTC",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Nvidia",
+        "symbol": "NVDA",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Apple",
+        "symbol": "AAPL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Broadcom",
+        "symbol": "AVGO",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Marvell",
+        "symbol": "MRVL",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "MediaTek",
+        "symbol": "2454",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Qualcomm",
+        "symbol": "QCOM",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.85,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067092749032251765": {
+    "tweet_id": "2067092749032251765",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067070908439973913": {
+    "tweet_id": "2067070908439973913",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067064798421168429": {
+    "tweet_id": "2067064798421168429",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.99,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067042515593904277": {
+    "tweet_id": "2067042515593904277",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067039551294705733": {
+    "tweet_id": "2067039551294705733",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "DeepSeek",
+        "symbol": "DeepSeek",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "CXMT",
+        "symbol": "CXMT",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067039553635152326": {
+    "tweet_id": "2067039553635152326",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.8,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067035744246583343": {
+    "tweet_id": "2067035744246583343",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "SK hynix",
+        "symbol": "000660",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Kioxia",
+        "symbol": "285A",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067026485010108715": {
+    "tweet_id": "2067026485010108715",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.6,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067028352217858282": {
+    "tweet_id": "2067028352217858282",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067021561828388952": {
+    "tweet_id": "2067021561828388952",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067012038220726527": {
+    "tweet_id": "2067012038220726527",
+    "has_investment_content": true,
+    "tickers": [
+      {
+        "raw_mention": "Largan Precision",
+        "symbol": "3008",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Sunny Optical",
+        "symbol": "2382",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      },
+      {
+        "raw_mention": "Han's Laser",
+        "symbol": "002008",
+        "stance": "neutral",
+        "mention_type": "background",
+        "reasons": [],
+        "is_risk": false,
+        "conviction_signal": null
+      }
+    ],
+    "confidence": 0.75,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2067012040628298094": {
+    "tweet_id": "2067012040628298094",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.95,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2066987421909266489": {
+    "tweet_id": "2066987421909266489",
+    "has_investment_content": true,
+    "tickers": [],
+    "confidence": 0.7,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2066987424102936900": {
+    "tweet_id": "2066987424102936900",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.5,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  },
+  "2066990735329825093": {
+    "tweet_id": "2066990735329825093",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 0.9,
+    "extractor_model": "claude-sonnet-4-6",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-06-23T19:07:51.102928+00:00"
+  }
+}

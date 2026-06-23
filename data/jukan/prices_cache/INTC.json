@@ -1,0 +1,24 @@
+{
+  "price_symbol": "INTC",
+  "currency": "USD",
+  "price_unit": "USD",
+  "series": [
+    {
+      "date": "2026-06-16",
+      "close": 117.05
+    },
+    {
+      "date": "2026-06-17",
+      "close": 121.1
+    },
+    {
+      "date": "2026-06-18",
+      "close": 133.99
+    },
+    {
+      "date": "2026-06-22",
+      "close": 140.94
+    }
+  ],
+  "last_updated": "2026-06-23T19:15:56.308931+00:00"
+}

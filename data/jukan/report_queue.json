@@ -1,0 +1,444 @@
+{
+  "data_generated_at": "2026-06-23T19:16:36.591968+00:00",
+  "existing_reports": [],
+  "next_reports": [
+    {
+      "company": "Samsung Electronics",
+      "evidence": [
+        {
+          "date": "2026-06-22",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 70,
+          "stance": "neutral",
+          "text_preview": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM SK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater we…",
+          "tweet_id": "2069207209133887767",
+          "url": "https://x.com/jukan05/status/2069207209133887767"
+        },
+        {
+          "date": "2026-06-16",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "in talks with AMD to manufacture CPUs through foundry business",
+            "mass production expected in 2028"
+          ],
+          "score": 52,
+          "stance": "bullish",
+          "text_preview": "Samsung is reportedly in talks with AMD to manufacture CPUs through its foundry business, with mass production expected in 2028. LFG! https://t.co/6WxO1etdEv https://t.co/gBWFEtyjyC",
+          "tweet_id": "2067093616183677033",
+          "url": "https://x.com/jukan05/status/2067093616183677033"
+        },
+        {
+          "date": "2026-06-16",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 47,
+          "stance": "neutral",
+          "text_preview": "Samsung sees rising chip production requests from BYD, Google, AMD- Nikkei Asia BYD, Google, AMD, Tesla and others are looking increasingly to Samsung Electronics for contract chipmaking services as surging demand for A…",
+          "tweet_id": "2067092746364748272",
+          "url": "https://x.com/jukan05/status/2067092746364748272"
+        },
+        {
+          "date": "2026-06-17",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "yield estimated to have improved to some extent"
+          ],
+          "score": 33,
+          "stance": "bullish",
+          "text_preview": "@IkaKnight_ The yield is estimated to have improved to some extent.",
+          "tweet_id": "2067095926704107748",
+          "url": "https://x.com/jukan05/status/2067095926704107748"
+        },
+        {
+          "date": "2026-06-21",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 29,
+          "stance": "neutral",
+          "text_preview": "Samsung Electronics Breaks Ground in Earnest on Its Last Pyeongtaek Semiconductor Fab Samsung Electronics has begun preparations to break ground on \"P5 Fab 2,\" the final fab at its Pyeongtaek campus in Gyeonggi Province…",
+          "tweet_id": "2068833982037565498",
+          "url": "https://x.com/jukan05/status/2068833982037565498"
+        },
+        {
+          "date": "2026-06-23",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 21,
+          "stance": "neutral",
+          "text_preview": "Why overcomplicate it? Micron is trying to build a strong relationship with Anthropic early on and make Anthropic more dependent on Micron. Anthropic is likely to consume more and more memory over time, especially as it…",
+          "tweet_id": "2069278356193919073",
+          "url": "https://x.com/jukan05/status/2069278356193919073"
+        }
+      ],
+      "explicit_stance_posts": 2,
+      "first_mention": "2026-06-16",
+      "has_report": false,
+      "high_conviction_posts": 0,
+      "industry": "Memory/HBM/Semiconductors",
+      "last_mention": "2026-06-23",
+      "market": "Korea Exchange",
+      "priority": "medium",
+      "report_score": 448,
+      "risk_posts": 0,
+      "signal_terms": [
+        "allocation",
+        "amd",
+        "ban",
+        "capacity",
+        "long",
+        "margin",
+        "microsoft",
+        "nvidia",
+        "own",
+        "pricing",
+        "ramp",
+        "sell"
+      ],
+      "stance_counts": {
+        "bullish": 2,
+        "neutral": 9
+      },
+      "status": "needs_report",
+      "substantive_posts": 5,
+      "ticker": "SAMSUNG",
+      "total_mentions": 11,
+      "unique_mention_days": 5,
+      "why": [
+        "11 total mentions across 5 days",
+        "2 explicit stance posts",
+        "5 substantive thesis-like posts",
+        "high-signal terms: allocation, amd, ban, capacity, long, margin",
+        "latest mention 2026-06-23"
+      ]
+    },
+    {
+      "company": "NVIDIA",
+      "evidence": [
+        {
+          "date": "2026-06-22",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 70,
+          "stance": "neutral",
+          "text_preview": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM SK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater we…",
+          "tweet_id": "2069207209133887767",
+          "url": "https://x.com/jukan05/status/2069207209133887767"
+        },
+        {
+          "date": "2026-06-19",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "Jensen Huang effectively threatening neo-clouds by implying Nvidia could cut chip allocations if they don't buy Nvidia's full stack"
+          ],
+          "score": 59,
+          "stance": "bearish",
+          "text_preview": "\"Some neo-clouds worry that they can’t stray from buying Nvidia’s full stack of hardware for fear of being put in “Jensen jail,” meaning they might lose their allocations of Nvidia chips, said Adam Fisher, a partner at…",
+          "tweet_id": "2067865844689056191",
+          "url": "https://x.com/jukan05/status/2067865844689056191"
+        },
+        {
+          "date": "2026-06-17",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 51,
+          "stance": "neutral",
+          "text_preview": "[Exclusive] Winbond's NOR Flash enters NVIDIA's supply chain for the first time, taking aim at 50% market share AI servers are driving an explosion in memory demand. NVIDIA's next generation Vera Rubin platform is sched…",
+          "tweet_id": "2067376339691434198",
+          "url": "https://x.com/jukan05/status/2067376339691434198"
+        },
+        {
+          "date": "2026-06-16",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 47,
+          "stance": "neutral",
+          "text_preview": "Samsung sees rising chip production requests from BYD, Google, AMD- Nikkei Asia BYD, Google, AMD, Tesla and others are looking increasingly to Samsung Electronics for contract chipmaking services as surging demand for A…",
+          "tweet_id": "2067092746364748272",
+          "url": "https://x.com/jukan05/status/2067092746364748272"
+        },
+        {
+          "date": "2026-06-22",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 31,
+          "stance": "neutral",
+          "text_preview": "Korea's June Memory Semiconductor Exports Poised to Set a New All Time Record June memory semiconductor exports extended their powerful upward run, with both export value and unit prices surging together on the back of…",
+          "tweet_id": "2068961529484193930",
+          "url": "https://x.com/jukan05/status/2068961529484193930"
+        },
+        {
+          "date": "2026-06-21",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 29,
+          "stance": "neutral",
+          "text_preview": "Samsung Electronics Breaks Ground in Earnest on Its Last Pyeongtaek Semiconductor Fab Samsung Electronics has begun preparations to break ground on \"P5 Fab 2,\" the final fab at its Pyeongtaek campus in Gyeonggi Province…",
+          "tweet_id": "2068833982037565498",
+          "url": "https://x.com/jukan05/status/2068833982037565498"
+        }
+      ],
+      "explicit_stance_posts": 1,
+      "first_mention": "2026-06-16",
+      "has_report": false,
+      "high_conviction_posts": 0,
+      "industry": "AI Chips",
+      "last_mention": "2026-06-22",
+      "market": "US",
+      "priority": "low",
+      "report_score": 557,
+      "risk_posts": 0,
+      "signal_terms": [
+        "allocation",
+        "amd",
+        "ban",
+        "capacity",
+        "channel check",
+        "confirmed",
+        "long",
+        "margin",
+        "microsoft",
+        "nvidia",
+        "own",
+        "pricing",
+        "ramp",
+        "sell"
+      ],
+      "stance_counts": {
+        "bearish": 1,
+        "neutral": 12
+      },
+      "status": "candidate",
+      "substantive_posts": 6,
+      "ticker": "NVDA",
+      "total_mentions": 13,
+      "unique_mention_days": 6,
+      "why": [
+        "13 total mentions across 6 days",
+        "1 explicit stance posts",
+        "6 substantive thesis-like posts",
+        "high-signal terms: allocation, amd, ban, capacity, channel check, confirmed",
+        "latest mention 2026-06-22"
+      ]
+    },
+    {
+      "company": "SK Hynix",
+      "evidence": [
+        {
+          "date": "2026-06-22",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 70,
+          "stance": "neutral",
+          "text_preview": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM SK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater we…",
+          "tweet_id": "2069207209133887767",
+          "url": "https://x.com/jukan05/status/2069207209133887767"
+        },
+        {
+          "date": "2026-06-22",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "still holding"
+          ],
+          "score": 39,
+          "stance": "bullish",
+          "text_preview": "@StarAndCompass_ 전 여전히 닉스 홀딩",
+          "tweet_id": "2068984938062561642",
+          "url": "https://x.com/jukan05/status/2068984938062561642"
+        },
+        {
+          "date": "2026-06-16",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 31,
+          "stance": "neutral",
+          "text_preview": "SK hynix Expected to Generate Over $75 Billion in Gains from Kioxia Stake Investment - SK hynix is estimated to have realized KRW 40 trillion, or USD 26.46 billion, in gains from Bain Capital’s sale of its Kioxia stake.…",
+          "tweet_id": "2067035744246583343",
+          "url": "https://x.com/jukan05/status/2067035744246583343"
+        },
+        {
+          "date": "2026-06-22",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 31,
+          "stance": "neutral",
+          "text_preview": "Korea's June Memory Semiconductor Exports Poised to Set a New All Time Record June memory semiconductor exports extended their powerful upward run, with both export value and unit prices surging together on the back of…",
+          "tweet_id": "2068961529484193930",
+          "url": "https://x.com/jukan05/status/2068961529484193930"
+        },
+        {
+          "date": "2026-06-23",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 21,
+          "stance": "neutral",
+          "text_preview": "Why overcomplicate it? Micron is trying to build a strong relationship with Anthropic early on and make Anthropic more dependent on Micron. Anthropic is likely to consume more and more memory over time, especially as it…",
+          "tweet_id": "2069278356193919073",
+          "url": "https://x.com/jukan05/status/2069278356193919073"
+        },
+        {
+          "date": "2026-06-20",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 20,
+          "stance": "neutral",
+          "text_preview": "JEDEC Ratifies 'SPHBM4' Standard; Glass Substrate Utility Draws Attention The Joint Electron Device Engineering Council (JEDEC) has ratified a new standard that broadens the addressable scope of high bandwidth memory (H…",
+          "tweet_id": "2068489675510268060",
+          "url": "https://x.com/jukan05/status/2068489675510268060"
+        }
+      ],
+      "explicit_stance_posts": 1,
+      "first_mention": "2026-06-16",
+      "has_report": false,
+      "high_conviction_posts": 0,
+      "industry": "Memory/HBM (Korea)",
+      "last_mention": "2026-06-23",
+      "market": "Korea Exchange",
+      "priority": "low",
+      "report_score": 395,
+      "risk_posts": 0,
+      "signal_terms": [
+        "ban",
+        "capacity",
+        "holding",
+        "long",
+        "margin",
+        "microsoft",
+        "nvidia",
+        "own",
+        "pricing",
+        "ramp",
+        "sell",
+        "sold"
+      ],
+      "stance_counts": {
+        "bullish": 1,
+        "neutral": 12
+      },
+      "status": "candidate",
+      "substantive_posts": 4,
+      "ticker": "SK HYNIX",
+      "total_mentions": 13,
+      "unique_mention_days": 6,
+      "why": [
+        "13 total mentions across 6 days",
+        "1 explicit stance posts",
+        "4 substantive thesis-like posts",
+        "high-signal terms: ban, capacity, holding, long, margin, microsoft",
+        "latest mention 2026-06-23"
+      ]
+    },
+    {
+      "company": "Micron",
+      "evidence": [
+        {
+          "date": "2026-06-23",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "building relationship with Anthropic early to secure future memory demand",
+            "Anthropic will consume more memory over time especially as it designs its own ASICs",
+            "investment in Anthropic today has nature of seed capital that could yield much larger future purchases"
+          ],
+          "score": 64,
+          "stance": "bullish",
+          "text_preview": "Why overcomplicate it? Micron is trying to build a strong relationship with Anthropic early on and make Anthropic more dependent on Micron. Anthropic is likely to consume more and more memory over time, especially as it…",
+          "tweet_id": "2069278356193919073",
+          "url": "https://x.com/jukan05/status/2069278356193919073"
+        },
+        {
+          "date": "2026-06-17",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 51,
+          "stance": "neutral",
+          "text_preview": "[Exclusive] Winbond's NOR Flash enters NVIDIA's supply chain for the first time, taking aim at 50% market share AI servers are driving an explosion in memory demand. NVIDIA's next generation Vera Rubin platform is sched…",
+          "tweet_id": "2067376339691434198",
+          "url": "https://x.com/jukan05/status/2067376339691434198"
+        },
+        {
+          "date": "2026-06-21",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "Citi's ASP assumptions looked too conservative",
+            "consensus may be too low",
+            "potential upside surprise this quarter"
+          ],
+          "score": 51,
+          "stance": "bullish",
+          "text_preview": "What do you think about Micron’s earnings? I read Citi’s preview report, and their ASP assumptions looked way too conservative. If consensus is around that level, I’m starting to think Micron could potentially deliver a…",
+          "tweet_id": "2068573474453684291",
+          "url": "https://x.com/jukan05/status/2068573474453684291"
+        },
+        {
+          "date": "2026-06-23",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 10,
+          "stance": "neutral",
+          "text_preview": "Why did the KOSPI fall today? 1. Korean leverage trading has climbed to excessively high levels. 2. Ahead of Micron's earnings, profit taking is underway, with talk that buyside expectations have become too elevated. 3.…",
+          "tweet_id": "2069368311146815885",
+          "url": "https://x.com/jukan05/status/2069368311146815885"
+        },
+        {
+          "date": "2026-06-23",
+          "mention_type": "background",
+          "reasons": [],
+          "score": -2,
+          "stance": "neutral",
+          "text_preview": "This is actually a really important point. If CXMT’s DRAM ASP is only about 5–10% lower than Samsung, SK Hynix, and Micron’s, it suggests that China currently has no interest in dumping memory. They want to make money t…",
+          "tweet_id": "2069488184036307049",
+          "url": "https://x.com/jukan05/status/2069488184036307049"
+        }
+      ],
+      "explicit_stance_posts": 2,
+      "first_mention": "2026-06-17",
+      "has_report": false,
+      "high_conviction_posts": 0,
+      "industry": "Memory/HBM",
+      "last_mention": "2026-06-23",
+      "market": "US",
+      "priority": "low",
+      "report_score": 267,
+      "risk_posts": 0,
+      "signal_terms": [
+        "allocation",
+        "ban",
+        "capacity",
+        "confirmed",
+        "long",
+        "margin",
+        "nvidia",
+        "own",
+        "pricing",
+        "ramp"
+      ],
+      "stance_counts": {
+        "bullish": 2,
+        "neutral": 3
+      },
+      "status": "candidate",
+      "substantive_posts": 3,
+      "ticker": "MU",
+      "total_mentions": 5,
+      "unique_mention_days": 3,
+      "why": [
+        "5 total mentions across 3 days",
+        "2 explicit stance posts",
+        "3 substantive thesis-like posts",
+        "high-signal terms: allocation, ban, capacity, confirmed, long, margin",
+        "latest mention 2026-06-23"
+      ]
+    }
+  ],
+  "reports_available": 0,
+  "stocks_scanned": 42,
+  "stocks_skipped": 38,
+  "summary": {
+    "candidate": 3,
+    "has_report": 0,
+    "needs_regeneration": 0,
+    "needs_report": 1,
+    "needs_update": 0
+  },
+  "updates_due": []
+}

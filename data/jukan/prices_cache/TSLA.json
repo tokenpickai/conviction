@@ -1,0 +1,24 @@
+{
+  "price_symbol": "TSLA",
+  "currency": "USD",
+  "price_unit": "USD",
+  "series": [
+    {
+      "date": "2026-06-16",
+      "close": 404.66
+    },
+    {
+      "date": "2026-06-17",
+      "close": 396.38
+    },
+    {
+      "date": "2026-06-18",
+      "close": 400.49
+    },
+    {
+      "date": "2026-06-22",
+      "close": 405.05
+    }
+  ],
+  "last_updated": "2026-06-23T19:16:01.107525+00:00"
+}

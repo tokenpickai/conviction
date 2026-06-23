@@ -1,0 +1,58 @@
+{
+  "ticker": "HPQ",
+  "cashtag": "HP",
+  "price_symbol": "HPQ",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": "HP Inc.",
+  "industry": "PC Hardware",
+  "thesis_summary": null,
+  "first_mention": "2026-06-20",
+  "last_mention": "2026-06-20",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2068308376434671713",
+      "date": "2026-06-20",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "HP",
+      "text": "There have been reports since February that HP, Dell, and others have been evaluating Chinese memory, but it seems like they still haven’t made a decision.\n\n(The following is from today’s Wall Street Journal article.) https://t.co/74ofSZEhuM",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2068308371690987521",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLQbgXSboAEH10y.jpg",
+          "width": 1320,
+          "height": 1038,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2068308376434671713",
+      "kind": "post",
+      "engagement": {
+        "views": 113970,
+        "likes": 423,
+        "reposts": 36,
+        "replies": 40
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-06-22",
+      "close": 23.54
+    }
+  ],
+  "price_status": "ok",
+  "price_unit": "USD",
+  "price_updated_at": "2026-06-23T19:16:17.231550+00:00"
+}

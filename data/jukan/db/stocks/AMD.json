@@ -1,0 +1,136 @@
+{
+  "ticker": "AMD",
+  "cashtag": "AMD",
+  "price_symbol": "AMD",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": "AMD",
+  "industry": "GPU/AI Chips",
+  "thesis_summary": null,
+  "first_mention": "2026-06-16",
+  "last_mention": "2026-06-21",
+  "total_mentions": 3,
+  "mentions": [
+    {
+      "tweet_id": "2067092746364748272",
+      "date": "2026-06-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "Samsung sees rising chip production requests from BYD, Google, AMD- Nikkei Asia\n\nBYD, Google, AMD, Tesla and others are looking increasingly to Samsung Electronics for contract chipmaking services as surging demand for AI infrastructure strains the advanced chipmaking capacity of market leader TSMC, Nikkei Asia has learned.\n\nSamsung has seen a surge in inquiries from existing and potential global customers, including those in China, looking to use its advanced chip manufacturing capacity, according to six people with knowledge of the matter.\n\nBYD, China's top electric vehicle maker, has been in talks with Samsung about building future generations of autonomous driving chips, while Google is engaging with the South Korean company about potentially producing its next-generation Axion processors, set to launch around 2028, two people familiar with the matter told Nikkei Asia. Google is also considering asking Samsung to build part of its key Tensor Processing Units (TPUs) for AI computing workloads, as early as 2028, one of the people said.\n\n\"TSMC is prioritizing advanced-node production not only because it reinforces its tech leadership and long-term strategy, but also because those nodes are more profitable and remain in short supply,\" said an executive from a Chinese autochip designer, who asked not to be named. \"Samsung's yields still lag behind TSMC's, but capacity availability has made it an increasingly attractive option.\"\n\nYield is the industry term for production quality, measured as the percentage of chips produced that meet the required specifications and performance.\n\nTSMC, Samsung and Intel are the world's only chipmakers that can offer cutting-edge chip production at a large scale. TSMC has secured the majority of such orders, as well as orders for advanced chip packaging services, from the likes of Nvidia, Apple, AMD, Broadcom, Marvell and MediaTek. These clients take up a large share of the Taiwanese chipmaking group's advanced chipmaking capacity.\n\nIntel, which mainly manufactures chips for in-house use, is working to attract more customers to adopt its advanced chipmaking and packaging capacity.\n\nThe Chinese auto industry executive said many chip designers in the country are now pursuing a dual-sourcing strategy, spreading orders between TSMC and Samsung rather than relying on a single foundry, with exact allocation depending on the product.\n\n\"Geopolitical factors also push some U.S. clients to use multiple contract chipmakers, if available out there, if they can,\" another chip industry executive with knowledge told Nikkei Asia.\n\n\"TSMC's advanced chip production capacity is really full, which is hard for Chinese clients who have smaller volumes to place new orders, so several have turned to approach Samsung for future possibilities,\" said an executive-level chip industry source who is familiar with the matter.\n\nGoogle has been a driving force in the multi-foundry strategy, sources told Nikkei Asia. MediaTek, Taiwan's top chip developer, is helping Google to work with both TSMC and Intel for advanced chip packaging, Nikkei Asia earlier reported, while Qualcomm, the U.S. mobile chip king, has long made use of both TSMC's and Samsung's services.\n\nHowever, using multiple foundries for advanced chip production requires substantial investment in adapting chip designs to different chipmakers' manufacturing processes, along with greater R&D and supply-chain coordination. Such a strategy is typically viable only for deep-pocketed chip developers, given the additional engineering and workforce costs involved.\n\nMeanwhile, capacity constraints at TSMC are pushing other existing customers to potentially place more orders with Samsung, sources said.\n\nTesla works with both Samsung and TSMC on various products, including its AI5 chips used in its cars and robots. The upcoming AI6, however, will be made by Samsung in Texas. Tesla founder Elon Musk also announced a partnership with Intel for its future terafab projects in Texas, aiming to bring more critical chip production back to the U.S. and help meet growing demand.\n\nAMD and Nvidia, key clients of TSMC, are also working with Samsung on some chip projects due to capacity constraints. AMD, for example, is in talks to build some future CPUs with Samsung from 2028, one source with knowledge of the situation said.\n\nNvidia's Groq language processing units (LPUs) are produced by Samsung, and the U.S. chipmaker has not decided whether production of the next generation of these highly specialized chips will be given to other contract chipmakers. The majority of Nvidia's chips are made exclusively by TSMC.\n\nThe increasing requests for leading-edge chip production for Samsung would mark a victory for the South Korean chipmaker's foundry business, which used to mainly serve its own consumer electronics and home appliance divisions.\n\nThe growing foundry business comes as Samsung is also riding the AI investment boom, enjoying exponentially growing demand for its memory products, including high-bandwidth memory chips, DRAM and NAND flash memories.\n\nSamsung said that it does not comment on customers.\n\nNew orders would help Samsung's foundry unit rebound from a recent downturn. The company said earnings for the segment declined in the first quarter due to it being the off-peak season, but it did not elaborate on how big the dip was.\n\nSamsung's foundry and system large-scale integration business units posted a combined 6.9 trillion won ($4.6 billion) in sales in the first quarter, up from 6 trillion won a year ago. Samsung does not break down its earnings for the two units, the latter of which makes an array of logic and analog chips, including image sensors and display chips.\n\nBYD declined to comment. Google said it does not comment on the details of its supply chain.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067092693587828736",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK_J2lcboAASRZl.jpg",
+          "width": 1574,
+          "height": 1352,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2067092746364748272",
+      "kind": "post",
+      "engagement": {
+        "views": 148674,
+        "likes": 390,
+        "reposts": 52,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067093616183677033",
+      "date": "2026-06-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "Samsung is reportedly in talks with AMD to manufacture CPUs through its foundry business, with mass production expected in 2028.\n\nLFG! https://t.co/6WxO1etdEv https://t.co/gBWFEtyjyC",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067093362096898048",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK_Kdf1agAAml6e.jpg",
+          "width": 1478,
+          "height": 1492,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2067093616183677033",
+      "kind": "post",
+      "engagement": {
+        "views": 141383,
+        "likes": 809,
+        "reposts": 96,
+        "replies": 17
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068833982037565498",
+      "date": "2026-06-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "Samsung Electronics Breaks Ground in Earnest on Its Last Pyeongtaek Semiconductor Fab\n\nSamsung Electronics has begun preparations to break ground on \"P5 Fab 2,\" the final fab at its Pyeongtaek campus in Gyeonggi Province. As a wave of artificial intelligence (AI) infrastructure investment has driven a surge in memory chip orders, the company has moved up the timing of its capital investment by roughly six months from the original plan.\n\nConstruction Equipment Deployed at the P5 Fab 2 Site\n\nAccording to the industry on the 21st, several pile drivers have recently been newly positioned at Samsung Electronics' P5 Fab 2 site. A pile driver is a piece of construction equipment used to drive columns into the ground. An industry official said, \"Equipment coming into the construction site one by one means that P5 Fab 2 construction will begin in earnest before long,\" adding, \"There is a strong likelihood of breaking ground around next month.\" The containers on the fab site are being moved elsewhere. The site partitioning work has reportedly also been completed. Samsung Electronics and the construction contractor are said to be assembling a dedicated team for the P5 Fab 2 project.\n\nP5 Fab 2 is the sixth fab to be built at the Pyeongtaek site, where Samsung Electronics produces its most advanced chips. It is also the last semiconductor production line at the Pyeongtaek site. The fab will be built on a site measuring 661m by 194m (approximately 130,000 square meters). That is the size of 18 soccer fields. It is expected to be able to produce 200,000 to 300,000 wafers per month on a 300mm wafer basis. It will house everything from high bandwidth memory (HBM), its flagship product, to next generation DRAM, NAND flash, and advanced process foundry (contract manufacturing) lines. The target is for it to begin operation for the first time in 2029.\n\nA distinctive feature is that it will be built in a three story \"triple fab\" structure. This building structure was first adopted at \"P5 Fab 1,\" located right next to this site, which began construction late last year with a target of beginning operation in 2028. P5 Fab 1 is expected to require an investment of more than 60 trillion won. A similar amount of funding is forecast to go into building P5 Fab 2. Combining the production capacity of P5 Fabs 1 and 2 comes to around 600,000 wafers per month on a 300mm wafer basis. That is a scale comparable to Samsung Electronics' current total DRAM output (650,000 units per month).\n\nAccelerating Capital Investment Amid Surging Chip Demand\n\nSamsung Electronics had originally planned to break ground on P5 Fab 2 early next year. However, as demand recently surged in the information technology (IT) industry not only for HBM, the core of AI chips, but also for general purpose DRAM and NAND flash, the company decided to move up the groundbreaking timing. An industry official said, \"Once Samsung Electronics begins pouring out volume in earnest, it will be able to gain an edge over competitors in cost competitiveness through 'economies of scale.'\"\n\nThe fact that global big tech companies have recently approached Samsung Electronics' foundry one after another about collaboration is also one of the factors behind moving up the groundbreaking. Chip design companies such as Nvidia, AMD, and Qualcomm, as well as Tesla and Neuralink led by Elon Musk, have all proposed contract manufacturing to Samsung Electronics.\n\nIn addition to building P5 Fabs 1 and 2 simultaneously, Samsung Electronics is expanding the production capacity of each of its bases in various ways. At P4, the newest fab within the Pyeongtaek site, it is additionally building a 10nm class 6th generation (1c) DRAM production line for 6th generation HBM (HBM4) with a scale of 100,000 to 120,000 wafers per month on a 300mm wafer basis. Its Xian fab in China is being equipped with space to produce 286 layer (V9) NAND flash. Its fab in Taylor, Texas, in the United States is being equipped with a 2 nanometer (nm; 1nm = one billionth of a meter) manufacturing line capable of making Tesla AI chips. The company is also reportedly pursuing the establishment of a semiconductor back end (packaging) fab in the Gwangju or Saemangeum region in a bid to promote balanced regional development.\n\nDaniel Oh, Executive Vice President at Samsung Electronics, said at the first quarter earnings call held this past April, \"With AI demand continuing this year, we plan to expand the scale of our capital expenditure (CAPEX) to a considerable level compared with the previous year,\" adding, \"We will strengthen our strategic bases and secure additional infrastructure so that we can proactively respond to future demand.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2068833940966891520",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLX5ghaaYAAKEWH.jpg",
+          "width": 1036,
+          "height": 637,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2068833982037565498",
+      "kind": "post",
+      "engagement": {
+        "views": 74714,
+        "likes": 278,
+        "reposts": 30,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-06-16",
+      "close": 507.29
+    },
+    {
+      "date": "2026-06-17",
+      "close": 512.48
+    },
+    {
+      "date": "2026-06-18",
+      "close": 537.37
+    },
+    {
+      "date": "2026-06-22",
+      "close": 551.63
+    }
+  ],
+  "price_status": "ok",
+  "price_unit": "USD",
+  "price_updated_at": "2026-06-23T19:15:53.822606+00:00"
+}

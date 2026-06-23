@@ -1,0 +1,62 @@
+{
+  "ticker": "ASML",
+  "cashtag": "ASML",
+  "price_symbol": "ASML",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-18",
+  "last_mention": "2026-06-18",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2067777637192434052",
+      "date": "2026-06-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ASML",
+      "text": "Holy shit, the U.S. government suspects that ASML exported EUV tools to China, or exported EUV components to China. https://t.co/g8qgsRM2qd",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067777313924927488",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLI4gu8bUAAtqT4.jpg",
+          "width": 1390,
+          "height": 1382,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2067777637192434052",
+      "kind": "post",
+      "engagement": {
+        "views": 143744,
+        "likes": 950,
+        "reposts": 75,
+        "replies": 69
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-06-18",
+      "close": 1929.6801
+    },
+    {
+      "date": "2026-06-22",
+      "close": 1929.25
+    }
+  ],
+  "price_status": "ok",
+  "price_unit": "USD",
+  "price_updated_at": "2026-06-23T19:16:10.205167+00:00"
+}

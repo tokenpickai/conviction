@@ -45,7 +45,7 @@ def profile_configs():
         profiles.append(profile)
     if not profiles:
         raise SystemExit("No profiles found in profiles/*.json")
-    return profiles
+    return sorted(profiles, key=lambda profile: ((profile.get("portal") or {}).get("order", 999), profile["slug"]))
 
 
 def latest_dashboard(prefix):

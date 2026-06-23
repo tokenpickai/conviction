@@ -35,39 +35,62 @@ jobs:
       - name: Fetch new tweets
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
-        run: python scripts/fetch_tweets.py --profile serenity
+        run: |
+          python scripts/fetch_tweets.py --profile serenity
+          python scripts/fetch_tweets.py --profile jukan
 
       - name: Extract opinions (LLM, recent 7d only)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python scripts/extract.py --profile serenity --since $(date -u -d '7 days ago' +%Y-%m-%d)
+        run: |
+          since="$(date -u -d '7 days ago' +%Y-%m-%d)"
+          python scripts/extract.py --profile serenity --since "$since"
+          python scripts/extract.py --profile jukan --since "$since" --model claude-sonnet-4-6
 
       - name: Rebuild stock database
-        run: python scripts/build_db.py --profile serenity
+        run: |
+          python scripts/build_db.py --profile serenity
+          python scripts/build_db.py --profile jukan
 
       - name: Verify data
-        run: python scripts/verify_data.py --profile serenity
+        run: |
+          python scripts/verify_data.py --profile serenity
+          python scripts/verify_data.py --profile jukan
 
       - name: Check report update candidates
-        run: python scripts/check_report_updates.py --profile serenity
+        run: |
+          python scripts/check_report_updates.py --profile serenity
+          python scripts/check_report_updates.py --profile jukan
 
       - name: Apply report updates
-        run: python scripts/apply_report_updates.py --profile serenity
+        run: |
+          python scripts/apply_report_updates.py --profile serenity
+          python scripts/apply_report_updates.py --profile jukan
 
       - name: Refresh report update candidates
-        run: python scripts/check_report_updates.py --profile serenity
+        run: |
+          python scripts/check_report_updates.py --profile serenity
+          python scripts/check_report_updates.py --profile jukan
 
       - name: Build report queue
-        run: python scripts/build_report_queue.py --profile serenity
+        run: |
+          python scripts/build_report_queue.py --profile serenity
+          python scripts/build_report_queue.py --profile jukan
 
       - name: Build report decisions
-        run: python scripts/build_report_decisions.py --profile serenity
+        run: |
+          python scripts/build_report_decisions.py --profile serenity
+          python scripts/build_report_decisions.py --profile jukan
 
       - name: Validate reports
-        run: python scripts/validate_reports.py --profile serenity
+        run: |
+          python scripts/validate_reports.py --profile serenity
+          python scripts/validate_reports.py --profile jukan
 
       - name: Audit reports
-        run: python scripts/audit_reports.py --profile serenity
+        run: |
+          python scripts/audit_reports.py --profile serenity
+          python scripts/audit_reports.py --profile jukan
 
       - name: Commit updated data
         run: |

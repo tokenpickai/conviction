@@ -1,0 +1,28 @@
+{
+  "slug": "jukan",
+  "display_name": "Jukan",
+  "handle": "jukan05",
+  "pronoun_zh": "作者",
+  "x_url": "https://x.com/jukan05",
+  "avatar": "assets/jukan-avatar.jpg",
+  "dashboard": {
+    "output_prefix": "jukan-tracker",
+    "data_dir": "data/jukan/db",
+    "raw_tweets": "data/jukan/raw_tweets.json",
+    "fetch_state": "data/jukan/state.json",
+    "extracted": "data/jukan/extracted.json",
+    "ticker_map": "data/jukan/ticker_map.json",
+    "ticker_review": "data/jukan/ticker_review.json",
+    "prices_cache": "data/jukan/prices_cache",
+    "reports_dir": "data/jukan/reports",
+    "reason_translations": "data/jukan/reason_translations.json",
+    "report_queue": "data/jukan/report_queue.json",
+    "report_decisions": "data/jukan/report_decisions.json",
+    "report_update_candidates": "data/jukan/report_update_candidates.json",
+    "report_failures": "data/jukan/report_generation_failures.json"
+  },
+  "portal": {
+    "order": 2,
+    "tag": "進入"
+  }
+}

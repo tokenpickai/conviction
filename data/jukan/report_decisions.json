@@ -1,0 +1,320 @@
+{
+  "automation_next": [
+    {
+      "action": "write_new_thesis",
+      "company": "Samsung Electronics",
+      "evidence": [
+        {
+          "date": "2026-06-22",
+          "score": 70,
+          "stance": "neutral",
+          "text_preview": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM SK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater we…",
+          "tweet_id": "2069207209133887767",
+          "url": "https://x.com/jukan05/status/2069207209133887767"
+        },
+        {
+          "date": "2026-06-16",
+          "score": 52,
+          "stance": "bullish",
+          "text_preview": "Samsung is reportedly in talks with AMD to manufacture CPUs through its foundry business, with mass production expected in 2028. LFG! https://t.co/6WxO1etdEv https://t.co/gBWFEtyjyC",
+          "tweet_id": "2067093616183677033",
+          "url": "https://x.com/jukan05/status/2067093616183677033"
+        },
+        {
+          "date": "2026-06-16",
+          "score": 47,
+          "stance": "neutral",
+          "text_preview": "Samsung sees rising chip production requests from BYD, Google, AMD- Nikkei Asia BYD, Google, AMD, Tesla and others are looking increasingly to Samsung Electronics for contract chipmaking services as surging demand for A…",
+          "tweet_id": "2067092746364748272",
+          "url": "https://x.com/jukan05/status/2067092746364748272"
+        }
+      ],
+      "first_mention": "2026-06-16",
+      "has_report": false,
+      "last_mention": "2026-06-23",
+      "priority": "medium",
+      "public_label": "撰寫新投資論點",
+      "report_score": 448,
+      "signal_terms": [
+        "allocation",
+        "amd",
+        "ban",
+        "capacity",
+        "long",
+        "margin",
+        "microsoft",
+        "nvidia",
+        "own",
+        "pricing",
+        "ramp",
+        "sell"
+      ],
+      "ticker": "SAMSUNG",
+      "total_mentions": 11,
+      "unique_mention_days": 5,
+      "why": [
+        "11 total mentions across 5 days",
+        "2 explicit stance posts",
+        "5 substantive thesis-like posts",
+        "high-signal terms: allocation, amd, ban, capacity, long, margin",
+        "latest mention 2026-06-23"
+      ]
+    }
+  ],
+  "data_generated_at": "2026-06-23T19:16:36.591968+00:00",
+  "decisions": [
+    {
+      "action": "write_new_thesis",
+      "company": "Samsung Electronics",
+      "evidence": [
+        {
+          "date": "2026-06-22",
+          "score": 70,
+          "stance": "neutral",
+          "text_preview": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM SK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater we…",
+          "tweet_id": "2069207209133887767",
+          "url": "https://x.com/jukan05/status/2069207209133887767"
+        },
+        {
+          "date": "2026-06-16",
+          "score": 52,
+          "stance": "bullish",
+          "text_preview": "Samsung is reportedly in talks with AMD to manufacture CPUs through its foundry business, with mass production expected in 2028. LFG! https://t.co/6WxO1etdEv https://t.co/gBWFEtyjyC",
+          "tweet_id": "2067093616183677033",
+          "url": "https://x.com/jukan05/status/2067093616183677033"
+        },
+        {
+          "date": "2026-06-16",
+          "score": 47,
+          "stance": "neutral",
+          "text_preview": "Samsung sees rising chip production requests from BYD, Google, AMD- Nikkei Asia BYD, Google, AMD, Tesla and others are looking increasingly to Samsung Electronics for contract chipmaking services as surging demand for A…",
+          "tweet_id": "2067092746364748272",
+          "url": "https://x.com/jukan05/status/2067092746364748272"
+        }
+      ],
+      "first_mention": "2026-06-16",
+      "has_report": false,
+      "last_mention": "2026-06-23",
+      "priority": "medium",
+      "public_label": "撰寫新投資論點",
+      "report_score": 448,
+      "signal_terms": [
+        "allocation",
+        "amd",
+        "ban",
+        "capacity",
+        "long",
+        "margin",
+        "microsoft",
+        "nvidia",
+        "own",
+        "pricing",
+        "ramp",
+        "sell"
+      ],
+      "ticker": "SAMSUNG",
+      "total_mentions": 11,
+      "unique_mention_days": 5,
+      "why": [
+        "11 total mentions across 5 days",
+        "2 explicit stance posts",
+        "5 substantive thesis-like posts",
+        "high-signal terms: allocation, amd, ban, capacity, long, margin",
+        "latest mention 2026-06-23"
+      ]
+    },
+    {
+      "action": "watch_for_more_signal",
+      "company": "NVIDIA",
+      "evidence": [
+        {
+          "date": "2026-06-22",
+          "score": 70,
+          "stance": "neutral",
+          "text_preview": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM SK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater we…",
+          "tweet_id": "2069207209133887767",
+          "url": "https://x.com/jukan05/status/2069207209133887767"
+        },
+        {
+          "date": "2026-06-19",
+          "score": 59,
+          "stance": "bearish",
+          "text_preview": "\"Some neo-clouds worry that they can’t stray from buying Nvidia’s full stack of hardware for fear of being put in “Jensen jail,” meaning they might lose their allocations of Nvidia chips, said Adam Fisher, a partner at…",
+          "tweet_id": "2067865844689056191",
+          "url": "https://x.com/jukan05/status/2067865844689056191"
+        },
+        {
+          "date": "2026-06-17",
+          "score": 51,
+          "stance": "neutral",
+          "text_preview": "[Exclusive] Winbond's NOR Flash enters NVIDIA's supply chain for the first time, taking aim at 50% market share AI servers are driving an explosion in memory demand. NVIDIA's next generation Vera Rubin platform is sched…",
+          "tweet_id": "2067376339691434198",
+          "url": "https://x.com/jukan05/status/2067376339691434198"
+        }
+      ],
+      "first_mention": "2026-06-16",
+      "has_report": false,
+      "last_mention": "2026-06-22",
+      "priority": "low",
+      "public_label": "觀察更多訊號",
+      "report_score": 557,
+      "signal_terms": [
+        "allocation",
+        "amd",
+        "ban",
+        "capacity",
+        "channel check",
+        "confirmed",
+        "long",
+        "margin",
+        "microsoft",
+        "nvidia",
+        "own",
+        "pricing",
+        "ramp",
+        "sell"
+      ],
+      "ticker": "NVDA",
+      "total_mentions": 13,
+      "unique_mention_days": 6,
+      "why": [
+        "13 total mentions across 6 days",
+        "1 explicit stance posts",
+        "6 substantive thesis-like posts",
+        "high-signal terms: allocation, amd, ban, capacity, channel check, confirmed",
+        "latest mention 2026-06-22"
+      ]
+    },
+    {
+      "action": "watch_for_more_signal",
+      "company": "SK Hynix",
+      "evidence": [
+        {
+          "date": "2026-06-22",
+          "score": 70,
+          "stance": "neutral",
+          "text_preview": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM SK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater we…",
+          "tweet_id": "2069207209133887767",
+          "url": "https://x.com/jukan05/status/2069207209133887767"
+        },
+        {
+          "date": "2026-06-22",
+          "score": 39,
+          "stance": "bullish",
+          "text_preview": "@StarAndCompass_ 전 여전히 닉스 홀딩",
+          "tweet_id": "2068984938062561642",
+          "url": "https://x.com/jukan05/status/2068984938062561642"
+        },
+        {
+          "date": "2026-06-16",
+          "score": 31,
+          "stance": "neutral",
+          "text_preview": "SK hynix Expected to Generate Over $75 Billion in Gains from Kioxia Stake Investment - SK hynix is estimated to have realized KRW 40 trillion, or USD 26.46 billion, in gains from Bain Capital’s sale of its Kioxia stake.…",
+          "tweet_id": "2067035744246583343",
+          "url": "https://x.com/jukan05/status/2067035744246583343"
+        }
+      ],
+      "first_mention": "2026-06-16",
+      "has_report": false,
+      "last_mention": "2026-06-23",
+      "priority": "low",
+      "public_label": "觀察更多訊號",
+      "report_score": 395,
+      "signal_terms": [
+        "ban",
+        "capacity",
+        "holding",
+        "long",
+        "margin",
+        "microsoft",
+        "nvidia",
+        "own",
+        "pricing",
+        "ramp",
+        "sell",
+        "sold"
+      ],
+      "ticker": "SK HYNIX",
+      "total_mentions": 13,
+      "unique_mention_days": 6,
+      "why": [
+        "13 total mentions across 6 days",
+        "1 explicit stance posts",
+        "4 substantive thesis-like posts",
+        "high-signal terms: ban, capacity, holding, long, margin, microsoft",
+        "latest mention 2026-06-23"
+      ]
+    },
+    {
+      "action": "watch_for_more_signal",
+      "company": "Micron",
+      "evidence": [
+        {
+          "date": "2026-06-23",
+          "score": 64,
+          "stance": "bullish",
+          "text_preview": "Why overcomplicate it? Micron is trying to build a strong relationship with Anthropic early on and make Anthropic more dependent on Micron. Anthropic is likely to consume more and more memory over time, especially as it…",
+          "tweet_id": "2069278356193919073",
+          "url": "https://x.com/jukan05/status/2069278356193919073"
+        },
+        {
+          "date": "2026-06-17",
+          "score": 51,
+          "stance": "neutral",
+          "text_preview": "[Exclusive] Winbond's NOR Flash enters NVIDIA's supply chain for the first time, taking aim at 50% market share AI servers are driving an explosion in memory demand. NVIDIA's next generation Vera Rubin platform is sched…",
+          "tweet_id": "2067376339691434198",
+          "url": "https://x.com/jukan05/status/2067376339691434198"
+        },
+        {
+          "date": "2026-06-21",
+          "score": 51,
+          "stance": "bullish",
+          "text_preview": "What do you think about Micron’s earnings? I read Citi’s preview report, and their ASP assumptions looked way too conservative. If consensus is around that level, I’m starting to think Micron could potentially deliver a…",
+          "tweet_id": "2068573474453684291",
+          "url": "https://x.com/jukan05/status/2068573474453684291"
+        }
+      ],
+      "first_mention": "2026-06-17",
+      "has_report": false,
+      "last_mention": "2026-06-23",
+      "priority": "low",
+      "public_label": "觀察更多訊號",
+      "report_score": 267,
+      "signal_terms": [
+        "allocation",
+        "ban",
+        "capacity",
+        "confirmed",
+        "long",
+        "margin",
+        "nvidia",
+        "own",
+        "pricing",
+        "ramp"
+      ],
+      "ticker": "MU",
+      "total_mentions": 5,
+      "unique_mention_days": 3,
+      "why": [
+        "5 total mentions across 3 days",
+        "2 explicit stance posts",
+        "3 substantive thesis-like posts",
+        "high-signal terms: allocation, ban, capacity, confirmed, long, margin",
+        "latest mention 2026-06-23"
+      ]
+    }
+  ],
+  "generated_at": "2026-06-23T19:16:36Z",
+  "source_files": {
+    "queue": "data/jukan/report_queue.json",
+    "updates": "data/jukan/report_update_candidates.json"
+  },
+  "summary": {
+    "automation_ready": 1,
+    "by_action": {
+      "watch_for_more_signal": 3,
+      "write_new_thesis": 1
+    },
+    "total_decisions": 4
+  }
+}

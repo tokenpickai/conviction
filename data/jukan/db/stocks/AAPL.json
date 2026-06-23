@@ -1,0 +1,136 @@
+{
+  "ticker": "AAPL",
+  "cashtag": "Apple",
+  "price_symbol": "AAPL",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": "Apple",
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-16",
+  "last_mention": "2026-06-18",
+  "total_mentions": 3,
+  "mentions": [
+    {
+      "tweet_id": "2067092746364748272",
+      "date": "2026-06-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "Samsung sees rising chip production requests from BYD, Google, AMD- Nikkei Asia\n\nBYD, Google, AMD, Tesla and others are looking increasingly to Samsung Electronics for contract chipmaking services as surging demand for AI infrastructure strains the advanced chipmaking capacity of market leader TSMC, Nikkei Asia has learned.\n\nSamsung has seen a surge in inquiries from existing and potential global customers, including those in China, looking to use its advanced chip manufacturing capacity, according to six people with knowledge of the matter.\n\nBYD, China's top electric vehicle maker, has been in talks with Samsung about building future generations of autonomous driving chips, while Google is engaging with the South Korean company about potentially producing its next-generation Axion processors, set to launch around 2028, two people familiar with the matter told Nikkei Asia. Google is also considering asking Samsung to build part of its key Tensor Processing Units (TPUs) for AI computing workloads, as early as 2028, one of the people said.\n\n\"TSMC is prioritizing advanced-node production not only because it reinforces its tech leadership and long-term strategy, but also because those nodes are more profitable and remain in short supply,\" said an executive from a Chinese autochip designer, who asked not to be named. \"Samsung's yields still lag behind TSMC's, but capacity availability has made it an increasingly attractive option.\"\n\nYield is the industry term for production quality, measured as the percentage of chips produced that meet the required specifications and performance.\n\nTSMC, Samsung and Intel are the world's only chipmakers that can offer cutting-edge chip production at a large scale. TSMC has secured the majority of such orders, as well as orders for advanced chip packaging services, from the likes of Nvidia, Apple, AMD, Broadcom, Marvell and MediaTek. These clients take up a large share of the Taiwanese chipmaking group's advanced chipmaking capacity.\n\nIntel, which mainly manufactures chips for in-house use, is working to attract more customers to adopt its advanced chipmaking and packaging capacity.\n\nThe Chinese auto industry executive said many chip designers in the country are now pursuing a dual-sourcing strategy, spreading orders between TSMC and Samsung rather than relying on a single foundry, with exact allocation depending on the product.\n\n\"Geopolitical factors also push some U.S. clients to use multiple contract chipmakers, if available out there, if they can,\" another chip industry executive with knowledge told Nikkei Asia.\n\n\"TSMC's advanced chip production capacity is really full, which is hard for Chinese clients who have smaller volumes to place new orders, so several have turned to approach Samsung for future possibilities,\" said an executive-level chip industry source who is familiar with the matter.\n\nGoogle has been a driving force in the multi-foundry strategy, sources told Nikkei Asia. MediaTek, Taiwan's top chip developer, is helping Google to work with both TSMC and Intel for advanced chip packaging, Nikkei Asia earlier reported, while Qualcomm, the U.S. mobile chip king, has long made use of both TSMC's and Samsung's services.\n\nHowever, using multiple foundries for advanced chip production requires substantial investment in adapting chip designs to different chipmakers' manufacturing processes, along with greater R&D and supply-chain coordination. Such a strategy is typically viable only for deep-pocketed chip developers, given the additional engineering and workforce costs involved.\n\nMeanwhile, capacity constraints at TSMC are pushing other existing customers to potentially place more orders with Samsung, sources said.\n\nTesla works with both Samsung and TSMC on various products, including its AI5 chips used in its cars and robots. The upcoming AI6, however, will be made by Samsung in Texas. Tesla founder Elon Musk also announced a partnership with Intel for its future terafab projects in Texas, aiming to bring more critical chip production back to the U.S. and help meet growing demand.\n\nAMD and Nvidia, key clients of TSMC, are also working with Samsung on some chip projects due to capacity constraints. AMD, for example, is in talks to build some future CPUs with Samsung from 2028, one source with knowledge of the situation said.\n\nNvidia's Groq language processing units (LPUs) are produced by Samsung, and the U.S. chipmaker has not decided whether production of the next generation of these highly specialized chips will be given to other contract chipmakers. The majority of Nvidia's chips are made exclusively by TSMC.\n\nThe increasing requests for leading-edge chip production for Samsung would mark a victory for the South Korean chipmaker's foundry business, which used to mainly serve its own consumer electronics and home appliance divisions.\n\nThe growing foundry business comes as Samsung is also riding the AI investment boom, enjoying exponentially growing demand for its memory products, including high-bandwidth memory chips, DRAM and NAND flash memories.\n\nSamsung said that it does not comment on customers.\n\nNew orders would help Samsung's foundry unit rebound from a recent downturn. The company said earnings for the segment declined in the first quarter due to it being the off-peak season, but it did not elaborate on how big the dip was.\n\nSamsung's foundry and system large-scale integration business units posted a combined 6.9 trillion won ($4.6 billion) in sales in the first quarter, up from 6 trillion won a year ago. Samsung does not break down its earnings for the two units, the latter of which makes an array of logic and analog chips, including image sensors and display chips.\n\nBYD declined to comment. Google said it does not comment on the details of its supply chain.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067092693587828736",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK_J2lcboAASRZl.jpg",
+          "width": 1574,
+          "height": 1352,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2067092746364748272",
+      "kind": "post",
+      "engagement": {
+        "views": 148674,
+        "likes": 390,
+        "reposts": 52,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067418881002725737",
+      "date": "2026-06-17",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "What caught my eye in the WSJ's Tim Cook interview was not so much Apple signaling that it will raise device prices, but rather its declaration that it intends to put its enormous cash pile to work.\n\nContrary to how the WSJ read it, I interpret this differently. Just as Nvidia cut SOCAMM2 capacity because of an LPDDR supply shortage, LPDDR is likely to grow even scarcer going forward, to the point where Apple may have to cut iPhone production. This will demand bolder spending from Apple and pressure it to unwind its previously disciplined spending practices.\n\nHere is my core point. If even Nvidia cannot secure supply, will Apple be able to get enough? If you have already run channel checks, you will know that even Chinese smartphone makers are paying premiums to grab LPDDR.\n\nIn the end, Apple will pay prepayments to the memory makers to expand its memory supply, and that is how I read Cook's remark: \"We're willing to use our balance sheet to help be a part of the solution.\" \n\nI do not think this is impossible. Apple paying prepayments is not unprecedented. It has done so before, paying Samsung an advance for OLED. If anything, you could say Tim Cook is the originator of the Nvidia style approach to seizing the supply chain.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067416768101195776",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLDwmNFboAA19-u.png",
+          "width": 1310,
+          "height": 726,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2067418881002725737",
+      "kind": "post",
+      "engagement": {
+        "views": 110254,
+        "likes": 932,
+        "reposts": 86,
+        "replies": 29
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067471416140964199",
+      "date": "2026-06-18",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "Breaking: President Donald Trump says Apple is working with Intel. https://t.co/FuHCHGnS3o",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067471325611089920",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLEiN3pa4AANIdJ.jpg",
+          "width": 583,
+          "height": 705,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2067471416140964199",
+      "kind": "post",
+      "engagement": {
+        "views": 260464,
+        "likes": 1645,
+        "reposts": 150,
+        "replies": 76
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-06-16",
+      "close": 299.24
+    },
+    {
+      "date": "2026-06-17",
+      "close": 295.95
+    },
+    {
+      "date": "2026-06-18",
+      "close": 298.01
+    },
+    {
+      "date": "2026-06-22",
+      "close": 297.01
+    }
+  ],
+  "price_status": "ok",
+  "price_unit": "USD",
+  "price_updated_at": "2026-06-23T19:15:52.736982+00:00"
+}

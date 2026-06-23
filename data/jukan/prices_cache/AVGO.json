@@ -1,0 +1,24 @@
+{
+  "price_symbol": "AVGO",
+  "currency": "USD",
+  "price_unit": "USD",
+  "series": [
+    {
+      "date": "2026-06-16",
+      "close": 376.71
+    },
+    {
+      "date": "2026-06-17",
+      "close": 392.9
+    },
+    {
+      "date": "2026-06-18",
+      "close": 411.35
+    },
+    {
+      "date": "2026-06-22",
+      "close": 392.13
+    }
+  ],
+  "last_updated": "2026-06-23T19:16:00.344689+00:00"
+}

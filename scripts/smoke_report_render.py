@@ -15,6 +15,11 @@ import sys
 import threading
 from pathlib import Path
 
+try:
+    from profile_config import load_profile, profile_paths
+except ImportError:  # pragma: no cover
+    from scripts.profile_config import load_profile, profile_paths
+
 ROOT = Path(__file__).resolve().parent.parent
 REPORTS_DIR = ROOT / "data" / "reports"
 
@@ -26,8 +31,8 @@ def load_json(path, default=None):
         return default
 
 
-def find_latest_html(root):
-    files = sorted(root.glob("serenity-tracker-*.html"), key=lambda p: p.stat().st_mtime, reverse=True)
+def find_latest_html(root, prefix="serenity-tracker"):
+    files = sorted(root.glob(f"{prefix}-*.html"), key=lambda p: p.stat().st_mtime, reverse=True)
     return files[0] if files else None
 
 
@@ -74,13 +79,13 @@ def browser_import():
         sys.exit(2)
 
 
-def smoke_one(page, base_url, html_name, report):
+def smoke_one(page, base_url, html_url_path, report, profile_name):
     ticker = (report.get("ticker") or "").upper()
     title = report.get("title") or ""
     sections = report.get("sections") or []
     first_heading = (sections[0] or {}).get("heading") if sections else ""
     last_heading = (sections[-1] or {}).get("heading") if sections else ""
-    url = f"{base_url}/{html_name}?v=smoke-report#{'ticker=' + ticker}"
+    url = f"{base_url}/{html_url_path}?v=smoke-report#{'ticker=' + ticker}"
 
     console_errors = []
     page_errors = []
@@ -102,7 +107,7 @@ def smoke_one(page, base_url, html_name, report):
     page.wait_for_timeout(150)
 
     state = page.evaluate(
-        """({ticker, title, firstHeading, lastHeading}) => {
+        """({ticker, title, firstHeading, lastHeading, profileName}) => {
           const text = document.body.innerText || '';
           const h3s = Array.from(document.querySelectorAll('.thesis-sec h3'));
           const headings = h3s.map(el => el.textContent.trim()).filter(Boolean);
@@ -113,7 +118,7 @@ def smoke_one(page, base_url, html_name, report):
             hasReportTitle: title ? text.includes(title) : false,
             hasFirstHeading: firstHeading ? text.includes(firstHeading) : false,
             hasLastHeading: lastHeading ? text.includes(lastHeading) : false,
-            hasChartHeading: text.includes('$' + ticker + ' 自 Serenity 首次提及以來的股價走勢'),
+            hasChartHeading: text.includes('$' + ticker + ' 自 ' + profileName + ' 首次提及以來的股價走勢'),
             hasTodayPosts: text.includes('今日 $' + ticker + ' 貼文'),
             reportHeadingCount: headings.length,
             glossaryInHeadings: document.querySelectorAll('.thesis-sec h3 .gloss').length + document.querySelectorAll('.thesis-sec h3 .glossary').length,
@@ -125,6 +130,7 @@ def smoke_one(page, base_url, html_name, report):
             "title": title,
             "firstHeading": first_heading,
             "lastHeading": last_heading,
+            "profileName": profile_name,
         },
     )
 
@@ -164,15 +170,21 @@ def smoke_one(page, base_url, html_name, report):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--html", help="Rendered dashboard HTML. Defaults to latest serenity-tracker-*.html")
+    ap.add_argument("--profile", default=None)
+    ap.add_argument("--html", help="Rendered dashboard HTML. Defaults to the selected profile's latest HTML.")
     ap.add_argument("--reports-dir", default=str(REPORTS_DIR))
     ap.add_argument("--ticker", action="append", help="Ticker to test. Can be repeated. Defaults to all reports.")
     ap.add_argument("--json", action="store_true")
     args = ap.parse_args()
+    profile = load_profile(args.profile)
+    paths = profile_paths(profile)
+    prefix = profile["dashboard"]["output_prefix"]
+    if args.profile:
+        args.reports_dir = str(paths["reports_dir"])
 
-    html = Path(args.html).resolve() if args.html else find_latest_html(ROOT)
+    html = Path(args.html).resolve() if args.html else find_latest_html(ROOT, prefix)
     if not html or not html.exists():
-        print("ERROR: no rendered serenity-tracker-*.html found. Run scripts/serenity_render.py first.", file=sys.stderr)
+        print(f"ERROR: no rendered {prefix}-*.html found. Run scripts/serenity_render.py --profile {profile['slug']} first.", file=sys.stderr)
         return 2
 
     reports = []
@@ -184,18 +196,27 @@ def main():
         reports.append(report)
 
     if not reports:
-        print("ERROR: no reports found to smoke-test.", file=sys.stderr)
-        return 2
+        result = {"passed": True, "reports_checked": 0, "results": []}
+        if args.json:
+            print(json.dumps(result, ensure_ascii=False, indent=2))
+        else:
+            print(f"Browser-smoked 0 report pages using {html.name}; profile has no published reports yet.")
+        return 0
 
     sync_playwright = browser_import()
     server, port = start_server(ROOT)
     results = []
     try:
+        html_url_path = html.relative_to(ROOT).as_posix()
+    except ValueError:
+        print(f"ERROR: rendered HTML must be inside {ROOT}", file=sys.stderr)
+        return 2
+    try:
         with sync_playwright() as p:
             browser = p.chromium.launch()
             page = browser.new_page(viewport={"width": 1280, "height": 900})
             for report in reports:
-                results.append(smoke_one(page, f"http://127.0.0.1:{port}", html.name, report))
+                results.append(smoke_one(page, f"http://127.0.0.1:{port}", html_url_path, report, profile["display_name"]))
             browser.close()
     except Exception as exc:
         print("ERROR: browser smoke test failed to run.", file=sys.stderr)

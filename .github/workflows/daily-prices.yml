@@ -34,10 +34,14 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Update prices
-        run: python scripts/prices.py --profile serenity
+        run: |
+          python scripts/prices.py --profile serenity
+          python scripts/prices.py --profile jukan
 
       - name: Verify data
-        run: python scripts/verify_data.py --profile serenity
+        run: |
+          python scripts/verify_data.py --profile serenity
+          python scripts/verify_data.py --profile jukan
 
       - name: Commit updated prices
         run: |

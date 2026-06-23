@@ -54,7 +54,8 @@ jobs:
           python scripts/audit_reports.py --profile serenity
           python scripts/audit_reason_translations.py --profile serenity
           latest="$(ls -t dist/serenity/serenity-tracker-*.html | head -n 1)"
-          python scripts/smoke_report_render.py --html "$latest"
+          python scripts/smoke_report_render.py --profile serenity --html "$latest"
+          python scripts/smoke_report_render.py --profile jukan --html dist/jukan/index.html
 
       - uses: actions/configure-pages@v5
 

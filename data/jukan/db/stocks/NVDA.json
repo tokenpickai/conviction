@@ -1,0 +1,432 @@
+{
+  "ticker": "NVDA",
+  "cashtag": "NVIDIA",
+  "price_symbol": "NVDA",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": "NVIDIA",
+  "industry": "AI Chips",
+  "thesis_summary": "当天主要在陈述供应链关系/背景,未明确表态。",
+  "first_mention": "2026-06-16",
+  "last_mention": "2026-06-22",
+  "total_mentions": 13,
+  "mentions": [
+    {
+      "tweet_id": "2067092746364748272",
+      "date": "2026-06-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nvidia",
+      "text": "Samsung sees rising chip production requests from BYD, Google, AMD- Nikkei Asia\n\nBYD, Google, AMD, Tesla and others are looking increasingly to Samsung Electronics for contract chipmaking services as surging demand for AI infrastructure strains the advanced chipmaking capacity of market leader TSMC, Nikkei Asia has learned.\n\nSamsung has seen a surge in inquiries from existing and potential global customers, including those in China, looking to use its advanced chip manufacturing capacity, according to six people with knowledge of the matter.\n\nBYD, China's top electric vehicle maker, has been in talks with Samsung about building future generations of autonomous driving chips, while Google is engaging with the South Korean company about potentially producing its next-generation Axion processors, set to launch around 2028, two people familiar with the matter told Nikkei Asia. Google is also considering asking Samsung to build part of its key Tensor Processing Units (TPUs) for AI computing workloads, as early as 2028, one of the people said.\n\n\"TSMC is prioritizing advanced-node production not only because it reinforces its tech leadership and long-term strategy, but also because those nodes are more profitable and remain in short supply,\" said an executive from a Chinese autochip designer, who asked not to be named. \"Samsung's yields still lag behind TSMC's, but capacity availability has made it an increasingly attractive option.\"\n\nYield is the industry term for production quality, measured as the percentage of chips produced that meet the required specifications and performance.\n\nTSMC, Samsung and Intel are the world's only chipmakers that can offer cutting-edge chip production at a large scale. TSMC has secured the majority of such orders, as well as orders for advanced chip packaging services, from the likes of Nvidia, Apple, AMD, Broadcom, Marvell and MediaTek. These clients take up a large share of the Taiwanese chipmaking group's advanced chipmaking capacity.\n\nIntel, which mainly manufactures chips for in-house use, is working to attract more customers to adopt its advanced chipmaking and packaging capacity.\n\nThe Chinese auto industry executive said many chip designers in the country are now pursuing a dual-sourcing strategy, spreading orders between TSMC and Samsung rather than relying on a single foundry, with exact allocation depending on the product.\n\n\"Geopolitical factors also push some U.S. clients to use multiple contract chipmakers, if available out there, if they can,\" another chip industry executive with knowledge told Nikkei Asia.\n\n\"TSMC's advanced chip production capacity is really full, which is hard for Chinese clients who have smaller volumes to place new orders, so several have turned to approach Samsung for future possibilities,\" said an executive-level chip industry source who is familiar with the matter.\n\nGoogle has been a driving force in the multi-foundry strategy, sources told Nikkei Asia. MediaTek, Taiwan's top chip developer, is helping Google to work with both TSMC and Intel for advanced chip packaging, Nikkei Asia earlier reported, while Qualcomm, the U.S. mobile chip king, has long made use of both TSMC's and Samsung's services.\n\nHowever, using multiple foundries for advanced chip production requires substantial investment in adapting chip designs to different chipmakers' manufacturing processes, along with greater R&D and supply-chain coordination. Such a strategy is typically viable only for deep-pocketed chip developers, given the additional engineering and workforce costs involved.\n\nMeanwhile, capacity constraints at TSMC are pushing other existing customers to potentially place more orders with Samsung, sources said.\n\nTesla works with both Samsung and TSMC on various products, including its AI5 chips used in its cars and robots. The upcoming AI6, however, will be made by Samsung in Texas. Tesla founder Elon Musk also announced a partnership with Intel for its future terafab projects in Texas, aiming to bring more critical chip production back to the U.S. and help meet growing demand.\n\nAMD and Nvidia, key clients of TSMC, are also working with Samsung on some chip projects due to capacity constraints. AMD, for example, is in talks to build some future CPUs with Samsung from 2028, one source with knowledge of the situation said.\n\nNvidia's Groq language processing units (LPUs) are produced by Samsung, and the U.S. chipmaker has not decided whether production of the next generation of these highly specialized chips will be given to other contract chipmakers. The majority of Nvidia's chips are made exclusively by TSMC.\n\nThe increasing requests for leading-edge chip production for Samsung would mark a victory for the South Korean chipmaker's foundry business, which used to mainly serve its own consumer electronics and home appliance divisions.\n\nThe growing foundry business comes as Samsung is also riding the AI investment boom, enjoying exponentially growing demand for its memory products, including high-bandwidth memory chips, DRAM and NAND flash memories.\n\nSamsung said that it does not comment on customers.\n\nNew orders would help Samsung's foundry unit rebound from a recent downturn. The company said earnings for the segment declined in the first quarter due to it being the off-peak season, but it did not elaborate on how big the dip was.\n\nSamsung's foundry and system large-scale integration business units posted a combined 6.9 trillion won ($4.6 billion) in sales in the first quarter, up from 6 trillion won a year ago. Samsung does not break down its earnings for the two units, the latter of which makes an array of logic and analog chips, including image sensors and display chips.\n\nBYD declined to comment. Google said it does not comment on the details of its supply chain.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067092693587828736",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK_J2lcboAASRZl.jpg",
+          "width": 1574,
+          "height": 1352,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2067092746364748272",
+      "kind": "post",
+      "engagement": {
+        "views": 148674,
+        "likes": 390,
+        "reposts": 52,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067376339691434198",
+      "date": "2026-06-17",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "NVIDIA",
+      "text": "[Exclusive] Winbond's NOR Flash enters NVIDIA's supply chain for the first time, taking aim at 50% market share\n\nAI servers are driving an explosion in memory demand. NVIDIA's next generation Vera Rubin platform is scheduled to ramp into volume shipments in the second half of 2026, and word in the memory industry is that Winbond's NOR Flash will officially enter NVIDIA's supply chain in the second half of the year, in line with customer shipment schedules. Going forward, Winbond is expected to capture a major share on the Vera Rubin platform. The strong crowding out effect of AI servers on capacity is anticipated to become apparent, continuing to push the forward pricing of high capacity NOR Flash upward.\n\nBased on estimates, server related memory bit demand for 2026 to 2027 will show a 40% compound annual growth rate (CAGR). This not only crowds out DRAM capacity supply, but the explosion in demand from AI data centers and edge computing has caused both the NOR Flash capacity and the volume mounted per machine to surge. In particular, the new generation of server racks adds large numbers of switches and network interface cards (NICs) for external connectivity, and NOR Flash usage there is growing by multiples.\n\nIt is understood that NVIDIA's past AI chip platforms primarily paired with Micron's NOR Flash. As the number of AI server deployments grows by multiples and the count of NOR Flash chips mounted per rack rises, existing supply volume can no longer fully satisfy demand. The Vera Rubin platform rack requires upwards of 600 NOR Flash chips. Winbond has confirmed entry into the Vera Rubin supply chain in the second half of 2026, and its supply weighting will continue to rise.\n\nOn this, Winbond stated that it does not comment on rumors regarding individual customers.\n\nWinbond has previously noted that with rising demand from AI data centers, edge AI computing, and smart terminals, the overall memory industry is showing structural undersupply, so the shortage is not limited to DRAM and that supply of NOR Flash and NAND Flash is equally tight.\n\nThe industry reveals that Winbond has quietly positioned itself in the AI data center market, having submitted samples for qualification as early as the GB200 period. At that time, however, NOR Flash had not yet hit shortage, and customers had little interest in qualifying a new supplier.\n\nBy the GB300 period, supply gradually tightened. Entering the new generation Vera Rubin platform, the overall system is composed of 1.3 million components, including 72 Rubin GPUs and 36 Vera CPUs. NOR Flash, which plays the critical role of boot, system initialization, and firmware storage, has also seen sharply increased usage, with per chip capacity ranging from 4Mb to 2Gb.\n\nAlthough NOR Flash carries a low unit price, because it has an important impact on the stable operation of the entire server, cloud customers place greater emphasis on quality stability for NOR component supply, which doubles the value content of NOR Flash in AI server racks.\n\nOn another front, amid the trend of US China rivalry, cloud service providers (CSPs) have largely stopped using Chinese suppliers in order to avoid disputes. As Micron shifts its operational focus to high bandwidth memory (HBM) and high end DDR5 and turns conservative on NOR capacity expansion, and as Macronix recently benefits from MLC NAND shortages driving prices sharply higher with its eMMC products becoming the main growth driver, Winbond can seize the opportunity to expand its supply weighting on Vera Rubin, with the potential to capture half the market share in 2027.\n\nIn addition, with the trend toward AI deployment on the ground, the importance of inference functions is rising, and inference type servers, benefiting from strengthened communication and NIC functionality, will gradually replace conventional servers.\n\nIndustry figures point out that under this trend, the number of NOR Flash chips used in inference type servers may not necessarily increase, but per chip capacity is generally rising, for example from the original 256Mb to 512Mb, or from 1Gb to 2Gb.\n\nCompared with SLC NAND or MLC NAND, where international majors have successively exited 2D NAND and pushed market prices up rapidly, NOR Flash prices have also followed with increases, but the magnitude still lags behind 2D NAND products. At present NOR Flash is also the lower gross margin product line within Winbond's memory portfolio, and its output value per wafer is calculated to be lower.\n\nThe market expects that as NOR Flash expands its applications into AI servers, combined with growing demand for high density NOR Flash in automotive electronics and increased volume of 256Mb and above high capacity NOR Flash for edge AI devices serving on premises computing needs, there will be room for NOR Flash prices to continue rising from the second half of 2026 into 2027.\n\nIt is estimated that in the first half of 2026, affected by extended lead times and allocation, NOR Flash contract prices will rise by 100% to 120%. Affected by limited added capacity and growth in end demand volume, prices in the second half are expected to continue rising by more than 60% to 65%.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067376322209574913",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLDLz8Za8AEvDEp.png",
+          "width": 750,
+          "height": 422,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2067376339691434198",
+      "kind": "post",
+      "engagement": {
+        "views": 46706,
+        "likes": 230,
+        "reposts": 16,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067418881002725737",
+      "date": "2026-06-17",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nvidia",
+      "text": "What caught my eye in the WSJ's Tim Cook interview was not so much Apple signaling that it will raise device prices, but rather its declaration that it intends to put its enormous cash pile to work.\n\nContrary to how the WSJ read it, I interpret this differently. Just as Nvidia cut SOCAMM2 capacity because of an LPDDR supply shortage, LPDDR is likely to grow even scarcer going forward, to the point where Apple may have to cut iPhone production. This will demand bolder spending from Apple and pressure it to unwind its previously disciplined spending practices.\n\nHere is my core point. If even Nvidia cannot secure supply, will Apple be able to get enough? If you have already run channel checks, you will know that even Chinese smartphone makers are paying premiums to grab LPDDR.\n\nIn the end, Apple will pay prepayments to the memory makers to expand its memory supply, and that is how I read Cook's remark: \"We're willing to use our balance sheet to help be a part of the solution.\" \n\nI do not think this is impossible. Apple paying prepayments is not unprecedented. It has done so before, paying Samsung an advance for OLED. If anything, you could say Tim Cook is the originator of the Nvidia style approach to seizing the supply chain.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067416768101195776",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLDwmNFboAA19-u.png",
+          "width": 1310,
+          "height": 726,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2067418881002725737",
+      "kind": "post",
+      "engagement": {
+        "views": 110254,
+        "likes": 932,
+        "reposts": 86,
+        "replies": 29
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067440482524029088",
+      "date": "2026-06-17",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nvidia",
+      "text": "\"If all goes well, TSMC is aiming to start mass production of the glass core substrate in 4Q28–1Q29, to match the cadence of Nvidia's AI chip iterations.\"\n\n👀 https://t.co/1m3vpEGVo8 https://t.co/QWCNM59jWh",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067440406695141376",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLEGGJtaYAA-9-r.png",
+          "width": 1222,
+          "height": 1006,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2067440482524029088",
+      "kind": "post",
+      "engagement": {
+        "views": 117652,
+        "likes": 445,
+        "reposts": 51,
+        "replies": 17
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067828295232786898",
+      "date": "2026-06-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "NVIDIA",
+      "text": ">> Nan Ya E Glass Sees Hot Demand as Price Hikes Loom; President Chou Ming-jen Says Talks with Customers Continue\n\n- According to the latest disclosure from Kingboard, a leading CCL maker in mainland China, the price of glass fiber E glass raw material will be raised by 15% starting this week.\n- This suggests that amid widening supply shortages, the price increase is being accepted by customers.\n- Nan Ya noted that Kingboard has already raised prices several times this year, primarily reflecting market supply and demand conditions. Nan Ya likewise plans to continue price negotiations with its customers going forward.\n- Nan Ya is a global leader in glass fiber E glass and is favored by the major North American AI players. Some market observers suggest that Nan Ya's relevant capacity has effectively already been locked up by the NVIDIA supply chain.\n- Supply of CCL materials is failing to keep pace with demand, and Nan Ya's capacity has now reached full utilization.\n- According to the industry, due to the low yields of advanced glass fiber cloth such as T glass and Low Dk, NVIDIA has recently accepted a mixed application of T glass and E glass by suppliers in order to pull forward shipments of high end AI servers.\n- With global E glass capacity having been converted on a large scale to other applications in recent years, the supply shortage has intensified and price increase moves across the industry are also spreading.\n- Nan Ya Chairman Wu Chia Chao noted that, driven by strong AI demand, utilization rates for epoxy resin, glass fiber cloth, and glass fiber yarn have now approached nearly full capacity.\n- Overall utilization of CCL and copper foil has also reached the 80 to 90% level, and he explained that the revenue share of the electronic materials segment could expand further to as much as 60% going forward.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2067828295232786898",
+      "kind": "post",
+      "engagement": {
+        "views": 103830,
+        "likes": 194,
+        "reposts": 20,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067828569246691788",
+      "date": "2026-06-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "NVIDIA",
+      "text": "- According to the industry, due to the low yields of advanced glass fiber cloth such as T glass and Low Dk, NVIDIA has recently accepted a mixed application of T glass and E glass by suppliers in order to pull forward shipments of high end AI servers.\n\nVery interesting https://t.co/Ov9n1cBYXN",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2067828569246691788",
+      "kind": "post",
+      "engagement": {
+        "views": 67417,
+        "likes": 276,
+        "reposts": 15,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067865844689056191",
+      "date": "2026-06-19",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "Jensen Huang effectively threatening neo-clouds by implying Nvidia could cut chip allocations if they don't buy Nvidia's full stack"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nvidia",
+      "text": "\"Some neo-clouds worry that they can’t stray from buying Nvidia’s full stack of hardware for fear of being put in “Jensen jail,” meaning they might lose their allocations of Nvidia chips, said Adam Fisher, a partner at Bessemer Venture Partners.\"\n\nIt seems Jensen Huang is effectively threatening neo-clouds implying that Nvidia could cut their chip allocations if they don’t buy Nvidia’s full stack.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067865332614848512",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLKIkGHaYAAKoEy.png",
+          "width": 1322,
+          "height": 1248,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2067865844689056191",
+      "kind": "post",
+      "engagement": {
+        "views": 269956,
+        "likes": 677,
+        "reposts": 54,
+        "replies": 69
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068489675510268060",
+      "date": "2026-06-20",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nvidia",
+      "text": "JEDEC Ratifies 'SPHBM4' Standard; Glass Substrate Utility Draws Attention\n\nThe Joint Electron Device Engineering Council (JEDEC) has ratified a new standard that broadens the addressable scope of high bandwidth memory (HBM). Industry observers suggest that, alongside a shift in the cost structure of artificial intelligence (AI) chips, the value of glass substrate adoption could come into sharper focus.\n\nAccording to JEDEC on the 21st, the new HBM4 standard, \"SPHBM4 (Standard Package HBM4),\" received final board approval following deliberations within the DRAM memory subcommittee (JC-42.2).\n\nSPHBM4 is a specification designed to preserve as much of the existing HBM4 performance as possible while allowing its use with fewer signal pins and within standard packaging structures. The intent is to reduce reliance on costly advanced packaging and to broaden the addressable scope of high performance memory.\n\nSPHBM4 targets a fourfold increase in signal speed versus HBM4, thereby cutting the required signal pin count to roughly one fifth. Its defining feature is the ability to deliver HBM class bandwidth while using standard substrates.\n\nThe interconnect topology also changes. The standard defines a connection distance of up to 20mm between the host compute die and the memory. Placing the memory farther from the compute device allows for greater flexibility in thermal management within the package.\n\nThe potential linkage with glass substrates is also drawing attention. Glass substrates are cited as a next generation packaging substrate with advantages over conventional organic substrates in thermal stability, flatness, and fine line routing. They have yet to reach commercialization, however, and securing mass production processes and cost competitiveness remains a challenge.\n\nAn industry official commented, \"If glass substrates are the foundation that enables large packages, then SPHBM4 is the specification that allows HBM class memory to be deployed within them more economically,\" adding, \"As SPHBM4 adoption widens, the utility of glass substrates could rise in tandem with demand for large packages.\"\n\nThe market penetration of SPHBM4 hinges on actual adoption. The significance of the standard will materialize in earnest only if memory makers such as Samsung Electronics and SK Hynix bring relevant products to market and if major players in the AI chip ecosystem, including TSMC and Nvidia, adopt them.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2068489640529756160",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLTAXmVaAAAPSXI.png",
+          "width": 500,
+          "height": 315,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2068489675510268060",
+      "kind": "post",
+      "engagement": {
+        "views": 82960,
+        "likes": 209,
+        "reposts": 19,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068595103233671513",
+      "date": "2026-06-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nvidia",
+      "text": "This is a great piece explaining why Nvidia’s CMX rack could drive massive NAND demand. I highly recommend giving it a read.\n\nhttps://t.co/PbmPcmFYjY",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2068595103233671513",
+      "kind": "post",
+      "engagement": {
+        "views": 199202,
+        "likes": 847,
+        "reposts": 123,
+        "replies": 37
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068833982037565498",
+      "date": "2026-06-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nvidia",
+      "text": "Samsung Electronics Breaks Ground in Earnest on Its Last Pyeongtaek Semiconductor Fab\n\nSamsung Electronics has begun preparations to break ground on \"P5 Fab 2,\" the final fab at its Pyeongtaek campus in Gyeonggi Province. As a wave of artificial intelligence (AI) infrastructure investment has driven a surge in memory chip orders, the company has moved up the timing of its capital investment by roughly six months from the original plan.\n\nConstruction Equipment Deployed at the P5 Fab 2 Site\n\nAccording to the industry on the 21st, several pile drivers have recently been newly positioned at Samsung Electronics' P5 Fab 2 site. A pile driver is a piece of construction equipment used to drive columns into the ground. An industry official said, \"Equipment coming into the construction site one by one means that P5 Fab 2 construction will begin in earnest before long,\" adding, \"There is a strong likelihood of breaking ground around next month.\" The containers on the fab site are being moved elsewhere. The site partitioning work has reportedly also been completed. Samsung Electronics and the construction contractor are said to be assembling a dedicated team for the P5 Fab 2 project.\n\nP5 Fab 2 is the sixth fab to be built at the Pyeongtaek site, where Samsung Electronics produces its most advanced chips. It is also the last semiconductor production line at the Pyeongtaek site. The fab will be built on a site measuring 661m by 194m (approximately 130,000 square meters). That is the size of 18 soccer fields. It is expected to be able to produce 200,000 to 300,000 wafers per month on a 300mm wafer basis. It will house everything from high bandwidth memory (HBM), its flagship product, to next generation DRAM, NAND flash, and advanced process foundry (contract manufacturing) lines. The target is for it to begin operation for the first time in 2029.\n\nA distinctive feature is that it will be built in a three story \"triple fab\" structure. This building structure was first adopted at \"P5 Fab 1,\" located right next to this site, which began construction late last year with a target of beginning operation in 2028. P5 Fab 1 is expected to require an investment of more than 60 trillion won. A similar amount of funding is forecast to go into building P5 Fab 2. Combining the production capacity of P5 Fabs 1 and 2 comes to around 600,000 wafers per month on a 300mm wafer basis. That is a scale comparable to Samsung Electronics' current total DRAM output (650,000 units per month).\n\nAccelerating Capital Investment Amid Surging Chip Demand\n\nSamsung Electronics had originally planned to break ground on P5 Fab 2 early next year. However, as demand recently surged in the information technology (IT) industry not only for HBM, the core of AI chips, but also for general purpose DRAM and NAND flash, the company decided to move up the groundbreaking timing. An industry official said, \"Once Samsung Electronics begins pouring out volume in earnest, it will be able to gain an edge over competitors in cost competitiveness through 'economies of scale.'\"\n\nThe fact that global big tech companies have recently approached Samsung Electronics' foundry one after another about collaboration is also one of the factors behind moving up the groundbreaking. Chip design companies such as Nvidia, AMD, and Qualcomm, as well as Tesla and Neuralink led by Elon Musk, have all proposed contract manufacturing to Samsung Electronics.\n\nIn addition to building P5 Fabs 1 and 2 simultaneously, Samsung Electronics is expanding the production capacity of each of its bases in various ways. At P4, the newest fab within the Pyeongtaek site, it is additionally building a 10nm class 6th generation (1c) DRAM production line for 6th generation HBM (HBM4) with a scale of 100,000 to 120,000 wafers per month on a 300mm wafer basis. Its Xian fab in China is being equipped with space to produce 286 layer (V9) NAND flash. Its fab in Taylor, Texas, in the United States is being equipped with a 2 nanometer (nm; 1nm = one billionth of a meter) manufacturing line capable of making Tesla AI chips. The company is also reportedly pursuing the establishment of a semiconductor back end (packaging) fab in the Gwangju or Saemangeum region in a bid to promote balanced regional development.\n\nDaniel Oh, Executive Vice President at Samsung Electronics, said at the first quarter earnings call held this past April, \"With AI demand continuing this year, we plan to expand the scale of our capital expenditure (CAPEX) to a considerable level compared with the previous year,\" adding, \"We will strengthen our strategic bases and secure additional infrastructure so that we can proactively respond to future demand.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2068833940966891520",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLX5ghaaYAAKEWH.jpg",
+          "width": 1036,
+          "height": 637,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2068833982037565498",
+      "kind": "post",
+      "engagement": {
+        "views": 74714,
+        "likes": 278,
+        "reposts": 30,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068961529484193930",
+      "date": "2026-06-22",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "NVIDIA",
+      "text": "Korea's June Memory Semiconductor Exports Poised to Set a New All Time Record\n\nJune memory semiconductor exports extended their powerful upward run, with both export value and unit prices surging together on the back of AI demand and supply shortages. In particular, as the spillover effect of the high bandwidth memory (HBM) shortage spread to commodity DRAM, NAND, and solid state drives (SSDs), the likelihood is growing that exports will surpass May's record monthly performance ($37.16 billion).\n\nAccording to the Korea Customs Service's Trade Statistics (TRASS) on the 22nd, based on preliminary clearance figures for June 1 to 20, 2026, the combined total of major memory items exceeded $23 billion, already reaching more than 60% of May's full month performance.\n\nGiven the recent monthly surges in HBM, NAND, and SSDs, total June memory semiconductor exports are projected to reach the $38 billion to $42 billion range, setting a new all time high that surpasses last month's record. Because shipping deadlines and corporate earnings closings tend to make the final ten or so days relatively strong, volumes are expected to climb further as the month draws to a close.\n\nIn June, every memory semiconductor category showed a pattern of simultaneous sharp gains in export value and unit prices. This reflects genuine growth momentum that goes beyond the favorable base effect of last year's strong performance, and is read as a signal confirming the \"structural expansion\" of the AI memory supercycle.\n\nThe most striking feature is that export value for MCP (HBM), which refers to multi chip packages, surged 51% from the previous month. As global big tech firms such as NVIDIA continue to invest in AI data centers (including the Colossus project), the HBM3E and HBM4 shortage centered on SK Hynix has persisted.\n\nAs wafers have been concentrated into HBM production, the supply of commodity DRAM has relatively decreased. As a result, commodity DRAM unit prices have soared to roughly two to three times the level of a year earlier, and with the recovery in PC and mobile demand adding to AI server demand, export value has also risen sharply.\n\nIn storage, NAND flash and SSD demand exploded amid the expanded buildout of AI inference servers. Both categories rose 25% to 28% from the previous month, underpinning the durability of the AI cycle.\n\nMemory's share of total semiconductor exports also expanded from the previous 70% range to 90% this month. Combined semiconductor exports of memory and system semiconductors reached $25.5 billion, and total June semiconductor exports are projected to land in the $42 billion to $46 billion range.\n\nAs the strong results continue, brokerages are also raising their earnings forecasts for major memory semiconductor companies. Park Junyoung, a researcher at Hanwha Investment & Securities, analyzed that \"the Korean memory industry has recently been overcoming these weaknesses on the strength of two powerful weapons, long term supply agreements (LTAs) and HBM,\" adding that \"even when a memory industry earnings downturn arrives in the future, there will be no slump in which operating profit declines as severely as in the past.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2068961529484193930",
+      "kind": "post",
+      "engagement": {
+        "views": 173388,
+        "likes": 394,
+        "reposts": 35,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2069207209133887767",
+      "date": "2026-06-22",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "NVIDIA",
+      "text": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM\n\nSK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater weight on capturing the commodity DRAM market. With its HBM revenue share already exceeding 40 percent and an overwhelming lead established, the company is reallocating resources toward securing additional profit from commodity DRAM, where supply shortages are acute, rather than engaging in an aggressive capacity expansion race.\n\nAccording to industry sources on the 23rd, SK Hynix is reportedly delaying somewhat the conversion of some fifth generation HBM (HBM3E) production lines that were originally slated to switch to HBM4. The aim is to expand its ability to respond to the commodity DRAM market, which currently posts higher operating margins than HBM, in order to secure additional profit. The industry view is that, having already established a solid position in the HBM market, the company sees no need to rush its transition to HBM4 and HBM4E (seventh generation HBM).\n\nBehind this strategic shift lies a reversal in profitability between commodity DRAM and HBM. As of the first quarter of this year, the per gigabit (Gb) price of commodity DRAM still falls short of HBM, but the operating margin gap is estimated to have already widened to more than 15 percentage points (P). Daishin Securities forecasts that commodity DRAM operating margins could rise to a theoretical maximum of 90 percent within the year.\n\nA source familiar with SK Hynix said, \"From the standpoint of SK Hynix management, they cannot ignore the fact that a competitor (Samsung Electronics) is already earning enormous profits from commodity DRAM rather than HBM.\" The source added, \"SK Hynix's HBM4 is still undergoing NVIDIA's quality certification process, and production forecasts for NVIDIA's next generation chip 'Rubin,' which will carry HBM4, are trending downward, so there is no reason to accelerate the HBM transition.\"\n\nThe view from overseas investment banks (IB) also supports this trend. Goldman Sachs assessed that it would be sufficient for SK Hynix to maintain a dominant position of more than 50 percent in HBM3 (fourth generation HBM) and HBM3E (fifth generation HBM) at least through 2026. Morgan Stanley pointed to memory wide pricing cycles, rather than a defense of HBM share, as the key driver of SK Hynix's value, and raised its earnings estimates by 56 to 63 percent on the basis of a forecast that DRAM average selling prices will rise 62 percent in 2026.\n\nIndeed, in its first quarter earnings release SK Hynix stated that DRAM average selling prices (ASP) rose in the mid 60 percent range, and it presented a plan to focus on meeting demand for high density server modules and mobile products. Its signing of a three year DDR5 supply agreement with Microsoft (MS) is also interpreted as a move to secure long term earnings visibility in commodity DRAM.\n\nOn the other hand, as SK Hynix moves to adjust HBM4 volumes, the possibility of a share gain by its competitor Samsung Electronics is also growing. According to Counterpoint Research, SK Hynix's HBM market share stood at 57 percent in the fourth quarter of last year but is increasingly seen as likely to shrink, and some observers suggest that if Samsung Electronics succeeds in mass producing HBM4 in the second half of this year, SK Hynix's share could fall to the 50 to 60 percent range.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2069207163374071808",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLdM87Oa8AAt1lt.png",
+          "width": 616,
+          "height": 410,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2069207209133887767",
+      "kind": "post",
+      "engagement": {
+        "views": 319689,
+        "likes": 659,
+        "reposts": 96,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2069263371766219092",
+      "date": "2026-06-22",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "NVIDIA",
+      "text": "Q2 Consumer LPDDR5X Prices Rise 89%\n\nMarket research firm SigmaIntell announced on the 22nd that prices for consumer product categories rose in the second quarter of this year due to a memory supply and demand imbalance.\n\nIn the low power DRAM (LPDDR) product category, the price of the LPDDR4X 4GB product rose 75% quarter on quarter, while the LPDDR5X 12GB product rose 89%. This is the result of intensified supply competition as LPDDR memory is adopted in next generation server GPUs such as NVIDIA's AI computing platform Vera Rubin. Memory manufacturers widened the scope of price increases for consumer product memory used in smartphones and PCs. Some customers have accepted the price increases, and this has already been reflected in the market.\n\nSigmaIntell explained that \"in the second quarter, production capacity was prioritized for high value added products such as HBM, server DRAM, and eSSD, which caused a supply shortage in consumer memory,\" and that \"due to cost pressure, some smartphone and PC brands are adjusting their memory orders.\" As a result, there is a possibility that the pace of DRAM price increases will moderate in the second half of this year. In particular, demand for memory used in low end products is expected to slow more than for midrange to high end products.\n\nSemiconductor wafer resources are being concentrated on high bandwidth memory (HBM), and consumer DRAM production capacity has been relatively scaled back as a result of the analysis. HBM is maintaining stable price levels through annual contracts with customers, but the supply and demand imbalance is still understood to be severe.\n\nGeneral purpose server DRAM also showed an industry wide price increase trend. As cloud companies continued to secure DRAM inventory, distribution inventory remained at a level of two to three weeks.\n\nThe consumer electronics market is under pressure. On the supply side, expanded production of high value added memory products, limited capacity for additional buildout, and low inventory levels have combined to sustain a supply shortage in consumer DRAM.\n\nThe NAND market also continued its upward trend in the second quarter. In the second quarter of this year, solid state drive (SSD) prices rose approximately 50% quarter on quarter. Enterprise NAND products (eSSD) are maintaining strong purchasing demand regardless of market price fluctuations. Expanding storage capacity in AI clusters and AI agent servers is driving demand. AI server architectures require high performance, high capacity data storage devices.\n\nUniversal Flash Storage (UFS) prices expanded by as much as 100%. This is the result of expanding eSSD demand and supply shortages spreading into the mobile and PC NAND markets. As the supply of low end NAND such as low capacity embedded multimedia cards (eMMC) is reduced, consumer NAND supply and demand has also become difficult.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2069263347158241280",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLeADQIaUAAQoRn.png",
+          "width": 1280,
+          "height": 656,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2069263371766219092",
+      "kind": "post",
+      "engagement": {
+        "views": 98292,
+        "likes": 308,
+        "reposts": 44,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-06-16",
+      "close": 207.41
+    },
+    {
+      "date": "2026-06-17",
+      "close": 204.65
+    },
+    {
+      "date": "2026-06-18",
+      "close": 210.69
+    },
+    {
+      "date": "2026-06-22",
+      "close": 208.65
+    }
+  ],
+  "price_status": "ok",
+  "price_unit": "USD",
+  "price_updated_at": "2026-06-23T19:15:48.445442+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "price_symbol": "BYD",
+  "currency": "USD",
+  "price_unit": "USD",
+  "series": [
+    {
+      "date": "2026-06-16",
+      "close": 86.47
+    },
+    {
+      "date": "2026-06-17",
+      "close": 83.88
+    },
+    {
+      "date": "2026-06-18",
+      "close": 84.68
+    },
+    {
+      "date": "2026-06-22",
+      "close": 86.35
+    }
+  ],
+  "last_updated": "2026-06-23T19:16:13.009985+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "price_symbol": "QCOM",
+  "currency": "USD",
+  "price_unit": "USD",
+  "series": [
+    {
+      "date": "2026-06-16",
+      "close": 214.07
+    },
+    {
+      "date": "2026-06-17",
+      "close": 212.97
+    },
+    {
+      "date": "2026-06-18",
+      "close": 226.11
+    },
+    {
+      "date": "2026-06-22",
+      "close": 221.9
+    }
+  ],
+  "last_updated": "2026-06-23T19:15:57.569777+00:00"
+}

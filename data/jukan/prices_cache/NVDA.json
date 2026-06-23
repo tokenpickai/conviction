@@ -1,0 +1,24 @@
+{
+  "price_symbol": "NVDA",
+  "currency": "USD",
+  "price_unit": "USD",
+  "series": [
+    {
+      "date": "2026-06-16",
+      "close": 207.41
+    },
+    {
+      "date": "2026-06-17",
+      "close": 204.65
+    },
+    {
+      "date": "2026-06-18",
+      "close": 210.69
+    },
+    {
+      "date": "2026-06-22",
+      "close": 208.65
+    }
+  ],
+  "last_updated": "2026-06-23T19:15:48.444527+00:00"
+}

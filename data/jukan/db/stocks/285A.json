@@ -1,0 +1,44 @@
+{
+  "ticker": "285A",
+  "cashtag": "Kioxia",
+  "price_symbol": "285A",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-16",
+  "last_mention": "2026-06-16",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2067035744246583343",
+      "date": "2026-06-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "SK hynix Expected to Generate Over $75 Billion in Gains from Kioxia Stake Investment\n\n- SK hynix is estimated to have realized KRW 40 trillion, or USD 26.46 billion, in gains from Bain Capital’s sale of its Kioxia stake.\n- However, SK hynix still holds a 14–15% stake in Kioxia in the form of convertible bonds. Based on Kioxia’s current market capitalization, the value of this remaining stake is estimated at JPY 7.9 trillion, or USD 49.2 billion.\n- BCPE Pangea Cayman 1A sold a total of 33.49 million shares through off-market transactions: 11.70 million shares, or 2.14%, on April 16; 3.27 million shares, or 0.60%, on June 4; and 18.52 million shares, or 3.39%, on June 11.\n- In particular, the transaction executed on Thursday, June 11 was completed through physical delivery on Monday, June 15, bringing the entity’s ownership stake down from 3.99% to 0%.\n- Currently, only BCPE Pangea Cayman2, Ltd. holds Kioxia common shares, with 77.40 million shares. This stake is understood to represent SK hynix’s holding.\n- Bain Capital’s investment is being regarded as one of the most profitable deals in private equity history.\n- Kioxia’s share price has risen more than 5,000% since its listing and is up 700% year-to-date.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2067035744246583343",
+      "kind": "post",
+      "engagement": {
+        "views": 155207,
+        "likes": 662,
+        "reposts": 75,
+        "replies": 20
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "not_covered",
+  "price_unit": "USD",
+  "price_updated_at": "2026-06-23T19:16:07.146592+00:00"
+}

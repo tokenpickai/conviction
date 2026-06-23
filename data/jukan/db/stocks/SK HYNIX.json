@@ -1,0 +1,361 @@
+{
+  "ticker": "SK HYNIX",
+  "cashtag": "SK Hynix",
+  "price_symbol": "000660.KS",
+  "exchange": "Korea Exchange",
+  "currency": "KRW",
+  "ticker_mapped": true,
+  "company": "SK Hynix",
+  "industry": "Memory/HBM (Korea)",
+  "thesis_summary": null,
+  "first_mention": "2026-06-16",
+  "last_mention": "2026-06-23",
+  "total_mentions": 13,
+  "mentions": [
+    {
+      "tweet_id": "2067035744246583343",
+      "date": "2026-06-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK hynix",
+      "text": "SK hynix Expected to Generate Over $75 Billion in Gains from Kioxia Stake Investment\n\n- SK hynix is estimated to have realized KRW 40 trillion, or USD 26.46 billion, in gains from Bain Capital’s sale of its Kioxia stake.\n- However, SK hynix still holds a 14–15% stake in Kioxia in the form of convertible bonds. Based on Kioxia’s current market capitalization, the value of this remaining stake is estimated at JPY 7.9 trillion, or USD 49.2 billion.\n- BCPE Pangea Cayman 1A sold a total of 33.49 million shares through off-market transactions: 11.70 million shares, or 2.14%, on April 16; 3.27 million shares, or 0.60%, on June 4; and 18.52 million shares, or 3.39%, on June 11.\n- In particular, the transaction executed on Thursday, June 11 was completed through physical delivery on Monday, June 15, bringing the entity’s ownership stake down from 3.99% to 0%.\n- Currently, only BCPE Pangea Cayman2, Ltd. holds Kioxia common shares, with 77.40 million shares. This stake is understood to represent SK hynix’s holding.\n- Bain Capital’s investment is being regarded as one of the most profitable deals in private equity history.\n- Kioxia’s share price has risen more than 5,000% since its listing and is up 700% year-to-date.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2067035744246583343",
+      "kind": "post",
+      "engagement": {
+        "views": 155207,
+        "likes": 662,
+        "reposts": 75,
+        "replies": 20
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067111063645261914",
+      "date": "2026-06-17",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK Hynix",
+      "text": "SK Hynix All time high",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2067111063645261914",
+      "kind": "post",
+      "engagement": {
+        "views": 100874,
+        "likes": 1134,
+        "reposts": 57,
+        "replies": 25
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067410844997312797",
+      "date": "2026-06-17",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SKhynix",
+      "text": "RT @SKhynix: @SKhynix has shipped samples of 12-layer #HBM4E, delivering up to 16Gbps per pin, over 20% improved power efficiency, and enha…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2067410844997312797",
+      "kind": "post",
+      "engagement": {
+        "views": 59,
+        "likes": 0,
+        "reposts": 44,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068489675510268060",
+      "date": "2026-06-20",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK Hynix",
+      "text": "JEDEC Ratifies 'SPHBM4' Standard; Glass Substrate Utility Draws Attention\n\nThe Joint Electron Device Engineering Council (JEDEC) has ratified a new standard that broadens the addressable scope of high bandwidth memory (HBM). Industry observers suggest that, alongside a shift in the cost structure of artificial intelligence (AI) chips, the value of glass substrate adoption could come into sharper focus.\n\nAccording to JEDEC on the 21st, the new HBM4 standard, \"SPHBM4 (Standard Package HBM4),\" received final board approval following deliberations within the DRAM memory subcommittee (JC-42.2).\n\nSPHBM4 is a specification designed to preserve as much of the existing HBM4 performance as possible while allowing its use with fewer signal pins and within standard packaging structures. The intent is to reduce reliance on costly advanced packaging and to broaden the addressable scope of high performance memory.\n\nSPHBM4 targets a fourfold increase in signal speed versus HBM4, thereby cutting the required signal pin count to roughly one fifth. Its defining feature is the ability to deliver HBM class bandwidth while using standard substrates.\n\nThe interconnect topology also changes. The standard defines a connection distance of up to 20mm between the host compute die and the memory. Placing the memory farther from the compute device allows for greater flexibility in thermal management within the package.\n\nThe potential linkage with glass substrates is also drawing attention. Glass substrates are cited as a next generation packaging substrate with advantages over conventional organic substrates in thermal stability, flatness, and fine line routing. They have yet to reach commercialization, however, and securing mass production processes and cost competitiveness remains a challenge.\n\nAn industry official commented, \"If glass substrates are the foundation that enables large packages, then SPHBM4 is the specification that allows HBM class memory to be deployed within them more economically,\" adding, \"As SPHBM4 adoption widens, the utility of glass substrates could rise in tandem with demand for large packages.\"\n\nThe market penetration of SPHBM4 hinges on actual adoption. The significance of the standard will materialize in earnest only if memory makers such as Samsung Electronics and SK Hynix bring relevant products to market and if major players in the AI chip ecosystem, including TSMC and Nvidia, adopt them.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2068489640529756160",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLTAXmVaAAAPSXI.png",
+          "width": 500,
+          "height": 315,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2068489675510268060",
+      "kind": "post",
+      "engagement": {
+        "views": 82960,
+        "likes": 209,
+        "reposts": 19,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068902999074963474",
+      "date": "2026-06-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK Hynix",
+      "text": "Just in: SK hynix’s market cap (KRW 209.10687 trillion) has surpassed Samsung Electronics’ market cap (KRW 209.0446 trillion, excluding preferred shares).",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2068902999074963474",
+      "kind": "post",
+      "engagement": {
+        "views": 152217,
+        "likes": 853,
+        "reposts": 82,
+        "replies": 33
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068961529484193930",
+      "date": "2026-06-22",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK Hynix",
+      "text": "Korea's June Memory Semiconductor Exports Poised to Set a New All Time Record\n\nJune memory semiconductor exports extended their powerful upward run, with both export value and unit prices surging together on the back of AI demand and supply shortages. In particular, as the spillover effect of the high bandwidth memory (HBM) shortage spread to commodity DRAM, NAND, and solid state drives (SSDs), the likelihood is growing that exports will surpass May's record monthly performance ($37.16 billion).\n\nAccording to the Korea Customs Service's Trade Statistics (TRASS) on the 22nd, based on preliminary clearance figures for June 1 to 20, 2026, the combined total of major memory items exceeded $23 billion, already reaching more than 60% of May's full month performance.\n\nGiven the recent monthly surges in HBM, NAND, and SSDs, total June memory semiconductor exports are projected to reach the $38 billion to $42 billion range, setting a new all time high that surpasses last month's record. Because shipping deadlines and corporate earnings closings tend to make the final ten or so days relatively strong, volumes are expected to climb further as the month draws to a close.\n\nIn June, every memory semiconductor category showed a pattern of simultaneous sharp gains in export value and unit prices. This reflects genuine growth momentum that goes beyond the favorable base effect of last year's strong performance, and is read as a signal confirming the \"structural expansion\" of the AI memory supercycle.\n\nThe most striking feature is that export value for MCP (HBM), which refers to multi chip packages, surged 51% from the previous month. As global big tech firms such as NVIDIA continue to invest in AI data centers (including the Colossus project), the HBM3E and HBM4 shortage centered on SK Hynix has persisted.\n\nAs wafers have been concentrated into HBM production, the supply of commodity DRAM has relatively decreased. As a result, commodity DRAM unit prices have soared to roughly two to three times the level of a year earlier, and with the recovery in PC and mobile demand adding to AI server demand, export value has also risen sharply.\n\nIn storage, NAND flash and SSD demand exploded amid the expanded buildout of AI inference servers. Both categories rose 25% to 28% from the previous month, underpinning the durability of the AI cycle.\n\nMemory's share of total semiconductor exports also expanded from the previous 70% range to 90% this month. Combined semiconductor exports of memory and system semiconductors reached $25.5 billion, and total June semiconductor exports are projected to land in the $42 billion to $46 billion range.\n\nAs the strong results continue, brokerages are also raising their earnings forecasts for major memory semiconductor companies. Park Junyoung, a researcher at Hanwha Investment & Securities, analyzed that \"the Korean memory industry has recently been overcoming these weaknesses on the strength of two powerful weapons, long term supply agreements (LTAs) and HBM,\" adding that \"even when a memory industry earnings downturn arrives in the future, there will be no slump in which operating profit declines as severely as in the past.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2068961529484193930",
+      "kind": "post",
+      "engagement": {
+        "views": 173388,
+        "likes": 394,
+        "reposts": 35,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068984938062561642",
+      "date": "2026-06-22",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "still holding"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "닉스",
+      "text": "@StarAndCompass_ 전 여전히 닉스 홀딩",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2068984938062561642",
+      "kind": "reply",
+      "engagement": {
+        "views": 14881,
+        "likes": 83,
+        "reposts": 3,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2069207209133887767",
+      "date": "2026-06-22",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK Hynix",
+      "text": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM\n\nSK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater weight on capturing the commodity DRAM market. With its HBM revenue share already exceeding 40 percent and an overwhelming lead established, the company is reallocating resources toward securing additional profit from commodity DRAM, where supply shortages are acute, rather than engaging in an aggressive capacity expansion race.\n\nAccording to industry sources on the 23rd, SK Hynix is reportedly delaying somewhat the conversion of some fifth generation HBM (HBM3E) production lines that were originally slated to switch to HBM4. The aim is to expand its ability to respond to the commodity DRAM market, which currently posts higher operating margins than HBM, in order to secure additional profit. The industry view is that, having already established a solid position in the HBM market, the company sees no need to rush its transition to HBM4 and HBM4E (seventh generation HBM).\n\nBehind this strategic shift lies a reversal in profitability between commodity DRAM and HBM. As of the first quarter of this year, the per gigabit (Gb) price of commodity DRAM still falls short of HBM, but the operating margin gap is estimated to have already widened to more than 15 percentage points (P). Daishin Securities forecasts that commodity DRAM operating margins could rise to a theoretical maximum of 90 percent within the year.\n\nA source familiar with SK Hynix said, \"From the standpoint of SK Hynix management, they cannot ignore the fact that a competitor (Samsung Electronics) is already earning enormous profits from commodity DRAM rather than HBM.\" The source added, \"SK Hynix's HBM4 is still undergoing NVIDIA's quality certification process, and production forecasts for NVIDIA's next generation chip 'Rubin,' which will carry HBM4, are trending downward, so there is no reason to accelerate the HBM transition.\"\n\nThe view from overseas investment banks (IB) also supports this trend. Goldman Sachs assessed that it would be sufficient for SK Hynix to maintain a dominant position of more than 50 percent in HBM3 (fourth generation HBM) and HBM3E (fifth generation HBM) at least through 2026. Morgan Stanley pointed to memory wide pricing cycles, rather than a defense of HBM share, as the key driver of SK Hynix's value, and raised its earnings estimates by 56 to 63 percent on the basis of a forecast that DRAM average selling prices will rise 62 percent in 2026.\n\nIndeed, in its first quarter earnings release SK Hynix stated that DRAM average selling prices (ASP) rose in the mid 60 percent range, and it presented a plan to focus on meeting demand for high density server modules and mobile products. Its signing of a three year DDR5 supply agreement with Microsoft (MS) is also interpreted as a move to secure long term earnings visibility in commodity DRAM.\n\nOn the other hand, as SK Hynix moves to adjust HBM4 volumes, the possibility of a share gain by its competitor Samsung Electronics is also growing. According to Counterpoint Research, SK Hynix's HBM market share stood at 57 percent in the fourth quarter of last year but is increasingly seen as likely to shrink, and some observers suggest that if Samsung Electronics succeeds in mass producing HBM4 in the second half of this year, SK Hynix's share could fall to the 50 to 60 percent range.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2069207163374071808",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLdM87Oa8AAt1lt.png",
+          "width": 616,
+          "height": 410,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2069207209133887767",
+      "kind": "post",
+      "engagement": {
+        "views": 319689,
+        "likes": 659,
+        "reposts": 96,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2069278356193919073",
+      "date": "2026-06-23",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK hynix",
+      "text": "Why overcomplicate it? Micron is trying to build a strong relationship with Anthropic early on and make Anthropic more dependent on Micron. Anthropic is likely to consume more and more memory over time, especially as it moves toward designing its own ASICs, so Micron needs to secure that relationship ahead of time.\n\nWhat I especially want to point out is that the value of frontier labs is rising. This also has the nature of seed capital. If Micron invests 100 in Anthropic today, and a few years later that helps Anthropic gain the capacity to buy 1,000 worth of memory, isn’t that a worthwhile trade?\n\nI think Samsung and SK hynix will also try to build this kind of relationship with Anthropic.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2069278356193919073",
+      "kind": "post",
+      "engagement": {
+        "views": 178300,
+        "likes": 1149,
+        "reposts": 60,
+        "replies": 48
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2069368311146815885",
+      "date": "2026-06-23",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK Hynix",
+      "text": "Why did the KOSPI fall today?\n\n1. Korean leverage trading has climbed to excessively high levels.\n2. Ahead of Micron's earnings, profit taking is underway, with talk that buyside expectations have become too elevated.\n3. Korean lawmakers are discussing imposing taxes on unrealized gains from stocks.\n4. SK Hynix overtaking Samsung Electronics in market capitalization is being read as a market top signal.\nCommentary: With Samsung Electronics' earnings scale still exceeding that of SK Hynix, a reversal in market cap can be interpreted as a sign of market overheating.\n5. A delay in SK Hynix's ADR listing.\n6. The failure of the Korean market to gain inclusion in the MSCI developed markets index, and so on.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2069368311146815885",
+      "kind": "post",
+      "engagement": {
+        "views": 442789,
+        "likes": 2752,
+        "reposts": 329,
+        "replies": 117
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2069375474632098147",
+      "date": "2026-06-23",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK Hynix",
+      "text": "@UncleAlpha007 SEC approval was expected to be announced today, but no announcement was made.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2069375474632098147",
+      "kind": "reply",
+      "engagement": {
+        "views": 17824,
+        "likes": 72,
+        "reposts": 1,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2069375909598269504",
+      "date": "2026-06-23",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK하이닉스",
+      "text": "@fulllleverage 최근 SK하이닉스 주가 급등을 이끈 원동력은 ADR 상장 기대감이다. SK하이닉스는 미국 증시에 ADR을 상장하기 위해 미국 증권거래위원회(SEC)에 신청서를 제출하는 등 관련 절차를 진행 중이다. 외신에 따르면 이날 밤에서 오는 23일 새벽에 승인 여부가 결정될 전망이다.\n\n근데 오늘 발표가 없었네요",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2069375909598269504",
+      "kind": "reply",
+      "engagement": {
+        "views": 31634,
+        "likes": 204,
+        "reposts": 21,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2069488184036307049",
+      "date": "2026-06-23",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK Hynix",
+      "text": "This is actually a really important point. If CXMT’s DRAM ASP is only about 5–10% lower than Samsung, SK Hynix, and Micron’s, it suggests that China currently has no interest in dumping memory. They want to make money too, don’t they? https://t.co/FZaxOg6KHP https://t.co/1FzHzJbj9H",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [
+        {
+          "media_key": "3_2069487808566509568",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLhMMoCbwAA8eBN.jpg",
+          "width": 1472,
+          "height": 994,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2069488184036307049",
+      "kind": "post",
+      "engagement": {
+        "views": 26542,
+        "likes": 149,
+        "reposts": 17,
+        "replies": 23
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "not_covered",
+  "price_unit": "KRW",
+  "price_updated_at": "2026-06-23T19:15:49.105124+00:00"
+}

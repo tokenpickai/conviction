@@ -2,12 +2,17 @@
 
 Profiles live in `profiles/*.json`. Each profile controls the public dashboard identity, portal card, render output prefix, and data locations.
 
-## Current Profile
+## Current Profiles
 
 - `profiles/serenity.json`
-- Portal URL: `/serenity/`
-- Dashboard render command: `.venv/bin/python scripts/serenity_render.py --profile serenity`
+- `profiles/jukan.json`
+- Portal URLs: `/serenity/` and `/jukan/`
+- Dashboard render commands:
+  - `.venv/bin/python scripts/serenity_render.py --profile serenity`
+  - `.venv/bin/python scripts/serenity_render.py --profile jukan`
 - Full site build command: `.venv/bin/python scripts/build_site.py`
+
+Jukan was initialized from a seven-day calibration window beginning June 16, 2026. Expand the history only after reviewing extraction and ticker normalization quality.
 
 ## Required Fields
 

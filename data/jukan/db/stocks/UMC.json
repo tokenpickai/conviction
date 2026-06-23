@@ -1,0 +1,62 @@
+{
+  "ticker": "UMC",
+  "cashtag": "UMC",
+  "price_symbol": "UMC",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-18",
+  "last_mention": "2026-06-18",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2067636769856860367",
+      "date": "2026-06-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "UMC",
+      "text": "Wow. According to @FundaAI, UMC is collaborating with Intel not only on 12nm, but also in the 3nm space.\n\n$INTC https://t.co/47XLM7vq30",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2067636728022872064",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLG4pjpasAA8USh.png",
+          "width": 1208,
+          "height": 818,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2067636769856860367",
+      "kind": "post",
+      "engagement": {
+        "views": 189572,
+        "likes": 400,
+        "reposts": 40,
+        "replies": 14
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-06-18",
+      "close": 24.08
+    },
+    {
+      "date": "2026-06-22",
+      "close": 27.5
+    }
+  ],
+  "price_status": "ok",
+  "price_unit": "USD",
+  "price_updated_at": "2026-06-23T19:16:24.830763+00:00"
+}
