@@ -36,6 +36,7 @@ Run:
 """
 
 import argparse
+import concurrent.futures
 import json
 import os
 import re
@@ -60,6 +61,17 @@ MAX_TWEETS_PER_CALL = int(os.environ.get("MAX_TWEETS_PER_CALL", "8"))  # smaller
 RETRY = 3
 REQUEST_PACING_SEC = 0.5              # polite pause between calls to avoid tripping limits
 RATE_LIMIT_WAIT = 30                  # base seconds to wait when a 429 is hit (×attempt)
+RESEARCH_TERMS_RE = re.compile(
+    r"\b("
+    r"ai|semiconductor|chip|memory|dram|nand|hbm|gpu|cpu|asic|foundry|wafer|"
+    r"packag|substrate|server|datacenter|data center|capex|revenue|margin|"
+    r"earnings|valuation|stock|share|long|short|bull|bear|supply|demand|"
+    r"capacity|price|asp|order|customer|nvidia|micron|samsung|hynix|tsmc|"
+    r"amd|broadcom|google|meta|amazon|microsoft"
+    r")\b",
+    re.IGNORECASE,
+)
+CASHTAG_RE = re.compile(r"\$[A-Za-z0-9.]{1,12}\b")
 
 
 # --------------------------------------------------------------------------- prompt
@@ -146,16 +158,24 @@ def profile_system_prompt(profile):
 
 
 def build_user_message(convo_tweets):
-    """Render one conversation's author tweets as the user message."""
-    lines = ["Here are THE AUTHOR'S tweets from one conversation, in order:\n"]
+    """Render author tweets, preserving thread order when a batch is one conversation."""
+    lines = ["Here are THE AUTHOR'S tweets. Tweets from the same conversation are in order; singleton posts may be batched together:\n"]
     for t in convo_tweets:
         kind = t.get("kind")
         rt = t.get("in_reply_to_username")
         ctx = f" (reply to @{rt})" if kind == "reply" and rt else (" (self-thread)" if kind == "self_thread" else " (post)")
         text = (t.get("text") or "").strip()
-        lines.append(f"[tweet_id={t['tweet_id']}{ctx}]\n{text}\n")
+        conversation_id = t.get("conversation_id") or t["tweet_id"]
+        lines.append(f"[conversation_id={conversation_id} tweet_id={t['tweet_id']}{ctx}]\n{text}\n")
     lines.append("\nReturn the JSON described in the system prompt for exactly these tweet_ids.")
     return "\n".join(lines)
+
+
+def likely_research_post(tweet):
+    if tweet.get("kind") in {"post", "self_thread"}:
+        return True
+    text = tweet.get("text") or ""
+    return bool(CASHTAG_RE.search(text) or RESEARCH_TERMS_RE.search(text))
 
 
 # --------------------------------------------------------------------------- io helpers
@@ -270,6 +290,12 @@ def main():
     ap.add_argument("--limit", type=int, default=0, help="only process first N tweets (test)")
     ap.add_argument("--since", default="", help="only process tweets created on/after this date, YYYY-MM-DD (e.g. 2026-02-01)")
     ap.add_argument("--model", default=DEFAULT_MODEL)
+    ap.add_argument(
+        "--research-prefilter",
+        action="store_true",
+        help="skip low-signal replies while retaining all posts, self-threads, cashtags, and research-language replies",
+    )
+    ap.add_argument("--workers", type=int, default=1, help="concurrent model requests; use 2 conservatively for backfills")
     args = ap.parse_args()
     if args.profile:
         profile = load_profile(args.profile)
@@ -324,6 +350,26 @@ def main():
 
     # skip already-done
     work = [t for t in work if t["tweet_id"] not in done_ids]
+    if args.research_prefilter:
+        selected = []
+        skipped = []
+        for tweet in work:
+            (selected if likely_research_post(tweet) else skipped).append(tweet)
+        for tweet in skipped:
+            done[tweet["tweet_id"]] = {
+                "tweet_id": tweet["tweet_id"],
+                "has_investment_content": False,
+                "tickers": [],
+                "confidence": 1.0,
+                "extractor_model": "deterministic-research-prefilter",
+                "prompt_version": CURRENT_PROMPT_VERSION,
+                "extracted_at": datetime.now(timezone.utc).isoformat(),
+                "prefilter_skipped": True,
+            }
+        if skipped:
+            save_json(OUT_PATH, done)
+        work = selected
+        log(f"--research-prefilter: selected {len(selected)} posts; marked {len(skipped)} low-signal replies as non-investment.")
     if not work:
         log("Nothing to do (all selected tweets already extracted).")
         return
@@ -340,39 +386,76 @@ def main():
 
     client = get_client()
     now = datetime.now(timezone.utc).isoformat()
-    group_list = list(groups.values())
+    units = []
+    for group in groups.values():
+        for start in range(0, len(group), MAX_TWEETS_PER_CALL):
+            units.append(group[start:start + MAX_TWEETS_PER_CALL])
+    group_list = []
+    batch = []
+    for unit in units:
+        if batch and len(batch) + len(unit) > MAX_TWEETS_PER_CALL:
+            group_list.append(batch)
+            batch = []
+        batch.extend(unit)
+        if len(batch) == MAX_TWEETS_PER_CALL:
+            group_list.append(batch)
+            batch = []
+    if batch:
+        group_list.append(batch)
     total_groups = len(group_list)
+    log(
+        f"Model batches: packed {len(groups)} conversations into {total_groups} calls "
+        f"(up to {MAX_TWEETS_PER_CALL} tweets per call, thread order preserved)."
+    )
     processed = 0
 
-    for gi, convo in enumerate(group_list, 1):
-        # chunk overly long conversations
-        for start in range(0, len(convo), MAX_TWEETS_PER_CALL):
-            chunk = convo[start:start + MAX_TWEETS_PER_CALL]
-            results = call_model(client, args.model, chunk)
-            if results is None:
-                # mark as error so we can find them, but keep going
-                for t in chunk:
-                    done[t["tweet_id"]] = {
-                        "tweet_id": t["tweet_id"], "error": True,
-                        "extractor_model": args.model, "prompt_version": "extract-v2",
-                        "extracted_at": now,
-                    }
-                continue
-            by_id = {r.get("tweet_id"): r for r in results}
-            for t in chunk:
-                r = by_id.get(t["tweet_id"]) or {
-                    "tweet_id": t["tweet_id"], "has_investment_content": False,
-                    "tickers": [], "confidence": 0.0, "missing_from_model": True,
+    def apply_results(chunk, results):
+        nonlocal processed
+        if results is None:
+            for tweet in chunk:
+                done[tweet["tweet_id"]] = {
+                    "tweet_id": tweet["tweet_id"], "error": True,
+                    "extractor_model": args.model, "prompt_version": CURRENT_PROMPT_VERSION,
+                    "extracted_at": now,
                 }
-                r["extractor_model"] = args.model
-                r["prompt_version"] = "extract-v2"
-                r["extracted_at"] = now
-                done[t["tweet_id"]] = r
-                processed += 1
-            save_json(OUT_PATH, done)   # incremental save = resumable
-            time.sleep(REQUEST_PACING_SEC)   # polite pace to avoid tripping rate limits
-        if gi % 25 == 0 or gi == total_groups:
-            log(f"  group {gi}/{total_groups} | tweets done this run: {processed}")
+            return
+        by_id = {result.get("tweet_id"): result for result in results}
+        for tweet in chunk:
+            result = by_id.get(tweet["tweet_id"]) or {
+                "tweet_id": tweet["tweet_id"], "has_investment_content": False,
+                "tickers": [], "confidence": 0.0, "missing_from_model": True,
+            }
+            result["extractor_model"] = args.model
+            result["prompt_version"] = CURRENT_PROMPT_VERSION
+            result["extracted_at"] = now
+            done[tweet["tweet_id"]] = result
+            processed += 1
+        save_json(OUT_PATH, done)
+
+    workers = max(1, args.workers)
+    if workers == 1:
+        for gi, chunk in enumerate(group_list, 1):
+            apply_results(chunk, call_model(client, args.model, chunk))
+            time.sleep(REQUEST_PACING_SEC)
+            if gi % 25 == 0 or gi == total_groups:
+                log(f"  batch {gi}/{total_groups} | tweets done this run: {processed}")
+    else:
+        log(f"Running {workers} concurrent model requests.")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
+            future_to_chunk = {
+                executor.submit(call_model, client, args.model, chunk): chunk
+                for chunk in group_list
+            }
+            for gi, future in enumerate(concurrent.futures.as_completed(future_to_chunk), 1):
+                chunk = future_to_chunk[future]
+                try:
+                    results = future.result()
+                except Exception as exc:
+                    log(f"    !! batch raised unexpectedly: {exc}")
+                    results = None
+                apply_results(chunk, results)
+                if gi % 25 == 0 or gi == total_groups:
+                    log(f"  batch {gi}/{total_groups} | tweets done this run: {processed}")
 
     # summary
     inv = sum(1 for r in done.values() if r.get("has_investment_content"))

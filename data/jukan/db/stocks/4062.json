@@ -1,0 +1,219 @@
+{
+  "ticker": "4062",
+  "cashtag": "Ibiden",
+  "price_symbol": "4062.T",
+  "exchange": "Tokyo",
+  "currency": "JPY",
+  "ticker_mapped": true,
+  "company": "Ibiden",
+  "industry": "IC Package Substrates",
+  "thesis_summary": null,
+  "first_mention": "2026-04-23",
+  "last_mention": "2026-06-15",
+  "total_mentions": 7,
+  "mentions": [
+    {
+      "tweet_id": "2047480248766530038",
+      "date": "2026-04-23",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "stock is soaring under the grace of Lip-Bu Tan"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Ibiden",
+      "text": "Ibiden’s stock is soaring under the grace of Lip-Bu Tan, lol. https://t.co/LjvVCqyjrP https://t.co/66ne8vJD5N",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2047480091245264896",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGocS4NbwAAO0ec.jpg",
+          "width": 936,
+          "height": 542,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2047480248766530038",
+      "kind": "post",
+      "engagement": {
+        "views": 37231,
+        "likes": 166,
+        "reposts": 9,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2056576060045807819",
+      "date": "2026-05-18",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "substrate supply chain is very tight",
+        "customers prepaying for substrates showing commitment",
+        "author expresses excitement (LFG)"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "Ibiden",
+      "text": "“A couple of customers have prepaid for substrates, because the substrate supply chain is very tight – so I need to put up the money to secure this material…(and it shows) the commitment to me – so that’s very exciting.”\n\nLFG Ibiden!!! https://t.co/gwMZBzWmLT",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2056576060045807819",
+      "kind": "post",
+      "engagement": {
+        "views": 91854,
+        "likes": 313,
+        "reposts": 17,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2058733798704243047",
+      "date": "2026-05-24",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Ibiden",
+      "text": "▶ Embedded substrates draw AI chip interest as packaging turns strategic\n\n- The growing interest in embedded substrates from major players like Nvidia, AMD, and Intel signals a potential shift in the AI datacenter supply chain.\n\n- The technology can improve signal integrity and power stability for high-performance chips.\n\n- Industry players are also developing EIPD (Embedded Integrated Passive Device) modules to simplify substrate processing and advanced packaging for AI and high-performance computing (HPC) chips.\n\n- An embedded substrate features pre-formed cavities within the substrate to house passive components.\n\n- The most commonly embedded component is the MLCC, with structures divided into semi-embedded and fully-embedded approaches.\n\n- Compared with mounting passive components on the substrate surface, the embedded structure shortens signal paths and reduces parasitic inductance, making it advantageous for achieving impedance matching in the power delivery network (PDN).\n\n- This is expected to improve signal integrity and power stability for AI and HPC chips.\n\n- Embedded designs have already been adopted since the iPhone X-generation application processor (AP) as a way to free up limited PCB surface space.\n\n- That said, large-scale adoption in the AI and server markets remains at an early stage. Embedding capacitors and resistors within the substrate raises costs, and no clear market leader has yet emerged in the industry.\n\n- As a result, whether AI chip customers ultimately adopt the technology is set to become a key competitive variable.\n\n- A range of suppliers—Japan's Ibiden, Korea's Samsung Electro-Mechanics, and Taiwan's Unimicron, Kinsus Tech, and Nan Ya PCB—are scaling up investment in embedded substrate development.\n\n- Some market observers see Samsung Electro-Mechanics as holding an edge, given that it produces both MLCCs and package substrates and is reportedly planning new equipment investment at its Vietnam plant.\n\n- Others, however, point to the stringent control required over materials, drilling precision, and surface flatness in embedded substrate manufacturing, and expect Ibiden and Unimicron to be the preferred partners for demanding AI customers.\n\n- According to Taiwanese suppliers, inquiries about embedded substrates have surged from Nvidia, AMD, Intel, and ASIC customers focused on AI datacenter and HPC server chips.\n\n- Design optimization concepts such as integrated passive device modules are still in the technology validation phase, but industry sources expect mass production to accelerate within the next few years.\n\n- Substrate technology is emerging as a critical platform for supporting the rising power, bandwidth, and integration density of chips.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2058733798704243047",
+      "kind": "post",
+      "engagement": {
+        "views": 45147,
+        "likes": 172,
+        "reposts": 17,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059880144538579433",
+      "date": "2026-05-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Ibiden",
+      "text": "Intel’s EMIB Packaging Is Growing Rapidly — Silicon Capacitors Are Taking Off Too\n\nSilicon capacitors are poised for explosive growth in the AI semiconductor space. Intel has been found to be planning a large-scale adoption of silicon capacitors starting next year, in order to enhance the performance of its in-house 2.5D packaging technology, “EMIB.”\n\nThe most clearly visible source of demand is Google. Google plans to launch its next-generation AI accelerator, “v8e,” in the second half of next year, and has adopted an EMIB substrate with embedded silicon capacitors for that chip. With other Big Tech companies such as Amazon also currently applying EMIB, analysts say demand could increase sharply.\n\nAccording to industry sources on the 27th, Intel plans to apply silicon capacitors to its 2.5D packaging starting next year.\n\nIntel Adopts “Silicon Capacitors” for 2.5D Packaging… Google AI Chip Gets First Application\n\n2.5D is an advanced packaging technology that inserts a thin-film interposer between the semiconductor and the substrate. Because it can connect circuits at higher density compared with conventional packaging that uses only a substrate, demand is rising in the AI and HPC fields.\n\nTo improve cost efficiency in 2.5D packaging, Intel devised its own technology called EMIB. Rather than using a broad, spread-out interposer, EMIB connects chip to chip using a small silicon bridge. Since bridges only need to be placed where chip-to-chip connections are required, chips can be arranged more flexibly and efficiently.\n\nRecently, EMIB has been drawing attention as an alternative to TSMC, which had been leading the existing 2.5D packaging market. This is because TSMC’s 2.5D packaging capacity is suffering from a supply shortage amid the rapid development of the AI industry.\n\nIndeed, global Big Tech player Google is also paying attention to EMIB. Google has decided to adopt EMIB for its in-house AI semiconductor “v8e,” which it plans to launch in the second half of next year. Under this structure, TSMC handles chip mass production, MediaTek handles design and manufacturing support, and Intel handles packaging.\n\nHowever, there have been concerns that EMIB is gradually showing limitations in providing stable power supply for AI semiconductors, which consume large amounts of power. Accordingly, Intel plans to introduce new technologies such as silicon capacitors and through-silicon vias (TSV) to ensure stable packaging for the v8e.\n\nA capacitor is a component that stores and releases electricity in an electronic circuit. In the case of silicon capacitors, their resistance (ESL/ESR) is more than 100 times lower than that of conventional multilayer ceramic capacitors (MLCC), minimizing the signal loss that occurs in high-performance semiconductors. They can also be designed in an ultra-thin structure based on a silicon wafer, enabling high-density integration.\n\nA semiconductor industry official explained, “Because the voltage drop (the phenomenon of voltage decreasing) that occurs in the high-frequency region within AI chips is difficult to solve with MLCC, we understand that Intel is adopting silicon capacitors as a solution,” adding, “The relevant supply chain is now in place, and mass production is set to begin in earnest next year.”\n\nEMIB-T Is Already on a Growth Trajectory — The Related Ecosystem and Market Are Expanding Together\n\nIntel has also inserted TSVs, which serve as power-delivery channels, into the silicon bridge. The key point is that by using TSVs to shorten the power-delivery path between the substrate and the chip, Intel has improved power efficiency and signal integrity. Intel calls this “EMIB-T.”\n\nThe industry expects the EMIB-T and silicon capacitor markets to grow rapidly.\n\nThis is because Japan’s Ibiden — one of the major companies that mass-produces semiconductor substrates for EMIB-T — is aggressively pursuing capital investment.\n\nPreviously, Ibiden had planned to build its Kawashima (Gama) plant in Gifu Prefecture as a substrate plant for Intel CPUs. However, it postponed that schedule and decided in the first half of this year to officially convert the Gama plant into a mass-production line for EMIB-T substrates. The investment is 220 billion yen (about KRW 2.1 trillion).\n\nIn its recent earnings announcement, Ibiden stated, “Operation of the Gama plant will begin in 2027 and enter full-scale mass production in 2028,” adding, “EMIB-T substrate capacity is currently far short of demand. However, adding further capacity is quite difficult, so we are discussing options with our customers.”\n\nA semiconductor industry official explained, “Ibiden’s EMIB-T-dedicated line is being built with most of the investment coming from customers such as Google, Amazon, and Intel,” adding, “This demonstrates that AI semiconductors based on EMIB-T will grow significantly going forward, and silicon capacitors are likely to expand alongside them.”",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2059880104634040320",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJYqCpybQAAUfNg.jpg",
+          "width": 640,
+          "height": 444,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2059880144538579433",
+      "kind": "post",
+      "engagement": {
+        "views": 88702,
+        "likes": 455,
+        "reposts": 67,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059967125020934181",
+      "date": "2026-05-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Ibiden",
+      "text": "Why Are Silicon Capacitors Becoming Important? And Why Is SEMCO's Stock Surging?\n\nThe reason silicon capacitors have failed to grow into a large market until now is clear. TSMC, which holds an overwhelming share in substrates for AI packaging, has historically sourced silicon capacitors in-house. As a result, it has been effectively impossible for silicon capacitor suppliers outside of TSMC to break into the AI packaging value chain.\n\nBut with the rise of Intel's EMIB, the situation is changing.\n\nSilicon capacitor suppliers like Murata and SEMCO are now supplying silicon capacitors for Intel's EMIB, and have begun to benefit directly from AI demand.\n\nThe existing silicon capacitor market was effectively an oligopoly dominated by Murata and TSMC. SEMCO was closer to a latecomer.\n\nYet even SEMCO—the latecomer—has managed to land a supply contract worth more than $1 billion. For context, SEMCO's silicon capacitor revenue last year was a mere few million dollars.\n\nSo how did SEMCO ramp its revenue this quickly? It comes down to the fact that SEMCO is the only company in the world that operates both a silicon capacitor business and a substrate business.\n\nThe reason silicon capacitors have become important for Intel's EMIB is that Intel cannot make its own silicon capacitors and must source them externally. On top of that, within Intel's EMIB BoM, the highest value-added component is the substrate.\n\nSo if a company can deliver both the substrate and the silicon capacitor to Intel's EMIB on a turnkey basis, that maximizes SEMCO's bargaining power and value. This is precisely why SEMCO's stock has been surging recently.\n\nOf course, this isn't to say Murata will benefit less. Murata still maintains a very close relationship with Ibiden—Intel's first-vendor for substrates—and is clearly positioned to benefit from EMIB. That said, my view is that the emergence of a new player like SEMCO should by no means be underestimated.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2059967125020934181",
+      "kind": "post",
+      "engagement": {
+        "views": 70281,
+        "likes": 518,
+        "reposts": 63,
+        "replies": 17
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2061640613616140649",
+      "date": "2026-06-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Ibiden",
+      "text": "LG Innotek Eyes Intel “EMIB” Substrate Supply Chain… Supplies Samples to SK Hynix\n\nLG Innotek is pushing to enter the semiconductor substrate market for EMIB (Embedded Multi-die Interconnect Bridge), Intel’s most advanced packaging technology. It has been learned that the company is currently collaborating with SK Hynix, including supplying EMIB substrate samples. However, the industry’s assessment is that because the development difficulty of this substrate is very high, whether it actually reaches commercialization remains to be seen.\n\nAccording to the industry on the 2nd, LG Innotek is collaborating with SK Hynix to enter the substrate supply chain for Intel’s 2.5D packaging.\n\n2.5D is an advanced packaging technology that inserts a thin film type interposer between the semiconductor and the substrate. Compared with conventional packaging that uses only a substrate, it can connect circuits at higher density, so demand is rising in the AI and HPC fields.\n\nIntel devised its own technology called EMIB to improve cost efficiency in 2.5D packaging. Instead of a widely spread interposer, EMIB connects chip to chip using a small silicon bridge. Because bridges only need to be placed where chip to chip connection is required, chips can be laid out more flexibly and efficiently.\n\nCurrently, EMIB semiconductor substrates are known to be supplied by four companies: Japan’s Ibiden and Shinko Electric, Taiwan’s Unimicron, and Austria’s AT&S.\n\nThis substrate is based on the existing high performance semiconductor substrate, flip chip ball grid array (FC-BGA), but it is assessed as having greater technical difficulty because a silicon bridge must be embedded inside the substrate. FC-BGA is a package substrate that connects the semiconductor chip and the substrate using flip chip bumps (a method that flips the chip over).\n\nIt has been learned that LG Innotek is currently supplying EMIB FC-BGA samples to SK Hynix and jointly carrying out technology development. For SK Hynix, a memory company, the collaboration with LG Innotek offers the advantage of being able to understand the characteristics of high bandwidth memory (HBM) optimized for EMIB.\n\nA substrate industry official explained, “LG Innotek is expanding its points of contact with memory and AI chip design companies in order to enter the substrate supply chain for Intel EMIB,” adding that “it is showing strong determination to enter the high value added semiconductor substrate market.”\n\nHowever, whether LG Innotek will enter the EMIB substrate supply chain is still viewed as unclear. This is because the samples LG Innotek supplied to SK Hynix are only at an early stage, such as engineering samples (ES).\n\nAs a latecomer in the FC-BGA industry, LG Innotek is assessed as having lower technical capability than its competitors. In fact, LG Innotek has not yet entered the server FC-BGA field, which requires high specification and large area technology. The need for enormous investment, such as building a dedicated line, in order to mass produce EMIB substrates is also a major challenge.\n\nA semiconductor back end industry official explained, “Intel EMIB substrates are already in a situation where overseas companies have solidified the supply chain, and Japan’s Ibiden also recently announced the construction of a dedicated line worth more than 2 trillion won,” adding that “for LG Innotek to enter the market, it must clear both technical and market hurdles.”",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2061640605860827136",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJxrNT7bEAA1QGV.jpg",
+          "width": 638,
+          "height": 410,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2061640613616140649",
+      "kind": "post",
+      "engagement": {
+        "views": 34988,
+        "likes": 290,
+        "reposts": 34,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066650855923966013",
+      "date": "2026-06-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Ibiden",
+      "text": "Sources: TSMC Working with Ibiden and Innolux on CoPoS Glass Substrate Development Project- Digitimes",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2066650855923966013",
+      "kind": "post",
+      "engagement": {
+        "views": 84551,
+        "likes": 352,
+        "reposts": 26,
+        "replies": 26
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

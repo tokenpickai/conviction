@@ -1,0 +1,81 @@
+{
+  "ticker": "MACRONIX",
+  "cashtag": "Macronix",
+  "price_symbol": "MACRONIX",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-18",
+  "last_mention": "2026-05-08",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2045431346114564269",
+      "date": "2026-04-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Macronix",
+      "text": "@DynamicMoats Macronix barely does any DRAM.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2045431346114564269",
+      "kind": "reply",
+      "engagement": {
+        "views": 358,
+        "likes": 1,
+        "reposts": 0,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2052651707105181882",
+      "date": "2026-05-08",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "returned to profitability in 1Q 2026",
+        "April revenue up 33.7% MoM and 153.7% YoY, surpassing previous monthly record",
+        "rising 2D NAND prices continuing to drive operational growth",
+        "supply gap in MLC eMMC expected to persist; meaningful new competition unlikely for at least 3 years",
+        "combined market share with Winbond expanding further in 2026"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Macronix",
+      "text": "2D NAND shortage spirals after Samsung, Micron, and rivals exit market\n\nMajor international NAND manufacturers are gradually exiting the mature-process 2D NAND market, triggering panic buying and a sharp spike in prices. Industry sources suggest the supply shortage may be difficult to resolve. While vendors are seeking alternative solutions, product specifications are expected to become increasingly polarized as scarcity persists.\n\nSupply chain sources said multi-level cell (MLC) NAND has become extremely difficult to secure, with prices rising at least 20–30% in April 2026 alone. Spot market prices have climbed even faster. For example, MLC 64Gb 8GBx8 products are currently trading at US$19–20, with some offers reaching US$28, compared with only around US$6–7 at the end of 2025 — representing an increase of roughly 200–300%.\n\nSingle-level cell (SLC) NAND prices have also surged sharply. Spot prices for SLC 2Gb products recently reached around US$4–4.5, up roughly 120–150% from late 2025 levels.\n\nIndustry sources said that although other players are interested in entering the 2D NAND manufacturing market, second-hand equipment phased out by major NAND makers has recently become highly sought after. However, companies including Samsung, SK Hynix, Kioxia, and Micron Technology currently have no plans to license MLC technology externally, making it more difficult for new entrants to break into 2D NAND manufacturing.\n\nThe challenge is particularly acute for niche applications that remain dependent on 2D NAND, where transitioning to alternative products is difficult, and qualification cycles are typically lengthy. Although some Chinese manufacturers are interested in entering the market, their production capacity remains limited. End customers are also reluctant to take on higher supply risks, especially for critical applications.\n\nThe global NAND market is estimated to have reached around US$73 billion in 2025, with the six major NAND suppliers focusing heavily on 3D NAND development. Yet only around 1% of the overall NAND market remains tied to 2D NAND products. Despite the small share, price increases for both MLC and SLC products over the past six months have significantly outpaced those of 3D NAND.\n\nMacronix and Winbond gain pricing power in shrinking 2D NAND market\nMacronix and Winbond are expected to remain the leading suppliers of MLC and SLC NAND, respectively. Based on an estimated 2025 market value of around US$600 million, the two Taiwanese companies already account for roughly 59% of the 2D NAND market, with their combined share expected to expand further in 2026.\n\nMacronix returned to profitability in the first quarter of 2026, with rising prices continuing to drive operational growth. April revenue reached NT$5.91 billion (US$188 million), up 33.7% sequentially and 153.7% from a year earlier, surpassing the previous monthly record of NT$5.68 billion set in September 2021. Revenue for the first four months of the year totaled NT$16.38 billion, up 93.5% year over year.\n\nMacronix president Miin Wu said the company plans to gradually raise the proportion of NOR and NAND products, including eMMC, toward a 1:1 ratio through capacity expansion. He noted that current 4GB–32GB eMMC applications align closely with Macronix's product offerings.\n\nWu added that there remains a clear supply gap in MLC eMMC products, with shortages expected to persist for the foreseeable future. He estimated that meaningful new competition is unlikely to emerge for at least another three years.\n\nWinbond recently said it will focus on maintaining a stable supply of SLC NAND and NOR Flash products and does not plan to enter the MLC NAND market.\n\nThe company expects SLC NAND bit growth to exceed 80% over the next year. In particular, its new 24nm process accounted for only 1% of Flash-related business in the first quarter of 2026, but the contribution of 24nm SLC NAND is expected to increase from the second quarter onward, gradually becoming a meaningful revenue driver. Winbond also expects SLC NAND gross margins to surpass those of NOR Flash as it pushes toward becoming a leading SLC NAND supplier.\n\nWinbond president Chen Pei-ming said the current Flash shortage appears difficult to resolve and that the market is showing two clear trends.\n\nThe first involves products originally requiring only 16GB or 32GB storage being upgraded toward higher-capacity UFS solutions such as 36GB and 48GB. The second involves customers previously using 4GB eMMC solutions compressing or optimizing code to reduce storage requirements from above 1GB down to around 1GB, enabling the adoption of 8Gb SLC NAND products and creating new business opportunities.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2052651664453316609",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHx70DtasAEBa2g.png",
+          "width": 640,
+          "height": 427,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2052651707105181882",
+      "kind": "post",
+      "engagement": {
+        "views": 336220,
+        "likes": 465,
+        "reposts": 49,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

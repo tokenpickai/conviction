@@ -1,0 +1,199 @@
+{
+  "ticker": "NTDOY",
+  "cashtag": "Nintendo",
+  "price_symbol": "NTDOY",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-26",
+  "last_mention": "2026-04-26",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2048279695423336465",
+      "date": "2026-04-26",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nintendo",
+      "text": "@qptmvj Nintendo… if it weren’t for memory, the stock would’ve done well.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048279695423336465",
+      "kind": "reply",
+      "engagement": {
+        "views": 3316,
+        "likes": 21,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-04-27",
+      "close": 12.38
+    },
+    {
+      "date": "2026-04-28",
+      "close": 12.21
+    },
+    {
+      "date": "2026-04-29",
+      "close": 12.13
+    },
+    {
+      "date": "2026-04-30",
+      "close": 12.17
+    },
+    {
+      "date": "2026-05-01",
+      "close": 12.06
+    },
+    {
+      "date": "2026-05-04",
+      "close": 12.16
+    },
+    {
+      "date": "2026-05-05",
+      "close": 12.1
+    },
+    {
+      "date": "2026-05-06",
+      "close": 12.26
+    },
+    {
+      "date": "2026-05-07",
+      "close": 11.78
+    },
+    {
+      "date": "2026-05-08",
+      "close": 10.45
+    },
+    {
+      "date": "2026-05-11",
+      "close": 11.07
+    },
+    {
+      "date": "2026-05-12",
+      "close": 11.34
+    },
+    {
+      "date": "2026-05-13",
+      "close": 11.16
+    },
+    {
+      "date": "2026-05-14",
+      "close": 10.81
+    },
+    {
+      "date": "2026-05-15",
+      "close": 11.16
+    },
+    {
+      "date": "2026-05-18",
+      "close": 11.44
+    },
+    {
+      "date": "2026-05-19",
+      "close": 11.74
+    },
+    {
+      "date": "2026-05-20",
+      "close": 11.94
+    },
+    {
+      "date": "2026-05-21",
+      "close": 11.54
+    },
+    {
+      "date": "2026-05-22",
+      "close": 11.38
+    },
+    {
+      "date": "2026-05-26",
+      "close": 11.04
+    },
+    {
+      "date": "2026-05-27",
+      "close": 11.1
+    },
+    {
+      "date": "2026-05-28",
+      "close": 10.92
+    },
+    {
+      "date": "2026-05-29",
+      "close": 11.15
+    },
+    {
+      "date": "2026-06-01",
+      "close": 11.25
+    },
+    {
+      "date": "2026-06-02",
+      "close": 11.5
+    },
+    {
+      "date": "2026-06-03",
+      "close": 11.43
+    },
+    {
+      "date": "2026-06-04",
+      "close": 11.43
+    },
+    {
+      "date": "2026-06-05",
+      "close": 11.51
+    },
+    {
+      "date": "2026-06-08",
+      "close": 12.23
+    },
+    {
+      "date": "2026-06-09",
+      "close": 11.13
+    },
+    {
+      "date": "2026-06-10",
+      "close": 11.1
+    },
+    {
+      "date": "2026-06-11",
+      "close": 11.23
+    },
+    {
+      "date": "2026-06-12",
+      "close": 11.18
+    },
+    {
+      "date": "2026-06-15",
+      "close": 11.05
+    },
+    {
+      "date": "2026-06-16",
+      "close": 11.2
+    },
+    {
+      "date": "2026-06-17",
+      "close": 11.16
+    },
+    {
+      "date": "2026-06-18",
+      "close": 11.01
+    },
+    {
+      "date": "2026-06-22",
+      "close": 10.73
+    }
+  ],
+  "price_status": "ok"
+}

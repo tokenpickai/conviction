@@ -1,0 +1,84 @@
+{
+  "ticker": "ASMPT",
+  "cashtag": "ASMPT",
+  "price_symbol": "ASMPT",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-13",
+  "last_mention": "2026-04-18",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2043582535956140050",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ASMPT",
+      "text": "Samsung Electronics Evaluates ASMPT for HBM TC Bonders… Supply Chain Diversification Continues\n\nSamsung Electronics continues to pursue diversification of its supply chain for thermocompression (TC) bonding equipment, a critical component in high-bandwidth memory (HBM) production. It has been learned that the company recently completed a demo test with overseas semiconductor equipment firm ASMPT on HBM TC bonders and has decided to move forward to the next phase of collaboration.\n\nAccording to industry sources on the 13th, Samsung Electronics plans to conduct a JEP (Joint Evaluation Project) with Singapore-headquartered ASMPT for HBM TC bonders.\n\nHBM is a type of memory in which multiple DRAM dies are vertically stacked and connected via through-silicon vias (TSVs). Samsung Electronics employs a process that places non-conductive film (NCF) between each DRAM die and bonds them using thermocompression. The equipment used in this bonding process is the TC bonder.\n\nSamsung's in-house subsidiary SEMES has been the primary supplier of TC bonders for HBM. However, since last year, the company has been working to onboard additional domestic and international back-end equipment makers into its supply chain.\n\nAmong them, ASMPT had been conducting initial tests on HBM TC bonders with Samsung through Q1 of this year. These tests were at the R&D stage, involving demo equipment demonstrations in a lab setting.\n\nFurthermore, the two companies have reportedly reached an agreement to pursue a JEP for the TC bonder. A JEP involves installing already-developed equipment on a customer's mass production line to verify the equipment's performance and reliability. It can be viewed as the stage where the feasibility of actual deployment is assessed.\n\nAn industry source explained, \"Samsung Electronics has been continuously reviewing the diversification of its HBM TC bonder supply chain,\" adding that \"the JEP with ASMPT is part of this strategy, and it signals that testing between the two companies is making steady progress.\"\n\nThat said, it remains uncertain whether Samsung will actually adopt ASMPT's HBM TC bonders in mass production. Numerous variables remain before commercialization, including the possibility that equipment performance may fall short in a production environment or that pricing negotiations may not reach a satisfactory outcome.\n\nThe timing of Samsung Electronics' adoption of hybrid bonding equipment is also expected to significantly influence TC bonder supply chain diversification. Hybrid bonding is a technology that directly connects chips without using micro bumps between DRAM dies, as in conventional processes. It is attracting attention as a next-generation bonding process for HBM, as it offers advantages in enhancing chip performance compared to TC bonding.\n\nHowever, hybrid bonding has a high level of technical difficulty and has yet to be commercially deployed in HBM bonding. Additionally, JEDEC (the international semiconductor standards body) is pursuing measures to relax thickness specifications for next-generation HBM. If greater thickness is permitted, it becomes easier to maintain existing TC bonding technology.\n\nAnother industry source noted, \"Hybrid bonding technology is not yet mature, and even when it is eventually adopted, limited approaches such as applying it to only certain layers are being discussed — meaning TC bonding technology may have more room to grow than previously expected.\" The source added, \"Under these circumstances, Samsung Electronics will likely feel an even greater need to diversify its TC bonder supply chain.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2043582514128928768",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFxDeB_awAAs197.png",
+          "width": 639,
+          "height": 426,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2043582535956140050",
+      "kind": "post",
+      "engagement": {
+        "views": 72010,
+        "likes": 81,
+        "reposts": 5,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045643713104544054",
+      "date": "2026-04-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ASMPT",
+      "text": "ASMPT Secures Multiple HBM4 TC Bonder Orders Last Year... SK Hynix Likely Among Buyers\n\nSingapore-headquartered ASMPT appears to have secured orders for 6th-generation High Bandwidth Memory (HBM4) Thermal Compression (TC) bonders from memory companies including SK Hynix.\n\nAt its 2025 earnings conference call, ASMPT stated: \"We were the first to secure TC bonder equipment orders for 12-high HBM4 from multiple customers,\" adding that \"through Q4 shipments last year, we established meaningful share in the memory market.\" HBM4 has currently been commercialized up to 12-high.\n\nFounded in Hong Kong in 1975, ASMPT is a semiconductor packaging (back-end) equipment supplier now headquartered in Singapore, with production hubs in Huizhou and Shenzhen (China), Shanghai, and Singapore.\n\nTC bonders are core equipment that stack semiconductor chips using heat and pressure. This process is currently applied to HBM up to 12-high. However, as the industry moves to 20-high and beyond, hybrid bonding is emerging as an alternative. Hybrid bonding directly joins copper-to-copper (Cu-Cu) without using \"bumps\" (solder protrusions) between chips.\n\nCEO Robin Ng noted, \"HBM CAPEX moves in the same direction as data center investment,\" adding, \"as we progress from 12-high to 16-high and 20-high, TC bonder demand will also expand.\" He continued, \"TC bonding can address up to 16-high, but at 20-high, hybrid bonding may be partially adopted in accordance with JEDEC standards.\"\n\nASMPT is currently developing equipment for 16-high applications. Its flux-based tools are at the sampling stage, while fluxless process tools are at customer qualification. Hybrid bonder shipments are expanding following customer approval, and a 2nd-generation tool is also under development.\n\nTC Bonder Revenue Surges 146%... Samsung Also Reportedly Evaluating Equipment\n\nTC bonders drove the earnings performance. ASMPT posted full-year revenue of HKD 13.7362 billion (approximately KRW 2.57 trillion) and operating profit of HKD 625.5 million (approximately KRW 110 billion), representing year-on-year growth of 10% and 8.8%, respectively.\n\nTC bonder revenue surged 146% over the same period. ASMPT stated, \"Through entry into the HBM market, we significantly raised our TC bonder share,\" explaining that \"last year's share gain reflected the impact of large orders secured in Q4 2024.\"\n\nWhen asked on the call whether its current share stood at around 30%, the company responded, \"within that range.\" However, this may be interpreted as referring to the entire TC bonder market including both logic and HBM applications. ASMPT has set a target of 35–40% share in the expanded TCB market by 2028. In the HBM-dedicated TC bonder market, Hanmi Semiconductor ranks first with 71.2% share.\n\nOrder momentum is also continuing. The company explained, \"This year marks the emergence of new demand for 16-high-capable TC bonders,\" adding that \"additional orders will depend on customers' 16-high mass production pace and the launch schedule of (NVIDIA's) next-generation GPU architecture.\"\n\nASMPT further stated, \"We expect Q1 orders this year to increase approximately 20% QoQ and approximately 40% YoY,\" noting that \"this could mark the highest quarterly order level in the past four years.\"\n\nMeanwhile, Samsung Electronics is reportedly evaluating the adoption of ASMPT equipment alongside Netherlands-based BESI, the global No. 1 in hybrid bonders.\n\n\"TC Bonder Market to Reach USD 1.6 Billion\"... Hanmi-Hanwha Competition Seen as Tailwind\n\nThe market itself is expanding. ASMPT projects the total TC bonder market to grow from USD 759 million (approximately KRW 1.114 trillion) last year to USD 1.6 billion (approximately KRW 2.3484 trillion) by 2028, implying a CAGR of approximately 30%.\n\nHanmi Semiconductor plans to launch a prototype of its 2nd-generation hybrid bonder within the year. It is constructing a dedicated \"Hybrid Bonder Factory\" in Juan, Incheon, with an investment of approximately KRW 100 billion, targeting operational start in the first half of next year.\n\nLate entrant Hanwha Semitech recently supplied a 2nd-generation hybrid bonder prototype to SK Hynix, which is now set to undergo performance validation testing. This comes approximately four years after its 1st-generation equipment delivery in 2022.\n\nSamsung Electronics' semiconductor equipment affiliate SEMES and LG Electronics' Production Engineering Research Institute are also reportedly developing hybrid bonders.\n\nSeparately, some industry observers view the patent dispute between Hanmi Semiconductor and Hanwha Semitech as a potential tailwind for ASMPT. With the two companies engaged in mutual litigation over TC bonder architecture and flux process technology, customers are increasingly likely to pursue equipment dual-sourcing and evaluate new suppliers.\n\nAnother variable is SK Hynix's consideration of hybrid bonder adoption for HBM5 (8th generation) to be deployed in 2029.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2045643685808001024",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGOWGA2bUAAbr8d.png",
+          "width": 580,
+          "height": 433,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2045643713104544054",
+      "kind": "post",
+      "engagement": {
+        "views": 25517,
+        "likes": 120,
+        "reposts": 14,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

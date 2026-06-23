@@ -1,0 +1,66 @@
+{
+  "ticker": "SPIL",
+  "cashtag": "SPIL",
+  "price_symbol": "SPIL",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-16",
+  "last_mention": "2026-04-19",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2044914319243280555",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SPIL",
+      "text": "DigiTimes published a report on TSMC's packaging this morning, and there's a lot of alpha in it.\n\nTo summarize:\n\n1. TSMC is significantly expanding SoIC capacity in 2027 (from 10K wafers/month to 50K wafers/month), with NVIDIA locking up most of this SoIC capacity. Only 10% will be allocated to CPO. \n\n-> Positive for BESI. More hybrid bonding tool orders should follow.\n\n2. CoPoS is delayed… first product shipment expected in Q4 2030. \nCoWoS's lifespan is now expected to be longer than previously anticipated. CoPoS is just too difficult to push through. According to DigiTimes, with large orders pouring in not only from NVIDIA and AMD but also from ASIC customers, TSMC's CoWoS capacity for the next two years is already fully booked. CoPoS was originally expected to take the baton with mass production in 2028, but per the latest schedule: \nQ3 2026: R&D equipment move-in begins. R&D line buildout takes about 1 year. \nQ3 2027: Pilot line equipment orders placed. Equipment lead time of about 3 quarters. \nQ2 2028: Pilot tools moved into the Chiayi P7 fab. Validation and fine-tuning needed for about 1 year afterward. \nMid-to-late 2029: Mass production equipment finalized, supply chain orders placed. Lead time of 3 quarters. \nQ1 2030: Mass production equipment move-in. First packaging product shipment possible 6 months to 1 year later, in Q4 2030. \nIn particular, \"uniformity\" and \"warpage\" are reportedly causing significant difficulties in implementing CoPoS. \n\n-> Negative for the CoPoS supply chain. TSMC is reportedly even imposing a policy that anyone joining the CoPoS development effort will be barred from selling externally.\n\n3. Lastly, the CoWoP project led by NVIDIA and SPIL (矽品) is reportedly facing a potential suspension. Because of the higher technical difficulty and elevated cost, SPIL and Taiwanese PCB vendors are showing low willingness to participate, and only Chinese PCB vendors are showing intent to continue R&D.\n\n-> Those who were pushing CoWoP should be ashamed of themselves. The ones who were pumping mainland Chinese names...",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044914319243280555",
+      "kind": "post",
+      "engagement": {
+        "views": 106761,
+        "likes": 361,
+        "reposts": 50,
+        "replies": 16
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045851058069733618",
+      "date": "2026-04-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SPIL",
+      "text": "Very interesting.\n\n- For Rubin Ultra’s scale-up optical architecture, CPO is the priority, with NPO as the fallback option.\n- AMD’s MI500 adopts an MRM-based CPO approach.The PIC is manufactured by GlobalFoundries, and the packaging is handled by ASE.\n- By contrast, for Nvidia’s CPO, the PIC is manufactured by TSMC, the packaging is currently handled by SPIL, and assembly is done by Foxconn Industrial Internet.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2045851058069733618",
+      "kind": "post",
+      "engagement": {
+        "views": 174162,
+        "likes": 336,
+        "reposts": 31,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

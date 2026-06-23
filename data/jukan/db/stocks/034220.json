@@ -1,0 +1,51 @@
+{
+  "ticker": "034220",
+  "cashtag": "LG Display",
+  "price_symbol": "034220",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-15",
+  "last_mention": "2026-04-15",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2044347929050365985",
+      "date": "2026-04-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "LG Display",
+      "text": "iPad Air to Switch to OLED in 2027… Samsung Display to Begin Mass Production as Early as Year-End\n\nApple will transition the display of next year's iPad Air to OLED. Following the iPad Pro and Mini, the Air will mark the adoption of OLED across Apple's entire tablet lineup except for the base model, and the domestic display industry supplying OLED to Apple is expected to see expanded benefits.\n\nAccording to industry sources on the 15th, Samsung Display plans to begin mass production of OLED panels for the iPad Air around year-end or January of next year, in order to supply display panels for Apple's next-generation iPad Air slated for release in the first half of next year. The industry expects the iPad Air to launch in either March or May of next year.\n\nAn industry official said, \"While specific volumes have not been confirmed, iPad Air sales have historically exceeded those of the iPad Pro. Unlike the iPad Pro, which saw lower-than-expected demand after its price rose with the adoption of OLED, the iPad Air will use a lower-spec, lower-cost OLED, and is expected to outsell the iPad Pro.\"\n\nThe OLED for next year's iPad Air will feature a single-stack emissive layer, low-temperature polycrystalline silicon (LTPS) thin-film transistors (TFT), and a hybrid substrate.\n\nAs a result, starting next year, all Apple tablet lineups except the base model will have transitioned to OLED. The base model and this year's iPad Air still use mini-LED backlit LCD panels.\n\nThe iPad Air will be the fourth Apple IT device (across tablets and monitors) to adopt OLED. Apple applied OLED to the iPad Pro (11- and 13-inch) in 2024, followed by the iPad Mini (8.5-inch) and MacBook Pro (14- and 16-inch) this year.\n\nAs Apple accelerates the OLED transition for tablets and notebooks that previously used LCD, the favorable landscape for the domestic display industry supplying these panels is expected to continue.\n\nCurrently, Samsung Display and LG Display split the supply of OLED panels for the iPad Pro. Samsung Display will supply panels for this year's MacBook Pro and iPad Mini.\n\nAccording to market research firm Omdia, tablet OLED demand is forecast to grow from 11 million units in 2025 to 13 million in 2026 and 21 million in 2027. Apple is expected to account for roughly two-thirds of that volume.\n\n$AAPL",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044347908754153472",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HF77l3KaoAAw15k.png",
+          "width": 700,
+          "height": 378,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044347929050365985",
+      "kind": "post",
+      "engagement": {
+        "views": 20565,
+        "likes": 135,
+        "reposts": 9,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

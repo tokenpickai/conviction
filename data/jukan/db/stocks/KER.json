@@ -1,0 +1,42 @@
+{
+  "ticker": "KER",
+  "cashtag": "Kering",
+  "price_symbol": "KER",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-15",
+  "last_mention": "2026-04-15",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2044580609427980490",
+      "date": "2026-04-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kering",
+      "text": "LVMH, Kering, and Hermès have all been talking about their growth in Korea lol\nKoreans are earning money through semiconductors and just giving it away to European luxury brands.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044580609427980490",
+      "kind": "post",
+      "engagement": {
+        "views": 129594,
+        "likes": 1483,
+        "reposts": 95,
+        "replies": 68
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

@@ -1,0 +1,119 @@
+{
+  "ticker": "SMCI",
+  "cashtag": "Super Micro Computer",
+  "price_symbol": "SMCI",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": "Super Micro",
+  "industry": "AI Servers",
+  "thesis_summary": null,
+  "first_mention": "2026-05-23",
+  "last_mention": "2026-05-23",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2058125914471608752",
+      "date": "2026-05-23",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Super Micro Computer",
+      "text": "Jensen Huang said that the Vera Rubin architecture will be the most successful generation so far.\n\n- He said he hopes Super Micro Computer will strengthen its compliance framework. He also expects the company to continue growing rapidly next year.\n\n- He emphasized that AI will affect every industry. He noted that rising memory prices are becoming a challenge for customers, and said he hopes memory suppliers expand capacity as quickly as possible.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2058125914471608752",
+      "kind": "post",
+      "engagement": {
+        "views": 244414,
+        "likes": 707,
+        "reposts": 48,
+        "replies": 21
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-05-26",
+      "close": 37.1
+    },
+    {
+      "date": "2026-05-27",
+      "close": 38.19
+    },
+    {
+      "date": "2026-05-28",
+      "close": 41.3
+    },
+    {
+      "date": "2026-05-29",
+      "close": 46.09
+    },
+    {
+      "date": "2026-06-01",
+      "close": 46.88
+    },
+    {
+      "date": "2026-06-02",
+      "close": 50.17
+    },
+    {
+      "date": "2026-06-03",
+      "close": 47.42
+    },
+    {
+      "date": "2026-06-04",
+      "close": 46.9
+    },
+    {
+      "date": "2026-06-05",
+      "close": 41.64
+    },
+    {
+      "date": "2026-06-08",
+      "close": 43.99
+    },
+    {
+      "date": "2026-06-09",
+      "close": 40.64
+    },
+    {
+      "date": "2026-06-10",
+      "close": 29.27
+    },
+    {
+      "date": "2026-06-11",
+      "close": 31.97
+    },
+    {
+      "date": "2026-06-12",
+      "close": 30.46
+    },
+    {
+      "date": "2026-06-15",
+      "close": 30.85
+    },
+    {
+      "date": "2026-06-16",
+      "close": 29.22
+    },
+    {
+      "date": "2026-06-17",
+      "close": 27.78
+    },
+    {
+      "date": "2026-06-18",
+      "close": 30.66
+    },
+    {
+      "date": "2026-06-22",
+      "close": 35.46
+    }
+  ],
+  "price_status": "ok"
+}

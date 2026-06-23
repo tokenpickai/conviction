@@ -1,0 +1,228 @@
+{
+  "ticker": "COHR",
+  "cashtag": "Coherent",
+  "price_symbol": "COHR",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": "Coherent",
+  "industry": "Optical Comms",
+  "thesis_summary": null,
+  "first_mention": "2026-04-20",
+  "last_mention": "2026-04-20",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2046179956473143750",
+      "date": "2026-04-20",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Coherent",
+      "text": "▶ Global AI Optical Transceiver Market to Reach US$26 Billion in 2026; Component Shortages Identified as Primary Capacity Expansion Bottleneck — TrendForce\n\n• TrendForce expects the global AI optical transceiver market to expand from US$16.5 billion in 2025 to US$26 billion in 2026, representing 57% YoY growth.\n\n• This acceleration reflects not only specification upgrades but also a structural reshaping of the optical communications supply chain, driven by the faster pace of AI data center buildouts.\n\n• As AI data center expansion continues, demand for 800G-and-above optical transceivers — used for interconnects between AI server clusters — is surging.\n\n• North American CSP data center traffic is sustaining annual growth of over 30%, with aggressive GPU and AI server deployments by major cloud players driving high growth in high-speed optical interconnects.\n\n• However, constrained production capacity for core optoelectronic chips such as EMLs and CW-LDs is deepening supply shortages, acting as the primary bottleneck for overall optical transceiver capacity expansion.\n\n• In addition, high-precision manufacturing processes such as optical alignment are difficult to scale, and the pace of productivity improvement faces structural limits.\n\n• At the same time, the rising power consumption and heat dissipation challenges of high-speed optical modules are increasing system design complexity, adding pressure on actual data center deployment and mass-production schedules.\n\n• Upstream suppliers, led by NVIDIA and key system vendors, are shifting their procurement strategies — adopting strategic long-term agreements (LTAs) to secure critical components and reduce dependence on short-term spot-market purchases, thereby mitigating supply risk.\n\n• TrendForce emphasizes that growth in the AI optical transceiver market is shifting from a single-product upgrade narrative toward three axes: market expansion, generational technology transitions, and application diversification.\n\n• As 1.6T-generation products gradually enter mass production, demand for edge computing and data center interconnect (DCI) applications is expected to rise, fueling growth in the 800G and 1.6T ZR/ZR+ coherent optical module market.\n\n• In response to component shortages, major international players such as Coherent, Lumentum, and AAOI — along with Taiwanese firms including ELASER and LuxNet Corporation — are moving to expand capacity and adopt new technologies.\n\n• 2026–2027 will be a critical window for establishing positions in the 1.6T supply chain, with success in design-ins at tier-1 customers expected to be the decisive factor for future market share.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2046179951226011648",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGV90xNaQAAa58F.jpg",
+          "width": 1080,
+          "height": 560,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2046179956473143750",
+      "kind": "post",
+      "engagement": {
+        "views": 27326,
+        "likes": 219,
+        "reposts": 23,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-04-20",
+      "close": 347.51
+    },
+    {
+      "date": "2026-04-21",
+      "close": 343.79
+    },
+    {
+      "date": "2026-04-22",
+      "close": 350.47
+    },
+    {
+      "date": "2026-04-23",
+      "close": 337.68
+    },
+    {
+      "date": "2026-04-24",
+      "close": 336.09
+    },
+    {
+      "date": "2026-04-27",
+      "close": 321.53
+    },
+    {
+      "date": "2026-04-28",
+      "close": 303.97
+    },
+    {
+      "date": "2026-04-29",
+      "close": 304.93
+    },
+    {
+      "date": "2026-04-30",
+      "close": 319.71
+    },
+    {
+      "date": "2026-05-01",
+      "close": 329.5
+    },
+    {
+      "date": "2026-05-04",
+      "close": 329.89
+    },
+    {
+      "date": "2026-05-05",
+      "close": 335.73
+    },
+    {
+      "date": "2026-05-06",
+      "close": 344.67
+    },
+    {
+      "date": "2026-05-07",
+      "close": 319.19
+    },
+    {
+      "date": "2026-05-08",
+      "close": 335.26
+    },
+    {
+      "date": "2026-05-11",
+      "close": 379.69
+    },
+    {
+      "date": "2026-05-12",
+      "close": 374.01
+    },
+    {
+      "date": "2026-05-13",
+      "close": 403.71
+    },
+    {
+      "date": "2026-05-14",
+      "close": 404.94
+    },
+    {
+      "date": "2026-05-15",
+      "close": 382.45
+    },
+    {
+      "date": "2026-05-18",
+      "close": 362.83
+    },
+    {
+      "date": "2026-05-19",
+      "close": 353.63
+    },
+    {
+      "date": "2026-05-20",
+      "close": 358.5
+    },
+    {
+      "date": "2026-05-21",
+      "close": 378.0
+    },
+    {
+      "date": "2026-05-22",
+      "close": 377.57
+    },
+    {
+      "date": "2026-05-26",
+      "close": 381.35
+    },
+    {
+      "date": "2026-05-27",
+      "close": 380.18
+    },
+    {
+      "date": "2026-05-28",
+      "close": 376.95
+    },
+    {
+      "date": "2026-05-29",
+      "close": 361.47
+    },
+    {
+      "date": "2026-06-01",
+      "close": 362.9
+    },
+    {
+      "date": "2026-06-02",
+      "close": 426.89
+    },
+    {
+      "date": "2026-06-03",
+      "close": 417.43
+    },
+    {
+      "date": "2026-06-04",
+      "close": 421.9
+    },
+    {
+      "date": "2026-06-05",
+      "close": 376.99
+    },
+    {
+      "date": "2026-06-08",
+      "close": 401.93
+    },
+    {
+      "date": "2026-06-09",
+      "close": 355.94
+    },
+    {
+      "date": "2026-06-10",
+      "close": 354.77
+    },
+    {
+      "date": "2026-06-11",
+      "close": 363.58
+    },
+    {
+      "date": "2026-06-12",
+      "close": 385.03
+    },
+    {
+      "date": "2026-06-15",
+      "close": 413.84
+    },
+    {
+      "date": "2026-06-16",
+      "close": 382.81
+    },
+    {
+      "date": "2026-06-17",
+      "close": 378.85
+    },
+    {
+      "date": "2026-06-18",
+      "close": 389.57
+    },
+    {
+      "date": "2026-06-22",
+      "close": 425.48
+    }
+  ],
+  "price_status": "ok"
+}

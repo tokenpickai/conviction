@@ -45,7 +45,7 @@ jobs:
         run: |
           since="$(date -u -d '7 days ago' +%Y-%m-%d)"
           python scripts/extract.py --profile serenity --since "$since"
-          python scripts/extract.py --profile jukan --since "$since" --model claude-sonnet-4-6
+          MAX_TWEETS_PER_CALL=16 python scripts/extract.py --profile jukan --since "$since" --model claude-sonnet-4-6 --research-prefilter --workers 2
 
       - name: Rebuild stock database
         run: |

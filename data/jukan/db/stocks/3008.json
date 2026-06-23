@@ -8,10 +8,62 @@
   "company": "Largan Precision",
   "industry": "Optics/Photonics",
   "thesis_summary": null,
-  "first_mention": "2026-06-16",
+  "first_mention": "2026-04-15",
   "last_mention": "2026-06-20",
-  "total_mentions": 2,
+  "total_mentions": 4,
   "mentions": [
+    {
+      "tweet_id": "2044570503739044226",
+      "date": "2026-04-15",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "good time to invest in Apple's value chain",
+        "Apple considering increasing iPhone production by more than 5% in 2027",
+        "shipments could exceed 260 million units"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Largan Precision",
+      "text": "It seems like a good time to invest in Apple’s value chain…\n\nMy pick is Largan Precision.\n\nKorea’s SK Securities: Apple is considering increasing iPhone production by more than 5% in 2027 as well. Shipments could exceed 260 million units and potentially reach 270 million.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044570503739044226",
+      "kind": "post",
+      "engagement": {
+        "views": 47837,
+        "likes": 475,
+        "reposts": 10,
+        "replies": 14
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2060242646015373644",
+      "date": "2026-05-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Largan",
+      "text": "@mingchikuo Is this true?\n\n\"For the new iPhone 18 Pro / Pro Max in 2H26, the variable aperture lens reportedly carries a 50% higher ASP than the high-end 7P lens, with Sunny’s supply share expected to reach 40–50%.\"\n\nHas Largan been displaced?",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2060242646015373644",
+      "kind": "reply",
+      "engagement": {
+        "views": 18362,
+        "likes": 55,
+        "reposts": 3,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2067012038220726527",
       "date": "2026-06-16",
@@ -37,7 +89,7 @@
       "url": "https://x.com/jukan05/status/2067012038220726527",
       "kind": "post",
       "engagement": {
-        "views": 80486,
+        "views": 80489,
         "likes": 188,
         "reposts": 22,
         "replies": 9
@@ -61,8 +113,8 @@
       "url": "https://x.com/jukan05/status/2068214793333526718",
       "kind": "post",
       "engagement": {
-        "views": 132663,
-        "likes": 1499,
+        "views": 132677,
+        "likes": 1500,
         "reposts": 146,
         "replies": 36
       },
@@ -71,7 +123,5 @@
     }
   ],
   "price_series": [],
-  "price_status": "not_covered",
-  "price_unit": "TWD",
-  "price_updated_at": "2026-06-23T19:15:59.772671+00:00"
+  "price_status": "pending"
 }

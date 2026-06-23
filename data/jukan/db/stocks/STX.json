@@ -1,0 +1,219 @@
+{
+  "ticker": "STX",
+  "cashtag": "STX",
+  "price_symbol": "STX",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-21",
+  "last_mention": "2026-04-21",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2046550105877270728",
+      "date": "2026-04-21",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "HDD stocks rewarded with premium valuations unjustifiably",
+        "customers will 2x order HDD capacity until demand flattens then revenue and EPS will fall off a cliff",
+        "trades at 11x almost 2-3 turns higher than peak of previous cycles"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "STX",
+      "text": "I’d been thinking the same for quite a while, and UBS finally called it out clearly this time: why are HDD stocks being rewarded with premium valuations while memory stocks remain undervalued? Sharing this here:\n\n\"While we do not see any negative catalysts for STX or WDC in the near term, we believe it is problematic that the market is taking a structurally very different view of HDD stocks versus memory stocks, and we continue to prefer memory names — for example, MU, which we see as an inevitable re-rating story. Put a different way, the market is treating HDD stocks as if they are no longer cyclical - something we push back on aggressively as we believe customers will 2x order HDD capacity until demand starts to flatten - at which case revenue and EPS for HDD stocks will fall off a proverbial cliff. Even if we take an aggressive ~30% EB growth Y/Y, HSD% price increases, and LDD% costdowns for the next 2-3 years, STX still trades at 11x - almost 2-3 turns higher than the peak of previous cycles and the exact opposite of the expectations placed on MU despite the memory industry structurally changing. So, with a still-positive cyclical view for now and a negative structural view relative to the current peaky multiples, we remain Neutral; we continue to prefer MU and semicaps as better cyclicals to gain exposure to the AI buildout.\"\n\n$MU",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046550105877270728",
+      "kind": "post",
+      "engagement": {
+        "views": 64006,
+        "likes": 395,
+        "reposts": 36,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-04-21",
+      "close": 559.9
+    },
+    {
+      "date": "2026-04-22",
+      "close": 579.88
+    },
+    {
+      "date": "2026-04-23",
+      "close": 587.62
+    },
+    {
+      "date": "2026-04-24",
+      "close": 586.25
+    },
+    {
+      "date": "2026-04-27",
+      "close": 595.86
+    },
+    {
+      "date": "2026-04-28",
+      "close": 579.03
+    },
+    {
+      "date": "2026-04-29",
+      "close": 643.3
+    },
+    {
+      "date": "2026-04-30",
+      "close": 673.64
+    },
+    {
+      "date": "2026-05-01",
+      "close": 726.93
+    },
+    {
+      "date": "2026-05-04",
+      "close": 738.54
+    },
+    {
+      "date": "2026-05-05",
+      "close": 771.01
+    },
+    {
+      "date": "2026-05-06",
+      "close": 786.42
+    },
+    {
+      "date": "2026-05-07",
+      "close": 766.44
+    },
+    {
+      "date": "2026-05-08",
+      "close": 782.64
+    },
+    {
+      "date": "2026-05-11",
+      "close": 834.01
+    },
+    {
+      "date": "2026-05-12",
+      "close": 808.795
+    },
+    {
+      "date": "2026-05-13",
+      "close": 817.35
+    },
+    {
+      "date": "2026-05-14",
+      "close": 804.76
+    },
+    {
+      "date": "2026-05-15",
+      "close": 795.47
+    },
+    {
+      "date": "2026-05-18",
+      "close": 740.84
+    },
+    {
+      "date": "2026-05-19",
+      "close": 733.35
+    },
+    {
+      "date": "2026-05-20",
+      "close": 751.07
+    },
+    {
+      "date": "2026-05-21",
+      "close": 810.46
+    },
+    {
+      "date": "2026-05-22",
+      "close": 812.73
+    },
+    {
+      "date": "2026-05-26",
+      "close": 845.76
+    },
+    {
+      "date": "2026-05-27",
+      "close": 870.66
+    },
+    {
+      "date": "2026-05-28",
+      "close": 880.72
+    },
+    {
+      "date": "2026-05-29",
+      "close": 879.8
+    },
+    {
+      "date": "2026-06-01",
+      "close": 921.26
+    },
+    {
+      "date": "2026-06-02",
+      "close": 926.61
+    },
+    {
+      "date": "2026-06-03",
+      "close": 940.69
+    },
+    {
+      "date": "2026-06-04",
+      "close": 925.99
+    },
+    {
+      "date": "2026-06-05",
+      "close": 847.47
+    },
+    {
+      "date": "2026-06-08",
+      "close": 876.77
+    },
+    {
+      "date": "2026-06-09",
+      "close": 846.01
+    },
+    {
+      "date": "2026-06-10",
+      "close": 815.99
+    },
+    {
+      "date": "2026-06-11",
+      "close": 868.09
+    },
+    {
+      "date": "2026-06-12",
+      "close": 931.04
+    },
+    {
+      "date": "2026-06-15",
+      "close": 1018.8
+    },
+    {
+      "date": "2026-06-16",
+      "close": 1031.34
+    },
+    {
+      "date": "2026-06-17",
+      "close": 1066.0699
+    },
+    {
+      "date": "2026-06-18",
+      "close": 1070.23
+    },
+    {
+      "date": "2026-06-22",
+      "close": 1094.04
+    }
+  ],
+  "price_status": "ok"
+}

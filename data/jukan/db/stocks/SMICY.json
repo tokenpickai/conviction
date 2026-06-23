@@ -1,0 +1,51 @@
+{
+  "ticker": "SMICY",
+  "cashtag": "SMIC",
+  "price_symbol": "SMICY",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-04",
+  "last_mention": "2026-05-04",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2051277334850969837",
+      "date": "2026-05-04",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SMIC",
+      "text": "One of Korea’s leading semiconductor scholars, Professor Seokjun Kwon of Sungkyunkwan University’s Department of Chemical Engineering, said in an interview with Korean media today that China could secure advanced semiconductor manufacturing equipment approaching extreme ultraviolet, or EUV, lithography tools by around the mid-2030s, despite being blocked from accessing them by U.S. export controls.\n\nHe said, “We should neither overestimate nor underestimate China’s technological capabilities. We need to assess them coldly and objectively.”\n\nProfessor Kwon especially warned that Korea should not take the long-term potential of China’s semiconductor industry lightly.\n\nHe said:\n\n“During periods of industrial transformation, technologies that once seemed unlikely to be used can suddenly emerge. That is what disruptive innovation is. China’s electric vehicles are a representative example. China chose EVs as a way to overcome the long-established ‘moat’ built by the U.S. and Japan in internal combustion engine vehicles, and as a result, it has developed world-class technological capabilities. There is no reason the same thing cannot happen in semiconductors. Across China, Huawei fabs and industry-academia cooperation centers are simultaneously developing EUV alternative light sources, optical systems, and PR, or photoresist, materials. If one of these technologies survives, China could quickly move onto a growth curve backed by its enormous domestic market. A crisis could emerge in which Chinese semiconductor equipment, materials, and technologies begin to have a global impact.”\n\nProfessor Kwon was particularly concerned about the possibility of China developing next-generation lithography technology.\n\n“Today, everyone says that cutting-edge processes below 5nm are impossible without EUV. But precisely because of that, EUV, monopolized by the Dutch company ASML, is also an environment highly susceptible to disruptive innovation. China’s accelerator-based light source technology could become the next-generation technology after EUV. A prototype could emerge as early as the mid-2030s. If that happens, even if SMIC remains around ten years behind TSMC and Samsung Electronics, it could eventually enter the single-digit nanometer process regime, meaning advanced ultra-fine process technology.”",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2051277294594088960",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHeZ1NAa4AAyAjL.png",
+          "width": 700,
+          "height": 518,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2051277334850969837",
+      "kind": "post",
+      "engagement": {
+        "views": 119099,
+        "likes": 748,
+        "reposts": 121,
+        "replies": 40
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

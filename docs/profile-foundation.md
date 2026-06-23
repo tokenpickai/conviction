@@ -12,7 +12,7 @@ Profiles live in `profiles/*.json`. Each profile controls the public dashboard i
   - `.venv/bin/python scripts/serenity_render.py --profile jukan`
 - Full site build command: `.venv/bin/python scripts/build_site.py`
 
-Jukan was initialized from a seven-day calibration window beginning June 16, 2026. Expand the history only after reviewing extraction and ticker normalization quality.
+Jukan uses a rolling 90-day research corpus beginning March 25, 2026. Its high-volume ingestion applies a deterministic research prefilter to low-signal replies, then batches the remaining posts through Claude while preserving conversation boundaries.
 
 ## Required Fields
 

@@ -1,0 +1,377 @@
+{
+  "ticker": "SONY",
+  "cashtag": "Sony",
+  "price_symbol": "SONY",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": "Sony Group",
+  "industry": "Image Sensors/Electronics",
+  "thesis_summary": null,
+  "first_mention": "2026-03-25",
+  "last_mention": "2026-05-08",
+  "total_mentions": 4,
+  "mentions": [
+    {
+      "tweet_id": "2037004891051483558",
+      "date": "2026-03-25",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Sony",
+      "text": "For now, Sony looks like the most likely supplier. That said, if Samsung ends up supplying it, that would be a huge surprise. https://t.co/m4nipYLO24",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2037004891051483558",
+      "kind": "post",
+      "engagement": {
+        "views": 19071,
+        "likes": 70,
+        "reposts": 3,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2037400782484722132",
+      "date": "2026-03-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Sony",
+      "text": "[EXCLUSIVE] Hitachi's Home Appliance Unit Sale Falls Through — Samsung and LG Also Walk Away\n\nJapanese electronics conglomerate Hitachi's attempt to sell its white goods subsidiary has collapsed. The asset drew significant interest from global players, with South Korean firms Samsung Electronics and LG Electronics emerging as leading candidates — but the deal ultimately failed to close, reportedly due to a combination of high asking price relative to a brand with limited reach outside Japan, and demanding conditions including employment retention requirements.\n\nAccording to industry sources on the 27th, Hitachi has been pursuing the sale of Hitachi Global Life Solutions (GLS), its Japan-focused white goods arm, but the transaction fell apart after key bidders withdrew. Samsung Electronics and LG Electronics had both submitted letters of intent and participated in the first round of bidding last August, but negotiations stalled and both ultimately walked away. In addition to the Korean firms, approximately seven to eight companies from Turkey, China, and elsewhere had participated in the bidding process.\n\nA Hitachi spokesperson commented on the GLS sale: \"We continuously review various options to enhance corporate value, but nothing has been finalized at this time.\"\n\nHitachi GLS posted revenue of ¥367.6 billion (approximately KRW 3.45 trillion) and operating profit of ¥39.2 billion (approximately KRW 368.1 billion) for fiscal year 2024 (April 2024 – March 2025), establishing itself as a central player in Japan's home appliance market. The company employs approximately 5,100 people, and the expected sale price at the time was estimated at around KRW 1.5 to 2 trillion. Hitachi is understood to have pursued the divestiture of its home appliance division — deemed a non-core asset — as part of a broader strategy to reposition its portfolio around digital businesses.\n\nDespite the steep price tag, one of the primary reasons Korean firms expressed interest in Hitachi GLS was the symbolic weight of Japan's home appliance market. While Japan's white goods market has matured and growth has plateaued, demand for premium products has remained resilient, and the market commands exceptionally high brand loyalty — earning it the reputation as \"Asia's home appliance kingdom.\"\n\nGrowing Japanese consumer appetite for premium products — a segment both Korean companies have been actively targeting — was another motivation. According to the Japan Electrical Manufacturers' Association (JEMA), the average selling price of refrigerators rose 49% from ¥105,338 (approximately KRW 990,000) in 2014 to ¥156,960 (approximately KRW 1.5 million) in 2023. Over the same period, the average price of washing machines surged 82%, from ¥48,845 to ¥88,964. Analysts note that as competition from Korean and Chinese firms intensified, Japanese manufacturers responded by doubling down on premium differentiation to defend their home market.\n\nFor Samsung Electronics, which effectively exited Japan's white goods market in 2007, an acquisition of Hitachi GLS would have offered a springboard to rebuild its local appliance presence for the first time in roughly 18 years — securing production, distribution, and brand touchpoints for a re-entry into Japan. For LG Electronics, the deal would have extended its Japan business — currently concentrated in TVs and select home appliances — into traditional white goods categories such as refrigerators and washing machines.\n\nHowever, the two sides failed to narrow their differences as the formal bidding process progressed. Samsung's official reasons for withdrawing have not been disclosed, but industry observers speculate that the company concluded the economics did not justify the deal — factoring in the investment required to rebuild white goods operations in Japan, integration costs, and the conditions imposed by the seller.\n\nLG Electronics had engaged Morgan Stanley as its financial advisor and conducted a thorough evaluation, but reportedly ran into significant friction with Hitachi over deal terms. Hitachi is said to have insisted on demanding conditions, including guaranteed retention of existing employees and continued use of the Hitachi brand for five years. LG requested an extension to its due diligence period, but this too was denied. With the price tag approaching KRW 2 trillion and no flexibility on terms, LG ultimately withdrew mid-process.\n\nSome in the industry argue that Korean firms were already generating meaningful results in Japan and other global markets on the strength of their AI-driven technology capabilities, and that a direct acquisition of Hitachi GLS was simply not necessary.\n\nMeanwhile, Japanese home appliance brands continue to cede ground to Chinese buyers. Hisense acquired Sharp's Mexico manufacturing operations in 2015, and Midea Group took over Toshiba's white goods business in 2016. Earlier this year, Sony entered into a TV joint venture with China's TCL, effectively beginning its exit from the television business.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2037400763350302720",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEZNMxyawAATrHg.png",
+          "width": 700,
+          "height": 525,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2037400782484722132",
+      "kind": "post",
+      "engagement": {
+        "views": 35954,
+        "likes": 84,
+        "reposts": 8,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2038910648776614109",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Sony",
+      "text": "[Exclusive] Galaxy Z Fold7 & Flip7 Prices Also Rising — Direct Hit from Surging Memory Prices and War\n\nSamsung Electronics is set to raise the retail prices of select models of its Galaxy Z Fold7 and Flip7 smartphones, launched last year. The decision reflects rising cost pressures driven by soaring memory semiconductor prices compounded by war-related headwinds.\n\nAccording to industry sources on March 31, Samsung Electronics will adjust upward the retail prices of the Galaxy S25 Edge and select Galaxy Z Fold7 and Flip7 models effective April 1. The price hikes apply to devices with 512GB or more of storage.\n\nThe increase for 512GB models is understood to be around KRW 100,000. Current retail prices for 512GB configurations are: Galaxy S25 Edge at KRW 1,639,000; Galaxy Z Fold7 at KRW 2,537,700; and Galaxy Z Flip7 at KRW 1,643,400. Models with 1TB storage are reportedly seeing increases of nearly KRW 200,000.\n\nThe affected devices are flagship smartphones Samsung introduced in May and July of last year. Industry observers note the move is unusual, as manufacturers typically lower prices on older models months after launch to maximize sales volume.\n\nThe price hikes stem from the difficulty of absorbing surging memory semiconductor costs. According to DRAMeXchange, DDR4 8GB pricing reached $13 in February this year — roughly a 10x increase from $1.35 in February last year. NAND flash (128GB MLC) also rose fivefold over the same period to $12.67.\n\nTo make matters worse, the U.S.-Israeli airstrikes against Iran that began on February 28 (local time) triggered a broader war, pushing up fuel and logistics costs as well as prices for non-semiconductor components — ultimately forcing price increases even on older devices.\n\nThis is not the first time Samsung has passed memory price increases through to finished smartphone pricing. The Galaxy S26 series, its new flagship for H1 this year, was priced up to KRW 300,000 higher than its predecessor at launch. As a result, the top-spec Galaxy S26 Ultra (1TB) carries a retail price exceeding KRW 2.5 million.\n\nThe issue extends well beyond Samsung smartphones. Rising memory prices are driving broad-based price increases across consumer electronics including smartphones and laptops. Apple’s recently launched MacBook Pro and MacBook Air saw price hikes of $100–400 versus their predecessors. Sony’s PlayStation 5 lineup — including the PS5 Pro and PlayStation Portal — is also expected to see increases of roughly $100.\n\nAn industry source commented: “With memory prices surging to unprecedented levels, manufacturers face significant margin pressure. While demand softening is a concern, cost pressures leave them no choice but to raise product prices.“",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038910643408125952",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEuqbXUawAAy1D8.jpg",
+          "width": 480,
+          "height": 321,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038910648776614109",
+      "kind": "post",
+      "engagement": {
+        "views": 10242,
+        "likes": 51,
+        "reposts": 2,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2052654075930608108",
+      "date": "2026-05-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Sony",
+      "text": "&gt;&gt; Sony and TSMC to Pursue Semiconductor Joint Venture in Kumamoto, Japan\n\n• Sony and TSMC are set to establish a semiconductor joint venture in Kumamoto, Japan, to jointly develop and produce next-generation image sensors.\n\nhttps://t.co/RJiEsgXXIY",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2052654075930608108",
+      "kind": "post",
+      "engagement": {
+        "views": 52904,
+        "likes": 188,
+        "reposts": 20,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-03-25",
+      "close": 20.54
+    },
+    {
+      "date": "2026-03-26",
+      "close": 20.03
+    },
+    {
+      "date": "2026-03-27",
+      "close": 19.91
+    },
+    {
+      "date": "2026-03-30",
+      "close": 19.92
+    },
+    {
+      "date": "2026-03-31",
+      "close": 20.7
+    },
+    {
+      "date": "2026-04-01",
+      "close": 21.12
+    },
+    {
+      "date": "2026-04-02",
+      "close": 21.14
+    },
+    {
+      "date": "2026-04-06",
+      "close": 20.78
+    },
+    {
+      "date": "2026-04-07",
+      "close": 20.88
+    },
+    {
+      "date": "2026-04-08",
+      "close": 21.38
+    },
+    {
+      "date": "2026-04-09",
+      "close": 21.42
+    },
+    {
+      "date": "2026-04-10",
+      "close": 21.05
+    },
+    {
+      "date": "2026-04-13",
+      "close": 21.05
+    },
+    {
+      "date": "2026-04-14",
+      "close": 20.95
+    },
+    {
+      "date": "2026-04-15",
+      "close": 21.24
+    },
+    {
+      "date": "2026-04-16",
+      "close": 21.46
+    },
+    {
+      "date": "2026-04-17",
+      "close": 21.7
+    },
+    {
+      "date": "2026-04-20",
+      "close": 21.44
+    },
+    {
+      "date": "2026-04-21",
+      "close": 20.78
+    },
+    {
+      "date": "2026-04-22",
+      "close": 20.84
+    },
+    {
+      "date": "2026-04-23",
+      "close": 20.49
+    },
+    {
+      "date": "2026-04-24",
+      "close": 20.28
+    },
+    {
+      "date": "2026-04-27",
+      "close": 20.14
+    },
+    {
+      "date": "2026-04-28",
+      "close": 19.97
+    },
+    {
+      "date": "2026-04-29",
+      "close": 19.78
+    },
+    {
+      "date": "2026-04-30",
+      "close": 20.09
+    },
+    {
+      "date": "2026-05-01",
+      "close": 19.78
+    },
+    {
+      "date": "2026-05-04",
+      "close": 19.64
+    },
+    {
+      "date": "2026-05-05",
+      "close": 20.12
+    },
+    {
+      "date": "2026-05-06",
+      "close": 20.73
+    },
+    {
+      "date": "2026-05-07",
+      "close": 19.89
+    },
+    {
+      "date": "2026-05-08",
+      "close": 20.15
+    },
+    {
+      "date": "2026-05-11",
+      "close": 21.29
+    },
+    {
+      "date": "2026-05-12",
+      "close": 22.16
+    },
+    {
+      "date": "2026-05-13",
+      "close": 22.79
+    },
+    {
+      "date": "2026-05-14",
+      "close": 22.12
+    },
+    {
+      "date": "2026-05-15",
+      "close": 22.31
+    },
+    {
+      "date": "2026-05-18",
+      "close": 22.71
+    },
+    {
+      "date": "2026-05-19",
+      "close": 22.76
+    },
+    {
+      "date": "2026-05-20",
+      "close": 22.82
+    },
+    {
+      "date": "2026-05-21",
+      "close": 22.56
+    },
+    {
+      "date": "2026-05-22",
+      "close": 22.14
+    },
+    {
+      "date": "2026-05-26",
+      "close": 22.16
+    },
+    {
+      "date": "2026-05-27",
+      "close": 21.86
+    },
+    {
+      "date": "2026-05-28",
+      "close": 21.72
+    },
+    {
+      "date": "2026-05-29",
+      "close": 21.57
+    },
+    {
+      "date": "2026-06-01",
+      "close": 22.57
+    },
+    {
+      "date": "2026-06-02",
+      "close": 22.79
+    },
+    {
+      "date": "2026-06-03",
+      "close": 22.2
+    },
+    {
+      "date": "2026-06-04",
+      "close": 22.23
+    },
+    {
+      "date": "2026-06-05",
+      "close": 21.89
+    },
+    {
+      "date": "2026-06-08",
+      "close": 22.15
+    },
+    {
+      "date": "2026-06-09",
+      "close": 21.31
+    },
+    {
+      "date": "2026-06-10",
+      "close": 20.76
+    },
+    {
+      "date": "2026-06-11",
+      "close": 21.15
+    },
+    {
+      "date": "2026-06-12",
+      "close": 20.53
+    },
+    {
+      "date": "2026-06-15",
+      "close": 20.4
+    },
+    {
+      "date": "2026-06-16",
+      "close": 20.38
+    },
+    {
+      "date": "2026-06-17",
+      "close": 20.24
+    },
+    {
+      "date": "2026-06-18",
+      "close": 20.33
+    },
+    {
+      "date": "2026-06-22",
+      "close": 19.51
+    }
+  ],
+  "price_status": "ok"
+}

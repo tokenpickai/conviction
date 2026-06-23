@@ -1,0 +1,42 @@
+{
+  "ticker": "2357",
+  "cashtag": "ASUS",
+  "price_symbol": "2357",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-13",
+  "last_mention": "2026-04-13",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2043722163761623263",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ASUS",
+      "text": "@gnievchenko ASUS has a market capitalization of $13 billion.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043722163761623263",
+      "kind": "reply",
+      "engagement": {
+        "views": 978,
+        "likes": 5,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

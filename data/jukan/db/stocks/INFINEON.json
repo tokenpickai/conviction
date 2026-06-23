@@ -1,0 +1,53 @@
+{
+  "ticker": "INFINEON",
+  "cashtag": "Infineon",
+  "price_symbol": "INFINEON",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-27",
+  "last_mention": "2026-05-27",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2059485669496693082",
+      "date": "2026-05-27",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "announcing price hikes for power semiconductors"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Infineon",
+      "text": "Just in: Infineon announces price hikes for power semiconductors. https://t.co/ghwP0lV4TL https://t.co/PUNlgvB9Uc",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2059485663758798848",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJTDTLBaUAAIGAO.jpg",
+          "width": 1280,
+          "height": 1594,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2059485669496693082",
+      "kind": "post",
+      "engagement": {
+        "views": 218326,
+        "likes": 761,
+        "reposts": 92,
+        "replies": 24
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

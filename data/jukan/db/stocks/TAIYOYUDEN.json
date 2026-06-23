@@ -1,0 +1,53 @@
+{
+  "ticker": "TAIYOYUDEN",
+  "cashtag": "Taiyo Yuden",
+  "price_symbol": "TAIYOYUDEN",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-14",
+  "last_mention": "2026-04-14",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2043970840098988403",
+      "date": "2026-04-14",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "announced price increases for MLCCs, inductors, and capacitors starting in May due to rising raw material costs"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Taiyo Yuden",
+      "text": "Taiyo Yuden announced price increases for some MLCCs, inductors, and capacitors starting in May.\n\n• In a notice, Taiyo Yuden emphasized that prices of various raw materials and components, including gold and silver, have continued to rise in recent years.\n\n• As a result, the company plans to raise prices starting in May for selected products such as multilayer ceramic capacitors (MLCCs), inductors, and aluminum electrolytic capacitors.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2043970835543928836",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HF2kpT_asAQB8NP.jpg",
+          "width": 399,
+          "height": 434,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2043970840098988403",
+      "kind": "post",
+      "engagement": {
+        "views": 74310,
+        "likes": 220,
+        "reposts": 49,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

@@ -1,0 +1,42 @@
+{
+  "ticker": "INTEL",
+  "cashtag": "Intel",
+  "price_symbol": "INTEL",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-27",
+  "last_mention": "2026-05-27",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2059568540840276017",
+      "date": "2026-05-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "Things I’ve looked into recently:\n\nI’m increasingly convinced that semiconductor equipment could become seriously scarce going forward. Based on channel checks, the “tera-fab” project appears to be much more serious than expected. Intel needs to absorb foundry customers from TSMC while also expanding capacity for its own CPUs. Samsung also seems to have recently secured multiple customers. And TSMC may raise its capex guidance in Q3 this year.\n\nSK hynix appears to be performing better than Samsung in HBM4.\n\nHBM price renegotiations do not seem to be going smoothly. Hyperscalers appear very reluctant to renegotiate the prices under the long-term agreements they signed last year.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2059568540840276017",
+      "kind": "post",
+      "engagement": {
+        "views": 591880,
+        "likes": 1582,
+        "reposts": 129,
+        "replies": 62
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

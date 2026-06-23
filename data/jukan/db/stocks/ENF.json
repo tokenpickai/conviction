@@ -1,0 +1,42 @@
+{
+  "ticker": "ENF",
+  "cashtag": "ENF Technology",
+  "price_symbol": "ENF",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-14",
+  "last_mention": "2026-05-14",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2055044575564370123",
+      "date": "2026-05-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ENF Technology",
+      "text": "EXCLUSIVE: Another Iran-Driven Semiconductor Materials Shock — This Time, Hydrofluoric Acid\n\nThe HF supply chain used in chip manufacturing is on red alert, with price hikes flagged for June–July.\n\nPrices of the upstream raw material, anhydrous hydrogen fluoride (AHF), have jumped roughly 40% YTD. The proximate cause is the Iran war and the resulting disruption around the Strait of Hormuz.\n\nAccording to industry sources on the 14th, domestic HF producers including Soulbrain, ENF Technology, and Foosung are now sourcing Chinese AHF at prices roughly 40% above year-start levels. These companies blend AHF with deionized (DI) water to produce semiconductor-grade HF, which is then supplied to chipmakers.\n\n“Prices of the semiconductor-grade HF that Soulbrain and peers sell into Samsung Electronics and SK hynix will rise sharply by late June through July,” an industry source said. “With raw material costs already up so much, Samsung and hynix will have no choice but to accept the pass-through.”\n\nAHF is produced by reacting fluorite (fluorspar) with sulfuric acid. The feedstock for sulfuric acid is elemental sulfur, which comes out as a byproduct of crude oil and natural gas refining. The Strait of Hormuz disruption has knocked out more than 30% of global sulfur supply, sending sulfuric acid prices sharply higher and dragging AHF prices up in turn.\n\nChina, the world’s largest sulfuric acid producer, has restricted exports after Middle East sulfur flows were cut, prioritizing domestic industrial demand. Sulfuric acid is used not just in fertilizers but also in copper and nickel smelting, battery cathode materials, steel, and oil refining. Per Chinese price data provider SunSirs, the domestic Chinese sulfuric acid price hit RMB 2,100 per ton in mid-April, up roughly 130% YTD.\n\n“When sulfuric acid moves, HF moves with it,” an industry source said. “Sulfuric acid used to account for about 30% of AHF input costs — that share is now heading above 50%.”\n\nHF is a critical consumable in chip manufacturing, used primarily in etch and also in cleaning, where it strips residual oxide films and metallic contamination off the wafer surface. The semiconductor-grade standard is AHF blended with DI water to a 49% concentration (51% water). High-purity hydrogen fluoride was one of the three items Japan placed under export controls against Korea in 2019. When mixed with ammonium fluoride (NH₄F), it becomes BOE (Buffered Oxide Etchant), which etches more slowly and uniformly than standard HF, making it suitable for fine-pattern processes. Korea’s domestic semiconductor fab consumption runs at roughly 60,000 tons of HF and 90,000–100,000 tons of BOE per year.\n\nKorea is self-sufficient in sulfuric acid — Korea Zinc, LS MnM, and other non-ferrous smelters produce it from SO₂ byproducts. But there is no domestic AHF production, which is precisely why the country is taking a direct hit. Roughly 90% of the AHF used by Korean semiconductor materials companies is sourced from China.\n\n“After helium, tungsten hexafluoride (WF₆), and PGMEA (propylene glycol monomethyl ether acetate), now it’s an AHF shock,” another industry source said. “Middle East geopolitical risk and Chinese resource weaponization are squeezing Korea’s semiconductor back-end supply chain at the same time.”\n\nAlternatives do exist. BGF EcoMaterials, through its subsidiary Fluorine Korea, has committed KRW 150 billion to localize AHF production. A 50,000 ton/year plant is under construction in Ulsan, with mass production targeted for 4Q this year. At 50,000 tons, that capacity would cover close to half of domestic demand. However, with roughly six months still to go before startup, near-term price hikes look unavoidable.\n\nJapan’s HF industry is also moving to decouple from China. Japanese HF suppliers including Daikin Industries and Stella Chemifa are reportedly in discussions with BGF on AHF offtake arrangements.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2055044575564370123",
+      "kind": "post",
+      "engagement": {
+        "views": 94889,
+        "likes": 443,
+        "reposts": 54,
+        "replies": 17
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

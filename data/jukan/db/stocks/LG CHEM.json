@@ -1,0 +1,75 @@
+{
+  "ticker": "LG CHEM",
+  "cashtag": "LG Chem",
+  "price_symbol": "LG CHEM",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-03-27",
+  "last_mention": "2026-05-03",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2037404348716925056",
+      "date": "2026-03-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "LG Chem",
+      "text": "\"Daily Monitoring\"... Semiconductor Process Materials Procurement on High Alert Due to Iran War\n\nThe industry has been placed on emergency footing amid fears that supply disruptions for essential semiconductor process materials — including helium, thinner, ethanol, and isopropyl alcohol (IPA) — could emerge as fallout from the Iran war.\n\nAccording to reporting by The Elec on the 26th, procurement departments at domestic semiconductor manufacturers including Samsung Electronics, SK Hynix, and DB HiTek are conducting day-by-day checks on the availability and price movements of key materials, mobilizing all resources to prevent production disruptions.\n\nHelium is the most pressing concern. Helium is used in plasma etching and deposition processes as a key process gas, and also serves as a coolant for the back side of wafers.\n\nHelium is a byproduct extracted during LNG production. Qatar accounts for approximately one-third of global supply. Iran has repeatedly struck Qatar's Ras Laffan Industrial City, and QatarEnergy has declared that it will be unable to fulfill long-term supply contracts due to damage to its LNG production facilities. QatarEnergy CEO Saad al-Kaabi stated that Iran's attacks have impaired 17% of Qatar's LNG export capacity and that restoration could take three to five years.\n\nSpot prices for helium have spiked sharply — industry sources indicate prices have already risen more than 50%.\n\nHelium suppliers Air Products and Linde have reportedly communicated to their customers that supply remains unaffected, as they source a large proportion of their raw helium domestically in the United States. By contrast, Air Liquide and Iwatani — which rely more heavily on Qatari helium — are said to be facing unavoidable supply pressure.\n\nOne materials industry source said, \"Major suppliers with high Qatar dependence are nearly at the point of throwing up their hands,\" adding, \"If the war drags on, some suppliers may not be able to provide helium at all.\" Another source noted, \"Russian helium exists as an alternative, but domestic companies are avoiding it for political reasons,\" warning that \"even if a peace agreement with Iran is reached, restoring the Ras Laffan facilities will take years — meaning helium supply shortages, price increases, and procurement uncertainty will remain a medium-to-long-term risk.\"\n\nThinner, ethanol, and IPA are all petrochemical materials whose prices are linked to international crude oil and naphtha prices. The oil price surge triggered by the Iran war is reportedly driving up input costs broadly across semiconductor process materials.\n\nThinner is a cleaning agent used in photolithography to remove photoresist (PR) residue. Its core raw material is propylene oxide (PO), which is processed into PGME (Propylene Glycol Monomethyl Ether) and PGMEA (Propylene Glycol Monomethyl Ether Acetate) before being refined into thinner for delivery. Chinese commodities data platform SunSirs reported that PO prices have risen more than 43% from the start of the month, driven by strength in crude oil, naphtha, and propylene feedstocks.\n\nPO suppliers including DuPont, Dow, and LG Chem have already issued price increase notices to PGMEA producers such as Hannong Chemicals, Chemtronics, and Jaewon Industrial. PGME and PGMEA prices have also risen approximately 40–50%. Leading thinner suppliers Dongjin Semichem, ENF Technology, and Dongwoo Fine-Chem are reportedly preparing to negotiate roughly 20% price increases effective on April import volumes, reflecting these upstream cost increases.\n\nEthanol and IPA have also entered a price increase cycle. Domestic suppliers including Pungkuk Distillery have begun issuing price increase notices to customers this week, citing cost pressures from the surge in naphtha prices. The increase is expected to be in the low double digits. Semiconductor-grade ethanol — used for wafer cleaning and residue removal after etching — is an ultra-high purity material with purity levels of 99.99% or higher.\n\nIPA, another naphtha-derived material, is also trending upward. LG Chem is the primary domestic supplier of semiconductor-grade IPA. The specific magnitude of the price increase has not yet been finalized, but industry participants appear to be treating a price hike as a foregone conclusion.\n\nOne industry source commented, \"These materials represent a relatively small share of overall semiconductor production costs, so they are unlikely to directly affect chip prices,\" but added, \"The bigger concern, if the war prolongs, is production disruptions caused by supply shortages of certain materials.\" Another source noted, \"Samsung Electronics and SK Hynix are primarily focused on securing inventory at prevailing market prices without pushing back.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2037404348716925056",
+      "kind": "post",
+      "engagement": {
+        "views": 13759,
+        "likes": 61,
+        "reposts": 10,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051070393734303767",
+      "date": "2026-05-03",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "LG Chem",
+      "text": "\"Even China Has No Volumes\"... CCL Shortage Reaches Crisis Level\n\nA PCB manufacturer in the Seoul metropolitan area recently placed advance orders worth 10 billion won with two Taiwanese CCL (copper clad laminate) producers, EMC and TUC. The volume is more than five times the company's average monthly usage of 1.5 to 2 billion won. The company's CEO said, \"We placed bulk orders out of concern about a CCL shortage, but we have no idea when they'll actually arrive,\" adding, \"I've been in the PCB business for over 20 years, and this is the first time we've been unable to manufacture products because we couldn't get CCL.\"\n\nCCL Import Prices Break Through $20,000 Per Ton\n\nPrices for CCL — a core PCB material — are surging as supply falls dramatically short of demand. CCL is a panel made by laminating a thin copper foil onto an insulating substrate, and it functions as the key building-block material for PCBs. The shortage has spread as demand has surged simultaneously across major advanced industries, including AI semiconductors, data centers, and autonomous vehicles.\n\nAccording to data released by the Korea Customs Service on May 3, the import unit price of CCL came to $20,728 per ton in March — up 74.5% from $11,880 in the same month last year. This is the first time the CCL import unit price has broken above $20,000/ton since the relevant statistics began being compiled in 2000. The biggest driver behind the spike in CCL import prices is rising demand for CCL used in AI chips. On top of this, the use of high-spec CCL is also increasing across 5G/6G telecom infrastructure, automotive autonomous driving systems, and data center servers.\n\nCCL Players' Share Prices Rally Sharply\n\nKorea's CCL supply chain is built around copper foil suppliers (Lotte Energy Materials, SK Nexilis), CCL manufacturers (Doosan, LG Chem), and PCB substrate manufacturers (Samsung Electro-Mechanics, Daeduck Electronics). PCBs are split between premium products — which go into the most advanced GPUs such as Nvidia's Blackwell — and general-purpose products. Premium semiconductor substrates in this top tier use CCL based on high-grade T-glass material, while small- and mid-sized domestic PCB makers use E-glass-based CCL to produce general-purpose PCBs.\n\nAs demand for high-spec PCBs has surged and unit prices have jumped, CCL-related companies have moved quickly to reallocate their limited production lines toward high value-added products. This is the backdrop to the spike in CCL export prices: last month, the average CCL export unit price stood at $30,998, up 65.2% year-on-year.\n\nCompanies in the global CCL manufacturing supply chain are seeing both earnings and share prices rally sharply. Industry participants attribute the CCL price hikes primarily to PCBs going into Nvidia GPUs. Doosan, known to be the sole supplier of CCL for Blackwell, saw its share price jump from 152,300 won at the end of April 2024 to 1,596,000 won at the end of last month — a more than 10x gain over two years. Over the same period, Samsung Electro-Mechanics rose 5.3x and Daeduck Electronics rose 4.8x.\n\nEven Pivoting to China — \"No Volumes Available\"\n\nBy contrast, companies left out of the advanced industries are unable to secure adequate CCL supply, with some now facing the prospect of having to halt factory operations. Major Korean semiconductor equipment makers, in particular, are reportedly suffering from CCL supply constraints. Some companies are reportedly switching from ocean freight to air freight in an effort to pull forward their CCL delivery schedules. One industry source said, \"In the past, you could secure the volumes you wanted just by waiting about a month after placing an order, but now even if you place an order today, you have to wait at least six months to receive any volumes.\"\n\nSoaring CCL prices are also a heavy burden. With FX rates and oil prices also rising, not only product prices but also transport costs are climbing sharply. With CCL supply schedules becoming increasingly uncertain, many firms are worried about missing the PCB delivery timelines they originally committed to. Another industry source said, \"We've secured Chinese suppliers in addition to our existing channels, but we've been hit by a string of delivery-delay notices recently. There's no clear-cut countermeasure, and it feels hopeless.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2051070364265168896",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHbdoRdbQAAsrR1.png",
+          "width": 681,
+          "height": 669,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2051070393734303767",
+      "kind": "post",
+      "engagement": {
+        "views": 109917,
+        "likes": 404,
+        "reposts": 71,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

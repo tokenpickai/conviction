@@ -1,0 +1,183 @@
+{
+  "ticker": "BAND",
+  "cashtag": "$BAND",
+  "price_symbol": "BAND",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-01",
+  "last_mention": "2026-05-01",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2050119011124576373",
+      "date": "2026-05-01",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$BAND",
+      "text": "RT @citrini: Some really strong results from a pair of our “Agentic Utility” names today ($BAND &amp; $TWLO)  - playing the infrastructure angl…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2050119011124576373",
+      "kind": "post",
+      "engagement": {
+        "views": 5,
+        "likes": 0,
+        "reposts": 12,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-05-01",
+      "close": 44.86
+    },
+    {
+      "date": "2026-05-04",
+      "close": 45.02
+    },
+    {
+      "date": "2026-05-05",
+      "close": 47.33
+    },
+    {
+      "date": "2026-05-06",
+      "close": 46.45
+    },
+    {
+      "date": "2026-05-07",
+      "close": 48.58
+    },
+    {
+      "date": "2026-05-08",
+      "close": 49.89
+    },
+    {
+      "date": "2026-05-11",
+      "close": 49.95
+    },
+    {
+      "date": "2026-05-12",
+      "close": 49.44
+    },
+    {
+      "date": "2026-05-13",
+      "close": 51.01
+    },
+    {
+      "date": "2026-05-14",
+      "close": 52.1
+    },
+    {
+      "date": "2026-05-15",
+      "close": 53.97
+    },
+    {
+      "date": "2026-05-18",
+      "close": 55.95
+    },
+    {
+      "date": "2026-05-19",
+      "close": 53.88
+    },
+    {
+      "date": "2026-05-20",
+      "close": 57.96
+    },
+    {
+      "date": "2026-05-21",
+      "close": 58.54
+    },
+    {
+      "date": "2026-05-22",
+      "close": 61.39
+    },
+    {
+      "date": "2026-05-26",
+      "close": 61.18
+    },
+    {
+      "date": "2026-05-27",
+      "close": 56.14
+    },
+    {
+      "date": "2026-05-28",
+      "close": 57.66
+    },
+    {
+      "date": "2026-05-29",
+      "close": 64.97
+    },
+    {
+      "date": "2026-06-01",
+      "close": 70.89
+    },
+    {
+      "date": "2026-06-02",
+      "close": 67.87
+    },
+    {
+      "date": "2026-06-03",
+      "close": 65.6
+    },
+    {
+      "date": "2026-06-04",
+      "close": 73.19
+    },
+    {
+      "date": "2026-06-05",
+      "close": 72.2
+    },
+    {
+      "date": "2026-06-08",
+      "close": 68.84
+    },
+    {
+      "date": "2026-06-09",
+      "close": 63.36
+    },
+    {
+      "date": "2026-06-10",
+      "close": 59.31
+    },
+    {
+      "date": "2026-06-11",
+      "close": 64.295
+    },
+    {
+      "date": "2026-06-12",
+      "close": 65.34
+    },
+    {
+      "date": "2026-06-15",
+      "close": 52.83
+    },
+    {
+      "date": "2026-06-16",
+      "close": 51.78
+    },
+    {
+      "date": "2026-06-17",
+      "close": 50.84
+    },
+    {
+      "date": "2026-06-18",
+      "close": 51.39
+    },
+    {
+      "date": "2026-06-22",
+      "close": 50.82
+    }
+  ],
+  "price_status": "ok"
+}

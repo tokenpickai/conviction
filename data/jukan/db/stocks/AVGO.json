@@ -8,10 +8,641 @@
   "company": "Broadcom",
   "industry": "AI ASIC/Networking Chips",
   "thesis_summary": null,
-  "first_mention": "2026-06-16",
+  "first_mention": "2026-03-26",
   "last_mention": "2026-06-17",
-  "total_mentions": 2,
+  "total_mentions": 24,
   "mentions": [
+    {
+      "tweet_id": "2037359268199072137",
+      "date": "2026-03-26",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Broadcom",
+      "text": "Samsung, SK Hynix HBM Sales Remain Strong This Year… Combined Shipments Expected to Reach 30 Billion Gb\n\nShipments of high bandwidth memory (HBM) from Samsung Electronics and SK Hynix are expected to continue growing substantially this year. Samsung's shipments are projected to exceed 10 billion Gb, driven by demand from customers including NVIDIA, Broadcom, and AMD.\n\nSK Hynix has recently faced performance-related concerns over its HBM4 for NVIDIA, but the prevailing view in the industry is that the company will have no difficulty supplying products that meet an acceptable performance threshold. Ultimately, neither company is expected to see any significant deviation from the HBM shipment targets set at the start of the year.\n\nAccording to industry sources on the 27th, the combined HBM shipments from Samsung Electronics and SK Hynix this year are projected to reach approximately 30 billion Gb on a capacity basis.\n\nSamsung Eyes 10+ Billion Gb in HBM Shipments, HBM4 Performance Stands Out\n\nSamsung Electronics has set a target to expand HBM production by more than three times compared to last year. Hwang Sang-jun, Executive Vice President of Memory Development at Samsung, stated at GTC 2026 held in the United States on the 16th (local time): \"We are rapidly scaling up HBM production. This year, we plan to increase output to more than three times last year's level.\"\n\nSamsung's total HBM shipments last year are estimated at approximately 4 billion Gb. On that basis, this year's shipment target is projected at around 11 billion Gb.\n\nIt is understood that Samsung had already projected this level of growth when formulating its HBM business strategy toward the end of last year. At that time, its next-generation product HBM4 had received positive feedback from NVIDIA, and supply negotiations with other customers such as AMD and Broadcom were said to be in their final stages. Broadcom manufactures AI semiconductors for major tech companies including Google and OpenAI on a foundry basis.\n\nNVIDIA in particular is expected to become Samsung's largest customer for HBM4. Samsung has adopted its 1c (6th-generation, 10nm-class) DRAM as the core die, and a 4nm process from its own foundry for the base die, which serves as the controller. Both dies represent more advanced process nodes compared to those used by competitors.\n\nOn this basis, Samsung has been credited with being the first to meet NVIDIA's elevated HBM4 performance requirements. While JEDEC had originally set the HBM4 performance standard at 8 Gbps, NVIDIA pushed this requirement up to approximately 11.7 Gbps.\n\nFor HBM3E products, Broadcom is considered Samsung's largest customer. Google integrates HBM into its in-house AI chips, the TPUs (Tensor Processing Units), and is expected to significantly scale up volumes of its HBM3E-based v7p variant this year.\n\nOn the other hand, the prospect of Samsung further exceeding its HBM shipment targets is considered unlikely. Samsung's available production capacity for 1c DRAM through the end of this year is estimated at approximately 130,000 wafers per month. The majority of this capacity has already been allocated to HBM, leaving little room for additional capacity expansion.\n\nSK Hynix Holds Original Shipment Plan Despite Performance Controversy\n\nSK Hynix's HBM shipments this year are projected at approximately 20 billion Gb, representing a roughly 60% increase from the prior year (approximately 12 billion Gb). Of this total, approximately two-thirds is understood to be allocated to NVIDIA.\n\nIn the first half, HBM3E will remain the primary product supplied, with HBM4 volumes expected to ramp up from the second half of the year.\n\nSK Hynix had recently been caught up in concerns that its HBM4 supply to NVIDIA could face disruptions, stemming from difficulties in meeting the elevated performance requirements NVIDIA had set for HBM4. SK Hynix's HBM4 uses 1b (5th-generation, 10nm-class) DRAM as the core die and TSMC's 12nm process for the base die — a more legacy (mature) process node relative to Samsung.\n\nIndeed, SK Hynix's HBM4 reportedly encountered difficulties in reaching peak performance during 2.5D packaging tests for integration with AI accelerators. The most commonly cited root cause is inadequate power delivery to the uppermost layers of the core die stack. SK Hynix has been working to address this through circuit-level modifications.\n\nNonetheless, the probability of any change to SK Hynix's originally planned HBM supply volumes to NVIDIA is considered extremely low. While NVIDIA has requested HBM4 performance of up to 11.7 Gbps, it is simultaneously procuring products with lower performance tiers — such as 10 Gbps — in parallel. This approach is interpreted as a deliberate strategy to ensure it does not fall short of the production volumes needed for its most advanced AI chip, \"Vera Rubin,\" if it were to source only top-tier products.\n\nSK Hynix President Kwak No-jung also recently stated at the company's annual general shareholders' meeting: \"We are making some mix adjustments in consultation with our customers, but there is no significant change to the overall HBM shipment volumes we originally planned.\"\n\nAn industry insider commented: \"As HBM4 approaches commercial availability, various performance and customer-related issues have been surfacing. However, neither Samsung Electronics nor SK Hynix is seeing any major revision to their planned HBM shipment volumes. The general consensus is that total HBM supply remains significantly below demand, and that both companies' products will ultimately sell through without issue.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2037359247512764416",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEYncPPbAAAk_H0.png",
+          "width": 638,
+          "height": 384,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2037359268199072137",
+      "kind": "post",
+      "engagement": {
+        "views": 25466,
+        "likes": 203,
+        "reposts": 16,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2038381107524284784",
+      "date": "2026-03-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Broadcom",
+      "text": "Beyond Memory to Non-Memory… Semiconductor Prices Rising Across the Board\n\nPrice increases are spreading not only in memory semiconductors but also across the non-memory space. Following the AI infrastructure investment boom that has driven up DRAM and NAND flash prices, supply disruptions and price hikes are now emerging in analog chips, power semiconductors, communications chips, and CPUs. The industry views this as a phase in which the AI-driven demand shock is propagating throughout the broader semiconductor ecosystem.\n\nAccording to industry sources on March 30, semiconductor prices are trending upward across the full spectrum of end markets, including PCs, automotive, and servers. Intel and AMD — the two dominant players in PC CPUs — are reportedly set to implement price increases, while semiconductor companies spanning automotive, power, and communications are raising prices in succession.\n\nPer market research firm TrendForce, Dutch automotive and industrial semiconductor company NXP is expected to begin raising prices starting next month. Texas Instruments (TI) and Infineon have also joined the price hike trend. STMicroelectronics, widely regarded as Europe's largest \"semiconductor department store,\" is also expected to pursue price increases. The pattern of price escalation originating in memory and spreading into analog and power semiconductors is becoming unmistakable.\n\nThe prevailing interpretation is that these price increases stem from a bottleneck in chip production: while automotive and industrial demand remains steady, a significant share of mature-node capacity at foundries such as TSMC and Samsung Electronics is being absorbed by AI and data center applications. As AI server buildouts drive up demand for power management ICs and peripheral chips, the push to pass through rising costs into pricing is intensifying.\n\nAn executive at a major domestic foundry commented, \"Given current foundry production trends and contract pricing, there is a strong likelihood of continued price adjustments going forward — particularly in power management semiconductors, industrial analog components, and select power switch product lines.\"\n\nCommunications chips and networking components are no exception. Broadcom recently disclosed that surging demand for AI chips and networking has pushed production capacity at its key manufacturing partner TSMC to a bottleneck. Considering that lead times for optical communications components such as lasers and PCBs have extended from existing order cycles to multi-month timelines, procurement pressure on high-performance networking chips and interconnect components appears to be mounting as well. Even though communications chips are not traded at standardized prices like memory, actual contract unit prices and supply terms are likely tightening.\n\nCPUs are also not immune to upward pricing pressure. According to recent reports from TrendForce and Tom's Hardware, Intel and AMD are pursuing average price increases of 10–15% on CPUs, citing expanded AI demand and supply constraints. Lead times for some PC OEMs — the time from order to delivery — have reportedly stretched from the typical one to two weeks to as long as six months. Should CPUs, the quintessential general-purpose compute chips, join the price hike procession, it would further reinforce the narrative that semiconductor price inflation is spreading beyond memory into the broader system semiconductor space.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038381082685644800",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEnIy35aoAA18g2.png",
+          "width": 616,
+          "height": 415,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038381107524284784",
+      "kind": "post",
+      "engagement": {
+        "views": 50246,
+        "likes": 196,
+        "reposts": 25,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2040568323738640582",
+      "date": "2026-04-04",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Broadcom",
+      "text": "The Critical Weakness of AI Computing Power… Broadcom Identifies \"3 Major Bottlenecks,\" Supply Shortages Could Persist Until 2027 \n\n• Broadcom has identified the key bottlenecks in the current AI supply chain as: ▲lasers, ▲advanced process wafers (particularly TSMC), and ▲PCBs. Notably, lead times for the small-form-factor PCBs used inside optical transceivers have extended from approximately 6 weeks to 6 months, with relief not expected until 2027.\n\n• These small-form-factor PCBs require high-difficulty mSAP processes due to the demands of high-frequency signal processing and ultra-compact design. Because their production processes partially overlap with IC substrates for HBM, the surge in global AI server demand is paradoxically eroding PCB production capacity. Additionally, supplier qualification takes over 6 months, leading hyperscalers to lock in existing supply chains through long-term contracts.\n\n• Laser components have also been flagged as a critical bottleneck in the CPO era. Lasers for AI data centers require high-power, low-noise characteristics, and the yield rate passing stringent reliability testing remains below 30%. The number of vendors with InP (indium phosphide)-based production capabilities is particularly limited, and in CPO architectures, laser demand increases not linearly but multiplicatively, further intensifying supply pressure.\n\n• On the wafer front, TSMC's advanced process nodes are projected to hit a bottleneck by 2026. However, the real issue lies in back-end advanced packaging. The CPO era requires high-difficulty hybrid bonding technology to integrate optical and silicon dies, with throughput and yield severely constrained in the early stages.\n\n• Furthermore, TSMC must allocate the same production lines across NVIDIA, Apple, AMD, and Qualcomm, as well as Google, Meta, and OpenAI — effectively operating production capacity under a \"rationing\" regime. New capacity additions also face 12–18 month equipment lead times, making near-term relief unlikely.\n\n• Meanwhile, expansion at suppliers of packaging substrates, underfill, testing, optical communications, and probe cards is progressing even more slowly, causing bottlenecks to proliferate across the entire supply chain. As a result, supply chain bottlenecks and price inflation are likely to persist structurally, with the segments experiencing bottlenecks emerging as the critical nodes wielding pricing power.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2040568323738640582",
+      "kind": "post",
+      "engagement": {
+        "views": 55842,
+        "likes": 245,
+        "reposts": 29,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041302484682207692",
+      "date": "2026-04-06",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AVGO",
+      "text": "According to a DigiTimes report, the Google TPU product being handled by MediaTek is undergoing yet another engineering change order (ECO).\n\nThe tape-out is now expected around mid-2026, and the product undergoing the design revision is the v8x product that MediaTek is responsible for.\n\nIn other words, the tape-out has been delayed once again.\n\n$AVGO",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2041302432509231104",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFQpv0DagAA0EtM.jpg",
+          "width": 1626,
+          "height": 1624,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2041302484682207692",
+      "kind": "post",
+      "engagement": {
+        "views": 32239,
+        "likes": 160,
+        "reposts": 12,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041430949079273655",
+      "date": "2026-04-07",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AVGO",
+      "text": "Exclusive: Samsung Electro-Mechanics Supplies Glass Substrate Samples to Apple\n\nSamsung Electro-Mechanics has supplied semiconductor glass substrate samples to Apple. Following custom AI chip designer Broadcom, the company is now supplying samples to end-customer Apple as well, drawing assessments that it is rapidly expanding the scope of its new business.\n\nAccording to reporting by The Elec as of April 7, Samsung Electro-Mechanics has been confirmed to have been supplying glass substrate samples to Apple since last year. The samples are substrate products in which the organic-material core used in conventional flip-chip ball grid array (FC-BGA) has been replaced with glass. Glass offers higher surface flatness compared to organic materials, enabling finer circuit patterning. Its lower coefficient of thermal expansion also suppresses warpage caused by thermal expansion mismatches between the chip and substrate. As AI semiconductors continue to grow in die size due to performance competition, larger substrates exacerbate warpage issues — leading many companies to consider glass substrates a critical element for next-generation products.\n\nBroadcom is the largest potential customer for Samsung Electro-Mechanics' glass substrate business. Broadcom is the market leader in custom AI chips, co-developing AI server chips with Big Tech firms such as Google, Meta, and OpenAI, and converting those designs into foundry-manufacturable form.\n\nSamsung Electro-Mechanics has been supplying glass core substrate samples to Broadcom since last year. If it secures the Broadcom supply, its glass substrates would be mounted on Big Tech companies' custom AI chips.\n\nApple also collaborates with Broadcom on AI server chips. The Information reported in December 2024 that Apple is developing its own AI server chip with Broadcom. Internally codenamed \"Baltra,\" the chip is expected to be manufactured at TSMC fabs.\n\nIndustry observers cite two main reasons why Apple is separately sourcing and evaluating glass substrate samples directly from Samsung Electro-Mechanics, apart from Broadcom. In the near term, Apple likely wants to directly assess the packaging material characteristics that will be applied to the Broadcom platform from the perspective of the end customer. In the longer term, some interpret this as Apple laying the groundwork to eventually handle AI server chip packaging in-house using glass substrates. Apple has a track record of bringing externally sourced components — mobile application processors (APs), GPU IP, modems — in-house through its own design efforts.\n\nEither way, winning Apple would be a major positive for Samsung Electro-Mechanics.\n\nSamsung Electro-Mechanics is currently operating a glass substrate pilot line at its Sejong facility in South Chungcheong Province, targeting mass production from 2027 onward. In November last year, it signed an MOU with Japan's Sumitomo Chemical Group to establish a joint venture for manufacturing glass cores, a key material for glass substrates. The JV is expected to be finalized in the second half of this year, with full-scale equipment investment to follow.\n\nAn industry source said, \"The customer base secured through the existing FC-BGA business can be directly carried over to the glass substrate business,\" adding, \"Glass substrates are still an early-stage market without established standards — the key is not speed to mass production, but building trust by delivering the quality and specifications customers demand.\"\n\n$AAPL $AVGO",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2041430924164997120",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFSenAxaIAAJt-c.png",
+          "width": 600,
+          "height": 400,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2041430949079273655",
+      "kind": "post",
+      "engagement": {
+        "views": 112856,
+        "likes": 200,
+        "reposts": 22,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2042152380934893600",
+      "date": "2026-04-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Broadcom",
+      "text": "When will CPO actually see mass production?-Digitimes\n\nThe market continues to closely watch the deployment of co-packaged optics (CPO) technology in cloud AI, driven by the desire of the silicon photonics (SiPh) ecosystem to see a tangible revenue impact. Cloud AI vendors are also hoping that adopting SiPh will simultaneously improve both cost efficiency and computational performance limits.\n\nFrom the supply chain perspective, however, actual mass production of CPO-related products in 2026 remains very limited, and widespread scaling is still some way off. Nvidia remains the most urgent in pushing for mass production. It has been the most aggressive company in advancing CPO deployment within the SiPh boom. Since 2025, it has continually urged suppliers to prepare mass production capabilities, placing substantial pressure on vendors.\n\nBecause production and validation are highly challenging, yields still have room for improvement. To implement CPO at scale in AI data centers, production yields must reach sufficiently high levels for cost efficiency to surpass existing solutions. Although progress is being made on the production side, it remains the largest bottleneck recognized by the ecosystem.\n\nCPO supply chain participants note that without the urgent demand for cloud AI upgrades driving substantial investment in CPO technology, breakthroughs could have taken much longer. Therefore, Nvidia's proactive push to deploy CPO has significantly benefited the broader ecosystem.\n\nSeveral major chip vendors already possess CPO technology. Besides Nvidia, key players such as Broadcom, Marvell Technology, and MediaTek have all explored the technology. Broadcom has been developing CPO for years and has begun initial shipments to customers.\n\nSupply chain sources expect Nvidia's mass production pace to outstrip others, largely because it actively urges its customers to accelerate deployment, emphasizing the significant computational benefits CPO brings to its system architecture. Broadcom and Marvell are relatively less aggressive in promoting their CPO solutions.\n\nCPO-related vendors stress that regardless of which company leads, market demand will continue to grow, benefiting all chipmakers and ecosystem partners. The only factor likely to limit industry growth remains production capacity and yield ceilings on the supply side.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2042152321665454080",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFcut34b0AAYJ7R.png",
+          "width": 640,
+          "height": 427,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2042152380934893600",
+      "kind": "post",
+      "engagement": {
+        "views": 117903,
+        "likes": 185,
+        "reposts": 17,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043598744575451334",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AVGO",
+      "text": "UBS now expects AVGO alone to ship around 7 million TPUs in C27, up from its prior estimate of roughly 6 million.\n\nOnce you add MediaTek volumes on top of that, how large will total TPU shipments actually be…?\n\n$AVGO",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043598744575451334",
+      "kind": "post",
+      "engagement": {
+        "views": 58850,
+        "likes": 242,
+        "reposts": 15,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044750394719715585",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AVGO",
+      "text": "JPM's supply chain survey indicates that Google is developing an SRAM-based compute engine in collaboration with Marvell (a concept similar to NVIDIA's Groq LPU), and this is expected to negatively impact MediaTek's TAM. (@FundaAI made a really impressive call.)\n\nAdditionally, JPM forecasts that in Google's TPU v9, $AVGO (Broadcom) is highly likely to be the sole supplier using TSMC's CoWoS-L technology.\n(Bearish on $INTC's EMIB-T?)",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044750394719715585",
+      "kind": "post",
+      "engagement": {
+        "views": 61004,
+        "likes": 271,
+        "reposts": 13,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046204646726017027",
+      "date": "2026-04-20",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AVGO",
+      "text": "I genuinely didn’t know this. According to TrendForce, SoftBank’s ASIC project Izanagi was awarded to $AVGO, not $MRVL. https://t.co/4cChWRRYUr",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2046204101424472065",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGWTyftaYAEcVCP.jpg",
+          "width": 1080,
+          "height": 560,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2046204646726017027",
+      "kind": "post",
+      "engagement": {
+        "views": 69016,
+        "likes": 335,
+        "reposts": 30,
+        "replies": 17
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046521336106004977",
+      "date": "2026-04-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Broadcom",
+      "text": "[Exclusive] Samsung Electro-Mechanics to Supply AI Substrates to Broadcom\n\nRiding the artificial intelligence (AI) boom, not only memory semiconductor companies but also Korean electronic component makers have moved to the center of the global materials, parts, and equipment (MPE) supply chain. Major players including Samsung Electro-Mechanics and LG Innotek have emerged as key partners for Big Tech firms seeking to resolve AI bottlenecks. Analysts say an era of \"component-supplier supremacy\" has arrived, with Korean companies now holding the upper hand in the supply chain — a reversal from the past subcontractor-style structure in which they relied on orders from finished-goods makers. \n\nAccording to industry sources on the 21st, Samsung Electro-Mechanics has secured Broadcom of the U.S. as a new customer for Flip Chip Ball Grid Array (FC-BGA) AI semiconductor substrates. Following major Big Tech names such as NVIDIA, Google, Amazon, and Apple, Broadcom has now joined Samsung Electro-Mechanics' customer roster. Samsung Electro-Mechanics will begin supplying substrates for Broadcom's most advanced AI accelerators starting in the second half of this year.\n\nFC-BGA is a core component that connects semiconductor chips to the mainboard, transmitting electrical signals and power. Only a handful of companies are capable of manufacturing these substrates — Samsung Electro-Mechanics, LG Innotek, and Japan's Ibiden and Murata among them.\n\nA tectonic shift is also underway in the Multi-Layer Ceramic Capacitor (MLCC) market. Samsung Electro-Mechanics is supplying large volumes of ultra-high-capacitance MLCCs for AI servers to NVIDIA and other major global Big Tech firms. AI servers use three to four times more MLCCs than conventional servers. In particular, these components must withstand high-temperature, high-pressure environments, requiring advanced technical capabilities, and unit prices run three to five times higher than standard products. This is why Samsung Electro-Mechanics and other Korean companies with specialized technologies, such as Amotech, are being courted by Big Tech.\n\nThere is also a growing view that the global AI supply chain is being restructured in such a way that it can no longer be sustained without Korean component makers. This is because Korean firms possess unrivaled technological capabilities in addressing the critical bottlenecks that determine the performance of AI accelerators.\n\nAn industry official said, \"Korean companies have demonstrated irreplaceable technological capabilities in high-performance substrates and materials, and are now facing an unprecedented golden window of opportunity.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046521336106004977",
+      "kind": "post",
+      "engagement": {
+        "views": 45044,
+        "likes": 225,
+        "reposts": 26,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047558649179214315",
+      "date": "2026-04-24",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Broadcom",
+      "text": "Exclusive: Google ramps new TPU servers, Taiwan suppliers gain share\n\nGoogle's unveiling of its eighth-generation tensor processing unit (TPU) at Cloud Next 2026 is expected to drive the next wave of growth in the application-specific integrated circuit (ASIC) server supply chain, with Taiwanese manufacturers expanding their role, according to supply chain sources.\n\nAssembly partners, including Celestica and Foxconn, are expected to begin volume production in the second half of 2026. Key component suppliers such as Asia Vital Components and Cooler Master are preparing shipments by the end of the second quarter, with Inventec reportedly set to begin production earlier.\n\nTaiwan gains share across supply chain\nTaiwanese vendors are taking on a larger role in Google's TPU server ecosystem. While Broadcom has historically dominated upstream IC design, MediaTek has also entered the supply chain, according to sources.\n\nIn server motherboard production, Inventec's share is reportedly rising from about 10 to 30%, gradually taking orders from Celestica. The companies declined to comment.\n\nSupply chain sources said Taiwanese firms remain competitive in terms of flexibility, quality, and pricing, supported by long-standing experience in server manufacturing. Inventec is currently the world's second-largest server motherboard supplier.\n\nASIC servers to outpace GPU growth\nASIC servers are expected to be the fastest-growing segment of the AI server market in 2026, outpacing systems based on GPUs led by Nvidia.\n\nDIGITIMES Research estimates ASIC server shipments will grow 64.2% year-over-year in 2026, compared with 43.8% growth for GPU servers.\n\nIndustry sources said rising ASIC shipments are also likely to support demand for general-purpose servers. Google's continued investment in ASIC infrastructure is expected to benefit its primary general server assembler, Quanta Computer, in 2026.\n\nDual-chip TPU highlights shift to inference\nGoogle's eighth-generation TPU introduces a dual-chip architecture for the first time, separating training and inference workloads.\n\nThe lineup includes TPU 8t for large-scale training and TPU 8i for low-latency inference. Both chips are expected to launch later in 2026, with shipments projected before year-end, according to supply chain estimates.\n\nThe move reflects a broader shift in AI development. Over the past three years, the industry has focused on large-scale training, but leading chipmakers, including Google and Nvidia, are placing greater emphasis on inference, indicating a widening range of AI applications.\n\nGoogle remains key ASIC player\nGoogle continues to be a major driver of ASIC-based AI infrastructure. DIGITIMES Research estimates the company will account for 46% of the ASIC accelerator market in 2026, with shipments reaching about 3.33 million units.\n\nThe TPU v7, code-named Ironwood, is expected to remain the main product, accounting for 89% of Google's total TPU shipments.\n\nIndustry sources said Celestica remains the primary assembly partner for TPU servers, but Taiwanese firms are expanding their role. This is most evident in CPU motherboard production, where Inventec's share is increasing, and in L10 to L11 assembly, where Foxconn is involved.\n\n$CLS",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2047558581852237824",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGpjroga8AAsRM3.png",
+          "width": 640,
+          "height": 427,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2047558649179214315",
+      "kind": "post",
+      "engagement": {
+        "views": 27207,
+        "likes": 245,
+        "reposts": 20,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048622395255321029",
+      "date": "2026-04-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Broadcom",
+      "text": "\"Positive implication — it opens ASIC opportunities with OpenAI. MTK could provide capability proven via TPU 8t tape-out with strong in back-end offerings (CoWoS/EMIB/InFO)\"\n\nThe ASIC design company next in line after Broadcom is not Marvell, but MediaTek.\n\nBut will OAI actually ditch Broadcom? I’m not sure about that.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048622395255321029",
+      "kind": "post",
+      "engagement": {
+        "views": 35022,
+        "likes": 130,
+        "reposts": 10,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048992506851868780",
+      "date": "2026-04-28",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "Google may shift to COT model starting with TPU v9, downgrading Broadcom to IP support/design service role",
+        "per-chip margin would fall as revenue shifts from full chip ASP to design service fees",
+        "author is more worried about Broadcom than MediaTek"
+      ],
+      "is_risk": true,
+      "conviction": null,
+      "raw_mention": "$AVGO",
+      "text": "Rumor: Google to shift to a COT model starting with TPU v9, downgrading the role of MediaTek/Broadcom.\n\nThis would be a major negative for Broadcom and MTK.\n\nAccording to this rumor, starting with TPU v9, Google plans to move to a model similar to AWS’s Annapurna, where Google directly places wafer orders with TSMC.\n\nIn other words, Google would be doing COT directly.\n\nWhat does that mean? Google would become TSMC’s direct customer, while Broadcom and MediaTek would be downgraded to IP support / design service roles.\n\nOwnership of the chip and control over supply would shift toward Google.\n\nIn other words, Broadcom/MediaTek’s per-chip margin would fall, if this is true.\n\nInstead of recognizing the full chip ASP as revenue, the model would shift toward design service fees / margin. That makes me more worried about Broadcom than MediaTek.\n\n$AVGO",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2048990937410568193",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HG96ZsxaAAE5erg.jpg",
+          "width": 1320,
+          "height": 1886,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2048992506851868780",
+      "kind": "post",
+      "engagement": {
+        "views": 200817,
+        "likes": 727,
+        "reposts": 87,
+        "replies": 47
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2049717500691279979",
+      "date": "2026-04-30",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Broadcom",
+      "text": "\"Google is adopting a disaggregated ASIC model through its partnership with MediaTek, aiming to eliminate the 15–20% markup embedded in Broadcom’s turnkey model.\"\n\nIn other words, Google aims to use MediaTek to reduce the 15–20% margin Broadcom captures under its turnkey ASIC model.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2049717500691279979",
+      "kind": "post",
+      "engagement": {
+        "views": 68575,
+        "likes": 342,
+        "reposts": 44,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2054173002376650996",
+      "date": "2026-05-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Broadcom",
+      "text": "@Alex_Intel_ I also remember hearing it was Broadcom before, but it seems like that may have changed.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2054173002376650996",
+      "kind": "reply",
+      "engagement": {
+        "views": 4755,
+        "likes": 14,
+        "reposts": 0,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2055274233585111041",
+      "date": "2026-05-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Broadcom",
+      "text": "Today’s report from Tech Taiwan:\n\nGoogle reportedly told TSMC directly, “We want to become your direct major customer.”\n\nIn other words, Google’s ultimate goal appears to be following an Apple-style COT model, bypassing both Broadcom and MediaTek. https://t.co/mFlyEREg6l",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2055273358875676672",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIXMOwgb0AAI3Zz.jpg",
+          "width": 1320,
+          "height": 2096,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2055274233585111041",
+      "kind": "post",
+      "engagement": {
+        "views": 243692,
+        "likes": 739,
+        "reposts": 75,
+        "replies": 29
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2055276077761896668",
+      "date": "2026-05-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Broadcom",
+      "text": "However, internally, both Broadcom and MediaTek still seem to view Google’s transition to a COT model as a distant future threat. https://t.co/fprCk4xqn4 https://t.co/MlejQVeq2r",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2055275040833474560",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIXNwqSbEAAuN-c.jpg",
+          "width": 1320,
+          "height": 1959,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2055276077761896668",
+      "kind": "post",
+      "engagement": {
+        "views": 67446,
+        "likes": 285,
+        "reposts": 24,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2056313542589174057",
+      "date": "2026-05-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AVGO",
+      "text": "UBS models 2026 TPU shipments at 4.13 million units in total, consisting of 3.68 million units from AVGO and 450,000 units from MTK.\n\nFor 2027, UBS models total TPU shipments at 9.87 million units, consisting of 6.76 million units from AVGO and 3.11 million units from MTK.\n\n$AVGO",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2056313542589174057",
+      "kind": "post",
+      "engagement": {
+        "views": 69605,
+        "likes": 196,
+        "reposts": 11,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2062303993712533839",
+      "date": "2026-06-03",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "questioning whether AVGO is done (topping out)"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AVGO",
+      "text": "Is AVGO done?",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2062303993712533839",
+      "kind": "post",
+      "engagement": {
+        "views": 322937,
+        "likes": 399,
+        "reposts": 25,
+        "replies": 127
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2062304385431179441",
+      "date": "2026-06-03",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "long been skeptical of the claim that Broadcom is irreplaceable"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Broadcom",
+      "text": "@AdriBorLyon I’ve long been skeptical of the claim that Broadcom is irreplaceable.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2062304385431179441",
+      "kind": "reply",
+      "engagement": {
+        "views": 16155,
+        "likes": 95,
+        "reposts": 2,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2062305379099480092",
+      "date": "2026-06-03",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "questions sustainability of ~60% margin",
+        "skeptical that Broadcom's design capability is irreplaceable given TPU v8i success"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Broadcom",
+      "text": "Broadcom’s margin is around 60%, which isn’t even that far from NVIDIA’s margin.\n\nLet’s stop saying things like, “You need Broadcom’s design capability to compete with NVIDIA.” TPU v8i has already succeeded, hasn’t it?\n\nDo you really think Broadcom’s margin is sustainable? https://t.co/3jj90Sqm7l",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2062305379099480092",
+      "kind": "post",
+      "engagement": {
+        "views": 187571,
+        "likes": 686,
+        "reposts": 32,
+        "replies": 48
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063445577577460040",
+      "date": "2026-06-06",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "Anthropic likely to work with Broadcom to procure memory in early stages of ASIC development"
+      ],
+      "is_risk": false,
+      "conviction": "low",
+      "raw_mention": "Broadcom",
+      "text": "@diyas_1989 So I think Anthropic is likely to work with companies like Broadcom that can procure memory for them, at least in the early stages. They don’t yet have the ability to source HBM on their own.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2063445577577460040",
+      "kind": "reply",
+      "engagement": {
+        "views": 3070,
+        "likes": 19,
+        "reposts": 0,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2067092746364748272",
       "date": "2026-06-16",
@@ -37,7 +668,7 @@
       "url": "https://x.com/jukan05/status/2067092746364748272",
       "kind": "post",
       "engagement": {
-        "views": 148674,
+        "views": 148679,
         "likes": 390,
         "reposts": 52,
         "replies": 15
@@ -70,7 +701,7 @@
       "url": "https://x.com/jukan05/status/2067156318016930044",
       "kind": "post",
       "engagement": {
-        "views": 136767,
+        "views": 136772,
         "likes": 593,
         "reposts": 48,
         "replies": 29
@@ -97,7 +728,5 @@
       "close": 392.13
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-23T19:16:00.345493+00:00"
+  "price_status": "ok"
 }

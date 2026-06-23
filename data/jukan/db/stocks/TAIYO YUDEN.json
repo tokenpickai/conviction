@@ -1,0 +1,42 @@
+{
+  "ticker": "TAIYO YUDEN",
+  "cashtag": "Taiyo Yuden",
+  "price_symbol": "TAIYO YUDEN",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-20",
+  "last_mention": "2026-05-20",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2057082193151967710",
+      "date": "2026-05-20",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Taiyo Yuden",
+      "text": "According to Korean sell-side sources, Samsung Electro-Mechanics is understood to have notified distributors of an MLCC price increase.\n\nThe magnitude of the price hike is estimated to be similar to Taiyo Yuden’s announced 6–13% increase, and competitor Murata is also likely to follow suit.\n\nIn addition, given that Murata recently stated during its earnings call that it would stop allocating additional capacity to IT applications, the oversupply pressure in IT-related MLCCs is also expected to ease, entering a phase where downside pressure on prices becomes limited.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2057082193151967710",
+      "kind": "post",
+      "engagement": {
+        "views": 79178,
+        "likes": 277,
+        "reposts": 27,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

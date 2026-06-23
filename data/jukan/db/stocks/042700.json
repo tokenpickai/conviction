@@ -1,0 +1,84 @@
+{
+  "ticker": "042700",
+  "cashtag": "Hanmi Semiconductor",
+  "price_symbol": "042700",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-03-29",
+  "last_mention": "2026-04-18",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2038242004937633937",
+      "date": "2026-03-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Hanmi Semiconductor",
+      "text": "HBM Height Standard Relaxation Talks Complicate Calculus for Equipment Makers\n\nThe Joint Electron Device Engineering Council (JEDEC) has launched formal discussions to relax the height standard governing HBM (High Bandwidth Memory). HBM, which has drawn significant attention as a high-performance semiconductor for the AI era, is manufactured by stacking multiple layers of DRAM dies. While stacking more layers increases processing capacity and improves performance, the chips must fit within a globally standardized height envelope, creating inherent technical constraints. Fitting more DRAM within a fixed height requires thinning each die, which sharply raises the technical difficulty around thermal management and yield. At the same time, arbitrarily increasing the height is not an option either, as the GPU package space into which HBM is integrated is limited — a taller stack would force redesigns across other components. JEDEC's current discussions center on how much to expand the HBM height specification to accommodate higher layer counts.\n\nIf the height specification is relaxed, high-stack HBM could potentially be manufactured using existing TC (Thermo-Compression) bonders rather than requiring next-generation hybrid bonders, complicating the strategic calculus for semiconductor equipment makers. Hanmi Semiconductor, which holds the top position in the existing HBM TC bonder market, could sustain its dominance further, while Hanwha Semitec — which had been counting on next-generation equipment to stage a comeback — may find its market expansion ambitions curtailed. Memory makers' production strategies are also expected to shift accordingly. One industry official noted, \"Depending on how the HBM height standard is applied, it could determine who controls the market.\"\n\n◇ Will Hybrid Bonder Adoption Be Delayed?\n\nAccording to industry sources as of March 29, JEDEC is reportedly discussing relaxing the HBM product height to approximately 900㎛ (micrometers, or one-millionth of a meter). JEDEC is a global body that develops and establishes international standards for semiconductor memory and related devices, standardizing specifications to ensure interoperability and compatibility across manufacturers.\n\nThe HBM height standard has been incrementally raised as layer counts have increased. Through the fifth generation HBM3E, the standard stood at approximately 720㎛, and with HBM4 — which entered mass production earlier this year — it was raised to approximately 775㎛.\n\nCurrent mass production is centered on 12-layer stacks, while 16-layer and above remain in development and validation stages. To mass-produce high-stack HBM with 16 to 20 layers going forward, DRAM dies must be made thinner still — and the technology is approaching its limits. Hybrid bonders are the equipment solution designed to overcome this constraint. Whereas conventional TC bonders connect dies by inserting bumps (protrusions) between layers, hybrid bonders can bond chips directly without separate bumps, reducing the inter-die gap and enabling more DRAM to be stacked within a constrained height.\n\nThere is growing speculation that a significant relaxation of the height standard could delay the adoption of hybrid bonders, since existing TC bonders would be sufficient to achieve higher layer counts. Hanmi Semiconductor, which dominates the TC bonder market, is expected to extend its current lead. According to TechInsights, Hanmi holds a 71.2% global market share in the HBM TC bonder segment. In contrast, the burden on latecomers developing hybrid bonders is expected to increase, as their commercialization timelines would be pushed back. Hanwha Semitec has reportedly completed development of its second-generation hybrid bonder and plans to deliver units to customers for testing in the first half of this year.\n\n◇ Will Memory Makers' Strategies Shift?\n\nThe industry is closely watching whether memory companies' HBM strategies will change as well. In the near term, analysts suggest relaxed specifications would be favorable from a profitability standpoint — it would allow makers to defer the adoption of expensive next-generation equipment, reducing capex, and would also benefit yield by allowing continued use of existing processes.\n\nThat said, the prevailing view across the industry is that even if the standard relaxation delays hybrid bonder adoption, the transition is ultimately inevitable. The technology offers the ability to simultaneously improve data transfer efficiency and power efficiency by reducing inter-die spacing. SK Hynix EVP of Package Development Lee Kang-wook stated at Semicon Korea 2026 that \"hybrid bonding will be absolutely necessary for HBM with 20 or more layers.\" Samsung Electronics also recently unveiled its hybrid bonding technology at NVIDIA's annual conference, demonstrating more than 20% improvement in thermal resistance versus TC bonding and support for high-stack configurations of 16 layers and beyond.\n\nThe pivotal variable remains NVIDIA. Both Samsung and SK Hynix develop and supply HBM tailored to NVIDIA's performance requirements. Should NVIDIA demand significantly higher performance than current levels, the timeline for hybrid bonder adoption could be pulled forward. As one industry official put it, \"The timing of full-scale hybrid bonder adoption will be determined by comprehensively weighing changes in standards, the pace of technological advancement, and customer requirements.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038241976559280128",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HElKR1MbIAAzO_-.png",
+          "width": 616,
+          "height": 363,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038242004937633937",
+      "kind": "post",
+      "engagement": {
+        "views": 55607,
+        "likes": 98,
+        "reposts": 7,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045643713104544054",
+      "date": "2026-04-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Hanmi Semiconductor",
+      "text": "ASMPT Secures Multiple HBM4 TC Bonder Orders Last Year... SK Hynix Likely Among Buyers\n\nSingapore-headquartered ASMPT appears to have secured orders for 6th-generation High Bandwidth Memory (HBM4) Thermal Compression (TC) bonders from memory companies including SK Hynix.\n\nAt its 2025 earnings conference call, ASMPT stated: \"We were the first to secure TC bonder equipment orders for 12-high HBM4 from multiple customers,\" adding that \"through Q4 shipments last year, we established meaningful share in the memory market.\" HBM4 has currently been commercialized up to 12-high.\n\nFounded in Hong Kong in 1975, ASMPT is a semiconductor packaging (back-end) equipment supplier now headquartered in Singapore, with production hubs in Huizhou and Shenzhen (China), Shanghai, and Singapore.\n\nTC bonders are core equipment that stack semiconductor chips using heat and pressure. This process is currently applied to HBM up to 12-high. However, as the industry moves to 20-high and beyond, hybrid bonding is emerging as an alternative. Hybrid bonding directly joins copper-to-copper (Cu-Cu) without using \"bumps\" (solder protrusions) between chips.\n\nCEO Robin Ng noted, \"HBM CAPEX moves in the same direction as data center investment,\" adding, \"as we progress from 12-high to 16-high and 20-high, TC bonder demand will also expand.\" He continued, \"TC bonding can address up to 16-high, but at 20-high, hybrid bonding may be partially adopted in accordance with JEDEC standards.\"\n\nASMPT is currently developing equipment for 16-high applications. Its flux-based tools are at the sampling stage, while fluxless process tools are at customer qualification. Hybrid bonder shipments are expanding following customer approval, and a 2nd-generation tool is also under development.\n\nTC Bonder Revenue Surges 146%... Samsung Also Reportedly Evaluating Equipment\n\nTC bonders drove the earnings performance. ASMPT posted full-year revenue of HKD 13.7362 billion (approximately KRW 2.57 trillion) and operating profit of HKD 625.5 million (approximately KRW 110 billion), representing year-on-year growth of 10% and 8.8%, respectively.\n\nTC bonder revenue surged 146% over the same period. ASMPT stated, \"Through entry into the HBM market, we significantly raised our TC bonder share,\" explaining that \"last year's share gain reflected the impact of large orders secured in Q4 2024.\"\n\nWhen asked on the call whether its current share stood at around 30%, the company responded, \"within that range.\" However, this may be interpreted as referring to the entire TC bonder market including both logic and HBM applications. ASMPT has set a target of 35–40% share in the expanded TCB market by 2028. In the HBM-dedicated TC bonder market, Hanmi Semiconductor ranks first with 71.2% share.\n\nOrder momentum is also continuing. The company explained, \"This year marks the emergence of new demand for 16-high-capable TC bonders,\" adding that \"additional orders will depend on customers' 16-high mass production pace and the launch schedule of (NVIDIA's) next-generation GPU architecture.\"\n\nASMPT further stated, \"We expect Q1 orders this year to increase approximately 20% QoQ and approximately 40% YoY,\" noting that \"this could mark the highest quarterly order level in the past four years.\"\n\nMeanwhile, Samsung Electronics is reportedly evaluating the adoption of ASMPT equipment alongside Netherlands-based BESI, the global No. 1 in hybrid bonders.\n\n\"TC Bonder Market to Reach USD 1.6 Billion\"... Hanmi-Hanwha Competition Seen as Tailwind\n\nThe market itself is expanding. ASMPT projects the total TC bonder market to grow from USD 759 million (approximately KRW 1.114 trillion) last year to USD 1.6 billion (approximately KRW 2.3484 trillion) by 2028, implying a CAGR of approximately 30%.\n\nHanmi Semiconductor plans to launch a prototype of its 2nd-generation hybrid bonder within the year. It is constructing a dedicated \"Hybrid Bonder Factory\" in Juan, Incheon, with an investment of approximately KRW 100 billion, targeting operational start in the first half of next year.\n\nLate entrant Hanwha Semitech recently supplied a 2nd-generation hybrid bonder prototype to SK Hynix, which is now set to undergo performance validation testing. This comes approximately four years after its 1st-generation equipment delivery in 2022.\n\nSamsung Electronics' semiconductor equipment affiliate SEMES and LG Electronics' Production Engineering Research Institute are also reportedly developing hybrid bonders.\n\nSeparately, some industry observers view the patent dispute between Hanmi Semiconductor and Hanwha Semitech as a potential tailwind for ASMPT. With the two companies engaged in mutual litigation over TC bonder architecture and flux process technology, customers are increasingly likely to pursue equipment dual-sourcing and evaluate new suppliers.\n\nAnother variable is SK Hynix's consideration of hybrid bonder adoption for HBM5 (8th generation) to be deployed in 2029.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2045643685808001024",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGOWGA2bUAAbr8d.png",
+          "width": 580,
+          "height": 433,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2045643713104544054",
+      "kind": "post",
+      "engagement": {
+        "views": 25517,
+        "likes": 120,
+        "reposts": 14,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

@@ -1,0 +1,51 @@
+{
+  "ticker": "INVENTEC",
+  "cashtag": "Inventec",
+  "price_symbol": "INVENTEC",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-24",
+  "last_mention": "2026-04-24",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2047558649179214315",
+      "date": "2026-04-24",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Inventec",
+      "text": "Exclusive: Google ramps new TPU servers, Taiwan suppliers gain share\n\nGoogle's unveiling of its eighth-generation tensor processing unit (TPU) at Cloud Next 2026 is expected to drive the next wave of growth in the application-specific integrated circuit (ASIC) server supply chain, with Taiwanese manufacturers expanding their role, according to supply chain sources.\n\nAssembly partners, including Celestica and Foxconn, are expected to begin volume production in the second half of 2026. Key component suppliers such as Asia Vital Components and Cooler Master are preparing shipments by the end of the second quarter, with Inventec reportedly set to begin production earlier.\n\nTaiwan gains share across supply chain\nTaiwanese vendors are taking on a larger role in Google's TPU server ecosystem. While Broadcom has historically dominated upstream IC design, MediaTek has also entered the supply chain, according to sources.\n\nIn server motherboard production, Inventec's share is reportedly rising from about 10 to 30%, gradually taking orders from Celestica. The companies declined to comment.\n\nSupply chain sources said Taiwanese firms remain competitive in terms of flexibility, quality, and pricing, supported by long-standing experience in server manufacturing. Inventec is currently the world's second-largest server motherboard supplier.\n\nASIC servers to outpace GPU growth\nASIC servers are expected to be the fastest-growing segment of the AI server market in 2026, outpacing systems based on GPUs led by Nvidia.\n\nDIGITIMES Research estimates ASIC server shipments will grow 64.2% year-over-year in 2026, compared with 43.8% growth for GPU servers.\n\nIndustry sources said rising ASIC shipments are also likely to support demand for general-purpose servers. Google's continued investment in ASIC infrastructure is expected to benefit its primary general server assembler, Quanta Computer, in 2026.\n\nDual-chip TPU highlights shift to inference\nGoogle's eighth-generation TPU introduces a dual-chip architecture for the first time, separating training and inference workloads.\n\nThe lineup includes TPU 8t for large-scale training and TPU 8i for low-latency inference. Both chips are expected to launch later in 2026, with shipments projected before year-end, according to supply chain estimates.\n\nThe move reflects a broader shift in AI development. Over the past three years, the industry has focused on large-scale training, but leading chipmakers, including Google and Nvidia, are placing greater emphasis on inference, indicating a widening range of AI applications.\n\nGoogle remains key ASIC player\nGoogle continues to be a major driver of ASIC-based AI infrastructure. DIGITIMES Research estimates the company will account for 46% of the ASIC accelerator market in 2026, with shipments reaching about 3.33 million units.\n\nThe TPU v7, code-named Ironwood, is expected to remain the main product, accounting for 89% of Google's total TPU shipments.\n\nIndustry sources said Celestica remains the primary assembly partner for TPU servers, but Taiwanese firms are expanding their role. This is most evident in CPU motherboard production, where Inventec's share is increasing, and in L10 to L11 assembly, where Foxconn is involved.\n\n$CLS",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2047558581852237824",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGpjroga8AAsRM3.png",
+          "width": 640,
+          "height": 427,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2047558649179214315",
+      "kind": "post",
+      "engagement": {
+        "views": 27207,
+        "likes": 245,
+        "reposts": 20,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

@@ -1,0 +1,51 @@
+{
+  "ticker": "LPDDR",
+  "cashtag": "LPDDR",
+  "price_symbol": "LPDDR",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-17",
+  "last_mention": "2026-05-17",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2055912580074602613",
+      "date": "2026-05-17",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "LPDDR",
+      "text": "Rubin will consume LPDDR like water in 2027… just watch. https://t.co/tvsXcMxReL",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2055912443461914624",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIgReYHaUAA4euB.jpg",
+          "width": 2406,
+          "height": 1356,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2055912580074602613",
+      "kind": "post",
+      "engagement": {
+        "views": 335599,
+        "likes": 1270,
+        "reposts": 143,
+        "replies": 25
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

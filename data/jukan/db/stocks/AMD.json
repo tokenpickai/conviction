@@ -8,10 +8,1109 @@
   "company": "AMD",
   "industry": "GPU/AI Chips",
   "thesis_summary": null,
-  "first_mention": "2026-06-16",
+  "first_mention": "2026-03-25",
   "last_mention": "2026-06-21",
-  "total_mentions": 3,
+  "total_mentions": 42,
   "mentions": [
+    {
+      "tweet_id": "2036963841582784947",
+      "date": "2026-03-25",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "hyperscalers moving toward in-house CPU ASICs reducing AMD's addressable market",
+        "AMD does not have its own fabs and must compete for TSMC capacity"
+      ],
+      "is_risk": true,
+      "conviction": "medium",
+      "raw_mention": "$AMD",
+      "text": "Yesterday’s CPU bottleneck trade — among AMD, ARM, and Intel, which was actually the best trade?\n\nLet me share my view.\n\nObviously, CPU price increases are positive. They should help earnings materially.\n\nThat said, what we need to understand is that hyperscalers have been moving toward in-house CPU ASICs for quite a long time. They still procure x86 CPUs for external customers, but for internal workloads, many are already relying on their own CPU ASIC solutions.\n\nThat is why I find it hard to recommend AMD outright. AMD’s x86 CPU division is full of excellent people, but the business environment is not especially favorable. On top of that, AMD does not have its own fabs, so it has to compete with other companies for TSMC capacity.\n\nAs for ARM, I do not think it is really a pure CPU trade at this point. Because of the memory apocalypse, it seems quite obvious that smartphone royalties — still its largest revenue source — are likely to take a meaningful hit.\n\nTherefore, in my view, the better CPU bottleneck trade is foundry companies.\n\nFirst, TSMC. If everyone starts rushing to produce CPUs as well, TSMC wafer capacity will become even tighter, which will further strengthen TSMC’s bargaining power. I think a lot of people are missing this point.\n\nSecond, Intel.\n\nBecause it has its own fabs, even if not immediately, Intel should be in a better position than competitors to expand CPU supply over time. Also, as TSMC capacity becomes increasingly constrained, it is possible that more companies will look to manufacture ASICs and CPUs at Intel Foundry, which is another positive.\n\nI also want to comment on GUC. GUC’s core business is building server CPUs using licensed ARM IP, but I am skeptical about whether GUC can really compete against ARM’s own CPU efforts.\n\n$AMD $INTC $ARM $TSM",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2036963841582784947",
+      "kind": "post",
+      "engagement": {
+        "views": 46060,
+        "likes": 377,
+        "reposts": 38,
+        "replies": 25
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2037359268199072137",
+      "date": "2026-03-26",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "Samsung, SK Hynix HBM Sales Remain Strong This Year… Combined Shipments Expected to Reach 30 Billion Gb\n\nShipments of high bandwidth memory (HBM) from Samsung Electronics and SK Hynix are expected to continue growing substantially this year. Samsung's shipments are projected to exceed 10 billion Gb, driven by demand from customers including NVIDIA, Broadcom, and AMD.\n\nSK Hynix has recently faced performance-related concerns over its HBM4 for NVIDIA, but the prevailing view in the industry is that the company will have no difficulty supplying products that meet an acceptable performance threshold. Ultimately, neither company is expected to see any significant deviation from the HBM shipment targets set at the start of the year.\n\nAccording to industry sources on the 27th, the combined HBM shipments from Samsung Electronics and SK Hynix this year are projected to reach approximately 30 billion Gb on a capacity basis.\n\nSamsung Eyes 10+ Billion Gb in HBM Shipments, HBM4 Performance Stands Out\n\nSamsung Electronics has set a target to expand HBM production by more than three times compared to last year. Hwang Sang-jun, Executive Vice President of Memory Development at Samsung, stated at GTC 2026 held in the United States on the 16th (local time): \"We are rapidly scaling up HBM production. This year, we plan to increase output to more than three times last year's level.\"\n\nSamsung's total HBM shipments last year are estimated at approximately 4 billion Gb. On that basis, this year's shipment target is projected at around 11 billion Gb.\n\nIt is understood that Samsung had already projected this level of growth when formulating its HBM business strategy toward the end of last year. At that time, its next-generation product HBM4 had received positive feedback from NVIDIA, and supply negotiations with other customers such as AMD and Broadcom were said to be in their final stages. Broadcom manufactures AI semiconductors for major tech companies including Google and OpenAI on a foundry basis.\n\nNVIDIA in particular is expected to become Samsung's largest customer for HBM4. Samsung has adopted its 1c (6th-generation, 10nm-class) DRAM as the core die, and a 4nm process from its own foundry for the base die, which serves as the controller. Both dies represent more advanced process nodes compared to those used by competitors.\n\nOn this basis, Samsung has been credited with being the first to meet NVIDIA's elevated HBM4 performance requirements. While JEDEC had originally set the HBM4 performance standard at 8 Gbps, NVIDIA pushed this requirement up to approximately 11.7 Gbps.\n\nFor HBM3E products, Broadcom is considered Samsung's largest customer. Google integrates HBM into its in-house AI chips, the TPUs (Tensor Processing Units), and is expected to significantly scale up volumes of its HBM3E-based v7p variant this year.\n\nOn the other hand, the prospect of Samsung further exceeding its HBM shipment targets is considered unlikely. Samsung's available production capacity for 1c DRAM through the end of this year is estimated at approximately 130,000 wafers per month. The majority of this capacity has already been allocated to HBM, leaving little room for additional capacity expansion.\n\nSK Hynix Holds Original Shipment Plan Despite Performance Controversy\n\nSK Hynix's HBM shipments this year are projected at approximately 20 billion Gb, representing a roughly 60% increase from the prior year (approximately 12 billion Gb). Of this total, approximately two-thirds is understood to be allocated to NVIDIA.\n\nIn the first half, HBM3E will remain the primary product supplied, with HBM4 volumes expected to ramp up from the second half of the year.\n\nSK Hynix had recently been caught up in concerns that its HBM4 supply to NVIDIA could face disruptions, stemming from difficulties in meeting the elevated performance requirements NVIDIA had set for HBM4. SK Hynix's HBM4 uses 1b (5th-generation, 10nm-class) DRAM as the core die and TSMC's 12nm process for the base die — a more legacy (mature) process node relative to Samsung.\n\nIndeed, SK Hynix's HBM4 reportedly encountered difficulties in reaching peak performance during 2.5D packaging tests for integration with AI accelerators. The most commonly cited root cause is inadequate power delivery to the uppermost layers of the core die stack. SK Hynix has been working to address this through circuit-level modifications.\n\nNonetheless, the probability of any change to SK Hynix's originally planned HBM supply volumes to NVIDIA is considered extremely low. While NVIDIA has requested HBM4 performance of up to 11.7 Gbps, it is simultaneously procuring products with lower performance tiers — such as 10 Gbps — in parallel. This approach is interpreted as a deliberate strategy to ensure it does not fall short of the production volumes needed for its most advanced AI chip, \"Vera Rubin,\" if it were to source only top-tier products.\n\nSK Hynix President Kwak No-jung also recently stated at the company's annual general shareholders' meeting: \"We are making some mix adjustments in consultation with our customers, but there is no significant change to the overall HBM shipment volumes we originally planned.\"\n\nAn industry insider commented: \"As HBM4 approaches commercial availability, various performance and customer-related issues have been surfacing. However, neither Samsung Electronics nor SK Hynix is seeing any major revision to their planned HBM shipment volumes. The general consensus is that total HBM supply remains significantly below demand, and that both companies' products will ultimately sell through without issue.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2037359247512764416",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEYncPPbAAAk_H0.png",
+          "width": 638,
+          "height": 384,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2037359268199072137",
+      "kind": "post",
+      "engagement": {
+        "views": 25466,
+        "likes": 203,
+        "reposts": 16,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2038381107524284784",
+      "date": "2026-03-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "Beyond Memory to Non-Memory… Semiconductor Prices Rising Across the Board\n\nPrice increases are spreading not only in memory semiconductors but also across the non-memory space. Following the AI infrastructure investment boom that has driven up DRAM and NAND flash prices, supply disruptions and price hikes are now emerging in analog chips, power semiconductors, communications chips, and CPUs. The industry views this as a phase in which the AI-driven demand shock is propagating throughout the broader semiconductor ecosystem.\n\nAccording to industry sources on March 30, semiconductor prices are trending upward across the full spectrum of end markets, including PCs, automotive, and servers. Intel and AMD — the two dominant players in PC CPUs — are reportedly set to implement price increases, while semiconductor companies spanning automotive, power, and communications are raising prices in succession.\n\nPer market research firm TrendForce, Dutch automotive and industrial semiconductor company NXP is expected to begin raising prices starting next month. Texas Instruments (TI) and Infineon have also joined the price hike trend. STMicroelectronics, widely regarded as Europe's largest \"semiconductor department store,\" is also expected to pursue price increases. The pattern of price escalation originating in memory and spreading into analog and power semiconductors is becoming unmistakable.\n\nThe prevailing interpretation is that these price increases stem from a bottleneck in chip production: while automotive and industrial demand remains steady, a significant share of mature-node capacity at foundries such as TSMC and Samsung Electronics is being absorbed by AI and data center applications. As AI server buildouts drive up demand for power management ICs and peripheral chips, the push to pass through rising costs into pricing is intensifying.\n\nAn executive at a major domestic foundry commented, \"Given current foundry production trends and contract pricing, there is a strong likelihood of continued price adjustments going forward — particularly in power management semiconductors, industrial analog components, and select power switch product lines.\"\n\nCommunications chips and networking components are no exception. Broadcom recently disclosed that surging demand for AI chips and networking has pushed production capacity at its key manufacturing partner TSMC to a bottleneck. Considering that lead times for optical communications components such as lasers and PCBs have extended from existing order cycles to multi-month timelines, procurement pressure on high-performance networking chips and interconnect components appears to be mounting as well. Even though communications chips are not traded at standardized prices like memory, actual contract unit prices and supply terms are likely tightening.\n\nCPUs are also not immune to upward pricing pressure. According to recent reports from TrendForce and Tom's Hardware, Intel and AMD are pursuing average price increases of 10–15% on CPUs, citing expanded AI demand and supply constraints. Lead times for some PC OEMs — the time from order to delivery — have reportedly stretched from the typical one to two weeks to as long as six months. Should CPUs, the quintessential general-purpose compute chips, join the price hike procession, it would further reinforce the narrative that semiconductor price inflation is spreading beyond memory into the broader system semiconductor space.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038381082685644800",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEnIy35aoAA18g2.png",
+          "width": 616,
+          "height": 415,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038381107524284784",
+      "kind": "post",
+      "engagement": {
+        "views": 50246,
+        "likes": 196,
+        "reposts": 25,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039315025752703328",
+      "date": "2026-04-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AMD",
+      "text": "A very spicy piece of information here. A must-read for everyone (especially if you're interested in the CPU shortage).\n\n- Intel has carried out two rounds of CPU price hikes since the start of 2026. The first round in February was 10–15%, and the second on March 16th was 15%, bringing the cumulative increase to ~20% vs. January.\n\n- The full-year target is a cumulative 30% price increase, aimed at recouping investment and meeting capital market expectations.\n\n- A third round of price adjustments is reportedly planned for May.\n\n- Server CPU demand is strong globally, with orders already up 50% YoY vs. 2025.\n\n- Chinese CSPs in particular are placing additional orders — Tencent is scaling its server CPU procurement from ~300K units in 2025 to a 2026 target of 900K–1M units, deploying them toward AI infrastructure buildout.\n\n- Alibaba has the largest procurement scale among Chinese CSPs, and is also expected to grow 30–35% YoY.\n\n- Consumer CPU shipments are also picking up, driven by local AI PC demand, with a projected ~20% YoY increase in shipments (though I find this one a bit dubious). Intel's consumer CPU share remains stable at 65%.\n\n- Intel's production line utilization has reached 95%, but is not yet physically at full capacity. Server market deliveries are smooth (China Q1 orders +60%, deliveries +27%), but on the consumer side, despite orders doubling (+100%), deliveries actually declined 3.8%. This is due to PTL yield issues and new product supply being prioritized for North America — Intel is managing this by extending lead times to 3 months.\n\n- Intel's consumer CPU market share remains stable at 65%.\n\n- On the server side, Intel's share has dropped from 65% in 2025 to 50%, primarily due to AMD's stable supply and superior price-performance.\n\n- A particularly noteworthy point: the CPU-to-GPU ratio in AI servers has risen from 1:12 to 1:8, with a target of 1:4, meaning the share of CPU procurement is increasing. Very important.\n\n- Cloud providers' AI servers generally have excess compute capacity, and there are no plans for large-scale traditional server expansion for the time being.\n\n- AI applications are expected to drive ~10% of incremental demand for consumer CPUs, with long-term growth dependent on product usability.\n\n$INTC $AMD $ARM",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2039315025752703328",
+      "kind": "post",
+      "engagement": {
+        "views": 105032,
+        "likes": 606,
+        "reposts": 65,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2040568323738640582",
+      "date": "2026-04-04",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "The Critical Weakness of AI Computing Power… Broadcom Identifies \"3 Major Bottlenecks,\" Supply Shortages Could Persist Until 2027 \n\n• Broadcom has identified the key bottlenecks in the current AI supply chain as: ▲lasers, ▲advanced process wafers (particularly TSMC), and ▲PCBs. Notably, lead times for the small-form-factor PCBs used inside optical transceivers have extended from approximately 6 weeks to 6 months, with relief not expected until 2027.\n\n• These small-form-factor PCBs require high-difficulty mSAP processes due to the demands of high-frequency signal processing and ultra-compact design. Because their production processes partially overlap with IC substrates for HBM, the surge in global AI server demand is paradoxically eroding PCB production capacity. Additionally, supplier qualification takes over 6 months, leading hyperscalers to lock in existing supply chains through long-term contracts.\n\n• Laser components have also been flagged as a critical bottleneck in the CPO era. Lasers for AI data centers require high-power, low-noise characteristics, and the yield rate passing stringent reliability testing remains below 30%. The number of vendors with InP (indium phosphide)-based production capabilities is particularly limited, and in CPO architectures, laser demand increases not linearly but multiplicatively, further intensifying supply pressure.\n\n• On the wafer front, TSMC's advanced process nodes are projected to hit a bottleneck by 2026. However, the real issue lies in back-end advanced packaging. The CPO era requires high-difficulty hybrid bonding technology to integrate optical and silicon dies, with throughput and yield severely constrained in the early stages.\n\n• Furthermore, TSMC must allocate the same production lines across NVIDIA, Apple, AMD, and Qualcomm, as well as Google, Meta, and OpenAI — effectively operating production capacity under a \"rationing\" regime. New capacity additions also face 12–18 month equipment lead times, making near-term relief unlikely.\n\n• Meanwhile, expansion at suppliers of packaging substrates, underfill, testing, optical communications, and probe cards is progressing even more slowly, causing bottlenecks to proliferate across the entire supply chain. As a result, supply chain bottlenecks and price inflation are likely to persist structurally, with the segments experiencing bottlenecks emerging as the critical nodes wielding pricing power.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2040568323738640582",
+      "kind": "post",
+      "engagement": {
+        "views": 55842,
+        "likes": 245,
+        "reposts": 29,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2040960323952505309",
+      "date": "2026-04-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AMD",
+      "text": "Cloud Big Tech Accelerates 'Dual-Track' Strategy for AI Infrastructure Build-Out (Taiwan Commercial Times)\n\n• As AI compute demand surges, global cloud big tech and major CSPs have been pursuing a 'dual-track strategy' in hardware procurement since this year to build out AI infrastructure. DIGITIMES forecasts that dedicated ASIC-based AI server growth will outpace GPU-based AI servers, with expected growth of YoY +64% and YoY +44%, respectively. Within the high-end AI server market, shipment share is estimated at 38% ASIC and 62% GPU.\n\n• Looking at Tier 1 CSP strategies, Microsoft is expanding its adoption of AMD platform servers, moving away from its existing dependence on NVIDIA architecture. Meanwhile, Google and Amazon are aggressively pursuing proprietary ASIC-based AI rack systems centered on TPU and Trainium, respectively. In the related key supply chain, beyond Wiwynn, Quanta, and Hon Hai, companies such as Inventec and Sunda are also expected to benefit from ASIC AI project expansion.\n\n• DIGITIMES forecasts AI server shipments to grow from approximately 1.844 million units in 2025 to 2.723 million units in 2026, with penetration rising to 16.7%. High-end AI servers in particular are expected to grow YoY +67.5%, from 1.142 million to 1.914 million units. Strong growth is projected to continue in 2027 and 2028, at approximately YoY +60% and YoY +49% respectively, with shipments surpassing 3 million and 4.5 million units each year.\n\n• By ASIC and GPU breakdown, ASIC servers are forecast at 660,700 units (YoY +64.2%) and GPU AI servers at 1,064,100 units (YoY +43.8%) this year.\n\n• Microsoft has recently been expanding its adoption of AMD platforms. Beyond the existing MI200 series, it is expected to become one of the key customers for Helios platform-based rack-scale AI systems by year-end. Additionally, the next-generation MI300 series is expected to enter mass production and supply in H2 next year, with Microsoft's cumulative purchase volume projected to reach at least 1 million units or more.\n\n• Google continues to expand its proprietary AI ecosystem, including its large language model 'Gemini,' and its TPU project is expected to serve as a core growth driver for the ASIC AI server market this year. At the same time, Amazon's Trainium-based proprietary ASIC servers are also expected to exhibit rapid growth this year.\n\n$AMD",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2040960323952505309",
+      "kind": "post",
+      "engagement": {
+        "views": 23714,
+        "likes": 97,
+        "reposts": 7,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044045150410919940",
+      "date": "2026-04-14",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "would need at least twice as many CPUs"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AMD",
+      "text": "You would need at least twice as many CPUs.\n\n$AMD $INTC $ARM https://t.co/5phuKGbXGM https://t.co/q9O1IrakCl",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044044981141417990",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HF3oFJ3asAYW3kI.jpg",
+          "width": 1080,
+          "height": 560,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044045150410919940",
+      "kind": "post",
+      "engagement": {
+        "views": 257493,
+        "likes": 1365,
+        "reposts": 161,
+        "replies": 35
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044641223416348711",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "[Exclusive] Samsung Electronics to Upend the HBM Game with a '1-Year Cycle'... Leveraging Turnkey for 'Super Gap'\n\nSamsung Electronics is aggressively shortening its High Bandwidth Memory (HBM) development cycle from the roughly two years it had been to just one year. The strategy aims to match the explosive growth pace of the AI chip market by accelerating product evolution, and to seize leadership in the next-generation HBM market through an integrated capability spanning memory, foundry, and packaging.\n\n■ Breaking the 'Two-Year Wall' with Technological Confidence\n\nAccording to semiconductor industry sources on the 16th, Samsung Electronics is pursuing a roadmap to compress the time required for HBM generational transitions from around two years to within one year. A source familiar with internal matters said, \"Samsung is planning and executing a strategy to roll out a new HBM generation every year, aligned with the release cycles of new AI accelerators from major customers such as NVIDIA.\"\n\nIn the early HBM era (HBM1–HBM2), generational cycles were somewhat irregular, but as the GPU roadmaps of major customers like NVIDIA shortened to 1–2 years, memory makers have accelerated their own development pace accordingly. In practice, each generational transition—HBM2E to HBM3, HBM3 to HBM3E, and HBM3E to HBM4—has taken roughly two years.\n\nSamsung Electronics, however, has opted to cut the generational transition time in half, down to one year. The move reflects a judgment that memory must evolve at the same tempo as AI accelerators, or risk falling behind in the competition. Within the industry, compressing the development cycle from a typical two years to within one year is being described as nothing short of a fundamental restructuring of the business model itself.\n\n■ A 'One-Stop' Structure Only Samsung Can Offer\n\nSamsung Electronics was able to make this bold bet thanks to its 'turnkey solution'—handling memory design, foundry manufacturing, and advanced packaging in-house under one roof. From HBM4 onward, the 'Base Die,' which handles logic functions, is being introduced in earnest, elevating foundry technology into a critical variable. Samsung's core competitive edge lies in its ability to handle base die production, memory stacking, and packaging all in one flow using its own advanced processes. On top of this, by securing next-generation technologies such as 'hybrid bonding' early, the company is expected to benefit in terms of yield stability going forward. This offers a distinct advantage in maximizing production efficiency compared with competitors that split design, manufacturing, and packaging across separate entities. It is seen as Samsung's unique 'trump card'—one that is difficult to replicate in the bifurcated TSMC–SK Hynix structure.\n\n■ Rewriting the Rules with 'Custom HBM'\n\nSamsung Electronics has identified 'speed' and 'customization' as the two pillars of this roadmap overhaul. Rather than supplying a single standardized product as in the past, the company intends to pivot to a structure that rapidly delivers custom HBM optimized for the next-generation AI chip designs of customers like NVIDIA and AMD. Through this, Samsung is seen as well-positioned to take strong leadership in the customer-tailored 'CUSTOM HBM5' market. It also aligns with the demands of global big tech firms looking to shorten product development timelines and maximize supply chain efficiency. Shrinking the development cycle to one year also provides the flexibility to respond nimbly to shifts in customer roadmaps. A semiconductor industry source commented, \"As Samsung's strength in holding both foundry and memory capabilities begins to be maximized, the company is solidifying its status as a market 'game changer.' For customers, Samsung will become an option that reduces risk.\" Samsung Electronics plans to begin HBM4E sample shipments in the second half of this year and accelerate its development roadmap through to HBM5. The industry views this as Samsung cementing a structure in which it pre-develops next-generation products and brings them to market faster.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044641200368738304",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGAGVrkbYAAIopI.png",
+          "width": 620,
+          "height": 413,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044641223416348711",
+      "kind": "post",
+      "engagement": {
+        "views": 16804,
+        "likes": 136,
+        "reposts": 9,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044675982544830543",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "Not just AMD, but Qualcomm is also exploring the adoption of SOCAMM.\n\nOh… now smartphone companies will have to compete not only with NVIDIA, but also with AMD for LPDDR5X. https://t.co/cOA1lmoNq0",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044675982544830543",
+      "kind": "post",
+      "engagement": {
+        "views": 38929,
+        "likes": 322,
+        "reposts": 25,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044685702764609783",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "Qualcomm abandoning its server ARM CPU business in 2022 is one of the most legendary stupid moves in the tech industry, on par with Samsung scrapping its HBM team in 2019 and AMD selling its mobile GPU business to Qualcomm. Why the hell are these executives still at Qualcomm? https://t.co/MznoagUb01 https://t.co/fuhyO0DxRh",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [
+        {
+          "media_key": "3_2044685196310773761",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGAuWlOagAEWd7U.jpg",
+          "width": 1192,
+          "height": 1332,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044685702764609783",
+      "kind": "post",
+      "engagement": {
+        "views": 69534,
+        "likes": 386,
+        "reposts": 29,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044901765418717315",
+      "date": "2026-04-16",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "author has been very positive on AMD"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "I’ve definitely been very positive on AMD… but Anthropic using AMD MI450 was not on my bingo card.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044901765418717315",
+      "kind": "post",
+      "engagement": {
+        "views": 73809,
+        "likes": 817,
+        "reposts": 26,
+        "replies": 36
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044903407966896261",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "@Midnight_Captl But why would Anthropic choose AMD over Nvidia at a time like this?",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044903407966896261",
+      "kind": "reply",
+      "engagement": {
+        "views": 5276,
+        "likes": 5,
+        "reposts": 0,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044914319243280555",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "DigiTimes published a report on TSMC's packaging this morning, and there's a lot of alpha in it.\n\nTo summarize:\n\n1. TSMC is significantly expanding SoIC capacity in 2027 (from 10K wafers/month to 50K wafers/month), with NVIDIA locking up most of this SoIC capacity. Only 10% will be allocated to CPO. \n\n-> Positive for BESI. More hybrid bonding tool orders should follow.\n\n2. CoPoS is delayed… first product shipment expected in Q4 2030. \nCoWoS's lifespan is now expected to be longer than previously anticipated. CoPoS is just too difficult to push through. According to DigiTimes, with large orders pouring in not only from NVIDIA and AMD but also from ASIC customers, TSMC's CoWoS capacity for the next two years is already fully booked. CoPoS was originally expected to take the baton with mass production in 2028, but per the latest schedule: \nQ3 2026: R&D equipment move-in begins. R&D line buildout takes about 1 year. \nQ3 2027: Pilot line equipment orders placed. Equipment lead time of about 3 quarters. \nQ2 2028: Pilot tools moved into the Chiayi P7 fab. Validation and fine-tuning needed for about 1 year afterward. \nMid-to-late 2029: Mass production equipment finalized, supply chain orders placed. Lead time of 3 quarters. \nQ1 2030: Mass production equipment move-in. First packaging product shipment possible 6 months to 1 year later, in Q4 2030. \nIn particular, \"uniformity\" and \"warpage\" are reportedly causing significant difficulties in implementing CoPoS. \n\n-> Negative for the CoPoS supply chain. TSMC is reportedly even imposing a policy that anyone joining the CoPoS development effort will be barred from selling externally.\n\n3. Lastly, the CoWoP project led by NVIDIA and SPIL (矽品) is reportedly facing a potential suspension. Because of the higher technical difficulty and elevated cost, SPIL and Taiwanese PCB vendors are showing low willingness to participate, and only Chinese PCB vendors are showing intent to continue R&D.\n\n-> Those who were pushing CoWoP should be ashamed of themselves. The ones who were pumping mainland Chinese names...",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044914319243280555",
+      "kind": "post",
+      "engagement": {
+        "views": 106761,
+        "likes": 361,
+        "reposts": 50,
+        "replies": 16
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044927875909112107",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "It’s unfortunate that SA seems to be getting hate just for the sake of hate. They were right this time too, weren’t they?\n\nBernstein also confirmed that AMD has secured additional customers for Helios.\n\nI don’t think it’s right to dismiss something as false simply because the news came from SA.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044927875909112107",
+      "kind": "post",
+      "engagement": {
+        "views": 34073,
+        "likes": 152,
+        "reposts": 1,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044981182555926584",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AMD",
+      "text": "CPU shortage more acute than memory; industry awaits Intel 18A yield improvement\n\nA global CPU shortage is disrupting PC and industrial-computing supply chains, as processors are out of stock even at premium prices, while memory is limited but purchasable. The scarcity threatens notebook and industrial PC availability worldwide and may persist for some time until Intel's 18A process yields improve, industry sources warn.\n\nIndustry contacts described the current situation as more acute for processors than for memory, which is available in limited quantities at higher prices. By contrast, several processors are effectively unavailable regardless of price, affecting both Intel and Advanced Micro Devices (AMD). Suppliers said relief may hinge on improvements in Intel's 18A process yields.\n\nBoth Intel and AMD raised processor prices by 10-15% recently to reflect rising costs. Notebook supply chain representatives, however, reported no immediate expectation of further increases because product availability, rather than price, is the primary constraint. The most scarce parts are Intel's 2022 Raptor Lake series, and one source said lead times have become meaningless because waiting does not guarantee delivery.\n\nAnalysts foresee Raptor Lake discontinuation in 2026, prompting manufacturers to shift buying toward Arrow Lake and the newer Panther Lake processors. Given Panther Lake's higher cost, the market focus is expected to concentrate on Arrow Lake as the N-1 generation choice.\n\nIndustrial PC makers serving enterprise clients are particularly affected. While memory shortages can be eased by paying premiums, Intel CPUs are reported as genuinely unavailable. With Intel estimated to hold roughly 90% market share in industrial segments, the impact on IPC makers is pronounced.\n\nIntel's supply constraints are expected to ease gradually as 18A yields improve, a point reportedly echoed by Intel CEO Lip-Bu Tan, who said 18A production has started, but yields remain below expectations. Some insiders warned consumer demand may cool in 2026, especially in the second half, as higher prices dampen seasonal sales, prompting vendors to adjust inventories cautiously.\n\nNotebook original design manufacturer shipments exceeded expectations in the first quarter due to aggressive brand pull-ins and are expected to be stable in the second quarter, though manufacturers remain conservative about the latter half and foresee annual shipment declines versus 2025.\n\nObservers noted that low-end Intel processors have been in short supply since 2025, a situation that once prompted some makers to switch to AMD; shortages are now reported across both vendors. Experts attribute the CPU scarcity to AI-driven demand surges that have strained capacity across GPUs, substrates, memory, passive components, and CPUs, framing the issue as an industry-wide upgrade and transition rather than an isolated corporate strategy.\n\n$INTC $AMD",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044981037084946432",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGE7ax_bsAAna1j.png",
+          "width": 640,
+          "height": 427,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044981182555926584",
+      "kind": "post",
+      "engagement": {
+        "views": 218369,
+        "likes": 686,
+        "reposts": 81,
+        "replies": 21
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045851058069733618",
+      "date": "2026-04-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "Very interesting.\n\n- For Rubin Ultra’s scale-up optical architecture, CPO is the priority, with NPO as the fallback option.\n- AMD’s MI500 adopts an MRM-based CPO approach.The PIC is manufactured by GlobalFoundries, and the packaging is handled by ASE.\n- By contrast, for Nvidia’s CPO, the PIC is manufactured by TSMC, the packaging is currently handled by SPIL, and assembly is done by Foxconn Industrial Internet.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2045851058069733618",
+      "kind": "post",
+      "engagement": {
+        "views": 174162,
+        "likes": 336,
+        "reposts": 31,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046721056602485090",
+      "date": "2026-04-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "▶ Strong CPU Pull-In; Supply Chain: Prices Continue Rising in Q3\n\n- CPU price increases are driven by two factors: 1) surging AI server demand, and 2) deepening supply shortages caused by capacity concentration on leading-edge nodes\n\n- Intel raised PC CPU prices in March and server CPU prices in April, improving 2Q margins, with room for an additional ~8–10% hike in 2H\n\n- AMD is likewise expected to raise prices in both 2Q and 3Q this year, centered on server CPUs, with cumulative annual increases projected at 16–17% — marking entry into a broad CPU price upcycle\n\n- As 2nm/3nm processes enter mass production and capacity expansion phases, capacity competition among AI chips, CPUs, GPUs, and TPUs is intensifying, putting upward pressure on foundry pricing and lead times\n\n- CPUs are currently in a clear state of undersupply, with the supply-demand imbalance persisting and the price upcycle likely to be prolonged\n\n- TSMC is, unusually, continuing to expand 3nm capacity — driven by simultaneous CPU and AI ASIC demand growth and the fact that Intel, AMD, and Nvidia's Vera CPU all adopt 3nm\n\n- Intel recently strengthened its control over leading-edge capacity by repurchasing the 49% stake in its Ireland Fab 34 ($14.2B)\n\n- The facility is the core production base for Intel 4 and Intel 3 processes, ranking among the highest-volume leading-edge fabs\n\n- For the 2026–2027 CPU market, capacity — rather than demand — will be the key variable; if AI infrastructure investment continues to expand and process/packaging bottlenecks persist, the price uptrend is expected to hold, with benefits spreading broadly across the foundry, OSAT, equipment, and materials supply chain",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046721056602485090",
+      "kind": "post",
+      "engagement": {
+        "views": 51133,
+        "likes": 320,
+        "reposts": 36,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047097361990865012",
+      "date": "2026-04-22",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AMD",
+      "text": "$AMD has crossed $300. Congratulations to the AMD bulls. https://t.co/fjauBxMHpl",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2047097212669444096",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGjAEaXawAAlLx_.jpg",
+          "width": 1372,
+          "height": 926,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2047097361990865012",
+      "kind": "post",
+      "engagement": {
+        "views": 29954,
+        "likes": 469,
+        "reposts": 4,
+        "replies": 18
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047457420134543529",
+      "date": "2026-04-23",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "RT @fi56622380: @benitoz @polynoamial @sama @OpenAI Cuda moat eroded somewhat，if you ask amd engineer，they would confidently saying that\n\nA…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047457420134543529",
+      "kind": "post",
+      "engagement": {
+        "views": 3,
+        "likes": 0,
+        "reposts": 11,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048725249722917370",
+      "date": "2026-04-27",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "took over TSMC capacity freed up by Qualcomm and MediaTek order cuts",
+        "CPUs produced on older nodes being bought up",
+        "earnings could be worth getting excited about"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "AMD",
+      "text": "I didn’t realize this before. I naturally assumed Intel would have a supply advantage over AMD in CPUs.\n\nBut Qualcomm and MediaTek apparently cut their TSMC 4/5nm orders because mid- to low-end smartphone shipments literally collapsed. AMD seems to have taken over that capacity.\n\nRight now, even CPUs produced on older nodes are being bought up by customers lining up for supply. AMD’s earnings could be worth getting excited about.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048725249722917370",
+      "kind": "post",
+      "engagement": {
+        "views": 283547,
+        "likes": 1279,
+        "reposts": 72,
+        "replies": 35
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2049459751659200798",
+      "date": "2026-04-29",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AMD",
+      "text": "Citing UBS's AMD earnings preview:\n\n- The market is clearly aware that INTC's guidance reads very favorably for AMD.\n- This is particularly true for server CPU, given commentary implying that INTC is undershipping the market by roughly 20%.\n- The key question here is AMD's supply, but our field work throughout the quarter indicated that supply of INTC parts has been far more constrained than that of AMD parts.\n- We therefore see a very favorable setup for AMD and expect revenue to be guided up at least $1B Q/Q to the low $11B range (vs. Street consensus of ~$10.4B).\n- Intel's CY2026 outlook implies its Data Center & AI segment growing ~40% Y/Y, and we now see AMD server CPU growing as much as 80% this year, with units up ~40–45% and pricing up around 20%.\n- From a competitive standpoint, our checks remain constructive. AMD's CPU portfolio continues to compare favorably with Intel's offerings, and the lack of meaningful timeline updates for Diamond Rapids and Coral Rapids reinforces our view that AMD should maintain a competitive advantage across the x86 ecosystem through C2026.\n\n$INTC $AMD",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2049459751659200798",
+      "kind": "post",
+      "engagement": {
+        "views": 72719,
+        "likes": 439,
+        "reposts": 44,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2050756475090550953",
+      "date": "2026-05-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "Samsung Foundry's 4nm \"Fully Booked\" Through Next Year… Set for H2 Profitability Turnaround\n\nSamsung Electronics' foundry flagship 4nm line has entered \"fully booked\" status through next year. The result reflects the convergence of HBM4 volume ramp and orders from global Big Tech. Industry observers expect the chronically loss-making foundry division to fire its first signal of recovery as early as the second half of this year.\n\nAccording to the semiconductor industry on the 3rd, Samsung Electronics' 4nm foundry process has recently secured order volumes extending into next year's production. A semiconductor industry source who requested anonymity said, \"The 4nm process has recently demonstrated better-than-expected stability among global customers, and demand is exploding,\" adding, \"The line is running so tightly that it is effectively impossible to take additional orders through next year.\"\n\nThe core driver of these orders is HBM4. Samsung Electronics produces the base die mounted in its HBM4 on the 4nm foundry process. As the company begins full-scale HBM4 supply to AI accelerator vendors such as NVIDIA and AMD, the utilization rate of the supporting 4nm foundry line has likewise reached its ceiling.\n\nDemand for the 4nm process is not confined to memory. Global fabless companies that previously relied on TSMC are now knocking on Samsung's door, factoring in supply-chain diversification and cost-effectiveness. NVIDIA and Google currently appear on the customer roster for Samsung's 4nm node. With improved yields and verified power efficiency (performance per watt), the \"love calls\" from Big Tech continue to come in.\n\nWith high-value-added HBM4 and global Big Tech volumes filling the 4nm line, expectations for an earnings turnaround are also rising. The 4nm process has already completed its large-scale investment phase, easing the depreciation burden. The structure is one in which profitability rises sharply as utilization is maximized.\n\nA source at a Samsung Foundry partner company assessed, \"Thanks to the stabilization of the 4nm process and the strong demand anchor of HBM4, Samsung Foundry is expected to swing to profit as early as the second half of this year, or at the latest in the first half of next year,\" adding, \"After a prolonged slump, it has clearly entered a recovery phase.\"\n\nThat said, the industry points to the new fab under construction in Taylor, Texas, as the biggest variable for future earnings. The substantial initial operating costs and labor expenses incurred during fab completion and ramp-up preparation could swing reported earnings depending on how they are accounted for on the books.\n\nAnother semiconductor industry source said, \"Since the Taylor fab currently being built sits on U.S. soil, whether the related performance is booked under the U.S. subsidiary (DSA) or consolidated into the domestic foundry results remains to be seen.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2050756449169776640",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHXAIAmbIAAMK7T.png",
+          "width": 640,
+          "height": 417,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2050756475090550953",
+      "kind": "post",
+      "engagement": {
+        "views": 109879,
+        "likes": 380,
+        "reposts": 52,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051305126011576374",
+      "date": "2026-05-04",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "MI550 can realistically compete with Rubin Ultra",
+        "high-capacity HBM4E Rubin Ultra has been delayed",
+        "AMD's 2.5D/3D packaging expertise enables a 4-die/12 HBM4e design vs Rubin Ultra 2-die package"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "\"MI550 is positioning to challenge Rubin Ultra in 2H27. AMD's 2.5D/3D packaging expertise enables a 4-die/12 HBM4e design, vs Rubin Ultra 2-die package (and MCM for 2 sets of 2-die).\"\n\nGiven that high-capacity HBM4E Rubin Ultra has been delayed, I think MI550 can realistically compete with Rubin Ultra.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2051305126011576374",
+      "kind": "post",
+      "engagement": {
+        "views": 111634,
+        "likes": 277,
+        "reposts": 25,
+        "replies": 23
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051612202403299609",
+      "date": "2026-05-05",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "data-center CPU business expected to grow 55%/48% YoY in 2026E/2027E",
+        "CPU price increases in April / 4Q26",
+        "ramp-up of Venice platform in 3Q26",
+        "market-share gains from product leadership and customer expansion",
+        "secured 160k–180k wafers of CoWoS capacity for 2027",
+        "new partnership with Anthropic for MI450 chips",
+        "MI455 supply chain maintaining target of starting shipments in mid-3Q",
+        "strong MI455 demand expected into 2027/2028",
+        "MI550 remains on track with 4-chiplet/8-XCD package with 12-high HBM4e on 2nm",
+        "target price raised to US$465 based on 38x 2027E P/E"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "$AMD",
+      "text": "GF Overseas Electronics & Communications — AMD (AMD US, Buy): Key Focus Areas and Catalysts Ahead of Earnings Call\n\nBuy rating, target price raised to US$465:\nFollowing the recent share-price rally and Intel’s better-than-expected results, market expectations have already moved higher. However, we remain optimistic and outline the key issues to watch during and after the earnings call. Incorporating our updated pre-earnings preview and higher CPU/GPU shipment assumptions, we raise our 2026E/2027E EPS forecasts by 2%/6%, respectively. We lift our target price from US$311 to US$465, based on 38x 2027E P/E.\n\nStrong CPU business and capacity:\nWe expect AMD’s data-center CPU business to grow 55%/48% YoY in 2026E/2027E, driven by:\n\n1. CPU price increases in April / 4Q26;\n2. ramp-up of the Venice platform in 3Q26;\n3. market-share gains from product leadership and customer expansion.\n\nIn the near term, driven by cloud demand, we expect ODM server shipments to grow around 10% QoQ in 2Q. On the demand side, agentic AI is expected to drive the CPU-to-GPU ratio back toward a more balanced level, while AMD’s competitive advantage continues to expand with its N2-based Venice platform. Based on our ASE report published on April 29, we believe AMD has secured 160k–180k wafers of CoWoS capacity for 2027.\n\nNew partnership with Anthropic:\nAccording to Wccftech’s April 17 report, supply constraints prompted Anthropic to sign an agreement with AMD to use MI450 chips. This could become a key focus of the upcoming earnings call. Unlike AMD’s five-year, 6GW partnerships with Meta/OpenAI in exchange for AMD warrants, we expect this collaboration to be more flexible in both GW scale and transaction structure. However, given Anthropic’s rapidly growing ARR, the first-year scale of the partnership could be larger.\n\nMI455 progress:\nFollowing our April 14 report, Demand Far Exceeds Supply, in which we noted a downward revision to MI455 shipments due to the complexity of its stacked design, we believe the supply chain is still maintaining its target of starting shipments in mid-3Q. Meanwhile, downstream readiness has improved with support from Wistron and Foxconn Industrial Internet. With multiple GW-scale customers including OpenAI, Meta, and Anthropic, we expect strong MI455 demand to continue into 2027/2028.\n\nMI550 versus Rubin Ultra:\nAs stated in our March 31 report, we believe Rubin Ultra has been changed to a dual-chip design, with a second MCM version used to connect two sets of dual chips, while 16-high HBM4e may be revised down to 12-high due to capacity constraints. For AMD, given its experience in 2.5D/3D packaging, we believe MI550 remains on track, using a four-chiplet / 8-XCD package with 12-high HBM4e. Combined with the 2nm process node, MI550, as a single GPU, could deliver superior performance.\n\n$AMD",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2051612202403299609",
+      "kind": "post",
+      "engagement": {
+        "views": 71495,
+        "likes": 186,
+        "reposts": 19,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051960758800732202",
+      "date": "2026-05-06",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "RT @sssjeffpu: ##  Earnings Wrap-Up\n\n### **AMD (Buy) | TP: $511**\n * **Guidance slightly beat expectations ($11.2bn vs. $10.5bn Bloomberg c…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2051960758800732202",
+      "kind": "post",
+      "engagement": {
+        "views": 3,
+        "likes": 0,
+        "reposts": 17,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2052331073863122985",
+      "date": "2026-05-07",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AMD",
+      "text": "AMD to Entrust 2nm Production to Samsung Foundry\n\nSamsung Electronics has entered into substantive discussions with AMD on semiconductor contract manufacturing (foundry). As global Big Tech companies' orders for AI chips surge explosively, intensifying supply bottlenecks for CPUs and other semiconductors, Samsung Foundry is emerging as an alternative to incumbent TSMC.\n\nAccording to industry sources on the 7th, Samsung Electronics' Foundry Division has recently been advancing discussions with AMD regarding a 2nm (nanometer; 1nm = one-billionth of a meter) chip order. It is understood that following AMD CEO Lisa Su's visit to Korea this past March, during which she toured Samsung Electronics' Pyeongtaek foundry site, discussions on a 2nm order have been progressing, with concrete results expected to materialize in the near future.\n\nAs the AI era shifts away from simple chatbots that merely answer questions toward \"agentic AI\" capable of autonomously executing tasks, demand is rising not only for GPUs but also for CPUs. The importance of CPUs—which manage the entire workflow of increasingly complex operations—has grown accordingly. As a result, AMD, which holds the dominant position in the CPU market, is seeing its profitability expand rapidly. AMD's Q1 revenue reached $10.25 billion, up 38% year-over-year.\n\nWhile CPU demand is rising rapidly, supply remains constrained, and the resulting bottleneck has intensified. AMD outsources most of its CPU production to TSMC, the world's No. 1 foundry, but TSMC has been struggling to meet demand amid an order surge from Big Tech customers including NVIDIA, Tesla, and Apple. A significant portion of TSMC's 2nm and below advanced node capacity is reportedly already pre-booked through 2028 and beyond.\n\nAMD's decision to partner with Samsung Electronics is interpreted in this context as an effort to diversify its supply base. The strategy is to meet demand by entrusting production to Samsung Electronics, which has been steadily improving its 2nm process yields. As Samsung Electronics secures a portion of AMD's next-generation CPU production volume, opportunities for Samsung Foundry are expected to expand. The deal also carries symbolic weight as the addition of yet another Big Tech customer following Tesla.\n\nSamsung Electronics has officially confirmed an order for Tesla's next-generation AI chip \"AI6,\" and has also been awarded production of the \"AI5\" chip. Starting next year, Samsung plans to produce 2nm and below leading-edge chips for these Big Tech customers at its Taylor, Texas fab in the U.S., setting the stage for a return to profitability.\n\n$AMD $TSM",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2052331023611138048",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHtYMTfbEAAH5Km.png",
+          "width": 500,
+          "height": 352,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2052331073863122985",
+      "kind": "post",
+      "engagement": {
+        "views": 164107,
+        "likes": 776,
+        "reposts": 101,
+        "replies": 27
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2052918751344103555",
+      "date": "2026-05-08",
+      "stance": "neutral",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "theory that AMD has been making a ton of older 5nm CPUs is being validated"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "I’m glad my theory that AMD has been making a ton of older 5nm CPUs is being validated.\n\nvia irrationalanalysis https://t.co/zzSRC4lQR4 https://t.co/ULyLgoy9kT",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2052918643323973632",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HH1uoRgaMAAEt0i.jpg",
+          "width": 1530,
+          "height": 1022,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2052918751344103555",
+      "kind": "post",
+      "engagement": {
+        "views": 91240,
+        "likes": 589,
+        "reposts": 48,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2053628541267509531",
+      "date": "2026-05-10",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "@zephyr_z9 AMD",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2053628541267509531",
+      "kind": "reply",
+      "engagement": {
+        "views": 7244,
+        "likes": 49,
+        "reposts": 0,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2053634413766807805",
+      "date": "2026-05-10",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "@Alex_Intel_ It looks like AMD.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2053634413766807805",
+      "kind": "reply",
+      "engagement": {
+        "views": 8395,
+        "likes": 71,
+        "reposts": 2,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2053730230137926121",
+      "date": "2026-05-11",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "SK Hynix Pursues 2.5D Packaging Collaboration with Intel, Signaling Shifts in AI Chip Supply Chain\n\nSK Hynix is drawing attention as it pursues collaboration with Intel in advanced packaging. The company is currently understood to be conducting tests that adopt Intel's 2.5D packaging technology to integrate High Bandwidth Memory (HBM) with logic chips.\n\nWith Taiwan's TSMC—the leader in 2.5D packaging—recently grappling with a severe supply crunch, expectations are growing that the 2.5D packaging supply chain for AI accelerators could diversify.\n\nAccording to industry sources on the 11th, SK Hynix is conducting joint R&D with Intel on 2.5D packaging technology.\n\n2.5D packaging is a technique that inserts a thin film-like interposer between the chip and substrate to enhance chip performance. Representative applications include the AI accelerators being developed by global big tech firms such as NVIDIA and AMD. AI accelerators are built by combining high-performance logic chips—such as GPUs—with HBM through 2.5D packaging.\n\nAt present, the global 2.5D packaging supply chain for big tech is effectively monopolized by TSMC, Taiwan's leading foundry. SK Hynix has also maintained a close partnership with TSMC, conducting joint R&D on HBM and 2.5D packaging.\n\nBeyond this, SK Hynix is reviewing the adoption of Intel's 2.5D packaging technology, \"Embedded Multi-die Interconnect Bridge\" (EMIB). The company is understood to be testing the integration of HBM and logic chips using EMIB-embedded substrates supplied by Intel.\n\nA source familiar with the matter said, \"While it is still at an early R&D stage, SK Hynix is actively conducting tests to implement 2.5D packaging using Intel's EMIB,\" adding that \"the company is also scouting candidate materials and components that would be required for actual volume production.\"\n\nThe discussions between SK Hynix and Intel are seen as well aligned in terms of mutual interests.\n\nTSMC's 2.5D packaging technology, \"Chip-on-Wafer-on-Substrate\" (CoWoS), has been suffering from acute supply shortages amid the recent AI semiconductor boom. As a result, several big tech firms have turned their attention to Intel's EMIB as a promising alternative to CoWoS.\n\nFrom SK Hynix's perspective, preemptive R&D on Intel's EMIB is also necessary. While SK Hynix does not manufacture 2.5D packaging itself, developing HBM with the structure and characteristics of 2.5D packaging in mind is advantageous for improving yield and reliability. In fact, SK Hynix operates a small-scale line domestically dedicated to 2.5D packaging R&D.\n\nFurthermore, the collaboration is expected to allow Intel to significantly expand its advanced packaging business. Intel's EMIB uses small silicon bridges to connect chips, rather than a broad interposer. Because bridges only need to be placed where chip-to-chip connections are required, chips can be arranged more flexibly and efficiently.\n\nAn industry source explained, \"Intel is currently promoting its EMIB technology aggressively to SK Hynix and major OSATs,\" and \"over the medium to long term, Intel's EMIB is expected to be added to the 2.5D packaging supply chain for AI accelerators.\"\n\n$INTC",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2053730205525770240",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIBQvaTagAAuSZw.png",
+          "width": 600,
+          "height": 294,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2053730230137926121",
+      "kind": "post",
+      "engagement": {
+        "views": 112863,
+        "likes": 632,
+        "reposts": 75,
+        "replies": 25
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2057598767394959604",
+      "date": "2026-05-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AMD",
+      "text": ">> AMD Accelerates Helios Rollout… Taiwan AI Server Supply Chain Gears Up in Earnest\n\n• AMD is accelerating the introduction of its next-generation Helios rack-scale AI platform, with full-scale mass production deployment set to begin in 2H26. As North American CSPs broaden their adoption of AMD AI GPU platforms, Taiwanese ODMs are also moving into production-ready mode.\n\n• Major ODMs including Wistron, Wiwynn, and Inventec have already begun mass production preparations, with sequential shipments expected to start as early as late Q2 to Q3, followed by a full-scale ramp in Q4. The market views rising AMD platform penetration—alongside expanding rack-scale AI server demand—as a new growth engine for the Taiwan AI server supply chain.\n\n• TrendForce notes that the top five North American hyperscalers are sharply increasing rack-scale AI server purchases this year to expand their AI training and inference infrastructure. Accordingly, NVIDIA GB300, AMD Helios, and CSPs' own ASIC platforms are all expected to enter large-scale buildout phases simultaneously.\n\n• The industry view is that cloud companies have aggressively expanded AMD purchases over the past year to avoid excessive concentration of AI compute resources on NVIDIA. AMD's MI300 and MI350 series, in particular, are establishing themselves as one of the core pillars of hyperscalers' future high-performance AI server expansion, positioning AMD as a key player in AI supply chain diversification.\n\n• Microsoft is currently the most aggressive CSP in adopting AMD AI infrastructure, having designated AMD as its second AI accelerator platform. Helios rack systems will begin mass production shipments in 2H26, with MI450-based AI rack systems targeted for deployment before year-end and MI500 series adoption planned for 2027.\n\n• Meta is likewise leveraging AMD platforms as an important supplementary compute resource within its \"Meta Compute\" strategy, aiming to build a hybrid ASIC compute architecture beyond its NVIDIA-centric structure. xAI is also cited as a key customer that has adopted the AMD Helios rack system as core compute infrastructure for AI development.\n\n• Within the Taiwan supply chain, Wistron has secured a substantial volume of AMD front-end board orders and will support shipments of the new platform through its newly built Zhubei Plant 2. Inventec is expected to see a meaningful shipment ramp from Q4 on the back of growing orders from large CSP customers, while Wiwynn is also projected to gradually increase Helios rack system shipments from Q3 onward.\n\n$AMD",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2057598767394959604",
+      "kind": "post",
+      "engagement": {
+        "views": 81473,
+        "likes": 318,
+        "reposts": 38,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2058733798704243047",
+      "date": "2026-05-24",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "▶ Embedded substrates draw AI chip interest as packaging turns strategic\n\n- The growing interest in embedded substrates from major players like Nvidia, AMD, and Intel signals a potential shift in the AI datacenter supply chain.\n\n- The technology can improve signal integrity and power stability for high-performance chips.\n\n- Industry players are also developing EIPD (Embedded Integrated Passive Device) modules to simplify substrate processing and advanced packaging for AI and high-performance computing (HPC) chips.\n\n- An embedded substrate features pre-formed cavities within the substrate to house passive components.\n\n- The most commonly embedded component is the MLCC, with structures divided into semi-embedded and fully-embedded approaches.\n\n- Compared with mounting passive components on the substrate surface, the embedded structure shortens signal paths and reduces parasitic inductance, making it advantageous for achieving impedance matching in the power delivery network (PDN).\n\n- This is expected to improve signal integrity and power stability for AI and HPC chips.\n\n- Embedded designs have already been adopted since the iPhone X-generation application processor (AP) as a way to free up limited PCB surface space.\n\n- That said, large-scale adoption in the AI and server markets remains at an early stage. Embedding capacitors and resistors within the substrate raises costs, and no clear market leader has yet emerged in the industry.\n\n- As a result, whether AI chip customers ultimately adopt the technology is set to become a key competitive variable.\n\n- A range of suppliers—Japan's Ibiden, Korea's Samsung Electro-Mechanics, and Taiwan's Unimicron, Kinsus Tech, and Nan Ya PCB—are scaling up investment in embedded substrate development.\n\n- Some market observers see Samsung Electro-Mechanics as holding an edge, given that it produces both MLCCs and package substrates and is reportedly planning new equipment investment at its Vietnam plant.\n\n- Others, however, point to the stringent control required over materials, drilling precision, and surface flatness in embedded substrate manufacturing, and expect Ibiden and Unimicron to be the preferred partners for demanding AI customers.\n\n- According to Taiwanese suppliers, inquiries about embedded substrates have surged from Nvidia, AMD, Intel, and ASIC customers focused on AI datacenter and HPC server chips.\n\n- Design optimization concepts such as integrated passive device modules are still in the technology validation phase, but industry sources expect mass production to accelerate within the next few years.\n\n- Substrate technology is emerging as a critical platform for supporting the rising power, bandwidth, and integration density of chips.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2058733798704243047",
+      "kind": "post",
+      "engagement": {
+        "views": 45147,
+        "likes": 172,
+        "reposts": 17,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2060268717838307684",
+      "date": "2026-05-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "\"Can't Build Equipment Without the Parts\"… Semiconductor Test Equipment Faces \"Worst-Ever\" Supply Crunch\n\nThe semiconductor test equipment industry is grappling with a severe component shortage—so severe that some are lamenting, \"We can't build semiconductor test equipment because there are no semiconductors.\"\n\nAccording to industry sources on the 29th, the supply of components needed for semiconductor test equipment has become difficult to secure. In particular, lead times for non-memory semiconductors—such as field-programmable gate arrays (FPGAs), central processing units (CPUs), and driver integrated circuits (ICs)—have lengthened dramatically.\n\nFirst, the lead time for the FPGAs needed to operate the equipment has stretched from a previous 8–10 weeks to as much as 52 weeks recently. A distributor source explained, \"It varies by FPGA specification, but it's typically 52 weeks,\" adding that \"supply has become difficult to secure.\" FPGAs are used to analyze test data in real time, quickly identifying problems such as defects. The FPGA market is led by AMD, which acquired Xilinx.\n\nThe situation is the same for driver ICs used in test equipment. Whereas distributors could previously purchase the relevant chips from inventory immediately, it now takes at least 10 weeks or more. In particular, Analog Devices' (ADI) product lineup for automatic test equipment (ATE) is causing an extreme bottleneck. ADI supplies \"pin drivers\"—integrated assemblies of multiple devices—for semiconductor test equipment.\n\nx86-architecture-based CPUs and graphics processing units (GPUs) are also experiencing supply shortages. One semiconductor equipment industry official noted, \"For some products, supply has tightened and unit prices have risen sharply—up to threefold, from a previous 1 million won to 3 million won,\" adding that \"Intel's server CPUs, in particular, are not easy to secure.\"\n\nIntel has recently been allocating its server CPU (Xeon) volumes primarily to high-margin hyperscalers—large-scale cloud service providers—and data center servers. As a result, supply to other markets has been less smooth.\n\nMass production of \"Diamond Rapids,\" the next-generation server CPU, has also been pushed back from the originally planned second half of this year to the middle of next year. Because of this, the development and supply of next-generation equipment that requires the product's high performance and new features have been partially delayed.\n\nIn fact, one particular test equipment manufacturer recently signed an equipment supply contract worth tens of billions of won with Samsung Electronics, but due to delayed component procurement, it had no choice but to push back the delivery date by three months. An industry official said, \"The current situation isn't simply a problem with specific components like FPGAs or CPUs,\" explaining that \"a serious bottleneck is occurring across the entire non-memory semiconductor supply chain.\"\n\nTest equipment manufacturers are responding by placing advance orders for components. Under this approach, they negotiate equipment volumes and delivery dates with customers several months before a formal purchase order (PO) is issued, and order the necessary components ahead of time. Even so, with component delivery delays worsening, fully smooth supply remains difficult to achieve.\n\nThe industry expects the supply crunch for non-memory components used in test equipment to persist for some time. This is because the boom in downstream industries—such as demand for AI and data center infrastructure—continues, driving up demand for semiconductors (components) and semiconductor test equipment simultaneously.\n\nSemiconductor manufacturers that purchase test equipment are also on high alert. As one industry official put it, \"A strategy in which semiconductor manufacturers and equipment makers cooperate closely to respond proactively is increasingly becoming the new normal.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2060268697932226560",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJeLdwobYAAKkoR.png",
+          "width": 600,
+          "height": 320,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2060268717838307684",
+      "kind": "post",
+      "engagement": {
+        "views": 88418,
+        "likes": 428,
+        "reposts": 62,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2060621480208355415",
+      "date": "2026-05-30",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "What should we take away from Dell's earnings — and what upside is left for the company?\n\nFirst: Dell delivered tremendous growth in general-purpose servers.\n\nAs we've argued all along, agentic AI is a tailwind for general-purpose servers. The growing importance of the CPU naturally raises the importance of CPU servers — that is, general-purpose servers. On top of that, general-purpose servers are built largely from pre-existing, mostly commoditized components and are free from NVIDIA's involvement, which gives them far higher margins than GPU servers.\n\nHere's my thesis: agentic AI is real. And traditional general-purpose server leaders like Dell stand to benefit just as much as the CPU makers.\n\nSecond: Dell is holding up better than expected in PCs.\n\nTier-2 and tier-3 players like ASUS and Xiaomi have been blustering that their LTAs leave them reasonably well defended against the memory crunch. Tier-1 vendors like Dell, by contrast, genuinely appear to have priority in securing memory. They also hold a relative advantage in the B2B market, which gives them some room to pass costs through. Quite a few analysts seem to have underappreciated this. And even if the PC market carries unexpected downside, I'd argue general-purpose servers will more than make up for it.\n\nThird: upside from NVIDIA's next chip.\n\nIf NVIDIA's N1/N1X establishes a real foothold in WoA, this isn't merely a case of one more chip supplier entering the market — it opens up an additional architectural path for the PC. That rattles Intel and AMD's defensive line while, at the same time, representing meaningful upside for OEMs like Dell. Once Lenovo, Dell, HP, and ASUS hold an NVIDIA Arm SoC as an option, they can use it to pressure Intel and AMD on CPU pricing and platform subsidies. In a PC downturn like the current one, that could prove to be unexpected upside — though, of course, it all hinges on the forthcoming Agentic Windows on Arm actually delivering.\n\n$DELL",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2060621480208355415",
+      "kind": "post",
+      "engagement": {
+        "views": 88685,
+        "likes": 688,
+        "reposts": 70,
+        "replies": 25
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2061745316945436718",
+      "date": "2026-06-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "@AMD",
+      "text": "@highyieldYT @AMD me too!",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2061745316945436718",
+      "kind": "reply",
+      "engagement": {
+        "views": 6112,
+        "likes": 16,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2062840849621561672",
+      "date": "2026-06-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "Fun fact: NVIDIA uses AMD EPYC, not Intel, in its switch trays. https://t.co/dJX8KuGv1B",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2062840837818699776",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKCu0AZaUAA9QbJ.jpg",
+          "width": 1312,
+          "height": 2048,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2062840849621561672",
+      "kind": "post",
+      "engagement": {
+        "views": 86988,
+        "likes": 443,
+        "reposts": 57,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063753367462256665",
+      "date": "2026-06-07",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "[Exclusive] Samsung Foundry Expected to Return to Profit in Q3 This Year… \"Entering Growth Trajectory After Four Years\"\n\nObservations are emerging internally that Samsung Electronics' foundry division could succeed in turning a profit as early as the third quarter of this year. Analysts point to improved production volumes of advanced 2nm process nodes and the base die used in high bandwidth memory (HBM) as factors giving momentum to profitability improvement.\n\nAccording to the industry on the 8th, the timing of the breakeven target that Samsung Electronics' foundry division had set is expected to be moved up to the third quarter of this year, from the originally projected end of this year through next year, on the back of yield improvements and the effect of large order wins. This would mark an earnings recovery roughly four years after the trillion won scale operating losses that began in 2022. There is an assessment that the foundry division, long identified as the Achilles heel of Samsung's semiconductor business, has entered a structural improvement trajectory faster than expected.\n\nFirst, Samsung Electronics' advanced process is performing better than expected. Samsung Electronics is reported to have raised the yield of its 2nm GAA (gate all around) process to over 60% as of the first quarter of this year. While it still falls short of the 70% level regarded as the benchmark for mass production economics, the industry assesses this as a sufficient level to carry out initial volume production while simultaneously securing new customers. In its first quarter 2026 earnings announcement in April, Samsung Electronics said that \"utilization of its advanced process lines has reached maximum levels.\" Despite the seasonal off peak period, it is understood to have achieved double digit revenue growth compared to the same period a year earlier.\n\nIn addition, the customer acquisition activity that has continued since last year is set to convert into full scale revenue in the second half. Samsung Electronics signed a 22.8 trillion won long term supply contract for autonomous driving chips with Tesla in July last year, and plans to begin 2nm mass production of AI5 and AI6 chips at its Taylor plant in Texas, USA, starting in the second half of this year. NVIDIA CEO Jensen Huang also publicly certified Samsung Electronics' contract manufacturing when he unveiled the AI inference dedicated chip \"Grok3\" during his keynote at \"GTC 2026\" in March.\n\nThe scale of orders is also growing rapidly. Samsung Electronics internally projects that the number of 2nm related orders this year will increase by more than 130% compared to the previous year, and beyond Tesla and NVIDIA, it is expanding the scope of cooperation with multiple big tech firms including Apple and Nintendo. There are also reports that the volume of sixth generation HBM (HBM4) base die has already reached a sold out level.\n\nCost soundness is also expected to improve as mass production ramp up at the Taylor fab soon reverses the fixed cost structure. The Taylor fab, into which 37 billion dollars (about 54 trillion won) was invested, had been a factor deepening the foundry division's losses by generating enormous construction costs. An official familiar with Samsung Electronics explained that \"once mass production gets into full swing in the second half, the calculation shows that the depreciation burden could instead turn into a fixed cost dilution effect, sharply improving the profit and loss structure.\"\n\nThe fact that the advanced process lines of competitor TSMC of Taiwan have effectively entered a saturated state due to a surge in demand for AI accelerators is also working in Samsung Electronics' favor. Some fabless (semiconductor design) firms are actively considering Samsung Electronics as an alternative, and there are observations that AMD is reviewing a dual foundry strategy for a portion of its next generation graphics processing unit (GPU) volumes.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2063753343609282560",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKPsu1XbIAAnxYT.png",
+          "width": 616,
+          "height": 411,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2063753367462256665",
+      "kind": "post",
+      "engagement": {
+        "views": 62095,
+        "likes": 405,
+        "reposts": 54,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064260211117068742",
+      "date": "2026-06-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "I really don’t understand why Citi thinks AMD would use Intel’s EMIB-T. I haven’t heard anything about this at all.\n\nLisa Su would only use Intel if the world were ending tomorrow. Until then, I don’t think she would even consider it. https://t.co/roK75TKGnh https://t.co/TMUcjMwWSg",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [
+        {
+          "media_key": "3_2064260205937074176",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKW5uGraoAAcKm7.jpg",
+          "width": 1180,
+          "height": 473,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2064260211117068742",
+      "kind": "post",
+      "engagement": {
+        "views": 112688,
+        "likes": 431,
+        "reposts": 23,
+        "replies": 40
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066710330819096624",
+      "date": "2026-06-15",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMD",
+      "text": "RT @citrini: AMD and AAPL both, in different ways, have announced a focus on flash as a way to reduce the AI memory tax. We wrote about thi…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2066710330819096624",
+      "kind": "post",
+      "engagement": {
+        "views": 10,
+        "likes": 0,
+        "reposts": 94,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2067092746364748272",
       "date": "2026-06-16",
@@ -37,7 +1136,7 @@
       "url": "https://x.com/jukan05/status/2067092746364748272",
       "kind": "post",
       "engagement": {
-        "views": 148674,
+        "views": 148679,
         "likes": 390,
         "reposts": 52,
         "replies": 15
@@ -70,7 +1169,7 @@
       "url": "https://x.com/jukan05/status/2067093616183677033",
       "kind": "post",
       "engagement": {
-        "views": 141383,
+        "views": 141389,
         "likes": 809,
         "reposts": 96,
         "replies": 17
@@ -103,7 +1202,7 @@
       "url": "https://x.com/jukan05/status/2068833982037565498",
       "kind": "post",
       "engagement": {
-        "views": 74714,
+        "views": 74758,
         "likes": 278,
         "reposts": 30,
         "replies": 15
@@ -130,7 +1229,5 @@
       "close": 551.63
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-23T19:15:53.822606+00:00"
+  "price_status": "ok"
 }

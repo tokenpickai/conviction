@@ -1,0 +1,272 @@
+{
+  "ticker": "FORM",
+  "cashtag": "$FORM",
+  "price_symbol": "FORM",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-13",
+  "last_mention": "2026-05-01",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2043559385562304864",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "FormFactor",
+      "text": "FormFactor and MPI vie to break SiPh test bottleneck as ficonTEC reportedly exits\n\nAs AI data centers officially enter the silicon photonics (SiPh) era, the industry faces severe challenges in testing accuracy and throughput on the path toward mass production of co-packaged optics (CPO) technology. This has drawn close attention to upstream test supply chain dynamics.\n\nInitially, the probe station market for SiPh chip testing was dominated by a three-way rivalry among US-based FormFactor, Germany's ficonTEC, and Taiwan's MPI(https://t.co/rcmXajqpgd). Each partnered with automated test equipment (ATE) suppliers, foundries, and IC design firms to develop solutions.\n\nRecent supply chain reports reveal that after China's RoboTechnik completed a cross-border acquisition in 2025, formally making ficonTEC its wholly owned subsidiary, concerns over technology leakage due to the new Chinese ownership led customers to lose confidence. Consequently, ficonTEC lost ground in the SiPh probe station market, ceding share to FormFactor and MPI.\n\nHowever, some industry insiders argue that ficonTEC's Chinese background is not the decisive factor behind its exit. The primary reason remains its lack of experience in developing probe stations, failing to master core technologies and resolve customer production bottlenecks effectively.\n\nMoreover, if ficonTEC is indeed sidelined by leading global players, this could also impact Teradyne, which closely collaborates with ficonTEC, potentially disrupting future product strategies in SiPh test equipment.\n\nThe testing process for SiPh chips reportedly spans four main phases from wafer level to module packaging: photonic integrated circuit (PIC) testing, wafer-level optoelectronic integration testing, optical engine testing, and post-CPO packaging testing.\n\nAn industry insider describes the second phase as a \"major black hole\" in the SiPh manufacturing flow. Currently, only engineering prototypes exist without automated solutions suitable for mass production, resulting in insufficient scale benefits and inadequate test capabilities.\n\nMPI stated that urgent demand for SiPh testing over the past two years, driven by CPO packaging's optoelectronic integration needs, prompted it to consolidate its LED and advanced semiconductor test (AST) product lines by 2026. This move aims to accelerate development in optoelectronic measurement technologies while maintaining close cooperation with Advantest and Keysight.\n\nExperts emphasize that before full-scale mass production of SiPh chips can be realized, multiple standardization challenges remain in electro-optical testing processes. This highlights the importance of shift-left testing, since failures in highly integrated CPO packaging are costly, making stage-by-stage validation critical to protecting profit margins.\n\nNotably, sources indicate that if the wafer-level optoelectronic integration test bottleneck persists, customers may skip this step during mass production and proceed directly to optical engine testing, where clear solutions already exist, accepting some yield loss and higher costs to ensure final product shipment success.\n\n$TER",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043559385562304864",
+      "kind": "post",
+      "engagement": {
+        "views": 122471,
+        "likes": 121,
+        "reposts": 14,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2050417440975372542",
+      "date": "2026-05-01",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "gross margin beat expectations and rising further",
+        "four key growth drivers: AI-driven share gains, accelerated HBM business ramp, and commercialization of CPO testing",
+        "Investor Day expected to raise long-term revenue target to ~$1.6 billion",
+        "AI probe card share steadily rising via deep partnership with Teradyne",
+        "Nvidia now >10% of revenue; expected to enter AI probe card market with Rubin platform",
+        "HBM4 probe cards carry 20% premium over HBM3E; 70% YoY growth in HBM wafer shipments",
+        "CPO revenue moving toward high end of $10-20M guidance; expected to exceed $100M in 2027",
+        "Keystone acquisition strengthens CPO testing capabilities"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "$FORM",
+      "text": "GF Overseas Electronics & Communications — FormFactor 1Q26 Review: Sufficient Growth Momentum Ahead\n\nGross margin beat expectations; industry momentum continues\n\nFormFactor reported 1Q26 revenue of $230 million, with gross margin reaching 49.0%, up 5.1 percentage points QoQ and 2.5 percentage points above the high end of prior guidance.\n\nManagement guided for 2Q26 revenue of $240 million, with gross margin rising further to 49.5%.\n\nAs previously argued, we remain positive on FormFactor’s four key growth drivers: AI-driven share gains, accelerated HBM business ramp, and the commercialization of CPO testing. The May 11 Investor Day will be the next important catalyst, where we expect management to raise its long-term revenue target to around $1.6 billion.\n\nWe raise our 2026/2027 EPS forecasts to $2.75/$4.30. Applying an unchanged 40x 2027E P/E multiple, we set a target price of $193.\n\nAI probe card share is steadily rising\n\nThrough its deep partnership with Teradyne, FormFactor has become a core probe card supplier to Mellanox, helping Nvidia become a customer accounting for more than 10% of FormFactor’s revenue for the first time.\n\nLooking ahead, the company is expected to enter the AI probe card market starting with Nvidia’s Rubin platform. MediaTek’s Humufish platform scale-up in 2H27 should also bring another wave of incremental revenue.\n\nOn HBM, management stated that its second-largest customer is the biggest source of incremental revenue, which we believe refers to Samsung.\n\nNotably, HBM4 probe cards carry a 20% premium over HBM3E probe cards. Combined with 70% YoY growth in HBM wafer shipments, this should drive both revenue growth and gross margin improvement.\n\nInsertion 1 leadership remains solid; CPO probe cards open up new growth opportunities\n\nThe company’s 2026 CPO-related revenue is moving toward the high end of its $10–20 million guidance range.\n\nWith its Triton series, FormFactor has established a clear leadership position in the Insertion 1 probe station market. We expect shipments to exceed 100 units in 2027, corresponding to CPO revenue of more than $100 million.\n\nIn addition, the Keystone acquisition should further strengthen the company’s probe card technology capabilities in CPO testing. This incremental contribution has not yet been included in current revenue forecasts.\n\n$FORM",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2050417440975372542",
+      "kind": "post",
+      "engagement": {
+        "views": 21080,
+        "likes": 105,
+        "reposts": 9,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-04-13",
+      "close": 128.22
+    },
+    {
+      "date": "2026-04-14",
+      "close": 128.28
+    },
+    {
+      "date": "2026-04-15",
+      "close": 129.62
+    },
+    {
+      "date": "2026-04-16",
+      "close": 127.68
+    },
+    {
+      "date": "2026-04-17",
+      "close": 137.21
+    },
+    {
+      "date": "2026-04-20",
+      "close": 144.03
+    },
+    {
+      "date": "2026-04-21",
+      "close": 142.04
+    },
+    {
+      "date": "2026-04-22",
+      "close": 146.18
+    },
+    {
+      "date": "2026-04-23",
+      "close": 148.37
+    },
+    {
+      "date": "2026-04-24",
+      "close": 155.08
+    },
+    {
+      "date": "2026-04-27",
+      "close": 143.93
+    },
+    {
+      "date": "2026-04-28",
+      "close": 134.18
+    },
+    {
+      "date": "2026-04-29",
+      "close": 135.53
+    },
+    {
+      "date": "2026-04-30",
+      "close": 135.93
+    },
+    {
+      "date": "2026-05-01",
+      "close": 137.37
+    },
+    {
+      "date": "2026-05-04",
+      "close": 134.37
+    },
+    {
+      "date": "2026-05-05",
+      "close": 145.0
+    },
+    {
+      "date": "2026-05-06",
+      "close": 149.12
+    },
+    {
+      "date": "2026-05-07",
+      "close": 144.68
+    },
+    {
+      "date": "2026-05-08",
+      "close": 147.87
+    },
+    {
+      "date": "2026-05-11",
+      "close": 151.4
+    },
+    {
+      "date": "2026-05-12",
+      "close": 132.02
+    },
+    {
+      "date": "2026-05-13",
+      "close": 129.31
+    },
+    {
+      "date": "2026-05-14",
+      "close": 127.99
+    },
+    {
+      "date": "2026-05-15",
+      "close": 126.27
+    },
+    {
+      "date": "2026-05-18",
+      "close": 117.42
+    },
+    {
+      "date": "2026-05-19",
+      "close": 117.2
+    },
+    {
+      "date": "2026-05-20",
+      "close": 125.31
+    },
+    {
+      "date": "2026-05-21",
+      "close": 128.0
+    },
+    {
+      "date": "2026-05-22",
+      "close": 128.99
+    },
+    {
+      "date": "2026-05-26",
+      "close": 136.48
+    },
+    {
+      "date": "2026-05-27",
+      "close": 133.03
+    },
+    {
+      "date": "2026-05-28",
+      "close": 130.22
+    },
+    {
+      "date": "2026-05-29",
+      "close": 124.59
+    },
+    {
+      "date": "2026-06-01",
+      "close": 115.07
+    },
+    {
+      "date": "2026-06-02",
+      "close": 125.11
+    },
+    {
+      "date": "2026-06-03",
+      "close": 126.02
+    },
+    {
+      "date": "2026-06-04",
+      "close": 126.605
+    },
+    {
+      "date": "2026-06-05",
+      "close": 116.7
+    },
+    {
+      "date": "2026-06-08",
+      "close": 124.25
+    },
+    {
+      "date": "2026-06-09",
+      "close": 120.62
+    },
+    {
+      "date": "2026-06-10",
+      "close": 115.81
+    },
+    {
+      "date": "2026-06-11",
+      "close": 130.24
+    },
+    {
+      "date": "2026-06-12",
+      "close": 139.21
+    },
+    {
+      "date": "2026-06-15",
+      "close": 152.6
+    },
+    {
+      "date": "2026-06-16",
+      "close": 140.24
+    },
+    {
+      "date": "2026-06-17",
+      "close": 139.95
+    },
+    {
+      "date": "2026-06-18",
+      "close": 149.55
+    },
+    {
+      "date": "2026-06-22",
+      "close": 156.66
+    }
+  ],
+  "price_status": "ok"
+}

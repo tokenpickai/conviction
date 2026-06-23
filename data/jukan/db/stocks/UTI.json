@@ -1,0 +1,248 @@
+{
+  "ticker": "UTI",
+  "cashtag": "UTI",
+  "price_symbol": "UTI",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-13",
+  "last_mention": "2026-04-13",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2043603693669663044",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "UTI",
+      "text": "Samsung Display to Begin Mass Production of Apple Foldable Panels in Late June — Amphenol Hinge Issues Remain a Variable\n\nSamsung Display has been found to be planning mass production of OLEDs for Apple's first foldable product starting in late June, as of April 13. Foldable OLED shipments could begin in July.\n\nThe internal (main) display size of Apple's foldable product is 7.5 inches — smaller than the 8-inch-class internal display Samsung Electronics is preparing for its foldable phones this year. Samsung Electronics' Galaxy Z Fold7, launched last year, also had an 8.0-inch internal display.\n\nSamsung Display is reportedly planning to produce 8–9 million Apple foldable panels by year-end, enough to manufacture 7–8 million finished units. Panel shipment volumes are typically higher than finished product volumes to account for production yields during final assembly.\n\nOne industry source noted, \"Compared to earlier expectations that Samsung Display would begin shipping Apple foldable panels in June, the schedule has slipped slightly,\" but added, \"the volume originally slated for June shipment was only around 500,000 units, so there is no significant change to the overall timeline.\" The industry currently expects Apple to unveil its first foldable product around September this year.\n\nThe variable is certain component specifications. Unlike bar-type smartphones, foldable products require hinges for folding and unfolding the panel, ultra-thin glass (UTG) cover windows to protect panels from external impact, and multiple protective films applied above and below the UTG.\n\nAmphenol, the U.S.-based company responsible for hinge mass production, is reported to still lack stable enough technology. Depending on when hinge issues are resolved, there could be implications for foldable finished product and panel production schedules.\n\nFor UTG cover windows, China's Lens Technology is supplying as the first vendor. Korea's UTI is aiming to enter as the second vendor. Given that Apple's first foldable product volumes are not large this year, the need for UTG supply chain diversification is limited.\n\nUTI stated in a press release last week regarding convertible bond redemption requests that it is \"positioned as a Tier 1 vendor for a North American client, with mass production set to begin in the second half.\" The \"Tier 1 vendor\" UTI referenced does not mean \"first vendor\" in terms of volume allocation, but rather \"primary supplier\" in terms of vendor qualification tier.\n\nSamsung Display is making supplementary investments in its Gen 6 OLED line for Apple foldable OLED mass production. Apple's foldable product will adopt CoE (Color-filter on Encapsulation) technology, which replaces the polarizer traditionally embedded inside OLEDs with a color filter. This offers advantages in panel thickness reduction, power efficiency, and color reproduction. It is a technology already applied in Samsung Electronics' foldable phones.\n\nIf Samsung Display mass-produces 8–9 million units each of internal and external display OLEDs for Apple's foldable product by year-end, total OLED shipments could increase by 16–18 million units.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2043603678423343104",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFxWt9Ia4AARfbG.png",
+          "width": 640,
+          "height": 350,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2043603693669663044",
+      "kind": "post",
+      "engagement": {
+        "views": 27073,
+        "likes": 111,
+        "reposts": 10,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-04-13",
+      "close": 35.31
+    },
+    {
+      "date": "2026-04-14",
+      "close": 35.21
+    },
+    {
+      "date": "2026-04-15",
+      "close": 35.39
+    },
+    {
+      "date": "2026-04-16",
+      "close": 37.58
+    },
+    {
+      "date": "2026-04-17",
+      "close": 38.25
+    },
+    {
+      "date": "2026-04-20",
+      "close": 38.13
+    },
+    {
+      "date": "2026-04-21",
+      "close": 36.99
+    },
+    {
+      "date": "2026-04-22",
+      "close": 37.86
+    },
+    {
+      "date": "2026-04-23",
+      "close": 36.33
+    },
+    {
+      "date": "2026-04-24",
+      "close": 35.49
+    },
+    {
+      "date": "2026-04-27",
+      "close": 36.18
+    },
+    {
+      "date": "2026-04-28",
+      "close": 35.54
+    },
+    {
+      "date": "2026-04-29",
+      "close": 36.08
+    },
+    {
+      "date": "2026-04-30",
+      "close": 37.53
+    },
+    {
+      "date": "2026-05-01",
+      "close": 36.89
+    },
+    {
+      "date": "2026-05-04",
+      "close": 37.07
+    },
+    {
+      "date": "2026-05-05",
+      "close": 38.62
+    },
+    {
+      "date": "2026-05-06",
+      "close": 36.96
+    },
+    {
+      "date": "2026-05-07",
+      "close": 35.49
+    },
+    {
+      "date": "2026-05-08",
+      "close": 35.74
+    },
+    {
+      "date": "2026-05-11",
+      "close": 36.75
+    },
+    {
+      "date": "2026-05-12",
+      "close": 37.67
+    },
+    {
+      "date": "2026-05-13",
+      "close": 39.75
+    },
+    {
+      "date": "2026-05-14",
+      "close": 41.5
+    },
+    {
+      "date": "2026-05-15",
+      "close": 39.56
+    },
+    {
+      "date": "2026-05-18",
+      "close": 39.06
+    },
+    {
+      "date": "2026-05-19",
+      "close": 36.08
+    },
+    {
+      "date": "2026-05-20",
+      "close": 37.08
+    },
+    {
+      "date": "2026-05-21",
+      "close": 36.6
+    },
+    {
+      "date": "2026-05-22",
+      "close": 40.06
+    },
+    {
+      "date": "2026-05-26",
+      "close": 39.97
+    },
+    {
+      "date": "2026-05-27",
+      "close": 39.4
+    },
+    {
+      "date": "2026-05-28",
+      "close": 39.03
+    },
+    {
+      "date": "2026-05-29",
+      "close": 37.41
+    },
+    {
+      "date": "2026-06-01",
+      "close": 41.39
+    },
+    {
+      "date": "2026-06-02",
+      "close": 41.66
+    },
+    {
+      "date": "2026-06-03",
+      "close": 44.53
+    },
+    {
+      "date": "2026-06-04",
+      "close": 44.9
+    },
+    {
+      "date": "2026-06-05",
+      "close": 43.57
+    },
+    {
+      "date": "2026-06-08",
+      "close": 42.96
+    },
+    {
+      "date": "2026-06-09",
+      "close": 39.28
+    },
+    {
+      "date": "2026-06-10",
+      "close": 39.75
+    },
+    {
+      "date": "2026-06-11",
+      "close": 40.78
+    },
+    {
+      "date": "2026-06-12",
+      "close": 39.14
+    },
+    {
+      "date": "2026-06-15",
+      "close": 36.7
+    },
+    {
+      "date": "2026-06-16",
+      "close": 38.45
+    },
+    {
+      "date": "2026-06-17",
+      "close": 38.75
+    },
+    {
+      "date": "2026-06-18",
+      "close": 40.35
+    },
+    {
+      "date": "2026-06-22",
+      "close": 40.02
+    }
+  ],
+  "price_status": "ok"
+}

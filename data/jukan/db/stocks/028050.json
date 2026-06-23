@@ -1,0 +1,84 @@
+{
+  "ticker": "028050",
+  "cashtag": "Samsung E&A",
+  "price_symbol": "028050",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-22",
+  "last_mention": "2026-04-22",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2046896266538570119",
+      "date": "2026-04-22",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Samsung E&A",
+      "text": "Samsung: $108.1 Billion Poured into P5 Twin Fab… Supplying HBM \"More, Faster\"\n\nSamsung Electronics has launched an unprecedented production speed campaign, activating a \"temporary use\" approach at Fab 4 (P4) of its Pyeongtaek Campus and a \"Twin Fab\" strategy at Fab 5 (P5). With the outlook that the AI semiconductor supercycle will not be a one-off boom but a prolonged phenomenon materializing into reality, this is interpreted as Samsung's decisive bet to completely dominate the AI semiconductor value chain, wielding overwhelming production capacity as its weapon.\n\nThe site where capacity will be expanded first is P4. The \"temporary use\" method Samsung Electronics has decided to apply to the P4 line is an approach whereby use approval for specific zones is obtained before the entire building is completed — allowing cleanroom construction to begin and critical semiconductor equipment to be brought in preemptively. Through this, the physical time required for equipment setup and trial operation can be drastically reduced, pulling operational timing forward by at least six months and increasing chip output.\n\nP5, the next core base, is also focused on speed and efficiency. Samsung plans to construct the new fab that will be built after P5 not as a newly designed P6, but as \"P5-2,\" which will be 100% structurally identical to P5. When semiconductor line designs are changed, major global customers spend several months re-validating product yield and quality. However, when chips are produced in structurally identical twin fabs, complex and time-consuming validation procedures can be skipped, enabling immediate mass supply.\n\nThe reason Samsung Electronics is staking everything on such rapid capacity expansion is that the severe memory supply shortage is intensifying. According to foreign media and other sources, the dominant — and bleak — outlook is that even if global memory manufacturers pour all their efforts into fab expansion and production line conversion through next year, they will only be able to satisfy around 60% of surging memory demand. This means the current AI-driven memory supercycle is on a fundamentally different dimension from past volatile cycles led by replacement demand for downstream IT devices such as PCs and smartphones.\n\nGiven the situation, leaders of global Big Tech firms and C-level executives overseeing procurement are boarding flights to Korea in succession. They are directly visiting memory manufacturers such as Samsung Electronics and requesting Long-Term Agreements (LTA) in 3-to-5-year units, going on emergency footing to secure stable volumes. An industry source explained, \"In a situation where demand is firmly guaranteed and supply is severely insufficient, the company that produces volume first and supplies it at the right time gains an absolute advantage.\"\n\nAnalysts say that by further expanding its already dominant production capacity, Samsung Electronics has seized a golden window to flip the competitive landscape of the High Bandwidth Memory (HBM) market in one stroke. Samsung Electronics reclaimed the top spot in the commodity DRAM market at the end of last year.\n\nThe remaining task is dominating the HBM market, where it has ceded the lead to competitors. Expectations are building that, in step with the launch of NVIDIA's next-generation AI accelerator \"Vera Rubin,\" which enters full-scale mass production in the second half of this year, Samsung Electronics will mass-produce HBM4 at the early-activated P4 and reverse market share at once.\n\nThe scale of capital being deployed to underpin this speed campaign is equally overwhelming. Given that constructing a single P5 fab alone costs approximately KRW 80 trillion ($54 billion), building the twin fabs (P5, P5-2) is projected to require total funding of more than KRW 160 trillion ($108.1 billion). Indeed, Samsung C&T has disclosed a KRW 2.8932 trillion contract for P5 fab construction and related work, while Samsung E&A has disclosed a KRW 1.879 trillion contract for structural framework construction, announced in succession.\n\nBehind these astronomical investments being executed without wavering lies the robust cash generation capability flowing from record-high earnings. Samsung Electronics posted KRW 57 trillion in operating profit in Q1 of this year alone, setting a record that will be etched into Korean corporate history. According to financial information provider FnGuide, driven by the explosion in AI memory demand, Samsung Electronics' annual operating profit forecast for this year is estimated to reach approximately KRW 319 trillion.\n\nExperts view that Samsung Electronics' turnkey (integrated supply) competitiveness — spanning memory, foundry (semiconductor contract manufacturing), design, and packaging — combined with this capacity expansion, will generate explosive synergy. Kim Yong-seok, Chair Professor at Gachon University's Graduate School of Semiconductors, assessed: \"There are even projections that Samsung, having internalized both advanced memory and foundry capabilities, will surpass the heyday of Intel, which dominated the CPU market in the PC era. It has essentially seized the perfect opportunity to newly leap forward as an 'integrated AI semiconductor company.'\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2046896246087151616",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGgJSnga8AAEKpP.jpg",
+          "width": 1200,
+          "height": 675,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2046896266538570119",
+      "kind": "post",
+      "engagement": {
+        "views": 22766,
+        "likes": 125,
+        "reposts": 13,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046897431087022221",
+      "date": "2026-04-22",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Samsung E&A",
+      "text": "Samsung's P4 Sprint: Mass Production Pulled Forward by Half a Year\n\nSamsung Electronics will bring Fab 4 (P4)—the facility it has been building at its Pyeongtaek campus with a KRW 50 trillion investment to expand its artificial intelligence (AI) memory business—into full operation within this year. The company plans to leverage \"temporary use approval\" to advance P4's full ramp by roughly six months versus the original schedule. The strategy is to cement the technological lead of HBM4—the 6th-generation High Bandwidth Memory (HBM) that Samsung was the world's first to mass-produce and ship—through a \"manufacturing super-gap\" backed by overwhelming production capacity.\n\nAccording to industry sources on the 22nd, Samsung Electronics plans to secure temporary use approvals for P4's Sangdong (Ph4) line in July and its Hadong (Ph2) line in November, and commence operations accordingly. Last month, Samsung C&T's Construction division was awarded the P4 Hadong finishing work at KRW 1.3792 trillion, accelerating the final stages of the build. P4, which will house four cleanrooms arranged across two floors, is currently operating at only half capacity.\n\n\"Temporary use\" refers to obtaining approval for specific zones ahead of full completion in order to bring semiconductor equipment in early. Through this mechanism, P4's full-operation timing will be shortened by about half a year versus the prior schedule. With approximately KRW 50 trillion invested into a single fab, the sequential ramp of P4 within this year is expected to further improve Samsung Electronics' earnings as the company rides the semiconductor supercycle.\n\nPyeongtaek Fab 5 (P5), which broke ground on structural framework construction last November, entered main construction this month and is likewise accelerating its build pace. P5 is a mammoth-class fab featuring six cleanrooms across three floors, with total investment expected to exceed KRW 80 trillion. Samsung C&T (KRW 2.8932 trillion) and Samsung E&A (KRW 1.8790 trillion) have recently signed large-scale structural framework and construction contracts with Samsung Electronics, putting the project firmly on track.\n\nSamsung is accelerating its pursuit of a \"manufacturing super-gap\"—on top of its technological lead—in order to respond in a timely manner to surging demand for memory chips including HBM and NAND, driven by products such as NVIDIA's next-generation AI chip \"Vera Rubin,\" which enters mass production in the second half of this year. Samsung Electronics is planning approximately KRW 70 trillion in capex this year, with a significant portion already allocated to the Pyeongtaek campus.\n\nYoung Hyun Jun, CEO and Vice Chairman of Samsung Electronics, recently told shareholders, \"In response to expanding AI demand, we will continue both our facility investments and our research and development (R&D) investments to secure future technologies.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2046897409666789376",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGgKWWLbMAAqY3h.jpg",
+          "width": 1200,
+          "height": 674,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2046897431087022221",
+      "kind": "post",
+      "engagement": {
+        "views": 19412,
+        "likes": 86,
+        "reposts": 10,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

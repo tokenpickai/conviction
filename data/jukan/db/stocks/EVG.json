@@ -1,0 +1,71 @@
+{
+  "ticker": "EVG",
+  "cashtag": "EVG",
+  "price_symbol": "EVG",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-11",
+  "last_mention": "2026-06-11",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2065202679606030628",
+      "date": "2026-06-11",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "EVG",
+      "text": "According to a Chinese sell-side team’s meeting with a Japanese semiconductor equipment company, TEL clearly stated during the discussion that it is pushing for price increases.\n\nTEL also said it has received explicit requests from DRAM and advanced logic customers for earlier deliveries and additional orders. All of its factories are running at full capacity, and the company has fully shifted from single-shift to double-shift production.\n\nEven on the back-end side, based on communications with wafer fabs, some equipment categories are also becoming tight. These include DISCO’s dicing and grinding tools, as well as EVG’s bonding equipment.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2065202679606030628",
+      "kind": "post",
+      "engagement": {
+        "views": 139574,
+        "likes": 488,
+        "reposts": 45,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-06-11",
+      "close": 10.72
+    },
+    {
+      "date": "2026-06-12",
+      "close": 10.74
+    },
+    {
+      "date": "2026-06-15",
+      "close": 10.67
+    },
+    {
+      "date": "2026-06-16",
+      "close": 10.75
+    },
+    {
+      "date": "2026-06-17",
+      "close": 10.67
+    },
+    {
+      "date": "2026-06-18",
+      "close": 10.76
+    },
+    {
+      "date": "2026-06-22",
+      "close": 10.7
+    }
+  ],
+  "price_status": "ok"
+}

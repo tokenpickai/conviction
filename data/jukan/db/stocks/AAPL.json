@@ -8,10 +8,1216 @@
   "company": "Apple",
   "industry": null,
   "thesis_summary": null,
-  "first_mention": "2026-06-16",
+  "first_mention": "2026-03-27",
   "last_mention": "2026-06-18",
-  "total_mentions": 3,
+  "total_mentions": 45,
   "mentions": [
+    {
+      "tweet_id": "2037691012483829836",
+      "date": "2026-03-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "According to a Nikkei report, Apple is considering using NAND from China’s YMTC. https://t.co/wdW9mdJMiP",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2037690900877590528",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEdVFATawAAvIr1.jpg",
+          "width": 1512,
+          "height": 1226,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2037691012483829836",
+      "kind": "post",
+      "engagement": {
+        "views": 56746,
+        "likes": 187,
+        "reposts": 28,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2038910648776614109",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "[Exclusive] Galaxy Z Fold7 & Flip7 Prices Also Rising — Direct Hit from Surging Memory Prices and War\n\nSamsung Electronics is set to raise the retail prices of select models of its Galaxy Z Fold7 and Flip7 smartphones, launched last year. The decision reflects rising cost pressures driven by soaring memory semiconductor prices compounded by war-related headwinds.\n\nAccording to industry sources on March 31, Samsung Electronics will adjust upward the retail prices of the Galaxy S25 Edge and select Galaxy Z Fold7 and Flip7 models effective April 1. The price hikes apply to devices with 512GB or more of storage.\n\nThe increase for 512GB models is understood to be around KRW 100,000. Current retail prices for 512GB configurations are: Galaxy S25 Edge at KRW 1,639,000; Galaxy Z Fold7 at KRW 2,537,700; and Galaxy Z Flip7 at KRW 1,643,400. Models with 1TB storage are reportedly seeing increases of nearly KRW 200,000.\n\nThe affected devices are flagship smartphones Samsung introduced in May and July of last year. Industry observers note the move is unusual, as manufacturers typically lower prices on older models months after launch to maximize sales volume.\n\nThe price hikes stem from the difficulty of absorbing surging memory semiconductor costs. According to DRAMeXchange, DDR4 8GB pricing reached $13 in February this year — roughly a 10x increase from $1.35 in February last year. NAND flash (128GB MLC) also rose fivefold over the same period to $12.67.\n\nTo make matters worse, the U.S.-Israeli airstrikes against Iran that began on February 28 (local time) triggered a broader war, pushing up fuel and logistics costs as well as prices for non-semiconductor components — ultimately forcing price increases even on older devices.\n\nThis is not the first time Samsung has passed memory price increases through to finished smartphone pricing. The Galaxy S26 series, its new flagship for H1 this year, was priced up to KRW 300,000 higher than its predecessor at launch. As a result, the top-spec Galaxy S26 Ultra (1TB) carries a retail price exceeding KRW 2.5 million.\n\nThe issue extends well beyond Samsung smartphones. Rising memory prices are driving broad-based price increases across consumer electronics including smartphones and laptops. Apple’s recently launched MacBook Pro and MacBook Air saw price hikes of $100–400 versus their predecessors. Sony’s PlayStation 5 lineup — including the PS5 Pro and PlayStation Portal — is also expected to see increases of roughly $100.\n\nAn industry source commented: “With memory prices surging to unprecedented levels, manufacturers face significant margin pressure. While demand softening is a concern, cost pressures leave them no choice but to raise product prices.“",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038910643408125952",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEuqbXUawAAy1D8.jpg",
+          "width": 480,
+          "height": 321,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038910648776614109",
+      "kind": "post",
+      "engagement": {
+        "views": 10242,
+        "likes": 51,
+        "reposts": 2,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039513523961876693",
+      "date": "2026-04-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "China's YMTC Closing In on Korea, Stabilizing Cutting-Edge NAND Flash Yields and Ramping Production\n\nYMTC (Yangtze Memory Technologies Co.), China's leading NAND flash manufacturer, is expected to begin full-scale shipments of high-layer NAND from its cutting-edge Wuhan Fab 3 in H2 this year, following the stabilization of its two existing production lines. The company is also reportedly making steady progress in securing major overseas customers — an area where it had previously struggled. YMTC's NAND output is projected to surpass that of SK Hynix and Micron, currently the industry's third and fourth largest players, by year-end.\n\nAccording to industry sources on April 2, YMTC plans to begin mass production of its most advanced NAND products at Wuhan Fab 3 in Hubei Province starting H2 2026. A source familiar with the situation in China noted: \"Wuhan Fab 1 and Fab 2 are already known to be operating near maximum capacity, and Fab 3 — the newest facility — is in the final stages of critical equipment setup ahead of full-scale production.\"\n\nYMTC has expanded its presence in the global NAND market at a remarkable pace over the past two years. Wuhan Fab 2, which began operations in 2024, reportedly reached maximum capacity in just two years. The line currently produces an average of 60,000 wafers per month, while Fab 1, the largest facility, produces 100,000 wafers per month. Annual production volume grew from 1.29 million wafers in 2024 to 1.77 million last year, and is expected to approach 2 million this year.\n\nOnce Wuhan Fab 3 is fully operational, YMTC is set to overtake SK Hynix and Micron in shipment volume, securing the number three position in the global NAND market — trailing only Kioxia (4.82 million wafers) and Samsung Electronics (4.68 million wafers). Notably, YMTC has been steadily increasing its mix of high-complexity 200+ layer NAND across server and mobile segments, moving beyond legacy products, and is expected to stabilize yields on 300-layer products this year.\n\nYMTC's revenue portfolio — historically skewed toward Chinese domestic customers and one of the key reasons the company has been underestimated — is also likely to shift this year. According to Reuters and other outlets, Apple is reportedly evaluating the use of YMTC products due to NAND supply constraints. Apple is said to be concerned about margin compression on major product lines including iPhone, driven by rising DRAM and NAND prices, and has begun considering YMTC as an alternative supplier.\n\nWhile a formal supply agreement with Apple remains uncertain, the prevailing view is that such a deal would be transformative for YMTC. Apple is not just another revenue source — qualifying as an Apple supplier carries significant symbolic weight, as it signals that a company has passed rigorous quality, reliability, and supply stability assessments. If Apple supply is confirmed, other Big Tech companies facing NAND shortages could also begin considering YMTC as an alternative.\n\nAn industry source noted: \"If YMTC supplies NAND to Apple, it would represent a symbolic re-entry into the supply chains of global top-tier OEMs, breaking free from its China-centric customer base. Given that Apple has historically sourced NAND from Samsung, SK Hynix, and Kioxia, YMTC's market positioning would fundamentally change.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2039513260773580800",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HE3OgT8boAA4akD.png",
+          "width": 616,
+          "height": 372,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2039513523961876693",
+      "kind": "post",
+      "engagement": {
+        "views": 144892,
+        "likes": 267,
+        "reposts": 37,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039716783226314998",
+      "date": "2026-04-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AAPL",
+      "text": "Want to hear something interesting?\nApple is more aggressive this year than ever before. They're buying up all available mobile DRAM on the market at extremely high prices, even at the cost of operating profit losses. This isn't because Apple is being naive — they're deliberately driving up DRAM prices so that competitors can't secure memory. The goal is to prevent competitors from building devices due to memory shortages.\nI believe Apple will achieve tremendous market share gains this year.\n\n$AAPL",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2039716783226314998",
+      "kind": "post",
+      "engagement": {
+        "views": 357571,
+        "likes": 1948,
+        "reposts": 120,
+        "replies": 79
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039716785180799042",
+      "date": "2026-04-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "P.S. This is not a recommendation to buy Apple stock. In fact, in the short term, the hit to operating profits could create headwinds.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2039716785180799042",
+      "kind": "self_thread",
+      "engagement": {
+        "views": 33166,
+        "likes": 135,
+        "reposts": 1,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039717464846799086",
+      "date": "2026-04-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "memory",
+      "text": "@lokoyacap In the end, whether memory prices go up or down, Apple wins.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2039717464846799086",
+      "kind": "reply",
+      "engagement": {
+        "views": 11559,
+        "likes": 52,
+        "reposts": 0,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2040568323738640582",
+      "date": "2026-04-04",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "The Critical Weakness of AI Computing Power… Broadcom Identifies \"3 Major Bottlenecks,\" Supply Shortages Could Persist Until 2027 \n\n• Broadcom has identified the key bottlenecks in the current AI supply chain as: ▲lasers, ▲advanced process wafers (particularly TSMC), and ▲PCBs. Notably, lead times for the small-form-factor PCBs used inside optical transceivers have extended from approximately 6 weeks to 6 months, with relief not expected until 2027.\n\n• These small-form-factor PCBs require high-difficulty mSAP processes due to the demands of high-frequency signal processing and ultra-compact design. Because their production processes partially overlap with IC substrates for HBM, the surge in global AI server demand is paradoxically eroding PCB production capacity. Additionally, supplier qualification takes over 6 months, leading hyperscalers to lock in existing supply chains through long-term contracts.\n\n• Laser components have also been flagged as a critical bottleneck in the CPO era. Lasers for AI data centers require high-power, low-noise characteristics, and the yield rate passing stringent reliability testing remains below 30%. The number of vendors with InP (indium phosphide)-based production capabilities is particularly limited, and in CPO architectures, laser demand increases not linearly but multiplicatively, further intensifying supply pressure.\n\n• On the wafer front, TSMC's advanced process nodes are projected to hit a bottleneck by 2026. However, the real issue lies in back-end advanced packaging. The CPO era requires high-difficulty hybrid bonding technology to integrate optical and silicon dies, with throughput and yield severely constrained in the early stages.\n\n• Furthermore, TSMC must allocate the same production lines across NVIDIA, Apple, AMD, and Qualcomm, as well as Google, Meta, and OpenAI — effectively operating production capacity under a \"rationing\" regime. New capacity additions also face 12–18 month equipment lead times, making near-term relief unlikely.\n\n• Meanwhile, expansion at suppliers of packaging substrates, underfill, testing, optical communications, and probe cards is progressing even more slowly, causing bottlenecks to proliferate across the entire supply chain. As a result, supply chain bottlenecks and price inflation are likely to persist structurally, with the segments experiencing bottlenecks emerging as the critical nodes wielding pricing power.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2040568323738640582",
+      "kind": "post",
+      "engagement": {
+        "views": 55842,
+        "likes": 245,
+        "reposts": 29,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041346791082492064",
+      "date": "2026-04-06",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "Nikkei: Apple’s foldable iPhone could be delayed due to design flaws\n\n- Issues surrounding the engineering development of the foldable iPhone are proving more complex than Apple had expected and are taking longer to resolve. In the worst-case scenario, the initial launch could be delayed by several months, according to a source.\n\n- Apple is planning an initial production run of approximately 7 million to 8 million foldable iPhones, according to a source.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2041346776335343616",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFRSE9rbYAAOi-x.jpg",
+          "width": 1558,
+          "height": 1400,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2041346791082492064",
+      "kind": "post",
+      "engagement": {
+        "views": 27681,
+        "likes": 148,
+        "reposts": 11,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041430949079273655",
+      "date": "2026-04-07",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AAPL",
+      "text": "Exclusive: Samsung Electro-Mechanics Supplies Glass Substrate Samples to Apple\n\nSamsung Electro-Mechanics has supplied semiconductor glass substrate samples to Apple. Following custom AI chip designer Broadcom, the company is now supplying samples to end-customer Apple as well, drawing assessments that it is rapidly expanding the scope of its new business.\n\nAccording to reporting by The Elec as of April 7, Samsung Electro-Mechanics has been confirmed to have been supplying glass substrate samples to Apple since last year. The samples are substrate products in which the organic-material core used in conventional flip-chip ball grid array (FC-BGA) has been replaced with glass. Glass offers higher surface flatness compared to organic materials, enabling finer circuit patterning. Its lower coefficient of thermal expansion also suppresses warpage caused by thermal expansion mismatches between the chip and substrate. As AI semiconductors continue to grow in die size due to performance competition, larger substrates exacerbate warpage issues — leading many companies to consider glass substrates a critical element for next-generation products.\n\nBroadcom is the largest potential customer for Samsung Electro-Mechanics' glass substrate business. Broadcom is the market leader in custom AI chips, co-developing AI server chips with Big Tech firms such as Google, Meta, and OpenAI, and converting those designs into foundry-manufacturable form.\n\nSamsung Electro-Mechanics has been supplying glass core substrate samples to Broadcom since last year. If it secures the Broadcom supply, its glass substrates would be mounted on Big Tech companies' custom AI chips.\n\nApple also collaborates with Broadcom on AI server chips. The Information reported in December 2024 that Apple is developing its own AI server chip with Broadcom. Internally codenamed \"Baltra,\" the chip is expected to be manufactured at TSMC fabs.\n\nIndustry observers cite two main reasons why Apple is separately sourcing and evaluating glass substrate samples directly from Samsung Electro-Mechanics, apart from Broadcom. In the near term, Apple likely wants to directly assess the packaging material characteristics that will be applied to the Broadcom platform from the perspective of the end customer. In the longer term, some interpret this as Apple laying the groundwork to eventually handle AI server chip packaging in-house using glass substrates. Apple has a track record of bringing externally sourced components — mobile application processors (APs), GPU IP, modems — in-house through its own design efforts.\n\nEither way, winning Apple would be a major positive for Samsung Electro-Mechanics.\n\nSamsung Electro-Mechanics is currently operating a glass substrate pilot line at its Sejong facility in South Chungcheong Province, targeting mass production from 2027 onward. In November last year, it signed an MOU with Japan's Sumitomo Chemical Group to establish a joint venture for manufacturing glass cores, a key material for glass substrates. The JV is expected to be finalized in the second half of this year, with full-scale equipment investment to follow.\n\nAn industry source said, \"The customer base secured through the existing FC-BGA business can be directly carried over to the glass substrate business,\" adding, \"Glass substrates are still an early-stage market without established standards — the key is not speed to mass production, but building trust by delivering the quality and specifications customers demand.\"\n\n$AAPL $AVGO",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2041430924164997120",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFSenAxaIAAJt-c.png",
+          "width": 600,
+          "height": 400,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2041430949079273655",
+      "kind": "post",
+      "engagement": {
+        "views": 112856,
+        "likes": 200,
+        "reposts": 22,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2042108883259605456",
+      "date": "2026-04-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AAPL",
+      "text": "Samsung Electronics Mobile: Q2 Is the 'Real Crunch'… Concerns Over a Swing to Operating Loss\n\nSamsung Electronics' Mobile eXperience (MX) division posted better-than-expected profitability in Q1. This is attributed to price hikes on new products and the use of existing memory semiconductor inventory to contain cost increases as much as possible.\n\nHowever, memory semiconductor prices have continued to rise sharply into Q2, adding to the burden on the smartphone industry. As a result, concerns are emerging that Samsung's MX division could swing to an operating loss as early as this quarter.\n\nAccording to industry sources on April 9, MX division profitability is expected to decline significantly quarter-over-quarter in Q2.\n\nSamsung Electronics' preliminary results released on April 7 showed revenue of KRW 133 trillion and operating profit of KRW 57.2 trillion. Of this, MX division operating profit is estimated at KRW 3–4 trillion — well above the industry consensus of KRW 2 trillion-range.\n\nThe strong results were driven by multiple factors. The industry had initially expected MX to be hit hard by rising LPDDR prices and growing IT market uncertainty stemming from the war.\n\nIn response, Samsung raised prices on the Galaxy S26 flagship launched in Q1 to defend profitability. The company also reportedly drew down existing memory inventory to suppress cost increases as much as possible.\n\nStill, the consensus view is that the impact of rising memory prices will be unavoidable in Q2. LPDDR prices have been climbing sharply every quarter, and the inventory drawdown strategy is difficult to sustain. In a worst-case scenario, MX could swing to a loss within the quarter.\n\nAn IT industry official noted: \"MX's Q1 profitability came in far above expectations, so the base effect in Q2 will be significant. Given the continued rise in DRAM prices through Q2, the possibility of a swing to loss cannot be ruled out.\"\n\nThe DRAM market has been facing acute supply tightness as global IT companies aggressively expand AI infrastructure spending. At the same time, memory suppliers have been shifting production mix toward higher-margin server DRAM and HBM. NVIDIA-led demand for server LPDDR has also increased. As a result, the supply-demand imbalance for LPDDR used in smartphones and other IT devices has been worsening.\n\nFor example, Apple saw LPDDR prices from Samsung and SK Hynix roughly double QoQ in Q1. In Q2, an additional price increase of at least 50% QoQ is understood to be under discussion.\n\nSamsung's MX division faces a similar level of memory price increases. While it has the structural advantage of sourcing DRAM internally through the Device Solutions (DS) division, it is difficult to deviate significantly from market pricing. If DS were to supply DRAM to MX at excessively low prices, it could raise concerns over preferential treatment.\n\n$AAPL",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2042108875709755392",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFcHM_FaMAAYFon.png",
+          "width": 640,
+          "height": 464,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2042108883259605456",
+      "kind": "post",
+      "engagement": {
+        "views": 43034,
+        "likes": 62,
+        "reposts": 4,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2042109153133654125",
+      "date": "2026-04-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "Apple reportedly isn’t showing much resistance to DRAM price hikes and is accepting them, which is apparently increasing the likelihood that Samsung’s mobile division could swing to a loss. lol. https://t.co/iwAFQdDFCo https://t.co/R8YxAt9F3D",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2042108980416409601",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFcHTFJa8AELG66.png",
+          "width": 1176,
+          "height": 898,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2042109153133654125",
+      "kind": "post",
+      "engagement": {
+        "views": 32677,
+        "likes": 191,
+        "reposts": 19,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043511575013908798",
+      "date": "2026-04-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AAPL",
+      "text": "Gartner: \"Q1 PC Shipments Up 4% YoY… Driven by Inventory Build\"\n\nGlobal PC shipments rose 4% year-over-year in Q1.\n\nMarket research firm Gartner announced on the 13th that Q1 PC shipments reached 62.8 million units, up 4% from the same period last year. However, Gartner noted that the growth was not driven by real end-user demand, but rather by inventory builds in response to surging memory semiconductor prices.\n\nRishi Padhi, Research Director at Gartner, explained: \"The increase in Q1 PC shipments was due to sharp rises in DRAM and NAND flash component costs, prompting vendors and distributors to build inventory ahead of anticipated price hikes in Q2.\"\n\nGartner assessed that artificial growth continued in Q1, similar to last year. In Q1 last year, shipments also exceeded real demand due to preemptive imports ahead of tariffs imposed by the Trump administration.\n\nThe top four PC shipment vendors in Q1 were Lenovo, HP, Dell, and Apple — unchanged from last year. However, ASUS moved up one spot to fifth place, overtaking Acer. Apple posted the highest growth rate among major vendors at 12.7%.\n\nRegarding Apple's surge in PC shipments, Padhi noted: \"This was driven by solid demand for the MacBook Neo, particularly from new Mac adopters and education market buyers. Through strategic positioning, Apple has effectively attracted price-sensitive consumers seeking high-performance devices, strengthening its competitiveness in the PC segment.\"\n\n$DELL $HPQ $AAPL",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2043511552712830976",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFwC7iHa8AA5gUk.png",
+          "width": 700,
+          "height": 324,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2043511575013908798",
+      "kind": "post",
+      "engagement": {
+        "views": 13228,
+        "likes": 59,
+        "reposts": 4,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043560029320823285",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AAPL",
+      "text": "Apple raises MacBook Neo production target to 10 million units.\n\n$AAPL https://t.co/vonOo8CdLG",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2043560021846536192",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFwvAztaMAAqPiC.jpg",
+          "width": 1200,
+          "height": 2048,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2043560029320823285",
+      "kind": "post",
+      "engagement": {
+        "views": 18763,
+        "likes": 173,
+        "reposts": 12,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044323309983297714",
+      "date": "2026-04-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "Daishin Securities analyst Hyung-Geun Ryu published a memory report today, packed with significant alpha. \n\nKey takeaways:\n\n1. Apple is exploiting the memory shortage amid growth stagnation in the North American market. As I've noted previously, Daishin Securities estimates that Apple is capitalizing on competitors' struggles by pursuing an aggressive shipment strategy to expand the iOS ecosystem and strengthen its dominance in the end-device market. In other words, Apple is hoarding memory to prevent competitors from producing smartphones. They've even reportedly raised their iPhone shipment target for this year to 240 million units. As Apple stockpiles memory, Chinese smartphone OEMs have panicked into buying as well.\n\n- Some Chinese customers accepted mobile memory prices in 2Q26 that are 90–100% higher QoQ, following similar increases in 1Q26.\n- As a result, 2Q26 mobile memory prices are expected to rise ~80% QoQ.\n- Despite this, customers are not pushing back on pricing. Per Daishin's channel checks, some mobile customers are locking in annual contracts at the sharply elevated 2Q26 prices and seeking to increase purchase volumes in H2.\n\n2. DRAM capacity shortages are forcing a reduction in HBM4E stack counts. Originally expected at 16-hi and 20-hi, the products are now shifting to 12-hi and 16-hi.\n\n3. HBM4E I/O speed is increasing to 15–16 Gbps, pushing the commodity DRAM-to-HBM trade ratio from the previous 3:1 to as high as 5:1.\n\n4. Legacy DRAM shortages in SSDs are becoming severe. The three major DRAM makers, which can self-supply legacy DRAM (DDR4) used in SSDs, will gain a structural advantage in NAND as well. Bearish Kioxia, SanDisk.\n\n5. Kioxia is expected to increase this year's capex by 40% vs. prior plans.\n\n6. Samsung Electronics earnings revisions: 2026E OP raised from KRW 307T ($208.27B) to KRW 342T ($232.02B); 2027E OP raised from KRW 335T ($227.27B) to KRW 410T ($278.1B).\n\n7. SK Hynix earnings revisions: 2026E OP raised from KRW 232T ($157.3B) to KRW 263T ($178.4B); 2027E OP raised from KRW 260T ($176.3B) to KRW 332T ($225.2B).\n\n8. Target price upgrades: Samsung Electronics raised from KRW 270,000 to KRW 330,000; SK Hynix raised from KRW 1,450,000 to KRW 1,700,000.\n\n9. Despite the upgrades, valuations remain remarkably cheap. On Daishin's revised estimates, Samsung and SK Hynix trade at just 4.8x and 3.9x 2026E P/E, and 4.0x and 3.1x 2027E P/E, respectively.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044323309983297714",
+      "kind": "post",
+      "engagement": {
+        "views": 72916,
+        "likes": 449,
+        "reposts": 68,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044347929050365985",
+      "date": "2026-04-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AAPL",
+      "text": "iPad Air to Switch to OLED in 2027… Samsung Display to Begin Mass Production as Early as Year-End\n\nApple will transition the display of next year's iPad Air to OLED. Following the iPad Pro and Mini, the Air will mark the adoption of OLED across Apple's entire tablet lineup except for the base model, and the domestic display industry supplying OLED to Apple is expected to see expanded benefits.\n\nAccording to industry sources on the 15th, Samsung Display plans to begin mass production of OLED panels for the iPad Air around year-end or January of next year, in order to supply display panels for Apple's next-generation iPad Air slated for release in the first half of next year. The industry expects the iPad Air to launch in either March or May of next year.\n\nAn industry official said, \"While specific volumes have not been confirmed, iPad Air sales have historically exceeded those of the iPad Pro. Unlike the iPad Pro, which saw lower-than-expected demand after its price rose with the adoption of OLED, the iPad Air will use a lower-spec, lower-cost OLED, and is expected to outsell the iPad Pro.\"\n\nThe OLED for next year's iPad Air will feature a single-stack emissive layer, low-temperature polycrystalline silicon (LTPS) thin-film transistors (TFT), and a hybrid substrate.\n\nAs a result, starting next year, all Apple tablet lineups except the base model will have transitioned to OLED. The base model and this year's iPad Air still use mini-LED backlit LCD panels.\n\nThe iPad Air will be the fourth Apple IT device (across tablets and monitors) to adopt OLED. Apple applied OLED to the iPad Pro (11- and 13-inch) in 2024, followed by the iPad Mini (8.5-inch) and MacBook Pro (14- and 16-inch) this year.\n\nAs Apple accelerates the OLED transition for tablets and notebooks that previously used LCD, the favorable landscape for the domestic display industry supplying these panels is expected to continue.\n\nCurrently, Samsung Display and LG Display split the supply of OLED panels for the iPad Pro. Samsung Display will supply panels for this year's MacBook Pro and iPad Mini.\n\nAccording to market research firm Omdia, tablet OLED demand is forecast to grow from 11 million units in 2025 to 13 million in 2026 and 21 million in 2027. Apple is expected to account for roughly two-thirds of that volume.\n\n$AAPL",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044347908754153472",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HF77l3KaoAAw15k.png",
+          "width": 700,
+          "height": 378,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044347929050365985",
+      "kind": "post",
+      "engagement": {
+        "views": 20565,
+        "likes": 135,
+        "reposts": 9,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044570503739044226",
+      "date": "2026-04-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "It seems like a good time to invest in Apple’s value chain…\n\nMy pick is Largan Precision.\n\nKorea’s SK Securities: Apple is considering increasing iPhone production by more than 5% in 2027 as well. Shipments could exceed 260 million units and potentially reach 270 million.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044570503739044226",
+      "kind": "post",
+      "engagement": {
+        "views": 47837,
+        "likes": 475,
+        "reposts": 10,
+        "replies": 14
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045424807614038306",
+      "date": "2026-04-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "Taiwan UMC, Vanguard Raise Chip Prices — Impact of \"De-China\" Supply Chain Restructuring\n\nAs the decoupling between China and non-China semiconductor supply chains peaks, Taiwan's tier-2 foundries UMC and Vanguard (VIS) have gained the leverage to raise chip prices, according to a recent assessment. Years of supply chain restructuring have eroded the cost-advantage argument for shifting production elsewhere, and TSMC's concentration on leading-edge nodes has further benefited these tier-2 players.\n\nIn its April 15 report titled \"Taiwan Tier-2 Foundries: Price Hikes Materializing,\" Nomura Securities noted that UMC and Vanguard plan to raise chip prices and that fab utilization is also climbing.\n\nOne Taiwanese media outlet reported that Vanguard plans to raise foundry prices across all platforms by 10% starting in April. UMC has notified customers that it will adjust foundry pricing in the second half. In both cases, the drivers are pass-through of rising input costs and tight fab utilization.\n\nNomura cited \"the peak-out of supply chain decoupling effects\" as one of the key rationales behind the price hikes at both companies. Over the past 2–3 years, customers looking to migrate volume to Chinese foundries have effectively completed that shift, reducing the customer-attrition risk for UMC and Vanguard.\n\nAs geopolitical risk has elevated the importance of supply chain diversification, flexible production migration has diminished, and the incentive offered by price cuts is no longer what it once was. Taiwan foundries now have less reason to engage in the chicken game being waged by Chinese competitors.\n\nThe shift in TSMC's strategy also matters. As TSMC concentrates its resources on preparing next-generation fabs set to come online from 2028 and on optimizing leading-edge nodes, mature nodes have been deprioritized.\n\nNomura pointed to Vanguard's expanding foundry business with Renesas for AI server PMICs and its growing share within Qualcomm as supporting the price hike. Products on ≤180nm nodes are now shipping as soon as they come off the line. Vanguard's 1Q fab utilization is estimated to have risen to 80–85%.\n\nUMC's 1Q utilization is estimated at roughly 70% for 8-inch and 80% for 12-inch fabs. Both are expected to break above 80% from 2Q onward.\n\nNomura noted that demand for analog and mixed-signal chips from IDMs — which account for roughly 20% of UMC's revenue — is driving performance. Strong Apple device sales this year are also contributing to higher UMC fab utilization. Representative examples include OLED DDIs designed by Novatek and Samsung System LSI for Apple products, as well as ISPs from Samsung System LSI. These products are primarily manufactured on 22/28nm nodes.\n\nNomura forecasts UMC's 2Q revenue to grow 7–9% QoQ, significantly exceeding the street consensus of 2%. Vanguard's 2Q revenue is expected to grow more than 15% QoQ as the price hikes fully flow through — also well above the consensus of 6%.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2045424791243587584",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGLPArDaAAAq1Df.png",
+          "width": 640,
+          "height": 350,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2045424807614038306",
+      "kind": "post",
+      "engagement": {
+        "views": 15689,
+        "likes": 77,
+        "reposts": 7,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046040829706613042",
+      "date": "2026-04-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "アップル",
+      "text": "エルピーダの破綻について、私はそれが民主党側の責任かどうかはさておき、別に多くを言ったりはしないけど、私が知っている一つの事実として、アップルはエルピーダを救おうと本当に必死に努力したということだ。 果ては「日本への投資を止めるかもしれない」とまで言って、日本政府を強く圧迫したほどだったよ。",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046040829706613042",
+      "kind": "post",
+      "engagement": {
+        "views": 134304,
+        "likes": 1212,
+        "reposts": 318,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046041493987799362",
+      "date": "2026-04-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "アップル",
+      "text": "アップルはサプライヤー同士を競わせることに病的に執着するからね…。DRAMメーカーが3社に絞られると自分たちに不利になるって、その頃にはもう分かっていたんだよ。 ティム・クックは本当にサプライチェーンの天才だよ。",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046041493987799362",
+      "kind": "self_thread",
+      "engagement": {
+        "views": 25496,
+        "likes": 294,
+        "reposts": 66,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046378365570171196",
+      "date": "2026-04-20",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "Here are the key things JPM said investors should watch after John Ternus became Apple’s new CEO:\n\n1. Can Apple maintain the industry-leading execution that had become a hallmark of the Tim Cook era under the new leadership?\n2. Under a new leadership team with a background centered more on hardware innovation, where will Services rank in Apple’s overall priorities?\n3. What changes might there be to Apple’s AI strategy and any potential updates?",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046378365570171196",
+      "kind": "post",
+      "engagement": {
+        "views": 27978,
+        "likes": 200,
+        "reposts": 19,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046492060644176113",
+      "date": "2026-04-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "Interesting… According to The Information, Apple’s new CEO John Ternus is said to have a risk-averse personality, which could be seen as a weakness at a time when Apple may need to make bold investments. https://t.co/H45ufvePfN",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2046491509709852672",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGaZL3Ab0AAW_KY.png",
+          "width": 1668,
+          "height": 794,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2046492060644176113",
+      "kind": "post",
+      "engagement": {
+        "views": 45856,
+        "likes": 464,
+        "reposts": 24,
+        "replies": 26
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047109631747711343",
+      "date": "2026-04-22",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AAPL",
+      "text": "Apple Forecast as Sole Notebook Shipment Grower This Year at '21.7%'...Overcoming Memory Price Hikes\n\nMarket research firm Sigmaintell announced on the 22nd that Apple will be the only company to show growth in this year's notebook market.\n\nSigmaintell projects global notebook shipments this year at 181.1 million units, down 8% YoY. The decline is attributed to price increases caused by memory supply shortages and slowing market demand. As a result, all companies except Apple are expected to see negative growth in shipments this year.\n\nSigmaintell estimates Apple's notebook shipments at 28 million units, up approximately 21.7% YoY, ranking third in notebook shipments. The analysis points to Apple's proprietary Unified Memory Architecture (UMA) as having overcome the memory supply difficulties. Apple's UMA integrates and manages hardware resources, using memory more efficiently compared to other companies.\n\nThe new launch of the entry-level MacBook Neo is also seen as a positive factor. The product lineup diversification is analyzed to have expanded market demand. In particular, Apple possesses a diversified revenue structure encompassing software and services such as the App Store and iCloud. This allows the company to minimize the impact of finished-product manufacturing cost fluctuations.\n\nIn contrast, other companies are expected to bear the full brunt of memory price increases. Market leader Lenovo is projected to ship 43 million units, down 6% YoY—lower than the market average decline of 8%. The analysis suggests that the large-scale memory purchases by Lenovo's server division will work favorably in unit-price negotiations.\n\nSecond-place HP is projected at 39 million units, down 11% YoY. Dell's shipments are expected to fall about 7% YoY to 22.5 million units, being overtaken by Apple to fall to fourth place in the market. Fifth-place ASUS is forecast at 16.5 million units, down 10% YoY, while sixth-place Acer is projected at 10.9 million units, down 15%. Acer has a high proportion of low-end products and a relatively small scale of memory purchases.\n\nSigmaintell stated, \"This year, notebook companies are competing not merely through finished-product competition but with the capabilities of the entire group,\" adding, \"Brands that fail to adapt to this change and remain confined to a single hardware-based revenue structure will be eliminated from the market.\"\n\n$AAPL",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2047109604782604288",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGjLVulbgAAiof7.png",
+          "width": 600,
+          "height": 325,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2047109631747711343",
+      "kind": "post",
+      "engagement": {
+        "views": 69349,
+        "likes": 126,
+        "reposts": 8,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048324613592273383",
+      "date": "2026-04-26",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AAPL",
+      "text": "\"Apple to Become World's #3 Notebook Vendor This Year\"... Driven by MacBook Neo and Unified Memory Architecture\n\nApple is projected to overtake Dell to claim the #3 spot in global notebook shipments this year, driven by the recently launched entry-level MacBook Neo and its Unified Memory Architecture (UMA). The global notebook market is expected to contract 8% this year, with Lenovo and Dell — both armed with strong memory procurement leverage — likely to outperform peers.\n\nOn the 26th, market research firm Sigmaintell forecast that global notebook shipments this year will fall 8% to 181.1 million units, down from 196.7 million units last year. The decline reflects rising component prices, particularly memory chips, alongside broader market weakness.\n\nVendor-level shipment forecasts for this year are as follows: Lenovo 43 million units, HP 39 million, Apple 28 million, Dell 22.5 million, Asus 16.5 million, Acer 10.9 million, and others 21.2 million.\n\nApple is the sole major vendor expected to post growth, with shipments rising 22% from 23 million units last year to 28 million this year. Every other major vendor is projected to decline year-over-year. Dell's shipments are expected to drop from 24.2 million to 22.5 million units, allowing Apple to leapfrog Dell into third place.\n\nApple has rounded out its MacBook lineup this year with the launch of the entry-level MacBook Neo. The previous MacBook lineup consisted of the Pro and Air, both priced above the Neo. The MacBook Neo starts at 990,000 won.\n\nSigmaintell also highlighted Apple's Unified Memory Architecture (UMA). UMA is a design unique to Apple Silicon in which the CPU and GPU share memory resources. According to Sigmaintell, Apple has standardized memory specifications across multiple product lines, improving flexibility in component sourcing.\n\nApple's revenue model is another differentiating factor. Apple generates substantial services revenue from the App Store, iCloud, and similar offerings, meaning it does not need to fully pass through memory price increases into finished-product pricing. Apple uses hardware like the MacBook as an \"entry point\" into its ecosystem, with services revenue offsetting hardware-side cost pressure.\n\nSigmaintell noted that Apple's revenue model differentiates it from x86-camp Windows notebook vendors that rely on Intel and AMD CPUs. The x86 camp is heavily dependent on hardware sales. While Apple's notebook shipment forecast trails Lenovo and others, per-unit profit and overall margins are expected to exceed those of peers.\n\nWithin the x86 camp, fortunes are expected to diverge this year due to differences in memory procurement power. Lenovo and Dell, both with sizable server businesses, are expected to outperform, while Asus and Acer — with minimal server market share — face greater headwinds. Servers consume far more memory per unit than notebooks, so a larger server business translates into stronger memory procurement leverage. Securing memory in bulk at relatively lower prices helps ease cost pressure on the notebook side.\n\nAll major x86 notebook vendors are expected to see shipment declines this year, but the magnitude varies. Lenovo, with its high server market share, is forecast to decline 6% (45.6 million → 43 million units), and Dell 7% (24.2 million → 22.5 million units) — both narrower than the overall market's expected 8% decline.\n\nIn contrast, HP is projected to decline 11% (43.7 million → 39 million units), Asus 10% (18.4 million → 16.5 million units), and Acer 15% (12.9 million → 10.9 million units) — all steeper than the broader market. Acer's heavy reliance on low-end products is a particular drag.\n\nCombined shipments from vendors outside this top tier are expected to plunge 27%, from 28.9 million units last year to 21.2 million units this year.\n\n$AAPL",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2048324595221196800",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HG0cXera8AAnfCn.png",
+          "width": 640,
+          "height": 359,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2048324613592273383",
+      "kind": "post",
+      "engagement": {
+        "views": 33041,
+        "likes": 238,
+        "reposts": 18,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048590989787553962",
+      "date": "2026-04-26",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AAPL",
+      "text": "According to Ming-Chi Kuo, OpenAI is reportedly entering the smartphone market. Would this be a negative for $AAPL?",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048590989787553962",
+      "kind": "post",
+      "engagement": {
+        "views": 152403,
+        "likes": 386,
+        "reposts": 13,
+        "replies": 95
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2049625970198589689",
+      "date": "2026-04-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "I’m skeptical that Qualcomm can stage a meaningful rebound within this year.\n\nWhy did Apple choose to adopt WMCM packaging for the iPhone 18? It was precisely to enable the use of more DRAM for on-device AI.\n\nHowever, according to recent industry checks, even Apple appears to have walked back full-scale WMCM adoption for the iPhone 18 and decided to use it only in the higher-end lineup. Even in the high-end models that do use WMCM, there appears to be no RAM upgrade versus the previous generation.\n\nIf even Apple — the company with the strongest buying power in the industry — is facing this reality, how exactly is Qualcomm supposed to deliver on-device AI?\n\nIf Qualcomm can deliver on-device AI without additional mobile DRAM, that would imply it has achieved some extraordinary algorithmic breakthrough that bypasses the memory wall. I’m skeptical of that.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2049625970198589689",
+      "kind": "post",
+      "engagement": {
+        "views": 62248,
+        "likes": 341,
+        "reposts": 26,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2050024550176522452",
+      "date": "2026-04-30",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AAPL",
+      "text": "Thoughts from Apple’s earnings call:\n\nMemory does not seem to be the bottleneck preventing Apple from shipping products. Rather, it is a cost variable pressuring margins. In contrast, SoC / leading-edge node capacity appears to be the supply constraint that is actually limiting unit shipments.\n\nApple seems to be able to secure enough memory. The issue is that it cannot ship enough products because it is not getting sufficient SoC supply due to tight TSMC leading-edge capacity.\n\nMac mini and Mac Studio demand has been stronger than expected, as they are increasingly being recognized as strong platforms for AI and agentic tools.\n\n→ There is currently no AI platform that can really match Apple’s unified memory architecture.\n\nAmkor bullish?\n\nMemory costs were already higher in the March quarter, and Apple expects significantly higher memory costs in the June quarter.\n\n→ Memory prices are likely to rise even more sharply in calendar 2Q. If even Apple — arguably the strongest buyer in the world — is acknowledging memory cost pressure, then this cycle is not over yet.\n\n$AAPL",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2050024550176522452",
+      "kind": "post",
+      "engagement": {
+        "views": 63164,
+        "likes": 429,
+        "reposts": 29,
+        "replies": 24
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2050374333848322448",
+      "date": "2026-05-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AAPL",
+      "text": ">> AI Demand Drives Inventory Shortages: Apple Raises Mac mini Starting Price by $200\n\n• Apple has raised the starting price of the Mac mini from $599 to $799, reflecting inventory shortages driven by AI demand and tighter processor supply. The price increase was effectively implemented by removing the entry-level 256GB storage model. The base configuration still uses the same M4 chip, but now starts with 512GB of storage. Meanwhile, the starting price of the M4 Pro model remains unchanged at $1,399.\n\n$AAPL",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2050374333848322448",
+      "kind": "post",
+      "engagement": {
+        "views": 248542,
+        "likes": 356,
+        "reposts": 28,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051149610304111046",
+      "date": "2026-05-03",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AAPL",
+      "text": "Morgan Stanley analyst Erik Woodring expects Apple to raise prices by at least $100 across all iPhone 18 models launching in the second half of this year, on a like-for-like configuration basis.\n\n$AAPL",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2051149610304111046",
+      "kind": "post",
+      "engagement": {
+        "views": 86448,
+        "likes": 250,
+        "reposts": 18,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051515981781234051",
+      "date": "2026-05-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "Whoa! BBG: Apple is considering using Samsung Foundry and Intel Foundry. https://t.co/JuLqfROEHr",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2051515973266763776",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHhy6IWa8AAiijl.jpg",
+          "width": 1320,
+          "height": 1974,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2051515981781234051",
+      "kind": "post",
+      "engagement": {
+        "views": 129771,
+        "likes": 849,
+        "reposts": 96,
+        "replies": 49
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051519558113263706",
+      "date": "2026-05-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "@Alex_Intel_ I don’t have high expectations for Apple. At most, Samsung could probably win modem orders.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2051519558113263706",
+      "kind": "reply",
+      "engagement": {
+        "views": 1271,
+        "likes": 3,
+        "reposts": 1,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2052892859716833724",
+      "date": "2026-05-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "This is pretty surprising…\n\nApparently, DJT himself told Apple to use Intel, saying, “I like Intel.” per WSJ https://t.co/Hk4IPBoqgU",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2052892614190678016",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HH1W9LbbwAASkka.png",
+          "width": 1272,
+          "height": 1102,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2052892859716833724",
+      "kind": "post",
+      "engagement": {
+        "views": 307368,
+        "likes": 1361,
+        "reposts": 56,
+        "replies": 57
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2053625371996918241",
+      "date": "2026-05-10",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "Korea’s Daishin Securities: Samsung Foundry is estimated to have won a 2nm notebook CPU order from a North American fabless customer.\n\n* Could it be Apple?",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2053625371996918241",
+      "kind": "post",
+      "engagement": {
+        "views": 200064,
+        "likes": 574,
+        "reposts": 40,
+        "replies": 30
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2054564780732498342",
+      "date": "2026-05-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "From GFHK Monthly Call: Apple and Intel already signed an agreement in December 2025. The M7 chip will use Intel 18A-P and is expected to enter production by the end of 2027, while the smartphone chip will use Intel 14A and is expected to enter production by the end of 2028.\n\n$INTC",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2054564780732498342",
+      "kind": "post",
+      "engagement": {
+        "views": 127480,
+        "likes": 466,
+        "reposts": 43,
+        "replies": 21
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2054617022546219106",
+      "date": "2026-05-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "@TBU12345678 Could an OpenAI smartphone become a threat to Apple’s long-term future?",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2054617022546219106",
+      "kind": "reply",
+      "engagement": {
+        "views": 13593,
+        "likes": 40,
+        "reposts": 0,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2054988988331831580",
+      "date": "2026-05-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "\"For the next several years, the bulk of advanced-node orders will remain with TSMC. Apple is therefore one of the very few, and arguably the most complete, foundry training opportunities available to Intel: the orders span Apple’s full product line, are large enough in scale, and require dynamic design and production adjustments in response to market shifts. Although Apple’s orders are unlikely to dramatically reverse IFS’s quarterly losses in the short term, and shipment share will remain constrained by capacity and yield, the strategic significance of this partnership runs far deeper than the headline financials.\n\nThat said, Apple’s demanding standards, combined with Intel’s strategy of simultaneously taking orders from other customers, will amplify the difficulty of rebuilding Intel’s advanced-node foundry business. Intel’s own efforts, geopolitics, and customer-side hedging have together given Intel a once-in-a-generation window to rebuild its foundry business. Whether Intel can turn this window into results now depends entirely on execution.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2054988988331831580",
+      "kind": "post",
+      "engagement": {
+        "views": 77981,
+        "likes": 307,
+        "reposts": 21,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2055274233585111041",
+      "date": "2026-05-15",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "Today’s report from Tech Taiwan:\n\nGoogle reportedly told TSMC directly, “We want to become your direct major customer.”\n\nIn other words, Google’s ultimate goal appears to be following an Apple-style COT model, bypassing both Broadcom and MediaTek. https://t.co/mFlyEREg6l",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2055273358875676672",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIXMOwgb0AAI3Zz.jpg",
+          "width": 1320,
+          "height": 2096,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2055274233585111041",
+      "kind": "post",
+      "engagement": {
+        "views": 243692,
+        "likes": 739,
+        "reposts": 75,
+        "replies": 29
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2060140629649486165",
+      "date": "2026-05-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "Samsung Electronics Eyed for Anthropic Chip Order… Foundry Revival Begins\n\nSamsung Electronics has made an investment in Anthropic, the U.S. AI company behind the AI model \"Claude,\" raising the possibility of a foundry partnership in which Samsung would manufacture Anthropic's chips on a contract basis.\n\nSamsung's foundry business, which has run at a loss for several years, has recently landed a string of major global customers, fueling growing expectations for a return to profitability next year.\n\nOn the 28th (local time), Anthropic announced that it had raised $65 billion in its recent Series H funding round, with its post-money valuation assessed at $965 billion (about 1,440 trillion won).\n\nThe three major memory semiconductor manufacturers—Samsung Electronics, SK Hynix, and Micron—participated in this funding round as \"strategic infrastructure partners.\"\n\nAnthropic emphasized that \"the technologies of these companies play a critical role in the global supply of memory, storage, and logic chips,\" adding that \"partnerships with them will be a great help in reliably scaling computing capacity to meet customer needs.\"\n\nAnthropic's mention of \"logic chips\" in its announcement has prompted speculation about a foundry partnership with Samsung Electronics. The process of manufacturing logic chips is foundry work, and aside from Samsung Electronics, neither Micron nor SK Hynix has a foundry division. For this reason, the industry analyzes that Samsung Electronics and Anthropic will newly collaborate not just at the memory level but also in foundry.\n\nThis implies a high likelihood that Samsung Electronics will produce the AI chips used in Anthropic's flagship model \"Claude.\" Anthropic, alongside OpenAI, is regarded as one of the world's leading AI model companies and a core AI player. The prevailing view is that Samsung's foundry has secured yet another major customer, following Tesla, NVIDIA, and others.\n\nEarlier, Samsung Electronics won orders for Tesla's next-generation AI chips, \"AI5\" and \"AI6.\" Samsung's foundry is also handling production of an upgraded version of \"AI4.\" NVIDIA's inference-dedicated language processing unit (LPU) chip \"Grok3\" is likewise being produced through Samsung's foundry. Samsung Electronics also plans to supply the image sensor to be mounted in Apple's new iPhone next year.\n\nAccordingly, attention is focused on whether Samsung Electronics' foundry business—which has run at a loss in recent years—can regain its vitality. As of last year, Samsung Electronics held second place (7.2%) in the global foundry market, but the gap with first-place TSMC (69.9%) reaches 62.7 percentage points.\n\nRegarding Samsung's investment in Anthropic, the industry views it as strategic cooperation spanning \"AI semiconductors, memory, foundry, and AI infrastructure.\" Samsung Electronics is positioning a \"one-stop solution\"—encompassing high-bandwidth memory (HBM), advanced foundry processes, and advanced packaging—as its differentiation point. As the AI market evolves into an ecosystem centered not only on HBM supply but also AI chip design, production, packaging, and system optimization, the move is interpreted as Samsung strengthening partnerships by leveraging its competitiveness across the semiconductor spectrum.\n\nA semiconductor industry official said, \"Samsung's investment is not a simple equity stake in an AI company, but is interpreted as a signal that Samsung is earnestly expanding strategic relationships with the key players of the AI era,\" adding, \"Expectations are growing as to whether Samsung's foundry business can seize another opportunity amid the expansion of the AI market.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2060140603644715008",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJcW9sOaIAAwwUC.jpg",
+          "width": 1200,
+          "height": 655,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2060140629649486165",
+      "kind": "post",
+      "engagement": {
+        "views": 49977,
+        "likes": 383,
+        "reposts": 55,
+        "replies": 16
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063753367462256665",
+      "date": "2026-06-07",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "[Exclusive] Samsung Foundry Expected to Return to Profit in Q3 This Year… \"Entering Growth Trajectory After Four Years\"\n\nObservations are emerging internally that Samsung Electronics' foundry division could succeed in turning a profit as early as the third quarter of this year. Analysts point to improved production volumes of advanced 2nm process nodes and the base die used in high bandwidth memory (HBM) as factors giving momentum to profitability improvement.\n\nAccording to the industry on the 8th, the timing of the breakeven target that Samsung Electronics' foundry division had set is expected to be moved up to the third quarter of this year, from the originally projected end of this year through next year, on the back of yield improvements and the effect of large order wins. This would mark an earnings recovery roughly four years after the trillion won scale operating losses that began in 2022. There is an assessment that the foundry division, long identified as the Achilles heel of Samsung's semiconductor business, has entered a structural improvement trajectory faster than expected.\n\nFirst, Samsung Electronics' advanced process is performing better than expected. Samsung Electronics is reported to have raised the yield of its 2nm GAA (gate all around) process to over 60% as of the first quarter of this year. While it still falls short of the 70% level regarded as the benchmark for mass production economics, the industry assesses this as a sufficient level to carry out initial volume production while simultaneously securing new customers. In its first quarter 2026 earnings announcement in April, Samsung Electronics said that \"utilization of its advanced process lines has reached maximum levels.\" Despite the seasonal off peak period, it is understood to have achieved double digit revenue growth compared to the same period a year earlier.\n\nIn addition, the customer acquisition activity that has continued since last year is set to convert into full scale revenue in the second half. Samsung Electronics signed a 22.8 trillion won long term supply contract for autonomous driving chips with Tesla in July last year, and plans to begin 2nm mass production of AI5 and AI6 chips at its Taylor plant in Texas, USA, starting in the second half of this year. NVIDIA CEO Jensen Huang also publicly certified Samsung Electronics' contract manufacturing when he unveiled the AI inference dedicated chip \"Grok3\" during his keynote at \"GTC 2026\" in March.\n\nThe scale of orders is also growing rapidly. Samsung Electronics internally projects that the number of 2nm related orders this year will increase by more than 130% compared to the previous year, and beyond Tesla and NVIDIA, it is expanding the scope of cooperation with multiple big tech firms including Apple and Nintendo. There are also reports that the volume of sixth generation HBM (HBM4) base die has already reached a sold out level.\n\nCost soundness is also expected to improve as mass production ramp up at the Taylor fab soon reverses the fixed cost structure. The Taylor fab, into which 37 billion dollars (about 54 trillion won) was invested, had been a factor deepening the foundry division's losses by generating enormous construction costs. An official familiar with Samsung Electronics explained that \"once mass production gets into full swing in the second half, the calculation shows that the depreciation burden could instead turn into a fixed cost dilution effect, sharply improving the profit and loss structure.\"\n\nThe fact that the advanced process lines of competitor TSMC of Taiwan have effectively entered a saturated state due to a surge in demand for AI accelerators is also working in Samsung Electronics' favor. Some fabless (semiconductor design) firms are actively considering Samsung Electronics as an alternative, and there are observations that AMD is reviewing a dual foundry strategy for a portion of its next generation graphics processing unit (GPU) volumes.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2063753343609282560",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKPsu1XbIAAnxYT.png",
+          "width": 616,
+          "height": 411,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2063753367462256665",
+      "kind": "post",
+      "engagement": {
+        "views": 62095,
+        "likes": 405,
+        "reposts": 54,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064259571741503826",
+      "date": "2026-06-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "I’m curious whether Apple’s FFN NAND-like approach reduces the mobile DRAM requirement needed for on-device AI.\n\nIf so… why doesn’t Nvidia use this kind of technology? Wouldn’t that mean the 128GB in N1X is overkill? https://t.co/j8H3PP8u9i https://t.co/NoUz6TZ24Z",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2064259567077519360",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKW5I6vbcAA-Lsc.jpg",
+          "width": 1594,
+          "height": 918,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2064259571741503826",
+      "kind": "post",
+      "engagement": {
+        "views": 137772,
+        "likes": 236,
+        "reposts": 23,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064838255582097523",
+      "date": "2026-06-10",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "Nvidia's AI ramp deepens memory squeeze as cloud providers lock up supply through 2028\n\nMemory shortages tied to Nvidia's next wave of AI hardware are expected to intensify through 2027 and into 2028, as major cloud service providers continue to secure long-term supply for data-center buildouts, according to supply-chain sources. The pressure is already rippling through DRAM and NAND markets, with OEMs and module makers warning of tighter availability and weaker room for additional orders.\n\nCloud providers and OEMs race to secure capacity\nAs Nvidia's next-generation AI accelerator, Vera Rubin, is set to ship in the second half of 2026 and HBM4 moves into mass production, cloud service providers, or CSPs, are continuing to invest heavily in AI data-center expansion. Supply-chain sources said CSP leaders have already booked all available 2027 long-term agreement, or LTA, capacity and are now moving to secure 2028 supply as well.\n\nThe AI boom has driven a wave of memory shortages, and several memory module makers have recently received notices from original equipment manufacturers stating they will not be able to provide any additional supply beyond previously promised volumes. Upstream capacity has been heavily diverted toward Nvidia-related AI servers and toward CSP demand, leaving almost all of 2027's capacity already committed to CSP customers.\n\nSupply-chain sources said shortages in DRAM and NAND are expected to widen from the second half of 2026. OEMs have also disclosed that Apple has continued to secure third-quarter memory capacity for new product launches, while other brands are being forced to move ahead with production plans despite the strain.\n\nThat means memory makers must support Vera Rubin mass shipments while also meeting rising demand from other end devices and edge AI. This combination is expected to tighten global supply further. Industry consensus is increasingly that the 2027 shortage will be worse than the 2026 one.\n\n2028 supply talks begin early\nAfter locking up 2027 capacity, CSP leaders are also moving ahead of schedule to secure 2028 LTA supply. Upstream suppliers expect memory prices to remain strong. While they were unwilling to release 2028 capacity before May 2026, they have recently become open to discussing first-quarter 2028 orders, with some HBM and server capacity already allocated.\n\nIndustry sources said LTA structures vary by supplier. Only a few require advance deposits or prepayments; most rely on customers first committing to expected volumes, after which suppliers adjust expansion timelines accordingly. Final selling prices are still confirmed only before actual shipments, suggesting memory makers remain confident in contract price gains over the next two to three years.\n\nAlthough CSP companies were once rumored to be willing to fund dedicated production lines at memory makers and subsidize purchases of expensive semiconductor manufacturing equipment, industry insiders said upstream suppliers are already highly profitable and have already planned new fabs and equipment budgets. They do not need to tie themselves to a single customer to build production lines, but CSPs are still rushing to secure long-term memory contracts to avoid a repeat of the supply crunch in the second half of 2025 to 2026.\n\nTight DRAM supply drives capacity hoarding and AI server cost pressures\nSources said memory module makers are also using prepayment models for certain product lines, paying suppliers in advance at previously agreed lower prices and then covering the gap when the original maker is ready to ship at market rates. While this increases short-term funding pressure, it helps them lock in critical capacity early.\n\nIndustry analysts said server memory and standard memory share similar design architectures, unlike embedded memory, so capacity allocation at suppliers is mainly crowding out standard and PC memory, which together account for roughly 60% to 70% of the entire DRAM market. That shift has pushed PC memory's share of total DRAM down from 11% to 12% in the past to just 9%.\n\nNvidia CEO Jensen Huang recently confirmed that SK Hynix, Samsung Electronics, and Micron have all received HBM4 certification, have begun production, and are fully supporting Vera Rubin. Addressing rumors that memory usage would be cut sharply, Huang said future systems will still use a great deal of high-speed memory. Still, the shortage must be managed rationally across all systems, and supply must be expanded further.\n\nIndustry sources also said AI servers are seeing downgrades in high-capacity memory configurations. While 128GB was originally the mainstream specification, some customers are switching to 64GB or 96GB to cut costs amid high prices and tight supply. Although that does not significantly reduce overall memory usage, it highlights how elevated memory costs are slowing the AI server upgrade cycle.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2064838249198325760",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKfHcpobEAAqxVh.png",
+          "width": 640,
+          "height": 427,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2064838255582097523",
+      "kind": "post",
+      "engagement": {
+        "views": 103525,
+        "likes": 548,
+        "reposts": 63,
+        "replies": 30
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066710330819096624",
+      "date": "2026-06-15",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AAPL",
+      "text": "RT @citrini: AMD and AAPL both, in different ways, have announced a focus on flash as a way to reduce the AI memory tax. We wrote about thi…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2066710330819096624",
+      "kind": "post",
+      "engagement": {
+        "views": 10,
+        "likes": 0,
+        "reposts": 94,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066843939320258703",
+      "date": "2026-06-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Apple",
+      "text": "Korean media: Huawei to accelerate the launch of the Mate 90 series, with a release expected as early as August–September this year, in a direct challenge to Apple’s iPhone lineup.\n\n- Huawei’s decision to intentionally move the Mate 90 launch closer to the iPhone release window is being interpreted as a sign of growing confidence in its technological competitiveness.\n\n- According to sources cited by Korean media, the Kirin chip powering the Mate 90 is expected to deliver performance comparable to TSMC’s 3nm-class technology.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2066843907611324416",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK7nlVdacAAvQTA.jpg",
+          "width": 1568,
+          "height": 948,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2066843939320258703",
+      "kind": "post",
+      "engagement": {
+        "views": 50315,
+        "likes": 261,
+        "reposts": 29,
+        "replies": 20
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2067092746364748272",
       "date": "2026-06-16",
@@ -37,7 +1243,7 @@
       "url": "https://x.com/jukan05/status/2067092746364748272",
       "kind": "post",
       "engagement": {
-        "views": 148674,
+        "views": 148679,
         "likes": 390,
         "reposts": 52,
         "replies": 15
@@ -70,7 +1276,7 @@
       "url": "https://x.com/jukan05/status/2067418881002725737",
       "kind": "post",
       "engagement": {
-        "views": 110254,
+        "views": 110265,
         "likes": 932,
         "reposts": 86,
         "replies": 29
@@ -103,7 +1309,7 @@
       "url": "https://x.com/jukan05/status/2067471416140964199",
       "kind": "post",
       "engagement": {
-        "views": 260464,
+        "views": 260480,
         "likes": 1645,
         "reposts": 150,
         "replies": 76
@@ -130,7 +1336,5 @@
       "close": 297.01
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-23T19:15:52.736982+00:00"
+  "price_status": "ok"
 }

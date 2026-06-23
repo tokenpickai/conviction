@@ -1,0 +1,51 @@
+{
+  "ticker": "CAMBRICON",
+  "cashtag": "Cambricon",
+  "price_symbol": "CAMBRICON",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-03",
+  "last_mention": "2026-04-03",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2040242690999328981",
+      "date": "2026-04-03",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Cambricon",
+      "text": "The Information: DeepSeek V4 would represent a major win for Huawei\n\n— DeepSeek's next-generation model, DeepSeek V4, is expected to launch within the coming weeks. Two variant models optimized for different capabilities are also being developed in parallel, all designed to run on Huawei semiconductors.\n\n— In preparation for the V4 launch, major Chinese big tech companies have pre-ordered hundreds of thousands of Huawei chips, signaling intent for rapid adoption across cloud and AI applications.\n\n— DeepSeek is working with Huawei and Cambricon to migrate NVIDIA-based models to Chinese chips, which involves partially rewriting internal code and verifying performance.\n\n— This migration work was the primary cause of the delay from the originally planned February launch. Simultaneously, model performance improvements and infrastructure expansion are underway to prepare for a surge in new users.\n\n— Unlike before, DeepSeek is not providing NVIDIA with early access to the new model, granting it exclusively to Chinese semiconductor companies — a clear signal of a domestic ecosystem-first strategy.\n\n— Huawei is positioning itself as a realistic alternative to NVIDIA through an inference-centric chip strategy rather than focusing on training.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2040242662486540288",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFBl5FEbgAAowlM.jpg",
+          "width": 2572,
+          "height": 1906,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2040242690999328981",
+      "kind": "post",
+      "engagement": {
+        "views": 126546,
+        "likes": 240,
+        "reposts": 21,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

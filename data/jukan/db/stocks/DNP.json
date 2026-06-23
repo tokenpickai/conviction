@@ -1,0 +1,79 @@
+{
+  "ticker": "DNP",
+  "cashtag": "Dai Nippon Printing",
+  "price_symbol": "DNP",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-09",
+  "last_mention": "2026-06-09",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2064479776728076323",
+      "date": "2026-06-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Dai Nippon Printing",
+      "text": "China's semiconductor glass substrate push closes in on Korea with price and volume\n\nChina's \"semiconductor glass substrate rise\" is threatening because it offers an attractive option to chipmakers, the end customers: the ability to secure price competitive glass substrates in large volumes. The industry worries that while demand will initially favor products from front runners such as Korea in the early stage of the glass substrate market, China's share will gradually expand.\n\nOfficially, the first Chinese company to enter the semiconductor glass substrate business was BOE. A global display manufacturer, BOE designated semiconductor glass substrates as a future growth engine, leveraging its glass processing expertise from LCD and other display production. It is moving at full speed, having built a pilot production line only about two years after declaring its market entry.\n\nVisionox, considered one of China's top three display companies, is also investing in glass substrates. Since last year it has been assembling a supply chain of materials, components, and equipment for glass substrate manufacturing, and it is currently making capital investments in production facilities. The company is reportedly in contact with numerous materials, components, and equipment suppliers, working hard to implement the best possible process technology.\n\nSemiconductor substrate companies and outsourced semiconductor assembly and test (OSAT) companies are also entering the glass substrate market and securing technology. Based on what has been identified so far, more than ten companies are estimated to be participating in the market.\n\nAn official in the materials, components, and equipment industry commented, \"The defining feature of China's glass substrate development is that they rapidly pursue a wide variety of attempts to secure and validate technology. They are accelerating technological advancement at a pace that feels almost aggressive.\"\n\nSome companies are known to have secured technology on par with, or close to surpassing, Korean glass substrate manufacturers. An official at a partner company of a Chinese glass substrate maker said, \"We believe China has nearly caught up with Korea in through glass via (TGV) and etching, the core technologies of glass substrates. Once they resolve metallization and other remaining issues, we expect them to begin full preparations for mass production.\"\n\nThe United States, Korea, and Japan have been preparing their glass substrate businesses since around 2010 to 2020. They have accumulated technology accordingly, but full scale capital investment only began around 2023 to 2024. Today, the representative semiconductor glass substrate manufacturers include Intel of the United States; Absolics (an SKC subsidiary), Samsung Electro Mechanics, and LG Innotek of Korea; Dai Nippon Printing (DNP) of Japan; and Unimicron of Taiwan.\n\nBecause the front runners spent a long time preparing, the stability and reliability of their glass substrate prototypes are assessed as higher than China's. However, the industry believes that at China's current pace of pursuit, the situation could quickly reverse. From the customer's perspective, products from Korea, the United States, and Japan may be adopted in the early phase of semiconductor glass substrate adoption, but once China achieves mass production, there is a strong possibility customers will switch or diversify their supply chains.\n\nAn official in the semiconductor glass substrate industry said, \"Many big tech companies, including Broadcom, Amazon Web Services (AWS), and Samsung Electronics, are pushing to adopt semiconductor glass substrates. If Chinese products stabilize, there is a strong possibility the supply chain mix will shift toward China on cost and productivity grounds. The real competition will take place at the mass production stage.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2064479776728076323",
+      "kind": "post",
+      "engagement": {
+        "views": 83538,
+        "likes": 368,
+        "reposts": 43,
+        "replies": 23
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-06-09",
+      "close": 10.74
+    },
+    {
+      "date": "2026-06-10",
+      "close": 10.75
+    },
+    {
+      "date": "2026-06-11",
+      "close": 10.74
+    },
+    {
+      "date": "2026-06-12",
+      "close": 10.77
+    },
+    {
+      "date": "2026-06-15",
+      "close": 10.72
+    },
+    {
+      "date": "2026-06-16",
+      "close": 10.78
+    },
+    {
+      "date": "2026-06-17",
+      "close": 10.72
+    },
+    {
+      "date": "2026-06-18",
+      "close": 10.69
+    },
+    {
+      "date": "2026-06-22",
+      "close": 10.74
+    }
+  ],
+  "price_status": "ok"
+}

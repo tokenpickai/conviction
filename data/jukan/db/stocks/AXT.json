@@ -1,0 +1,75 @@
+{
+  "ticker": "AXT",
+  "cashtag": "AXT",
+  "price_symbol": "AXT",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-15",
+  "last_mention": "2026-06-16",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2066375594481439123",
+      "date": "2026-06-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AXT",
+      "text": "▶ China eases InP substrate exports, lifting compound semiconductor supply\n\n• China has approved new shipments of export-controlled InP substrates. Following partial approvals in 2025, the first 2026 batch shipped in late May, easing capacity bottlenecks in the optical communications market.\n\n• Taiwanese compound semiconductor players such as VPEC and GCS are expected to benefit from 2H onward as InP substrate supply loosens.\n\n• China began restricting substrate exports in February 2025, cutting off shipments from the China production base of US-based AXT. The incumbent InP substrate market has been dominated by AXT and Japan’s Sumitomo.\n\n• As optical communications grows in importance for high-speed datacenter transmission, access to InP material has emerged as the single largest capacity constraint across the compound semiconductor supply chain.\n\n• China’s InP substrate exports run under a closed-loop control regime: epitaxy houses, foundries, and end customers must submit proof of production and demand before export volumes are reviewed and approved.\n\n• After approving exports of 8,000 InP substrates in August 2025, China cleared an additional 4,000-substrate shipment in late May 2026. These substrates will go through epitaxy at upstream players such as VPEC before being supplied to compound semiconductor makers.\n\n• GCS’s US 4-inch fab carries capacity of 4,500 substrates/month, or 50,000/year, but the InP shortage meant it had largely been running RF components, with optoelectronics making up just 25% of output.\n\n• With the InP shortage temporarily easing, GCS expects shipments to recover gradually from July–August 2026, and growth in its in-house optoelectronics revenue should support 2H26 earnings and margins.\n\n• GCS’s revenue mix is 70% optoelectronics and 30% RF components, and the company plans to further expand optoelectronics capacity to improve profitability.\n\n• With the optical communications market set to enter a phase of explosive growth in 2027–2028, GCS projects PD demand to expand to over 40,000 units/year by 2028. It is anchored on 100G PDs while gradually ramping 200G PD capacity.\n\n• GCS has completed development of 70mW and 100mW CW laser products but, given certification timelines and technical barriers, has invested in Wellywave Semiconductors to build laser production capacity in Taiwan and scale up mass production in 2027.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2066375594481439123",
+      "kind": "post",
+      "engagement": {
+        "views": 116798,
+        "likes": 284,
+        "reposts": 40,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066733744686551332",
+      "date": "2026-06-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AXT",
+      "text": "Supply security over cost: Google leads CSP charge to diversify InP substrate sourcing\n\nChina has recently eased controls on some indium phosphide (InP) substrates, relieving a bottleneck in optical communications capacity for the second half of the year. But supply chain players say the long-term priority is still to expand substrate capacity from non-China sources, with supply security for the AI industry outweighing price.\n\nRepresentatives from Google and other cloud service providers (CSPs) have personally visited overseas substrate makers to signal that demand for their products is real and substantial.\n\nGiven the technological rivalry between the US and China, Beijing began imposing export controls on InP substrates in February 2025, a move the industry has viewed as retaliation for US restrictions on advanced chip exports.\n\nShortage hampers high-speed transmission\nAs AI infrastructure drives greater demand for high-speed transmission, the shortage of compound semiconductor substrates caused by China's export controls has become a major bottleneck for the optical communications industry.\n\nSources familiar with the compound semiconductor supply chain say the InP substrate market has long been dominated by AXT, Japan's Sumitomo, and JX Advanced Metals. AXT and Sumitomo each hold about 40% of the market, together controlling roughly 80% of global InP substrate capacity.\n\nRecently, the industry has raised concerns that the shipment schedule for co-packaged optics (CPO) could be delayed. Meanwhile, industry insiders say that CSPs have already raised their inter-rack transmission requirements from 400G to 800G. Even though in-rack compute nodes still rely mainly on copper wiring for now, CPO scale-out will become the mainstream trend, pushing optical communications demand to peak in 2027 and 2028.\n\nThe search for non-China substrates\nThere has been some good news on China's InP substrate export controls. After a batch of substrates was released in August 2025, the first 2026 batch of InP substrates began shipping at the end of May, which could support second-half operations for Taiwan-based compound semiconductor suppliers including Visual Photonics Epitaxy (VPEC) and Global Communication Semiconductors (GCS).\n\nBut industry sources stressed that supply chain security is currently a top concern, one that even overtakes price considerations. Even if China temporarily loosens its substrate export controls and optical communications shipments remain stable in the second half of the year, companies still need to aggressively expand their sources from Europe and Japan over the longer term.\n\nSources said that non-China supply must eventually exceed 50% of total substrate sourcing to ensure supply chain stability.\n\nHowever, under China's export controls, large substrate inventories have accumulated inside the country, and domestic makers such as Yunnan Germanium are aggressively expanding capacity, triggering price competition among local substrate suppliers. Overseas makers are also worried that if China fully opens exports in the future, low-priced InP substrates will flood other markets, discouraging local producers from expanding production.\n\nGerman manufacturer Freiberg Compound Materials originally specialized in gallium arsenide (GaAs) substrates and currently ships only small volumes of InP substrates, with yields still needing improvement. Japanese suppliers have also been relatively conservative about expanding production.\n\nSubstrate makers need more certainty before committing to capacity expansion. To that end, Google and other CSP giants have been visiting suppliers in person to make one thing clear: demand for their products is genuinely substantial.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2066733725657018368",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK6DX5sbMAAjHti.png",
+          "width": 640,
+          "height": 427,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2066733744686551332",
+      "kind": "post",
+      "engagement": {
+        "views": 42933,
+        "likes": 260,
+        "reposts": 22,
+        "replies": 18
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

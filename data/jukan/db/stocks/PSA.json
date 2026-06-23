@@ -1,0 +1,112 @@
+{
+  "ticker": "PSA",
+  "cashtag": "Walsin Technology",
+  "price_symbol": "PSA",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-01",
+  "last_mention": "2026-06-01",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2061625448405381323",
+      "date": "2026-06-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Walsin Technology",
+      "text": "Just in: Taiwanese passive components maker Walsin Technology (PSA) has announced price hikes for chip resistors and certain passive components, citing rising raw material and operating costs.\n\nThe price hike trend is now spreading from MLCCs and tantalum capacitors to resistors as well.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2061625439429529600",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJxdagkbEAAsPPY.jpg",
+          "width": 907,
+          "height": 1280,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2061625448405381323",
+      "kind": "post",
+      "engagement": {
+        "views": 69325,
+        "likes": 254,
+        "reposts": 28,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-06-01",
+      "close": 295.8
+    },
+    {
+      "date": "2026-06-02",
+      "close": 299.14
+    },
+    {
+      "date": "2026-06-03",
+      "close": 301.97
+    },
+    {
+      "date": "2026-06-04",
+      "close": 306.66
+    },
+    {
+      "date": "2026-06-05",
+      "close": 309.68
+    },
+    {
+      "date": "2026-06-08",
+      "close": 311.08
+    },
+    {
+      "date": "2026-06-09",
+      "close": 322.86
+    },
+    {
+      "date": "2026-06-10",
+      "close": 323.87
+    },
+    {
+      "date": "2026-06-11",
+      "close": 324.71
+    },
+    {
+      "date": "2026-06-12",
+      "close": 325.94
+    },
+    {
+      "date": "2026-06-15",
+      "close": 320.98
+    },
+    {
+      "date": "2026-06-16",
+      "close": 320.17
+    },
+    {
+      "date": "2026-06-17",
+      "close": 312.58
+    },
+    {
+      "date": "2026-06-18",
+      "close": 318.12
+    },
+    {
+      "date": "2026-06-22",
+      "close": 320.22
+    }
+  ],
+  "price_status": "ok"
+}

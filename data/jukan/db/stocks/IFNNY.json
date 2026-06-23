@@ -1,0 +1,156 @@
+{
+  "ticker": "IFNNY",
+  "cashtag": "Infineon",
+  "price_symbol": "IFNNY",
+  "exchange": "OTC US",
+  "currency": "USD",
+  "ticker_mapped": true,
+  "company": "Infineon Technologies",
+  "industry": "Power/Automotive Semiconductors",
+  "thesis_summary": null,
+  "first_mention": "2026-03-29",
+  "last_mention": "2026-05-25",
+  "total_mentions": 5,
+  "mentions": [
+    {
+      "tweet_id": "2038381107524284784",
+      "date": "2026-03-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Infineon",
+      "text": "Beyond Memory to Non-Memory… Semiconductor Prices Rising Across the Board\n\nPrice increases are spreading not only in memory semiconductors but also across the non-memory space. Following the AI infrastructure investment boom that has driven up DRAM and NAND flash prices, supply disruptions and price hikes are now emerging in analog chips, power semiconductors, communications chips, and CPUs. The industry views this as a phase in which the AI-driven demand shock is propagating throughout the broader semiconductor ecosystem.\n\nAccording to industry sources on March 30, semiconductor prices are trending upward across the full spectrum of end markets, including PCs, automotive, and servers. Intel and AMD — the two dominant players in PC CPUs — are reportedly set to implement price increases, while semiconductor companies spanning automotive, power, and communications are raising prices in succession.\n\nPer market research firm TrendForce, Dutch automotive and industrial semiconductor company NXP is expected to begin raising prices starting next month. Texas Instruments (TI) and Infineon have also joined the price hike trend. STMicroelectronics, widely regarded as Europe's largest \"semiconductor department store,\" is also expected to pursue price increases. The pattern of price escalation originating in memory and spreading into analog and power semiconductors is becoming unmistakable.\n\nThe prevailing interpretation is that these price increases stem from a bottleneck in chip production: while automotive and industrial demand remains steady, a significant share of mature-node capacity at foundries such as TSMC and Samsung Electronics is being absorbed by AI and data center applications. As AI server buildouts drive up demand for power management ICs and peripheral chips, the push to pass through rising costs into pricing is intensifying.\n\nAn executive at a major domestic foundry commented, \"Given current foundry production trends and contract pricing, there is a strong likelihood of continued price adjustments going forward — particularly in power management semiconductors, industrial analog components, and select power switch product lines.\"\n\nCommunications chips and networking components are no exception. Broadcom recently disclosed that surging demand for AI chips and networking has pushed production capacity at its key manufacturing partner TSMC to a bottleneck. Considering that lead times for optical communications components such as lasers and PCBs have extended from existing order cycles to multi-month timelines, procurement pressure on high-performance networking chips and interconnect components appears to be mounting as well. Even though communications chips are not traded at standardized prices like memory, actual contract unit prices and supply terms are likely tightening.\n\nCPUs are also not immune to upward pricing pressure. According to recent reports from TrendForce and Tom's Hardware, Intel and AMD are pursuing average price increases of 10–15% on CPUs, citing expanded AI demand and supply constraints. Lead times for some PC OEMs — the time from order to delivery — have reportedly stretched from the typical one to two weeks to as long as six months. Should CPUs, the quintessential general-purpose compute chips, join the price hike procession, it would further reinforce the narrative that semiconductor price inflation is spreading beyond memory into the broader system semiconductor space.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038381082685644800",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEnIy35aoAA18g2.png",
+          "width": 616,
+          "height": 415,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038381107524284784",
+      "kind": "post",
+      "engagement": {
+        "views": 50246,
+        "likes": 196,
+        "reposts": 25,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047178442953953530",
+      "date": "2026-04-23",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Infineon",
+      "text": ">> MCU Price Hike Cycle Goes Full Throttle… Sweeping Increases Across Global and Chinese Players\n\n• Entering 2026, MCU chip prices began rising from the start of the year and have sharply accelerated heading into Q2. Chinese local player Zhongwei Semiconductor fired the opening shot back in January by raising MCU prices by 15–50%, and the trend has since spread across the board in Q2.\n\n• In April, global players joined in. Texas Instruments, Infineon, and STMicroelectronics pushed through price hikes on select products effective April 1st, and in particular, TI's analog chips saw hikes of up to 85% in some cases, amplifying the shock to the market.\n\n• Chinese sell-side reports are flagging Espressif (乐鑫), GigaDevice, and Sino Wealth (中颖) as key beneficiaries. Bestechnic (恒玄), Amlogic (晶晨), and Espressif (乐鑫) are also being categorized as high-growth candidates with projected net profit growth of 30%+ over the next two years.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047178442953953530",
+      "kind": "post",
+      "engagement": {
+        "views": 31520,
+        "likes": 96,
+        "reposts": 12,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048911765279584366",
+      "date": "2026-04-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Infineon",
+      "text": "FYI: Lead times for power semiconductors have become extremely stretched because of AI servers. According to industry sources, delivery times for some products from major suppliers such as Infineon, TI, and onsemi have extended to as long as 30 weeks.\n\nAs a result, the spillover effect appears to be reaching second- and third-tier Taiwanese players as well, including Panjit and Taiwan Semiconductor.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048911765279584366",
+      "kind": "post",
+      "engagement": {
+        "views": 139344,
+        "likes": 435,
+        "reposts": 27,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2050840412815044823",
+      "date": "2026-05-03",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Infineon",
+      "text": "Samsung Reignites SiC Foundry Push — Targeting 2028 Mass Production\n\nSamsung Electronics has restarted its silicon carbide (SiC) foundry business. By entering the SiC market — increasingly seen as the next-generation power semiconductor material — the company is aiming both to secure leadership in the segment and to lift utilization at its existing 8-inch foundry lines. The industry expects Samsung to begin SiC mass production in 2028.\n\nAccording to industry sources on the 3rd, Samsung Electronics has recently resumed discussions with partner companies on building out a SiC production line. The company is exploring technology acquisition and commercialization strategies with materials, parts, and equipment (소부장) suppliers. With some partners, Samsung is reportedly already negotiating the scale of additional equipment purchases for SiC production.\n\n\"The SiC foundry initiative, which had been on hold for some time, has now formally resumed,\" one industry source said. \"Initial groundwork has begun for SiC to be established as a new growth driver for Samsung Electronics.\"\n\nSiC is a compound of silicon and carbon, and SiC-based semiconductors are more resistant to high temperatures and high voltages than conventional silicon. Together with gallium nitride (GaN), this is why SiC is drawing attention as a next-generation power semiconductor material — it offers higher performance and greater stability than silicon-based power devices.\n\nA number of power semiconductor companies are accordingly investing in SiC and GaN to capture the market. Demand is expanding beyond traditional applications such as electric vehicles, EV charging, and solar power, and most recently into the data center market, driven by the need for power efficiency in AI infrastructure.\n\nSamsung Electronics is understood to have prepared the SiC business in parallel with its formal entry into GaN in 2023. At that time, demand for 8-inch (Si) foundry capacity was steadily declining, and the company was looking to secure new long-term growth drivers. 8-inch foundry lines mainly produce mature-node products, which carry lower margins than 12-inch.\n\nSiC, by contrast, is at the leading edge on 8-inch wafers, with the industry actively transitioning from 6-inch to 8-inch. For Samsung, this offers a way to address low utilization at its 8-inch lines through SiC. Investment efficiency is also high, since some existing equipment can be repurposed. This was the rationale behind Samsung's initial push into SiC as a future business in 2023.\n\nHowever, progress slowed amid the broader semiconductor downturn and as Samsung concentrated on restoring competitiveness in its memory business. \"R&D continued, but commercialization was effectively on hold,\" another industry source said, describing the mood at the time.\n\nSamsung's recent moves are interpreted as a clear signal of a full-scale restart of the SiC program. As the memory business recovers, the company is also moving to secure next-generation growth drivers in foundry.\n\nMaterials, parts, and equipment suppliers expect Samsung to begin building out the supply chain within this year, based on the current stage of discussions. A pilot line for prototype production is expected to be built next year, with full mass production targeted for 2028. This roadmap is reportedly already being shared with partner companies.\n\nSamsung's entry into the SiC market is expected to bring it into competition with incumbent players. Globally, onsemi, STMicroelectronics, and Infineon are pursuing the SiC business, while domestically, DB HiTek and SK Keyfoundry are the main players.\n\nA Samsung Electronics representative declined to elaborate, saying only, \"Nothing has been specifically confirmed yet.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2050840403671408640",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHYMezfaYAAtOET.png",
+          "width": 700,
+          "height": 427,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2050840412815044823",
+      "kind": "post",
+      "engagement": {
+        "views": 50435,
+        "likes": 217,
+        "reposts": 32,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2058837366199189819",
+      "date": "2026-05-25",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Infineon",
+      "text": "▶ AI data centers spark 800V HVDC rush for Taiwan lead frame suppliers\n\n- The shift toward 800V high-voltage direct current (HVDC) power architectures in AI data centers is gathering pace, driving a surge in demand for power semiconductors.\n\n- As a result, shipments at Taiwanese lead frame makers SDI Corporation and Jih Lin Technology are climbing, with both companies expected to deliver double-digit revenue growth in 2026.\n\n- Lead frame suppliers note that demand for AI server power-management systems has risen sharply in recent months, with orders from global IDM customers such as Infineon and STMicroelectronics also expanding.\n\n- Whereas automotive demand had previously been the key growth driver, 2026 is shaping up to be the inflection point at which servers take over that role, marking a structural shift in lead frame demand.\n\n- Lead frame makers explain that the automotive-grade product expertise they have built up over years is proving to be a critical foundation for entering the AI server power-management market, since automotive and AI servers share similar requirements in terms of high-power handling, thermal dissipation, and reliability.\n\n- SDI notes that, in the near term, the pickup in orders for AI power management is running ahead of expectations. In particular, its high-power lead frame products for HVDC applications have moved beyond the R&D stage into volume production, with more than 40 custom projects currently underway.\n\n- SDI's AI-related revenue accounted for only around 1% of the total in 2025, but is set to rise quickly to 6% in the first quarter of 2026. The company also expects the revenue contribution from HVDC-related projects to ramp up in earnest from the second half of 2026.\n\n- Jih Lin notes that, supported by a recovery in the automotive market and expanding AI server demand, utilization has risen to the 70–75% range. It also expects 2026 revenue to grow quarter over quarter, making its full-year target of NT$6 billion achievable.\n\n- Jih Lin's AI-related revenue stood at roughly 5–7% of the total in 2025, and the market expects that share to surpass 10% by 2027.\n\n- The company is expanding into the AI power-management market on the strength of its integrated stamping-and-etching capabilities, and continues to develop 40–50 new products each year.\n\n- It is also applying the double-sided cooling and thermal-dissipation technologies previously used in automotive modules to its AI server products, and says it is receiving a positive response at the customer evaluation stage.\n\n- Overall, Taiwanese lead frame makers emphasize that order visibility is improving significantly, underpinned by expanding AI demand and long-standing partnerships with IDM and OSAT customers.\n\n- Players with high automotive exposure expect the expansion of ADAS and the vehicle electrification trend to likewise drive a recovery in automotive semiconductor demand.\n\n- The industry views the inventory correction phase as effectively complete, and sees a strong likelihood that shipment momentum will build further as 2026 progresses into the second half.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2058837366199189819",
+      "kind": "post",
+      "engagement": {
+        "views": 72277,
+        "likes": 297,
+        "reposts": 28,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

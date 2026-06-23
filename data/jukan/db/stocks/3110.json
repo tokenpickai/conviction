@@ -1,0 +1,362 @@
+{
+  "ticker": "3110",
+  "cashtag": "Nittobo",
+  "price_symbol": "3110.T",
+  "exchange": "Tokyo",
+  "currency": "JPY",
+  "ticker_mapped": true,
+  "company": "Nittobo",
+  "industry": "Glass Fiber/AI Substrates",
+  "thesis_summary": null,
+  "first_mention": "2026-03-29",
+  "last_mention": "2026-06-14",
+  "total_mentions": 12,
+  "mentions": [
+    {
+      "tweet_id": "2038175585768493516",
+      "date": "2026-03-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nittobo",
+      "text": "Prismark: \"T-Glass Supply Shortage from Japan's Nittobo Set to Widen\"\n\nMarket research firm Prismark recently forecast that the supply shortage of T-glass from Japanese materials manufacturer Nittobo will continue to deepen. While Nittobo is expanding its T-glass production capacity, demand is growing at an even faster pace. When factoring in capacity expansion plans from competitors such as Taiwan Glass, the overall market supply shortage could ease somewhat — though competitor technology capabilities and big tech procurement decisions remain key variables.\n\nT-glass is a glass fiber yarn used as a raw material for low-CTE (coefficient of thermal expansion) copper-clad laminates (CCL). As a key input material for printed circuit boards (PCBs), it is used not only in high-end smartphones such as Apple's iPhone, but also in semiconductor substrates for servers. T-glass is technically a Nittobo trade name, but given Nittobo's near-monopoly market position, the term has become the industry-wide generic for low-CTE CCL glass fiber yarn.\n\nAs the substrate area used in AI servers and data centers continues to grow, major tech companies including NVIDIA, Google, and Amazon have been exclusively sourcing T-glass from Nittobo. As a result, demand for T-glass began exceeding Nittobo's production capacity in the second half of 2024. At the time, multiple big tech companies approached Nittobo directly requesting capital investment in additional capacity, and Nittobo has been ramping production accordingly — but demand is outpacing supply even faster.\n\nAccording to Prismark, Nittobo's T-glass production capacity stood at 500,000 square meters (㎡) as of Q1 this year. The combined capacity of all competing players in the market still falls short of Nittobo's alone. Estimated competitor capacities are as follows: Taiwan Glass (Taiwan) — 100,000 ㎡; Taishan Glass (China) — 50,000–100,000 ㎡; Grace Fabric Technology (China) — 100,000 ㎡; Nan Ya Plastics (Taiwan) — 50,000 ㎡. These companies have yet to meet big tech's technical qualification standards, leaving Nittobo in a position of effective market monopoly.\n\nBoth Nittobo and its competitors are expanding capacity. Nittobo plans to invest $530 million in its T-glass segment, and by 2028, its T-glass production capacity could double from the first half of this year. Looking at 2028 capacity estimates by vendor, Nittobo's share is projected at approximately 55%, with all other players collectively accounting for the remaining 45%.\n\nHowever, when considering only Nittobo-qualified supply, Prismark forecasts that the T-glass shortage will persist through this year and next, and is expected to widen even further by 2028.\n\nWhile not included in the Prismark report, one domestic PCB industry source noted: \"Competitors are also undergoing T-glass technology evaluations with big tech, but the technology gap versus Nittobo remains substantial. Unless big tech changes its policy of using only Nittobo's product, the T-glass supply shortage will be difficult to resolve for the foreseeable future.\"\n\nFor reference, a lower coefficient of thermal expansion means less substrate warpage during high-temperature processing — an advantage for both substrate enlargement and finer circuit patterning requirements. When substrates warp during the fine circuit formation process at high temperatures, circuit traces can break. In Korea, companies such as Doosan and LG Chem produce CCL. Domestic companies that purchase CCL to manufacture semiconductor substrates include Samsung Electro-Mechanics, LG Innotek, Daeduck Electronics, Korea Circuit, and Simtech.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038175568680947712",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEkN4YkbkAAq1Bt.png",
+          "width": 640,
+          "height": 411,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038175585768493516",
+      "kind": "post",
+      "engagement": {
+        "views": 96532,
+        "likes": 230,
+        "reposts": 37,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2038176799377776728",
+      "date": "2026-03-29",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "dominance in T-glass is bound to persist",
+        "big tech unlikely to switch to rival products due to risk of irreversible chip issues"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nittobo",
+      "text": "\"Unless big tech changes its policy of using only Nittobo's product, the T-glass supply shortage will be difficult to resolve for the foreseeable future.\"\n\nNittobo’s dominance is bound to persist. If they use a rival’s T-glass and it ends up causing any issue with the chip, the consequences would be irreversible. Would big tech really take that kind of risk just to use a competing product?",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2038176799377776728",
+      "kind": "post",
+      "engagement": {
+        "views": 31081,
+        "likes": 142,
+        "reposts": 17,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2038802510346158513",
+      "date": "2026-03-30",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nittobo",
+      "text": "Samsung Electro-Mechanics Raises FC-BGA Prices… 185% Operating Profit Growth Forecast for This Year\n\nSamsung Electro-Mechanics has recently raised prices on its flip-chip ball grid array (FC-BGA), a high-performance semiconductor substrate. Market expectations for earnings improvement and mid-to-long-term growth are rising accordingly.\n\nAccording to industry sources on March 31, Samsung Electro-Mechanics is reported to have raised prices on select FC-BGA product lines. The move is interpreted as a measure to defend profitability amid rising raw material costs for FC-BGA.\n\nAdditionally, as demand surges rapidly for these components—essential to AI servers and high-performance computing—suppliers' pricing power has strengthened, which is another driver behind the price hike.\n\nThe decision to raise substrate prices, underpinned by rising raw material costs and enhanced bargaining power, is expected to have a positive impact on both revenue and operating profit.\n\nFC-BGA has recently been experiencing near-\"sold out\" levels of scarcity. Samsung Electro-Mechanics recently achieved the milestone of supplying FC-BGA to NVIDIA.\n\nThe structural shift in the semiconductor industry toward high-end compute devices such as CPUs and GPUs is also driving mid-to-long-term growth in the FC-BGA market.\n\nFC-BGA is an essential substrate for packaging top-tier semiconductors like CPUs and GPUs, and demand is surging alongside the proliferation of AI servers.\n\nHowever, a severe \"supply bottleneck\" persists. Production capacity for advanced package substrates has failed to keep pace with rapidly growing global demand, and the substrate shortage is now constraining the pace of AI server supply chain expansion.\n\nAt a recent shareholders' meeting, Samsung Electro-Mechanics CEO Jang Deok-hyun stated: \"Demand for server and data center FC-BGA exceeds production capacity by more than 50%,\" adding that \"we are making supplementary investments and expanding some facilities.\"\n\nAccording to market research firm Prismark, FC-BGA is projected to record a CAGR of over 15% from 2025 to 2030, the highest growth rate among all PCB product categories.\n\nEven as suppliers like Nittobo expand production, demand growth is outpacing capacity additions, and the surge in demand for low-loss materials used in AI high-performance substrates is creating supply chain constraints.\n\nThe sell-side also views Samsung Electro-Mechanics as entering a phase of full-scale profitability improvement driven by FC-BGA price increases.\n\nIn a report dated March 31, Mirae Asset analyst Park Jun-seo wrote: \"FC-BGA is seeing a sustained sold-out trend from the second half onward in a demand environment where additional capacity expansion is inevitable,\" and noted that \"negotiations for further price increases are understood to be progressing favorably.\" He added: \"With a 10% upward revision to our FC-BGA price estimates, we are raising our substrate materials division operating profit forecasts for 2026 and 2027 to KRW 386.1 billion and KRW 504.6 billion, respectively—up 185% and 41% year-over-year.\"\n\nPrices for high-end MLCCs (multilayer ceramic capacitors) used in AI servers are also being raised as supply tightens amid growing demand. Mirae Asset Securities estimates that a 15–25% increase in AI server MLCC prices could generate hundreds of billions of won in additional operating profit.\n\nSamsung Electro-Mechanics is restructuring its portfolio around high-end products such as FC-BGA and MLCC. It is also expanding supply capacity through facility expansion at its Philippine production base. In the aerospace sector, the company is building a new growth pillar by expanding supply of high-reliability MLCCs for satellites and aviation. As a result, Samsung Electro-Mechanics posted record-high revenue of KRW 11.3145 trillion last year.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038802486048559104",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEtIDxwbkAAA9yH.jpg",
+          "width": 1000,
+          "height": 458,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038802510346158513",
+      "kind": "post",
+      "engagement": {
+        "views": 14506,
+        "likes": 82,
+        "reposts": 5,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039226527410479558",
+      "date": "2026-04-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nitto Boseki",
+      "text": "Nikkei reports that Asahi Kasei is entering the low-CTE (low thermal expansion) glass cloth market.\n\nNitto Boseki currently holds ~90% global market share in this product. Asahi Kasei does not manufacture glass fiber itself — it sources fiber externally and specializes in weaving it into glass cloth.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2039226527410479558",
+      "kind": "post",
+      "engagement": {
+        "views": 19420,
+        "likes": 101,
+        "reposts": 10,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2042941004295344139",
+      "date": "2026-04-11",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "structural gap in ultra-thin E-glass fiberglass cloth market as Nittobo exits",
+        "lower-end fiberglass manufacturers likely to benefit significantly"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nittobo",
+      "text": "\"Nittobo’s strategic exit is creating a “structural gap” in the ultra-thin E-glass fiberglass cloth market: according to industry checks, Nittobo, a global technology leader in fiberglass cloth, is gradually exiting the E-glass market and instead focusing on higher-end specialty glass products such as LDK/T-glass.\"\n\nInteresting. As a result, even lower-end fiberglass manufacturers are likely to benefit significantly.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2042941004295344139",
+      "kind": "post",
+      "engagement": {
+        "views": 28229,
+        "likes": 131,
+        "reposts": 10,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044208463916740661",
+      "date": "2026-04-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nittobo",
+      "text": "Glass Fiber Cloth and Copper Foil Costs Continue to Rise… 2026 Full-Year CCL Price Hikes 'Far From Over'\n\nAs demand for high-end PCBs from AI servers and switches surges, the supply-demand imbalance in upstream materials is intensifying. Industry sources note that copper clad laminate (CCL) price increases are rapidly cascading downstream, progressively feeding into PCB manufacturers' customer quotations and emerging as a key variable driving up electronic component costs further.\n\nSupply chain sources say that under the current upcycle in glass fiber cloth, copper foil, and other material prices, CCL makers will continue to push through price hikes, with the current uptrend expected to persist through the end of 2026 with \"no end in sight.\" The scope of increases has expanded across M6, M7, and M8 grades, with each round starting at double-digit percentage increases — adding up to a substantial cumulative impact over the full year.\n\nAmong Taiwanese players, TUC (台光電), Tai-Yao (台燿), Lianmao (聯茂), Nan Ya (南亞), and Tenghui (騰輝) are all expected to pass through production cost pressures via staggered price increases.\n\nAccording to sources familiar with the PCB industry, the core driver behind this round of CCL price hikes is a shortage of glass fiber cloth supply, which has pushed quotations higher across the board — from E-glass to Low Dk, Low Dk2, and T-glass.\n\nHigh-end fabric grades in particular are expected to see annual price increases of 20–30% due to production efficiency and yield constraints. Major producers Nittobo, Asahi Kasei, Taiwan Glass (台玻), and Taishan Glass Fiber (泰山玻纖) stand to be the primary beneficiaries, while second-tier suppliers such as Fuchiao (富喬) and Honghe (宏和) are also gradually securing opportunities to ramp shipment volumes.\n\nNotably, the relatively mid-to-low-end E-glass material has ironically become the product leading price increases this cycle, as major suppliers' capacity is being crowded out by high-end production. Thin fabric series have seen the most extreme increases — cumulative price hikes in 2025 already reached 30%, and the expected increase for 2026 exceeds 100%, sharply driving up overall CCL production costs.\n\nFurthermore, beyond copper foil price increases driven by rising international copper prices, the capacity supply-demand gap for HVLP copper foil continues to widen, projected to reach 48% and 43% in 2026 and 2027 respectively, prompting the industry to initiate a processing fee hike cycle.\n\nMitsui Kinzoku was the first to announce increases, followed by Furukawa Electric, King Bor (金居), and Luxembourg (盧森堡). The average HVLP copper foil price increase is USD 2 per kilogram, and this hike cycle is likely to see an additional 2–3 rounds of price adjustments, making any pullback in upstream CCL material prices unlikely.\n\nOf particular note, Panasonic recently issued a price increase notification, citing significant changes in upstream material pricing and supply-demand dynamics. The company announced across-the-board price hikes on CCL and prepreg (PP) materials for general-purpose and low-loss high-speed boards, as well as CEM-3 composite substrates and flexible printed circuit (FPC) materials. Increases range from 15–30% depending on the product line, effective for shipments from May 1, 2026.\n\nAdditionally, Tai-Yao (台燿) announced that it will raise quotations across its TUC 6/7/8 series material products for shipments from April 25 onward, while simultaneously increasing M/L outsourced lamination processing fees. Both carry increases of 20–40%, intended to reasonably reflect rising raw material costs for copper foil, glass fiber cloth, epoxy resin, and processing fees.\n\nPrior to these moves, Resonac (formerly Showa Denko) and Mitsubishi Gas Chemical (MGC) had already preemptively launched a second wave of price increases, announcing further hikes across their full CCL, prepreg, and resin-coated copper foil (CRS) product lines. Both companies raised prices by 30% from prior levels, with the new pricing in effect since April 1.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044208446309052417",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HF58wFEasAECd_m.png",
+          "width": 750,
+          "height": 422,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044208463916740661",
+      "kind": "post",
+      "engagement": {
+        "views": 110839,
+        "likes": 168,
+        "reposts": 19,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047206537022816425",
+      "date": "2026-04-23",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nittobo",
+      "text": "Nittobo fell today after a China-sourced rumor of unclear origin spread, claiming that the Japanese earthquake would force glass fiber maker Nitto Boseki to suspend production for 20–25 days. https://t.co/93MJYUbGIb",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2047206270088921088",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGkjQY6aQAAnW6J.jpg",
+          "width": 1206,
+          "height": 577,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2047206537022816425",
+      "kind": "post",
+      "engagement": {
+        "views": 335675,
+        "likes": 294,
+        "reposts": 39,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2056527538944713101",
+      "date": "2026-05-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nittobo",
+      "text": "Severe glass fiber shortage drives spillover benefits for Taiwanese glass fiber makers\n\n• Ahead of the mass production ramp of NVIDIA’s Rubin platform in 2H26, AI servers and high-speed switches are being upgraded from the existing 112G generation to the 224G PAM4 high-speed transmission generation. As a result, demand is surging for high-performance Low-Dk and Low-CTE materials that reduce signal loss and thermal deformation.\n\n• Taiwan’s major CCL supplier Elite Material is currently facing a shortage of its highest-end M7 and M8 materials, with supply unable to keep up with demand. The company plans to begin early shipments of next-generation M9-grade materials from 3Q this year, making 2027 likely the first year of full-scale mass production for high-end materials.\n\n• The high-end Low-CTE glass fiber market is tightly supplied, as Japanese companies such as Nittobo effectively dominate the segment. This is creating significant spillover benefits for Taiwanese glass fiber manufacturers. FULLTECH FIBER is entering the AI server and high-speed switch supply chain with Low-Dk and Low-CTE products, while Baotek is expanding its high-strength glass fiber, or T-Glass, portfolio. Grandsys is benefiting from price increases in general-purpose products and is developing next-generation new materials, including Q-cloth and Q-glass.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2056527538944713101",
+      "kind": "post",
+      "engagement": {
+        "views": 303874,
+        "likes": 318,
+        "reposts": 20,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2058118644983595231",
+      "date": "2026-05-23",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nittobo",
+      "text": "Why No Price Hike Despite a Severe Shortage? Why doesn't Nittobo raise prices to reap windfall profits?\n\nThe AI server boom has triggered an explosion in global demand for high-end glass fiber materials. Yet even as the market tightens into deepening shortage, Nittobo (Nitto Boseki, 日東紡) has opted for a counterintuitive strategy. Management made clear that the company currently has no plans for further price increases on its low-CTE (low coefficient of thermal expansion) glass fabric (T-glass), emphasizing that at this stage it will focus on expanding capacity to \"defend market share.\"\n\nAccording to Japanese media reports, Nittobo is a leading major supplier that commands the critical global supply of high-end low-thermal-expansion glass fiber. The company said it had initially planned to prioritize expanding low-Dk (low dielectric) glass fiber capacity, but as demand from AI servers and edge devices such as smartphones outpaced expectations, the supply-demand gap for low-thermal-expansion T-glass widened sharply. In response, it has decided to accelerate the pace of expansion, adding glass fabric production lines at its Fukushima site in Japan while also installing new glass melting furnace equipment in Taiwan.\n\nNittobo noted that T-glass demand is currently expanding rapidly. Not only is demand for the \"thick fabric\" used in semiconductor packaging substrates for AI servers continuing to climb, but the growth rate of the \"thin fabric\" used in edge devices such as smartphones is exceeding initial expectations by an even wider margin. The company emphasized that it has reached an internal consensus to further scale up the relevant capital investment in order to meet the strong demand from both thick-fabric and thin-fabric customers simultaneously.\n\nDefending Market Share Over Short-Term Price Hikes\n\nOn the future price trajectory that the market is watching closely, Nittobo management responded that it currently has no plans to make further price adjustments to either T-glass or low-dielectric glass, and will continue selling at the prices set at the start of this fiscal year. The company reiterated that its top priority at present is expanding capacity to meet customer demand, thereby cementing its leadership position in the high-end materials market. It added that, so long as its products remain competitive and market demand holds firm, it will not hesitate to commit to capacity expansion.\n\nNittobo had previously announced that it would raise the capital expenditure (CapEx) budget in its FY2024–2027 medium-term management plan by a substantial 50%, from the originally planned ¥80 billion to ¥120 billion—a move intended to respond to product demand and shifts in the market environment.\n\nGlass fabric is a critical component of IC substrates and printed circuit boards (PCBs), serving as the most fundamental chip-reinforcement layer material in electronic devices. As advanced chip packaging imposes extremely stringent requirements on micro-scale deformation, T-glass—with its low-thermal-expansion properties—can effectively prevent package warpage, establishing itself as a core element in ensuring the stability of high-end computing.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2058118644983595231",
+      "kind": "post",
+      "engagement": {
+        "views": 151961,
+        "likes": 189,
+        "reposts": 12,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2058119691067969983",
+      "date": "2026-05-23",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "stock moving sideways",
+        "no intention of raising prices",
+        "too conservative",
+        "cares too much about customers rather than pricing power"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nittobo",
+      "text": "Do you see why Nittobo’s stock has been moving sideways now? They have no intention of raising prices.\n\nUnlike memory companies, which are aggressively raising prices right now, Japanese companies like this place an extreme emphasis on customer relationships and market share.\n\nThis is also one of the reasons I did not buy Nittobo or Ajinomoto. They are too conservative and care too much about their customers.\n\nJapanese companies, please start abusing your pricing power a little… like the memory companies.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2058119089642721280",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HI_oaFua0AAm-Xq.png",
+          "width": 1176,
+          "height": 552,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2058119691067969983",
+      "kind": "post",
+      "engagement": {
+        "views": 296495,
+        "likes": 619,
+        "reposts": 69,
+        "replies": 34
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065221955322843194",
+      "date": "2026-06-11",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nittobo",
+      "text": "▶ NVIDIA takes PCB material competition upstream as HVLP4 copper foil gap widens\n\n- With high-end PCB orders rising on expanding AI infrastructure demand, new bottlenecks are emerging in the upstream CCL supply chain; following T-glass fiberglass cloth, HVLP4 copper foil is expected to become the key constraint from 2H onward\n\n- According to industry sources, NVIDIA and its major customers are once again directly intervening in material supply coordination to keep next-generation AI server mass production and shipment schedules on track\n\n- PCB material demand is shifting from upgrades centered on consumer electronics and traditional networking equipment toward high-value AI/HPC applications, with high-end CCL demand advancing from M6 to M7, M8, and on to M9\n\n- CCL makers are enforcing quota-based allocation, requiring IC substrate and PCB makers to take only what they actually consume; the bottlenecks lie in upstream materials with high technical barriers and limited expansion flexibility, such as specialty-formulation fiberglass cloth and ultra-low-profile copper foil\n\n- Fiberglass cloth and copper foil have always sat at the very top of the PCB supply chain's upstream, where CCL makers such as EMC (Elite Material) and Doosan Electro-Materials traditionally led material development and production planning\n\n- NVIDIA-led customers are now bypassing CCL makers to engage directly with upstream material suppliers, managing fiberglass cloth and copper foil themselves to clear PCB bottlenecks before they disrupt finished-product shipments\n\n- NVIDIA is giving fiberglass cloth and copper foil suppliers clearer order visibility to strengthen their confidence in capacity expansion, and is shifting toward a direct consignment (buyer-furnished material) model that locks in key material capacity more than a year in advance\n\n- In high-end fiberglass cloth, Low DK2 and T-glass are the main shortage items, triggering aggressive price hikes across the supply chain\n\n- T-glass fiberglass cloth for IC substrates is especially tight, with Nittobo controlling more than half of global capacity; given yield issues at new entrants such as Taiwan Glass, the 2026 supply-demand gap is estimated at over 40%\n\n- The T-glass supply gap is projected to remain as high as 25% even in 2027, acting as a key constraint on ABF substrate capacity expansion\n\n- As major AI server and high-speed computing platforms rapidly migrate from HVLP2/HVLP3 to HVLP4, HVLP4 copper foil demand is climbing, with the 2026 supply shortfall expected at 1,500 tons\n\n- Mitsui Kinzoku and Co-Tech are aggressively expanding capacity, but the HVLP4 shortfall is projected to widen to 2,500 tons in 2027",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2065221955322843194",
+      "kind": "post",
+      "engagement": {
+        "views": 113436,
+        "likes": 306,
+        "reposts": 34,
+        "replies": 21
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066297977594110324",
+      "date": "2026-06-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nittobo",
+      "text": "Pharmicell, Exclusive Supplier of Core CCL Material for NVIDIA AI Servers to Doosan\n\nPharmicell, whose core businesses are bio/pharmaceuticals and advanced materials, has been identified as the exclusive supplier of copper-clad laminate (CCL) raw materials for AI servers to Doosan's Electro-Materials BG (Business Group). The end customer is NVIDIA. The company's earnings have grown sharply on recent AI server demand. Once its third plant in Ulsan comes online in the second half of the year, production capacity will double.\n\nAccording to industry sources on the 10th, Pharmicell exclusively supplies low-dielectric-constant (low-Dk) electronic materials—including resin and hardener—that serve as the core raw materials for the AI server CCL produced by Doosan Electro-Materials BG. Doosan is a key partner supplying AI server CCL to global big tech companies, including NVIDIA.\n\nPharmicell is reaping the benefits of being the exclusive materials supplier. Its first-quarter revenue this year came to 36.7 billion won, up 36% year-over-year. Of this, low-Dk electronic materials accounted for 26.0 billion won, or 71% of the total. Most of this is Doosan-bound revenue. That figure is more than 1.5 times the prior-year level (16.6 billion won), and roughly 7.6 times the level of Q1 2024 (3.4 billion won), when supply to Doosan began. Pharmicell's annual revenue from low-Dk electronic materials this year is projected to roughly double from last year.\n\nThe exclusivity is also expected to continue for the time being. Because the physical properties of resin and hardener can vary depending on blending conditions and processes, a lengthy optimization process tailored to customer requirements is required. Even for products of identical composition, re-certification is needed if production equipment changes. This creates a structure in which new entrants find it difficult to break into the supply chain in the short term.\n\nIn response to rising demand, Pharmicell announced in March of last year that it would invest 30 billion won to build a third plant in Ulsan. The site is roughly 1.7 times the size of the combined footprint of the existing No. 1 and No. 2 plants. Following completion in September, it is scheduled to begin operation in Q1 2027 after going through permitting and customer re-certification procedures.\n\nOnce the new plant is operational, production capacity will expand to roughly double the current level. The No. 1 and No. 2 plants in Ulsan are currently running at full capacity. The plan is to produce raw materials at the existing plants and to operate the third plant as a dedicated production base for low-Dk electronic materials.\n\nPharmicell co-developed the materials with Doosan over a period of about 10 years and began supplying them in 2024. The resin and hardener that Pharmicell supplies are core materials that determine the electrical characteristics of CCL. Their low-Dk properties significantly reduce signal loss occurring during data transmission.\n\nThe resin and hardener combine with glass fiber (spun yarn) to make prepreg, the insulating layer. CCL—produced by attaching copper foil to both sides of the prepreg—is used in high-value-added substrates for AI applications. Doosan sources its glass fiber from Japan's Nittobo and its copper foil from suppliers such as Lotte Energy Materials. Pharmicell supplies resin and hardener to Doosan's largest production hub in Jeungpyeong as well as its local plant in Changshu, China.\n\nPharmicell is also pursuing new customer acquisition, but for the time being it plans to focus on meeting Doosan's demand. Doosan recently announced plans to invest 180 billion won to build a new AI CCL plant in Thailand.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2066297977594110324",
+      "kind": "post",
+      "engagement": {
+        "views": 43485,
+        "likes": 176,
+        "reposts": 14,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

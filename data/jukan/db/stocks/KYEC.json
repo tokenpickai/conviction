@@ -1,0 +1,53 @@
+{
+  "ticker": "KYEC",
+  "cashtag": "KYEC",
+  "price_symbol": "KYEC",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-02",
+  "last_mention": "2026-04-02",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2039673040712384778",
+      "date": "2026-04-02",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "entry-level smartphones are finished, will take a big hit"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "KYEC",
+      "text": "Entry-level smartphones are literally finished.\n\nMediaTek, Chinese smartphone brands, and KYEC will all take a big hit. https://t.co/ANLH0Vsz8O",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2039672591724797952",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HE5fal_bYAA3L0s.jpg",
+          "width": 1052,
+          "height": 506,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2039673040712384778",
+      "kind": "post",
+      "engagement": {
+        "views": 90631,
+        "likes": 365,
+        "reposts": 33,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

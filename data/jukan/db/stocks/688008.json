@@ -1,0 +1,72 @@
+{
+  "ticker": "688008",
+  "cashtag": "Montage",
+  "price_symbol": "688008",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-24",
+  "last_mention": "2026-04-24",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2047816848058794440",
+      "date": "2026-04-24",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "if CPU adoption increases, memory interface usage should surge",
+        "higher share of revenue from physical chip sales than Rambus",
+        "exposure to CXL"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "Montage",
+      "text": "My current watchlist:\n\nAdvantest — As GPU architectures become increasingly complex, the number of required testing steps could rise exponentially. Could there still be more upside here?\n\nMontage — If CPU adoption increases, usage of memory interfaces should also surge. I prefer Montage over Rambus in particular because Montage also has exposure to CXL.\n\nDelton Technology — A specialized CPU substrate manufacturer with a meaningful presence in the CPU substrate market.\n\nQualcomm — If Qualcomm really launches its data-center Nuvia CPU in June, it could potentially reverse the current overly short-biased sentiment.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047816848058794440",
+      "kind": "post",
+      "engagement": {
+        "views": 213136,
+        "likes": 1240,
+        "reposts": 100,
+        "replies": 43
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047817239961972967",
+      "date": "2026-04-24",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "higher share of revenue from physical chip sales than Rambus"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Montage",
+      "text": "Sorry, The reason I prefer Montage is that it has a higher share of revenue from physical chip sales than Rambus.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047817239961972967",
+      "kind": "self_thread",
+      "engagement": {
+        "views": 17548,
+        "likes": 42,
+        "reposts": 0,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

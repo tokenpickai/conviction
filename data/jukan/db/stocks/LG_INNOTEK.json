@@ -1,0 +1,45 @@
+{
+  "ticker": "LG_INNOTEK",
+  "cashtag": "LG Innotek",
+  "price_symbol": "LG_INNOTEK",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-25",
+  "last_mention": "2026-05-25",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2059103084232802490",
+      "date": "2026-05-25",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "initiated coverage on May 12",
+        "stock has risen more than 50% since covered"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "LG Innotek",
+      "text": "LG Innotek is currently up 21.8%.\n\nWe initiated our first Korean equity coverage on May 12 with LG Innotek, and the stock has risen more than 50% since we covered it.\n\nhttps://t.co/OWB7SROaNy",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2059103084232802490",
+      "kind": "post",
+      "engagement": {
+        "views": 74033,
+        "likes": 253,
+        "reposts": 13,
+        "replies": 16
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

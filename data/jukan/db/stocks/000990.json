@@ -1,0 +1,112 @@
+{
+  "ticker": "000990",
+  "cashtag": "DB HiTek",
+  "price_symbol": "000990.KS",
+  "exchange": "Korea Exchange",
+  "currency": "KRW",
+  "ticker_mapped": true,
+  "company": "DB HiTek",
+  "industry": "Semiconductor Foundry",
+  "thesis_summary": null,
+  "first_mention": "2026-03-27",
+  "last_mention": "2026-04-21",
+  "total_mentions": 3,
+  "mentions": [
+    {
+      "tweet_id": "2037404348716925056",
+      "date": "2026-03-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "DB HiTek",
+      "text": "\"Daily Monitoring\"... Semiconductor Process Materials Procurement on High Alert Due to Iran War\n\nThe industry has been placed on emergency footing amid fears that supply disruptions for essential semiconductor process materials — including helium, thinner, ethanol, and isopropyl alcohol (IPA) — could emerge as fallout from the Iran war.\n\nAccording to reporting by The Elec on the 26th, procurement departments at domestic semiconductor manufacturers including Samsung Electronics, SK Hynix, and DB HiTek are conducting day-by-day checks on the availability and price movements of key materials, mobilizing all resources to prevent production disruptions.\n\nHelium is the most pressing concern. Helium is used in plasma etching and deposition processes as a key process gas, and also serves as a coolant for the back side of wafers.\n\nHelium is a byproduct extracted during LNG production. Qatar accounts for approximately one-third of global supply. Iran has repeatedly struck Qatar's Ras Laffan Industrial City, and QatarEnergy has declared that it will be unable to fulfill long-term supply contracts due to damage to its LNG production facilities. QatarEnergy CEO Saad al-Kaabi stated that Iran's attacks have impaired 17% of Qatar's LNG export capacity and that restoration could take three to five years.\n\nSpot prices for helium have spiked sharply — industry sources indicate prices have already risen more than 50%.\n\nHelium suppliers Air Products and Linde have reportedly communicated to their customers that supply remains unaffected, as they source a large proportion of their raw helium domestically in the United States. By contrast, Air Liquide and Iwatani — which rely more heavily on Qatari helium — are said to be facing unavoidable supply pressure.\n\nOne materials industry source said, \"Major suppliers with high Qatar dependence are nearly at the point of throwing up their hands,\" adding, \"If the war drags on, some suppliers may not be able to provide helium at all.\" Another source noted, \"Russian helium exists as an alternative, but domestic companies are avoiding it for political reasons,\" warning that \"even if a peace agreement with Iran is reached, restoring the Ras Laffan facilities will take years — meaning helium supply shortages, price increases, and procurement uncertainty will remain a medium-to-long-term risk.\"\n\nThinner, ethanol, and IPA are all petrochemical materials whose prices are linked to international crude oil and naphtha prices. The oil price surge triggered by the Iran war is reportedly driving up input costs broadly across semiconductor process materials.\n\nThinner is a cleaning agent used in photolithography to remove photoresist (PR) residue. Its core raw material is propylene oxide (PO), which is processed into PGME (Propylene Glycol Monomethyl Ether) and PGMEA (Propylene Glycol Monomethyl Ether Acetate) before being refined into thinner for delivery. Chinese commodities data platform SunSirs reported that PO prices have risen more than 43% from the start of the month, driven by strength in crude oil, naphtha, and propylene feedstocks.\n\nPO suppliers including DuPont, Dow, and LG Chem have already issued price increase notices to PGMEA producers such as Hannong Chemicals, Chemtronics, and Jaewon Industrial. PGME and PGMEA prices have also risen approximately 40–50%. Leading thinner suppliers Dongjin Semichem, ENF Technology, and Dongwoo Fine-Chem are reportedly preparing to negotiate roughly 20% price increases effective on April import volumes, reflecting these upstream cost increases.\n\nEthanol and IPA have also entered a price increase cycle. Domestic suppliers including Pungkuk Distillery have begun issuing price increase notices to customers this week, citing cost pressures from the surge in naphtha prices. The increase is expected to be in the low double digits. Semiconductor-grade ethanol — used for wafer cleaning and residue removal after etching — is an ultra-high purity material with purity levels of 99.99% or higher.\n\nIPA, another naphtha-derived material, is also trending upward. LG Chem is the primary domestic supplier of semiconductor-grade IPA. The specific magnitude of the price increase has not yet been finalized, but industry participants appear to be treating a price hike as a foregone conclusion.\n\nOne industry source commented, \"These materials represent a relatively small share of overall semiconductor production costs, so they are unlikely to directly affect chip prices,\" but added, \"The bigger concern, if the war prolongs, is production disruptions caused by supply shortages of certain materials.\" Another source noted, \"Samsung Electronics and SK Hynix are primarily focused on securing inventory at prevailing market prices without pushing back.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2037404348716925056",
+      "kind": "post",
+      "engagement": {
+        "views": 13759,
+        "likes": 61,
+        "reposts": 10,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039853707333144877",
+      "date": "2026-04-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "DB HiTek",
+      "text": "EXCLUSIVE: \"Worse Than the Iran Helium Problem\"... Semiconductor Industry Faces 'Tungsten Crisis'\n\n\"Helium can be sourced from the U.S. or Russia. For tungsten, there's nowhere to go but China.\"\n\nWhile concerns over semiconductor process material procurement — including helium — have emerged in the wake of the Iran war, the semiconductor industry points to tungsten hexafluoride (WF6) as an even more urgent supply risk.\n\nJapanese suppliers, which account for roughly 25% of global WF6 supply, have signaled production cuts in the second half of the year. The reason: China's tightening of tungsten export controls toward Japan has made it difficult for them to secure raw materials.\n\nAccording to multiple industry sources on April 3, Japanese WF6 suppliers such as Kanto Denka and Central Glass began notifying Korean semiconductor companies — including Samsung Electronics and DB HiTek — of raw material supply disruptions starting last week. A source familiar with the matter said, \"They indicated they can maintain supply through May–June using existing tungsten inventory, but cannot guarantee anything beyond that for the second half.\" The source added, \"They asked Korean clients to seek alternatives such as SK Specialty or Foosung.\"\n\nSamsung Electronics has a higher dependence on Japanese WF6 than SK Hynix, making the switch to domestic suppliers more urgent. SK Hynix is reportedly in a relatively better position, as it already sources some volume from SK Specialty, Foosung, and the Chinese supplier Peric. Meanwhile, some foundries are now under pressure to fast-track process qualification of Korean-made WF6 — a procedure that typically takes over 18 months, parts of which are now being skipped given the urgency.\n\nWF6 is a critical precursor used to deposit tungsten films on semiconductor wafers. These tungsten films serve as pathways for electrical signals within chips. While WF6 is used across DRAM, NAND, and logic, consumption is overwhelmingly concentrated in 3D NAND — its vertically stacked cell structure means that at 200 layers, tungsten must be deposited 200 times. A technology transition to replace tungsten interconnects with molybdenum is partially underway in leading-edge NAND processes, but full-scale adoption will take considerable time.\n\nWF6 manufacturers import Chinese tungsten powder, react it with fluorine gas at high temperatures, then distill and purify it into high-purity gas for semiconductor use. China accounts for 80% of global tungsten powder supply.\n\nSince February of last year, China has imposed an export licensing regime on strategic minerals including tungsten. On top of that, following Japanese Prime Minister Sanae Takaichi's remarks on Taiwan in January of this year, China added export controls on \"dual-use\" items destined for Japan. Tungsten powder qualifies as a dual-use item — it is both a semiconductor material and a component used in weapons systems including tanks, missiles, and aircraft.\n\nAs China's export controls have taken hold, tungsten prices have surged relentlessly. Tungsten powder prices have risen 6–7x over the past year. According to Bloomberg, the international benchmark price for ammonium paratungstate (APT) — the raw material for tungsten powder — has climbed 557% since February of last year.\n\nSouth Korea remains relatively free from China's export controls, and SK Specialty and Foosung have maintained their tungsten powder imports. However, SK Specialty has reportedly notified customers of a more-than-double price increase for WF6. Foosung is taking the same stance, as the cost structure is identical. An industry source said, \"The bottom line is that domestic WF6 suppliers stand to benefit from the windfall.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2039853683429830657",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HE8EHhKbcAE-8Gf.png",
+          "width": 600,
+          "height": 457,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2039853707333144877",
+      "kind": "post",
+      "engagement": {
+        "views": 501487,
+        "likes": 1124,
+        "reposts": 180,
+        "replies": 43
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046771689036677236",
+      "date": "2026-04-21",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "8-inch foundry price increases taking effect in Q2",
+        "utilization rates over 90%",
+        "customers in inventory build-up stance supporting high utilization through year"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "DB HiTek",
+      "text": "8-inch Foundry Prices on the Rise… Korean Foundries to See Full Benefit from Q2\n\nThe 8-inch foundry industry is enjoying a boom driven by rising power semiconductor demand and constrained production capacity.\n\nOn the 22nd, it was learned that DB HiTek plans to raise its 8-inch foundry process pricing by a single-digit percentage per wafer starting in Q2 of this year.\n\n8-inch foundry refers to processes using wafers with a 200mm (millimeter) diameter. It is primarily used for mature (legacy) processes at 130 nanometers (nm) and above. While not cutting-edge, it mass-produces semiconductors essential across industries, including power management ICs (PMIC), display driver ICs (DDI), and CMOS image sensors (CIS).\n\nThe 8-inch foundry market began its full-fledged rebound last year. Power semiconductor demand has been rising across industries, while major players such as Samsung Electronics and TSMC have been gradually scaling down their 8-inch production capacity since last year.\n\nSamsung Electronics is planning to completely shut down its Giheung 6-2 line, which produces 8-inch foundry output. An industry source explained, \"Samsung Electronics is first clearing out products with poor profitability in 8-inch foundry,\" adding that \"the related ecosystem is already within the sphere of influence.\"\n\nAs the 8-inch supply crunch intensifies, 8-inch foundries are also facing pricing pressure. China's SMIC already sent a notice to customers late last year informing them of a 10% price increase for its 8-inch BCD process. BCD is a power semiconductor process that implements three different power devices (Bipolar, CMOS, and DMOS) on a single chip, enhancing durability and power efficiency.\n\nDB HiTek also mass-produces 8-inch BCD processes as its mainstay. It has been in continuous discussions with customers regarding process price increases. The price hike could be reflected as early as Q2 of this year, with the increase understood to be in the 3–5% range.\n\nUtilization rates at the Bucheon and Sangwoo campuses are also high at over 90%. According to DB HiTek's Q1 business report, the company's average utilization rate stands at 91.96%.\n\nAn industry source stated, \"Because there are various 8-inch processes, the situation differs slightly from case to case, but price increase discussions have been progressing steadily since late last year,\" and added, \"As customers continue their inventory build-up stance, high utilization rates are expected to be maintained throughout this year.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2046771671902892033",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGeX_cgasAE6B2A.png",
+          "width": 640,
+          "height": 450,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2046771689036677236",
+      "kind": "post",
+      "engagement": {
+        "views": 35118,
+        "likes": 122,
+        "reposts": 16,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

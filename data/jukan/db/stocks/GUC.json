@@ -1,0 +1,44 @@
+{
+  "ticker": "GUC",
+  "cashtag": "GUC",
+  "price_symbol": "GUC",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-03-25",
+  "last_mention": "2026-03-25",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2036963841582784947",
+      "date": "2026-03-25",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "skeptical about whether GUC can really compete against ARM's own CPU efforts"
+      ],
+      "is_risk": true,
+      "conviction": "low",
+      "raw_mention": "GUC",
+      "text": "Yesterday’s CPU bottleneck trade — among AMD, ARM, and Intel, which was actually the best trade?\n\nLet me share my view.\n\nObviously, CPU price increases are positive. They should help earnings materially.\n\nThat said, what we need to understand is that hyperscalers have been moving toward in-house CPU ASICs for quite a long time. They still procure x86 CPUs for external customers, but for internal workloads, many are already relying on their own CPU ASIC solutions.\n\nThat is why I find it hard to recommend AMD outright. AMD’s x86 CPU division is full of excellent people, but the business environment is not especially favorable. On top of that, AMD does not have its own fabs, so it has to compete with other companies for TSMC capacity.\n\nAs for ARM, I do not think it is really a pure CPU trade at this point. Because of the memory apocalypse, it seems quite obvious that smartphone royalties — still its largest revenue source — are likely to take a meaningful hit.\n\nTherefore, in my view, the better CPU bottleneck trade is foundry companies.\n\nFirst, TSMC. If everyone starts rushing to produce CPUs as well, TSMC wafer capacity will become even tighter, which will further strengthen TSMC’s bargaining power. I think a lot of people are missing this point.\n\nSecond, Intel.\n\nBecause it has its own fabs, even if not immediately, Intel should be in a better position than competitors to expand CPU supply over time. Also, as TSMC capacity becomes increasingly constrained, it is possible that more companies will look to manufacture ASICs and CPUs at Intel Foundry, which is another positive.\n\nI also want to comment on GUC. GUC’s core business is building server CPUs using licensed ARM IP, but I am skeptical about whether GUC can really compete against ARM’s own CPU efforts.\n\n$AMD $INTC $ARM $TSM",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2036963841582784947",
+      "kind": "post",
+      "engagement": {
+        "views": 46060,
+        "likes": 377,
+        "reposts": 38,
+        "replies": 25
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

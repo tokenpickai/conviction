@@ -1,0 +1,66 @@
+{
+  "ticker": "HYNIX",
+  "cashtag": "SK hynix",
+  "price_symbol": "HYNIX",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-29",
+  "last_mention": "2026-06-02",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2049686305865609503",
+      "date": "2026-04-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Hynix",
+      "text": "Wow… IBKR supporting Korean stocks is actually a huge deal.\n\nI’ve noticed a lot more Substacks mentioning Korean equities lately, and volatility in Korean stocks has really exploded.\n\nSK Square is currently up nearly 4% today, while Hynix is only up about 1%. https://t.co/9VUQWkZFfk",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2049686305865609503",
+      "kind": "post",
+      "engagement": {
+        "views": 65765,
+        "likes": 451,
+        "reposts": 19,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2061703033042718952",
+      "date": "2026-06-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK hynix",
+      "text": "SK Group Chairman Chey Tae-won: SK hynix will double its memory production capacity within the next five years.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2061703033042718952",
+      "kind": "post",
+      "engagement": {
+        "views": 143850,
+        "likes": 954,
+        "reposts": 73,
+        "replies": 36
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

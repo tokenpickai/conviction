@@ -1,0 +1,42 @@
+{
+  "ticker": "SUMCO",
+  "cashtag": "SUMCO",
+  "price_symbol": "SUMCO",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-29",
+  "last_mention": "2026-05-29",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2060228272869474684",
+      "date": "2026-05-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SUMCO",
+      "text": "@musukataisakabu But SUMCO is a wafer company, right? It’s not a CPU or NAND company.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2060228272869474684",
+      "kind": "reply",
+      "engagement": {
+        "views": 2807,
+        "likes": 7,
+        "reposts": 0,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

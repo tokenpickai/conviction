@@ -1,0 +1,128 @@
+{
+  "ticker": "ALAB",
+  "cashtag": "$ALAB",
+  "price_symbol": "ALAB",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": "Astera Labs",
+  "industry": "AI Interconnect Semis (PCIe/CXL)",
+  "thesis_summary": null,
+  "first_mention": "2026-05-24",
+  "last_mention": "2026-05-24",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2058398967097139268",
+      "date": "2026-05-24",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$ALAB",
+      "text": "In the AI Era, the 'Retimer' Rises — The Key Component That Resuscitates Signals\n\nThe retimer is emerging as a hidden core component of the AI chip era. A retimer is a part that sits between chips, reviving weakened signals and retransmitting them. Its role is growing as communication speeds between the CPU and GPU increase.\n\nInside a server, CPU-to-CPU and CPU-to-GPU communication runs over PCIe (Peripheral Component Interconnect Express). As PCIe advances through each generation, communication speeds rise, giving way to channel loss — the phenomenon in which the signal weakens and its waveform becomes distorted.\n\nOn the 24th, a senior official at a domestic system semiconductor company said, \"CPUs talk to each other, and CPUs and GPUs communicate heavily over PCIe,\" adding, \"As these distances grow longer, speeds get faster, and channel counts increase, chips called 'retimers' have started to see widespread use.\"\n\nToday's high-performance servers use PCIe 5.0, which runs at 32 GT/s (gigatransfers per second). At this speed, even with ultra-low-loss printed circuit boards (PCBs), the distance over which a signal can arrive intact is extremely short. The retimer revives the dying signal at this point, enabling high-speed processor-to-processor communication even over longer distances.\n\nIn the past, redrivers were used. A redriver only amplifies a weakened signal and cannot fully restore it. The retimer, by contrast, restores the signal completely. This difference is what is driving up demand for retimers.\n\nThe key point is that as PCIe advances through each generation, faster speeds shorten the distance a signal can travel intact. As that distance shrinks, more retimers are needed. Demand is bound to grow exponentially. The same official forecast, \"As communication speeds rise, the number of retimers required will increase several times over from current levels.\"\n\nAstera Labs, a leading retimer company, is also seeing revenue grow. Its first-quarter revenue this year came in at $308.4 million, nearly double the figure from the same period a year earlier.\n\n$ALAB",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2058398946045915136",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJDm74Ea8AA3yzt.png",
+          "width": 639,
+          "height": 556,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2058398967097139268",
+      "kind": "post",
+      "engagement": {
+        "views": 114841,
+        "likes": 514,
+        "reposts": 56,
+        "replies": 24
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-05-26",
+      "close": 318.72
+    },
+    {
+      "date": "2026-05-27",
+      "close": 325.33
+    },
+    {
+      "date": "2026-05-28",
+      "close": 349.17
+    },
+    {
+      "date": "2026-05-29",
+      "close": 342.85
+    },
+    {
+      "date": "2026-06-01",
+      "close": 320.09
+    },
+    {
+      "date": "2026-06-02",
+      "close": 355.76
+    },
+    {
+      "date": "2026-06-03",
+      "close": 363.54
+    },
+    {
+      "date": "2026-06-04",
+      "close": 358.05
+    },
+    {
+      "date": "2026-06-05",
+      "close": 317.06
+    },
+    {
+      "date": "2026-06-08",
+      "close": 346.33
+    },
+    {
+      "date": "2026-06-09",
+      "close": 341.7
+    },
+    {
+      "date": "2026-06-10",
+      "close": 330.86
+    },
+    {
+      "date": "2026-06-11",
+      "close": 367.47
+    },
+    {
+      "date": "2026-06-12",
+      "close": 367.15
+    },
+    {
+      "date": "2026-06-15",
+      "close": 389.2
+    },
+    {
+      "date": "2026-06-16",
+      "close": 361.71
+    },
+    {
+      "date": "2026-06-17",
+      "close": 374.68
+    },
+    {
+      "date": "2026-06-18",
+      "close": 417.07
+    },
+    {
+      "date": "2026-06-22",
+      "close": 439.66
+    }
+  ],
+  "price_status": "ok"
+}

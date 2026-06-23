@@ -1,0 +1,66 @@
+{
+  "ticker": "KINSUS",
+  "cashtag": "Kinsus Interconnect",
+  "price_symbol": "KINSUS",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-02",
+  "last_mention": "2026-05-28",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2039877184261857393",
+      "date": "2026-04-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kinsus",
+      "text": "▶ PCB Supply Tightening — Brokers Bullish on CCL Taiwan Supply Chain\n\n- Expansion of AI servers, high-speed switches, and data center buildouts is driving the PCB/IC substrate supply chain into a structural shortage, with high-end material and substrate shortfalls expected to intensify from 2H26 onward.\n\n- Taiwan-based substrate, CCL, and upstream material companies — including Nan Ya PCB, Unimicron, Zhen Ding, Kinsus, Taiwan Glass, Topoint, Fulltech, EMC, Gold Circuit, and Dynamic Holdings — are highlighted as key beneficiaries.\n\n- Data center CAPEX growth in 2026 is projected at up to 90%, driving concurrent demand expansion for ABF substrates and high-end PCB materials.\n\n- In this cycle, supply pressure is emerging first in upstream materials: HVLP4 copper foil, high-end glass fiber, T-glass, quartz fiber, and high-spec drill bits.\n\n- HVLP4 copper foil faces yield and mass production challenges, with supply shortfalls of 48% and 43% projected for 2026 and 2027, respectively.\n\n- Low Dk 2nd-gen materials and T-glass are also expected to see sustained price increases due to AI substrate upgrade demand, supply constraints, and yield issues.\n\n- Quartz fiber is projected to face a supply deficit exceeding 60% by 2027, driven by Nvidia's next-gen platform upgrades, prompting preemptive inventory buildup across the supply chain.\n\n- ABF substrates are expected to tighten from 2026 as AI chip die sizes expand, with supply shortfalls widening to 26% and 46% in 2027 and 2028, respectively.\n\n- Major global customers are locking in production capacity ahead of time, potentially leaving ASIC players facing intensified competition for both raw materials and fab capacity.\n\n- Materials company Dehong has made progress in high-end glass fiber and quartz fiber development, completing EMC and Nanya certification, and is expected to enter the supply chain in earnest from 2026, with growth driven by AI server proliferation.\n\n- EMC is expected to benefit from M8/M9 high-end CCL upgrades; Gold Circuit and Dynamic Holdings are positioned to expand GPU/ASIC high-end PCB orders leveraging overseas production bases; Topoint stands to benefit from rising demand for high-spec drill bits.\n\n- Overall, AI infrastructure investment effects are cascading from chips → PCBs → materials, positioning the Taiwan supply chain as the core beneficiary in the next leg of the cycle.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2039877184261857393",
+      "kind": "post",
+      "engagement": {
+        "views": 17749,
+        "likes": 98,
+        "reposts": 15,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2060159097148961011",
+      "date": "2026-05-28",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kinsus Interconnect",
+      "text": "RT @dnystedt: Rumor: Nvidia plans to invest NT$20 billion (US$620 million) for a stake in Taiwan ABF substrate supplier Kinsus Interconnect…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2060159097148961011",
+      "kind": "post",
+      "engagement": {
+        "views": 8,
+        "likes": 0,
+        "reposts": 28,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

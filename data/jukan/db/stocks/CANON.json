@@ -1,0 +1,51 @@
+{
+  "ticker": "CANON",
+  "cashtag": "Canon",
+  "price_symbol": "CANON",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-03-31",
+  "last_mention": "2026-03-31",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2038922773083607194",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Canon",
+      "text": "Very interesting.\n\nIt seems Fujitsu has decided to mass-produce its NPU on Rapidus’s next node, 1.4nm.\n\nI’m very curious what the PDK looks like.\n\n(I still do not understand why Canon wants to manufacture image sensors on Rapidus’s “2nm” process.) https://t.co/c9dvQ0dwSq",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038922753919930369",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEu1cSfb0AEK9WQ.png",
+          "width": 1466,
+          "height": 1468,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038922773083607194",
+      "kind": "post",
+      "engagement": {
+        "views": 13558,
+        "likes": 116,
+        "reposts": 9,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

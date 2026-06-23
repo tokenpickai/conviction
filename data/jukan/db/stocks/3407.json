@@ -1,0 +1,42 @@
+{
+  "ticker": "3407",
+  "cashtag": "Asahi Kasei",
+  "price_symbol": "3407",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-01",
+  "last_mention": "2026-04-01",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2039226527410479558",
+      "date": "2026-04-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Asahi Kasei",
+      "text": "Nikkei reports that Asahi Kasei is entering the low-CTE (low thermal expansion) glass cloth market.\n\nNitto Boseki currently holds ~90% global market share in this product. Asahi Kasei does not manufacture glass fiber itself — it sources fiber externally and specializes in weaving it into glass cloth.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2039226527410479558",
+      "kind": "post",
+      "engagement": {
+        "views": 19420,
+        "likes": 101,
+        "reposts": 10,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

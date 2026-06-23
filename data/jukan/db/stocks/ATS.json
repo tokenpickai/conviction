@@ -1,0 +1,112 @@
+{
+  "ticker": "ATS",
+  "cashtag": "AT&S",
+  "price_symbol": "ATS",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-01",
+  "last_mention": "2026-06-01",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2061640613616140649",
+      "date": "2026-06-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AT&S",
+      "text": "LG Innotek Eyes Intel “EMIB” Substrate Supply Chain… Supplies Samples to SK Hynix\n\nLG Innotek is pushing to enter the semiconductor substrate market for EMIB (Embedded Multi-die Interconnect Bridge), Intel’s most advanced packaging technology. It has been learned that the company is currently collaborating with SK Hynix, including supplying EMIB substrate samples. However, the industry’s assessment is that because the development difficulty of this substrate is very high, whether it actually reaches commercialization remains to be seen.\n\nAccording to the industry on the 2nd, LG Innotek is collaborating with SK Hynix to enter the substrate supply chain for Intel’s 2.5D packaging.\n\n2.5D is an advanced packaging technology that inserts a thin film type interposer between the semiconductor and the substrate. Compared with conventional packaging that uses only a substrate, it can connect circuits at higher density, so demand is rising in the AI and HPC fields.\n\nIntel devised its own technology called EMIB to improve cost efficiency in 2.5D packaging. Instead of a widely spread interposer, EMIB connects chip to chip using a small silicon bridge. Because bridges only need to be placed where chip to chip connection is required, chips can be laid out more flexibly and efficiently.\n\nCurrently, EMIB semiconductor substrates are known to be supplied by four companies: Japan’s Ibiden and Shinko Electric, Taiwan’s Unimicron, and Austria’s AT&S.\n\nThis substrate is based on the existing high performance semiconductor substrate, flip chip ball grid array (FC-BGA), but it is assessed as having greater technical difficulty because a silicon bridge must be embedded inside the substrate. FC-BGA is a package substrate that connects the semiconductor chip and the substrate using flip chip bumps (a method that flips the chip over).\n\nIt has been learned that LG Innotek is currently supplying EMIB FC-BGA samples to SK Hynix and jointly carrying out technology development. For SK Hynix, a memory company, the collaboration with LG Innotek offers the advantage of being able to understand the characteristics of high bandwidth memory (HBM) optimized for EMIB.\n\nA substrate industry official explained, “LG Innotek is expanding its points of contact with memory and AI chip design companies in order to enter the substrate supply chain for Intel EMIB,” adding that “it is showing strong determination to enter the high value added semiconductor substrate market.”\n\nHowever, whether LG Innotek will enter the EMIB substrate supply chain is still viewed as unclear. This is because the samples LG Innotek supplied to SK Hynix are only at an early stage, such as engineering samples (ES).\n\nAs a latecomer in the FC-BGA industry, LG Innotek is assessed as having lower technical capability than its competitors. In fact, LG Innotek has not yet entered the server FC-BGA field, which requires high specification and large area technology. The need for enormous investment, such as building a dedicated line, in order to mass produce EMIB substrates is also a major challenge.\n\nA semiconductor back end industry official explained, “Intel EMIB substrates are already in a situation where overseas companies have solidified the supply chain, and Japan’s Ibiden also recently announced the construction of a dedicated line worth more than 2 trillion won,” adding that “for LG Innotek to enter the market, it must clear both technical and market hurdles.”",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2061640605860827136",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJxrNT7bEAA1QGV.jpg",
+          "width": 638,
+          "height": 410,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2061640613616140649",
+      "kind": "post",
+      "engagement": {
+        "views": 34988,
+        "likes": 290,
+        "reposts": 34,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-06-01",
+      "close": 29.5
+    },
+    {
+      "date": "2026-06-02",
+      "close": 29.86
+    },
+    {
+      "date": "2026-06-03",
+      "close": 28.85
+    },
+    {
+      "date": "2026-06-04",
+      "close": 28.26
+    },
+    {
+      "date": "2026-06-05",
+      "close": 26.92
+    },
+    {
+      "date": "2026-06-08",
+      "close": 27.31
+    },
+    {
+      "date": "2026-06-09",
+      "close": 27.54
+    },
+    {
+      "date": "2026-06-10",
+      "close": 26.4
+    },
+    {
+      "date": "2026-06-11",
+      "close": 26.88
+    },
+    {
+      "date": "2026-06-12",
+      "close": 27.37
+    },
+    {
+      "date": "2026-06-15",
+      "close": 28.24
+    },
+    {
+      "date": "2026-06-16",
+      "close": 27.97
+    },
+    {
+      "date": "2026-06-17",
+      "close": 28.32
+    },
+    {
+      "date": "2026-06-18",
+      "close": 28.03
+    },
+    {
+      "date": "2026-06-22",
+      "close": 27.87
+    }
+  ],
+  "price_status": "ok"
+}

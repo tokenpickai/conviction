@@ -1,0 +1,78 @@
+{
+  "ticker": "1810",
+  "cashtag": "Xiaomi",
+  "price_symbol": "1810",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-15",
+  "last_mention": "2026-04-15",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2044270940947914783",
+      "date": "2026-04-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Xiaomi",
+      "text": "Holy shit, Xiaomi's Q1 smartphone shipments plunged 35%. https://t.co/vgBzI1lUxC",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044270846471204864",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HF61gPyacAAGlrC.jpg",
+          "width": 762,
+          "height": 532,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044270940947914783",
+      "kind": "post",
+      "engagement": {
+        "views": 155231,
+        "likes": 1065,
+        "reposts": 98,
+        "replies": 45
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044624197885051287",
+      "date": "2026-04-15",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "smartphone situation is only going to get worse",
+        "Xiaomi CFO's -10% YoY revenue target is overly optimistic"
+      ],
+      "is_risk": true,
+      "conviction": null,
+      "raw_mention": "Xiaomi",
+      "text": "The smartphone situation is only going to get worse — it certainly won't get any better.\n\nSomeone from the @TMTBreakout Chat mentioned that they met Xiaomi's CFO last week.\n\nAccording to them, the CFO said:\n\"Our goal is to make sure that the smartphone division's revenue doesn't fall more than -10% (YoY basis).\"\n\nI personally think this target is overly optimistic as well.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044624197885051287",
+      "kind": "post",
+      "engagement": {
+        "views": 33175,
+        "likes": 185,
+        "reposts": 12,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

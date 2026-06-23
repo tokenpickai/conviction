@@ -1,0 +1,123 @@
+{
+  "ticker": "CPNG",
+  "cashtag": "$CPNG",
+  "price_symbol": "CPNG",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-22",
+  "last_mention": "2026-05-22",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2057778251536519283",
+      "date": "2026-05-22",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$CPNG",
+      "text": "@TheLAPurchaser There’s an interesting piece of news related to Coupang: the company is reportedly building a fully automated logistics center that requires no human workers.\n\n$CPNG \n\nhttps://t.co/V7Ope5A4zo",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2057778251536519283",
+      "kind": "reply",
+      "engagement": {
+        "views": 37153,
+        "likes": 69,
+        "reposts": 3,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-05-22",
+      "close": 16.12
+    },
+    {
+      "date": "2026-05-26",
+      "close": 15.47
+    },
+    {
+      "date": "2026-05-27",
+      "close": 16.46
+    },
+    {
+      "date": "2026-05-28",
+      "close": 16.2
+    },
+    {
+      "date": "2026-05-29",
+      "close": 16.6
+    },
+    {
+      "date": "2026-06-01",
+      "close": 16.62
+    },
+    {
+      "date": "2026-06-02",
+      "close": 16.73
+    },
+    {
+      "date": "2026-06-03",
+      "close": 16.42
+    },
+    {
+      "date": "2026-06-04",
+      "close": 16.53
+    },
+    {
+      "date": "2026-06-05",
+      "close": 15.15
+    },
+    {
+      "date": "2026-06-08",
+      "close": 15.18
+    },
+    {
+      "date": "2026-06-09",
+      "close": 15.91
+    },
+    {
+      "date": "2026-06-10",
+      "close": 15.12
+    },
+    {
+      "date": "2026-06-11",
+      "close": 17.25
+    },
+    {
+      "date": "2026-06-12",
+      "close": 16.82
+    },
+    {
+      "date": "2026-06-15",
+      "close": 17.13
+    },
+    {
+      "date": "2026-06-16",
+      "close": 18.03
+    },
+    {
+      "date": "2026-06-17",
+      "close": 18.83
+    },
+    {
+      "date": "2026-06-18",
+      "close": 18.0
+    },
+    {
+      "date": "2026-06-22",
+      "close": 17.31
+    }
+  ],
+  "price_status": "ok"
+}

@@ -5,13 +5,221 @@
   "exchange": "US",
   "currency": "USD",
   "ticker_mapped": false,
-  "company": null,
-  "industry": null,
+  "company": "Dell Technologies",
+  "industry": "AI Servers/PC Hardware",
   "thesis_summary": null,
-  "first_mention": "2026-06-20",
+  "first_mention": "2026-04-08",
   "last_mention": "2026-06-20",
-  "total_mentions": 1,
+  "total_mentions": 8,
   "mentions": [
+    {
+      "tweet_id": "2041758890396938481",
+      "date": "2026-04-08",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Dell Technologies",
+      "text": "Michael Dell: \"AI Memory Demand Surging 625x… Demand Will Persist\"\n\nAI memory demand has surged explosively, but analysts suggest structural supply shortages will persist for the time being. Meanwhile, AI investment led by hyperscalers (large cloud and data center operators) is expected to continue.\n\nMichael Dell, CEO of Dell Technologies, spoke at a Bank of America (BoA) event on the 7th (local time), stating: \"As both per-accelerator memory capacity and system scale expand simultaneously in AI infrastructure, total memory demand is forming a structure where it increases roughly 625x.\"\n\nHe continued: \"Expanding memory supply takes years, but current AI infrastructure demand is showing no signs of slowing. We are still in the early stages of technology adoption.\"\n\nDell explained that per-accelerator memory capacity has grown from 80GB with NVIDIA's H100 in 2022 to 2TB by 2028, while the scale of accelerator deployment within data centers is also expanding roughly 25x — driving total memory demand up to 625x (25×25).\n\nHowever, he noted that investment pullbacks by memory companies amid the 2023 industry downturn have resulted in supply shortages.\n\nDespite this, he said robust server demand continues, driven by expanding AI demand and sovereign AI initiatives spurred by geopolitical tensions. Dell remarked: \"It doesn't make sense for a knowledge worker earning $100,000 a year to use an outdated PC or an inefficient system. When you consider productivity, enterprises have no choice but to invest in infrastructure.\" He added: \"Most of the top ~25 countries by GDP are pursuing some form of sovereign AI project.\"\n\nHe emphasized: \"There may be price increases or temporary delays, but enterprises and cloud operators will ultimately have no choice but to adopt infrastructure. The question is not 'whether to buy' but 'when to buy.'\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2041758849057878016",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFXI2wMa8AAJXcb.png",
+          "width": 850,
+          "height": 680,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2041758890396938481",
+      "kind": "post",
+      "engagement": {
+        "views": 97847,
+        "likes": 412,
+        "reposts": 69,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043511575013908798",
+      "date": "2026-04-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$DELL",
+      "text": "Gartner: \"Q1 PC Shipments Up 4% YoY… Driven by Inventory Build\"\n\nGlobal PC shipments rose 4% year-over-year in Q1.\n\nMarket research firm Gartner announced on the 13th that Q1 PC shipments reached 62.8 million units, up 4% from the same period last year. However, Gartner noted that the growth was not driven by real end-user demand, but rather by inventory builds in response to surging memory semiconductor prices.\n\nRishi Padhi, Research Director at Gartner, explained: \"The increase in Q1 PC shipments was due to sharp rises in DRAM and NAND flash component costs, prompting vendors and distributors to build inventory ahead of anticipated price hikes in Q2.\"\n\nGartner assessed that artificial growth continued in Q1, similar to last year. In Q1 last year, shipments also exceeded real demand due to preemptive imports ahead of tariffs imposed by the Trump administration.\n\nThe top four PC shipment vendors in Q1 were Lenovo, HP, Dell, and Apple — unchanged from last year. However, ASUS moved up one spot to fifth place, overtaking Acer. Apple posted the highest growth rate among major vendors at 12.7%.\n\nRegarding Apple's surge in PC shipments, Padhi noted: \"This was driven by solid demand for the MacBook Neo, particularly from new Mac adopters and education market buyers. Through strategic positioning, Apple has effectively attracted price-sensitive consumers seeking high-performance devices, strengthening its competitiveness in the PC segment.\"\n\n$DELL $HPQ $AAPL",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2043511552712830976",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFwC7iHa8AA5gUk.png",
+          "width": 700,
+          "height": 324,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2043511575013908798",
+      "kind": "post",
+      "engagement": {
+        "views": 13228,
+        "likes": 59,
+        "reposts": 4,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043713758791631276",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Dell",
+      "text": "But aren’t Dell and HP just too large to acquire? If it were me, I’d be more likely to acquire a Taiwanese company. https://t.co/rHrrgksQN1",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043713758791631276",
+      "kind": "post",
+      "engagement": {
+        "views": 39725,
+        "likes": 164,
+        "reposts": 3,
+        "replies": 58
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2057828710536114453",
+      "date": "2026-05-22",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "significant growth potential thanks to CPUs",
+        "CPU servers for Agentic AI have higher ASP",
+        "major tailwind given strength in general-purpose servers"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$DELL",
+      "text": "Dell is up a lot today…\n\nDell has significant growth potential thanks to CPUs.\n\nCPU servers for Agentic AI share many components with general-purpose servers, but come with a higher ASP.\n\nThis is a major tailwind for Dell, given its strength in general-purpose servers.\n\n$DELL",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2057828710536114453",
+      "kind": "post",
+      "engagement": {
+        "views": 168086,
+        "likes": 542,
+        "reposts": 36,
+        "replies": 41
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2057829163671941327",
+      "date": "2026-05-22",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "Agentic AI CPU servers do not necessarily require relying on Taiwanese ODMs or outsourcing to them"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Dell",
+      "text": "Another major positive is that Agentic AI CPU servers do not necessarily require relying on Taiwanese ODMs or outsourcing work to them.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2057829163671941327",
+      "kind": "self_thread",
+      "engagement": {
+        "views": 18554,
+        "likes": 64,
+        "reposts": 1,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2060138429950865690",
+      "date": "2026-05-28",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "wanted to buy but lacked sufficient cash"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Dell",
+      "text": "Damn, I couldn’t buy Dell because I didn’t have enough cash. https://t.co/HxlUjoFUUI https://t.co/Gj7Wq46Qoz",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2060138351844528128",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJcU6nnaEAA77Uv.jpg",
+          "width": 1204,
+          "height": 742,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2060138429950865690",
+      "kind": "post",
+      "engagement": {
+        "views": 97231,
+        "likes": 649,
+        "reposts": 13,
+        "replies": 45
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2060621480208355415",
+      "date": "2026-05-30",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "agentic AI is a tailwind for general-purpose servers, where Dell is a leader",
+        "general-purpose servers have higher margins than GPU servers due to commoditized components and no NVIDIA involvement",
+        "Dell holds priority in securing memory vs tier-2/3 players and has B2B pricing power advantage",
+        "NVIDIA N1/N1X foothold in WoA could give OEMs like Dell leverage to pressure Intel and AMD on pricing and subsidies"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$DELL",
+      "text": "What should we take away from Dell's earnings — and what upside is left for the company?\n\nFirst: Dell delivered tremendous growth in general-purpose servers.\n\nAs we've argued all along, agentic AI is a tailwind for general-purpose servers. The growing importance of the CPU naturally raises the importance of CPU servers — that is, general-purpose servers. On top of that, general-purpose servers are built largely from pre-existing, mostly commoditized components and are free from NVIDIA's involvement, which gives them far higher margins than GPU servers.\n\nHere's my thesis: agentic AI is real. And traditional general-purpose server leaders like Dell stand to benefit just as much as the CPU makers.\n\nSecond: Dell is holding up better than expected in PCs.\n\nTier-2 and tier-3 players like ASUS and Xiaomi have been blustering that their LTAs leave them reasonably well defended against the memory crunch. Tier-1 vendors like Dell, by contrast, genuinely appear to have priority in securing memory. They also hold a relative advantage in the B2B market, which gives them some room to pass costs through. Quite a few analysts seem to have underappreciated this. And even if the PC market carries unexpected downside, I'd argue general-purpose servers will more than make up for it.\n\nThird: upside from NVIDIA's next chip.\n\nIf NVIDIA's N1/N1X establishes a real foothold in WoA, this isn't merely a case of one more chip supplier entering the market — it opens up an additional architectural path for the PC. That rattles Intel and AMD's defensive line while, at the same time, representing meaningful upside for OEMs like Dell. Once Lenovo, Dell, HP, and ASUS hold an NVIDIA Arm SoC as an option, they can use it to pressure Intel and AMD on CPU pricing and platform subsidies. In a PC downturn like the current one, that could prove to be unexpected upside — though, of course, it all hinges on the forthcoming Agentic Windows on Arm actually delivering.\n\n$DELL",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2060621480208355415",
+      "kind": "post",
+      "engagement": {
+        "views": 88685,
+        "likes": 688,
+        "reposts": 70,
+        "replies": 25
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2068308376434671713",
       "date": "2026-06-20",
@@ -37,7 +245,7 @@
       "url": "https://x.com/jukan05/status/2068308376434671713",
       "kind": "post",
       "engagement": {
-        "views": 113970,
+        "views": 113994,
         "likes": 423,
         "reposts": 36,
         "replies": 40
@@ -52,7 +260,5 @@
       "close": 418.71
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-23T19:16:15.162261+00:00"
+  "price_status": "ok"
 }

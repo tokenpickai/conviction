@@ -1,17 +1,862 @@
 {
   "ticker": "285A",
   "cashtag": "Kioxia",
-  "price_symbol": "285A",
-  "exchange": "US",
-  "currency": "USD",
-  "ticker_mapped": false,
-  "company": null,
-  "industry": null,
+  "price_symbol": "285A.T",
+  "exchange": "Tokyo",
+  "currency": "JPY",
+  "ticker_mapped": true,
+  "company": "Kioxia Holdings",
+  "industry": "Memory/NAND",
   "thesis_summary": null,
-  "first_mention": "2026-06-16",
-  "last_mention": "2026-06-16",
-  "total_mentions": 1,
+  "first_mention": "2026-03-31",
+  "last_mention": "2026-06-19",
+  "total_mentions": 30,
   "mentions": [
+    {
+      "tweet_id": "2038892716428603841",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "Kioxia has announced the discontinuation of SLC and MLC.\n\nYou know what to buy, right? https://t.co/fmei5RhONs",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038892710468431872",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEuaHh6asAAJtxG.jpg",
+          "width": 1052,
+          "height": 1486,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038892716428603841",
+      "kind": "post",
+      "engagement": {
+        "views": 143709,
+        "likes": 290,
+        "reposts": 33,
+        "replies": 21
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039513523961876693",
+      "date": "2026-04-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "China's YMTC Closing In on Korea, Stabilizing Cutting-Edge NAND Flash Yields and Ramping Production\n\nYMTC (Yangtze Memory Technologies Co.), China's leading NAND flash manufacturer, is expected to begin full-scale shipments of high-layer NAND from its cutting-edge Wuhan Fab 3 in H2 this year, following the stabilization of its two existing production lines. The company is also reportedly making steady progress in securing major overseas customers — an area where it had previously struggled. YMTC's NAND output is projected to surpass that of SK Hynix and Micron, currently the industry's third and fourth largest players, by year-end.\n\nAccording to industry sources on April 2, YMTC plans to begin mass production of its most advanced NAND products at Wuhan Fab 3 in Hubei Province starting H2 2026. A source familiar with the situation in China noted: \"Wuhan Fab 1 and Fab 2 are already known to be operating near maximum capacity, and Fab 3 — the newest facility — is in the final stages of critical equipment setup ahead of full-scale production.\"\n\nYMTC has expanded its presence in the global NAND market at a remarkable pace over the past two years. Wuhan Fab 2, which began operations in 2024, reportedly reached maximum capacity in just two years. The line currently produces an average of 60,000 wafers per month, while Fab 1, the largest facility, produces 100,000 wafers per month. Annual production volume grew from 1.29 million wafers in 2024 to 1.77 million last year, and is expected to approach 2 million this year.\n\nOnce Wuhan Fab 3 is fully operational, YMTC is set to overtake SK Hynix and Micron in shipment volume, securing the number three position in the global NAND market — trailing only Kioxia (4.82 million wafers) and Samsung Electronics (4.68 million wafers). Notably, YMTC has been steadily increasing its mix of high-complexity 200+ layer NAND across server and mobile segments, moving beyond legacy products, and is expected to stabilize yields on 300-layer products this year.\n\nYMTC's revenue portfolio — historically skewed toward Chinese domestic customers and one of the key reasons the company has been underestimated — is also likely to shift this year. According to Reuters and other outlets, Apple is reportedly evaluating the use of YMTC products due to NAND supply constraints. Apple is said to be concerned about margin compression on major product lines including iPhone, driven by rising DRAM and NAND prices, and has begun considering YMTC as an alternative supplier.\n\nWhile a formal supply agreement with Apple remains uncertain, the prevailing view is that such a deal would be transformative for YMTC. Apple is not just another revenue source — qualifying as an Apple supplier carries significant symbolic weight, as it signals that a company has passed rigorous quality, reliability, and supply stability assessments. If Apple supply is confirmed, other Big Tech companies facing NAND shortages could also begin considering YMTC as an alternative.\n\nAn industry source noted: \"If YMTC supplies NAND to Apple, it would represent a symbolic re-entry into the supply chains of global top-tier OEMs, breaking free from its China-centric customer base. Given that Apple has historically sourced NAND from Samsung, SK Hynix, and Kioxia, YMTC's market positioning would fundamentally change.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2039513260773580800",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HE3OgT8boAA4akD.png",
+          "width": 616,
+          "height": 372,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2039513523961876693",
+      "kind": "post",
+      "engagement": {
+        "views": 144892,
+        "likes": 267,
+        "reposts": 37,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041674068097953801",
+      "date": "2026-04-07",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "Samsung Electronics' NAND Quarterly Operating Profit Approaches KRW 10 Trillion (~$8 Billion)\n\nDriven by a surge in memory prices, Samsung Electronics recorded approximately KRW 10 trillion in operating profit from its NAND flash business — the highest quarterly result since the company entered the NAND business. The industry expects NAND price increases to continue, with Samsung projected to generate over KRW 50 trillion in NAND operating profit for the full year. Operating margins are also expected to exceed 60% in the second half.\n\nSamsung announced preliminary results on April 7, reporting Q1 2026 revenue of KRW 133 trillion and operating profit of KRW 57.2 trillion. QoQ, revenue rose 41.73% and operating profit surged 185%. YoY, revenue increased 68.06% and operating profit jumped 755.01%.\n\nQ1 results were driven by memory price increases, with both DRAM and NAND prices continuing to rise on the back of AI demand. The industry estimates Samsung recorded over KRW 50 trillion in operating profit from memory alone.\n\nDRAM profitability improved further this year, with an estimated ~80% of Samsung's total Q1 operating profit attributed to DRAM. DRAM remains the biggest bottleneck in the AI industry — memory makers are pursuing capacity expansions, but physical space constraints mean meaningful additions will take considerable time.\n\nNAND showed even steeper improvement, fueled by surging enterprise SSD (eSSD) demand. Securities analysts estimate Samsung posted ~KRW 10 trillion in NAND operating profit in Q1, compared to just over KRW 2 trillion for the entirety of last year.\n\nUntil last year, NAND was considered a business where even 10% operating margins were difficult to achieve. With more manufacturers (Samsung, SK Hynix, Micron, Kioxia, SanDisk, YMTC) than in DRAM, price competition was fierce, and NAND was relatively sidelined from AI investment, limiting demand growth.\n\nThis demand shift accelerated as inference grew in share within the AI industry. The transition from training-centric to inference-centric workloads has elevated the importance of data storage and processing architectures, driving rapid growth in NAND-based storage demand and a sharp rise in NAND ASPs. Some in the industry now forecast NAND operating margins exceeding 60% in H2.\n\nAdditionally, NVIDIA's newly unveiled ICMS (Interconnect and Memory Subsystem) is expected to further boost NAND demand. ICMS stores and utilizes KV cache generated during inference in storage rather than HBM, improving overall system compute efficiency.\n\nWith Samsung posting outsized NAND profits, expectations for NAND investment are also rising. Samsung had been conservative on NAND capacity expansion in recent years, focusing instead on technology migration. Competitors have already moved: SK Hynix has decided to resume investment in its Dalian Fab 2, and Micron is investing $24 billion to build a new fab in Singapore for NAND expansion.\n\nA source with close knowledge of Samsung said, \"As NAND conditions improve, Samsung is reviewing NAND line expansion at its new P5 fab,\" adding that \"investment scale is expected to be finalized in H2 this year.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2041674068097953801",
+      "kind": "post",
+      "engagement": {
+        "views": 70403,
+        "likes": 139,
+        "reposts": 8,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041733280861651030",
+      "date": "2026-04-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "Kioxia President Kawamura stated in an interview with Nikkei that supply shortages continue to favor NAND sellers, and that the company is in negotiations for long-term contracts extending through 2028–2029 with hyperscalers and other large-scale cloud operators.\n\n$SNDK https://t.co/3NSrDbntmM",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [
+        {
+          "media_key": "3_2041733234715979777",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFWxjzVa8AEMDZa.jpg",
+          "width": 1492,
+          "height": 1494,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2041733280861651030",
+      "kind": "post",
+      "engagement": {
+        "views": 27360,
+        "likes": 186,
+        "reposts": 29,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043862710262345939",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "SK hynix is estimated to own roughly a 33–34% stake in Kioxia.\n\nKioxia is up 244% YTD. https://t.co/KF32g8fXdF https://t.co/d6qxaqjlki",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2043862705266962432",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HF1CTTUbMAAu_6c.jpg",
+          "width": 1280,
+          "height": 1178,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2043862710262345939",
+      "kind": "post",
+      "engagement": {
+        "views": 118194,
+        "likes": 558,
+        "reposts": 42,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043868730124542352",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "@Nyx_Ferros It is currently worth $40.57 billion. No, the chairman of SK Group has never mentioned monetizing the stake; he only said that he was pursuing strategic cooperation with Kioxia.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043868730124542352",
+      "kind": "reply",
+      "engagement": {
+        "views": 26270,
+        "likes": 81,
+        "reposts": 5,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043868913180848209",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "RT @jukan05: @Nyx_Ferros It is currently worth $40.57 billion. No, the chairman of SK Group has never mentioned monetizing the stake; he on…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043868913180848209",
+      "kind": "post",
+      "engagement": {
+        "views": 4,
+        "likes": 0,
+        "reposts": 5,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043926786992685431",
+      "date": "2026-04-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "@JapanDeepValue1 Do you know that SK hynix separately holds convertible bonds equivalent to a 14% stake in Kioxia, apart from Bain? If you pointed that out to me without knowing this, that’s unfortunate. It felt a bit rude.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043926786992685431",
+      "kind": "reply",
+      "engagement": {
+        "views": 1843,
+        "likes": 10,
+        "reposts": 1,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043947680767062234",
+      "date": "2026-04-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "@travislundyasia @JapanDeepValue1 I don’t remember every tweet I post. And the reason I posted that SK hynix holds a 33% stake in Kioxia was because a sell-side analyst shared that figure with me.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043947680767062234",
+      "kind": "reply",
+      "engagement": {
+        "views": 684,
+        "likes": 0,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044323309983297714",
+      "date": "2026-04-15",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "legacy DRAM shortages in SSDs disadvantage pure-play NAND makers without self-supply",
+        "capex increase of 40% vs prior plans adding cost pressure"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "Daishin Securities analyst Hyung-Geun Ryu published a memory report today, packed with significant alpha. \n\nKey takeaways:\n\n1. Apple is exploiting the memory shortage amid growth stagnation in the North American market. As I've noted previously, Daishin Securities estimates that Apple is capitalizing on competitors' struggles by pursuing an aggressive shipment strategy to expand the iOS ecosystem and strengthen its dominance in the end-device market. In other words, Apple is hoarding memory to prevent competitors from producing smartphones. They've even reportedly raised their iPhone shipment target for this year to 240 million units. As Apple stockpiles memory, Chinese smartphone OEMs have panicked into buying as well.\n\n- Some Chinese customers accepted mobile memory prices in 2Q26 that are 90–100% higher QoQ, following similar increases in 1Q26.\n- As a result, 2Q26 mobile memory prices are expected to rise ~80% QoQ.\n- Despite this, customers are not pushing back on pricing. Per Daishin's channel checks, some mobile customers are locking in annual contracts at the sharply elevated 2Q26 prices and seeking to increase purchase volumes in H2.\n\n2. DRAM capacity shortages are forcing a reduction in HBM4E stack counts. Originally expected at 16-hi and 20-hi, the products are now shifting to 12-hi and 16-hi.\n\n3. HBM4E I/O speed is increasing to 15–16 Gbps, pushing the commodity DRAM-to-HBM trade ratio from the previous 3:1 to as high as 5:1.\n\n4. Legacy DRAM shortages in SSDs are becoming severe. The three major DRAM makers, which can self-supply legacy DRAM (DDR4) used in SSDs, will gain a structural advantage in NAND as well. Bearish Kioxia, SanDisk.\n\n5. Kioxia is expected to increase this year's capex by 40% vs. prior plans.\n\n6. Samsung Electronics earnings revisions: 2026E OP raised from KRW 307T ($208.27B) to KRW 342T ($232.02B); 2027E OP raised from KRW 335T ($227.27B) to KRW 410T ($278.1B).\n\n7. SK Hynix earnings revisions: 2026E OP raised from KRW 232T ($157.3B) to KRW 263T ($178.4B); 2027E OP raised from KRW 260T ($176.3B) to KRW 332T ($225.2B).\n\n8. Target price upgrades: Samsung Electronics raised from KRW 270,000 to KRW 330,000; SK Hynix raised from KRW 1,450,000 to KRW 1,700,000.\n\n9. Despite the upgrades, valuations remain remarkably cheap. On Daishin's revised estimates, Samsung and SK Hynix trade at just 4.8x and 3.9x 2026E P/E, and 4.0x and 3.1x 2027E P/E, respectively.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044323309983297714",
+      "kind": "post",
+      "engagement": {
+        "views": 72916,
+        "likes": 449,
+        "reposts": 68,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044906576067330360",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "NAND Flash Prices Surge Amid Delayed Capacity Expansion… Samsung Electronics & SK Hynix Go All-Out to Ramp Production\n\nAs NAND flash demand surges on the back of artificial intelligence (AI) industry growth, global NAND flash manufacturers including Samsung Electronics, SK Hynix, and Kioxia are accelerating capacity expansion efforts. However, with Samsung and SK Hynix prioritizing DRAM capacity additions first, and Kioxia's expansion unlikely to meet demand in the near term, the consensus view is that NAND price increases will persist for the foreseeable future.\n\nAccording to market research firm DRAMeXchange on April 17, the average contract price for commodity NAND products (128Gb 16Gx8 MLC, used in memory cards and USB drives) reached $17.73 last month, up 39.95% from $12.67 the prior month. Compared to $2.18 in January last year, this represents roughly an 8x increase. Demand has surged sharply, driven primarily by AI data centers, while NAND manufacturers' supply has failed to keep pace.\n\nThe AI-driven growth wave is exacerbating supply shortages not only in DRAM but also in NAND. Demand for NAND-based enterprise SSDs (eSSDs) has spiked as vast volumes of data must be stored throughout the process of training AI models and advancing inference capabilities. On top of this, the 4–6 year data center server refresh cycle is coinciding with the demand surge, compounding the supply crunch.\n\nHowever, following 2–3 years of NAND market weakness during which global manufacturers executed production cuts, responding to the demand uptick has proven difficult. Samsung, SK Hynix, and Micron in particular have been channeling resources toward DRAM production—where demand has exploded even more steeply—pushing NAND expansion down the priority list.\n\nMarket research firm TrendForce noted: \"With NAND production capacity growth limited in the near term and AI-driven demand surging, price increases are expected to remain robust throughout the year.\"\n\nSamsung Electronics and SK Hynix plan to focus on securing additional space at their China-based NAND fabs this year. Samsung is understood to have completed process migration investment at its Xi'an Fab 1 and plans to ramp output in the second half of the year. Xi'an Fab 2 is reportedly reviewing a capacity expansion of approximately 40,000 wafer starts per month. SK Hynix is said to be undertaking new investment at its Dalian Fab 2 to expand capacity by up to 50,000 wafer starts per month.\n\nEfforts are also reportedly underway to find additional space at new domestic production lines. Samsung's new P5 fab at the Pyeongtaek campus and SK Hynix's Y1 fab at the Yongin semiconductor cluster are both reviewing plans to add NAND production lines.\n\nAn industry official stated: \"Korean memory companies are prioritizing DRAM and HBM capacity expansion, but with NAND demand also surging, addressing this has become urgent. Companies are working to secure space for production line expansion at both domestic and overseas fabs.\"\n\nOverseas NAND manufacturers including Kioxia and Micron are also pushing hard on capacity expansion. Japan's Kioxia began executing expansion investment last year and aims to add approximately 30,000 wafer starts per month at its Yokkaichi fab this year. Micron's new Singapore NAND fab, where equipment investment has been committed, is set to begin construction in earnest this year, with volume production expected to commence in 2028.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044906554257002496",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGD3rT1bUAA2zzF.png",
+          "width": 616,
+          "height": 411,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044906576067330360",
+      "kind": "post",
+      "engagement": {
+        "views": 59567,
+        "likes": 370,
+        "reposts": 50,
+        "replies": 14
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046027289931173964",
+      "date": "2026-04-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "UMC Reportedly Approached for 2D NAND Foundry Work, But Faces Three Major Hurdles: People, Technology, and Equipment\n\nWith international memory manufacturers' exit from 2D NAND flash memory now all but confirmed, supply scarcity has driven a sharp surge in low-density 2D NAND prices. Recent market chatter suggests that UMC (聯電) may receive SLC/MLC Flash foundry orders, raising the prospect that the future oligopolistic supply structure of 2D NAND could be broken.\n\nHowever, according to industry sources speaking to DIGITIMES, while flash memory foundry opportunities have indeed been discussed with UMC over the past several months, the absence of three core elements — manpower, process integration and development capability, and equipment — has emerged as the most significant obstacle.\n\nNAND Flash Prices Rising Faster Than DRAM\n\nAccording to supply chain sources, NAND Flash prices have climbed sharply since the start of 2026, with the rate of increase already outpacing DRAM. The supply shortfall is particularly severe for MLC NAND and SLC NAND, where prices for legacy-process low-density products have surged nearly 10-fold. Downstream players report that MLC NAND prices were raised by roughly 30% in April.\n\nRegarding the market rumor that Asian customers have approached UMC about flash memory foundry orders, the industry generally views the current strength in MLC/SLC NAND prices as potentially more attractive in profitability terms than mature logic processes.\n\nThat said, existing equipment cannot be used directly, and retrofitting lines or purchasing new tools would take an estimated 1–2 years. Given the enormous scale of the current 2D NAND supply shortage, this would do little to ease the supply gap.\n\nMoreover, the bottlenecks at the execution stage are far more complex than outsiders anticipate.\n\nHurdle ①: People — The 2D NAND Engineers Are Gone\n\nIndustry sources privately disclosed that, in an effort to resolve the MLC/SLC NAND supply crunch, internal proposals were made to explore the feasibility of flash memory foundry work at UMC. However, formidable bottlenecks exist across multiple dimensions — talent, technology, and equipment.\n\nFirst, potential IP licensors and NAND manufacturers are not opposed to licensing partnerships in principle. The problem lies in the requirement that support must come from manufacturers with actual mass-production experience, including dispatching technical teams to help implement the process.\n\nThe issue is that engineers who once tuned 2D NAND equipment have largely retired or moved on, and those who remain have been redeployed to 3D NAND mass-production roles. At present, NAND manufacturers are concentrating their resources on 3D NAND R&D to capture growth opportunities from AI server applications. With manpower stretched thin, they simply cannot afford to take on additional 2D NAND technical support.\n\nHurdle ②: Technology — UMC's Memory Development Capability Gap\n\nSecond, while UMC did conduct memory-related R&D years ago and currently has some idle fab space that could accommodate foundry orders, its core technology has drifted significantly from the memory domain. Re-entry would require enormous resource investment, and rebuilding process fine-tuning and yield optimization capabilities would take considerable time.\n\nIf UMC can only provide production capacity without the underlying technology, it would be unable to support customers through process development and integration on its own — leaving the realistic profit contribution to UMC quite limited.\n\nHurdle ③: Equipment — No Path to Securing Legacy Tools\n\nThird, the equipment problem has no ready solution. International manufacturers' legacy tools have already been sold off or dismantled during line upgrades, and even if used equipment could be located, related maintenance parts and personnel would be hard to secure.\n\nPreviously, Japanese giant Kioxia also told DIGITIMES that the discontinuation of legacy products such as 2D NAND was not driven by AI-related capacity crowd-out, but rather by the extremely high cost of maintaining legacy equipment and issues related to equipment aging.\n\nThat said, if UMC were to take on flash memory foundry orders and rebuild via new equipment purchases, the implementation process and yields would differ from the legacy approach, likely requiring fresh trial-and-error and development. This implies considerable uncertainty around investment recovery. Additionally, the IC design houses involved are unfamiliar with actual foundry process and mass-production realities — and while their appetite for collaboration is strong, on balance, the idea of a foundry arrangement via technology transfer currently lacks any viable near-term solution.\n\nUMC Notifies Customers of Price Hikes Effective H2 2026\n\nUMC's official spokesperson declined to comment on market rumors regarding flash memory foundry work. However, the company has recently issued price-increase notices to customers and partners, confirming pricing hikes for the second half of 2026.\n\nUMC stated that since the first half of 2026, it has observed robust demand resilience across diverse application areas including communications, industrial, consumer electronics, and AI-related segments. Combined with rising costs across key drivers such as raw materials, energy, and logistics, the company will implement wafer price adjustments in the second half of 2026.\n\nAccording to related supply chain players, UMC is raising prices across both 8-inch and 12-inch product lines. Based on a roughly 3.5-month cycle, orders taped out in April are expected to be subject to the new pricing.\n\n- 8-inch wafer lines: relatively higher increases of around 10–15%\n- 12-inch lines (80nm, 55nm, 40nm, etc.): increases of roughly 5–10%\n\nAdjustments will be tiered based on individual customer volumes. This round of price hikes is primarily aimed at recovering prior price cuts on mature processes. Since some IC players have locked in long-term agreements (LTAs), the impact will be limited, and the increases are expected to be gradually passed through to downstream customers over time.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2046027264450846720",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGTy9OpbYAAy7Ni.png",
+          "width": 750,
+          "height": 422,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2046027289931173964",
+      "kind": "post",
+      "engagement": {
+        "views": 39434,
+        "likes": 103,
+        "reposts": 4,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046153826080575872",
+      "date": "2026-04-20",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "Meritz Securities Comment on the Earthquake off the Eastern Coast of Morioka City, Iwate Prefecture, Japan\n\n- A strong magnitude 7.4 earthquake occurred.\n\n- The epicenter was located 174km offshore, with inland areas registering JMA seismic intensities of 2–5.\n\n- Kioxia operates a NAND fab in Kitakami, Iwate Prefecture.\n\n- Damage assessment is still underway, but given that Kitakami also recorded a seismic intensity of 4, the facility will likely halt operations and begin estimating scrap and rework volumes.\n\n- As of April 2026, global NAND capacity stands at 1,337k wpm, of which Kioxia's Iwate Fab 1 accounts for 55k wpm — roughly 4% of global capacity.\n\n- Kioxia's Iwate Fab 2 was scheduled to commence partial mass production from 2Q26, but this earthquake could also weigh on future capacity expansion plans.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2046153737367158784",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGVl-6-bgAAPGMf.png",
+          "width": 700,
+          "height": 600,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2046153826080575872",
+      "kind": "post",
+      "engagement": {
+        "views": 78738,
+        "likes": 184,
+        "reposts": 20,
+        "replies": 25
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046724642669523176",
+      "date": "2026-04-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "Samsung Electronics' China NAND Fab in \"Transition Phase\" as Equipment Swap Continues... \"Production Losses to Extend into Next Year\"\n\nSamsung Electronics is undergoing equipment replacement and upgrades at its Xi'an NAND flash fab in China, and observers are now suggesting that the resulting production disruption will extend into next year. The Xi'an fab has historically had a relatively high share of legacy-node products such as 128-layer NAND. As mainstream products in the global NAND industry have moved up into the 200–300 layer range, the fab has been seen as showing its limits in terms of productivity and cost competitiveness.\n\nAccordingly, Samsung Electronics has been carrying out line-wide upgrade work at the Xi'an fab since last year. However, analysts note that a temporary decline in NAND output is difficult to avoid during the process of removing existing tools, bringing in and installing new equipment, and then re-stabilizing the processes. While NAND profitability should improve, there is also a possibility that market share could shrink or plateau.\n\nAccording to industry sources on the 22nd, Samsung Electronics' Xi'an fab's average monthly NAND wafer output has reportedly declined year-over-year. The industry estimates that production scale — which had stood at around 150K wafers per month — has been cut by roughly 5–6% this year. At a time when the global NAND market is widely seen as entering an upcycle, supply from the Xi'an fab — one of Samsung's key overseas production hubs — is moving in the opposite direction. This contrasts with competitors Japan's Kioxia and China's YMTC, both of which are gradually expanding capacity.\n\nThe industry points to the Xi'an fab's \"transition phase\" as the key reason for this production decline. Because NAND is built by stacking cells vertically to increase capacity, higher layer counts allow more data to be stored within the same area. Higher layer counts are therefore critical in terms of cost and productivity. However, the Xi'an fab has maintained a high share of 128-layer products for some time, fueling concerns that it could fall behind in the high-layer NAND race. The prevailing interpretation is that Samsung Electronics is accelerating equipment replacement — even at the cost of near-term production disruption — in order to secure medium- to long-term competitiveness.\n\nIn particular, competition has intensified as YMTC, China's largest NAND maker, has moved into mass production of products up to 294 layers. It has become difficult to hold off the Chinese challenge with 100-layer-range products, and in the commodity segment, pricing pressure is also increasing. From Samsung's standpoint, rather than maintaining volumes on existing processes, the company is now in a position where it needs to upgrade its lines and lift the mix of next-generation products. An additional variable is the possibility that bringing advanced equipment into China could become even more difficult if U.S. semiconductor restrictions on China are tightened further. A likely factor behind the decision is the judgment that major line upgrades need to be pulled forward as much as possible before the regulatory environment becomes more restrictive.\n\nA full-scale semiconductor line upgrade is not something that ends simply by installing new tools. Even after the equipment swap, time is required to re-tune process conditions, stabilize yields, and re-align the product mix with market demand. The industry views large-scale equipment replacement at a memory fab as a long-haul project taking at least six months and, in some cases, more than a year. A semiconductor industry source explained: \"Including yield, cycle time, and product mix, it's a reasonable estimate that the industry's perceived timing for full normalization is typically 6–9 months, and in some cases 12 months or more.\"\n\nThe NAND industry has faced supply disruptions during major process transitions in the past as well. When the industry shifted from planar NAND to 3D NAND, major players including Samsung Electronics and Kioxia all moved to swap out equipment at the same time, leading to a period of tight supply across the market. This is why there is a view that the Xi'an fab upgrade could affect future NAND market supply-demand dynamics and pricing — beyond being just a Samsung-specific issue. The industry's read is that Samsung Electronics will need to complete the shift of its production base toward next-generation NAND, even if that means absorbing short-term production losses, in order to defend its market leadership going forward.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2046724624541757440",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGdtM7bbMAAoECK.png",
+          "width": 616,
+          "height": 411,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2046724642669523176",
+      "kind": "post",
+      "engagement": {
+        "views": 84047,
+        "likes": 101,
+        "reposts": 12,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047095901869711667",
+      "date": "2026-04-22",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "SK hynix recorded KRW 10 trillion ($6.76 billion) in gain on valuation of investment assets in the first quarter alone, driven by its stake in Kioxia.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047095901869711667",
+      "kind": "post",
+      "engagement": {
+        "views": 25847,
+        "likes": 202,
+        "reposts": 13,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048587684239827430",
+      "date": "2026-04-26",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "Korean media reported that, among the top 50 overseas stocks net-bought by Korean retail investors in April, two names stood out: Hong Kong-listed Victory Giant and Japan’s Kioxia.\n\nThis can be interpreted as Korean investors broadening their bets beyond U.S. stocks into global small- and mid-cap semiconductor names.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2048587660823027712",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HG4Ln6aa4AApcEC.jpg",
+          "width": 1184,
+          "height": 834,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2048587684239827430",
+      "kind": "post",
+      "engagement": {
+        "views": 42593,
+        "likes": 189,
+        "reposts": 16,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2052651707105181882",
+      "date": "2026-05-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "2D NAND shortage spirals after Samsung, Micron, and rivals exit market\n\nMajor international NAND manufacturers are gradually exiting the mature-process 2D NAND market, triggering panic buying and a sharp spike in prices. Industry sources suggest the supply shortage may be difficult to resolve. While vendors are seeking alternative solutions, product specifications are expected to become increasingly polarized as scarcity persists.\n\nSupply chain sources said multi-level cell (MLC) NAND has become extremely difficult to secure, with prices rising at least 20–30% in April 2026 alone. Spot market prices have climbed even faster. For example, MLC 64Gb 8GBx8 products are currently trading at US$19–20, with some offers reaching US$28, compared with only around US$6–7 at the end of 2025 — representing an increase of roughly 200–300%.\n\nSingle-level cell (SLC) NAND prices have also surged sharply. Spot prices for SLC 2Gb products recently reached around US$4–4.5, up roughly 120–150% from late 2025 levels.\n\nIndustry sources said that although other players are interested in entering the 2D NAND manufacturing market, second-hand equipment phased out by major NAND makers has recently become highly sought after. However, companies including Samsung, SK Hynix, Kioxia, and Micron Technology currently have no plans to license MLC technology externally, making it more difficult for new entrants to break into 2D NAND manufacturing.\n\nThe challenge is particularly acute for niche applications that remain dependent on 2D NAND, where transitioning to alternative products is difficult, and qualification cycles are typically lengthy. Although some Chinese manufacturers are interested in entering the market, their production capacity remains limited. End customers are also reluctant to take on higher supply risks, especially for critical applications.\n\nThe global NAND market is estimated to have reached around US$73 billion in 2025, with the six major NAND suppliers focusing heavily on 3D NAND development. Yet only around 1% of the overall NAND market remains tied to 2D NAND products. Despite the small share, price increases for both MLC and SLC products over the past six months have significantly outpaced those of 3D NAND.\n\nMacronix and Winbond gain pricing power in shrinking 2D NAND market\nMacronix and Winbond are expected to remain the leading suppliers of MLC and SLC NAND, respectively. Based on an estimated 2025 market value of around US$600 million, the two Taiwanese companies already account for roughly 59% of the 2D NAND market, with their combined share expected to expand further in 2026.\n\nMacronix returned to profitability in the first quarter of 2026, with rising prices continuing to drive operational growth. April revenue reached NT$5.91 billion (US$188 million), up 33.7% sequentially and 153.7% from a year earlier, surpassing the previous monthly record of NT$5.68 billion set in September 2021. Revenue for the first four months of the year totaled NT$16.38 billion, up 93.5% year over year.\n\nMacronix president Miin Wu said the company plans to gradually raise the proportion of NOR and NAND products, including eMMC, toward a 1:1 ratio through capacity expansion. He noted that current 4GB–32GB eMMC applications align closely with Macronix's product offerings.\n\nWu added that there remains a clear supply gap in MLC eMMC products, with shortages expected to persist for the foreseeable future. He estimated that meaningful new competition is unlikely to emerge for at least another three years.\n\nWinbond recently said it will focus on maintaining a stable supply of SLC NAND and NOR Flash products and does not plan to enter the MLC NAND market.\n\nThe company expects SLC NAND bit growth to exceed 80% over the next year. In particular, its new 24nm process accounted for only 1% of Flash-related business in the first quarter of 2026, but the contribution of 24nm SLC NAND is expected to increase from the second quarter onward, gradually becoming a meaningful revenue driver. Winbond also expects SLC NAND gross margins to surpass those of NOR Flash as it pushes toward becoming a leading SLC NAND supplier.\n\nWinbond president Chen Pei-ming said the current Flash shortage appears difficult to resolve and that the market is showing two clear trends.\n\nThe first involves products originally requiring only 16GB or 32GB storage being upgraded toward higher-capacity UFS solutions such as 36GB and 48GB. The second involves customers previously using 4GB eMMC solutions compressing or optimizing code to reduce storage requirements from above 1GB down to around 1GB, enabling the adoption of 8Gb SLC NAND products and creating new business opportunities.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2052651664453316609",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHx70DtasAEBa2g.png",
+          "width": 640,
+          "height": 427,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2052651707105181882",
+      "kind": "post",
+      "engagement": {
+        "views": 336220,
+        "likes": 465,
+        "reposts": 49,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2053807032223023576",
+      "date": "2026-05-11",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "market cap will surpass Toyota's within this year"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "Kioxia will surpass Toyota’s market cap within this year.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2053807032223023576",
+      "kind": "post",
+      "engagement": {
+        "views": 205288,
+        "likes": 705,
+        "reposts": 51,
+        "replies": 25
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2054232729613742464",
+      "date": "2026-05-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "Samsung, Kioxia Production Cuts Trigger Supply Cliff Alarm for 2D NAND Flash\n\nThe global memory semiconductor industry is concentrating its production capacity on high-bandwidth memory (HBM) and advanced 3D NAND flash, causing the supply base for legacy products such as 2D NAND flash to collapse.\n\nAccording to industry sources on the 12th, Samsung Electronics began in March to gradually halt 2D NAND production at Line 12 of its Hwaseong campus, converting the facility into an “End Fab” for advanced 1c DRAM production. This marks the shutdown of Samsung’s last remaining 2D NAND stronghold, which had wafer capacity of 80,000–100,000 wafers per month.\n\nSamsung’s move is closely tied to the discontinuation of MLC (Multi-Level Cell) NAND, a product that once dominated the market. Samsung has already notified customers of the MLC NAND end-of-life, with final shipments scheduled for next month before supply is completely cut off. MLC stores 2 bits of data per cell — offering lower capacity than 3-bit (TLC) or 4-bit (QLC) architectures, but with superior data retention and endurance. As a result, it has long served as a safety anchor in markets such as medical devices and industrial robotics, where products must operate without failure for more than a decade. Despite this role, the product is being phased out due to weak profitability.\n\nKioxia notified customers in March of its plan to phase out 2D NAND and 3rd-generation BiCS Flash products. The company will accept final orders through the end of September this year, complete final shipments by December 2028, and fully exit the market beginning in 2029. Micron, meanwhile, is maintaining MLC NAND production only at levels sufficient to meet existing customer demand, and has also announced the wind-down of its consumer brand Crucial.\n\nAs low-density commodity NAND volumes rapidly disappear from the market, the supply cliff is deepening. MLC 64Gb spot prices recently traded in the $20–$28 range, more than 300% higher than year-end 2024 levels.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2054232729613742464",
+      "kind": "post",
+      "engagement": {
+        "views": 263403,
+        "likes": 419,
+        "reposts": 40,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2057326429629788312",
+      "date": "2026-05-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "Korean media reported that as Kioxia’s share price surged, the value of SK hynix’s stake in Kioxia has reached around $40 billion.\n\nSK hynix holds a 7%-plus equity stake in Kioxia through the Bain Capital consortium, as well as convertible bonds equivalent to roughly 15% of Kioxia’s shares, which can be converted into common stock in 2028.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2057326424177197056",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HI0Xe4wbQAAhWfH.jpg",
+          "width": 660,
+          "height": 330,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2057326429629788312",
+      "kind": "post",
+      "engagement": {
+        "views": 91451,
+        "likes": 598,
+        "reposts": 70,
+        "replies": 17
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2058031890754613493",
+      "date": "2026-05-22",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "Kioxia Signals Intent to Mass-Produce 10th-Gen NAND Next Year, Chasing Samsung and SK Hynix\n\nJapan's Kioxia has flagged next-generation NAND mass production as a key priority for next year. With Korean players such as Samsung Electronics and SK Hynix pushing back the commercialization timeline for their own next-gen NAND, the move is read as a strategy to rapidly close the technology gap.\n\nAccording to industry sources on the 23rd, Kioxia is planning to begin mass production of 10th-generation (BiCS 10) NAND next year.\n\nKioxia is one of Japan's major NAND manufacturers. Per market research firm TrendForce, the company held a 14.1% share of the global NAND market in the fourth quarter of last year, ranking third—behind Samsung Electronics (28.0%) and SK Hynix (22.1%).\n\nThere is also a view that Kioxia is ramping up its technology at pace. In its most recent earnings release, the company identified \"the launch of 10th-generation BiCS NAND\" as one of its strategic priorities for fiscal year 2026 (April 2026–March 2027). Its capital expenditure in the latest quarter was likewise concentrated on 8th- and 10th-generation NAND.\n\nNAND has evolved by vertically stacking ever more cells—the smallest unit of memory storage. Kioxia applies its proprietary cell-stacking technology, BiCS (Bit Cost Scalable). The 10th-generation BiCS stacks a total of 332 layers, increasing storage capacity per unit area by 59% and improving data transfer speed by 33% versus the prior generation (218 layers).\n\nThat said, just how much 10th-gen NAND Kioxia will actually mass-produce remains unclear. One semiconductor industry official noted, \"Kioxia had originally planned to begin investing in 10th-gen NAND as early as the second half of last year, but there are still no confirmed orders,\" adding that \"a clearer picture should emerge around the second half of this year.\"\n\nShould Kioxia indeed move forward with mass-production investment in 10th-gen NAND, it is expected to be able to narrow the technology gap with Samsung Electronics and SK Hynix more quickly. Korean firms are also developing 10th-gen NAND, but have yet to execute actual mass-production investment.\n\nSamsung Electronics had originally planned to mass-produce its 430-layer-class 10th-gen NAND this year, but the plan has been pushed back to at least next year. The high technical difficulty of realizing 10th-gen NAND, along with market demand, are seen as contributing factors.\n\nA source familiar with the matter said, \"Samsung Electronics is deliberating over the timing of its 10th-gen NAND conversion investment and has not yet shared any concrete equipment-ordering plans,\" adding that \"the situation is the same for SK Hynix.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2058031868428304384",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HI-ZFJYaQAALVT9.png",
+          "width": 640,
+          "height": 320,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2058031890754613493",
+      "kind": "post",
+      "engagement": {
+        "views": 148929,
+        "likes": 405,
+        "reposts": 61,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2058032314496745711",
+      "date": "2026-05-22",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "technology gap with Samsung/SK Hynix would narrow significantly if Kioxia successfully ramps V10 NAND next year while competitors delay"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "Very interesting.\n\nWith Samsung and SK Hynix delaying V10 NAND mass production to next year, if Kioxia successfully ramps V10 NAND next year, the technology gap between Samsung/SK Hynix and Kioxia would narrow significantly. https://t.co/XpdX7l3ECn https://t.co/SaFlaDR0k7",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2058032114977955840",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HI-ZTf2bYAANPYO.png",
+          "width": 1192,
+          "height": 764,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2058032314496745711",
+      "kind": "post",
+      "engagement": {
+        "views": 204055,
+        "likes": 701,
+        "reposts": 95,
+        "replies": 14
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2060234657430642804",
+      "date": "2026-05-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "This is a really remarkable report from UBS.\n\nI was genuinely stunned by a lot of it.\n\nIn particular, the point that Kioxia's NAND wafer cost is $2,000 — only half of Samsung's — and that Kioxia's lateral (horizontal) scaling architecture is what gives the company its industry-leading cost advantage was something I really had no idea about.\n\nThere's so much else in there too — HBF, the outlook for the NAND flash market itself, and more.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2060234175261859840",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJdsERqaYAAvgA9.jpg",
+          "width": 962,
+          "height": 452,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2060234657430642804",
+      "kind": "post",
+      "engagement": {
+        "views": 188578,
+        "likes": 1659,
+        "reposts": 178,
+        "replies": 43
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2061729660116041942",
+      "date": "2026-06-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "Just in: Kioxia is seeking to sign long-term NAND supply agreements with hyperscale data centers covering 2029 and beyond.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2061729660116041942",
+      "kind": "post",
+      "engagement": {
+        "views": 407239,
+        "likes": 919,
+        "reposts": 117,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2061738320808567230",
+      "date": "2026-06-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "Kioxia seems to believe that although the supply-demand curve will gradually recover, NAND will still remain in shortage even in Q4 2027. https://t.co/6jJJxwUX8v",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2061738311778258944",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJzEEi1bUAA6cSR.jpg",
+          "width": 1320,
+          "height": 735,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2061738320808567230",
+      "kind": "post",
+      "engagement": {
+        "views": 53313,
+        "likes": 452,
+        "reposts": 37,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2062809398284812532",
+      "date": "2026-06-05",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "biggest beneficiary of SK hynix not adding NAND capacity",
+        "has greenfield site available for new capacity expansion",
+        "market share is likely to increase"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "* Important: SK hynix has no plans to add any new NAND flash capacity.\n\n=> The only players that will add new capacity are pure-play NAND manufacturers, YMTC, and Kioxia.\n\n- This refutes the previous rumor that SK hynix would add NAND capacity at a new greenfield fab.\n\n- The biggest beneficiary should be Kioxia, which has a greenfield site available for new capacity expansion. Kioxia’s market share is likely to increase.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2062809387924910080",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKCSNYaa8AAq-06.jpg",
+          "width": 1320,
+          "height": 1004,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2062809398284812532",
+      "kind": "post",
+      "engagement": {
+        "views": 183822,
+        "likes": 784,
+        "reposts": 116,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063030322254794849",
+      "date": "2026-06-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "Kioxia has now become the company with the largest market capitalization in Japan. https://t.co/Rt30CImSSa https://t.co/9paqf99oGX",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2063030169217200129",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKFbAi0a8AExDZh.jpg",
+          "width": 2800,
+          "height": 1074,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2063030322254794849",
+      "kind": "post",
+      "engagement": {
+        "views": 147883,
+        "likes": 858,
+        "reposts": 64,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065951129742262556",
+      "date": "2026-06-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "キオクシア",
+      "text": "個人的に多くの示唆を与えてくれる日経の記事です。\n\nかつてジェンスン・フアンが韓国には立ち寄らず、台湾や中国ばかりを訪れていた頃、韓国ではビッグテック企業が韓国を素通りするとして「コリア・パッシング(韓国外し)」が蔓延していると韓国メディアが盛んに騒ぎ立てていました。\n\nしかし、昨年10月にメモリ不足がちょうど始まった頃からジェンスン・フアンが韓国を訪れるようになり、今や韓国が大きな注目を集めています。\n\nジェンスン・フアンを日本にも立ち寄らせるには、メモリを持たない日本は、結局のところ日本独自のAI開発企業を大きく育てるしかありません。キオクシアだけでは足りないのです。\n\nNVIDIAのチップを毎年とてつもない規模で消費する企業——今の日本であれば、それを生み出せると私は考えています。",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2065950797251465216",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKu7TeGb0AAbgil.jpg",
+          "width": 1446,
+          "height": 1260,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2065951129742262556",
+      "kind": "post",
+      "engagement": {
+        "views": 96538,
+        "likes": 559,
+        "reposts": 68,
+        "replies": 20
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2067035744246583343",
       "date": "2026-06-16",
@@ -28,17 +873,48 @@
       "url": "https://x.com/jukan05/status/2067035744246583343",
       "kind": "post",
       "engagement": {
-        "views": 155207,
+        "views": 155210,
         "likes": 662,
         "reposts": 75,
         "replies": 20
       },
       "extractor_model": "claude-sonnet-4-6",
       "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2068107984908251479",
+      "date": "2026-06-19",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kioxia",
+      "text": "JPM just updated its price target for Kioxia, implying 42.7% upside from the current share price. https://t.co/hY3LCrvVJu",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2068107945209221120",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLNlOAdb0AAplsS.jpg",
+          "width": 1086,
+          "height": 492,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2068107984908251479",
+      "kind": "post",
+      "engagement": {
+        "views": 724445,
+        "likes": 1300,
+        "reposts": 161,
+        "replies": 38
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
     }
   ],
   "price_series": [],
-  "price_status": "not_covered",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-23T19:16:07.146592+00:00"
+  "price_status": "pending"
 }

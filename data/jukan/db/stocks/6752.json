@@ -1,0 +1,66 @@
+{
+  "ticker": "6752",
+  "cashtag": "Panasonic Industry",
+  "price_symbol": "6752",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-03-31",
+  "last_mention": "2026-04-13",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2039116249700143544",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Panasonic",
+      "text": "▶ Vera Rubin Compute Tray Design Unfinalized as Nvidia Pushes Supply Diversification\n\n- Nvidia's next-gen platform Vera Rubin is slated for mass production in Q3 2026, though the GPU compute tray design remains unfinalized, raising the possibility of partial shipment delays.\n\n- Supply chain diversification strategy intensified to mitigate component shortage risks — ongoing design revisions driven by the shift toward multi-vendor structures and elimination of single-source dependencies.\n\n- As a result, Panasonic SP-CAPs (polymer aluminum capacitors) will not be adopted in the Vera Rubin compute tray; the high supplier concentration inherent in that component conflicted with the broader supply diversification strategy.\n\n- High-capacity MLCCs emerging as the alternative, enabling both performance compliance and multi-sourcing from suppliers such as Murata and Samsung Electro-Mechanics.\n\n- AI server racks require approximately 15,000–25,000 MLCCs per unit; rising ASPs and increasing content per system are positioning MLCCs as a major BOM cost item alongside GPUs and memory.\n\n- On the Nvidia GB300 platform, up to 30,000 MLCCs are needed per system — roughly 3x an automobile, 10x a mining rig, and 30x a smartphone.\n\n- Murata reports high-spec MLCC demand exceeding production capacity, with lead times extending from 10–12 weeks to 14–16 weeks, signaling tightening supply conditions.\n\n- The Vera Rubin platform's elevated spec requirements and design complexity mean that not only supplier technical capability but also speed of response to design changes is becoming a key competitive differentiator.\n\n- Despite being in the pre-mass production stage, portions of the BOM remain unfinalized in terms of component specs and supply structure, with final adjustments still underway.\n\n- Near-term shipment timelines may be impacted, but longer-term this is viewed as a necessary process to strengthen supply chain resilience.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2039116249700143544",
+      "kind": "post",
+      "engagement": {
+        "views": 14404,
+        "likes": 85,
+        "reposts": 7,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043714465557103072",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Panasonic Industry",
+      "text": "RT @stfbutnou: Panasonic Industry’s Electronic Materials Business Division has announced price increases for several circuit board material…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043714465557103072",
+      "kind": "post",
+      "engagement": {
+        "views": 1,
+        "likes": 0,
+        "reposts": 9,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

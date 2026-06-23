@@ -1,0 +1,148 @@
+{
+  "ticker": "NCI",
+  "cashtag": "NCI",
+  "price_symbol": "NCI",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-16",
+  "last_mention": "2026-05-16",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2055586494983852095",
+      "date": "2026-05-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "NCI",
+      "text": "My friend GSR wrote a really good piece. He found a new bottleneck.\n\nThe market is overly focused on indium prices, but the more structural bottleneck in the InP supply chain is qualified high-purity phosphorus.\n\nNCI and Rasa are key Japanese suppliers of red phosphorus for InP feedstock, or 6N/7N high-purity red phosphorus. Once again, obscure Japanese companies I had never heard of are controlling the bottleneck lol.\n\nThis material is not just a simple commodity input. It is a process-sensitive material directly tied to crystal growth yield and qualification.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2055586340541272064",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIbo4sEbkAAHShm.png",
+          "width": 1286,
+          "height": 1846,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2055586494983852095",
+      "kind": "post",
+      "engagement": {
+        "views": 132775,
+        "likes": 752,
+        "reposts": 64,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-05-18",
+      "close": 1.0
+    },
+    {
+      "date": "2026-05-19",
+      "close": 8.45
+    },
+    {
+      "date": "2026-05-20",
+      "close": 9.02
+    },
+    {
+      "date": "2026-05-21",
+      "close": 9.0
+    },
+    {
+      "date": "2026-05-22",
+      "close": 9.47
+    },
+    {
+      "date": "2026-05-26",
+      "close": 9.27
+    },
+    {
+      "date": "2026-05-27",
+      "close": 9.46
+    },
+    {
+      "date": "2026-05-28",
+      "close": 10.1
+    },
+    {
+      "date": "2026-05-29",
+      "close": 10.1
+    },
+    {
+      "date": "2026-06-01",
+      "close": 9.94
+    },
+    {
+      "date": "2026-06-02",
+      "close": 10.98
+    },
+    {
+      "date": "2026-06-03",
+      "close": 10.09
+    },
+    {
+      "date": "2026-06-04",
+      "close": 10.51
+    },
+    {
+      "date": "2026-06-05",
+      "close": 10.25
+    },
+    {
+      "date": "2026-06-08",
+      "close": 10.76
+    },
+    {
+      "date": "2026-06-09",
+      "close": 10.74
+    },
+    {
+      "date": "2026-06-10",
+      "close": 10.74
+    },
+    {
+      "date": "2026-06-11",
+      "close": 10.97
+    },
+    {
+      "date": "2026-06-12",
+      "close": 10.83
+    },
+    {
+      "date": "2026-06-15",
+      "close": 10.65
+    },
+    {
+      "date": "2026-06-16",
+      "close": 10.6
+    },
+    {
+      "date": "2026-06-17",
+      "close": 10.95
+    },
+    {
+      "date": "2026-06-18",
+      "close": 11.01
+    },
+    {
+      "date": "2026-06-22",
+      "close": 11.4
+    }
+  ],
+  "price_status": "ok"
+}

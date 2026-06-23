@@ -8,10 +8,1764 @@
   "company": "Micron",
   "industry": "Memory/HBM",
   "thesis_summary": null,
-  "first_mention": "2026-06-17",
+  "first_mention": "2026-03-26",
   "last_mention": "2026-06-23",
-  "total_mentions": 5,
+  "total_mentions": 66,
   "mentions": [
+    {
+      "tweet_id": "2037101237603344753",
+      "date": "2026-03-26",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MU",
+      "text": "Micron is reportedly considering acquiring Japan Display’s Mobara plant.\n\n$MU\n\nhttps://t.co/jzwD8FOfhM",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2037101237603344753",
+      "kind": "post",
+      "engagement": {
+        "views": 30136,
+        "likes": 229,
+        "reposts": 17,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2037317421389037723",
+      "date": "2026-03-26",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MU",
+      "text": "[KIS — Chae Min-sook / Kim Yeon-jun] Semiconductor Industry Note: After TurboQuant and DeepSeek, the Conclusion is Clear\n\n● TurboQuant's Opening Shot\n\nOn March 25 (local time), Google officially published the TurboQuant algorithm via its official blog, claiming it can compress KV Cache by up to 6x with no performance degradation. The market interpreted this as a reduction in memory requirements, causing memory semiconductor stocks to fall sharply. However, this reflects a misreading stemming from a confusion between the roles of memory capacity and memory bandwidth. The bottleneck in AI inference is not a shortage of memory capacity, but rather a problem determined by memory access speed and data movement efficiency. TurboQuant should instead be understood as a technology that partially alleviates this bottleneck and improves GPU efficiency, enabling more tokens to be processed per unit time with the same GPU resources.\n\n● The Structure of AI Inference: Prefill and Decode\n\nLLM inference consists of two stages: Prefill and Decode. The Prefill stage is a compute-intensive task where GPU computational power limits performance, while the Decode stage is a memory-intensive task where the speed of data movement determines performance. In Decode, the existing KV cache must be repeatedly referenced with each new token generated, making it structurally sensitive to memory bandwidth and access latency. Since the Decode stage largely determines the response speed that users experience, it sits at the heart of AI inference optimization.\n\n● How TurboQuant Actually Works\n\nWhen TurboQuant claims to compress KV Cache by up to 6x, this is less about reducing the required memory capacity itself and more about significantly lowering the data size occupied by the KV Cache and the resulting memory access burden. This means the volume of data that must be handled within the same HBM bandwidth is reduced. As a result, memory access latency is alleviated and the time GPUs spend waiting for data can decrease. Because KV Cache accesses occur repeatedly during the Decode stage of LLM inference, reducing data size has a direct impact on relieving the memory bottleneck. The proportion of time GPUs spend waiting for memory responses diminishes, and compute resources are utilized more efficiently. This improves actual GPU utilization rates and increases the number of tokens that can be processed per unit time (throughput) within the same hardware environment — which can also be interpreted as a reduction in cost per token.\n\n● The Real Bottleneck in AI Inference: Bandwidth, Not Capacity\n\nIt appears the market interpreted TurboQuant as reducing memory capacity usage and therefore decreasing HBM demand. However, the core bottleneck in AI inference is not a shortage of memory capacity but rather the speed at which data is read from memory — i.e., memory bandwidth and access latency. Because GPU compute cores process data far faster than HBM can supply it, GPUs sit in a wait state while expecting data from memory. Industry research indicates that in the Decode stage, more than 50% of attention computation cycles are spent in a wait state due to memory access latency — meaning GPUs waste more than half their theoretical performance waiting for memory responses. According to research published by Google DeepMind in January 2026, Nvidia GPU 64-bit FLOPS grew approximately 80x between 2012 and 2022, while memory bandwidth grew only about 17x over the same period; this gap is expected to continue widening going forward (arXiv:2601.05047, forthcoming in IEEE Computer). TurboQuant will narrow the gap between GPU compute capability and memory bandwidth, increasing the number of tokens that can be processed per unit time on the same hardware. This lowers cost per token, encouraging broader AI usage, drawing in more services and users, and ultimately leading to an increase — not a decrease — in KV Cache consumption.\n\n● A Bottleneck TurboQuant Cannot Solve: Inter-Chip Communication Latency\n\nThere is another bottleneck in AI inference that TurboQuant does nothing to address. Large models exceed the memory capacity of a single GPU and are therefore distributed across multiple GPUs. During the Decode stage, because the model is spread across multiple GPUs, intermediate computation results must be exchanged between GPUs with each token generated. These data transfers are small in size but occur at very high frequency, which can introduce inter-chip communication latency. To reduce this latency, a single GPU must be able to handle more parameters and KV Cache — which ultimately demands more HBM capacity per GPU. In the current AI environment, where model sizes and context lengths continue to expand, this need for greater HBM capacity will only intensify. The fact that Nvidia has consistently increased HBM capacity with each successive GPU generation is likely not unrelated to this dynamic.\n\n● TurboQuant's Limitations: Still in Early Validation\n\nWhile TurboQuant carries significant technical implications, there are also limitations in its scope of application and validation that deserve consideration. The published performance benchmarks are confined to relatively simple test environments centered on single-query information retrieval tasks such as LongBench and Needle-In-A-Haystack. Experiments were also conducted primarily on comparatively small models with around 8 billion parameters; whether the same effects can be reproduced in the large-scale models of hundreds of billions of parameters used in real-world industry settings has yet to be verified. More importantly, no validation has been conducted in the rapidly expanding Agentic AI environments. In these environments, models execute repeated multi-step judgments across longer contexts and more complex KV Cache structures, giving rise to memory usage patterns that differ entirely from those seen in single-response benchmarks.\n\n$MU $SNDK",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2037317421389037723",
+      "kind": "post",
+      "engagement": {
+        "views": 26712,
+        "likes": 130,
+        "reposts": 25,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2038530173906411900",
+      "date": "2026-03-30",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MU",
+      "text": "Micron to Attempt Industry-First HBM-Style GDDR Stacking\n\nU.S.-based Micron is attempting to stack graphics DRAM (GDDR) for the first time in the industry. The move aims to boost performance by stacking GDDR in a manner similar to high-bandwidth memory (HBM), as a response to the diversifying demand for AI memory. Attention is on whether this could fire the starting gun on a new memory stacking competition.\n\nAccording to industry sources on the 30th, Micron has begun developing a new product that vertically stacks GDDR. It has been confirmed that the company plans to have the relevant equipment in place and begin process testing by the second half of this year.\n\nAn industry source with direct knowledge of the matter said, \"An initial stack of around four layers of GDDR is expected,\" adding that \"samples could emerge as early as next year.\" Given that specifications including the number of layers are already under discussion, the effort is likely in response to requests from customers such as AI accelerator makers.\n\nGDDR is a type of memory specialized for video and 3D graphics. It has traditionally been used primarily in graphics cards and gaming devices, but has recently been adopted in some AI accelerators as well. While slower in bandwidth compared to HBM, its cost competitiveness has driven growing demand for specific use cases such as inference workloads.\n\nMicron's move is analyzed as targeting this trend. The attempt is to stack GDDR like HBM to develop a product that, while slower than HBM, would be faster and offer greater capacity than conventional GDDR.\n\nAs the AI market has expanded recently, a variety of products are being developed according to use case and price point, and memory demand is diversifying accordingly. A prime example is NVIDIA's use of SRAM in its inference-dedicated chips.\n\nStacked GDDR products are expected to occupy the market segment between HBM and conventional (non-stacked) GDDR. Significant demand is also anticipated in high-performance gaming graphics cards, a segment that continues to see sustained growth.\n\nIf Micron succeeds in stacking GDDR, it could seize first-mover advantage in the market. Although it is currently a niche segment, the company appears to have judged that the proliferation of AI gives it meaningful growth potential, prompting it to pursue full-scale commercialization. The strategy is to preemptively target the stacked GDDR market ahead of Samsung Electronics and SK Hynix to secure a competitive edge.\n\nStacked GDDR has so far only been explored at the level of early-stage R&D and academic papers. With no prior precedent for mass production, whether Micron can clear the technical hurdles remains a key question. Challenges cited include the method of inter-die stacking, as well as power consumption and thermal management. Cost control through the stacking process is also essential, as the product must maintain a compelling performance-to-price ratio relative to HBM to secure market viability — meaning the utility of stacked GDDR must be maximized.\n\nAn industry source said, \"Until now, commercialization had not been actively pursued not only due to technical issues but also because the market positioning of stacked GDDR was unclear,\" adding that \"as the need for stacked GDDR emerges amid changes in the AI memory market, Micron's challenge could serve as the starting gun for a new memory stacking competition.\"\n\n$MU",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038530154599956480",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEpQYADaQAAHjdt.png",
+          "width": 700,
+          "height": 420,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038530173906411900",
+      "kind": "post",
+      "engagement": {
+        "views": 243493,
+        "likes": 401,
+        "reposts": 49,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2038530856512639387",
+      "date": "2026-03-30",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "technological capabilities have improved significantly",
+        "first with SOCAMM and now moving into stacked GDDR"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "I was quite surprised after reading this article. Micron used to be seen as a second-tier company, with a strong perception that it lagged Samsung and SK Hynix technologically. In Korea as well, Micron was often looked down on quite a bit.\n\nBut starting with SOCAMM, and now even moving into stacked GDDR, it seems Micron’s technological capabilities have improved significantly.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038530574579798016",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEpQwcmaEAA4WaR.png",
+          "width": 1180,
+          "height": 846,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038530856512639387",
+      "kind": "post",
+      "engagement": {
+        "views": 89077,
+        "likes": 563,
+        "reposts": 49,
+        "replies": 18
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2038861527344918844",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MU",
+      "text": "Just in: Citi cuts Micron’s price target to $425 from $510, citing weakness in memory spot prices.\n\n$MU https://t.co/KAvNtTuBNs",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038861522760519680",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEt9wKpaUAASrAH.jpg",
+          "width": 816,
+          "height": 372,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038861527344918844",
+      "kind": "post",
+      "engagement": {
+        "views": 211141,
+        "likes": 449,
+        "reposts": 55,
+        "replies": 45
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2038872846911648097",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "GF Securities Overseas Electronics & Communications: Memory Industry — It’s Too Early to Be Pessimistic\n\nSpot prices need not be a major concern: We believe the recent spot price pullback is primarily due to elevated premiums persisting even after Q2 price increases. For example, Huaqiangbei 64GB DDR5 spot prices are ~$2,500, nearly double the Micron/Samsung Q2 2026 contract price of $1,250–1,500. Similarly, eSSD spot market pricing is near $0.5/GB vs. contract prices near $0.3/GB. We believe channel inventory and speculative position unwinding triggered the price decline, but expect spot prices to gradually stabilize underpinned by strong contract pricing.\n\nAI is the key DRAM demand driver: We now estimate pure AI server demand (HBM + near-GPU DRAM) will account for ~37% of total DRAM demand in 2026, growing 74% in 2027 and 90% in 2028, primarily driven by platform transitions such as NVIDIA Rubin Ultra’s shift to 1TB HBM, higher CPU LPDDR capacity, and Google’s aggressive shipment plans. Despite investor concerns about 2028 expansion, we believe the DRAM market will remain structurally tight. AI demand alone can drive >40% incremental wafer-equivalent demand growth, far exceeding the ~15% annual supply growth from technology migration. Consequently, even with new capacity additions, memory capex in 2028 could approach $200B, and this still does not account for wafer output lag and robust general-purpose server demand.\n\nLTAs underpin earnings visibility; valuations digesting rapidly: We have recently observed positive progress on LTAs between memory manufacturers and [hyperscaler] partners. Under new LTA terms, pricing will fluctuate with market conditions but with floor prices set to ensure minimum pricing. Notably, 2027 floor prices are >25% above Q2 2026 DRAM pricing, while 2028 LTAs (e.g., the Samsung–Google agreement) show further YoY increases. More importantly, these LTAs carry higher commitment levels, with upfront payments reaching billions of dollars. Thanks to these agreements, we believe current profitability levels can be sustained through 2028. Taking Micron (MU US, Buy) as an example, we estimate FY2028 BVPS could exceed $300, implying a current valuation of ~1.3x P/B. We believe the near-term memory trading focus remains DRAM pricing, but longer-term investors will pivot toward earnings sustainability.\n\nDDR4 cycle has peaked: In contrast to DDR5, we believe the DDR4 cycle has peaked. On the demand side, DDR4 prices remain above post-Q2 DDR5 prices, which continues to incentivize customers to accelerate migration to DDR5 platforms. On the supply side, the DDR4 EOL timeline has been extended: 1) domestic (Chinese) DRAM manufacturers will not EOL DDR4 and will deliver an additional ~20% DDR4 supply uplift through technology migration; 2) Samsung and SK Hynix (000660 KS, Buy) have also pushed back their DDR4 EOL timelines to Q4 2026. We now expect DDR4 contract prices to rise 15–20% in Q2 2026, well below the 50–60% increase for DDR5, and anticipate meaningful pricing pressure in Q3 2026.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2038872846911648097",
+      "kind": "post",
+      "engagement": {
+        "views": 72169,
+        "likes": 113,
+        "reposts": 18,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039356580978991350",
+      "date": "2026-04-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "Micron's management presented an interesting view at their NDR with Cantor.\n\nThe key insight: the market is no longer focused on pricing on a per-bit basis as in the past, but rather on a per-bandwidth basis. In other words, while price-per-bit may rise in 2026, price-per-bandwidth will decline.\n\nThis is a remarkably interesting view.\n\nHistorically, the memory industry has largely been viewed through this lens:\n\n- How many bits of memory chips were sold\n- Whether price-per-bit went up or down\n- When supply increases, bit pricing falls, and margins eventually collapse\n\nBut in the AI era, as products like HBM have become critical, what customers are buying is no longer simple storage capacity — it's \"how fast can data be processed,\" i.e., bandwidth.\n\nFor example, whereas in the past the question was \"what's the capacity of this memory?\", today it has shifted to \"how much data per second can this system feed to the GPU?\" — or so Micron's management argues.\n\nThis is especially true in today's AI infrastructure, where the latter matters far more. Memory vendors are therefore being reframed — from simply selling bits to selling units of performance that enable high-performance computing.\n\nSo what does it mean when price-per-bit rises but price-per-bandwidth falls?\n\nThe essence is this:\n\n- Even though it may look like customers are paying more,\n- They are actually getting higher performance and more bandwidth,\n- So price-per-performance can actually improve.\n\nIn other words, memory vendors can raise ASPs, and from the customer's perspective, it's not a rip-off — it can be perceived as an improvement in price-performance.\n\nWhy does this structure matter? Because even as memory companies raise prices, the magnitude of bandwidth improvement is larger, creating a logical framework where memory price hikes don't face customer pushback. In effect, memory is now being evaluated on a TCO basis.\n\nTo sum it up in one line: HBM and AI DRAM are no longer a simple bit-supply business — they are becoming an integral part of GPU system performance. That's why pricing power is strengthening, and the \"normal range\" of margins itself could structurally shift higher versus the past.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2039356580978991350",
+      "kind": "post",
+      "engagement": {
+        "views": 67242,
+        "likes": 456,
+        "reposts": 64,
+        "replies": 17
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039513523961876693",
+      "date": "2026-04-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "China's YMTC Closing In on Korea, Stabilizing Cutting-Edge NAND Flash Yields and Ramping Production\n\nYMTC (Yangtze Memory Technologies Co.), China's leading NAND flash manufacturer, is expected to begin full-scale shipments of high-layer NAND from its cutting-edge Wuhan Fab 3 in H2 this year, following the stabilization of its two existing production lines. The company is also reportedly making steady progress in securing major overseas customers — an area where it had previously struggled. YMTC's NAND output is projected to surpass that of SK Hynix and Micron, currently the industry's third and fourth largest players, by year-end.\n\nAccording to industry sources on April 2, YMTC plans to begin mass production of its most advanced NAND products at Wuhan Fab 3 in Hubei Province starting H2 2026. A source familiar with the situation in China noted: \"Wuhan Fab 1 and Fab 2 are already known to be operating near maximum capacity, and Fab 3 — the newest facility — is in the final stages of critical equipment setup ahead of full-scale production.\"\n\nYMTC has expanded its presence in the global NAND market at a remarkable pace over the past two years. Wuhan Fab 2, which began operations in 2024, reportedly reached maximum capacity in just two years. The line currently produces an average of 60,000 wafers per month, while Fab 1, the largest facility, produces 100,000 wafers per month. Annual production volume grew from 1.29 million wafers in 2024 to 1.77 million last year, and is expected to approach 2 million this year.\n\nOnce Wuhan Fab 3 is fully operational, YMTC is set to overtake SK Hynix and Micron in shipment volume, securing the number three position in the global NAND market — trailing only Kioxia (4.82 million wafers) and Samsung Electronics (4.68 million wafers). Notably, YMTC has been steadily increasing its mix of high-complexity 200+ layer NAND across server and mobile segments, moving beyond legacy products, and is expected to stabilize yields on 300-layer products this year.\n\nYMTC's revenue portfolio — historically skewed toward Chinese domestic customers and one of the key reasons the company has been underestimated — is also likely to shift this year. According to Reuters and other outlets, Apple is reportedly evaluating the use of YMTC products due to NAND supply constraints. Apple is said to be concerned about margin compression on major product lines including iPhone, driven by rising DRAM and NAND prices, and has begun considering YMTC as an alternative supplier.\n\nWhile a formal supply agreement with Apple remains uncertain, the prevailing view is that such a deal would be transformative for YMTC. Apple is not just another revenue source — qualifying as an Apple supplier carries significant symbolic weight, as it signals that a company has passed rigorous quality, reliability, and supply stability assessments. If Apple supply is confirmed, other Big Tech companies facing NAND shortages could also begin considering YMTC as an alternative.\n\nAn industry source noted: \"If YMTC supplies NAND to Apple, it would represent a symbolic re-entry into the supply chains of global top-tier OEMs, breaking free from its China-centric customer base. Given that Apple has historically sourced NAND from Samsung, SK Hynix, and Kioxia, YMTC's market positioning would fundamentally change.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2039513260773580800",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HE3OgT8boAA4akD.png",
+          "width": 616,
+          "height": 372,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2039513523961876693",
+      "kind": "post",
+      "engagement": {
+        "views": 144892,
+        "likes": 267,
+        "reposts": 37,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039513632216908044",
+      "date": "2026-04-01",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "YMTC expected to surpass Micron in NAND shipment volume",
+        "YMTC stabilizing yields on 300-layer products and expanding beyond legacy"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "Is NAND finished?\n\nYMTC's Wuhan Fab 3 to begin full-scale operations in H2 this year.\n\nExpected to become the world's third-largest NAND producer by shipment volume, surpassing Micron and SK Hynix.\n\nNotably, YMTC has been steadily increasing its mix of high-complexity 200+ layer NAND across server and mobile segments — moving beyond legacy products — and is expected to stabilize yields on 300-layer products this year.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2039513632216908044",
+      "kind": "post",
+      "engagement": {
+        "views": 126367,
+        "likes": 474,
+        "reposts": 49,
+        "replies": 23
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039620475169694168",
+      "date": "2026-04-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "DRAM Prices Double… Samsung and SK Hynix Profits Likely Doubled Too\n\nSamsung Electronics and SK Hynix are estimated to have posted record-breaking earnings in Q1.\n\nThis is attributed to strong HBM sales momentum, compounded by steep price increases in commodity DRAM and NAND flash.\n\nAccording to sell-side estimates as of April 2, Samsung Electronics is estimated to have recorded Q1 operating profit of KRW 40–45 trillion, while SK Hynix is estimated at KRW 36–39 trillion. At the start of the year, Samsung's OP consensus stood at KRW 36–37 trillion and SK Hynix at around KRW 31 trillion, but continued memory price increases led to upward revisions throughout the quarter.\n\nSamsung's previous all-time quarterly OP record was KRW 20.1 trillion, achieved in Q4 last year. SK Hynix's was KRW 19.17 trillion, also set in Q4. If sell-side estimates prove accurate, both companies would be setting new records roughly double their prior highs. Companies generating over KRW 10 trillion in monthly operating profit are exceedingly rare globally — limited to the likes of NVIDIA, Apple, Alphabet, Microsoft, and Saudi Aramco.\n\nMicron's earnings, reported last month, were also a blowout. FY2026 Q2 (Dec 2025–Feb 2026) revenue came in at $23.86 billion, beating its own guidance of $18.7 billion by 27%. Non-GAAP operating income was $16.5 billion, exceeding the guidance-implied estimate of $11.3 billion by 46%.\n\nAccording to TrendForce, Q1 DRAM and NAND flash contract prices rose 90–95% and 55–60% QoQ, respectively. Further increases of 58–63% for DRAM and 70–75% for NAND are forecast for Q2. As such, upward earnings revisions across the memory industry are likely to continue for the foreseeable future.\n\nThe industry expects new cleanroom expansions to translate into actual supply additions no earlier than late 2027 to 2028. AI cloud service providers are currently negotiating 5-year long-term purchase agreements to secure volumes. Supply shortages in the commodity market are set to persist.\n\nThe consumer electronics industry is feeling the pain. IDC forecasts that global smartphone shipments will decline 12.9% and PC shipments 11.3% this year due to component cost pressures from surging memory prices. IDC described the impact of soaring memory prices as \"tsunami-level.\" Memory prices have risen to the point where OEMs are actively downgrading product specs or eliminating budget lineups entirely. Display panel manufacturers are also reportedly lowering their shipment targets for the year as a result.\n\nJitesh Ubrani, Research Manager at IDC, said, \"The memory shortage will persist through 2027. Even if prices begin to moderate from 2028, they will not return to 2025 levels.\"\n\nAn industry insider noted, \"The key mid-to-long-term variables for the memory industry are whether memory efficiency technologies like Google's TurboQuant actually reduce server purchase volumes, and whether cloud datacenter players maintain their current pace of capex.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2039620447290212352",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HE4v_Y1bQAAh-EV.png",
+          "width": 600,
+          "height": 338,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2039620475169694168",
+      "kind": "post",
+      "engagement": {
+        "views": 82380,
+        "likes": 250,
+        "reposts": 22,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039649540085886996",
+      "date": "2026-04-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "Today, ticker 'DRAM' finally begins trading.\n\nWith roughly three-quarters of its portfolio concentrated in the memory Big 3 — Samsung Electronics, SK Hynix, and Micron — this ETF is effectively a direct investment vehicle for the memory semiconductor industry.\n\nIn particular, for overseas retail investors who have faced regulatory or institutional barriers to buying Samsung Electronics and SK Hynix directly, $DRAM could serve as a highly attractive alternative.\n\nOf course, $EWY also carries significant exposure to Samsung Electronics and SK Hynix, but it includes sizable allocations to other major Korean corporates such as Hyundai Motor.\n\nSo if your goal is to take a pure bet on the memory cycle itself, $DRAM is the more fitting choice.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2039649496838361088",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HE5KaS1a0AAqxTp.jpg",
+          "width": 2110,
+          "height": 1638,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2039649540085886996",
+      "kind": "post",
+      "engagement": {
+        "views": 322178,
+        "likes": 1393,
+        "reposts": 149,
+        "replies": 48
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039703202573275564",
+      "date": "2026-04-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "@IVCrushLeague The analyst covering Samsung is different from the analyst covering Micron.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2039703202573275564",
+      "kind": "reply",
+      "engagement": {
+        "views": 1301,
+        "likes": 15,
+        "reposts": 0,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039856283499872539",
+      "date": "2026-04-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MU",
+      "text": "SK Hynix 'Not Yet' Supplying Vera Rubin eSSD… Samsung and Micron Split the Market\n\nSamsung Electronics and Micron are mass-producing and supplying ultra-high-speed enterprise solid-state drives (eSSDs) for NVIDIA's next-generation AI platform, 'Vera Rubin.' SK Hynix, meanwhile, is still in the preparation stage.\n\nVera Rubin is an integrated platform comprising HBM4 for the Rubin GPU, SOCAMM2 for the Vera CPU, and eSSD storage. For the three major memory companies, supplying the full product lineup is the ideal scenario.\n\nA senior semiconductor industry executive said, \"Currently, only Samsung Electronics and Micron are mass-producing and supplying the ultra-high-speed eSSDs for NVIDIA's Vera Rubin,\" adding, \"There has been no word from SK Hynix yet.\"\n\neSSDs are high-capacity, high-performance storage devices manufactured using NAND flash. The products being supplied by both companies are PCIe Gen6 eSSDs — Samsung's is branded 'PM1763' and Micron's is the 'Micron 9650.' Both have completed qualification testing and entered the early mass production phase.\n\nThe same executive added, \"Given the structure where a certain capacity of eSSD corresponds to each GPU, this is meaningful from a profitability standpoint as well.\" NVIDIA's Vera Rubin combines one Vera CPU with two Rubin GPUs.\n\nWhile the exact supply share has not been finalized, Samsung's product is expected to account for the largest volume as it has been selected as the main storage, with Micron participating as a secondary supplier.\n\nThis supply dynamic was also evident at NVIDIA's flagship annual event, GTC 2026, held last month. During the event, Samsung and Micron prominently showcased their PCIe Gen6 eSSDs at their booths, while SK Hynix was the only one displaying the previous-generation PCIe Gen5 eSSD 'PEB210.' Its other eSSD exhibits also focused on existing products such as the 'PEB110' and 'PE9010,' which are designed for the prior-generation Blackwell GB200 and GB300 platforms.\n\nSK Hynix's PEB210 uses 9th-generation (V9) TLC NAND and supports up to 16TB capacity. The company is understood to have developed this product in collaboration with NVIDIA, while also working in parallel on a PCIe Gen6-based eSSD since January of last year. However, the transition to mass production appears to require more time.\n\nThis stands in some contrast to SK Hynix's recent push to expand its eSSD portfolio. According to industry sources, SK Hynix is estimated to increase NAND flash production by approximately 20% year-over-year in 2026, with a significant portion expected to be allocated to eSSDs.\n\nSamsung's PM1763, selected as the main storage, features V9 TLC NAND and a 4nm process-based controller, supporting up to 64TB capacity. Through design optimization, it achieves a maximum sequential read speed of 28,400 MB/s and improves power efficiency by approximately 1.8x over the previous generation. The company plans to introduce a successor product with double the capacity next year. Samsung is also supplying its PCIe Gen5 eSSD 'PM1753,' launched in 2024, for the newly introduced CMX environment within the Vera Rubin platform.\n\nMicron officially announced the mass production of the Micron 9650 via a press release last month. Read speeds have doubled versus the predecessor to 28,000 MB/s, and power efficiency at 25W has also improved by 2x. At the GTC venue, the company placed the product alongside HBM4, emphasizing its combined memory and storage solution offering.\n\nSK Hynix commented that it is \"smoothly preparing supply of PCIe Gen6 eSSDs.\"\n\n$MU",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2039856245402910720",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HE8GcpQaQAAmjqv.png",
+          "width": 755,
+          "height": 417,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2039856283499872539",
+      "kind": "post",
+      "engagement": {
+        "views": 40604,
+        "likes": 213,
+        "reposts": 21,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2040640295017328881",
+      "date": "2026-04-04",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "Samsung Electronics Raises Q2 DRAM Prices by Another 30%… AI Demand Remains Robust\n\nSamsung Electronics has raised Q2 DRAM prices by approximately 30% quarter-over-quarter. This follows a ~100% price increase already implemented in Q1, indicating continued pricing momentum. The sustained memory demand driven by expanding artificial intelligence (AI) infrastructure investment is assessed to remain solid.\n\nAccording to industry sources on April 5, Samsung Electronics is supplying Q2 DRAM at prices approximately 30% higher than Q1. The company is confirmed to have already completed price negotiations with major customers late last month and finalized supply contracts. The 30% figure represents the average price increase across all DRAM categories, including High Bandwidth Memory (HBM) as well as conventional DRAM for servers, PCs, and mobile.\n\nAn industry insider familiar with the matter said, \"There are still many customers looking to preemptively secure DRAM supply, so we are continuing to supply at elevated prices following Q1 increases,\" adding, \"There are currently no signs of price stabilization or decline, particularly given AI-driven demand.\"\n\nSamsung Electronics had previously raised average DRAM prices by 100% in Q1. This was driven by a surge in AI accelerator shipments amid expanding AI infrastructure investment, which in turn boosted demand for HBM mounted on those accelerators. As major memory manufacturers including Samsung concentrated production capacity on HBM, conventional DRAM supply tightened, leading to sharp price increases.\n\nTo illustrate: if a DRAM unit was priced at KRW 10,000 at the start of 2025, it rose to KRW 20,000 in Q1 and is now being supplied at KRW 26,000 in Q2. The industry adage that \"today's memory price is the cheapest it will ever be\" still holds. While the rate of increase has decelerated from Q1, price hikes remain very much ongoing.\n\nSome legacy products have seen pricing momentum ease. This led to speculation that DRAM price increases may be losing steam, but demand for cutting-edge products is reported to remain firm. Taiwan-based market research firm DRAMeXchange noted that the average fixed contract price for PC DRAM (DDR4 8Gb) as of late March was flat month-over-month. However, the consensus view is that prices for DDR5 and other next-generation DRAM, as well as server DRAM, continue to climb steadily.\n\nAnother industry source explained, \"With Big Tech companies pushing to expand AI server and other infrastructure buildouts, demand for high-performance DRAM and HBM remains unchanged,\" adding, \"Competition and demand for long-term supply contracts to secure stable DRAM allocation are intensifying.\"\n\nGiven that Samsung Electronics—the world's largest DRAM producer by capacity—has implemented a ~30% price increase, SK Hynix and Micron are also expected to pursue similar levels of Q2 DRAM price hikes. The memory makers are reported to be crafting detailed strategies around the magnitude of price increases and the structure of supply contracts, while engaging in ongoing discussions with customers.\n\nThe key inflection point is Q3. Since production capacity across the Big 3 memory makers, including Samsung Electronics, has not yet expanded dramatically, AI-driven DRAM demand is expected to remain the decisive factor governing price trajectory going forward.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2040640278202396672",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFHPhXCbsAA86Ub.png",
+          "width": 700,
+          "height": 339,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2040640295017328881",
+      "kind": "post",
+      "engagement": {
+        "views": 141118,
+        "likes": 492,
+        "reposts": 65,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2040716472570536273",
+      "date": "2026-04-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron Technology",
+      "text": "MS and Google Pursuing LTA with SK Hynix\n\nSK Hynix is entering into long-term supply agreements (LTAs) for DRAM with major global AI companies including Microsoft (MS) and Google. Big Tech is moving to lock in DRAM—a product known for high price volatility—over extended periods. As concerns over DRAM supply shortages intensify amid the global AI infrastructure investment boom, Big Tech is strategizing to secure stable access to memory, a critical component for data centers. Samsung Electronics and SK Hynix, the world's No. 1 and No. 2 DRAM makers, are ramping up capital expenditure in response to the growing supply-demand imbalance.\n\n◇ MS and Google Arrive with Long-Term DRAM Contracts\n\nAccording to industry sources on the 5th, SK Hynix is in final-stage negotiations with MS on a long-term supply agreement for DDR5. The deal, valued in the tens of trillions of won, would cover a three-year period starting this year. Discussions are reportedly centered on provisions such as a price floor to hedge against significant DRAM ASP declines during the contract period, and terms under which 10–30% of the total contract value would be paid upfront.\n\nSK Hynix is also in discussions with Google on a long-term supply agreement. The negotiations reportedly cover not only its flagship High Bandwidth Memory (HBM) but also commodity DRAM used in servers. MS and Google are also pursuing long-term memory supply agreements with Samsung Electronics. Micron Technology, the U.S.-based No. 3 DRAM maker behind Samsung and SK Hynix, reportedly signed a similar contract last month.\n\n◇ \"Securing Volume Matters More Than Price\"\n\nA long-term supply agreement is a contract in which volume and pricing are predetermined over an extended period. This type of agreement is typically employed when prices for a specific product surge or supply becomes scarce. Until now, large companies like MS and Google had not entered into annual or multi-year memory supply contracts with memory manufacturers, given that memory is a highly cyclical product subject to significant price volatility.\n\nNevertheless, Big Tech has recently been approaching Samsung Electronics and SK Hynix with LTA proposals one after another due to an increasingly acute memory shortage. Memory supply has tightened significantly as AI infrastructure investment expands worldwide, and prices have surged accordingly. According to DRAMeXchange, the DDR4 contract price, which stood at just $1.35 in March of last year, skyrocketed to $13.00 by the end of last month.\n\nMoreover, as the AI infrastructure hegemony race appears set to become protracted, analysts note that AI companies have shifted to a strategy of securing volume first. A senior semiconductor industry executive explained, \"Right now, the fact that prices have risen so much is secondary—the real issue is that DRAM volume itself is extremely difficult to procure.\"\n\n◇ Samsung and SK Hynix to Significantly Expand DRAM CAPEX\n\nSamsung Electronics and SK Hynix have decided to aggressively invest in DRAM capacity this year in light of these conditions. Samsung Electronics is focusing on ramping up volume of 10nm-class 6th-generation (1c) DRAM—used in HBM4—at its main DRAM production base, the Pyeongtaek campus in Gyeonggi Province. At its Hwaseong campus, the company is accelerating process migration to 10nm-class 5th-generation (1b) DRAM, which serves as the base die for SOCAMM and commodity DRAM modules.\n\nSK Hynix is addressing new HBM volume demand centered on M15X, its new production base in Cheongju, North Chungcheong Province. Its headquarters campus in Icheon, Gyeonggi Province, is also aggressively pursuing process migration to its most advanced 1c DRAM node.\n\nDriven by the DRAM supply crunch, both companies' Q1 earnings are estimated to reach all-time highs. In a report on the 3rd, Meritz Securities projected Samsung Electronics' Q1 estimated revenue at KRW 122 trillion and operating profit at KRW 54 trillion. The estimated operating profit is more than triple the previous Q1 record of KRW 14.12 trillion set in 2022. FnGuide estimates SK Hynix's Q1 revenue at KRW 46.6252 trillion and operating profit at KRW 31.5627 trillion—4.2x the KRW 7.4405 trillion reported in the year-ago quarter.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2040716455554285568",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFIUzdybgAAlxhK.png",
+          "width": 711,
+          "height": 637,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2040716472570536273",
+      "kind": "post",
+      "engagement": {
+        "views": 60288,
+        "likes": 315,
+        "reposts": 36,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041321016690147448",
+      "date": "2026-04-06",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MU",
+      "text": "Keybanc) Asia Semiconductor Tour; Memory Sector\n\nSamsung is leading in HBM4 qualification, while SK Hynix and MU are working through some minor issues but are expected to qualify for Rubin. Previously, SK Hynix was expected to lead in HBM4 qualification for Rubin. However, performance issues forced SK Hynix to redesign its base die. As a result, NVDA has scaled back its ramp plans for this year, and Samsung has taken the lead position for Rubin. It is likely that NVDA will launch and ramp Rubin with Samsung's HBM4. MU has largely resolved its logic die issues but is still working through minor performance issues with its base die. The specific nature of these issues is unclear, but given that MU's HBM4 yields are understood to be below 30%, they appear to be related to low manufacturing yields. Ultimately, all three memory producers are expected to qualify, as there would not be sufficient HBM4 capacity to support Rubin without all three participating.\n\n$MU",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2041321016690147448",
+      "kind": "post",
+      "engagement": {
+        "views": 17774,
+        "likes": 130,
+        "reposts": 3,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041674068097953801",
+      "date": "2026-04-07",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "Samsung Electronics' NAND Quarterly Operating Profit Approaches KRW 10 Trillion (~$8 Billion)\n\nDriven by a surge in memory prices, Samsung Electronics recorded approximately KRW 10 trillion in operating profit from its NAND flash business — the highest quarterly result since the company entered the NAND business. The industry expects NAND price increases to continue, with Samsung projected to generate over KRW 50 trillion in NAND operating profit for the full year. Operating margins are also expected to exceed 60% in the second half.\n\nSamsung announced preliminary results on April 7, reporting Q1 2026 revenue of KRW 133 trillion and operating profit of KRW 57.2 trillion. QoQ, revenue rose 41.73% and operating profit surged 185%. YoY, revenue increased 68.06% and operating profit jumped 755.01%.\n\nQ1 results were driven by memory price increases, with both DRAM and NAND prices continuing to rise on the back of AI demand. The industry estimates Samsung recorded over KRW 50 trillion in operating profit from memory alone.\n\nDRAM profitability improved further this year, with an estimated ~80% of Samsung's total Q1 operating profit attributed to DRAM. DRAM remains the biggest bottleneck in the AI industry — memory makers are pursuing capacity expansions, but physical space constraints mean meaningful additions will take considerable time.\n\nNAND showed even steeper improvement, fueled by surging enterprise SSD (eSSD) demand. Securities analysts estimate Samsung posted ~KRW 10 trillion in NAND operating profit in Q1, compared to just over KRW 2 trillion for the entirety of last year.\n\nUntil last year, NAND was considered a business where even 10% operating margins were difficult to achieve. With more manufacturers (Samsung, SK Hynix, Micron, Kioxia, SanDisk, YMTC) than in DRAM, price competition was fierce, and NAND was relatively sidelined from AI investment, limiting demand growth.\n\nThis demand shift accelerated as inference grew in share within the AI industry. The transition from training-centric to inference-centric workloads has elevated the importance of data storage and processing architectures, driving rapid growth in NAND-based storage demand and a sharp rise in NAND ASPs. Some in the industry now forecast NAND operating margins exceeding 60% in H2.\n\nAdditionally, NVIDIA's newly unveiled ICMS (Interconnect and Memory Subsystem) is expected to further boost NAND demand. ICMS stores and utilizes KV cache generated during inference in storage rather than HBM, improving overall system compute efficiency.\n\nWith Samsung posting outsized NAND profits, expectations for NAND investment are also rising. Samsung had been conservative on NAND capacity expansion in recent years, focusing instead on technology migration. Competitors have already moved: SK Hynix has decided to resume investment in its Dalian Fab 2, and Micron is investing $24 billion to build a new fab in Singapore for NAND expansion.\n\nA source with close knowledge of Samsung said, \"As NAND conditions improve, Samsung is reviewing NAND line expansion at its new P5 fab,\" adding that \"investment scale is expected to be finalized in H2 this year.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2041674068097953801",
+      "kind": "post",
+      "engagement": {
+        "views": 70403,
+        "likes": 139,
+        "reposts": 8,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041774750448623618",
+      "date": "2026-04-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "UBS: On SK Hynix's HBM4 Redesign\n\nSK Hynix is understood to be close to completing a partial redesign of the logic and DRAM die for HBM4, working towards final qualification for Nvidia/Rubin. We adjust our HBM4/Rubin market share assumptions to 60% for SK Hynix, 30% for Samsung, and 10% for Micron. We slightly lower our SK Hynix HBM bit shipment forecast to 18.4bn Gb in 2026 (from 19.0bn) and 24.7bn Gb in 2027 (from 26.3bn), reflecting partial capacity allocation toward LPDDR5X. This mix shift leads us to raise overall DRAM bit shipment growth to 25.7% YoY in 2026, up from 22.5% previously. We believe HBM suppliers will remain focused on rebuilding the HBM pricing premium over DDR into 2027. We raise our blended HBM ASP assumption for SK Hynix in 2027 to +36% YoY from +6% prior, with further upside possible.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2041774750448623618",
+      "kind": "post",
+      "engagement": {
+        "views": 36209,
+        "likes": 187,
+        "reposts": 19,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041798826990956747",
+      "date": "2026-04-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "China's CXMT to Mass-Produce 12-High HBM3/HBM3E Next Year… Closing In on Korea\n\nChina is pushing to mass-produce 12-high HBM just three years after entering the high-bandwidth memory (HBM) market. This is the highest stack count currently commercialized, suggesting China has secured the technology for mainstream products led by Korean companies. The consensus is that China is emerging as a new threat, narrowing the technology gap year by year.\n\nAccording to industry sources on April 8, China's largest memory manufacturer CXMT is set to begin mass production of 12-high HBM next year. The company is reportedly in discussions with domestic and foreign materials, components, and equipment suppliers on capital expenditure plans.\n\nAn industry insider familiar with the matter said, \"CXMT is entering mass production of 4th-generation 'HBM3 8-high' this year while simultaneously beginning full-scale discussions with partners for 12-high HBM production. Technology upgrades and equipment investments for DRAM stacking will follow.\"\n\n12-high is currently the highest stack count for HBM mounted on AI semiconductor chips, with the majority of market supply being HBM3E 12-high. SK Hynix, Samsung Electronics, and Micron hold market share in that order. HBM4 — which Samsung began mass-producing in February (with SK Hynix and Micron also pursuing supply) — is also initially being supplied as a 12-high product.\n\nHBM increases bandwidth (speed) by vertically stacking DRAM, and the number of layers stacked serves as a key measure of technological capability. The technical difficulty of attaching micro bumps (solder balls) to connect upper and lower DRAM layers and bonding them without error is high. Thermal management after stacking is also required — this is why yields (the ratio of good units) drop when manufacturing DRAM into HBM.\n\nCXMT's moves are evidence that it has resolved these technical challenges to a certain extent. Notably, the gap with Samsung Electronics and SK Hynix has narrowed further. CXMT began mass production of 2nd-generation 'HBM2 4-high' in H2 2024. At the time, the technology gap was considered large, as SK Hynix had already entered mass production of HBM3E 12-high.\n\nHowever, the situation is reversing as CXMT challenges mainstream 12-high mass production roughly three years after its full market entry — it has already caught up to within striking distance of Korean HBM. The industry consensus is that the Korea-China HBM technology gap has shrunk to three years or less.\n\nCXMT's rapid rise is attributed to Chinese government subsidies and domestic demand. While yields remain lower compared to Korean manufacturers, the company is expanding production volume rather than focusing on yield improvement, growing its market influence. As influence and supply increase, technology and yields will inevitably improve as well.\n\nCXMT is reportedly converting 20% of its total DRAM production to HBM this year — approximately 60,000 wafers per month — targeting demand from Chinese AI chip companies. The company also plans to raise $4.2 billion through an IPO this year to expand next-generation DRAM and HBM production lines.\n\nAnother industry source said, \"For Samsung Electronics and SK Hynix to widen the technology gap further, they will need to preemptively secure next-generation technologies such as 16-high HBM and hybrid bonding.\"\n\nSamsung Electronics and SK Hynix are expected to complete development of 16-high HBM as early as the end of this year.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2041798804106833922",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFXtMcWa8AIoyMs.png",
+          "width": 423,
+          "height": 700,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2041798826990956747",
+      "kind": "post",
+      "engagement": {
+        "views": 86652,
+        "likes": 315,
+        "reposts": 60,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2042599777712427019",
+      "date": "2026-04-10",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "2026 HBM capacity already sold out",
+        "HBM/DDR5/LPDDR5 production capacity fully reserved through 2027",
+        "2028 supply discussions already underway"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MU",
+      "text": "Lynx Equity raised Micron’s price target to $825, a Street-high, and commented as follows:\n\n\"Beyond Micron management’s statement that its 2026 HBM capacity is already sold out, the company’s HBM, DDR5, and LPDDR5 production capacity has now been fully reserved through 2027.\n\nWith 2027 allocation now complete, Micron is currently in discussions with key customers regarding 2028 supply volumes and pricing terms.\"\n\nOK… so 2027 is already fully booked?\n\n$MU",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2042599777712427019",
+      "kind": "post",
+      "engagement": {
+        "views": 110929,
+        "likes": 371,
+        "reposts": 46,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043936436156825876",
+      "date": "2026-04-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "SK Hynix to Cut HBM4 Volumes This Year... Expanding HBM3E and Other Products Instead\n\nSK Hynix is reportedly pursuing a plan to reduce its 6th-generation High Bandwidth Memory (HBM) shipments to NVIDIA by approximately 20–30% compared to its original plan. This is understood to be a consequence of NVIDIA's next-generation AI accelerator \"Vera Rubin\" facing difficulties in scaling mass production.\n\nHowever, the reduced HBM4 volumes from SK Hynix are expected to be substituted by demand for the previous-generation HBM3E and server DRAM. Given that margin profiles differ across products, the industry consensus is that the impact on this year's business results remains to be seen.\n\nAccording to ZDNet Korea's reporting on April 14, SK Hynix plans to reallocate a portion of its NVIDIA-bound HBM4 shipment allocation for this year to HBM3E and server DRAM volumes.\n\nHBM4 is the latest HBM entering full-scale commercialization this year. It will be first adopted in \"Vera Rubin,\" the AI semiconductor that global big tech company NVIDIA is targeting for launch in the second half of this year. Accordingly, major memory companies including Samsung Electronics, SK Hynix, and Micron are all going all-out to supply HBM4 to NVIDIA.\n\nHowever, the industry expects that Rubin series shipment volumes this year will fall short of the original plan.\n\nThis is based on analysis that the optimization of various components constituting the Rubin platform has not yet been fully completed. Notably, NVIDIA had requested HBM4 data processing speeds significantly above the industry standard, at the 11 Gbps level.\n\nIn a recently published report, market research firm TrendForce stated: \"Beyond the time required for HBM4 validation, several challenges remain, including the transition to network interconnects, increased power consumption, and optimization of more advanced liquid cooling solutions.\" It added: \"As a result, the Rubin series' share of NVIDIA's high-performance GPU shipments is expected to decline from the original 29% to 22%.\"\n\nConversely, the shipment share of the \"Blackwell\" series—NVIDIA's current primary production focus—is projected to increase significantly from 61% to 71%. Blackwell uses HBM3E.\n\nThe domestic memory industry is also reportedly adjusting its HBM business strategies accordingly. SK Hynix in particular is seeing the largest degree of business variability, as the dominant player in the HBM market with the largest shipment share for both NVIDIA-bound HBM4 and HBM3E.\n\nA source familiar with the matter explained: \"As the volume of Rubin series shipments this year is being reduced, adjustments to SK Hynix's HBM4 shipment plan have become unavoidable. However, since that volume is being redirected to HBM3E and server LPDDR (low-power DRAM), total memory demand is not decreasing.\"\n\nSK Hynix had originally planned to ship approximately 6 billion Gb (gigabits) of HBM4 to NVIDIA this year. The level currently under discussion is 20–30% below that figure. As some of the reduced volume is being converted to Blackwell series use, HBM3E volumes are also expected to exceed the original forecast of 8 billion Gb.\n\nAnother source said: \"SK Hynix is internally discussing plans to convert a portion of HBM4 volumes to HBM3E and server LPDDR. In practice, procurement orders for materials and components needed for HBM4 mass production have also been increasing more slowly than initially expected.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2043936414300319744",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HF2FVu3bMAAtJdJ.png",
+          "width": 600,
+          "height": 294,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2043936436156825876",
+      "kind": "post",
+      "engagement": {
+        "views": 99584,
+        "likes": 297,
+        "reposts": 34,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044545278238462440",
+      "date": "2026-04-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "Samsung Electronics Accelerates HBM4E Development… First Samples Expected in May\n\nSamsung Electronics is ramping up development of its 7th-generation High Bandwidth Memory, HBM4E. The company reportedly plans to complete development of its first HBM4E sample meeting target performance specifications next month. Samsung intends to finalize internal validation before shipping to customers. Having recently announced the industry's first mass-production shipment of 6th-generation HBM (HBM4), the company is now pursuing a strategy to capture the next-generation HBM market as well.\n\nAccording to industry sources on April 16, Samsung Electronics plans to produce its first HBM4E sample next month. The logic die — effectively the brain of the HBM4E, delivering significantly improved performance over the previous generation — is set to be fabricated by the foundry division and delivered to the memory division by mid-May, after which it will be packaged together with HBM4E DRAM to produce the sample. Samsung is expected to deliver samples that meet target performance levels to NVIDIA following internal performance evaluation.\n\nSamsung previously unveiled a physical HBM4E unit at NVIDIA's annual flagship developer conference, GTC 2026, in March. However, the prevailing industry view is that the product shown was merely an exhibition-grade sample. Samsung does not appear to have yet produced a meaningful sample meeting the performance criteria demanded by customers such as NVIDIA.\n\nSamsung plans to accelerate HBM4E development to preempt the next-generation HBM market. The company previously made an aggressive bet by applying more advanced process nodes than competitors for HBM4, and announced that it had achieved the industry's first mass-production shipment. Samsung claims it secured a performance edge by using more advanced processes than rivals SK Hynix and Micron for both the HBM4 logic die and HBM4 DRAM. The company is now reportedly focusing all efforts on improving profitability.\n\nFor HBM4E, Samsung is applying the same 4nm foundry process for the logic die and 10nm-class 6th-generation (1c) process for DRAM as used in HBM4. While the processes are not identical — with some refinements introduced for performance improvement — Samsung is assessed as having a technological stability advantage compared to competitors that will be adopting advanced foundry processes and 1c DRAM for the first time with HBM4E.\n\nMeanwhile, SK Hynix is also reportedly devoting full resources to HBM4E development. SK Hynix is said to be applying DRAM one generation ahead of its HBM4 DRAM for HBM4E, and is prioritizing TSMC's 3nm process for the logic die. Previously, SK Hynix used TSMC's 12nm process for the HBM4 logic die and 10nm-class 5th-generation (1b) DRAM. While SK Hynix prioritized business stability with proven processes for HBM4, it has now formulated a strategy to also secure performance leadership with HBM4E.\n\nA semiconductor industry source commented: \"Although NVIDIA's Vera Rubin series AI chips — which will incorporate HBM4 and HBM4E — have seen some launch delays and production volume adjustments, Samsung is investing heavily in the next-generation market to avoid repeating the missteps of previous generations where it ceded market share to competitors.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044545260010020864",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HF-vFN4bIAADysh.png",
+          "width": 616,
+          "height": 379,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044545278238462440",
+      "kind": "post",
+      "engagement": {
+        "views": 16280,
+        "likes": 168,
+        "reposts": 18,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044585601232740359",
+      "date": "2026-04-15",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "[Exclusive] SK Hynix to List US ADR in June–July\n\nSK Hynix has confirmed it is targeting a June–July timeframe for its US stock market listing and is accelerating the related procedures.\n\nWhen SK Hynix disclosed last month that it had confidentially filed a registration statement (Form F-1) with the US Securities and Exchange Commission (SEC) for an American Depositary Receipt (ADR) listing, the company's position was that it was pursuing a listing within the year but the schedule had not yet been finalized.\n\nHowever, the fact that the company has since set a specific internal timeline is interpreted as a signal of its intent to complete the listing swiftly — shortening the timeline as much as possible to expand its global fundraising base in earnest.\n\nMoreover, given that SK Group Chairman Chey Tae-won has emphasized that the ADR listing will make SK Hynix \"a more global company,\" the scale of new share issuance is also expected to be significant. A larger issuance is needed to drive trading activity and, in turn, boost corporate value.\n\nAccording to industry sources on April 16, SK Hynix has communicated a target listing window of June–July to its underwriting syndicate. The company has assembled a syndicate led primarily by US-based securities firms and has entered full-scale preparation. ADRs are securities issued to allow foreign companies to trade their shares on US exchanges, serving as a vehicle to broaden access for global investors.\n\nSK Hynix appears intent on completing the listing quickly, regardless of share price fluctuations. When ADR listing rumors surfaced in December last year, the company acknowledged it was reviewing measures to enhance corporate value, including a US listing. Around that time, its share price was on a sustained rally, surpassing KRW 1 million per share by late February — but uncertainty grew as war broke out between the US and Iran.\n\nMore recently, growing expectations of a ceasefire have fueled a fresh run to all-time highs. The stock broke through the KRW 1.1 million level, confirming robust investor demand. The closing price on April 16 was KRW 1,136,000. Since ADRs are based on domestic shares, the fundraising appeal has increased.\n\nAn investment banking industry source said, \"Even if the share price had fallen, the ADR listing schedule would not have changed — that's how strong the determination is to enter the US market quickly.\"\n\nAttention is now turning to the scale of the new share issuance. Although the AI semiconductor super-cycle left SK Hynix with nearly KRW 35 trillion in cash reserves as of year-end, the upcoming investment requirements are even larger. The capital expenditure needed to meet global next-generation semiconductor demand is astronomical.\n\nIn February, SK Hynix decided to invest KRW 21.6 trillion through the end of 2030 for its first fab at the Yongin semiconductor cluster. Including the facility investment announced in July 2024, the total reaches approximately KRW 31 trillion. The broader strategy calls for investing KRW 600 trillion by 2050 to operate four fabs in Yongin. Additionally, earlier this year the company announced plans to establish a US-based AI solutions company to position itself as a key partner for AI data centers, with up to USD 10 billion (approximately KRW 15 trillion) earmarked for that venture.\n\nInitially, the ADR listing was expected to be based on the company's treasury shares. However, after SK Hynix effectively cancelled its entire treasury stock — KRW 12.24 trillion worth — in January, retaining only shares reserved for employee compensation, new share issuance remains the only option. Analysts say a large-scale new issuance is therefore necessary to achieve the valuation re-rating the company is seeking.\n\nInvestment banking circles estimate the issuance size at around USD 10 billion. To achieve the company's target valuation uplift, broad-based institutional investor participation is required. If the issuance size were reduced out of concern over diluting the control of parent company SK Square, that too could become an obstacle to a successful offering.\n\nFurthermore, based on this year's earnings estimates, the forward price-to-earnings ratio (PER) cited by analysts for SK Hynix stands at just 3–4x — far below US peers Micron (8x) and SanDisk (19x). At NVIDIA's GTC 2026 in San Jose, California in March, Chairman Chey Tae-won said, \"I believe [the ADR listing] will make us a more global company by gaining exposure to US and global shareholders.\"\n\nAhead of the listing, SK Hynix is also planning a deal roadshow to meet US investors. The company is expected to further accelerate preparations after confirming favorable first-quarter results.\n\nSK Hynix stated regarding the ADR listing timeline: \"We are targeting a listing within this year, but details including the offering size, structure, and schedule have not been finalized. The final listing decision will be made after comprehensively considering the SEC's review of the registration statement, market conditions, demand assessment, and other relevant factors.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044585579258802177",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HF_TwGybcAEPW79.jpg",
+          "width": 1280,
+          "height": 720,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044585601232740359",
+      "kind": "post",
+      "engagement": {
+        "views": 59192,
+        "likes": 624,
+        "reposts": 99,
+        "replies": 17
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044906576067330360",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "NAND Flash Prices Surge Amid Delayed Capacity Expansion… Samsung Electronics & SK Hynix Go All-Out to Ramp Production\n\nAs NAND flash demand surges on the back of artificial intelligence (AI) industry growth, global NAND flash manufacturers including Samsung Electronics, SK Hynix, and Kioxia are accelerating capacity expansion efforts. However, with Samsung and SK Hynix prioritizing DRAM capacity additions first, and Kioxia's expansion unlikely to meet demand in the near term, the consensus view is that NAND price increases will persist for the foreseeable future.\n\nAccording to market research firm DRAMeXchange on April 17, the average contract price for commodity NAND products (128Gb 16Gx8 MLC, used in memory cards and USB drives) reached $17.73 last month, up 39.95% from $12.67 the prior month. Compared to $2.18 in January last year, this represents roughly an 8x increase. Demand has surged sharply, driven primarily by AI data centers, while NAND manufacturers' supply has failed to keep pace.\n\nThe AI-driven growth wave is exacerbating supply shortages not only in DRAM but also in NAND. Demand for NAND-based enterprise SSDs (eSSDs) has spiked as vast volumes of data must be stored throughout the process of training AI models and advancing inference capabilities. On top of this, the 4–6 year data center server refresh cycle is coinciding with the demand surge, compounding the supply crunch.\n\nHowever, following 2–3 years of NAND market weakness during which global manufacturers executed production cuts, responding to the demand uptick has proven difficult. Samsung, SK Hynix, and Micron in particular have been channeling resources toward DRAM production—where demand has exploded even more steeply—pushing NAND expansion down the priority list.\n\nMarket research firm TrendForce noted: \"With NAND production capacity growth limited in the near term and AI-driven demand surging, price increases are expected to remain robust throughout the year.\"\n\nSamsung Electronics and SK Hynix plan to focus on securing additional space at their China-based NAND fabs this year. Samsung is understood to have completed process migration investment at its Xi'an Fab 1 and plans to ramp output in the second half of the year. Xi'an Fab 2 is reportedly reviewing a capacity expansion of approximately 40,000 wafer starts per month. SK Hynix is said to be undertaking new investment at its Dalian Fab 2 to expand capacity by up to 50,000 wafer starts per month.\n\nEfforts are also reportedly underway to find additional space at new domestic production lines. Samsung's new P5 fab at the Pyeongtaek campus and SK Hynix's Y1 fab at the Yongin semiconductor cluster are both reviewing plans to add NAND production lines.\n\nAn industry official stated: \"Korean memory companies are prioritizing DRAM and HBM capacity expansion, but with NAND demand also surging, addressing this has become urgent. Companies are working to secure space for production line expansion at both domestic and overseas fabs.\"\n\nOverseas NAND manufacturers including Kioxia and Micron are also pushing hard on capacity expansion. Japan's Kioxia began executing expansion investment last year and aims to add approximately 30,000 wafer starts per month at its Yokkaichi fab this year. Micron's new Singapore NAND fab, where equipment investment has been committed, is set to begin construction in earnest this year, with volume production expected to commence in 2028.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044906554257002496",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGD3rT1bUAA2zzF.png",
+          "width": 616,
+          "height": 411,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044906576067330360",
+      "kind": "post",
+      "engagement": {
+        "views": 59567,
+        "likes": 370,
+        "reposts": 50,
+        "replies": 14
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044910971353968733",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "@lithos_graphein It’s a real shame that no media outlet is covering Micron like this. There’s just far too little information out there.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044910971353968733",
+      "kind": "reply",
+      "engagement": {
+        "views": 532,
+        "likes": 4,
+        "reposts": 0,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045426271287644425",
+      "date": "2026-04-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "GigaDevice Teams Up with CXMT to Scale DRAM Business to $800 Million\n\nChinese fabless firm GigaDevice is set to meaningfully expand its DRAM business on the back of nearly KRW 1 trillion in related-party transactions. By combining CXMT's (ChangXin Memory Technologies) production capacity with GigaDevice's distribution network, the move is seen as an attempt to amplify their collective influence — and analysts suggest it could emerge as a new variable in the global supply landscape.\n\nAccording to industry sources, GigaDevice is scheduled to vote at its annual shareholders' meeting on the 24th on a proposal to purchase a total of USD 825 million (approximately KRW 1.2 trillion) worth of DRAM this year from ChangXin Technology (CXMT's parent) and CXMT itself. This represents roughly 6x the USD 173.42 million actually executed last year.\n\nThe transaction effectively binds DRAM production and sales within the same corporate family. CXMT will handle manufacturing, while GigaDevice will take charge of product development and market distribution. Given that Chairman Zhu Yiming concurrently chairs both CXMT and GigaDevice, the deal is being interpreted as more than a simple volume arrangement — rather, as a strategic move by China to simultaneously build out its own supply and distribution channels in the legacy DRAM space.\n\nGigaDevice has historically been a fabless company focused on NOR Flash and MCUs. With this transaction, however, it is expected to aggressively expand into directly developing and selling DRAM products — including DDR3, DDR4, and LPDDR4 — leveraging CXMT's manufacturing base. With commodity DRAM undersupply and rising prices persisting, this integrated production-and-sales structure is seen as increasing the potential for a reshuffling of the legacy DRAM market.\n\nIn particular, as surging AI server demand and the concentration of HBM production have pushed Samsung Electronics, SK Hynix, and Micron to shift capacity toward leading-edge products, commodity DRAM supply has become relatively tight.\n\nDaniel Niu, a researcher at Yole Group, noted that \"GigaDevice's move could intensify competitive pressure on incumbent DRAM suppliers such as Winbond, Nanya, and PSMC, as well as on fabless suppliers like ISSI.\"\n\nHe added, \"GigaDevice's DRAM revenue is expected to exceed USD 200 million in 2025,\" and projected that \"if increased supply coincides with a favorable pricing environment and a substantial portion of the procured DRAM translates into sales this year, DRAM revenue could approach USD 1 billion.\"\n\nThe global DRAM market is currently entrenched as a three-way oligopoly led by SK Hynix, Samsung Electronics, and Micron. However, should China — through intra-group collaboration — build price and volume competitiveness in legacy DRAM, observers note it could become a non-trivial source of pressure on the existing market order, particularly in the commodity product segment.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2045425618968539136",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGLPw2kacAAfUaq.png",
+          "width": 500,
+          "height": 378,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2045426271287644425",
+      "kind": "post",
+      "engagement": {
+        "views": 57240,
+        "likes": 129,
+        "reposts": 10,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045455302871699556",
+      "date": "2026-04-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "@Philip_pan2008 Bro, I know this won’t have any impact on SK hynix or Micron. What I’m worried about is companies like Nanya.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2045455302871699556",
+      "kind": "reply",
+      "engagement": {
+        "views": 2066,
+        "likes": 3,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045625615492305101",
+      "date": "2026-04-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MU",
+      "text": "Micron has reportedly started the process of selecting a PR agency to strengthen its media and external communications activities in Korea.\n\nNow, will there be fewer negative news stories about Micron in Korea? lol\n\n$MU\n\nhttps://t.co/45Rdrmi0Tz",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2045625615492305101",
+      "kind": "post",
+      "engagement": {
+        "views": 35325,
+        "likes": 344,
+        "reposts": 13,
+        "replies": 21
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045805130222915615",
+      "date": "2026-04-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "@TradexWhisperer Why is Micron skipping 4F² and going straight to 3D DRAM? (I assume this is something you’re also aware of.)",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2045805130222915615",
+      "kind": "reply",
+      "engagement": {
+        "views": 14909,
+        "likes": 82,
+        "reposts": 1,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046038381117997155",
+      "date": "2026-04-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "According to industry sources, this year’s SOCAMM2 supply chain priority is Samsung &gt; SK hynix &gt; Micron.\n\nWhat’s interesting is that Samsung is making it on 1b, while SK hynix is using 1c. https://t.co/YlpeFQRsaO",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046038381117997155",
+      "kind": "post",
+      "engagement": {
+        "views": 60803,
+        "likes": 203,
+        "reposts": 11,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046069577428394173",
+      "date": "2026-04-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "Micron is obviously ahead in 3D DRAM. They started researching it earlier than Samsung and SK Hynix, and they also hold more patents.\n\nMy concern is that if Micron gets off to a strong early start in 3D DRAM, the standards set by the Korean companies may fail to gain traction, causing them to fall behind, even if only temporarily.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046069577428394173",
+      "kind": "reply",
+      "engagement": {
+        "views": 2124,
+        "likes": 5,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046139467866739111",
+      "date": "2026-04-20",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "@Heysup07 I don’t talk much about Micron because I don’t know it that well. I talk a lot more about Samsung and SK hynix because I know them well. Is that really so hard to understand?",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046139467866739111",
+      "kind": "reply",
+      "engagement": {
+        "views": 12238,
+        "likes": 144,
+        "reposts": 0,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046429255131906548",
+      "date": "2026-04-20",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "CXMT Struggles with HBM3 Development... Delay to H2 Likely\n\nChina's ChangXin Memory Technologies (CXMT) is increasingly likely to push back the commercialization timeline for its 4th-generation high-bandwidth memory (HBM3). The company had initially targeted commercialization in the first half of this year, but it has yet to place mass-production-level orders with relevant materials and component suppliers.\n\nAccording to industry sources on the 20th, CXMT is experiencing setbacks in its HBM3 mass production schedule, which had originally been targeted for the first half of this year.\n\nCXMT is China's largest DRAM manufacturer. While its share of the global DRAM market remains outside the top tier, the company has been credited with rapidly advancing its technology, having successfully commercialized the latest DRAM standards including DDR5 and LPDDR5X.\n\nCXMT is also knocking on the door of the HBM market—high-performance DRAM used in AI data centers. HBM is a memory semiconductor in which multiple DRAM dies are stacked vertically and connected through Through-Silicon Vias (TSVs). It requires highly advanced technology in both front-end and back-end processes.\n\nThe product CXMT is focused on developing is HBM3, a 4th-generation HBM that falls within the relatively mature (legacy) process category. Major players such as Samsung Electronics, SK Hynix, and Micron are ramping up full-scale mass production of HBM4 this year.\n\nHowever, industry assessments indicate that CXMT's HBM3 remains at the testing stage. Although mass production had initially been targeted for as early as the first half of this year, the schedule has continued to slip. Orders for the materials and components required for HBM3 are reportedly still at the sample production level.\n\nA semiconductor industry source explained, \"CXMT's technological progress has been rapid, but the HBM3 mass production schedule keeps being pushed back. Judging from development progress, mass production within this year appears unlikely.\"\n\nMeanwhile, CXMT has adopted G4 (16nm-class) DRAM as the core die for its HBM3. This is the DRAM node for which full-scale mass production began last year, representing CXMT's most advanced process.\n\nFor the back-end process of stacking DRAM dies, CXMT has adopted Mass Reflow-Molded Underfill (MR-MUF).\n\nMR-MUF is a technology that temporarily bonds each DRAM die with heat as it is stacked, then finalizes the bonding by applying heat (reflow) once the full stack is complete. Liquid EMC (Epoxy Molding Compound—a molding material blending epoxy polymer with inorganic silica) is then applied. Currently, SK Hynix utilizes the MR-MUF process.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2046429247162724352",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGZgjs8asAAb8xa.png",
+          "width": 638,
+          "height": 334,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2046429255131906548",
+      "kind": "post",
+      "engagement": {
+        "views": 23803,
+        "likes": 194,
+        "reposts": 19,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046550105877270728",
+      "date": "2026-04-21",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "memory stocks remain undervalued relative to HDD stocks",
+        "inevitable re-rating story",
+        "memory industry structurally changing",
+        "HDD stocks treated as non-cyclical which author pushes back on"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$MU",
+      "text": "I’d been thinking the same for quite a while, and UBS finally called it out clearly this time: why are HDD stocks being rewarded with premium valuations while memory stocks remain undervalued? Sharing this here:\n\n\"While we do not see any negative catalysts for STX or WDC in the near term, we believe it is problematic that the market is taking a structurally very different view of HDD stocks versus memory stocks, and we continue to prefer memory names — for example, MU, which we see as an inevitable re-rating story. Put a different way, the market is treating HDD stocks as if they are no longer cyclical - something we push back on aggressively as we believe customers will 2x order HDD capacity until demand starts to flatten - at which case revenue and EPS for HDD stocks will fall off a proverbial cliff. Even if we take an aggressive ~30% EB growth Y/Y, HSD% price increases, and LDD% costdowns for the next 2-3 years, STX still trades at 11x - almost 2-3 turns higher than the peak of previous cycles and the exact opposite of the expectations placed on MU despite the memory industry structurally changing. So, with a still-positive cyclical view for now and a negative structural view relative to the current peaky multiples, we remain Neutral; we continue to prefer MU and semicaps as better cyclicals to gain exposure to the AI buildout.\"\n\n$MU",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046550105877270728",
+      "kind": "post",
+      "engagement": {
+        "views": 64006,
+        "likes": 395,
+        "reposts": 36,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047219439385677997",
+      "date": "2026-04-23",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "SK Hynix Set for Even Stronger Q2 — Memory Tailwinds Point to Record Profitability\n\nSK Hynix posted its highest-ever profitability in Q1, driven by an unprecedented memory supercycle. The operating margin reached 72%, placing the company among the top tier of global manufacturers. SK Hynix is highly likely to deliver record profitability again in Q2, as DRAM and NAND prices continue to climb and shipments expand with a shift toward higher-value products.\n\nAccording to industry sources on the 23rd, SK Hynix is expected to set a new all-time high operating margin in Q2 on the back of the continuing memory supercycle.\n\nIn Q1, SK Hynix reported revenue of KRW 52.5763 trillion and operating profit of KRW 37.6103 trillion. Revenue rose 198% YoY and 60% QoQ, while operating profit jumped 405% YoY and 96% QoQ.\n\nThese results mark a record high for the company. The 72% operating margin ranks at the top of the global manufacturing sector, exceeding the recent profitability of major players including TSMC, Nvidia, and Micron.\n\nMemory bit growth in Q1 was limited — DRAM was flat QoQ and NAND declined roughly 10% QoQ. However, average selling prices (ASP) for DRAM and NAND rose by the mid-60% and mid-70% range respectively, driving a sharp expansion in profitability.\n\nThis was supported by rising demand for high-value server memory tied to AI infrastructure investment. Notably, excluding HBM — where price volatility is limited — commodity DRAM ASP is estimated to have increased by around 100%.\n\nQ2 earnings are expected to expand further, as volume growth and price increases are set to materialize simultaneously.\n\nSK Hynix guided Q2 DRAM bit growth to the high single digits and NAND to the mid-teens, with ASPs expected to continue rising. Current industry estimates place Q2 QoQ ASP increases at roughly 20% for DRAM and 30% for NAND.\n\nA semiconductor industry source said, \"Given current conditions, a sharp rise in memory prices through Q2 is all but locked in, and SK Hynix's operating margin is highly likely to set a new record high in Q2.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2047219412944719872",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGkvNZ3akAAg5vt.png",
+          "width": 600,
+          "height": 294,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2047219439385677997",
+      "kind": "post",
+      "engagement": {
+        "views": 29548,
+        "likes": 268,
+        "reposts": 38,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047503819890991301",
+      "date": "2026-04-23",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "【GF Overseas Electronics & Communications】\nSanDisk FY3Q26 Preview: NAND Is in a Better Position\n\n☄️ SanDisk FY3Q26 Preview: NAND Is in a Better Position\n\n☀️ Upgrade to Buy, new PT of $1,277: SNDK reports FY3Q26 on April 30. Combined with the recent contract price trajectory, we expect both results and guidance to come in strong. NAND ASP rose in the 70% range in FY1Q26, and is accelerating further to +90–100% in FY2Q26. The biggest upside surprise this cycle is coming from consumer electronics: despite volume cuts from domestic Chinese Android OEMs, the supply-demand balance remains tight, pushing smartphone makers to accept price hikes to $0.25/GB — versus just $0.12/GB in FY1Q26. In eSSD, the current negotiation range is $0.35–0.37/GB, driving blended ASP up ~90% QoQ. On this basis, we forecast FY3Q revenue of $4.9B at 71.5% OPM, and guidance for FY4Q26 revenue north of $10B with OPM above 84%. Another important catalyst is the step-up in contract liabilities, reflecting LTA prepayments flowing through. We forecast FY2027 EPS of $286.52, and apply 4x FY2027E P/B to derive our $1,277 price target.\n\n☀️ KV cache demand growth accelerates into 2027: SNDK has indicated that KV cache will generate 100EB of incremental NAND demand in 2027, with demand potentially doubling in 2028. However, given the recent surge in token demand, OpenRouter traffic up 17x, and accelerating AI agent adoption, we view this forecast as conservative. 100EB already equates to ~7% of total 2027 NAND demand, and even accounting for improvements in compression rates, demand still looks set to grow exponentially. On the supply side, NAND capacity additions remain measured: SK Hynix's core focus is on technology migration, while new capacity is concentrated in SNDK/Kioxia's K2 fab, Samsung's P5 line (coming online in 2028), and YMTC.\n\n☀️ Cost optimization may reshape the NAND vs. DRAM competitive landscape: We expect the memory market to approach $1 trillion in size by 2027, with CSPs accounting for 40–45% of total demand and memory spend representing over 40% of CSP CAPEX. On this basis, we believe the cost advantage will progressively tilt the revenue mix toward NAND (server DRAM is priced at ~$2.2/Gb, vs. eSSD at just $0.35–0.37/GB). Tiered storage architecture is the core structural driver of rising NAND share in AI workloads, and the arrival of HBF from 2028 onward should further amplify this. On valuation, Micron currently trades at 4.3x FY2027E P/E versus SNDK at just 3.4x — on both multiple and long-term positioning, SNDK offers more compelling allocation value.\n\n$SNDK",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047503819890991301",
+      "kind": "post",
+      "engagement": {
+        "views": 63663,
+        "likes": 94,
+        "reposts": 11,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047565814442946643",
+      "date": "2026-04-24",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "[EXCLUSIVE] Samsung Breaks DRAM's \"10nm Wall\"... First Working Die Produced\n\nSamsung Electronics is breaking through the DRAM 10nm wall.\n\nThe company has produced the world's first working die (a functioning prototype) of a single-digit-nanometer DRAM. Samsung is reportedly planning to rapidly secure yield by tuning process conditions based on this working die.\n\nAccording to industry sources on the 24th, Samsung confirmed a working die last month during die characterization testing of wafers produced on its 10a process. The result was the company's first-ever application of a 4F² cell structure combined with Vertical Channel Transistor (VCT) process technology.\n\nThe DRAM industry has traditionally classified its 10nm-class generations in the sequence 1x → 1y → 1z → 1a → 1b → 1c → 1d. The 10a node, the generation following 1d, refers to the first node below 10nm. Experts estimate the actual circuit linewidth to be around 9.5–9.7nm.\n\nA \"working die\" refers to a chip cut from a wafer that operates as designed. When a working die emerges during development, it signals that the design and process direction are correct. From there, the effort shifts to yield ramp and reliability qualification.\n\nSamsung plans to complete 10a DRAM development this year using this architecture, move to quality testing next year, and transfer it to mass-production lines in 2028. The company reportedly intends to apply the 4F² and VCT structure across three generations — 10a, 10b, and 10c — before transitioning to 3D DRAM starting from 10d.\n\nAn industry source said, \"Samsung had also kept a separate team designing the next-next-generation DRAM under the conventional approach, out of concern that the 10a process could fail. But now that a working die has been produced, development and commercialization using this technology will move into high gear.\"\n\nThe reason failure concerns had been high is that 4F² and VCT are brand-new technologies.\n\nUntil now, DRAM cell area has been based on 6F². With 10a, this shrinks to 4F². A 6F² structure has a rectangular cell measuring 3F horizontally by 2F vertically (area = 6F²), while 4F² is a square, 2F on each side (area = 4F²). Moving to 4F² theoretically allows 30–50% more cells to be packed into the same die size, delivering advantages in capacity, speed, and power consumption.\n\nThe challenge was how to arrange the gate, channel, and capacitor on top of this narrower cell area. Samsung addressed this by introducing VCT technology. VCT is a structure in which the capacitor, which stores charge, is stacked on top of the transistor. In conventional designs, the transistor and capacitor each occupied their own cell area. Peripheral circuits such as sense amplifiers, test circuits, timing controllers, and voltage regulators — which had traditionally been placed around the cell array — are reportedly being processed on a separate wafer and attached via wafer-to-wafer hybrid bonding using a PUC (Periphery Under Cell) approach.\n\nWith 4F² and VCT technology applied, key materials have also changed. Samsung has switched the channel material from silicon to Indium Gallium Zinc Oxide (IGZO). The channel is the pathway through which current flows in a transistor. IGZO was adopted to suppress leakage current in the shrunken cell and secure data retention characteristics.\n\nThe wordline material is still in flux. The wordline is the interconnect that selects cells during DRAM operation. Samsung's original plan was to switch from conventional titanium nitride (TiN) to molybdenum (Mo). Molybdenum offers low resistance and does not require a liner layer during deposition, which widens the current path at the same linewidth. However, it is highly corrosive and solid at room temperature, which means gas supply equipment and piping must be modified for mass production. Process control difficulty is also high. Because of this, the option of extending TiN usage has recently re-emerged. Adoption probabilities for the two options are currently said to be roughly 50/50.\n\nAn industry source explained, \"A structure in which VCT is laid on its side and stacked is essentially 3D DRAM, so Samsung has effectively laid the technological groundwork. Micron and Chinese DRAM makers plan to skip 4F² and VCT and go directly to 3D DRAM.\"\n\nMicron plans to stretch its existing design as far as possible. Chinese DRAM makers, unable to import EUV lithography equipment, cannot shrink linewidths by any conventional means under current conditions. However, viewing 3D DRAM as a way to produce leading-edge products using legacy lithography — much like 3D NAND flash — they are aggressively pursuing 3D DRAM development.\n\nSK Hynix is reportedly planning to apply 4F² and VCT technology at its 10b node rather than at 10a.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2047565748919529472",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGpqMz6a8AAl1dK.png",
+          "width": 600,
+          "height": 268,
+          "alt_text": null
+        },
+        {
+          "media_key": "3_2047565768053911552",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGpqN7MacAAI1Vq.png",
+          "width": 600,
+          "height": 286,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2047565814442946643",
+      "kind": "post",
+      "engagement": {
+        "views": 32108,
+        "likes": 246,
+        "reposts": 24,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047942867029770502",
+      "date": "2026-04-25",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "Samsung strike could cause memory supply crunch, benefiting competitors with windfall of steeper memory price rises",
+        "particularly pronounced in high-performance server DRAM and eSSD segments"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "\"Samsung Union Strike Could Disrupt Memory Mass Production for At Least 1 Month\"… Industry Concerns Mount\n\nLabor-management conflict at Samsung Electronics is intensifying over the size of performance bonuses. The Samsung Group Cho-gi-eop Union's Samsung Electronics chapter (hereinafter \"the union\") reaffirmed on the 23rd at a resolution rally its intent to push ahead with an 18-day general strike starting on the 21st of next month.\n\nOn the 25th, concerns emerged within the semiconductor industry that the Samsung Electronics union strike could have a significant ripple effect on the memory semiconductor market.\n\nWhile the union has announced an 18-day strike period, when factoring in the time required to bring equipment back online to normal operating conditions, production disruption could last at least one month or more. The impact on mass production stretches to at least double that period. There are also forecasts that, amid the memory supercycle, only Samsung Electronics' competitors will reap windfall benefits.\n\nOne semiconductor engineer explained, \"If setup and maintenance (CS) work on semiconductor equipment is suspended for an extended period, restoring equipment to normal operation can take more than a month,\" adding, \"The impact could be even greater in a supercycle situation where memory shipments need to be aggressively ramped up.\"\n\nThe union strike is not an issue confined to Samsung Electronics alone. If Samsung Electronics—which holds the world's largest production capacity—experiences disruptions in mass production, the memory supply crunch could worsen further. For global Big Tech and IT companies, this means greater pressure from rising manufacturing costs.\n\nIn such a scenario, competitors such as SK Hynix and Micron could enjoy the windfall of a steeper rise in memory prices. Volatility is expected to be particularly pronounced in high-performance server DRAM and eSSD (enterprise SSD) segments, where only a handful of companies are capable of mass production.\n\nAnother semiconductor engineer said, \"When personnel are pulled out of the fab, equipment starts going offline one by one, creating problems,\" and added, \"If memory equipment isn't properly managed, output can immediately drop by 10–20%.\"\n\nThe union is demanding that 15% of annual operating profit be distributed as performance bonuses and that the bonus system be made more transparent. Approximately 40,000 people (police estimate) gathered at the resolution rally held on the 23rd at Samsung Electronics' Pyeongtaek campus, where the same message was emphasized. More than half of the 76,100 members of Samsung Electronics' first-ever majority union in the company's history attended the rally. If a labor-management agreement is not reached, the union will proceed with a general strike.\n\nAt the rally, Union Chairman Choi Seung-ho warned, \"If the company treats devoted union members as mere numbers, we too will respond with numbers—by demonstrating the massive production disruptions and losses that a strike will cause.\" Estimated losses from the strike have been pegged at up to 30 trillion won.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2047942850239983616",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGvBK_za8AA95cf.png",
+          "width": 640,
+          "height": 480,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2047942867029770502",
+      "kind": "post",
+      "engagement": {
+        "views": 136959,
+        "likes": 303,
+        "reposts": 41,
+        "replies": 18
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2049847048690938030",
+      "date": "2026-04-30",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "same DRAM cycle thesis applies — memory demand from AI will continue"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MU",
+      "text": "KIS, which I consider one of the top three Korean sell-side firms, published a memory report, and there’s a comment from it that I wanted to share with you all:\n\nMemory is the critical variable that determines GPU utilization. In particular, when HBM and DRAM capacity is insufficient, memory bottlenecks prevent GPUs from being fully utilized, leading to a decline in overall system efficiency. Conversely, expanding memory capacity raises GPU utilization, allowing the same GPU resources to process a greater number of tokens. This translates directly into a lower cost per token. As cost per token falls, more users are drawn in, ultimately driving a larger expansion in inference demand. This is precisely why hyperscalers, despite rising memory ASPs, are willing to go as far as proposing long-term supply agreements in order to secure greater memory allocation. The cost of purchasing memory rises, but at the same time, that purchase improves GPU utilization—lifting overall system efficiency and lowering cost per unit of performance.\n\nWith DRAM prices having spiked roughly 3x year-over-year in a short span, the market is now bracing for a subsequent decline in demand or prices. But this view stems from looking at memory purely as a standalone cost line item. Even if DRAM is purchased at 3x the price, if that spending allows more GPUs to run and more tokens to be processed, system-wide profitability can actually improve. The fate of the chips that once tried to challenge NVIDIA GPUs by leaning on MLPerf benchmarks—touting per-chip performance-per-watt and price-performance comparisons—illustrates this well. As Jensen Huang has repeatedly emphasized, comparing single-chip specs in isolation is meaningless. Huang has stated that NVIDIA GPUs deliver the lowest cost per token in the world, adding that the lowest cost per token and the highest performance per watt are the decisive metrics of AI economics. In other words, his consistent argument is that competition should not be waged on GPU hardware specs alone, but rather on cost per token at the full-system level. The same logic extends to memory. If \"buying memory at a premium still pays off at the system level,\" then memory purchases by hyperscalers locked in the AI arms race will continue.\n\nThe same logic applies to NAND. Active efforts are underway to integrate NAND into AI infrastructure systems. Some argue that wider NAND adoption will eat into DRAM demand, but this too misreads the memory market as a zero-sum game with a fixed pie. As AI workloads have grown, the upper tiers of the memory hierarchy—HBM and DRAM—alone can no longer accommodate the demand, and NAND has emerged as a key element in extending that hierarchy. NAND, in particular, offers an overwhelmingly lower cost per unit of capacity than DRAM. As of Q1 2026, NAND prices stand at roughly $0.10–$0.12 per GB, whereas DRAM—even mobile DRAM, the lowest-priced application segment—has already surpassed $6 per GB on a contract basis. Even if NAND prices were to double or triple, they would still remain far below DRAM. If even a portion of AI workloads can be offloaded to NAND, it can directly contribute to lowering system-wide cost per token.\n\n$DRAM $MU $SNDK",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2049847048690938030",
+      "kind": "post",
+      "engagement": {
+        "views": 80776,
+        "likes": 462,
+        "reposts": 59,
+        "replies": 32
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2050393020340765133",
+      "date": "2026-05-01",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "AI CPU DRAM demand up to 4x previous generations driving memory shortage expected to extend into 2027",
+        "DDR5 spot price rising while DDR4 falls, reflecting AI CPU demand premium",
+        "memory supply capacity falling short of demand"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MU",
+      "text": "AI CPUs Are Devouring DRAM — Memory 'Shortage' to Last Another Year\n\nThe memory industry has posted record-breaking results driven by commodity DRAM prices that have surged more than 100%, and with the proliferation of AI-purposed central processing units (CPUs) now coming into play, forecasts suggest the shortage will extend for another year.\n\nIntel's recently unveiled \"AI CPU\" is expected to carry up to four times more commodity DRAM than previous generations. Combined with surging demand from graphics processing units (GPUs) that require high-capacity DRAM, observers expect the memory supply capacity of Samsung Electronics and SK hynix to fall short of demand.\n\nAccording to industry sources on the 2nd, CPU manufacturers are pursuing the integration of 300–400GB of DRAM into AI CPUs. This is up to four times the overwhelming scale compared to typical CPU products (96–256GB).\n\nCPUs Emerge as the 'AI Orchestrator'\n\nThe surge in high-capacity DRAM demand for AI CPUs is tied to the AI industry's pivot toward an inference-centric structure. Whereas AI inference was once limited to simple Q&A, it now serves as the \"orchestrator\" coordinating various agentic AIs.\n\nThe key in this process is \"context memory.\" For a CPU to coordinate the entire workflow by referencing the outputs of each agentic AI, it must remember the content. This makes scaling up memory — the space for retention — essential.\n\nUntil now, AI data centers have built computing infrastructure centered on GPUs equipped with High Bandwidth Memory (HBM). Leveraging the GPU's strength in training AI on vast amounts of data simultaneously, the focus has been on \"AI training.\" Server configurations accordingly followed an 8-GPU-to-1-CPU pattern. However, as the industry's center of gravity shifts toward inference, server configurations with substantially expanded CPU ratios are spreading.\n\nIn a recent earnings call, Intel executives explained: \"In AI inference infrastructure, the computing structure has shifted to a CPU-to-GPU ratio of 1 to 4, and the trend is moving further toward 1 to 1.\"\n\nAfter GPUs, CPUs Join the Memory Battle — Demand Snowballs\n\nThe competition for memory capacity has expanded from GPUs to CPUs, snowballing in scale. NVIDIA's next-generation AI chip \"Vera Rubin\" carries 288GB through 8 HBM stacks, while AMD's next-generation GPU MI400 boasts an even larger 432GB mammoth-class capacity.\n\nGoogle's recently unveiled custom chip — the 8th-generation Tensor Processing Unit (TPU 8i) — is also slated to feature 288GB of HBM. Add to this Intel's AI CPU \"Xeon\" and AMD's \"EPYC\" beginning to use up to 400GB of high-capacity DDR5, and the memory shortage is expected to persist longer.\n\nThe market temperature is already being proven in spot prices. According to Kiwoom Securities, while the price of legacy DDR4 (16GB basis) plunged 16% in a single month in April, the spot price of DDR5 (16GB basis) — used in AI CPUs — rose 2.8% over the same period, maintaining its price premium.\n\nAn industry source said: \"The current DRAM market is understood to be roughly 10 percentage points short of demand. With commodity DRAM demand surging on top of HBM, the supercycle is highly likely to extend from the previously expected 2026 into 2027.\"\n\n$MU $DRAM",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2050393001588101120",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHR1kk2bEAAFAoh.jpg",
+          "width": 1024,
+          "height": 576,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2050393020340765133",
+      "kind": "post",
+      "engagement": {
+        "views": 288135,
+        "likes": 641,
+        "reposts": 104,
+        "replies": 21
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051260085142479289",
+      "date": "2026-05-04",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "DDR6 Substrate Advance Development Kicks Into High Gear… Big Three Memory Makers Race to Stake Out Next-Gen Standard\n\nDevelopment of next-generation server DRAM, DDR6, is moving into full swing. Memory makers are coordinating designs and running advance development programs jointly with substrate suppliers.\n\nAccording to multiple substrate industry sources on the 4th, major memory companies including Samsung Electronics, SK hynix, and Micron have recently asked substrate makers to begin DDR6 advance development. Having received portions of the designs, substrate makers have started development work that takes into account memory thickness, stack-up, and routing, and initial prototypes are being produced and put through validation.\n\nDDR6 is a next-generation DRAM standard with data transfer speeds expected to more than double those of the previous generation, DDR5 (up to 8.4 Gbps). The jump in speed has made signal integrity and power efficiency key engineering challenges, and substrate design difficulty has risen accordingly. As a result, substrate suppliers are now participating in joint development from the very early stages of memory design.\n\nA substrate industry source said, \"Memory companies and substrate suppliers typically begin joint development more than two years ahead of product launch,\" adding that \"early-stage DDR6 development has just gotten underway.\"\n\nDDR6 is not yet finalized as a JEDEC (Joint Electron Device Engineering Council) standard. JEDEC brings together memory makers and end-customers to set specifications. An initial DDR6 draft was disclosed in late 2024, but key specs—including thickness, I/O count, and signaling standards—remain undetermined. The industry is currently in the phase of coordinating detailed specifications based on designs proposed by each stakeholder.\n\nMemory companies are accelerating development to seize leadership over the standard. If their own designs are reflected in the final spec, they can preemptively secure optimized performance and accumulate development experience. It also puts them in a more advantageous position when it comes to yield stabilization.\n\nDDR6 is emerging just as the DDR5 generational transition winds down. According to market researcher TrendForce, the share of DDR5 in server DRAM passed 80% last year and is expected to expand to 90% this year. DDR4's share has fallen below 20% as new adoptions decline, and the industry has begun discussing the possibility of end-of-life.\n\nThe kickoff for next-generation memory standard development has been pulled forward. With AI servers proliferating, requirements for data processing speed and bandwidth have risen sharply, intensifying the need to improve memory performance. DDR4, commercialized in 2014, served as the mainstream product for an extended period. DDR5 launched in 2020, with the generational transition gaining traction from 2022 onward, particularly in the server market.\n\nThat said, mass production is still some time away. The industry expects DDR6 commercialization to land in 2028–2029 or later, with mass production gaining momentum only once end-customer demand becomes clearly visible.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2051260066544939008",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHeKKZha8AAukje.png",
+          "width": 600,
+          "height": 450,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2051260085142479289",
+      "kind": "post",
+      "engagement": {
+        "views": 35002,
+        "likes": 302,
+        "reposts": 30,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051663091633619182",
+      "date": "2026-05-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MU",
+      "text": "Micron’s market cap is now $700 billion.\n\n$MU",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2051663091633619182",
+      "kind": "post",
+      "engagement": {
+        "views": 84728,
+        "likes": 1032,
+        "reposts": 33,
+        "replies": 50
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2052651707105181882",
+      "date": "2026-05-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "2D NAND shortage spirals after Samsung, Micron, and rivals exit market\n\nMajor international NAND manufacturers are gradually exiting the mature-process 2D NAND market, triggering panic buying and a sharp spike in prices. Industry sources suggest the supply shortage may be difficult to resolve. While vendors are seeking alternative solutions, product specifications are expected to become increasingly polarized as scarcity persists.\n\nSupply chain sources said multi-level cell (MLC) NAND has become extremely difficult to secure, with prices rising at least 20–30% in April 2026 alone. Spot market prices have climbed even faster. For example, MLC 64Gb 8GBx8 products are currently trading at US$19–20, with some offers reaching US$28, compared with only around US$6–7 at the end of 2025 — representing an increase of roughly 200–300%.\n\nSingle-level cell (SLC) NAND prices have also surged sharply. Spot prices for SLC 2Gb products recently reached around US$4–4.5, up roughly 120–150% from late 2025 levels.\n\nIndustry sources said that although other players are interested in entering the 2D NAND manufacturing market, second-hand equipment phased out by major NAND makers has recently become highly sought after. However, companies including Samsung, SK Hynix, Kioxia, and Micron Technology currently have no plans to license MLC technology externally, making it more difficult for new entrants to break into 2D NAND manufacturing.\n\nThe challenge is particularly acute for niche applications that remain dependent on 2D NAND, where transitioning to alternative products is difficult, and qualification cycles are typically lengthy. Although some Chinese manufacturers are interested in entering the market, their production capacity remains limited. End customers are also reluctant to take on higher supply risks, especially for critical applications.\n\nThe global NAND market is estimated to have reached around US$73 billion in 2025, with the six major NAND suppliers focusing heavily on 3D NAND development. Yet only around 1% of the overall NAND market remains tied to 2D NAND products. Despite the small share, price increases for both MLC and SLC products over the past six months have significantly outpaced those of 3D NAND.\n\nMacronix and Winbond gain pricing power in shrinking 2D NAND market\nMacronix and Winbond are expected to remain the leading suppliers of MLC and SLC NAND, respectively. Based on an estimated 2025 market value of around US$600 million, the two Taiwanese companies already account for roughly 59% of the 2D NAND market, with their combined share expected to expand further in 2026.\n\nMacronix returned to profitability in the first quarter of 2026, with rising prices continuing to drive operational growth. April revenue reached NT$5.91 billion (US$188 million), up 33.7% sequentially and 153.7% from a year earlier, surpassing the previous monthly record of NT$5.68 billion set in September 2021. Revenue for the first four months of the year totaled NT$16.38 billion, up 93.5% year over year.\n\nMacronix president Miin Wu said the company plans to gradually raise the proportion of NOR and NAND products, including eMMC, toward a 1:1 ratio through capacity expansion. He noted that current 4GB–32GB eMMC applications align closely with Macronix's product offerings.\n\nWu added that there remains a clear supply gap in MLC eMMC products, with shortages expected to persist for the foreseeable future. He estimated that meaningful new competition is unlikely to emerge for at least another three years.\n\nWinbond recently said it will focus on maintaining a stable supply of SLC NAND and NOR Flash products and does not plan to enter the MLC NAND market.\n\nThe company expects SLC NAND bit growth to exceed 80% over the next year. In particular, its new 24nm process accounted for only 1% of Flash-related business in the first quarter of 2026, but the contribution of 24nm SLC NAND is expected to increase from the second quarter onward, gradually becoming a meaningful revenue driver. Winbond also expects SLC NAND gross margins to surpass those of NOR Flash as it pushes toward becoming a leading SLC NAND supplier.\n\nWinbond president Chen Pei-ming said the current Flash shortage appears difficult to resolve and that the market is showing two clear trends.\n\nThe first involves products originally requiring only 16GB or 32GB storage being upgraded toward higher-capacity UFS solutions such as 36GB and 48GB. The second involves customers previously using 4GB eMMC solutions compressing or optimizing code to reduce storage requirements from above 1GB down to around 1GB, enabling the adoption of 8Gb SLC NAND products and creating new business opportunities.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2052651664453316609",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHx70DtasAEBa2g.png",
+          "width": 640,
+          "height": 427,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2052651707105181882",
+      "kind": "post",
+      "engagement": {
+        "views": 336220,
+        "likes": 465,
+        "reposts": 49,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2053634889933869439",
+      "date": "2026-05-10",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MU",
+      "text": "$MU 800...",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2053634889933869439",
+      "kind": "post",
+      "engagement": {
+        "views": 80390,
+        "likes": 673,
+        "reposts": 20,
+        "replies": 23
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2053654494383411591",
+      "date": "2026-05-10",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MU",
+      "text": "HOLY SMOKE.\n\nWhat the hell is this?? Memory prices are going absolutely insane.\n\n$DRAM $MU $SNDK https://t.co/rIRjSUyYDd",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2053654259250720768",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIALqwYbcAAlpEm.jpg",
+          "width": 3554,
+          "height": 1600,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2053654494383411591",
+      "kind": "post",
+      "engagement": {
+        "views": 1513348,
+        "likes": 2599,
+        "reposts": 216,
+        "replies": 117
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2053834879800926496",
+      "date": "2026-05-11",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "Micron +7%, market cap surpasses $900bn. https://t.co/rLxnZq13Ak",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2053834879800926496",
+      "kind": "post",
+      "engagement": {
+        "views": 59226,
+        "likes": 388,
+        "reposts": 14,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2054232729613742464",
+      "date": "2026-05-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "Samsung, Kioxia Production Cuts Trigger Supply Cliff Alarm for 2D NAND Flash\n\nThe global memory semiconductor industry is concentrating its production capacity on high-bandwidth memory (HBM) and advanced 3D NAND flash, causing the supply base for legacy products such as 2D NAND flash to collapse.\n\nAccording to industry sources on the 12th, Samsung Electronics began in March to gradually halt 2D NAND production at Line 12 of its Hwaseong campus, converting the facility into an “End Fab” for advanced 1c DRAM production. This marks the shutdown of Samsung’s last remaining 2D NAND stronghold, which had wafer capacity of 80,000–100,000 wafers per month.\n\nSamsung’s move is closely tied to the discontinuation of MLC (Multi-Level Cell) NAND, a product that once dominated the market. Samsung has already notified customers of the MLC NAND end-of-life, with final shipments scheduled for next month before supply is completely cut off. MLC stores 2 bits of data per cell — offering lower capacity than 3-bit (TLC) or 4-bit (QLC) architectures, but with superior data retention and endurance. As a result, it has long served as a safety anchor in markets such as medical devices and industrial robotics, where products must operate without failure for more than a decade. Despite this role, the product is being phased out due to weak profitability.\n\nKioxia notified customers in March of its plan to phase out 2D NAND and 3rd-generation BiCS Flash products. The company will accept final orders through the end of September this year, complete final shipments by December 2028, and fully exit the market beginning in 2029. Micron, meanwhile, is maintaining MLC NAND production only at levels sufficient to meet existing customer demand, and has also announced the wind-down of its consumer brand Crucial.\n\nAs low-density commodity NAND volumes rapidly disappear from the market, the supply cliff is deepening. MLC 64Gb spot prices recently traded in the $20–$28 range, more than 300% higher than year-end 2024 levels.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2054232729613742464",
+      "kind": "post",
+      "engagement": {
+        "views": 263403,
+        "likes": 419,
+        "reposts": 40,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2057255667900248509",
+      "date": "2026-05-20",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "SoCAMM demand from Vera CPU and NVL72 likely to exceed annual supply capacity of 30 billion Gb",
+        "CY2027 SoCAMM TAM could exceed 80 billion Gb",
+        "shortage of LPDDR5 and DRAM overall likely to intensify further over time"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MU",
+      "text": "KIS comment on NVIDIA Vera CPU:\n\nOn today’s conference call, NVIDIA stated that it expects the standalone Vera CPU market to reach $20 billion in FY2027.\n\nThe unit price of Grace CPU is estimated at around $3,000–$5,000. Since Vera is the successor to Grace and is optimized for AI agentic workloads, we expect Vera to carry a higher ASP of roughly $5,000–$8,000 per unit.\n\nAssuming a Vera CPU ASP of $8,000, a $20 billion market would imply 2.5 million CPUs.\n\nIt remains unclear whether standalone Vera CPU sales will include the same SoCAMM capacity as NVL72. However, assuming the same capacity is applied, each Vera CPU would have 8 SoCAMM slots. Assuming 192GB per module, SoCAMM capacity per Vera CPU would be 1,536GB.\n\nTherefore, FY2027 SoCAMM demand for Vera CPU would be:\n\n2.5 million CPUs × 1,536GB = 3.84 billion GB, or 30.72 billion Gb.\n\nCY2026, which broadly overlaps with NVIDIA’s FY2027, SoCAMM supply from the three major DRAM makers is estimated at 30 billion Gb. Therefore, combined SoCAMM demand from NVIDIA’s standalone Vera CPU sales and VR NVL72 sales already appears likely to exceed the annual supply capacity of 30 billion Gb.\n\nIn our previous in-depth report, assuming CY2027 VR NVL72 shipments of 100,000 servers, we estimated the SoCAMM TAM at 44 billion Gb based on 192GB modules. If additional SoCAMM demand from standalone Vera CPU sales is added, the CY2027 SoCAMM TAM could exceed 80 billion Gb.\n\nAn annual 80 billion Gb of LPDDR5 would be nearly equivalent to the annual LPDDR5 TAM used for smartphones.\n\nThe shortage of LPDDR5 — and of DRAM overall — is likely to intensify further over time.\n\n$MU $DRAM",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2057255667900248509",
+      "kind": "post",
+      "engagement": {
+        "views": 215627,
+        "likes": 556,
+        "reposts": 61,
+        "replies": 30
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059284149090103499",
+      "date": "2026-05-26",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "Micron has reached a $1 trillion market cap. Congratulations to SJ.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2059284149090103499",
+      "kind": "post",
+      "engagement": {
+        "views": 44278,
+        "likes": 649,
+        "reposts": 27,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059420761505538353",
+      "date": "2026-05-26",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MU",
+      "text": "SK Hynix Effectively Rebuffs US Big Tech's Offers of Tens of Billions of Dollars in Investment Support\n\nUS big tech companies—Google parent Alphabet, Microsoft (MS), and Meta among them—are pouring out offers to help fund the construction of fabs (chip plants) worth tens of trillions of won and to cover the cost of purchasing extreme ultraviolet (EUV) lithography equipment. But SK Hynix is politely declining these offers while simultaneously using them as leverage in long-term supply agreements. The reasoning: with investment funds already overflowing, there is no reason to disturb the \"super supplier\" (super-eul) status it currently enjoys.\n\nAccording to industry sources on the 27th, SK Hynix recently received memory-chip capital-investment support offers from Alphabet, MS, and Meta, but management is reportedly not treating them as realistic, actionable options. The biggest sticking point is that building a fab with funding from a specific big tech company would create a contract structure carrying exclusive supply obligations.\n\nA semiconductor industry official said, \"If you build a production line with a particular customer's money, you create the risk that even if that customer's demand falls in a future downturn, you'd have to prioritize their volume or supply below market price,\" adding, \"Internally, SK Hynix views the side effects that could arise from taking big tech investment negatively and is wary of them.\"\n\nSK Hynix currently holds what is effectively a duopoly alongside Samsung Electronics in the high-bandwidth memory (HBM) market. It supplies most of the HBM mounted on Nvidia graphics processing units (GPUs), and this year's output is already sold out. Because there are virtually no producers other than SK Hynix and Samsung capable of properly mass-producing the high-spec HBM used in AI data centers, a reversal has taken shape in which the big tech customers have instead become the subordinate party (eul) before SK Hynix.\n\nThe big tech proposals take two main forms. The first is to directly shoulder part of the cost of building the first fab (Y1) in the semiconductor cluster SK Hynix is developing in Yongin, Gyeonggi Province. SK Hynix plans to invest a total of 31 trillion won in the first fab alone; once completed, it will add 350,000 wafers per month of production, expanding total capacity to around 900,000 wafers per month.\n\nAlso under discussion was a plan to subsidize the cost of purchasing EUV lithography equipment from the Netherlands' ASML. ASML's latest High-NA EUV machine is an ultra-premium tool costing roughly $400 million (about 550 billion won) per unit—about twice as expensive as the current-generation EUV. To secure this equipment, which is essential for mass-producing advanced memory at the 1c DRAM node and beyond, SK Hynix has already finalized a plan to bring in some 12 trillion won worth of EUV tools. The move is read as big tech's intent to effectively pre-secure dedicated production lines by sharing part of this cost.\n\nBehind the unusual nature of these proposals lies the extreme intensification of the AI infrastructure investment race. Alphabet, Meta, and MS each disclosed AI infrastructure investment plans worth tens of billions of dollars in their recent earnings reports. MS in particular said its capital expenditure this year would reach $190 billion, explaining that the increase in component costs such as chips alone amounts to $25 billion. Meta likewise acknowledged its supply-chain pre-emption strategy, saying it is signing contracts across the supply chain to secure necessary components in advance.\n\nSK Hynix is refusing structural dependence—such as fab equity investment or joint equipment ownership—while opting instead to use big tech's desperation as negotiating leverage. A source familiar with SK Hynix said, \"Various ideas are being discussed to strengthen the binding force of contracts as we sign long-term agreements (LTAs) with global big tech.\" The industry interprets this as higher prepayments, ultra-long contracts of five years or more, and price-floor guarantee clauses. The strategy is to convert the funds big tech brings not into factory equity, but into more favorable contract terms.\n\nSK Hynix's confidence is backed by the numbers. Its operating margin as of the first quarter this year reached 72%, and in February it announced an additional $15 billion (about 21 trillion won) investment plan to expand next-generation memory production. Construction of the first fab at the Yongin cluster is under way, targeting its first cleanroom operation in February next year—three months ahead of the original schedule.\n\n$MU  $DRAM",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2059420752051646464",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJSIQ0EbMAAsMTp.png",
+          "width": 616,
+          "height": 433,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2059420761505538353",
+      "kind": "post",
+      "engagement": {
+        "views": 143516,
+        "likes": 809,
+        "reposts": 89,
+        "replies": 31
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2060034817954333158",
+      "date": "2026-05-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MU",
+      "text": "Micron EVP and Chief Business Officer Sumit Sadana: Even with all the new investments, meaningful memory chip supply will only start coming online in late 2027 and ramp up in 2028.\n\n$MU",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2060034817954333158",
+      "kind": "post",
+      "engagement": {
+        "views": 114015,
+        "likes": 638,
+        "reposts": 53,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2060140629649486165",
+      "date": "2026-05-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "Samsung Electronics Eyed for Anthropic Chip Order… Foundry Revival Begins\n\nSamsung Electronics has made an investment in Anthropic, the U.S. AI company behind the AI model \"Claude,\" raising the possibility of a foundry partnership in which Samsung would manufacture Anthropic's chips on a contract basis.\n\nSamsung's foundry business, which has run at a loss for several years, has recently landed a string of major global customers, fueling growing expectations for a return to profitability next year.\n\nOn the 28th (local time), Anthropic announced that it had raised $65 billion in its recent Series H funding round, with its post-money valuation assessed at $965 billion (about 1,440 trillion won).\n\nThe three major memory semiconductor manufacturers—Samsung Electronics, SK Hynix, and Micron—participated in this funding round as \"strategic infrastructure partners.\"\n\nAnthropic emphasized that \"the technologies of these companies play a critical role in the global supply of memory, storage, and logic chips,\" adding that \"partnerships with them will be a great help in reliably scaling computing capacity to meet customer needs.\"\n\nAnthropic's mention of \"logic chips\" in its announcement has prompted speculation about a foundry partnership with Samsung Electronics. The process of manufacturing logic chips is foundry work, and aside from Samsung Electronics, neither Micron nor SK Hynix has a foundry division. For this reason, the industry analyzes that Samsung Electronics and Anthropic will newly collaborate not just at the memory level but also in foundry.\n\nThis implies a high likelihood that Samsung Electronics will produce the AI chips used in Anthropic's flagship model \"Claude.\" Anthropic, alongside OpenAI, is regarded as one of the world's leading AI model companies and a core AI player. The prevailing view is that Samsung's foundry has secured yet another major customer, following Tesla, NVIDIA, and others.\n\nEarlier, Samsung Electronics won orders for Tesla's next-generation AI chips, \"AI5\" and \"AI6.\" Samsung's foundry is also handling production of an upgraded version of \"AI4.\" NVIDIA's inference-dedicated language processing unit (LPU) chip \"Grok3\" is likewise being produced through Samsung's foundry. Samsung Electronics also plans to supply the image sensor to be mounted in Apple's new iPhone next year.\n\nAccordingly, attention is focused on whether Samsung Electronics' foundry business—which has run at a loss in recent years—can regain its vitality. As of last year, Samsung Electronics held second place (7.2%) in the global foundry market, but the gap with first-place TSMC (69.9%) reaches 62.7 percentage points.\n\nRegarding Samsung's investment in Anthropic, the industry views it as strategic cooperation spanning \"AI semiconductors, memory, foundry, and AI infrastructure.\" Samsung Electronics is positioning a \"one-stop solution\"—encompassing high-bandwidth memory (HBM), advanced foundry processes, and advanced packaging—as its differentiation point. As the AI market evolves into an ecosystem centered not only on HBM supply but also AI chip design, production, packaging, and system optimization, the move is interpreted as Samsung strengthening partnerships by leveraging its competitiveness across the semiconductor spectrum.\n\nA semiconductor industry official said, \"Samsung's investment is not a simple equity stake in an AI company, but is interpreted as a signal that Samsung is earnestly expanding strategic relationships with the key players of the AI era,\" adding, \"Expectations are growing as to whether Samsung's foundry business can seize another opportunity amid the expansion of the AI market.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2060140603644715008",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJcW9sOaIAAwwUC.jpg",
+          "width": 1200,
+          "height": 655,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2060140629649486165",
+      "kind": "post",
+      "engagement": {
+        "views": 49977,
+        "likes": 383,
+        "reposts": 55,
+        "replies": 16
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2061248694071259171",
+      "date": "2026-05-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MU",
+      "text": "Micron has broken through $1,000…\n\n(Not SanDisk.)\n\n$MU",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2061248694071259171",
+      "kind": "post",
+      "engagement": {
+        "views": 79933,
+        "likes": 844,
+        "reposts": 26,
+        "replies": 33
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2062014627521986600",
+      "date": "2026-06-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "China already has a NAND market share comparable to Micron and SanDisk.... https://t.co/wAX2pLZwxX https://t.co/Czo0iZAuyP",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2062014618554527744",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJ2_Xtya8AAsZqX.jpg",
+          "width": 2048,
+          "height": 1251,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2062014627521986600",
+      "kind": "post",
+      "engagement": {
+        "views": 248949,
+        "likes": 1130,
+        "reposts": 138,
+        "replies": 36
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2062164068572786912",
+      "date": "2026-06-03",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "“Korea China HBM Gap Narrows to Three Years”\n\nThe Chinese government, in an effort to catch up with Korea’s dominance of the high bandwidth memory (HBM) market, has issued an “all out HBM mobilization order” to its domestic firms and launched an aggressive volume offensive, and as a result the HBM technology gap between Korea and China is understood to have narrowed to roughly three years.\n\nAccording to the semiconductor industry on the 1st, an analysis has emerged putting the HBM technology gap between Samsung Electronics (005930) and SK Hynix (000660) on one side and China’s Changxin Memory Technologies (CXMT) on the other at about three years. A senior industry official with deep knowledge of Chinese semiconductor companies said, “CXMT’s current HBM technology lags Samsung Electronics by two to three generations,” adding, “but CXMT has not given up on technology development and has pushed aggressively, rising to the level of Samsung Electronics’ and SK Hynix’s HBM3.”\n\nThe Chinese government has recently been pressing CXMT strongly to sharply expand its HBM mass production capacity. Accordingly, CXMT has been aggressively building up its wafer production capacity, and its 12 inch wafer capacity is projected to reach around 300,000 units per month by year end. That amounts to 14% of global supply, a level that puts it shoulder to shoulder with America’s Micron.\n\nUntil now, the semiconductor industry had viewed CXMT as having effectively abandoned development of HBM3, the fourth generation HBM, after hitting a technical wall, but it turns out that only the yield (the share of good product) is low while the technology itself has chased Korean HBM3 products right up to the chin. That said, with Samsung Electronics and SK Hynix already having entered mass production of the sixth generation HBM4, assessments have emerged that the technology gap with Korea can be seen as more than three years.\n\nMeanwhile, NVIDIA CEO Jensen Huang unveiled the company’s first PC AI chip, the “N1 X,” sending demand for Samsung Electronics’ and SK Hynix’s memory chips surging once again.\n\nIn a keynote address at “GTC Taipei,” held that day at the Taipei Music Center, CEO Huang introduced the “NVIDIA RTX Spark” notebook lineup presented together with Microsoft (MS) and also unveiled the “N1 X.” The chip is reported to carry Samsung Electronics’ and SK Hynix’s high performance low power memory, LPDDR5X.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2062164068572786912",
+      "kind": "post",
+      "engagement": {
+        "views": 133622,
+        "likes": 622,
+        "reposts": 64,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2062816961638350986",
+      "date": "2026-06-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "@eudaemoniany Micron’s capacity will not come online before 2028.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2062816961638350986",
+      "kind": "reply",
+      "engagement": {
+        "views": 3492,
+        "likes": 23,
+        "reposts": 1,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2062918677255815305",
+      "date": "2026-06-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "???: My portfolio is disappearing.\n\nShh. You should’ve known what was coming the moment Micron shorts started flipping long. https://t.co/qp2t794gpo",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2062918667441221632",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKD1mSVbMAAsl6M.jpg",
+          "width": 592,
+          "height": 1079,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2062918677255815305",
+      "kind": "post",
+      "engagement": {
+        "views": 72013,
+        "likes": 580,
+        "reposts": 10,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063486413304475930",
+      "date": "2026-06-07",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "TrendForce revised up 2Q26 server DRAM contract price forecast to +50–55% QoQ"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MU",
+      "text": "TrendForce has revised up its 2Q26 server DRAM contract price forecast to +50–55% QoQ, from its previous forecast of +45–50%.\n\n$DRAM $MU",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2063486413304475930",
+      "kind": "post",
+      "engagement": {
+        "views": 198489,
+        "likes": 946,
+        "reposts": 143,
+        "replies": 31
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064500667004416258",
+      "date": "2026-06-09",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "Korea’s Meritz Securities: SK hynix ADR issuance timeline update and estimate\n\n- SEC approval is imminent within June, and completion of the U.S. market listing could be possible by mid-August.\n\n→ Even just catching up to Micron’s valuation could drive a sharp, explosive near-term move in the stock.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2064500667004416258",
+      "kind": "post",
+      "engagement": {
+        "views": 215853,
+        "likes": 722,
+        "reposts": 94,
+        "replies": 66
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064669178318246015",
+      "date": "2026-06-10",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MU",
+      "text": "It seems like SemiAnalysis’ past report on MU is being criticized again now, so let me correct the record.\n\nWhen SemiAnalysis published the report saying that MU would not gain share in HBM4, that was absolutely not false based on the information available at the time. At the time the report came out, MU had not received HBM4 orders from NVIDIA.\n\nThey were not wrong. After MU later received HBM4 orders, SemiAnalysis also wrote in an institutional note that MU had received HBM4 orders from NVIDIA.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2064669178318246015",
+      "kind": "post",
+      "engagement": {
+        "views": 143799,
+        "likes": 753,
+        "reposts": 23,
+        "replies": 69
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064838255582097523",
+      "date": "2026-06-10",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Micron",
+      "text": "Nvidia's AI ramp deepens memory squeeze as cloud providers lock up supply through 2028\n\nMemory shortages tied to Nvidia's next wave of AI hardware are expected to intensify through 2027 and into 2028, as major cloud service providers continue to secure long-term supply for data-center buildouts, according to supply-chain sources. The pressure is already rippling through DRAM and NAND markets, with OEMs and module makers warning of tighter availability and weaker room for additional orders.\n\nCloud providers and OEMs race to secure capacity\nAs Nvidia's next-generation AI accelerator, Vera Rubin, is set to ship in the second half of 2026 and HBM4 moves into mass production, cloud service providers, or CSPs, are continuing to invest heavily in AI data-center expansion. Supply-chain sources said CSP leaders have already booked all available 2027 long-term agreement, or LTA, capacity and are now moving to secure 2028 supply as well.\n\nThe AI boom has driven a wave of memory shortages, and several memory module makers have recently received notices from original equipment manufacturers stating they will not be able to provide any additional supply beyond previously promised volumes. Upstream capacity has been heavily diverted toward Nvidia-related AI servers and toward CSP demand, leaving almost all of 2027's capacity already committed to CSP customers.\n\nSupply-chain sources said shortages in DRAM and NAND are expected to widen from the second half of 2026. OEMs have also disclosed that Apple has continued to secure third-quarter memory capacity for new product launches, while other brands are being forced to move ahead with production plans despite the strain.\n\nThat means memory makers must support Vera Rubin mass shipments while also meeting rising demand from other end devices and edge AI. This combination is expected to tighten global supply further. Industry consensus is increasingly that the 2027 shortage will be worse than the 2026 one.\n\n2028 supply talks begin early\nAfter locking up 2027 capacity, CSP leaders are also moving ahead of schedule to secure 2028 LTA supply. Upstream suppliers expect memory prices to remain strong. While they were unwilling to release 2028 capacity before May 2026, they have recently become open to discussing first-quarter 2028 orders, with some HBM and server capacity already allocated.\n\nIndustry sources said LTA structures vary by supplier. Only a few require advance deposits or prepayments; most rely on customers first committing to expected volumes, after which suppliers adjust expansion timelines accordingly. Final selling prices are still confirmed only before actual shipments, suggesting memory makers remain confident in contract price gains over the next two to three years.\n\nAlthough CSP companies were once rumored to be willing to fund dedicated production lines at memory makers and subsidize purchases of expensive semiconductor manufacturing equipment, industry insiders said upstream suppliers are already highly profitable and have already planned new fabs and equipment budgets. They do not need to tie themselves to a single customer to build production lines, but CSPs are still rushing to secure long-term memory contracts to avoid a repeat of the supply crunch in the second half of 2025 to 2026.\n\nTight DRAM supply drives capacity hoarding and AI server cost pressures\nSources said memory module makers are also using prepayment models for certain product lines, paying suppliers in advance at previously agreed lower prices and then covering the gap when the original maker is ready to ship at market rates. While this increases short-term funding pressure, it helps them lock in critical capacity early.\n\nIndustry analysts said server memory and standard memory share similar design architectures, unlike embedded memory, so capacity allocation at suppliers is mainly crowding out standard and PC memory, which together account for roughly 60% to 70% of the entire DRAM market. That shift has pushed PC memory's share of total DRAM down from 11% to 12% in the past to just 9%.\n\nNvidia CEO Jensen Huang recently confirmed that SK Hynix, Samsung Electronics, and Micron have all received HBM4 certification, have begun production, and are fully supporting Vera Rubin. Addressing rumors that memory usage would be cut sharply, Huang said future systems will still use a great deal of high-speed memory. Still, the shortage must be managed rationally across all systems, and supply must be expanded further.\n\nIndustry sources also said AI servers are seeing downgrades in high-capacity memory configurations. While 128GB was originally the mainstream specification, some customers are switching to 64GB or 96GB to cut costs amid high prices and tight supply. Although that does not significantly reduce overall memory usage, it highlights how elevated memory costs are slowing the AI server upgrade cycle.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2064838249198325760",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKfHcpobEAAqxVh.png",
+          "width": 640,
+          "height": 427,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2064838255582097523",
+      "kind": "post",
+      "engagement": {
+        "views": 103525,
+        "likes": 548,
+        "reposts": 63,
+        "replies": 30
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2067376339691434198",
       "date": "2026-06-17",
@@ -37,7 +1791,7 @@
       "url": "https://x.com/jukan05/status/2067376339691434198",
       "kind": "post",
       "engagement": {
-        "views": 46706,
+        "views": 46709,
         "likes": 230,
         "reposts": 16,
         "replies": 9
@@ -74,7 +1828,7 @@
       "url": "https://x.com/jukan05/status/2068573474453684291",
       "kind": "post",
       "engagement": {
-        "views": 151071,
+        "views": 151130,
         "likes": 1289,
         "reposts": 110,
         "replies": 86
@@ -102,9 +1856,9 @@
       "url": "https://x.com/jukan05/status/2069278356193919073",
       "kind": "post",
       "engagement": {
-        "views": 178300,
-        "likes": 1149,
-        "reposts": 60,
+        "views": 179916,
+        "likes": 1158,
+        "reposts": 61,
         "replies": 48
       },
       "extractor_model": "claude-sonnet-4-6",
@@ -126,10 +1880,10 @@
       "url": "https://x.com/jukan05/status/2069368311146815885",
       "kind": "post",
       "engagement": {
-        "views": 442789,
-        "likes": 2752,
-        "reposts": 329,
-        "replies": 117
+        "views": 451980,
+        "likes": 2785,
+        "reposts": 333,
+        "replies": 118
       },
       "extractor_model": "claude-sonnet-4-6",
       "prompt_version": "extract-v2"
@@ -159,10 +1913,10 @@
       "url": "https://x.com/jukan05/status/2069488184036307049",
       "kind": "post",
       "engagement": {
-        "views": 26542,
-        "likes": 149,
-        "reposts": 17,
-        "replies": 23
+        "views": 42609,
+        "likes": 230,
+        "reposts": 27,
+        "replies": 26
       },
       "extractor_model": "claude-sonnet-4-6",
       "prompt_version": "extract-v2"
@@ -182,7 +1936,5 @@
       "close": 1211.38
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-23T19:15:50.529880+00:00"
+  "price_status": "ok"
 }

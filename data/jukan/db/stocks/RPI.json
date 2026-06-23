@@ -1,0 +1,51 @@
+{
+  "ticker": "RPI",
+  "cashtag": "Raspberry Pi",
+  "price_symbol": "RPI.L",
+  "exchange": "London LSE",
+  "currency": "GBp",
+  "ticker_mapped": true,
+  "company": "Raspberry Pi Holdings",
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-05",
+  "last_mention": "2026-06-05",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2062816357528617078",
+      "date": "2026-06-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Raspberry Pi",
+      "text": "My mistake this year was dismissing Raspberry Pi as a meme stock.\n\nOf course, I still don’t fully understand how they keep driving revenue higher.\n\nSo while it’s a bit disappointing, I don’t regret it. I don’t invest in stocks I can’t properly research.\n\nSerenity really nailed this one.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2062816346271088640",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKCYiaRbgAAEbKX.jpg",
+          "width": 1112,
+          "height": 2048,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2062816357528617078",
+      "kind": "post",
+      "engagement": {
+        "views": 71307,
+        "likes": 477,
+        "reposts": 47,
+        "replies": 14
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

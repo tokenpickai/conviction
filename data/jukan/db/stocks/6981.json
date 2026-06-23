@@ -1,17 +1,271 @@
 {
   "ticker": "6981",
   "cashtag": "Murata",
-  "price_symbol": "6981",
-  "exchange": "US",
-  "currency": "USD",
-  "ticker_mapped": false,
-  "company": null,
-  "industry": null,
+  "price_symbol": "6981.T",
+  "exchange": "Tokyo",
+  "currency": "JPY",
+  "ticker_mapped": true,
+  "company": "Murata Manufacturing",
+  "industry": "Passive Components/MLCC",
   "thesis_summary": null,
-  "first_mention": "2026-06-17",
+  "first_mention": "2026-03-31",
   "last_mention": "2026-06-17",
-  "total_mentions": 1,
+  "total_mentions": 10,
   "mentions": [
+    {
+      "tweet_id": "2039116249700143544",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Murata",
+      "text": "▶ Vera Rubin Compute Tray Design Unfinalized as Nvidia Pushes Supply Diversification\n\n- Nvidia's next-gen platform Vera Rubin is slated for mass production in Q3 2026, though the GPU compute tray design remains unfinalized, raising the possibility of partial shipment delays.\n\n- Supply chain diversification strategy intensified to mitigate component shortage risks — ongoing design revisions driven by the shift toward multi-vendor structures and elimination of single-source dependencies.\n\n- As a result, Panasonic SP-CAPs (polymer aluminum capacitors) will not be adopted in the Vera Rubin compute tray; the high supplier concentration inherent in that component conflicted with the broader supply diversification strategy.\n\n- High-capacity MLCCs emerging as the alternative, enabling both performance compliance and multi-sourcing from suppliers such as Murata and Samsung Electro-Mechanics.\n\n- AI server racks require approximately 15,000–25,000 MLCCs per unit; rising ASPs and increasing content per system are positioning MLCCs as a major BOM cost item alongside GPUs and memory.\n\n- On the Nvidia GB300 platform, up to 30,000 MLCCs are needed per system — roughly 3x an automobile, 10x a mining rig, and 30x a smartphone.\n\n- Murata reports high-spec MLCC demand exceeding production capacity, with lead times extending from 10–12 weeks to 14–16 weeks, signaling tightening supply conditions.\n\n- The Vera Rubin platform's elevated spec requirements and design complexity mean that not only supplier technical capability but also speed of response to design changes is becoming a key competitive differentiator.\n\n- Despite being in the pre-mass production stage, portions of the BOM remain unfinalized in terms of component specs and supply structure, with final adjustments still underway.\n\n- Near-term shipment timelines may be impacted, but longer-term this is viewed as a necessary process to strengthen supply chain resilience.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2039116249700143544",
+      "kind": "post",
+      "engagement": {
+        "views": 14404,
+        "likes": 85,
+        "reposts": 7,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039163897236906476",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Murata",
+      "text": "Nikkei report today:\n\nIt's not just memory and CPUs — prices are rising across the board.\n\n\"This morning we received yet another price hike notification, this time from STMicroelectronics, a major microcontroller and sensor supplier.\n\nIt's not just STMicro.\n\nOur company has received multiple price increase notices from several companies since the beginning of this month — covering PCBs, plastic materials, resins, and other components.\"\n\nMurata has notified customers that it will be raising prices on several products starting in April, including inductors and common mode chokes.\n\nKingboard Laminates Group, the world's largest copper clad laminate (CCL) supplier based in China, recently raised both material and processing fees by 10% each, reflecting the surge in petrochemical prices triggered by the outbreak of the Iran war.\n\nA source familiar with the matter complained that KB has already raised prices three times in just three months.\n\nWhat's even more painful than the price hikes is that you simply can't get the stuff — even if you're willing to pay.\n\nEspecially the kinds of components we've never even heard of before.\n\nAccording to multiple senior industry sources, external modulated lasers (EMLs) and continuous wave (CW) lasers used in transceivers and specialty PCBs are experiencing severe supply shortages, Nikkei reported.\n\nOne IT industry executive said:\n\n\"We're hearing that prices are going up on all kinds of packaging — even basic plastic packaging — which is something we haven't seen in years. This means box and container prices are also climbing.\"\n\nAnon, didn't I tell you? Everything is going into shortage.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2039163878425481216",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEyQvlRb0AAeCxS.jpg",
+          "width": 2060,
+          "height": 1738,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2039163897236906476",
+      "kind": "post",
+      "engagement": {
+        "views": 36657,
+        "likes": 240,
+        "reposts": 34,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2056988526550687855",
+      "date": "2026-05-20",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "recently added to Murata position"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "Murata",
+      "text": "It feels like everyone is gradually starting to realize this.\n\nP.S. I recently added to my Murata position. https://t.co/trMvuFiEeh",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2056988301236846592",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIvj9ipbQAACsj7.png",
+          "width": 1530,
+          "height": 816,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2056988526550687855",
+      "kind": "post",
+      "engagement": {
+        "views": 66391,
+        "likes": 645,
+        "reposts": 46,
+        "replies": 18
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2057082193151967710",
+      "date": "2026-05-20",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Murata",
+      "text": "According to Korean sell-side sources, Samsung Electro-Mechanics is understood to have notified distributors of an MLCC price increase.\n\nThe magnitude of the price hike is estimated to be similar to Taiyo Yuden’s announced 6–13% increase, and competitor Murata is also likely to follow suit.\n\nIn addition, given that Murata recently stated during its earnings call that it would stop allocating additional capacity to IT applications, the oversupply pressure in IT-related MLCCs is also expected to ease, entering a phase where downside pressure on prices becomes limited.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2057082193151967710",
+      "kind": "post",
+      "engagement": {
+        "views": 79178,
+        "likes": 277,
+        "reposts": 27,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059498535918456961",
+      "date": "2026-05-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Murata",
+      "text": "- China's largest passive component maker, Fenghua Advanced Technology, has suspended order intake across all 0402/0603-size chip resistors and MLCC product lines in response to surging orders.\n\n- The company said order volumes for its RC/RS series 0402/0603 resistors have spiked, with unfilled backlog now far exceeding current production capacity; utilization has already reached roughly 90%.\n\n- The supply chain attributes the order concentration to expanded preemptive (pull-in) ordering aimed at securing inventory, amplified by fears of supply shortages.\n\n- The industry reads the surge in forward orders as the product of shortage fears in high-spec passive components colliding with the need to rebuild inventory. An order suspension is typically interpreted as a signal of an oncoming price-hike cycle.\n\n- With inventory levels drawing down on recovering Chinese-market and automotive demand, and chip-resistor costs pressured by rising silver prices, the high-spec passive component shortage is expected to widen further.\n\n- Rising silver prices in particular are weighing on chip-resistor costs, and the high-spec MLCC shortage could intensify further in 2027.\n\n- Major Asian MLCC makers have likewise entered full-capacity production: Murata's and Samsung Electro-Mechanics' utilization rates have surpassed 90%, with Samsung Electro-Mechanics' Tianjin plant already running flat out.\n\n- Holy Stone and PDC are similarly seeing extended lead times and utilization approaching full capacity, led by high-voltage MLCCs for AI power.\n\n- Once the Vera Rubin platform launches in the second half, the supply squeeze on non-AI products is expected to intensify, positioning high-voltage MLCC makers as the biggest beneficiaries of the GPU platform generational transition.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2059498535918456961",
+      "kind": "post",
+      "engagement": {
+        "views": 181200,
+        "likes": 377,
+        "reposts": 50,
+        "replies": 16
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059878694756421659",
+      "date": "2026-05-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Murata",
+      "text": "▶ Yageo signals possible price hikes as Japanese and Korean passive component makers raise prices\n\n• Taiwanese passive component maker Yageo officially noted that Murata and Samsung Electro-Mechanics — the world’s #1 and #2 MLCC makers — recently issued price increase notices to customers.\n\n• Driven by expanding AI demand, the company expects raw material cost increases and tight supply-demand conditions to be gradually met in 2H26, signaling the potential for price hikes.\n\n• Custom high-spec products currently account for 80% of revenue, with demand for high-spec products — including ASICs — continuing to expand on the back of more sophisticated AI server platform design.\n\n• Yageo explained that demand is rising rapidly not only in the GPU market but also in the ASIC market, and that it is strengthening its response to demand within the AI supply chain.\n\n• The current passive component shortage is concentrated in high-spec/custom products, with lead times now extending to 12–18 weeks or more.\n\n• Spillover orders are increasing as competitors’ production lines run at full capacity; the company explained that it has secured the ability to handle urgent orders through long-term capacity planning and proactive inventory build.\n\n• Utilization is expected to run above 80% for standard products and above 90% for high-spec products; despite high utilization, there is room to take on additional orders by clearing bottlenecks.\n\n• AI-related products currently account for roughly 15% of revenue, and the company assesses that the industry is in the “first half of Stage 2 of the AI revolution.”\n\n• The current average book-to-bill (BB) ratio is 1.3, with AI products at 1.4 — higher than the industry average (1.18–1.2) and Murata (1.25) — and order momentum is expected to strengthen further in 2H.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2059878694756421659",
+      "kind": "post",
+      "engagement": {
+        "views": 29248,
+        "likes": 133,
+        "reposts": 12,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059967125020934181",
+      "date": "2026-05-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Murata",
+      "text": "Why Are Silicon Capacitors Becoming Important? And Why Is SEMCO's Stock Surging?\n\nThe reason silicon capacitors have failed to grow into a large market until now is clear. TSMC, which holds an overwhelming share in substrates for AI packaging, has historically sourced silicon capacitors in-house. As a result, it has been effectively impossible for silicon capacitor suppliers outside of TSMC to break into the AI packaging value chain.\n\nBut with the rise of Intel's EMIB, the situation is changing.\n\nSilicon capacitor suppliers like Murata and SEMCO are now supplying silicon capacitors for Intel's EMIB, and have begun to benefit directly from AI demand.\n\nThe existing silicon capacitor market was effectively an oligopoly dominated by Murata and TSMC. SEMCO was closer to a latecomer.\n\nYet even SEMCO—the latecomer—has managed to land a supply contract worth more than $1 billion. For context, SEMCO's silicon capacitor revenue last year was a mere few million dollars.\n\nSo how did SEMCO ramp its revenue this quickly? It comes down to the fact that SEMCO is the only company in the world that operates both a silicon capacitor business and a substrate business.\n\nThe reason silicon capacitors have become important for Intel's EMIB is that Intel cannot make its own silicon capacitors and must source them externally. On top of that, within Intel's EMIB BoM, the highest value-added component is the substrate.\n\nSo if a company can deliver both the substrate and the silicon capacitor to Intel's EMIB on a turnkey basis, that maximizes SEMCO's bargaining power and value. This is precisely why SEMCO's stock has been surging recently.\n\nOf course, this isn't to say Murata will benefit less. Murata still maintains a very close relationship with Ibiden—Intel's first-vendor for substrates—and is clearly positioned to benefit from EMIB. That said, my view is that the emergence of a new player like SEMCO should by no means be underestimated.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2059967125020934181",
+      "kind": "post",
+      "engagement": {
+        "views": 70281,
+        "likes": 518,
+        "reposts": 63,
+        "replies": 17
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2060963413430554713",
+      "date": "2026-05-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Murata",
+      "text": "*Important: These Japanese companies' recent moves are fascinating.\n\nAccording to Nikkei Asia, Murata is deliberately working to raise the share of its low priced products, even at the cost of thinner margins, in order not to repeat the precedent in which it withdrew from commodity products, concentrated on high margin goods, and in doing so handed an opening to Chinese companies.\n\nThe aim is to curb the growth potential of overseas rivals, particularly Chinese ones.\n\nNippon Chemicon is doing much the same, reportedly planning to cut its margin rate by 10% in a push to expand its share of commodity products.\n\nSo what does this signify? The fact that MLCC makers have chosen to maximize market share rather than margins tells us they are willing to surrender part of the margin upside and instead throw everything at capacity expansion.\n\nThat makes MLCC equipment and materials the next thing to watch. The point is that MLCC finished products on their own offer limited upside.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2060963383592316929",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJoDRyYbcAEN_xl.png",
+          "width": 1474,
+          "height": 620,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2060963413430554713",
+      "kind": "post",
+      "engagement": {
+        "views": 152445,
+        "likes": 652,
+        "reposts": 77,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065975102953632101",
+      "date": "2026-06-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Murata",
+      "text": "Samsung Electro-Mechanics Expands Beyond MLCCs into Silicon Capacitor Business\n\nSamsung Electro-Mechanics is in discussions with multiple global Big Tech companies to supply silicon capacitors (Si-Cap) for AI servers. The company is rapidly emerging as a major supplier alongside Japan's Murata and Taiwan's TSMC.\n\nOn the 11th, Samsung Electro-Mechanics held a technology seminar at the Taepyeongno Building in Jung-gu, Seoul, where it shared its silicon capacitor technology and commercialization roadmap. Kim Won-gi, head of Samsung Electro-Mechanics' Si-Cap Development Group, said, \"Global Big Tech companies whose names you would immediately recognize are reviewing the adoption of silicon capacitors,\" adding, \"Because the market is formed around a small number of players, Samsung Electro-Mechanics is also aggressively pursuing sales activities.\"\n\nThe silicon capacitor market is led by Japan's Murata and Taiwan's TSMC. Barriers to entry are high because the business requires both semiconductor wafer process and passive component capabilities, and the number of suppliers is limited. Samsung Electro-Mechanics President Chang Duck-hyun is cultivating silicon capacitors as a core growth business in the company's push into the AI market.\n\nThe company made its full-scale entry into the market last year as it began supplying customers. It supplied products for the AI accelerators of Marvell—a leader in custom networking chips (ASICs)—and for the package of Samsung Electronics' mobile application processor (AP), the Exynos 2600, among others. More recently, it secured a supply contract worth 1.5 trillion won from a global Big Tech company—the largest single contract in Samsung Electro-Mechanics' history. The related revenue is scheduled to be reflected in earnings starting in 2027.\n\nSamsung Electro-Mechanics presented a \"total solution\" strategy—bundling its silicon capacitor, multilayer ceramic capacitor (MLCC), and package substrate businesses—as a differentiating factor. Silicon capacitors are mounted inside or adjacent to the package substrate. By supplying both products together, Samsung Electro-Mechanics can design and optimize the package and components simultaneously. Samsung Electro-Mechanics is the only company that operates both passive component and package substrate businesses.\n\nRather than building large-scale production facilities, the company has chosen a design-centric strategy. It employs a fabless model, outsourcing wafer production to foundries and componentization to specialized semiconductor back-end (OSAT) firms, while Samsung Electro-Mechanics handles product design, testing, and quality verification. The company has a silicon capacitor design and development organization at its Central Research Institute in Suwon.\n\nSamsung Electro-Mechanics' silicon capacitors are manufactured on a 300-millimeter (mm) wafer basis.\n\nA silicon capacitor is a passive component made from a silicon wafer. It temporarily stores electricity and supplies it when needed, keeping the voltage inside the semiconductor package stable. Whereas conventional MLCCs secure capacitance by stacking multiple layers of ceramic, silicon capacitors bore microscopic holes into a wafer and place electrodes inside them. This allows the thickness to be reduced to 100 micrometers (㎛) or less.\n\nSamsung Electro-Mechanics drew its business idea from DRAM technology. DRAM uses a capacitor inside each cell to store data. Samsung Electro-Mechanics developed the silicon capacitor by taking just the capacitor portion of this structure and advancing it into a separate component. The fine-process technology it accumulated while shrinking DRAM circuit linewidths was transferred directly into silicon capacitor development. The more microscopic holes formed in the wafer, the greater the capacitance a silicon capacitor can achieve.\n\nThere are differences in silicon capacitor technology between competitors. Samsung Electro-Mechanics utilizes a DRAM-based structure, while TSMC is known to use a logic-process-based trench structure. Samsung Electro-Mechanics mass-produces its products on a 300mm wafer basis, the type primarily used for memory semiconductors.\n\nSamsung Electro-Mechanics projected that the silicon capacitor market will grow at an average annual rate of more than 18%. Its scope of application is expanding from a mobile focus into AI servers, automotive electronics, aerospace, and optical communications. AI servers in particular are emerging as the largest source of demand, as power density increases and package integration intensify simultaneously.\n\nKim said, \"The higher semiconductor performance becomes, the more important power stabilization becomes,\" adding, \"Silicon capacitors will see their range of application continuously expand in the AI server and next-generation high-performance semiconductor markets.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2065975065813176320",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKvRYFib0AA4mMq.png",
+          "width": 600,
+          "height": 450,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2065975102953632101",
+      "kind": "post",
+      "engagement": {
+        "views": 58698,
+        "likes": 294,
+        "reposts": 40,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2067371368770109774",
       "date": "2026-06-17",
@@ -28,7 +282,7 @@
       "url": "https://x.com/jukan05/status/2067371368770109774",
       "kind": "post",
       "engagement": {
-        "views": 69483,
+        "views": 69488,
         "likes": 183,
         "reposts": 25,
         "replies": 11
@@ -38,7 +292,5 @@
     }
   ],
   "price_series": [],
-  "price_status": "not_covered",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-23T19:16:09.186413+00:00"
+  "price_status": "pending"
 }

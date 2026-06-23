@@ -1,0 +1,42 @@
+{
+  "ticker": "ELPIDA",
+  "cashtag": "エルピーダ",
+  "price_symbol": "ELPIDA",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-19",
+  "last_mention": "2026-04-19",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2046040829706613042",
+      "date": "2026-04-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "エルピーダ",
+      "text": "エルピーダの破綻について、私はそれが民主党側の責任かどうかはさておき、別に多くを言ったりはしないけど、私が知っている一つの事実として、アップルはエルピーダを救おうと本当に必死に努力したということだ。 果ては「日本への投資を止めるかもしれない」とまで言って、日本政府を強く圧迫したほどだったよ。",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046040829706613042",
+      "kind": "post",
+      "engagement": {
+        "views": 134304,
+        "likes": 1212,
+        "reposts": 318,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

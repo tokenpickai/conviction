@@ -1,0 +1,66 @@
+{
+  "ticker": "MITSUI",
+  "cashtag": "Mitsui",
+  "price_symbol": "MITSUI",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-01",
+  "last_mention": "2026-06-01",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2061599495503438290",
+      "date": "2026-06-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Mitsui",
+      "text": "It is believed to be supply for Vera Rubin, making this one of the only cases where Mitsui’s monopoly has been broken. https://t.co/SvdpZzUV8h",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2061599495503438290",
+      "kind": "post",
+      "engagement": {
+        "views": 120588,
+        "likes": 282,
+        "reposts": 28,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2061614302696747349",
+      "date": "2026-06-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Mitsui",
+      "text": "@blaze__pascal Could you share the source for the claim that Lotte’s HVLP4 performs twice as poorly as Mitsui’s?",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2061614302696747349",
+      "kind": "reply",
+      "engagement": {
+        "views": 3642,
+        "likes": 15,
+        "reposts": 0,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

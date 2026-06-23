@@ -1,0 +1,104 @@
+{
+  "ticker": "WOLF",
+  "cashtag": "Wolfspeed",
+  "price_symbol": "WOLF",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-03",
+  "last_mention": "2026-06-03",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2062360092083941596",
+      "date": "2026-06-03",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Wolfspeed",
+      "text": "Semiconductor Laser Annealing Gains Broader Adoption… Push Underway for SiC and 400 Layer NAND\n\nDemand for annealing, one of the heat treatment steps in semiconductor manufacturing, is expanding. The process, traditionally used mainly on silicon (Si) wafers, is spreading to silicon carbide (SiC), regarded as a next generation power semiconductor material. Annealing is also expected to see wider use in next generation memory such as NAND with 400 or more layers, as well as in advanced system semiconductors.\n\nAccording to industry sources on the 3rd, Wolfspeed, the top player in the SiC wafer market, has recently been moving to adopt laser annealing equipment. It is understood to be negotiating a purchase order (PO) with a domestic laser annealing equipment partner. The expectation is that it will start with a small initial volume and then increase the applied quantity.\n\nAn industry official said, “Full scale introduction and adoption have now begun in the SiC wafer process, where annealing had seen little use until now,” adding that “the transition of SiC wafer sizes to 8 inches and above is also a positive for the use of annealing equipment.”\n\nSemiconductor annealing is used to apply a set temperature to a wafer in order to repair lattice damage and to activate implanted dopants, thereby enabling the desired electrical characteristics. It is generally classified as a step that follows ion implantation.\n\nWhile annealing has been widely adopted for silicon, the mainstream wafer material, its use in SiC has been limited. This is because SiC requires higher temperatures (above 1,600 degrees) compared with roughly 1,000 degrees for Si. Interfacial damage at the wafer surface and defect formation were also reasons that made annealing difficult to apply.\n\nMore recently, the ability to perform annealing on very narrow, specific regions or within extremely short timeframes using lasers has reduced the thermal burden, raising the feasibility of SiC application. Beyond Wolfspeed, Samsung Electronics, which is preparing a SiC contract manufacturing (foundry) business targeting mass production in 2028, is also known to be reviewing the adoption of laser annealing.\n\nAs SiC draws attention amid expanding demand for power semiconductors, the annealing process is expected to spread alongside it. SiC is a compound semiconductor material with superior heat and durability characteristics relative to silicon, and is in the spotlight as a next generation power semiconductor.\n\nAnnealing is also expected to expand in next generation memory and advanced system semiconductors. NAND flash with 400 or more layers is a leading example. Raising NAND performance and capacity requires increasing the layer count. Manufacturers then etch the “channel hole,” the signal path between vertically stacked memory cells, and the higher the layer count, the deeper the channel hole becomes, making it harder to secure electrical characteristics and structural stability.\n\nAnnealing is drawing attention as a methodology to solve these problems by crystallizing the channel hole region. Some NAND makers are in fact said to be pursuing annealing for the localized crystallization needed to realize NAND with 400 or more layers.\n\nAnother industry official said, “There are continuing attempts across the industry to apply localized annealing to advanced system semiconductor manufacturing processes at 2 nanometers (㎚) and below,” adding that “the spread of the annealing process will contribute to growth in the laser solutions market.”",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2062360084018245632",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJ75kc7aMAAXOEv.jpg",
+          "width": 700,
+          "height": 467,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2062360092083941596",
+      "kind": "post",
+      "engagement": {
+        "views": 68551,
+        "likes": 458,
+        "reposts": 55,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-06-03",
+      "close": 61.67
+    },
+    {
+      "date": "2026-06-04",
+      "close": 67.06
+    },
+    {
+      "date": "2026-06-05",
+      "close": 55.06
+    },
+    {
+      "date": "2026-06-08",
+      "close": 55.42
+    },
+    {
+      "date": "2026-06-09",
+      "close": 48.78
+    },
+    {
+      "date": "2026-06-10",
+      "close": 43.42
+    },
+    {
+      "date": "2026-06-11",
+      "close": 45.54
+    },
+    {
+      "date": "2026-06-12",
+      "close": 43.14
+    },
+    {
+      "date": "2026-06-15",
+      "close": 49.09
+    },
+    {
+      "date": "2026-06-16",
+      "close": 45.0
+    },
+    {
+      "date": "2026-06-17",
+      "close": 48.69
+    },
+    {
+      "date": "2026-06-18",
+      "close": 57.41
+    },
+    {
+      "date": "2026-06-22",
+      "close": 52.97
+    }
+  ],
+  "price_status": "ok"
+}

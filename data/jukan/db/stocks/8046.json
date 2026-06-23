@@ -1,0 +1,42 @@
+{
+  "ticker": "8046",
+  "cashtag": "Nan Ya PCB",
+  "price_symbol": "8046",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-24",
+  "last_mention": "2026-05-24",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2058733798704243047",
+      "date": "2026-05-24",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nan Ya PCB",
+      "text": "▶ Embedded substrates draw AI chip interest as packaging turns strategic\n\n- The growing interest in embedded substrates from major players like Nvidia, AMD, and Intel signals a potential shift in the AI datacenter supply chain.\n\n- The technology can improve signal integrity and power stability for high-performance chips.\n\n- Industry players are also developing EIPD (Embedded Integrated Passive Device) modules to simplify substrate processing and advanced packaging for AI and high-performance computing (HPC) chips.\n\n- An embedded substrate features pre-formed cavities within the substrate to house passive components.\n\n- The most commonly embedded component is the MLCC, with structures divided into semi-embedded and fully-embedded approaches.\n\n- Compared with mounting passive components on the substrate surface, the embedded structure shortens signal paths and reduces parasitic inductance, making it advantageous for achieving impedance matching in the power delivery network (PDN).\n\n- This is expected to improve signal integrity and power stability for AI and HPC chips.\n\n- Embedded designs have already been adopted since the iPhone X-generation application processor (AP) as a way to free up limited PCB surface space.\n\n- That said, large-scale adoption in the AI and server markets remains at an early stage. Embedding capacitors and resistors within the substrate raises costs, and no clear market leader has yet emerged in the industry.\n\n- As a result, whether AI chip customers ultimately adopt the technology is set to become a key competitive variable.\n\n- A range of suppliers—Japan's Ibiden, Korea's Samsung Electro-Mechanics, and Taiwan's Unimicron, Kinsus Tech, and Nan Ya PCB—are scaling up investment in embedded substrate development.\n\n- Some market observers see Samsung Electro-Mechanics as holding an edge, given that it produces both MLCCs and package substrates and is reportedly planning new equipment investment at its Vietnam plant.\n\n- Others, however, point to the stringent control required over materials, drilling precision, and surface flatness in embedded substrate manufacturing, and expect Ibiden and Unimicron to be the preferred partners for demanding AI customers.\n\n- According to Taiwanese suppliers, inquiries about embedded substrates have surged from Nvidia, AMD, Intel, and ASIC customers focused on AI datacenter and HPC server chips.\n\n- Design optimization concepts such as integrated passive device modules are still in the technology validation phase, but industry sources expect mass production to accelerate within the next few years.\n\n- Substrate technology is emerging as a critical platform for supporting the rising power, bandwidth, and integration density of chips.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2058733798704243047",
+      "kind": "post",
+      "engagement": {
+        "views": 45147,
+        "likes": 172,
+        "reposts": 17,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

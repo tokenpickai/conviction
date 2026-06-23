@@ -15,14 +15,36 @@
     "000660": "SK HYNIX",
     "005930": "SAMSUNG",
     "ANTHROPIC": "_EXCLUDE_ANTHROPIC",
+    "DEEPSEEK": "_EXCLUDE_DEEPSEEK",
+    "DB HITEK": "000990",
+    "DELTON": "001389",
+    "DOOSAN": "000150",
+    "DRAM": "_EXCLUDE_DRAM",
     "DRAM_SECTOR": "_EXCLUDE_DRAM_SECTOR",
     "GOOGLE": "GOOGL",
+    "GIGADEVICE": "603986",
     "HP": "HPQ",
+    "HUAWEI": "_EXCLUDE_HUAWEI",
+    "IBIDEN": "4062",
+    "IFX": "IFNNY",
+    "KIOXIA": "285A",
     "MDTKF": "2454",
     "MEDIATEK": "2454",
     "MICRON": "MU",
+    "MURATA": "6981",
+    "NAND": "_EXCLUDE_NAND",
+    "NAN_YA": "2408",
+    "NANYA": "2408",
+    "NITTOBO": "3110",
+    "OPENAI": "_EXCLUDE_OPENAI",
+    "SEMCO": "009150",
+    "SEMES": "_EXCLUDE_SEMES",
     "SKHYNIX": "SK HYNIX",
+    "SMIC": "0981",
     "TSMC": "TSM",
+    "UNIMICRON": "3037",
+    "YAGEO": "2327",
+    "YMTC": "_EXCLUDE_YMTC",
     "닉스": "SK HYNIX",
     "3105": "WIN_SEMI",
     "3363": "FOCI",
@@ -69,6 +91,126 @@
     "verified": true,
     "company": "Largan Precision",
     "industry": "Optics/Photonics"
+  },
+  "000150": {
+    "price_symbol": "000150.KS",
+    "exchange": "Korea Exchange",
+    "currency": "KRW",
+    "verified": true,
+    "company": "Doosan Corporation",
+    "industry": "Semiconductor Materials/CCL"
+  },
+  "000990": {
+    "price_symbol": "000990.KS",
+    "exchange": "Korea Exchange",
+    "currency": "KRW",
+    "verified": true,
+    "company": "DB HiTek",
+    "industry": "Semiconductor Foundry"
+  },
+  "001389": {
+    "price_symbol": "001389.SZ",
+    "exchange": "Shenzhen",
+    "currency": "CNY",
+    "verified": true,
+    "company": "Delton Technology",
+    "industry": "AI Server PCB"
+  },
+  "028260": {
+    "price_symbol": "028260.KS",
+    "exchange": "Korea Exchange",
+    "currency": "KRW",
+    "verified": true,
+    "company": "Samsung C&T",
+    "industry": "Industrial Holding Company"
+  },
+  "0981": {
+    "price_symbol": "0981.HK",
+    "exchange": "Hong Kong",
+    "currency": "HKD",
+    "verified": true,
+    "company": "SMIC",
+    "industry": "Semiconductor Foundry"
+  },
+  "2327": {
+    "price_symbol": "2327.TW",
+    "exchange": "Taiwan",
+    "currency": "TWD",
+    "verified": true,
+    "company": "Yageo",
+    "industry": "Passive Components"
+  },
+  "2408": {
+    "price_symbol": "2408.TW",
+    "exchange": "Taiwan",
+    "currency": "TWD",
+    "verified": true,
+    "company": "Nanya Technology",
+    "industry": "Memory/DRAM"
+  },
+  "285A": {
+    "price_symbol": "285A.T",
+    "exchange": "Tokyo",
+    "currency": "JPY",
+    "verified": true,
+    "company": "Kioxia Holdings",
+    "industry": "Memory/NAND"
+  },
+  "3037": {
+    "price_symbol": "3037.TW",
+    "exchange": "Taiwan",
+    "currency": "TWD",
+    "verified": true,
+    "company": "Unimicron Technology",
+    "industry": "IC Substrates/PCB"
+  },
+  "3103": {
+    "price_symbol": "3103.T",
+    "exchange": "Tokyo",
+    "currency": "JPY",
+    "verified": true,
+    "company": "Unitika",
+    "industry": "E-glass/Advanced Materials"
+  },
+  "3110": {
+    "price_symbol": "3110.T",
+    "exchange": "Tokyo",
+    "currency": "JPY",
+    "verified": true,
+    "company": "Nittobo",
+    "industry": "Glass Fiber/AI Substrates"
+  },
+  "4062": {
+    "price_symbol": "4062.T",
+    "exchange": "Tokyo",
+    "currency": "JPY",
+    "verified": true,
+    "company": "Ibiden",
+    "industry": "IC Package Substrates"
+  },
+  "603986": {
+    "price_symbol": "603986.SS",
+    "exchange": "Shanghai",
+    "currency": "CNY",
+    "verified": true,
+    "company": "GigaDevice",
+    "industry": "Memory/MCU Semiconductors"
+  },
+  "6857": {
+    "price_symbol": "6857.T",
+    "exchange": "Tokyo",
+    "currency": "JPY",
+    "verified": true,
+    "company": "Advantest",
+    "industry": "Semiconductor Test Equipment"
+  },
+  "6981": {
+    "price_symbol": "6981.T",
+    "exchange": "Tokyo",
+    "currency": "JPY",
+    "verified": true,
+    "company": "Murata Manufacturing",
+    "industry": "Passive Components/MLCC"
   },
   "5210": {},
   "6451": {
@@ -458,27 +600,123 @@
   "AAPL": {
     "company": "Apple"
   },
+  "APD": {
+    "company": "Air Products",
+    "industry": "Industrial Gases/Semiconductor Materials"
+  },
+  "AMAT": {
+    "company": "Applied Materials",
+    "industry": "Semiconductor Equipment"
+  },
+  "ASML": {
+    "company": "ASML",
+    "industry": "Semiconductor Lithography"
+  },
+  "BESI": {
+    "price_symbol": "BESI.AS",
+    "exchange": "Euronext Amsterdam",
+    "currency": "EUR",
+    "verified": true,
+    "company": "BE Semiconductor Industries",
+    "industry": "Advanced Packaging Equipment"
+  },
   "CXMT": {
     "company": "ChangXin Memory Technologies",
     "industry": "Memory/DRAM",
     "exclude": true,
     "note": "Private company; retained as context but excluded from the tradable-stock dashboard."
   },
+  "DELL": {
+    "company": "Dell Technologies",
+    "industry": "AI Servers/PC Hardware"
+  },
+  "GLW": {
+    "company": "Corning",
+    "industry": "Optical Fiber/Glass"
+  },
   "HPQ": {
     "company": "HP Inc.",
     "industry": "PC Hardware"
   },
+  "IFNNY": {
+    "price_symbol": "IFNNY",
+    "exchange": "OTC US",
+    "currency": "USD",
+    "company": "Infineon Technologies",
+    "industry": "Power/Automotive Semiconductors"
+  },
+  "ONTO": {
+    "company": "Onto Innovation",
+    "industry": "Semiconductor Metrology"
+  },
   "QCOM": {
     "company": "Qualcomm",
     "industry": "AI/Connectivity Semiconductors"
+  },
+  "RMBS": {
+    "company": "Rambus",
+    "industry": "Memory Interface/IP"
+  },
+  "SONY": {
+    "company": "Sony Group",
+    "industry": "Image Sensors/Electronics"
+  },
+  "STM": {
+    "company": "STMicroelectronics",
+    "industry": "Analog/Power Semiconductors"
+  },
+  "TER": {
+    "company": "Teradyne",
+    "industry": "Semiconductor Test Equipment"
+  },
+  "TXN": {
+    "company": "Texas Instruments",
+    "industry": "Analog/Embedded Semiconductors"
+  },
+  "UMC": {
+    "company": "United Microelectronics",
+    "industry": "Semiconductor Foundry"
   },
   "_EXCLUDE_ANTHROPIC": {
     "company": "Anthropic",
     "industry": "Frontier AI Lab",
     "exclude": true
   },
+  "_EXCLUDE_DEEPSEEK": {
+    "company": "DeepSeek",
+    "industry": "Private AI Lab",
+    "exclude": true
+  },
+  "_EXCLUDE_DRAM": {
+    "company": "DRAM",
+    "exclude": true
+  },
   "_EXCLUDE_DRAM_SECTOR": {
     "company": "DRAM sector",
+    "exclude": true
+  },
+  "_EXCLUDE_HUAWEI": {
+    "company": "Huawei",
+    "industry": "Private Technology Company",
+    "exclude": true
+  },
+  "_EXCLUDE_NAND": {
+    "company": "NAND",
+    "exclude": true
+  },
+  "_EXCLUDE_OPENAI": {
+    "company": "OpenAI",
+    "industry": "Private AI Lab",
+    "exclude": true
+  },
+  "_EXCLUDE_SEMES": {
+    "company": "SEMES",
+    "industry": "Private Semiconductor Equipment Company",
+    "exclude": true
+  },
+  "_EXCLUDE_YMTC": {
+    "company": "YMTC",
+    "industry": "Private Memory Company",
     "exclude": true
   },
   "RKLB": {

@@ -1,0 +1,66 @@
+{
+  "ticker": "SDI",
+  "cashtag": "SDI Corporation",
+  "price_symbol": "SDI",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-02",
+  "last_mention": "2026-05-25",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2039827565343555737",
+      "date": "2026-04-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SDI",
+      "text": "▶ Copper price surge drives quarterly lead frame price hikes\n\n∙ Lead frame packaging suppliers are pushing price increases to pass on rising costs across the semiconductor supply chain.\n\n∙ Taiwanese manufacturers have already laid out new pricing adjustment plans to take effect in Q2 2026, with double-digit percentage increases expected across all product lines.\n\n∙ Taiwan’s three major lead frame suppliers — CWTC, SDI, and Jih Lin Technology — initiated their first round of price negotiations in H2 2025.\n\n∙ Initial increases ranged from 10% to 30%, applied in phases from Q4 2025 through Q1 2026, and have begun flowing through to revenue and profitability.\n\n∙ CWTC noted that precious and base metal prices — specifically gold, silver, and copper — surged by over 30%, 90%, and 35% respectively since H2 2025, driving up overall process costs.\n\n∙ Accordingly, CWTC will raise LED lead frame prices by 20%, with an even larger increase for IC lead frames — both measures taking effect simultaneously on April 1.\n\n∙ SDI implemented pricing adjustments on roughly a quarter of its products earlier this year.\n\n∙ However, with international refined copper premiums having doubled, SDI is set to execute a second round of price hikes, with an average increase expected in the double digits.\n\n∙ SDI’s first round of increases primarily targeted IDM customers, but the second round will extend coverage to OSAT customers as well.\n\n∙ Jih Lin Technology has ongoing price adjustments underway, with its second round of increases also expected to reach double-digit percentages.\n\n∙ Once the initial phase of price increases is absorbed, lead frame manufacturers are expected to see meaningful gross margin expansion, benefiting from lower-cost inventory.\n\n∙ All major Taiwanese lead frame players are expected to sustain steady sequential quarterly growth through 2026, leveraging both volume and pricing tailwinds.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2039827565343555737",
+      "kind": "post",
+      "engagement": {
+        "views": 18857,
+        "likes": 64,
+        "reposts": 4,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2058837366199189819",
+      "date": "2026-05-25",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SDI Corporation",
+      "text": "▶ AI data centers spark 800V HVDC rush for Taiwan lead frame suppliers\n\n- The shift toward 800V high-voltage direct current (HVDC) power architectures in AI data centers is gathering pace, driving a surge in demand for power semiconductors.\n\n- As a result, shipments at Taiwanese lead frame makers SDI Corporation and Jih Lin Technology are climbing, with both companies expected to deliver double-digit revenue growth in 2026.\n\n- Lead frame suppliers note that demand for AI server power-management systems has risen sharply in recent months, with orders from global IDM customers such as Infineon and STMicroelectronics also expanding.\n\n- Whereas automotive demand had previously been the key growth driver, 2026 is shaping up to be the inflection point at which servers take over that role, marking a structural shift in lead frame demand.\n\n- Lead frame makers explain that the automotive-grade product expertise they have built up over years is proving to be a critical foundation for entering the AI server power-management market, since automotive and AI servers share similar requirements in terms of high-power handling, thermal dissipation, and reliability.\n\n- SDI notes that, in the near term, the pickup in orders for AI power management is running ahead of expectations. In particular, its high-power lead frame products for HVDC applications have moved beyond the R&D stage into volume production, with more than 40 custom projects currently underway.\n\n- SDI's AI-related revenue accounted for only around 1% of the total in 2025, but is set to rise quickly to 6% in the first quarter of 2026. The company also expects the revenue contribution from HVDC-related projects to ramp up in earnest from the second half of 2026.\n\n- Jih Lin notes that, supported by a recovery in the automotive market and expanding AI server demand, utilization has risen to the 70–75% range. It also expects 2026 revenue to grow quarter over quarter, making its full-year target of NT$6 billion achievable.\n\n- Jih Lin's AI-related revenue stood at roughly 5–7% of the total in 2025, and the market expects that share to surpass 10% by 2027.\n\n- The company is expanding into the AI power-management market on the strength of its integrated stamping-and-etching capabilities, and continues to develop 40–50 new products each year.\n\n- It is also applying the double-sided cooling and thermal-dissipation technologies previously used in automotive modules to its AI server products, and says it is receiving a positive response at the customer evaluation stage.\n\n- Overall, Taiwanese lead frame makers emphasize that order visibility is improving significantly, underpinned by expanding AI demand and long-standing partnerships with IDM and OSAT customers.\n\n- Players with high automotive exposure expect the expansion of ADAS and the vehicle electrification trend to likewise drive a recovery in automotive semiconductor demand.\n\n- The industry views the inventory correction phase as effectively complete, and sees a strong likelihood that shipment momentum will build further as 2026 progresses into the second half.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2058837366199189819",
+      "kind": "post",
+      "engagement": {
+        "views": 72277,
+        "likes": 297,
+        "reposts": 28,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

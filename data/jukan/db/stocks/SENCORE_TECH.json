@@ -1,0 +1,42 @@
+{
+  "ticker": "SENCORE_TECH",
+  "cashtag": "Sencore Tech",
+  "price_symbol": "SENCORE_TECH",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-18",
+  "last_mention": "2026-05-18",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2056582858572206316",
+      "date": "2026-05-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Sencore Tech",
+      "text": "Samsung vs. SK Hynix: All-Out Push to Accelerate \"Super Fast Track\" Fab Expansion\n\nAs the memory shortage persists, Samsung Electronics and SK Hynix — both racing to maximize profitability by ramping up output — have entered a head-to-head sprint over fab construction. Both companies are pulling out all the stops to pull forward their fab completion schedules, and the competition has spilled over into a scramble for certain construction materials.\n\nIndustry observers note that with the memory supply shortage likely to be prolonged on the back of expanding AI infrastructure investment, both companies have effectively shifted into a \"speed-war regime\" to secure first-mover advantage in the market. With some construction materials running short of demand, companies that fail to lock in supply early are seeing their construction timelines slip — and the behind-the-scenes competition between the two memory giants is expected to intensify further.\n\nAccording to the semiconductor industry, Samsung Electronics and SK Hynix have recently been moving to compress their fab construction schedules. Both companies are cutting build times below their original plans in a push to expand memory capacity. Samsung is accelerating the buildout of its Pyeongtaek campus. P5 Fab 1 is currently under construction, and P6 (P5 Fab 2) is scheduled to break ground in July — meaning the two fabs will go vertical simultaneously.\n\nAccording to industry sources, Samsung is in discussions with Samsung C&T over various construction methods aimed at cutting the P5 Fab 1 build schedule by more than half versus the original plan. Samsung resumed full-scale construction last November, with completion initially expected in the second half of 2028. However, if the schedule compression materializes, the line could be brought online as early as 2027. Samsung C&T is the contractor for P5 Fab 1.\n\nOne industry source said, \"Samsung is currently pushing to roughly halve the construction timeline for P5 Fab 1,\" adding that \"the construction site is now running a three-shift system, with overnight work and even Sunday operations underway.\"\n\nP5 Fab 2 has also entered speed-war mode. The industry expects steel column installation to begin around year-end, following a full-scale groundbreaking in July. Semiconductor fab construction typically begins with piling work — driving piles into the ground to lay the foundation — followed by the installation of anchor bolts to support the steel columns and a concrete curing process. If the schedule holds, column installation could begin by the end of this year.\n\nSK Hynix, not to be outdone, is accelerating construction at its Yongin semiconductor cluster. The company is currently in Phase 1 of frame construction at Fab 1 of the Yongin cluster, with a cleanroom opening targeted for February of next year. Fab 1 will consist of two frame structures and six cleanrooms, with cleanrooms to be built sequentially by phase. Phase 1 — which covers the first frame stage and one cleanroom — is currently underway, and Phase 2, the second frame stage of Fab 1, is scheduled to break ground in August.\n\nPreviously, the industry had expected SK Hynix to begin Fab 2 construction only after completing the Fab 1 expansion. However, sources on the ground say scheduling work for Fab 2 construction has already largely been arranged. At the same time, SK Hynix is said to have pre-emptively built out its Phase 2 and Phase 4 teams to accelerate the Fab 1 cleanroom buildout.\n\nAnother source on the ground commented, \"SK Hynix is trying to push fab construction on a 'Super Fast Track' basis. The construction BIM team will be fully staffed through Phase 4 by July, and once those teams are in place, cleanroom construction is likely to ramp in earnest just two months later.\"\n\nAs both companies race to expand capacity ahead of memory demand, competition for construction materials is reportedly heating up as well. On the ground, both Samsung and SK Hynix are sourcing some steel structural products from Sencore Tech, a specialist steel-structure maker. Sencore Tech applies a proprietary, patented method that enables construction time to be shortened in some of its products, and has previously supplied products for SK Hynix's Icheon M16 and Samsung's Pyeongtaek campus Office Building 3, among others.\n\nSamsung is reportedly applying Sencore Tech's PC girders to the complex building being built between P5 Fab 1 and P5 Fab 2. PC girders are precast concrete beams manufactured at the factory that horizontally connect columns. However, with Sencore Tech having signed a priority-supply agreement with SK Hynix, the production schedule for PC girders bound for Samsung is reportedly facing some delays.\n\nA source on the ground said, \"Sencore Tech is understood to have a larger share of its supply allocated to SK Hynix. With Samsung now applying Sencore Tech's products to this complex building project, the two companies are effectively competing for the same construction materials.\"\n\nThe aggressive speed war between the two companies is being driven by the deepening memory shortage. With AI infrastructure demand surging since last year and supply failing to keep pace, prices have been rising sharply — to the point that, in the market, memory has become a \"name-your-price\" commodity. Market researcher TrendForce projects that commodity DRAM and NAND contract prices will rise 63% and 75% quarter-on-quarter, respectively, in 2Q.\n\nThe industry reads this as Samsung and SK Hynix racing to expand capacity in order to capture market leadership in a rapidly expanding AI memory market. Both companies recently outlined their fab construction plans on their 1Q earnings calls and signaled an intent to accelerate them. One industry source said, \"In the AI semiconductor market, what matters most is how quickly and reliably you can deliver supply. Both companies are pushing to accelerate fab expansion in order to secure leadership in the AI memory market.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2056582858572206316",
+      "kind": "post",
+      "engagement": {
+        "views": 159537,
+        "likes": 402,
+        "reposts": 41,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

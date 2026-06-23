@@ -1,0 +1,850 @@
+{
+  "ticker": "SNDK",
+  "cashtag": "SanDisk",
+  "price_symbol": "SNDK",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": "SanDisk",
+  "industry": "Memory",
+  "thesis_summary": "他看好 SanDisk 的存储周期上行。",
+  "first_mention": "2026-03-26",
+  "last_mention": "2026-06-02",
+  "total_mentions": 20,
+  "mentions": [
+    {
+      "tweet_id": "2037317421389037723",
+      "date": "2026-03-26",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "[KIS — Chae Min-sook / Kim Yeon-jun] Semiconductor Industry Note: After TurboQuant and DeepSeek, the Conclusion is Clear\n\n● TurboQuant's Opening Shot\n\nOn March 25 (local time), Google officially published the TurboQuant algorithm via its official blog, claiming it can compress KV Cache by up to 6x with no performance degradation. The market interpreted this as a reduction in memory requirements, causing memory semiconductor stocks to fall sharply. However, this reflects a misreading stemming from a confusion between the roles of memory capacity and memory bandwidth. The bottleneck in AI inference is not a shortage of memory capacity, but rather a problem determined by memory access speed and data movement efficiency. TurboQuant should instead be understood as a technology that partially alleviates this bottleneck and improves GPU efficiency, enabling more tokens to be processed per unit time with the same GPU resources.\n\n● The Structure of AI Inference: Prefill and Decode\n\nLLM inference consists of two stages: Prefill and Decode. The Prefill stage is a compute-intensive task where GPU computational power limits performance, while the Decode stage is a memory-intensive task where the speed of data movement determines performance. In Decode, the existing KV cache must be repeatedly referenced with each new token generated, making it structurally sensitive to memory bandwidth and access latency. Since the Decode stage largely determines the response speed that users experience, it sits at the heart of AI inference optimization.\n\n● How TurboQuant Actually Works\n\nWhen TurboQuant claims to compress KV Cache by up to 6x, this is less about reducing the required memory capacity itself and more about significantly lowering the data size occupied by the KV Cache and the resulting memory access burden. This means the volume of data that must be handled within the same HBM bandwidth is reduced. As a result, memory access latency is alleviated and the time GPUs spend waiting for data can decrease. Because KV Cache accesses occur repeatedly during the Decode stage of LLM inference, reducing data size has a direct impact on relieving the memory bottleneck. The proportion of time GPUs spend waiting for memory responses diminishes, and compute resources are utilized more efficiently. This improves actual GPU utilization rates and increases the number of tokens that can be processed per unit time (throughput) within the same hardware environment — which can also be interpreted as a reduction in cost per token.\n\n● The Real Bottleneck in AI Inference: Bandwidth, Not Capacity\n\nIt appears the market interpreted TurboQuant as reducing memory capacity usage and therefore decreasing HBM demand. However, the core bottleneck in AI inference is not a shortage of memory capacity but rather the speed at which data is read from memory — i.e., memory bandwidth and access latency. Because GPU compute cores process data far faster than HBM can supply it, GPUs sit in a wait state while expecting data from memory. Industry research indicates that in the Decode stage, more than 50% of attention computation cycles are spent in a wait state due to memory access latency — meaning GPUs waste more than half their theoretical performance waiting for memory responses. According to research published by Google DeepMind in January 2026, Nvidia GPU 64-bit FLOPS grew approximately 80x between 2012 and 2022, while memory bandwidth grew only about 17x over the same period; this gap is expected to continue widening going forward (arXiv:2601.05047, forthcoming in IEEE Computer). TurboQuant will narrow the gap between GPU compute capability and memory bandwidth, increasing the number of tokens that can be processed per unit time on the same hardware. This lowers cost per token, encouraging broader AI usage, drawing in more services and users, and ultimately leading to an increase — not a decrease — in KV Cache consumption.\n\n● A Bottleneck TurboQuant Cannot Solve: Inter-Chip Communication Latency\n\nThere is another bottleneck in AI inference that TurboQuant does nothing to address. Large models exceed the memory capacity of a single GPU and are therefore distributed across multiple GPUs. During the Decode stage, because the model is spread across multiple GPUs, intermediate computation results must be exchanged between GPUs with each token generated. These data transfers are small in size but occur at very high frequency, which can introduce inter-chip communication latency. To reduce this latency, a single GPU must be able to handle more parameters and KV Cache — which ultimately demands more HBM capacity per GPU. In the current AI environment, where model sizes and context lengths continue to expand, this need for greater HBM capacity will only intensify. The fact that Nvidia has consistently increased HBM capacity with each successive GPU generation is likely not unrelated to this dynamic.\n\n● TurboQuant's Limitations: Still in Early Validation\n\nWhile TurboQuant carries significant technical implications, there are also limitations in its scope of application and validation that deserve consideration. The published performance benchmarks are confined to relatively simple test environments centered on single-query information retrieval tasks such as LongBench and Needle-In-A-Haystack. Experiments were also conducted primarily on comparatively small models with around 8 billion parameters; whether the same effects can be reproduced in the large-scale models of hundreds of billions of parameters used in real-world industry settings has yet to be verified. More importantly, no validation has been conducted in the rapidly expanding Agentic AI environments. In these environments, models execute repeated multi-step judgments across longer contexts and more complex KV Cache structures, giving rise to memory usage patterns that differ entirely from those seen in single-response benchmarks.\n\n$MU $SNDK",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2037317421389037723",
+      "kind": "post",
+      "engagement": {
+        "views": 26712,
+        "likes": 130,
+        "reposts": 25,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041674068097953801",
+      "date": "2026-04-07",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SanDisk",
+      "text": "Samsung Electronics' NAND Quarterly Operating Profit Approaches KRW 10 Trillion (~$8 Billion)\n\nDriven by a surge in memory prices, Samsung Electronics recorded approximately KRW 10 trillion in operating profit from its NAND flash business — the highest quarterly result since the company entered the NAND business. The industry expects NAND price increases to continue, with Samsung projected to generate over KRW 50 trillion in NAND operating profit for the full year. Operating margins are also expected to exceed 60% in the second half.\n\nSamsung announced preliminary results on April 7, reporting Q1 2026 revenue of KRW 133 trillion and operating profit of KRW 57.2 trillion. QoQ, revenue rose 41.73% and operating profit surged 185%. YoY, revenue increased 68.06% and operating profit jumped 755.01%.\n\nQ1 results were driven by memory price increases, with both DRAM and NAND prices continuing to rise on the back of AI demand. The industry estimates Samsung recorded over KRW 50 trillion in operating profit from memory alone.\n\nDRAM profitability improved further this year, with an estimated ~80% of Samsung's total Q1 operating profit attributed to DRAM. DRAM remains the biggest bottleneck in the AI industry — memory makers are pursuing capacity expansions, but physical space constraints mean meaningful additions will take considerable time.\n\nNAND showed even steeper improvement, fueled by surging enterprise SSD (eSSD) demand. Securities analysts estimate Samsung posted ~KRW 10 trillion in NAND operating profit in Q1, compared to just over KRW 2 trillion for the entirety of last year.\n\nUntil last year, NAND was considered a business where even 10% operating margins were difficult to achieve. With more manufacturers (Samsung, SK Hynix, Micron, Kioxia, SanDisk, YMTC) than in DRAM, price competition was fierce, and NAND was relatively sidelined from AI investment, limiting demand growth.\n\nThis demand shift accelerated as inference grew in share within the AI industry. The transition from training-centric to inference-centric workloads has elevated the importance of data storage and processing architectures, driving rapid growth in NAND-based storage demand and a sharp rise in NAND ASPs. Some in the industry now forecast NAND operating margins exceeding 60% in H2.\n\nAdditionally, NVIDIA's newly unveiled ICMS (Interconnect and Memory Subsystem) is expected to further boost NAND demand. ICMS stores and utilizes KV cache generated during inference in storage rather than HBM, improving overall system compute efficiency.\n\nWith Samsung posting outsized NAND profits, expectations for NAND investment are also rising. Samsung had been conservative on NAND capacity expansion in recent years, focusing instead on technology migration. Competitors have already moved: SK Hynix has decided to resume investment in its Dalian Fab 2, and Micron is investing $24 billion to build a new fab in Singapore for NAND expansion.\n\nA source with close knowledge of Samsung said, \"As NAND conditions improve, Samsung is reviewing NAND line expansion at its new P5 fab,\" adding that \"investment scale is expected to be finalized in H2 this year.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2041674068097953801",
+      "kind": "post",
+      "engagement": {
+        "views": 70403,
+        "likes": 139,
+        "reposts": 8,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041733280861651030",
+      "date": "2026-04-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "Kioxia President Kawamura stated in an interview with Nikkei that supply shortages continue to favor NAND sellers, and that the company is in negotiations for long-term contracts extending through 2028–2029 with hyperscalers and other large-scale cloud operators.\n\n$SNDK https://t.co/3NSrDbntmM",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [
+        {
+          "media_key": "3_2041733234715979777",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFWxjzVa8AEMDZa.jpg",
+          "width": 1492,
+          "height": 1494,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2041733280861651030",
+      "kind": "post",
+      "engagement": {
+        "views": 27360,
+        "likes": 186,
+        "reposts": 29,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2042051902188482953",
+      "date": "2026-04-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "UBS: On the timing of the NAND price peak\n\n\"For NAND specifically, we now model industry pricing to peak in CQ3:27 (vs. CQ2:27 prior) based on our view that YMTC is now allocating a significant portion of its incremental capacity towards DRAM rather than NAND - roughly 30k-wpm annually, out of total capacity additions of ~45kwpm.\"\n\n$SNDK",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2042051902188482953",
+      "kind": "post",
+      "engagement": {
+        "views": 40505,
+        "likes": 215,
+        "reposts": 30,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2042197886541455506",
+      "date": "2026-04-09",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "Bernstein raises $SNDK target price to $1,250, with a blue-sky upside scenario of $3,000.\n\nBase-case valuation applies an 11x multiple to through-cycle earnings, defined as the average of FY26-29 Bernstein base-case EPS of $113.93.\n\nIn the blue-sky scenario, applying a 13x multiple to peak earnings yields a valuation of approximately $3,000 per share, or roughly $2,950 based on bull-case peak EPS estimates.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2042197886541455506",
+      "kind": "post",
+      "engagement": {
+        "views": 221189,
+        "likes": 610,
+        "reposts": 86,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043453527985623144",
+      "date": "2026-04-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "SanDisk Secures Korean Materials/Parts/Equipment Allies, Accelerates HBF Development… Timeline Moved Up by Six Months\n\nU.S. NAND flash maker SanDisk is accelerating the development of its next-generation product, High Bandwidth Flash (HBF). In the process, Korean semiconductor industry players are emerging as key allies.\n\nSanDisk is pursuing collaboration on HBF sample production with materials, parts, and equipment (MPE) companies that possess unrivaled competitiveness in specific fields. If the HBF market grows going forward, the benefits are expected to extend to Korea's semiconductor industry as well. Whether Samsung Electronics and SK hynix will also pick up the pace on their own product development is drawing attention.\n\nAccording to semiconductor industry sources on April 9, SanDisk has recently begun collaborating with select Korean semiconductor MPE companies on HBF sample fabrication. Industry sources indicate that a company with a monopoly on certain equipment used in High Bandwidth Memory (HBM) manufacturing is expected to ship sample equipment to SanDisk around early this summer.\n\nHBF is one of the next-generation growth drivers attracting global memory semiconductor industry attention after HBM. While HBM is made by vertically stacking DRAM dies, HBF is made by stacking NAND. It is slower than HBM but offers the advantage of processing data with significantly larger capacity.\n\nThe prevailing view in the semiconductor industry is that HBF will be complementary to HBM rather than a substitute. Rather than cannibalizing each other, both markets are expected to expand. The industry projects the HBF market will begin growing in earnest around 2030.\n\nProfessor Kim Jung-ho of KAIST's Department of Electrical and Electronic Engineering — often called the \"Father of HBM\" — stated at a February presentation on HBF technology development and commercialization strategy that \"by 2038, the HBF market will be larger than the current HBM market.\"\n\nAccording to SanDisk's website, on August 6 of last year (local time), the company partially revealed its future roadmap in a post titled \"Beyond the Memory Wall: The Inside Story of SanDisk HBF for AI Inference.\" It projected HBF samples would ship in H2 of this year, with HBF-based AI device samples emerging in early 2027.\n\nAn industry source said, \"As sample production ramps up in earnest, SanDisk appears set to pull its previously announced HBF development roadmap forward by roughly six months,\" adding, \"This reflects the strength of SanDisk's determination to lead the market.\"\n\nIndustry observers note that SanDisk's push to accelerate HBF development is also influenced by its identity as a pure NAND flash company. Without HBM — which is made from DRAM — in its portfolio, the analysis is that SanDisk is going all-in on capturing this new market.\n\nAmong Korean memory semiconductor companies, SK hynix is the most proactive on HBF. SK hynix signed an MOU with SanDisk in August of last year to pursue HBF standardization. In February of this year, the company announced it held a kickoff event for an HBF spec standardization consortium at SanDisk's U.S. headquarters.\n\nHowever, the SK hynix–SanDisk collaboration is focused on establishing HBF standards and has not yet progressed to the stage of joint mass production. Both companies are expected to develop and bring their own products to market independently.\n\nSK hynix CEO Kwak Noh-jung stated at the company's annual general meeting on March 25, \"We will proactively secure next-generation portfolios including Processing-in-Memory (PIM), Compute Express Link (CXL), and HBF, and leap forward as a 'Full-Stack AI Memory Creator' that proposes more than what customers want.\"\n\nAn SK hynix spokesperson said, \"Beyond what was announced around February regarding HBF standardization efforts with SanDisk, we are unable to confirm specific details of the development roadmap.\"\n\nSamsung Electronics has not publicly disclosed any HBF roadmap or development plans. However, according to industry sources, Samsung is also reportedly preparing for HBF development.\n\n$SNDK",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2043453510658981888",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFvOJCnagAA2a0Y.jpg",
+          "width": 1920,
+          "height": 1079,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2043453527985623144",
+      "kind": "post",
+      "engagement": {
+        "views": 75196,
+        "likes": 454,
+        "reposts": 56,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043491598881976439",
+      "date": "2026-04-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "NAND Stacking 'HBF' Process Market Opens… SanDisk Begins Building Supply Chain\n\nThe market for 'High Bandwidth Flash (HBF)' — a process that dramatically boosts performance and capacity by stacking NAND flash memory in a manner similar to High Bandwidth Memory (HBM) — has officially opened. This comes as SanDisk, which first unveiled HBF technology, has begun building out its materials, components, and equipment supply chain. With major memory manufacturers successively launching HBF development efforts, attention is turning to whether it will generate manufacturing demand on par with HBM.\n\nAccording to industry sources on April 13, SanDisk has begun establishing an ecosystem with related supply chain partners to set up a pilot production line for HBF prototypes. The company plans to showcase prototypes in the second half of this year, and this is understood to involve the construction of a new pilot line. Japan is emerging as the leading candidate for the production site.\n\nA senior supply chain industry executive said, \"SanDisk is in discussions with materials and equipment companies, targeting major equipment installation in H2,\" adding that \"some companies have already begun purchase order (PO) negotiations.\" The industry expects the pilot line buildout to be completed in H2 with operations commencing around year-end. Commercial production is targeted for next year.\n\nHBF is a next-generation flash memory concept unveiled by SanDisk in February of last year. Its core architecture is similar to HBM. HBM, which has seen rapid growth recently as it underpins AI computation, achieves dramatically higher speed (bandwidth) and performance by stacking DRAM. HBF instead stacks NAND flash to increase not only bandwidth but also capacity. While HBM is a memory optimized for speed — real-time computation for AI training — HBF maximizes capacity. Unlike DRAM, NAND retains data without power (non-volatile), drawing attention as a new storage solution for AI.\n\nAs HBF production infrastructure buildout accelerates, demand for process-related materials, components, and equipment is also expected to expand — signaling the emergence of an entirely new process market for manufacturing an unprecedented product. With SK Hynix and Samsung Electronics also preparing HBF alongside SanDisk, the pace of market growth could accelerate. SK Hynix is collaborating with SanDisk on HBF standardization and other initiatives, while Samsung Electronics is independently gearing up to enter the market.\n\nProfessor Kim Jung-ho of KAIST, at an HBF technology roadmap presentation in February, projected that HBF could surpass HBM in market size by 2038.\n\nThe HBF process is expected to favor the existing supply chain ecosystem that has served HBM manufacturing, given the process similarities. Through-Silicon Vias (TSVs) are used to transmit signals between stacked NAND layers. The industry consensus is that companies that have established competitiveness in bonding materials and equipment (bonders) for HBM will maintain their positions in HBF as well.\n\nAn industry source stated, \"Given that HBF and HBM manufacturing do not differ significantly, there is a very high probability that the process ecosystem led by Samsung Electronics and SK Hynix in the existing HBM market will carry over directly into the HBF market.\"\n\n$SNDK",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2043491579781111808",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFvww9Ja4AAvWC6.png",
+          "width": 717,
+          "height": 684,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2043491598881976439",
+      "kind": "post",
+      "engagement": {
+        "views": 71052,
+        "likes": 437,
+        "reposts": 73,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043937636935741880",
+      "date": "2026-04-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "Reuters: In addition to one fab scheduled for completion this year, YMTC plans to build two more, and once all three fabs are operational, its production capacity will more than double.\n\nReuters: One of YMTC’s soon-to-be-completed fabs sourced more than 50% of its equipment from domestic Chinese companies, including key tools used for vertically stacking chip layers.\n\nReuters: Two sources said all three of YMTC’s new fabs will allocate a certain amount of capacity to DRAM production, though the exact output will depend on the progress of the company’s DRAM chip development.\n\n$SNDK",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2043937614580056064",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HF2GbmQagAA0KMN.jpg",
+          "width": 1534,
+          "height": 1784,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2043937636935741880",
+      "kind": "post",
+      "engagement": {
+        "views": 44682,
+        "likes": 182,
+        "reposts": 27,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044323309983297714",
+      "date": "2026-04-15",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "legacy DRAM shortages in SSDs disadvantage pure-play NAND makers without self-supply"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SanDisk",
+      "text": "Daishin Securities analyst Hyung-Geun Ryu published a memory report today, packed with significant alpha. \n\nKey takeaways:\n\n1. Apple is exploiting the memory shortage amid growth stagnation in the North American market. As I've noted previously, Daishin Securities estimates that Apple is capitalizing on competitors' struggles by pursuing an aggressive shipment strategy to expand the iOS ecosystem and strengthen its dominance in the end-device market. In other words, Apple is hoarding memory to prevent competitors from producing smartphones. They've even reportedly raised their iPhone shipment target for this year to 240 million units. As Apple stockpiles memory, Chinese smartphone OEMs have panicked into buying as well.\n\n- Some Chinese customers accepted mobile memory prices in 2Q26 that are 90–100% higher QoQ, following similar increases in 1Q26.\n- As a result, 2Q26 mobile memory prices are expected to rise ~80% QoQ.\n- Despite this, customers are not pushing back on pricing. Per Daishin's channel checks, some mobile customers are locking in annual contracts at the sharply elevated 2Q26 prices and seeking to increase purchase volumes in H2.\n\n2. DRAM capacity shortages are forcing a reduction in HBM4E stack counts. Originally expected at 16-hi and 20-hi, the products are now shifting to 12-hi and 16-hi.\n\n3. HBM4E I/O speed is increasing to 15–16 Gbps, pushing the commodity DRAM-to-HBM trade ratio from the previous 3:1 to as high as 5:1.\n\n4. Legacy DRAM shortages in SSDs are becoming severe. The three major DRAM makers, which can self-supply legacy DRAM (DDR4) used in SSDs, will gain a structural advantage in NAND as well. Bearish Kioxia, SanDisk.\n\n5. Kioxia is expected to increase this year's capex by 40% vs. prior plans.\n\n6. Samsung Electronics earnings revisions: 2026E OP raised from KRW 307T ($208.27B) to KRW 342T ($232.02B); 2027E OP raised from KRW 335T ($227.27B) to KRW 410T ($278.1B).\n\n7. SK Hynix earnings revisions: 2026E OP raised from KRW 232T ($157.3B) to KRW 263T ($178.4B); 2027E OP raised from KRW 260T ($176.3B) to KRW 332T ($225.2B).\n\n8. Target price upgrades: Samsung Electronics raised from KRW 270,000 to KRW 330,000; SK Hynix raised from KRW 1,450,000 to KRW 1,700,000.\n\n9. Despite the upgrades, valuations remain remarkably cheap. On Daishin's revised estimates, Samsung and SK Hynix trade at just 4.8x and 3.9x 2026E P/E, and 4.0x and 3.1x 2027E P/E, respectively.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044323309983297714",
+      "kind": "post",
+      "engagement": {
+        "views": 72916,
+        "likes": 449,
+        "reposts": 68,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044585601232740359",
+      "date": "2026-04-15",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SanDisk",
+      "text": "[Exclusive] SK Hynix to List US ADR in June–July\n\nSK Hynix has confirmed it is targeting a June–July timeframe for its US stock market listing and is accelerating the related procedures.\n\nWhen SK Hynix disclosed last month that it had confidentially filed a registration statement (Form F-1) with the US Securities and Exchange Commission (SEC) for an American Depositary Receipt (ADR) listing, the company's position was that it was pursuing a listing within the year but the schedule had not yet been finalized.\n\nHowever, the fact that the company has since set a specific internal timeline is interpreted as a signal of its intent to complete the listing swiftly — shortening the timeline as much as possible to expand its global fundraising base in earnest.\n\nMoreover, given that SK Group Chairman Chey Tae-won has emphasized that the ADR listing will make SK Hynix \"a more global company,\" the scale of new share issuance is also expected to be significant. A larger issuance is needed to drive trading activity and, in turn, boost corporate value.\n\nAccording to industry sources on April 16, SK Hynix has communicated a target listing window of June–July to its underwriting syndicate. The company has assembled a syndicate led primarily by US-based securities firms and has entered full-scale preparation. ADRs are securities issued to allow foreign companies to trade their shares on US exchanges, serving as a vehicle to broaden access for global investors.\n\nSK Hynix appears intent on completing the listing quickly, regardless of share price fluctuations. When ADR listing rumors surfaced in December last year, the company acknowledged it was reviewing measures to enhance corporate value, including a US listing. Around that time, its share price was on a sustained rally, surpassing KRW 1 million per share by late February — but uncertainty grew as war broke out between the US and Iran.\n\nMore recently, growing expectations of a ceasefire have fueled a fresh run to all-time highs. The stock broke through the KRW 1.1 million level, confirming robust investor demand. The closing price on April 16 was KRW 1,136,000. Since ADRs are based on domestic shares, the fundraising appeal has increased.\n\nAn investment banking industry source said, \"Even if the share price had fallen, the ADR listing schedule would not have changed — that's how strong the determination is to enter the US market quickly.\"\n\nAttention is now turning to the scale of the new share issuance. Although the AI semiconductor super-cycle left SK Hynix with nearly KRW 35 trillion in cash reserves as of year-end, the upcoming investment requirements are even larger. The capital expenditure needed to meet global next-generation semiconductor demand is astronomical.\n\nIn February, SK Hynix decided to invest KRW 21.6 trillion through the end of 2030 for its first fab at the Yongin semiconductor cluster. Including the facility investment announced in July 2024, the total reaches approximately KRW 31 trillion. The broader strategy calls for investing KRW 600 trillion by 2050 to operate four fabs in Yongin. Additionally, earlier this year the company announced plans to establish a US-based AI solutions company to position itself as a key partner for AI data centers, with up to USD 10 billion (approximately KRW 15 trillion) earmarked for that venture.\n\nInitially, the ADR listing was expected to be based on the company's treasury shares. However, after SK Hynix effectively cancelled its entire treasury stock — KRW 12.24 trillion worth — in January, retaining only shares reserved for employee compensation, new share issuance remains the only option. Analysts say a large-scale new issuance is therefore necessary to achieve the valuation re-rating the company is seeking.\n\nInvestment banking circles estimate the issuance size at around USD 10 billion. To achieve the company's target valuation uplift, broad-based institutional investor participation is required. If the issuance size were reduced out of concern over diluting the control of parent company SK Square, that too could become an obstacle to a successful offering.\n\nFurthermore, based on this year's earnings estimates, the forward price-to-earnings ratio (PER) cited by analysts for SK Hynix stands at just 3–4x — far below US peers Micron (8x) and SanDisk (19x). At NVIDIA's GTC 2026 in San Jose, California in March, Chairman Chey Tae-won said, \"I believe [the ADR listing] will make us a more global company by gaining exposure to US and global shareholders.\"\n\nAhead of the listing, SK Hynix is also planning a deal roadshow to meet US investors. The company is expected to further accelerate preparations after confirming favorable first-quarter results.\n\nSK Hynix stated regarding the ADR listing timeline: \"We are targeting a listing within this year, but details including the offering size, structure, and schedule have not been finalized. The final listing decision will be made after comprehensively considering the SEC's review of the registration statement, market conditions, demand assessment, and other relevant factors.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044585579258802177",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HF_TwGybcAEPW79.jpg",
+          "width": 1280,
+          "height": 720,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044585601232740359",
+      "kind": "post",
+      "engagement": {
+        "views": 59192,
+        "likes": 624,
+        "reposts": 99,
+        "replies": 17
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047503819890991301",
+      "date": "2026-04-23",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "【GF Overseas Electronics & Communications】\nSanDisk FY3Q26 Preview: NAND Is in a Better Position\n\n☄️ SanDisk FY3Q26 Preview: NAND Is in a Better Position\n\n☀️ Upgrade to Buy, new PT of $1,277: SNDK reports FY3Q26 on April 30. Combined with the recent contract price trajectory, we expect both results and guidance to come in strong. NAND ASP rose in the 70% range in FY1Q26, and is accelerating further to +90–100% in FY2Q26. The biggest upside surprise this cycle is coming from consumer electronics: despite volume cuts from domestic Chinese Android OEMs, the supply-demand balance remains tight, pushing smartphone makers to accept price hikes to $0.25/GB — versus just $0.12/GB in FY1Q26. In eSSD, the current negotiation range is $0.35–0.37/GB, driving blended ASP up ~90% QoQ. On this basis, we forecast FY3Q revenue of $4.9B at 71.5% OPM, and guidance for FY4Q26 revenue north of $10B with OPM above 84%. Another important catalyst is the step-up in contract liabilities, reflecting LTA prepayments flowing through. We forecast FY2027 EPS of $286.52, and apply 4x FY2027E P/B to derive our $1,277 price target.\n\n☀️ KV cache demand growth accelerates into 2027: SNDK has indicated that KV cache will generate 100EB of incremental NAND demand in 2027, with demand potentially doubling in 2028. However, given the recent surge in token demand, OpenRouter traffic up 17x, and accelerating AI agent adoption, we view this forecast as conservative. 100EB already equates to ~7% of total 2027 NAND demand, and even accounting for improvements in compression rates, demand still looks set to grow exponentially. On the supply side, NAND capacity additions remain measured: SK Hynix's core focus is on technology migration, while new capacity is concentrated in SNDK/Kioxia's K2 fab, Samsung's P5 line (coming online in 2028), and YMTC.\n\n☀️ Cost optimization may reshape the NAND vs. DRAM competitive landscape: We expect the memory market to approach $1 trillion in size by 2027, with CSPs accounting for 40–45% of total demand and memory spend representing over 40% of CSP CAPEX. On this basis, we believe the cost advantage will progressively tilt the revenue mix toward NAND (server DRAM is priced at ~$2.2/Gb, vs. eSSD at just $0.35–0.37/GB). Tiered storage architecture is the core structural driver of rising NAND share in AI workloads, and the arrival of HBF from 2028 onward should further amplify this. On valuation, Micron currently trades at 4.3x FY2027E P/E versus SNDK at just 3.4x — on both multiple and long-term positioning, SNDK offers more compelling allocation value.\n\n$SNDK",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047503819890991301",
+      "kind": "post",
+      "engagement": {
+        "views": 63663,
+        "likes": 94,
+        "reposts": 11,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047504600052498682",
+      "date": "2026-04-23",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "smartphone NAND prices doubled in Q2",
+        "eSSD prices surged massively",
+        "OPM of 71.5% and FY4Q26 guidance at 84% OPM"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SNDK",
+      "text": "So… smartphone NAND prices have already doubled in Q2, and even eSSD prices have surged massively?\n\n…OPM of 71.5%? And FY4Q26 guidance at 84% OPM?",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2047504205582331904",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGoyOhHacAAdNqd.png",
+          "width": 1170,
+          "height": 746,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2047504600052498682",
+      "kind": "post",
+      "engagement": {
+        "views": 57719,
+        "likes": 234,
+        "reposts": 19,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047682753765011661",
+      "date": "2026-04-24",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "SanDisk $1,000, congratulations to everyone\n\n$SNDK",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047682753765011661",
+      "kind": "post",
+      "engagement": {
+        "views": 74592,
+        "likes": 1324,
+        "reposts": 29,
+        "replies": 25
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048704086477013245",
+      "date": "2026-04-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "Morgan Stanley expects SanDisk’s Q2 gross margin to reach 78.4%.\n\n$SNDK https://t.co/5v19hDno4X",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2048704070593232896",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HG51f2mbQAAh4Bk.jpg",
+          "width": 2296,
+          "height": 558,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2048704086477013245",
+      "kind": "post",
+      "engagement": {
+        "views": 106448,
+        "likes": 972,
+        "reposts": 69,
+        "replies": 28
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048979088413737219",
+      "date": "2026-04-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "NAND related update:\n\nNVIDIA still does not appear interested in HBF. Its view is that HBF’s high bandwidth can be sufficiently addressed with eSSDs.\n\nThere were recent reports that SanDisk had issued POs related to HBF, and the customer SanDisk is believed to be in discussions with is Google. Google currently appears to be the most aggressive player pushing HBF.\n\nSK hynix is more proactive on HBF than Samsung. Still, both Samsung and SK hynix are likely to unveil HBF samples and begin customer qualification in the second half of this year.\n\n$SNDK",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048979088413737219",
+      "kind": "post",
+      "engagement": {
+        "views": 54601,
+        "likes": 344,
+        "reposts": 37,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2049847048690938030",
+      "date": "2026-04-30",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "NAND is emerging as key element extending memory hierarchy in AI infrastructure",
+        "NAND offers overwhelmingly lower cost per GB than DRAM",
+        "offloading AI workloads to NAND lowers system-wide cost per token"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "KIS, which I consider one of the top three Korean sell-side firms, published a memory report, and there’s a comment from it that I wanted to share with you all:\n\nMemory is the critical variable that determines GPU utilization. In particular, when HBM and DRAM capacity is insufficient, memory bottlenecks prevent GPUs from being fully utilized, leading to a decline in overall system efficiency. Conversely, expanding memory capacity raises GPU utilization, allowing the same GPU resources to process a greater number of tokens. This translates directly into a lower cost per token. As cost per token falls, more users are drawn in, ultimately driving a larger expansion in inference demand. This is precisely why hyperscalers, despite rising memory ASPs, are willing to go as far as proposing long-term supply agreements in order to secure greater memory allocation. The cost of purchasing memory rises, but at the same time, that purchase improves GPU utilization—lifting overall system efficiency and lowering cost per unit of performance.\n\nWith DRAM prices having spiked roughly 3x year-over-year in a short span, the market is now bracing for a subsequent decline in demand or prices. But this view stems from looking at memory purely as a standalone cost line item. Even if DRAM is purchased at 3x the price, if that spending allows more GPUs to run and more tokens to be processed, system-wide profitability can actually improve. The fate of the chips that once tried to challenge NVIDIA GPUs by leaning on MLPerf benchmarks—touting per-chip performance-per-watt and price-performance comparisons—illustrates this well. As Jensen Huang has repeatedly emphasized, comparing single-chip specs in isolation is meaningless. Huang has stated that NVIDIA GPUs deliver the lowest cost per token in the world, adding that the lowest cost per token and the highest performance per watt are the decisive metrics of AI economics. In other words, his consistent argument is that competition should not be waged on GPU hardware specs alone, but rather on cost per token at the full-system level. The same logic extends to memory. If \"buying memory at a premium still pays off at the system level,\" then memory purchases by hyperscalers locked in the AI arms race will continue.\n\nThe same logic applies to NAND. Active efforts are underway to integrate NAND into AI infrastructure systems. Some argue that wider NAND adoption will eat into DRAM demand, but this too misreads the memory market as a zero-sum game with a fixed pie. As AI workloads have grown, the upper tiers of the memory hierarchy—HBM and DRAM—alone can no longer accommodate the demand, and NAND has emerged as a key element in extending that hierarchy. NAND, in particular, offers an overwhelmingly lower cost per unit of capacity than DRAM. As of Q1 2026, NAND prices stand at roughly $0.10–$0.12 per GB, whereas DRAM—even mobile DRAM, the lowest-priced application segment—has already surpassed $6 per GB on a contract basis. Even if NAND prices were to double or triple, they would still remain far below DRAM. If even a portion of AI workloads can be offloaded to NAND, it can directly contribute to lowering system-wide cost per token.\n\n$DRAM $MU $SNDK",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2049847048690938030",
+      "kind": "post",
+      "engagement": {
+        "views": 80776,
+        "likes": 462,
+        "reposts": 59,
+        "replies": 32
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051169584577945971",
+      "date": "2026-05-04",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "author rhetorically asks if reader is still not bullish on NAND"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "Are you still not bullish on NAND, anon?\n\n$SNDK https://t.co/qYczvmy6Sm",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2051169481641394176",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHc3xqdbgAAXdsu.jpg",
+          "width": 2418,
+          "height": 1390,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2051169584577945971",
+      "kind": "post",
+      "engagement": {
+        "views": 101020,
+        "likes": 1109,
+        "reposts": 112,
+        "replies": 33
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051996115093033426",
+      "date": "2026-05-06",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "Most-bought U.S. stocks by Koreans over the past month:\n\n1. $SOXL\n2. $INTC\n3. $DRAM\n4. $SNDK https://t.co/hqB8ioxMG5",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2051996110034739200",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHonlxMaoAAvmBa.jpg",
+          "width": 1132,
+          "height": 331,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2051996115093033426",
+      "kind": "post",
+      "engagement": {
+        "views": 157486,
+        "likes": 1034,
+        "reposts": 64,
+        "replies": 53
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2053654494383411591",
+      "date": "2026-05-10",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SNDK",
+      "text": "HOLY SMOKE.\n\nWhat the hell is this?? Memory prices are going absolutely insane.\n\n$DRAM $MU $SNDK https://t.co/rIRjSUyYDd",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2053654259250720768",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIALqwYbcAAlpEm.jpg",
+          "width": 3554,
+          "height": 1600,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2053654494383411591",
+      "kind": "post",
+      "engagement": {
+        "views": 1513348,
+        "likes": 2599,
+        "reposts": 216,
+        "replies": 117
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2062014627521986600",
+      "date": "2026-06-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SanDisk",
+      "text": "China already has a NAND market share comparable to Micron and SanDisk.... https://t.co/wAX2pLZwxX https://t.co/Czo0iZAuyP",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2062014618554527744",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJ2_Xtya8AAsZqX.jpg",
+          "width": 2048,
+          "height": 1251,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2062014627521986600",
+      "kind": "post",
+      "engagement": {
+        "views": 248949,
+        "likes": 1130,
+        "reposts": 138,
+        "replies": 36
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-03-26",
+      "close": 603.17
+    },
+    {
+      "date": "2026-03-27",
+      "close": 615.83
+    },
+    {
+      "date": "2026-03-30",
+      "close": 572.5
+    },
+    {
+      "date": "2026-03-31",
+      "close": 635.34
+    },
+    {
+      "date": "2026-04-01",
+      "close": 692.73
+    },
+    {
+      "date": "2026-04-02",
+      "close": 701.59
+    },
+    {
+      "date": "2026-04-06",
+      "close": 724.63
+    },
+    {
+      "date": "2026-04-07",
+      "close": 710.8
+    },
+    {
+      "date": "2026-04-08",
+      "close": 780.9
+    },
+    {
+      "date": "2026-04-09",
+      "close": 851.57
+    },
+    {
+      "date": "2026-04-10",
+      "close": 851.77
+    },
+    {
+      "date": "2026-04-13",
+      "close": 952.5
+    },
+    {
+      "date": "2026-04-14",
+      "close": 944.46
+    },
+    {
+      "date": "2026-04-15",
+      "close": 891.72
+    },
+    {
+      "date": "2026-04-16",
+      "close": 919.47
+    },
+    {
+      "date": "2026-04-17",
+      "close": 920.99
+    },
+    {
+      "date": "2026-04-20",
+      "close": 913.02
+    },
+    {
+      "date": "2026-04-21",
+      "close": 903.49
+    },
+    {
+      "date": "2026-04-22",
+      "close": 979.07
+    },
+    {
+      "date": "2026-04-23",
+      "close": 932.43
+    },
+    {
+      "date": "2026-04-24",
+      "close": 989.9
+    },
+    {
+      "date": "2026-04-27",
+      "close": 1070.2
+    },
+    {
+      "date": "2026-04-28",
+      "close": 1002.35
+    },
+    {
+      "date": "2026-04-29",
+      "close": 1064.21
+    },
+    {
+      "date": "2026-04-30",
+      "close": 1096.51
+    },
+    {
+      "date": "2026-05-01",
+      "close": 1187.0
+    },
+    {
+      "date": "2026-05-04",
+      "close": 1255.86
+    },
+    {
+      "date": "2026-05-05",
+      "close": 1406.3199
+    },
+    {
+      "date": "2026-05-06",
+      "close": 1409.98
+    },
+    {
+      "date": "2026-05-07",
+      "close": 1339.96
+    },
+    {
+      "date": "2026-05-08",
+      "close": 1562.34
+    },
+    {
+      "date": "2026-05-11",
+      "close": 1547.5601
+    },
+    {
+      "date": "2026-05-12",
+      "close": 1452.02
+    },
+    {
+      "date": "2026-05-13",
+      "close": 1447.23
+    },
+    {
+      "date": "2026-05-14",
+      "close": 1382.72
+    },
+    {
+      "date": "2026-05-15",
+      "close": 1407.61
+    },
+    {
+      "date": "2026-05-18",
+      "close": 1333.01
+    },
+    {
+      "date": "2026-05-19",
+      "close": 1383.29
+    },
+    {
+      "date": "2026-05-20",
+      "close": 1392.5601
+    },
+    {
+      "date": "2026-05-21",
+      "close": 1542.24
+    },
+    {
+      "date": "2026-05-22",
+      "close": 1478.6899
+    },
+    {
+      "date": "2026-05-26",
+      "close": 1589.55
+    },
+    {
+      "date": "2026-05-27",
+      "close": 1589.9399
+    },
+    {
+      "date": "2026-05-28",
+      "close": 1641.64
+    },
+    {
+      "date": "2026-05-29",
+      "close": 1694.98
+    },
+    {
+      "date": "2026-06-01",
+      "close": 1761.4301
+    },
+    {
+      "date": "2026-06-02",
+      "close": 1716.36
+    },
+    {
+      "date": "2026-06-03",
+      "close": 1831.5
+    },
+    {
+      "date": "2026-06-04",
+      "close": 1759.6801
+    },
+    {
+      "date": "2026-06-05",
+      "close": 1559.3199
+    },
+    {
+      "date": "2026-06-08",
+      "close": 1642.0
+    },
+    {
+      "date": "2026-06-09",
+      "close": 1646.54
+    },
+    {
+      "date": "2026-06-10",
+      "close": 1643.23
+    },
+    {
+      "date": "2026-06-11",
+      "close": 1881.51
+    },
+    {
+      "date": "2026-06-12",
+      "close": 1980.1
+    },
+    {
+      "date": "2026-06-15",
+      "close": 2107.8601
+    },
+    {
+      "date": "2026-06-16",
+      "close": 1991.55
+    },
+    {
+      "date": "2026-06-17",
+      "close": 1958.8
+    },
+    {
+      "date": "2026-06-18",
+      "close": 2184.75
+    },
+    {
+      "date": "2026-06-22",
+      "close": 2273.73
+    }
+  ],
+  "price_status": "ok"
+}

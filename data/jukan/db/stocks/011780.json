@@ -1,0 +1,42 @@
+{
+  "ticker": "011780",
+  "cashtag": "Kumho Petrochemical",
+  "price_symbol": "011780",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-01",
+  "last_mention": "2026-04-01",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2039312098229199110",
+      "date": "2026-04-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kumho Petrochemical",
+      "text": "Plastics for Semiconductors See Price Hikes Too… Suppliers Notify 5–20% Increases\n\nAs oil prices continue to rise amid the prolonged Iran crisis, the semiconductor industry has now entered the impact zone — with engineering plastics (EP), derived from refined crude oil, seeing price increases.\n\nAccording to industry sources on April 1, Kumho Petrochemical and Japan's Mitsubishi Chemical, among others, have recently notified domestic semiconductor equipment companies of engineering plastic price hikes. Plastics used in equipment and related components account for 10–20% of material costs. The increases range from a minimum of 5% to a maximum of 20% depending on the product, with higher-priced raw materials receiving relatively smaller percentage increases. Plastic supply prices span a very wide range, from $100 to $50,000 per kilogram.\n\nEngineering plastics are heat- and impact-resistant while enabling 20–30% weight reduction compared to conventional metal parts. In semiconductor processes, they are primarily used in precision machining operations. For example, in the chemical mechanical planarization (CMP) process, plastics are used as abrasive materials in the step where carrier wafers are detached. Using metals in this step could generate particles (contaminants) that critically affect yields. These components are priced at approximately KRW 5 million per unit, with plastics accounting for around 20% of the cost.\n\nThe semiconductor equipment industry is closely monitoring the situation for now. One industry executive said, \"Equipment companies are absorbing the plastic price increases for the time being,\" adding, \"but if the situation drags on, there are concerns about margin deterioration, so we need to keep watching.\" That said, companies with low plastic content in their equipment are expected to see limited direct impact.\n\nWith crude oil prices having more than doubled around the time of the military conflict, plastic supply prices from suppliers other than Mitsubishi Chemical are also reported to have risen in tandem. Materials companies typically sign contracts with raw material suppliers on 5–6 month cycles. Most contracts were executed before the Iran crisis, but there is a growing trend of sharing the cost increases with customers in consideration of long-term partnerships.\n\nA materials industry executive noted, \"Crude oil suppliers are asking us to share the burden as shipping insurance premiums and oil prices have surged due to the Middle East conflict,\" adding, \"Unlike in the past, this is now a supplier-dominated market, so those on the procurement side have little choice but to tread carefully.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2039312098229199110",
+      "kind": "post",
+      "engagement": {
+        "views": 13261,
+        "likes": 64,
+        "reposts": 7,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

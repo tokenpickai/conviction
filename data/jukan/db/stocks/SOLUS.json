@@ -1,0 +1,51 @@
+{
+  "ticker": "SOLUS",
+  "cashtag": "Solus Advanced Materials",
+  "price_symbol": "SOLUS",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-01",
+  "last_mention": "2026-06-01",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2061594665938530791",
+      "date": "2026-06-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Solus Advanced Materials",
+      "text": "[Exclusive] Lotte Energy Materials to Supply AI Circuit Foil to NVIDIA Starting This Month\n\nLotte Energy Materials will begin supplying AI circuit foil used in NVIDIA's next generation graphics processing units (GPUs) in earnest starting this month. The company had originally planned to begin supply in the second half of this year, but moved up the timeline at NVIDIA's request. In preparation for an aggressive capacity buildout, Lotte Energy Materials is understood to have recently placed a bulk order with a partner for more than ten times its previous volume of copper.\n\nAccording to industry sources on the 1st, Lotte Energy Materials will begin full scale shipments of AI circuit foil from its Iksan plant in North Jeolla Province this month. Circuit foil is an ultra thin metal sheet one twentieth the thickness of A4 paper. It is a foundational material used when AI accelerators process large volumes of data, and its supply price is more than three to four times higher than that of ordinary copper foil for electric vehicle batteries. Having designated AI circuit foil as its next growth driver, Lotte Energy Materials has converted the Iksan plant, which previously produced copper foil for EV batteries, into an AI circuit foil production line.\n\nOnce Lotte Energy Materials produces the circuit foil, Doosan Electro Materials BG manufactures the copper clad laminate (CCL) based on it, and Isu Petasys produces the printed circuit board (PCB), which is ultimately supplied to NVIDIA. Both companies will ramp up supply to NVIDIA this month.\n\nLotte Energy Materials is reducing the share of its core EV copper foil business and shifting its center of gravity toward AI circuit foil. It is currently producing circuit foil using part of the Iksan plant's production line, but next year it will transform the entire Iksan plant into a dedicated AI circuit foil production base. The company plans to increase capacity from 3,700 tons this year to 16,000 tons next year, and to add further production lines after 2028.\n\nThe high barriers to entry in the AI circuit foil market are another positive factor. Globally, the only players capable of mass producing AI circuit foil are Japan's Mitsui Mining & Smelting, and Korea's Lotte Energy Materials and Solus Advanced Materials. The frontrunner, Mitsui, has been unable to keep up with explosive demand due to a recently stalled expansion schedule, while Solus Advanced Materials has sold off the relevant subsidiary. An industry official said, \"AI circuit foil requires highly advanced rolling technology, so it is difficult to convert a line in a short period of time,\" adding that \"this is effectively an opportunity for Lotte to seize leadership of the market.\"\n\nThe market views this as the Lotte Group, which had been sidelined during the AI boom, making a full fledged entry into the NVIDIA value chain. On the day, Lotte Energy Materials closed at 64,300 won, up 14.62% from the previous trading session.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2061594640814657536",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJxBZyybUAAR7y-.jpg",
+          "width": 1200,
+          "height": 765,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2061594665938530791",
+      "kind": "post",
+      "engagement": {
+        "views": 149922,
+        "likes": 228,
+        "reposts": 33,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

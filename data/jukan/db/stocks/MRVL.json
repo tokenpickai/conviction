@@ -8,10 +8,423 @@
   "company": "Marvell",
   "industry": "AI Semis/CPO",
   "thesis_summary": "当天主要在陈述供应链关系/背景,未明确表态。",
-  "first_mention": "2026-06-16",
+  "first_mention": "2026-03-31",
   "last_mention": "2026-06-16",
-  "total_mentions": 1,
+  "total_mentions": 17,
   "mentions": [
+    {
+      "tweet_id": "2038951257306775645",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MARVELL TECHNOLOGY",
+      "text": "*NVIDIA INVESTS $2B IN MARVELL TECHNOLOGY\n\n????",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2038951257306775645",
+      "kind": "post",
+      "engagement": {
+        "views": 132392,
+        "likes": 358,
+        "reposts": 9,
+        "replies": 38
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2042152380934893600",
+      "date": "2026-04-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Marvell Technology",
+      "text": "When will CPO actually see mass production?-Digitimes\n\nThe market continues to closely watch the deployment of co-packaged optics (CPO) technology in cloud AI, driven by the desire of the silicon photonics (SiPh) ecosystem to see a tangible revenue impact. Cloud AI vendors are also hoping that adopting SiPh will simultaneously improve both cost efficiency and computational performance limits.\n\nFrom the supply chain perspective, however, actual mass production of CPO-related products in 2026 remains very limited, and widespread scaling is still some way off. Nvidia remains the most urgent in pushing for mass production. It has been the most aggressive company in advancing CPO deployment within the SiPh boom. Since 2025, it has continually urged suppliers to prepare mass production capabilities, placing substantial pressure on vendors.\n\nBecause production and validation are highly challenging, yields still have room for improvement. To implement CPO at scale in AI data centers, production yields must reach sufficiently high levels for cost efficiency to surpass existing solutions. Although progress is being made on the production side, it remains the largest bottleneck recognized by the ecosystem.\n\nCPO supply chain participants note that without the urgent demand for cloud AI upgrades driving substantial investment in CPO technology, breakthroughs could have taken much longer. Therefore, Nvidia's proactive push to deploy CPO has significantly benefited the broader ecosystem.\n\nSeveral major chip vendors already possess CPO technology. Besides Nvidia, key players such as Broadcom, Marvell Technology, and MediaTek have all explored the technology. Broadcom has been developing CPO for years and has begun initial shipments to customers.\n\nSupply chain sources expect Nvidia's mass production pace to outstrip others, largely because it actively urges its customers to accelerate deployment, emphasizing the significant computational benefits CPO brings to its system architecture. Broadcom and Marvell are relatively less aggressive in promoting their CPO solutions.\n\nCPO-related vendors stress that regardless of which company leads, market demand will continue to grow, benefiting all chipmakers and ecosystem partners. The only factor likely to limit industry growth remains production capacity and yield ceilings on the supply side.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2042152321665454080",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFcut34b0AAYJ7R.png",
+          "width": 640,
+          "height": 427,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2042152380934893600",
+      "kind": "post",
+      "engagement": {
+        "views": 117903,
+        "likes": 185,
+        "reposts": 17,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044032675384832496",
+      "date": "2026-04-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MRVL",
+      "text": "Oh my god lol, $MRVL is talking with Google about TPU? @FundaAI",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044032675384832496",
+      "kind": "post",
+      "engagement": {
+        "views": 111615,
+        "likes": 306,
+        "reposts": 6,
+        "replies": 14
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044750394719715585",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Marvell",
+      "text": "JPM's supply chain survey indicates that Google is developing an SRAM-based compute engine in collaboration with Marvell (a concept similar to NVIDIA's Groq LPU), and this is expected to negatively impact MediaTek's TAM. (@FundaAI made a really impressive call.)\n\nAdditionally, JPM forecasts that in Google's TPU v9, $AVGO (Broadcom) is highly likely to be the sole supplier using TSMC's CoWoS-L technology.\n(Bearish on $INTC's EMIB-T?)",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044750394719715585",
+      "kind": "post",
+      "engagement": {
+        "views": 61004,
+        "likes": 271,
+        "reposts": 13,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045853008081420654",
+      "date": "2026-04-19",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "Google designing two ASICs with Marvell — one memory processing unit alongside TPUs, one new TPU for running AI models"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MRVL",
+      "text": "THE INFORMATION: GOOGLE IS DESIGNING TWO ASICS WITH MARVELL\n\nTHE INFORMATION: ONE IS A MEMORY PROCESSING UNIT DESIGNED TO WORK ALONGSIDE GOOGLE’S TENSOR PROCESSING UNITS (TPUS), AND THE OTHER IS A NEW TPU OPTIMIZED FOR RUNNING AI MODELS.\n\n$MRVL",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2045853008081420654",
+      "kind": "post",
+      "engagement": {
+        "views": 396557,
+        "likes": 1485,
+        "reposts": 87,
+        "replies": 47
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046200428376002883",
+      "date": "2026-04-20",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MRVL",
+      "text": "JPM wasn’t saying this directly — these were the MRVL bulls’ arguments. And the bulls were also claiming that Google and MRVL are discussing an LPU project. https://t.co/eeatqoNyXf",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046200428376002883",
+      "kind": "post",
+      "engagement": {
+        "views": 31520,
+        "likes": 132,
+        "reposts": 2,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046204646726017027",
+      "date": "2026-04-20",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MRVL",
+      "text": "I genuinely didn’t know this. According to TrendForce, SoftBank’s ASIC project Izanagi was awarded to $AVGO, not $MRVL. https://t.co/4cChWRRYUr",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2046204101424472065",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGWTyftaYAEcVCP.jpg",
+          "width": 1080,
+          "height": 560,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2046204646726017027",
+      "kind": "post",
+      "engagement": {
+        "views": 69016,
+        "likes": 335,
+        "reposts": 30,
+        "replies": 17
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046719740664791275",
+      "date": "2026-04-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Marvell",
+      "text": "In the end, WSB was right again. I really didn’t expect POET to actually be a supplier to Marvell…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046719740664791275",
+      "kind": "post",
+      "engagement": {
+        "views": 282093,
+        "likes": 616,
+        "reposts": 21,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048622395255321029",
+      "date": "2026-04-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Marvell",
+      "text": "\"Positive implication — it opens ASIC opportunities with OpenAI. MTK could provide capability proven via TPU 8t tape-out with strong in back-end offerings (CoWoS/EMIB/InFO)\"\n\nThe ASIC design company next in line after Broadcom is not Marvell, but MediaTek.\n\nBut will OAI actually ditch Broadcom? I’m not sure about that.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048622395255321029",
+      "kind": "post",
+      "engagement": {
+        "views": 35022,
+        "likes": 130,
+        "reposts": 10,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048777474851610689",
+      "date": "2026-04-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Marvell",
+      "text": "I don’t have any position in $POET, and I never have, but this company is honestly ridiculous.\n\nThey had already been notified by Marvell on the 23rd that the contract was being terminated, yet they sat on it until today?\n\nWhat about the shareholders who bought in while the stock was rising in the meantime?\n\nYou deserve to be sued by your shareholders.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048777474851610689",
+      "kind": "post",
+      "engagement": {
+        "views": 207569,
+        "likes": 1519,
+        "reposts": 94,
+        "replies": 61
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2061654411559211502",
+      "date": "2026-06-01",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MRVL",
+      "text": "Jensen just said to Matt \"the next trillion dollar company - Marvell\"\n\n?\n\n$MRVL",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2061654411559211502",
+      "kind": "post",
+      "engagement": {
+        "views": 358695,
+        "likes": 1191,
+        "reposts": 59,
+        "replies": 60
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2061657341393846354",
+      "date": "2026-06-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MARVELL",
+      "text": "I SHOULD HAVE BOUGHT MARVELL WHILE I WAS TWEETING, DAMN IT!!! EVERYONE MADE MONEY EXCEPT ME!! https://t.co/Sbi4K3shiz",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2061657341393846354",
+      "kind": "post",
+      "engagement": {
+        "views": 124987,
+        "likes": 977,
+        "reposts": 12,
+        "replies": 54
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2061728423656210652",
+      "date": "2026-06-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$MRVL",
+      "text": "▶ Marvell CEO says copper wall is moving inside the rack, and copackaged optics is the only way through\n\n• Marvell CEO Matt Murphy emphasized at Computex 2026 that the next bottleneck in AI infrastructure is not compute or memory but connectivity.\n\n• The shift from copper to optical interconnect is already underway and is expected to trigger a large scale demand cycle within the semiconductor industry.\n\n• He highlighted Marvell’s sophisticated engineering capability, integrating advanced CMOS DSP, fourth generation SiPh, and SiGe based broadband analog technology through its Coherent optical modules.\n\n• Marvell’s first 102.4T switch dedicated to AI data centers, the Teralynx T100, is built on a 3nm process, draws under 1,000W, and delivers up to 25% lower power than competing solutions.\n\n• The T100 routes signals through copper traces on the PCB to optical modules on the front panel, whereas a CPO switch connects optical fiber directly to the package and removes copper wiring entirely.\n\n• The reach of copper cable is inversely proportional to bandwidth: at 100Gbps per lane it can carry signals about 5m, but at 200Gbps this shortens to roughly 2.5m, and at 400Gbps copper can no longer make connections even within the rack.\n\n• Each time the “copper wall” moves one step, the number of connections that must shift to optical increases at least tenfold, which is expected to drive explosive demand across the optics industry, and the Taiwan supply chain is already expanding to respond.\n\n• The number of connections inside a rack is roughly ten times the number of connections between racks, so conventional pluggable optical modules alone cannot address the power and space limits; CPO solves the connectivity problem by integrating the optical engine directly into the switch and compute package.\n\n• Nvidia’s Vera Rubin platform has already adopted Spectrum-X Ethernet Photonics, the first CPO based switch to enter mass production, a case showing that the CPO transition has moved beyond proof of concept into actual commercialization.\n\n• As optical connectivity extends into the server itself, compute, memory, and network resources can be disaggregated and dynamically configured per workload, enabling a shift from a fixed server architecture toward operating the entire data center as a single integrated system.\n\n• He stressed that the CPO transition is impossible without Taiwan’s manufacturing ecosystem, explaining that Marvell has accumulated high volume PAM4 production experience, field data, and supply chain infrastructure including ASE.\n\n• Over the past decade Marvell has invested a total of $36 billion to acquire companies such as Inphi, Cavium, and Celestial AI, expanding its connectivity portfolio.\n\n• He emphasized that Marvell is the only company able to address the full connectivity stack of an AI data center, from millimeter scale inside the package to kilometer scale between data centers.\n\n$MRVL",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2061728423656210652",
+      "kind": "post",
+      "engagement": {
+        "views": 336683,
+        "likes": 1577,
+        "reposts": 188,
+        "replies": 43
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2062123266668679514",
+      "date": "2026-06-03",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Marvell",
+      "text": "Funda AI: \"Marvell will design a networking chip for Google. This chip will be manufactured on Intel's 18A (or 18AP), with mass production scheduled to begin by the end of 2027, and it will be paired with the MediaTek-designed Humufish for Google.\"\n\n$INTC",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2062123266668679514",
+      "kind": "post",
+      "engagement": {
+        "views": 156873,
+        "likes": 892,
+        "reposts": 112,
+        "replies": 29
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065975102953632101",
+      "date": "2026-06-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Marvell",
+      "text": "Samsung Electro-Mechanics Expands Beyond MLCCs into Silicon Capacitor Business\n\nSamsung Electro-Mechanics is in discussions with multiple global Big Tech companies to supply silicon capacitors (Si-Cap) for AI servers. The company is rapidly emerging as a major supplier alongside Japan's Murata and Taiwan's TSMC.\n\nOn the 11th, Samsung Electro-Mechanics held a technology seminar at the Taepyeongno Building in Jung-gu, Seoul, where it shared its silicon capacitor technology and commercialization roadmap. Kim Won-gi, head of Samsung Electro-Mechanics' Si-Cap Development Group, said, \"Global Big Tech companies whose names you would immediately recognize are reviewing the adoption of silicon capacitors,\" adding, \"Because the market is formed around a small number of players, Samsung Electro-Mechanics is also aggressively pursuing sales activities.\"\n\nThe silicon capacitor market is led by Japan's Murata and Taiwan's TSMC. Barriers to entry are high because the business requires both semiconductor wafer process and passive component capabilities, and the number of suppliers is limited. Samsung Electro-Mechanics President Chang Duck-hyun is cultivating silicon capacitors as a core growth business in the company's push into the AI market.\n\nThe company made its full-scale entry into the market last year as it began supplying customers. It supplied products for the AI accelerators of Marvell—a leader in custom networking chips (ASICs)—and for the package of Samsung Electronics' mobile application processor (AP), the Exynos 2600, among others. More recently, it secured a supply contract worth 1.5 trillion won from a global Big Tech company—the largest single contract in Samsung Electro-Mechanics' history. The related revenue is scheduled to be reflected in earnings starting in 2027.\n\nSamsung Electro-Mechanics presented a \"total solution\" strategy—bundling its silicon capacitor, multilayer ceramic capacitor (MLCC), and package substrate businesses—as a differentiating factor. Silicon capacitors are mounted inside or adjacent to the package substrate. By supplying both products together, Samsung Electro-Mechanics can design and optimize the package and components simultaneously. Samsung Electro-Mechanics is the only company that operates both passive component and package substrate businesses.\n\nRather than building large-scale production facilities, the company has chosen a design-centric strategy. It employs a fabless model, outsourcing wafer production to foundries and componentization to specialized semiconductor back-end (OSAT) firms, while Samsung Electro-Mechanics handles product design, testing, and quality verification. The company has a silicon capacitor design and development organization at its Central Research Institute in Suwon.\n\nSamsung Electro-Mechanics' silicon capacitors are manufactured on a 300-millimeter (mm) wafer basis.\n\nA silicon capacitor is a passive component made from a silicon wafer. It temporarily stores electricity and supplies it when needed, keeping the voltage inside the semiconductor package stable. Whereas conventional MLCCs secure capacitance by stacking multiple layers of ceramic, silicon capacitors bore microscopic holes into a wafer and place electrodes inside them. This allows the thickness to be reduced to 100 micrometers (㎛) or less.\n\nSamsung Electro-Mechanics drew its business idea from DRAM technology. DRAM uses a capacitor inside each cell to store data. Samsung Electro-Mechanics developed the silicon capacitor by taking just the capacitor portion of this structure and advancing it into a separate component. The fine-process technology it accumulated while shrinking DRAM circuit linewidths was transferred directly into silicon capacitor development. The more microscopic holes formed in the wafer, the greater the capacitance a silicon capacitor can achieve.\n\nThere are differences in silicon capacitor technology between competitors. Samsung Electro-Mechanics utilizes a DRAM-based structure, while TSMC is known to use a logic-process-based trench structure. Samsung Electro-Mechanics mass-produces its products on a 300mm wafer basis, the type primarily used for memory semiconductors.\n\nSamsung Electro-Mechanics projected that the silicon capacitor market will grow at an average annual rate of more than 18%. Its scope of application is expanding from a mobile focus into AI servers, automotive electronics, aerospace, and optical communications. AI servers in particular are emerging as the largest source of demand, as power density increases and package integration intensify simultaneously.\n\nKim said, \"The higher semiconductor performance becomes, the more important power stabilization becomes,\" adding, \"Silicon capacitors will see their range of application continuously expand in the AI server and next-generation high-performance semiconductor markets.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2065975065813176320",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKvRYFib0AA4mMq.png",
+          "width": 600,
+          "height": 450,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2065975102953632101",
+      "kind": "post",
+      "engagement": {
+        "views": 58698,
+        "likes": 294,
+        "reposts": 40,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066520006213701970",
+      "date": "2026-06-15",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MRVL",
+      "text": "RT @sssjeffpu: Abstract of Marvell (MRVL) Note\n\n🚄 Custom XPUs, Google attach silicon (multi-billion TAM), AI interconnects\n•Google’s CXL/DP…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2066520006213701970",
+      "kind": "post",
+      "engagement": {
+        "views": 8,
+        "likes": 0,
+        "reposts": 27,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2067092746364748272",
       "date": "2026-06-16",
@@ -37,7 +450,7 @@
       "url": "https://x.com/jukan05/status/2067092746364748272",
       "kind": "post",
       "engagement": {
-        "views": 148674,
+        "views": 148679,
         "likes": 390,
         "reposts": 52,
         "replies": 15
@@ -64,7 +477,5 @@
       "close": 307.86
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-23T19:16:20.889012+00:00"
+  "price_status": "ok"
 }

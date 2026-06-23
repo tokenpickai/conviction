@@ -1,0 +1,70 @@
+{
+  "ticker": "HOLY STONE",
+  "cashtag": "Holy Stone",
+  "price_symbol": "HOLY STONE",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-27",
+  "last_mention": "2026-06-14",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2059498535918456961",
+      "date": "2026-05-27",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "extended lead times and utilization approaching full capacity",
+        "led by high-voltage MLCCs for AI power",
+        "positioned as biggest beneficiary of GPU platform generational transition after Vera Rubin launch"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Holy Stone",
+      "text": "- China's largest passive component maker, Fenghua Advanced Technology, has suspended order intake across all 0402/0603-size chip resistors and MLCC product lines in response to surging orders.\n\n- The company said order volumes for its RC/RS series 0402/0603 resistors have spiked, with unfilled backlog now far exceeding current production capacity; utilization has already reached roughly 90%.\n\n- The supply chain attributes the order concentration to expanded preemptive (pull-in) ordering aimed at securing inventory, amplified by fears of supply shortages.\n\n- The industry reads the surge in forward orders as the product of shortage fears in high-spec passive components colliding with the need to rebuild inventory. An order suspension is typically interpreted as a signal of an oncoming price-hike cycle.\n\n- With inventory levels drawing down on recovering Chinese-market and automotive demand, and chip-resistor costs pressured by rising silver prices, the high-spec passive component shortage is expected to widen further.\n\n- Rising silver prices in particular are weighing on chip-resistor costs, and the high-spec MLCC shortage could intensify further in 2027.\n\n- Major Asian MLCC makers have likewise entered full-capacity production: Murata's and Samsung Electro-Mechanics' utilization rates have surpassed 90%, with Samsung Electro-Mechanics' Tianjin plant already running flat out.\n\n- Holy Stone and PDC are similarly seeing extended lead times and utilization approaching full capacity, led by high-voltage MLCCs for AI power.\n\n- Once the Vera Rubin platform launches in the second half, the supply squeeze on non-AI products is expected to intensify, positioning high-voltage MLCC makers as the biggest beneficiaries of the GPU platform generational transition.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2059498535918456961",
+      "kind": "post",
+      "engagement": {
+        "views": 181200,
+        "likes": 377,
+        "reposts": 50,
+        "replies": 16
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066017599553696140",
+      "date": "2026-06-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Holy Stone",
+      "text": ">>MLCC Industry Faces \"Longest Shortage Cycle in History\"… Supply Deficit Expected to Persist Beyond 2027\n\n- Major Taiwanese MLCC makers—Yageo, Walsin, Holy Stone, and PDC—are strongly upbeat on the industry outlook, driven by AI demand. The industry believes this shortage could surpass the 2018 passive component supercycle.\n\n- Walsin in particular projected that the MLCC shortage could persist beyond 2027. The company expects demand to rise even further once AI PCs and AI edge devices—markets far larger than AI servers—begin to proliferate in earnest.\n\n- Yageo's book-to-bill (BB) ratio has already moved above 1.3x, and the company is responding to rising orders by ramping line utilization and clearing bottlenecks.\n\n- That said, the pace of capacity expansion is constrained by equipment shortages. According to Holy Stone, lead times for high-end MLCC production equipment run 1 to 1.5 years, making capacity additions difficult. Holy Stone expects capacity to grow +20~30% YoY this year and a further +30~40% in 2027, but warned that next year's supply shortage could in fact intensify.\n\n- Walsin is likewise tripling CAPEX this year and pursuing capacity expansion for a second consecutive year, but noted that lead times from Japanese equipment vendors run 6 to 12 months, making it hard for supply growth to keep pace with demand. AI infrastructure demand, in its view, is only just beginning.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2066017599553696140",
+      "kind": "post",
+      "engagement": {
+        "views": 117376,
+        "likes": 480,
+        "reposts": 67,
+        "replies": 24
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

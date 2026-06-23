@@ -1,0 +1,42 @@
+{
+  "ticker": "6531",
+  "cashtag": "AP Memory (6531 TT)",
+  "price_symbol": "6531",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-27",
+  "last_mention": "2026-04-27",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2048683483929919806",
+      "date": "2026-04-27",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AP Memory (6531 TT)",
+      "text": "GF Overseas Electronics & Telecom\n☄️ MediaTek (2454 TT, Buy): Two More Things!\n\n☀️ What’s new? Meta!\nSince we published our MediaTek report on March 25, MediaTek’s share price has risen 50%, driven by multiple brokerages upgrading the stock and highlighting its Google TPU potential, while our earnings forecasts remain the highest on the Street. We now see increasing opportunities for MediaTek to win more customers.\n\nRegarding Meta, we are highly positive on its next-generation AR glasses. The product will use two SRAM chips supplied by AP Memory (6531 TT) and one SoC supplied by MediaTek, replacing Qualcomm, with mass production targeted for the end of 2027. Following the success of Meta’s Ray-Ban Display glasses, we expect this product to reach annual shipments of 6–7 million units.\n\nOn the ASIC side, we expect MediaTek management to continue emphasizing its second ASIC customer during the upcoming earnings call, and we believe the company is targeting the Astrid and Apollo projects.\n\n☀️ What’s new? OpenAI!\nIn addition to the new Meta catalyst, we now believe MediaTek is highly likely to win the bid for OpenAI’s edge AI project, as the product SKU is focused on the mid-range market. We expect the project to be an N3-based SoC — with the modem still undecided — and to fully integrate OpenAI’s AI model.\n\nThe bidding process is ongoing, with tape-out targeted for 1H27. Regardless of shipment volume, we believe the symbolic significance of this cooperation would be very positive, as it could open the door for MediaTek to pursue ASIC collaboration opportunities with OpenAI.\nThat said, MediaTek’s capabilities have, at least for now, been validated through the TPU 8t tape-out, and the company can offer multiple backend solutions — including CoWoS, EMIB, and InFO — to compete for ASIC projects in what is currently the industry bottleneck.\n\n☀️ Target price raised to NT$2,850; reiterating the views from our March 25 TPU upgrade report\nWe reiterate the core views from our March 25 report:\n\n1. The early redesign issues for v8x, i.e. 8t, have been quickly resolved, and risk production is now targeted for May.\n2. MediaTek’s v8x CoWoS capacity allocation for 2027 has been raised from 70,000 wafers to 160,000 wafers, corresponding to 3.2 million packaged chips.\n3. Humufish has an ASP of US$15,000, with shipments reaching 3.5 million units by the end of 2028.\n4. Intel’s EMIB can support 9x to 12x reticle-size packages, but constraints in silicon capacitors and substrates are worth monitoring.\n\nBased on a minor earnings adjustment from raising the average selling price of TPU 8t to US$4,400, we raise our 2026/2027 EPS estimates by 1%/4%, respectively. Applying 25x 2027 P/E, we raise our target price from NT$2,750 to NT$2,850 and reiterate our Buy rating.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048683483929919806",
+      "kind": "post",
+      "engagement": {
+        "views": 67217,
+        "likes": 80,
+        "reposts": 9,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

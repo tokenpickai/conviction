@@ -1,0 +1,108 @@
+{
+  "ticker": "603986",
+  "cashtag": "GigaDevice",
+  "price_symbol": "603986.SS",
+  "exchange": "Shanghai",
+  "currency": "CNY",
+  "ticker_mapped": true,
+  "company": "GigaDevice",
+  "industry": "Memory/MCU Semiconductors",
+  "thesis_summary": null,
+  "first_mention": "2026-04-18",
+  "last_mention": "2026-05-18",
+  "total_mentions": 3,
+  "mentions": [
+    {
+      "tweet_id": "2045426271287644425",
+      "date": "2026-04-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "GigaDevice",
+      "text": "GigaDevice Teams Up with CXMT to Scale DRAM Business to $800 Million\n\nChinese fabless firm GigaDevice is set to meaningfully expand its DRAM business on the back of nearly KRW 1 trillion in related-party transactions. By combining CXMT's (ChangXin Memory Technologies) production capacity with GigaDevice's distribution network, the move is seen as an attempt to amplify their collective influence — and analysts suggest it could emerge as a new variable in the global supply landscape.\n\nAccording to industry sources, GigaDevice is scheduled to vote at its annual shareholders' meeting on the 24th on a proposal to purchase a total of USD 825 million (approximately KRW 1.2 trillion) worth of DRAM this year from ChangXin Technology (CXMT's parent) and CXMT itself. This represents roughly 6x the USD 173.42 million actually executed last year.\n\nThe transaction effectively binds DRAM production and sales within the same corporate family. CXMT will handle manufacturing, while GigaDevice will take charge of product development and market distribution. Given that Chairman Zhu Yiming concurrently chairs both CXMT and GigaDevice, the deal is being interpreted as more than a simple volume arrangement — rather, as a strategic move by China to simultaneously build out its own supply and distribution channels in the legacy DRAM space.\n\nGigaDevice has historically been a fabless company focused on NOR Flash and MCUs. With this transaction, however, it is expected to aggressively expand into directly developing and selling DRAM products — including DDR3, DDR4, and LPDDR4 — leveraging CXMT's manufacturing base. With commodity DRAM undersupply and rising prices persisting, this integrated production-and-sales structure is seen as increasing the potential for a reshuffling of the legacy DRAM market.\n\nIn particular, as surging AI server demand and the concentration of HBM production have pushed Samsung Electronics, SK Hynix, and Micron to shift capacity toward leading-edge products, commodity DRAM supply has become relatively tight.\n\nDaniel Niu, a researcher at Yole Group, noted that \"GigaDevice's move could intensify competitive pressure on incumbent DRAM suppliers such as Winbond, Nanya, and PSMC, as well as on fabless suppliers like ISSI.\"\n\nHe added, \"GigaDevice's DRAM revenue is expected to exceed USD 200 million in 2025,\" and projected that \"if increased supply coincides with a favorable pricing environment and a substantial portion of the procured DRAM translates into sales this year, DRAM revenue could approach USD 1 billion.\"\n\nThe global DRAM market is currently entrenched as a three-way oligopoly led by SK Hynix, Samsung Electronics, and Micron. However, should China — through intra-group collaboration — build price and volume competitiveness in legacy DRAM, observers note it could become a non-trivial source of pressure on the existing market order, particularly in the commodity product segment.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2045425618968539136",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGLPw2kacAAfUaq.png",
+          "width": 500,
+          "height": 378,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2045426271287644425",
+      "kind": "post",
+      "engagement": {
+        "views": 57240,
+        "likes": 129,
+        "reposts": 10,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045427046239936695",
+      "date": "2026-04-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "GigaDevice",
+      "text": "Bro, NYT — not the newspaper — is finished now lol. GigaDevice is teaming up with CXMT to mass-produce legacy DRAM. https://t.co/FCG3UlSCmy https://t.co/z4cSXoP7TW",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2045426920737984512",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGLQ8oCb0AA_rcO.png",
+          "width": 1196,
+          "height": 1100,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2045427046239936695",
+      "kind": "post",
+      "engagement": {
+        "views": 37878,
+        "likes": 154,
+        "reposts": 9,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2056364715685904720",
+      "date": "2026-05-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "GigaDevice",
+      "text": "@SouthernValue95 @lokoyacap CXMT does not seem willing to cut prices in the near term…\n\nCXMT and GigaDevice share the same founder, and CXMT raised the price of shipments to GigaDevice by 4x.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2056364715685904720",
+      "kind": "reply",
+      "engagement": {
+        "views": 1638,
+        "likes": 10,
+        "reposts": 1,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

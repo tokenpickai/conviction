@@ -1,0 +1,42 @@
+{
+  "ticker": "NAND_SECTOR",
+  "cashtag": "NAND",
+  "price_symbol": "NAND_SECTOR",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-04",
+  "last_mention": "2026-06-04",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2062679134569198029",
+      "date": "2026-06-04",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "NAND",
+      "text": "\"BNP Paribas analyst Karl Ackerman expects the average selling prices (ASPs) of DRAM and NAND — which surged on AI demand — to peak in mid-2026, much earlier than his original forecast of mid-2027, before turning into quarter-over-quarter declines starting early next year. He argues that this is driven by aggressive capacity expansion from Chinese memory makers such as CXMT and YMTC, combined with reduced memory consumption from other industries due to soaring prices, including a 14% decline in global smartphone shipments this year. He also noted that growing concerns over future oversupply and margin deterioration within the next one to two years are beginning to weigh on the sector in advance.\"\n\nI’m trying to remember the name of this analyst.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2062679134569198029",
+      "kind": "post",
+      "engagement": {
+        "views": 328943,
+        "likes": 745,
+        "reposts": 88,
+        "replies": 33
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

@@ -1,0 +1,51 @@
+{
+  "ticker": "AIRLIQUIDE",
+  "cashtag": "Air Liquide",
+  "price_symbol": "AIRLIQUIDE",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-03-31",
+  "last_mention": "2026-03-31",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2038897004122976366",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Air Liquide",
+      "text": "Samsung, SK Hynix Move to Stabilize Helium Supply Chain for Semiconductors Amid Prolonged Iran War\n\nSamsung Electronics and SK Hynix are strengthening their helium supply chains for semiconductor manufacturing in preparation for a prolonged Iran war. Their strategy involves identifying additional supplier countries beyond the existing Middle Eastern sources and adjusting import volume ratios to maintain a stable supply chain.\n\nAccording to industry sources on the 31st, Samsung Electronics and SK Hynix have begun managing their semiconductor-grade helium supply chains as concerns over a prolonged Iran war intensify.\n\nSamsung Electronics is reportedly compiling a list of countries capable of supplying helium outside the Middle East. Given the high share of Middle Eastern helium in its current imports, the company is seeking to secure additional sources.\n\nAccording to the Korea International Trade Association, Qatar was Korea’s largest helium supplier last year, accounting for 64.7% of import volume by weight, followed by the U.S. (27.1%), Russia (6.2%), and China (1.7%).\n\nSamsung Electronics is evaluating additional helium suppliers from countries where geopolitical risk can be minimized. As the current supply instability stems from the Iran war, the company is working to mitigate potential future risks.\n\nAn industry official noted, “It won’t be easy to increase volumes from Russia, which is still at war, or China, where trade tensions are a concern,” adding that “the most likely options are increasing supply from the U.S. or expanding sourcing to major producing countries such as Algeria.” Samsung Electronics reportedly excluded sourcing helium from conflict-affected nations from the outset.\n\nThe company also plans to maximize use of its helium recycling technology, which it became the first in the industry to deploy on production lines last year.\n\nSK Hynix is similarly formulating strategies for a stable helium supply chain, planning to adjust import share ratios by country. SK Hynix is also expected to minimize helium procurement from conflict-affected nations.\nHelium is used in semiconductor processes for cryogenic cooling and high-purity cleaning. It is an essential gas for cooling wafers, removing impurities, and improving semiconductor yields.\n\nThe Iran war has impacted Qatar — Korea’s largest helium import source — raising red flags for domestic semiconductor manufacturers’ supply chains.\n\nSamsung Electronics and SK Hynix currently hold approximately six months’ worth of helium inventory and maintain that short-term impact will be limited. However, a prolonged Iran war could disrupt supply, prompting the preemptive response.\nBoth companies are expected to share confirmed plans with their key helium suppliers and establish a full-scale response posture. Samsung and SK Hynix source helium through global industrial gas companies including Linde, Air Products, and Air Liquide, as well as select domestic suppliers.\n\nAn industry official commented, “Some impact such as helium price increases is unavoidable due to the Iran war, but given that supply chains are already diversified, there should be no immediate significant effect on semiconductor manufacturing,” adding that “the supply chain adjustments by Samsung Electronics and SK Hynix are preemptive, medium-to-long-term preparedness measures.“",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038896999114928128",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEueBKXa8AATjOx.jpg",
+          "width": 500,
+          "height": 334,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038897004122976366",
+      "kind": "post",
+      "engagement": {
+        "views": 35232,
+        "likes": 168,
+        "reposts": 26,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

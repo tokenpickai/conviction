@@ -1,0 +1,334 @@
+{
+  "ticker": "TXN",
+  "cashtag": "TI",
+  "price_symbol": "TXN",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": "Texas Instruments",
+  "industry": "Analog/Embedded Semiconductors",
+  "thesis_summary": null,
+  "first_mention": "2026-03-29",
+  "last_mention": "2026-04-27",
+  "total_mentions": 3,
+  "mentions": [
+    {
+      "tweet_id": "2038381107524284784",
+      "date": "2026-03-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Texas Instruments",
+      "text": "Beyond Memory to Non-Memory… Semiconductor Prices Rising Across the Board\n\nPrice increases are spreading not only in memory semiconductors but also across the non-memory space. Following the AI infrastructure investment boom that has driven up DRAM and NAND flash prices, supply disruptions and price hikes are now emerging in analog chips, power semiconductors, communications chips, and CPUs. The industry views this as a phase in which the AI-driven demand shock is propagating throughout the broader semiconductor ecosystem.\n\nAccording to industry sources on March 30, semiconductor prices are trending upward across the full spectrum of end markets, including PCs, automotive, and servers. Intel and AMD — the two dominant players in PC CPUs — are reportedly set to implement price increases, while semiconductor companies spanning automotive, power, and communications are raising prices in succession.\n\nPer market research firm TrendForce, Dutch automotive and industrial semiconductor company NXP is expected to begin raising prices starting next month. Texas Instruments (TI) and Infineon have also joined the price hike trend. STMicroelectronics, widely regarded as Europe's largest \"semiconductor department store,\" is also expected to pursue price increases. The pattern of price escalation originating in memory and spreading into analog and power semiconductors is becoming unmistakable.\n\nThe prevailing interpretation is that these price increases stem from a bottleneck in chip production: while automotive and industrial demand remains steady, a significant share of mature-node capacity at foundries such as TSMC and Samsung Electronics is being absorbed by AI and data center applications. As AI server buildouts drive up demand for power management ICs and peripheral chips, the push to pass through rising costs into pricing is intensifying.\n\nAn executive at a major domestic foundry commented, \"Given current foundry production trends and contract pricing, there is a strong likelihood of continued price adjustments going forward — particularly in power management semiconductors, industrial analog components, and select power switch product lines.\"\n\nCommunications chips and networking components are no exception. Broadcom recently disclosed that surging demand for AI chips and networking has pushed production capacity at its key manufacturing partner TSMC to a bottleneck. Considering that lead times for optical communications components such as lasers and PCBs have extended from existing order cycles to multi-month timelines, procurement pressure on high-performance networking chips and interconnect components appears to be mounting as well. Even though communications chips are not traded at standardized prices like memory, actual contract unit prices and supply terms are likely tightening.\n\nCPUs are also not immune to upward pricing pressure. According to recent reports from TrendForce and Tom's Hardware, Intel and AMD are pursuing average price increases of 10–15% on CPUs, citing expanded AI demand and supply constraints. Lead times for some PC OEMs — the time from order to delivery — have reportedly stretched from the typical one to two weeks to as long as six months. Should CPUs, the quintessential general-purpose compute chips, join the price hike procession, it would further reinforce the narrative that semiconductor price inflation is spreading beyond memory into the broader system semiconductor space.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038381082685644800",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEnIy35aoAA18g2.png",
+          "width": 616,
+          "height": 415,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038381107524284784",
+      "kind": "post",
+      "engagement": {
+        "views": 50246,
+        "likes": 196,
+        "reposts": 25,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047178442953953530",
+      "date": "2026-04-23",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Texas Instruments",
+      "text": ">> MCU Price Hike Cycle Goes Full Throttle… Sweeping Increases Across Global and Chinese Players\n\n• Entering 2026, MCU chip prices began rising from the start of the year and have sharply accelerated heading into Q2. Chinese local player Zhongwei Semiconductor fired the opening shot back in January by raising MCU prices by 15–50%, and the trend has since spread across the board in Q2.\n\n• In April, global players joined in. Texas Instruments, Infineon, and STMicroelectronics pushed through price hikes on select products effective April 1st, and in particular, TI's analog chips saw hikes of up to 85% in some cases, amplifying the shock to the market.\n\n• Chinese sell-side reports are flagging Espressif (乐鑫), GigaDevice, and Sino Wealth (中颖) as key beneficiaries. Bestechnic (恒玄), Amlogic (晶晨), and Espressif (乐鑫) are also being categorized as high-growth candidates with projected net profit growth of 30%+ over the next two years.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047178442953953530",
+      "kind": "post",
+      "engagement": {
+        "views": 31520,
+        "likes": 96,
+        "reposts": 12,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048911765279584366",
+      "date": "2026-04-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "TI",
+      "text": "FYI: Lead times for power semiconductors have become extremely stretched because of AI servers. According to industry sources, delivery times for some products from major suppliers such as Infineon, TI, and onsemi have extended to as long as 30 weeks.\n\nAs a result, the spillover effect appears to be reaching second- and third-tier Taiwanese players as well, including Panjit and Taiwan Semiconductor.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048911765279584366",
+      "kind": "post",
+      "engagement": {
+        "views": 139344,
+        "likes": 435,
+        "reposts": 27,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-03-30",
+      "close": 186.42
+    },
+    {
+      "date": "2026-03-31",
+      "close": 194.14
+    },
+    {
+      "date": "2026-04-01",
+      "close": 196.3
+    },
+    {
+      "date": "2026-04-02",
+      "close": 194.87
+    },
+    {
+      "date": "2026-04-06",
+      "close": 199.42
+    },
+    {
+      "date": "2026-04-07",
+      "close": 199.735
+    },
+    {
+      "date": "2026-04-08",
+      "close": 208.9
+    },
+    {
+      "date": "2026-04-09",
+      "close": 214.98
+    },
+    {
+      "date": "2026-04-10",
+      "close": 214.73
+    },
+    {
+      "date": "2026-04-13",
+      "close": 216.71
+    },
+    {
+      "date": "2026-04-14",
+      "close": 218.87
+    },
+    {
+      "date": "2026-04-15",
+      "close": 216.29
+    },
+    {
+      "date": "2026-04-16",
+      "close": 223.1
+    },
+    {
+      "date": "2026-04-17",
+      "close": 229.82
+    },
+    {
+      "date": "2026-04-20",
+      "close": 233.7
+    },
+    {
+      "date": "2026-04-21",
+      "close": 233.15
+    },
+    {
+      "date": "2026-04-22",
+      "close": 236.31
+    },
+    {
+      "date": "2026-04-23",
+      "close": 282.23
+    },
+    {
+      "date": "2026-04-24",
+      "close": 277.14
+    },
+    {
+      "date": "2026-04-27",
+      "close": 269.5
+    },
+    {
+      "date": "2026-04-28",
+      "close": 265.0
+    },
+    {
+      "date": "2026-04-29",
+      "close": 269.22
+    },
+    {
+      "date": "2026-04-30",
+      "close": 281.08
+    },
+    {
+      "date": "2026-05-01",
+      "close": 281.02
+    },
+    {
+      "date": "2026-05-04",
+      "close": 280.89
+    },
+    {
+      "date": "2026-05-05",
+      "close": 281.0
+    },
+    {
+      "date": "2026-05-06",
+      "close": 289.44
+    },
+    {
+      "date": "2026-05-07",
+      "close": 285.24
+    },
+    {
+      "date": "2026-05-08",
+      "close": 287.8
+    },
+    {
+      "date": "2026-05-11",
+      "close": 297.76
+    },
+    {
+      "date": "2026-05-12",
+      "close": 295.17
+    },
+    {
+      "date": "2026-05-13",
+      "close": 306.34
+    },
+    {
+      "date": "2026-05-14",
+      "close": 308.17
+    },
+    {
+      "date": "2026-05-15",
+      "close": 302.73
+    },
+    {
+      "date": "2026-05-18",
+      "close": 300.6
+    },
+    {
+      "date": "2026-05-19",
+      "close": 302.31
+    },
+    {
+      "date": "2026-05-20",
+      "close": 304.88
+    },
+    {
+      "date": "2026-05-21",
+      "close": 298.39
+    },
+    {
+      "date": "2026-05-22",
+      "close": 309.21
+    },
+    {
+      "date": "2026-05-26",
+      "close": 324.89
+    },
+    {
+      "date": "2026-05-27",
+      "close": 317.45
+    },
+    {
+      "date": "2026-05-28",
+      "close": 315.95
+    },
+    {
+      "date": "2026-05-29",
+      "close": 305.68
+    },
+    {
+      "date": "2026-06-01",
+      "close": 293.2
+    },
+    {
+      "date": "2026-06-02",
+      "close": 308.12
+    },
+    {
+      "date": "2026-06-03",
+      "close": 308.59
+    },
+    {
+      "date": "2026-06-04",
+      "close": 305.37
+    },
+    {
+      "date": "2026-06-05",
+      "close": 285.06
+    },
+    {
+      "date": "2026-06-08",
+      "close": 290.9
+    },
+    {
+      "date": "2026-06-09",
+      "close": 288.63
+    },
+    {
+      "date": "2026-06-10",
+      "close": 282.01
+    },
+    {
+      "date": "2026-06-11",
+      "close": 297.1
+    },
+    {
+      "date": "2026-06-12",
+      "close": 301.12
+    },
+    {
+      "date": "2026-06-15",
+      "close": 313.34
+    },
+    {
+      "date": "2026-06-16",
+      "close": 305.71
+    },
+    {
+      "date": "2026-06-17",
+      "close": 301.88
+    },
+    {
+      "date": "2026-06-18",
+      "close": 322.86
+    },
+    {
+      "date": "2026-06-22",
+      "close": 332.28
+    }
+  ],
+  "price_status": "ok",
+  "price_unit": "USD",
+  "price_updated_at": "2026-06-23T20:32:13.223297+00:00"
+}

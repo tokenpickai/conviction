@@ -1,0 +1,101 @@
+{
+  "ticker": "6857",
+  "cashtag": "Advantest",
+  "price_symbol": "6857.T",
+  "exchange": "Tokyo",
+  "currency": "JPY",
+  "ticker_mapped": true,
+  "company": "Advantest",
+  "industry": "Semiconductor Test Equipment",
+  "thesis_summary": null,
+  "first_mention": "2026-04-24",
+  "last_mention": "2026-04-27",
+  "total_mentions": 3,
+  "mentions": [
+    {
+      "tweet_id": "2047816848058794440",
+      "date": "2026-04-24",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "as GPU architectures become increasingly complex, number of required testing steps could rise exponentially",
+        "could still be more upside"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "Advantest",
+      "text": "My current watchlist:\n\nAdvantest — As GPU architectures become increasingly complex, the number of required testing steps could rise exponentially. Could there still be more upside here?\n\nMontage — If CPU adoption increases, usage of memory interfaces should also surge. I prefer Montage over Rambus in particular because Montage also has exposure to CXL.\n\nDelton Technology — A specialized CPU substrate manufacturer with a meaningful presence in the CPU substrate market.\n\nQualcomm — If Qualcomm really launches its data-center Nuvia CPU in June, it could potentially reverse the current overly short-biased sentiment.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047816848058794440",
+      "kind": "post",
+      "engagement": {
+        "views": 213136,
+        "likes": 1240,
+        "reposts": 100,
+        "replies": 43
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047827739068235857",
+      "date": "2026-04-24",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "most high-end x86 CPU testing is handled by Advantest"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Advantest",
+      "text": "@Fabian_v4 Most high-end x86 CPU testing is handled by Advantest.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047827739068235857",
+      "kind": "reply",
+      "engagement": {
+        "views": 3223,
+        "likes": 11,
+        "reposts": 0,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048660802736140321",
+      "date": "2026-04-27",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "SoC tester market share increased from 56% in CY24 to 66% in CY25, reinforcing advantage over Teradyne",
+        "received first high-volume ATE order for silicon photonics",
+        "stock deserves to trade at a premium"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Advantest",
+      "text": "Advantest earnings highlights:\n\n- SoC tester market share increased from 56% in CY24 to 66% in CY25, clearly reinforcing its advantage over Teradyne.\n- The company received its first high-volume ATE order for silicon photonics.\n\nOne-line take: Advantest clearly proved why its stock deserves to trade at a premium.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048660802736140321",
+      "kind": "post",
+      "engagement": {
+        "views": 42342,
+        "likes": 235,
+        "reposts": 22,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "not_covered",
+  "price_unit": "JPY",
+  "price_updated_at": "2026-06-23T20:32:16.225836+00:00"
+}

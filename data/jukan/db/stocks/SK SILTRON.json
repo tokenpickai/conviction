@@ -1,0 +1,51 @@
+{
+  "ticker": "SK SILTRON",
+  "cashtag": "SK Siltron",
+  "price_symbol": "SK SILTRON",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-14",
+  "last_mention": "2026-06-14",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2066339825633091909",
+      "date": "2026-06-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK Siltron",
+      "text": "Doosan’s share price decline today was due to SK Group effectively scrapping the sale of its wafer maker, SK Siltron, to Doosan.\n\nHonestly, this makes perfect sense. They are just entering the wafer LTA renewal window, so selling it now would have meant leaving too much value on the table.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2066339818708369408",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK0dHf9bgAA6Xsi.jpg",
+          "width": 1320,
+          "height": 1041,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2066339825633091909",
+      "kind": "post",
+      "engagement": {
+        "views": 39957,
+        "likes": 165,
+        "reposts": 10,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

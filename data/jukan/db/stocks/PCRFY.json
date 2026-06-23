@@ -1,0 +1,42 @@
+{
+  "ticker": "PCRFY",
+  "cashtag": "Panasonic",
+  "price_symbol": "PCRFY",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-08",
+  "last_mention": "2026-06-08",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2064164967126048848",
+      "date": "2026-06-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Panasonic",
+      "text": "▶ Panasonic raises SP-Cap prices as AI drives passive component demand\n\n- Driven by expanding AI demand, passive component prices are expected to stay at elevated levels, with Panasonic set to raise prices by 5 to 30% by specification starting in July, centered on SP-Cap capacitors.\n\n- Podak, a passive component distributor that primarily sells Panasonic capacitors, expects demand to remain stable in 2026 as AI, automotive electronics, and new energy applications expand.\n\n- Podak explained that the expansion of high value added applications is strengthening market momentum, and that demand across passive components broadly is also improving gradually.\n\n- That said, the industry is focusing on inventory management, improved supply flexibility, and cash flow stabilization to reduce the impact of external uncertainty, and plans to adjust procurement and shipment strategies in line with semiconductor and end demand trends.\n\n- AI application market expansion is expected to continue into 2H26, and passive component supply shortages are likely to persist for some time, with Podak actively coordinating shipments with manufacturers.\n\n- With the AI growth outlook reaffirmed at COMPUTEX 2026, passive components play an important role in high specification AI systems, so the company maintains a positive view on second half industry conditions.\n\n- The impact of US tariffs still requires monitoring, but the effect on shipments has been limited so far; that said, some shipments from server and PC customers that had produced in China are shifting to Southeast Asia, including Vietnam.\n\n- Podak's product applications include PCs and AI servers, and in 2025 network communications revenue grew 10%, accounting for 26% of total revenue.\n\n- For servers, network transmission performance is becoming as important as compute performance, and shipment momentum is concentrated in networking products such as 800G server switches.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2064164967126048848",
+      "kind": "post",
+      "engagement": {
+        "views": 78093,
+        "likes": 137,
+        "reposts": 13,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

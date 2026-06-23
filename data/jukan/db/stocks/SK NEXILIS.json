@@ -1,0 +1,51 @@
+{
+  "ticker": "SK NEXILIS",
+  "cashtag": "SK Nexilis",
+  "price_symbol": "SK NEXILIS",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-03",
+  "last_mention": "2026-05-03",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2051070393734303767",
+      "date": "2026-05-03",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK Nexilis",
+      "text": "\"Even China Has No Volumes\"... CCL Shortage Reaches Crisis Level\n\nA PCB manufacturer in the Seoul metropolitan area recently placed advance orders worth 10 billion won with two Taiwanese CCL (copper clad laminate) producers, EMC and TUC. The volume is more than five times the company's average monthly usage of 1.5 to 2 billion won. The company's CEO said, \"We placed bulk orders out of concern about a CCL shortage, but we have no idea when they'll actually arrive,\" adding, \"I've been in the PCB business for over 20 years, and this is the first time we've been unable to manufacture products because we couldn't get CCL.\"\n\nCCL Import Prices Break Through $20,000 Per Ton\n\nPrices for CCL — a core PCB material — are surging as supply falls dramatically short of demand. CCL is a panel made by laminating a thin copper foil onto an insulating substrate, and it functions as the key building-block material for PCBs. The shortage has spread as demand has surged simultaneously across major advanced industries, including AI semiconductors, data centers, and autonomous vehicles.\n\nAccording to data released by the Korea Customs Service on May 3, the import unit price of CCL came to $20,728 per ton in March — up 74.5% from $11,880 in the same month last year. This is the first time the CCL import unit price has broken above $20,000/ton since the relevant statistics began being compiled in 2000. The biggest driver behind the spike in CCL import prices is rising demand for CCL used in AI chips. On top of this, the use of high-spec CCL is also increasing across 5G/6G telecom infrastructure, automotive autonomous driving systems, and data center servers.\n\nCCL Players' Share Prices Rally Sharply\n\nKorea's CCL supply chain is built around copper foil suppliers (Lotte Energy Materials, SK Nexilis), CCL manufacturers (Doosan, LG Chem), and PCB substrate manufacturers (Samsung Electro-Mechanics, Daeduck Electronics). PCBs are split between premium products — which go into the most advanced GPUs such as Nvidia's Blackwell — and general-purpose products. Premium semiconductor substrates in this top tier use CCL based on high-grade T-glass material, while small- and mid-sized domestic PCB makers use E-glass-based CCL to produce general-purpose PCBs.\n\nAs demand for high-spec PCBs has surged and unit prices have jumped, CCL-related companies have moved quickly to reallocate their limited production lines toward high value-added products. This is the backdrop to the spike in CCL export prices: last month, the average CCL export unit price stood at $30,998, up 65.2% year-on-year.\n\nCompanies in the global CCL manufacturing supply chain are seeing both earnings and share prices rally sharply. Industry participants attribute the CCL price hikes primarily to PCBs going into Nvidia GPUs. Doosan, known to be the sole supplier of CCL for Blackwell, saw its share price jump from 152,300 won at the end of April 2024 to 1,596,000 won at the end of last month — a more than 10x gain over two years. Over the same period, Samsung Electro-Mechanics rose 5.3x and Daeduck Electronics rose 4.8x.\n\nEven Pivoting to China — \"No Volumes Available\"\n\nBy contrast, companies left out of the advanced industries are unable to secure adequate CCL supply, with some now facing the prospect of having to halt factory operations. Major Korean semiconductor equipment makers, in particular, are reportedly suffering from CCL supply constraints. Some companies are reportedly switching from ocean freight to air freight in an effort to pull forward their CCL delivery schedules. One industry source said, \"In the past, you could secure the volumes you wanted just by waiting about a month after placing an order, but now even if you place an order today, you have to wait at least six months to receive any volumes.\"\n\nSoaring CCL prices are also a heavy burden. With FX rates and oil prices also rising, not only product prices but also transport costs are climbing sharply. With CCL supply schedules becoming increasingly uncertain, many firms are worried about missing the PCB delivery timelines they originally committed to. Another industry source said, \"We've secured Chinese suppliers in addition to our existing channels, but we've been hit by a string of delivery-delay notices recently. There's no clear-cut countermeasure, and it feels hopeless.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2051070364265168896",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHbdoRdbQAAsrR1.png",
+          "width": 681,
+          "height": 669,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2051070393734303767",
+      "kind": "post",
+      "engagement": {
+        "views": 109917,
+        "likes": 404,
+        "reposts": 71,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

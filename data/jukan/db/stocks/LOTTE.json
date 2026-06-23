@@ -1,0 +1,42 @@
+{
+  "ticker": "LOTTE",
+  "cashtag": "Lotte",
+  "price_symbol": "LOTTE",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-01",
+  "last_mention": "2026-06-01",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2061614302696747349",
+      "date": "2026-06-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Lotte",
+      "text": "@blaze__pascal Could you share the source for the claim that Lotte’s HVLP4 performs twice as poorly as Mitsui’s?",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2061614302696747349",
+      "kind": "reply",
+      "engagement": {
+        "views": 3642,
+        "likes": 15,
+        "reposts": 0,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

@@ -1,0 +1,55 @@
+{
+  "ticker": "020150",
+  "cashtag": "Lotte Energy Materials",
+  "price_symbol": "020150",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-19",
+  "last_mention": "2026-04-19",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2046024968505585895",
+      "date": "2026-04-19",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "expected to begin full-scale mass production and shipments of circuit foil for AI accelerators starting Q2",
+        "completed quality qualification with global big tech customers",
+        "share of high-margin products will increase, accelerating earnings recovery"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Lotte Energy Materials",
+      "text": "According to Korean media reports, Lotte Energy Materials is expected to begin full-scale mass production and shipments of circuit foil for AI accelerators starting in the second quarter of this year.\n\nIndustry sources believe that Lotte Energy Materials has already completed quality qualification through collaboration with global big tech customers, and that starting from the second quarter, when mass production begins, the share of high-margin products will increase, accelerating the company’s earnings recovery.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2046024947307528193",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGTw2WnaQAEjGF6.png",
+          "width": 600,
+          "height": 397,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2046024968505585895",
+      "kind": "post",
+      "engagement": {
+        "views": 24199,
+        "likes": 178,
+        "reposts": 14,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

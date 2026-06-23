@@ -1,0 +1,116 @@
+{
+  "ticker": "ADI",
+  "cashtag": "Analog Devices",
+  "price_symbol": "ADI",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-29",
+  "last_mention": "2026-05-29",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2060268717838307684",
+      "date": "2026-05-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Analog Devices",
+      "text": "\"Can't Build Equipment Without the Parts\"… Semiconductor Test Equipment Faces \"Worst-Ever\" Supply Crunch\n\nThe semiconductor test equipment industry is grappling with a severe component shortage—so severe that some are lamenting, \"We can't build semiconductor test equipment because there are no semiconductors.\"\n\nAccording to industry sources on the 29th, the supply of components needed for semiconductor test equipment has become difficult to secure. In particular, lead times for non-memory semiconductors—such as field-programmable gate arrays (FPGAs), central processing units (CPUs), and driver integrated circuits (ICs)—have lengthened dramatically.\n\nFirst, the lead time for the FPGAs needed to operate the equipment has stretched from a previous 8–10 weeks to as much as 52 weeks recently. A distributor source explained, \"It varies by FPGA specification, but it's typically 52 weeks,\" adding that \"supply has become difficult to secure.\" FPGAs are used to analyze test data in real time, quickly identifying problems such as defects. The FPGA market is led by AMD, which acquired Xilinx.\n\nThe situation is the same for driver ICs used in test equipment. Whereas distributors could previously purchase the relevant chips from inventory immediately, it now takes at least 10 weeks or more. In particular, Analog Devices' (ADI) product lineup for automatic test equipment (ATE) is causing an extreme bottleneck. ADI supplies \"pin drivers\"—integrated assemblies of multiple devices—for semiconductor test equipment.\n\nx86-architecture-based CPUs and graphics processing units (GPUs) are also experiencing supply shortages. One semiconductor equipment industry official noted, \"For some products, supply has tightened and unit prices have risen sharply—up to threefold, from a previous 1 million won to 3 million won,\" adding that \"Intel's server CPUs, in particular, are not easy to secure.\"\n\nIntel has recently been allocating its server CPU (Xeon) volumes primarily to high-margin hyperscalers—large-scale cloud service providers—and data center servers. As a result, supply to other markets has been less smooth.\n\nMass production of \"Diamond Rapids,\" the next-generation server CPU, has also been pushed back from the originally planned second half of this year to the middle of next year. Because of this, the development and supply of next-generation equipment that requires the product's high performance and new features have been partially delayed.\n\nIn fact, one particular test equipment manufacturer recently signed an equipment supply contract worth tens of billions of won with Samsung Electronics, but due to delayed component procurement, it had no choice but to push back the delivery date by three months. An industry official said, \"The current situation isn't simply a problem with specific components like FPGAs or CPUs,\" explaining that \"a serious bottleneck is occurring across the entire non-memory semiconductor supply chain.\"\n\nTest equipment manufacturers are responding by placing advance orders for components. Under this approach, they negotiate equipment volumes and delivery dates with customers several months before a formal purchase order (PO) is issued, and order the necessary components ahead of time. Even so, with component delivery delays worsening, fully smooth supply remains difficult to achieve.\n\nThe industry expects the supply crunch for non-memory components used in test equipment to persist for some time. This is because the boom in downstream industries—such as demand for AI and data center infrastructure—continues, driving up demand for semiconductors (components) and semiconductor test equipment simultaneously.\n\nSemiconductor manufacturers that purchase test equipment are also on high alert. As one industry official put it, \"A strategy in which semiconductor manufacturers and equipment makers cooperate closely to respond proactively is increasingly becoming the new normal.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2060268697932226560",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJeLdwobYAAKkoR.png",
+          "width": 600,
+          "height": 320,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2060268717838307684",
+      "kind": "post",
+      "engagement": {
+        "views": 88418,
+        "likes": 428,
+        "reposts": 62,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-05-29",
+      "close": 413.85
+    },
+    {
+      "date": "2026-06-01",
+      "close": 402.69
+    },
+    {
+      "date": "2026-06-02",
+      "close": 423.2
+    },
+    {
+      "date": "2026-06-03",
+      "close": 437.67
+    },
+    {
+      "date": "2026-06-04",
+      "close": 428.76
+    },
+    {
+      "date": "2026-06-05",
+      "close": 401.39
+    },
+    {
+      "date": "2026-06-08",
+      "close": 403.89
+    },
+    {
+      "date": "2026-06-09",
+      "close": 404.62
+    },
+    {
+      "date": "2026-06-10",
+      "close": 392.67
+    },
+    {
+      "date": "2026-06-11",
+      "close": 412.13
+    },
+    {
+      "date": "2026-06-12",
+      "close": 417.79
+    },
+    {
+      "date": "2026-06-15",
+      "close": 427.58
+    },
+    {
+      "date": "2026-06-16",
+      "close": 416.0
+    },
+    {
+      "date": "2026-06-17",
+      "close": 414.45
+    },
+    {
+      "date": "2026-06-18",
+      "close": 434.46
+    },
+    {
+      "date": "2026-06-22",
+      "close": 445.48
+    }
+  ],
+  "price_status": "ok"
+}

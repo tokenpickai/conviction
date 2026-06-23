@@ -1,0 +1,71 @@
+{
+  "ticker": "SIVE",
+  "cashtag": "SIVE",
+  "price_symbol": "SIVE.ST",
+  "exchange": "Nasdaq Stockholm",
+  "currency": "SEK",
+  "ticker_mapped": true,
+  "company": "Sivers Semiconductor",
+  "industry": "AI Photonics/CPO Lasers",
+  "thesis_summary": "他把 SIVE 当作硅光/CPO 的上游激光瓶颈,反复强调它是产业链核心受益者,通过 POET 供货给 Ayar、Celestial 等光引擎厂商。",
+  "first_mention": "2026-06-11",
+  "last_mention": "2026-06-11",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2064985091915575515",
+      "date": "2026-06-11",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "author states 'I don't like $SIVE'"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$SIVE",
+      "text": "@aleabitoreddit I don't like $SIVE",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2064985091915575515",
+      "kind": "reply",
+      "engagement": {
+        "views": 319855,
+        "likes": 802,
+        "reposts": 19,
+        "replies": 80
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064986985295655235",
+      "date": "2026-06-11",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "Ayar Labs treats SIVE as one option among several, not an exclusive supplier",
+        "no third-party or authoritative data showing SIVE is superior to competitors"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SIVE",
+      "text": "When I visited Computex, Ayar Labs treated SIVE not as something they rely on exclusively, but more as one option among several.\n\nI still haven’t seen any third-party or authoritative data showing that SIVE is superior to its competitors. https://t.co/cGvrB90NxJ",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2064986985295655235",
+      "kind": "post",
+      "engagement": {
+        "views": 277060,
+        "likes": 747,
+        "reposts": 29,
+        "replies": 76
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

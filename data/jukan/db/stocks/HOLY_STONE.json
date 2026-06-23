@@ -1,0 +1,42 @@
+{
+  "ticker": "HOLY_STONE",
+  "cashtag": "Holy Stone Enterprise",
+  "price_symbol": "HOLY_STONE",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-25",
+  "last_mention": "2026-05-25",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2059101609901391927",
+      "date": "2026-05-25",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Holy Stone Enterprise",
+      "text": "▶ Holy Stone Enterprise says AI power surge will deepen global MLCC shortages\n\n• Taiwan’s Holy Stone expects global MLCC supply to tighten further on the back of AI power-spec upgrades, with lead times already extending to 20+ weeks.\n\n• The company assesses that the proliferation of AI applications is driving the strongest MLCC demand in the past 20 years, and anticipates the supply shortage to deepen through 2027.\n\n• On robust demand from AI power customers, production lines remain fully utilized; a Phase 2 capacity expansion is underway, with new equipment to be installed in stages in 3Q26 and 1Q27.\n\n• Following the equipment setup period, the company targets a 20–30% capacity increase by end-2026, with a further 30–40% expansion in 2027.\n\n• Driven by growing demand for high-spec MLCCs—centered on low-loss NP0 and mid-/high-voltage X7R products—upstream equipment lead times have lengthened to roughly 1–1.5 years.\n\n• A scramble to secure equipment similar to the 2018 MLCC expansion cycle is unfolding, but the company notes the key difference this cycle is that an AI-led improvement in the high-spec product mix is accompanied by a supply shortage.\n\n• The generational transition of AI platforms—Nvidia A100 (2020) → H100 (2022) → Blackwell (2026) → Vera Rubin (volume production slated for Q4) → Rubin Ultra (2027)—and the accompanying architectural shifts are expected to sustain growing demand for high-spec MLCCs.\n\n• The company has entered the supply chains of the four major U.S. CSPs and Dell, and is pursuing a strategy of product-spec upgrades rather than price hikes.\n\n• With the pace of new capacity additions limited, the company plans to scale back shipments of low-/mid-end products; going forward, the expansion of new markets such as AI data centers, BBUs, humanoids, and eVTOLs is expected to drive rising high-spec MLCC penetration and structural improvement across the industry over the next 3–5 years.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2059101609901391927",
+      "kind": "post",
+      "engagement": {
+        "views": 37477,
+        "likes": 144,
+        "reposts": 15,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

@@ -1,0 +1,42 @@
+{
+  "ticker": "6960",
+  "cashtag": "Santec",
+  "price_symbol": "6960",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-13",
+  "last_mention": "2026-04-13",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2043619818973376823",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Santec",
+      "text": "RT @Monolith_Cap: Santec’s (https://t.co/Ydmx76C4PF) odds of supplying optical instruments to silicon photonics ATE platforms are improving…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043619818973376823",
+      "kind": "post",
+      "engagement": {
+        "views": 8,
+        "likes": 0,
+        "reposts": 31,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

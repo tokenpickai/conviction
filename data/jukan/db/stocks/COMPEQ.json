@@ -1,0 +1,51 @@
+{
+  "ticker": "COMPEQ",
+  "cashtag": "Compeq (華通)",
+  "price_symbol": "COMPEQ",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-09",
+  "last_mention": "2026-04-09",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2042393935860154641",
+      "date": "2026-04-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Compeq (華通)",
+      "text": "DigiTimes reports that SpaceX's in-house FOPLP fab and PCB fab have underperformed on yields, pushing the mass production timeline back to 2027.\n\nAs a result, the market estimates that supply chain players such as Innolux, ST Micro, Compeq (華通), and Unimicron (燿華) could continue to benefit from expanding SpaceX orders for at least two more years, potentially extending to several years.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2042393918357344256",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFgKcpsbkAAkwc6.jpg",
+          "width": 1616,
+          "height": 1694,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2042393935860154641",
+      "kind": "post",
+      "engagement": {
+        "views": 40908,
+        "likes": 122,
+        "reposts": 11,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

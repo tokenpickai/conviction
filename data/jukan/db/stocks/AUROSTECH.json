@@ -1,0 +1,51 @@
+{
+  "ticker": "AUROSTECH",
+  "cashtag": "Aurostech",
+  "price_symbol": "AUROSTECH",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-03",
+  "last_mention": "2026-05-03",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2051102957282984362",
+      "date": "2026-05-03",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Aurostech",
+      "text": "Aurostech is nearly limit-up today. https://t.co/1Dqt9sWMd6 https://t.co/1H7fLmFBil",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2051102951704514560",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHb7RHIaUAAsit8.jpg",
+          "width": 1320,
+          "height": 1803,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2051102957282984362",
+      "kind": "post",
+      "engagement": {
+        "views": 55168,
+        "likes": 202,
+        "reposts": 12,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

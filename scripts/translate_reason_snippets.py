@@ -139,7 +139,7 @@ def translate_with_model(snippets, model, timeout, profile):
     )
     msg = client.messages.create(
         model=model,
-        max_tokens=1800,
+        max_tokens=4000,
         temperature=0,
         system="You are a precise Traditional Chinese financial translation assistant. Output valid JSON only.",
         messages=[{"role": "user", "content": prompt}],
@@ -156,6 +156,7 @@ def main():
     ap.add_argument("--all-tickers", action="store_true", help="translate reasons for every ticker visible in the dashboard")
     ap.add_argument("--model", default=DEFAULT_MODEL)
     ap.add_argument("--timeout", type=int, default=90)
+    ap.add_argument("--batch-size", type=int, default=40)
     ap.add_argument("--out", default=str(OUT_PATH))
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
@@ -175,21 +176,24 @@ def main():
     if args.dry_run:
         return 0
 
-    translated = translate_with_model(missing, args.model, args.timeout, profile)
-    if translated is None:
-        return 1
-
     existing = load_json(Path(args.out), {})
-    for item in missing:
-        reason = item["reason"]
-        if reason not in translated:
-            raise RuntimeError(f"missing model translation for: {reason}")
-        existing[reason] = translated[reason]
+    written = 0
+    batch_size = max(1, args.batch_size)
+    for start in range(0, len(missing), batch_size):
+        batch = missing[start:start + batch_size]
+        translated = translate_with_model(batch, args.model, args.timeout, profile)
+        if translated is None:
+            return 1
+        for item in batch:
+            reason = item["reason"]
+            if reason not in translated:
+                raise RuntimeError(f"missing model translation for: {reason}")
+            existing[reason] = translated[reason]
+        save_json(Path(args.out), existing)
+        written += len(batch)
+        print(f"Translated {written}/{len(missing)} snippets.")
 
-    save_json(Path(args.out), existing)
-    print(f"Wrote {len(missing)} translation(s) to {args.out}")
-    for reason in sorted(translated):
-        print(f"{compact(reason, 90)} => {translated[reason]}")
+    print(f"Wrote {written} translation(s) to {args.out}")
     return 0
 
 

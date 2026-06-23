@@ -1,0 +1,51 @@
+{
+  "ticker": "AMAZON",
+  "cashtag": "Amazon",
+  "price_symbol": "AMAZON",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-27",
+  "last_mention": "2026-05-27",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2059800491673174519",
+      "date": "2026-05-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Amazon",
+      "text": "Yes, the customer is Amazon. https://t.co/6csDQDzLYW https://t.co/iR8IHutrqV",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2059800434991308800",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJXhlRPaIAAUIA9.jpg",
+          "width": 1058,
+          "height": 208,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2059800491673174519",
+      "kind": "post",
+      "engagement": {
+        "views": 150961,
+        "likes": 549,
+        "reposts": 33,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

@@ -1,0 +1,42 @@
+{
+  "ticker": "SAMSUNG_LIFE",
+  "cashtag": "삼성생명",
+  "price_symbol": "SAMSUNG_LIFE",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-17",
+  "last_mention": "2026-05-17",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2056219033108967746",
+      "date": "2026-05-17",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "삼성생명",
+      "text": "@StarAndCompass_ 요며칠 월가 컨퍼런스에서 삼성생명 싸다고 여러번 말 나왔어서...",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2056219033108967746",
+      "kind": "post",
+      "engagement": {
+        "views": 576,
+        "likes": 6,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

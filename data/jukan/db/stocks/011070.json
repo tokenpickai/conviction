@@ -8,10 +8,172 @@
   "company": "LG Innotek",
   "industry": "Optical Components/Electronics",
   "thesis_summary": null,
-  "first_mention": "2026-06-22",
+  "first_mention": "2026-03-29",
   "last_mention": "2026-06-22",
-  "total_mentions": 1,
+  "total_mentions": 7,
   "mentions": [
+    {
+      "tweet_id": "2038175585768493516",
+      "date": "2026-03-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "LG Innotek",
+      "text": "Prismark: \"T-Glass Supply Shortage from Japan's Nittobo Set to Widen\"\n\nMarket research firm Prismark recently forecast that the supply shortage of T-glass from Japanese materials manufacturer Nittobo will continue to deepen. While Nittobo is expanding its T-glass production capacity, demand is growing at an even faster pace. When factoring in capacity expansion plans from competitors such as Taiwan Glass, the overall market supply shortage could ease somewhat — though competitor technology capabilities and big tech procurement decisions remain key variables.\n\nT-glass is a glass fiber yarn used as a raw material for low-CTE (coefficient of thermal expansion) copper-clad laminates (CCL). As a key input material for printed circuit boards (PCBs), it is used not only in high-end smartphones such as Apple's iPhone, but also in semiconductor substrates for servers. T-glass is technically a Nittobo trade name, but given Nittobo's near-monopoly market position, the term has become the industry-wide generic for low-CTE CCL glass fiber yarn.\n\nAs the substrate area used in AI servers and data centers continues to grow, major tech companies including NVIDIA, Google, and Amazon have been exclusively sourcing T-glass from Nittobo. As a result, demand for T-glass began exceeding Nittobo's production capacity in the second half of 2024. At the time, multiple big tech companies approached Nittobo directly requesting capital investment in additional capacity, and Nittobo has been ramping production accordingly — but demand is outpacing supply even faster.\n\nAccording to Prismark, Nittobo's T-glass production capacity stood at 500,000 square meters (㎡) as of Q1 this year. The combined capacity of all competing players in the market still falls short of Nittobo's alone. Estimated competitor capacities are as follows: Taiwan Glass (Taiwan) — 100,000 ㎡; Taishan Glass (China) — 50,000–100,000 ㎡; Grace Fabric Technology (China) — 100,000 ㎡; Nan Ya Plastics (Taiwan) — 50,000 ㎡. These companies have yet to meet big tech's technical qualification standards, leaving Nittobo in a position of effective market monopoly.\n\nBoth Nittobo and its competitors are expanding capacity. Nittobo plans to invest $530 million in its T-glass segment, and by 2028, its T-glass production capacity could double from the first half of this year. Looking at 2028 capacity estimates by vendor, Nittobo's share is projected at approximately 55%, with all other players collectively accounting for the remaining 45%.\n\nHowever, when considering only Nittobo-qualified supply, Prismark forecasts that the T-glass shortage will persist through this year and next, and is expected to widen even further by 2028.\n\nWhile not included in the Prismark report, one domestic PCB industry source noted: \"Competitors are also undergoing T-glass technology evaluations with big tech, but the technology gap versus Nittobo remains substantial. Unless big tech changes its policy of using only Nittobo's product, the T-glass supply shortage will be difficult to resolve for the foreseeable future.\"\n\nFor reference, a lower coefficient of thermal expansion means less substrate warpage during high-temperature processing — an advantage for both substrate enlargement and finer circuit patterning requirements. When substrates warp during the fine circuit formation process at high temperatures, circuit traces can break. In Korea, companies such as Doosan and LG Chem produce CCL. Domestic companies that purchase CCL to manufacture semiconductor substrates include Samsung Electro-Mechanics, LG Innotek, Daeduck Electronics, Korea Circuit, and Simtech.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038175568680947712",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEkN4YkbkAAq1Bt.png",
+          "width": 640,
+          "height": 411,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038175585768493516",
+      "kind": "post",
+      "engagement": {
+        "views": 96532,
+        "likes": 230,
+        "reposts": 37,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046521336106004977",
+      "date": "2026-04-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "LG Innotek",
+      "text": "[Exclusive] Samsung Electro-Mechanics to Supply AI Substrates to Broadcom\n\nRiding the artificial intelligence (AI) boom, not only memory semiconductor companies but also Korean electronic component makers have moved to the center of the global materials, parts, and equipment (MPE) supply chain. Major players including Samsung Electro-Mechanics and LG Innotek have emerged as key partners for Big Tech firms seeking to resolve AI bottlenecks. Analysts say an era of \"component-supplier supremacy\" has arrived, with Korean companies now holding the upper hand in the supply chain — a reversal from the past subcontractor-style structure in which they relied on orders from finished-goods makers. \n\nAccording to industry sources on the 21st, Samsung Electro-Mechanics has secured Broadcom of the U.S. as a new customer for Flip Chip Ball Grid Array (FC-BGA) AI semiconductor substrates. Following major Big Tech names such as NVIDIA, Google, Amazon, and Apple, Broadcom has now joined Samsung Electro-Mechanics' customer roster. Samsung Electro-Mechanics will begin supplying substrates for Broadcom's most advanced AI accelerators starting in the second half of this year.\n\nFC-BGA is a core component that connects semiconductor chips to the mainboard, transmitting electrical signals and power. Only a handful of companies are capable of manufacturing these substrates — Samsung Electro-Mechanics, LG Innotek, and Japan's Ibiden and Murata among them.\n\nA tectonic shift is also underway in the Multi-Layer Ceramic Capacitor (MLCC) market. Samsung Electro-Mechanics is supplying large volumes of ultra-high-capacitance MLCCs for AI servers to NVIDIA and other major global Big Tech firms. AI servers use three to four times more MLCCs than conventional servers. In particular, these components must withstand high-temperature, high-pressure environments, requiring advanced technical capabilities, and unit prices run three to five times higher than standard products. This is why Samsung Electro-Mechanics and other Korean companies with specialized technologies, such as Amotech, are being courted by Big Tech.\n\nThere is also a growing view that the global AI supply chain is being restructured in such a way that it can no longer be sustained without Korean component makers. This is because Korean firms possess unrivaled technological capabilities in addressing the critical bottlenecks that determine the performance of AI accelerators.\n\nAn industry official said, \"Korean companies have demonstrated irreplaceable technological capabilities in high-performance substrates and materials, and are now facing an unprecedented golden window of opportunity.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046521336106004977",
+      "kind": "post",
+      "engagement": {
+        "views": 45044,
+        "likes": 225,
+        "reposts": 26,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2060496157923741808",
+      "date": "2026-05-29",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "LG Innotek",
+      "text": "RT @citrini: Absolutely legendary call by our semis analyst @jukan05 - our last article on May 12th contained his long thesis on LG Innotek…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2060496157923741808",
+      "kind": "post",
+      "engagement": {
+        "views": 1,
+        "likes": 0,
+        "reposts": 37,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2061240200869900701",
+      "date": "2026-05-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "LG Innotek",
+      "text": "LG Innotek is up another 19% today.... https://t.co/wWbcTlGUQ4",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2061240200869900701",
+      "kind": "post",
+      "engagement": {
+        "views": 52371,
+        "likes": 247,
+        "reposts": 11,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2061640613616140649",
+      "date": "2026-06-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "LG Innotek",
+      "text": "LG Innotek Eyes Intel “EMIB” Substrate Supply Chain… Supplies Samples to SK Hynix\n\nLG Innotek is pushing to enter the semiconductor substrate market for EMIB (Embedded Multi-die Interconnect Bridge), Intel’s most advanced packaging technology. It has been learned that the company is currently collaborating with SK Hynix, including supplying EMIB substrate samples. However, the industry’s assessment is that because the development difficulty of this substrate is very high, whether it actually reaches commercialization remains to be seen.\n\nAccording to the industry on the 2nd, LG Innotek is collaborating with SK Hynix to enter the substrate supply chain for Intel’s 2.5D packaging.\n\n2.5D is an advanced packaging technology that inserts a thin film type interposer between the semiconductor and the substrate. Compared with conventional packaging that uses only a substrate, it can connect circuits at higher density, so demand is rising in the AI and HPC fields.\n\nIntel devised its own technology called EMIB to improve cost efficiency in 2.5D packaging. Instead of a widely spread interposer, EMIB connects chip to chip using a small silicon bridge. Because bridges only need to be placed where chip to chip connection is required, chips can be laid out more flexibly and efficiently.\n\nCurrently, EMIB semiconductor substrates are known to be supplied by four companies: Japan’s Ibiden and Shinko Electric, Taiwan’s Unimicron, and Austria’s AT&S.\n\nThis substrate is based on the existing high performance semiconductor substrate, flip chip ball grid array (FC-BGA), but it is assessed as having greater technical difficulty because a silicon bridge must be embedded inside the substrate. FC-BGA is a package substrate that connects the semiconductor chip and the substrate using flip chip bumps (a method that flips the chip over).\n\nIt has been learned that LG Innotek is currently supplying EMIB FC-BGA samples to SK Hynix and jointly carrying out technology development. For SK Hynix, a memory company, the collaboration with LG Innotek offers the advantage of being able to understand the characteristics of high bandwidth memory (HBM) optimized for EMIB.\n\nA substrate industry official explained, “LG Innotek is expanding its points of contact with memory and AI chip design companies in order to enter the substrate supply chain for Intel EMIB,” adding that “it is showing strong determination to enter the high value added semiconductor substrate market.”\n\nHowever, whether LG Innotek will enter the EMIB substrate supply chain is still viewed as unclear. This is because the samples LG Innotek supplied to SK Hynix are only at an early stage, such as engineering samples (ES).\n\nAs a latecomer in the FC-BGA industry, LG Innotek is assessed as having lower technical capability than its competitors. In fact, LG Innotek has not yet entered the server FC-BGA field, which requires high specification and large area technology. The need for enormous investment, such as building a dedicated line, in order to mass produce EMIB substrates is also a major challenge.\n\nA semiconductor back end industry official explained, “Intel EMIB substrates are already in a situation where overseas companies have solidified the supply chain, and Japan’s Ibiden also recently announced the construction of a dedicated line worth more than 2 trillion won,” adding that “for LG Innotek to enter the market, it must clear both technical and market hurdles.”",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2061640605860827136",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJxrNT7bEAA1QGV.jpg",
+          "width": 638,
+          "height": 410,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2061640613616140649",
+      "kind": "post",
+      "engagement": {
+        "views": 34988,
+        "likes": 290,
+        "reposts": 34,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064479776728076323",
+      "date": "2026-06-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "LG Innotek",
+      "text": "China's semiconductor glass substrate push closes in on Korea with price and volume\n\nChina's \"semiconductor glass substrate rise\" is threatening because it offers an attractive option to chipmakers, the end customers: the ability to secure price competitive glass substrates in large volumes. The industry worries that while demand will initially favor products from front runners such as Korea in the early stage of the glass substrate market, China's share will gradually expand.\n\nOfficially, the first Chinese company to enter the semiconductor glass substrate business was BOE. A global display manufacturer, BOE designated semiconductor glass substrates as a future growth engine, leveraging its glass processing expertise from LCD and other display production. It is moving at full speed, having built a pilot production line only about two years after declaring its market entry.\n\nVisionox, considered one of China's top three display companies, is also investing in glass substrates. Since last year it has been assembling a supply chain of materials, components, and equipment for glass substrate manufacturing, and it is currently making capital investments in production facilities. The company is reportedly in contact with numerous materials, components, and equipment suppliers, working hard to implement the best possible process technology.\n\nSemiconductor substrate companies and outsourced semiconductor assembly and test (OSAT) companies are also entering the glass substrate market and securing technology. Based on what has been identified so far, more than ten companies are estimated to be participating in the market.\n\nAn official in the materials, components, and equipment industry commented, \"The defining feature of China's glass substrate development is that they rapidly pursue a wide variety of attempts to secure and validate technology. They are accelerating technological advancement at a pace that feels almost aggressive.\"\n\nSome companies are known to have secured technology on par with, or close to surpassing, Korean glass substrate manufacturers. An official at a partner company of a Chinese glass substrate maker said, \"We believe China has nearly caught up with Korea in through glass via (TGV) and etching, the core technologies of glass substrates. Once they resolve metallization and other remaining issues, we expect them to begin full preparations for mass production.\"\n\nThe United States, Korea, and Japan have been preparing their glass substrate businesses since around 2010 to 2020. They have accumulated technology accordingly, but full scale capital investment only began around 2023 to 2024. Today, the representative semiconductor glass substrate manufacturers include Intel of the United States; Absolics (an SKC subsidiary), Samsung Electro Mechanics, and LG Innotek of Korea; Dai Nippon Printing (DNP) of Japan; and Unimicron of Taiwan.\n\nBecause the front runners spent a long time preparing, the stability and reliability of their glass substrate prototypes are assessed as higher than China's. However, the industry believes that at China's current pace of pursuit, the situation could quickly reverse. From the customer's perspective, products from Korea, the United States, and Japan may be adopted in the early phase of semiconductor glass substrate adoption, but once China achieves mass production, there is a strong possibility customers will switch or diversify their supply chains.\n\nAn official in the semiconductor glass substrate industry said, \"Many big tech companies, including Broadcom, Amazon Web Services (AWS), and Samsung Electronics, are pushing to adopt semiconductor glass substrates. If Chinese products stabilize, there is a strong possibility the supply chain mix will shift toward China on cost and productivity grounds. The real competition will take place at the mass production stage.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2064479776728076323",
+      "kind": "post",
+      "engagement": {
+        "views": 83538,
+        "likes": 368,
+        "reposts": 43,
+        "replies": 23
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2068932544347980289",
       "date": "2026-06-22",
@@ -37,8 +199,8 @@
       "url": "https://x.com/jukan05/status/2068932544347980289",
       "kind": "post",
       "engagement": {
-        "views": 44702,
-        "likes": 196,
+        "views": 44745,
+        "likes": 197,
         "reposts": 18,
         "replies": 9
       },
@@ -47,7 +209,5 @@
     }
   ],
   "price_series": [],
-  "price_status": "not_covered",
-  "price_unit": "KRW",
-  "price_updated_at": "2026-06-23T19:16:03.103648+00:00"
+  "price_status": "pending"
 }

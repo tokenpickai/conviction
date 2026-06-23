@@ -1,0 +1,75 @@
+{
+  "ticker": "N1X",
+  "cashtag": "N1X",
+  "price_symbol": "N1X",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-31",
+  "last_mention": "2026-05-31",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2060965338339213605",
+      "date": "2026-05-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "N1X",
+      "text": "\"According to supply chain checks, N1X-based devices are expected to ship around 10 million units over the next two years.\"\n\nIsn’t that too high? The MacBook Pro lineup sells around 7–8 million units per year. If the supply chain is assuming that N1X devices will sell 5 million units per year…",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2060965338339213605",
+      "kind": "post",
+      "engagement": {
+        "views": 105775,
+        "likes": 381,
+        "reposts": 23,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2060988282616664132",
+      "date": "2026-05-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "N1X",
+      "text": "N1X= GB10??? Bruh https://t.co/T4aopDgUxv https://t.co/lDfObJG4zd",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2060988273292697600",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJoZ6jvbYAAnBVU.jpg",
+          "width": 1320,
+          "height": 1828,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2060988282616664132",
+      "kind": "post",
+      "engagement": {
+        "views": 93109,
+        "likes": 229,
+        "reposts": 8,
+        "replies": 20
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

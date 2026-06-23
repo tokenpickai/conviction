@@ -1,0 +1,113 @@
+{
+  "ticker": "3103",
+  "cashtag": "Unitika",
+  "price_symbol": "3103.T",
+  "exchange": "Tokyo",
+  "currency": "JPY",
+  "ticker_mapped": true,
+  "company": "Unitika",
+  "industry": "E-glass/Advanced Materials",
+  "thesis_summary": null,
+  "first_mention": "2026-04-14",
+  "last_mention": "2026-04-19",
+  "total_mentions": 3,
+  "mentions": [
+    {
+      "tweet_id": "2044208909976776936",
+      "date": "2026-04-14",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "E-glass expected to double in price this year",
+        "price surge will benefit Unitika"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "Unitika (3103 JP)",
+      "text": "Holy shit, E-glass is gonna double in price this year alone? Then Unitika (3103 JP) is definitely gonna go up even more. https://t.co/Q0QxhXflUB https://t.co/kcH3XiKeFu",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044208618820833280",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HF586HubkAAHxkF.png",
+          "width": 1168,
+          "height": 632,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044208909976776936",
+      "kind": "post",
+      "engagement": {
+        "views": 137920,
+        "likes": 314,
+        "reposts": 34,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044260696863715427",
+      "date": "2026-04-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Unitika",
+      "text": "Could there be hedge funds following me? Unitika opened down 10% at the Nikkei open… and now it’s up 14%. https://t.co/mHKEK4db4W https://t.co/qheyEVk1EK",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044260690278658048",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HF6sRFBasAA72RQ.jpg",
+          "width": 1382,
+          "height": 474,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044260696863715427",
+      "kind": "post",
+      "engagement": {
+        "views": 32135,
+        "likes": 127,
+        "reposts": 4,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046042082054488364",
+      "date": "2026-04-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Unitika",
+      "text": "@Urugurslol @labubu_trader Bro, just keep it simple. Unitika is a meme stock right now.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046042082054488364",
+      "kind": "reply",
+      "engagement": {
+        "views": 2224,
+        "likes": 2,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "not_covered",
+  "price_unit": "JPY",
+  "price_updated_at": "2026-06-23T20:32:17.557301+00:00"
+}

@@ -8,10 +8,2333 @@
   "company": "Intel",
   "industry": "CPU/Foundry/Glass Substrate",
   "thesis_summary": null,
-  "first_mention": "2026-06-16",
+  "first_mention": "2026-03-25",
   "last_mention": "2026-06-18",
-  "total_mentions": 3,
+  "total_mentions": 86,
   "mentions": [
+    {
+      "tweet_id": "2036963841582784947",
+      "date": "2026-03-25",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "owns its own fabs, better positioned to expand CPU supply over time",
+        "as TSMC capacity becomes constrained, more companies may manufacture ASICs and CPUs at Intel Foundry"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$INTC",
+      "text": "Yesterday’s CPU bottleneck trade — among AMD, ARM, and Intel, which was actually the best trade?\n\nLet me share my view.\n\nObviously, CPU price increases are positive. They should help earnings materially.\n\nThat said, what we need to understand is that hyperscalers have been moving toward in-house CPU ASICs for quite a long time. They still procure x86 CPUs for external customers, but for internal workloads, many are already relying on their own CPU ASIC solutions.\n\nThat is why I find it hard to recommend AMD outright. AMD’s x86 CPU division is full of excellent people, but the business environment is not especially favorable. On top of that, AMD does not have its own fabs, so it has to compete with other companies for TSMC capacity.\n\nAs for ARM, I do not think it is really a pure CPU trade at this point. Because of the memory apocalypse, it seems quite obvious that smartphone royalties — still its largest revenue source — are likely to take a meaningful hit.\n\nTherefore, in my view, the better CPU bottleneck trade is foundry companies.\n\nFirst, TSMC. If everyone starts rushing to produce CPUs as well, TSMC wafer capacity will become even tighter, which will further strengthen TSMC’s bargaining power. I think a lot of people are missing this point.\n\nSecond, Intel.\n\nBecause it has its own fabs, even if not immediately, Intel should be in a better position than competitors to expand CPU supply over time. Also, as TSMC capacity becomes increasingly constrained, it is possible that more companies will look to manufacture ASICs and CPUs at Intel Foundry, which is another positive.\n\nI also want to comment on GUC. GUC’s core business is building server CPUs using licensed ARM IP, but I am skeptical about whether GUC can really compete against ARM’s own CPU efforts.\n\n$AMD $INTC $ARM $TSM",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2036963841582784947",
+      "kind": "post",
+      "engagement": {
+        "views": 46060,
+        "likes": 377,
+        "reposts": 38,
+        "replies": 25
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2037836606963581240",
+      "date": "2026-03-28",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "author questions why Intel is doing GPU architect hiring, likening it to charity"
+      ],
+      "is_risk": false,
+      "conviction": "low",
+      "raw_mention": "Intel",
+      "text": "@Pirat_Nation I don’t understand why Intel is doing this kind of business. Is it some kind of charity program to create jobs for GPU architects?",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2037836606963581240",
+      "kind": "reply",
+      "engagement": {
+        "views": 7256,
+        "likes": 42,
+        "reposts": 0,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2038381107524284784",
+      "date": "2026-03-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "Beyond Memory to Non-Memory… Semiconductor Prices Rising Across the Board\n\nPrice increases are spreading not only in memory semiconductors but also across the non-memory space. Following the AI infrastructure investment boom that has driven up DRAM and NAND flash prices, supply disruptions and price hikes are now emerging in analog chips, power semiconductors, communications chips, and CPUs. The industry views this as a phase in which the AI-driven demand shock is propagating throughout the broader semiconductor ecosystem.\n\nAccording to industry sources on March 30, semiconductor prices are trending upward across the full spectrum of end markets, including PCs, automotive, and servers. Intel and AMD — the two dominant players in PC CPUs — are reportedly set to implement price increases, while semiconductor companies spanning automotive, power, and communications are raising prices in succession.\n\nPer market research firm TrendForce, Dutch automotive and industrial semiconductor company NXP is expected to begin raising prices starting next month. Texas Instruments (TI) and Infineon have also joined the price hike trend. STMicroelectronics, widely regarded as Europe's largest \"semiconductor department store,\" is also expected to pursue price increases. The pattern of price escalation originating in memory and spreading into analog and power semiconductors is becoming unmistakable.\n\nThe prevailing interpretation is that these price increases stem from a bottleneck in chip production: while automotive and industrial demand remains steady, a significant share of mature-node capacity at foundries such as TSMC and Samsung Electronics is being absorbed by AI and data center applications. As AI server buildouts drive up demand for power management ICs and peripheral chips, the push to pass through rising costs into pricing is intensifying.\n\nAn executive at a major domestic foundry commented, \"Given current foundry production trends and contract pricing, there is a strong likelihood of continued price adjustments going forward — particularly in power management semiconductors, industrial analog components, and select power switch product lines.\"\n\nCommunications chips and networking components are no exception. Broadcom recently disclosed that surging demand for AI chips and networking has pushed production capacity at its key manufacturing partner TSMC to a bottleneck. Considering that lead times for optical communications components such as lasers and PCBs have extended from existing order cycles to multi-month timelines, procurement pressure on high-performance networking chips and interconnect components appears to be mounting as well. Even though communications chips are not traded at standardized prices like memory, actual contract unit prices and supply terms are likely tightening.\n\nCPUs are also not immune to upward pricing pressure. According to recent reports from TrendForce and Tom's Hardware, Intel and AMD are pursuing average price increases of 10–15% on CPUs, citing expanded AI demand and supply constraints. Lead times for some PC OEMs — the time from order to delivery — have reportedly stretched from the typical one to two weeks to as long as six months. Should CPUs, the quintessential general-purpose compute chips, join the price hike procession, it would further reinforce the narrative that semiconductor price inflation is spreading beyond memory into the broader system semiconductor space.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038381082685644800",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEnIy35aoAA18g2.png",
+          "width": 616,
+          "height": 415,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038381107524284784",
+      "kind": "post",
+      "engagement": {
+        "views": 50246,
+        "likes": 196,
+        "reposts": 25,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039315025752703328",
+      "date": "2026-04-01",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "two rounds of CPU price hikes since start of 2026 cumulating ~20%",
+        "full-year target of 30% cumulative price increase",
+        "server CPU demand strong globally with orders up 50% YoY",
+        "production line utilization at 95%",
+        "CPU-to-GPU ratio rising meaning CPU procurement share increasing"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "A very spicy piece of information here. A must-read for everyone (especially if you're interested in the CPU shortage).\n\n- Intel has carried out two rounds of CPU price hikes since the start of 2026. The first round in February was 10–15%, and the second on March 16th was 15%, bringing the cumulative increase to ~20% vs. January.\n\n- The full-year target is a cumulative 30% price increase, aimed at recouping investment and meeting capital market expectations.\n\n- A third round of price adjustments is reportedly planned for May.\n\n- Server CPU demand is strong globally, with orders already up 50% YoY vs. 2025.\n\n- Chinese CSPs in particular are placing additional orders — Tencent is scaling its server CPU procurement from ~300K units in 2025 to a 2026 target of 900K–1M units, deploying them toward AI infrastructure buildout.\n\n- Alibaba has the largest procurement scale among Chinese CSPs, and is also expected to grow 30–35% YoY.\n\n- Consumer CPU shipments are also picking up, driven by local AI PC demand, with a projected ~20% YoY increase in shipments (though I find this one a bit dubious). Intel's consumer CPU share remains stable at 65%.\n\n- Intel's production line utilization has reached 95%, but is not yet physically at full capacity. Server market deliveries are smooth (China Q1 orders +60%, deliveries +27%), but on the consumer side, despite orders doubling (+100%), deliveries actually declined 3.8%. This is due to PTL yield issues and new product supply being prioritized for North America — Intel is managing this by extending lead times to 3 months.\n\n- Intel's consumer CPU market share remains stable at 65%.\n\n- On the server side, Intel's share has dropped from 65% in 2025 to 50%, primarily due to AMD's stable supply and superior price-performance.\n\n- A particularly noteworthy point: the CPU-to-GPU ratio in AI servers has risen from 1:12 to 1:8, with a target of 1:4, meaning the share of CPU procurement is increasing. Very important.\n\n- Cloud providers' AI servers generally have excess compute capacity, and there are no plans for large-scale traditional server expansion for the time being.\n\n- AI applications are expected to drive ~10% of incremental demand for consumer CPUs, with long-term growth dependent on product usability.\n\n$INTC $AMD $ARM",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2039315025752703328",
+      "kind": "post",
+      "engagement": {
+        "views": 105032,
+        "likes": 606,
+        "reposts": 65,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039353092500791534",
+      "date": "2026-04-01",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "buying back stake in Ireland fab",
+        "financial position improved significantly in short period",
+        "interpreted as sign of optimism about CPU business going forward"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "Intel buying back the stake in its Ireland fab is genuinely surprising. It is remarkable that the company’s financial position improved so much in such a short period of time. It can also be interpreted as a sign that the company is very optimistic about its CPU business going forward.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2039353072556896256",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HE080IVa8AAAvZq.jpg",
+          "width": 1486,
+          "height": 1204,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2039353092500791534",
+      "kind": "post",
+      "engagement": {
+        "views": 44162,
+        "likes": 385,
+        "reposts": 39,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041038584933961881",
+      "date": "2026-04-06",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "From KeyBanc's supply chain survey report:\n\n$INTC (positive, Overweight, increasing estimates, increasing PT to $70 from $65) – Positive takeaways include: 1) Server CPU demand remains outsized; 2) INTC increases pricing twice for both server and client CPUs; 3) 18A yields continue to improve to 65% as Panther Lake ramp continues; 4) Wins 14A design win at AAPL for low-end Mseries processor for MacBook and iPad; 5) Google’s “Humu Fish” TPU will use EMIB-T, which we size at $4B-$5B in revenues.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2041038584933961881",
+      "kind": "post",
+      "engagement": {
+        "views": 146096,
+        "likes": 313,
+        "reposts": 38,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041167415934107894",
+      "date": "2026-04-06",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "Today, WIRED reported that Intel may be close to securing EMIB-related orders from Google and Amazon.\n\nThat said, the news itself isn't entirely new. In our December report, we had already noted that Google and other companies pursuing in-house ASIC development were evaluating EMIB as an alternative to CoWoS.\n\nIf there's one thing our report missed, it would be that a significant portion of Meta's in-house ASIC volume has since been canceled, and it is now Amazon — rather than Meta — that is exploring EMIB adoption.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2041164144528011264",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFOr-ZLbMAAUfZ7.jpg",
+          "width": 1566,
+          "height": 1562,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2041167415934107894",
+      "kind": "post",
+      "engagement": {
+        "views": 38403,
+        "likes": 238,
+        "reposts": 32,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041873953342525630",
+      "date": "2026-04-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "UBS: TSMC is accelerating next-generation packaging development in response to the competitive threat from Intel's EMIB\n\nIndustry feedback indicates that TSMC is accelerating the development of CoPoS (chip on panel on substrate) and is aiming for mass production by 2028E to compete against Intel's EMIB-T for ultra-large AI package. Intel's EMIB-T targets mass production by H227 or 2028. CoPoS could support Nvidia's Feynman, slated for release in H228, to move to 4-die package with meaningful performance enhancement. See our prior report on panel-level packaging for its benefits vs CoWoS.\n\n$INTC $TSM",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2041873953342525630",
+      "kind": "post",
+      "engagement": {
+        "views": 144744,
+        "likes": 326,
+        "reposts": 31,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043122090463961104",
+      "date": "2026-04-11",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "Intel has no track record with EMIB",
+        "Intel can't reliably handle its own volume",
+        "risk of EMIB failure would trap customers unable to switch to CoWoS"
+      ],
+      "is_risk": true,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "Interesting. Even within MediaTek itself, there are concerns about using Intel's EMIB.\n\n1. Intel has no track record, and it can't even reliably handle its own volume.\n2. If they commit to EMIB and it fails? They can't switch to CoWoS at that point. Even TSMC is worried about what might happen if MediaTek uses Intel EMIB and it fails.\n\n$INTC $TSM",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2043121728013180928",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFqgYv8boAAvRdS.jpg",
+          "width": 1512,
+          "height": 1228,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2043122090463961104",
+      "kind": "post",
+      "engagement": {
+        "views": 74217,
+        "likes": 263,
+        "reposts": 15,
+        "replies": 35
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043501428560601208",
+      "date": "2026-04-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "[Exclusive] Samsung Foundry 2nm Yield at 55%… Stuck Below the 'Mass Production 60%' Threshold\n\nSamsung Electronics' foundry business — a key future growth engine — has hit a wall at the '60% mass production' threshold for its 2nm (nanometer; 1nm = one-billionth of a meter) process. With yields stuck in the mid-50% range and failing to enter stable mass production territory, effective yields are expected to drop to the 40% range once back-end processing is factored in. While the company has succeeded in achieving technical entry, the consensus is that it remains insufficient to win orders from global Big Tech clients.\n\nAccording to semiconductor industry sources on the 13th, Samsung Electronics' foundry division's average yield for the 2nm process is understood to be approximately 55%. This is lower than the '60%-plus' estimates floated by some, signaling that additional time is still needed to reach mass production stability. A source with knowledge of internal affairs stated, \"The 2nm process yield is in the 50–60% range, with an average around 55%,\" adding, \"The process is running, but it is still a long way from a stable mass production phase.\"\n\nThe pace of yield improvement itself has been rapid. Samsung's foundry 2nm yields were reportedly stuck in the 20% range as recently as the second half of last year. Reaching the mid-50s in less than a year is assessed as technically reaching a level where the mass production line can be operated. This is attributed in part to the accumulation of process experience driven by incoming orders for Bitcoin mining chips from China's Canaan and MicroBT, among others. Given the extreme difficulty of the 2nm ultra-fine process, some consider this an exceptionally fast rate of improvement.\n\nHowever, the prevailing view in the industry is that it remains a \"half-process\" at best. In a structure where nearly half of all wafer input is discarded as defective, the process fails on both price competitiveness and delivery reliability. In particular, when factoring in losses from performance binning and packaging, the actual percentage of chips that can generate profit is estimated to fall as low as 40%. Considering that a single wafer for cutting-edge processes costs tens of millions of won, a 1% difference in yield translates to annual operating profit differences ranging from hundreds of billions to trillions of won. This is bound to significantly derail Samsung Electronics' efforts to improve foundry business profitability.\n\nAn industry source said, \"A yield in the 50% range only means the process 'runs' — it is not a stage where customers can entrust orders with confidence,\" adding, \"It is a zone where both delivery and quality variability coexist.\"\n\nBy contrast, rival TSMC is reported to have secured stable yields of 60–70% for its 2nm process. Samsung Foundry's current mid-50% yield is therefore assessed as corresponding to the technical entry stage, but falling short for securing major customers — a \"transitional zone.\" Significant progress has been made, but analysis suggests actual mass production remains premature.\n\nIn practice, Samsung has secured some customer and internal volumes, but has yet to achieve results in winning key clients such as Apple, NVIDIA, and AMD. Notably, Qualcomm — a global mobile application processor (AP) company that had raised expectations for new orders — is also showing signs of returning to TSMC, citing process yield and stability concerns. Additionally, the 'AI6' advanced autonomous driving chip contracted with Tesla is scheduled for mass production this year, and the yield level achieved at the actual production milestone will be critical in determining profitability and supply stability.\n\nMeanwhile, Samsung Electronics' strategy is to win new orders, run its facilities, and improve yields going forward. At Samsung Electronics' annual general meeting on March 18, Han Jin-man, head of the foundry business division (President), stated, \"For the 2nm process as well (which is at a higher level than the 4nm process), we can build up order experience with major companies and secure yields through that process.\"\n\n$INTC $TSM",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043501428560601208",
+      "kind": "post",
+      "engagement": {
+        "views": 169112,
+        "likes": 359,
+        "reposts": 32,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044045150410919940",
+      "date": "2026-04-14",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "would need at least twice as many CPUs"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "You would need at least twice as many CPUs.\n\n$AMD $INTC $ARM https://t.co/5phuKGbXGM https://t.co/q9O1IrakCl",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044044981141417990",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HF3oFJ3asAYW3kI.jpg",
+          "width": 1080,
+          "height": 560,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044045150410919940",
+      "kind": "post",
+      "engagement": {
+        "views": 257493,
+        "likes": 1365,
+        "reposts": 161,
+        "replies": 35
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044750394719715585",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "JPM's supply chain survey indicates that Google is developing an SRAM-based compute engine in collaboration with Marvell (a concept similar to NVIDIA's Groq LPU), and this is expected to negatively impact MediaTek's TAM. (@FundaAI made a really impressive call.)\n\nAdditionally, JPM forecasts that in Google's TPU v9, $AVGO (Broadcom) is highly likely to be the sole supplier using TSMC's CoWoS-L technology.\n(Bearish on $INTC's EMIB-T?)",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044750394719715585",
+      "kind": "post",
+      "engagement": {
+        "views": 61004,
+        "likes": 271,
+        "reposts": 13,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044981182555926584",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "CPU shortage more acute than memory; industry awaits Intel 18A yield improvement\n\nA global CPU shortage is disrupting PC and industrial-computing supply chains, as processors are out of stock even at premium prices, while memory is limited but purchasable. The scarcity threatens notebook and industrial PC availability worldwide and may persist for some time until Intel's 18A process yields improve, industry sources warn.\n\nIndustry contacts described the current situation as more acute for processors than for memory, which is available in limited quantities at higher prices. By contrast, several processors are effectively unavailable regardless of price, affecting both Intel and Advanced Micro Devices (AMD). Suppliers said relief may hinge on improvements in Intel's 18A process yields.\n\nBoth Intel and AMD raised processor prices by 10-15% recently to reflect rising costs. Notebook supply chain representatives, however, reported no immediate expectation of further increases because product availability, rather than price, is the primary constraint. The most scarce parts are Intel's 2022 Raptor Lake series, and one source said lead times have become meaningless because waiting does not guarantee delivery.\n\nAnalysts foresee Raptor Lake discontinuation in 2026, prompting manufacturers to shift buying toward Arrow Lake and the newer Panther Lake processors. Given Panther Lake's higher cost, the market focus is expected to concentrate on Arrow Lake as the N-1 generation choice.\n\nIndustrial PC makers serving enterprise clients are particularly affected. While memory shortages can be eased by paying premiums, Intel CPUs are reported as genuinely unavailable. With Intel estimated to hold roughly 90% market share in industrial segments, the impact on IPC makers is pronounced.\n\nIntel's supply constraints are expected to ease gradually as 18A yields improve, a point reportedly echoed by Intel CEO Lip-Bu Tan, who said 18A production has started, but yields remain below expectations. Some insiders warned consumer demand may cool in 2026, especially in the second half, as higher prices dampen seasonal sales, prompting vendors to adjust inventories cautiously.\n\nNotebook original design manufacturer shipments exceeded expectations in the first quarter due to aggressive brand pull-ins and are expected to be stable in the second quarter, though manufacturers remain conservative about the latter half and foresee annual shipment declines versus 2025.\n\nObservers noted that low-end Intel processors have been in short supply since 2025, a situation that once prompted some makers to switch to AMD; shortages are now reported across both vendors. Experts attribute the CPU scarcity to AI-driven demand surges that have strained capacity across GPUs, substrates, memory, passive components, and CPUs, framing the issue as an industry-wide upgrade and transition rather than an isolated corporate strategy.\n\n$INTC $AMD",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044981037084946432",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGE7ax_bsAAna1j.png",
+          "width": 640,
+          "height": 427,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044981182555926584",
+      "kind": "post",
+      "engagement": {
+        "views": 218369,
+        "likes": 686,
+        "reposts": 81,
+        "replies": 21
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044995774405300475",
+      "date": "2026-04-17",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "if 18A yield improves, CPU shortage will gradually be resolved"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "@rubicon59 On the contrary, if the 18A yield improves, it means the CPU shortage will gradually be resolved.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044995774405300475",
+      "kind": "reply",
+      "engagement": {
+        "views": 2876,
+        "likes": 26,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045061306835931226",
+      "date": "2026-04-17",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "Major Korean newspaper The Dong-A Ilbo praised Intel, saying it had returned to a technology-first approach and achieved the fastest turnaround in the company’s 57-year history.\n\n“Industry observers had expected it would take Intel years to regain its footing, but under Lip-Bu Tan’s leadership, it is now being seen as having restored its leadership in just one year.”",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2045061209087737856",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGGEVZ-bAAACED0.jpg",
+          "width": 1426,
+          "height": 1786,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2045061306835931226",
+      "kind": "post",
+      "engagement": {
+        "views": 44643,
+        "likes": 239,
+        "reposts": 23,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045142673477324838",
+      "date": "2026-04-17",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "Intel at $70 — a historic day.\n\n$INTC",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2045142673477324838",
+      "kind": "post",
+      "engagement": {
+        "views": 84873,
+        "likes": 711,
+        "reposts": 28,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045142830545527083",
+      "date": "2026-04-17",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "There was a time in Korean stock communities when people thought of Intel as a stock you buy at $19 and sell at $21… I remember those days.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2045142830545527083",
+      "kind": "self_thread",
+      "engagement": {
+        "views": 15504,
+        "likes": 133,
+        "reposts": 5,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046133409643401655",
+      "date": "2026-04-20",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "author states preference for other companies over CPU manufacturers even in a CPU supercycle"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "@JulienTechInvst I never said I prefer Intel. Even if a CPU supercycle comes, I would still prefer other companies over CPU manufacturers.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046133409643401655",
+      "kind": "reply",
+      "engagement": {
+        "views": 1972,
+        "likes": 10,
+        "reposts": 0,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046721056602485090",
+      "date": "2026-04-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "▶ Strong CPU Pull-In; Supply Chain: Prices Continue Rising in Q3\n\n- CPU price increases are driven by two factors: 1) surging AI server demand, and 2) deepening supply shortages caused by capacity concentration on leading-edge nodes\n\n- Intel raised PC CPU prices in March and server CPU prices in April, improving 2Q margins, with room for an additional ~8–10% hike in 2H\n\n- AMD is likewise expected to raise prices in both 2Q and 3Q this year, centered on server CPUs, with cumulative annual increases projected at 16–17% — marking entry into a broad CPU price upcycle\n\n- As 2nm/3nm processes enter mass production and capacity expansion phases, capacity competition among AI chips, CPUs, GPUs, and TPUs is intensifying, putting upward pressure on foundry pricing and lead times\n\n- CPUs are currently in a clear state of undersupply, with the supply-demand imbalance persisting and the price upcycle likely to be prolonged\n\n- TSMC is, unusually, continuing to expand 3nm capacity — driven by simultaneous CPU and AI ASIC demand growth and the fact that Intel, AMD, and Nvidia's Vera CPU all adopt 3nm\n\n- Intel recently strengthened its control over leading-edge capacity by repurchasing the 49% stake in its Ireland Fab 34 ($14.2B)\n\n- The facility is the core production base for Intel 4 and Intel 3 processes, ranking among the highest-volume leading-edge fabs\n\n- For the 2026–2027 CPU market, capacity — rather than demand — will be the key variable; if AI infrastructure investment continues to expand and process/packaging bottlenecks persist, the price uptrend is expected to hold, with benefits spreading broadly across the foundry, OSAT, equipment, and materials supply chain",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046721056602485090",
+      "kind": "post",
+      "engagement": {
+        "views": 51133,
+        "likes": 320,
+        "reposts": 36,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047237363445993743",
+      "date": "2026-04-23",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "x86 declining share trajectory looks unavoidable",
+        "deal with Google feels more like 'not losing ground' — a defensive deal",
+        "Google's TPUs predominantly powered by in-house Axion ARM CPUs caps x86 TAM"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "I'm taking another look at the TPU Gen 8 announcement, and something doesn't quite add up.\n\nGoogle stated that TPU v8 clusters will largely be supported by their self-designed Axion ARM-based CPUs. If that's the case, why did they put out a press release just days earlier announcing an x86 CPU partnership with Intel? Over time, Google's TPUs are going to be predominantly powered by their in-house Axion anyway.\n\nSure, x86 workloads will still be used for Search, YouTube, Ads, Gmail, and so on—but doesn't this ultimately cap x86's TAM? It's not that Intel Xeon will stop being used entirely, but x86's declining share trajectory looks unavoidable.\n\nThe IPU collaboration with Google seems like a positive, but the deal Intel struck with Google ultimately feels more like \"not losing ground\" to me. A defensive deal.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047237363445993743",
+      "kind": "post",
+      "engagement": {
+        "views": 44972,
+        "likes": 265,
+        "reposts": 10,
+        "replies": 20
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047438876445446619",
+      "date": "2026-04-23",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "massive earnings surprise"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "Intel is insane… This is a massive earnings surprise.\n\n$INTC",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047438876445446619",
+      "kind": "post",
+      "engagement": {
+        "views": 79141,
+        "likes": 930,
+        "reposts": 23,
+        "replies": 40
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047457585180320080",
+      "date": "2026-04-23",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "Intel cited rising substrate, T-glass, and memory costs as headwinds to gross margin in the second half of the year. https://t.co/vE57DvMf2j",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2047457579975278592",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGoH0jMbgAAF4k1.jpg",
+          "width": 1206,
+          "height": 1262,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2047457585180320080",
+      "kind": "post",
+      "engagement": {
+        "views": 230251,
+        "likes": 612,
+        "reposts": 56,
+        "replies": 16
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047467201075245356",
+      "date": "2026-04-23",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "Intel 14A ramping much better than expected"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "Were Jensen Huang and C.C. Wei wrong when they said that TSMC’s technology cannot be copied just because a few people leave the company?\n\nIntel 14A seems to be ramping much better than I had expected. https://t.co/gGAbjp7lle",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047467201075245356",
+      "kind": "post",
+      "engagement": {
+        "views": 68709,
+        "likes": 359,
+        "reposts": 24,
+        "replies": 35
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047472746083545161",
+      "date": "2026-04-23",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "RT @citrini: Trade Number 4 of 26 Trades for 2026 was “Advanced Packaging”, detailing the catchup trade for Intel and the Intel AP Ecosyste…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047472746083545161",
+      "kind": "post",
+      "engagement": {
+        "views": 4,
+        "likes": 0,
+        "reposts": 50,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047519682010513568",
+      "date": "2026-04-23",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "RT @LinQingV: Intel盘后大涨，这次电话会非常值得看。CEO Lip-Bu Tan讲Intel如何重新回到AI时代的牌桌上？\n\n他把重点放在两个位置。第一，AI从训练走向推理和agent以后，CPU的价值会重新被市场看见。第二，Intel Foundry的现实突…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047519682010513568",
+      "kind": "post",
+      "engagement": {
+        "views": 9,
+        "likes": 0,
+        "reposts": 53,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047529168787865798",
+      "date": "2026-04-24",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "@kk82298420 @teortaxesTex Intel’s packaging technology is already on par with TSMC’s.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047529168787865798",
+      "kind": "reply",
+      "engagement": {
+        "views": 711,
+        "likes": 6,
+        "reposts": 0,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047577112660541818",
+      "date": "2026-04-24",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "GF Overseas Electronics & Communications\n Intel (INTC US, Buy) — 1Q26 Results Review\n1Q26 results beat expectations\n\n- Revenue: US$13.6bn, +7% YoY, above consensus of US$12.4bn\n- Gross margin: 41%, +3.1 ppts QoQ, above guidance of 34.5%\n- EPS: US$0.29, above consensus of US$0.01\n\nSegment performance\n\n- CCG: Revenue US$7.7bn, operating margin 32.6% (+5.6 ppts)\n- DCAI: Revenue US$5.1bn, operating margin 30.5% (+4.1 ppts)\n- Foundry: Revenue US$5.4bn, operating loss US$2.4bn, improving by US$0.1bn QoQ\n\n2Q26 guidance also beat expectations\n\n- Revenue: US$13.8–14.8bn, +5% QoQ, above consensus of US$13bn\n- Gross margin: 39%, -2 ppts QoQ, above consensus of 36.5%\n- EPS: US$0.20, above consensus of US$0.12\n\nOther key takeaways\n\n- The 1Q gross margin beat reflected higher sales, product mix optimization, pricing, and improved 18A yield.\n- Gross margin is expected to decline modestly by 2 ppts QoQ in 2Q, due to a meaningful increase in the contribution from 18A.\n- Capex is expected to be roughly flat with last year, while spending on equipment/tools is increasing significantly and is expected to grow by around 25% YoY.\n- 14A is currently being developed with multiple customers on PDKs. Intel already has a 0.5 PDK and is targeting a 0.9 PDK. The company reiterated that early customer design commitments are expected in 2H26, extending into 1H27.\n- The ASIC business performed strongly, with 1Q revenue up more than 30% QoQ and nearly doubling YoY.\n- Panther Lake shipments are increasing. In 2Q, shipments could grow 6–7x QoQ versus 1Q. Panther Lake gross margin is improving quarter by quarter, though it remains below the company average.\n- Gross margin in the second half needs to be monitored due to rising raw material costs, including substrates, T-glass, and memory prices.\n- Intel increased its advanced packaging order backlog and announced an expansion of its backend facility in Malaysia to support order demand that is expected to convert into revenue in 2027.\n- Intel expects the full-year PC market TAM to decline by low double digits YoY.\n- Intel expects server CPU shipments to grow by double digits this year.\n- Annualized ASIC revenue has already exceeded US$1bn.\n- The GPU-to-CPU ratio is typically 7–8:1 during the model training stage, but changes to around 3:1 or 4:1 during the inference stage.\n\nGF HK view\nIntel rose 19% after hours, as both 1Q results and 2Q guidance came in far above expectations. Server CPU growth momentum is strong, and the foundry business is progressing according to plan, including rapid improvement in 18A yield and smooth progress on 14A.\n\nWe expect near-term results to continue benefiting from CPU tailwinds. Longer term, considering Intel’s favorable supply-chain positioning and improving execution in foundry, investor confidence and risk appetite toward Intel are gradually strengthening. We remain positive on the stock.\n\n$INTC",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047577112660541818",
+      "kind": "post",
+      "engagement": {
+        "views": 32206,
+        "likes": 78,
+        "reposts": 2,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047918203461136841",
+      "date": "2026-04-25",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "Interesting…\n\nAccording to GSR, Intel has told Chinese CSPs that CPU supply will be extremely tight over the next two quarters, but should stabilize toward year-end. However, Chinese CSPs reportedly view that timeline as overly optimistic and are preparing for a prolonged CPU shortage.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2047918197190651904",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGuqwACbcAARP5-.jpg",
+          "width": 1320,
+          "height": 1421,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2047918203461136841",
+      "kind": "post",
+      "engagement": {
+        "views": 49933,
+        "likes": 360,
+        "reposts": 42,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048233256961876087",
+      "date": "2026-04-25",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "《GF Overseas Electronics & Telecom》 \n☄️ Intel (INTC US, Buy): Earnings Beat — From Recovery to Strength\n\n☀️ Price target raised to $94.2: Despite already elevated market expectations, Intel's 1Q results still meaningfully beat, even though 2Q guidance was somewhat conservative. Many in the market view this earnings call as carrying far greater constructive significance than Intel's routine updates. In fact, several brokers have already followed up with rating upgrades, as the narrative shifts from a \"turnaround story\" to \"AI beneficiary + external foundry option.\" Overall, we believe Intel's core CPU business will remain strong, with the key watch points being the tightness of substrate and silicon capacitor supply, as well as order wins and execution in the foundry business — and as our prior updates have noted, both are progressing well. Reflecting the results, guidance, and higher margins, we revise our 2026E/2027E/2028E EPS forecasts to $1.5/$2.4/$3.1, and raise our price target from $78.5 to $94.2, based on 3.5x 2027 P/B.\n\n☀️ All-around beat: 1Q revenue of $13.6B came in $1.4B above the guidance midpoint and above consensus of $12.4B. Non-GAAP gross margin was 41%, above both guidance and consensus of 35%, with EPS of $0.29 (guidance: breakeven). Operating cash flow was $1.1B, while adjusted free cash flow was -$2.0B. 2Q guidance: revenue $13.8-14.8B (+2% to +9% QoQ) vs. consensus of $13.0B; Non-GAAP gross margin of 39%, reflecting a higher Panther Lake mix; EPS guidance of $0.20, with DCAI expected to deliver double-digit QoQ growth.\n\n☀️ Foundry on track: As we have repeatedly emphasized since our initiation report in July 2025 and our pre-earnings preview on April 16, we remain bullish on strong customer engagement from Apple, NVIDIA, and AMD on 18A-P (primarily 14A), and we believe Intel will secure a portion of Tesla's AI6 program on 14A by end-2028. On execution, management indicated that 18A yields are running better than internal expectations. External foundry revenue remains small at $174M, with an operating loss of $2.4B, though improving by $72M QoQ. Management expects losses to continue narrowing through the year.\n\n☀️ CPU continues to strengthen: Intel argues that AI workloads are shifting from training toward inference, agentic AI, robotics, physical AI, and edge AI, making the CPU increasingly important as the orchestration layer of the AI stack. Management noted that server CPU demand has improved materially over the past 90 days, and expects both the industry and Intel to deliver double-digit shipment growth in 2026, with the momentum extending into 2027. As flagged in our report, the 2Q26 CPU price hike was already within expectations, and we expect another 5-10% price increase by the end of 3Q. We now forecast DCAI to grow 39%/15% YoY in 2026E/2027E. \n\n$INTC",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048233256961876087",
+      "kind": "post",
+      "engagement": {
+        "views": 64803,
+        "likes": 116,
+        "reposts": 12,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048234037433770210",
+      "date": "2026-04-25",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "According to Jeff Pu's estimates, Intel is expected to win a portion of the AI6 orders that were previously anticipated to be awarded exclusively to Samsung. https://t.co/cRM1i5BO2q https://t.co/pAOxSsenDP",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2048233776795566080",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGzJxJrbQAAJSzB.png",
+          "width": 1180,
+          "height": 474,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2048234037433770210",
+      "kind": "post",
+      "engagement": {
+        "views": 73225,
+        "likes": 326,
+        "reposts": 23,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048683483929919806",
+      "date": "2026-04-27",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "GF Overseas Electronics & Telecom\n☄️ MediaTek (2454 TT, Buy): Two More Things!\n\n☀️ What’s new? Meta!\nSince we published our MediaTek report on March 25, MediaTek’s share price has risen 50%, driven by multiple brokerages upgrading the stock and highlighting its Google TPU potential, while our earnings forecasts remain the highest on the Street. We now see increasing opportunities for MediaTek to win more customers.\n\nRegarding Meta, we are highly positive on its next-generation AR glasses. The product will use two SRAM chips supplied by AP Memory (6531 TT) and one SoC supplied by MediaTek, replacing Qualcomm, with mass production targeted for the end of 2027. Following the success of Meta’s Ray-Ban Display glasses, we expect this product to reach annual shipments of 6–7 million units.\n\nOn the ASIC side, we expect MediaTek management to continue emphasizing its second ASIC customer during the upcoming earnings call, and we believe the company is targeting the Astrid and Apollo projects.\n\n☀️ What’s new? OpenAI!\nIn addition to the new Meta catalyst, we now believe MediaTek is highly likely to win the bid for OpenAI’s edge AI project, as the product SKU is focused on the mid-range market. We expect the project to be an N3-based SoC — with the modem still undecided — and to fully integrate OpenAI’s AI model.\n\nThe bidding process is ongoing, with tape-out targeted for 1H27. Regardless of shipment volume, we believe the symbolic significance of this cooperation would be very positive, as it could open the door for MediaTek to pursue ASIC collaboration opportunities with OpenAI.\nThat said, MediaTek’s capabilities have, at least for now, been validated through the TPU 8t tape-out, and the company can offer multiple backend solutions — including CoWoS, EMIB, and InFO — to compete for ASIC projects in what is currently the industry bottleneck.\n\n☀️ Target price raised to NT$2,850; reiterating the views from our March 25 TPU upgrade report\nWe reiterate the core views from our March 25 report:\n\n1. The early redesign issues for v8x, i.e. 8t, have been quickly resolved, and risk production is now targeted for May.\n2. MediaTek’s v8x CoWoS capacity allocation for 2027 has been raised from 70,000 wafers to 160,000 wafers, corresponding to 3.2 million packaged chips.\n3. Humufish has an ASP of US$15,000, with shipments reaching 3.5 million units by the end of 2028.\n4. Intel’s EMIB can support 9x to 12x reticle-size packages, but constraints in silicon capacitors and substrates are worth monitoring.\n\nBased on a minor earnings adjustment from raising the average selling price of TPU 8t to US$4,400, we raise our 2026/2027 EPS estimates by 1%/4%, respectively. Applying 25x 2027 P/E, we raise our target price from NT$2,750 to NT$2,850 and reiterate our Buy rating.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048683483929919806",
+      "kind": "post",
+      "engagement": {
+        "views": 67217,
+        "likes": 80,
+        "reposts": 9,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048725249722917370",
+      "date": "2026-04-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "I didn’t realize this before. I naturally assumed Intel would have a supply advantage over AMD in CPUs.\n\nBut Qualcomm and MediaTek apparently cut their TSMC 4/5nm orders because mid- to low-end smartphone shipments literally collapsed. AMD seems to have taken over that capacity.\n\nRight now, even CPUs produced on older nodes are being bought up by customers lining up for supply. AMD’s earnings could be worth getting excited about.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048725249722917370",
+      "kind": "post",
+      "engagement": {
+        "views": 283547,
+        "likes": 1279,
+        "reposts": 72,
+        "replies": 35
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048893636893680054",
+      "date": "2026-04-27",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "highly experienced engineers joining Intel's EMIB efforts",
+        "EMIB will take a meaningful share"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "$INTC",
+      "text": "I’ve heard that a lot of highly experienced engineers are joining Intel’s EMIB efforts.\n\nTSMC’s move to address demand by increasing the reticle size for CoWoS does make me a bit more cautious about EMIB, but I still think EMIB will take a meaningful share.\n\n$INTC",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048893636893680054",
+      "kind": "post",
+      "engagement": {
+        "views": 76604,
+        "likes": 422,
+        "reposts": 20,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2049077350781096160",
+      "date": "2026-04-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "A team lead at Amkor Technology Korea’s R&amp;D center stated that glass substrates are expected to be commercialized within the next three years.\n\n* Amkor has close ties with Intel, including licensing EMIB-T.\n\n$AMKR \n\nhttps://t.co/BIiVO0ZPwk",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2049077350781096160",
+      "kind": "post",
+      "engagement": {
+        "views": 65791,
+        "likes": 267,
+        "reposts": 23,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2049459751659200798",
+      "date": "2026-04-29",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "Citing UBS's AMD earnings preview:\n\n- The market is clearly aware that INTC's guidance reads very favorably for AMD.\n- This is particularly true for server CPU, given commentary implying that INTC is undershipping the market by roughly 20%.\n- The key question here is AMD's supply, but our field work throughout the quarter indicated that supply of INTC parts has been far more constrained than that of AMD parts.\n- We therefore see a very favorable setup for AMD and expect revenue to be guided up at least $1B Q/Q to the low $11B range (vs. Street consensus of ~$10.4B).\n- Intel's CY2026 outlook implies its Data Center & AI segment growing ~40% Y/Y, and we now see AMD server CPU growing as much as 80% this year, with units up ~40–45% and pricing up around 20%.\n- From a competitive standpoint, our checks remain constructive. AMD's CPU portfolio continues to compare favorably with Intel's offerings, and the lack of meaningful timeline updates for Diamond Rapids and Coral Rapids reinforces our view that AMD should maintain a competitive advantage across the x86 ecosystem through C2026.\n\n$INTC $AMD",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2049459751659200798",
+      "kind": "post",
+      "engagement": {
+        "views": 72719,
+        "likes": 439,
+        "reposts": 44,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2049633764037586949",
+      "date": "2026-04-29",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "moving too fast toward $100, author skeptical of the pace"
+      ],
+      "is_risk": false,
+      "conviction": "low",
+      "raw_mention": "Intel",
+      "text": "Intel is already getting close to $100… Isn’t this moving way too fast?",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2049633764037586949",
+      "kind": "post",
+      "engagement": {
+        "views": 115152,
+        "likes": 690,
+        "reposts": 8,
+        "replies": 79
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2049635727638663345",
+      "date": "2026-04-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "@Alex_Intel_ What about mass production? Is Nvidia supposed to use this?",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2049635727638663345",
+      "kind": "reply",
+      "engagement": {
+        "views": 2622,
+        "likes": 8,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2049636834712723945",
+      "date": "2026-04-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "@Alex_Intel_ Logic-on-memory isn’t Intel’s exclusive domain. All three major memory makers are working on it. In fact, they’re already putting out samples.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2049636834712723945",
+      "kind": "reply",
+      "engagement": {
+        "views": 2243,
+        "likes": 18,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2050136199621456079",
+      "date": "2026-05-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "Former TSMC packaging vice president Douglas Yu has joined MediaTek, and MediaTek insiders reportedly expect that his arrival will make it much easier to manage the technical and mass-production risks associated with the first adoption of EMIB-T than previously feared.\n\nThe media outlet that reported the news cited an industry source as saying, “TSMC assumed customers would not leave, but they did.” The outlet also commented that while TSMC is now rushing to fill the packaging gap between CoWoS and SoW, based on the current timeline, it appears difficult for TSMC to reclaim the TPU v9 packaging order.\n\n$INTC",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2050136193472544768",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHOMAYEaQAARxGI.jpg",
+          "width": 1320,
+          "height": 2107,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2050136199621456079",
+      "kind": "post",
+      "engagement": {
+        "views": 78290,
+        "likes": 324,
+        "reposts": 44,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051515981781234051",
+      "date": "2026-05-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel Foundry",
+      "text": "Whoa! BBG: Apple is considering using Samsung Foundry and Intel Foundry. https://t.co/JuLqfROEHr",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2051515973266763776",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHhy6IWa8AAiijl.jpg",
+          "width": 1320,
+          "height": 1974,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2051515981781234051",
+      "kind": "post",
+      "engagement": {
+        "views": 129771,
+        "likes": 849,
+        "reposts": 96,
+        "replies": 49
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051537011568455988",
+      "date": "2026-05-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "It also means Intel’s EMIB has received customer orders, right? Otherwise, there would be no reason for them to expand capacity. https://t.co/9cKVZRw1CI",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2051537011568455988",
+      "kind": "post",
+      "engagement": {
+        "views": 65138,
+        "likes": 285,
+        "reposts": 25,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051889742753726626",
+      "date": "2026-05-06",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel Foundry",
+      "text": "@aleabitoreddit Apple is reportedly considering Intel Foundry → Intel is a leader in glass substrates → Could Apple also use glass substrates? → Glass substrate sector rallies.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2051889742753726626",
+      "kind": "reply",
+      "engagement": {
+        "views": 56835,
+        "likes": 315,
+        "reposts": 9,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051996115093033426",
+      "date": "2026-05-06",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "Most-bought U.S. stocks by Koreans over the past month:\n\n1. $SOXL\n2. $INTC\n3. $DRAM\n4. $SNDK https://t.co/hqB8ioxMG5",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2051996110034739200",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHonlxMaoAAvmBa.jpg",
+          "width": 1132,
+          "height": 331,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2051996115093033426",
+      "kind": "post",
+      "engagement": {
+        "views": 157486,
+        "likes": 1034,
+        "reposts": 64,
+        "replies": 53
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2052892859716833724",
+      "date": "2026-05-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "This is pretty surprising…\n\nApparently, DJT himself told Apple to use Intel, saying, “I like Intel.” per WSJ https://t.co/Hk4IPBoqgU",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2052892614190678016",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HH1W9LbbwAASkka.png",
+          "width": 1272,
+          "height": 1102,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2052892859716833724",
+      "kind": "post",
+      "engagement": {
+        "views": 307368,
+        "likes": 1361,
+        "reposts": 56,
+        "replies": 57
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2053730063259202047",
+      "date": "2026-05-11",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "Just in: SK hynix is conducting R&amp;D on 2.5D packaging technology with Intel.\n\nJust in: SK hynix is considering adopting EMIB from Intel.\n\n$INTC",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2053730063259202047",
+      "kind": "post",
+      "engagement": {
+        "views": 297281,
+        "likes": 1598,
+        "reposts": 131,
+        "replies": 24
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2053730230137926121",
+      "date": "2026-05-11",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "SK Hynix Pursues 2.5D Packaging Collaboration with Intel, Signaling Shifts in AI Chip Supply Chain\n\nSK Hynix is drawing attention as it pursues collaboration with Intel in advanced packaging. The company is currently understood to be conducting tests that adopt Intel's 2.5D packaging technology to integrate High Bandwidth Memory (HBM) with logic chips.\n\nWith Taiwan's TSMC—the leader in 2.5D packaging—recently grappling with a severe supply crunch, expectations are growing that the 2.5D packaging supply chain for AI accelerators could diversify.\n\nAccording to industry sources on the 11th, SK Hynix is conducting joint R&D with Intel on 2.5D packaging technology.\n\n2.5D packaging is a technique that inserts a thin film-like interposer between the chip and substrate to enhance chip performance. Representative applications include the AI accelerators being developed by global big tech firms such as NVIDIA and AMD. AI accelerators are built by combining high-performance logic chips—such as GPUs—with HBM through 2.5D packaging.\n\nAt present, the global 2.5D packaging supply chain for big tech is effectively monopolized by TSMC, Taiwan's leading foundry. SK Hynix has also maintained a close partnership with TSMC, conducting joint R&D on HBM and 2.5D packaging.\n\nBeyond this, SK Hynix is reviewing the adoption of Intel's 2.5D packaging technology, \"Embedded Multi-die Interconnect Bridge\" (EMIB). The company is understood to be testing the integration of HBM and logic chips using EMIB-embedded substrates supplied by Intel.\n\nA source familiar with the matter said, \"While it is still at an early R&D stage, SK Hynix is actively conducting tests to implement 2.5D packaging using Intel's EMIB,\" adding that \"the company is also scouting candidate materials and components that would be required for actual volume production.\"\n\nThe discussions between SK Hynix and Intel are seen as well aligned in terms of mutual interests.\n\nTSMC's 2.5D packaging technology, \"Chip-on-Wafer-on-Substrate\" (CoWoS), has been suffering from acute supply shortages amid the recent AI semiconductor boom. As a result, several big tech firms have turned their attention to Intel's EMIB as a promising alternative to CoWoS.\n\nFrom SK Hynix's perspective, preemptive R&D on Intel's EMIB is also necessary. While SK Hynix does not manufacture 2.5D packaging itself, developing HBM with the structure and characteristics of 2.5D packaging in mind is advantageous for improving yield and reliability. In fact, SK Hynix operates a small-scale line domestically dedicated to 2.5D packaging R&D.\n\nFurthermore, the collaboration is expected to allow Intel to significantly expand its advanced packaging business. Intel's EMIB uses small silicon bridges to connect chips, rather than a broad interposer. Because bridges only need to be placed where chip-to-chip connections are required, chips can be arranged more flexibly and efficiently.\n\nAn industry source explained, \"Intel is currently promoting its EMIB technology aggressively to SK Hynix and major OSATs,\" and \"over the medium to long term, Intel's EMIB is expected to be added to the 2.5D packaging supply chain for AI accelerators.\"\n\n$INTC",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2053730205525770240",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIBQvaTagAAuSZw.png",
+          "width": 600,
+          "height": 294,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2053730230137926121",
+      "kind": "post",
+      "engagement": {
+        "views": 112863,
+        "likes": 632,
+        "reposts": 75,
+        "replies": 25
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2053923807040328073",
+      "date": "2026-05-11",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "Interesting.\n\nTesla’s current AI5 chip, codenamed Helios, is reportedly being foundried by TSMC and Samsung, and the next-generation AI6 was also originally expected to be split between those two foundries.\n\nHowever, under strong pressure and encouragement from the Trump administration, the portion of AI6 that was originally assigned to TSMC will reportedly be transferred entirely to Intel Foundry.\n\n$INTC",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2053923799738060800",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIEA0E8bkAAFl0L.jpg",
+          "width": 1319,
+          "height": 1687,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2053923807040328073",
+      "kind": "post",
+      "engagement": {
+        "views": 288775,
+        "likes": 1078,
+        "reposts": 138,
+        "replies": 60
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2054171219851919759",
+      "date": "2026-05-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "I didn’t realize this, but it looks like AWS may be using EMIB for a lower-end version of Trainium through MediaTek.\n\nSimilar to the TPU v9 program handled by MediaTek, next-generation Trainium seems likely to use both EMIB and CoWoS.\n\n$INTC",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2054171219851919759",
+      "kind": "post",
+      "engagement": {
+        "views": 114905,
+        "likes": 538,
+        "reposts": 41,
+        "replies": 18
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2054380141581906169",
+      "date": "2026-05-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "@intel @mweinbach @Google not ARM?",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2054380141581906169",
+      "kind": "reply",
+      "engagement": {
+        "views": 14652,
+        "likes": 43,
+        "reposts": 0,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2054564780732498342",
+      "date": "2026-05-13",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "Apple and Intel signed an agreement in December 2025",
+        "M7 chip will use Intel 18A-P entering production by end of 2027",
+        "smartphone chip will use Intel 14A entering production by end of 2028"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "From GFHK Monthly Call: Apple and Intel already signed an agreement in December 2025. The M7 chip will use Intel 18A-P and is expected to enter production by the end of 2027, while the smartphone chip will use Intel 14A and is expected to enter production by the end of 2028.\n\n$INTC",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2054564780732498342",
+      "kind": "post",
+      "engagement": {
+        "views": 127480,
+        "likes": 466,
+        "reposts": 43,
+        "replies": 21
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2054988988331831580",
+      "date": "2026-05-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "\"For the next several years, the bulk of advanced-node orders will remain with TSMC. Apple is therefore one of the very few, and arguably the most complete, foundry training opportunities available to Intel: the orders span Apple’s full product line, are large enough in scale, and require dynamic design and production adjustments in response to market shifts. Although Apple’s orders are unlikely to dramatically reverse IFS’s quarterly losses in the short term, and shipment share will remain constrained by capacity and yield, the strategic significance of this partnership runs far deeper than the headline financials.\n\nThat said, Apple’s demanding standards, combined with Intel’s strategy of simultaneously taking orders from other customers, will amplify the difficulty of rebuilding Intel’s advanced-node foundry business. Intel’s own efforts, geopolitics, and customer-side hedging have together given Intel a once-in-a-generation window to rebuild its foundry business. Whether Intel can turn this window into results now depends entirely on execution.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2054988988331831580",
+      "kind": "post",
+      "engagement": {
+        "views": 77981,
+        "likes": 307,
+        "reposts": 21,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2055382440647225435",
+      "date": "2026-05-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "UBS: NVIDIA may offer two SKUs for Rubin Ultra: a 2-chip version and a 4-chip version. The 4-chip version will likely use Intel’s EMIB-T.\n\n$INTC",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2055382440647225435",
+      "kind": "post",
+      "engagement": {
+        "views": 319084,
+        "likes": 611,
+        "reposts": 45,
+        "replies": 24
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2056595987838415064",
+      "date": "2026-05-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "Lmao, Intel is now threatening its suppliers that it won’t supply them with CPUs anymore unless they use 18A CPUs. https://t.co/2KMY2rI0ed",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2056595980481601536",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIp_Jd8aIAAUWvZ.jpg",
+          "width": 1244,
+          "height": 2048,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2056595987838415064",
+      "kind": "post",
+      "engagement": {
+        "views": 185268,
+        "likes": 615,
+        "reposts": 58,
+        "replies": 36
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2056864440671453674",
+      "date": "2026-05-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "\"Some of them worry about our competitor knowing they are working with us.\"\n\nHmm… that’s interesting.\n\nfrom Intel’s JPM conference https://t.co/YXPAngwOzd",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2056864435315359744",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HItzTmIbQAAHXn9.jpg",
+          "width": 1320,
+          "height": 1904,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2056864440671453674",
+      "kind": "post",
+      "engagement": {
+        "views": 80763,
+        "likes": 199,
+        "reposts": 13,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2056905041660031048",
+      "date": "2026-05-19",
+      "stance": "neutral",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "must-win deal",
+        "acquiring it would save enormous time"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "Personally, I think this is a must-win deal for both Intel and Qualcomm. Whoever gets it will save an enormous amount of time.\n\nI hope Qualcomm ends up buying it. https://t.co/WslEVGWeni",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2056904792119922688",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIuYAq8bUAAIC9i.jpg",
+          "width": 1486,
+          "height": 1414,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2056905041660031048",
+      "kind": "post",
+      "engagement": {
+        "views": 141020,
+        "likes": 498,
+        "reposts": 44,
+        "replies": 51
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2056905886585721123",
+      "date": "2026-05-19",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "stock would not rally massively just because Jim Keller joins, stock has already run up quite a bit"
+      ],
+      "is_risk": true,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "@SeekingCognitio Personally, I’d like to see Jim Keller build ASICs and data center CPUs at Qualcomm. I also don’t think Intel’s stock would rally massively just because Jim Keller joins Intel, since Intel’s stock has already run up quite a bit.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2056905886585721123",
+      "kind": "reply",
+      "engagement": {
+        "views": 3432,
+        "likes": 15,
+        "reposts": 1,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2058733798704243047",
+      "date": "2026-05-24",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "▶ Embedded substrates draw AI chip interest as packaging turns strategic\n\n- The growing interest in embedded substrates from major players like Nvidia, AMD, and Intel signals a potential shift in the AI datacenter supply chain.\n\n- The technology can improve signal integrity and power stability for high-performance chips.\n\n- Industry players are also developing EIPD (Embedded Integrated Passive Device) modules to simplify substrate processing and advanced packaging for AI and high-performance computing (HPC) chips.\n\n- An embedded substrate features pre-formed cavities within the substrate to house passive components.\n\n- The most commonly embedded component is the MLCC, with structures divided into semi-embedded and fully-embedded approaches.\n\n- Compared with mounting passive components on the substrate surface, the embedded structure shortens signal paths and reduces parasitic inductance, making it advantageous for achieving impedance matching in the power delivery network (PDN).\n\n- This is expected to improve signal integrity and power stability for AI and HPC chips.\n\n- Embedded designs have already been adopted since the iPhone X-generation application processor (AP) as a way to free up limited PCB surface space.\n\n- That said, large-scale adoption in the AI and server markets remains at an early stage. Embedding capacitors and resistors within the substrate raises costs, and no clear market leader has yet emerged in the industry.\n\n- As a result, whether AI chip customers ultimately adopt the technology is set to become a key competitive variable.\n\n- A range of suppliers—Japan's Ibiden, Korea's Samsung Electro-Mechanics, and Taiwan's Unimicron, Kinsus Tech, and Nan Ya PCB—are scaling up investment in embedded substrate development.\n\n- Some market observers see Samsung Electro-Mechanics as holding an edge, given that it produces both MLCCs and package substrates and is reportedly planning new equipment investment at its Vietnam plant.\n\n- Others, however, point to the stringent control required over materials, drilling precision, and surface flatness in embedded substrate manufacturing, and expect Ibiden and Unimicron to be the preferred partners for demanding AI customers.\n\n- According to Taiwanese suppliers, inquiries about embedded substrates have surged from Nvidia, AMD, Intel, and ASIC customers focused on AI datacenter and HPC server chips.\n\n- Design optimization concepts such as integrated passive device modules are still in the technology validation phase, but industry sources expect mass production to accelerate within the next few years.\n\n- Substrate technology is emerging as a critical platform for supporting the rising power, bandwidth, and integration density of chips.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2058733798704243047",
+      "kind": "post",
+      "engagement": {
+        "views": 45147,
+        "likes": 172,
+        "reposts": 17,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059053470276358364",
+      "date": "2026-05-25",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "Intel’s Lip-Bu Tan is reportedly set to arrive in Taiwan this week for a visit to TSMC.\n\n$INTC $TSM \n\nhttps://t.co/cZxABLQP9g",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2059053470276358364",
+      "kind": "post",
+      "engagement": {
+        "views": 122567,
+        "likes": 492,
+        "reposts": 37,
+        "replies": 20
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059418762647089575",
+      "date": "2026-05-26",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "Exclusive: TSMC’s 3nm prices said to rise 15% in the second half; another 10% hike possible next year. C.C. Wei expected to “make things clear” at the shareholders’ meeting.\n\n$TSM $INTC \n\nhttps://t.co/mwxg6MOcYP",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2059418762647089575",
+      "kind": "post",
+      "engagement": {
+        "views": 120597,
+        "likes": 484,
+        "reposts": 44,
+        "replies": 18
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059458320424173580",
+      "date": "2026-05-26",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "\"Likely SpaceX Win for new datacenter ASIC. We expect MTK to be the design service provider for xAI’s datacenter ASIC based on Intel 14A + EMIB-T.\"\n\nInteresting.... https://t.co/Vbj9G32lGf",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2059458320424173580",
+      "kind": "post",
+      "engagement": {
+        "views": 83808,
+        "likes": 290,
+        "reposts": 20,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059880144538579433",
+      "date": "2026-05-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "Intel’s EMIB Packaging Is Growing Rapidly — Silicon Capacitors Are Taking Off Too\n\nSilicon capacitors are poised for explosive growth in the AI semiconductor space. Intel has been found to be planning a large-scale adoption of silicon capacitors starting next year, in order to enhance the performance of its in-house 2.5D packaging technology, “EMIB.”\n\nThe most clearly visible source of demand is Google. Google plans to launch its next-generation AI accelerator, “v8e,” in the second half of next year, and has adopted an EMIB substrate with embedded silicon capacitors for that chip. With other Big Tech companies such as Amazon also currently applying EMIB, analysts say demand could increase sharply.\n\nAccording to industry sources on the 27th, Intel plans to apply silicon capacitors to its 2.5D packaging starting next year.\n\nIntel Adopts “Silicon Capacitors” for 2.5D Packaging… Google AI Chip Gets First Application\n\n2.5D is an advanced packaging technology that inserts a thin-film interposer between the semiconductor and the substrate. Because it can connect circuits at higher density compared with conventional packaging that uses only a substrate, demand is rising in the AI and HPC fields.\n\nTo improve cost efficiency in 2.5D packaging, Intel devised its own technology called EMIB. Rather than using a broad, spread-out interposer, EMIB connects chip to chip using a small silicon bridge. Since bridges only need to be placed where chip-to-chip connections are required, chips can be arranged more flexibly and efficiently.\n\nRecently, EMIB has been drawing attention as an alternative to TSMC, which had been leading the existing 2.5D packaging market. This is because TSMC’s 2.5D packaging capacity is suffering from a supply shortage amid the rapid development of the AI industry.\n\nIndeed, global Big Tech player Google is also paying attention to EMIB. Google has decided to adopt EMIB for its in-house AI semiconductor “v8e,” which it plans to launch in the second half of next year. Under this structure, TSMC handles chip mass production, MediaTek handles design and manufacturing support, and Intel handles packaging.\n\nHowever, there have been concerns that EMIB is gradually showing limitations in providing stable power supply for AI semiconductors, which consume large amounts of power. Accordingly, Intel plans to introduce new technologies such as silicon capacitors and through-silicon vias (TSV) to ensure stable packaging for the v8e.\n\nA capacitor is a component that stores and releases electricity in an electronic circuit. In the case of silicon capacitors, their resistance (ESL/ESR) is more than 100 times lower than that of conventional multilayer ceramic capacitors (MLCC), minimizing the signal loss that occurs in high-performance semiconductors. They can also be designed in an ultra-thin structure based on a silicon wafer, enabling high-density integration.\n\nA semiconductor industry official explained, “Because the voltage drop (the phenomenon of voltage decreasing) that occurs in the high-frequency region within AI chips is difficult to solve with MLCC, we understand that Intel is adopting silicon capacitors as a solution,” adding, “The relevant supply chain is now in place, and mass production is set to begin in earnest next year.”\n\nEMIB-T Is Already on a Growth Trajectory — The Related Ecosystem and Market Are Expanding Together\n\nIntel has also inserted TSVs, which serve as power-delivery channels, into the silicon bridge. The key point is that by using TSVs to shorten the power-delivery path between the substrate and the chip, Intel has improved power efficiency and signal integrity. Intel calls this “EMIB-T.”\n\nThe industry expects the EMIB-T and silicon capacitor markets to grow rapidly.\n\nThis is because Japan’s Ibiden — one of the major companies that mass-produces semiconductor substrates for EMIB-T — is aggressively pursuing capital investment.\n\nPreviously, Ibiden had planned to build its Kawashima (Gama) plant in Gifu Prefecture as a substrate plant for Intel CPUs. However, it postponed that schedule and decided in the first half of this year to officially convert the Gama plant into a mass-production line for EMIB-T substrates. The investment is 220 billion yen (about KRW 2.1 trillion).\n\nIn its recent earnings announcement, Ibiden stated, “Operation of the Gama plant will begin in 2027 and enter full-scale mass production in 2028,” adding, “EMIB-T substrate capacity is currently far short of demand. However, adding further capacity is quite difficult, so we are discussing options with our customers.”\n\nA semiconductor industry official explained, “Ibiden’s EMIB-T-dedicated line is being built with most of the investment coming from customers such as Google, Amazon, and Intel,” adding, “This demonstrates that AI semiconductors based on EMIB-T will grow significantly going forward, and silicon capacitors are likely to expand alongside them.”",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2059880104634040320",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJYqCpybQAAUfNg.jpg",
+          "width": 640,
+          "height": 444,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2059880144538579433",
+      "kind": "post",
+      "engagement": {
+        "views": 88702,
+        "likes": 455,
+        "reposts": 67,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059895609642127856",
+      "date": "2026-05-28",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "accelerating foundry revival through large-scale investment in advanced semiconductor packaging (EMIB)",
+        "18A process combined with expanded advanced packaging investment could be the starting signal for Intel's foundry revival",
+        "packaging investment evidence that Intel has secured a degree of advanced foundry process customers",
+        "EMIB offers superior cost and productivity compared to TSMC-led silicon interposer-based 2.5D packaging"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "Intel Accelerates Foundry Revival, Spearheaded by Advanced Packaging\n\nIntel is accelerating the revival of its foundry (contract manufacturing) business through large-scale investment in advanced semiconductor packaging. By expanding infrastructure such as materials, components, and equipment, Intel is significantly scaling up its advanced packaging capacity to strengthen its response to the foundry customers it has recently secured.\n\nAccording to industry sources on the 28th, Intel is currently placing large-scale purchase orders for materials, components, and equipment from its global supply chain partners. Multiple supply contracts for materials, components, and equipment have reportedly already been signed. Some Korean materials/components/equipment companies are also participating.\n\nAn industry official familiar with the matter said, \"Advanced packaging facility investment on the scale of several trillion won is underway,\" adding, \"Considering equipment lead times and the timing of materials and component supply, full-scale operation is expected next year.\" Intel is also discussing cooperation with some partners regarding facility investment in 2028. The investment locations cited as major packaging production hubs include the United States as well as Vietnam and Malaysia.\n\nThis investment is said to be focused on expanding capacity for \"EMIB (Embedded Multi-die Interconnect Bridge).\"\n\nEMIB is Intel's proprietary 2.5D packaging technology that connects different semiconductors (dies). Signals are exchanged between chips via a silicon bridge embedded in the semiconductor substrate, and it is known to offer superior cost and productivity compared to the silicon interposer-based 2.5D packaging led by TSMC. In particular, it enables precise 2.5D packaging by connecting only the necessary areas with bridges.\n\nIntel is advancing EMIB further with technologies such as EMIB-T, which applies through-silicon via (TSV) technology to the bridge, and packaging that integrates glass substrates. The aim is to broaden its customer base by diversifying its packaging technologies. This materials/components/equipment investment also includes numerous new technologies to be applied to next-generation packaging.\n\nThis packaging investment is a strategic move to strengthen foundry capabilities. Intel declared its re-entry into the foundry business in 2021 and pursued the development of advanced (front-end) processes, but it has struggled to secure major customers. This was largely due to TSMC's dominance in advanced chip foundry, including AI semiconductors.\n\nThe packaging investment is also interpreted as a strategy to strengthen Intel's differentiated capabilities to attract foundry customers. Because the limits of circuit miniaturization mean the entire industry faces constraints in boosting chip performance through front-end processes, Intel is seen as attempting to break through this bottleneck with advanced packaging (back-end) and place its entire foundry business on a stable trajectory.\n\nIntel is also pursuing front-end advancement in parallel to maximize synergy. Last year, Intel brought its \"Intel 18A\" process—equivalent to the 2-nanometer (㎚) class—into full-scale operation. It has continued facility investment not only for its own chips but also to serve foundry customers.\n\nAnother industry official predicted, \"This packaging investment is evidence that Intel has secured a certain degree of advanced foundry process customers,\" and \"The 18A process combined with expanded advanced packaging investment could be the starting signal for Intel's foundry revival.\"\n\n$INTC",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2059895558144421889",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJY4GKmacAE8S3N.png",
+          "width": 480,
+          "height": 270,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2059895609642127856",
+      "kind": "post",
+      "engagement": {
+        "views": 120471,
+        "likes": 397,
+        "reposts": 59,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059896348812640424",
+      "date": "2026-05-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "According to Korean media reports, Intel is investing several billion dollars in EMIB packaging, which is said to offer better cost and productivity than TSMC-led silicon interposer-based 2.5D packaging. https://t.co/pVvvmJQvZh https://t.co/bQp7kUSi1O",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2059896195183734784",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJY4rPwa8AAbVZv.png",
+          "width": 1176,
+          "height": 932,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2059896348812640424",
+      "kind": "post",
+      "engagement": {
+        "views": 67910,
+        "likes": 436,
+        "reposts": 51,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059967125020934181",
+      "date": "2026-05-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "Why Are Silicon Capacitors Becoming Important? And Why Is SEMCO's Stock Surging?\n\nThe reason silicon capacitors have failed to grow into a large market until now is clear. TSMC, which holds an overwhelming share in substrates for AI packaging, has historically sourced silicon capacitors in-house. As a result, it has been effectively impossible for silicon capacitor suppliers outside of TSMC to break into the AI packaging value chain.\n\nBut with the rise of Intel's EMIB, the situation is changing.\n\nSilicon capacitor suppliers like Murata and SEMCO are now supplying silicon capacitors for Intel's EMIB, and have begun to benefit directly from AI demand.\n\nThe existing silicon capacitor market was effectively an oligopoly dominated by Murata and TSMC. SEMCO was closer to a latecomer.\n\nYet even SEMCO—the latecomer—has managed to land a supply contract worth more than $1 billion. For context, SEMCO's silicon capacitor revenue last year was a mere few million dollars.\n\nSo how did SEMCO ramp its revenue this quickly? It comes down to the fact that SEMCO is the only company in the world that operates both a silicon capacitor business and a substrate business.\n\nThe reason silicon capacitors have become important for Intel's EMIB is that Intel cannot make its own silicon capacitors and must source them externally. On top of that, within Intel's EMIB BoM, the highest value-added component is the substrate.\n\nSo if a company can deliver both the substrate and the silicon capacitor to Intel's EMIB on a turnkey basis, that maximizes SEMCO's bargaining power and value. This is precisely why SEMCO's stock has been surging recently.\n\nOf course, this isn't to say Murata will benefit less. Murata still maintains a very close relationship with Ibiden—Intel's first-vendor for substrates—and is clearly positioned to benefit from EMIB. That said, my view is that the emergence of a new player like SEMCO should by no means be underestimated.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2059967125020934181",
+      "kind": "post",
+      "engagement": {
+        "views": 70281,
+        "likes": 518,
+        "reposts": 63,
+        "replies": 17
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059995634632147217",
+      "date": "2026-05-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "Bruh, according to Geekerwan’s TEM analysis, Samsung’s 2026 SF2 still lags slightly behind Intel’s 2025 18A in terms of geometry control and process consistency.\n\n$INTC https://t.co/fsL07lJHhJ",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2059995590940110848",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJaTE1zbMAAI99b.jpg",
+          "width": 2432,
+          "height": 1336,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2059995634632147217",
+      "kind": "post",
+      "engagement": {
+        "views": 100489,
+        "likes": 605,
+        "reposts": 44,
+        "replies": 29
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2060268717838307684",
+      "date": "2026-05-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "\"Can't Build Equipment Without the Parts\"… Semiconductor Test Equipment Faces \"Worst-Ever\" Supply Crunch\n\nThe semiconductor test equipment industry is grappling with a severe component shortage—so severe that some are lamenting, \"We can't build semiconductor test equipment because there are no semiconductors.\"\n\nAccording to industry sources on the 29th, the supply of components needed for semiconductor test equipment has become difficult to secure. In particular, lead times for non-memory semiconductors—such as field-programmable gate arrays (FPGAs), central processing units (CPUs), and driver integrated circuits (ICs)—have lengthened dramatically.\n\nFirst, the lead time for the FPGAs needed to operate the equipment has stretched from a previous 8–10 weeks to as much as 52 weeks recently. A distributor source explained, \"It varies by FPGA specification, but it's typically 52 weeks,\" adding that \"supply has become difficult to secure.\" FPGAs are used to analyze test data in real time, quickly identifying problems such as defects. The FPGA market is led by AMD, which acquired Xilinx.\n\nThe situation is the same for driver ICs used in test equipment. Whereas distributors could previously purchase the relevant chips from inventory immediately, it now takes at least 10 weeks or more. In particular, Analog Devices' (ADI) product lineup for automatic test equipment (ATE) is causing an extreme bottleneck. ADI supplies \"pin drivers\"—integrated assemblies of multiple devices—for semiconductor test equipment.\n\nx86-architecture-based CPUs and graphics processing units (GPUs) are also experiencing supply shortages. One semiconductor equipment industry official noted, \"For some products, supply has tightened and unit prices have risen sharply—up to threefold, from a previous 1 million won to 3 million won,\" adding that \"Intel's server CPUs, in particular, are not easy to secure.\"\n\nIntel has recently been allocating its server CPU (Xeon) volumes primarily to high-margin hyperscalers—large-scale cloud service providers—and data center servers. As a result, supply to other markets has been less smooth.\n\nMass production of \"Diamond Rapids,\" the next-generation server CPU, has also been pushed back from the originally planned second half of this year to the middle of next year. Because of this, the development and supply of next-generation equipment that requires the product's high performance and new features have been partially delayed.\n\nIn fact, one particular test equipment manufacturer recently signed an equipment supply contract worth tens of billions of won with Samsung Electronics, but due to delayed component procurement, it had no choice but to push back the delivery date by three months. An industry official said, \"The current situation isn't simply a problem with specific components like FPGAs or CPUs,\" explaining that \"a serious bottleneck is occurring across the entire non-memory semiconductor supply chain.\"\n\nTest equipment manufacturers are responding by placing advance orders for components. Under this approach, they negotiate equipment volumes and delivery dates with customers several months before a formal purchase order (PO) is issued, and order the necessary components ahead of time. Even so, with component delivery delays worsening, fully smooth supply remains difficult to achieve.\n\nThe industry expects the supply crunch for non-memory components used in test equipment to persist for some time. This is because the boom in downstream industries—such as demand for AI and data center infrastructure—continues, driving up demand for semiconductors (components) and semiconductor test equipment simultaneously.\n\nSemiconductor manufacturers that purchase test equipment are also on high alert. As one industry official put it, \"A strategy in which semiconductor manufacturers and equipment makers cooperate closely to respond proactively is increasingly becoming the new normal.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2060268697932226560",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJeLdwobYAAKkoR.png",
+          "width": 600,
+          "height": 320,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2060268717838307684",
+      "kind": "post",
+      "engagement": {
+        "views": 88418,
+        "likes": 428,
+        "reposts": 62,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2060621480208355415",
+      "date": "2026-05-30",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "What should we take away from Dell's earnings — and what upside is left for the company?\n\nFirst: Dell delivered tremendous growth in general-purpose servers.\n\nAs we've argued all along, agentic AI is a tailwind for general-purpose servers. The growing importance of the CPU naturally raises the importance of CPU servers — that is, general-purpose servers. On top of that, general-purpose servers are built largely from pre-existing, mostly commoditized components and are free from NVIDIA's involvement, which gives them far higher margins than GPU servers.\n\nHere's my thesis: agentic AI is real. And traditional general-purpose server leaders like Dell stand to benefit just as much as the CPU makers.\n\nSecond: Dell is holding up better than expected in PCs.\n\nTier-2 and tier-3 players like ASUS and Xiaomi have been blustering that their LTAs leave them reasonably well defended against the memory crunch. Tier-1 vendors like Dell, by contrast, genuinely appear to have priority in securing memory. They also hold a relative advantage in the B2B market, which gives them some room to pass costs through. Quite a few analysts seem to have underappreciated this. And even if the PC market carries unexpected downside, I'd argue general-purpose servers will more than make up for it.\n\nThird: upside from NVIDIA's next chip.\n\nIf NVIDIA's N1/N1X establishes a real foothold in WoA, this isn't merely a case of one more chip supplier entering the market — it opens up an additional architectural path for the PC. That rattles Intel and AMD's defensive line while, at the same time, representing meaningful upside for OEMs like Dell. Once Lenovo, Dell, HP, and ASUS hold an NVIDIA Arm SoC as an option, they can use it to pressure Intel and AMD on CPU pricing and platform subsidies. In a PC downturn like the current one, that could prove to be unexpected upside — though, of course, it all hinges on the forthcoming Agentic Windows on Arm actually delivering.\n\n$DELL",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2060621480208355415",
+      "kind": "post",
+      "engagement": {
+        "views": 88685,
+        "likes": 688,
+        "reposts": 70,
+        "replies": 25
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2060869858641027275",
+      "date": "2026-05-30",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "Morgan Stanley estimates Intel 18A yield at 50%.\n\nIt also notes that Apple is currently the only customer that has “signed a contract.”\n\n$INTC https://t.co/i9hBtiaqyP",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2060869854241202176",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJmuNqZboAAuc9r.jpg",
+          "width": 1165,
+          "height": 488,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2060869858641027275",
+      "kind": "post",
+      "engagement": {
+        "views": 377459,
+        "likes": 898,
+        "reposts": 76,
+        "replies": 87
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2061640613616140649",
+      "date": "2026-06-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "LG Innotek Eyes Intel “EMIB” Substrate Supply Chain… Supplies Samples to SK Hynix\n\nLG Innotek is pushing to enter the semiconductor substrate market for EMIB (Embedded Multi-die Interconnect Bridge), Intel’s most advanced packaging technology. It has been learned that the company is currently collaborating with SK Hynix, including supplying EMIB substrate samples. However, the industry’s assessment is that because the development difficulty of this substrate is very high, whether it actually reaches commercialization remains to be seen.\n\nAccording to the industry on the 2nd, LG Innotek is collaborating with SK Hynix to enter the substrate supply chain for Intel’s 2.5D packaging.\n\n2.5D is an advanced packaging technology that inserts a thin film type interposer between the semiconductor and the substrate. Compared with conventional packaging that uses only a substrate, it can connect circuits at higher density, so demand is rising in the AI and HPC fields.\n\nIntel devised its own technology called EMIB to improve cost efficiency in 2.5D packaging. Instead of a widely spread interposer, EMIB connects chip to chip using a small silicon bridge. Because bridges only need to be placed where chip to chip connection is required, chips can be laid out more flexibly and efficiently.\n\nCurrently, EMIB semiconductor substrates are known to be supplied by four companies: Japan’s Ibiden and Shinko Electric, Taiwan’s Unimicron, and Austria’s AT&S.\n\nThis substrate is based on the existing high performance semiconductor substrate, flip chip ball grid array (FC-BGA), but it is assessed as having greater technical difficulty because a silicon bridge must be embedded inside the substrate. FC-BGA is a package substrate that connects the semiconductor chip and the substrate using flip chip bumps (a method that flips the chip over).\n\nIt has been learned that LG Innotek is currently supplying EMIB FC-BGA samples to SK Hynix and jointly carrying out technology development. For SK Hynix, a memory company, the collaboration with LG Innotek offers the advantage of being able to understand the characteristics of high bandwidth memory (HBM) optimized for EMIB.\n\nA substrate industry official explained, “LG Innotek is expanding its points of contact with memory and AI chip design companies in order to enter the substrate supply chain for Intel EMIB,” adding that “it is showing strong determination to enter the high value added semiconductor substrate market.”\n\nHowever, whether LG Innotek will enter the EMIB substrate supply chain is still viewed as unclear. This is because the samples LG Innotek supplied to SK Hynix are only at an early stage, such as engineering samples (ES).\n\nAs a latecomer in the FC-BGA industry, LG Innotek is assessed as having lower technical capability than its competitors. In fact, LG Innotek has not yet entered the server FC-BGA field, which requires high specification and large area technology. The need for enormous investment, such as building a dedicated line, in order to mass produce EMIB substrates is also a major challenge.\n\nA semiconductor back end industry official explained, “Intel EMIB substrates are already in a situation where overseas companies have solidified the supply chain, and Japan’s Ibiden also recently announced the construction of a dedicated line worth more than 2 trillion won,” adding that “for LG Innotek to enter the market, it must clear both technical and market hurdles.”",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2061640605860827136",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJxrNT7bEAA1QGV.jpg",
+          "width": 638,
+          "height": 410,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2061640613616140649",
+      "kind": "post",
+      "engagement": {
+        "views": 34988,
+        "likes": 290,
+        "reposts": 34,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2061706018971906198",
+      "date": "2026-06-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "MediaTek at Goldman Sachs Taiwan Day:\n\n“The next-generation program is adopting only EMIB-T, with tape-out targeted for 4Q26 and mass production by 4Q27.”\n\nThis is significantly different from what Taiwanese media had reported — that the next-generation program would use both CoWoS and EMIB-T in parallel.\n\n$INTC",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2061706018971906198",
+      "kind": "post",
+      "engagement": {
+        "views": 124224,
+        "likes": 392,
+        "reposts": 49,
+        "replies": 18
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2061798625932718146",
+      "date": "2026-06-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "Is the relationship between TSMC and Intel becoming strained?\n\nAccording to Culpium, Intel is pushing customers toward its own chips instead of the TSMC-made Arrow Lake, and this may be because the relationship between Intel and TSMC is under tension. https://t.co/gJ0xHG6IiG https://t.co/NzXUhHEfNN",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [
+        {
+          "media_key": "3_2061798616269029377",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJz66ukbgAEJD8j.jpg",
+          "width": 1284,
+          "height": 2048,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2061798625932718146",
+      "kind": "post",
+      "engagement": {
+        "views": 92455,
+        "likes": 299,
+        "reposts": 20,
+        "replies": 33
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2062123266668679514",
+      "date": "2026-06-03",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "Funda AI: \"Marvell will design a networking chip for Google. This chip will be manufactured on Intel's 18A (or 18AP), with mass production scheduled to begin by the end of 2027, and it will be paired with the MediaTek-designed Humufish for Google.\"\n\n$INTC",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2062123266668679514",
+      "kind": "post",
+      "engagement": {
+        "views": 156873,
+        "likes": 892,
+        "reposts": 112,
+        "replies": 29
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2062840849621561672",
+      "date": "2026-06-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "Fun fact: NVIDIA uses AMD EPYC, not Intel, in its switch trays. https://t.co/dJX8KuGv1B",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2062840837818699776",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKCu0AZaUAA9QbJ.jpg",
+          "width": 1312,
+          "height": 2048,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2062840849621561672",
+      "kind": "post",
+      "engagement": {
+        "views": 86988,
+        "likes": 443,
+        "reposts": 57,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063932238706925823",
+      "date": "2026-06-08",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel (INTC)",
+      "text": "RT @sssjeffpu: Intel (INTC) Note Takeaways:\n\n•Big Raise for Foundry Capacity \n◦Intel 3: +80% (mainly Ireland) by end-2028 (vs end-2026)\n◦18…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2063932238706925823",
+      "kind": "post",
+      "engagement": {
+        "views": 1,
+        "likes": 0,
+        "reposts": 162,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063932399210447231",
+      "date": "2026-06-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "\"18A yields improving to ~80%, EMIB to 90-95% in recent weeks\"\n\n\"IFS to turn profitable in 2H27\"\n\n$INTC https://t.co/WN03w5trQT",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2063932399210447231",
+      "kind": "post",
+      "engagement": {
+        "views": 155117,
+        "likes": 740,
+        "reposts": 57,
+        "replies": 40
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063979000012419279",
+      "date": "2026-06-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "The information: Google has placed an order with Intel to package more than 3 million TPUs. Across 2027 and 2028, Google is expected to produce more than 6 million TPUs using Intel’s packaging technology. https://t.co/8bj2GLu6Ah",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2063978707447169024",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKS5svFbwAA2MRc.jpg",
+          "width": 1650,
+          "height": 1050,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2063979000012419279",
+      "kind": "post",
+      "engagement": {
+        "views": 248352,
+        "likes": 728,
+        "reposts": 86,
+        "replies": 27
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063979996348305488",
+      "date": "2026-06-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$INTC",
+      "text": "The Information: NVIDIA is testing Intel EMIB packaging for Feynman.\n\nThe Information: NVIDIA is conducting early tests of Intel 18A.\n\n$INTC https://t.co/Z0MFDGK4gg",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2063979996348305488",
+      "kind": "post",
+      "engagement": {
+        "views": 282877,
+        "likes": 550,
+        "reposts": 51,
+        "replies": 18
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063982436896354313",
+      "date": "2026-06-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "I’m not sure whether Qianer Liu phrased it that way intentionally, but I don’t understand why Intel was described as “manufacturing” Google’s TPU v9. As far as I know, Intel is only handling the packaging, while the logic die is still being produced by TSMC. https://t.co/Z0MFDGK4gg",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2063982436896354313",
+      "kind": "post",
+      "engagement": {
+        "views": 79695,
+        "likes": 334,
+        "reposts": 22,
+        "replies": 25
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064127637296189752",
+      "date": "2026-06-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "TSMC was too naive from the start.\n\nIntel is emerging as a serious competitor. TSMC has been extremely strict about preventing Samsung-designed chips from being manufactured at TSMC, so why did it allow Intel to manufacture chips at TSMC?\n\nAt this point, TSMC obviously has no reason to allocate CPU capacity to Intel anymore. Instead, it will—and should—actively allocate wafers to Intel’s CPU competitors.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2064127637296189752",
+      "kind": "post",
+      "engagement": {
+        "views": 260969,
+        "likes": 1091,
+        "reposts": 82,
+        "replies": 88
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064254581333209275",
+      "date": "2026-06-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "Samsung Electronics: The Last Piece in Normalizing Its Semiconductor Business Is ‘Packaging’\n\nSamsung Electronics’ semiconductor business has moved into a full rebound led by high bandwidth memory (HBM) and foundry. In advanced packaging, however, which has emerged as a core of AI chip manufacturing, the company has yet to establish a clear presence. The industry view is that securing major customers in 2.5D packaging, in particular, is urgent.\n\nAccording to industry sources on the 8th, cumulative shipments of Samsung Electronics’ in house 2.5D packaging technology ‘Cube’ are understood to still be small. The orders secured so far are also said to consist largely of startup initial volumes or short term, project based work. This stands in contrast to major competitors TSMC and Intel, which are aggressively expanding their 2.5D packaging businesses.\n\nTSMC and Intel Surge Ahead… Samsung Electronics Lacks Major 2.5D Packaging Customers\n\n2.5D packaging is a technology that inserts a thin film interposer between the semiconductor chip and the substrate to boost chip performance. Its importance is growing steadily in the semiconductor industry. This is because AI accelerators, an essential element of AI data centers, are made by integrating high performance system semiconductors and HBM through 2.5D packaging. Indeed, during the period when the HBM market was expanding, Samsung Electronics wielded as a weapon a business model offering its foundry, HBM, and 2.5D packaging on a turnkey basis.\n\nIn packaging, Samsung Electronics has worked since 2024 to expand the market for its in house 2.5D packaging technology Cube. However, there is no confirmed case yet of Samsung Electronics’ 2.5D packaging being adopted in a big tech AI accelerator. The customers currently using Samsung Electronics’ 2.5D packaging are understood to include IBM of the US and Rebellions, a domestic AI fabless startup.\n\nOne industry official in packaging explained, “Customers that have adopted Samsung Electronics’ 2.5D packaging platform remain at low shipment volumes or short term, project based production on a monthly cycle,” adding, “Now that we have entered an era in which advanced packaging significantly determines chip performance, Samsung Electronics also needs to concentrate on reinforcing its competitiveness in this field.”\n\nThis contrasts with Samsung Electronics’ main competitors TSMC and Intel, each of which is achieving remarkable growth in 2.5D packaging.\n\nTSMC, which leads the global foundry market, is executing investments to expand the production capacity of its in house 2.5D packaging ‘Chip on Wafer on Substrate (CoWoS)’ from around 35,000 wafers per month at the end of last year to around 130,000 wafers per month by the end of this year.\n\nIntel is moving into full commercialization of its 2.5D packaging ‘Embedded Multi die Interconnect Bridge (EMIB).’ Google is reported to have adopted EMIB for mass production of its own AI chip, the Tensor Processing Unit (TPU), and is expected to begin mass production from next year.\n\nLarger Chips… Samsung Electronics Sees a Possible Turnaround with PLP\n\nIt is not as though Samsung Electronics has no opportunities. The company is currently shifting the development direction of its 2.5D packaging from the existing wafer level packaging (WLP) to panel level packaging (PLP).\n\nPanel level packaging is a process that performs packaging on a wide rectangular panel. Compared with packaging on the existing wafer (300mm in diameter), it offers a larger area and allows chips to be arranged efficiently, resulting in higher productivity. In particular, with recent AI semiconductors growing in chip size to improve performance, the applicability of PLP is expected to expand.\n\nAccordingly, Samsung Electronics is applying PLP instead of WLP to Cube, while also pursuing commercialization of ‘System on Panel (SoP)’ for ultra large chips. SoP is a technology that joins multiple semiconductors together on a large rectangular panel, and is currently being developed at a size of 415x510mm.\n\nAnother industry official in packaging stated, “Samsung Electronics’ neglect of mass production development for advanced packaging technology for system semiconductors, relative to memory semiconductors, risks acting as a factor that undermines its future business competitiveness,” and noted, “At the point when PLP application begins in earnest in the AI chip field, it will need to quickly secure I-Cube customers.”\n\nMeanwhile, setting aside 2.5D packaging, Samsung Electronics’ semiconductor business is showing a clear overall improvement this year. Aggressive AI infrastructure investment by global big tech has greatly increased demand for advanced semiconductors, and the development of advanced processes has also picked up speed.\n\nIn February, Samsung Electronics began mass production shipments of HBM4 (the 7th generation of HBM) for NVIDIA, laying the cornerstone for a rebound in its sluggish HBM business. The company has also set a plan to expand HBM shipments by more than three times year over year this year. There are expectations that the foundry business will turn to profit as early as the second half of this year. It has recently attracted Tesla, NVIDIA, and Groq, among others, as advanced process customers.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2064254581333209275",
+      "kind": "post",
+      "engagement": {
+        "views": 49871,
+        "likes": 276,
+        "reposts": 25,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064260211117068742",
+      "date": "2026-06-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "I really don’t understand why Citi thinks AMD would use Intel’s EMIB-T. I haven’t heard anything about this at all.\n\nLisa Su would only use Intel if the world were ending tomorrow. Until then, I don’t think she would even consider it. https://t.co/roK75TKGnh https://t.co/TMUcjMwWSg",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [
+        {
+          "media_key": "3_2064260205937074176",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKW5uGraoAAcKm7.jpg",
+          "width": 1180,
+          "height": 473,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2064260211117068742",
+      "kind": "post",
+      "engagement": {
+        "views": 112688,
+        "likes": 431,
+        "reposts": 23,
+        "replies": 40
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064479776728076323",
+      "date": "2026-06-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "China's semiconductor glass substrate push closes in on Korea with price and volume\n\nChina's \"semiconductor glass substrate rise\" is threatening because it offers an attractive option to chipmakers, the end customers: the ability to secure price competitive glass substrates in large volumes. The industry worries that while demand will initially favor products from front runners such as Korea in the early stage of the glass substrate market, China's share will gradually expand.\n\nOfficially, the first Chinese company to enter the semiconductor glass substrate business was BOE. A global display manufacturer, BOE designated semiconductor glass substrates as a future growth engine, leveraging its glass processing expertise from LCD and other display production. It is moving at full speed, having built a pilot production line only about two years after declaring its market entry.\n\nVisionox, considered one of China's top three display companies, is also investing in glass substrates. Since last year it has been assembling a supply chain of materials, components, and equipment for glass substrate manufacturing, and it is currently making capital investments in production facilities. The company is reportedly in contact with numerous materials, components, and equipment suppliers, working hard to implement the best possible process technology.\n\nSemiconductor substrate companies and outsourced semiconductor assembly and test (OSAT) companies are also entering the glass substrate market and securing technology. Based on what has been identified so far, more than ten companies are estimated to be participating in the market.\n\nAn official in the materials, components, and equipment industry commented, \"The defining feature of China's glass substrate development is that they rapidly pursue a wide variety of attempts to secure and validate technology. They are accelerating technological advancement at a pace that feels almost aggressive.\"\n\nSome companies are known to have secured technology on par with, or close to surpassing, Korean glass substrate manufacturers. An official at a partner company of a Chinese glass substrate maker said, \"We believe China has nearly caught up with Korea in through glass via (TGV) and etching, the core technologies of glass substrates. Once they resolve metallization and other remaining issues, we expect them to begin full preparations for mass production.\"\n\nThe United States, Korea, and Japan have been preparing their glass substrate businesses since around 2010 to 2020. They have accumulated technology accordingly, but full scale capital investment only began around 2023 to 2024. Today, the representative semiconductor glass substrate manufacturers include Intel of the United States; Absolics (an SKC subsidiary), Samsung Electro Mechanics, and LG Innotek of Korea; Dai Nippon Printing (DNP) of Japan; and Unimicron of Taiwan.\n\nBecause the front runners spent a long time preparing, the stability and reliability of their glass substrate prototypes are assessed as higher than China's. However, the industry believes that at China's current pace of pursuit, the situation could quickly reverse. From the customer's perspective, products from Korea, the United States, and Japan may be adopted in the early phase of semiconductor glass substrate adoption, but once China achieves mass production, there is a strong possibility customers will switch or diversify their supply chains.\n\nAn official in the semiconductor glass substrate industry said, \"Many big tech companies, including Broadcom, Amazon Web Services (AWS), and Samsung Electronics, are pushing to adopt semiconductor glass substrates. If Chinese products stabilize, there is a strong possibility the supply chain mix will shift toward China on cost and productivity grounds. The real competition will take place at the mass production stage.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2064479776728076323",
+      "kind": "post",
+      "engagement": {
+        "views": 83538,
+        "likes": 368,
+        "reposts": 43,
+        "replies": 23
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065354641278390299",
+      "date": "2026-06-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Intel",
+      "text": "LMAO, apparently one of Intel’s Fellows once considered suing TSMC, claiming that TSMC’s CoWoS-L copied Intel’s silicon bridge concept lol. https://t.co/MKQld1Ux2J",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2065354334750289921",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKmc0yIasAEe_6_.jpg",
+          "width": 1512,
+          "height": 1480,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2065354641278390299",
+      "kind": "post",
+      "engagement": {
+        "views": 60102,
+        "likes": 303,
+        "reposts": 15,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2067092746364748272",
       "date": "2026-06-16",
@@ -37,7 +2360,7 @@
       "url": "https://x.com/jukan05/status/2067092746364748272",
       "kind": "post",
       "engagement": {
-        "views": 148674,
+        "views": 148679,
         "likes": 390,
         "reposts": 52,
         "replies": 15
@@ -70,7 +2393,7 @@
       "url": "https://x.com/jukan05/status/2067471416140964199",
       "kind": "post",
       "engagement": {
-        "views": 260464,
+        "views": 260480,
         "likes": 1645,
         "reposts": 150,
         "replies": 76
@@ -103,7 +2426,7 @@
       "url": "https://x.com/jukan05/status/2067636769856860367",
       "kind": "post",
       "engagement": {
-        "views": 189572,
+        "views": 189589,
         "likes": 400,
         "reposts": 40,
         "replies": 14
@@ -130,7 +2453,5 @@
       "close": 140.94
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-23T19:15:56.309337+00:00"
+  "price_status": "ok"
 }

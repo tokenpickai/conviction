@@ -1,0 +1,232 @@
+{
+  "ticker": "ON",
+  "cashtag": "onsemi",
+  "price_symbol": "ON",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-27",
+  "last_mention": "2026-05-03",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2048911765279584366",
+      "date": "2026-04-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "onsemi",
+      "text": "FYI: Lead times for power semiconductors have become extremely stretched because of AI servers. According to industry sources, delivery times for some products from major suppliers such as Infineon, TI, and onsemi have extended to as long as 30 weeks.\n\nAs a result, the spillover effect appears to be reaching second- and third-tier Taiwanese players as well, including Panjit and Taiwan Semiconductor.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048911765279584366",
+      "kind": "post",
+      "engagement": {
+        "views": 139344,
+        "likes": 435,
+        "reposts": 27,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2050840412815044823",
+      "date": "2026-05-03",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "onsemi",
+      "text": "Samsung Reignites SiC Foundry Push — Targeting 2028 Mass Production\n\nSamsung Electronics has restarted its silicon carbide (SiC) foundry business. By entering the SiC market — increasingly seen as the next-generation power semiconductor material — the company is aiming both to secure leadership in the segment and to lift utilization at its existing 8-inch foundry lines. The industry expects Samsung to begin SiC mass production in 2028.\n\nAccording to industry sources on the 3rd, Samsung Electronics has recently resumed discussions with partner companies on building out a SiC production line. The company is exploring technology acquisition and commercialization strategies with materials, parts, and equipment (소부장) suppliers. With some partners, Samsung is reportedly already negotiating the scale of additional equipment purchases for SiC production.\n\n\"The SiC foundry initiative, which had been on hold for some time, has now formally resumed,\" one industry source said. \"Initial groundwork has begun for SiC to be established as a new growth driver for Samsung Electronics.\"\n\nSiC is a compound of silicon and carbon, and SiC-based semiconductors are more resistant to high temperatures and high voltages than conventional silicon. Together with gallium nitride (GaN), this is why SiC is drawing attention as a next-generation power semiconductor material — it offers higher performance and greater stability than silicon-based power devices.\n\nA number of power semiconductor companies are accordingly investing in SiC and GaN to capture the market. Demand is expanding beyond traditional applications such as electric vehicles, EV charging, and solar power, and most recently into the data center market, driven by the need for power efficiency in AI infrastructure.\n\nSamsung Electronics is understood to have prepared the SiC business in parallel with its formal entry into GaN in 2023. At that time, demand for 8-inch (Si) foundry capacity was steadily declining, and the company was looking to secure new long-term growth drivers. 8-inch foundry lines mainly produce mature-node products, which carry lower margins than 12-inch.\n\nSiC, by contrast, is at the leading edge on 8-inch wafers, with the industry actively transitioning from 6-inch to 8-inch. For Samsung, this offers a way to address low utilization at its 8-inch lines through SiC. Investment efficiency is also high, since some existing equipment can be repurposed. This was the rationale behind Samsung's initial push into SiC as a future business in 2023.\n\nHowever, progress slowed amid the broader semiconductor downturn and as Samsung concentrated on restoring competitiveness in its memory business. \"R&D continued, but commercialization was effectively on hold,\" another industry source said, describing the mood at the time.\n\nSamsung's recent moves are interpreted as a clear signal of a full-scale restart of the SiC program. As the memory business recovers, the company is also moving to secure next-generation growth drivers in foundry.\n\nMaterials, parts, and equipment suppliers expect Samsung to begin building out the supply chain within this year, based on the current stage of discussions. A pilot line for prototype production is expected to be built next year, with full mass production targeted for 2028. This roadmap is reportedly already being shared with partner companies.\n\nSamsung's entry into the SiC market is expected to bring it into competition with incumbent players. Globally, onsemi, STMicroelectronics, and Infineon are pursuing the SiC business, while domestically, DB HiTek and SK Keyfoundry are the main players.\n\nA Samsung Electronics representative declined to elaborate, saying only, \"Nothing has been specifically confirmed yet.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2050840403671408640",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHYMezfaYAAtOET.png",
+          "width": 700,
+          "height": 427,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2050840412815044823",
+      "kind": "post",
+      "engagement": {
+        "views": 50435,
+        "likes": 217,
+        "reposts": 32,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-04-27",
+      "close": 98.04
+    },
+    {
+      "date": "2026-04-28",
+      "close": 93.3
+    },
+    {
+      "date": "2026-04-29",
+      "close": 98.86
+    },
+    {
+      "date": "2026-04-30",
+      "close": 100.81
+    },
+    {
+      "date": "2026-05-01",
+      "close": 103.03
+    },
+    {
+      "date": "2026-05-04",
+      "close": 102.04
+    },
+    {
+      "date": "2026-05-05",
+      "close": 102.67
+    },
+    {
+      "date": "2026-05-06",
+      "close": 105.77
+    },
+    {
+      "date": "2026-05-07",
+      "close": 100.61
+    },
+    {
+      "date": "2026-05-08",
+      "close": 103.2
+    },
+    {
+      "date": "2026-05-11",
+      "close": 107.24
+    },
+    {
+      "date": "2026-05-12",
+      "close": 104.11
+    },
+    {
+      "date": "2026-05-13",
+      "close": 115.71
+    },
+    {
+      "date": "2026-05-14",
+      "close": 118.37
+    },
+    {
+      "date": "2026-05-15",
+      "close": 113.11
+    },
+    {
+      "date": "2026-05-18",
+      "close": 109.43
+    },
+    {
+      "date": "2026-05-19",
+      "close": 106.02
+    },
+    {
+      "date": "2026-05-20",
+      "close": 110.21
+    },
+    {
+      "date": "2026-05-21",
+      "close": 109.61
+    },
+    {
+      "date": "2026-05-22",
+      "close": 116.2
+    },
+    {
+      "date": "2026-05-26",
+      "close": 127.0
+    },
+    {
+      "date": "2026-05-27",
+      "close": 124.89
+    },
+    {
+      "date": "2026-05-28",
+      "close": 123.77
+    },
+    {
+      "date": "2026-05-29",
+      "close": 120.62
+    },
+    {
+      "date": "2026-06-01",
+      "close": 120.92
+    },
+    {
+      "date": "2026-06-02",
+      "close": 128.64
+    },
+    {
+      "date": "2026-06-03",
+      "close": 133.93
+    },
+    {
+      "date": "2026-06-04",
+      "close": 131.82
+    },
+    {
+      "date": "2026-06-05",
+      "close": 117.26
+    },
+    {
+      "date": "2026-06-08",
+      "close": 120.9
+    },
+    {
+      "date": "2026-06-09",
+      "close": 117.0
+    },
+    {
+      "date": "2026-06-10",
+      "close": 110.17
+    },
+    {
+      "date": "2026-06-11",
+      "close": 115.96
+    },
+    {
+      "date": "2026-06-12",
+      "close": 116.79
+    },
+    {
+      "date": "2026-06-15",
+      "close": 125.9
+    },
+    {
+      "date": "2026-06-16",
+      "close": 118.25
+    },
+    {
+      "date": "2026-06-17",
+      "close": 112.92
+    },
+    {
+      "date": "2026-06-18",
+      "close": 121.62
+    },
+    {
+      "date": "2026-06-22",
+      "close": 131.55
+    }
+  ],
+  "price_status": "ok"
+}

@@ -1,0 +1,44 @@
+{
+  "ticker": "GAS_TURBINE",
+  "cashtag": "gas turbine stocks",
+  "price_symbol": "GAS_TURBINE",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-11",
+  "last_mention": "2026-04-11",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2042932691436474466",
+      "date": "2026-04-11",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "a bit late to be buying gas turbine stocks at this point"
+      ],
+      "is_risk": false,
+      "conviction": "low",
+      "raw_mention": "gas turbine stocks",
+      "text": "Isn’t it a bit late to be buying gas turbine stocks at this point? I think ABF and HBM stocks are still worth buying even now.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2042932691436474466",
+      "kind": "self_thread",
+      "engagement": {
+        "views": 20102,
+        "likes": 104,
+        "reposts": 1,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

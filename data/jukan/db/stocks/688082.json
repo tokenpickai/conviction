@@ -1,0 +1,51 @@
+{
+  "ticker": "688082",
+  "cashtag": "SMEE",
+  "price_symbol": "688082",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-06",
+  "last_mention": "2026-04-06",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2041330434496430127",
+      "date": "2026-04-06",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SMEE",
+      "text": "There are some intriguing signs that help gauge how far China's lithography equipment technology has advanced.\n\nAccording to JoongAng Ilbo's on-site interviews with SMEE representatives at SEMICON China, SMEE's DUV lithography equipment currently has the following characteristics:\n\n- For wafer stage drive mechanisms, SMEE uses a direct-drive system rather than ball screws. This is the same approach used by ASML and is generally considered faster and more precise than ball screw configurations.\n- The claimed process coverage ranges from 100nm down to the 10nm node.\n- The equipment has already entered mass production and is being sold to customers.\n\nAn SMEE employee also described the equipment to visitors on the show floor as follows:\n\n\"This is a dual-stage scanning lithography system that we developed 100% in-house. Two wafer stages alternate scanning operations, and when an argon fluoride (ArF) excimer laser fires light from above, an optical system precisely controls it to form circuit patterns on the wafer.\"\n\nIf these claims are accurate, it would mean China has not only completed development of a DUV lithography tool capable of addressing nodes down to the 10nm range, but has already moved into mass production and commercial sales.\n\nIn particular, when you piece together the references to an ArF excimer laser, dual-stage scanning, and direct-drive architecture, the equipment appears to be a fairly advanced DUV system. If the claimed 10nm-range capability refers to critical layers, it becomes difficult to rule out the possibility that this is an ArF immersion (ArFi)-class tool. In other words, this suggests China has either come very close to state-of-the-art DUV lithography — or, in certain areas, may have already crossed that threshold.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2041330300253622272",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFRDF7fb0AAhtdf.jpg",
+          "width": 1280,
+          "height": 960,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2041330434496430127",
+      "kind": "post",
+      "engagement": {
+        "views": 66487,
+        "likes": 412,
+        "reposts": 52,
+        "replies": 16
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

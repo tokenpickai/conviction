@@ -1,0 +1,346 @@
+{
+  "ticker": "TER",
+  "cashtag": "Teradyne",
+  "price_symbol": "TER",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": "Teradyne",
+  "industry": "Semiconductor Test Equipment",
+  "thesis_summary": null,
+  "first_mention": "2026-04-13",
+  "last_mention": "2026-04-30",
+  "total_mentions": 5,
+  "mentions": [
+    {
+      "tweet_id": "2043559385562304864",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$TER",
+      "text": "FormFactor and MPI vie to break SiPh test bottleneck as ficonTEC reportedly exits\n\nAs AI data centers officially enter the silicon photonics (SiPh) era, the industry faces severe challenges in testing accuracy and throughput on the path toward mass production of co-packaged optics (CPO) technology. This has drawn close attention to upstream test supply chain dynamics.\n\nInitially, the probe station market for SiPh chip testing was dominated by a three-way rivalry among US-based FormFactor, Germany's ficonTEC, and Taiwan's MPI(https://t.co/rcmXajqpgd). Each partnered with automated test equipment (ATE) suppliers, foundries, and IC design firms to develop solutions.\n\nRecent supply chain reports reveal that after China's RoboTechnik completed a cross-border acquisition in 2025, formally making ficonTEC its wholly owned subsidiary, concerns over technology leakage due to the new Chinese ownership led customers to lose confidence. Consequently, ficonTEC lost ground in the SiPh probe station market, ceding share to FormFactor and MPI.\n\nHowever, some industry insiders argue that ficonTEC's Chinese background is not the decisive factor behind its exit. The primary reason remains its lack of experience in developing probe stations, failing to master core technologies and resolve customer production bottlenecks effectively.\n\nMoreover, if ficonTEC is indeed sidelined by leading global players, this could also impact Teradyne, which closely collaborates with ficonTEC, potentially disrupting future product strategies in SiPh test equipment.\n\nThe testing process for SiPh chips reportedly spans four main phases from wafer level to module packaging: photonic integrated circuit (PIC) testing, wafer-level optoelectronic integration testing, optical engine testing, and post-CPO packaging testing.\n\nAn industry insider describes the second phase as a \"major black hole\" in the SiPh manufacturing flow. Currently, only engineering prototypes exist without automated solutions suitable for mass production, resulting in insufficient scale benefits and inadequate test capabilities.\n\nMPI stated that urgent demand for SiPh testing over the past two years, driven by CPO packaging's optoelectronic integration needs, prompted it to consolidate its LED and advanced semiconductor test (AST) product lines by 2026. This move aims to accelerate development in optoelectronic measurement technologies while maintaining close cooperation with Advantest and Keysight.\n\nExperts emphasize that before full-scale mass production of SiPh chips can be realized, multiple standardization challenges remain in electro-optical testing processes. This highlights the importance of shift-left testing, since failures in highly integrated CPO packaging are costly, making stage-by-stage validation critical to protecting profit margins.\n\nNotably, sources indicate that if the wafer-level optoelectronic integration test bottleneck persists, customers may skip this step during mass production and proceed directly to optical engine testing, where clear solutions already exist, accepting some yield loss and higher costs to ensure final product shipment success.\n\n$TER",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043559385562304864",
+      "kind": "post",
+      "engagement": {
+        "views": 122471,
+        "likes": 121,
+        "reposts": 14,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043559550016733352",
+      "date": "2026-04-13",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "sounds like bad news for Teradyne"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Teradyne",
+      "text": "It sounds like bad news for Teradyne.... https://t.co/weCkWo74UW https://t.co/yB3pAAVP1E",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2043559544337686528",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFwulA2bYAARUUB.jpg",
+          "width": 1320,
+          "height": 1598,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2043559550016733352",
+      "kind": "post",
+      "engagement": {
+        "views": 54615,
+        "likes": 192,
+        "reposts": 20,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048660802736140321",
+      "date": "2026-04-27",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Teradyne",
+      "text": "Advantest earnings highlights:\n\n- SoC tester market share increased from 56% in CY24 to 66% in CY25, clearly reinforcing its advantage over Teradyne.\n- The company received its first high-volume ATE order for silicon photonics.\n\nOne-line take: Advantest clearly proved why its stock deserves to trade at a premium.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048660802736140321",
+      "kind": "post",
+      "engagement": {
+        "views": 42342,
+        "likes": 235,
+        "reposts": 22,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2050058291066376226",
+      "date": "2026-04-30",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$TER",
+      "text": "[GF Overseas Electronics & Communications] \nTeradyne 1Q26 Review: Entering a Transition Period in 2H26\n\n☄️ Teradyne 1Q26 Review: Entering a Transition Period in 2H26\n\n☀️ Strong 1Q results, but full-year 2026 guidance fell short of expectations:\nTeradyne reported 1Q26 revenue of US$1.28 billion and gross margin of 60.9%, beating market expectations. Despite the strong first-quarter performance, the company guided 2Q26 revenue of US$1.15–1.25 billion, with the midpoint implying a 6% QoQ decline.\nManagement noted that 55–60% of 2026 revenue will still be concentrated in 1H26, which is below the market’s optimistic expectations for CPO, memory, and AI businesses. Meanwhile, in the CPO testing segment, management expects the medium-term TAM to reach US$300–700 million.\n\nAfter the earnings release, the stock fell 20%. Although we remain constructive over the long term on TER’s AI-related share gains and CPO growth potential, near-term catalysts are limited. The company currently trades at 47x FY2026 P/E, representing a valuation premium versus SPE peers. Given uncertainty around 2H26 revenue, we lower our FY27 earnings multiple to 30x P/E and set a new target price of US$381.\n\n☀️ 2H26 enters a transition period:\nWe believe the high first-half revenue weighting is partly due to the Mellanox business, where all 160–170 equipment shipments are concentrated in 1H26. Looking ahead, 2H26 will be a transition period for Teradyne’s business, with AI-driven growth expected to materialize more meaningfully in 2027.\n\nAlthough Teradyne completed its first GPU tester shipments in 1Q26, these were mainly for Nvidia gaming GPUs. Testers for Nvidia’s Rubin platform are expected to begin shipping in 4Q26, with 2027 shipments ramping to 100–150 units. On the MediaTek side, a small number of tools will ship in 2026, while a more significant revenue contribution is expected in 2H27 as MediaTek’s Humufish capacity scales up.\n\n☀️ CPO revenue has upside potential:\nManagement stated that the medium-term TAM for CPO test equipment is US$300–700 million, and it is also positive on providing Insertion 2 testing solutions through its partnership with Ficontec.\n\nWe are more optimistic on the outlook for the CPO business. According to supply-chain checks, Teradyne’s 2027 CPO revenue could reach US$800 million. The company has an absolute competitive advantage in full-flow CPO testing, covering Insertion 1/2/4 stages.\n\nThe current bottleneck in the CPO industry is concentrated in the OE stage, where SoIC process yields remain low, leading the industry to revise down near-term CPO shipment expectations. We recommend closely tracking CPO industry progress, as this business represents Teradyne’s biggest potential upside driver in 2026.\n\n$TER",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2050058291066376226",
+      "kind": "post",
+      "engagement": {
+        "views": 53705,
+        "likes": 67,
+        "reposts": 4,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2050059631490400525",
+      "date": "2026-04-30",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Teradyne",
+      "text": "Interesting…\n\nAccording to GFHK’s analysis, low TSMC SoIC yields have led the industry to lower its near-term — i.e., 2026 — CPO shipment forecasts.\n\nFor what it’s worth, I was a bit disappointed that Teradyne seemed to acknowledge Advantest’s capabilities during this earnings call.\n\nI had thought Teradyne would be overwhelmingly dominant in CPO testing. Now I’m debating whether I should add more Advantest.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2050059631490400525",
+      "kind": "post",
+      "engagement": {
+        "views": 35658,
+        "likes": 134,
+        "reposts": 12,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-04-13",
+      "close": 370.13
+    },
+    {
+      "date": "2026-04-14",
+      "close": 365.51
+    },
+    {
+      "date": "2026-04-15",
+      "close": 364.96
+    },
+    {
+      "date": "2026-04-16",
+      "close": 365.92
+    },
+    {
+      "date": "2026-04-17",
+      "close": 380.38
+    },
+    {
+      "date": "2026-04-20",
+      "close": 375.21
+    },
+    {
+      "date": "2026-04-21",
+      "close": 379.93
+    },
+    {
+      "date": "2026-04-22",
+      "close": 385.18
+    },
+    {
+      "date": "2026-04-23",
+      "close": 400.99
+    },
+    {
+      "date": "2026-04-24",
+      "close": 418.08
+    },
+    {
+      "date": "2026-04-27",
+      "close": 402.0
+    },
+    {
+      "date": "2026-04-28",
+      "close": 380.13
+    },
+    {
+      "date": "2026-04-29",
+      "close": 306.33
+    },
+    {
+      "date": "2026-04-30",
+      "close": 343.47
+    },
+    {
+      "date": "2026-05-01",
+      "close": 345.42
+    },
+    {
+      "date": "2026-05-04",
+      "close": 337.44
+    },
+    {
+      "date": "2026-05-05",
+      "close": 357.1
+    },
+    {
+      "date": "2026-05-06",
+      "close": 382.48
+    },
+    {
+      "date": "2026-05-07",
+      "close": 354.11
+    },
+    {
+      "date": "2026-05-08",
+      "close": 359.77
+    },
+    {
+      "date": "2026-05-11",
+      "close": 366.64
+    },
+    {
+      "date": "2026-05-12",
+      "close": 358.45
+    },
+    {
+      "date": "2026-05-13",
+      "close": 363.38
+    },
+    {
+      "date": "2026-05-14",
+      "close": 356.55
+    },
+    {
+      "date": "2026-05-15",
+      "close": 337.88
+    },
+    {
+      "date": "2026-05-18",
+      "close": 321.05
+    },
+    {
+      "date": "2026-05-19",
+      "close": 321.52
+    },
+    {
+      "date": "2026-05-20",
+      "close": 344.34
+    },
+    {
+      "date": "2026-05-21",
+      "close": 353.44
+    },
+    {
+      "date": "2026-05-22",
+      "close": 358.44
+    },
+    {
+      "date": "2026-05-26",
+      "close": 389.14
+    },
+    {
+      "date": "2026-05-27",
+      "close": 375.83
+    },
+    {
+      "date": "2026-05-28",
+      "close": 382.65
+    },
+    {
+      "date": "2026-05-29",
+      "close": 374.31
+    },
+    {
+      "date": "2026-06-01",
+      "close": 369.47
+    },
+    {
+      "date": "2026-06-02",
+      "close": 392.62
+    },
+    {
+      "date": "2026-06-03",
+      "close": 409.67
+    },
+    {
+      "date": "2026-06-04",
+      "close": 406.86
+    },
+    {
+      "date": "2026-06-05",
+      "close": 357.93
+    },
+    {
+      "date": "2026-06-08",
+      "close": 374.69
+    },
+    {
+      "date": "2026-06-09",
+      "close": 369.21
+    },
+    {
+      "date": "2026-06-10",
+      "close": 347.59
+    },
+    {
+      "date": "2026-06-11",
+      "close": 381.4
+    },
+    {
+      "date": "2026-06-12",
+      "close": 403.2
+    },
+    {
+      "date": "2026-06-15",
+      "close": 432.41
+    },
+    {
+      "date": "2026-06-16",
+      "close": 409.35
+    },
+    {
+      "date": "2026-06-17",
+      "close": 408.56
+    },
+    {
+      "date": "2026-06-18",
+      "close": 437.92
+    },
+    {
+      "date": "2026-06-22",
+      "close": 457.0
+    }
+  ],
+  "price_status": "ok"
+}

@@ -8,10 +8,658 @@
   "company": "Alphabet",
   "industry": "Hyperscaler",
   "thesis_summary": "当天主要在陈述供应链关系/背景,未明确表态。",
-  "first_mention": "2026-06-16",
+  "first_mention": "2026-03-31",
   "last_mention": "2026-06-22",
-  "total_mentions": 3,
+  "total_mentions": 27,
   "mentions": [
+    {
+      "tweet_id": "2038872846911648097",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "GF Securities Overseas Electronics & Communications: Memory Industry — It’s Too Early to Be Pessimistic\n\nSpot prices need not be a major concern: We believe the recent spot price pullback is primarily due to elevated premiums persisting even after Q2 price increases. For example, Huaqiangbei 64GB DDR5 spot prices are ~$2,500, nearly double the Micron/Samsung Q2 2026 contract price of $1,250–1,500. Similarly, eSSD spot market pricing is near $0.5/GB vs. contract prices near $0.3/GB. We believe channel inventory and speculative position unwinding triggered the price decline, but expect spot prices to gradually stabilize underpinned by strong contract pricing.\n\nAI is the key DRAM demand driver: We now estimate pure AI server demand (HBM + near-GPU DRAM) will account for ~37% of total DRAM demand in 2026, growing 74% in 2027 and 90% in 2028, primarily driven by platform transitions such as NVIDIA Rubin Ultra’s shift to 1TB HBM, higher CPU LPDDR capacity, and Google’s aggressive shipment plans. Despite investor concerns about 2028 expansion, we believe the DRAM market will remain structurally tight. AI demand alone can drive >40% incremental wafer-equivalent demand growth, far exceeding the ~15% annual supply growth from technology migration. Consequently, even with new capacity additions, memory capex in 2028 could approach $200B, and this still does not account for wafer output lag and robust general-purpose server demand.\n\nLTAs underpin earnings visibility; valuations digesting rapidly: We have recently observed positive progress on LTAs between memory manufacturers and [hyperscaler] partners. Under new LTA terms, pricing will fluctuate with market conditions but with floor prices set to ensure minimum pricing. Notably, 2027 floor prices are >25% above Q2 2026 DRAM pricing, while 2028 LTAs (e.g., the Samsung–Google agreement) show further YoY increases. More importantly, these LTAs carry higher commitment levels, with upfront payments reaching billions of dollars. Thanks to these agreements, we believe current profitability levels can be sustained through 2028. Taking Micron (MU US, Buy) as an example, we estimate FY2028 BVPS could exceed $300, implying a current valuation of ~1.3x P/B. We believe the near-term memory trading focus remains DRAM pricing, but longer-term investors will pivot toward earnings sustainability.\n\nDDR4 cycle has peaked: In contrast to DDR5, we believe the DDR4 cycle has peaked. On the demand side, DDR4 prices remain above post-Q2 DDR5 prices, which continues to incentivize customers to accelerate migration to DDR5 platforms. On the supply side, the DDR4 EOL timeline has been extended: 1) domestic (Chinese) DRAM manufacturers will not EOL DDR4 and will deliver an additional ~20% DDR4 supply uplift through technology migration; 2) Samsung and SK Hynix (000660 KS, Buy) have also pushed back their DDR4 EOL timelines to Q4 2026. We now expect DDR4 contract prices to rise 15–20% in Q2 2026, well below the 50–60% increase for DDR5, and anticipate meaningful pricing pressure in Q3 2026.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2038872846911648097",
+      "kind": "post",
+      "engagement": {
+        "views": 72169,
+        "likes": 113,
+        "reposts": 18,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2040568323738640582",
+      "date": "2026-04-04",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "The Critical Weakness of AI Computing Power… Broadcom Identifies \"3 Major Bottlenecks,\" Supply Shortages Could Persist Until 2027 \n\n• Broadcom has identified the key bottlenecks in the current AI supply chain as: ▲lasers, ▲advanced process wafers (particularly TSMC), and ▲PCBs. Notably, lead times for the small-form-factor PCBs used inside optical transceivers have extended from approximately 6 weeks to 6 months, with relief not expected until 2027.\n\n• These small-form-factor PCBs require high-difficulty mSAP processes due to the demands of high-frequency signal processing and ultra-compact design. Because their production processes partially overlap with IC substrates for HBM, the surge in global AI server demand is paradoxically eroding PCB production capacity. Additionally, supplier qualification takes over 6 months, leading hyperscalers to lock in existing supply chains through long-term contracts.\n\n• Laser components have also been flagged as a critical bottleneck in the CPO era. Lasers for AI data centers require high-power, low-noise characteristics, and the yield rate passing stringent reliability testing remains below 30%. The number of vendors with InP (indium phosphide)-based production capabilities is particularly limited, and in CPO architectures, laser demand increases not linearly but multiplicatively, further intensifying supply pressure.\n\n• On the wafer front, TSMC's advanced process nodes are projected to hit a bottleneck by 2026. However, the real issue lies in back-end advanced packaging. The CPO era requires high-difficulty hybrid bonding technology to integrate optical and silicon dies, with throughput and yield severely constrained in the early stages.\n\n• Furthermore, TSMC must allocate the same production lines across NVIDIA, Apple, AMD, and Qualcomm, as well as Google, Meta, and OpenAI — effectively operating production capacity under a \"rationing\" regime. New capacity additions also face 12–18 month equipment lead times, making near-term relief unlikely.\n\n• Meanwhile, expansion at suppliers of packaging substrates, underfill, testing, optical communications, and probe cards is progressing even more slowly, causing bottlenecks to proliferate across the entire supply chain. As a result, supply chain bottlenecks and price inflation are likely to persist structurally, with the segments experiencing bottlenecks emerging as the critical nodes wielding pricing power.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2040568323738640582",
+      "kind": "post",
+      "engagement": {
+        "views": 55842,
+        "likes": 245,
+        "reposts": 29,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043661562096111751",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$GOOGL",
+      "text": "I respect the people who bought $GOOGL when Bard came out and everyone thought Google was sinking. It feels just like buying $MSFT right now, doesn’t it?",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043661562096111751",
+      "kind": "post",
+      "engagement": {
+        "views": 134385,
+        "likes": 730,
+        "reposts": 17,
+        "replies": 75
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044032675384832496",
+      "date": "2026-04-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "Oh my god lol, $MRVL is talking with Google about TPU? @FundaAI",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044032675384832496",
+      "kind": "post",
+      "engagement": {
+        "views": 111615,
+        "likes": 306,
+        "reposts": 6,
+        "replies": 14
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044684410289852753",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "Today's biggest semiconductor industry news is that Gerard has founded a new ARM CPU company, Nuvacore, five years after Nuvia was acquired by Qualcomm. Even the name closely echoes the predecessor.\n\nStarting a datacenter CPU company at this point in time means catching what is arguably the best decade for CPUs in recent memory. The shortage wave that AI agents will usher in is already faintly visible, and several AWS customers have gone so far as to request entire blocks of Graviton ARM CPU capacity wholesale.\n\nThe pull this news exerts on Silicon Valley's semiconductor crowd is enormous. Nuvacore's lineup is stacked exclusively with proven star players — the original Nuvia founding team reunited, backed by Sequoia, building general-purpose ARM CPUs aimed at AI infrastructure and agentic computing. The direction was entirely unvalidated back then, yet ended in resounding success. Now ARM CPU servers sit squarely in the eye of the storm. The scale of the outlook and the imagination it invites are incomparable to Nuvia in 2019.\n\nLast time Gerard poached architectural heavyweights from Google's and Apple's platform architecture teams; this time his pitch will land far harder. A $240M raise, a proven playbook, a reassembled founding team, and the next wave of growth visible straight ahead — all of it conspires to make Nuvacore the hottest, most sought-after semiconductor startup in the Bay Area, and by some distance. This is, after all, a chance at financial freedom right in front of you with an exceptionally favorable risk/reward profile.\n\nThe first-generation Nuvia CPU announcement landed in the Apple M2 era and was genuinely shocking. Nuvia pushed Qualcomm's CPU benchmark scores forward by a full three generations in a single year, with single-core scores climbing from 2300 to 3200, decisively outpacing the Apple M2 Max.\n\nThe disappointment was that Nuvia's Phoenix core dragged far too long from announcement to actual launch. In that interval Apple went on a toothpaste-squeezing tear, pushing out M3 and M4 back-to-back. By the time Nuvia's CPU finally shipped, it was being benchmarked against the M4 rather than the M2, and fell from anticipated protagonist to mere background.\n\nNuvia's foresight back then was well ahead of the field. In 2019, ARM CPU server market share was essentially zero, and Nuvia set out to crack this market from scratch. After the $1.4B acquisition by Qualcomm in 2021, Qualcomm pledged unlimited resources, went on an aggressive hiring expansion, and offered compensation at the very top of the market.\n\nUnfortunately, the external environment deteriorated sharply in 2022, and on top of that, Qualcomm's leadership displayed strategic myopia of the worst kind. Just as the ARM server ecosystem was beginning to stretch its limbs, Qualcomm dissolved its own Nuvia CPU server team for the sake of share price and cost reduction (the second time — they had already dismantled an ARM server team back in 2015).\n\nIt was only in 2025 — four years after NVIDIA's Grace ARM CPU had already been announced, long after Vera ARM CPU had been in internal development, and with Amazon's Graviton accounting for nearly 50% of new server CPU shipments — that Qualcomm belatedly and tentatively restarted its ARM server project.\n\nSo Gerard walking out of a senior Qualcomm position to regroup the original founding team and do this himself is probably because Qualcomm's leadership has been so short-sighted that it kept missing the window. When Nuvia wanted to do ARM servers the first time around, Qualcomm's commitments turned into bad checks the moment the macro turned; after the acquisition, the project was cancelled outright and redirected toward laptop and smartphone chips.\n\nFurther, Qualcomm is bracing for a meaningful hit to smartphone sales this year from the historic surge in memory and storage prices (the market is contracting roughly 30%), and expansion budgets are constrained, so the resources available internally are limited.\n\nAnd a startup offers far easier access to decision velocity, team purity, product definition authority, and a capital story than a large platform like Qualcomm can. That is why, with the window already validated, the original members have been reassembled.\n\nBut the more fundamental reason is probably that the CPU outlook in the AI era has genuinely become so vast that jumping back in is worth it. Gerard hasn't changed — the external market has.\n\nSince entering 2025, the arrival of AI agents has been quietly turning the CPU back into a bottleneck. CPU servers have re-entered a growth trajectory, and the latent potential is considerable. A few factors:\n\n1. As the inference era arrives, GPUs have evolved into inference-specialized system-level architectures, while CPUs have become the perpetually busy orchestrator. The pursuit of token throughput multiplies the number of heterogeneous compute stages, batch sizes grow, scheduling / routing / dataflow complexity rises, and orchestration requirements scale accordingly.\n\nSo in system-level heterogeneous inference architectures, the CPU-to-GPU ratio has turned far more aggressive. From the previous 1:4, to 1:2 in Grace Blackwell, and likely heading toward 1:1. Google TPU pairs with Axion, Amazon Trainium with Graviton, NVIDIA Rubin with its own Vera CPU.\n\nI wrote about this in last November's semiconductor year-end review, and by 2026 it has essentially become consensus. That said, this piece is mostly captured by each company's in-house AI chip efforts, so it's hard to count as pure CPU server demand, and it's ambiguous whether it constitutes an opportunity for the external CPU server market.\n\n2. Also from that same year-end review:\n\nViewed from the CPU angle, agentic workloads run routing and tool handling entirely on CPU. Profile popular agentic frameworks like SWE-Agent, LangChain, and Toolformer and you'll find that CPU can account for up to 90% of end-to-end latency; throughput bottlenecks land on the CPU more often than not; and CPU energy consumption can exceed 40% of total energy draw.\n\nAgentic AI, today, is more of a CPU-bottlenecked workload. Agents manage numerous CPUs, and they need to spin up sandboxes frequently — this has a very strong chance of triggering a fresh recovery cycle in CPU demand.\n\nLooking back now, the latent potential of this thesis I wrote last year is substantial. But it hadn't materialized at scale at the start of this year. The CPU growth and the \"CPU shortage wave\" that various players have been talking about early this year aren't directly tied to this logic — they're more about backfilling the traditional CPU server under-investment that accumulated from years of over-allocating capex to GPUs.\n\nIn H2, and certainly into 2027, agents will spread much more broadly. Smart shopping assistants and customer service agents, for instance, already accounted for a significant share of Amazon's 1M CPU procurement late last year, and growth in this segment is very fast.\n\nThe first two threads are essentially the mainstream consensus when this year's market talks about CPU potential. But there are two more threads I think are underappreciated:\n\n3. The main thread that makes CPU server potential bigger and longer-lived may not be directly tied to agents themselves. It's a byproduct of code agents.\n\nAs the barrier and speed of coding have been dramatically optimized, the entire cost of \"building software + connecting software + calling software + automating software\" has collapsed by an order of magnitude. On the software supply side, the Jevons paradox kicks in — the world is pushed toward higher software density and higher API density, which in turn translates directly into a linear increase in traditional CPU workloads.\n\nSince late 2025, coding agents have undergone a qualitative shift. Claude Code has seen explosive growth, with token revenue tripling in three months. The next phase will inevitably be a 10x increase in code volume and an explosion in the number of apps.\n\nEven at the large enterprise level, daily consumption of 1M tokens is merely average, and per-capita coding output will inevitably at least double (at small companies, 10x). The surge in code supply doesn't stay inside repos — it gradually becomes long-running software assets, meaning more long-lived features, more products, more microservices, more APIs.\n\nOver the long run, the total production cost and production cycle of every app and API collapse to about 10% of their original levels, and APIs become extraordinarily abundant. API usage then rises in bulk, which drives a bulk rise in traditional CPU workloads — in CPU seconds. This doesn't even have a direct tie to \"agentic.\"\n\nOn the time axis, this thread is not short-dated. Claude Code's inflection is only a few months old, and the product releases, microservice releases, and API releases that follow are necessarily delayed further out in time. Software getting cheaper doesn't mean society uses less software — it means more work gets shifted onto software.\n\nSo in H2 or later, we'll probably see a phenomenon where traditional CPU cloud demand mysteriously rises again — one that on the surface doesn't even appear directly linked to AI agents.\n\n4. CPU is technically very hard to deflate. It does not have the property that, like memory/storage, you can compress the per-task footprint through various compression algorithms. Growth in CPU workloads translates into hardware demand growth for real.\n\nFor example, KV cache sees new compression techniques each year. An older one, multi-head KV cache sharing down to a single head (GQA), delivers roughly a 4x compression. Last year's turboquant-style techniques added several more multiples of compression. Add data precision dropping from FP16 toward the next step of FP4, and the precision reduction brings KV cache compression — technical deflation on the storage side.\n\nBut on CPU, the technical deflation headroom is very thin. Every increment in today's agentic CPU workload (CPU seconds) converts into real hardware demand, essentially in full. The only deflationary factor amounts to the 10–15% benchmark score uplift per generation per year. What about other deflationary factors, like cloud's 5–6x over-sell? No — because CPU has always been over-sold to begin with. The over-sell / underutilization technical deflation on CPU will not widen further from here, and every incremental CPU second converts linearly into hardware with no meaningful discount.\n\nARM's guidance is that the CPU supply-demand gap could widen to 30%+. Stack these factors, add the fact that AI servers are cannibalizing CPU server capacity and order slots, and the gap could grow further, with hyperscalers' responses likely running a step behind.\n\nAt the same time as aggregate CPU demand potential is rising, ARM server CPU is living through its best era in history.\n\nRoughly 50% of the new traditional server CPUs hyperscalers are deploying for cost optimization are ARM — Google's Axion, Amazon's Graviton, Microsoft's Cobalt. Graviton's 2026 capacity is already fully sold, with the bottleneck having shifted to capacity itself.\n\nGoogle TPU pairs with Axion, Amazon Trainium with Graviton, NVIDIA Rubin with its own Vera. The collective rotation of these CPUs toward ARM is driven by more than cost. As inference systems push token throughput to the limit, batches get larger and more complex, and under those conditions, ARM CPU in-house development plus system-level HW-SW co-design is much more convenient. NVIDIA, for instance, uses Dynamo to orchestrate Vera–Rubin cooperation.\n\nFrom Nuvacore's plan, it doesn't look content to stop at IP — it is going after finished products. The hiring page already lists validation engineer roles.\n\nThat said, the challenges Nuvacore faces this time are not small. The start is far later. Both the market and the technology are far more competitive. CPU servers are vastly more complex than seven years ago — the contest is no longer at the individual CPU level but at rack-system complexity.\n\nBuilding a CPU now for 2028–2029 launch that is competitive at the rack level requires much greater scale. You basically have to assemble dozens of chiplets, 500+ cores, while simultaneously working out how to handle AI agentic workloads. The workload has grown noticeably larger than before. The bar for a startup is meaningfully higher than seven years ago.\n\nLast time, Nuvia was successfully sold for $1.4B just two years after founding. The heat in this market is orders of magnitude hotter than five years ago. So what does the road ahead look like for Nuvacore?\n\nOn the acquisition route, the pool of potential acquirers has not really expanded versus five years ago. Over these five years, Google got Axion, Microsoft got Cobalt, Amazon got Graviton, and NVIDIA's in-house Vera CPU has already taken shape. Even ARM has broken its 35-year IP-only tradition and begun building its own AGI CPU chips.\n\nThe most plausible acquirer is the SoftBank camp. SoftBank has been building deep positions in the ARM CPU server ecosystem for years, and acquired Ampere for $6.5B. Adding Nuvacore on top would be a natural follow-on, and the imagination this market affords more than justifies that kind of price tag.\n\nAnother possibility is Meta. Among the major internet companies, Meta is the only one without a reliably in-house CPU server offering, and what limited resources it has are going into MTIA on the AI accelerator side.\n\nThe problem with Meta, though, is that its stability is extremely low. Decisions shift month to month, attention span is very short-term, and projects can be killed at any time. For Nuvacore, it would be a very poor acquirer — one that wouldn't let the company realize any of its potential.\n\nTaken as a whole, Nuvacore's option set is considerably wider than it was five years ago. The consensus around ARM CPU server potential is now firmly in place. Funding difficulty is meaningfully lower. The friction for operating and scaling independently is much reduced versus the past. And partners are more willing to engage, buoyed by expectations of the future.\n\nIt is entirely reasonable to scale well beyond where Nuvia was before considering an exit. There is no need to rush.\n\n$QCOM $ARM",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044684300927520768",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGAtidqaUAAUlt9.jpg",
+          "width": 2048,
+          "height": 2045,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044684410289852753",
+      "kind": "post",
+      "engagement": {
+        "views": 153293,
+        "likes": 508,
+        "reposts": 55,
+        "replies": 16
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044750394719715585",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "JPM's supply chain survey indicates that Google is developing an SRAM-based compute engine in collaboration with Marvell (a concept similar to NVIDIA's Groq LPU), and this is expected to negatively impact MediaTek's TAM. (@FundaAI made a really impressive call.)\n\nAdditionally, JPM forecasts that in Google's TPU v9, $AVGO (Broadcom) is highly likely to be the sole supplier using TSMC's CoWoS-L technology.\n(Bearish on $INTC's EMIB-T?)",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044750394719715585",
+      "kind": "post",
+      "engagement": {
+        "views": 61004,
+        "likes": 271,
+        "reposts": 13,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045853008081420654",
+      "date": "2026-04-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "GOOGLE",
+      "text": "THE INFORMATION: GOOGLE IS DESIGNING TWO ASICS WITH MARVELL\n\nTHE INFORMATION: ONE IS A MEMORY PROCESSING UNIT DESIGNED TO WORK ALONGSIDE GOOGLE’S TENSOR PROCESSING UNITS (TPUS), AND THE OTHER IS A NEW TPU OPTIMIZED FOR RUNNING AI MODELS.\n\n$MRVL",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2045853008081420654",
+      "kind": "post",
+      "engagement": {
+        "views": 396557,
+        "likes": 1485,
+        "reposts": 87,
+        "replies": 47
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047237363445993743",
+      "date": "2026-04-23",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "I'm taking another look at the TPU Gen 8 announcement, and something doesn't quite add up.\n\nGoogle stated that TPU v8 clusters will largely be supported by their self-designed Axion ARM-based CPUs. If that's the case, why did they put out a press release just days earlier announcing an x86 CPU partnership with Intel? Over time, Google's TPUs are going to be predominantly powered by their in-house Axion anyway.\n\nSure, x86 workloads will still be used for Search, YouTube, Ads, Gmail, and so on—but doesn't this ultimately cap x86's TAM? It's not that Intel Xeon will stop being used entirely, but x86's declining share trajectory looks unavoidable.\n\nThe IPU collaboration with Google seems like a positive, but the deal Intel struck with Google ultimately feels more like \"not losing ground\" to me. A defensive deal.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047237363445993743",
+      "kind": "post",
+      "engagement": {
+        "views": 44972,
+        "likes": 265,
+        "reposts": 10,
+        "replies": 20
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048422825698918527",
+      "date": "2026-04-26",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "Hyundai Motor Securities Korea:\n\n* Rubin Ultra is highly likely to be delayed to 1H 2028.\n* According to the Taiwanese supply chain, Google TPU shipments are expected to reach 2.8 million units in 2025, 3.6 million units in 2026, and 4.0 million units in 2027.\n* CPO consists of an EIC and a PIC. The EIC is believed to be in mass production on 6nm, while the PIC is believed to be in mass production on 65nm. Packaging is expected to take place at TSMC’s AP7 fab, and TSMC’s AP7 EIC+PIC capacity is expected to start ramping from 15K wafers per month in 2H next year.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048422825698918527",
+      "kind": "post",
+      "engagement": {
+        "views": 71420,
+        "likes": 272,
+        "reposts": 26,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048979088413737219",
+      "date": "2026-04-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "NAND related update:\n\nNVIDIA still does not appear interested in HBF. Its view is that HBF’s high bandwidth can be sufficiently addressed with eSSDs.\n\nThere were recent reports that SanDisk had issued POs related to HBF, and the customer SanDisk is believed to be in discussions with is Google. Google currently appears to be the most aggressive player pushing HBF.\n\nSK hynix is more proactive on HBF than Samsung. Still, both Samsung and SK hynix are likely to unveil HBF samples and begin customer qualification in the second half of this year.\n\n$SNDK",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048979088413737219",
+      "kind": "post",
+      "engagement": {
+        "views": 54601,
+        "likes": 344,
+        "reposts": 37,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048992506851868780",
+      "date": "2026-04-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "Rumor: Google to shift to a COT model starting with TPU v9, downgrading the role of MediaTek/Broadcom.\n\nThis would be a major negative for Broadcom and MTK.\n\nAccording to this rumor, starting with TPU v9, Google plans to move to a model similar to AWS’s Annapurna, where Google directly places wafer orders with TSMC.\n\nIn other words, Google would be doing COT directly.\n\nWhat does that mean? Google would become TSMC’s direct customer, while Broadcom and MediaTek would be downgraded to IP support / design service roles.\n\nOwnership of the chip and control over supply would shift toward Google.\n\nIn other words, Broadcom/MediaTek’s per-chip margin would fall, if this is true.\n\nInstead of recognizing the full chip ASP as revenue, the model would shift toward design service fees / margin. That makes me more worried about Broadcom than MediaTek.\n\n$AVGO",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2048990937410568193",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HG96ZsxaAAE5erg.jpg",
+          "width": 1320,
+          "height": 1886,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2048992506851868780",
+      "kind": "post",
+      "engagement": {
+        "views": 200817,
+        "likes": 727,
+        "reposts": 87,
+        "replies": 47
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2049717500691279979",
+      "date": "2026-04-30",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "\"Google is adopting a disaggregated ASIC model through its partnership with MediaTek, aiming to eliminate the 15–20% markup embedded in Broadcom’s turnkey model.\"\n\nIn other words, Google aims to use MediaTek to reduce the 15–20% margin Broadcom captures under its turnkey ASIC model.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2049717500691279979",
+      "kind": "post",
+      "engagement": {
+        "views": 68575,
+        "likes": 342,
+        "reposts": 44,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2050212094134641115",
+      "date": "2026-05-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "@_ILiketheBiz only Google",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2050212094134641115",
+      "kind": "reply",
+      "engagement": {
+        "views": 9445,
+        "likes": 52,
+        "reposts": 4,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2050756475090550953",
+      "date": "2026-05-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "Samsung Foundry's 4nm \"Fully Booked\" Through Next Year… Set for H2 Profitability Turnaround\n\nSamsung Electronics' foundry flagship 4nm line has entered \"fully booked\" status through next year. The result reflects the convergence of HBM4 volume ramp and orders from global Big Tech. Industry observers expect the chronically loss-making foundry division to fire its first signal of recovery as early as the second half of this year.\n\nAccording to the semiconductor industry on the 3rd, Samsung Electronics' 4nm foundry process has recently secured order volumes extending into next year's production. A semiconductor industry source who requested anonymity said, \"The 4nm process has recently demonstrated better-than-expected stability among global customers, and demand is exploding,\" adding, \"The line is running so tightly that it is effectively impossible to take additional orders through next year.\"\n\nThe core driver of these orders is HBM4. Samsung Electronics produces the base die mounted in its HBM4 on the 4nm foundry process. As the company begins full-scale HBM4 supply to AI accelerator vendors such as NVIDIA and AMD, the utilization rate of the supporting 4nm foundry line has likewise reached its ceiling.\n\nDemand for the 4nm process is not confined to memory. Global fabless companies that previously relied on TSMC are now knocking on Samsung's door, factoring in supply-chain diversification and cost-effectiveness. NVIDIA and Google currently appear on the customer roster for Samsung's 4nm node. With improved yields and verified power efficiency (performance per watt), the \"love calls\" from Big Tech continue to come in.\n\nWith high-value-added HBM4 and global Big Tech volumes filling the 4nm line, expectations for an earnings turnaround are also rising. The 4nm process has already completed its large-scale investment phase, easing the depreciation burden. The structure is one in which profitability rises sharply as utilization is maximized.\n\nA source at a Samsung Foundry partner company assessed, \"Thanks to the stabilization of the 4nm process and the strong demand anchor of HBM4, Samsung Foundry is expected to swing to profit as early as the second half of this year, or at the latest in the first half of next year,\" adding, \"After a prolonged slump, it has clearly entered a recovery phase.\"\n\nThat said, the industry points to the new fab under construction in Taylor, Texas, as the biggest variable for future earnings. The substantial initial operating costs and labor expenses incurred during fab completion and ramp-up preparation could swing reported earnings depending on how they are accounted for on the books.\n\nAnother semiconductor industry source said, \"Since the Taylor fab currently being built sits on U.S. soil, whether the related performance is booked under the U.S. subsidiary (DSA) or consolidated into the domestic foundry results remains to be seen.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2050756449169776640",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHXAIAmbIAAMK7T.png",
+          "width": 640,
+          "height": 417,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2050756475090550953",
+      "kind": "post",
+      "engagement": {
+        "views": 109879,
+        "likes": 380,
+        "reposts": 52,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2050929226132676936",
+      "date": "2026-05-03",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "\"But Google even probing whether it can squeeze out the pass-through mark-up on wafer orders tells you something: Google has shifted from easygoing buyer to hard-nosed on cost. The reason is simple: to take on Nvidia head-on, cost is Google’s edge, which makes EMIB-T production yield Google’s problem to solve.\"\n\nVery interesting...",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2050929226132676936",
+      "kind": "post",
+      "engagement": {
+        "views": 54657,
+        "likes": 269,
+        "reposts": 20,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2050932394493141152",
+      "date": "2026-05-03",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "@Alex_Intel_ It seems like Google wants to take more control of the process. I’ve also heard they’re trying to procure HBM directly.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2050932394493141152",
+      "kind": "reply",
+      "engagement": {
+        "views": 1995,
+        "likes": 20,
+        "reposts": 0,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2054751022749278651",
+      "date": "2026-05-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "Sources: Google plans to announce a new Gemini model, roughly on par with GPT-5.5, at its annual I/O conference on Tuesday. https://t.co/3L58RpvkOw",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2054750749691719680",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIPw65lXsAATy3U.jpg",
+          "width": 1534,
+          "height": 1984,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2054751022749278651",
+      "kind": "post",
+      "engagement": {
+        "views": 101913,
+        "likes": 961,
+        "reposts": 72,
+        "replies": 49
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2055274233585111041",
+      "date": "2026-05-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "Today’s report from Tech Taiwan:\n\nGoogle reportedly told TSMC directly, “We want to become your direct major customer.”\n\nIn other words, Google’s ultimate goal appears to be following an Apple-style COT model, bypassing both Broadcom and MediaTek. https://t.co/mFlyEREg6l",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2055273358875676672",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIXMOwgb0AAI3Zz.jpg",
+          "width": 1320,
+          "height": 2096,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2055274233585111041",
+      "kind": "post",
+      "engagement": {
+        "views": 243692,
+        "likes": 739,
+        "reposts": 75,
+        "replies": 29
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2055276077761896668",
+      "date": "2026-05-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "However, internally, both Broadcom and MediaTek still seem to view Google’s transition to a COT model as a distant future threat. https://t.co/fprCk4xqn4 https://t.co/MlejQVeq2r",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2055275040833474560",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIXNwqSbEAAuN-c.jpg",
+          "width": 1320,
+          "height": 1959,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2055276077761896668",
+      "kind": "post",
+      "engagement": {
+        "views": 67446,
+        "likes": 285,
+        "reposts": 24,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059880144538579433",
+      "date": "2026-05-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "Intel’s EMIB Packaging Is Growing Rapidly — Silicon Capacitors Are Taking Off Too\n\nSilicon capacitors are poised for explosive growth in the AI semiconductor space. Intel has been found to be planning a large-scale adoption of silicon capacitors starting next year, in order to enhance the performance of its in-house 2.5D packaging technology, “EMIB.”\n\nThe most clearly visible source of demand is Google. Google plans to launch its next-generation AI accelerator, “v8e,” in the second half of next year, and has adopted an EMIB substrate with embedded silicon capacitors for that chip. With other Big Tech companies such as Amazon also currently applying EMIB, analysts say demand could increase sharply.\n\nAccording to industry sources on the 27th, Intel plans to apply silicon capacitors to its 2.5D packaging starting next year.\n\nIntel Adopts “Silicon Capacitors” for 2.5D Packaging… Google AI Chip Gets First Application\n\n2.5D is an advanced packaging technology that inserts a thin-film interposer between the semiconductor and the substrate. Because it can connect circuits at higher density compared with conventional packaging that uses only a substrate, demand is rising in the AI and HPC fields.\n\nTo improve cost efficiency in 2.5D packaging, Intel devised its own technology called EMIB. Rather than using a broad, spread-out interposer, EMIB connects chip to chip using a small silicon bridge. Since bridges only need to be placed where chip-to-chip connections are required, chips can be arranged more flexibly and efficiently.\n\nRecently, EMIB has been drawing attention as an alternative to TSMC, which had been leading the existing 2.5D packaging market. This is because TSMC’s 2.5D packaging capacity is suffering from a supply shortage amid the rapid development of the AI industry.\n\nIndeed, global Big Tech player Google is also paying attention to EMIB. Google has decided to adopt EMIB for its in-house AI semiconductor “v8e,” which it plans to launch in the second half of next year. Under this structure, TSMC handles chip mass production, MediaTek handles design and manufacturing support, and Intel handles packaging.\n\nHowever, there have been concerns that EMIB is gradually showing limitations in providing stable power supply for AI semiconductors, which consume large amounts of power. Accordingly, Intel plans to introduce new technologies such as silicon capacitors and through-silicon vias (TSV) to ensure stable packaging for the v8e.\n\nA capacitor is a component that stores and releases electricity in an electronic circuit. In the case of silicon capacitors, their resistance (ESL/ESR) is more than 100 times lower than that of conventional multilayer ceramic capacitors (MLCC), minimizing the signal loss that occurs in high-performance semiconductors. They can also be designed in an ultra-thin structure based on a silicon wafer, enabling high-density integration.\n\nA semiconductor industry official explained, “Because the voltage drop (the phenomenon of voltage decreasing) that occurs in the high-frequency region within AI chips is difficult to solve with MLCC, we understand that Intel is adopting silicon capacitors as a solution,” adding, “The relevant supply chain is now in place, and mass production is set to begin in earnest next year.”\n\nEMIB-T Is Already on a Growth Trajectory — The Related Ecosystem and Market Are Expanding Together\n\nIntel has also inserted TSVs, which serve as power-delivery channels, into the silicon bridge. The key point is that by using TSVs to shorten the power-delivery path between the substrate and the chip, Intel has improved power efficiency and signal integrity. Intel calls this “EMIB-T.”\n\nThe industry expects the EMIB-T and silicon capacitor markets to grow rapidly.\n\nThis is because Japan’s Ibiden — one of the major companies that mass-produces semiconductor substrates for EMIB-T — is aggressively pursuing capital investment.\n\nPreviously, Ibiden had planned to build its Kawashima (Gama) plant in Gifu Prefecture as a substrate plant for Intel CPUs. However, it postponed that schedule and decided in the first half of this year to officially convert the Gama plant into a mass-production line for EMIB-T substrates. The investment is 220 billion yen (about KRW 2.1 trillion).\n\nIn its recent earnings announcement, Ibiden stated, “Operation of the Gama plant will begin in 2027 and enter full-scale mass production in 2028,” adding, “EMIB-T substrate capacity is currently far short of demand. However, adding further capacity is quite difficult, so we are discussing options with our customers.”\n\nA semiconductor industry official explained, “Ibiden’s EMIB-T-dedicated line is being built with most of the investment coming from customers such as Google, Amazon, and Intel,” adding, “This demonstrates that AI semiconductors based on EMIB-T will grow significantly going forward, and silicon capacitors are likely to expand alongside them.”",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2059880104634040320",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJYqCpybQAAUfNg.jpg",
+          "width": 640,
+          "height": 444,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2059880144538579433",
+      "kind": "post",
+      "engagement": {
+        "views": 88702,
+        "likes": 455,
+        "reposts": 67,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2061623260710932864",
+      "date": "2026-06-01",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "RT @lokoyacap: You should assume Google is well aware of the global constraints we all read about daily and, more importantly, the lead tim…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2061623260710932864",
+      "kind": "post",
+      "engagement": {
+        "views": 5,
+        "likes": 0,
+        "reposts": 22,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063979000012419279",
+      "date": "2026-06-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "The information: Google has placed an order with Intel to package more than 3 million TPUs. Across 2027 and 2028, Google is expected to produce more than 6 million TPUs using Intel’s packaging technology. https://t.co/8bj2GLu6Ah",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2063978707447169024",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKS5svFbwAA2MRc.jpg",
+          "width": 1650,
+          "height": 1050,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2063979000012419279",
+      "kind": "post",
+      "engagement": {
+        "views": 248352,
+        "likes": 728,
+        "reposts": 86,
+        "replies": 27
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064254581333209275",
+      "date": "2026-06-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "Samsung Electronics: The Last Piece in Normalizing Its Semiconductor Business Is ‘Packaging’\n\nSamsung Electronics’ semiconductor business has moved into a full rebound led by high bandwidth memory (HBM) and foundry. In advanced packaging, however, which has emerged as a core of AI chip manufacturing, the company has yet to establish a clear presence. The industry view is that securing major customers in 2.5D packaging, in particular, is urgent.\n\nAccording to industry sources on the 8th, cumulative shipments of Samsung Electronics’ in house 2.5D packaging technology ‘Cube’ are understood to still be small. The orders secured so far are also said to consist largely of startup initial volumes or short term, project based work. This stands in contrast to major competitors TSMC and Intel, which are aggressively expanding their 2.5D packaging businesses.\n\nTSMC and Intel Surge Ahead… Samsung Electronics Lacks Major 2.5D Packaging Customers\n\n2.5D packaging is a technology that inserts a thin film interposer between the semiconductor chip and the substrate to boost chip performance. Its importance is growing steadily in the semiconductor industry. This is because AI accelerators, an essential element of AI data centers, are made by integrating high performance system semiconductors and HBM through 2.5D packaging. Indeed, during the period when the HBM market was expanding, Samsung Electronics wielded as a weapon a business model offering its foundry, HBM, and 2.5D packaging on a turnkey basis.\n\nIn packaging, Samsung Electronics has worked since 2024 to expand the market for its in house 2.5D packaging technology Cube. However, there is no confirmed case yet of Samsung Electronics’ 2.5D packaging being adopted in a big tech AI accelerator. The customers currently using Samsung Electronics’ 2.5D packaging are understood to include IBM of the US and Rebellions, a domestic AI fabless startup.\n\nOne industry official in packaging explained, “Customers that have adopted Samsung Electronics’ 2.5D packaging platform remain at low shipment volumes or short term, project based production on a monthly cycle,” adding, “Now that we have entered an era in which advanced packaging significantly determines chip performance, Samsung Electronics also needs to concentrate on reinforcing its competitiveness in this field.”\n\nThis contrasts with Samsung Electronics’ main competitors TSMC and Intel, each of which is achieving remarkable growth in 2.5D packaging.\n\nTSMC, which leads the global foundry market, is executing investments to expand the production capacity of its in house 2.5D packaging ‘Chip on Wafer on Substrate (CoWoS)’ from around 35,000 wafers per month at the end of last year to around 130,000 wafers per month by the end of this year.\n\nIntel is moving into full commercialization of its 2.5D packaging ‘Embedded Multi die Interconnect Bridge (EMIB).’ Google is reported to have adopted EMIB for mass production of its own AI chip, the Tensor Processing Unit (TPU), and is expected to begin mass production from next year.\n\nLarger Chips… Samsung Electronics Sees a Possible Turnaround with PLP\n\nIt is not as though Samsung Electronics has no opportunities. The company is currently shifting the development direction of its 2.5D packaging from the existing wafer level packaging (WLP) to panel level packaging (PLP).\n\nPanel level packaging is a process that performs packaging on a wide rectangular panel. Compared with packaging on the existing wafer (300mm in diameter), it offers a larger area and allows chips to be arranged efficiently, resulting in higher productivity. In particular, with recent AI semiconductors growing in chip size to improve performance, the applicability of PLP is expected to expand.\n\nAccordingly, Samsung Electronics is applying PLP instead of WLP to Cube, while also pursuing commercialization of ‘System on Panel (SoP)’ for ultra large chips. SoP is a technology that joins multiple semiconductors together on a large rectangular panel, and is currently being developed at a size of 415x510mm.\n\nAnother industry official in packaging stated, “Samsung Electronics’ neglect of mass production development for advanced packaging technology for system semiconductors, relative to memory semiconductors, risks acting as a factor that undermines its future business competitiveness,” and noted, “At the point when PLP application begins in earnest in the AI chip field, it will need to quickly secure I-Cube customers.”\n\nMeanwhile, setting aside 2.5D packaging, Samsung Electronics’ semiconductor business is showing a clear overall improvement this year. Aggressive AI infrastructure investment by global big tech has greatly increased demand for advanced semiconductors, and the development of advanced processes has also picked up speed.\n\nIn February, Samsung Electronics began mass production shipments of HBM4 (the 7th generation of HBM) for NVIDIA, laying the cornerstone for a rebound in its sluggish HBM business. The company has also set a plan to expand HBM shipments by more than three times year over year this year. There are expectations that the foundry business will turn to profit as early as the second half of this year. It has recently attracted Tesla, NVIDIA, and Groq, among others, as advanced process customers.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2064254581333209275",
+      "kind": "post",
+      "engagement": {
+        "views": 49871,
+        "likes": 276,
+        "reposts": 25,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2065060243810496644",
+      "date": "2026-06-11",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Google",
+      "text": "The Information: Google is considering producing the I/O die for TPU v10 on Samsung Foundry’s 2nm process.\n\nhttps://t.co/BJR7VHsLa1",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2065060243810496644",
+      "kind": "post",
+      "engagement": {
+        "views": 91264,
+        "likes": 355,
+        "reposts": 39,
+        "replies": 23
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2067092746364748272",
       "date": "2026-06-16",
@@ -37,7 +685,7 @@
       "url": "https://x.com/jukan05/status/2067092746364748272",
       "kind": "post",
       "engagement": {
-        "views": 148674,
+        "views": 148679,
         "likes": 390,
         "reposts": 52,
         "replies": 15
@@ -61,8 +709,8 @@
       "url": "https://x.com/jukan05/status/2068926089800593705",
       "kind": "post",
       "engagement": {
-        "views": 182803,
-        "likes": 429,
+        "views": 182977,
+        "likes": 430,
         "reposts": 19,
         "replies": 15
       },
@@ -85,8 +733,8 @@
       "url": "https://x.com/jukan05/status/2069266963965350136",
       "kind": "post",
       "engagement": {
-        "views": 111176,
-        "likes": 241,
+        "views": 112073,
+        "likes": 244,
         "reposts": 19,
         "replies": 14
       },
@@ -112,7 +760,5 @@
       "close": 349.68
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-23T19:15:55.417167+00:00"
+  "price_status": "ok"
 }

@@ -1,0 +1,51 @@
+{
+  "ticker": "RESONAC",
+  "cashtag": "Resonac",
+  "price_symbol": "RESONAC",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-14",
+  "last_mention": "2026-04-14",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2044208463916740661",
+      "date": "2026-04-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Resonac",
+      "text": "Glass Fiber Cloth and Copper Foil Costs Continue to Rise… 2026 Full-Year CCL Price Hikes 'Far From Over'\n\nAs demand for high-end PCBs from AI servers and switches surges, the supply-demand imbalance in upstream materials is intensifying. Industry sources note that copper clad laminate (CCL) price increases are rapidly cascading downstream, progressively feeding into PCB manufacturers' customer quotations and emerging as a key variable driving up electronic component costs further.\n\nSupply chain sources say that under the current upcycle in glass fiber cloth, copper foil, and other material prices, CCL makers will continue to push through price hikes, with the current uptrend expected to persist through the end of 2026 with \"no end in sight.\" The scope of increases has expanded across M6, M7, and M8 grades, with each round starting at double-digit percentage increases — adding up to a substantial cumulative impact over the full year.\n\nAmong Taiwanese players, TUC (台光電), Tai-Yao (台燿), Lianmao (聯茂), Nan Ya (南亞), and Tenghui (騰輝) are all expected to pass through production cost pressures via staggered price increases.\n\nAccording to sources familiar with the PCB industry, the core driver behind this round of CCL price hikes is a shortage of glass fiber cloth supply, which has pushed quotations higher across the board — from E-glass to Low Dk, Low Dk2, and T-glass.\n\nHigh-end fabric grades in particular are expected to see annual price increases of 20–30% due to production efficiency and yield constraints. Major producers Nittobo, Asahi Kasei, Taiwan Glass (台玻), and Taishan Glass Fiber (泰山玻纖) stand to be the primary beneficiaries, while second-tier suppliers such as Fuchiao (富喬) and Honghe (宏和) are also gradually securing opportunities to ramp shipment volumes.\n\nNotably, the relatively mid-to-low-end E-glass material has ironically become the product leading price increases this cycle, as major suppliers' capacity is being crowded out by high-end production. Thin fabric series have seen the most extreme increases — cumulative price hikes in 2025 already reached 30%, and the expected increase for 2026 exceeds 100%, sharply driving up overall CCL production costs.\n\nFurthermore, beyond copper foil price increases driven by rising international copper prices, the capacity supply-demand gap for HVLP copper foil continues to widen, projected to reach 48% and 43% in 2026 and 2027 respectively, prompting the industry to initiate a processing fee hike cycle.\n\nMitsui Kinzoku was the first to announce increases, followed by Furukawa Electric, King Bor (金居), and Luxembourg (盧森堡). The average HVLP copper foil price increase is USD 2 per kilogram, and this hike cycle is likely to see an additional 2–3 rounds of price adjustments, making any pullback in upstream CCL material prices unlikely.\n\nOf particular note, Panasonic recently issued a price increase notification, citing significant changes in upstream material pricing and supply-demand dynamics. The company announced across-the-board price hikes on CCL and prepreg (PP) materials for general-purpose and low-loss high-speed boards, as well as CEM-3 composite substrates and flexible printed circuit (FPC) materials. Increases range from 15–30% depending on the product line, effective for shipments from May 1, 2026.\n\nAdditionally, Tai-Yao (台燿) announced that it will raise quotations across its TUC 6/7/8 series material products for shipments from April 25 onward, while simultaneously increasing M/L outsourced lamination processing fees. Both carry increases of 20–40%, intended to reasonably reflect rising raw material costs for copper foil, glass fiber cloth, epoxy resin, and processing fees.\n\nPrior to these moves, Resonac (formerly Showa Denko) and Mitsubishi Gas Chemical (MGC) had already preemptively launched a second wave of price increases, announcing further hikes across their full CCL, prepreg, and resin-coated copper foil (CRS) product lines. Both companies raised prices by 30% from prior levels, with the new pricing in effect since April 1.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044208446309052417",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HF58wFEasAECd_m.png",
+          "width": 750,
+          "height": 422,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044208463916740661",
+      "kind": "post",
+      "engagement": {
+        "views": 110839,
+        "likes": 168,
+        "reposts": 19,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

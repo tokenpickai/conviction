@@ -1,0 +1,68 @@
+{
+  "ticker": "ABF",
+  "cashtag": "ABF",
+  "price_symbol": "ABF",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-11",
+  "last_mention": "2026-04-11",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2042932686973796492",
+      "date": "2026-04-11",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ABF substrate",
+      "text": "A striking sentence I read today:\n\nWe don’t think power is the constraint for TSMC’s chip demand, at least for 2027, but ABF substrate and HBM supply are major gating factors. -Morgan Stanley",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2042932686973796492",
+      "kind": "post",
+      "engagement": {
+        "views": 206403,
+        "likes": 669,
+        "reposts": 58,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2042932691436474466",
+      "date": "2026-04-11",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "ABF stocks still worth buying even now"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ABF",
+      "text": "Isn’t it a bit late to be buying gas turbine stocks at this point? I think ABF and HBM stocks are still worth buying even now.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2042932691436474466",
+      "kind": "self_thread",
+      "engagement": {
+        "views": 20102,
+        "likes": 104,
+        "reposts": 1,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

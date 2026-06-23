@@ -1,0 +1,51 @@
+{
+  "ticker": "RASA",
+  "cashtag": "Rasa",
+  "price_symbol": "RASA",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-16",
+  "last_mention": "2026-05-16",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2055586494983852095",
+      "date": "2026-05-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Rasa",
+      "text": "My friend GSR wrote a really good piece. He found a new bottleneck.\n\nThe market is overly focused on indium prices, but the more structural bottleneck in the InP supply chain is qualified high-purity phosphorus.\n\nNCI and Rasa are key Japanese suppliers of red phosphorus for InP feedstock, or 6N/7N high-purity red phosphorus. Once again, obscure Japanese companies I had never heard of are controlling the bottleneck lol.\n\nThis material is not just a simple commodity input. It is a process-sensitive material directly tied to crystal growth yield and qualification.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2055586340541272064",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIbo4sEbkAAHShm.png",
+          "width": 1286,
+          "height": 1846,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2055586494983852095",
+      "kind": "post",
+      "engagement": {
+        "views": 132775,
+        "likes": 752,
+        "reposts": 64,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

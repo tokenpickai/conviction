@@ -1,0 +1,51 @@
+{
+  "ticker": "LG DISPLAY",
+  "cashtag": "LG Display",
+  "price_symbol": "LG DISPLAY",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-03-30",
+  "last_mention": "2026-03-30",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2038506733241540953",
+      "date": "2026-03-30",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "LG Display",
+      "text": "Samsung Display & LG Display Enter Apple iMac OLED Readiness Mode\n\nSamsung Display and LG Display have entered preparation mode for Apple’s iMac (monitor) OLED transition. Apple plans to first adopt OLED for the iMac around 2029–2030.\n\nAccording to industry sources on March 30, Apple has recently requested Samsung Display and LG Display to produce iMac OLED samples using their mass-production equipment.\n\nBetween the two panel makers, Samsung Display is expected to respond faster. Samsung Display is reportedly planning to fabricate OLED samples at a pixel density of 220 PPI on its large-format QD-OLED production line and deliver them to Apple in H2 this year.\n\nSamsung Display currently mass-produces 160 PPI QD-OLED for monitors — 220 PPI would be a step above that. Earlier this month, Samsung Display’s equipment partner SEMES announced it had shipped a QD-OLED inkjet tool capable of supporting 220 PPI. Samsung Display plans to use this equipment to produce 220 PPI iMac OLED samples for Apple, then continue mass-producing 160 PPI QD-OLED as before.\n\nLG Display had also planned to address the iMac OLED opportunity with its large-format White (W)-OLED technology, but is expected to lag behind Samsung Display. LG Display’s W-OLED has a luminance disadvantage compared to Samsung Display’s QD-OLED.\n\nSamsung Display has been mass-producing not only its existing 4-stack (B-B-G-B) QD-OLED but also, since last year, a 5-stack (B-B-G-B-G) QD-OLED. The addition of a green (G) layer gives it a luminance edge. While W-OLED loses brightness as white emission passes through color filters, QD-OLED achieves higher luminance as blue emission passes through QD color-conversion layers.\n\nLG Display has reportedly decided to address iMac OLED not with its 4-stack (B-G-B-R) W-OLED — which it has been mass-producing since last year — but with a 5-stack (B-G-B-R-G) W-OLED that is still under development. Similarly, adding a green (G) layer can boost luminance, but 5-stack W-OLED is not yet in mass production.\n\nSimultaneously, LG Display is developing its “eLEAP” technology — which does not use a fine metal mask (FMM) — to address IT OLED applications including iMac and MacBook. Internally, LG Display refers to eLEAP as “FLIP.” The company has reportedly assembled a dedicated task force for this effort. eLEAP is not yet a technology for which a mass-production timeline can be projected.\n\nAt the annual general meeting on March 19, LG Display CEO Jeong Cheol-dong responded to a question about eLEAP R&D by stating: “We are preparing multiple technologies, not just that one, to address IT OLED,” adding, “When the IT OLED market reaches the conditions we want, we will make an announcement at the appropriate time.”\n\nPreviously, Apple’s iMac OLED specifications requested from Samsung Display and LG Display were reported to be 24 inches, 600 nits luminance, and 218 PPI pixel density. The LCD iMac currently sold by Apple has key specs of 500 nits and 218 PPI.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038506727252099072",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEo7EWYbAAAXFiB.jpg",
+          "width": 640,
+          "height": 350,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038506733241540953",
+      "kind": "post",
+      "engagement": {
+        "views": 13044,
+        "likes": 85,
+        "reposts": 5,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

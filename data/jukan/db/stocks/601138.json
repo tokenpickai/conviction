@@ -1,0 +1,66 @@
+{
+  "ticker": "601138",
+  "cashtag": "FII (601138 CH)",
+  "price_symbol": "601138",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-19",
+  "last_mention": "2026-04-26",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2045851058069733618",
+      "date": "2026-04-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Foxconn Industrial Internet",
+      "text": "Very interesting.\n\n- For Rubin Ultra’s scale-up optical architecture, CPO is the priority, with NPO as the fallback option.\n- AMD’s MI500 adopts an MRM-based CPO approach.The PIC is manufactured by GlobalFoundries, and the packaging is handled by ASE.\n- By contrast, for Nvidia’s CPO, the PIC is manufactured by TSMC, the packaging is currently handled by SPIL, and assembly is done by Foxconn Industrial Internet.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2045851058069733618",
+      "kind": "post",
+      "engagement": {
+        "views": 174162,
+        "likes": 336,
+        "reposts": 31,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048557996788367454",
+      "date": "2026-04-26",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "FII (601138 CH)",
+      "text": "RT @sssjeffpu: # Abstract of HH (2317 TT) &amp; FII (601138 CH) note\n\nHon Hai (2317 TT) \n\nRating: Buy, unchanged TP NT$300\n\nCatalyst # 1: Stron…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048557996788367454",
+      "kind": "post",
+      "engagement": {
+        "views": 4,
+        "likes": 0,
+        "reposts": 5,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

@@ -1,0 +1,75 @@
+{
+  "ticker": "SK_HYNIX",
+  "cashtag": "SK Hynix",
+  "price_symbol": "SK_HYNIX",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-18",
+  "last_mention": "2026-06-05",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2056316714309255367",
+      "date": "2026-05-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK Hynix",
+      "text": "Kye-hyun Kyung, Samsung Electronics Senior Advisor: \"Memory prices to fall in H2 next year… Korea must cultivate deep-tech manufacturing\"\n\nKye-hyun Kyung, Senior Advisor and former head of Samsung Electronics' Device Solutions (DS) Division, forecast that memory semiconductor prices will decline starting in the second half of next year, and urged Korean industry to prepare in advance.\n\nDelivering the keynote at the 285th NAEK Forum, hosted by the National Academy of Engineering of Korea (NAEK) at L-Tower in Seocho-gu, Seoul on the 18th, Advisor Kyung said, \"Chinese players are aggressively expanding production capacity (CAPA),\" adding that \"as memory supply surges, the market could shift starting in the second half of next year or the first half of 2028.\"\n\nCiting global market research firms, Kyung projected that memory prices will fall from H2 next year, when global memory CAPA is expected to surge to 6 million wafers per month. \"If Big Tech's return on capex deteriorates, there is a possibility that investment could be scaled back,\" he said, also warning that memory demand itself could contract from 2028 onwards.\n\nWhile Korean industry, led by Samsung Electronics and SK Hynix, is currently enjoying unprecedented growth by capturing Big Tech's memory demand, the former head of Samsung's semiconductor business argued that Korea must prepare in advance for the post-boom period. Advisor Kyung pointed out, \"Korea holds nearly 70% share of the DRAM market, but only 1.5% of the fabless market, and unlike Taiwan, Korea lacks a full-stack semiconductor ecosystem that includes fabless.\"\n\nHe went on to advise that \"Korea must leap forward as a deep-tech-based manufacturing nation.\" The point is that Korea should independently build advanced technology capabilities—not only in memory but also in fabless-based system semiconductors and sovereign AI—and actively apply them to its existing strength in manufacturing. He added, \"It is difficult for Korea to compete simultaneously with the U.S. and China in both hardware and software,\" and that \"it is important for Korea to do what it does well, and to that end, we must seriously consider how to deploy AI.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2056316703039262721",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HImBJYZbkAEx9Ph.jpg",
+          "width": 1200,
+          "height": 676,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2056316714309255367",
+      "kind": "post",
+      "engagement": {
+        "views": 500807,
+        "likes": 766,
+        "reposts": 145,
+        "replies": 38
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063060258604691623",
+      "date": "2026-06-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK Hynix",
+      "text": "When Samsung’s founder declared in Tokyo that Samsung would enter the semiconductor business, Intel in the United States mocked Samsung as “delusional,” while Japan’s Mitsubishi reportedly published a report titled “Five Reasons Samsung Cannot Succeed in the Semiconductor Business.”\n\nFortunately, Korea today is not publishing reports like “Why China Cannot Catch Up with Korean Semiconductors.” Instead, Korea remains highly vigilant. In other words, Korea is determined not to repeat Japan’s mistake.\n\nStill, I am anxious. China’s technological progress is frightening, but what scares me even more is imagining Korea’s future without semiconductors.\n\nSamsung and SK Hynix already account for more than 50% of the Korean stock market.\n\nThe corporate taxes paid by Samsung and SK Hynix alone will exceed one-quarter of Korea’s total tax revenue in 2026.\n\nIf Korea loses semiconductors to China, Korea will become Finland without Nokia — or Detroit.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2063060258604691623",
+      "kind": "post",
+      "engagement": {
+        "views": 241988,
+        "likes": 1285,
+        "reposts": 143,
+        "replies": 28
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

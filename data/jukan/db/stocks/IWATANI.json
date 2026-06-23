@@ -1,0 +1,42 @@
+{
+  "ticker": "IWATANI",
+  "cashtag": "Iwatani",
+  "price_symbol": "IWATANI",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-03-27",
+  "last_mention": "2026-03-27",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2037404348716925056",
+      "date": "2026-03-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Iwatani",
+      "text": "\"Daily Monitoring\"... Semiconductor Process Materials Procurement on High Alert Due to Iran War\n\nThe industry has been placed on emergency footing amid fears that supply disruptions for essential semiconductor process materials — including helium, thinner, ethanol, and isopropyl alcohol (IPA) — could emerge as fallout from the Iran war.\n\nAccording to reporting by The Elec on the 26th, procurement departments at domestic semiconductor manufacturers including Samsung Electronics, SK Hynix, and DB HiTek are conducting day-by-day checks on the availability and price movements of key materials, mobilizing all resources to prevent production disruptions.\n\nHelium is the most pressing concern. Helium is used in plasma etching and deposition processes as a key process gas, and also serves as a coolant for the back side of wafers.\n\nHelium is a byproduct extracted during LNG production. Qatar accounts for approximately one-third of global supply. Iran has repeatedly struck Qatar's Ras Laffan Industrial City, and QatarEnergy has declared that it will be unable to fulfill long-term supply contracts due to damage to its LNG production facilities. QatarEnergy CEO Saad al-Kaabi stated that Iran's attacks have impaired 17% of Qatar's LNG export capacity and that restoration could take three to five years.\n\nSpot prices for helium have spiked sharply — industry sources indicate prices have already risen more than 50%.\n\nHelium suppliers Air Products and Linde have reportedly communicated to their customers that supply remains unaffected, as they source a large proportion of their raw helium domestically in the United States. By contrast, Air Liquide and Iwatani — which rely more heavily on Qatari helium — are said to be facing unavoidable supply pressure.\n\nOne materials industry source said, \"Major suppliers with high Qatar dependence are nearly at the point of throwing up their hands,\" adding, \"If the war drags on, some suppliers may not be able to provide helium at all.\" Another source noted, \"Russian helium exists as an alternative, but domestic companies are avoiding it for political reasons,\" warning that \"even if a peace agreement with Iran is reached, restoring the Ras Laffan facilities will take years — meaning helium supply shortages, price increases, and procurement uncertainty will remain a medium-to-long-term risk.\"\n\nThinner, ethanol, and IPA are all petrochemical materials whose prices are linked to international crude oil and naphtha prices. The oil price surge triggered by the Iran war is reportedly driving up input costs broadly across semiconductor process materials.\n\nThinner is a cleaning agent used in photolithography to remove photoresist (PR) residue. Its core raw material is propylene oxide (PO), which is processed into PGME (Propylene Glycol Monomethyl Ether) and PGMEA (Propylene Glycol Monomethyl Ether Acetate) before being refined into thinner for delivery. Chinese commodities data platform SunSirs reported that PO prices have risen more than 43% from the start of the month, driven by strength in crude oil, naphtha, and propylene feedstocks.\n\nPO suppliers including DuPont, Dow, and LG Chem have already issued price increase notices to PGMEA producers such as Hannong Chemicals, Chemtronics, and Jaewon Industrial. PGME and PGMEA prices have also risen approximately 40–50%. Leading thinner suppliers Dongjin Semichem, ENF Technology, and Dongwoo Fine-Chem are reportedly preparing to negotiate roughly 20% price increases effective on April import volumes, reflecting these upstream cost increases.\n\nEthanol and IPA have also entered a price increase cycle. Domestic suppliers including Pungkuk Distillery have begun issuing price increase notices to customers this week, citing cost pressures from the surge in naphtha prices. The increase is expected to be in the low double digits. Semiconductor-grade ethanol — used for wafer cleaning and residue removal after etching — is an ultra-high purity material with purity levels of 99.99% or higher.\n\nIPA, another naphtha-derived material, is also trending upward. LG Chem is the primary domestic supplier of semiconductor-grade IPA. The specific magnitude of the price increase has not yet been finalized, but industry participants appear to be treating a price hike as a foregone conclusion.\n\nOne industry source commented, \"These materials represent a relatively small share of overall semiconductor production costs, so they are unlikely to directly affect chip prices,\" but added, \"The bigger concern, if the war prolongs, is production disruptions caused by supply shortages of certain materials.\" Another source noted, \"Samsung Electronics and SK Hynix are primarily focused on securing inventory at prevailing market prices without pushing back.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2037404348716925056",
+      "kind": "post",
+      "engagement": {
+        "views": 13759,
+        "likes": 61,
+        "reposts": 10,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

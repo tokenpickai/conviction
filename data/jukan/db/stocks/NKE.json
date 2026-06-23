@@ -1,0 +1,223 @@
+{
+  "ticker": "NKE",
+  "cashtag": "$NKE",
+  "price_symbol": "NKE",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-17",
+  "last_mention": "2026-04-17",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2045145044626325844",
+      "date": "2026-04-17",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$NKE",
+      "text": "@qptmvj $NKE?",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2045145044626325844",
+      "kind": "reply",
+      "engagement": {
+        "views": 1645,
+        "likes": 4,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-04-17",
+      "close": 46.03
+    },
+    {
+      "date": "2026-04-20",
+      "close": 46.48
+    },
+    {
+      "date": "2026-04-21",
+      "close": 46.39
+    },
+    {
+      "date": "2026-04-22",
+      "close": 45.68
+    },
+    {
+      "date": "2026-04-23",
+      "close": 44.78
+    },
+    {
+      "date": "2026-04-24",
+      "close": 44.69
+    },
+    {
+      "date": "2026-04-27",
+      "close": 45.14
+    },
+    {
+      "date": "2026-04-28",
+      "close": 45.03
+    },
+    {
+      "date": "2026-04-29",
+      "close": 44.39
+    },
+    {
+      "date": "2026-04-30",
+      "close": 44.36
+    },
+    {
+      "date": "2026-05-01",
+      "close": 44.4
+    },
+    {
+      "date": "2026-05-04",
+      "close": 43.09
+    },
+    {
+      "date": "2026-05-05",
+      "close": 43.06
+    },
+    {
+      "date": "2026-05-06",
+      "close": 43.88
+    },
+    {
+      "date": "2026-05-07",
+      "close": 44.41
+    },
+    {
+      "date": "2026-05-08",
+      "close": 44.14
+    },
+    {
+      "date": "2026-05-11",
+      "close": 42.39
+    },
+    {
+      "date": "2026-05-12",
+      "close": 42.35
+    },
+    {
+      "date": "2026-05-13",
+      "close": 42.34
+    },
+    {
+      "date": "2026-05-14",
+      "close": 42.02
+    },
+    {
+      "date": "2026-05-15",
+      "close": 41.88
+    },
+    {
+      "date": "2026-05-18",
+      "close": 42.57
+    },
+    {
+      "date": "2026-05-19",
+      "close": 42.42
+    },
+    {
+      "date": "2026-05-20",
+      "close": 44.19
+    },
+    {
+      "date": "2026-05-21",
+      "close": 44.39
+    },
+    {
+      "date": "2026-05-22",
+      "close": 44.67
+    },
+    {
+      "date": "2026-05-26",
+      "close": 44.94
+    },
+    {
+      "date": "2026-05-27",
+      "close": 45.98
+    },
+    {
+      "date": "2026-05-28",
+      "close": 47.37
+    },
+    {
+      "date": "2026-05-29",
+      "close": 46.23
+    },
+    {
+      "date": "2026-06-01",
+      "close": 45.93
+    },
+    {
+      "date": "2026-06-02",
+      "close": 43.73
+    },
+    {
+      "date": "2026-06-03",
+      "close": 43.81
+    },
+    {
+      "date": "2026-06-04",
+      "close": 43.62
+    },
+    {
+      "date": "2026-06-05",
+      "close": 42.98
+    },
+    {
+      "date": "2026-06-08",
+      "close": 43.23
+    },
+    {
+      "date": "2026-06-09",
+      "close": 44.65
+    },
+    {
+      "date": "2026-06-10",
+      "close": 43.96
+    },
+    {
+      "date": "2026-06-11",
+      "close": 45.96
+    },
+    {
+      "date": "2026-06-12",
+      "close": 44.93
+    },
+    {
+      "date": "2026-06-15",
+      "close": 45.2
+    },
+    {
+      "date": "2026-06-16",
+      "close": 45.04
+    },
+    {
+      "date": "2026-06-17",
+      "close": 44.19
+    },
+    {
+      "date": "2026-06-18",
+      "close": 45.2
+    },
+    {
+      "date": "2026-06-22",
+      "close": 43.19
+    }
+  ],
+  "price_status": "ok"
+}

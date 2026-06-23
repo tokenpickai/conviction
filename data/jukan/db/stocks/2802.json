@@ -8,10 +8,34 @@
   "company": null,
   "industry": null,
   "thesis_summary": null,
-  "first_mention": "2026-06-17",
+  "first_mention": "2026-05-13",
   "last_mention": "2026-06-17",
-  "total_mentions": 1,
+  "total_mentions": 2,
   "mentions": [
+    {
+      "tweet_id": "2054528522593739180",
+      "date": "2026-05-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Ajinomoto",
+      "text": "▶ Ajinomoto Raises ABF Substrate Film Prices by 30%\n\n- Japan’s Ajinomoto has decided to raise prices for its core ABF build-up film by 30%, with the new prices set to take effect from Q3 2026.\n\n- Taiwanese package substrate makers said they have officially received notice of the price increase, at a time when cost pressures remain elevated across the IC substrate supply chain.\n\n- Specific new pricing is still under negotiation with suppliers, but in the near term, the hike is expected to increase production costs before being gradually passed through to product ASPs.\n\n- Despite the ABF price increase, the largest cost burden is still understood to come from repeated price hikes in upstream raw materials, particularly CCL.\n\n- With urgent demand from AI chip customers continuing, quarterly price increases for ABF and BT substrates are expected to persist through year-end. The magnitude of price hikes could widen further in the second half.\n\n- Ajinomoto holds more than 95% share of the global ABF market, giving it strong pricing power across the supply chain.\nIC substrate makers noted that the previous price increase took place around early 2025, roughly a year ago, and said the latest 30% increase is also a “reasonable level” given strong customer demand.\n\n- Unlike Nittobo, whose conservative capacity expansion stance has deepened the shortage of T-Glass fiberglass for IC substrates, Ajinomoto had already anticipated changes in ABF supply-demand dynamics three years ago and moved ahead with proactive capacity expansion.\n\n- As a result, despite its near-monopolistic market position, the supply bottleneck is viewed as relatively limited.\nAjinomoto recently announced plans to build a third ABF plant in Gifu Prefecture, Japan, in order to address demand beyond 2030.\n\n- The company has secured land for the project with an investment of around JPY 12 billion, or approximately USD 76 million, and plans to begin construction in 2028, with mass production targeted for 2032.\nThe new Gifu plant is expected to be much larger in scale than Ajinomoto’s existing production sites in Kanagawa and Gunma prefectures.\n\n- In addition, as AI chip packaging layer counts are expected to expand from the current 3+3 level to 11+11 layers, and potentially to 13+13 layers after 2030, ABF demand is likely to sustain structural growth.\n\n- According to the industry, as the AI CPU, GPU, and ASIC upgrade cycle accelerates, demand is rising for larger substrate area and higher layer counts. As a result, ABF substrates are understood to have re-entered a supply shortage phase from 1H 2026.\n\n- Shortages are also emerging simultaneously across the upstream value chain, including fiberglass, copper foil, and drill bits. Therefore, the ABF supply-demand imbalance in 2027–2028 is more likely to intensify than ease.\n\n- The industry expects the IC substrate sector to enter a so-called “Super Expansion Cycle” over the next two to three years, which should improve order visibility across the sector.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2054528522593739180",
+      "kind": "post",
+      "engagement": {
+        "views": 40773,
+        "likes": 247,
+        "reposts": 33,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2067098300801843678",
       "date": "2026-06-17",
@@ -28,7 +52,7 @@
       "url": "https://x.com/jukan05/status/2067098300801843678",
       "kind": "post",
       "engagement": {
-        "views": 93426,
+        "views": 93431,
         "likes": 188,
         "reposts": 18,
         "replies": 7
@@ -38,7 +62,5 @@
     }
   ],
   "price_series": [],
-  "price_status": "not_covered",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-23T19:16:06.175711+00:00"
+  "price_status": "pending"
 }

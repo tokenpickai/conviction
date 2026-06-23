@@ -1,0 +1,51 @@
+{
+  "ticker": "1888",
+  "cashtag": "Kingboard Laminates Group",
+  "price_symbol": "1888",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-03-31",
+  "last_mention": "2026-03-31",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2039163897236906476",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Kingboard Laminates Group",
+      "text": "Nikkei report today:\n\nIt's not just memory and CPUs — prices are rising across the board.\n\n\"This morning we received yet another price hike notification, this time from STMicroelectronics, a major microcontroller and sensor supplier.\n\nIt's not just STMicro.\n\nOur company has received multiple price increase notices from several companies since the beginning of this month — covering PCBs, plastic materials, resins, and other components.\"\n\nMurata has notified customers that it will be raising prices on several products starting in April, including inductors and common mode chokes.\n\nKingboard Laminates Group, the world's largest copper clad laminate (CCL) supplier based in China, recently raised both material and processing fees by 10% each, reflecting the surge in petrochemical prices triggered by the outbreak of the Iran war.\n\nA source familiar with the matter complained that KB has already raised prices three times in just three months.\n\nWhat's even more painful than the price hikes is that you simply can't get the stuff — even if you're willing to pay.\n\nEspecially the kinds of components we've never even heard of before.\n\nAccording to multiple senior industry sources, external modulated lasers (EMLs) and continuous wave (CW) lasers used in transceivers and specialty PCBs are experiencing severe supply shortages, Nikkei reported.\n\nOne IT industry executive said:\n\n\"We're hearing that prices are going up on all kinds of packaging — even basic plastic packaging — which is something we haven't seen in years. This means box and container prices are also climbing.\"\n\nAnon, didn't I tell you? Everything is going into shortage.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2039163878425481216",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEyQvlRb0AAeCxS.jpg",
+          "width": 2060,
+          "height": 1738,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2039163897236906476",
+      "kind": "post",
+      "engagement": {
+        "views": 36657,
+        "likes": 240,
+        "reposts": 34,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

@@ -1,0 +1,363 @@
+{
+  "ticker": "ONTO",
+  "cashtag": "$onto",
+  "price_symbol": "ONTO",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": "Onto Innovation",
+  "industry": "Semiconductor Metrology",
+  "thesis_summary": null,
+  "first_mention": "2026-03-31",
+  "last_mention": "2026-04-17",
+  "total_mentions": 4,
+  "mentions": [
+    {
+      "tweet_id": "2038929887386362165",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$ONTO",
+      "text": "Samsung Electronics Introduces New Hybrid Bonding Inspection Equipment\n\nSamsung Electronics has begun adopting new inspection equipment for hybrid bonding. Onto Innovation's inspection tools are reportedly being validated on mass production lines.\n\nAccording to industry sources on the 31st, Samsung Electronics is in discussions or joint development with multiple companies possessing ultrasonic and X-ray-based non-destructive inspection (NDI) technologies. The primary objective is to detect micro-defects such as voids at hybrid bonding interfaces that are difficult to identify with conventional optical equipment. The inspection process also minimizes loss costs associated with expensive wafers and high-bandwidth memory (HBM).\n\nThe most advanced player is U.S.-based Onto Innovation. It has already established a joint development program (JDP) with Samsung Electronics for non-destructive inspection equipment and has supplied tools to mass production lines. The equipment utilizes laser-ultrasonic technology based on photoacoustic metrology. When a picosecond (one-trillionth of a second) ultra-short pulse pump laser is directed at the inspection target, the material undergoes momentary thermal expansion. This expansion generates ultrasonic waves that penetrate inward. These waves pass through optically opaque layers such as metal layers—which light cannot penetrate—and are reflected upon encountering underlying structures or voids. A probe laser then detects minute surface deformations to map the internal structure. This approach overcomes the limitations of conventional optical inspection and enables measurement of overlay alignment errors between upper and lower structures.\n\nDomestic (Korean) companies are expected to see equipment adoption or JDP signings materialize as early as Q2. Some have already received bonding wafer samples from Samsung Electronics and completed performance testing. Bonding wafers refer to the output of the hybrid bonding process. Test results are reported to have been positive. Other companies are also in ongoing discussions with Samsung Electronics, preparing non-destructive inspection equipment for production lines.\n\nAn industry source noted, \"Various departments within Samsung Electronics are in behind-the-scenes discussions with multiple equipment vendors,\" adding that \"both TSV (through-silicon via) inspection and hybrid bonding interface inspection for HBM are being considered.\"\n\nSamsung Electronics unveiled a video on hybrid bonding technology for HBM at NVIDIA's annual developer conference (GTC) 2026 this month. The industry expects Samsung to adopt hybrid bonding starting from next-generation HBM4E with 16 or more stacked layers. Last month, Samsung also presented a paper at the International Solid-State Circuits Conference (ISSCC) on fabricating 4F-square (4F²) DRAM using wafer-to-wafer (W2W) hybrid bonding. The approach applies a cell-over-periphery (COP) architecture to manufacture DRAM in a vertical channel transistor (VCT) structure—precisely stacking a periphery wafer and a cell array wafer on top of each other. Inspecting both of these next-generation memory types requires equipment capable of examining hybrid bonding interfaces.\n\nGenerally, qualification testing for back-end semiconductor equipment on production lines takes approximately six months. Considering this timeline, Samsung Electronics is expected to evaluate and compare inspection equipment performance from multiple vendors through the end of this year.\n\nHybrid bonding is an advanced packaging technology that directly connects copper (Cu) surfaces of two semiconductor dies when stacking and interconnecting chips. Unlike thermocompression (TC) bonding—primarily used in HBM manufacturing—it does not use micro bumps for chip-to-chip bonding. Compared to conventional soldering, hybrid bonding offers a larger bonding area and lower interfacial resistance, resulting in superior thermal dissipation and electrical characteristics.\n\n$ONTO",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038929866364715008",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEu76SaagAAV7uB.png",
+          "width": 600,
+          "height": 304,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038929887386362165",
+      "kind": "post",
+      "engagement": {
+        "views": 95068,
+        "likes": 118,
+        "reposts": 12,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2038930149232787675",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$ONTO",
+      "text": "\"The most advanced player is U.S.-based Onto Innovation.\"\n\n$ONTO https://t.co/b4tukGQBQU https://t.co/9E8opdxTRk",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038930109634314240",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEu8IcqaAAATEvr.png",
+          "width": 1158,
+          "height": 750,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038930149232787675",
+      "kind": "post",
+      "engagement": {
+        "views": 44733,
+        "likes": 165,
+        "reposts": 16,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044984596971061258",
+      "date": "2026-04-16",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "most advanced in HBM inspection equipment for Samsung"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$ONTO",
+      "text": "@BozRiverGuides $ONTO is also the most advanced in HBM inspection equipment for Samsung.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044984596971061258",
+      "kind": "reply",
+      "engagement": {
+        "views": 6013,
+        "likes": 40,
+        "reposts": 2,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045339741034541342",
+      "date": "2026-04-17",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$onto",
+      "text": "RT @illyquid: Nice $onto rally since this post from Jukan. Stifel now flagging more business from Samsung too as well as TSMC capex, settin…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2045339741034541342",
+      "kind": "post",
+      "engagement": {
+        "views": 4,
+        "likes": 0,
+        "reposts": 5,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-03-31",
+      "close": 205.07
+    },
+    {
+      "date": "2026-04-01",
+      "close": 211.72
+    },
+    {
+      "date": "2026-04-02",
+      "close": 215.53
+    },
+    {
+      "date": "2026-04-06",
+      "close": 221.17
+    },
+    {
+      "date": "2026-04-07",
+      "close": 219.11
+    },
+    {
+      "date": "2026-04-08",
+      "close": 240.49
+    },
+    {
+      "date": "2026-04-09",
+      "close": 246.96
+    },
+    {
+      "date": "2026-04-10",
+      "close": 257.14
+    },
+    {
+      "date": "2026-04-13",
+      "close": 252.61
+    },
+    {
+      "date": "2026-04-14",
+      "close": 261.59
+    },
+    {
+      "date": "2026-04-15",
+      "close": 258.9
+    },
+    {
+      "date": "2026-04-16",
+      "close": 267.15
+    },
+    {
+      "date": "2026-04-17",
+      "close": 290.76
+    },
+    {
+      "date": "2026-04-20",
+      "close": 295.09
+    },
+    {
+      "date": "2026-04-21",
+      "close": 290.11
+    },
+    {
+      "date": "2026-04-22",
+      "close": 297.34
+    },
+    {
+      "date": "2026-04-23",
+      "close": 292.31
+    },
+    {
+      "date": "2026-04-24",
+      "close": 307.86
+    },
+    {
+      "date": "2026-04-27",
+      "close": 298.28
+    },
+    {
+      "date": "2026-04-28",
+      "close": 282.39
+    },
+    {
+      "date": "2026-04-29",
+      "close": 284.34
+    },
+    {
+      "date": "2026-04-30",
+      "close": 295.06
+    },
+    {
+      "date": "2026-05-01",
+      "close": 292.92
+    },
+    {
+      "date": "2026-05-04",
+      "close": 299.55
+    },
+    {
+      "date": "2026-05-05",
+      "close": 305.0
+    },
+    {
+      "date": "2026-05-06",
+      "close": 294.05
+    },
+    {
+      "date": "2026-05-07",
+      "close": 274.17
+    },
+    {
+      "date": "2026-05-08",
+      "close": 284.67
+    },
+    {
+      "date": "2026-05-11",
+      "close": 287.52
+    },
+    {
+      "date": "2026-05-12",
+      "close": 277.94
+    },
+    {
+      "date": "2026-05-13",
+      "close": 276.97
+    },
+    {
+      "date": "2026-05-14",
+      "close": 277.28
+    },
+    {
+      "date": "2026-05-15",
+      "close": 271.77
+    },
+    {
+      "date": "2026-05-18",
+      "close": 254.53
+    },
+    {
+      "date": "2026-05-19",
+      "close": 248.08
+    },
+    {
+      "date": "2026-05-20",
+      "close": 263.12
+    },
+    {
+      "date": "2026-05-21",
+      "close": 261.45
+    },
+    {
+      "date": "2026-05-22",
+      "close": 262.25
+    },
+    {
+      "date": "2026-05-26",
+      "close": 274.17
+    },
+    {
+      "date": "2026-05-27",
+      "close": 266.89
+    },
+    {
+      "date": "2026-05-28",
+      "close": 258.81
+    },
+    {
+      "date": "2026-05-29",
+      "close": 258.24
+    },
+    {
+      "date": "2026-06-01",
+      "close": 255.71
+    },
+    {
+      "date": "2026-06-02",
+      "close": 278.02
+    },
+    {
+      "date": "2026-06-03",
+      "close": 279.98
+    },
+    {
+      "date": "2026-06-04",
+      "close": 274.76
+    },
+    {
+      "date": "2026-06-05",
+      "close": 253.24
+    },
+    {
+      "date": "2026-06-08",
+      "close": 268.99
+    },
+    {
+      "date": "2026-06-09",
+      "close": 274.03
+    },
+    {
+      "date": "2026-06-10",
+      "close": 269.33
+    },
+    {
+      "date": "2026-06-11",
+      "close": 303.53
+    },
+    {
+      "date": "2026-06-12",
+      "close": 323.88
+    },
+    {
+      "date": "2026-06-15",
+      "close": 335.96
+    },
+    {
+      "date": "2026-06-16",
+      "close": 316.15
+    },
+    {
+      "date": "2026-06-17",
+      "close": 318.92
+    },
+    {
+      "date": "2026-06-18",
+      "close": 333.76
+    },
+    {
+      "date": "2026-06-22",
+      "close": 347.87
+    }
+  ],
+  "price_status": "ok"
+}

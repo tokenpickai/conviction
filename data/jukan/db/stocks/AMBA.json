@@ -1,0 +1,268 @@
+{
+  "ticker": "AMBA",
+  "cashtag": "Ambarella",
+  "price_symbol": "AMBA",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-05",
+  "last_mention": "2026-04-05",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2040707713198669990",
+      "date": "2026-04-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Ambarella",
+      "text": "Samsung Taylor Fab Enters Trial Run Phase… \"Opportunity for 2nm Orders Has Arrived\"\n\nSamsung Electronics' foundry (semiconductor contract manufacturing) plant in Taylor, USA, has entered the trial run phase ahead of its year-end commissioning. The Taylor plant is regarded as a forward operating base for Samsung Electronics' next-generation process production. As AI semiconductor demand floods toward TSMC, the world's No. 1 foundry, analysis suggests that a potential shortage in 2-nanometer process supply capacity (CAPA) could generate spillover benefits for Samsung Foundry.\n\nAccording to industry sources on April 5, Samsung Electronics' foundry plant located in Taylor, Texas, has recently entered the trial run phase and is making final preparations for commissioning. Testing of extreme ultraviolet (EUV) lithography equipment—a core tool for ultra-fine processes—has begun, and key semiconductor manufacturing equipment for etching, deposition, and other processes is being sequentially moved into the cleanroom.\n\nSome sections of the Taylor plant have obtained a Temporary Certificate of Occupancy (TCO). The dispatch of specialist engineers to the site and the recruitment of new personnel have also resumed.\n\nSamsung Electronics has previously stated its plan to commission the Taylor plant this year and begin full-scale mass production next year. It appears to be on track, with major equipment installation to be completed during the first half of the year and critical process testing underway ahead of full commissioning. This is interpreted as a phase aimed at early yield (non-defective ratio) stabilization and process maturation.\n\nThe Taylor plant is expected to produce Samsung Electronics' next-generation 2nm and 4nm process products. In particular, the introduction of the second-generation 2nm process (SF2P) is considered highly likely. Samsung Electronics Foundry has been continuously securing customers for its 2nm process, and the foundry business is assessed to have entered a normalized trajectory.\n\nAt the 2nm node, Samsung Electronics will produce its mobile application processor (AP) Exynos 2600. This chip is expected to be mounted in the Galaxy S26 standard and Plus models, as well as a new Flip model to be released this year. Tesla's AI chips 'AI5' and 'AI6' are also slated for mass production. The industry expects revenue from Tesla-bound AI chips to begin materializing in earnest starting next year.\n\nSamsung is also estimated to have won new AP orders from Qualcomm, with production to take place on the 2nm process. Chip mass production is expected to commence once customers utilizing the new AP products are secured. In addition, Samsung has secured orders for Bitcoin mining ASICs and a 2nm ADAS (Advanced Driver Assistance System) chip from U.S. autonomous driving AI semiconductor company Ambarella.\n\nGiven that Samsung Electronics is betting everything on its 2nm process, discussions on new orders with North American fabless companies and cloud service providers (CSPs) are reportedly ongoing. On the 4nm process, the mass production of base dies for Samsung Electronics' 6th-generation High Bandwidth Memory (HBM4) is also expected to contribute to improved foundry profitability.\n\nHaving applied Gate-All-Around (GAA) technology since its 3nm process, Samsung Electronics is aiming to expand market share at the 2nm node. An industry source explained, \"With the stabilization of Samsung Electronics' GAA technology, yield improvements at the 2nm process have also progressed significantly.\"\n\nCurrently, as global AI semiconductor demand surges, TSMC's leading-edge processes are effectively at full capacity. With orders flooding in, TSMC's 2nm production capacity (CAPA) is reportedly sold out through 2028.\n\nThis situation, coinciding with the commissioning of the Taylor fab, is widely expected to present a new opportunity for Samsung Electronics Foundry. Companies with high TSMC dependency are seeking alternatives, driving increased interest in Samsung Electronics.\n\nKim Hyung-jun, head of the Next-Generation Intelligent Semiconductor Project Group and Professor Emeritus at Seoul National University, said, \"In a situation where TSMC's CAPA is insufficient, companies have no choice but to look for other foundries,\" adding, \"With Samsung Electronics preparing to commission the Taylor fab, the timing presents an opportunity for Samsung Electronics Foundry.\"\n\nHowever, TSMC's expanding investment in the U.S., along with Elon Musk's announcement of the 'Terafab' project to pursue direct semiconductor production, are cited as variables. Kyung Hee-kwon, a research fellow at the Korea Institute for Industrial Economics and Trade (KIET), said, \"The likelihood of increased foundry orders for Samsung Electronics due to spillover effects from TSMC's supply shortage is growing,\" but added, \"TSMC is also strengthening its competitiveness by expanding U.S. investment, so Samsung Electronics must continue to secure technological competitiveness as well.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2040707697688051712",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFIM1sMaAAArTZJ.png",
+          "width": 670,
+          "height": 377,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2040707713198669990",
+      "kind": "post",
+      "engagement": {
+        "views": 16055,
+        "likes": 127,
+        "reposts": 8,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-04-06",
+      "close": 51.0
+    },
+    {
+      "date": "2026-04-07",
+      "close": 50.99
+    },
+    {
+      "date": "2026-04-08",
+      "close": 53.28
+    },
+    {
+      "date": "2026-04-09",
+      "close": 53.24
+    },
+    {
+      "date": "2026-04-10",
+      "close": 52.78
+    },
+    {
+      "date": "2026-04-13",
+      "close": 54.3
+    },
+    {
+      "date": "2026-04-14",
+      "close": 56.2
+    },
+    {
+      "date": "2026-04-15",
+      "close": 57.14
+    },
+    {
+      "date": "2026-04-16",
+      "close": 57.32
+    },
+    {
+      "date": "2026-04-17",
+      "close": 58.23
+    },
+    {
+      "date": "2026-04-20",
+      "close": 59.28
+    },
+    {
+      "date": "2026-04-21",
+      "close": 59.98
+    },
+    {
+      "date": "2026-04-22",
+      "close": 61.28
+    },
+    {
+      "date": "2026-04-23",
+      "close": 61.34
+    },
+    {
+      "date": "2026-04-24",
+      "close": 66.87
+    },
+    {
+      "date": "2026-04-27",
+      "close": 64.86
+    },
+    {
+      "date": "2026-04-28",
+      "close": 63.8
+    },
+    {
+      "date": "2026-04-29",
+      "close": 65.94
+    },
+    {
+      "date": "2026-04-30",
+      "close": 68.8
+    },
+    {
+      "date": "2026-05-01",
+      "close": 71.56
+    },
+    {
+      "date": "2026-05-04",
+      "close": 70.72
+    },
+    {
+      "date": "2026-05-05",
+      "close": 74.36
+    },
+    {
+      "date": "2026-05-06",
+      "close": 75.48
+    },
+    {
+      "date": "2026-05-07",
+      "close": 74.27
+    },
+    {
+      "date": "2026-05-08",
+      "close": 76.3
+    },
+    {
+      "date": "2026-05-11",
+      "close": 79.72
+    },
+    {
+      "date": "2026-05-12",
+      "close": 78.19
+    },
+    {
+      "date": "2026-05-13",
+      "close": 82.1
+    },
+    {
+      "date": "2026-05-14",
+      "close": 81.04
+    },
+    {
+      "date": "2026-05-15",
+      "close": 81.16
+    },
+    {
+      "date": "2026-05-18",
+      "close": 78.88
+    },
+    {
+      "date": "2026-05-19",
+      "close": 76.69
+    },
+    {
+      "date": "2026-05-20",
+      "close": 83.0
+    },
+    {
+      "date": "2026-05-21",
+      "close": 83.64
+    },
+    {
+      "date": "2026-05-22",
+      "close": 87.55
+    },
+    {
+      "date": "2026-05-26",
+      "close": 93.57
+    },
+    {
+      "date": "2026-05-27",
+      "close": 90.58
+    },
+    {
+      "date": "2026-05-28",
+      "close": 91.84
+    },
+    {
+      "date": "2026-05-29",
+      "close": 72.18
+    },
+    {
+      "date": "2026-06-01",
+      "close": 75.67
+    },
+    {
+      "date": "2026-06-02",
+      "close": 78.38
+    },
+    {
+      "date": "2026-06-03",
+      "close": 73.8
+    },
+    {
+      "date": "2026-06-04",
+      "close": 72.05
+    },
+    {
+      "date": "2026-06-05",
+      "close": 63.52
+    },
+    {
+      "date": "2026-06-08",
+      "close": 68.72
+    },
+    {
+      "date": "2026-06-09",
+      "close": 65.75
+    },
+    {
+      "date": "2026-06-10",
+      "close": 62.63
+    },
+    {
+      "date": "2026-06-11",
+      "close": 65.8
+    },
+    {
+      "date": "2026-06-12",
+      "close": 67.78
+    },
+    {
+      "date": "2026-06-15",
+      "close": 70.14
+    },
+    {
+      "date": "2026-06-16",
+      "close": 67.12
+    },
+    {
+      "date": "2026-06-17",
+      "close": 65.88
+    },
+    {
+      "date": "2026-06-18",
+      "close": 69.97
+    },
+    {
+      "date": "2026-06-22",
+      "close": 70.71
+    }
+  ],
+  "price_status": "ok"
+}

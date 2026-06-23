@@ -1,0 +1,347 @@
+{
+  "ticker": "APD",
+  "cashtag": "Air Products",
+  "price_symbol": "APD",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": "Air Products",
+  "industry": "Industrial Gases/Semiconductor Materials",
+  "thesis_summary": null,
+  "first_mention": "2026-03-27",
+  "last_mention": "2026-04-08",
+  "total_mentions": 3,
+  "mentions": [
+    {
+      "tweet_id": "2037404348716925056",
+      "date": "2026-03-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Air Products",
+      "text": "\"Daily Monitoring\"... Semiconductor Process Materials Procurement on High Alert Due to Iran War\n\nThe industry has been placed on emergency footing amid fears that supply disruptions for essential semiconductor process materials — including helium, thinner, ethanol, and isopropyl alcohol (IPA) — could emerge as fallout from the Iran war.\n\nAccording to reporting by The Elec on the 26th, procurement departments at domestic semiconductor manufacturers including Samsung Electronics, SK Hynix, and DB HiTek are conducting day-by-day checks on the availability and price movements of key materials, mobilizing all resources to prevent production disruptions.\n\nHelium is the most pressing concern. Helium is used in plasma etching and deposition processes as a key process gas, and also serves as a coolant for the back side of wafers.\n\nHelium is a byproduct extracted during LNG production. Qatar accounts for approximately one-third of global supply. Iran has repeatedly struck Qatar's Ras Laffan Industrial City, and QatarEnergy has declared that it will be unable to fulfill long-term supply contracts due to damage to its LNG production facilities. QatarEnergy CEO Saad al-Kaabi stated that Iran's attacks have impaired 17% of Qatar's LNG export capacity and that restoration could take three to five years.\n\nSpot prices for helium have spiked sharply — industry sources indicate prices have already risen more than 50%.\n\nHelium suppliers Air Products and Linde have reportedly communicated to their customers that supply remains unaffected, as they source a large proportion of their raw helium domestically in the United States. By contrast, Air Liquide and Iwatani — which rely more heavily on Qatari helium — are said to be facing unavoidable supply pressure.\n\nOne materials industry source said, \"Major suppliers with high Qatar dependence are nearly at the point of throwing up their hands,\" adding, \"If the war drags on, some suppliers may not be able to provide helium at all.\" Another source noted, \"Russian helium exists as an alternative, but domestic companies are avoiding it for political reasons,\" warning that \"even if a peace agreement with Iran is reached, restoring the Ras Laffan facilities will take years — meaning helium supply shortages, price increases, and procurement uncertainty will remain a medium-to-long-term risk.\"\n\nThinner, ethanol, and IPA are all petrochemical materials whose prices are linked to international crude oil and naphtha prices. The oil price surge triggered by the Iran war is reportedly driving up input costs broadly across semiconductor process materials.\n\nThinner is a cleaning agent used in photolithography to remove photoresist (PR) residue. Its core raw material is propylene oxide (PO), which is processed into PGME (Propylene Glycol Monomethyl Ether) and PGMEA (Propylene Glycol Monomethyl Ether Acetate) before being refined into thinner for delivery. Chinese commodities data platform SunSirs reported that PO prices have risen more than 43% from the start of the month, driven by strength in crude oil, naphtha, and propylene feedstocks.\n\nPO suppliers including DuPont, Dow, and LG Chem have already issued price increase notices to PGMEA producers such as Hannong Chemicals, Chemtronics, and Jaewon Industrial. PGME and PGMEA prices have also risen approximately 40–50%. Leading thinner suppliers Dongjin Semichem, ENF Technology, and Dongwoo Fine-Chem are reportedly preparing to negotiate roughly 20% price increases effective on April import volumes, reflecting these upstream cost increases.\n\nEthanol and IPA have also entered a price increase cycle. Domestic suppliers including Pungkuk Distillery have begun issuing price increase notices to customers this week, citing cost pressures from the surge in naphtha prices. The increase is expected to be in the low double digits. Semiconductor-grade ethanol — used for wafer cleaning and residue removal after etching — is an ultra-high purity material with purity levels of 99.99% or higher.\n\nIPA, another naphtha-derived material, is also trending upward. LG Chem is the primary domestic supplier of semiconductor-grade IPA. The specific magnitude of the price increase has not yet been finalized, but industry participants appear to be treating a price hike as a foregone conclusion.\n\nOne industry source commented, \"These materials represent a relatively small share of overall semiconductor production costs, so they are unlikely to directly affect chip prices,\" but added, \"The bigger concern, if the war prolongs, is production disruptions caused by supply shortages of certain materials.\" Another source noted, \"Samsung Electronics and SK Hynix are primarily focused on securing inventory at prevailing market prices without pushing back.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2037404348716925056",
+      "kind": "post",
+      "engagement": {
+        "views": 13759,
+        "likes": 61,
+        "reposts": 10,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2038897004122976366",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Air Products",
+      "text": "Samsung, SK Hynix Move to Stabilize Helium Supply Chain for Semiconductors Amid Prolonged Iran War\n\nSamsung Electronics and SK Hynix are strengthening their helium supply chains for semiconductor manufacturing in preparation for a prolonged Iran war. Their strategy involves identifying additional supplier countries beyond the existing Middle Eastern sources and adjusting import volume ratios to maintain a stable supply chain.\n\nAccording to industry sources on the 31st, Samsung Electronics and SK Hynix have begun managing their semiconductor-grade helium supply chains as concerns over a prolonged Iran war intensify.\n\nSamsung Electronics is reportedly compiling a list of countries capable of supplying helium outside the Middle East. Given the high share of Middle Eastern helium in its current imports, the company is seeking to secure additional sources.\n\nAccording to the Korea International Trade Association, Qatar was Korea’s largest helium supplier last year, accounting for 64.7% of import volume by weight, followed by the U.S. (27.1%), Russia (6.2%), and China (1.7%).\n\nSamsung Electronics is evaluating additional helium suppliers from countries where geopolitical risk can be minimized. As the current supply instability stems from the Iran war, the company is working to mitigate potential future risks.\n\nAn industry official noted, “It won’t be easy to increase volumes from Russia, which is still at war, or China, where trade tensions are a concern,” adding that “the most likely options are increasing supply from the U.S. or expanding sourcing to major producing countries such as Algeria.” Samsung Electronics reportedly excluded sourcing helium from conflict-affected nations from the outset.\n\nThe company also plans to maximize use of its helium recycling technology, which it became the first in the industry to deploy on production lines last year.\n\nSK Hynix is similarly formulating strategies for a stable helium supply chain, planning to adjust import share ratios by country. SK Hynix is also expected to minimize helium procurement from conflict-affected nations.\nHelium is used in semiconductor processes for cryogenic cooling and high-purity cleaning. It is an essential gas for cooling wafers, removing impurities, and improving semiconductor yields.\n\nThe Iran war has impacted Qatar — Korea’s largest helium import source — raising red flags for domestic semiconductor manufacturers’ supply chains.\n\nSamsung Electronics and SK Hynix currently hold approximately six months’ worth of helium inventory and maintain that short-term impact will be limited. However, a prolonged Iran war could disrupt supply, prompting the preemptive response.\nBoth companies are expected to share confirmed plans with their key helium suppliers and establish a full-scale response posture. Samsung and SK Hynix source helium through global industrial gas companies including Linde, Air Products, and Air Liquide, as well as select domestic suppliers.\n\nAn industry official commented, “Some impact such as helium price increases is unavoidable due to the Iran war, but given that supply chains are already diversified, there should be no immediate significant effect on semiconductor manufacturing,” adding that “the supply chain adjustments by Samsung Electronics and SK Hynix are preemptive, medium-to-long-term preparedness measures.“",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038896999114928128",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEueBKXa8AATjOx.jpg",
+          "width": 500,
+          "height": 334,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038897004122976366",
+      "kind": "post",
+      "engagement": {
+        "views": 35232,
+        "likes": 168,
+        "reposts": 26,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041757127447085177",
+      "date": "2026-04-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Air Products",
+      "text": "'Helium Crisis' Comes to a Close... Samsung and SK Hynix Secure Long-Term U.S. Supply Contracts\n\nThe semiconductor-grade helium supply anxiety triggered by the Iran war has been largely resolved.\n\nGerman-based Linde and U.S.-based Air Products — both of which source and refine helium feedstock from the United States for semiconductor use — have reportedly signed long-term supplementary supply contracts with Samsung Electronics and SK Hynix.\n\nAccording to industry sources on April 8, Linde and Air Products committed to fully addressing helium supply shortages for Samsung and SK Hynix following Iran's airstrike on Qatar's Ras Laffan complex, entering into separate long-term agreements. Both companies source a large share of their raw helium domestically in the U.S., leaving them largely unaffected by the Qatar-originating supply disruption.\n\nPrior to the war, helium was reportedly in a state of mild oversupply. Linde and Air Products moved quickly as procurement disruption fears spread due to the Iran conflict, effectively capitalizing on the situation. An industry source explained, \"Linde and Air Products not only filled the supply gap but also secured additional long-term supply contracts on top of that.\" Samsung and SK Hynix are also reported to have accepted the helium price increases that arose during the crisis response.\n\nFrance's Air Liquide and Japan's Iwatani, both heavily dependent on Qatari helium, were unintentionally hit hard by the war. Industry observers note that this event is likely to trigger a restructuring of Korea's semiconductor helium procurement network toward U.S.-sourced supply.\n\nThe Blue House also issued an official statement on the helium supply situation on April 7. Policy Chief Kim Yong-beom said at a press briefing, \"We have been informed that approximately four months' worth of helium has been secured,\" adding, \"We have been briefed that there are no issues over the medium term.\" A senior Blue House official noted that the secured volumes are U.S.-sourced.\n\nOn March 31, the Korea Semiconductor Industry Association also stated, \"Domestic semiconductor companies have pre-secured a certain level of inventory for all necessary raw materials including helium,\" and that \"individual companies operate multiple procurement channels, so the likelihood of short-term supply instability is also low.\"\n\nHelium is used in semiconductor manufacturing as a key gas in plasma etching and deposition processes, and also serves as a backside wafer coolant.\n\nHelium is a byproduct extracted during LNG production, with Qatar accounting for roughly one-third of global supply. Iran had previously carried out multiple strikes on Qatar's Ras Laffan industrial complex. When QatarEnergy declared that damage to its LNG production facilities would make it difficult to fulfill long-term supply contracts, concerns over helium procurement disruptions spread across the semiconductor industry.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2041757120220295168",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFXHSHxa8AAaxvc.png",
+          "width": 600,
+          "height": 248,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2041757127447085177",
+      "kind": "post",
+      "engagement": {
+        "views": 87446,
+        "likes": 668,
+        "reposts": 114,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-03-27",
+      "close": 292.19
+    },
+    {
+      "date": "2026-03-30",
+      "close": 291.56
+    },
+    {
+      "date": "2026-03-31",
+      "close": 290.49
+    },
+    {
+      "date": "2026-04-01",
+      "close": 289.43
+    },
+    {
+      "date": "2026-04-02",
+      "close": 293.55
+    },
+    {
+      "date": "2026-04-06",
+      "close": 294.12
+    },
+    {
+      "date": "2026-04-07",
+      "close": 292.39
+    },
+    {
+      "date": "2026-04-08",
+      "close": 296.61
+    },
+    {
+      "date": "2026-04-09",
+      "close": 297.74
+    },
+    {
+      "date": "2026-04-10",
+      "close": 298.71
+    },
+    {
+      "date": "2026-04-13",
+      "close": 298.65
+    },
+    {
+      "date": "2026-04-14",
+      "close": 296.63
+    },
+    {
+      "date": "2026-04-15",
+      "close": 295.21
+    },
+    {
+      "date": "2026-04-16",
+      "close": 297.24
+    },
+    {
+      "date": "2026-04-17",
+      "close": 291.81
+    },
+    {
+      "date": "2026-04-20",
+      "close": 296.15
+    },
+    {
+      "date": "2026-04-21",
+      "close": 294.78
+    },
+    {
+      "date": "2026-04-22",
+      "close": 296.76
+    },
+    {
+      "date": "2026-04-23",
+      "close": 303.65
+    },
+    {
+      "date": "2026-04-24",
+      "close": 301.76
+    },
+    {
+      "date": "2026-04-27",
+      "close": 302.38
+    },
+    {
+      "date": "2026-04-28",
+      "close": 303.35
+    },
+    {
+      "date": "2026-04-29",
+      "close": 302.5
+    },
+    {
+      "date": "2026-04-30",
+      "close": 300.05
+    },
+    {
+      "date": "2026-05-01",
+      "close": 301.07
+    },
+    {
+      "date": "2026-05-04",
+      "close": 298.35
+    },
+    {
+      "date": "2026-05-05",
+      "close": 303.93
+    },
+    {
+      "date": "2026-05-06",
+      "close": 300.21
+    },
+    {
+      "date": "2026-05-07",
+      "close": 294.99
+    },
+    {
+      "date": "2026-05-08",
+      "close": 295.41
+    },
+    {
+      "date": "2026-05-11",
+      "close": 304.5
+    },
+    {
+      "date": "2026-05-12",
+      "close": 303.6
+    },
+    {
+      "date": "2026-05-13",
+      "close": 306.2
+    },
+    {
+      "date": "2026-05-14",
+      "close": 299.87
+    },
+    {
+      "date": "2026-05-15",
+      "close": 295.38
+    },
+    {
+      "date": "2026-05-18",
+      "close": 293.31
+    },
+    {
+      "date": "2026-05-19",
+      "close": 291.77
+    },
+    {
+      "date": "2026-05-20",
+      "close": 289.19
+    },
+    {
+      "date": "2026-05-21",
+      "close": 290.19
+    },
+    {
+      "date": "2026-05-22",
+      "close": 289.47
+    },
+    {
+      "date": "2026-05-26",
+      "close": 289.6
+    },
+    {
+      "date": "2026-05-27",
+      "close": 285.73
+    },
+    {
+      "date": "2026-05-28",
+      "close": 283.65
+    },
+    {
+      "date": "2026-05-29",
+      "close": 278.62
+    },
+    {
+      "date": "2026-06-01",
+      "close": 278.89
+    },
+    {
+      "date": "2026-06-02",
+      "close": 279.29
+    },
+    {
+      "date": "2026-06-03",
+      "close": 282.27
+    },
+    {
+      "date": "2026-06-04",
+      "close": 282.85
+    },
+    {
+      "date": "2026-06-05",
+      "close": 282.35
+    },
+    {
+      "date": "2026-06-08",
+      "close": 276.77
+    },
+    {
+      "date": "2026-06-09",
+      "close": 282.98
+    },
+    {
+      "date": "2026-06-10",
+      "close": 276.51
+    },
+    {
+      "date": "2026-06-11",
+      "close": 278.12
+    },
+    {
+      "date": "2026-06-12",
+      "close": 281.62
+    },
+    {
+      "date": "2026-06-15",
+      "close": 282.96
+    },
+    {
+      "date": "2026-06-16",
+      "close": 280.48
+    },
+    {
+      "date": "2026-06-17",
+      "close": 281.75
+    },
+    {
+      "date": "2026-06-18",
+      "close": 280.21
+    },
+    {
+      "date": "2026-06-22",
+      "close": 283.11
+    }
+  ],
+  "price_status": "ok",
+  "price_unit": "USD",
+  "price_updated_at": "2026-06-23T20:32:14.885300+00:00"
+}

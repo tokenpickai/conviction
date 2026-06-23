@@ -1,0 +1,51 @@
+{
+  "ticker": "DBHITEK",
+  "cashtag": "DB HiTek",
+  "price_symbol": "DBHITEK",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-03-31",
+  "last_mention": "2026-03-31",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2038928949917700579",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "DB HiTek",
+      "text": "SMIC's 8-Inch Price Hike Faces 'Headwinds'… China-Origin Volume Shifts to Korean Foundries\n\nFollowing its price hike on 8-inch foundry services late last year, China's largest foundry SMIC reportedly resorted to rebates (returning overpaid amounts) after facing pushback from customers.\n\nAmong Chinese fabless companies, a clear trend is emerging of diversifying chip production away from domestic foundries toward overseas alternatives. Analysts note that as China's semiconductor localization policies intensify, wafer volumes are migrating to 8-inch foundries in Taiwan and Korea, creating a tailwind for those players.\n\nAccording to semiconductor industry sources on March 31, SMIC notified its major domestic fabless clients in H2 last year of a 10–15% price increase on 8-inch BCD (Bipolar-CMOS-DMOS) process foundry services. The hike was driven by rising chip volumes under Beijing's semiconductor self-sufficiency push, combined with tightening supply as Samsung and TSMC scaled back their 8-inch lines — prompting SMIC to raise prices to improve profitability. SMIC's fab utilization indeed remained in the mid-90% range during H2 last year.\n\nHowever, as fabless clients pushed back harder than expected, SMIC reportedly offered rebates to key customers. As a result, the market estimates the effective price increase was only around 2–4%.\n\nAn industry source explained: \"SMIC had to push the hike because utilization matters to them too, but they saw some slippage at that point. Customer pushback was fiercer than anticipated — not something they could brush off — so they gave rebates. The market view is that the headline 10% increase was never really applied in practice.\"\n\nIndustry observers say it will be difficult for Chinese foundries to sustain full utilization on their 8-inch lines. While Samsung and TSMC are reducing 8-inch wafer capacity, the current high utilization rates are largely attributed to set makers building inventory ahead of anticipated semiconductor price increases.\n\nTrendForce noted: \"Uncertainty around consumer electronics demand in H2 this year could lead to downward revisions in supply chain shipment forecasts. Utilization on 8-inch lines is likely to vary across foundries, making broad-based price hikes difficult.\"\n\nIn contrast, domestic Korean 8-inch foundry utilization is expected to remain elevated this year. Chinese fabless firms, under Beijing's semiconductor self-sufficiency mandate, are reportedly diversifying orders to overseas foundries including Korea as they continue ramping chip volumes. The Chinese government currently requires that more than half of computing chips for public data centers be sourced from domestic suppliers, with a target of 70% domestic adoption by 2027.\n\nA prime example is DB HiTek, Korea's leading 8-inch wafer foundry, which has guided for 98% annual utilization this year. Utilization climbed from 76% in 2024 to 92% last year, with Q4 alone hitting 98%. China accounted for 62.7% of DB HiTek's annual revenue last year — well over half.\n\nAn industry source noted: \"While SMIC's business is concentrated around roughly 10 large domestic clients, DB HiTek operates a high-mix, low-volume model across about 400 customers. SMIC's client base is primarily local consumer electronics and mobile set makers, making it directly exposed to domestic demand cycles, whereas DB HiTek's structure is relatively more insulated from such swings.\"\n\nA DB HiTek representative said: \"Foundry pricing is part of our internal strategy, so it's hard to define precisely, but we are watching how other companies respond to market price movements. As for maintaining full utilization through year-end, we see lingering market uncertainty and plan to monitor and adapt accordingly.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038928926572240896",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEu7DlabYAAxMP4.jpg",
+          "width": 960,
+          "height": 549,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038928949917700579",
+      "kind": "post",
+      "engagement": {
+        "views": 14720,
+        "likes": 66,
+        "reposts": 4,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

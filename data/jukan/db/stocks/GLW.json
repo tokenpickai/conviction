@@ -1,0 +1,396 @@
+{
+  "ticker": "GLW",
+  "cashtag": "Corning",
+  "price_symbol": "GLW",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": "Corning",
+  "industry": "Optical Fiber/Glass",
+  "thesis_summary": null,
+  "first_mention": "2026-03-25",
+  "last_mention": "2026-06-08",
+  "total_mentions": 5,
+  "mentions": [
+    {
+      "tweet_id": "2036959231065415899",
+      "date": "2026-03-25",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "optical fiber prices hitting all-time highs driven by AI/drone demand",
+        "supply constraints amid surging demand for DCI and all-optical network buildouts",
+        "near-term capacity expansion remains difficult, driving further price increases"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$GLW",
+      "text": ">> Fiber Optic Prices Break to an All-Time High… Tight Supply Amid AI and Drone Demand (Shanghai Securities News)\n\n• In March, with demand from both drones and AIDC construction rising at the same time, the price of G.657.A2 optical fiber surpassed RMB 210 per core-kilometer, reaching a record high. China Galaxy Securities noted that as AI and computing network deployment accelerates, demand for optical fiber and cable is surging, while near-term capacity expansion remains difficult, causing supply constraints to further drive price increases.\n\n• In particular, as AI infrastructure investment expands, demand is rising rapidly for data center interconnects (DCI) and all-optical network buildouts. In other words, this is not merely a simple price increase, but a sign that network infrastructure bottlenecks in the AI era are becoming a reality.\n\n$GLW",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2036959231065415899",
+      "kind": "post",
+      "engagement": {
+        "views": 74800,
+        "likes": 165,
+        "reposts": 16,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045153133354234237",
+      "date": "2026-04-17",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "GLW",
+      "text": "GLW - Talk of cautious note by Citrini on name (SM Circulations)\n\nWhat the heck is this supposed to mean...? How can they twist it into saying that we wrote the GLW bear note just because I cited a Taiwanese magazine? https://t.co/rfQ1PvrKyQ",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2045153133354234237",
+      "kind": "post",
+      "engagement": {
+        "views": 23073,
+        "likes": 54,
+        "reposts": 1,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051993442474152028",
+      "date": "2026-05-06",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$GLW",
+      "text": "NVIDIA announced a long-term partnership with Corning to strengthen U.S. AI infrastructure. Corning will build three new factories in the United States, increasing U.S. optical connectivity capacity by 10x and boosting optical fiber output by more than 50%.\n\n$GLW",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2051993442474152028",
+      "kind": "post",
+      "engagement": {
+        "views": 100867,
+        "likes": 884,
+        "reposts": 53,
+        "replies": 29
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051995483904868756",
+      "date": "2026-05-06",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Corning",
+      "text": "@TBU12345678 I just suddenly remembered that Samsung owns a large stake in Corning.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2051995483904868756",
+      "kind": "reply",
+      "engagement": {
+        "views": 1198,
+        "likes": 4,
+        "reposts": 1,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064168000308363771",
+      "date": "2026-06-08",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Corning",
+      "text": "After Corning, positive news for optical fiber just keeps coming. https://t.co/nFc1UOPcMr",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2064167859002204160",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKVluzia4AAdb31.jpg",
+          "width": 1398,
+          "height": 1138,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2064168000308363771",
+      "kind": "post",
+      "engagement": {
+        "views": 68388,
+        "likes": 632,
+        "reposts": 54,
+        "replies": 17
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-03-25",
+      "close": 146.35
+    },
+    {
+      "date": "2026-03-26",
+      "close": 135.32
+    },
+    {
+      "date": "2026-03-27",
+      "close": 136.81
+    },
+    {
+      "date": "2026-03-30",
+      "close": 128.55
+    },
+    {
+      "date": "2026-03-31",
+      "close": 135.97
+    },
+    {
+      "date": "2026-04-01",
+      "close": 142.38
+    },
+    {
+      "date": "2026-04-02",
+      "close": 147.92
+    },
+    {
+      "date": "2026-04-06",
+      "close": 146.5
+    },
+    {
+      "date": "2026-04-07",
+      "close": 148.52
+    },
+    {
+      "date": "2026-04-08",
+      "close": 165.1
+    },
+    {
+      "date": "2026-04-09",
+      "close": 169.8
+    },
+    {
+      "date": "2026-04-10",
+      "close": 171.24
+    },
+    {
+      "date": "2026-04-13",
+      "close": 175.17
+    },
+    {
+      "date": "2026-04-14",
+      "close": 172.82
+    },
+    {
+      "date": "2026-04-15",
+      "close": 168.27
+    },
+    {
+      "date": "2026-04-16",
+      "close": 166.08
+    },
+    {
+      "date": "2026-04-17",
+      "close": 164.38
+    },
+    {
+      "date": "2026-04-20",
+      "close": 165.38
+    },
+    {
+      "date": "2026-04-21",
+      "close": 165.45
+    },
+    {
+      "date": "2026-04-22",
+      "close": 168.76
+    },
+    {
+      "date": "2026-04-23",
+      "close": 169.5
+    },
+    {
+      "date": "2026-04-24",
+      "close": 175.89
+    },
+    {
+      "date": "2026-04-27",
+      "close": 168.01
+    },
+    {
+      "date": "2026-04-28",
+      "close": 153.05
+    },
+    {
+      "date": "2026-04-29",
+      "close": 151.9
+    },
+    {
+      "date": "2026-04-30",
+      "close": 164.24
+    },
+    {
+      "date": "2026-05-01",
+      "close": 158.26
+    },
+    {
+      "date": "2026-05-04",
+      "close": 159.96
+    },
+    {
+      "date": "2026-05-05",
+      "close": 162.1
+    },
+    {
+      "date": "2026-05-06",
+      "close": 181.57
+    },
+    {
+      "date": "2026-05-07",
+      "close": 182.4
+    },
+    {
+      "date": "2026-05-08",
+      "close": 186.94
+    },
+    {
+      "date": "2026-05-11",
+      "close": 207.39
+    },
+    {
+      "date": "2026-05-12",
+      "close": 198.24
+    },
+    {
+      "date": "2026-05-13",
+      "close": 206.51
+    },
+    {
+      "date": "2026-05-14",
+      "close": 208.28
+    },
+    {
+      "date": "2026-05-15",
+      "close": 191.81
+    },
+    {
+      "date": "2026-05-18",
+      "close": 178.55
+    },
+    {
+      "date": "2026-05-19",
+      "close": 175.83
+    },
+    {
+      "date": "2026-05-20",
+      "close": 180.69
+    },
+    {
+      "date": "2026-05-21",
+      "close": 191.89
+    },
+    {
+      "date": "2026-05-22",
+      "close": 194.05
+    },
+    {
+      "date": "2026-05-26",
+      "close": 196.17
+    },
+    {
+      "date": "2026-05-27",
+      "close": 190.89
+    },
+    {
+      "date": "2026-05-28",
+      "close": 182.97
+    },
+    {
+      "date": "2026-05-29",
+      "close": 181.16
+    },
+    {
+      "date": "2026-06-01",
+      "close": 176.7
+    },
+    {
+      "date": "2026-06-02",
+      "close": 200.4
+    },
+    {
+      "date": "2026-06-03",
+      "close": 200.76
+    },
+    {
+      "date": "2026-06-04",
+      "close": 197.7
+    },
+    {
+      "date": "2026-06-05",
+      "close": 177.58
+    },
+    {
+      "date": "2026-06-08",
+      "close": 187.54
+    },
+    {
+      "date": "2026-06-09",
+      "close": 173.94
+    },
+    {
+      "date": "2026-06-10",
+      "close": 168.17
+    },
+    {
+      "date": "2026-06-11",
+      "close": 176.55
+    },
+    {
+      "date": "2026-06-12",
+      "close": 179.2
+    },
+    {
+      "date": "2026-06-15",
+      "close": 187.88
+    },
+    {
+      "date": "2026-06-16",
+      "close": 177.42
+    },
+    {
+      "date": "2026-06-17",
+      "close": 175.4
+    },
+    {
+      "date": "2026-06-18",
+      "close": 194.92
+    },
+    {
+      "date": "2026-06-22",
+      "close": 209.83
+    }
+  ],
+  "price_status": "ok"
+}

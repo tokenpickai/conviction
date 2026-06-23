@@ -1,0 +1,42 @@
+{
+  "ticker": "BYTEDANCE",
+  "cashtag": "ByteDance",
+  "price_symbol": "BYTEDANCE",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-03-27",
+  "last_mention": "2026-03-27",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2037451012223713337",
+      "date": "2026-03-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ByteDance",
+      "text": "* REUTERS: Chinese big tech companies, including ByteDance and Alibaba, are expected to place large-volume orders for Huawei’s 950PR.\n\n* REUTERS: Chinese big tech companies are reportedly satisfied that the 950PR offers better compatibility with Nvidia’s CUDA software ecosystem and faster response speeds compared with the 910C.\n\n* REUTERS: Huawei plans to ship about 750,000 units of the 950PR this year.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2037451012223713337",
+      "kind": "post",
+      "engagement": {
+        "views": 53793,
+        "likes": 346,
+        "reposts": 55,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

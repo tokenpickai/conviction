@@ -1,0 +1,42 @@
+{
+  "ticker": "AURAS",
+  "cashtag": "Auras Technology",
+  "price_symbol": "AURAS",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-03",
+  "last_mention": "2026-05-03",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2050815047375712603",
+      "date": "2026-05-03",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Auras Technology",
+      "text": ">> AI Thermal War Heats Up: MCCP and MCL to Coexist, While CPO Test Demand Surges (Commercial Times, Taiwan)\n\n• As AI chip power density rises sharply, cooling technology competition is becoming a key variable. Ahead of mass production for NVIDIA’s Vera Rubin platform, test equipment maker Hung Ching Precision said MCCP and MCL are more likely to coexist rather than compete directly. MCCP is currently moving quickly into mass production, led by Auras Technology, while MCL is being developed by companies such as Jentech Precision Industrial. MCL carries higher cost and technical difficulty, but also has stronger performance potential. Cooler Master is pursuing both technologies in parallel. Hung Ching Precision expects MCCP to enter mass production first in Q3, improving thermal density efficiency by 2x, while MCL should follow after validation. From the customer perspective, however, adoption will likely be mixed depending on cost and product-specific requirements: some products may use MCL, others MCCP, and others conventional liquid cooling.\n\n• At the same time, the real growth opportunity in the industry is shifting beyond cooling and toward CPO. Hung Ching Precision has secured a leading position in optical-electrical co-test equipment and expects large-scale mass production demand from late this year into next year. ASPs for this equipment are significantly higher than conventional electrical test systems. In addition, the integration of vision inspection systems to protect high-value AI chips is pushing equipment prices up by another 10–15%.\n\n• On top of this, the expansion of ASICs is also driving higher demand for SLT. Hung Ching Precision currently holds roughly 60–70% share in this market. Ultimately, in the AI era, the key battleground extends beyond the chip itself to the full-stack infrastructure of cooling, packaging, and testing. Cooling will likely be a coexistence story, while profitability should expand meaningfully in CPO and test equipment.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2050815047375712603",
+      "kind": "post",
+      "engagement": {
+        "views": 35257,
+        "likes": 180,
+        "reposts": 22,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

@@ -5,13 +5,166 @@
   "exchange": "US",
   "currency": "USD",
   "ticker_mapped": false,
-  "company": null,
-  "industry": null,
+  "company": "United Microelectronics",
+  "industry": "Semiconductor Foundry",
   "thesis_summary": null,
-  "first_mention": "2026-06-18",
+  "first_mention": "2026-04-17",
   "last_mention": "2026-06-18",
-  "total_mentions": 1,
+  "total_mentions": 6,
   "mentions": [
+    {
+      "tweet_id": "2045015577656520778",
+      "date": "2026-04-17",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "already made the UMC call back in January this year"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "UMC",
+      "text": "Yes… and we already made the UMC call back in January this year. https://t.co/i69sjNm7TN https://t.co/26g9e6x4Fm",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2045015255051538432",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGFaih2aEAA9qPD.png",
+          "width": 1524,
+          "height": 1014,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2045015577656520778",
+      "kind": "post",
+      "engagement": {
+        "views": 45217,
+        "likes": 137,
+        "reposts": 9,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045424807614038306",
+      "date": "2026-04-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "UMC",
+      "text": "Taiwan UMC, Vanguard Raise Chip Prices — Impact of \"De-China\" Supply Chain Restructuring\n\nAs the decoupling between China and non-China semiconductor supply chains peaks, Taiwan's tier-2 foundries UMC and Vanguard (VIS) have gained the leverage to raise chip prices, according to a recent assessment. Years of supply chain restructuring have eroded the cost-advantage argument for shifting production elsewhere, and TSMC's concentration on leading-edge nodes has further benefited these tier-2 players.\n\nIn its April 15 report titled \"Taiwan Tier-2 Foundries: Price Hikes Materializing,\" Nomura Securities noted that UMC and Vanguard plan to raise chip prices and that fab utilization is also climbing.\n\nOne Taiwanese media outlet reported that Vanguard plans to raise foundry prices across all platforms by 10% starting in April. UMC has notified customers that it will adjust foundry pricing in the second half. In both cases, the drivers are pass-through of rising input costs and tight fab utilization.\n\nNomura cited \"the peak-out of supply chain decoupling effects\" as one of the key rationales behind the price hikes at both companies. Over the past 2–3 years, customers looking to migrate volume to Chinese foundries have effectively completed that shift, reducing the customer-attrition risk for UMC and Vanguard.\n\nAs geopolitical risk has elevated the importance of supply chain diversification, flexible production migration has diminished, and the incentive offered by price cuts is no longer what it once was. Taiwan foundries now have less reason to engage in the chicken game being waged by Chinese competitors.\n\nThe shift in TSMC's strategy also matters. As TSMC concentrates its resources on preparing next-generation fabs set to come online from 2028 and on optimizing leading-edge nodes, mature nodes have been deprioritized.\n\nNomura pointed to Vanguard's expanding foundry business with Renesas for AI server PMICs and its growing share within Qualcomm as supporting the price hike. Products on ≤180nm nodes are now shipping as soon as they come off the line. Vanguard's 1Q fab utilization is estimated to have risen to 80–85%.\n\nUMC's 1Q utilization is estimated at roughly 70% for 8-inch and 80% for 12-inch fabs. Both are expected to break above 80% from 2Q onward.\n\nNomura noted that demand for analog and mixed-signal chips from IDMs — which account for roughly 20% of UMC's revenue — is driving performance. Strong Apple device sales this year are also contributing to higher UMC fab utilization. Representative examples include OLED DDIs designed by Novatek and Samsung System LSI for Apple products, as well as ISPs from Samsung System LSI. These products are primarily manufactured on 22/28nm nodes.\n\nNomura forecasts UMC's 2Q revenue to grow 7–9% QoQ, significantly exceeding the street consensus of 2%. Vanguard's 2Q revenue is expected to grow more than 15% QoQ as the price hikes fully flow through — also well above the consensus of 6%.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2045424791243587584",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGLPArDaAAAq1Df.png",
+          "width": 640,
+          "height": 350,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2045424807614038306",
+      "kind": "post",
+      "engagement": {
+        "views": 15689,
+        "likes": 77,
+        "reposts": 7,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045698620234895520",
+      "date": "2026-04-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "UMC",
+      "text": "Interesting. It seems 8-inch legacy foundry capacity is currently tighter than 12-inch.\n\nDetails of UMC’s price increase:\n\n8-inch wafers\n\n- Price hike: 10%–15%\n- Differentiated by customer volume\n- Utilization: Taipei and Xiamen fabs running above 100% (roughly 105%–108%)\n- Supply-demand conditions are tight\n\n12-inch wafers\n\n- Nodes subject to price hikes: 80nm, 55nm, 40nm\n- Price hike: 5%–10% (lower than 8-inch)\n- Differentiated by customer size\n- Nodes not being raised: 28nm, 22nm and other advanced mature nodes — no price increases for the time being\n- Utilization: Japan fab only around 60%, Singapore fab also not yet at full utilization",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2045698620234895520",
+      "kind": "post",
+      "engagement": {
+        "views": 71055,
+        "likes": 150,
+        "reposts": 3,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046027289931173964",
+      "date": "2026-04-19",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "UMC",
+      "text": "UMC Reportedly Approached for 2D NAND Foundry Work, But Faces Three Major Hurdles: People, Technology, and Equipment\n\nWith international memory manufacturers' exit from 2D NAND flash memory now all but confirmed, supply scarcity has driven a sharp surge in low-density 2D NAND prices. Recent market chatter suggests that UMC (聯電) may receive SLC/MLC Flash foundry orders, raising the prospect that the future oligopolistic supply structure of 2D NAND could be broken.\n\nHowever, according to industry sources speaking to DIGITIMES, while flash memory foundry opportunities have indeed been discussed with UMC over the past several months, the absence of three core elements — manpower, process integration and development capability, and equipment — has emerged as the most significant obstacle.\n\nNAND Flash Prices Rising Faster Than DRAM\n\nAccording to supply chain sources, NAND Flash prices have climbed sharply since the start of 2026, with the rate of increase already outpacing DRAM. The supply shortfall is particularly severe for MLC NAND and SLC NAND, where prices for legacy-process low-density products have surged nearly 10-fold. Downstream players report that MLC NAND prices were raised by roughly 30% in April.\n\nRegarding the market rumor that Asian customers have approached UMC about flash memory foundry orders, the industry generally views the current strength in MLC/SLC NAND prices as potentially more attractive in profitability terms than mature logic processes.\n\nThat said, existing equipment cannot be used directly, and retrofitting lines or purchasing new tools would take an estimated 1–2 years. Given the enormous scale of the current 2D NAND supply shortage, this would do little to ease the supply gap.\n\nMoreover, the bottlenecks at the execution stage are far more complex than outsiders anticipate.\n\nHurdle ①: People — The 2D NAND Engineers Are Gone\n\nIndustry sources privately disclosed that, in an effort to resolve the MLC/SLC NAND supply crunch, internal proposals were made to explore the feasibility of flash memory foundry work at UMC. However, formidable bottlenecks exist across multiple dimensions — talent, technology, and equipment.\n\nFirst, potential IP licensors and NAND manufacturers are not opposed to licensing partnerships in principle. The problem lies in the requirement that support must come from manufacturers with actual mass-production experience, including dispatching technical teams to help implement the process.\n\nThe issue is that engineers who once tuned 2D NAND equipment have largely retired or moved on, and those who remain have been redeployed to 3D NAND mass-production roles. At present, NAND manufacturers are concentrating their resources on 3D NAND R&D to capture growth opportunities from AI server applications. With manpower stretched thin, they simply cannot afford to take on additional 2D NAND technical support.\n\nHurdle ②: Technology — UMC's Memory Development Capability Gap\n\nSecond, while UMC did conduct memory-related R&D years ago and currently has some idle fab space that could accommodate foundry orders, its core technology has drifted significantly from the memory domain. Re-entry would require enormous resource investment, and rebuilding process fine-tuning and yield optimization capabilities would take considerable time.\n\nIf UMC can only provide production capacity without the underlying technology, it would be unable to support customers through process development and integration on its own — leaving the realistic profit contribution to UMC quite limited.\n\nHurdle ③: Equipment — No Path to Securing Legacy Tools\n\nThird, the equipment problem has no ready solution. International manufacturers' legacy tools have already been sold off or dismantled during line upgrades, and even if used equipment could be located, related maintenance parts and personnel would be hard to secure.\n\nPreviously, Japanese giant Kioxia also told DIGITIMES that the discontinuation of legacy products such as 2D NAND was not driven by AI-related capacity crowd-out, but rather by the extremely high cost of maintaining legacy equipment and issues related to equipment aging.\n\nThat said, if UMC were to take on flash memory foundry orders and rebuild via new equipment purchases, the implementation process and yields would differ from the legacy approach, likely requiring fresh trial-and-error and development. This implies considerable uncertainty around investment recovery. Additionally, the IC design houses involved are unfamiliar with actual foundry process and mass-production realities — and while their appetite for collaboration is strong, on balance, the idea of a foundry arrangement via technology transfer currently lacks any viable near-term solution.\n\nUMC Notifies Customers of Price Hikes Effective H2 2026\n\nUMC's official spokesperson declined to comment on market rumors regarding flash memory foundry work. However, the company has recently issued price-increase notices to customers and partners, confirming pricing hikes for the second half of 2026.\n\nUMC stated that since the first half of 2026, it has observed robust demand resilience across diverse application areas including communications, industrial, consumer electronics, and AI-related segments. Combined with rising costs across key drivers such as raw materials, energy, and logistics, the company will implement wafer price adjustments in the second half of 2026.\n\nAccording to related supply chain players, UMC is raising prices across both 8-inch and 12-inch product lines. Based on a roughly 3.5-month cycle, orders taped out in April are expected to be subject to the new pricing.\n\n- 8-inch wafer lines: relatively higher increases of around 10–15%\n- 12-inch lines (80nm, 55nm, 40nm, etc.): increases of roughly 5–10%\n\nAdjustments will be tiered based on individual customer volumes. This round of price hikes is primarily aimed at recovering prior price cuts on mature processes. Since some IC players have locked in long-term agreements (LTAs), the impact will be limited, and the increases are expected to be gradually passed through to downstream customers over time.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2046027264450846720",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGTy9OpbYAAy7Ni.png",
+          "width": 750,
+          "height": 422,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2046027289931173964",
+      "kind": "post",
+      "engagement": {
+        "views": 39434,
+        "likes": 103,
+        "reposts": 4,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059540606142337101",
+      "date": "2026-05-27",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "facing significant challenges as expansion of Singapore fab has sharply increased cost burden",
+        "plans selective price hikes starting in 2H",
+        "broader price renegotiations expected in 2027"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "UMC",
+      "text": "Taiwan’s UMC: Selective price hikes planned for 2H; comprehensive price renegotiations expected in 2027\n\n- Semiconductor foundry UMC held its shareholders’ meeting today. CFO Liu Chi-tung said the company is facing significant challenges as the expansion of its Singapore fab has sharply increased its cost burden.\n\n- As a result, UMC plans to pursue selective price increases starting in the second half of this year. The company also plans to enter into broader price adjustment negotiations with customers in 2027.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2059540606142337101",
+      "kind": "post",
+      "engagement": {
+        "views": 34494,
+        "likes": 131,
+        "reposts": 5,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2067636769856860367",
       "date": "2026-06-18",
@@ -37,7 +190,7 @@
       "url": "https://x.com/jukan05/status/2067636769856860367",
       "kind": "post",
       "engagement": {
-        "views": 189572,
+        "views": 189589,
         "likes": 400,
         "reposts": 40,
         "replies": 14
@@ -56,7 +209,5 @@
       "close": 27.5
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-23T19:16:24.830763+00:00"
+  "price_status": "ok"
 }

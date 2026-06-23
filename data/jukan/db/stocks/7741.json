@@ -1,0 +1,42 @@
+{
+  "ticker": "7741",
+  "cashtag": "Hoya",
+  "price_symbol": "7741",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-16",
+  "last_mention": "2026-05-16",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2055841355394666519",
+      "date": "2026-05-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Hoya",
+      "text": "You definitely learn a lot from reading expert calls.\n\nWhat I learned today: the optical communications industry is buying up Hoya’s glass capacity at 5x the price HDD companies are willing to pay, making it difficult for HDD makers to expand capacity. https://t.co/D6FV8SWzQJ",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2055841355394666519",
+      "kind": "post",
+      "engagement": {
+        "views": 173571,
+        "likes": 989,
+        "reposts": 68,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

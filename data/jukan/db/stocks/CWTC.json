@@ -1,0 +1,42 @@
+{
+  "ticker": "CWTC",
+  "cashtag": "CWTC",
+  "price_symbol": "CWTC",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-02",
+  "last_mention": "2026-04-02",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2039827565343555737",
+      "date": "2026-04-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "CWTC",
+      "text": "▶ Copper price surge drives quarterly lead frame price hikes\n\n∙ Lead frame packaging suppliers are pushing price increases to pass on rising costs across the semiconductor supply chain.\n\n∙ Taiwanese manufacturers have already laid out new pricing adjustment plans to take effect in Q2 2026, with double-digit percentage increases expected across all product lines.\n\n∙ Taiwan’s three major lead frame suppliers — CWTC, SDI, and Jih Lin Technology — initiated their first round of price negotiations in H2 2025.\n\n∙ Initial increases ranged from 10% to 30%, applied in phases from Q4 2025 through Q1 2026, and have begun flowing through to revenue and profitability.\n\n∙ CWTC noted that precious and base metal prices — specifically gold, silver, and copper — surged by over 30%, 90%, and 35% respectively since H2 2025, driving up overall process costs.\n\n∙ Accordingly, CWTC will raise LED lead frame prices by 20%, with an even larger increase for IC lead frames — both measures taking effect simultaneously on April 1.\n\n∙ SDI implemented pricing adjustments on roughly a quarter of its products earlier this year.\n\n∙ However, with international refined copper premiums having doubled, SDI is set to execute a second round of price hikes, with an average increase expected in the double digits.\n\n∙ SDI’s first round of increases primarily targeted IDM customers, but the second round will extend coverage to OSAT customers as well.\n\n∙ Jih Lin Technology has ongoing price adjustments underway, with its second round of increases also expected to reach double-digit percentages.\n\n∙ Once the initial phase of price increases is absorbed, lead frame manufacturers are expected to see meaningful gross margin expansion, benefiting from lower-cost inventory.\n\n∙ All major Taiwanese lead frame players are expected to sustain steady sequential quarterly growth through 2026, leveraging both volume and pricing tailwinds.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2039827565343555737",
+      "kind": "post",
+      "engagement": {
+        "views": 18857,
+        "likes": 64,
+        "reposts": 4,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

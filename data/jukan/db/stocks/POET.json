@@ -1,0 +1,269 @@
+{
+  "ticker": "POET",
+  "cashtag": "$POET",
+  "price_symbol": "POET",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": "POET Technologies",
+  "industry": "Optical Engine Packaging",
+  "thesis_summary": "当天主要在陈述供应链关系/背景,未明确表态。",
+  "first_mention": "2026-04-21",
+  "last_mention": "2026-04-27",
+  "total_mentions": 3,
+  "mentions": [
+    {
+      "tweet_id": "2046719740664791275",
+      "date": "2026-04-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "POET",
+      "text": "In the end, WSB was right again. I really didn’t expect POET to actually be a supplier to Marvell…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046719740664791275",
+      "kind": "post",
+      "engagement": {
+        "views": 282093,
+        "likes": 616,
+        "reposts": 21,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048752304174792887",
+      "date": "2026-04-27",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "CEO violated NDA and went public with the contract himself",
+        "completely ruined the company"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "POET",
+      "text": "What a dumbass CEO — he violated the NDA and went public with the contract himself, and now he’s completely ruined the company. What an absolute moron? https://t.co/PM7E6cLYbp",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048752304174792887",
+      "kind": "post",
+      "engagement": {
+        "views": 187157,
+        "likes": 1234,
+        "reposts": 58,
+        "replies": 50
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048777474851610689",
+      "date": "2026-04-27",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "contract with Marvell was terminated and company withheld disclosure while stock was rising",
+        "deserves to be sued by shareholders"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$POET",
+      "text": "I don’t have any position in $POET, and I never have, but this company is honestly ridiculous.\n\nThey had already been notified by Marvell on the 23rd that the contract was being terminated, yet they sat on it until today?\n\nWhat about the shareholders who bought in while the stock was rising in the meantime?\n\nYou deserve to be sued by your shareholders.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048777474851610689",
+      "kind": "post",
+      "engagement": {
+        "views": 207569,
+        "likes": 1519,
+        "reposts": 94,
+        "replies": 61
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-04-21",
+      "close": 10.25
+    },
+    {
+      "date": "2026-04-22",
+      "close": 12.77
+    },
+    {
+      "date": "2026-04-23",
+      "close": 11.72
+    },
+    {
+      "date": "2026-04-24",
+      "close": 15.1
+    },
+    {
+      "date": "2026-04-27",
+      "close": 7.95
+    },
+    {
+      "date": "2026-04-28",
+      "close": 8.03
+    },
+    {
+      "date": "2026-04-29",
+      "close": 6.6
+    },
+    {
+      "date": "2026-04-30",
+      "close": 7.12
+    },
+    {
+      "date": "2026-05-01",
+      "close": 7.31
+    },
+    {
+      "date": "2026-05-04",
+      "close": 7.11
+    },
+    {
+      "date": "2026-05-05",
+      "close": 9.21
+    },
+    {
+      "date": "2026-05-06",
+      "close": 9.72
+    },
+    {
+      "date": "2026-05-07",
+      "close": 9.58
+    },
+    {
+      "date": "2026-05-08",
+      "close": 10.95
+    },
+    {
+      "date": "2026-05-11",
+      "close": 13.9
+    },
+    {
+      "date": "2026-05-12",
+      "close": 13.73
+    },
+    {
+      "date": "2026-05-13",
+      "close": 14.37
+    },
+    {
+      "date": "2026-05-14",
+      "close": 20.57
+    },
+    {
+      "date": "2026-05-15",
+      "close": 15.97
+    },
+    {
+      "date": "2026-05-18",
+      "close": 14.21
+    },
+    {
+      "date": "2026-05-19",
+      "close": 13.07
+    },
+    {
+      "date": "2026-05-20",
+      "close": 14.78
+    },
+    {
+      "date": "2026-05-21",
+      "close": 14.82
+    },
+    {
+      "date": "2026-05-22",
+      "close": 14.59
+    },
+    {
+      "date": "2026-05-26",
+      "close": 13.35
+    },
+    {
+      "date": "2026-05-27",
+      "close": 13.28
+    },
+    {
+      "date": "2026-05-28",
+      "close": 13.26
+    },
+    {
+      "date": "2026-05-29",
+      "close": 12.29
+    },
+    {
+      "date": "2026-06-01",
+      "close": 13.89
+    },
+    {
+      "date": "2026-06-02",
+      "close": 13.82
+    },
+    {
+      "date": "2026-06-03",
+      "close": 15.38
+    },
+    {
+      "date": "2026-06-04",
+      "close": 15.475
+    },
+    {
+      "date": "2026-06-05",
+      "close": 11.86
+    },
+    {
+      "date": "2026-06-08",
+      "close": 12.28
+    },
+    {
+      "date": "2026-06-09",
+      "close": 10.77
+    },
+    {
+      "date": "2026-06-10",
+      "close": 10.975
+    },
+    {
+      "date": "2026-06-11",
+      "close": 11.25
+    },
+    {
+      "date": "2026-06-12",
+      "close": 12.53
+    },
+    {
+      "date": "2026-06-15",
+      "close": 13.93
+    },
+    {
+      "date": "2026-06-16",
+      "close": 12.645
+    },
+    {
+      "date": "2026-06-17",
+      "close": 11.95
+    },
+    {
+      "date": "2026-06-18",
+      "close": 12.15
+    },
+    {
+      "date": "2026-06-22",
+      "close": 12.09
+    }
+  ],
+  "price_status": "ok"
+}

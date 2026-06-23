@@ -8,10 +8,330 @@
   "company": "Tesla",
   "industry": null,
   "thesis_summary": null,
-  "first_mention": "2026-06-16",
+  "first_mention": "2026-04-05",
   "last_mention": "2026-06-21",
-  "total_mentions": 2,
+  "total_mentions": 13,
   "mentions": [
+    {
+      "tweet_id": "2040707713198669990",
+      "date": "2026-04-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Tesla",
+      "text": "Samsung Taylor Fab Enters Trial Run Phase… \"Opportunity for 2nm Orders Has Arrived\"\n\nSamsung Electronics' foundry (semiconductor contract manufacturing) plant in Taylor, USA, has entered the trial run phase ahead of its year-end commissioning. The Taylor plant is regarded as a forward operating base for Samsung Electronics' next-generation process production. As AI semiconductor demand floods toward TSMC, the world's No. 1 foundry, analysis suggests that a potential shortage in 2-nanometer process supply capacity (CAPA) could generate spillover benefits for Samsung Foundry.\n\nAccording to industry sources on April 5, Samsung Electronics' foundry plant located in Taylor, Texas, has recently entered the trial run phase and is making final preparations for commissioning. Testing of extreme ultraviolet (EUV) lithography equipment—a core tool for ultra-fine processes—has begun, and key semiconductor manufacturing equipment for etching, deposition, and other processes is being sequentially moved into the cleanroom.\n\nSome sections of the Taylor plant have obtained a Temporary Certificate of Occupancy (TCO). The dispatch of specialist engineers to the site and the recruitment of new personnel have also resumed.\n\nSamsung Electronics has previously stated its plan to commission the Taylor plant this year and begin full-scale mass production next year. It appears to be on track, with major equipment installation to be completed during the first half of the year and critical process testing underway ahead of full commissioning. This is interpreted as a phase aimed at early yield (non-defective ratio) stabilization and process maturation.\n\nThe Taylor plant is expected to produce Samsung Electronics' next-generation 2nm and 4nm process products. In particular, the introduction of the second-generation 2nm process (SF2P) is considered highly likely. Samsung Electronics Foundry has been continuously securing customers for its 2nm process, and the foundry business is assessed to have entered a normalized trajectory.\n\nAt the 2nm node, Samsung Electronics will produce its mobile application processor (AP) Exynos 2600. This chip is expected to be mounted in the Galaxy S26 standard and Plus models, as well as a new Flip model to be released this year. Tesla's AI chips 'AI5' and 'AI6' are also slated for mass production. The industry expects revenue from Tesla-bound AI chips to begin materializing in earnest starting next year.\n\nSamsung is also estimated to have won new AP orders from Qualcomm, with production to take place on the 2nm process. Chip mass production is expected to commence once customers utilizing the new AP products are secured. In addition, Samsung has secured orders for Bitcoin mining ASICs and a 2nm ADAS (Advanced Driver Assistance System) chip from U.S. autonomous driving AI semiconductor company Ambarella.\n\nGiven that Samsung Electronics is betting everything on its 2nm process, discussions on new orders with North American fabless companies and cloud service providers (CSPs) are reportedly ongoing. On the 4nm process, the mass production of base dies for Samsung Electronics' 6th-generation High Bandwidth Memory (HBM4) is also expected to contribute to improved foundry profitability.\n\nHaving applied Gate-All-Around (GAA) technology since its 3nm process, Samsung Electronics is aiming to expand market share at the 2nm node. An industry source explained, \"With the stabilization of Samsung Electronics' GAA technology, yield improvements at the 2nm process have also progressed significantly.\"\n\nCurrently, as global AI semiconductor demand surges, TSMC's leading-edge processes are effectively at full capacity. With orders flooding in, TSMC's 2nm production capacity (CAPA) is reportedly sold out through 2028.\n\nThis situation, coinciding with the commissioning of the Taylor fab, is widely expected to present a new opportunity for Samsung Electronics Foundry. Companies with high TSMC dependency are seeking alternatives, driving increased interest in Samsung Electronics.\n\nKim Hyung-jun, head of the Next-Generation Intelligent Semiconductor Project Group and Professor Emeritus at Seoul National University, said, \"In a situation where TSMC's CAPA is insufficient, companies have no choice but to look for other foundries,\" adding, \"With Samsung Electronics preparing to commission the Taylor fab, the timing presents an opportunity for Samsung Electronics Foundry.\"\n\nHowever, TSMC's expanding investment in the U.S., along with Elon Musk's announcement of the 'Terafab' project to pursue direct semiconductor production, are cited as variables. Kyung Hee-kwon, a research fellow at the Korea Institute for Industrial Economics and Trade (KIET), said, \"The likelihood of increased foundry orders for Samsung Electronics due to spillover effects from TSMC's supply shortage is growing,\" but added, \"TSMC is also strengthening its competitiveness by expanding U.S. investment, so Samsung Electronics must continue to secure technological competitiveness as well.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2040707697688051712",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFIM1sMaAAArTZJ.png",
+          "width": 670,
+          "height": 377,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2040707713198669990",
+      "kind": "post",
+      "engagement": {
+        "views": 16055,
+        "likes": 127,
+        "reposts": 8,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044690158419841535",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Tesla",
+      "text": "[Exclusive] Samsung's U.S. Taylor Fab Nears Launch... \"Tesla Chips to Be Produced from H2\"\n\nSamsung Electronics has completed preparations to bring its Taylor, Texas foundry fab — the centerpiece of its North American market push — online. This comes three years and six months after breaking ground in November 2022. Samsung plans to use the Taylor fab, which will ramp in earnest in the second half of this year, as a forward base to accelerate its pursuit of Taiwan's TSMC.\n\nAccording to industry sources on the 16th, Samsung Electronics will hold a major equipment move-in ceremony at the Taylor fab on the 24th. The event will be attended by Samsung Electronics' key executives, including Foundry Division President Han Jin-man, along with a large contingent of representatives from domestic and international materials, parts, and equipment (MPE) partners.\n\nThe Taylor Fab 1 was originally targeted to begin operations in October 2024, but the construction timeline was somewhat delayed due to issues including order book visibility. After resuming construction last year, Samsung Electronics aggressively expanded local headcount and compressed the construction schedule. A local source said, \"Core equipment began arriving last week,\" adding that \"mass production readiness has effectively crossed the 9th ridge [i.e., is nearly complete].\"\n\nThe first products to mark the Taylor fab's launch are Tesla's next-generation autonomous driving chips, \"AI5\" and \"AI6.\" In July of last year, Samsung Electronics secured approximately $16.5 billion (about KRW 23 trillion) worth of orders from Tesla. Given that Tesla CEO Elon Musk expressed gratitude to Samsung on his X account the previous day, stating that \"AI5 design has been completed,\" the partnership between the two companies is expected to rapidly transition to the production phase. AI5 will be produced by both Samsung Electronics and TSMC, while AI6 will be produced entirely by Samsung Electronics.\n\nThe industry views whether Samsung can meet Tesla's demanding quality standards as the key factor that will determine the trajectory of additional orders. Big Tech companies such as Meta and Microsoft (MS) are facing difficulties securing chips as TSMC prioritizes allocations to Apple and NVIDIA, and there is also significant dissatisfaction with price hikes leveraged from TSMC's dominant position. If Samsung Electronics can prove its capabilities through manufacturing Tesla's chips, a massive opportunity could open up.\n\nSamsung Electronics' decisive bet is its 2nm-based advanced process node applying Gate-All-Around (GAA) architecture. To preempt demand for cutting-edge chips driven by AI advancement, the company abruptly revised its original 4nm plan to 2nm. Through this, Samsung aims to achieve technological differentiation from TSMC's U.S. fab, which operates on a 4nm process.\n\nExpectations for profitability improvement are also high. Once the Taylor fab ramps in earnest, the timing of the Foundry Division's swing to profit — which has previously underperformed relative to massive capital outlays — is expected to be pulled forward.\n\nThe key variable is yield. Samsung Foundry has recently pushed its 2nm process yield up to around 60%, making all-out efforts to secure mass production stability. An industry source said, \"Proving yield at the Taylor fab will be the biggest watershed moment for Samsung Foundry's market share rebound.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044690140149542912",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGAy2WdbcAAbp7F.jpg",
+          "width": 1200,
+          "height": 868,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044690158419841535",
+      "kind": "post",
+      "engagement": {
+        "views": 16534,
+        "likes": 108,
+        "reposts": 14,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2046734266055410164",
+      "date": "2026-04-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$TSLA",
+      "text": "Samsung Electronics to Quadruple Tesla-Custom DRAM Supply Starting This Month\n\nSamsung Electronics has begun ramping up production of GDDR6 graphics DRAM supplied to Tesla starting this month. The move comes after Tesla, which has been struggling to secure memory supply, requested a monthly supply volume roughly four times its previous level starting early this year.\n\nAccording to Edaily's exclusive reporting on the 21st, Samsung Electronics began this month increasing production of 8Gb GDDR6 DRAM supplied to Tesla at its Hwaseong campus. As a result, Samsung's monthly supply of 8Gb GDDR6 to Tesla has expanded to roughly four times the Q1 level.\n\nTesla has reportedly been continuously requesting expanded DRAM supply since Q1 of this year. A source familiar with Samsung stated, \"In January in particular, they asked us to increase supply by more than five times the planned volume.\" Tesla has been sourcing GDDR6 DRAM from Samsung Electronics for its vehicle infotainment and autonomous driving systems.\n\nTesla's latest request for increased production is evidence that even leading Big Tech firms are struggling with memory supply. With commodity DRAM and other memory supply shortages becoming widespread and prices surging, preemptive action was unavoidable. According to market research firm TrendForce, the spot price of GDDR6 8Gb (1GB) stood at $12.335 as of the 13th of this month. Compared to $2.846 on October 20 of last year, the price has more than quadrupled in just six months.\n\nNotably, Samsung Electronics does not plan to significantly increase its overall GDDR6 8Gb production. Furthermore, Samsung is reported to have trimmed its GDDR6 product lineup. This is read as a strategic move to capitalize on the supplier-favorable memory super-cycle.\n\nThe fact that Samsung is nonetheless expanding DRAM supply to Tesla amid these conditions appears to reflect Tesla's importance as a business partner. In particular, Samsung Foundry secured orders for Tesla's Full Self-Driving (FSD) chips AI5 and AI6 last year, creating a turning point for its rebound. Elon Musk recently stated, \"We've finished the AI5 design,\" and expressed gratitude to Samsung Electronics, which will be responsible for production.\n\n$TSLA",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2046734259763953664",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGd19xbaQAASyOy.png",
+          "width": 522,
+          "height": 366,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2046734266055410164",
+      "kind": "post",
+      "engagement": {
+        "views": 47516,
+        "likes": 297,
+        "reposts": 37,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048276078700253652",
+      "date": "2026-04-26",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Tesla",
+      "text": "I really like Tesla, though I don’t own the stock.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048276078700253652",
+      "kind": "self_thread",
+      "engagement": {
+        "views": 16727,
+        "likes": 128,
+        "reposts": 2,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048278104909787640",
+      "date": "2026-04-26",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "skeptical about the valuation"
+      ],
+      "is_risk": true,
+      "conviction": null,
+      "raw_mention": "they",
+      "text": "@NewOpenMindset I’m skeptical about the valuation. I know they make really good products, though.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048278104909787640",
+      "kind": "reply",
+      "engagement": {
+        "views": 688,
+        "likes": 3,
+        "reposts": 0,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2053923807040328073",
+      "date": "2026-05-11",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Tesla",
+      "text": "Interesting.\n\nTesla’s current AI5 chip, codenamed Helios, is reportedly being foundried by TSMC and Samsung, and the next-generation AI6 was also originally expected to be split between those two foundries.\n\nHowever, under strong pressure and encouragement from the Trump administration, the portion of AI6 that was originally assigned to TSMC will reportedly be transferred entirely to Intel Foundry.\n\n$INTC",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2053923799738060800",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIEA0E8bkAAFl0L.jpg",
+          "width": 1319,
+          "height": 1687,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2053923807040328073",
+      "kind": "post",
+      "engagement": {
+        "views": 288775,
+        "likes": 1078,
+        "reposts": 138,
+        "replies": 60
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2060140629649486165",
+      "date": "2026-05-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Tesla",
+      "text": "Samsung Electronics Eyed for Anthropic Chip Order… Foundry Revival Begins\n\nSamsung Electronics has made an investment in Anthropic, the U.S. AI company behind the AI model \"Claude,\" raising the possibility of a foundry partnership in which Samsung would manufacture Anthropic's chips on a contract basis.\n\nSamsung's foundry business, which has run at a loss for several years, has recently landed a string of major global customers, fueling growing expectations for a return to profitability next year.\n\nOn the 28th (local time), Anthropic announced that it had raised $65 billion in its recent Series H funding round, with its post-money valuation assessed at $965 billion (about 1,440 trillion won).\n\nThe three major memory semiconductor manufacturers—Samsung Electronics, SK Hynix, and Micron—participated in this funding round as \"strategic infrastructure partners.\"\n\nAnthropic emphasized that \"the technologies of these companies play a critical role in the global supply of memory, storage, and logic chips,\" adding that \"partnerships with them will be a great help in reliably scaling computing capacity to meet customer needs.\"\n\nAnthropic's mention of \"logic chips\" in its announcement has prompted speculation about a foundry partnership with Samsung Electronics. The process of manufacturing logic chips is foundry work, and aside from Samsung Electronics, neither Micron nor SK Hynix has a foundry division. For this reason, the industry analyzes that Samsung Electronics and Anthropic will newly collaborate not just at the memory level but also in foundry.\n\nThis implies a high likelihood that Samsung Electronics will produce the AI chips used in Anthropic's flagship model \"Claude.\" Anthropic, alongside OpenAI, is regarded as one of the world's leading AI model companies and a core AI player. The prevailing view is that Samsung's foundry has secured yet another major customer, following Tesla, NVIDIA, and others.\n\nEarlier, Samsung Electronics won orders for Tesla's next-generation AI chips, \"AI5\" and \"AI6.\" Samsung's foundry is also handling production of an upgraded version of \"AI4.\" NVIDIA's inference-dedicated language processing unit (LPU) chip \"Grok3\" is likewise being produced through Samsung's foundry. Samsung Electronics also plans to supply the image sensor to be mounted in Apple's new iPhone next year.\n\nAccordingly, attention is focused on whether Samsung Electronics' foundry business—which has run at a loss in recent years—can regain its vitality. As of last year, Samsung Electronics held second place (7.2%) in the global foundry market, but the gap with first-place TSMC (69.9%) reaches 62.7 percentage points.\n\nRegarding Samsung's investment in Anthropic, the industry views it as strategic cooperation spanning \"AI semiconductors, memory, foundry, and AI infrastructure.\" Samsung Electronics is positioning a \"one-stop solution\"—encompassing high-bandwidth memory (HBM), advanced foundry processes, and advanced packaging—as its differentiation point. As the AI market evolves into an ecosystem centered not only on HBM supply but also AI chip design, production, packaging, and system optimization, the move is interpreted as Samsung strengthening partnerships by leveraging its competitiveness across the semiconductor spectrum.\n\nA semiconductor industry official said, \"Samsung's investment is not a simple equity stake in an AI company, but is interpreted as a signal that Samsung is earnestly expanding strategic relationships with the key players of the AI era,\" adding, \"Expectations are growing as to whether Samsung's foundry business can seize another opportunity amid the expansion of the AI market.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2060140603644715008",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJcW9sOaIAAwwUC.jpg",
+          "width": 1200,
+          "height": 655,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2060140629649486165",
+      "kind": "post",
+      "engagement": {
+        "views": 49977,
+        "likes": 383,
+        "reposts": 55,
+        "replies": 16
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2060240759308357686",
+      "date": "2026-05-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Tesla",
+      "text": "Samsung Electronics: \"Taylor Fab Ready for Operation... Mass Production Next Year\"\n\nSamsung Electronics has reaffirmed that it will begin ramp production at its Taylor fab in Texas, USA, starting next year.\n\nMargaret Han, Vice President of Samsung Electronics' Foundry U.S. division, stated at the SAFE (Samsung Advanced Foundry Ecosystem) Forum held at Samsung's U.S. headquarters on the 28th (local time), \"Customers will begin production at the Taylor fab starting next year,\" adding, \"We are ready.\"\n\nPreviously, during the first-quarter earnings conference call this year, Samsung had described the Taylor fab as \"under construction,\" with a goal of timely operation within the year. Construction of the Taylor fab began in 2022. The total expected investment is $17 billion (approximately ₩25.5 trillion), and it will produce Tesla's autonomous-driving chips AI5 and AI6, among others.\n\nThe fab will also adopt the Advanced 2nm process. Han said, \"We will strengthen our long-term production capacity at the Taylor fab,\" and \"We will establish the most advanced 2nm production capacity at Taylor Fab 1 this year.\"\n\nSamsung is analyzed to be building out the SF2P+ (second-generation enhancement) process at the Taylor fab. Samsung had previously announced that SF2P+ would enter operation in 2026–2027. The 2nm process is divided into SF2 (first generation), SF2P (second generation), SF2P+, and SF2X (third generation for AI/HPC), among others. With each successive generation, power, performance, and area (PPA) improve.\n\nSF2P+ is a process that improves PPA while maintaining the same design IP as SF2P. It has been finely tuned for AI workloads. Performance is reportedly improved by up to 30%.\n\nDetailed information on the leading-edge processes is scheduled to be shared with partner companies this coming July. Samsung will hold the SAFE Forum again at its Seocho headquarters in July. The SAFE Forum is an occasion where Samsung and its foundry partners share technology trends across fields such as IP, design, and packaging, and strengthen collaboration.\n\nLater that same month, Samsung is reported to host the Samsung Foundry Forum (SFF). The Foundry Forum is an event where Samsung unveils its foundry technology roadmap to partner companies.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2060240759308357686",
+      "kind": "post",
+      "engagement": {
+        "views": 65315,
+        "likes": 222,
+        "reposts": 20,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2061611485932200180",
+      "date": "2026-06-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Tesla",
+      "text": "Samsung Foundry Breaks Into China’s Largest Automaker BYD With Automotive Chips\n\nSamsung Electronics’ foundry division has been found to be in talks with China’s top electric vehicle maker BYD and other local automakers over a series of contracts for autonomous driving systems on chip (SoC). As SMIC, China’s largest foundry, shows a wide technology gap versus Samsung Electronics, local automakers are approaching Samsung’s foundry about chip production.\n\nAccording to the semiconductor industry on the 1st, Samsung Electronics has been confirmed to be in discussions with BYD and other major automakers over orders for 2nm (nanometer, one billionth of a meter) and 4nm process production. If the orders go through, local automakers far larger than the Chinese EV maker NIO, which currently uses Samsung’s 5nm process to make autonomous driving chips, would join the client roster.\n\nAn industry official said, “The core area Samsung’s foundry is now most focused on in the Chinese market is automotive electronics,” adding, “It is actively pursuing technical discussions with major Chinese automakers to produce next generation automotive SoCs on Samsung’s foundry’s leading edge processes.”\n\nBehind the courtship that Chinese automakers are sending Samsung Electronics lies a structural limitation in China’s foundry ecosystem. SMIC, the largest foundry in China, currently implements a 7nm class process. But the dominant assessment is that it has a stark technology gap versus Samsung Electronics and TSMC when it comes to the fine process capabilities needed for next generation autonomous driving chips.\n\nIn particular, SMIC’s leading edge 7nm production line is fully booked with volume from a handful of strategic customers such as Huawei. Most of SMIC’s remaining production lines are skewed toward older processes of 14nm and above, making it difficult to meet the demands of Chinese automakers.\n\nThe reason Chinese companies have requested collaboration with Samsung Electronics reflects this reality. To achieve full autonomous driving, AI chips made on 4nm and even 2nm processes are required. Because autonomous driving chips must process large volumes of data inside the vehicle in real time, compute performance, power efficiency, and thermal management are all important.\n\nAbove all, because autonomous driving chips directly affect driving range and safety, automakers have no choice but to select a foundry with strong fine process competitiveness. For this reason, Chinese automakers have acknowledged SMIC’s slow pace of process innovation and pivoted toward entrusting chip production to Samsung Electronics’ foundry. Samsung Electronics’ 4nm process has now entered a mature stage where yields are stabilizing, and its most advanced 2nm process applying gate all around (GAA) technology has had its mass production capability recognized to the point that Tesla has entrusted it with manufacturing its next generation AI chip (AI6).\n\nAn industry official said, “With SMIC still showing limitations in the most advanced processes, Samsung Electronics is the most realistic alternative Chinese companies can choose aside from TSMC.” He added, “The fact that Samsung Electronics holds its own automotive chip design and mass production experience, such as ‘Exynos Auto,’ through its System LSI division is also a factor raising the trust of Chinese companies.”\n\nThe industry expects that, following Chinese automakers, Chinese big tech companies will eventually knock on the door of Samsung Electronics’ foundry as well. This is because Chinese big tech players such as Alibaba, Tencent, ByteDance, and Baidu are now staking everything on developing their own AI semiconductors and securing data center chips.\n\nBecause these companies are included on the list targeted by the US government’s semiconductor export controls against China, it would be difficult for them to place large orders with Samsung Electronics’ foundry right away. But the landscape could change depending on shifts in US China relations or any easing of export restrictions. The industry judges that Chinese AI chip developers that have collaborated with Samsung Electronics in the past, such as Baidu, are strong potential customers.\n\nAn industry official said, “Chinese companies showing interest in Samsung’s foundry is a move to find a leading edge process alternative rather than a choice to evade sanctions,” adding, “If they secure trust in automotive chips, the scope of cooperation could later widen to AI chips and high performance computing chips.”",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2061611485932200180",
+      "kind": "post",
+      "engagement": {
+        "views": 59928,
+        "likes": 354,
+        "reposts": 38,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2063753367462256665",
+      "date": "2026-06-07",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Tesla",
+      "text": "[Exclusive] Samsung Foundry Expected to Return to Profit in Q3 This Year… \"Entering Growth Trajectory After Four Years\"\n\nObservations are emerging internally that Samsung Electronics' foundry division could succeed in turning a profit as early as the third quarter of this year. Analysts point to improved production volumes of advanced 2nm process nodes and the base die used in high bandwidth memory (HBM) as factors giving momentum to profitability improvement.\n\nAccording to the industry on the 8th, the timing of the breakeven target that Samsung Electronics' foundry division had set is expected to be moved up to the third quarter of this year, from the originally projected end of this year through next year, on the back of yield improvements and the effect of large order wins. This would mark an earnings recovery roughly four years after the trillion won scale operating losses that began in 2022. There is an assessment that the foundry division, long identified as the Achilles heel of Samsung's semiconductor business, has entered a structural improvement trajectory faster than expected.\n\nFirst, Samsung Electronics' advanced process is performing better than expected. Samsung Electronics is reported to have raised the yield of its 2nm GAA (gate all around) process to over 60% as of the first quarter of this year. While it still falls short of the 70% level regarded as the benchmark for mass production economics, the industry assesses this as a sufficient level to carry out initial volume production while simultaneously securing new customers. In its first quarter 2026 earnings announcement in April, Samsung Electronics said that \"utilization of its advanced process lines has reached maximum levels.\" Despite the seasonal off peak period, it is understood to have achieved double digit revenue growth compared to the same period a year earlier.\n\nIn addition, the customer acquisition activity that has continued since last year is set to convert into full scale revenue in the second half. Samsung Electronics signed a 22.8 trillion won long term supply contract for autonomous driving chips with Tesla in July last year, and plans to begin 2nm mass production of AI5 and AI6 chips at its Taylor plant in Texas, USA, starting in the second half of this year. NVIDIA CEO Jensen Huang also publicly certified Samsung Electronics' contract manufacturing when he unveiled the AI inference dedicated chip \"Grok3\" during his keynote at \"GTC 2026\" in March.\n\nThe scale of orders is also growing rapidly. Samsung Electronics internally projects that the number of 2nm related orders this year will increase by more than 130% compared to the previous year, and beyond Tesla and NVIDIA, it is expanding the scope of cooperation with multiple big tech firms including Apple and Nintendo. There are also reports that the volume of sixth generation HBM (HBM4) base die has already reached a sold out level.\n\nCost soundness is also expected to improve as mass production ramp up at the Taylor fab soon reverses the fixed cost structure. The Taylor fab, into which 37 billion dollars (about 54 trillion won) was invested, had been a factor deepening the foundry division's losses by generating enormous construction costs. An official familiar with Samsung Electronics explained that \"once mass production gets into full swing in the second half, the calculation shows that the depreciation burden could instead turn into a fixed cost dilution effect, sharply improving the profit and loss structure.\"\n\nThe fact that the advanced process lines of competitor TSMC of Taiwan have effectively entered a saturated state due to a surge in demand for AI accelerators is also working in Samsung Electronics' favor. Some fabless (semiconductor design) firms are actively considering Samsung Electronics as an alternative, and there are observations that AMD is reviewing a dual foundry strategy for a portion of its next generation graphics processing unit (GPU) volumes.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2063753343609282560",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKPsu1XbIAAnxYT.png",
+          "width": 616,
+          "height": 411,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2063753367462256665",
+      "kind": "post",
+      "engagement": {
+        "views": 62095,
+        "likes": 405,
+        "reposts": 54,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064254581333209275",
+      "date": "2026-06-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Tesla",
+      "text": "Samsung Electronics: The Last Piece in Normalizing Its Semiconductor Business Is ‘Packaging’\n\nSamsung Electronics’ semiconductor business has moved into a full rebound led by high bandwidth memory (HBM) and foundry. In advanced packaging, however, which has emerged as a core of AI chip manufacturing, the company has yet to establish a clear presence. The industry view is that securing major customers in 2.5D packaging, in particular, is urgent.\n\nAccording to industry sources on the 8th, cumulative shipments of Samsung Electronics’ in house 2.5D packaging technology ‘Cube’ are understood to still be small. The orders secured so far are also said to consist largely of startup initial volumes or short term, project based work. This stands in contrast to major competitors TSMC and Intel, which are aggressively expanding their 2.5D packaging businesses.\n\nTSMC and Intel Surge Ahead… Samsung Electronics Lacks Major 2.5D Packaging Customers\n\n2.5D packaging is a technology that inserts a thin film interposer between the semiconductor chip and the substrate to boost chip performance. Its importance is growing steadily in the semiconductor industry. This is because AI accelerators, an essential element of AI data centers, are made by integrating high performance system semiconductors and HBM through 2.5D packaging. Indeed, during the period when the HBM market was expanding, Samsung Electronics wielded as a weapon a business model offering its foundry, HBM, and 2.5D packaging on a turnkey basis.\n\nIn packaging, Samsung Electronics has worked since 2024 to expand the market for its in house 2.5D packaging technology Cube. However, there is no confirmed case yet of Samsung Electronics’ 2.5D packaging being adopted in a big tech AI accelerator. The customers currently using Samsung Electronics’ 2.5D packaging are understood to include IBM of the US and Rebellions, a domestic AI fabless startup.\n\nOne industry official in packaging explained, “Customers that have adopted Samsung Electronics’ 2.5D packaging platform remain at low shipment volumes or short term, project based production on a monthly cycle,” adding, “Now that we have entered an era in which advanced packaging significantly determines chip performance, Samsung Electronics also needs to concentrate on reinforcing its competitiveness in this field.”\n\nThis contrasts with Samsung Electronics’ main competitors TSMC and Intel, each of which is achieving remarkable growth in 2.5D packaging.\n\nTSMC, which leads the global foundry market, is executing investments to expand the production capacity of its in house 2.5D packaging ‘Chip on Wafer on Substrate (CoWoS)’ from around 35,000 wafers per month at the end of last year to around 130,000 wafers per month by the end of this year.\n\nIntel is moving into full commercialization of its 2.5D packaging ‘Embedded Multi die Interconnect Bridge (EMIB).’ Google is reported to have adopted EMIB for mass production of its own AI chip, the Tensor Processing Unit (TPU), and is expected to begin mass production from next year.\n\nLarger Chips… Samsung Electronics Sees a Possible Turnaround with PLP\n\nIt is not as though Samsung Electronics has no opportunities. The company is currently shifting the development direction of its 2.5D packaging from the existing wafer level packaging (WLP) to panel level packaging (PLP).\n\nPanel level packaging is a process that performs packaging on a wide rectangular panel. Compared with packaging on the existing wafer (300mm in diameter), it offers a larger area and allows chips to be arranged efficiently, resulting in higher productivity. In particular, with recent AI semiconductors growing in chip size to improve performance, the applicability of PLP is expected to expand.\n\nAccordingly, Samsung Electronics is applying PLP instead of WLP to Cube, while also pursuing commercialization of ‘System on Panel (SoP)’ for ultra large chips. SoP is a technology that joins multiple semiconductors together on a large rectangular panel, and is currently being developed at a size of 415x510mm.\n\nAnother industry official in packaging stated, “Samsung Electronics’ neglect of mass production development for advanced packaging technology for system semiconductors, relative to memory semiconductors, risks acting as a factor that undermines its future business competitiveness,” and noted, “At the point when PLP application begins in earnest in the AI chip field, it will need to quickly secure I-Cube customers.”\n\nMeanwhile, setting aside 2.5D packaging, Samsung Electronics’ semiconductor business is showing a clear overall improvement this year. Aggressive AI infrastructure investment by global big tech has greatly increased demand for advanced semiconductors, and the development of advanced processes has also picked up speed.\n\nIn February, Samsung Electronics began mass production shipments of HBM4 (the 7th generation of HBM) for NVIDIA, laying the cornerstone for a rebound in its sluggish HBM business. The company has also set a plan to expand HBM shipments by more than three times year over year this year. There are expectations that the foundry business will turn to profit as early as the second half of this year. It has recently attracted Tesla, NVIDIA, and Groq, among others, as advanced process customers.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2064254581333209275",
+      "kind": "post",
+      "engagement": {
+        "views": 49871,
+        "likes": 276,
+        "reposts": 25,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2067092746364748272",
       "date": "2026-06-16",
@@ -37,7 +357,7 @@
       "url": "https://x.com/jukan05/status/2067092746364748272",
       "kind": "post",
       "engagement": {
-        "views": 148674,
+        "views": 148679,
         "likes": 390,
         "reposts": 52,
         "replies": 15
@@ -70,7 +390,7 @@
       "url": "https://x.com/jukan05/status/2068833982037565498",
       "kind": "post",
       "engagement": {
-        "views": 74714,
+        "views": 74758,
         "likes": 278,
         "reposts": 30,
         "replies": 15
@@ -97,7 +417,5 @@
       "close": 405.05
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-23T19:16:01.108201+00:00"
+  "price_status": "ok"
 }

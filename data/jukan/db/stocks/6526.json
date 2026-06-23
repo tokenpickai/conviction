@@ -1,0 +1,55 @@
+{
+  "ticker": "6526",
+  "cashtag": "Socionext",
+  "price_symbol": "6526",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-20",
+  "last_mention": "2026-05-20",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2057309184220356953",
+      "date": "2026-05-20",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "called out possibility of hyperscaler customer announcement",
+        "CEO acknowledged likely participation in Arm's AGI CPU",
+        "stock up 18%"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Socionext",
+      "text": "On April 27, we called out the possibility that Socionext could announce a potential hyperscaler customer, and today Socionext’s CEO acknowledged that the company is likely to participate in Arm’s AGI CPU.\n\nAs a result, the stock is now up 18%.\n\nThere is just too much alpha in Citrini Chat…",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2057308728039546880",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HI0HY1gboAAWfZ0.png",
+          "width": 808,
+          "height": 1144,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2057309184220356953",
+      "kind": "post",
+      "engagement": {
+        "views": 35912,
+        "likes": 166,
+        "reposts": 17,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

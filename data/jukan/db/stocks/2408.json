@@ -1,0 +1,160 @@
+{
+  "ticker": "2408",
+  "cashtag": "Nan Ya",
+  "price_symbol": "2408.TW",
+  "exchange": "Taiwan",
+  "currency": "TWD",
+  "ticker_mapped": true,
+  "company": "Nanya Technology",
+  "industry": "Memory/DRAM",
+  "thesis_summary": null,
+  "first_mention": "2026-04-13",
+  "last_mention": "2026-06-19",
+  "total_mentions": 5,
+  "mentions": [
+    {
+      "tweet_id": "2043624805057061225",
+      "date": "2026-04-13",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "cannot enter HBM",
+        "cannot even make 1c DRAM"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nanya",
+      "text": "@zephyr_z9 It is impossible for Nanya to enter HBM. They cannot even make 1c DRAM.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043624805057061225",
+      "kind": "reply",
+      "engagement": {
+        "views": 6089,
+        "likes": 34,
+        "reposts": 0,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045426271287644425",
+      "date": "2026-04-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nanya",
+      "text": "GigaDevice Teams Up with CXMT to Scale DRAM Business to $800 Million\n\nChinese fabless firm GigaDevice is set to meaningfully expand its DRAM business on the back of nearly KRW 1 trillion in related-party transactions. By combining CXMT's (ChangXin Memory Technologies) production capacity with GigaDevice's distribution network, the move is seen as an attempt to amplify their collective influence — and analysts suggest it could emerge as a new variable in the global supply landscape.\n\nAccording to industry sources, GigaDevice is scheduled to vote at its annual shareholders' meeting on the 24th on a proposal to purchase a total of USD 825 million (approximately KRW 1.2 trillion) worth of DRAM this year from ChangXin Technology (CXMT's parent) and CXMT itself. This represents roughly 6x the USD 173.42 million actually executed last year.\n\nThe transaction effectively binds DRAM production and sales within the same corporate family. CXMT will handle manufacturing, while GigaDevice will take charge of product development and market distribution. Given that Chairman Zhu Yiming concurrently chairs both CXMT and GigaDevice, the deal is being interpreted as more than a simple volume arrangement — rather, as a strategic move by China to simultaneously build out its own supply and distribution channels in the legacy DRAM space.\n\nGigaDevice has historically been a fabless company focused on NOR Flash and MCUs. With this transaction, however, it is expected to aggressively expand into directly developing and selling DRAM products — including DDR3, DDR4, and LPDDR4 — leveraging CXMT's manufacturing base. With commodity DRAM undersupply and rising prices persisting, this integrated production-and-sales structure is seen as increasing the potential for a reshuffling of the legacy DRAM market.\n\nIn particular, as surging AI server demand and the concentration of HBM production have pushed Samsung Electronics, SK Hynix, and Micron to shift capacity toward leading-edge products, commodity DRAM supply has become relatively tight.\n\nDaniel Niu, a researcher at Yole Group, noted that \"GigaDevice's move could intensify competitive pressure on incumbent DRAM suppliers such as Winbond, Nanya, and PSMC, as well as on fabless suppliers like ISSI.\"\n\nHe added, \"GigaDevice's DRAM revenue is expected to exceed USD 200 million in 2025,\" and projected that \"if increased supply coincides with a favorable pricing environment and a substantial portion of the procured DRAM translates into sales this year, DRAM revenue could approach USD 1 billion.\"\n\nThe global DRAM market is currently entrenched as a three-way oligopoly led by SK Hynix, Samsung Electronics, and Micron. However, should China — through intra-group collaboration — build price and volume competitiveness in legacy DRAM, observers note it could become a non-trivial source of pressure on the existing market order, particularly in the commodity product segment.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2045425618968539136",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGLPw2kacAAfUaq.png",
+          "width": 500,
+          "height": 378,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2045426271287644425",
+      "kind": "post",
+      "engagement": {
+        "views": 57240,
+        "likes": 129,
+        "reposts": 10,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045455302871699556",
+      "date": "2026-04-18",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "GigaDevice/CXMT DRAM expansion could hurt Nanya"
+      ],
+      "is_risk": true,
+      "conviction": null,
+      "raw_mention": "Nanya",
+      "text": "@Philip_pan2008 Bro, I know this won’t have any impact on SK hynix or Micron. What I’m worried about is companies like Nanya.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2045455302871699556",
+      "kind": "reply",
+      "engagement": {
+        "views": 2066,
+        "likes": 3,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048538528708182253",
+      "date": "2026-04-26",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nanya",
+      "text": "Is this real? Did Nanya actually enter the Vera Rubin LPDDR5 supply chain?\n\nhttps://t.co/00z07zJaKH",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048538528708182253",
+      "kind": "post",
+      "engagement": {
+        "views": 53124,
+        "likes": 169,
+        "reposts": 10,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2067828295232786898",
+      "date": "2026-06-19",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "global leader in glass fiber E glass",
+        "favored by major North American AI players",
+        "capacity effectively locked up by NVIDIA supply chain",
+        "capacity at full utilization",
+        "supply shortages intensifying and prices rising",
+        "NVIDIA accepting mixed T glass and E glass application to pull forward shipments",
+        "revenue share of electronic materials segment could expand to 60%"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Nan Ya",
+      "text": ">> Nan Ya E Glass Sees Hot Demand as Price Hikes Loom; President Chou Ming-jen Says Talks with Customers Continue\n\n- According to the latest disclosure from Kingboard, a leading CCL maker in mainland China, the price of glass fiber E glass raw material will be raised by 15% starting this week.\n- This suggests that amid widening supply shortages, the price increase is being accepted by customers.\n- Nan Ya noted that Kingboard has already raised prices several times this year, primarily reflecting market supply and demand conditions. Nan Ya likewise plans to continue price negotiations with its customers going forward.\n- Nan Ya is a global leader in glass fiber E glass and is favored by the major North American AI players. Some market observers suggest that Nan Ya's relevant capacity has effectively already been locked up by the NVIDIA supply chain.\n- Supply of CCL materials is failing to keep pace with demand, and Nan Ya's capacity has now reached full utilization.\n- According to the industry, due to the low yields of advanced glass fiber cloth such as T glass and Low Dk, NVIDIA has recently accepted a mixed application of T glass and E glass by suppliers in order to pull forward shipments of high end AI servers.\n- With global E glass capacity having been converted on a large scale to other applications in recent years, the supply shortage has intensified and price increase moves across the industry are also spreading.\n- Nan Ya Chairman Wu Chia Chao noted that, driven by strong AI demand, utilization rates for epoxy resin, glass fiber cloth, and glass fiber yarn have now approached nearly full capacity.\n- Overall utilization of CCL and copper foil has also reached the 80 to 90% level, and he explained that the revenue share of the electronic materials segment could expand further to as much as 60% going forward.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2067828295232786898",
+      "kind": "post",
+      "engagement": {
+        "views": 103838,
+        "likes": 194,
+        "reposts": 20,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

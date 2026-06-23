@@ -1,0 +1,464 @@
+{
+  "ticker": "AMAT",
+  "cashtag": "AMAT",
+  "price_symbol": "AMAT",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": "Applied Materials",
+  "industry": "Semiconductor Equipment",
+  "thesis_summary": null,
+  "first_mention": "2026-03-31",
+  "last_mention": "2026-06-10",
+  "total_mentions": 7,
+  "mentions": [
+    {
+      "tweet_id": "2038926893785788532",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AMAT",
+      "text": "SK Hynix Places First Order for Applied Materials–Besi Hybrid Bonding Equipment\n\nSK Hynix has decided to purchase production-grade hybrid bonding equipment for the development of next-generation High Bandwidth Memory (HBM).\n\nAccording to industry sources on March 31, SK Hynix placed an order last month for one hybrid bonding inline system co-developed by Applied Materials (US) and Besi (Netherlands). The price is understood to be around KRW 20 billion (~USD 14 million). The inline system comprises Applied Materials' chemical mechanical planarization (CMP) and plasma treatment equipment alongside Besi's hybrid bonder. It will be installed in a development line in the near future. This marks the first time SK Hynix has purchased a production-grade hybrid bonding system.\n\nAn industry official noted, \"Hybrid bonding is expected to be applied to HBM from the generation after next onward,\" adding, \"This order is for a production-type tool, but it is a forward-looking move aimed at development.\"\n\nHybrid bonding is poised to become a core technology for next-generation semiconductor manufacturing. The essence of hybrid bonding lies in placing a chip die directly onto a processed wafer so that copper (Cu) pads are brought into direct contact. Prior to bonding, a CMP step is required for surface planarization, followed by plasma-based post-treatment under vacuum. Because copper is connected directly to copper, integration density can be increased while interconnect lengths are reduced—enabling improved device performance and lower power consumption.\n\nBesi is widely regarded as the global leader in the hybrid bonding equipment market. In die bonding equipment specifically, the company holds a technological edge over competitors in both precision and throughput.\n\nThe fruits of the Applied–Besi collaboration are already running on TSMC's production lines. TSMC has used the equipment to commercialize AMD's 3D V-Cache technology—a scheme that vertically stacks high-speed cache memory on top of a processor, dramatically improving data access speeds required for high-performance computing. The Applied–Besi hybrid bonding inline system is also expected to be deployed for Broadcom's custom AI ASICs.\n\nThat said, the exact methodology by which SK Hynix plans to apply hybrid bonding to HBM has not been disclosed. According to industry sources, the most likely approach is die-to-wafer (D2W) bonding, where the first DRAM core die is placed onto the base die wafer, followed by die-to-die (D2D) stacking in which DRAM dies are added one layer at a time. An alternative approach is also under review: two DRAM dies would first be hybrid-bonded together at the wafer level, and these pairs would then be stacked sequentially. For a 16-high stack, this method could halve the number of stacking steps to eight.\n\nA memory industry official said, \"It has not yet been determined which method will be adopted,\" adding, \"Various approaches will be tested to find the one that delivers optimal performance while maintaining yield.\"\n\nBeyond the Applied–Besi inline system, SK Hynix also plans to bring in a hybrid bonding tool developed by Hanwha Semitech for quality testing in the near future. Samsung Electronics has likewise already introduced Besi equipment for development purposes, and has recently begun quality-testing a hybrid bonder from SEMES as well. However, the SEMES tool is understood to be less mature in terms of completeness.\n\n$AMAT",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038926845123653632",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEu5KbaacAAJ3HM.png",
+          "width": 600,
+          "height": 338,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038926893785788532",
+      "kind": "post",
+      "engagement": {
+        "views": 129076,
+        "likes": 234,
+        "reposts": 28,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2038933745626149308",
+      "date": "2026-03-31",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AMAT",
+      "text": "@pauluscremers This is a completely new order.\n\nThe equipment ordered this time is for mass production, which makes it fundamentally different from the one previously purchased for R&amp;D.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2038933745626149308",
+      "kind": "reply",
+      "engagement": {
+        "views": 1342,
+        "likes": 11,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041002619553149384",
+      "date": "2026-04-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMAT",
+      "text": "According to Counterpoint Research, SK hynix is expected to adopt hybrid bonding for HBM5 using hybrid bonding equipment from BESI and AMAT.\n\nSK hynix is expected to bring HBM5 to market around 2029 to 2030. https://t.co/Y7WqKGVBoR",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2041002591811981312",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFMZCyaa0AA8n4F.jpg",
+          "width": 988,
+          "height": 423,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2041002619553149384",
+      "kind": "post",
+      "engagement": {
+        "views": 33390,
+        "likes": 248,
+        "reposts": 32,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051205348854542495",
+      "date": "2026-05-04",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Applied Materials",
+      "text": "Netherlands' BESI: Samsung's Hybrid Bonding Adoption Decision Coming Soon\n\nSamsung Electronics is expected to introduce hybrid bonding technology — projected to be at the heart of next-generation semiconductor production — around the middle of this year.\n\nDutch back-end equipment company BE Semiconductor Industries (BESI) stated during its Q1 earnings conference call on April 23 that \"we should see more definitive news around the middle of this year regarding Samsung Electronics' (hybrid bonder adoption).\" This is largely consistent with the outlook shared during the Q4/full-year 2025 earnings call in February, which indicated Samsung would adopt hybrid bonding in Q2.\n\nUnlike conventional thermo-compression (TC) bonding, hybrid bonding does not use fine metal bumps to connect stacked semiconductor dies. Instead, it is an advanced packaging technology that directly connects the copper (Cu) surfaces of two chips. When applied to High Bandwidth Memory (HBM) and new high-layer-count NAND flash, it can deliver performance improvements, reduced power consumption, and cost savings — because the direct copper-to-copper connection enables higher integration density and shorter interconnect lengths.\n\nThat said, some observers suggest that hybrid bonding adoption could be delayed as the Joint Electron Device Engineering Council (JEDEC) moves to relax packaging height limits for next-generation HBM. On this point, BESI CEO Richard Blickman explained, \"The only reason (JEDEC) is looking to relax HBM thickness specifications is because one of the three memory companies needs that height for its process,\" adding that \"the other two are not affected by this change.\" The major HBM players are Samsung Electronics, SK Hynix, and Micron. The implication is that two of these three are pursuing hybrid bonding adoption for reasons beyond height considerations.\n\nHybrid bonding produces chip-to-chip gaps of around 7 micrometers (㎛), which makes it advantageous for reducing the total thickness (height) of HBM packages. JEDEC is reportedly considering raising the height limit from the current 775㎛ to either 825㎛ or 900㎛. Analysts argue that if the package height limit is relaxed, the lifespan of existing TC bonding technology would be extended, while the introduction of hybrid bonding could be delayed — since hybrid bonding would no longer be required simply to reduce thickness.\n\nBlickman emphasized, \"The advantages of hybrid bonding over conventional TC bonding — faster circuit speeds, lower power consumption, and reduced heat — are being increasingly clearly demonstrated,\" and \"as Samsung Electronics has publicly disclosed, because of these technical benefits, (the relaxation of HBM thickness limits) has not changed the pace or rate of hybrid bonding adoption.\"\n\nSamsung Electronics introduced its hybrid bonding technology for HBM at NVIDIA's annual developer conference, GTC 2026, last March. At the time, Samsung stated that hybrid bonding improves thermal resistance by more than 20% versus TC bonding and supports 16-high and higher stacks. Interconnect density is also higher. According to BESI, hybrid copper bonding (HCB) offers 15× the interconnect density of TC bonding and more than 100× the energy-efficiency performance (EEP).\n\nBESI expects mass production of hybrid-bonding-based HBM to begin next year. Blickman explained, \"All three manufacturers are conducting equipment evaluations against the same criteria set by a specific end customer,\" and \"that end customer has asked the memory makers to secure hybrid-bonded stacked products by the end of this year, with the goal of bringing finished products to market next year.\" The end customer in question is most likely NVIDIA.\n\nBESI is regarded as the global leader in the hybrid bonding equipment market. It holds a technological edge in both precision and throughput, particularly in die bonding equipment. Applied Materials, the world's largest semiconductor equipment company, holds a 9% stake, making it BESI's largest shareholder.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2051205325383155712",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHdYYCzaQAA1oDA.png",
+          "width": 600,
+          "height": 309,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2051205348854542495",
+      "kind": "post",
+      "engagement": {
+        "views": 46594,
+        "likes": 242,
+        "reposts": 30,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2055026707321786430",
+      "date": "2026-05-14",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "extremely broad equipment portfolio allowing bundled solutions across multiple tools",
+        "structural advantage over companies focused on refining individual tools",
+        "a fab does not run on a single piece of equipment"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AMAT",
+      "text": "AMAT’s strength is that even if each individual tool may lag competitors in performance, AMAT has an extremely broad equipment portfolio, allowing it to propose bundled solutions across multiple tools. That gives them a structural advantage over companies that focus on refining individual tools one by one. After all, a fab does not run on a single piece of equipment.\n\n$AMAT",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2055026707321786430",
+      "kind": "post",
+      "engagement": {
+        "views": 39696,
+        "likes": 215,
+        "reposts": 8,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064649200961495248",
+      "date": "2026-06-10",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Applied Materials",
+      "text": "[Exclusive] Hanwha Semitech Supplies hybrid bonding cluster to SK Hynix\n\nHanwha Semitech has supplied SK Hynix with an integrated die-to-wafer (D2W) hybrid bonding system (cluster) that combines multiple process steps into one. The system is undergoing quality evaluation as the company works to improve its completeness. In addition, Hanwha Semitech is understood to have supplied SK Hynix with additional thermo-compression (TC) bonders for HBM4 production.\n\nAccording to industry sources on the 10th, Hanwha Semitech's second-generation D2W hybrid bonder, the 'SHB2 Nano' model, was moved into a line at an SK Hynix fab in April. It was delivered not as a standalone hybrid bonder but in cluster form. It is currently undergoing quality evaluation by SK Hynix, with improvement work in progress.\n\nA hybrid bonding cluster refers to the integration of all equipment required for the hybrid bonding process into a single system. A representative example is 'Kinex,' jointly developed by Applied Materials and BE Semiconductor Industries (Besi). It combines Applied Materials' plasma pre-treatment (activation), deionized (DI) water cleaning, and metrology systems with Besi's hybrid bonder.\n\nHanwha Semitech's hybrid bonding cluster has a structure similar to Kinex. At the front end of the cluster is an equipment front-end module (EFEM) from Cymechs. The EFEM takes wafers out of the front opening unified pod (FOUP) and delivers them to the process equipment.\n\nNext comes Hanwha Semitech's in-house plasma activation module. Plasma activation is a process in which plasma is irradiated onto the wafer surface to change its chemical and physical properties, rendering it hydrophilic so that hydroxyl groups (OH) can readily attach.\n\nA cleaning module from Zeus is also incorporated. Wet-cleaning the activated wafer with DI water removes foreign matter (particles). As water molecules bond with the wafer surface, OH groups are formed. The OH groups ensure that when the die and wafer come into contact, the dielectric bonds before the copper does.\n\nThe final component of the cluster is Hanwha Semitech's SHB2 Nano, which performs the hybrid bonding process of aligning and bonding the die to the wafer.\n\nHanwha Semitech had originally been in talks with PSK Holdings to secure plasma activation equipment through the end of last year. PSK Holdings is the parent company of PSK, which possesses plasma-based dry cleaning equipment. However, the collaboration appears to have fallen through as Hanwha Semitech developed its own plasma activation module.\n\nAccording to industry sources, there are three reasons hybrid bonder makers supply equipment to customers in cluster form. Hybrid bonding involves nanometer-scale precision bonding, so even fine dust can easily cause defects. As a result, an ISO Class 3 environment must be maintained. ISO Class 3 denotes a high level of cleanliness that limits particles 0.5 micrometers (㎛) or larger in diameter to no more than 1,000 per cubic meter (㎥).\n\nClusters also enable faster processing compared with running the process on individual standalone tools, thanks to reduced wait times. Completing all process steps on individual tools takes 10 hours, whereas the Applied-Besi Kinex takes one hour. The footprint occupied in limited cleanroom space is also reduced. The result is higher productivity.\n\nAnother industry official emphasized, \"Since building cleanrooms requires enormous cost and time, semiconductor manufacturers have recently been pursuing maximum space efficiency. Ultimately, the competitiveness of a hybrid bonder comes down to how much it can reduce its footprint.\"\n\nSamsung Electronics and SK Hynix have already adopted the Applied-Besi Kinex on some mass-production lines. The Kinex is known to be priced at around KRW 15–20 billion.\n\nHanwha Semitech is also reported to have recently won an additional order from SK Hynix for TC bonders used in HBM4 production. One semiconductor industry official said, \"Hanmi Semiconductor and Hanwha Semitech recently each won HBM4 TC bonder orders from SK Hynix of similar size. It wasn't disclosed because it isn't subject to mandatory disclosure requirements.\"\n\nHanmi Semiconductor disclosed on the 8th that it would supply SK Hynix with HBM4 TC bonders worth KRW 44.2 billion.\n\nSK Hynix responded, \"We are unable to confirm matters related to our suppliers.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2064649182422732800",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKcbfhAbkAAhpJL.png",
+          "width": 600,
+          "height": 300,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2064649200961495248",
+      "kind": "post",
+      "engagement": {
+        "views": 98659,
+        "likes": 186,
+        "reposts": 8,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2064649697697083867",
+      "date": "2026-06-10",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "AMAT",
+      "text": "According to Korean media reports, Samsung and SK Hynix have already introduced AMAT-BESI’s Kinex into some of their mass production lines… interesting. https://t.co/08aMGzIxiq https://t.co/JOv2lgCY3h",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2064649505178611712",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKcbyTXbcAAcoki.png",
+          "width": 1184,
+          "height": 496,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2064649697697083867",
+      "kind": "post",
+      "engagement": {
+        "views": 71564,
+        "likes": 298,
+        "reposts": 23,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-03-31",
+      "close": 341.79
+    },
+    {
+      "date": "2026-04-01",
+      "close": 353.8
+    },
+    {
+      "date": "2026-04-02",
+      "close": 348.47
+    },
+    {
+      "date": "2026-04-06",
+      "close": 352.62
+    },
+    {
+      "date": "2026-04-07",
+      "close": 354.31
+    },
+    {
+      "date": "2026-04-08",
+      "close": 385.72
+    },
+    {
+      "date": "2026-04-09",
+      "close": 397.81
+    },
+    {
+      "date": "2026-04-10",
+      "close": 399.49
+    },
+    {
+      "date": "2026-04-13",
+      "close": 395.73
+    },
+    {
+      "date": "2026-04-14",
+      "close": 395.64
+    },
+    {
+      "date": "2026-04-15",
+      "close": 394.26
+    },
+    {
+      "date": "2026-04-16",
+      "close": 389.9
+    },
+    {
+      "date": "2026-04-17",
+      "close": 396.94
+    },
+    {
+      "date": "2026-04-20",
+      "close": 391.62
+    },
+    {
+      "date": "2026-04-21",
+      "close": 394.33
+    },
+    {
+      "date": "2026-04-22",
+      "close": 403.48
+    },
+    {
+      "date": "2026-04-23",
+      "close": 403.91
+    },
+    {
+      "date": "2026-04-24",
+      "close": 417.04
+    },
+    {
+      "date": "2026-04-27",
+      "close": 404.86
+    },
+    {
+      "date": "2026-04-28",
+      "close": 381.11
+    },
+    {
+      "date": "2026-04-29",
+      "close": 382.59
+    },
+    {
+      "date": "2026-04-30",
+      "close": 394.49
+    },
+    {
+      "date": "2026-05-01",
+      "close": 389.08
+    },
+    {
+      "date": "2026-05-04",
+      "close": 391.38
+    },
+    {
+      "date": "2026-05-05",
+      "close": 410.82
+    },
+    {
+      "date": "2026-05-06",
+      "close": 428.62
+    },
+    {
+      "date": "2026-05-07",
+      "close": 410.64
+    },
+    {
+      "date": "2026-05-08",
+      "close": 435.44
+    },
+    {
+      "date": "2026-05-11",
+      "close": 443.62
+    },
+    {
+      "date": "2026-05-12",
+      "close": 431.2
+    },
+    {
+      "date": "2026-05-13",
+      "close": 436.61
+    },
+    {
+      "date": "2026-05-14",
+      "close": 440.56
+    },
+    {
+      "date": "2026-05-15",
+      "close": 436.62
+    },
+    {
+      "date": "2026-05-18",
+      "close": 413.57
+    },
+    {
+      "date": "2026-05-19",
+      "close": 406.91
+    },
+    {
+      "date": "2026-05-20",
+      "close": 426.85
+    },
+    {
+      "date": "2026-05-21",
+      "close": 427.36
+    },
+    {
+      "date": "2026-05-22",
+      "close": 432.16
+    },
+    {
+      "date": "2026-05-26",
+      "close": 454.89
+    },
+    {
+      "date": "2026-05-27",
+      "close": 448.25
+    },
+    {
+      "date": "2026-05-28",
+      "close": 449.68
+    },
+    {
+      "date": "2026-05-29",
+      "close": 450.06
+    },
+    {
+      "date": "2026-06-01",
+      "close": 458.17
+    },
+    {
+      "date": "2026-06-02",
+      "close": 490.05
+    },
+    {
+      "date": "2026-06-03",
+      "close": 500.77
+    },
+    {
+      "date": "2026-06-04",
+      "close": 501.7
+    },
+    {
+      "date": "2026-06-05",
+      "close": 453.01
+    },
+    {
+      "date": "2026-06-08",
+      "close": 492.17
+    },
+    {
+      "date": "2026-06-09",
+      "close": 499.21
+    },
+    {
+      "date": "2026-06-10",
+      "close": 497.01
+    },
+    {
+      "date": "2026-06-11",
+      "close": 552.64
+    },
+    {
+      "date": "2026-06-12",
+      "close": 567.25
+    },
+    {
+      "date": "2026-06-15",
+      "close": 585.78
+    },
+    {
+      "date": "2026-06-16",
+      "close": 568.23
+    },
+    {
+      "date": "2026-06-17",
+      "close": 592.92
+    },
+    {
+      "date": "2026-06-18",
+      "close": 617.11
+    },
+    {
+      "date": "2026-06-22",
+      "close": 640.18
+    }
+  ],
+  "price_status": "ok"
+}

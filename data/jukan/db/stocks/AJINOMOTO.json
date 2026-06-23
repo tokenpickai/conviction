@@ -1,0 +1,87 @@
+{
+  "ticker": "AJINOMOTO",
+  "cashtag": "Ajinomoto",
+  "price_symbol": "AJINOMOTO",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-10",
+  "last_mention": "2026-05-23",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2053635859086459244",
+      "date": "2026-05-10",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Ajinomoto",
+      "text": "Congratulations to the hedge funds that bought stakes in Ajinomoto and pushed for ABF film price hikes.\n\nAjinomoto is finally raising ABF film prices by 30%, apparently. https://t.co/NY2UeAxtef https://t.co/IDUHLzk3bg",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2053635704186617856",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HH_6ytYaQAAsRun.jpg",
+          "width": 1812,
+          "height": 748,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2053635859086459244",
+      "kind": "post",
+      "engagement": {
+        "views": 196058,
+        "likes": 451,
+        "reposts": 47,
+        "replies": 16
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2058119691067969983",
+      "date": "2026-05-23",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "too conservative",
+        "cares too much about customers rather than exercising pricing power"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Ajinomoto",
+      "text": "Do you see why Nittobo’s stock has been moving sideways now? They have no intention of raising prices.\n\nUnlike memory companies, which are aggressively raising prices right now, Japanese companies like this place an extreme emphasis on customer relationships and market share.\n\nThis is also one of the reasons I did not buy Nittobo or Ajinomoto. They are too conservative and care too much about their customers.\n\nJapanese companies, please start abusing your pricing power a little… like the memory companies.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2058119089642721280",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HI_oaFua0AAm-Xq.png",
+          "width": 1176,
+          "height": 552,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2058119691067969983",
+      "kind": "post",
+      "engagement": {
+        "views": 296495,
+        "likes": 619,
+        "reposts": 69,
+        "replies": 34
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

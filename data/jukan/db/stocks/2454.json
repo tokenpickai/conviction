@@ -8,10 +8,639 @@
   "company": "MediaTek",
   "industry": "AI ASIC/Mobile Semiconductors",
   "thesis_summary": null,
-  "first_mention": "2026-06-16",
+  "first_mention": "2026-04-01",
   "last_mention": "2026-06-22",
-  "total_mentions": 3,
+  "total_mentions": 26,
   "mentions": [
+    {
+      "tweet_id": "2039523519609065644",
+      "date": "2026-04-01",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "RT @dnystedt: Smartphone chip giant MediaTek has cut 4nm wafer starts at TSMC as surging memory chip prices have slashed demand for low-to-…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2039523519609065644",
+      "kind": "post",
+      "engagement": {
+        "views": 3,
+        "likes": 0,
+        "reposts": 20,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039673040712384778",
+      "date": "2026-04-02",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "entry-level smartphones are finished, will take a big hit"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "Entry-level smartphones are literally finished.\n\nMediaTek, Chinese smartphone brands, and KYEC will all take a big hit. https://t.co/ANLH0Vsz8O",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2039672591724797952",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HE5fal_bYAA3L0s.jpg",
+          "width": 1052,
+          "height": 506,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2039673040712384778",
+      "kind": "post",
+      "engagement": {
+        "views": 90631,
+        "likes": 365,
+        "reposts": 33,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2042152380934893600",
+      "date": "2026-04-09",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "When will CPO actually see mass production?-Digitimes\n\nThe market continues to closely watch the deployment of co-packaged optics (CPO) technology in cloud AI, driven by the desire of the silicon photonics (SiPh) ecosystem to see a tangible revenue impact. Cloud AI vendors are also hoping that adopting SiPh will simultaneously improve both cost efficiency and computational performance limits.\n\nFrom the supply chain perspective, however, actual mass production of CPO-related products in 2026 remains very limited, and widespread scaling is still some way off. Nvidia remains the most urgent in pushing for mass production. It has been the most aggressive company in advancing CPO deployment within the SiPh boom. Since 2025, it has continually urged suppliers to prepare mass production capabilities, placing substantial pressure on vendors.\n\nBecause production and validation are highly challenging, yields still have room for improvement. To implement CPO at scale in AI data centers, production yields must reach sufficiently high levels for cost efficiency to surpass existing solutions. Although progress is being made on the production side, it remains the largest bottleneck recognized by the ecosystem.\n\nCPO supply chain participants note that without the urgent demand for cloud AI upgrades driving substantial investment in CPO technology, breakthroughs could have taken much longer. Therefore, Nvidia's proactive push to deploy CPO has significantly benefited the broader ecosystem.\n\nSeveral major chip vendors already possess CPO technology. Besides Nvidia, key players such as Broadcom, Marvell Technology, and MediaTek have all explored the technology. Broadcom has been developing CPO for years and has begun initial shipments to customers.\n\nSupply chain sources expect Nvidia's mass production pace to outstrip others, largely because it actively urges its customers to accelerate deployment, emphasizing the significant computational benefits CPO brings to its system architecture. Broadcom and Marvell are relatively less aggressive in promoting their CPO solutions.\n\nCPO-related vendors stress that regardless of which company leads, market demand will continue to grow, benefiting all chipmakers and ecosystem partners. The only factor likely to limit industry growth remains production capacity and yield ceilings on the supply side.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2042152321665454080",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFcut34b0AAYJ7R.png",
+          "width": 640,
+          "height": 427,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2042152380934893600",
+      "kind": "post",
+      "engagement": {
+        "views": 117903,
+        "likes": 185,
+        "reposts": 17,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043598744575451334",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "UBS now expects AVGO alone to ship around 7 million TPUs in C27, up from its prior estimate of roughly 6 million.\n\nOnce you add MediaTek volumes on top of that, how large will total TPU shipments actually be…?\n\n$AVGO",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043598744575451334",
+      "kind": "post",
+      "engagement": {
+        "views": 58850,
+        "likes": 242,
+        "reposts": 15,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044750394719715585",
+      "date": "2026-04-16",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "JPM's supply chain survey indicates that Google is developing an SRAM-based compute engine in collaboration with Marvell (a concept similar to NVIDIA's Groq LPU), and this is expected to negatively impact MediaTek's TAM. (@FundaAI made a really impressive call.)\n\nAdditionally, JPM forecasts that in Google's TPU v9, $AVGO (Broadcom) is highly likely to be the sole supplier using TSMC's CoWoS-L technology.\n(Bearish on $INTC's EMIB-T?)",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044750394719715585",
+      "kind": "post",
+      "engagement": {
+        "views": 61004,
+        "likes": 271,
+        "reposts": 13,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047558649179214315",
+      "date": "2026-04-24",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "Exclusive: Google ramps new TPU servers, Taiwan suppliers gain share\n\nGoogle's unveiling of its eighth-generation tensor processing unit (TPU) at Cloud Next 2026 is expected to drive the next wave of growth in the application-specific integrated circuit (ASIC) server supply chain, with Taiwanese manufacturers expanding their role, according to supply chain sources.\n\nAssembly partners, including Celestica and Foxconn, are expected to begin volume production in the second half of 2026. Key component suppliers such as Asia Vital Components and Cooler Master are preparing shipments by the end of the second quarter, with Inventec reportedly set to begin production earlier.\n\nTaiwan gains share across supply chain\nTaiwanese vendors are taking on a larger role in Google's TPU server ecosystem. While Broadcom has historically dominated upstream IC design, MediaTek has also entered the supply chain, according to sources.\n\nIn server motherboard production, Inventec's share is reportedly rising from about 10 to 30%, gradually taking orders from Celestica. The companies declined to comment.\n\nSupply chain sources said Taiwanese firms remain competitive in terms of flexibility, quality, and pricing, supported by long-standing experience in server manufacturing. Inventec is currently the world's second-largest server motherboard supplier.\n\nASIC servers to outpace GPU growth\nASIC servers are expected to be the fastest-growing segment of the AI server market in 2026, outpacing systems based on GPUs led by Nvidia.\n\nDIGITIMES Research estimates ASIC server shipments will grow 64.2% year-over-year in 2026, compared with 43.8% growth for GPU servers.\n\nIndustry sources said rising ASIC shipments are also likely to support demand for general-purpose servers. Google's continued investment in ASIC infrastructure is expected to benefit its primary general server assembler, Quanta Computer, in 2026.\n\nDual-chip TPU highlights shift to inference\nGoogle's eighth-generation TPU introduces a dual-chip architecture for the first time, separating training and inference workloads.\n\nThe lineup includes TPU 8t for large-scale training and TPU 8i for low-latency inference. Both chips are expected to launch later in 2026, with shipments projected before year-end, according to supply chain estimates.\n\nThe move reflects a broader shift in AI development. Over the past three years, the industry has focused on large-scale training, but leading chipmakers, including Google and Nvidia, are placing greater emphasis on inference, indicating a widening range of AI applications.\n\nGoogle remains key ASIC player\nGoogle continues to be a major driver of ASIC-based AI infrastructure. DIGITIMES Research estimates the company will account for 46% of the ASIC accelerator market in 2026, with shipments reaching about 3.33 million units.\n\nThe TPU v7, code-named Ironwood, is expected to remain the main product, accounting for 89% of Google's total TPU shipments.\n\nIndustry sources said Celestica remains the primary assembly partner for TPU servers, but Taiwanese firms are expanding their role. This is most evident in CPU motherboard production, where Inventec's share is increasing, and in L10 to L11 assembly, where Foxconn is involved.\n\n$CLS",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2047558581852237824",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGpjroga8AAsRM3.png",
+          "width": 640,
+          "height": 427,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2047558649179214315",
+      "kind": "post",
+      "engagement": {
+        "views": 27207,
+        "likes": 245,
+        "reposts": 20,
+        "replies": 5
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048622395255321029",
+      "date": "2026-04-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "\"Positive implication — it opens ASIC opportunities with OpenAI. MTK could provide capability proven via TPU 8t tape-out with strong in back-end offerings (CoWoS/EMIB/InFO)\"\n\nThe ASIC design company next in line after Broadcom is not Marvell, but MediaTek.\n\nBut will OAI actually ditch Broadcom? I’m not sure about that.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048622395255321029",
+      "kind": "post",
+      "engagement": {
+        "views": 35022,
+        "likes": 130,
+        "reposts": 10,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048683483929919806",
+      "date": "2026-04-27",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek (2454 TT)",
+      "text": "GF Overseas Electronics & Telecom\n☄️ MediaTek (2454 TT, Buy): Two More Things!\n\n☀️ What’s new? Meta!\nSince we published our MediaTek report on March 25, MediaTek’s share price has risen 50%, driven by multiple brokerages upgrading the stock and highlighting its Google TPU potential, while our earnings forecasts remain the highest on the Street. We now see increasing opportunities for MediaTek to win more customers.\n\nRegarding Meta, we are highly positive on its next-generation AR glasses. The product will use two SRAM chips supplied by AP Memory (6531 TT) and one SoC supplied by MediaTek, replacing Qualcomm, with mass production targeted for the end of 2027. Following the success of Meta’s Ray-Ban Display glasses, we expect this product to reach annual shipments of 6–7 million units.\n\nOn the ASIC side, we expect MediaTek management to continue emphasizing its second ASIC customer during the upcoming earnings call, and we believe the company is targeting the Astrid and Apollo projects.\n\n☀️ What’s new? OpenAI!\nIn addition to the new Meta catalyst, we now believe MediaTek is highly likely to win the bid for OpenAI’s edge AI project, as the product SKU is focused on the mid-range market. We expect the project to be an N3-based SoC — with the modem still undecided — and to fully integrate OpenAI’s AI model.\n\nThe bidding process is ongoing, with tape-out targeted for 1H27. Regardless of shipment volume, we believe the symbolic significance of this cooperation would be very positive, as it could open the door for MediaTek to pursue ASIC collaboration opportunities with OpenAI.\nThat said, MediaTek’s capabilities have, at least for now, been validated through the TPU 8t tape-out, and the company can offer multiple backend solutions — including CoWoS, EMIB, and InFO — to compete for ASIC projects in what is currently the industry bottleneck.\n\n☀️ Target price raised to NT$2,850; reiterating the views from our March 25 TPU upgrade report\nWe reiterate the core views from our March 25 report:\n\n1. The early redesign issues for v8x, i.e. 8t, have been quickly resolved, and risk production is now targeted for May.\n2. MediaTek’s v8x CoWoS capacity allocation for 2027 has been raised from 70,000 wafers to 160,000 wafers, corresponding to 3.2 million packaged chips.\n3. Humufish has an ASP of US$15,000, with shipments reaching 3.5 million units by the end of 2028.\n4. Intel’s EMIB can support 9x to 12x reticle-size packages, but constraints in silicon capacitors and substrates are worth monitoring.\n\nBased on a minor earnings adjustment from raising the average selling price of TPU 8t to US$4,400, we raise our 2026/2027 EPS estimates by 1%/4%, respectively. Applying 25x 2027 P/E, we raise our target price from NT$2,750 to NT$2,850 and reiterate our Buy rating.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048683483929919806",
+      "kind": "post",
+      "engagement": {
+        "views": 67217,
+        "likes": 80,
+        "reposts": 9,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048684249239412829",
+      "date": "2026-04-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MTK",
+      "text": "Interesting.\n\nApparently, the TPU that MTK is responsible for has already completed its redesign, and the CoWoS allocation it received is reportedly as high as 160,000 wafers. That would translate into production capacity for around 3.2 million chips. https://t.co/n9tgoDqGXU https://t.co/UbeCpaQCjg",
+      "text_source": "text",
+      "text_may_be_truncated": true,
+      "media": [
+        {
+          "media_key": "3_2048683842178019328",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HG5jGZ4acAAoFig.png",
+          "width": 1162,
+          "height": 800,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2048684249239412829",
+      "kind": "post",
+      "engagement": {
+        "views": 78778,
+        "likes": 222,
+        "reposts": 17,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048725249722917370",
+      "date": "2026-04-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "I didn’t realize this before. I naturally assumed Intel would have a supply advantage over AMD in CPUs.\n\nBut Qualcomm and MediaTek apparently cut their TSMC 4/5nm orders because mid- to low-end smartphone shipments literally collapsed. AMD seems to have taken over that capacity.\n\nRight now, even CPUs produced on older nodes are being bought up by customers lining up for supply. AMD’s earnings could be worth getting excited about.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048725249722917370",
+      "kind": "post",
+      "engagement": {
+        "views": 283547,
+        "likes": 1279,
+        "reposts": 72,
+        "replies": 35
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2048992506851868780",
+      "date": "2026-04-28",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "Google may shift to COT model starting with TPU v9, downgrading MediaTek to IP support/design service role",
+        "per-chip margin would fall"
+      ],
+      "is_risk": true,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "Rumor: Google to shift to a COT model starting with TPU v9, downgrading the role of MediaTek/Broadcom.\n\nThis would be a major negative for Broadcom and MTK.\n\nAccording to this rumor, starting with TPU v9, Google plans to move to a model similar to AWS’s Annapurna, where Google directly places wafer orders with TSMC.\n\nIn other words, Google would be doing COT directly.\n\nWhat does that mean? Google would become TSMC’s direct customer, while Broadcom and MediaTek would be downgraded to IP support / design service roles.\n\nOwnership of the chip and control over supply would shift toward Google.\n\nIn other words, Broadcom/MediaTek’s per-chip margin would fall, if this is true.\n\nInstead of recognizing the full chip ASP as revenue, the model would shift toward design service fees / margin. That makes me more worried about Broadcom than MediaTek.\n\n$AVGO",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2048990937410568193",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HG96ZsxaAAE5erg.jpg",
+          "width": 1320,
+          "height": 1886,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2048992506851868780",
+      "kind": "post",
+      "engagement": {
+        "views": 200817,
+        "likes": 727,
+        "reposts": 87,
+        "replies": 47
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2049717500691279979",
+      "date": "2026-04-30",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "\"Google is adopting a disaggregated ASIC model through its partnership with MediaTek, aiming to eliminate the 15–20% markup embedded in Broadcom’s turnkey model.\"\n\nIn other words, Google aims to use MediaTek to reduce the 15–20% margin Broadcom captures under its turnkey ASIC model.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2049717500691279979",
+      "kind": "post",
+      "engagement": {
+        "views": 68575,
+        "likes": 342,
+        "reposts": 44,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2050537304528478247",
+      "date": "2026-05-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "Let’s admit what needs to be admitted. I was guilty of this as well, but North America-based analysts, across both the sell side and the buy side, have significantly underestimated MediaTek.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2050537304528478247",
+      "kind": "post",
+      "engagement": {
+        "views": 70936,
+        "likes": 550,
+        "reposts": 16,
+        "replies": 28
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051530610880221667",
+      "date": "2026-05-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "\"MediaTek currently appears better positioned to become the sole processor supplier, with the device set to use a customized version of the Dimensity 9600, built on TSMC’s N2P node in 2H26.\"\n\nVery interesting.... https://t.co/cjqYjG2UaC",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2051530610880221667",
+      "kind": "post",
+      "engagement": {
+        "views": 54257,
+        "likes": 231,
+        "reposts": 14,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2054171219851919759",
+      "date": "2026-05-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "I didn’t realize this, but it looks like AWS may be using EMIB for a lower-end version of Trainium through MediaTek.\n\nSimilar to the TPU v9 program handled by MediaTek, next-generation Trainium seems likely to use both EMIB and CoWoS.\n\n$INTC",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2054171219851919759",
+      "kind": "post",
+      "engagement": {
+        "views": 114905,
+        "likes": 538,
+        "reposts": 41,
+        "replies": 18
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2055274233585111041",
+      "date": "2026-05-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "Today’s report from Tech Taiwan:\n\nGoogle reportedly told TSMC directly, “We want to become your direct major customer.”\n\nIn other words, Google’s ultimate goal appears to be following an Apple-style COT model, bypassing both Broadcom and MediaTek. https://t.co/mFlyEREg6l",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2055273358875676672",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIXMOwgb0AAI3Zz.jpg",
+          "width": 1320,
+          "height": 2096,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2055274233585111041",
+      "kind": "post",
+      "engagement": {
+        "views": 243692,
+        "likes": 739,
+        "reposts": 75,
+        "replies": 29
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2055276077761896668",
+      "date": "2026-05-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "However, internally, both Broadcom and MediaTek still seem to view Google’s transition to a COT model as a distant future threat. https://t.co/fprCk4xqn4 https://t.co/MlejQVeq2r",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2055275040833474560",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIXNwqSbEAAuN-c.jpg",
+          "width": 1320,
+          "height": 1959,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2055276077761896668",
+      "kind": "post",
+      "engagement": {
+        "views": 67446,
+        "likes": 285,
+        "reposts": 24,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2056525527864004882",
+      "date": "2026-05-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "It looks like Jensen Huang is heading back to Taiwan.\n\nAccording to Taiwanese media, he may unveil an edge-device chip co-developed with MediaTek at Computex.\n\nhttps://t.co/lPPhp37W4E",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2056525527864004882",
+      "kind": "post",
+      "engagement": {
+        "views": 35662,
+        "likes": 321,
+        "reposts": 20,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2057605184940114190",
+      "date": "2026-05-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "Samsung Group Chairman Jay Y. Lee visits Taiwan to secure MediaTek as a foundry customer.\n\nTaiwanese media speculates that Samsung may use the memory shortage as leverage to win foundry customers.\n(Digitimes)",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2057605184940114190",
+      "kind": "post",
+      "engagement": {
+        "views": 52582,
+        "likes": 343,
+        "reposts": 35,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2057605547613192496",
+      "date": "2026-05-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "RT @dnystedt: Rumor: Samsung Chairman Jay Lee is on a low-key visit to Taiwan to win smartphone chip giant MediaTek as a new foundry client…",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2057605547613192496",
+      "kind": "post",
+      "engagement": {
+        "views": 2,
+        "likes": 0,
+        "reposts": 18,
+        "replies": 0
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059880144538579433",
+      "date": "2026-05-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "Intel’s EMIB Packaging Is Growing Rapidly — Silicon Capacitors Are Taking Off Too\n\nSilicon capacitors are poised for explosive growth in the AI semiconductor space. Intel has been found to be planning a large-scale adoption of silicon capacitors starting next year, in order to enhance the performance of its in-house 2.5D packaging technology, “EMIB.”\n\nThe most clearly visible source of demand is Google. Google plans to launch its next-generation AI accelerator, “v8e,” in the second half of next year, and has adopted an EMIB substrate with embedded silicon capacitors for that chip. With other Big Tech companies such as Amazon also currently applying EMIB, analysts say demand could increase sharply.\n\nAccording to industry sources on the 27th, Intel plans to apply silicon capacitors to its 2.5D packaging starting next year.\n\nIntel Adopts “Silicon Capacitors” for 2.5D Packaging… Google AI Chip Gets First Application\n\n2.5D is an advanced packaging technology that inserts a thin-film interposer between the semiconductor and the substrate. Because it can connect circuits at higher density compared with conventional packaging that uses only a substrate, demand is rising in the AI and HPC fields.\n\nTo improve cost efficiency in 2.5D packaging, Intel devised its own technology called EMIB. Rather than using a broad, spread-out interposer, EMIB connects chip to chip using a small silicon bridge. Since bridges only need to be placed where chip-to-chip connections are required, chips can be arranged more flexibly and efficiently.\n\nRecently, EMIB has been drawing attention as an alternative to TSMC, which had been leading the existing 2.5D packaging market. This is because TSMC’s 2.5D packaging capacity is suffering from a supply shortage amid the rapid development of the AI industry.\n\nIndeed, global Big Tech player Google is also paying attention to EMIB. Google has decided to adopt EMIB for its in-house AI semiconductor “v8e,” which it plans to launch in the second half of next year. Under this structure, TSMC handles chip mass production, MediaTek handles design and manufacturing support, and Intel handles packaging.\n\nHowever, there have been concerns that EMIB is gradually showing limitations in providing stable power supply for AI semiconductors, which consume large amounts of power. Accordingly, Intel plans to introduce new technologies such as silicon capacitors and through-silicon vias (TSV) to ensure stable packaging for the v8e.\n\nA capacitor is a component that stores and releases electricity in an electronic circuit. In the case of silicon capacitors, their resistance (ESL/ESR) is more than 100 times lower than that of conventional multilayer ceramic capacitors (MLCC), minimizing the signal loss that occurs in high-performance semiconductors. They can also be designed in an ultra-thin structure based on a silicon wafer, enabling high-density integration.\n\nA semiconductor industry official explained, “Because the voltage drop (the phenomenon of voltage decreasing) that occurs in the high-frequency region within AI chips is difficult to solve with MLCC, we understand that Intel is adopting silicon capacitors as a solution,” adding, “The relevant supply chain is now in place, and mass production is set to begin in earnest next year.”\n\nEMIB-T Is Already on a Growth Trajectory — The Related Ecosystem and Market Are Expanding Together\n\nIntel has also inserted TSVs, which serve as power-delivery channels, into the silicon bridge. The key point is that by using TSVs to shorten the power-delivery path between the substrate and the chip, Intel has improved power efficiency and signal integrity. Intel calls this “EMIB-T.”\n\nThe industry expects the EMIB-T and silicon capacitor markets to grow rapidly.\n\nThis is because Japan’s Ibiden — one of the major companies that mass-produces semiconductor substrates for EMIB-T — is aggressively pursuing capital investment.\n\nPreviously, Ibiden had planned to build its Kawashima (Gama) plant in Gifu Prefecture as a substrate plant for Intel CPUs. However, it postponed that schedule and decided in the first half of this year to officially convert the Gama plant into a mass-production line for EMIB-T substrates. The investment is 220 billion yen (about KRW 2.1 trillion).\n\nIn its recent earnings announcement, Ibiden stated, “Operation of the Gama plant will begin in 2027 and enter full-scale mass production in 2028,” adding, “EMIB-T substrate capacity is currently far short of demand. However, adding further capacity is quite difficult, so we are discussing options with our customers.”\n\nA semiconductor industry official explained, “Ibiden’s EMIB-T-dedicated line is being built with most of the investment coming from customers such as Google, Amazon, and Intel,” adding, “This demonstrates that AI semiconductors based on EMIB-T will grow significantly going forward, and silicon capacitors are likely to expand alongside them.”",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2059880104634040320",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJYqCpybQAAUfNg.jpg",
+          "width": 640,
+          "height": 444,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2059880144538579433",
+      "kind": "post",
+      "engagement": {
+        "views": 88702,
+        "likes": 455,
+        "reposts": 67,
+        "replies": 22
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2062123266668679514",
+      "date": "2026-06-03",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "Funda AI: \"Marvell will design a networking chip for Google. This chip will be manufactured on Intel's 18A (or 18AP), with mass production scheduled to begin by the end of 2027, and it will be paired with the MediaTek-designed Humufish for Google.\"\n\n$INTC",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2062123266668679514",
+      "kind": "post",
+      "engagement": {
+        "views": 156873,
+        "likes": 892,
+        "reposts": 112,
+        "replies": 29
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2062307371582714198",
+      "date": "2026-06-03",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MediaTek",
+      "text": "@jake_ayes MediaTek’s margin is at best in the 30% range.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2062307371582714198",
+      "kind": "reply",
+      "engagement": {
+        "views": 6216,
+        "likes": 14,
+        "reposts": 0,
+        "replies": 1
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2067092746364748272",
       "date": "2026-06-16",
@@ -37,7 +666,7 @@
       "url": "https://x.com/jukan05/status/2067092746364748272",
       "kind": "post",
       "engagement": {
-        "views": 148674,
+        "views": 148679,
         "likes": 390,
         "reposts": 52,
         "replies": 15
@@ -64,8 +693,8 @@
       "url": "https://x.com/jukan05/status/2068926089800593705",
       "kind": "post",
       "engagement": {
-        "views": 182803,
-        "likes": 429,
+        "views": 182977,
+        "likes": 430,
         "reposts": 19,
         "replies": 15
       },
@@ -88,8 +717,8 @@
       "url": "https://x.com/jukan05/status/2069266963965350136",
       "kind": "post",
       "engagement": {
-        "views": 111176,
-        "likes": 241,
+        "views": 112073,
+        "likes": 244,
         "reposts": 19,
         "replies": 14
       },
@@ -98,7 +727,5 @@
     }
   ],
   "price_series": [],
-  "price_status": "not_covered",
-  "price_unit": "TWD",
-  "price_updated_at": "2026-06-23T19:15:52.044110+00:00"
+  "price_status": "pending"
 }

@@ -1,0 +1,51 @@
+{
+  "ticker": "VICTORYGIANT",
+  "cashtag": "Victory Giant",
+  "price_symbol": "VICTORYGIANT",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-26",
+  "last_mention": "2026-04-26",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2048587684239827430",
+      "date": "2026-04-26",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Victory Giant",
+      "text": "Korean media reported that, among the top 50 overseas stocks net-bought by Korean retail investors in April, two names stood out: Hong Kong-listed Victory Giant and Japan’s Kioxia.\n\nThis can be interpreted as Korean investors broadening their bets beyond U.S. stocks into global small- and mid-cap semiconductor names.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2048587660823027712",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HG4Ln6aa4AApcEC.jpg",
+          "width": 1184,
+          "height": 834,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2048587684239827430",
+      "kind": "post",
+      "engagement": {
+        "views": 42593,
+        "likes": 189,
+        "reposts": 16,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

@@ -1,0 +1,75 @@
+{
+  "ticker": "GROQ",
+  "cashtag": "Groq",
+  "price_symbol": "GROQ",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-07",
+  "last_mention": "2026-05-27",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2041695134593728519",
+      "date": "2026-04-07",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Groq",
+      "text": "Samsung Electro-Mechanics Secures FC-BGA Supply for 'Groq 3 LPU,' Enters NVIDIA Supply Chain\n\nSamsung Electro-Mechanics has secured a leading position in the supply chain for semiconductor package substrates used in the Groq 3 Language Processing Unit (LPU).\n\nThe Groq 3 LPU is an inference accelerator chip designed to enhance the performance of NVIDIA's cutting-edge AI semiconductor platform, Vera Rubin. As inference grows in importance within the AI industry, Samsung Electro-Mechanics is expected to expand its footprint within NVIDIA's AI semiconductor ecosystem.\n\nAccording to a ZDNet Korea report on April 8, Samsung Electro-Mechanics has recently begun preparations for mass production of flip-chip ball grid array (FC-BGA) substrates for the Groq 3 LPU.\n\nThe company has secured \"first vendor\" status (top supplier by volume) for Groq 3 LPU FC-BGA substrates, with full-scale mass production expected to begin in Q2 of this year.\n\nThe Groq 3 LPU is a 4nm process-based AI inference accelerator chip, fabricated at Samsung Foundry. Samsung Foundry's wafer allocation for the Groq 3 LPU is estimated at approximately 10,000 wafers per month.\n\nFC-BGA is a package substrate that connects semiconductor chips to the substrate using a \"flip-chip bump\" method. It offers superior electrical and thermal characteristics compared to conventional wire bonding.\n\nWhile initial volumes are modest, this FC-BGA supply win allows Samsung Electro-Mechanics to expand its presence within NVIDIA's AI semiconductor ecosystem.\n\nEarlier this year, Samsung Electro-Mechanics had already entered NVIDIA's supply chain by securing FC-BGA supply for the NVSwitch chip, which is used to interconnect multiple GPUs within servers. As the Groq LPU has also been adopted into NVIDIA's AI semiconductor platform, shipment volumes are expected to grow going forward.\n\nOn this topic, NVIDIA CEO Jensen Huang announced changes to the company's advanced AI semiconductor platform during his keynote at GTC 2026, held on March 16 (local time) in San Jose, California.\n\nNVIDIA's Vera Rubin platform, slated for release in the second half of this year, was originally composed of six chips: the Rubin GPU, Vera CPU, BlueField-4 DPU, switches, and others. However, CEO Jensen Huang added the Groq 3 LPU, expanding the platform to a seven-chip architecture.\n\nThe approach integrates the Groq 3 LPX — an inference-dedicated rack equipped with 256 Groq 3 LPUs — into the NVIDIA Vera Rubin NV72 rack, which comprises 72 Rubin GPUs and 36 Vera CPUs.\n\nThe Groq 3 LPU is equipped with SRAM, which has lower capacity than DRAM but offers faster data transfer speeds. This significantly reduces the latency that occurred in conventional single-GPU systems during the inference stage of LLMs. According to NVIDIA, Vera Rubin combined with LPX can deliver up to 35x higher throughput per megawatt on trillion-parameter models.\n\nTo this end, NVIDIA has been building an aggressive partnership framework, including an indirect acquisition of Groq for approximately KRW 29 trillion (~$21 billion) late last year.\n\nAn industry source noted, \"NVIDIA is intensifying its strategy of building an entire AI platform with chips specialized for each domain. Groq LPU adoption volumes are expected to increase further, and partner companies will benefit accordingly.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2041695119209066498",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFWO5MAa8AI13za.png",
+          "width": 638,
+          "height": 344,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2041695134593728519",
+      "kind": "post",
+      "engagement": {
+        "views": 21365,
+        "likes": 127,
+        "reposts": 9,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059538225811907066",
+      "date": "2026-05-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Groq",
+      "text": "[Exclusive] NVIDIA's \"Rubin CPX\" Launch in Doubt… No Memory or Substrate Orders\n\nThe launch of NVIDIA's inference GPU \"Rubin CPX\" has become uncertain. Although the company had initially announced plans to release it in the second half of this year, it has been confirmed that there are no moves to order or develop the associated memory and substrates. This has led to speculation that NVIDIA may have withdrawn or substantially revised its original plans.\n\nAccording to multiple industry sources on the 27th, NVIDIA is currently not placing orders for memory or substrates related to Rubin CPX. In particular, no activity has been confirmed around GDDR7 graphics DRAM, the memory it was reported to use. Nor have there been any related development requests.\n\nA memory industry source said, \"NVIDIA stated that it would use GDDR7 in Rubin CPX, but at the moment there are no discussions about it whatsoever,\" adding, \"There was also a possibility that HBM adoption was being considered, but with no progress made, the actual development direction is unclear.\"\n\nA substrate industry source said, \"With no movement around Rubin CPX, the industry effectively regards the project as cancelled,\" adding, \"We had expected GDDR7's range of applications to expand, but it's disappointing that the market never opened up.\"\n\nNVIDIA announced at the AI Infra Summit last September that it would release Rubin CPX in the second half of this year. It specifically stated that Rubin CPX would carry a total of 128GB of GDDR7 memory — a configuration of eight 16GB GDDR7 chips. Unlike high-bandwidth memory (HBM), which is mounted inside the GPU package, it was planned to use an onboard approach, with the memory placed around the GPU substrate.\n\nBecause inference AI servers do not require the extreme memory bandwidth that training GPUs do, GDDR memory was adopted. HBM offers fast data processing but carries heavy cost and power burdens, and is also more difficult to package. GDDR, by comparison, has a relatively lower cost burden and is easier to scale in supply.\n\nThe memory industry had expected that Rubin CPX would trigger a full-scale expansion in GDDR7 supply. Currently, GDDR7 is used mainly in a handful of high-performance graphics cards such as NVIDIA's GeForce RTX 5090 and 5080, leaving its applications limited. The substrate industry likewise anticipated benefiting from expanded supply of memory substrates for GDDR7.\n\nHowever, NVIDIA removed Rubin CPX from its roadmap at GTC 2026, held this past March — a change in direction roughly six months after it was unveiled with a second-half launch target. Some foreign media outlets asked about the reasons behind this, but NVIDIA offered no answer.\n\nInstead, the company put front and center the LPU (Language Processing Unit) from Groq, with which it signed a licensing agreement late last year. The \"Groq 3 LPX\" abruptly became the core inference product of the Vera Rubin platform. Last year, NVIDIA struck a deal worth $20 billion with Groq and absorbed its core inference technology and engineering talent. The industry views this as NVIDIA having effectively acquired Groq.\n\nRubin CPX was a product NVIDIA had been preparing in response to the expanding inference market. Whereas NVIDIA's existing GPUs focused on large-scale data training, Rubin CPX was specialized for inference — the execution stage of AI services. It was a strategy aimed at a market shift in which inference computing is taking up a growing share amid the spread of AI agents.\n\nAs NVIDIA strengthens its Groq-centered inference strategy, observers suggest that the very direction of Rubin CPX may have changed. Some also raise the possibility that NVIDIA could redesign Rubin CPX in a new form down the line.\n\n$NVDA",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2059538225811907066",
+      "kind": "post",
+      "engagement": {
+        "views": 248952,
+        "likes": 433,
+        "reposts": 53,
+        "replies": 19
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

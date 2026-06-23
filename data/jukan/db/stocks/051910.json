@@ -1,0 +1,51 @@
+{
+  "ticker": "051910",
+  "cashtag": "LG Chem",
+  "price_symbol": "051910",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-03-29",
+  "last_mention": "2026-03-29",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2038175585768493516",
+      "date": "2026-03-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "LG Chem",
+      "text": "Prismark: \"T-Glass Supply Shortage from Japan's Nittobo Set to Widen\"\n\nMarket research firm Prismark recently forecast that the supply shortage of T-glass from Japanese materials manufacturer Nittobo will continue to deepen. While Nittobo is expanding its T-glass production capacity, demand is growing at an even faster pace. When factoring in capacity expansion plans from competitors such as Taiwan Glass, the overall market supply shortage could ease somewhat — though competitor technology capabilities and big tech procurement decisions remain key variables.\n\nT-glass is a glass fiber yarn used as a raw material for low-CTE (coefficient of thermal expansion) copper-clad laminates (CCL). As a key input material for printed circuit boards (PCBs), it is used not only in high-end smartphones such as Apple's iPhone, but also in semiconductor substrates for servers. T-glass is technically a Nittobo trade name, but given Nittobo's near-monopoly market position, the term has become the industry-wide generic for low-CTE CCL glass fiber yarn.\n\nAs the substrate area used in AI servers and data centers continues to grow, major tech companies including NVIDIA, Google, and Amazon have been exclusively sourcing T-glass from Nittobo. As a result, demand for T-glass began exceeding Nittobo's production capacity in the second half of 2024. At the time, multiple big tech companies approached Nittobo directly requesting capital investment in additional capacity, and Nittobo has been ramping production accordingly — but demand is outpacing supply even faster.\n\nAccording to Prismark, Nittobo's T-glass production capacity stood at 500,000 square meters (㎡) as of Q1 this year. The combined capacity of all competing players in the market still falls short of Nittobo's alone. Estimated competitor capacities are as follows: Taiwan Glass (Taiwan) — 100,000 ㎡; Taishan Glass (China) — 50,000–100,000 ㎡; Grace Fabric Technology (China) — 100,000 ㎡; Nan Ya Plastics (Taiwan) — 50,000 ㎡. These companies have yet to meet big tech's technical qualification standards, leaving Nittobo in a position of effective market monopoly.\n\nBoth Nittobo and its competitors are expanding capacity. Nittobo plans to invest $530 million in its T-glass segment, and by 2028, its T-glass production capacity could double from the first half of this year. Looking at 2028 capacity estimates by vendor, Nittobo's share is projected at approximately 55%, with all other players collectively accounting for the remaining 45%.\n\nHowever, when considering only Nittobo-qualified supply, Prismark forecasts that the T-glass shortage will persist through this year and next, and is expected to widen even further by 2028.\n\nWhile not included in the Prismark report, one domestic PCB industry source noted: \"Competitors are also undergoing T-glass technology evaluations with big tech, but the technology gap versus Nittobo remains substantial. Unless big tech changes its policy of using only Nittobo's product, the T-glass supply shortage will be difficult to resolve for the foreseeable future.\"\n\nFor reference, a lower coefficient of thermal expansion means less substrate warpage during high-temperature processing — an advantage for both substrate enlargement and finer circuit patterning requirements. When substrates warp during the fine circuit formation process at high temperatures, circuit traces can break. In Korea, companies such as Doosan and LG Chem produce CCL. Domestic companies that purchase CCL to manufacture semiconductor substrates include Samsung Electro-Mechanics, LG Innotek, Daeduck Electronics, Korea Circuit, and Simtech.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038175568680947712",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEkN4YkbkAAq1Bt.png",
+          "width": 640,
+          "height": 411,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038175585768493516",
+      "kind": "post",
+      "engagement": {
+        "views": 96532,
+        "likes": 230,
+        "reposts": 37,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

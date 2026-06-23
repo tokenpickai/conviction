@@ -1,0 +1,141 @@
+{
+  "ticker": "000150",
+  "cashtag": "Doosan",
+  "price_symbol": "000150.KS",
+  "exchange": "Korea Exchange",
+  "currency": "KRW",
+  "ticker_mapped": true,
+  "company": "Doosan Corporation",
+  "industry": "Semiconductor Materials/CCL",
+  "thesis_summary": null,
+  "first_mention": "2026-03-29",
+  "last_mention": "2026-06-14",
+  "total_mentions": 4,
+  "mentions": [
+    {
+      "tweet_id": "2038175585768493516",
+      "date": "2026-03-29",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Doosan",
+      "text": "Prismark: \"T-Glass Supply Shortage from Japan's Nittobo Set to Widen\"\n\nMarket research firm Prismark recently forecast that the supply shortage of T-glass from Japanese materials manufacturer Nittobo will continue to deepen. While Nittobo is expanding its T-glass production capacity, demand is growing at an even faster pace. When factoring in capacity expansion plans from competitors such as Taiwan Glass, the overall market supply shortage could ease somewhat — though competitor technology capabilities and big tech procurement decisions remain key variables.\n\nT-glass is a glass fiber yarn used as a raw material for low-CTE (coefficient of thermal expansion) copper-clad laminates (CCL). As a key input material for printed circuit boards (PCBs), it is used not only in high-end smartphones such as Apple's iPhone, but also in semiconductor substrates for servers. T-glass is technically a Nittobo trade name, but given Nittobo's near-monopoly market position, the term has become the industry-wide generic for low-CTE CCL glass fiber yarn.\n\nAs the substrate area used in AI servers and data centers continues to grow, major tech companies including NVIDIA, Google, and Amazon have been exclusively sourcing T-glass from Nittobo. As a result, demand for T-glass began exceeding Nittobo's production capacity in the second half of 2024. At the time, multiple big tech companies approached Nittobo directly requesting capital investment in additional capacity, and Nittobo has been ramping production accordingly — but demand is outpacing supply even faster.\n\nAccording to Prismark, Nittobo's T-glass production capacity stood at 500,000 square meters (㎡) as of Q1 this year. The combined capacity of all competing players in the market still falls short of Nittobo's alone. Estimated competitor capacities are as follows: Taiwan Glass (Taiwan) — 100,000 ㎡; Taishan Glass (China) — 50,000–100,000 ㎡; Grace Fabric Technology (China) — 100,000 ㎡; Nan Ya Plastics (Taiwan) — 50,000 ㎡. These companies have yet to meet big tech's technical qualification standards, leaving Nittobo in a position of effective market monopoly.\n\nBoth Nittobo and its competitors are expanding capacity. Nittobo plans to invest $530 million in its T-glass segment, and by 2028, its T-glass production capacity could double from the first half of this year. Looking at 2028 capacity estimates by vendor, Nittobo's share is projected at approximately 55%, with all other players collectively accounting for the remaining 45%.\n\nHowever, when considering only Nittobo-qualified supply, Prismark forecasts that the T-glass shortage will persist through this year and next, and is expected to widen even further by 2028.\n\nWhile not included in the Prismark report, one domestic PCB industry source noted: \"Competitors are also undergoing T-glass technology evaluations with big tech, but the technology gap versus Nittobo remains substantial. Unless big tech changes its policy of using only Nittobo's product, the T-glass supply shortage will be difficult to resolve for the foreseeable future.\"\n\nFor reference, a lower coefficient of thermal expansion means less substrate warpage during high-temperature processing — an advantage for both substrate enlargement and finer circuit patterning requirements. When substrates warp during the fine circuit formation process at high temperatures, circuit traces can break. In Korea, companies such as Doosan and LG Chem produce CCL. Domestic companies that purchase CCL to manufacture semiconductor substrates include Samsung Electro-Mechanics, LG Innotek, Daeduck Electronics, Korea Circuit, and Simtech.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2038175568680947712",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HEkN4YkbkAAq1Bt.png",
+          "width": 640,
+          "height": 411,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2038175585768493516",
+      "kind": "post",
+      "engagement": {
+        "views": 96532,
+        "likes": 230,
+        "reposts": 37,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051070393734303767",
+      "date": "2026-05-03",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Doosan",
+      "text": "\"Even China Has No Volumes\"... CCL Shortage Reaches Crisis Level\n\nA PCB manufacturer in the Seoul metropolitan area recently placed advance orders worth 10 billion won with two Taiwanese CCL (copper clad laminate) producers, EMC and TUC. The volume is more than five times the company's average monthly usage of 1.5 to 2 billion won. The company's CEO said, \"We placed bulk orders out of concern about a CCL shortage, but we have no idea when they'll actually arrive,\" adding, \"I've been in the PCB business for over 20 years, and this is the first time we've been unable to manufacture products because we couldn't get CCL.\"\n\nCCL Import Prices Break Through $20,000 Per Ton\n\nPrices for CCL — a core PCB material — are surging as supply falls dramatically short of demand. CCL is a panel made by laminating a thin copper foil onto an insulating substrate, and it functions as the key building-block material for PCBs. The shortage has spread as demand has surged simultaneously across major advanced industries, including AI semiconductors, data centers, and autonomous vehicles.\n\nAccording to data released by the Korea Customs Service on May 3, the import unit price of CCL came to $20,728 per ton in March — up 74.5% from $11,880 in the same month last year. This is the first time the CCL import unit price has broken above $20,000/ton since the relevant statistics began being compiled in 2000. The biggest driver behind the spike in CCL import prices is rising demand for CCL used in AI chips. On top of this, the use of high-spec CCL is also increasing across 5G/6G telecom infrastructure, automotive autonomous driving systems, and data center servers.\n\nCCL Players' Share Prices Rally Sharply\n\nKorea's CCL supply chain is built around copper foil suppliers (Lotte Energy Materials, SK Nexilis), CCL manufacturers (Doosan, LG Chem), and PCB substrate manufacturers (Samsung Electro-Mechanics, Daeduck Electronics). PCBs are split between premium products — which go into the most advanced GPUs such as Nvidia's Blackwell — and general-purpose products. Premium semiconductor substrates in this top tier use CCL based on high-grade T-glass material, while small- and mid-sized domestic PCB makers use E-glass-based CCL to produce general-purpose PCBs.\n\nAs demand for high-spec PCBs has surged and unit prices have jumped, CCL-related companies have moved quickly to reallocate their limited production lines toward high value-added products. This is the backdrop to the spike in CCL export prices: last month, the average CCL export unit price stood at $30,998, up 65.2% year-on-year.\n\nCompanies in the global CCL manufacturing supply chain are seeing both earnings and share prices rally sharply. Industry participants attribute the CCL price hikes primarily to PCBs going into Nvidia GPUs. Doosan, known to be the sole supplier of CCL for Blackwell, saw its share price jump from 152,300 won at the end of April 2024 to 1,596,000 won at the end of last month — a more than 10x gain over two years. Over the same period, Samsung Electro-Mechanics rose 5.3x and Daeduck Electronics rose 4.8x.\n\nEven Pivoting to China — \"No Volumes Available\"\n\nBy contrast, companies left out of the advanced industries are unable to secure adequate CCL supply, with some now facing the prospect of having to halt factory operations. Major Korean semiconductor equipment makers, in particular, are reportedly suffering from CCL supply constraints. Some companies are reportedly switching from ocean freight to air freight in an effort to pull forward their CCL delivery schedules. One industry source said, \"In the past, you could secure the volumes you wanted just by waiting about a month after placing an order, but now even if you place an order today, you have to wait at least six months to receive any volumes.\"\n\nSoaring CCL prices are also a heavy burden. With FX rates and oil prices also rising, not only product prices but also transport costs are climbing sharply. With CCL supply schedules becoming increasingly uncertain, many firms are worried about missing the PCB delivery timelines they originally committed to. Another industry source said, \"We've secured Chinese suppliers in addition to our existing channels, but we've been hit by a string of delivery-delay notices recently. There's no clear-cut countermeasure, and it feels hopeless.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2051070364265168896",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHbdoRdbQAAsrR1.png",
+          "width": 681,
+          "height": 669,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2051070393734303767",
+      "kind": "post",
+      "engagement": {
+        "views": 109917,
+        "likes": 404,
+        "reposts": 71,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066297977594110324",
+      "date": "2026-06-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Doosan",
+      "text": "Pharmicell, Exclusive Supplier of Core CCL Material for NVIDIA AI Servers to Doosan\n\nPharmicell, whose core businesses are bio/pharmaceuticals and advanced materials, has been identified as the exclusive supplier of copper-clad laminate (CCL) raw materials for AI servers to Doosan's Electro-Materials BG (Business Group). The end customer is NVIDIA. The company's earnings have grown sharply on recent AI server demand. Once its third plant in Ulsan comes online in the second half of the year, production capacity will double.\n\nAccording to industry sources on the 10th, Pharmicell exclusively supplies low-dielectric-constant (low-Dk) electronic materials—including resin and hardener—that serve as the core raw materials for the AI server CCL produced by Doosan Electro-Materials BG. Doosan is a key partner supplying AI server CCL to global big tech companies, including NVIDIA.\n\nPharmicell is reaping the benefits of being the exclusive materials supplier. Its first-quarter revenue this year came to 36.7 billion won, up 36% year-over-year. Of this, low-Dk electronic materials accounted for 26.0 billion won, or 71% of the total. Most of this is Doosan-bound revenue. That figure is more than 1.5 times the prior-year level (16.6 billion won), and roughly 7.6 times the level of Q1 2024 (3.4 billion won), when supply to Doosan began. Pharmicell's annual revenue from low-Dk electronic materials this year is projected to roughly double from last year.\n\nThe exclusivity is also expected to continue for the time being. Because the physical properties of resin and hardener can vary depending on blending conditions and processes, a lengthy optimization process tailored to customer requirements is required. Even for products of identical composition, re-certification is needed if production equipment changes. This creates a structure in which new entrants find it difficult to break into the supply chain in the short term.\n\nIn response to rising demand, Pharmicell announced in March of last year that it would invest 30 billion won to build a third plant in Ulsan. The site is roughly 1.7 times the size of the combined footprint of the existing No. 1 and No. 2 plants. Following completion in September, it is scheduled to begin operation in Q1 2027 after going through permitting and customer re-certification procedures.\n\nOnce the new plant is operational, production capacity will expand to roughly double the current level. The No. 1 and No. 2 plants in Ulsan are currently running at full capacity. The plan is to produce raw materials at the existing plants and to operate the third plant as a dedicated production base for low-Dk electronic materials.\n\nPharmicell co-developed the materials with Doosan over a period of about 10 years and began supplying them in 2024. The resin and hardener that Pharmicell supplies are core materials that determine the electrical characteristics of CCL. Their low-Dk properties significantly reduce signal loss occurring during data transmission.\n\nThe resin and hardener combine with glass fiber (spun yarn) to make prepreg, the insulating layer. CCL—produced by attaching copper foil to both sides of the prepreg—is used in high-value-added substrates for AI applications. Doosan sources its glass fiber from Japan's Nittobo and its copper foil from suppliers such as Lotte Energy Materials. Pharmicell supplies resin and hardener to Doosan's largest production hub in Jeungpyeong as well as its local plant in Changshu, China.\n\nPharmicell is also pursuing new customer acquisition, but for the time being it plans to focus on meeting Doosan's demand. Doosan recently announced plans to invest 180 billion won to build a new AI CCL plant in Thailand.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2066297977594110324",
+      "kind": "post",
+      "engagement": {
+        "views": 43485,
+        "likes": 176,
+        "reposts": 14,
+        "replies": 12
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2066339825633091909",
+      "date": "2026-06-14",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Doosan",
+      "text": "Doosan’s share price decline today was due to SK Group effectively scrapping the sale of its wafer maker, SK Siltron, to Doosan.\n\nHonestly, this makes perfect sense. They are just entering the wafer LTA renewal window, so selling it now would have meant leaving too much value on the table.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2066339818708369408",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HK0dHf9bgAA6Xsi.jpg",
+          "width": 1320,
+          "height": 1041,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2066339825633091909",
+      "kind": "post",
+      "engagement": {
+        "views": 39957,
+        "likes": 165,
+        "reposts": 10,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

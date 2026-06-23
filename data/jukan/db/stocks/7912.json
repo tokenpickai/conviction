@@ -1,0 +1,51 @@
+{
+  "ticker": "7912",
+  "cashtag": "DNP",
+  "price_symbol": "7912",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-13",
+  "last_mention": "2026-04-13",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2043839229042798653",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "DNP",
+      "text": "At Photomask Japan 2026 (PMJ), held April 8-10, DNP announced in its Nano-Imprint Lithography (NIL) presentation that it has successfully manufactured using a template with 10nm circuit line widths.\n\nAt its FY3/26 IR-Day, DNP stated that its NIL business would begin mass production in FY3/28, and at its FY3/25 IR-Day, it set a sales target of ¥4.0bn for the business by FY3/31.\n\nI thought NIL was dead, but it's actually being commercialized?",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2043839205328203776",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HF0s7bOasAAOsRr.png",
+          "width": 790,
+          "height": 197,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2043839229042798653",
+      "kind": "post",
+      "engagement": {
+        "views": 32040,
+        "likes": 167,
+        "reposts": 7,
+        "replies": 16
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

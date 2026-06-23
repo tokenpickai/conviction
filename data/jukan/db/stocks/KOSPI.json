@@ -1,0 +1,51 @@
+{
+  "ticker": "KOSPI",
+  "cashtag": "KOSPI",
+  "price_symbol": "KOSPI",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-02",
+  "last_mention": "2026-06-02",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2061957233643290640",
+      "date": "2026-06-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "KOSPI",
+      "text": "KOSPI 12000 https://t.co/eRxEKF72Ww",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2061957228941410304",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJ2LLM0aAAAweoq.jpg",
+          "width": 1206,
+          "height": 959,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2061957233643290640",
+      "kind": "post",
+      "engagement": {
+        "views": 81332,
+        "likes": 449,
+        "reposts": 65,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

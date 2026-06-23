@@ -1,0 +1,239 @@
+{
+  "ticker": "KEYS",
+  "cashtag": "Keysight",
+  "price_symbol": "KEYS",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-13",
+  "last_mention": "2026-04-13",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2043559385562304864",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Keysight",
+      "text": "FormFactor and MPI vie to break SiPh test bottleneck as ficonTEC reportedly exits\n\nAs AI data centers officially enter the silicon photonics (SiPh) era, the industry faces severe challenges in testing accuracy and throughput on the path toward mass production of co-packaged optics (CPO) technology. This has drawn close attention to upstream test supply chain dynamics.\n\nInitially, the probe station market for SiPh chip testing was dominated by a three-way rivalry among US-based FormFactor, Germany's ficonTEC, and Taiwan's MPI(https://t.co/rcmXajqpgd). Each partnered with automated test equipment (ATE) suppliers, foundries, and IC design firms to develop solutions.\n\nRecent supply chain reports reveal that after China's RoboTechnik completed a cross-border acquisition in 2025, formally making ficonTEC its wholly owned subsidiary, concerns over technology leakage due to the new Chinese ownership led customers to lose confidence. Consequently, ficonTEC lost ground in the SiPh probe station market, ceding share to FormFactor and MPI.\n\nHowever, some industry insiders argue that ficonTEC's Chinese background is not the decisive factor behind its exit. The primary reason remains its lack of experience in developing probe stations, failing to master core technologies and resolve customer production bottlenecks effectively.\n\nMoreover, if ficonTEC is indeed sidelined by leading global players, this could also impact Teradyne, which closely collaborates with ficonTEC, potentially disrupting future product strategies in SiPh test equipment.\n\nThe testing process for SiPh chips reportedly spans four main phases from wafer level to module packaging: photonic integrated circuit (PIC) testing, wafer-level optoelectronic integration testing, optical engine testing, and post-CPO packaging testing.\n\nAn industry insider describes the second phase as a \"major black hole\" in the SiPh manufacturing flow. Currently, only engineering prototypes exist without automated solutions suitable for mass production, resulting in insufficient scale benefits and inadequate test capabilities.\n\nMPI stated that urgent demand for SiPh testing over the past two years, driven by CPO packaging's optoelectronic integration needs, prompted it to consolidate its LED and advanced semiconductor test (AST) product lines by 2026. This move aims to accelerate development in optoelectronic measurement technologies while maintaining close cooperation with Advantest and Keysight.\n\nExperts emphasize that before full-scale mass production of SiPh chips can be realized, multiple standardization challenges remain in electro-optical testing processes. This highlights the importance of shift-left testing, since failures in highly integrated CPO packaging are costly, making stage-by-stage validation critical to protecting profit margins.\n\nNotably, sources indicate that if the wafer-level optoelectronic integration test bottleneck persists, customers may skip this step during mass production and proceed directly to optical engine testing, where clear solutions already exist, accepting some yield loss and higher costs to ensure final product shipment success.\n\n$TER",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043559385562304864",
+      "kind": "post",
+      "engagement": {
+        "views": 122471,
+        "likes": 121,
+        "reposts": 14,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-04-13",
+      "close": 331.11
+    },
+    {
+      "date": "2026-04-14",
+      "close": 330.46
+    },
+    {
+      "date": "2026-04-15",
+      "close": 325.25
+    },
+    {
+      "date": "2026-04-16",
+      "close": 329.96
+    },
+    {
+      "date": "2026-04-17",
+      "close": 334.34
+    },
+    {
+      "date": "2026-04-20",
+      "close": 335.14
+    },
+    {
+      "date": "2026-04-21",
+      "close": 339.3
+    },
+    {
+      "date": "2026-04-22",
+      "close": 338.97
+    },
+    {
+      "date": "2026-04-23",
+      "close": 346.53
+    },
+    {
+      "date": "2026-04-24",
+      "close": 346.96
+    },
+    {
+      "date": "2026-04-27",
+      "close": 340.64
+    },
+    {
+      "date": "2026-04-28",
+      "close": 332.3
+    },
+    {
+      "date": "2026-04-29",
+      "close": 335.46
+    },
+    {
+      "date": "2026-04-30",
+      "close": 349.91
+    },
+    {
+      "date": "2026-05-01",
+      "close": 352.41
+    },
+    {
+      "date": "2026-05-04",
+      "close": 351.35
+    },
+    {
+      "date": "2026-05-05",
+      "close": 355.93
+    },
+    {
+      "date": "2026-05-06",
+      "close": 366.68
+    },
+    {
+      "date": "2026-05-07",
+      "close": 355.06
+    },
+    {
+      "date": "2026-05-08",
+      "close": 360.3
+    },
+    {
+      "date": "2026-05-11",
+      "close": 366.36
+    },
+    {
+      "date": "2026-05-12",
+      "close": 361.65
+    },
+    {
+      "date": "2026-05-13",
+      "close": 361.19
+    },
+    {
+      "date": "2026-05-14",
+      "close": 361.55
+    },
+    {
+      "date": "2026-05-15",
+      "close": 349.01
+    },
+    {
+      "date": "2026-05-18",
+      "close": 340.48
+    },
+    {
+      "date": "2026-05-19",
+      "close": 344.11
+    },
+    {
+      "date": "2026-05-20",
+      "close": 342.08
+    },
+    {
+      "date": "2026-05-21",
+      "close": 337.55
+    },
+    {
+      "date": "2026-05-22",
+      "close": 346.56
+    },
+    {
+      "date": "2026-05-26",
+      "close": 355.74
+    },
+    {
+      "date": "2026-05-27",
+      "close": 347.65
+    },
+    {
+      "date": "2026-05-28",
+      "close": 339.13
+    },
+    {
+      "date": "2026-05-29",
+      "close": 338.33
+    },
+    {
+      "date": "2026-06-01",
+      "close": 330.0
+    },
+    {
+      "date": "2026-06-02",
+      "close": 346.57
+    },
+    {
+      "date": "2026-06-03",
+      "close": 350.48
+    },
+    {
+      "date": "2026-06-04",
+      "close": 343.11
+    },
+    {
+      "date": "2026-06-05",
+      "close": 329.83
+    },
+    {
+      "date": "2026-06-08",
+      "close": 331.6
+    },
+    {
+      "date": "2026-06-09",
+      "close": 331.43
+    },
+    {
+      "date": "2026-06-10",
+      "close": 324.0
+    },
+    {
+      "date": "2026-06-11",
+      "close": 340.03
+    },
+    {
+      "date": "2026-06-12",
+      "close": 350.67
+    },
+    {
+      "date": "2026-06-15",
+      "close": 356.94
+    },
+    {
+      "date": "2026-06-16",
+      "close": 350.29
+    },
+    {
+      "date": "2026-06-17",
+      "close": 350.7
+    },
+    {
+      "date": "2026-06-18",
+      "close": 363.67
+    },
+    {
+      "date": "2026-06-22",
+      "close": 373.34
+    }
+  ],
+  "price_status": "ok"
+}

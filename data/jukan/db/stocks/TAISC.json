@@ -1,0 +1,42 @@
+{
+  "ticker": "TAISC",
+  "cashtag": "Taiwan Semiconductor",
+  "price_symbol": "TAISC",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-27",
+  "last_mention": "2026-04-27",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2048911765279584366",
+      "date": "2026-04-27",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Taiwan Semiconductor",
+      "text": "FYI: Lead times for power semiconductors have become extremely stretched because of AI servers. According to industry sources, delivery times for some products from major suppliers such as Infineon, TI, and onsemi have extended to as long as 30 weeks.\n\nAs a result, the spillover effect appears to be reaching second- and third-tier Taiwanese players as well, including Panjit and Taiwan Semiconductor.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2048911765279584366",
+      "kind": "post",
+      "engagement": {
+        "views": 139344,
+        "likes": 435,
+        "reposts": 27,
+        "replies": 10
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

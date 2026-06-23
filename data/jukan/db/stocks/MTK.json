@@ -1,0 +1,66 @@
+{
+  "ticker": "MTK",
+  "cashtag": "MTK",
+  "price_symbol": "MTK",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-18",
+  "last_mention": "2026-05-26",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2056313542589174057",
+      "date": "2026-05-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MTK",
+      "text": "UBS models 2026 TPU shipments at 4.13 million units in total, consisting of 3.68 million units from AVGO and 450,000 units from MTK.\n\nFor 2027, UBS models total TPU shipments at 9.87 million units, consisting of 6.76 million units from AVGO and 3.11 million units from MTK.\n\n$AVGO",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2056313542589174057",
+      "kind": "post",
+      "engagement": {
+        "views": 69605,
+        "likes": 196,
+        "reposts": 11,
+        "replies": 11
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059458320424173580",
+      "date": "2026-05-26",
+      "stance": "neutral",
+      "mention_type": "quote_or_other",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MTK",
+      "text": "\"Likely SpaceX Win for new datacenter ASIC. We expect MTK to be the design service provider for xAI’s datacenter ASIC based on Intel 14A + EMIB-T.\"\n\nInteresting.... https://t.co/Vbj9G32lGf",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2059458320424173580",
+      "kind": "post",
+      "engagement": {
+        "views": 83808,
+        "likes": 290,
+        "reposts": 20,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

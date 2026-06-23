@@ -1,0 +1,221 @@
+{
+  "ticker": "AMKR",
+  "cashtag": "Amkor",
+  "price_symbol": "AMKR",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": "Amkor Technology",
+  "industry": "Semiconductor Packaging/OSAT",
+  "thesis_summary": null,
+  "first_mention": "2026-04-28",
+  "last_mention": "2026-04-30",
+  "total_mentions": 2,
+  "mentions": [
+    {
+      "tweet_id": "2049077350781096160",
+      "date": "2026-04-28",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$AMKR",
+      "text": "A team lead at Amkor Technology Korea’s R&amp;D center stated that glass substrates are expected to be commercialized within the next three years.\n\n* Amkor has close ties with Intel, including licensing EMIB-T.\n\n$AMKR \n\nhttps://t.co/BIiVO0ZPwk",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2049077350781096160",
+      "kind": "post",
+      "engagement": {
+        "views": 65791,
+        "likes": 267,
+        "reposts": 23,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2050024550176522452",
+      "date": "2026-04-30",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "SoC/leading-edge node capacity is the supply constraint limiting Apple unit shipments, implying demand for packaging"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Amkor",
+      "text": "Thoughts from Apple’s earnings call:\n\nMemory does not seem to be the bottleneck preventing Apple from shipping products. Rather, it is a cost variable pressuring margins. In contrast, SoC / leading-edge node capacity appears to be the supply constraint that is actually limiting unit shipments.\n\nApple seems to be able to secure enough memory. The issue is that it cannot ship enough products because it is not getting sufficient SoC supply due to tight TSMC leading-edge capacity.\n\nMac mini and Mac Studio demand has been stronger than expected, as they are increasingly being recognized as strong platforms for AI and agentic tools.\n\n→ There is currently no AI platform that can really match Apple’s unified memory architecture.\n\nAmkor bullish?\n\nMemory costs were already higher in the March quarter, and Apple expects significantly higher memory costs in the June quarter.\n\n→ Memory prices are likely to rise even more sharply in calendar 2Q. If even Apple — arguably the strongest buyer in the world — is acknowledging memory cost pressure, then this cycle is not over yet.\n\n$AAPL",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2050024550176522452",
+      "kind": "post",
+      "engagement": {
+        "views": 63164,
+        "likes": 429,
+        "reposts": 29,
+        "replies": 24
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-04-28",
+      "close": 71.36
+    },
+    {
+      "date": "2026-04-29",
+      "close": 70.605
+    },
+    {
+      "date": "2026-04-30",
+      "close": 69.75
+    },
+    {
+      "date": "2026-05-01",
+      "close": 71.09
+    },
+    {
+      "date": "2026-05-04",
+      "close": 70.96
+    },
+    {
+      "date": "2026-05-05",
+      "close": 76.71
+    },
+    {
+      "date": "2026-05-06",
+      "close": 77.22
+    },
+    {
+      "date": "2026-05-07",
+      "close": 72.27
+    },
+    {
+      "date": "2026-05-08",
+      "close": 76.61
+    },
+    {
+      "date": "2026-05-11",
+      "close": 76.69
+    },
+    {
+      "date": "2026-05-12",
+      "close": 73.45
+    },
+    {
+      "date": "2026-05-13",
+      "close": 74.61
+    },
+    {
+      "date": "2026-05-14",
+      "close": 72.09
+    },
+    {
+      "date": "2026-05-15",
+      "close": 70.35
+    },
+    {
+      "date": "2026-05-18",
+      "close": 66.04
+    },
+    {
+      "date": "2026-05-19",
+      "close": 65.54
+    },
+    {
+      "date": "2026-05-20",
+      "close": 68.49
+    },
+    {
+      "date": "2026-05-21",
+      "close": 65.9
+    },
+    {
+      "date": "2026-05-22",
+      "close": 65.75
+    },
+    {
+      "date": "2026-05-26",
+      "close": 73.46
+    },
+    {
+      "date": "2026-05-27",
+      "close": 72.19
+    },
+    {
+      "date": "2026-05-28",
+      "close": 70.58
+    },
+    {
+      "date": "2026-05-29",
+      "close": 69.56
+    },
+    {
+      "date": "2026-06-01",
+      "close": 72.75
+    },
+    {
+      "date": "2026-06-02",
+      "close": 74.74
+    },
+    {
+      "date": "2026-06-03",
+      "close": 75.2
+    },
+    {
+      "date": "2026-06-04",
+      "close": 73.82
+    },
+    {
+      "date": "2026-06-05",
+      "close": 64.95
+    },
+    {
+      "date": "2026-06-08",
+      "close": 68.29
+    },
+    {
+      "date": "2026-06-09",
+      "close": 70.91
+    },
+    {
+      "date": "2026-06-10",
+      "close": 69.61
+    },
+    {
+      "date": "2026-06-11",
+      "close": 76.15
+    },
+    {
+      "date": "2026-06-12",
+      "close": 82.78
+    },
+    {
+      "date": "2026-06-15",
+      "close": 85.44
+    },
+    {
+      "date": "2026-06-16",
+      "close": 86.55
+    },
+    {
+      "date": "2026-06-17",
+      "close": 86.43
+    },
+    {
+      "date": "2026-06-18",
+      "close": 90.46
+    },
+    {
+      "date": "2026-06-22",
+      "close": 93.55
+    }
+  ],
+  "price_status": "ok"
+}

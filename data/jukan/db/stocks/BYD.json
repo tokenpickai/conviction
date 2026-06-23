@@ -8,10 +8,34 @@
   "company": null,
   "industry": null,
   "thesis_summary": null,
-  "first_mention": "2026-06-16",
+  "first_mention": "2026-06-01",
   "last_mention": "2026-06-16",
-  "total_mentions": 1,
+  "total_mentions": 2,
   "mentions": [
+    {
+      "tweet_id": "2061611485932200180",
+      "date": "2026-06-01",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "BYD",
+      "text": "Samsung Foundry Breaks Into China’s Largest Automaker BYD With Automotive Chips\n\nSamsung Electronics’ foundry division has been found to be in talks with China’s top electric vehicle maker BYD and other local automakers over a series of contracts for autonomous driving systems on chip (SoC). As SMIC, China’s largest foundry, shows a wide technology gap versus Samsung Electronics, local automakers are approaching Samsung’s foundry about chip production.\n\nAccording to the semiconductor industry on the 1st, Samsung Electronics has been confirmed to be in discussions with BYD and other major automakers over orders for 2nm (nanometer, one billionth of a meter) and 4nm process production. If the orders go through, local automakers far larger than the Chinese EV maker NIO, which currently uses Samsung’s 5nm process to make autonomous driving chips, would join the client roster.\n\nAn industry official said, “The core area Samsung’s foundry is now most focused on in the Chinese market is automotive electronics,” adding, “It is actively pursuing technical discussions with major Chinese automakers to produce next generation automotive SoCs on Samsung’s foundry’s leading edge processes.”\n\nBehind the courtship that Chinese automakers are sending Samsung Electronics lies a structural limitation in China’s foundry ecosystem. SMIC, the largest foundry in China, currently implements a 7nm class process. But the dominant assessment is that it has a stark technology gap versus Samsung Electronics and TSMC when it comes to the fine process capabilities needed for next generation autonomous driving chips.\n\nIn particular, SMIC’s leading edge 7nm production line is fully booked with volume from a handful of strategic customers such as Huawei. Most of SMIC’s remaining production lines are skewed toward older processes of 14nm and above, making it difficult to meet the demands of Chinese automakers.\n\nThe reason Chinese companies have requested collaboration with Samsung Electronics reflects this reality. To achieve full autonomous driving, AI chips made on 4nm and even 2nm processes are required. Because autonomous driving chips must process large volumes of data inside the vehicle in real time, compute performance, power efficiency, and thermal management are all important.\n\nAbove all, because autonomous driving chips directly affect driving range and safety, automakers have no choice but to select a foundry with strong fine process competitiveness. For this reason, Chinese automakers have acknowledged SMIC’s slow pace of process innovation and pivoted toward entrusting chip production to Samsung Electronics’ foundry. Samsung Electronics’ 4nm process has now entered a mature stage where yields are stabilizing, and its most advanced 2nm process applying gate all around (GAA) technology has had its mass production capability recognized to the point that Tesla has entrusted it with manufacturing its next generation AI chip (AI6).\n\nAn industry official said, “With SMIC still showing limitations in the most advanced processes, Samsung Electronics is the most realistic alternative Chinese companies can choose aside from TSMC.” He added, “The fact that Samsung Electronics holds its own automotive chip design and mass production experience, such as ‘Exynos Auto,’ through its System LSI division is also a factor raising the trust of Chinese companies.”\n\nThe industry expects that, following Chinese automakers, Chinese big tech companies will eventually knock on the door of Samsung Electronics’ foundry as well. This is because Chinese big tech players such as Alibaba, Tencent, ByteDance, and Baidu are now staking everything on developing their own AI semiconductors and securing data center chips.\n\nBecause these companies are included on the list targeted by the US government’s semiconductor export controls against China, it would be difficult for them to place large orders with Samsung Electronics’ foundry right away. But the landscape could change depending on shifts in US China relations or any easing of export restrictions. The industry judges that Chinese AI chip developers that have collaborated with Samsung Electronics in the past, such as Baidu, are strong potential customers.\n\nAn industry official said, “Chinese companies showing interest in Samsung’s foundry is a move to find a leading edge process alternative rather than a choice to evade sanctions,” adding, “If they secure trust in automotive chips, the scope of cooperation could later widen to AI chips and high performance computing chips.”",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2061611485932200180",
+      "kind": "post",
+      "engagement": {
+        "views": 59928,
+        "likes": 354,
+        "reposts": 38,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2067092746364748272",
       "date": "2026-06-16",
@@ -37,7 +61,7 @@
       "url": "https://x.com/jukan05/status/2067092746364748272",
       "kind": "post",
       "engagement": {
-        "views": 148674,
+        "views": 148679,
         "likes": 390,
         "reposts": 52,
         "replies": 15
@@ -64,7 +88,5 @@
       "close": 86.35
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-23T19:16:13.010408+00:00"
+  "price_status": "ok"
 }

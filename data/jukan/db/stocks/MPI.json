@@ -1,0 +1,42 @@
+{
+  "ticker": "MPI",
+  "cashtag": "MPI",
+  "price_symbol": "MPI",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-13",
+  "last_mention": "2026-04-13",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2043559385562304864",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MPI",
+      "text": "FormFactor and MPI vie to break SiPh test bottleneck as ficonTEC reportedly exits\n\nAs AI data centers officially enter the silicon photonics (SiPh) era, the industry faces severe challenges in testing accuracy and throughput on the path toward mass production of co-packaged optics (CPO) technology. This has drawn close attention to upstream test supply chain dynamics.\n\nInitially, the probe station market for SiPh chip testing was dominated by a three-way rivalry among US-based FormFactor, Germany's ficonTEC, and Taiwan's MPI(https://t.co/rcmXajqpgd). Each partnered with automated test equipment (ATE) suppliers, foundries, and IC design firms to develop solutions.\n\nRecent supply chain reports reveal that after China's RoboTechnik completed a cross-border acquisition in 2025, formally making ficonTEC its wholly owned subsidiary, concerns over technology leakage due to the new Chinese ownership led customers to lose confidence. Consequently, ficonTEC lost ground in the SiPh probe station market, ceding share to FormFactor and MPI.\n\nHowever, some industry insiders argue that ficonTEC's Chinese background is not the decisive factor behind its exit. The primary reason remains its lack of experience in developing probe stations, failing to master core technologies and resolve customer production bottlenecks effectively.\n\nMoreover, if ficonTEC is indeed sidelined by leading global players, this could also impact Teradyne, which closely collaborates with ficonTEC, potentially disrupting future product strategies in SiPh test equipment.\n\nThe testing process for SiPh chips reportedly spans four main phases from wafer level to module packaging: photonic integrated circuit (PIC) testing, wafer-level optoelectronic integration testing, optical engine testing, and post-CPO packaging testing.\n\nAn industry insider describes the second phase as a \"major black hole\" in the SiPh manufacturing flow. Currently, only engineering prototypes exist without automated solutions suitable for mass production, resulting in insufficient scale benefits and inadequate test capabilities.\n\nMPI stated that urgent demand for SiPh testing over the past two years, driven by CPO packaging's optoelectronic integration needs, prompted it to consolidate its LED and advanced semiconductor test (AST) product lines by 2026. This move aims to accelerate development in optoelectronic measurement technologies while maintaining close cooperation with Advantest and Keysight.\n\nExperts emphasize that before full-scale mass production of SiPh chips can be realized, multiple standardization challenges remain in electro-optical testing processes. This highlights the importance of shift-left testing, since failures in highly integrated CPO packaging are costly, making stage-by-stage validation critical to protecting profit margins.\n\nNotably, sources indicate that if the wafer-level optoelectronic integration test bottleneck persists, customers may skip this step during mass production and proceed directly to optical engine testing, where clear solutions already exist, accepting some yield loss and higher costs to ensure final product shipment success.\n\n$TER",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043559385562304864",
+      "kind": "post",
+      "engagement": {
+        "views": 122471,
+        "likes": 121,
+        "reposts": 14,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

@@ -1,0 +1,100 @@
+{
+  "ticker": "001389",
+  "cashtag": "Delton",
+  "price_symbol": "001389.SZ",
+  "exchange": "Shenzhen",
+  "currency": "CNY",
+  "ticker_mapped": true,
+  "company": "Delton Technology",
+  "industry": "AI Server PCB",
+  "thesis_summary": null,
+  "first_mention": "2026-04-24",
+  "last_mention": "2026-04-24",
+  "total_mentions": 3,
+  "mentions": [
+    {
+      "tweet_id": "2047816848058794440",
+      "date": "2026-04-24",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "server PCB manufacturer specializing in CPU-related PCBs",
+        "meaningful presence in CPU PCB market"
+      ],
+      "is_risk": false,
+      "conviction": "medium",
+      "raw_mention": "Delton Technology",
+      "text": "My current watchlist:\n\nAdvantest — As GPU architectures become increasingly complex, the number of required testing steps could rise exponentially. Could there still be more upside here?\n\nMontage — If CPU adoption increases, usage of memory interfaces should also surge. I prefer Montage over Rambus in particular because Montage also has exposure to CXL.\n\nDelton Technology — A specialized CPU substrate manufacturer with a meaningful presence in the CPU substrate market.\n\nQualcomm — If Qualcomm really launches its data-center Nuvia CPU in June, it could potentially reverse the current overly short-biased sentiment.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047816848058794440",
+      "kind": "post",
+      "engagement": {
+        "views": 213136,
+        "likes": 1240,
+        "reposts": 100,
+        "replies": 43
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047819810369835291",
+      "date": "2026-04-24",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "server PCB manufacturer specializing in CPU-related PCBs (correction of earlier description)"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Delton",
+      "text": "Damn, I guess I wasn’t fully awake this morning. Delton isn’t a substrate company — it’s a server PCB manufacturer, specializing in CPU-related PCBs.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047819810369835291",
+      "kind": "self_thread",
+      "engagement": {
+        "views": 17175,
+        "likes": 45,
+        "reposts": 0,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047823601462812932",
+      "date": "2026-04-24",
+      "stance": "neutral",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "company works closely with Huawei",
+        "Huawei 950 expected to enter heavy mass production in second half of year"
+      ],
+      "is_risk": false,
+      "conviction": "low",
+      "raw_mention": "Delton",
+      "text": "Another reason I’m watching Delton closely is that the company works closely with Huawei. As DeepSeek’s comments suggest, Huawei’s 950 is expected to enter heavy mass production starting in the second half of this year, right? https://t.co/JVSkHWWBlC",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047823601462812932",
+      "kind": "post",
+      "engagement": {
+        "views": 46248,
+        "likes": 168,
+        "reposts": 12,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "not_covered",
+  "price_unit": "CNY",
+  "price_updated_at": "2026-06-23T20:32:18.888131+00:00"
+}

@@ -8,10 +8,67 @@
   "company": "HP Inc.",
   "industry": "PC Hardware",
   "thesis_summary": null,
-  "first_mention": "2026-06-20",
+  "first_mention": "2026-04-12",
   "last_mention": "2026-06-20",
-  "total_mentions": 1,
+  "total_mentions": 3,
   "mentions": [
+    {
+      "tweet_id": "2043511575013908798",
+      "date": "2026-04-12",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$HPQ",
+      "text": "Gartner: \"Q1 PC Shipments Up 4% YoY… Driven by Inventory Build\"\n\nGlobal PC shipments rose 4% year-over-year in Q1.\n\nMarket research firm Gartner announced on the 13th that Q1 PC shipments reached 62.8 million units, up 4% from the same period last year. However, Gartner noted that the growth was not driven by real end-user demand, but rather by inventory builds in response to surging memory semiconductor prices.\n\nRishi Padhi, Research Director at Gartner, explained: \"The increase in Q1 PC shipments was due to sharp rises in DRAM and NAND flash component costs, prompting vendors and distributors to build inventory ahead of anticipated price hikes in Q2.\"\n\nGartner assessed that artificial growth continued in Q1, similar to last year. In Q1 last year, shipments also exceeded real demand due to preemptive imports ahead of tariffs imposed by the Trump administration.\n\nThe top four PC shipment vendors in Q1 were Lenovo, HP, Dell, and Apple — unchanged from last year. However, ASUS moved up one spot to fifth place, overtaking Acer. Apple posted the highest growth rate among major vendors at 12.7%.\n\nRegarding Apple's surge in PC shipments, Padhi noted: \"This was driven by solid demand for the MacBook Neo, particularly from new Mac adopters and education market buyers. Through strategic positioning, Apple has effectively attracted price-sensitive consumers seeking high-performance devices, strengthening its competitiveness in the PC segment.\"\n\n$DELL $HPQ $AAPL",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2043511552712830976",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFwC7iHa8AA5gUk.png",
+          "width": 700,
+          "height": 324,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2043511575013908798",
+      "kind": "post",
+      "engagement": {
+        "views": 13228,
+        "likes": 59,
+        "reposts": 4,
+        "replies": 3
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043713758791631276",
+      "date": "2026-04-13",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "HP",
+      "text": "But aren’t Dell and HP just too large to acquire? If it were me, I’d be more likely to acquire a Taiwanese company. https://t.co/rHrrgksQN1",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043713758791631276",
+      "kind": "post",
+      "engagement": {
+        "views": 39725,
+        "likes": 164,
+        "reposts": 3,
+        "replies": 58
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2068308376434671713",
       "date": "2026-06-20",
@@ -37,7 +94,7 @@
       "url": "https://x.com/jukan05/status/2068308376434671713",
       "kind": "post",
       "engagement": {
-        "views": 113970,
+        "views": 113994,
         "likes": 423,
         "reposts": 36,
         "replies": 40
@@ -52,7 +109,5 @@
       "close": 23.54
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-23T19:16:17.231550+00:00"
+  "price_status": "ok"
 }

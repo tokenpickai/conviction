@@ -1,0 +1,53 @@
+{
+  "ticker": "MTIA",
+  "cashtag": "MTIA",
+  "price_symbol": "MTIA",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-06-12",
+  "last_mention": "2026-06-12",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2065580211245330560",
+      "date": "2026-06-12",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "6-month performance evaluation cycles misaligned with 2-year AI accelerator development timelines"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "MTIA",
+      "text": "Wow, this is genuinely awful. AI accelerator development takes two years until launch, and yet they evaluate the performance of the people working on it every six months? This is exactly why MTIA is shit. https://t.co/TQi20g4Uw4",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2065579943715876864",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKpqA9BbMAA6alo.jpg",
+          "width": 1500,
+          "height": 1696,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2065580211245330560",
+      "kind": "post",
+      "engagement": {
+        "views": 80364,
+        "likes": 497,
+        "reposts": 29,
+        "replies": 16
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

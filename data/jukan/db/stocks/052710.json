@@ -1,0 +1,42 @@
+{
+  "ticker": "052710",
+  "cashtag": "Amotech",
+  "price_symbol": "052710",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-21",
+  "last_mention": "2026-04-21",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2046521336106004977",
+      "date": "2026-04-21",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Amotech",
+      "text": "[Exclusive] Samsung Electro-Mechanics to Supply AI Substrates to Broadcom\n\nRiding the artificial intelligence (AI) boom, not only memory semiconductor companies but also Korean electronic component makers have moved to the center of the global materials, parts, and equipment (MPE) supply chain. Major players including Samsung Electro-Mechanics and LG Innotek have emerged as key partners for Big Tech firms seeking to resolve AI bottlenecks. Analysts say an era of \"component-supplier supremacy\" has arrived, with Korean companies now holding the upper hand in the supply chain — a reversal from the past subcontractor-style structure in which they relied on orders from finished-goods makers. \n\nAccording to industry sources on the 21st, Samsung Electro-Mechanics has secured Broadcom of the U.S. as a new customer for Flip Chip Ball Grid Array (FC-BGA) AI semiconductor substrates. Following major Big Tech names such as NVIDIA, Google, Amazon, and Apple, Broadcom has now joined Samsung Electro-Mechanics' customer roster. Samsung Electro-Mechanics will begin supplying substrates for Broadcom's most advanced AI accelerators starting in the second half of this year.\n\nFC-BGA is a core component that connects semiconductor chips to the mainboard, transmitting electrical signals and power. Only a handful of companies are capable of manufacturing these substrates — Samsung Electro-Mechanics, LG Innotek, and Japan's Ibiden and Murata among them.\n\nA tectonic shift is also underway in the Multi-Layer Ceramic Capacitor (MLCC) market. Samsung Electro-Mechanics is supplying large volumes of ultra-high-capacitance MLCCs for AI servers to NVIDIA and other major global Big Tech firms. AI servers use three to four times more MLCCs than conventional servers. In particular, these components must withstand high-temperature, high-pressure environments, requiring advanced technical capabilities, and unit prices run three to five times higher than standard products. This is why Samsung Electro-Mechanics and other Korean companies with specialized technologies, such as Amotech, are being courted by Big Tech.\n\nThere is also a growing view that the global AI supply chain is being restructured in such a way that it can no longer be sustained without Korean component makers. This is because Korean firms possess unrivaled technological capabilities in addressing the critical bottlenecks that determine the performance of AI accelerators.\n\nAn industry official said, \"Korean companies have demonstrated irreplaceable technological capabilities in high-performance substrates and materials, and are now facing an unprecedented golden window of opportunity.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046521336106004977",
+      "kind": "post",
+      "engagement": {
+        "views": 45044,
+        "likes": 225,
+        "reposts": 26,
+        "replies": 9
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

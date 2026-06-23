@@ -1,0 +1,269 @@
+{
+  "ticker": "RMBS",
+  "cashtag": "Rambus",
+  "price_symbol": "RMBS",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": "Rambus",
+  "industry": "Memory Interface/IP",
+  "thesis_summary": null,
+  "first_mention": "2026-04-20",
+  "last_mention": "2026-04-24",
+  "total_mentions": 3,
+  "mentions": [
+    {
+      "tweet_id": "2046142713486320025",
+      "date": "2026-04-20",
+      "stance": "bearish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "author explicitly excludes Rambus from preferred memory module companies"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Rambus",
+      "text": "@ruth_capital @Bluntz_Capital @eadingleberry I prefer memory module companies (not Rambus).",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2046142713486320025",
+      "kind": "reply",
+      "engagement": {
+        "views": 3350,
+        "likes": 19,
+        "reposts": 2,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047816848058794440",
+      "date": "2026-04-24",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Rambus",
+      "text": "My current watchlist:\n\nAdvantest — As GPU architectures become increasingly complex, the number of required testing steps could rise exponentially. Could there still be more upside here?\n\nMontage — If CPU adoption increases, usage of memory interfaces should also surge. I prefer Montage over Rambus in particular because Montage also has exposure to CXL.\n\nDelton Technology — A specialized CPU substrate manufacturer with a meaningful presence in the CPU substrate market.\n\nQualcomm — If Qualcomm really launches its data-center Nuvia CPU in June, it could potentially reverse the current overly short-biased sentiment.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047816848058794440",
+      "kind": "post",
+      "engagement": {
+        "views": 213136,
+        "likes": 1240,
+        "reposts": 100,
+        "replies": 43
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2047817239961972967",
+      "date": "2026-04-24",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Rambus",
+      "text": "Sorry, The reason I prefer Montage is that it has a higher share of revenue from physical chip sales than Rambus.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2047817239961972967",
+      "kind": "self_thread",
+      "engagement": {
+        "views": 17548,
+        "likes": 42,
+        "reposts": 0,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [
+    {
+      "date": "2026-04-20",
+      "close": 126.87
+    },
+    {
+      "date": "2026-04-21",
+      "close": 130.45
+    },
+    {
+      "date": "2026-04-22",
+      "close": 131.55
+    },
+    {
+      "date": "2026-04-23",
+      "close": 138.5
+    },
+    {
+      "date": "2026-04-24",
+      "close": 158.4
+    },
+    {
+      "date": "2026-04-27",
+      "close": 141.31
+    },
+    {
+      "date": "2026-04-28",
+      "close": 111.27
+    },
+    {
+      "date": "2026-04-29",
+      "close": 112.16
+    },
+    {
+      "date": "2026-04-30",
+      "close": 115.11
+    },
+    {
+      "date": "2026-05-01",
+      "close": 111.93
+    },
+    {
+      "date": "2026-05-04",
+      "close": 111.5
+    },
+    {
+      "date": "2026-05-05",
+      "close": 118.0
+    },
+    {
+      "date": "2026-05-06",
+      "close": 130.04
+    },
+    {
+      "date": "2026-05-07",
+      "close": 126.6
+    },
+    {
+      "date": "2026-05-08",
+      "close": 129.245
+    },
+    {
+      "date": "2026-05-11",
+      "close": 134.51
+    },
+    {
+      "date": "2026-05-12",
+      "close": 130.28
+    },
+    {
+      "date": "2026-05-13",
+      "close": 134.85
+    },
+    {
+      "date": "2026-05-14",
+      "close": 130.46
+    },
+    {
+      "date": "2026-05-15",
+      "close": 127.05
+    },
+    {
+      "date": "2026-05-18",
+      "close": 123.76
+    },
+    {
+      "date": "2026-05-19",
+      "close": 122.03
+    },
+    {
+      "date": "2026-05-20",
+      "close": 133.56
+    },
+    {
+      "date": "2026-05-21",
+      "close": 141.82
+    },
+    {
+      "date": "2026-05-22",
+      "close": 142.98
+    },
+    {
+      "date": "2026-05-26",
+      "close": 157.23
+    },
+    {
+      "date": "2026-05-27",
+      "close": 148.66
+    },
+    {
+      "date": "2026-05-28",
+      "close": 148.02
+    },
+    {
+      "date": "2026-05-29",
+      "close": 145.46
+    },
+    {
+      "date": "2026-06-01",
+      "close": 147.48
+    },
+    {
+      "date": "2026-06-02",
+      "close": 166.78
+    },
+    {
+      "date": "2026-06-03",
+      "close": 170.66
+    },
+    {
+      "date": "2026-06-04",
+      "close": 169.35
+    },
+    {
+      "date": "2026-06-05",
+      "close": 145.31
+    },
+    {
+      "date": "2026-06-08",
+      "close": 152.03
+    },
+    {
+      "date": "2026-06-09",
+      "close": 146.84
+    },
+    {
+      "date": "2026-06-10",
+      "close": 138.12
+    },
+    {
+      "date": "2026-06-11",
+      "close": 144.47
+    },
+    {
+      "date": "2026-06-12",
+      "close": 146.56
+    },
+    {
+      "date": "2026-06-15",
+      "close": 143.29
+    },
+    {
+      "date": "2026-06-16",
+      "close": 132.48
+    },
+    {
+      "date": "2026-06-17",
+      "close": 130.1
+    },
+    {
+      "date": "2026-06-18",
+      "close": 141.17
+    },
+    {
+      "date": "2026-06-22",
+      "close": 140.35
+    }
+  ],
+  "price_status": "ok"
+}

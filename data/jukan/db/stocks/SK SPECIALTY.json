@@ -1,0 +1,51 @@
+{
+  "ticker": "SK SPECIALTY",
+  "cashtag": "SK Specialty",
+  "price_symbol": "SK SPECIALTY",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-02",
+  "last_mention": "2026-04-02",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2039853707333144877",
+      "date": "2026-04-02",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "SK Specialty",
+      "text": "EXCLUSIVE: \"Worse Than the Iran Helium Problem\"... Semiconductor Industry Faces 'Tungsten Crisis'\n\n\"Helium can be sourced from the U.S. or Russia. For tungsten, there's nowhere to go but China.\"\n\nWhile concerns over semiconductor process material procurement — including helium — have emerged in the wake of the Iran war, the semiconductor industry points to tungsten hexafluoride (WF6) as an even more urgent supply risk.\n\nJapanese suppliers, which account for roughly 25% of global WF6 supply, have signaled production cuts in the second half of the year. The reason: China's tightening of tungsten export controls toward Japan has made it difficult for them to secure raw materials.\n\nAccording to multiple industry sources on April 3, Japanese WF6 suppliers such as Kanto Denka and Central Glass began notifying Korean semiconductor companies — including Samsung Electronics and DB HiTek — of raw material supply disruptions starting last week. A source familiar with the matter said, \"They indicated they can maintain supply through May–June using existing tungsten inventory, but cannot guarantee anything beyond that for the second half.\" The source added, \"They asked Korean clients to seek alternatives such as SK Specialty or Foosung.\"\n\nSamsung Electronics has a higher dependence on Japanese WF6 than SK Hynix, making the switch to domestic suppliers more urgent. SK Hynix is reportedly in a relatively better position, as it already sources some volume from SK Specialty, Foosung, and the Chinese supplier Peric. Meanwhile, some foundries are now under pressure to fast-track process qualification of Korean-made WF6 — a procedure that typically takes over 18 months, parts of which are now being skipped given the urgency.\n\nWF6 is a critical precursor used to deposit tungsten films on semiconductor wafers. These tungsten films serve as pathways for electrical signals within chips. While WF6 is used across DRAM, NAND, and logic, consumption is overwhelmingly concentrated in 3D NAND — its vertically stacked cell structure means that at 200 layers, tungsten must be deposited 200 times. A technology transition to replace tungsten interconnects with molybdenum is partially underway in leading-edge NAND processes, but full-scale adoption will take considerable time.\n\nWF6 manufacturers import Chinese tungsten powder, react it with fluorine gas at high temperatures, then distill and purify it into high-purity gas for semiconductor use. China accounts for 80% of global tungsten powder supply.\n\nSince February of last year, China has imposed an export licensing regime on strategic minerals including tungsten. On top of that, following Japanese Prime Minister Sanae Takaichi's remarks on Taiwan in January of this year, China added export controls on \"dual-use\" items destined for Japan. Tungsten powder qualifies as a dual-use item — it is both a semiconductor material and a component used in weapons systems including tanks, missiles, and aircraft.\n\nAs China's export controls have taken hold, tungsten prices have surged relentlessly. Tungsten powder prices have risen 6–7x over the past year. According to Bloomberg, the international benchmark price for ammonium paratungstate (APT) — the raw material for tungsten powder — has climbed 557% since February of last year.\n\nSouth Korea remains relatively free from China's export controls, and SK Specialty and Foosung have maintained their tungsten powder imports. However, SK Specialty has reportedly notified customers of a more-than-double price increase for WF6. Foosung is taking the same stance, as the cost structure is identical. An industry source said, \"The bottom line is that domestic WF6 suppliers stand to benefit from the windfall.\"",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2039853683429830657",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HE8EHhKbcAE-8Gf.png",
+          "width": 600,
+          "height": 457,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2039853707333144877",
+      "kind": "post",
+      "engagement": {
+        "views": 501487,
+        "likes": 1124,
+        "reposts": 180,
+        "replies": 43
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

@@ -1,0 +1,51 @@
+{
+  "ticker": "NOVATEK",
+  "cashtag": "Novatek",
+  "price_symbol": "NOVATEK",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-04-18",
+  "last_mention": "2026-04-18",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2045424807614038306",
+      "date": "2026-04-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Novatek",
+      "text": "Taiwan UMC, Vanguard Raise Chip Prices — Impact of \"De-China\" Supply Chain Restructuring\n\nAs the decoupling between China and non-China semiconductor supply chains peaks, Taiwan's tier-2 foundries UMC and Vanguard (VIS) have gained the leverage to raise chip prices, according to a recent assessment. Years of supply chain restructuring have eroded the cost-advantage argument for shifting production elsewhere, and TSMC's concentration on leading-edge nodes has further benefited these tier-2 players.\n\nIn its April 15 report titled \"Taiwan Tier-2 Foundries: Price Hikes Materializing,\" Nomura Securities noted that UMC and Vanguard plan to raise chip prices and that fab utilization is also climbing.\n\nOne Taiwanese media outlet reported that Vanguard plans to raise foundry prices across all platforms by 10% starting in April. UMC has notified customers that it will adjust foundry pricing in the second half. In both cases, the drivers are pass-through of rising input costs and tight fab utilization.\n\nNomura cited \"the peak-out of supply chain decoupling effects\" as one of the key rationales behind the price hikes at both companies. Over the past 2–3 years, customers looking to migrate volume to Chinese foundries have effectively completed that shift, reducing the customer-attrition risk for UMC and Vanguard.\n\nAs geopolitical risk has elevated the importance of supply chain diversification, flexible production migration has diminished, and the incentive offered by price cuts is no longer what it once was. Taiwan foundries now have less reason to engage in the chicken game being waged by Chinese competitors.\n\nThe shift in TSMC's strategy also matters. As TSMC concentrates its resources on preparing next-generation fabs set to come online from 2028 and on optimizing leading-edge nodes, mature nodes have been deprioritized.\n\nNomura pointed to Vanguard's expanding foundry business with Renesas for AI server PMICs and its growing share within Qualcomm as supporting the price hike. Products on ≤180nm nodes are now shipping as soon as they come off the line. Vanguard's 1Q fab utilization is estimated to have risen to 80–85%.\n\nUMC's 1Q utilization is estimated at roughly 70% for 8-inch and 80% for 12-inch fabs. Both are expected to break above 80% from 2Q onward.\n\nNomura noted that demand for analog and mixed-signal chips from IDMs — which account for roughly 20% of UMC's revenue — is driving performance. Strong Apple device sales this year are also contributing to higher UMC fab utilization. Representative examples include OLED DDIs designed by Novatek and Samsung System LSI for Apple products, as well as ISPs from Samsung System LSI. These products are primarily manufactured on 22/28nm nodes.\n\nNomura forecasts UMC's 2Q revenue to grow 7–9% QoQ, significantly exceeding the street consensus of 2%. Vanguard's 2Q revenue is expected to grow more than 15% QoQ as the price hikes fully flow through — also well above the consensus of 6%.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2045424791243587584",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGLPArDaAAAq1Df.png",
+          "width": 640,
+          "height": 350,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2045424807614038306",
+      "kind": "post",
+      "engagement": {
+        "views": 15689,
+        "likes": 77,
+        "reposts": 7,
+        "replies": 2
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

@@ -1,0 +1,42 @@
+{
+  "ticker": "BAOTEK",
+  "cashtag": "Baotek",
+  "price_symbol": "BAOTEK",
+  "exchange": "US",
+  "currency": "USD",
+  "ticker_mapped": false,
+  "company": null,
+  "industry": null,
+  "thesis_summary": null,
+  "first_mention": "2026-05-18",
+  "last_mention": "2026-05-18",
+  "total_mentions": 1,
+  "mentions": [
+    {
+      "tweet_id": "2056527538944713101",
+      "date": "2026-05-18",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "Baotek",
+      "text": "Severe glass fiber shortage drives spillover benefits for Taiwanese glass fiber makers\n\n• Ahead of the mass production ramp of NVIDIA’s Rubin platform in 2H26, AI servers and high-speed switches are being upgraded from the existing 112G generation to the 224G PAM4 high-speed transmission generation. As a result, demand is surging for high-performance Low-Dk and Low-CTE materials that reduce signal loss and thermal deformation.\n\n• Taiwan’s major CCL supplier Elite Material is currently facing a shortage of its highest-end M7 and M8 materials, with supply unable to keep up with demand. The company plans to begin early shipments of next-generation M9-grade materials from 3Q this year, making 2027 likely the first year of full-scale mass production for high-end materials.\n\n• The high-end Low-CTE glass fiber market is tightly supplied, as Japanese companies such as Nittobo effectively dominate the segment. This is creating significant spillover benefits for Taiwanese glass fiber manufacturers. FULLTECH FIBER is entering the AI server and high-speed switch supply chain with Low-Dk and Low-CTE products, while Baotek is expanding its high-strength glass fiber, or T-Glass, portfolio. Grandsys is benefiting from price increases in general-purpose products and is developing next-generation new materials, including Q-cloth and Q-glass.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2056527538944713101",
+      "kind": "post",
+      "engagement": {
+        "views": 303874,
+        "likes": 318,
+        "reposts": 20,
+        "replies": 8
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    }
+  ],
+  "price_series": [],
+  "price_status": "pending"
+}

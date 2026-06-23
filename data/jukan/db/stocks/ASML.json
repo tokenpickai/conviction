@@ -5,13 +5,555 @@
   "exchange": "US",
   "currency": "USD",
   "ticker_mapped": false,
-  "company": null,
-  "industry": null,
+  "company": "ASML",
+  "industry": "Semiconductor Lithography",
   "thesis_summary": null,
-  "first_mention": "2026-06-18",
+  "first_mention": "2026-03-31",
   "last_mention": "2026-06-18",
-  "total_mentions": 1,
+  "total_mentions": 19,
   "mentions": [
+    {
+      "tweet_id": "2038890721026191659",
+      "date": "2026-03-31",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "will continue to sell a substantial amount of DUV equipment to China going forward"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ASML",
+      "text": "I think ASML will continue to sell a substantial amount of DUV equipment to China going forward. ASML probably knows that too, which is why they set up such a large booth at Semicon China, right? https://t.co/KwEz8cyqTv",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2038890721026191659",
+      "kind": "post",
+      "engagement": {
+        "views": 26599,
+        "likes": 172,
+        "reposts": 8,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2039733794710896979",
+      "date": "2026-04-02",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "DUV demand going through the roof",
+        "CXMT buying up other companies' reserved DUV slots at higher prices"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$ASML",
+      "text": "ASML’s DUV demand is apparently going through the roof, and CXMT is said to be buying up other companies’ reserved DUV slots at higher prices.\n\nInsane. Long $ASML https://t.co/8vkWrU7ju3",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2039733794710896979",
+      "kind": "post",
+      "engagement": {
+        "views": 87903,
+        "likes": 383,
+        "reposts": 31,
+        "replies": 16
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2040955890816401887",
+      "date": "2026-04-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$ASML",
+      "text": "SK Hynix Triples EUV Investment… Strengthening 1c DRAM\n\nSK Hynix is accelerating efforts to strengthen competitiveness in its leading-edge 10nm-class 6th-generation (1c) DRAM process. Investment in extreme ultraviolet (EUV) equipment for this process has been expanded roughly threefold from the original plan.\n\nAccording to industry sources, SK Hynix is focusing on advancing 1c DRAM technology to be applied to the core die of HBM4E — its 7th-generation High Bandwidth Memory (HBM) — with sample delivery targeted for this year. As NVIDIA, HBM's largest customer, plans to launch its next-generation AI accelerator \"Vera Rubin Ultra\" equipped with HBM4E in 2H next year, SK Hynix is under pressure to ramp up development speed.\n\nPreviously, SK Hynix had applied its existing 1b DRAM process to HBM3E and HBM4, while prioritizing 1c process adoption for commodity DRAM products such as DDR5, LPDDR5X, and GDDR7. This was a strategy to simultaneously secure HBM development stability and leading-edge process references. Recently, as 1c DRAM yields have improved, the company has been expanding its application scope to HBM and increasing related investment.\n\nSK Hynix claimed the \"world's first\" title for 1c DRAM process technology when it developed 16Gb DDR5 in August 2024. After transitioning to mass production, there were some yield improvement challenges, but the process entered the stabilization phase relatively quickly.\n\nAn industry source said, \"As recently as July last year, yields were not coming through well even for commodity DRAM — not just HBM — and a task force (TF) was set up to address it. The situation has improved considerably since then.\" According to industry sources, SK Hynix's 1c DRAM yield for commodity DRAM has climbed to 80%.\n\nOn the back of this technological competitiveness, EUV equipment investment for 1c DRAM has also expanded significantly. SK Hynix disclosed last month that it acquired approximately KRW 12 trillion worth of EUV lithography scanners from ASML. Considering the company's total equipment investment for this year is estimated at around KRW 20 trillion, more than half has been allocated to EUV.\n\nThe aforementioned source said, \"To my understanding, this is more than three times the original EUV scanner delivery plan set by the company.\"\n\nThe equipment purchased by SK Hynix is ASML's latest EUV scanner model, with an estimated volume of approximately 20 units. The contract does not appear to include High-NA equipment. High-NA EUV is a next-generation system capable of patterning finer circuit features than conventional EUV, priced at approximately KRW 500 billion per unit. Given that the equipment delivery deadline stated in the disclosure is 2027, the timeline appears too tight for large-scale adoption of High-NA, which has not yet reached the commercialization stage.\n\nEUV scanner prices are typically cited in the KRW 300–400 billion range, but this contract is estimated to have been concluded at a higher level. The analysis is that the latest model commands a higher price due to improved productivity.\n\nThere have also been observations that SK Hynix paid a 15–20% \"expedite fee\" to accelerate equipment delivery. The company is set to receive final delivery of the EUV scanners from ASML by end of 2027 — a significantly compressed timeline compared to when it procured approximately KRW 5 trillion worth of the same equipment in 2021 under a five-year contract. However, the company's position is that \"the contract was concluded at a level similar to the broader industry, with no special differences.\"\n\nSK Hynix plans to deploy the EUV scanners at lines undergoing 1c DRAM process conversion, including Cheongju M15X, Icheon M16, and the first fab of the Yongin semiconductor cluster.\n\nAdditionally, the number of EUV-applied layers is being expanded to five or more for 1c DRAM, up from one layer for 1a DRAM and four layers for 1b DRAM. Competitor Samsung Electronics had initially reviewed applying as many as 8–9 layers for 1c DRAM but adjusted to a similar level considering cost burden and other factors.\n\nMeanwhile, SK Hynix is also accelerating 1c DRAM capacity expansion through this investment. The company plans to convert more than half of its DRAM capacity to 1c process products this year, with capacity expected to reach approximately 190,000 wafers per month by year-end.\n\n$ASML",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2040955874777423872",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFLujf5a4AA9cEW.png",
+          "width": 755,
+          "height": 410,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2040955890816401887",
+      "kind": "post",
+      "engagement": {
+        "views": 74318,
+        "likes": 242,
+        "reposts": 26,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2040956639034155486",
+      "date": "2026-04-05",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ASML",
+      "text": "I didn’t know this, but it’s interesting. Even ASML’s Low-NA EUV tools get more expensive with each generation. SK hynix even paid a 15–20% premium to bring forward delivery, on top of that… https://t.co/eLdEt4tbof https://t.co/Y7vKTdlqgQ",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2040956369143312384",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFLvARjbsAA0c6I.png",
+          "width": 1192,
+          "height": 650,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2040956639034155486",
+      "kind": "post",
+      "engagement": {
+        "views": 32661,
+        "likes": 228,
+        "reposts": 12,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041076290711847131",
+      "date": "2026-04-06",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$ASML",
+      "text": "Samsung Electronics Orders ~20 EUV Tools for P5… \"First Cleanroom Completion Next Year\"\n\nSamsung Electronics has reportedly placed orders for approximately 20 extreme ultraviolet (EUV) lithography tools—critical equipment for sub-10nm advanced processes—with Dutch semiconductor equipment maker ASML. Including deep ultraviolet (DUV) tools, the total lithography equipment order reaches roughly 70 units. Samsung plans to leverage this overwhelming number of lithography tools to maintain a decisive lead over competitors such as SK Hynix and Micron in advanced process technology.\n\nAccording to multiple semiconductor industry sources on April 6, Samsung Electronics has issued purchase orders (POs) to ASML and Japan's Canon for approximately 70 lithography tools to be installed in Phase 1 of its Pyeongtaek Campus Fab 5 (P5).\n\nNotably, the ~20 EUV lithography tools alone are valued at over KRW 10 trillion. These tools will be deployed to ramp production capacity on Samsung's 1c node—its 6th-generation 10nm-class DRAM process. As 1c process productivity improves, output of 6th-generation High Bandwidth Memory (HBM4) built on this node will also increase.\n\nSamsung mass-produced HBM4 in February this year—a world first—and has been supplying it to NVIDIA, the world's largest AI semiconductor company. HBM4 is mounted on NVIDIA's latest high-performance GPU, Rubin. Rubin is expected to begin shipping in earnest in the second half of this year, with supply going to U.S. big tech companies including Google and Amazon. The industry projects Rubin will generate over $1 trillion in revenue.\n\nSamsung is scaling up HBM4 production at its Hwaseong H3 Line 17 and Pyeongtaek P3/P4 fabs in line with the Rubin launch. Once the newly ordered EUV tools are delivered sequentially from ASML, Samsung is expected to simultaneously expand both DRAM and HBM4 output, solidifying its dominant position in the memory semiconductor market.\n\nThe lithography tools from this order are scheduled for delivery in time for the P5 Phase 1 cleanroom build-out, expected in Q1 next year. Given that semiconductor equipment shipping typically takes about one year, Samsung is projected to begin installing the EUV and other lithography tools in the P5 cleanroom by Q2. Accordingly, Samsung's 1c DRAM and HBM4 production capacity is highly likely to see a significant increase in 1H next year.\n\nIndustry observers note that this large-scale lithography equipment order marks the beginning of Samsung widening the technology gap over competitors in advanced process technology. SK Hynix, which is in fierce competition in the HBM market, signed an EUV supply contract with ASML worth approximately KRW 12 trillion for around 20 units late last month. SK Hynix plans to bring its total EUV fleet to roughly 40 units to strengthen its competitiveness in advanced processes.\n\nHowever, with Samsung ordering ~20 additional EUV tools, the equipment gap between the two companies in advanced processes is likely to persist. Samsung currently operates approximately 40 EUV tools—roughly double SK Hynix's fleet. With the addition of 70 lithography tools including EUV, Samsung can continue to lead in the race for advanced process supremacy against SK Hynix. Furthermore, analysts believe this positions Samsung favorably in the development race for the 1d node—the 7th-generation 10nm-class DRAM expected to be adopted starting with HBM5E.\n\nSamsung plans to deploy approximately 20 EUV tools at Pyeongtaek P5. If all four phases of P5 are configured as DRAM production lines, Samsung could produce more than double the volume of SK Hynix.\n\nAn industry source familiar with the matter explained: \"In the past, it was standard practice to determine NAND flash lines first when building a new fab, but this time the decision was made to expand DRAM lines first due to the expected increase in HBM4 shipments. EUV tools are expected to be installed sequentially starting in Q2 next year.\"\n\n$ASML",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2041076280880410624",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFNcEDlaMAAz8Hv.jpg",
+          "width": 1200,
+          "height": 697,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2041076290711847131",
+      "kind": "post",
+      "engagement": {
+        "views": 203087,
+        "likes": 219,
+        "reposts": 22,
+        "replies": 4
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041076972177285495",
+      "date": "2026-04-06",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "called ASML since October last year predicting DRAM supply shortage",
+        "DRAM makers ramping capacity will cause intense scramble for EUV tools",
+        "EUV slots fully sold out through 2027 with 2028 negotiations underway",
+        "ASML is still cheap"
+      ],
+      "is_risk": false,
+      "conviction": "high",
+      "raw_mention": "ASML",
+      "text": "I've been calling ASML since October last year, predicting that DRAM would face a severe supply shortage, and that as the three major DRAM makers ramp up capacity expansions, ASML's EUV tools would become the subject of an intense scramble. \n\nMy thesis is gradually playing out. ASML's EUV slots are already fully sold out through 2027, and negotiations for 2028 allocations are now underway. \n\nMost recently, Samsung alone ordered 20 EUV systems for a single fab. \n\nASML is still cheap.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2041076357531328512",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFNcIhIaYAAHxk-.png",
+          "width": 1182,
+          "height": 516,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2041076972177285495",
+      "kind": "post",
+      "engagement": {
+        "views": 179928,
+        "likes": 964,
+        "reposts": 57,
+        "replies": 23
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2041330434496430127",
+      "date": "2026-04-06",
+      "stance": "neutral",
+      "mention_type": "comparison",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ASML",
+      "text": "There are some intriguing signs that help gauge how far China's lithography equipment technology has advanced.\n\nAccording to JoongAng Ilbo's on-site interviews with SMEE representatives at SEMICON China, SMEE's DUV lithography equipment currently has the following characteristics:\n\n- For wafer stage drive mechanisms, SMEE uses a direct-drive system rather than ball screws. This is the same approach used by ASML and is generally considered faster and more precise than ball screw configurations.\n- The claimed process coverage ranges from 100nm down to the 10nm node.\n- The equipment has already entered mass production and is being sold to customers.\n\nAn SMEE employee also described the equipment to visitors on the show floor as follows:\n\n\"This is a dual-stage scanning lithography system that we developed 100% in-house. Two wafer stages alternate scanning operations, and when an argon fluoride (ArF) excimer laser fires light from above, an optical system precisely controls it to form circuit patterns on the wafer.\"\n\nIf these claims are accurate, it would mean China has not only completed development of a DUV lithography tool capable of addressing nodes down to the 10nm range, but has already moved into mass production and commercial sales.\n\nIn particular, when you piece together the references to an ArF excimer laser, dual-stage scanning, and direct-drive architecture, the equipment appears to be a fairly advanced DUV system. If the claimed 10nm-range capability refers to critical layers, it becomes difficult to rule out the possibility that this is an ArF immersion (ArFi)-class tool. In other words, this suggests China has either come very close to state-of-the-art DUV lithography — or, in certain areas, may have already crossed that threshold.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2041330300253622272",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HFRDF7fb0AAhtdf.jpg",
+          "width": 1280,
+          "height": 960,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2041330434496430127",
+      "kind": "post",
+      "engagement": {
+        "views": 66487,
+        "likes": 412,
+        "reposts": 52,
+        "replies": 16
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2043117943194890240",
+      "date": "2026-04-11",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "author holds ASML shares and hopes C.C. Wei announces more capex to drive the stock up"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ASML",
+      "text": "I hope C.C. Wei blesses us with even more capex on this earnings call, so my ASML shares can go up.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2043117943194890240",
+      "kind": "post",
+      "engagement": {
+        "views": 19296,
+        "likes": 168,
+        "reposts": 0,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044281855449673851",
+      "date": "2026-04-15",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ASML",
+      "text": "ASML Q1 26 EARNINGS:\n\n• NET SALES: €8.77B (EST €8.55B)\n• NET INCOME: €2.76B (EST €2.54B)\n• SEES Q2 NET SALES: €8.4B TO €9.0B (EST €9.04B)\n• SEES FY NET SALES: €36B TO €40B (SAW €34B TO €39B; EST €37.68B)",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044281855449673851",
+      "kind": "post",
+      "engagement": {
+        "views": 65568,
+        "likes": 367,
+        "reposts": 18,
+        "replies": 13
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044284306575765746",
+      "date": "2026-04-15",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "revenue exposure to Korea has increased significantly"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ASML",
+      "text": "As I shared earlier, ASML’s revenue exposure to Korea has increased significantly. https://t.co/lhFRlBtJQI",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2044284301521629185",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HF7BvbwasAEV9P0.jpg",
+          "width": 1280,
+          "height": 656,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2044284306575765746",
+      "kind": "post",
+      "engagement": {
+        "views": 30543,
+        "likes": 292,
+        "reposts": 25,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2044287982086348936",
+      "date": "2026-04-15",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "warning to shorts that TSMC earnings are coming and C.C. Wei is expected to say something positive"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$ASML",
+      "text": "To those shorting ASML, you might want to be careful. TSMC earnings are tomorrow, right?\n\nWe already know what Uncle C.C. Wei is going to say there.\n\n$ASML",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2044287982086348936",
+      "kind": "post",
+      "engagement": {
+        "views": 75674,
+        "likes": 570,
+        "reposts": 25,
+        "replies": 23
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2045806552490336763",
+      "date": "2026-04-19",
+      "stance": "bullish",
+      "mention_type": "explicit_stance",
+      "reasons": [
+        "TSMC expected to unveil A14 node signaling first High-NA EUV adoption at limited volume",
+        "mirrors precedent of EUV adoption announcement ~2 years before volume production",
+        "A14+ volume production estimated ~2029 suggests TSMC will share details on this upgrade 2026-27"
+      ],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "$ASML",
+      "text": "An interesting sell-side prediction I came across: TSMC is expected to unveil its A14 enhanced node on April 22, and this node will likely signal the initial adoption of High-NA EUV at limited volume.\n\nIf realized, this would mark TSMC's first official confirmation of High-NA EUV adoption.\n\nFor context, TSMC announced the use of EUV for its N7+ node at its 2017 Symposium — roughly two years ahead of its 2019 volume production.\n\nGiven that TSMC's A14+ volume production is estimated for around 2029, it is plausible that TSMC will share details on this process upgrade in 2026–27, mirroring the 2017 precedent.\n\n$ASML",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2045806552490336763",
+      "kind": "post",
+      "engagement": {
+        "views": 76972,
+        "likes": 308,
+        "reposts": 18,
+        "replies": 15
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2051277334850969837",
+      "date": "2026-05-04",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ASML",
+      "text": "One of Korea’s leading semiconductor scholars, Professor Seokjun Kwon of Sungkyunkwan University’s Department of Chemical Engineering, said in an interview with Korean media today that China could secure advanced semiconductor manufacturing equipment approaching extreme ultraviolet, or EUV, lithography tools by around the mid-2030s, despite being blocked from accessing them by U.S. export controls.\n\nHe said, “We should neither overestimate nor underestimate China’s technological capabilities. We need to assess them coldly and objectively.”\n\nProfessor Kwon especially warned that Korea should not take the long-term potential of China’s semiconductor industry lightly.\n\nHe said:\n\n“During periods of industrial transformation, technologies that once seemed unlikely to be used can suddenly emerge. That is what disruptive innovation is. China’s electric vehicles are a representative example. China chose EVs as a way to overcome the long-established ‘moat’ built by the U.S. and Japan in internal combustion engine vehicles, and as a result, it has developed world-class technological capabilities. There is no reason the same thing cannot happen in semiconductors. Across China, Huawei fabs and industry-academia cooperation centers are simultaneously developing EUV alternative light sources, optical systems, and PR, or photoresist, materials. If one of these technologies survives, China could quickly move onto a growth curve backed by its enormous domestic market. A crisis could emerge in which Chinese semiconductor equipment, materials, and technologies begin to have a global impact.”\n\nProfessor Kwon was particularly concerned about the possibility of China developing next-generation lithography technology.\n\n“Today, everyone says that cutting-edge processes below 5nm are impossible without EUV. But precisely because of that, EUV, monopolized by the Dutch company ASML, is also an environment highly susceptible to disruptive innovation. China’s accelerator-based light source technology could become the next-generation technology after EUV. A prototype could emerge as early as the mid-2030s. If that happens, even if SMIC remains around ten years behind TSMC and Samsung Electronics, it could eventually enter the single-digit nanometer process regime, meaning advanced ultra-fine process technology.”",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2051277294594088960",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHeZ1NAa4AAyAjL.png",
+          "width": 700,
+          "height": 518,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2051277334850969837",
+      "kind": "post",
+      "engagement": {
+        "views": 119099,
+        "likes": 748,
+        "reposts": 121,
+        "replies": 40
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2052529725927756104",
+      "date": "2026-05-07",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ASML",
+      "text": "▶ SK Hynix flooded with unprecedented offers from Big Tech to secure chip supplies\n\n- SK Hynix is reportedly receiving aggressive proposals from global Big Tech firms to fund new production line investments and the purchase of expensive semiconductor manufacturing equipment.\n\n- These offers are highly unusual in the global memory industry, coming as demand for memory chips — essential for AI data centers, smartphones, and PCs — has surged beyond what chipmakers can supply.\n\n- According to multiple sources, SK Hynix's customers have proposed directly investing in dedicated memory production lines.\n\n- Other proposals involve customers funding the purchase of ASML's EUV (extreme ultraviolet) lithography equipment. EUV tools, which etch circuit patterns onto silicon wafers, cost several hundred million dollars per unit.\n\n- However, with ample cash on hand, SK Hynix is taking a cautious stance toward accepting customer financing.\n\n- The concern is that such arrangements could lock the company into specific customers and potentially require it to supply memory at lower prices in exchange for guaranteed long-term supply.\n\n- An SK Hynix official said, \"Regardless of the form of the proposal, our currently available production capacity is essentially 'zero,'\" adding that \"we don't even have small volumes that could be allocated to specific customers.\"\n\n- The official also noted that investment proposals have been made targeting the Phase 1 production line of the large-scale fab currently under construction at the Yongin cluster.\n\n- This pattern departs from the memory industry's traditional boom-bust cycle, with the industry increasingly viewing the current AI-driven demand growth as long-term structural growth rather than a short-term cycle.\n\n- The development underscores the intensifying competition to secure memory chips amid the AI boom.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2052529699793084416",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HHwM4x8bIAAwB0M.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2052529725927756104",
+      "kind": "post",
+      "engagement": {
+        "views": 187013,
+        "likes": 998,
+        "reposts": 129,
+        "replies": 33
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2057089825011110200",
+      "date": "2026-05-20",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ASML",
+      "text": "Great insight from @GavinSBaker via TMTB Substack.\n\nHmm… but I’d frame it a bit differently.\n\nI don’t think a breakdown in discipline in the foundry market is likely to happen for now.\n\nBecause we are facing a severe EUV equipment shortage.\n\nYou said TSMC is the guardian preventing the bubble from bursting, but I would say ASML is the true guardian preventing the bubble from bursting.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2057089804157026304",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HIxARyfbgAAs7wY.jpg",
+          "width": 1320,
+          "height": 1869,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2057089825011110200",
+      "kind": "post",
+      "engagement": {
+        "views": 134565,
+        "likes": 388,
+        "reposts": 27,
+        "replies": 27
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2057089839615668283",
+      "date": "2026-05-20",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ASML",
+      "text": "Of course, I don’t think ASML will protect the bubble forever.\n\nThe moment the DRAM Big Three transition to 3D DRAM, DRAM will no longer require EUV, and that surplus EUV capacity could quickly shift to logic.",
+      "text_source": "text",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2057089839615668283",
+      "kind": "self_thread",
+      "engagement": {
+        "views": 21256,
+        "likes": 116,
+        "reposts": 2,
+        "replies": 7
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2058880450375098843",
+      "date": "2026-05-25",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ASML",
+      "text": "Of course, the counterargument has real force.\n\nPart of why the Western roadmap looks less radical than Huawei's — than China's — is simply that the West faces no EUV bottleneck, and so has no reason to take this path at all. But that is not the whole of it. Huawei, for its part, has not clearly explained how it intends to handle thermals and cost.\n\nSMIC's leading-edge yields remain low, and there is essentially no account of the heat-concentration problem that vertically stacking active logic — LogicFolding — inevitably brings: how, exactly, do you pull the heat out of the lower tier?\n\nAnd yet I would rather overestimate China than underestimate it.\n\nConsider YMTC once more. YMTC, too, struggled for years under low yields and — after its placement on the Entity List in late 2022 — under the harsh constraint of being cut off from Western equipment. Yet they found a way in the end, and broke through without ever halting the Xtacking roadmap.\n\nThe question is a simple one. Is taming hybrid-bonding yield really harder than building EUV from the ground up? EUV is one of the most formidable engineering feats in human history — something ASML reached only after decades of effort, vast capital, and the mobilization of an entire global supply chain. Hybrid-bonding yield and thermals are undeniably hard problems, but they are far more bounded ones. As the path available to a China backed into a corner, which of the two is the more realistic answer is self-evident.",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [],
+      "url": "https://x.com/jukan05/status/2058880450375098843",
+      "kind": "self_thread",
+      "engagement": {
+        "views": 31187,
+        "likes": 166,
+        "reposts": 11,
+        "replies": 6
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
+    {
+      "tweet_id": "2059420761505538353",
+      "date": "2026-05-26",
+      "stance": "neutral",
+      "mention_type": "background",
+      "reasons": [],
+      "is_risk": false,
+      "conviction": null,
+      "raw_mention": "ASML",
+      "text": "SK Hynix Effectively Rebuffs US Big Tech's Offers of Tens of Billions of Dollars in Investment Support\n\nUS big tech companies—Google parent Alphabet, Microsoft (MS), and Meta among them—are pouring out offers to help fund the construction of fabs (chip plants) worth tens of trillions of won and to cover the cost of purchasing extreme ultraviolet (EUV) lithography equipment. But SK Hynix is politely declining these offers while simultaneously using them as leverage in long-term supply agreements. The reasoning: with investment funds already overflowing, there is no reason to disturb the \"super supplier\" (super-eul) status it currently enjoys.\n\nAccording to industry sources on the 27th, SK Hynix recently received memory-chip capital-investment support offers from Alphabet, MS, and Meta, but management is reportedly not treating them as realistic, actionable options. The biggest sticking point is that building a fab with funding from a specific big tech company would create a contract structure carrying exclusive supply obligations.\n\nA semiconductor industry official said, \"If you build a production line with a particular customer's money, you create the risk that even if that customer's demand falls in a future downturn, you'd have to prioritize their volume or supply below market price,\" adding, \"Internally, SK Hynix views the side effects that could arise from taking big tech investment negatively and is wary of them.\"\n\nSK Hynix currently holds what is effectively a duopoly alongside Samsung Electronics in the high-bandwidth memory (HBM) market. It supplies most of the HBM mounted on Nvidia graphics processing units (GPUs), and this year's output is already sold out. Because there are virtually no producers other than SK Hynix and Samsung capable of properly mass-producing the high-spec HBM used in AI data centers, a reversal has taken shape in which the big tech customers have instead become the subordinate party (eul) before SK Hynix.\n\nThe big tech proposals take two main forms. The first is to directly shoulder part of the cost of building the first fab (Y1) in the semiconductor cluster SK Hynix is developing in Yongin, Gyeonggi Province. SK Hynix plans to invest a total of 31 trillion won in the first fab alone; once completed, it will add 350,000 wafers per month of production, expanding total capacity to around 900,000 wafers per month.\n\nAlso under discussion was a plan to subsidize the cost of purchasing EUV lithography equipment from the Netherlands' ASML. ASML's latest High-NA EUV machine is an ultra-premium tool costing roughly $400 million (about 550 billion won) per unit—about twice as expensive as the current-generation EUV. To secure this equipment, which is essential for mass-producing advanced memory at the 1c DRAM node and beyond, SK Hynix has already finalized a plan to bring in some 12 trillion won worth of EUV tools. The move is read as big tech's intent to effectively pre-secure dedicated production lines by sharing part of this cost.\n\nBehind the unusual nature of these proposals lies the extreme intensification of the AI infrastructure investment race. Alphabet, Meta, and MS each disclosed AI infrastructure investment plans worth tens of billions of dollars in their recent earnings reports. MS in particular said its capital expenditure this year would reach $190 billion, explaining that the increase in component costs such as chips alone amounts to $25 billion. Meta likewise acknowledged its supply-chain pre-emption strategy, saying it is signing contracts across the supply chain to secure necessary components in advance.\n\nSK Hynix is refusing structural dependence—such as fab equity investment or joint equipment ownership—while opting instead to use big tech's desperation as negotiating leverage. A source familiar with SK Hynix said, \"Various ideas are being discussed to strengthen the binding force of contracts as we sign long-term agreements (LTAs) with global big tech.\" The industry interprets this as higher prepayments, ultra-long contracts of five years or more, and price-floor guarantee clauses. The strategy is to convert the funds big tech brings not into factory equity, but into more favorable contract terms.\n\nSK Hynix's confidence is backed by the numbers. Its operating margin as of the first quarter this year reached 72%, and in February it announced an additional $15 billion (about 21 trillion won) investment plan to expand next-generation memory production. Construction of the first fab at the Yongin cluster is under way, targeting its first cleanroom operation in February next year—three months ahead of the original schedule.\n\n$MU  $DRAM",
+      "text_source": "note_tweet",
+      "text_may_be_truncated": false,
+      "media": [
+        {
+          "media_key": "3_2059420752051646464",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HJSIQ0EbMAAsMTp.png",
+          "width": 616,
+          "height": 433,
+          "alt_text": null
+        }
+      ],
+      "url": "https://x.com/jukan05/status/2059420761505538353",
+      "kind": "post",
+      "engagement": {
+        "views": 143516,
+        "likes": 809,
+        "reposts": 89,
+        "replies": 31
+      },
+      "extractor_model": "claude-sonnet-4-6",
+      "prompt_version": "extract-v2"
+    },
     {
       "tweet_id": "2067777637192434052",
       "date": "2026-06-18",
@@ -37,7 +579,7 @@
       "url": "https://x.com/jukan05/status/2067777637192434052",
       "kind": "post",
       "engagement": {
-        "views": 143744,
+        "views": 143752,
         "likes": 950,
         "reposts": 75,
         "replies": 69
@@ -56,7 +598,5 @@
       "close": 1929.25
     }
   ],
-  "price_status": "ok",
-  "price_unit": "USD",
-  "price_updated_at": "2026-06-23T19:16:10.205167+00:00"
+  "price_status": "ok"
 }
