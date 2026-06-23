@@ -1,0 +1,19 @@
+{
+  "slug": "serenity",
+  "display_name": "Serenity",
+  "handle": "aleabitoreddit",
+  "x_url": "https://x.com/aleabitoreddit",
+  "avatar": "assets/serenity-avatar.jpg",
+  "dashboard": {
+    "output_prefix": "serenity-tracker",
+    "data_dir": "data/db",
+    "reports_dir": "data/reports",
+    "reason_translations": "data/reason_translations.json",
+    "report_queue": "data/report_queue.json",
+    "report_decisions": "data/report_decisions.json",
+    "report_failures": "data/report_generation_failures.json"
+  },
+  "portal": {
+    "tag": "進入"
+  }
+}

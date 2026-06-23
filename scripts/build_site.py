@@ -9,6 +9,8 @@ Output:
 """
 
 import argparse
+import html
+import json
 import shutil
 import subprocess
 import sys
@@ -16,6 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / "dist"
+PROFILES_DIR = ROOT / "profiles"
 
 
 def run(cmd):
@@ -23,10 +26,32 @@ def run(cmd):
     subprocess.run(cmd, cwd=ROOT, check=True)
 
 
-def latest_dashboard():
-    files = sorted(ROOT.glob("serenity-tracker-*.html"), key=lambda p: p.stat().st_mtime, reverse=True)
+def load_json(path):
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def profile_configs():
+    profiles = []
+    for path in sorted(PROFILES_DIR.glob("*.json")):
+        profile = load_json(path)
+        profile["_path"] = str(path)
+        profile.setdefault("slug", path.stem)
+        profile.setdefault("display_name", profile["slug"].title())
+        profile.setdefault("handle", "")
+        profile.setdefault("avatar", "assets/serenity-avatar.jpg")
+        profile.setdefault("portal", {})
+        profile.setdefault("dashboard", {})
+        profile["dashboard"].setdefault("output_prefix", f"{profile['slug']}-tracker")
+        profiles.append(profile)
+    if not profiles:
+        raise SystemExit("No profiles found in profiles/*.json")
+    return profiles
+
+
+def latest_dashboard(prefix):
+    files = sorted(ROOT.glob(f"{prefix}-*.html"), key=lambda p: p.stat().st_mtime, reverse=True)
     if not files:
-        raise SystemExit("No serenity-tracker HTML found after render.")
+        raise SystemExit(f"No {prefix} HTML found after render.")
     return files[0]
 
 
@@ -36,7 +61,23 @@ def copytree(src, dst):
     shutil.copytree(src, dst)
 
 
-def portal_html():
+def profile_card(profile):
+    slug = profile["slug"]
+    name = profile.get("display_name") or slug.title()
+    handle = (profile.get("handle") or "").lstrip("@")
+    avatar = profile.get("avatar") or "assets/serenity-avatar.jpg"
+    tag = (profile.get("portal") or {}).get("tag") or "進入"
+    return (
+        f'<a class="card" href="./{html.escape(slug)}/">\n'
+        f'  <img src="./{html.escape(slug)}/{html.escape(avatar)}" alt="{html.escape(name)} avatar">\n'
+        f'  <div><div class="name">{html.escape(name)}</div><div class="handle">@{html.escape(handle)}</div></div>\n'
+        f'  <span class="tag">{html.escape(tag)}</span>\n'
+        f'</a>'
+    )
+
+
+def portal_html(profiles):
+    cards = "\n        ".join(profile_card(p) for p in profiles)
     return """<!doctype html>
 <html lang="zh-Hant">
 <head>
@@ -65,17 +106,13 @@ def portal_html():
     <div class="wrap">
       <div class="eyebrow">X Conviction</div>
       <div class="grid">
-        <a class="card" href="./serenity/">
-          <img src="./serenity/assets/serenity-avatar.jpg" alt="Serenity avatar">
-          <div><div class="name">Serenity</div><div class="handle">@aleabitoreddit</div></div>
-          <span class="tag">進入</span>
-        </a>
+        __PROFILE_CARDS__
       </div>
     </div>
   </main>
 </body>
 </html>
-"""
+""".replace("__PROFILE_CARDS__", cards)
 
 
 def main():
@@ -83,18 +120,23 @@ def main():
     ap.add_argument("--cname", default="xconviction.com", help="custom domain for GitHub Pages")
     args = ap.parse_args()
 
-    run([sys.executable, "scripts/serenity_render.py"])
-    dashboard = latest_dashboard()
+    profiles = profile_configs()
 
     if DIST.exists():
         shutil.rmtree(DIST)
-    serenity_dir = DIST / "serenity"
-    serenity_dir.mkdir(parents=True, exist_ok=True)
 
-    shutil.copyfile(dashboard, serenity_dir / "index.html")
-    shutil.copyfile(dashboard, serenity_dir / dashboard.name)
-    copytree(ROOT / "assets", serenity_dir / "assets")
-    (DIST / "index.html").write_text(portal_html(), encoding="utf-8")
+    for profile in profiles:
+        slug = profile["slug"]
+        prefix = profile["dashboard"]["output_prefix"]
+        run([sys.executable, "scripts/serenity_render.py", "--profile", slug])
+        dashboard = latest_dashboard(prefix)
+        profile_dir = DIST / slug
+        profile_dir.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(dashboard, profile_dir / "index.html")
+        shutil.copyfile(dashboard, profile_dir / dashboard.name)
+        copytree(ROOT / "assets", profile_dir / "assets")
+
+    (DIST / "index.html").write_text(portal_html(profiles), encoding="utf-8")
     if args.cname:
         (DIST / "CNAME").write_text(args.cname.strip() + "\n", encoding="utf-8")
     print(f"built {DIST}")

@@ -15,13 +15,7 @@ def _argval(flag,default=None):
 # and mentions[] (date already ET-converted, stance, mention_type, reasons, url).
 # No extracted.json / raw_tweets.json / meta.json needed; ETFs already excluded by build_db.
 SCRIPT_DIR=Path(__file__).resolve().parent
-_db_override=_argval('--db') or os.environ.get('SERENITY_DB')
-DB=str(Path(_db_override).resolve()) if _db_override else str(SCRIPT_DIR.parent/'data'/'db')
-STOCK={}                       # sym -> {company, industry, currency, price_series, price_status}
-REPORTS={}                     # sym -> long-form ticker research report
-allm=defaultdict(list)         # sym -> [(date, stance, mention_type, reason, url), ...] (all mentions)
-MENT=defaultdict(list)         # sym -> [full mention dicts] (for the per-stock detail page)
-_maxdate=None
+ROOT=SCRIPT_DIR.parent
 def _load_json(path, default):
     try:
         if Path(path).exists():
@@ -29,7 +23,43 @@ def _load_json(path, default):
     except Exception:
         pass
     return default
-for _rf in glob.glob(str(Path(DB).parent/'reports'/'*.json')):
+def _load_profile():
+    raw=_argval('--profile') or os.environ.get('CONVICTION_PROFILE') or 'serenity'
+    p=Path(raw)
+    if not p.suffix:
+        p=ROOT/'profiles'/f'{raw}.json'
+    if not p.is_absolute():
+        p=(ROOT/p).resolve()
+    prof=_load_json(p,{})
+    if not prof:
+        prof={'slug':'serenity','display_name':'Serenity','handle':'aleabitoreddit','x_url':'https://x.com/aleabitoreddit','avatar':'assets/serenity-avatar.jpg','dashboard':{'output_prefix':'serenity-tracker','data_dir':'data/db'}}
+    prof['_path']=str(p)
+    prof.setdefault('slug','serenity')
+    prof.setdefault('display_name','Serenity')
+    prof.setdefault('handle','aleabitoreddit')
+    prof.setdefault('x_url',f"https://x.com/{prof['handle']}")
+    prof.setdefault('avatar','assets/serenity-avatar.jpg')
+    prof.setdefault('dashboard',{})
+    prof['dashboard'].setdefault('output_prefix',f"{prof['slug']}-tracker")
+    prof['dashboard'].setdefault('data_dir','data/db')
+    return prof
+PROFILE=_load_profile()
+P_DASH=PROFILE.get('dashboard') or {}
+PROFILE_SLUG=PROFILE.get('slug','serenity')
+PROFILE_NAME=PROFILE.get('display_name','Serenity')
+PROFILE_HANDLE=(PROFILE.get('handle') or 'aleabitoreddit').lstrip('@')
+PROFILE_X_URL=PROFILE.get('x_url') or f'https://x.com/{PROFILE_HANDLE}'
+PROFILE_AVATAR=PROFILE.get('avatar') or 'assets/serenity-avatar.jpg'
+PROFILE_OUTPUT_PREFIX=P_DASH.get('output_prefix') or f'{PROFILE_SLUG}-tracker'
+_db_override=_argval('--db') or os.environ.get('CONVICTION_DB') or os.environ.get('SERENITY_DB')
+DB=str(Path(_db_override).resolve()) if _db_override else str((ROOT/P_DASH.get('data_dir','data/db')).resolve())
+STOCK={}                       # sym -> {company, industry, currency, price_series, price_status}
+REPORTS={}                     # sym -> long-form ticker research report
+allm=defaultdict(list)         # sym -> [(date, stance, mention_type, reason, url), ...] (all mentions)
+MENT=defaultdict(list)         # sym -> [full mention dicts] (for the per-stock detail page)
+_maxdate=None
+_reports_dir=(ROOT/P_DASH.get('reports_dir','data/reports')).resolve()
+for _rf in glob.glob(str(_reports_dir/'*.json')):
     try:
         _r=json.load(open(_rf,encoding='utf-8'))
         _sym=(_r.get('ticker') or '').upper()
@@ -52,15 +82,15 @@ for _f in glob.glob(os.path.join(DB,'stocks','*.json')):
                         'reasons':m.get('reasons') or [],'is_risk':bool(m.get('is_risk')),
                         'text':m.get('text') or '','url':m.get('url') or '','eng':m.get('engagement') or {},
                         'text_may_be_truncated':m.get('text_may_be_truncated'),'media':m.get('media') or []})
-REPORT_QUEUE=_load_json(Path(DB).parent/'report_queue.json',{})
-REPORT_DECISIONS=_load_json(Path(DB).parent/'report_decisions.json',{})
-REPORT_FAILURES=_load_json(Path(DB).parent/'report_generation_failures.json',{})
-REASON_TRANSLATIONS=_load_json(Path(DB).parent/'reason_translations.json',{})
+REPORT_QUEUE=_load_json((ROOT/P_DASH.get('report_queue','data/report_queue.json')).resolve(),{})
+REPORT_DECISIONS=_load_json((ROOT/P_DASH.get('report_decisions','data/report_decisions.json')).resolve(),{})
+REPORT_FAILURES=_load_json((ROOT/P_DASH.get('report_failures','data/report_generation_failures.json')).resolve(),{})
+REASON_TRANSLATIONS=_load_json((ROOT/P_DASH.get('reason_translations','data/reason_translations.json')).resolve(),{})
 
 # as-of date: first positional CLI arg (YYYY-MM-DD), ignoring --flags and their values; else latest mention date
 _skip=set()
 for _i,_x in enumerate(sys.argv):
-    if _x in ('--db','--lang') and _i+1<len(sys.argv): _skip.add(_i+1)
+    if _x in ('--db','--lang','--profile') and _i+1<len(sys.argv): _skip.add(_i+1)
 _pos=[a for _i,a in enumerate(sys.argv[1:],1) if not a.startswith('-') and _i not in _skip]
 DAY=datetime.date.fromisoformat(_pos[0]) if _pos else (_maxdate or datetime.date.today())
 
@@ -795,7 +825,7 @@ def _decision_reason(item):
             terms=str(w).split(':',1)[1].strip()
             if terms:
                 bits.append('高訊號詞：'+terms)
-    return ' · '.join(bits[:3]) or 'Serenity 訊號足夠，值得整理成完整投資論點'
+    return ' · '.join(bits[:3]) or f'{PROFILE_NAME} 訊號足夠，值得整理成完整投資論點'
 
 def _decision_action_class(action):
     return {
@@ -857,7 +887,7 @@ def reports_section():
     top_cards=[]
     for i,item in enumerate(serenity_top_signals(),1):
         s=item['ticker']
-        why=' · '.join(item['reasons']) or 'Serenity 綜合訊號較強'
+        why=' · '.join(item['reasons']) or f'{PROFILE_NAME} 綜合訊號較強'
         medal_cls={1:'gold',2:'silver',3:'bronze'}.get(i,'')
         medal_icon='fa-crown' if i==1 else 'fa-medal'
         memo_state='' if s in REPORTS else '<span class="signal-missing"><i class="fa-regular fa-file-lines"></i> 尚未整理</span>'
@@ -875,7 +905,7 @@ def reports_section():
 <div class="sec"><div class="sechd"><div class="st">{t('nav_reports')}</div><div class="datepill">investment memo</div>
 <div class="sn"><span class="cnt">已發布 {len(REPORTS)} 份 · 下一批 {automation_ready} 檔 · 待更新 {len(updates_due)} 份</span><span class="upd">{t('updated',date=UPDATE_STAMP)}</span></div></div></div>
 <div class="daypad">
-<div class="subhd" style="margin-top:0"><i class="fa-solid fa-ranking-star"></i> Serenity <span class="jargon" role="button" tabindex="0">綜合訊號<span class="jargon-tip">依 Serenity 的公開貼文計算：看多強度、近期熱度、語氣強度，以及看空 / 分歧訊號扣分。尚未整理的高分標的會優先進入投資論點生成。</span></span> Top 3</div>
+<div class="subhd" style="margin-top:0"><i class="fa-solid fa-ranking-star"></i> {PROFILE_NAME} <span class="jargon" role="button" tabindex="0">綜合訊號<span class="jargon-tip">依 {PROFILE_NAME} 的公開貼文計算：看多強度、近期熱度、語氣強度，以及看空 / 分歧訊號扣分。尚未整理的高分標的會優先進入投資論點生成。</span></span> Top 3</div>
 <div class="signal-grid">{''.join(top_cards)}{top_empty}</div>
 <div class="subhd" style="margin-top:24px"><i class="fa-solid fa-bolt"></i> 最近更新</div>
 <div class="memo-updates">{''.join(updated_cards) if updated_cards else '<div class="ops-empty">目前沒有新的投資論點更新。</div>'}</div>
@@ -1478,8 +1508,8 @@ html{scroll-behavior:smooth}
 
 def build():
     head=BASE_HEAD+SHARED_CSS   # 基础头已内嵌,render 完全自给,无需任何外部 html
-    head=head.replace('@aleabitoreddit 个股评论追踪',t('doc_title'))
-    nav=f'''<nav class="sidenav"><div class="brand"><img class="glyph" src="assets/serenity-avatar.jpg" alt="Serenity avatar"><div class="bt">{t('brand')}</div><div class="bs"><a href="https://x.com/aleabitoreddit" target="_blank" rel="noopener">@aleabitoreddit</a></div></div>
+    head=head.replace('@aleabitoreddit 个股评论追踪',f'@{PROFILE_HANDLE} — {PROFILE_NAME}')
+    nav=f'''<nav class="sidenav"><div class="brand"><img class="glyph" src="{html.escape(PROFILE_AVATAR)}" alt="{html.escape(PROFILE_NAME)} avatar"><div class="bt">{html.escape(PROFILE_NAME)}</div><div class="bs"><a href="{html.escape(PROFILE_X_URL)}" target="_blank" rel="noopener">@{html.escape(PROFILE_HANDLE)}</a></div></div>
 <a class="navlink on" data-t="reports"><span>{t('nav_reports')}</span><span class="ni">論</span></a>
 <a class="navlink" data-t="day"><span>{t('nav_day')}</span><span class="ni">日</span></a>
 <a class="navlink" data-t="week"><span>{t('nav_week')}</span><span class="ni">週</span></a>
@@ -1606,7 +1636,7 @@ function reportHtml(r,postMap,tk){
     var p=postMap&&postMap[c.tweet_id];
     if(!p)return '<a class="rcite" href="'+esc(c.url||'#')+'" target="_blank" rel="noopener">'+esc(c.date||'')+' · '+esc(c.label||c.tweet_id||'source')+' <i class="fa-solid fa-arrow-up-right-from-square"></i></a>';
     var sp=shortPostText(p.text,280),more=sp.cut?'\\n<span class="twmore">閱讀更多</span>':'';
-    return '<a class="tweetcard" href="'+esc(p.url||c.url||'#')+'" target="_blank" rel="noopener"><div class="twhead"><img class="twav" src="assets/serenity-avatar.jpg" alt="Serenity avatar"><div><div class="twnm">Serenity <i class="fa-solid fa-circle-check" style="color:#1d9bf0;font-size:12px"></i></div><div class="twmeta">@aleabitoreddit · '+esc(p.d||c.date||'')+'</div></div><span class="twopen"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div><div class="twtext">'+fmtPostText(sp.text)+more+'</div>'+mediaHtml(p.media)+'</a>';
+    return '<a class="tweetcard" href="'+esc(p.url||c.url||'#')+'" target="_blank" rel="noopener"><div class="twhead"><img class="twav" src="'+esc(PROFILE.avatar)+'" alt="'+esc(PROFILE.name)+' avatar"><div><div class="twnm">'+esc(PROFILE.name)+' <i class="fa-solid fa-circle-check" style="color:#1d9bf0;font-size:12px"></i></div><div class="twmeta">@'+esc(PROFILE.handle)+' · '+esc(p.d||c.date||'')+'</div></div><span class="twopen"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div><div class="twtext">'+fmtPostText(sp.text)+more+'</div>'+mediaHtml(p.media)+'</a>';
   }
   function cites(a){if(!a||!a.length)return '';var cards=[],chips=[];a.forEach(function(c){var h=tweetCard(c);if(h.indexOf('tweetcard')>=0)cards.push(h);else chips.push(h);});return (cards.length?'<div class="tweetrefs">'+cards+'</div>':'')+(chips.length?'<div class="thesis-cites">'+chips.join('')+'</div>':'');}
   function updateHtml(){
@@ -1615,7 +1645,7 @@ function reportHtml(r,postMap,tk){
     var stance={still_bullish:'仍偏多',more_bullish:'更加看多',more_cautious:'轉為謹慎',thesis_changed:'論點改變',bearish_reversal:'轉為看空',new_catalyst:'新增催化',new_risk:'新增風險'}[u.stance]||u.stance||'更新';
     var imp={high:'重要更新',medium:'一般更新',low:'小更新'}[u.importance]||u.importance||'更新';
     var genDate=(r.generated_at||'').slice(0,10),updateLabel=u.label||(idx>0?'歷史更新':((u.date&&genDate&&u.date<genDate)?'重要歷史立場更新':'最新更新'));
-    var src=(u.source_tweet_ids||[]).map(function(id){var p=postMap&&postMap[id];return {tweet_id:id,date:p&&p.d,url:p&&p.url,label:'Serenity 原文'};});
+    var src=(u.source_tweet_ids||[]).map(function(id){var p=postMap&&postMap[id];return {tweet_id:id,date:p&&p.d,url:p&&p.url,label:PROFILE.name+' 原文'};});
     var bullets=(u.bullets||[]).map(function(b){return '<li>'+glossText(b)+'</li>';}).join('');
     return '<details class="updates"><summary><div class="updates-top"><div class="updates-k"><i class="fa-solid fa-file-lines"></i>'+updateLabel+' · '+esc(u.date||'')+'</div><div class="updates-meta"><span class="upill high">'+esc(imp)+'</span><span class="upill">'+esc(stance)+'</span></div></div><h2>'+glossText(u.title||'')+'</h2>'+paras([u.summary||''])+'<span class="update-more">展開更新內容 <i class="fa-solid fa-chevron-down"></i></span></summary><div class="updates-body">'+(bullets?'<ul>'+bullets+'</ul>':'')+cites(src)+'</div></details>';
     }).join('');
@@ -1855,19 +1885,19 @@ function renderDD(tk){
   }
   function missingReportHtml(){
     if(d.report)return '';
-    return '<div class="ddmemo-missing"><b><i class="fa-regular fa-file-lines"></i>尚未整理完整投資論點</b><p>目前先保留 Serenity 的貼文、看多理由、風險與價格路徑；若訊號累積足夠，會整理成完整投資論點。</p></div>';
+    return '<div class="ddmemo-missing"><b><i class="fa-regular fa-file-lines"></i>尚未整理完整投資論點</b><p>目前先保留 '+esc(PROFILE.name)+' 的貼文、看多理由、風險與價格路徑；若訊號累積足夠，會整理成完整投資論點。</p></div>';
   }
   var firstPxTxt=d.firstPx?((d.cur?d.cur+' ':'')+d.firstPx):'—';
   var _ps=d.posts,_latest=_ps.length?_ps[0].d:null,_head=_ps.filter(function(p){return p.d===_latest;}),_rest=_ps.filter(function(p){return p.d!==_latest;});
   var postMap={};_ps.forEach(function(p){if(p.id)postMap[p.id]=p;});
   var plistHtml='<div class="plist">'+_head.map(function(p){return postRow(p,false);}).join('')+(_rest.length?'<div id="ddRest">'+_rest.map(function(p){return postRow(p,true);}).join('')+'</div>':'')+'</div>'+(_rest.length?'<div class="ddmore" '+(zh?'data-zh="1" ':'')+'onclick="ddMore(this)">'+(zh?Z.showMore+' ('+_rest.length+') <i class="fa-solid fa-chevron-down"></i>':I('dd_view_all',{n:_rest.length}))+'</div>':'');
   document.getElementById('ddBody').innerHTML=
-    '<div class="ddhead"><div class="ddhl"><button class="ddback" type="button" onclick="ddHome()" aria-label="返回 Serenity"><i class="fa-solid fa-arrow-left"></i><span>返回 Serenity</span></button><div class="ddtk">'+tk+'<span class="market detail">'+esc(d.market||'')+'</span><span class="theme detail '+(d.theme==='Other'?'other':'')+'">'+themeText+'</span></div><div class="ddco">'+esc(d.co)+(d.industry?' · <span class="ddind">'+industryText+'</span>':'')+'</div><div class="ddpills">'+pill+'</div></div>'+
+    '<div class="ddhead"><div class="ddhl"><button class="ddback" type="button" onclick="ddHome()" aria-label="返回 '+esc(PROFILE.name)+'"><i class="fa-solid fa-arrow-left"></i><span>返回 '+esc(PROFILE.name)+'</span></button><div class="ddtk">'+tk+'<span class="market detail">'+esc(d.market||'')+'</span><span class="theme detail '+(d.theme==='Other'?'other':'')+'">'+themeText+'</span></div><div class="ddco">'+esc(d.co)+(d.industry?' · <span class="ddind">'+industryText+'</span>':'')+'</div><div class="ddpills">'+pill+'</div></div>'+
     '<div class="ddmeta"><span class="ddmi"><i>'+(zh?Z.first:I18N.dd_first_mention)+'</i><b>'+d.first+'</b></span><span class="ddmi"><i>'+(zh?Z.last:I18N.dd_last_mention)+'</i><b>'+d.last+'</b></span><span class="ddmi"><i>'+(zh?Z.total:I18N.dd_total)+'</i><b>'+d.total+(I18N.count_unit?' '+I18N.count_unit:'')+'</b></span><span class="ddmi"><i>'+(zh?Z.firstPx:I18N.dd_first_px)+'</i><b>'+firstPxTxt+'</b></span><span class="ddsplit">'+split+'</span><span class="ddfreq"><span class="fc"><i>'+(zh?Z.today:I18N.dd_today)+'</i><b>'+d.m_today+'</b></span><span class="fc"><i>'+I18N.freq_7d+'</i><b>'+d.m7+'</b></span><span class="fc"><i>'+I18N.freq_28d+'</i><b>'+d.m28+'</b></span></span></div></div>'+
     relatedHtml()+
     reportHtml(d.report,postMap,tk)+
     missingReportHtml()+
-    '<div class="charttitle"><h3>'+(zh?'$'+tk+' 自 Serenity 首次提及以來的股價走勢':'$'+tk+' price path since Serenity first mentioned it')+'</h3><p>'+(zh?'圓點標記 Serenity 發文，顏色代表立場。':'Dots mark Serenity posts by inferred stance.')+'</p></div>'+
+    '<div class="charttitle"><h3>'+(zh?'$'+tk+' 自 '+esc(PROFILE.name)+' 首次提及以來的股價走勢':'$'+tk+' price path since '+esc(PROFILE.name)+' first mentioned it')+'</h3><p>'+(zh?'圓點標記 '+esc(PROFILE.name)+' 發文，顏色代表立場。':'Dots mark '+esc(PROFILE.name)+' posts by inferred stance.')+'</p></div>'+
     ddChart(d,zh)+
     '<div class="rcols"><div class="rpanel bull"><div class="rph"><span class="rpdot bull"></span>'+(zh?Z.bullCase:I18N.dd_reasons_bull)+'<span class="rpn">'+(zh?Z.newest:I18N.dd_newest_first)+'</span></div><ul class="rlist">'+mkR(d.reasonsBull,I18N.dd_no_bull,'bull')+'</ul></div><div class="rpanel bear"><div class="rph"><span class="rpdot bear"></span>'+(zh?Z.risks:I18N.dd_reasons_risk)+'<span class="rpn">'+(zh?Z.newest:I18N.dd_newest_first)+'</span></div><ul class="rlist">'+mkR(d.reasonsRisk,I18N.dd_no_risk,'bear')+'</ul></div></div>'+
     '<div class="postsbar"><h3>'+(zh?'今日 $'+tk+' 貼文':'Today\\'s $'+tk+' mentions')+'</h3><span class="postcount">'+(zh?'全部 $'+tk+' 貼文 ':'All $'+tk+' posts ')+d.total+'</span></div>'+
@@ -1892,12 +1922,13 @@ function qsort(k,th){var tb=document.getElementById('qtbl').tBodies[0];var rows=
 syncTickerRoute();
 </script>'''
     overlay='<div id="ddPage"><div id="ddBody"></div></div>'
+    profile_js='<script>var PROFILE='+json.dumps({'slug':PROFILE_SLUG,'name':PROFILE_NAME,'handle':PROFILE_HANDLE,'xUrl':PROFILE_X_URL,'avatar':PROFILE_AVATAR},ensure_ascii=False)+';</script>'
     reason_translations_js='<script>var AUTO_REASON_TRANSLATIONS='+json.dumps(REASON_TRANSLATIONS,ensure_ascii=False)+';</script>'
     dddata='<script>var DD_DATA='+json.dumps(dd_data(),ensure_ascii=False)+';</script>'
-    crumb='<div class="crumb"><a href="../">X Conviction</a><span class="sep">/</span><b>Serenity</b></div>'
-    body=f'<body>\n{nav}\n<div class="main">\n{crumb}\n{secs}\n</div>\n{overlay}\n{i18n_js}\n{reason_translations_js}\n{dddata}\n{script}\n</body></html>'
+    crumb=f'<div class="crumb"><a href="../">X Conviction</a><span class="sep">/</span><b>{html.escape(PROFILE_NAME)}</b></div>'
+    body=f'<body>\n{nav}\n<div class="main">\n{crumb}\n{secs}\n</div>\n{overlay}\n{profile_js}\n{i18n_js}\n{reason_translations_js}\n{dddata}\n{script}\n</body></html>'
     suffix='' if (LANG_ARG is None or LANG=='zh') else f'-{LANG}'
-    out_name=f'serenity-tracker-{DAY.isoformat()}{suffix}.html'
+    out_name=f'{PROFILE_OUTPUT_PREFIX}-{DAY.isoformat()}{suffix}.html'
     open(out_name,'w',encoding='utf-8').write(head+body)
     print('built '+os.path.abspath(out_name))
 
