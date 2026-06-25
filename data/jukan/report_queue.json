@@ -2,6 +2,132 @@
   "data_generated_at": "2026-06-25T08:48:41.255654+00:00",
   "existing_reports": [
     {
+      "author_signal_ratio": 0.1977,
+      "company": "Intel",
+      "evidence": [
+        {
+          "date": "2026-03-25",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "owns its own fabs, better positioned to expand CPU supply over time",
+            "as TSMC capacity becomes constrained, more companies may manufacture ASICs and CPUs at Intel Foundry"
+          ],
+          "score": 91,
+          "stance": "bullish",
+          "text_preview": "Yesterday’s CPU bottleneck trade — among AMD, ARM, and Intel, which was actually the best trade? Let me share my view. Obviously, CPU price increases are positive. They should help earnings materially. That said, what w…",
+          "tweet_id": "2036963841582784947",
+          "url": "https://x.com/jukan05/status/2036963841582784947"
+        },
+        {
+          "date": "2026-04-11",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "Intel has no track record with EMIB",
+            "Intel can't reliably handle its own volume",
+            "risk of EMIB failure would trap customers unable to switch to CoWoS"
+          ],
+          "score": 71,
+          "stance": "bearish",
+          "text_preview": "Interesting. Even within MediaTek itself, there are concerns about using Intel's EMIB. 1. Intel has no track record, and it can't even reliably handle its own volume. 2. If they commit to EMIB and it fails? They can't s…",
+          "tweet_id": "2043122090463961104",
+          "url": "https://x.com/jukan05/status/2043122090463961104"
+        },
+        {
+          "date": "2026-04-01",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "two rounds of CPU price hikes since start of 2026 cumulating ~20%",
+            "full-year target of 30% cumulative price increase",
+            "server CPU demand strong globally with orders up 50% YoY",
+            "production line utilization at 95%"
+          ],
+          "score": 70,
+          "stance": "bullish",
+          "text_preview": "A very spicy piece of information here. A must-read for everyone (especially if you're interested in the CPU shortage). - Intel has carried out two rounds of CPU price hikes since the start of 2026. The first round in F…",
+          "tweet_id": "2039315025752703328",
+          "url": "https://x.com/jukan05/status/2039315025752703328"
+        },
+        {
+          "date": "2026-05-28",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "accelerating foundry revival through large-scale investment in advanced semiconductor packaging (EMIB)",
+            "18A process combined with expanded advanced packaging investment could be the starting signal for Intel's foundry revival",
+            "packaging investment evidence that Intel has secured a degree of advanced foundry process customers",
+            "EMIB offers superior cost and productivity compared to TSMC-led silicon interposer-based 2.5D packaging"
+          ],
+          "score": 69,
+          "stance": "bullish",
+          "text_preview": "Intel Accelerates Foundry Revival, Spearheaded by Advanced Packaging Intel is accelerating the revival of its foundry (contract manufacturing) business through large-scale investment in advanced semiconductor packaging.…",
+          "tweet_id": "2059895609642127856",
+          "url": "https://x.com/jukan05/status/2059895609642127856"
+        },
+        {
+          "date": "2026-05-30",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 60,
+          "stance": "neutral",
+          "text_preview": "What should we take away from Dell's earnings — and what upside is left for the company? First: Dell delivered tremendous growth in general-purpose servers. As we've argued all along, agentic AI is a tailwind for genera…",
+          "tweet_id": "2060621480208355415",
+          "url": "https://x.com/jukan05/status/2060621480208355415"
+        },
+        {
+          "date": "2026-04-14",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "would need at least twice as many CPUs"
+          ],
+          "score": 52,
+          "stance": "bullish",
+          "text_preview": "You would need at least twice as many CPUs. $AMD $INTC $ARM https://t.co/5phuKGbXGM https://t.co/q9O1IrakCl",
+          "tweet_id": "2044045150410919940",
+          "url": "https://x.com/jukan05/status/2044045150410919940"
+        }
+      ],
+      "explicit_stance_days": 13,
+      "explicit_stance_posts": 17,
+      "first_mention": "2026-03-25",
+      "has_report": true,
+      "high_conviction_posts": 0,
+      "industry": "CPU/Foundry/Glass Substrate",
+      "last_mention": "2026-06-18",
+      "market": "US",
+      "priority": "none",
+      "reasoned_explicit_posts": 17,
+      "report_score": 1018,
+      "risk_posts": 2,
+      "signal_terms": [
+        "amd",
+        "bottleneck",
+        "capacity",
+        "hyperscaler",
+        "long",
+        "own",
+        "owns",
+        "ramp",
+        "risk"
+      ],
+      "stance_counts": {
+        "bearish": 6,
+        "bullish": 10,
+        "neutral": 70
+      },
+      "status": "has_report",
+      "substantive_posts": 30,
+      "ticker": "INTC",
+      "total_mentions": 86,
+      "unique_mention_days": 44,
+      "why": [
+        "86 total mentions across 44 days",
+        "17 explicit stance posts",
+        "30 substantive thesis-like posts",
+        "2 risk/caution posts",
+        "high-signal terms: amd, bottleneck, capacity, hyperscaler, long, own",
+        "latest mention 2026-06-18"
+      ]
+    },
+    {
       "author_signal_ratio": 0.0863,
       "company": "SK Hynix",
       "evidence": [
@@ -264,132 +390,6 @@
     }
   ],
   "next_reports": [
-    {
-      "author_signal_ratio": 0.1977,
-      "company": "Intel",
-      "evidence": [
-        {
-          "date": "2026-03-25",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "owns its own fabs, better positioned to expand CPU supply over time",
-            "as TSMC capacity becomes constrained, more companies may manufacture ASICs and CPUs at Intel Foundry"
-          ],
-          "score": 91,
-          "stance": "bullish",
-          "text_preview": "Yesterday’s CPU bottleneck trade — among AMD, ARM, and Intel, which was actually the best trade? Let me share my view. Obviously, CPU price increases are positive. They should help earnings materially. That said, what w…",
-          "tweet_id": "2036963841582784947",
-          "url": "https://x.com/jukan05/status/2036963841582784947"
-        },
-        {
-          "date": "2026-04-11",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "Intel has no track record with EMIB",
-            "Intel can't reliably handle its own volume",
-            "risk of EMIB failure would trap customers unable to switch to CoWoS"
-          ],
-          "score": 71,
-          "stance": "bearish",
-          "text_preview": "Interesting. Even within MediaTek itself, there are concerns about using Intel's EMIB. 1. Intel has no track record, and it can't even reliably handle its own volume. 2. If they commit to EMIB and it fails? They can't s…",
-          "tweet_id": "2043122090463961104",
-          "url": "https://x.com/jukan05/status/2043122090463961104"
-        },
-        {
-          "date": "2026-04-01",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "two rounds of CPU price hikes since start of 2026 cumulating ~20%",
-            "full-year target of 30% cumulative price increase",
-            "server CPU demand strong globally with orders up 50% YoY",
-            "production line utilization at 95%"
-          ],
-          "score": 70,
-          "stance": "bullish",
-          "text_preview": "A very spicy piece of information here. A must-read for everyone (especially if you're interested in the CPU shortage). - Intel has carried out two rounds of CPU price hikes since the start of 2026. The first round in F…",
-          "tweet_id": "2039315025752703328",
-          "url": "https://x.com/jukan05/status/2039315025752703328"
-        },
-        {
-          "date": "2026-05-28",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "accelerating foundry revival through large-scale investment in advanced semiconductor packaging (EMIB)",
-            "18A process combined with expanded advanced packaging investment could be the starting signal for Intel's foundry revival",
-            "packaging investment evidence that Intel has secured a degree of advanced foundry process customers",
-            "EMIB offers superior cost and productivity compared to TSMC-led silicon interposer-based 2.5D packaging"
-          ],
-          "score": 69,
-          "stance": "bullish",
-          "text_preview": "Intel Accelerates Foundry Revival, Spearheaded by Advanced Packaging Intel is accelerating the revival of its foundry (contract manufacturing) business through large-scale investment in advanced semiconductor packaging.…",
-          "tweet_id": "2059895609642127856",
-          "url": "https://x.com/jukan05/status/2059895609642127856"
-        },
-        {
-          "date": "2026-05-30",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 60,
-          "stance": "neutral",
-          "text_preview": "What should we take away from Dell's earnings — and what upside is left for the company? First: Dell delivered tremendous growth in general-purpose servers. As we've argued all along, agentic AI is a tailwind for genera…",
-          "tweet_id": "2060621480208355415",
-          "url": "https://x.com/jukan05/status/2060621480208355415"
-        },
-        {
-          "date": "2026-04-14",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "would need at least twice as many CPUs"
-          ],
-          "score": 52,
-          "stance": "bullish",
-          "text_preview": "You would need at least twice as many CPUs. $AMD $INTC $ARM https://t.co/5phuKGbXGM https://t.co/q9O1IrakCl",
-          "tweet_id": "2044045150410919940",
-          "url": "https://x.com/jukan05/status/2044045150410919940"
-        }
-      ],
-      "explicit_stance_days": 13,
-      "explicit_stance_posts": 17,
-      "first_mention": "2026-03-25",
-      "has_report": false,
-      "high_conviction_posts": 0,
-      "industry": "CPU/Foundry/Glass Substrate",
-      "last_mention": "2026-06-18",
-      "market": "US",
-      "priority": "high",
-      "reasoned_explicit_posts": 17,
-      "report_score": 1018,
-      "risk_posts": 2,
-      "signal_terms": [
-        "amd",
-        "bottleneck",
-        "capacity",
-        "hyperscaler",
-        "long",
-        "own",
-        "owns",
-        "ramp",
-        "risk"
-      ],
-      "stance_counts": {
-        "bearish": 6,
-        "bullish": 10,
-        "neutral": 70
-      },
-      "status": "needs_report",
-      "substantive_posts": 30,
-      "ticker": "INTC",
-      "total_mentions": 86,
-      "unique_mention_days": 44,
-      "why": [
-        "86 total mentions across 44 days",
-        "17 explicit stance posts",
-        "30 substantive thesis-like posts",
-        "2 risk/caution posts",
-        "high-signal terms: amd, bottleneck, capacity, hyperscaler, long, own",
-        "latest mention 2026-06-18"
-      ]
-    },
     {
       "author_signal_ratio": 0.0959,
       "company": "Samsung Electronics",
@@ -2253,14 +2253,14 @@
       ]
     }
   ],
-  "reports_available": 2,
+  "reports_available": 3,
   "stocks_scanned": 293,
   "stocks_skipped": 274,
   "summary": {
     "candidate": 8,
-    "has_report": 2,
+    "has_report": 3,
     "needs_regeneration": 0,
-    "needs_report": 9,
+    "needs_report": 8,
     "needs_update": 0
   },
   "updates_due": []

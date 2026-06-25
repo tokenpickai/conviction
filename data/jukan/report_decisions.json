@@ -2,68 +2,6 @@
   "automation_next": [
     {
       "action": "write_new_thesis",
-      "author_signal_ratio": 0.1977,
-      "company": "Intel",
-      "evidence": [
-        {
-          "date": "2026-03-25",
-          "score": 91,
-          "stance": "bullish",
-          "text_preview": "Yesterday’s CPU bottleneck trade — among AMD, ARM, and Intel, which was actually the best trade? Let me share my view. Obviously, CPU price increases are positive. They should help earnings materially. That said, what w…",
-          "tweet_id": "2036963841582784947",
-          "url": "https://x.com/jukan05/status/2036963841582784947"
-        },
-        {
-          "date": "2026-04-11",
-          "score": 71,
-          "stance": "bearish",
-          "text_preview": "Interesting. Even within MediaTek itself, there are concerns about using Intel's EMIB. 1. Intel has no track record, and it can't even reliably handle its own volume. 2. If they commit to EMIB and it fails? They can't s…",
-          "tweet_id": "2043122090463961104",
-          "url": "https://x.com/jukan05/status/2043122090463961104"
-        },
-        {
-          "date": "2026-04-01",
-          "score": 70,
-          "stance": "bullish",
-          "text_preview": "A very spicy piece of information here. A must-read for everyone (especially if you're interested in the CPU shortage). - Intel has carried out two rounds of CPU price hikes since the start of 2026. The first round in F…",
-          "tweet_id": "2039315025752703328",
-          "url": "https://x.com/jukan05/status/2039315025752703328"
-        }
-      ],
-      "explicit_stance_days": 13,
-      "explicit_stance_posts": 17,
-      "first_mention": "2026-03-25",
-      "has_report": false,
-      "last_mention": "2026-06-18",
-      "priority": "high",
-      "public_label": "撰寫新投資論點",
-      "reasoned_explicit_posts": 17,
-      "report_score": 1018,
-      "signal_terms": [
-        "amd",
-        "bottleneck",
-        "capacity",
-        "hyperscaler",
-        "long",
-        "own",
-        "owns",
-        "ramp",
-        "risk"
-      ],
-      "ticker": "INTC",
-      "total_mentions": 86,
-      "unique_mention_days": 44,
-      "why": [
-        "86 total mentions across 44 days",
-        "17 explicit stance posts",
-        "30 substantive thesis-like posts",
-        "2 risk/caution posts",
-        "high-signal terms: amd, bottleneck, capacity, hyperscaler, long, own",
-        "latest mention 2026-06-18"
-      ]
-    },
-    {
-      "action": "write_new_thesis",
       "author_signal_ratio": 0.0959,
       "company": "Samsung Electronics",
       "evidence": [
@@ -567,68 +505,6 @@
   ],
   "data_generated_at": "2026-06-25T08:48:41.255654+00:00",
   "decisions": [
-    {
-      "action": "write_new_thesis",
-      "author_signal_ratio": 0.1977,
-      "company": "Intel",
-      "evidence": [
-        {
-          "date": "2026-03-25",
-          "score": 91,
-          "stance": "bullish",
-          "text_preview": "Yesterday’s CPU bottleneck trade — among AMD, ARM, and Intel, which was actually the best trade? Let me share my view. Obviously, CPU price increases are positive. They should help earnings materially. That said, what w…",
-          "tweet_id": "2036963841582784947",
-          "url": "https://x.com/jukan05/status/2036963841582784947"
-        },
-        {
-          "date": "2026-04-11",
-          "score": 71,
-          "stance": "bearish",
-          "text_preview": "Interesting. Even within MediaTek itself, there are concerns about using Intel's EMIB. 1. Intel has no track record, and it can't even reliably handle its own volume. 2. If they commit to EMIB and it fails? They can't s…",
-          "tweet_id": "2043122090463961104",
-          "url": "https://x.com/jukan05/status/2043122090463961104"
-        },
-        {
-          "date": "2026-04-01",
-          "score": 70,
-          "stance": "bullish",
-          "text_preview": "A very spicy piece of information here. A must-read for everyone (especially if you're interested in the CPU shortage). - Intel has carried out two rounds of CPU price hikes since the start of 2026. The first round in F…",
-          "tweet_id": "2039315025752703328",
-          "url": "https://x.com/jukan05/status/2039315025752703328"
-        }
-      ],
-      "explicit_stance_days": 13,
-      "explicit_stance_posts": 17,
-      "first_mention": "2026-03-25",
-      "has_report": false,
-      "last_mention": "2026-06-18",
-      "priority": "high",
-      "public_label": "撰寫新投資論點",
-      "reasoned_explicit_posts": 17,
-      "report_score": 1018,
-      "signal_terms": [
-        "amd",
-        "bottleneck",
-        "capacity",
-        "hyperscaler",
-        "long",
-        "own",
-        "owns",
-        "ramp",
-        "risk"
-      ],
-      "ticker": "INTC",
-      "total_mentions": 86,
-      "unique_mention_days": 44,
-      "why": [
-        "86 total mentions across 44 days",
-        "17 explicit stance posts",
-        "30 substantive thesis-like posts",
-        "2 risk/caution posts",
-        "high-signal terms: amd, bottleneck, capacity, hyperscaler, long, own",
-        "latest mention 2026-06-18"
-      ]
-    },
     {
       "action": "write_new_thesis",
       "author_signal_ratio": 0.0959,
@@ -1600,6 +1476,68 @@
     },
     {
       "action": "no_action",
+      "author_signal_ratio": 0.1977,
+      "company": "Intel",
+      "evidence": [
+        {
+          "date": "2026-03-25",
+          "score": 91,
+          "stance": "bullish",
+          "text_preview": "Yesterday’s CPU bottleneck trade — among AMD, ARM, and Intel, which was actually the best trade? Let me share my view. Obviously, CPU price increases are positive. They should help earnings materially. That said, what w…",
+          "tweet_id": "2036963841582784947",
+          "url": "https://x.com/jukan05/status/2036963841582784947"
+        },
+        {
+          "date": "2026-04-11",
+          "score": 71,
+          "stance": "bearish",
+          "text_preview": "Interesting. Even within MediaTek itself, there are concerns about using Intel's EMIB. 1. Intel has no track record, and it can't even reliably handle its own volume. 2. If they commit to EMIB and it fails? They can't s…",
+          "tweet_id": "2043122090463961104",
+          "url": "https://x.com/jukan05/status/2043122090463961104"
+        },
+        {
+          "date": "2026-04-01",
+          "score": 70,
+          "stance": "bullish",
+          "text_preview": "A very spicy piece of information here. A must-read for everyone (especially if you're interested in the CPU shortage). - Intel has carried out two rounds of CPU price hikes since the start of 2026. The first round in F…",
+          "tweet_id": "2039315025752703328",
+          "url": "https://x.com/jukan05/status/2039315025752703328"
+        }
+      ],
+      "explicit_stance_days": 13,
+      "explicit_stance_posts": 17,
+      "first_mention": "2026-03-25",
+      "has_report": true,
+      "last_mention": "2026-06-18",
+      "priority": "none",
+      "public_label": "暫無動作",
+      "reasoned_explicit_posts": 17,
+      "report_score": 1018,
+      "signal_terms": [
+        "amd",
+        "bottleneck",
+        "capacity",
+        "hyperscaler",
+        "long",
+        "own",
+        "owns",
+        "ramp",
+        "risk"
+      ],
+      "ticker": "INTC",
+      "total_mentions": 86,
+      "unique_mention_days": 44,
+      "why": [
+        "86 total mentions across 44 days",
+        "17 explicit stance posts",
+        "30 substantive thesis-like posts",
+        "2 risk/caution posts",
+        "high-signal terms: amd, bottleneck, capacity, hyperscaler, long, own",
+        "latest mention 2026-06-18"
+      ]
+    },
+    {
+      "action": "no_action",
       "author_signal_ratio": 0.0863,
       "company": "SK Hynix",
       "evidence": [
@@ -1734,17 +1672,17 @@
       ]
     }
   ],
-  "generated_at": "2026-06-25T17:43:49Z",
+  "generated_at": "2026-06-25T17:49:22Z",
   "source_files": {
     "queue": "data/jukan/report_queue.json",
     "updates": "data/jukan/report_update_candidates.json"
   },
   "summary": {
-    "automation_ready": 9,
+    "automation_ready": 8,
     "by_action": {
-      "no_action": 2,
+      "no_action": 3,
       "watch_for_more_signal": 8,
-      "write_new_thesis": 9
+      "write_new_thesis": 8
     },
     "total_decisions": 19
   }
