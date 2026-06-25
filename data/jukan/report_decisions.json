@@ -2,71 +2,6 @@
   "automation_next": [
     {
       "action": "write_new_thesis",
-      "author_signal_ratio": 0.0959,
-      "company": "Samsung Electronics",
-      "evidence": [
-        {
-          "date": "2026-04-05",
-          "score": 98,
-          "stance": "bearish",
-          "text_preview": "Korean home appliances are highly likely to cede market leadership to China before long. What concerns me more is that this is not simply a matter of home appliances alone. Starting with appliances, this is a broader tr…",
-          "tweet_id": "2040676339775045957",
-          "url": "https://x.com/jukan05/status/2040676339775045957"
-        },
-        {
-          "date": "2026-04-08",
-          "score": 83,
-          "stance": "neutral",
-          "text_preview": "One-year contracts are a thing of the past… Samsung and SK hynix won't sell without 3–5 year long-term supply agreements Samsung Electronics and SK hynix have effectively abandoned the practice of signing one-year short…",
-          "tweet_id": "2042022163734208700",
-          "url": "https://x.com/jukan05/status/2042022163734208700"
-        },
-        {
-          "date": "2026-04-15",
-          "score": 75,
-          "stance": "bullish",
-          "text_preview": "Daishin Securities analyst Hyung-Geun Ryu published a memory report today, packed with significant alpha. Key takeaways: 1. Apple is exploiting the memory shortage amid growth stagnation in the North American market. As…",
-          "tweet_id": "2044323309983297714",
-          "url": "https://x.com/jukan05/status/2044323309983297714"
-        }
-      ],
-      "explicit_stance_days": 12,
-      "explicit_stance_posts": 14,
-      "first_mention": "2026-03-28",
-      "has_report": false,
-      "last_mention": "2026-06-23",
-      "priority": "high",
-      "public_label": "撰寫新投資論點",
-      "reasoned_explicit_posts": 14,
-      "report_score": 966,
-      "signal_terms": [
-        "amd",
-        "bearish",
-        "capacity",
-        "channel check",
-        "long",
-        "margin",
-        "own",
-        "owns",
-        "pricing",
-        "ramp",
-        "sell",
-        "sold"
-      ],
-      "ticker": "SAMSUNG",
-      "total_mentions": 146,
-      "unique_mention_days": 65,
-      "why": [
-        "146 total mentions across 65 days",
-        "14 explicit stance posts",
-        "50 substantive thesis-like posts",
-        "4 risk/caution posts",
-        "high-signal terms: amd, bearish, capacity, channel check, long, margin",
-        "latest mention 2026-06-23"
-      ]
-    },
-    {
-      "action": "write_new_thesis",
       "author_signal_ratio": 0.0647,
       "company": "NVIDIA",
       "evidence": [
@@ -505,71 +440,6 @@
   ],
   "data_generated_at": "2026-06-25T08:48:41.255654+00:00",
   "decisions": [
-    {
-      "action": "write_new_thesis",
-      "author_signal_ratio": 0.0959,
-      "company": "Samsung Electronics",
-      "evidence": [
-        {
-          "date": "2026-04-05",
-          "score": 98,
-          "stance": "bearish",
-          "text_preview": "Korean home appliances are highly likely to cede market leadership to China before long. What concerns me more is that this is not simply a matter of home appliances alone. Starting with appliances, this is a broader tr…",
-          "tweet_id": "2040676339775045957",
-          "url": "https://x.com/jukan05/status/2040676339775045957"
-        },
-        {
-          "date": "2026-04-08",
-          "score": 83,
-          "stance": "neutral",
-          "text_preview": "One-year contracts are a thing of the past… Samsung and SK hynix won't sell without 3–5 year long-term supply agreements Samsung Electronics and SK hynix have effectively abandoned the practice of signing one-year short…",
-          "tweet_id": "2042022163734208700",
-          "url": "https://x.com/jukan05/status/2042022163734208700"
-        },
-        {
-          "date": "2026-04-15",
-          "score": 75,
-          "stance": "bullish",
-          "text_preview": "Daishin Securities analyst Hyung-Geun Ryu published a memory report today, packed with significant alpha. Key takeaways: 1. Apple is exploiting the memory shortage amid growth stagnation in the North American market. As…",
-          "tweet_id": "2044323309983297714",
-          "url": "https://x.com/jukan05/status/2044323309983297714"
-        }
-      ],
-      "explicit_stance_days": 12,
-      "explicit_stance_posts": 14,
-      "first_mention": "2026-03-28",
-      "has_report": false,
-      "last_mention": "2026-06-23",
-      "priority": "high",
-      "public_label": "撰寫新投資論點",
-      "reasoned_explicit_posts": 14,
-      "report_score": 966,
-      "signal_terms": [
-        "amd",
-        "bearish",
-        "capacity",
-        "channel check",
-        "long",
-        "margin",
-        "own",
-        "owns",
-        "pricing",
-        "ramp",
-        "sell",
-        "sold"
-      ],
-      "ticker": "SAMSUNG",
-      "total_mentions": 146,
-      "unique_mention_days": 65,
-      "why": [
-        "146 total mentions across 65 days",
-        "14 explicit stance posts",
-        "50 substantive thesis-like posts",
-        "4 risk/caution posts",
-        "high-signal terms: amd, bearish, capacity, channel check, long, margin",
-        "latest mention 2026-06-23"
-      ]
-    },
     {
       "action": "write_new_thesis",
       "author_signal_ratio": 0.0647,
@@ -1606,6 +1476,71 @@
     },
     {
       "action": "no_action",
+      "author_signal_ratio": 0.0959,
+      "company": "Samsung Electronics",
+      "evidence": [
+        {
+          "date": "2026-04-05",
+          "score": 98,
+          "stance": "bearish",
+          "text_preview": "Korean home appliances are highly likely to cede market leadership to China before long. What concerns me more is that this is not simply a matter of home appliances alone. Starting with appliances, this is a broader tr…",
+          "tweet_id": "2040676339775045957",
+          "url": "https://x.com/jukan05/status/2040676339775045957"
+        },
+        {
+          "date": "2026-04-08",
+          "score": 83,
+          "stance": "neutral",
+          "text_preview": "One-year contracts are a thing of the past… Samsung and SK hynix won't sell without 3–5 year long-term supply agreements Samsung Electronics and SK hynix have effectively abandoned the practice of signing one-year short…",
+          "tweet_id": "2042022163734208700",
+          "url": "https://x.com/jukan05/status/2042022163734208700"
+        },
+        {
+          "date": "2026-04-15",
+          "score": 75,
+          "stance": "bullish",
+          "text_preview": "Daishin Securities analyst Hyung-Geun Ryu published a memory report today, packed with significant alpha. Key takeaways: 1. Apple is exploiting the memory shortage amid growth stagnation in the North American market. As…",
+          "tweet_id": "2044323309983297714",
+          "url": "https://x.com/jukan05/status/2044323309983297714"
+        }
+      ],
+      "explicit_stance_days": 12,
+      "explicit_stance_posts": 14,
+      "first_mention": "2026-03-28",
+      "has_report": true,
+      "last_mention": "2026-06-23",
+      "priority": "none",
+      "public_label": "暫無動作",
+      "reasoned_explicit_posts": 14,
+      "report_score": 966,
+      "signal_terms": [
+        "amd",
+        "bearish",
+        "capacity",
+        "channel check",
+        "long",
+        "margin",
+        "own",
+        "owns",
+        "pricing",
+        "ramp",
+        "sell",
+        "sold"
+      ],
+      "ticker": "SAMSUNG",
+      "total_mentions": 146,
+      "unique_mention_days": 65,
+      "why": [
+        "146 total mentions across 65 days",
+        "14 explicit stance posts",
+        "50 substantive thesis-like posts",
+        "4 risk/caution posts",
+        "high-signal terms: amd, bearish, capacity, channel check, long, margin",
+        "latest mention 2026-06-23"
+      ]
+    },
+    {
+      "action": "no_action",
       "author_signal_ratio": 0.1667,
       "company": "Micron",
       "evidence": [
@@ -1672,17 +1607,17 @@
       ]
     }
   ],
-  "generated_at": "2026-06-25T17:49:22Z",
+  "generated_at": "2026-06-25T18:23:06Z",
   "source_files": {
     "queue": "data/jukan/report_queue.json",
     "updates": "data/jukan/report_update_candidates.json"
   },
   "summary": {
-    "automation_ready": 8,
+    "automation_ready": 7,
     "by_action": {
-      "no_action": 3,
+      "no_action": 4,
       "watch_for_more_signal": 8,
-      "write_new_thesis": 8
+      "write_new_thesis": 7
     },
     "total_decisions": 19
   }

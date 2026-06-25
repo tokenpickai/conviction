@@ -258,6 +258,130 @@
       ]
     },
     {
+      "author_signal_ratio": 0.0959,
+      "company": "Samsung Electronics",
+      "evidence": [
+        {
+          "date": "2026-04-05",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "Chinese players likely to cede market leadership across home appliances and broader consumer electronics",
+            "loss of appliance business would weaken Galaxy sales distribution anchor",
+            "decline in Galaxy sales would reduce demand for Samsung's core components",
+            "Chinese memory players like CXMT scaling up may shift demand to local suppliers rather than Samsung"
+          ],
+          "score": 98,
+          "stance": "bearish",
+          "text_preview": "Korean home appliances are highly likely to cede market leadership to China before long. What concerns me more is that this is not simply a matter of home appliances alone. Starting with appliances, this is a broader tr…",
+          "tweet_id": "2040676339775045957",
+          "url": "https://x.com/jukan05/status/2040676339775045957"
+        },
+        {
+          "date": "2026-04-08",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 83,
+          "stance": "neutral",
+          "text_preview": "One-year contracts are a thing of the past… Samsung and SK hynix won't sell without 3–5 year long-term supply agreements Samsung Electronics and SK hynix have effectively abandoned the practice of signing one-year short…",
+          "tweet_id": "2042022163734208700",
+          "url": "https://x.com/jukan05/status/2042022163734208700"
+        },
+        {
+          "date": "2026-04-15",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "2026E OP raised to KRW 342T",
+            "2027E OP raised to KRW 410T",
+            "target price raised from KRW 270,000 to KRW 330,000",
+            "trades at just 4.8x 2026E P/E and 4.0x 2027E P/E — remarkably cheap"
+          ],
+          "score": 75,
+          "stance": "bullish",
+          "text_preview": "Daishin Securities analyst Hyung-Geun Ryu published a memory report today, packed with significant alpha. Key takeaways: 1. Apple is exploiting the memory shortage amid growth stagnation in the North American market. As…",
+          "tweet_id": "2044323309983297714",
+          "url": "https://x.com/jukan05/status/2044323309983297714"
+        },
+        {
+          "date": "2026-04-25",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "18-day union strike could disrupt memory mass production for at least one month",
+            "production disruption impact on mass production stretches to at least double the strike period",
+            "output could immediately drop 10–20% if equipment not properly managed"
+          ],
+          "score": 71,
+          "stance": "bearish",
+          "text_preview": "\"Samsung Union Strike Could Disrupt Memory Mass Production for At Least 1 Month\"… Industry Concerns Mount Labor-management conflict at Samsung Electronics is intensifying over the size of performance bonuses. The Samsun…",
+          "tweet_id": "2047942867029770502",
+          "url": "https://x.com/jukan05/status/2047942867029770502"
+        },
+        {
+          "date": "2026-06-22",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 70,
+          "stance": "neutral",
+          "text_preview": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM SK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater we…",
+          "tweet_id": "2069207209133887767",
+          "url": "https://x.com/jukan05/status/2069207209133887767"
+        },
+        {
+          "date": "2026-06-07",
+          "mention_type": "quote_or_other",
+          "reasons": [],
+          "score": 61,
+          "stance": "neutral",
+          "text_preview": "[Exclusive] Samsung Foundry Expected to Return to Profit in Q3 This Year… \"Entering Growth Trajectory After Four Years\" Observations are emerging internally that Samsung Electronics' foundry division could succeed in tu…",
+          "tweet_id": "2063753367462256665",
+          "url": "https://x.com/jukan05/status/2063753367462256665"
+        }
+      ],
+      "explicit_stance_days": 12,
+      "explicit_stance_posts": 14,
+      "first_mention": "2026-03-28",
+      "has_report": true,
+      "high_conviction_posts": 0,
+      "industry": "Memory/HBM/Semiconductors",
+      "last_mention": "2026-06-23",
+      "market": "Korea Exchange",
+      "priority": "none",
+      "reasoned_explicit_posts": 14,
+      "report_score": 966,
+      "risk_posts": 4,
+      "signal_terms": [
+        "amd",
+        "bearish",
+        "capacity",
+        "channel check",
+        "long",
+        "margin",
+        "own",
+        "owns",
+        "pricing",
+        "ramp",
+        "sell",
+        "sold"
+      ],
+      "stance_counts": {
+        "bearish": 10,
+        "bullish": 4,
+        "neutral": 132
+      },
+      "status": "has_report",
+      "substantive_posts": 50,
+      "ticker": "SAMSUNG",
+      "total_mentions": 146,
+      "unique_mention_days": 65,
+      "why": [
+        "146 total mentions across 65 days",
+        "14 explicit stance posts",
+        "50 substantive thesis-like posts",
+        "4 risk/caution posts",
+        "high-signal terms: amd, bearish, capacity, channel check, long, margin",
+        "latest mention 2026-06-23"
+      ]
+    },
+    {
       "author_signal_ratio": 0.1667,
       "company": "Micron",
       "evidence": [
@@ -390,130 +514,6 @@
     }
   ],
   "next_reports": [
-    {
-      "author_signal_ratio": 0.0959,
-      "company": "Samsung Electronics",
-      "evidence": [
-        {
-          "date": "2026-04-05",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "Chinese players likely to cede market leadership across home appliances and broader consumer electronics",
-            "loss of appliance business would weaken Galaxy sales distribution anchor",
-            "decline in Galaxy sales would reduce demand for Samsung's core components",
-            "Chinese memory players like CXMT scaling up may shift demand to local suppliers rather than Samsung"
-          ],
-          "score": 98,
-          "stance": "bearish",
-          "text_preview": "Korean home appliances are highly likely to cede market leadership to China before long. What concerns me more is that this is not simply a matter of home appliances alone. Starting with appliances, this is a broader tr…",
-          "tweet_id": "2040676339775045957",
-          "url": "https://x.com/jukan05/status/2040676339775045957"
-        },
-        {
-          "date": "2026-04-08",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 83,
-          "stance": "neutral",
-          "text_preview": "One-year contracts are a thing of the past… Samsung and SK hynix won't sell without 3–5 year long-term supply agreements Samsung Electronics and SK hynix have effectively abandoned the practice of signing one-year short…",
-          "tweet_id": "2042022163734208700",
-          "url": "https://x.com/jukan05/status/2042022163734208700"
-        },
-        {
-          "date": "2026-04-15",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "2026E OP raised to KRW 342T",
-            "2027E OP raised to KRW 410T",
-            "target price raised from KRW 270,000 to KRW 330,000",
-            "trades at just 4.8x 2026E P/E and 4.0x 2027E P/E — remarkably cheap"
-          ],
-          "score": 75,
-          "stance": "bullish",
-          "text_preview": "Daishin Securities analyst Hyung-Geun Ryu published a memory report today, packed with significant alpha. Key takeaways: 1. Apple is exploiting the memory shortage amid growth stagnation in the North American market. As…",
-          "tweet_id": "2044323309983297714",
-          "url": "https://x.com/jukan05/status/2044323309983297714"
-        },
-        {
-          "date": "2026-04-25",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "18-day union strike could disrupt memory mass production for at least one month",
-            "production disruption impact on mass production stretches to at least double the strike period",
-            "output could immediately drop 10–20% if equipment not properly managed"
-          ],
-          "score": 71,
-          "stance": "bearish",
-          "text_preview": "\"Samsung Union Strike Could Disrupt Memory Mass Production for At Least 1 Month\"… Industry Concerns Mount Labor-management conflict at Samsung Electronics is intensifying over the size of performance bonuses. The Samsun…",
-          "tweet_id": "2047942867029770502",
-          "url": "https://x.com/jukan05/status/2047942867029770502"
-        },
-        {
-          "date": "2026-06-22",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 70,
-          "stance": "neutral",
-          "text_preview": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM SK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater we…",
-          "tweet_id": "2069207209133887767",
-          "url": "https://x.com/jukan05/status/2069207209133887767"
-        },
-        {
-          "date": "2026-06-07",
-          "mention_type": "quote_or_other",
-          "reasons": [],
-          "score": 61,
-          "stance": "neutral",
-          "text_preview": "[Exclusive] Samsung Foundry Expected to Return to Profit in Q3 This Year… \"Entering Growth Trajectory After Four Years\" Observations are emerging internally that Samsung Electronics' foundry division could succeed in tu…",
-          "tweet_id": "2063753367462256665",
-          "url": "https://x.com/jukan05/status/2063753367462256665"
-        }
-      ],
-      "explicit_stance_days": 12,
-      "explicit_stance_posts": 14,
-      "first_mention": "2026-03-28",
-      "has_report": false,
-      "high_conviction_posts": 0,
-      "industry": "Memory/HBM/Semiconductors",
-      "last_mention": "2026-06-23",
-      "market": "Korea Exchange",
-      "priority": "high",
-      "reasoned_explicit_posts": 14,
-      "report_score": 966,
-      "risk_posts": 4,
-      "signal_terms": [
-        "amd",
-        "bearish",
-        "capacity",
-        "channel check",
-        "long",
-        "margin",
-        "own",
-        "owns",
-        "pricing",
-        "ramp",
-        "sell",
-        "sold"
-      ],
-      "stance_counts": {
-        "bearish": 10,
-        "bullish": 4,
-        "neutral": 132
-      },
-      "status": "needs_report",
-      "substantive_posts": 50,
-      "ticker": "SAMSUNG",
-      "total_mentions": 146,
-      "unique_mention_days": 65,
-      "why": [
-        "146 total mentions across 65 days",
-        "14 explicit stance posts",
-        "50 substantive thesis-like posts",
-        "4 risk/caution posts",
-        "high-signal terms: amd, bearish, capacity, channel check, long, margin",
-        "latest mention 2026-06-23"
-      ]
-    },
     {
       "author_signal_ratio": 0.0647,
       "company": "NVIDIA",
@@ -2253,14 +2253,14 @@
       ]
     }
   ],
-  "reports_available": 3,
+  "reports_available": 4,
   "stocks_scanned": 293,
   "stocks_skipped": 274,
   "summary": {
     "candidate": 8,
-    "has_report": 3,
+    "has_report": 4,
     "needs_regeneration": 0,
-    "needs_report": 8,
+    "needs_report": 7,
     "needs_update": 0
   },
   "updates_due": []

@@ -585,8 +585,20 @@ def dd_data():
                     seen.add(k); res.append([r,m['url'],m['date']])
                     if len(res)>=capn: return res
             return res
+        def collect_risks(capn):
+            seen=set(); res=[]
+            for m in reversed(ms):
+                if m['mtype']!='explicit_stance': continue
+                if not m['is_risk'] and m['stance']!='bearish': continue
+                for r in (m['reasons'] or []):
+                    k=(r or '').strip().lower()
+                    if not k or k in seen: continue
+                    if m['stance']!='bearish' and not risk_reason_text(r): continue
+                    seen.add(k); res.append([r,m['url'],m['date']])
+                    if len(res)>=capn: return res
+            return res
         reasonsBull=collect(False,'bullish',6)
-        reasonsRisk=collect(True,None,4)
+        reasonsRisk=collect_risks(4)
         # posts: ALL as-of DAY, newest-first; preserve original tweet spacing for readability.
         TAG={'background':t('tag_background'),'comparison':t('tag_comparison'),'quote_or_other':t('tag_quote')}
         posts=[]
