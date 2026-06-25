@@ -1,387 +1,8 @@
 {
   "data_generated_at": "2026-06-23T20:32:19.434922+00:00",
-  "existing_reports": [],
-  "next_reports": [
+  "existing_reports": [
     {
-      "company": "NVIDIA",
-      "evidence": [
-        {
-          "date": "2026-05-19",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "China revenue collapsed from ~26% to ~5%",
-            "RTX 6000D rejected by market due to missing NVLink and HBM specs",
-            "sales model built on market dominance no longer works in current environment",
-            "Nvidia failing to genuinely communicate with Chinese customers — a listening problem not just an export control problem"
-          ],
-          "score": 122,
-          "stance": "bearish",
-          "text_preview": "This latest piece from GSR is genuinely important. Why is Nvidia still courting China — almost clinging to it? GSR frames it this way: \"For Nvidia, China is a monitoring window — a way to observe how massive AI infrastr…",
-          "tweet_id": "2056656968711119182",
-          "url": "https://x.com/jukan05/status/2056656968711119182"
-        },
-        {
-          "date": "2026-04-16",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 112,
-          "stance": "neutral",
-          "text_preview": "Today's biggest semiconductor industry news is that Gerard has founded a new ARM CPU company, Nuvacore, five years after Nuvia was acquired by Qualcomm. Even the name closely echoes the predecessor. Starting a datacente…",
-          "tweet_id": "2044684410289852753",
-          "url": "https://x.com/jukan05/status/2044684410289852753"
-        },
-        {
-          "date": "2026-04-24",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "moat is ability to anticipate trajectory of mainstream LLM technology and new demands on accelerators 3–5 years out",
-            "Blackwell's FP4 and HBM4 design aligns precisely with DeepSeek V4 model requirements",
-            "G3.5 storage tier anticipates labs needing KV cache offloaded to NVMe — called it precisely",
-            "Rubin and Feynman expected to deliver even more evolution than Blackwell"
-          ],
-          "score": 75,
-          "stance": "bullish",
-          "text_preview": "Thoughts after reading the DeepSeek V4 paper: - NVIDIA really is something else. Remember how back in 2024 people were bashing Blackwell as overspec'd and dismissing FP4 as just marketing? Turns out it was all groundwor…",
-          "tweet_id": "2047861732702662741",
-          "url": "https://x.com/jukan05/status/2047861732702662741"
-        },
-        {
-          "date": "2026-06-22",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 70,
-          "stance": "neutral",
-          "text_preview": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM SK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater we…",
-          "tweet_id": "2069207209133887767",
-          "url": "https://x.com/jukan05/status/2069207209133887767"
-        },
-        {
-          "date": "2026-05-26",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 64,
-          "stance": "neutral",
-          "text_preview": "SK Hynix Effectively Rebuffs US Big Tech's Offers of Tens of Billions of Dollars in Investment Support US big tech companies—Google parent Alphabet, Microsoft (MS), and Meta among them—are pouring out offers to help fun…",
-          "tweet_id": "2059420761505538353",
-          "url": "https://x.com/jukan05/status/2059420761505538353"
-        },
-        {
-          "date": "2026-05-30",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 60,
-          "stance": "neutral",
-          "text_preview": "What should we take away from Dell's earnings — and what upside is left for the company? First: Dell delivered tremendous growth in general-purpose servers. As we've argued all along, agentic AI is a tailwind for genera…",
-          "tweet_id": "2060621480208355415",
-          "url": "https://x.com/jukan05/status/2060621480208355415"
-        }
-      ],
-      "explicit_stance_posts": 11,
-      "first_mention": "2026-03-26",
-      "has_report": false,
-      "high_conviction_posts": 0,
-      "industry": "AI Chips",
-      "last_mention": "2026-06-22",
-      "market": "US",
-      "priority": "high",
-      "report_score": 1721,
-      "risk_posts": 1,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "ban",
-        "bearish",
-        "bottleneck",
-        "capacity",
-        "channel check",
-        "confirmed",
-        "dilution",
-        "export control",
-        "globalfoundries",
-        "holding",
-        "hyperscaler",
-        "long",
-        "margin",
-        "microsoft",
-        "msft"
-      ],
-      "stance_counts": {
-        "bearish": 3,
-        "bullish": 8,
-        "neutral": 159
-      },
-      "status": "needs_report",
-      "substantive_posts": 58,
-      "ticker": "NVDA",
-      "total_mentions": 170,
-      "unique_mention_days": 73,
-      "why": [
-        "170 total mentions across 73 days",
-        "11 explicit stance posts",
-        "58 substantive thesis-like posts",
-        "1 risk/caution posts",
-        "high-signal terms: allocation, amazon, amd, ban, bearish, bottleneck",
-        "latest mention 2026-06-22"
-      ]
-    },
-    {
-      "company": "Samsung Electronics",
-      "evidence": [
-        {
-          "date": "2026-04-05",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "Chinese players likely to cede market leadership across home appliances and broader consumer electronics",
-            "loss of appliance business would weaken Galaxy sales distribution anchor",
-            "decline in Galaxy sales would reduce demand for Samsung's core components",
-            "Chinese memory players like CXMT scaling up may shift demand to local suppliers rather than Samsung"
-          ],
-          "score": 98,
-          "stance": "bearish",
-          "text_preview": "Korean home appliances are highly likely to cede market leadership to China before long. What concerns me more is that this is not simply a matter of home appliances alone. Starting with appliances, this is a broader tr…",
-          "tweet_id": "2040676339775045957",
-          "url": "https://x.com/jukan05/status/2040676339775045957"
-        },
-        {
-          "date": "2026-04-08",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 83,
-          "stance": "neutral",
-          "text_preview": "One-year contracts are a thing of the past… Samsung and SK hynix won't sell without 3–5 year long-term supply agreements Samsung Electronics and SK hynix have effectively abandoned the practice of signing one-year short…",
-          "tweet_id": "2042022163734208700",
-          "url": "https://x.com/jukan05/status/2042022163734208700"
-        },
-        {
-          "date": "2026-04-15",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "2026E OP raised to KRW 342T",
-            "2027E OP raised to KRW 410T",
-            "target price raised from KRW 270,000 to KRW 330,000",
-            "trades at just 4.8x 2026E P/E and 4.0x 2027E P/E — remarkably cheap"
-          ],
-          "score": 75,
-          "stance": "bullish",
-          "text_preview": "Daishin Securities analyst Hyung-Geun Ryu published a memory report today, packed with significant alpha. Key takeaways: 1. Apple is exploiting the memory shortage amid growth stagnation in the North American market. As…",
-          "tweet_id": "2044323309983297714",
-          "url": "https://x.com/jukan05/status/2044323309983297714"
-        },
-        {
-          "date": "2026-04-25",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "18-day union strike could disrupt memory mass production for at least one month",
-            "production disruption impact on mass production stretches to at least double the strike period",
-            "output could immediately drop 10–20% if equipment not properly managed"
-          ],
-          "score": 71,
-          "stance": "bearish",
-          "text_preview": "\"Samsung Union Strike Could Disrupt Memory Mass Production for At Least 1 Month\"… Industry Concerns Mount Labor-management conflict at Samsung Electronics is intensifying over the size of performance bonuses. The Samsun…",
-          "tweet_id": "2047942867029770502",
-          "url": "https://x.com/jukan05/status/2047942867029770502"
-        },
-        {
-          "date": "2026-06-22",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 70,
-          "stance": "neutral",
-          "text_preview": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM SK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater we…",
-          "tweet_id": "2069207209133887767",
-          "url": "https://x.com/jukan05/status/2069207209133887767"
-        },
-        {
-          "date": "2026-06-07",
-          "mention_type": "quote_or_other",
-          "reasons": [],
-          "score": 61,
-          "stance": "neutral",
-          "text_preview": "[Exclusive] Samsung Foundry Expected to Return to Profit in Q3 This Year… \"Entering Growth Trajectory After Four Years\" Observations are emerging internally that Samsung Electronics' foundry division could succeed in tu…",
-          "tweet_id": "2063753367462256665",
-          "url": "https://x.com/jukan05/status/2063753367462256665"
-        }
-      ],
-      "explicit_stance_posts": 14,
-      "first_mention": "2026-03-28",
-      "has_report": false,
-      "high_conviction_posts": 0,
-      "industry": "Memory/HBM/Semiconductors",
-      "last_mention": "2026-06-23",
-      "market": "Korea Exchange",
-      "priority": "high",
-      "report_score": 1657,
-      "risk_posts": 4,
-      "signal_terms": [
-        "allocation",
-        "amd",
-        "ban",
-        "bearish",
-        "bottleneck",
-        "capacity",
-        "channel check",
-        "confirmed",
-        "dilution",
-        "export control",
-        "holding",
-        "hyperscaler",
-        "long",
-        "margin",
-        "microsoft",
-        "nvda",
-        "nvidia",
-        "offering"
-      ],
-      "stance_counts": {
-        "bearish": 10,
-        "bullish": 4,
-        "neutral": 132
-      },
-      "status": "needs_report",
-      "substantive_posts": 50,
-      "ticker": "SAMSUNG",
-      "total_mentions": 146,
-      "unique_mention_days": 65,
-      "why": [
-        "146 total mentions across 65 days",
-        "14 explicit stance posts",
-        "50 substantive thesis-like posts",
-        "4 risk/caution posts",
-        "high-signal terms: allocation, amd, ban, bearish, bottleneck, capacity",
-        "latest mention 2026-06-23"
-      ]
-    },
-    {
-      "company": "SK Hynix",
-      "evidence": [
-        {
-          "date": "2026-05-26",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "effective duopoly alongside Samsung in HBM market",
-            "this year's output already sold out",
-            "using big tech investment offers as leverage in more favorable long-term supply agreements",
-            "operating margin reached 72% as of Q1"
-          ],
-          "score": 110,
-          "stance": "bullish",
-          "text_preview": "SK Hynix Effectively Rebuffs US Big Tech's Offers of Tens of Billions of Dollars in Investment Support US big tech companies—Google parent Alphabet, Microsoft (MS), and Meta among them—are pouring out offers to help fun…",
-          "tweet_id": "2059420761505538353",
-          "url": "https://x.com/jukan05/status/2059420761505538353"
-        },
-        {
-          "date": "2026-04-08",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 83,
-          "stance": "neutral",
-          "text_preview": "One-year contracts are a thing of the past… Samsung and SK hynix won't sell without 3–5 year long-term supply agreements Samsung Electronics and SK hynix have effectively abandoned the practice of signing one-year short…",
-          "tweet_id": "2042022163734208700",
-          "url": "https://x.com/jukan05/status/2042022163734208700"
-        },
-        {
-          "date": "2026-05-27",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "appears to be performing better than Samsung in HBM4"
-          ],
-          "score": 79,
-          "stance": "bullish",
-          "text_preview": "Things I’ve looked into recently: I’m increasingly convinced that semiconductor equipment could become seriously scarce going forward. Based on channel checks, the “tera-fab” project appears to be much more serious than…",
-          "tweet_id": "2059568540840276017",
-          "url": "https://x.com/jukan05/status/2059568540840276017"
-        },
-        {
-          "date": "2026-04-15",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "2026E OP raised to KRW 263T",
-            "2027E OP raised to KRW 332T",
-            "target price raised from KRW 1,450,000 to KRW 1,700,000",
-            "trades at just 3.9x 2026E P/E and 3.1x 2027E P/E — remarkably cheap"
-          ],
-          "score": 75,
-          "stance": "bullish",
-          "text_preview": "Daishin Securities analyst Hyung-Geun Ryu published a memory report today, packed with significant alpha. Key takeaways: 1. Apple is exploiting the memory shortage amid growth stagnation in the North American market. As…",
-          "tweet_id": "2044323309983297714",
-          "url": "https://x.com/jukan05/status/2044323309983297714"
-        },
-        {
-          "date": "2026-06-22",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 70,
-          "stance": "neutral",
-          "text_preview": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM SK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater we…",
-          "tweet_id": "2069207209133887767",
-          "url": "https://x.com/jukan05/status/2069207209133887767"
-        },
-        {
-          "date": "2026-05-07",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "flooded with unprecedented offers from Big Tech to fund new production lines and EUV equipment purchases",
-            "available production capacity is essentially 'zero', indicating extreme demand",
-            "AI-driven demand viewed as long-term structural growth rather than short-term cycle",
-            "investment proposals targeting Phase 1 production line at Yongin cluster"
-          ],
-          "score": 68,
-          "stance": "bullish",
-          "text_preview": "▶ SK Hynix flooded with unprecedented offers from Big Tech to secure chip supplies - SK Hynix is reportedly receiving aggressive proposals from global Big Tech firms to fund new production line investments and the purch…",
-          "tweet_id": "2052529725927756104",
-          "url": "https://x.com/jukan05/status/2052529725927756104"
-        }
-      ],
-      "explicit_stance_posts": 12,
-      "first_mention": "2026-03-26",
-      "has_report": false,
-      "high_conviction_posts": 0,
-      "industry": "Memory/HBM (Korea)",
-      "last_mention": "2026-06-23",
-      "market": "Korea Exchange",
-      "priority": "high",
-      "report_score": 1631,
-      "risk_posts": 0,
-      "signal_terms": [
-        "allocation",
-        "amd",
-        "ban",
-        "bearish",
-        "bottleneck",
-        "capacity",
-        "channel check",
-        "confirmed",
-        "dilution",
-        "export control",
-        "holding",
-        "hyperscaler",
-        "long",
-        "margin",
-        "microsoft",
-        "nvda",
-        "nvidia",
-        "offering"
-      ],
-      "stance_counts": {
-        "bearish": 1,
-        "bullish": 11,
-        "neutral": 127
-      },
-      "status": "needs_report",
-      "substantive_posts": 47,
-      "ticker": "SK HYNIX",
-      "total_mentions": 139,
-      "unique_mention_days": 61,
-      "why": [
-        "139 total mentions across 61 days",
-        "12 explicit stance posts",
-        "47 substantive thesis-like posts",
-        "high-signal terms: allocation, amd, ban, bearish, bottleneck, capacity",
-        "latest mention 2026-06-23"
-      ]
-    },
-    {
+      "author_signal_ratio": 0.1667,
       "company": "Micron",
       "evidence": [
         {
@@ -464,15 +85,17 @@
           "url": "https://x.com/jukan05/status/2069278356193919073"
         }
       ],
+      "explicit_stance_days": 11,
       "explicit_stance_posts": 11,
       "first_mention": "2026-03-26",
-      "has_report": false,
+      "has_report": true,
       "high_conviction_posts": 0,
       "industry": "Memory/HBM",
       "last_mention": "2026-06-23",
       "market": "US",
-      "priority": "high",
-      "report_score": 1577,
+      "priority": "none",
+      "reasoned_explicit_posts": 11,
+      "report_score": 965,
       "risk_posts": 0,
       "signal_terms": [
         "allocation",
@@ -480,26 +103,23 @@
         "ban",
         "bottleneck",
         "capacity",
-        "confirmed",
         "hyperscaler",
         "long",
-        "margin",
-        "microsoft",
-        "nvda",
         "nvidia",
-        "offering",
         "own",
         "owns",
         "pricing",
-        "purchase agreement",
-        "ramp"
+        "ramp",
+        "sell",
+        "sold",
+        "thesis"
       ],
       "stance_counts": {
         "bearish": 1,
         "bullish": 10,
         "neutral": 55
       },
-      "status": "needs_report",
+      "status": "has_report",
       "substantive_posts": 29,
       "ticker": "MU",
       "total_mentions": 66,
@@ -508,11 +128,14 @@
         "66 total mentions across 42 days",
         "11 explicit stance posts",
         "29 substantive thesis-like posts",
-        "high-signal terms: allocation, amd, ban, bottleneck, capacity, confirmed",
+        "high-signal terms: allocation, amd, ban, bottleneck, capacity, hyperscaler",
         "latest mention 2026-06-23"
       ]
-    },
+    }
+  ],
+  "next_reports": [
     {
+      "author_signal_ratio": 0.1977,
       "company": "Intel",
       "evidence": [
         {
@@ -595,6 +218,7 @@
           "url": "https://x.com/jukan05/status/2044045150410919940"
         }
       ],
+      "explicit_stance_days": 13,
       "explicit_stance_posts": 17,
       "first_mention": "2026-03-25",
       "has_report": false,
@@ -603,27 +227,19 @@
       "last_mention": "2026-06-18",
       "market": "US",
       "priority": "high",
-      "report_score": 1472,
+      "reasoned_explicit_posts": 17,
+      "report_score": 1018,
       "risk_posts": 2,
       "signal_terms": [
-        "allocation",
-        "amazon",
         "amd",
-        "ban",
-        "bearish",
         "bottleneck",
         "capacity",
-        "confirmed",
-        "holding",
         "hyperscaler",
         "long",
-        "margin",
-        "nvidia",
-        "offering",
         "own",
         "owns",
-        "pricing",
-        "ramp"
+        "ramp",
+        "risk"
       ],
       "stance_counts": {
         "bearish": 6,
@@ -640,11 +256,515 @@
         "17 explicit stance posts",
         "30 substantive thesis-like posts",
         "2 risk/caution posts",
-        "high-signal terms: allocation, amazon, amd, ban, bearish, bottleneck",
+        "high-signal terms: amd, bottleneck, capacity, hyperscaler, long, own",
         "latest mention 2026-06-18"
       ]
     },
     {
+      "author_signal_ratio": 0.0863,
+      "company": "SK Hynix",
+      "evidence": [
+        {
+          "date": "2026-05-26",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "effective duopoly alongside Samsung in HBM market",
+            "this year's output already sold out",
+            "using big tech investment offers as leverage in more favorable long-term supply agreements",
+            "operating margin reached 72% as of Q1"
+          ],
+          "score": 110,
+          "stance": "bullish",
+          "text_preview": "SK Hynix Effectively Rebuffs US Big Tech's Offers of Tens of Billions of Dollars in Investment Support US big tech companies—Google parent Alphabet, Microsoft (MS), and Meta among them—are pouring out offers to help fun…",
+          "tweet_id": "2059420761505538353",
+          "url": "https://x.com/jukan05/status/2059420761505538353"
+        },
+        {
+          "date": "2026-04-08",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 83,
+          "stance": "neutral",
+          "text_preview": "One-year contracts are a thing of the past… Samsung and SK hynix won't sell without 3–5 year long-term supply agreements Samsung Electronics and SK hynix have effectively abandoned the practice of signing one-year short…",
+          "tweet_id": "2042022163734208700",
+          "url": "https://x.com/jukan05/status/2042022163734208700"
+        },
+        {
+          "date": "2026-05-27",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "appears to be performing better than Samsung in HBM4"
+          ],
+          "score": 79,
+          "stance": "bullish",
+          "text_preview": "Things I’ve looked into recently: I’m increasingly convinced that semiconductor equipment could become seriously scarce going forward. Based on channel checks, the “tera-fab” project appears to be much more serious than…",
+          "tweet_id": "2059568540840276017",
+          "url": "https://x.com/jukan05/status/2059568540840276017"
+        },
+        {
+          "date": "2026-04-15",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "2026E OP raised to KRW 263T",
+            "2027E OP raised to KRW 332T",
+            "target price raised from KRW 1,450,000 to KRW 1,700,000",
+            "trades at just 3.9x 2026E P/E and 3.1x 2027E P/E — remarkably cheap"
+          ],
+          "score": 75,
+          "stance": "bullish",
+          "text_preview": "Daishin Securities analyst Hyung-Geun Ryu published a memory report today, packed with significant alpha. Key takeaways: 1. Apple is exploiting the memory shortage amid growth stagnation in the North American market. As…",
+          "tweet_id": "2044323309983297714",
+          "url": "https://x.com/jukan05/status/2044323309983297714"
+        },
+        {
+          "date": "2026-06-22",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 70,
+          "stance": "neutral",
+          "text_preview": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM SK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater we…",
+          "tweet_id": "2069207209133887767",
+          "url": "https://x.com/jukan05/status/2069207209133887767"
+        },
+        {
+          "date": "2026-05-07",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "flooded with unprecedented offers from Big Tech to fund new production lines and EUV equipment purchases",
+            "available production capacity is essentially 'zero', indicating extreme demand",
+            "AI-driven demand viewed as long-term structural growth rather than short-term cycle",
+            "investment proposals targeting Phase 1 production line at Yongin cluster"
+          ],
+          "score": 68,
+          "stance": "bullish",
+          "text_preview": "▶ SK Hynix flooded with unprecedented offers from Big Tech to secure chip supplies - SK Hynix is reportedly receiving aggressive proposals from global Big Tech firms to fund new production line investments and the purch…",
+          "tweet_id": "2052529725927756104",
+          "url": "https://x.com/jukan05/status/2052529725927756104"
+        }
+      ],
+      "explicit_stance_days": 12,
+      "explicit_stance_posts": 12,
+      "first_mention": "2026-03-26",
+      "has_report": false,
+      "high_conviction_posts": 0,
+      "industry": "Memory/HBM (Korea)",
+      "last_mention": "2026-06-23",
+      "market": "Korea Exchange",
+      "priority": "high",
+      "reasoned_explicit_posts": 12,
+      "report_score": 967,
+      "risk_posts": 0,
+      "signal_terms": [
+        "ban",
+        "bearish",
+        "capacity",
+        "channel check",
+        "holding",
+        "hyperscaler",
+        "long",
+        "margin",
+        "microsoft",
+        "nvidia",
+        "own",
+        "pricing",
+        "ramp",
+        "risk",
+        "sell",
+        "sold"
+      ],
+      "stance_counts": {
+        "bearish": 1,
+        "bullish": 11,
+        "neutral": 127
+      },
+      "status": "needs_report",
+      "substantive_posts": 47,
+      "ticker": "SK HYNIX",
+      "total_mentions": 139,
+      "unique_mention_days": 61,
+      "why": [
+        "139 total mentions across 61 days",
+        "12 explicit stance posts",
+        "47 substantive thesis-like posts",
+        "high-signal terms: ban, bearish, capacity, channel check, holding, hyperscaler",
+        "latest mention 2026-06-23"
+      ]
+    },
+    {
+      "author_signal_ratio": 0.0959,
+      "company": "Samsung Electronics",
+      "evidence": [
+        {
+          "date": "2026-04-05",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "Chinese players likely to cede market leadership across home appliances and broader consumer electronics",
+            "loss of appliance business would weaken Galaxy sales distribution anchor",
+            "decline in Galaxy sales would reduce demand for Samsung's core components",
+            "Chinese memory players like CXMT scaling up may shift demand to local suppliers rather than Samsung"
+          ],
+          "score": 98,
+          "stance": "bearish",
+          "text_preview": "Korean home appliances are highly likely to cede market leadership to China before long. What concerns me more is that this is not simply a matter of home appliances alone. Starting with appliances, this is a broader tr…",
+          "tweet_id": "2040676339775045957",
+          "url": "https://x.com/jukan05/status/2040676339775045957"
+        },
+        {
+          "date": "2026-04-08",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 83,
+          "stance": "neutral",
+          "text_preview": "One-year contracts are a thing of the past… Samsung and SK hynix won't sell without 3–5 year long-term supply agreements Samsung Electronics and SK hynix have effectively abandoned the practice of signing one-year short…",
+          "tweet_id": "2042022163734208700",
+          "url": "https://x.com/jukan05/status/2042022163734208700"
+        },
+        {
+          "date": "2026-04-15",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "2026E OP raised to KRW 342T",
+            "2027E OP raised to KRW 410T",
+            "target price raised from KRW 270,000 to KRW 330,000",
+            "trades at just 4.8x 2026E P/E and 4.0x 2027E P/E — remarkably cheap"
+          ],
+          "score": 75,
+          "stance": "bullish",
+          "text_preview": "Daishin Securities analyst Hyung-Geun Ryu published a memory report today, packed with significant alpha. Key takeaways: 1. Apple is exploiting the memory shortage amid growth stagnation in the North American market. As…",
+          "tweet_id": "2044323309983297714",
+          "url": "https://x.com/jukan05/status/2044323309983297714"
+        },
+        {
+          "date": "2026-04-25",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "18-day union strike could disrupt memory mass production for at least one month",
+            "production disruption impact on mass production stretches to at least double the strike period",
+            "output could immediately drop 10–20% if equipment not properly managed"
+          ],
+          "score": 71,
+          "stance": "bearish",
+          "text_preview": "\"Samsung Union Strike Could Disrupt Memory Mass Production for At Least 1 Month\"… Industry Concerns Mount Labor-management conflict at Samsung Electronics is intensifying over the size of performance bonuses. The Samsun…",
+          "tweet_id": "2047942867029770502",
+          "url": "https://x.com/jukan05/status/2047942867029770502"
+        },
+        {
+          "date": "2026-06-22",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 70,
+          "stance": "neutral",
+          "text_preview": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM SK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater we…",
+          "tweet_id": "2069207209133887767",
+          "url": "https://x.com/jukan05/status/2069207209133887767"
+        },
+        {
+          "date": "2026-06-07",
+          "mention_type": "quote_or_other",
+          "reasons": [],
+          "score": 61,
+          "stance": "neutral",
+          "text_preview": "[Exclusive] Samsung Foundry Expected to Return to Profit in Q3 This Year… \"Entering Growth Trajectory After Four Years\" Observations are emerging internally that Samsung Electronics' foundry division could succeed in tu…",
+          "tweet_id": "2063753367462256665",
+          "url": "https://x.com/jukan05/status/2063753367462256665"
+        }
+      ],
+      "explicit_stance_days": 12,
+      "explicit_stance_posts": 14,
+      "first_mention": "2026-03-28",
+      "has_report": false,
+      "high_conviction_posts": 0,
+      "industry": "Memory/HBM/Semiconductors",
+      "last_mention": "2026-06-23",
+      "market": "Korea Exchange",
+      "priority": "high",
+      "reasoned_explicit_posts": 14,
+      "report_score": 966,
+      "risk_posts": 4,
+      "signal_terms": [
+        "amd",
+        "bearish",
+        "capacity",
+        "channel check",
+        "long",
+        "margin",
+        "own",
+        "owns",
+        "pricing",
+        "ramp",
+        "sell",
+        "sold"
+      ],
+      "stance_counts": {
+        "bearish": 10,
+        "bullish": 4,
+        "neutral": 132
+      },
+      "status": "needs_report",
+      "substantive_posts": 50,
+      "ticker": "SAMSUNG",
+      "total_mentions": 146,
+      "unique_mention_days": 65,
+      "why": [
+        "146 total mentions across 65 days",
+        "14 explicit stance posts",
+        "50 substantive thesis-like posts",
+        "4 risk/caution posts",
+        "high-signal terms: amd, bearish, capacity, channel check, long, margin",
+        "latest mention 2026-06-23"
+      ]
+    },
+    {
+      "author_signal_ratio": 0.0647,
+      "company": "NVIDIA",
+      "evidence": [
+        {
+          "date": "2026-05-19",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "China revenue collapsed from ~26% to ~5%",
+            "RTX 6000D rejected by market due to missing NVLink and HBM specs",
+            "sales model built on market dominance no longer works in current environment",
+            "Nvidia failing to genuinely communicate with Chinese customers — a listening problem not just an export control problem"
+          ],
+          "score": 122,
+          "stance": "bearish",
+          "text_preview": "This latest piece from GSR is genuinely important. Why is Nvidia still courting China — almost clinging to it? GSR frames it this way: \"For Nvidia, China is a monitoring window — a way to observe how massive AI infrastr…",
+          "tweet_id": "2056656968711119182",
+          "url": "https://x.com/jukan05/status/2056656968711119182"
+        },
+        {
+          "date": "2026-04-16",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 112,
+          "stance": "neutral",
+          "text_preview": "Today's biggest semiconductor industry news is that Gerard has founded a new ARM CPU company, Nuvacore, five years after Nuvia was acquired by Qualcomm. Even the name closely echoes the predecessor. Starting a datacente…",
+          "tweet_id": "2044684410289852753",
+          "url": "https://x.com/jukan05/status/2044684410289852753"
+        },
+        {
+          "date": "2026-04-24",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "moat is ability to anticipate trajectory of mainstream LLM technology and new demands on accelerators 3–5 years out",
+            "Blackwell's FP4 and HBM4 design aligns precisely with DeepSeek V4 model requirements",
+            "G3.5 storage tier anticipates labs needing KV cache offloaded to NVMe — called it precisely",
+            "Rubin and Feynman expected to deliver even more evolution than Blackwell"
+          ],
+          "score": 75,
+          "stance": "bullish",
+          "text_preview": "Thoughts after reading the DeepSeek V4 paper: - NVIDIA really is something else. Remember how back in 2024 people were bashing Blackwell as overspec'd and dismissing FP4 as just marketing? Turns out it was all groundwor…",
+          "tweet_id": "2047861732702662741",
+          "url": "https://x.com/jukan05/status/2047861732702662741"
+        },
+        {
+          "date": "2026-06-22",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 70,
+          "stance": "neutral",
+          "text_preview": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM SK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater we…",
+          "tweet_id": "2069207209133887767",
+          "url": "https://x.com/jukan05/status/2069207209133887767"
+        },
+        {
+          "date": "2026-05-26",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 64,
+          "stance": "neutral",
+          "text_preview": "SK Hynix Effectively Rebuffs US Big Tech's Offers of Tens of Billions of Dollars in Investment Support US big tech companies—Google parent Alphabet, Microsoft (MS), and Meta among them—are pouring out offers to help fun…",
+          "tweet_id": "2059420761505538353",
+          "url": "https://x.com/jukan05/status/2059420761505538353"
+        },
+        {
+          "date": "2026-05-30",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 60,
+          "stance": "neutral",
+          "text_preview": "What should we take away from Dell's earnings — and what upside is left for the company? First: Dell delivered tremendous growth in general-purpose servers. As we've argued all along, agentic AI is a tailwind for genera…",
+          "tweet_id": "2060621480208355415",
+          "url": "https://x.com/jukan05/status/2060621480208355415"
+        }
+      ],
+      "explicit_stance_days": 8,
+      "explicit_stance_posts": 11,
+      "first_mention": "2026-03-26",
+      "has_report": false,
+      "high_conviction_posts": 0,
+      "industry": "AI Chips",
+      "last_mention": "2026-06-22",
+      "market": "US",
+      "priority": "high",
+      "reasoned_explicit_posts": 11,
+      "report_score": 860,
+      "risk_posts": 1,
+      "signal_terms": [
+        "allocation",
+        "ban",
+        "bottleneck",
+        "capacity",
+        "export control",
+        "hyperscaler",
+        "long",
+        "nvda",
+        "nvidia",
+        "own",
+        "sanction",
+        "sell",
+        "sold"
+      ],
+      "stance_counts": {
+        "bearish": 3,
+        "bullish": 8,
+        "neutral": 159
+      },
+      "status": "needs_report",
+      "substantive_posts": 58,
+      "ticker": "NVDA",
+      "total_mentions": 170,
+      "unique_mention_days": 73,
+      "why": [
+        "170 total mentions across 73 days",
+        "11 explicit stance posts",
+        "58 substantive thesis-like posts",
+        "1 risk/caution posts",
+        "high-signal terms: allocation, ban, bottleneck, capacity, export control, hyperscaler",
+        "latest mention 2026-06-22"
+      ]
+    },
+    {
+      "author_signal_ratio": 0.2647,
+      "company": "Qualcomm",
+      "evidence": [
+        {
+          "date": "2026-04-16",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "leadership has been short-sighted and kept missing the ARM server window",
+            "abandoned Nuvia server team for share price/cost reasons",
+            "bracing for meaningful hit to smartphone sales from memory/storage price surge",
+            "expansion budgets are constrained"
+          ],
+          "score": 158,
+          "stance": "bearish",
+          "text_preview": "Today's biggest semiconductor industry news is that Gerard has founded a new ARM CPU company, Nuvacore, five years after Nuvia was acquired by Qualcomm. Even the name closely echoes the predecessor. Starting a datacente…",
+          "tweet_id": "2044684410289852753",
+          "url": "https://x.com/jukan05/status/2044684410289852753"
+        },
+        {
+          "date": "2026-04-16",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "abandoning server ARM CPU business in 2022 called one of the most legendary stupid moves in tech industry",
+            "executives made strategically myopic decisions"
+          ],
+          "score": 62,
+          "stance": "bearish",
+          "text_preview": "Qualcomm abandoning its server ARM CPU business in 2022 is one of the most legendary stupid moves in the tech industry, on par with Samsung scrapping its HBM team in 2019 and AMD selling its mobile GPU business to Qualc…",
+          "tweet_id": "2044685702764609783",
+          "url": "https://x.com/jukan05/status/2044685702764609783"
+        },
+        {
+          "date": "2026-04-29",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "skeptical Qualcomm can stage a meaningful rebound within this year",
+            "Apple walking back full-scale WMCM adoption undermines on-device AI thesis",
+            "no RAM upgrade even in high-end models using WMCM",
+            "Qualcomm cannot deliver on-device AI without additional mobile DRAM unless it achieves an extraordinary algorithmic breakthrough bypassing the memory wall"
+          ],
+          "score": 61,
+          "stance": "bearish",
+          "text_preview": "I’m skeptical that Qualcomm can stage a meaningful rebound within this year. Why did Apple choose to adopt WMCM packaging for the iPhone 18? It was precisely to enable the use of more DRAM for on-device AI. However, acc…",
+          "tweet_id": "2049625970198589689",
+          "url": "https://x.com/jukan05/status/2049625970198589689"
+        },
+        {
+          "date": "2026-04-24",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "potential data-center Nuvia CPU launch in June could reverse overly short-biased sentiment"
+          ],
+          "score": 53,
+          "stance": "bullish",
+          "text_preview": "My current watchlist: Advantest — As GPU architectures become increasingly complex, the number of required testing steps could rise exponentially. Could there still be more upside here? Montage — If CPU adoption increas…",
+          "tweet_id": "2047816848058794440",
+          "url": "https://x.com/jukan05/status/2047816848058794440"
+        },
+        {
+          "date": "2026-04-27",
+          "mention_type": "quote_or_other",
+          "reasons": [],
+          "score": 49,
+          "stance": "neutral",
+          "text_preview": "GF Overseas Electronics & Telecom ☄️ MediaTek (2454 TT, Buy): Two More Things! ☀️ What’s new? Meta! Since we published our MediaTek report on March 25, MediaTek’s share price has risen 50%, driven by multiple brokerages…",
+          "tweet_id": "2048683483929919806",
+          "url": "https://x.com/jukan05/status/2048683483929919806"
+        },
+        {
+          "date": "2026-06-16",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 47,
+          "stance": "neutral",
+          "text_preview": "Samsung sees rising chip production requests from BYD, Google, AMD- Nikkei Asia BYD, Google, AMD, Tesla and others are looking increasingly to Samsung Electronics for contract chipmaking services as surging demand for A…",
+          "tweet_id": "2067092746364748272",
+          "url": "https://x.com/jukan05/status/2067092746364748272"
+        }
+      ],
+      "explicit_stance_days": 7,
+      "explicit_stance_posts": 9,
+      "first_mention": "2026-04-04",
+      "has_report": false,
+      "high_conviction_posts": 0,
+      "industry": "AI/Connectivity Semiconductors",
+      "last_mention": "2026-06-22",
+      "market": "US",
+      "priority": "high",
+      "reasoned_explicit_posts": 9,
+      "report_score": 752,
+      "risk_posts": 0,
+      "signal_terms": [
+        "amazon",
+        "amd",
+        "ban",
+        "bottleneck",
+        "capacity",
+        "hyperscaler",
+        "long",
+        "microsoft",
+        "nvidia",
+        "offering",
+        "own",
+        "risk",
+        "sell",
+        "sold",
+        "thesis",
+        "validation"
+      ],
+      "stance_counts": {
+        "bearish": 5,
+        "bullish": 4,
+        "neutral": 25
+      },
+      "status": "needs_report",
+      "substantive_posts": 14,
+      "ticker": "QCOM",
+      "total_mentions": 34,
+      "unique_mention_days": 24,
+      "why": [
+        "34 total mentions across 24 days",
+        "9 explicit stance posts",
+        "14 substantive thesis-like posts",
+        "high-signal terms: amazon, amd, ban, bottleneck, capacity, hyperscaler",
+        "latest mention 2026-06-22"
+      ]
+    },
+    {
+      "author_signal_ratio": 0.1667,
       "company": "AMD",
       "evidence": [
         {
@@ -724,6 +844,7 @@
           "url": "https://x.com/jukan05/status/2063753367462256665"
         }
       ],
+      "explicit_stance_days": 7,
       "explicit_stance_posts": 7,
       "first_mention": "2026-03-25",
       "has_report": false,
@@ -732,27 +853,18 @@
       "last_mention": "2026-06-21",
       "market": "US",
       "priority": "high",
-      "report_score": 1405,
+      "reasoned_explicit_posts": 7,
+      "report_score": 657,
       "risk_posts": 1,
       "signal_terms": [
-        "allocation",
-        "amazon",
         "amd",
-        "ban",
         "bottleneck",
         "capacity",
-        "confirmed",
-        "dilution",
-        "globalfoundries",
-        "holding",
         "hyperscaler",
         "long",
-        "margin",
-        "microsoft",
-        "nvidia",
-        "offering",
         "own",
-        "owns"
+        "owns",
+        "ramp"
       ],
       "stance_counts": {
         "bearish": 1,
@@ -770,380 +882,12 @@
         "23 substantive thesis-like posts",
         "1 high-conviction mentions",
         "1 risk/caution posts",
-        "high-signal terms: allocation, amazon, amd, ban, bottleneck, capacity",
+        "high-signal terms: amd, bottleneck, capacity, hyperscaler, long, own",
         "latest mention 2026-06-21"
       ]
     },
     {
-      "company": "TSMC",
-      "evidence": [
-        {
-          "date": "2026-03-25",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "CPU production rush will further tighten TSMC wafer capacity, strengthening TSMC's bargaining power"
-          ],
-          "score": 81,
-          "stance": "bullish",
-          "text_preview": "Yesterday’s CPU bottleneck trade — among AMD, ARM, and Intel, which was actually the best trade? Let me share my view. Obviously, CPU price increases are positive. They should help earnings materially. That said, what w…",
-          "tweet_id": "2036963841582784947",
-          "url": "https://x.com/jukan05/status/2036963841582784947"
-        },
-        {
-          "date": "2026-04-16",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "implies selling on margin peak thesis is wrong/foolish"
-          ],
-          "score": 62,
-          "stance": "bullish",
-          "text_preview": "I heard some idiots are selling because they think TSMC’s margins peaked in Q1.",
-          "tweet_id": "2044733024206754150",
-          "url": "https://x.com/jukan05/status/2044733024206754150"
-        },
-        {
-          "date": "2026-06-15",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 59,
-          "stance": "neutral",
-          "text_preview": "TSMC Teams Up with Ibiden and Innolux to Push CoPoS — Reportedly Flooring the Accelerator in Glass Substrates To meet robust AI chip demand, TSMC is not only ramping CoWoS advanced packaging capacity but has, for the fi…",
-          "tweet_id": "2066651558784463190",
-          "url": "https://x.com/jukan05/status/2066651558784463190"
-        },
-        {
-          "date": "2026-06-07",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 53,
-          "stance": "neutral",
-          "text_preview": "[Exclusive] Samsung Foundry Expected to Return to Profit in Q3 This Year… \"Entering Growth Trajectory After Four Years\" Observations are emerging internally that Samsung Electronics' foundry division could succeed in tu…",
-          "tweet_id": "2063753367462256665",
-          "url": "https://x.com/jukan05/status/2063753367462256665"
-        },
-        {
-          "date": "2026-04-10",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "March revenue up 45.2% year over year",
-            "up 30.7% month over month",
-            "up 35.1% year to date"
-          ],
-          "score": 47,
-          "stance": "bullish",
-          "text_preview": "TSMC’s March revenue came in at NT$415.191 billion, up 45.2% year over year, 30.7% month over month, and 35.1% year to date. $TSM https://t.co/ckGnBTCXNY",
-          "tweet_id": "2042476075289305436",
-          "url": "https://x.com/jukan05/status/2042476075289305436"
-        },
-        {
-          "date": "2026-06-16",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 47,
-          "stance": "neutral",
-          "text_preview": "Samsung sees rising chip production requests from BYD, Google, AMD- Nikkei Asia BYD, Google, AMD, Tesla and others are looking increasingly to Samsung Electronics for contract chipmaking services as surging demand for A…",
-          "tweet_id": "2067092746364748272",
-          "url": "https://x.com/jukan05/status/2067092746364748272"
-        }
-      ],
-      "explicit_stance_posts": 4,
-      "first_mention": "2026-03-25",
-      "has_report": false,
-      "high_conviction_posts": 0,
-      "industry": "Wafer Foundry",
-      "last_mention": "2026-06-23",
-      "market": "US",
-      "priority": "high",
-      "report_score": 1270,
-      "risk_posts": 0,
-      "signal_terms": [
-        "allocation",
-        "amd",
-        "ban",
-        "bearish",
-        "bottleneck",
-        "capacity",
-        "channel check",
-        "confirmed",
-        "dilution",
-        "export control",
-        "globalfoundries",
-        "holding",
-        "hyperscaler",
-        "long",
-        "margin",
-        "microsoft",
-        "nvidia",
-        "offering"
-      ],
-      "stance_counts": {
-        "bullish": 4,
-        "neutral": 115
-      },
-      "status": "needs_report",
-      "substantive_posts": 23,
-      "ticker": "TSM",
-      "total_mentions": 119,
-      "unique_mention_days": 60,
-      "why": [
-        "119 total mentions across 60 days",
-        "4 explicit stance posts",
-        "23 substantive thesis-like posts",
-        "high-signal terms: allocation, amd, ban, bearish, bottleneck, capacity",
-        "latest mention 2026-06-23"
-      ]
-    },
-    {
-      "company": "Qualcomm",
-      "evidence": [
-        {
-          "date": "2026-04-16",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "leadership has been short-sighted and kept missing the ARM server window",
-            "abandoned Nuvia server team for share price/cost reasons",
-            "bracing for meaningful hit to smartphone sales from memory/storage price surge",
-            "expansion budgets are constrained"
-          ],
-          "score": 158,
-          "stance": "bearish",
-          "text_preview": "Today's biggest semiconductor industry news is that Gerard has founded a new ARM CPU company, Nuvacore, five years after Nuvia was acquired by Qualcomm. Even the name closely echoes the predecessor. Starting a datacente…",
-          "tweet_id": "2044684410289852753",
-          "url": "https://x.com/jukan05/status/2044684410289852753"
-        },
-        {
-          "date": "2026-04-16",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "abandoning server ARM CPU business in 2022 called one of the most legendary stupid moves in tech industry",
-            "executives made strategically myopic decisions"
-          ],
-          "score": 62,
-          "stance": "bearish",
-          "text_preview": "Qualcomm abandoning its server ARM CPU business in 2022 is one of the most legendary stupid moves in the tech industry, on par with Samsung scrapping its HBM team in 2019 and AMD selling its mobile GPU business to Qualc…",
-          "tweet_id": "2044685702764609783",
-          "url": "https://x.com/jukan05/status/2044685702764609783"
-        },
-        {
-          "date": "2026-04-29",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "skeptical Qualcomm can stage a meaningful rebound within this year",
-            "Apple walking back full-scale WMCM adoption undermines on-device AI thesis",
-            "no RAM upgrade even in high-end models using WMCM",
-            "Qualcomm cannot deliver on-device AI without additional mobile DRAM unless it achieves an extraordinary algorithmic breakthrough bypassing the memory wall"
-          ],
-          "score": 61,
-          "stance": "bearish",
-          "text_preview": "I’m skeptical that Qualcomm can stage a meaningful rebound within this year. Why did Apple choose to adopt WMCM packaging for the iPhone 18? It was precisely to enable the use of more DRAM for on-device AI. However, acc…",
-          "tweet_id": "2049625970198589689",
-          "url": "https://x.com/jukan05/status/2049625970198589689"
-        },
-        {
-          "date": "2026-04-24",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "potential data-center Nuvia CPU launch in June could reverse overly short-biased sentiment"
-          ],
-          "score": 53,
-          "stance": "bullish",
-          "text_preview": "My current watchlist: Advantest — As GPU architectures become increasingly complex, the number of required testing steps could rise exponentially. Could there still be more upside here? Montage — If CPU adoption increas…",
-          "tweet_id": "2047816848058794440",
-          "url": "https://x.com/jukan05/status/2047816848058794440"
-        },
-        {
-          "date": "2026-04-27",
-          "mention_type": "quote_or_other",
-          "reasons": [],
-          "score": 49,
-          "stance": "neutral",
-          "text_preview": "GF Overseas Electronics & Telecom ☄️ MediaTek (2454 TT, Buy): Two More Things! ☀️ What’s new? Meta! Since we published our MediaTek report on March 25, MediaTek’s share price has risen 50%, driven by multiple brokerages…",
-          "tweet_id": "2048683483929919806",
-          "url": "https://x.com/jukan05/status/2048683483929919806"
-        },
-        {
-          "date": "2026-06-16",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 47,
-          "stance": "neutral",
-          "text_preview": "Samsung sees rising chip production requests from BYD, Google, AMD- Nikkei Asia BYD, Google, AMD, Tesla and others are looking increasingly to Samsung Electronics for contract chipmaking services as surging demand for A…",
-          "tweet_id": "2067092746364748272",
-          "url": "https://x.com/jukan05/status/2067092746364748272"
-        }
-      ],
-      "explicit_stance_posts": 9,
-      "first_mention": "2026-04-04",
-      "has_report": false,
-      "high_conviction_posts": 0,
-      "industry": "AI/Connectivity Semiconductors",
-      "last_mention": "2026-06-22",
-      "market": "US",
-      "priority": "high",
-      "report_score": 1190,
-      "risk_posts": 0,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "ban",
-        "bottleneck",
-        "capacity",
-        "confirmed",
-        "holding",
-        "hyperscaler",
-        "long",
-        "microsoft",
-        "nvidia",
-        "offering",
-        "own",
-        "pricing",
-        "risk",
-        "sell",
-        "sold"
-      ],
-      "stance_counts": {
-        "bearish": 5,
-        "bullish": 4,
-        "neutral": 25
-      },
-      "status": "needs_report",
-      "substantive_posts": 14,
-      "ticker": "QCOM",
-      "total_mentions": 34,
-      "unique_mention_days": 24,
-      "why": [
-        "34 total mentions across 24 days",
-        "9 explicit stance posts",
-        "14 substantive thesis-like posts",
-        "high-signal terms: allocation, amazon, amd, ban, bottleneck, capacity",
-        "latest mention 2026-06-22"
-      ]
-    },
-    {
-      "company": "Kioxia Holdings",
-      "evidence": [
-        {
-          "date": "2026-04-15",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "legacy DRAM shortages in SSDs disadvantage pure-play NAND makers without self-supply",
-            "capex increase of 40% vs prior plans adding cost pressure"
-          ],
-          "score": 69,
-          "stance": "bearish",
-          "text_preview": "Daishin Securities analyst Hyung-Geun Ryu published a memory report today, packed with significant alpha. Key takeaways: 1. Apple is exploiting the memory shortage amid growth stagnation in the North American market. As…",
-          "tweet_id": "2044323309983297714",
-          "url": "https://x.com/jukan05/status/2044323309983297714"
-        },
-        {
-          "date": "2026-06-05",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "biggest beneficiary of SK hynix not adding NAND capacity",
-            "has greenfield site available for new capacity expansion",
-            "market share is likely to increase"
-          ],
-          "score": 57,
-          "stance": "bullish",
-          "text_preview": "* Important: SK hynix has no plans to add any new NAND flash capacity. => The only players that will add new capacity are pure-play NAND manufacturers, YMTC, and Kioxia. - This refutes the previous rumor that SK hynix w…",
-          "tweet_id": "2062809398284812532",
-          "url": "https://x.com/jukan05/status/2062809398284812532"
-        },
-        {
-          "date": "2026-04-19",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 55,
-          "stance": "neutral",
-          "text_preview": "UMC Reportedly Approached for 2D NAND Foundry Work, But Faces Three Major Hurdles: People, Technology, and Equipment With international memory manufacturers' exit from 2D NAND flash memory now all but confirmed, supply…",
-          "tweet_id": "2046027289931173964",
-          "url": "https://x.com/jukan05/status/2046027289931173964"
-        },
-        {
-          "date": "2026-05-22",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "technology gap with Samsung/SK Hynix would narrow significantly if Kioxia successfully ramps V10 NAND next year while competitors delay"
-          ],
-          "score": 52,
-          "stance": "bullish",
-          "text_preview": "Very interesting. With Samsung and SK Hynix delaying V10 NAND mass production to next year, if Kioxia successfully ramps V10 NAND next year, the technology gap between Samsung/SK Hynix and Kioxia would narrow significan…",
-          "tweet_id": "2058032314496745711",
-          "url": "https://x.com/jukan05/status/2058032314496745711"
-        },
-        {
-          "date": "2026-05-11",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "market cap will surpass Toyota's within this year"
-          ],
-          "score": 47,
-          "stance": "bullish",
-          "text_preview": "Kioxia will surpass Toyota’s market cap within this year.",
-          "tweet_id": "2053807032223023576",
-          "url": "https://x.com/jukan05/status/2053807032223023576"
-        },
-        {
-          "date": "2026-05-08",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 44,
-          "stance": "neutral",
-          "text_preview": "2D NAND shortage spirals after Samsung, Micron, and rivals exit market Major international NAND manufacturers are gradually exiting the mature-process 2D NAND market, triggering panic buying and a sharp spike in prices.…",
-          "tweet_id": "2052651707105181882",
-          "url": "https://x.com/jukan05/status/2052651707105181882"
-        }
-      ],
-      "explicit_stance_posts": 4,
-      "first_mention": "2026-03-31",
-      "has_report": false,
-      "high_conviction_posts": 0,
-      "industry": "Memory/NAND",
-      "last_mention": "2026-06-19",
-      "market": "Tokyo",
-      "priority": "high",
-      "report_score": 903,
-      "risk_posts": 0,
-      "signal_terms": [
-        "ban",
-        "bearish",
-        "bottleneck",
-        "capacity",
-        "channel check",
-        "confirmed",
-        "holding",
-        "hyperscaler",
-        "long",
-        "margin",
-        "nvidia",
-        "offering",
-        "own",
-        "owns",
-        "pricing",
-        "ramp",
-        "risk",
-        "sell"
-      ],
-      "stance_counts": {
-        "bearish": 1,
-        "bullish": 3,
-        "neutral": 26
-      },
-      "status": "needs_report",
-      "substantive_posts": 10,
-      "ticker": "285A",
-      "total_mentions": 30,
-      "unique_mention_days": 24,
-      "why": [
-        "30 total mentions across 24 days",
-        "4 explicit stance posts",
-        "10 substantive thesis-like posts",
-        "high-signal terms: ban, bearish, bottleneck, capacity, channel check, confirmed",
-        "latest mention 2026-06-19"
-      ]
-    },
-    {
+      "author_signal_ratio": 0.3684,
       "company": "ASML",
       "evidence": [
         {
@@ -1223,6 +967,7 @@
           "url": "https://x.com/jukan05/status/2044287982086348936"
         }
       ],
+      "explicit_stance_days": 6,
       "explicit_stance_posts": 7,
       "first_mention": "2026-03-31",
       "has_report": false,
@@ -1230,23 +975,15 @@
       "industry": "Semiconductor Lithography",
       "last_mention": "2026-06-18",
       "market": "US",
-      "priority": "high",
-      "report_score": 881,
+      "priority": "medium",
+      "reasoned_explicit_posts": 7,
+      "report_score": 540,
       "risk_posts": 0,
       "signal_terms": [
         "allocation",
-        "amazon",
-        "ban",
-        "bottleneck",
         "capacity",
-        "export control",
         "long",
-        "margin",
-        "microsoft",
-        "nvidia",
-        "own",
         "ramp",
-        "risk",
         "sell",
         "sold",
         "thesis"
@@ -1265,11 +1002,12 @@
         "7 explicit stance posts",
         "9 substantive thesis-like posts",
         "1 high-conviction mentions",
-        "high-signal terms: allocation, amazon, ban, bottleneck, capacity, export control",
+        "high-signal terms: allocation, capacity, long, ramp, sell, sold",
         "latest mention 2026-06-18"
       ]
     },
     {
+      "author_signal_ratio": 0.2083,
       "company": "Broadcom",
       "evidence": [
         {
@@ -1342,6 +1080,7 @@
           "url": "https://x.com/jukan05/status/2040568323738640582"
         }
       ],
+      "explicit_stance_days": 3,
       "explicit_stance_posts": 5,
       "first_mention": "2026-03-26",
       "has_report": false,
@@ -1349,28 +1088,15 @@
       "industry": "AI ASIC/Networking Chips",
       "last_mention": "2026-06-17",
       "market": "US",
-      "priority": "high",
-      "report_score": 881,
+      "priority": "medium",
+      "reasoned_explicit_posts": 5,
+      "report_score": 370,
       "risk_posts": 1,
       "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "ban",
-        "bearish",
-        "bottleneck",
-        "capacity",
-        "confirmed",
-        "holding",
-        "hyperscaler",
         "long",
         "margin",
         "nvidia",
-        "offering",
-        "own",
-        "pricing",
-        "ramp",
-        "sell"
+        "own"
       ],
       "stance_counts": {
         "bearish": 4,
@@ -1387,132 +1113,12 @@
         "5 explicit stance posts",
         "11 substantive thesis-like posts",
         "1 risk/caution posts",
-        "high-signal terms: allocation, amazon, amd, ban, bearish, bottleneck",
+        "high-signal terms: long, margin, nvidia, own",
         "latest mention 2026-06-17"
       ]
     },
     {
-      "company": "MediaTek",
-      "evidence": [
-        {
-          "date": "2026-04-28",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "Google may shift to COT model starting with TPU v9, downgrading MediaTek to IP support/design service role",
-            "per-chip margin would fall"
-          ],
-          "score": 75,
-          "stance": "bearish",
-          "text_preview": "Rumor: Google to shift to a COT model starting with TPU v9, downgrading the role of MediaTek/Broadcom. This would be a major negative for Broadcom and MTK. According to this rumor, starting with TPU v9, Google plans to…",
-          "tweet_id": "2048992506851868780",
-          "url": "https://x.com/jukan05/status/2048992506851868780"
-        },
-        {
-          "date": "2026-06-22",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "exclusively securing new higher-priced TPU v9 order from Google",
-            "confirmed as Google's preferred development partner for TPU v9 generation"
-          ],
-          "score": 54,
-          "stance": "bullish",
-          "text_preview": "\"My latest industry checks indicate that Google is developing an upgraded v9 chip, likely codenamed Triggerfish, based on TPU v9 / Humufish, with MediaTek exclusively securing this new, higher-priced order. (...) The pr…",
-          "tweet_id": "2068926089800593705",
-          "url": "https://x.com/jukan05/status/2068926089800593705"
-        },
-        {
-          "date": "2026-04-27",
-          "mention_type": "quote_or_other",
-          "reasons": [],
-          "score": 49,
-          "stance": "neutral",
-          "text_preview": "GF Overseas Electronics & Telecom ☄️ MediaTek (2454 TT, Buy): Two More Things! ☀️ What’s new? Meta! Since we published our MediaTek report on March 25, MediaTek’s share price has risen 50%, driven by multiple brokerages…",
-          "tweet_id": "2048683483929919806",
-          "url": "https://x.com/jukan05/status/2048683483929919806"
-        },
-        {
-          "date": "2026-06-16",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 47,
-          "stance": "neutral",
-          "text_preview": "Samsung sees rising chip production requests from BYD, Google, AMD- Nikkei Asia BYD, Google, AMD, Tesla and others are looking increasingly to Samsung Electronics for contract chipmaking services as surging demand for A…",
-          "tweet_id": "2067092746364748272",
-          "url": "https://x.com/jukan05/status/2067092746364748272"
-        },
-        {
-          "date": "2026-04-02",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "entry-level smartphones are finished, will take a big hit"
-          ],
-          "score": 39,
-          "stance": "bearish",
-          "text_preview": "Entry-level smartphones are literally finished. MediaTek, Chinese smartphone brands, and KYEC will all take a big hit. https://t.co/ANLH0Vsz8O",
-          "tweet_id": "2039673040712384778",
-          "url": "https://x.com/jukan05/status/2039673040712384778"
-        },
-        {
-          "date": "2026-04-09",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 35,
-          "stance": "neutral",
-          "text_preview": "When will CPO actually see mass production?-Digitimes The market continues to closely watch the deployment of co-packaged optics (CPO) technology in cloud AI, driven by the desire of the silicon photonics (SiPh) ecosyst…",
-          "tweet_id": "2042152380934893600",
-          "url": "https://x.com/jukan05/status/2042152380934893600"
-        }
-      ],
-      "explicit_stance_posts": 3,
-      "first_mention": "2026-04-01",
-      "has_report": false,
-      "high_conviction_posts": 0,
-      "industry": "AI ASIC/Mobile Semiconductors",
-      "last_mention": "2026-06-22",
-      "market": "Taiwan",
-      "priority": "high",
-      "report_score": 758,
-      "risk_posts": 1,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "ban",
-        "bearish",
-        "bottleneck",
-        "capacity",
-        "confirmed",
-        "long",
-        "margin",
-        "nvidia",
-        "offering",
-        "own",
-        "pricing",
-        "ramp",
-        "risk",
-        "sell",
-        "validation"
-      ],
-      "stance_counts": {
-        "bearish": 2,
-        "bullish": 1,
-        "neutral": 23
-      },
-      "status": "needs_report",
-      "substantive_posts": 8,
-      "ticker": "2454",
-      "total_mentions": 26,
-      "unique_mention_days": 19,
-      "why": [
-        "26 total mentions across 19 days",
-        "3 explicit stance posts",
-        "8 substantive thesis-like posts",
-        "1 risk/caution posts",
-        "high-signal terms: allocation, amazon, amd, ban, bearish, bottleneck",
-        "latest mention 2026-06-22"
-      ]
-    },
-    {
+      "author_signal_ratio": 0.2,
       "company": "SanDisk",
       "evidence": [
         {
@@ -1588,6 +1194,7 @@
           "url": "https://x.com/jukan05/status/2044585601232740359"
         }
       ],
+      "explicit_stance_days": 4,
       "explicit_stance_posts": 4,
       "first_mention": "2026-03-26",
       "has_report": false,
@@ -1596,26 +1203,21 @@
       "last_mention": "2026-06-02",
       "market": "US",
       "priority": "medium",
-      "report_score": 766,
+      "reasoned_explicit_posts": 4,
+      "report_score": 366,
       "risk_posts": 0,
       "signal_terms": [
         "allocation",
-        "ban",
         "bearish",
         "bottleneck",
         "capacity",
         "channel check",
-        "confirmed",
         "hyperscaler",
         "long",
-        "margin",
         "nvidia",
-        "offering",
         "own",
         "pricing",
-        "ramp",
-        "sell",
-        "validation"
+        "sell"
       ],
       "stance_counts": {
         "bearish": 1,
@@ -1631,364 +1233,249 @@
         "20 total mentions across 16 days",
         "4 explicit stance posts",
         "6 substantive thesis-like posts",
-        "high-signal terms: allocation, ban, bearish, bottleneck, capacity, channel check",
+        "high-signal terms: allocation, bearish, bottleneck, capacity, channel check, hyperscaler",
         "latest mention 2026-06-02"
       ]
     },
     {
-      "company": "Samsung Electro-Mechanics",
+      "author_signal_ratio": 0.0336,
+      "company": "TSMC",
       "evidence": [
         {
-          "date": "2026-05-28",
+          "date": "2026-03-25",
           "mention_type": "explicit_stance",
           "reasons": [
-            "only company in the world that operates both a silicon capacitor business and a substrate business",
-            "can deliver both substrate and silicon capacitor to Intel's EMIB on a turnkey basis, maximizing bargaining power",
-            "landed a supply contract worth more than $1 billion despite being a latecomer",
-            "emergence as a new player should not be underestimated"
+            "CPU production rush will further tighten TSMC wafer capacity, strengthening TSMC's bargaining power"
           ],
-          "score": 61,
+          "score": 81,
           "stance": "bullish",
-          "text_preview": "Why Are Silicon Capacitors Becoming Important? And Why Is SEMCO's Stock Surging? The reason silicon capacitors have failed to grow into a large market until now is clear. TSMC, which holds an overwhelming share in subst…",
-          "tweet_id": "2059967125020934181",
-          "url": "https://x.com/jukan05/status/2059967125020934181"
+          "text_preview": "Yesterday’s CPU bottleneck trade — among AMD, ARM, and Intel, which was actually the best trade? Let me share my view. Obviously, CPU price increases are positive. They should help earnings materially. That said, what w…",
+          "tweet_id": "2036963841582784947",
+          "url": "https://x.com/jukan05/status/2036963841582784947"
         },
         {
-          "date": "2026-03-30",
+          "date": "2026-04-16",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "implies selling on margin peak thesis is wrong/foolish"
+          ],
+          "score": 62,
+          "stance": "bullish",
+          "text_preview": "I heard some idiots are selling because they think TSMC’s margins peaked in Q1.",
+          "tweet_id": "2044733024206754150",
+          "url": "https://x.com/jukan05/status/2044733024206754150"
+        },
+        {
+          "date": "2026-06-15",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 59,
+          "stance": "neutral",
+          "text_preview": "TSMC Teams Up with Ibiden and Innolux to Push CoPoS — Reportedly Flooring the Accelerator in Glass Substrates To meet robust AI chip demand, TSMC is not only ramping CoWoS advanced packaging capacity but has, for the fi…",
+          "tweet_id": "2066651558784463190",
+          "url": "https://x.com/jukan05/status/2066651558784463190"
+        },
+        {
+          "date": "2026-06-07",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 53,
+          "stance": "neutral",
+          "text_preview": "[Exclusive] Samsung Foundry Expected to Return to Profit in Q3 This Year… \"Entering Growth Trajectory After Four Years\" Observations are emerging internally that Samsung Electronics' foundry division could succeed in tu…",
+          "tweet_id": "2063753367462256665",
+          "url": "https://x.com/jukan05/status/2063753367462256665"
+        },
+        {
+          "date": "2026-04-10",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "March revenue up 45.2% year over year",
+            "up 30.7% month over month",
+            "up 35.1% year to date"
+          ],
+          "score": 47,
+          "stance": "bullish",
+          "text_preview": "TSMC’s March revenue came in at NT$415.191 billion, up 45.2% year over year, 30.7% month over month, and 35.1% year to date. $TSM https://t.co/ckGnBTCXNY",
+          "tweet_id": "2042476075289305436",
+          "url": "https://x.com/jukan05/status/2042476075289305436"
+        },
+        {
+          "date": "2026-06-16",
           "mention_type": "background",
           "reasons": [],
           "score": 47,
           "stance": "neutral",
-          "text_preview": "Samsung Electro-Mechanics Raises FC-BGA Prices… 185% Operating Profit Growth Forecast for This Year Samsung Electro-Mechanics has recently raised prices on its flip-chip ball grid array (FC-BGA), a high-performance semi…",
-          "tweet_id": "2038802510346158513",
-          "url": "https://x.com/jukan05/status/2038802510346158513"
-        },
-        {
-          "date": "2026-04-20",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "up 70% in just one month",
-            "only company that can benefit from both the ABF substrate supercycle and the MLCC supercycle"
-          ],
-          "score": 44,
-          "stance": "bullish",
-          "text_preview": "Samsung Electro-Mechanics… it’s up 70% in just one month. Did you hear me? Anon? Samsung Electro-Mechanics is the only company that can benefit from both the ABF substrate supercycle and the MLCC supercycle. https://t.c…",
-          "tweet_id": "2046395114952790308",
-          "url": "https://x.com/jukan05/status/2046395114952790308"
-        },
-        {
-          "date": "2026-06-17",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 41,
-          "stance": "neutral",
-          "text_preview": "▶ CSP In House ASIC Boom Drives MLCC Specification Concentration; Structural Shortages of High End Specialty MLCCs May Emerge in 2H26, Says TrendForce - According to TrendForce's latest MLCC industry survey, as the AI c…",
-          "tweet_id": "2067371368770109774",
-          "url": "https://x.com/jukan05/status/2067371368770109774"
-        },
-        {
-          "date": "2026-04-21",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 31,
-          "stance": "neutral",
-          "text_preview": "[Exclusive] Samsung Electro-Mechanics to Supply AI Substrates to Broadcom Riding the artificial intelligence (AI) boom, not only memory semiconductor companies but also Korean electronic component makers have moved to t…",
-          "tweet_id": "2046521336106004977",
-          "url": "https://x.com/jukan05/status/2046521336106004977"
-        },
-        {
-          "date": "2026-05-24",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 28,
-          "stance": "neutral",
-          "text_preview": "▶ Embedded substrates draw AI chip interest as packaging turns strategic - The growing interest in embedded substrates from major players like Nvidia, AMD, and Intel signals a potential shift in the AI datacenter supply…",
-          "tweet_id": "2058733798704243047",
-          "url": "https://x.com/jukan05/status/2058733798704243047"
+          "text_preview": "Samsung sees rising chip production requests from BYD, Google, AMD- Nikkei Asia BYD, Google, AMD, Tesla and others are looking increasingly to Samsung Electronics for contract chipmaking services as surging demand for A…",
+          "tweet_id": "2067092746364748272",
+          "url": "https://x.com/jukan05/status/2067092746364748272"
         }
       ],
-      "explicit_stance_posts": 2,
-      "first_mention": "2026-03-29",
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 4,
+      "first_mention": "2026-03-25",
       "has_report": false,
       "high_conviction_posts": 0,
-      "industry": "AI Package Substrates/MLCC",
-      "last_mention": "2026-06-22",
-      "market": "Korea Exchange",
+      "industry": "Wafer Foundry",
+      "last_mention": "2026-06-23",
+      "market": "US",
       "priority": "medium",
-      "report_score": 653,
+      "reasoned_explicit_posts": 4,
+      "report_score": 353,
       "risk_posts": 0,
       "signal_terms": [
-        "allocation",
-        "amazon",
         "amd",
-        "ban",
         "bottleneck",
         "capacity",
-        "confirmed",
-        "holding",
-        "long",
-        "nvidia",
-        "own",
-        "pricing",
-        "ramp",
-        "risk",
-        "sell",
-        "sold",
-        "validation"
-      ],
-      "stance_counts": {
-        "bullish": 2,
-        "neutral": 15
-      },
-      "status": "needs_report",
-      "substantive_posts": 6,
-      "ticker": "009150",
-      "total_mentions": 17,
-      "unique_mention_days": 15,
-      "why": [
-        "17 total mentions across 15 days",
-        "2 explicit stance posts",
-        "6 substantive thesis-like posts",
-        "high-signal terms: allocation, amazon, amd, ban, bottleneck, capacity",
-        "latest mention 2026-06-22"
-      ]
-    },
-    {
-      "company": "Nittobo",
-      "evidence": [
-        {
-          "date": "2026-05-23",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "stock moving sideways",
-            "no intention of raising prices",
-            "too conservative",
-            "cares too much about customers rather than pricing power"
-          ],
-          "score": 61,
-          "stance": "bearish",
-          "text_preview": "Do you see why Nittobo’s stock has been moving sideways now? They have no intention of raising prices. Unlike memory companies, which are aggressively raising prices right now, Japanese companies like this place an extr…",
-          "tweet_id": "2058119691067969983",
-          "url": "https://x.com/jukan05/status/2058119691067969983"
-        },
-        {
-          "date": "2026-03-30",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 47,
-          "stance": "neutral",
-          "text_preview": "Samsung Electro-Mechanics Raises FC-BGA Prices… 185% Operating Profit Growth Forecast for This Year Samsung Electro-Mechanics has recently raised prices on its flip-chip ball grid array (FC-BGA), a high-performance semi…",
-          "tweet_id": "2038802510346158513",
-          "url": "https://x.com/jukan05/status/2038802510346158513"
-        },
-        {
-          "date": "2026-03-29",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "dominance in T-glass is bound to persist",
-            "big tech unlikely to switch to rival products due to risk of irreversible chip issues"
-          ],
-          "score": 45,
-          "stance": "bullish",
-          "text_preview": "\"Unless big tech changes its policy of using only Nittobo's product, the T-glass supply shortage will be difficult to resolve for the foreseeable future.\" Nittobo’s dominance is bound to persist. If they use a rival’s T…",
-          "tweet_id": "2038176799377776728",
-          "url": "https://x.com/jukan05/status/2038176799377776728"
-        },
-        {
-          "date": "2026-04-11",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "structural gap in ultra-thin E-glass fiberglass cloth market as Nittobo exits",
-            "lower-end fiberglass manufacturers likely to benefit significantly"
-          ],
-          "score": 38,
-          "stance": "bullish",
-          "text_preview": "\"Nittobo’s strategic exit is creating a “structural gap” in the ultra-thin E-glass fiberglass cloth market: according to industry checks, Nittobo, a global technology leader in fiberglass cloth, is gradually exiting the…",
-          "tweet_id": "2042941004295344139",
-          "url": "https://x.com/jukan05/status/2042941004295344139"
-        },
-        {
-          "date": "2026-04-14",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 30,
-          "stance": "neutral",
-          "text_preview": "Glass Fiber Cloth and Copper Foil Costs Continue to Rise… 2026 Full-Year CCL Price Hikes 'Far From Over' As demand for high-end PCBs from AI servers and switches surges, the supply-demand imbalance in upstream materials…",
-          "tweet_id": "2044208463916740661",
-          "url": "https://x.com/jukan05/status/2044208463916740661"
-        },
-        {
-          "date": "2026-05-23",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 30,
-          "stance": "neutral",
-          "text_preview": "Why No Price Hike Despite a Severe Shortage? Why doesn't Nittobo raise prices to reap windfall profits? The AI server boom has triggered an explosion in global demand for high-end glass fiber materials. Yet even as the…",
-          "tweet_id": "2058118644983595231",
-          "url": "https://x.com/jukan05/status/2058118644983595231"
-        }
-      ],
-      "explicit_stance_posts": 3,
-      "first_mention": "2026-03-29",
-      "has_report": false,
-      "high_conviction_posts": 0,
-      "industry": "Glass Fiber/AI Substrates",
-      "last_mention": "2026-06-14",
-      "market": "Tokyo",
-      "priority": "medium",
-      "report_score": 577,
-      "risk_posts": 0,
-      "signal_terms": [
-        "allocation",
-        "amazon",
-        "bottleneck",
-        "capacity",
+        "hyperscaler",
         "long",
         "margin",
-        "nvidia",
         "own",
-        "owns",
-        "pricing",
-        "ramp",
-        "risk",
         "sell",
-        "sold"
+        "thesis"
       ],
       "stance_counts": {
-        "bearish": 1,
-        "bullish": 2,
-        "neutral": 9
+        "bullish": 4,
+        "neutral": 115
       },
       "status": "needs_report",
-      "substantive_posts": 7,
-      "ticker": "3110",
-      "total_mentions": 12,
-      "unique_mention_days": 10,
+      "substantive_posts": 23,
+      "ticker": "TSM",
+      "total_mentions": 119,
+      "unique_mention_days": 60,
       "why": [
-        "12 total mentions across 10 days",
-        "3 explicit stance posts",
-        "7 substantive thesis-like posts",
-        "high-signal terms: allocation, amazon, bottleneck, capacity, long, margin",
-        "latest mention 2026-06-14"
+        "119 total mentions across 60 days",
+        "4 explicit stance posts",
+        "23 substantive thesis-like posts",
+        "high-signal terms: amd, bottleneck, capacity, hyperscaler, long, margin",
+        "latest mention 2026-06-23"
       ]
     },
     {
-      "company": "BE Semiconductor Industries",
+      "author_signal_ratio": 0.5,
+      "company": "Arm Holdings",
       "evidence": [
         {
           "date": "2026-04-16",
           "mention_type": "explicit_stance",
           "reasons": [
-            "TSMC significantly expanding SoIC capacity in 2027 from 10K to 50K wafers/month",
-            "more hybrid bonding tool orders should follow for BESI"
+            "ARM server CPU living through best era in history",
+            "ARM accounts for roughly 50% of new traditional server CPUs hyperscalers deploy",
+            "CPU supply-demand gap could widen to 30%+",
+            "ARM CPU server potential consensus now firmly in place"
           ],
-          "score": 84,
+          "score": 158,
           "stance": "bullish",
-          "text_preview": "DigiTimes published a report on TSMC's packaging this morning, and there's a lot of alpha in it. To summarize: 1. TSMC is significantly expanding SoIC capacity in 2027 (from 10K wafers/month to 50K wafers/month), with N…",
-          "tweet_id": "2044914319243280555",
-          "url": "https://x.com/jukan05/status/2044914319243280555"
+          "text_preview": "Today's biggest semiconductor industry news is that Gerard has founded a new ARM CPU company, Nuvacore, five years after Nuvia was acquired by Qualcomm. Even the name closely echoes the predecessor. Starting a datacente…",
+          "tweet_id": "2044684410289852753",
+          "url": "https://x.com/jukan05/status/2044684410289852753"
         },
         {
-          "date": "2026-05-04",
+          "date": "2026-03-25",
           "mention_type": "explicit_stance",
           "reasons": [
-            "global leader in hybrid bonding equipment market",
-            "technological edge in precision and throughput",
-            "Samsung hybrid bonding adoption decision coming soon",
-            "all three HBM manufacturers conducting equipment evaluations"
+            "not a pure CPU trade",
+            "smartphone royalties — largest revenue source — likely to take a meaningful hit due to memory apocalypse"
           ],
-          "score": 64,
-          "stance": "bullish",
-          "text_preview": "Netherlands' BESI: Samsung's Hybrid Bonding Adoption Decision Coming Soon Samsung Electronics is expected to introduce hybrid bonding technology — projected to be at the heart of next-generation semiconductor production…",
-          "tweet_id": "2051205348854542495",
-          "url": "https://x.com/jukan05/status/2051205348854542495"
+          "score": 98,
+          "stance": "bearish",
+          "text_preview": "Yesterday’s CPU bottleneck trade — among AMD, ARM, and Intel, which was actually the best trade? Let me share my view. Obviously, CPU price increases are positive. They should help earnings materially. That said, what w…",
+          "tweet_id": "2036963841582784947",
+          "url": "https://x.com/jukan05/status/2036963841582784947"
         },
         {
-          "date": "2026-04-18",
+          "date": "2026-04-14",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "would need at least twice as many CPUs"
+          ],
+          "score": 52,
+          "stance": "bullish",
+          "text_preview": "You would need at least twice as many CPUs. $AMD $INTC $ARM https://t.co/5phuKGbXGM https://t.co/q9O1IrakCl",
+          "tweet_id": "2044045150410919940",
+          "url": "https://x.com/jukan05/status/2044045150410919940"
+        },
+        {
+          "date": "2026-04-01",
           "mention_type": "background",
           "reasons": [],
-          "score": 35,
+          "score": 24,
           "stance": "neutral",
-          "text_preview": "ASMPT Secures Multiple HBM4 TC Bonder Orders Last Year... SK Hynix Likely Among Buyers Singapore-headquartered ASMPT appears to have secured orders for 6th-generation High Bandwidth Memory (HBM4) Thermal Compression (TC…",
-          "tweet_id": "2045643713104544054",
-          "url": "https://x.com/jukan05/status/2045643713104544054"
+          "text_preview": "A very spicy piece of information here. A must-read for everyone (especially if you're interested in the CPU shortage). - Intel has carried out two rounds of CPU price hikes since the start of 2026. The first round in F…",
+          "tweet_id": "2039315025752703328",
+          "url": "https://x.com/jukan05/status/2039315025752703328"
         },
         {
-          "date": "2026-03-31",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "Samsung may end up buying more BESI equipment than expected"
-          ],
-          "score": 33,
-          "stance": "bullish",
-          "text_preview": "\"Samsung Electronics has likewise already introduced Besi equipment for development purposes, and has recently begun quality-testing a hybrid bonder from SEMES as well. However, the SEMES tool is understood to be less m…",
-          "tweet_id": "2038927755988160898",
-          "url": "https://x.com/jukan05/status/2038927755988160898"
-        },
-        {
-          "date": "2026-04-26",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "TSMC will increase SoIC orders, benefiting BESI"
-          ],
-          "score": 33,
-          "stance": "bullish",
-          "text_preview": "@LinQingV TSMC 将增加 SoIC 的订单，我很看好 BESI。",
-          "tweet_id": "2048378916033954046",
-          "url": "https://x.com/jukan05/status/2048378916033954046"
-        },
-        {
-          "date": "2026-03-31",
+          "date": "2026-04-04",
           "mention_type": "background",
           "reasons": [],
-          "score": 22,
+          "score": 13,
           "stance": "neutral",
-          "text_preview": "SK Hynix Places First Order for Applied Materials–Besi Hybrid Bonding Equipment SK Hynix has decided to purchase production-grade hybrid bonding equipment for the development of next-generation High Bandwidth Memory (HB…",
-          "tweet_id": "2038926893785788532",
-          "url": "https://x.com/jukan05/status/2038926893785788532"
+          "text_preview": "Samsung Electronics Fires First Shot in Departure from Arm… Develops Proprietary SSD Controller Based on Open-Source RISC-V Samsung Electronics is introducing a proprietary controller chip—developed in-house on an open-…",
+          "tweet_id": "2040438876213252542",
+          "url": "https://x.com/jukan05/status/2040438876213252542"
+        },
+        {
+          "date": "2026-04-24",
+          "mention_type": "background",
+          "reasons": [],
+          "score": -4,
+          "stance": "neutral",
+          "text_preview": "@stevehou What happened to ARM AGI CPU??",
+          "tweet_id": "2047665764803674207",
+          "url": "https://x.com/jukan05/status/2047665764803674207"
         }
       ],
-      "explicit_stance_posts": 4,
-      "first_mention": "2026-03-31",
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 3,
+      "first_mention": "2026-03-25",
       "has_report": false,
       "high_conviction_posts": 0,
-      "industry": "Advanced Packaging Equipment",
-      "last_mention": "2026-06-10",
-      "market": "Euronext Amsterdam",
-      "priority": "medium",
-      "report_score": 482,
-      "risk_posts": 0,
+      "industry": "CPU/IP Licensing",
+      "last_mention": "2026-04-24",
+      "market": "US",
+      "priority": "low",
+      "reasoned_explicit_posts": 3,
+      "report_score": 424,
+      "risk_posts": 1,
       "signal_terms": [
+        "amazon",
         "amd",
         "ban",
+        "bottleneck",
         "capacity",
-        "holding",
+        "hyperscaler",
         "long",
+        "microsoft",
         "nvidia",
+        "offering",
         "own",
-        "ramp",
+        "risk",
         "sell",
         "sold",
+        "thesis",
         "validation"
       ],
       "stance_counts": {
-        "bullish": 4,
-        "neutral": 6
+        "bearish": 1,
+        "bullish": 2,
+        "neutral": 3
       },
-      "status": "needs_report",
-      "substantive_posts": 5,
-      "ticker": "BESI",
-      "total_mentions": 10,
-      "unique_mention_days": 8,
+      "status": "candidate",
+      "substantive_posts": 3,
+      "ticker": "ARM",
+      "total_mentions": 6,
+      "unique_mention_days": 6,
       "why": [
-        "10 total mentions across 8 days",
-        "4 explicit stance posts",
-        "5 substantive thesis-like posts",
-        "high-signal terms: amd, ban, capacity, holding, long, nvidia",
-        "latest mention 2026-06-10"
+        "6 total mentions across 6 days",
+        "3 explicit stance posts",
+        "3 substantive thesis-like posts",
+        "1 risk/caution posts",
+        "high-signal terms: amazon, amd, ban, bottleneck, capacity, hyperscaler",
+        "latest mention 2026-04-24"
       ]
     },
     {
+      "author_signal_ratio": 0.5,
       "company": "Dell Technologies",
       "evidence": [
         {
@@ -2065,6 +1552,7 @@
           "url": "https://x.com/jukan05/status/2068308376434671713"
         }
       ],
+      "explicit_stance_days": 3,
       "explicit_stance_posts": 4,
       "first_mention": "2026-04-08",
       "has_report": false,
@@ -2072,15 +1560,13 @@
       "industry": "AI Servers/PC Hardware",
       "last_mention": "2026-06-20",
       "market": "US",
-      "priority": "medium",
-      "report_score": 445,
+      "priority": "low",
+      "reasoned_explicit_posts": 4,
+      "report_score": 326,
       "risk_posts": 0,
       "signal_terms": [
         "amd",
-        "ban",
-        "capacity",
         "holding",
-        "hyperscaler",
         "long",
         "margin",
         "nvidia",
@@ -2093,7 +1579,7 @@
         "bullish": 4,
         "neutral": 4
       },
-      "status": "needs_report",
+      "status": "candidate",
       "substantive_posts": 5,
       "ticker": "DELL",
       "total_mentions": 8,
@@ -2102,134 +1588,247 @@
         "8 total mentions across 7 days",
         "4 explicit stance posts",
         "5 substantive thesis-like posts",
-        "high-signal terms: amd, ban, capacity, holding, hyperscaler, long",
+        "high-signal terms: amd, holding, long, margin, nvidia, own",
         "latest mention 2026-06-20"
       ]
     },
     {
-      "ai_relevance": {
-        "ai_explicit_posts": 0,
-        "ai_mention_days": 6,
-        "ai_substantive_posts": 6
-      },
-      "broad_platform": true,
-      "company": "Apple",
+      "author_signal_ratio": 0.1333,
+      "company": "Kioxia Holdings",
       "evidence": [
         {
-          "date": "2026-06-10",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 59,
-          "stance": "neutral",
-          "text_preview": "Nvidia's AI ramp deepens memory squeeze as cloud providers lock up supply through 2028 Memory shortages tied to Nvidia's next wave of AI hardware are expected to intensify through 2027 and into 2028, as major cloud serv…",
-          "tweet_id": "2064838255582097523",
-          "url": "https://x.com/jukan05/status/2064838255582097523"
+          "date": "2026-04-15",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "legacy DRAM shortages in SSDs disadvantage pure-play NAND makers without self-supply",
+            "capex increase of 40% vs prior plans adding cost pressure"
+          ],
+          "score": 69,
+          "stance": "bearish",
+          "text_preview": "Daishin Securities analyst Hyung-Geun Ryu published a memory report today, packed with significant alpha. Key takeaways: 1. Apple is exploiting the memory shortage amid growth stagnation in the North American market. As…",
+          "tweet_id": "2044323309983297714",
+          "url": "https://x.com/jukan05/status/2044323309983297714"
         },
         {
-          "date": "2026-06-07",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 53,
-          "stance": "neutral",
-          "text_preview": "[Exclusive] Samsung Foundry Expected to Return to Profit in Q3 This Year… \"Entering Growth Trajectory After Four Years\" Observations are emerging internally that Samsung Electronics' foundry division could succeed in tu…",
-          "tweet_id": "2063753367462256665",
-          "url": "https://x.com/jukan05/status/2063753367462256665"
+          "date": "2026-06-05",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "biggest beneficiary of SK hynix not adding NAND capacity",
+            "has greenfield site available for new capacity expansion",
+            "market share is likely to increase"
+          ],
+          "score": 57,
+          "stance": "bullish",
+          "text_preview": "* Important: SK hynix has no plans to add any new NAND flash capacity. => The only players that will add new capacity are pure-play NAND manufacturers, YMTC, and Kioxia. - This refutes the previous rumor that SK hynix w…",
+          "tweet_id": "2062809398284812532",
+          "url": "https://x.com/jukan05/status/2062809398284812532"
         },
         {
-          "date": "2026-06-16",
+          "date": "2026-04-19",
           "mention_type": "background",
           "reasons": [],
+          "score": 55,
+          "stance": "neutral",
+          "text_preview": "UMC Reportedly Approached for 2D NAND Foundry Work, But Faces Three Major Hurdles: People, Technology, and Equipment With international memory manufacturers' exit from 2D NAND flash memory now all but confirmed, supply…",
+          "tweet_id": "2046027289931173964",
+          "url": "https://x.com/jukan05/status/2046027289931173964"
+        },
+        {
+          "date": "2026-05-22",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "technology gap with Samsung/SK Hynix would narrow significantly if Kioxia successfully ramps V10 NAND next year while competitors delay"
+          ],
+          "score": 52,
+          "stance": "bullish",
+          "text_preview": "Very interesting. With Samsung and SK Hynix delaying V10 NAND mass production to next year, if Kioxia successfully ramps V10 NAND next year, the technology gap between Samsung/SK Hynix and Kioxia would narrow significan…",
+          "tweet_id": "2058032314496745711",
+          "url": "https://x.com/jukan05/status/2058032314496745711"
+        },
+        {
+          "date": "2026-05-11",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "market cap will surpass Toyota's within this year"
+          ],
           "score": 47,
-          "stance": "neutral",
-          "text_preview": "Samsung sees rising chip production requests from BYD, Google, AMD- Nikkei Asia BYD, Google, AMD, Tesla and others are looking increasingly to Samsung Electronics for contract chipmaking services as surging demand for A…",
-          "tweet_id": "2067092746364748272",
-          "url": "https://x.com/jukan05/status/2067092746364748272"
+          "stance": "bullish",
+          "text_preview": "Kioxia will surpass Toyota’s market cap within this year.",
+          "tweet_id": "2053807032223023576",
+          "url": "https://x.com/jukan05/status/2053807032223023576"
         },
         {
-          "date": "2026-04-04",
+          "date": "2026-05-08",
           "mention_type": "background",
           "reasons": [],
-          "score": 41,
+          "score": 44,
           "stance": "neutral",
-          "text_preview": "The Critical Weakness of AI Computing Power… Broadcom Identifies \"3 Major Bottlenecks,\" Supply Shortages Could Persist Until 2027 • Broadcom has identified the key bottlenecks in the current AI supply chain as: ▲lasers,…",
-          "tweet_id": "2040568323738640582",
-          "url": "https://x.com/jukan05/status/2040568323738640582"
+          "text_preview": "2D NAND shortage spirals after Samsung, Micron, and rivals exit market Major international NAND manufacturers are gradually exiting the mature-process 2D NAND market, triggering panic buying and a sharp spike in prices.…",
+          "tweet_id": "2052651707105181882",
+          "url": "https://x.com/jukan05/status/2052651707105181882"
+        }
+      ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 4,
+      "first_mention": "2026-03-31",
+      "has_report": false,
+      "high_conviction_posts": 0,
+      "industry": "Memory/NAND",
+      "last_mention": "2026-06-19",
+      "market": "Tokyo",
+      "priority": "low",
+      "reasoned_explicit_posts": 4,
+      "report_score": 325,
+      "risk_posts": 0,
+      "signal_terms": [
+        "bearish",
+        "capacity",
+        "channel check",
+        "pricing",
+        "ramp"
+      ],
+      "stance_counts": {
+        "bearish": 1,
+        "bullish": 3,
+        "neutral": 26
+      },
+      "status": "candidate",
+      "substantive_posts": 10,
+      "ticker": "285A",
+      "total_mentions": 30,
+      "unique_mention_days": 24,
+      "why": [
+        "30 total mentions across 24 days",
+        "4 explicit stance posts",
+        "10 substantive thesis-like posts",
+        "high-signal terms: bearish, capacity, channel check, pricing, ramp",
+        "latest mention 2026-06-19"
+      ]
+    },
+    {
+      "author_signal_ratio": 0.4,
+      "company": "BE Semiconductor Industries",
+      "evidence": [
+        {
+          "date": "2026-04-16",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "TSMC significantly expanding SoIC capacity in 2027 from 10K to 50K wafers/month",
+            "more hybrid bonding tool orders should follow for BESI"
+          ],
+          "score": 84,
+          "stance": "bullish",
+          "text_preview": "DigiTimes published a report on TSMC's packaging this morning, and there's a lot of alpha in it. To summarize: 1. TSMC is significantly expanding SoIC capacity in 2027 (from 10K wafers/month to 50K wafers/month), with N…",
+          "tweet_id": "2044914319243280555",
+          "url": "https://x.com/jukan05/status/2044914319243280555"
+        },
+        {
+          "date": "2026-05-04",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "global leader in hybrid bonding equipment market",
+            "technological edge in precision and throughput",
+            "Samsung hybrid bonding adoption decision coming soon",
+            "all three HBM manufacturers conducting equipment evaluations"
+          ],
+          "score": 64,
+          "stance": "bullish",
+          "text_preview": "Netherlands' BESI: Samsung's Hybrid Bonding Adoption Decision Coming Soon Samsung Electronics is expected to introduce hybrid bonding technology — projected to be at the heart of next-generation semiconductor production…",
+          "tweet_id": "2051205348854542495",
+          "url": "https://x.com/jukan05/status/2051205348854542495"
+        },
+        {
+          "date": "2026-04-18",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 35,
+          "stance": "neutral",
+          "text_preview": "ASMPT Secures Multiple HBM4 TC Bonder Orders Last Year... SK Hynix Likely Among Buyers Singapore-headquartered ASMPT appears to have secured orders for 6th-generation High Bandwidth Memory (HBM4) Thermal Compression (TC…",
+          "tweet_id": "2045643713104544054",
+          "url": "https://x.com/jukan05/status/2045643713104544054"
+        },
+        {
+          "date": "2026-03-31",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "Samsung may end up buying more BESI equipment than expected"
+          ],
+          "score": 33,
+          "stance": "bullish",
+          "text_preview": "\"Samsung Electronics has likewise already introduced Besi equipment for development purposes, and has recently begun quality-testing a hybrid bonder from SEMES as well. However, the SEMES tool is understood to be less m…",
+          "tweet_id": "2038927755988160898",
+          "url": "https://x.com/jukan05/status/2038927755988160898"
         },
         {
           "date": "2026-04-26",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 36,
-          "stance": "neutral",
-          "text_preview": "\"Apple to Become World's #3 Notebook Vendor This Year\"... Driven by MacBook Neo and Unified Memory Architecture Apple is projected to overtake Dell to claim the #3 spot in global notebook shipments this year, driven by…",
-          "tweet_id": "2048324613592273383",
-          "url": "https://x.com/jukan05/status/2048324613592273383"
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "TSMC will increase SoIC orders, benefiting BESI"
+          ],
+          "score": 33,
+          "stance": "bullish",
+          "text_preview": "@LinQingV TSMC 将增加 SoIC 的订单，我很看好 BESI。",
+          "tweet_id": "2048378916033954046",
+          "url": "https://x.com/jukan05/status/2048378916033954046"
         },
         {
-          "date": "2026-04-01",
+          "date": "2026-03-31",
           "mention_type": "background",
           "reasons": [],
-          "score": 31,
+          "score": 22,
           "stance": "neutral",
-          "text_preview": "China's YMTC Closing In on Korea, Stabilizing Cutting-Edge NAND Flash Yields and Ramping Production YMTC (Yangtze Memory Technologies Co.), China's leading NAND flash manufacturer, is expected to begin full-scale shipme…",
-          "tweet_id": "2039513523961876693",
-          "url": "https://x.com/jukan05/status/2039513523961876693"
+          "text_preview": "SK Hynix Places First Order for Applied Materials–Besi Hybrid Bonding Equipment SK Hynix has decided to purchase production-grade hybrid bonding equipment for the development of next-generation High Bandwidth Memory (HB…",
+          "tweet_id": "2038926893785788532",
+          "url": "https://x.com/jukan05/status/2038926893785788532"
         }
       ],
-      "explicit_stance_posts": 0,
-      "first_mention": "2026-03-27",
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 4,
+      "first_mention": "2026-03-31",
       "has_report": false,
       "high_conviction_posts": 0,
-      "industry": null,
-      "last_mention": "2026-06-18",
-      "market": "US",
+      "industry": "Advanced Packaging Equipment",
+      "last_mention": "2026-06-10",
+      "market": "Euronext Amsterdam",
       "priority": "low",
-      "report_score": 792,
+      "reasoned_explicit_posts": 4,
+      "report_score": 315,
       "risk_posts": 0,
       "signal_terms": [
-        "allocation",
         "amd",
         "ban",
-        "bearish",
-        "bottleneck",
         "capacity",
-        "channel check",
-        "confirmed",
-        "dilution",
-        "hyperscaler",
         "long",
-        "margin",
         "nvidia",
-        "offering",
-        "own",
-        "pricing",
-        "ramp",
-        "risk"
+        "sell",
+        "validation"
       ],
       "stance_counts": {
-        "neutral": 45
+        "bullish": 4,
+        "neutral": 6
       },
       "status": "candidate",
-      "substantive_posts": 7,
-      "ticker": "AAPL",
-      "total_mentions": 45,
-      "unique_mention_days": 35,
+      "substantive_posts": 5,
+      "ticker": "BESI",
+      "total_mentions": 10,
+      "unique_mention_days": 8,
       "why": [
-        "45 total mentions across 35 days",
-        "7 substantive thesis-like posts",
-        "high-signal terms: allocation, amd, ban, bearish, bottleneck, capacity",
-        "AI-relevant gate: 6 substantive posts across 6 days",
-        "latest mention 2026-06-18"
+        "10 total mentions across 8 days",
+        "4 explicit stance posts",
+        "5 substantive thesis-like posts",
+        "high-signal terms: amd, ban, capacity, long, nvidia, sell",
+        "latest mention 2026-06-10"
       ]
     },
     {
       "ai_relevance": {
         "ai_explicit_posts": 0,
-        "ai_mention_days": 5,
-        "ai_substantive_posts": 5
+        "ai_mention_days": 1,
+        "ai_substantive_posts": 1
       },
+      "author_signal_ratio": 0.3333,
       "broad_platform": true,
-      "company": "Alphabet",
+      "company": "Microsoft",
       "evidence": [
         {
           "date": "2026-04-16",
@@ -2242,574 +1841,127 @@
           "url": "https://x.com/jukan05/status/2044684410289852753"
         },
         {
-          "date": "2026-06-16",
+          "date": "2026-06-22",
           "mention_type": "background",
           "reasons": [],
-          "score": 47,
+          "score": 70,
           "stance": "neutral",
-          "text_preview": "Samsung sees rising chip production requests from BYD, Google, AMD- Nikkei Asia BYD, Google, AMD, Tesla and others are looking increasingly to Samsung Electronics for contract chipmaking services as surging demand for A…",
-          "tweet_id": "2067092746364748272",
-          "url": "https://x.com/jukan05/status/2067092746364748272"
+          "text_preview": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM SK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater we…",
+          "tweet_id": "2069207209133887767",
+          "url": "https://x.com/jukan05/status/2069207209133887767"
         },
         {
-          "date": "2026-06-09",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 44,
-          "stance": "neutral",
-          "text_preview": "Samsung Electronics: The Last Piece in Normalizing Its Semiconductor Business Is ‘Packaging’ Samsung Electronics’ semiconductor business has moved into a full rebound led by high bandwidth memory (HBM) and foundry. In a…",
-          "tweet_id": "2064254581333209275",
-          "url": "https://x.com/jukan05/status/2064254581333209275"
+          "date": "2026-04-23",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "first time author has agreed with Burry's long position in Microsoft"
+          ],
+          "score": 58,
+          "stance": "bullish",
+          "text_preview": "* Michael Burry initiated a new long position in Microsoft. This might be the first time I’ve ever agreed with Burry.",
+          "tweet_id": "2047440842856743388",
+          "url": "https://x.com/jukan05/status/2047440842856743388"
         },
         {
-          "date": "2026-04-04",
+          "date": "2026-04-23",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "stronger position than Google when it comes to coding via GitHub Copilot"
+          ],
+          "score": 51,
+          "stance": "bullish",
+          "text_preview": "Why does it feel like people talk so little about GitHub Copilot? I think $MSFT is in a stronger position than Google when it comes to coding.",
+          "tweet_id": "2047338240613769426",
+          "url": "https://x.com/jukan05/status/2047338240613769426"
+        },
+        {
+          "date": "2026-04-13",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "feels like buying GOOGL when everyone thought it was sinking — implying current negativity is overdone"
+          ],
+          "score": 49,
+          "stance": "bullish",
+          "text_preview": "I respect the people who bought $GOOGL when Bard came out and everyone thought Google was sinking. It feels just like buying $MSFT right now, doesn’t it?",
+          "tweet_id": "2043661562096111751",
+          "url": "https://x.com/jukan05/status/2043661562096111751"
+        },
+        {
+          "date": "2026-03-29",
           "mention_type": "background",
           "reasons": [],
           "score": 41,
           "stance": "neutral",
-          "text_preview": "The Critical Weakness of AI Computing Power… Broadcom Identifies \"3 Major Bottlenecks,\" Supply Shortages Could Persist Until 2027 • Broadcom has identified the key bottlenecks in the current AI supply chain as: ▲lasers,…",
-          "tweet_id": "2040568323738640582",
-          "url": "https://x.com/jukan05/status/2040568323738640582"
-        },
-        {
-          "date": "2026-05-28",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 28,
-          "stance": "neutral",
-          "text_preview": "Intel’s EMIB Packaging Is Growing Rapidly — Silicon Capacitors Are Taking Off Too Silicon capacitors are poised for explosive growth in the AI semiconductor space. Intel has been found to be planning a large-scale adopt…",
-          "tweet_id": "2059880144538579433",
-          "url": "https://x.com/jukan05/status/2059880144538579433"
-        },
-        {
-          "date": "2026-03-31",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 27,
-          "stance": "neutral",
-          "text_preview": "GF Securities Overseas Electronics & Communications: Memory Industry — It’s Too Early to Be Pessimistic Spot prices need not be a major concern: We believe the recent spot price pullback is primarily due to elevated pre…",
-          "tweet_id": "2038872846911648097",
-          "url": "https://x.com/jukan05/status/2038872846911648097"
+          "text_preview": "Dan wrote a good piece, but I see things differently on a few important points. 1. Buyer resistance to smartphone memory price hikes is largely confined to legacy memory like DDR4 — not memory broadly. This distinction…",
+          "tweet_id": "2038207631152787578",
+          "url": "https://x.com/jukan05/status/2038207631152787578"
         }
       ],
-      "explicit_stance_posts": 0,
-      "first_mention": "2026-03-31",
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 4,
+      "first_mention": "2026-03-29",
       "has_report": false,
       "high_conviction_posts": 0,
       "industry": "Hyperscaler",
       "last_mention": "2026-06-22",
       "market": "US",
       "priority": "low",
-      "report_score": 708,
+      "reasoned_explicit_posts": 3,
+      "report_score": 272,
       "risk_posts": 0,
       "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "ban",
-        "bearish",
-        "bottleneck",
-        "capacity",
-        "confirmed",
-        "hyperscaler",
         "long",
-        "margin",
         "microsoft",
-        "msft",
-        "nvidia",
-        "offering",
-        "own",
-        "pricing",
-        "ramp"
+        "msft"
       ],
       "stance_counts": {
-        "neutral": 27
+        "bearish": 1,
+        "bullish": 3,
+        "neutral": 8
       },
       "status": "candidate",
-      "substantive_posts": 5,
-      "ticker": "GOOGL",
-      "total_mentions": 27,
-      "unique_mention_days": 22,
+      "substantive_posts": 7,
+      "ticker": "MSFT",
+      "total_mentions": 12,
+      "unique_mention_days": 10,
       "why": [
-        "27 total mentions across 22 days",
-        "5 substantive thesis-like posts",
-        "high-signal terms: allocation, amazon, amd, ban, bearish, bottleneck",
-        "AI-relevant gate: 5 substantive posts across 5 days",
+        "12 total mentions across 10 days",
+        "4 explicit stance posts",
+        "7 substantive thesis-like posts",
+        "high-signal terms: long, microsoft, msft",
+        "AI-relevant gate: 1 substantive posts across 1 days",
         "latest mention 2026-06-22"
       ]
     },
     {
-      "ai_relevance": {
-        "ai_explicit_posts": 0,
-        "ai_mention_days": 5,
-        "ai_substantive_posts": 5
-      },
-      "broad_platform": true,
-      "company": "Tesla",
+      "author_signal_ratio": 0.1154,
+      "company": "MediaTek",
       "evidence": [
         {
-          "date": "2026-06-07",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 53,
-          "stance": "neutral",
-          "text_preview": "[Exclusive] Samsung Foundry Expected to Return to Profit in Q3 This Year… \"Entering Growth Trajectory After Four Years\" Observations are emerging internally that Samsung Electronics' foundry division could succeed in tu…",
-          "tweet_id": "2063753367462256665",
-          "url": "https://x.com/jukan05/status/2063753367462256665"
-        },
-        {
-          "date": "2026-04-26",
+          "date": "2026-04-28",
           "mention_type": "explicit_stance",
           "reasons": [
-            "skeptical about the valuation"
+            "Google may shift to COT model starting with TPU v9, downgrading MediaTek to IP support/design service role",
+            "per-chip margin would fall"
           ],
-          "score": 47,
+          "score": 75,
           "stance": "bearish",
-          "text_preview": "@NewOpenMindset I’m skeptical about the valuation. I know they make really good products, though.",
-          "tweet_id": "2048278104909787640",
-          "url": "https://x.com/jukan05/status/2048278104909787640"
+          "text_preview": "Rumor: Google to shift to a COT model starting with TPU v9, downgrading the role of MediaTek/Broadcom. This would be a major negative for Broadcom and MTK. According to this rumor, starting with TPU v9, Google plans to…",
+          "tweet_id": "2048992506851868780",
+          "url": "https://x.com/jukan05/status/2048992506851868780"
         },
         {
-          "date": "2026-06-16",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 47,
-          "stance": "neutral",
-          "text_preview": "Samsung sees rising chip production requests from BYD, Google, AMD- Nikkei Asia BYD, Google, AMD, Tesla and others are looking increasingly to Samsung Electronics for contract chipmaking services as surging demand for A…",
-          "tweet_id": "2067092746364748272",
-          "url": "https://x.com/jukan05/status/2067092746364748272"
-        },
-        {
-          "date": "2026-06-09",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 44,
-          "stance": "neutral",
-          "text_preview": "Samsung Electronics: The Last Piece in Normalizing Its Semiconductor Business Is ‘Packaging’ Samsung Electronics’ semiconductor business has moved into a full rebound led by high bandwidth memory (HBM) and foundry. In a…",
-          "tweet_id": "2064254581333209275",
-          "url": "https://x.com/jukan05/status/2064254581333209275"
-        },
-        {
-          "date": "2026-06-01",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 30,
-          "stance": "neutral",
-          "text_preview": "Samsung Foundry Breaks Into China’s Largest Automaker BYD With Automotive Chips Samsung Electronics’ foundry division has been found to be in talks with China’s top electric vehicle maker BYD and other local automakers…",
-          "tweet_id": "2061611485932200180",
-          "url": "https://x.com/jukan05/status/2061611485932200180"
-        },
-        {
-          "date": "2026-06-21",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 29,
-          "stance": "neutral",
-          "text_preview": "Samsung Electronics Breaks Ground in Earnest on Its Last Pyeongtaek Semiconductor Fab Samsung Electronics has begun preparations to break ground on \"P5 Fab 2,\" the final fab at its Pyeongtaek campus in Gyeonggi Province…",
-          "tweet_id": "2068833982037565498",
-          "url": "https://x.com/jukan05/status/2068833982037565498"
-        }
-      ],
-      "explicit_stance_posts": 1,
-      "first_mention": "2026-04-05",
-      "has_report": false,
-      "high_conviction_posts": 0,
-      "industry": null,
-      "last_mention": "2026-06-21",
-      "market": "US",
-      "priority": "low",
-      "report_score": 608,
-      "risk_posts": 1,
-      "signal_terms": [
-        "allocation",
-        "amd",
-        "ban",
-        "capacity",
-        "confirmed",
-        "dilution",
-        "export control",
-        "long",
-        "microsoft",
-        "nvidia",
-        "offering",
-        "own",
-        "ramp",
-        "risk",
-        "sanction",
-        "sold"
-      ],
-      "stance_counts": {
-        "bearish": 1,
-        "neutral": 12
-      },
-      "status": "candidate",
-      "substantive_posts": 6,
-      "ticker": "TSLA",
-      "total_mentions": 13,
-      "unique_mention_days": 12,
-      "why": [
-        "13 total mentions across 12 days",
-        "1 explicit stance posts",
-        "6 substantive thesis-like posts",
-        "1 risk/caution posts",
-        "high-signal terms: allocation, amd, ban, capacity, confirmed, dilution",
-        "AI-relevant gate: 5 substantive posts across 5 days",
-        "latest mention 2026-06-21"
-      ]
-    },
-    {
-      "company": "Arm Holdings",
-      "evidence": [
-        {
-          "date": "2026-04-16",
+          "date": "2026-06-22",
           "mention_type": "explicit_stance",
           "reasons": [
-            "ARM server CPU living through best era in history",
-            "ARM accounts for roughly 50% of new traditional server CPUs hyperscalers deploy",
-            "CPU supply-demand gap could widen to 30%+",
-            "ARM CPU server potential consensus now firmly in place"
+            "exclusively securing new higher-priced TPU v9 order from Google",
+            "confirmed as Google's preferred development partner for TPU v9 generation"
           ],
-          "score": 158,
+          "score": 54,
           "stance": "bullish",
-          "text_preview": "Today's biggest semiconductor industry news is that Gerard has founded a new ARM CPU company, Nuvacore, five years after Nuvia was acquired by Qualcomm. Even the name closely echoes the predecessor. Starting a datacente…",
-          "tweet_id": "2044684410289852753",
-          "url": "https://x.com/jukan05/status/2044684410289852753"
-        },
-        {
-          "date": "2026-03-25",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "not a pure CPU trade",
-            "smartphone royalties — largest revenue source — likely to take a meaningful hit due to memory apocalypse"
-          ],
-          "score": 98,
-          "stance": "bearish",
-          "text_preview": "Yesterday’s CPU bottleneck trade — among AMD, ARM, and Intel, which was actually the best trade? Let me share my view. Obviously, CPU price increases are positive. They should help earnings materially. That said, what w…",
-          "tweet_id": "2036963841582784947",
-          "url": "https://x.com/jukan05/status/2036963841582784947"
-        },
-        {
-          "date": "2026-04-14",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "would need at least twice as many CPUs"
-          ],
-          "score": 52,
-          "stance": "bullish",
-          "text_preview": "You would need at least twice as many CPUs. $AMD $INTC $ARM https://t.co/5phuKGbXGM https://t.co/q9O1IrakCl",
-          "tweet_id": "2044045150410919940",
-          "url": "https://x.com/jukan05/status/2044045150410919940"
-        },
-        {
-          "date": "2026-04-01",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 24,
-          "stance": "neutral",
-          "text_preview": "A very spicy piece of information here. A must-read for everyone (especially if you're interested in the CPU shortage). - Intel has carried out two rounds of CPU price hikes since the start of 2026. The first round in F…",
-          "tweet_id": "2039315025752703328",
-          "url": "https://x.com/jukan05/status/2039315025752703328"
-        },
-        {
-          "date": "2026-04-04",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 13,
-          "stance": "neutral",
-          "text_preview": "Samsung Electronics Fires First Shot in Departure from Arm… Develops Proprietary SSD Controller Based on Open-Source RISC-V Samsung Electronics is introducing a proprietary controller chip—developed in-house on an open-…",
-          "tweet_id": "2040438876213252542",
-          "url": "https://x.com/jukan05/status/2040438876213252542"
-        },
-        {
-          "date": "2026-04-24",
-          "mention_type": "background",
-          "reasons": [],
-          "score": -4,
-          "stance": "neutral",
-          "text_preview": "@stevehou What happened to ARM AGI CPU??",
-          "tweet_id": "2047665764803674207",
-          "url": "https://x.com/jukan05/status/2047665764803674207"
-        }
-      ],
-      "explicit_stance_posts": 3,
-      "first_mention": "2026-03-25",
-      "has_report": false,
-      "high_conviction_posts": 0,
-      "industry": "CPU/IP Licensing",
-      "last_mention": "2026-04-24",
-      "market": "US",
-      "priority": "low",
-      "report_score": 519,
-      "risk_posts": 1,
-      "signal_terms": [
-        "amazon",
-        "amd",
-        "ban",
-        "bottleneck",
-        "capacity",
-        "holding",
-        "hyperscaler",
-        "long",
-        "microsoft",
-        "nvidia",
-        "offering",
-        "own",
-        "risk",
-        "sell",
-        "sold",
-        "thesis",
-        "validation"
-      ],
-      "stance_counts": {
-        "bearish": 1,
-        "bullish": 2,
-        "neutral": 3
-      },
-      "status": "candidate",
-      "substantive_posts": 3,
-      "ticker": "ARM",
-      "total_mentions": 6,
-      "unique_mention_days": 6,
-      "why": [
-        "6 total mentions across 6 days",
-        "3 explicit stance posts",
-        "3 substantive thesis-like posts",
-        "1 risk/caution posts",
-        "high-signal terms: amazon, amd, ban, bottleneck, capacity, holding",
-        "latest mention 2026-04-24"
-      ]
-    },
-    {
-      "company": "Marvell",
-      "evidence": [
-        {
-          "date": "2026-04-19",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "Google designing two ASICs with Marvell — one memory processing unit alongside TPUs, one new TPU for running AI models"
-          ],
-          "score": 55,
-          "stance": "bullish",
-          "text_preview": "THE INFORMATION: GOOGLE IS DESIGNING TWO ASICS WITH MARVELL THE INFORMATION: ONE IS A MEMORY PROCESSING UNIT DESIGNED TO WORK ALONGSIDE GOOGLE’S TENSOR PROCESSING UNITS (TPUS), AND THE OTHER IS A NEW TPU OPTIMIZED FOR R…",
-          "tweet_id": "2045853008081420654",
-          "url": "https://x.com/jukan05/status/2045853008081420654"
-        },
-        {
-          "date": "2026-06-16",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 47,
-          "stance": "neutral",
-          "text_preview": "Samsung sees rising chip production requests from BYD, Google, AMD- Nikkei Asia BYD, Google, AMD, Tesla and others are looking increasingly to Samsung Electronics for contract chipmaking services as surging demand for A…",
-          "tweet_id": "2067092746364748272",
-          "url": "https://x.com/jukan05/status/2067092746364748272"
-        },
-        {
-          "date": "2026-06-02",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 37,
-          "stance": "neutral",
-          "text_preview": "▶ Marvell CEO says copper wall is moving inside the rack, and copackaged optics is the only way through • Marvell CEO Matt Murphy emphasized at Computex 2026 that the next bottleneck in AI infrastructure is not compute…",
-          "tweet_id": "2061728423656210652",
-          "url": "https://x.com/jukan05/status/2061728423656210652"
-        },
-        {
-          "date": "2026-04-09",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 35,
-          "stance": "neutral",
-          "text_preview": "When will CPO actually see mass production?-Digitimes The market continues to closely watch the deployment of co-packaged optics (CPO) technology in cloud AI, driven by the desire of the silicon photonics (SiPh) ecosyst…",
-          "tweet_id": "2042152380934893600",
-          "url": "https://x.com/jukan05/status/2042152380934893600"
-        },
-        {
-          "date": "2026-06-01",
-          "mention_type": "quote_or_other",
-          "reasons": [],
-          "score": 18,
-          "stance": "neutral",
-          "text_preview": "Jensen just said to Matt \"the next trillion dollar company - Marvell\" ? $MRVL",
-          "tweet_id": "2061654411559211502",
-          "url": "https://x.com/jukan05/status/2061654411559211502"
-        },
-        {
-          "date": "2026-06-03",
-          "mention_type": "quote_or_other",
-          "reasons": [],
-          "score": 16,
-          "stance": "neutral",
-          "text_preview": "Funda AI: \"Marvell will design a networking chip for Google. This chip will be manufactured on Intel's 18A (or 18AP), with mass production scheduled to begin by the end of 2027, and it will be paired with the MediaTek-d…",
-          "tweet_id": "2062123266668679514",
-          "url": "https://x.com/jukan05/status/2062123266668679514"
-        }
-      ],
-      "explicit_stance_posts": 1,
-      "first_mention": "2026-03-31",
-      "has_report": false,
-      "high_conviction_posts": 0,
-      "industry": "AI Semis/CPO",
-      "last_mention": "2026-06-16",
-      "market": "US",
-      "priority": "low",
-      "report_score": 509,
-      "risk_posts": 0,
-      "signal_terms": [
-        "allocation",
-        "amd",
-        "ban",
-        "bearish",
-        "bottleneck",
-        "capacity",
-        "long",
-        "nvidia",
-        "offering",
-        "own",
-        "validation"
-      ],
-      "stance_counts": {
-        "bullish": 1,
-        "neutral": 16
-      },
-      "status": "candidate",
-      "substantive_posts": 4,
-      "ticker": "MRVL",
-      "total_mentions": 17,
-      "unique_mention_days": 14,
-      "why": [
-        "17 total mentions across 14 days",
-        "1 explicit stance posts",
-        "4 substantive thesis-like posts",
-        "high-signal terms: allocation, amd, ban, bearish, bottleneck, capacity",
-        "latest mention 2026-06-16"
-      ]
-    },
-    {
-      "company": "Murata Manufacturing",
-      "evidence": [
-        {
-          "date": "2026-05-20",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "recently added to Murata position"
-          ],
-          "score": 47,
-          "stance": "bullish",
-          "text_preview": "It feels like everyone is gradually starting to realize this. P.S. I recently added to my Murata position. https://t.co/trMvuFiEeh",
-          "tweet_id": "2056988526550687855",
-          "url": "https://x.com/jukan05/status/2056988526550687855"
-        },
-        {
-          "date": "2026-06-17",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 41,
-          "stance": "neutral",
-          "text_preview": "▶ CSP In House ASIC Boom Drives MLCC Specification Concentration; Structural Shortages of High End Specialty MLCCs May Emerge in 2H26, Says TrendForce - According to TrendForce's latest MLCC industry survey, as the AI c…",
-          "tweet_id": "2067371368770109774",
-          "url": "https://x.com/jukan05/status/2067371368770109774"
-        },
-        {
-          "date": "2026-05-20",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 30,
-          "stance": "neutral",
-          "text_preview": "According to Korean sell-side sources, Samsung Electro-Mechanics is understood to have notified distributors of an MLCC price increase. The magnitude of the price hike is estimated to be similar to Taiyo Yuden’s announc…",
-          "tweet_id": "2057082193151967710",
-          "url": "https://x.com/jukan05/status/2057082193151967710"
-        },
-        {
-          "date": "2026-05-31",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 24,
-          "stance": "neutral",
-          "text_preview": "*Important: These Japanese companies' recent moves are fascinating. According to Nikkei Asia, Murata is deliberately working to raise the share of its low priced products, even at the cost of thinner margins, in order n…",
-          "tweet_id": "2060963413430554713",
-          "url": "https://x.com/jukan05/status/2060963413430554713"
-        },
-        {
-          "date": "2026-03-31",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 21,
-          "stance": "neutral",
-          "text_preview": "▶ Vera Rubin Compute Tray Design Unfinalized as Nvidia Pushes Supply Diversification - Nvidia's next-gen platform Vera Rubin is slated for mass production in Q3 2026, though the GPU compute tray design remains unfinaliz…",
-          "tweet_id": "2039116249700143544",
-          "url": "https://x.com/jukan05/status/2039116249700143544"
-        },
-        {
-          "date": "2026-05-28",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 19,
-          "stance": "neutral",
-          "text_preview": "▶ Yageo signals possible price hikes as Japanese and Korean passive component makers raise prices • Taiwanese passive component maker Yageo officially noted that Murata and Samsung Electro-Mechanics — the world’s #1 and…",
-          "tweet_id": "2059878694756421659",
-          "url": "https://x.com/jukan05/status/2059878694756421659"
-        }
-      ],
-      "explicit_stance_posts": 1,
-      "first_mention": "2026-03-31",
-      "has_report": false,
-      "high_conviction_posts": 0,
-      "industry": "Passive Components/MLCC",
-      "last_mention": "2026-06-17",
-      "market": "Tokyo",
-      "priority": "low",
-      "report_score": 382,
-      "risk_posts": 0,
-      "signal_terms": [
-        "allocation",
-        "amd",
-        "bottleneck",
-        "capacity",
-        "long",
-        "margin",
-        "nvidia",
-        "own",
-        "owns",
-        "ramp",
-        "risk",
-        "sell"
-      ],
-      "stance_counts": {
-        "bullish": 1,
-        "neutral": 9
-      },
-      "status": "candidate",
-      "substantive_posts": 3,
-      "ticker": "6981",
-      "total_mentions": 10,
-      "unique_mention_days": 7,
-      "why": [
-        "10 total mentions across 7 days",
-        "1 explicit stance posts",
-        "3 substantive thesis-like posts",
-        "high-signal terms: allocation, amd, bottleneck, capacity, long, margin",
-        "latest mention 2026-06-17"
-      ]
-    },
-    {
-      "ai_relevance": {
-        "ai_explicit_posts": 0,
-        "ai_mention_days": 3,
-        "ai_substantive_posts": 3
-      },
-      "broad_platform": true,
-      "company": "Meta",
-      "evidence": [
-        {
-          "date": "2026-04-16",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 112,
-          "stance": "neutral",
-          "text_preview": "Today's biggest semiconductor industry news is that Gerard has founded a new ARM CPU company, Nuvacore, five years after Nuvia was acquired by Qualcomm. Even the name closely echoes the predecessor. Starting a datacente…",
-          "tweet_id": "2044684410289852753",
-          "url": "https://x.com/jukan05/status/2044684410289852753"
+          "text_preview": "\"My latest industry checks indicate that Google is developing an upgraded v9 chip, likely codenamed Triggerfish, based on TPU v9 / Humufish, with MediaTek exclusively securing this new, higher-priced order. (...) The pr…",
+          "tweet_id": "2068926089800593705",
+          "url": "https://x.com/jukan05/status/2068926089800593705"
         },
         {
           "date": "2026-04-27",
@@ -2822,203 +1974,76 @@
           "url": "https://x.com/jukan05/status/2048683483929919806"
         },
         {
-          "date": "2026-04-04",
+          "date": "2026-06-16",
           "mention_type": "background",
           "reasons": [],
-          "score": 41,
+          "score": 47,
           "stance": "neutral",
-          "text_preview": "The Critical Weakness of AI Computing Power… Broadcom Identifies \"3 Major Bottlenecks,\" Supply Shortages Could Persist Until 2027 • Broadcom has identified the key bottlenecks in the current AI supply chain as: ▲lasers,…",
-          "tweet_id": "2040568323738640582",
-          "url": "https://x.com/jukan05/status/2040568323738640582"
+          "text_preview": "Samsung sees rising chip production requests from BYD, Google, AMD- Nikkei Asia BYD, Google, AMD, Tesla and others are looking increasingly to Samsung Electronics for contract chipmaking services as surging demand for A…",
+          "tweet_id": "2067092746364748272",
+          "url": "https://x.com/jukan05/status/2067092746364748272"
         },
         {
-          "date": "2026-04-16",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 27,
-          "stance": "neutral",
-          "text_preview": "[Exclusive] Samsung's U.S. Taylor Fab Nears Launch... \"Tesla Chips to Be Produced from H2\" Samsung Electronics has completed preparations to bring its Taylor, Texas foundry fab — the centerpiece of its North American ma…",
-          "tweet_id": "2044690158419841535",
-          "url": "https://x.com/jukan05/status/2044690158419841535"
+          "date": "2026-04-02",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "entry-level smartphones are finished, will take a big hit"
+          ],
+          "score": 39,
+          "stance": "bearish",
+          "text_preview": "Entry-level smartphones are literally finished. MediaTek, Chinese smartphone brands, and KYEC will all take a big hit. https://t.co/ANLH0Vsz8O",
+          "tweet_id": "2039673040712384778",
+          "url": "https://x.com/jukan05/status/2039673040712384778"
         },
         {
-          "date": "2026-06-01",
+          "date": "2026-04-09",
           "mention_type": "background",
           "reasons": [],
-          "score": 10,
+          "score": 35,
           "stance": "neutral",
-          "text_preview": "Samsung has overtaken Meta to enter the global top 10 by market capitalization.🇰🇷 https://t.co/0s8kaOg0T4",
-          "tweet_id": "2061616209502818559",
-          "url": "https://x.com/jukan05/status/2061616209502818559"
-        },
-        {
-          "date": "2026-06-04",
-          "mention_type": "background",
-          "reasons": [],
-          "score": -1,
-          "stance": "neutral",
-          "text_preview": "Korean media reported that Samsung’s custom SoC development discussions with Meta, which had reportedly been ongoing for several years and involved a potential deal worth tens of billions of dollars, have been temporari…",
-          "tweet_id": "2062434371240685738",
-          "url": "https://x.com/jukan05/status/2062434371240685738"
+          "text_preview": "When will CPO actually see mass production?-Digitimes The market continues to closely watch the deployment of co-packaged optics (CPO) technology in cloud AI, driven by the desire of the silicon photonics (SiPh) ecosyst…",
+          "tweet_id": "2042152380934893600",
+          "url": "https://x.com/jukan05/status/2042152380934893600"
         }
       ],
-      "explicit_stance_posts": 0,
-      "first_mention": "2026-04-04",
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 3,
+      "first_mention": "2026-04-01",
       "has_report": false,
       "high_conviction_posts": 0,
-      "industry": "Hyperscaler",
-      "last_mention": "2026-06-04",
-      "market": "US",
+      "industry": "AI ASIC/Mobile Semiconductors",
+      "last_mention": "2026-06-22",
+      "market": "Taiwan",
       "priority": "low",
-      "report_score": 370,
-      "risk_posts": 0,
+      "reasoned_explicit_posts": 3,
+      "report_score": 249,
+      "risk_posts": 1,
       "signal_terms": [
-        "allocation",
-        "amazon",
-        "amd",
-        "ban",
-        "bottleneck",
-        "capacity",
-        "hyperscaler",
-        "long",
-        "microsoft",
-        "nvidia",
-        "offering",
-        "own",
-        "pricing",
-        "ramp",
-        "risk",
-        "sell",
-        "sold",
-        "thesis"
+        "confirmed",
+        "margin",
+        "own"
       ],
       "stance_counts": {
-        "neutral": 6
+        "bearish": 2,
+        "bullish": 1,
+        "neutral": 23
       },
       "status": "candidate",
-      "substantive_posts": 3,
-      "ticker": "META",
-      "total_mentions": 6,
-      "unique_mention_days": 5,
+      "substantive_posts": 8,
+      "ticker": "2454",
+      "total_mentions": 26,
+      "unique_mention_days": 19,
       "why": [
-        "6 total mentions across 5 days",
-        "3 substantive thesis-like posts",
-        "high-signal terms: allocation, amazon, amd, ban, bottleneck, capacity",
-        "AI-relevant gate: 3 substantive posts across 3 days",
-        "latest mention 2026-06-04"
+        "26 total mentions across 19 days",
+        "3 explicit stance posts",
+        "8 substantive thesis-like posts",
+        "1 risk/caution posts",
+        "high-signal terms: confirmed, margin, own",
+        "latest mention 2026-06-22"
       ]
     },
     {
-      "company": "Ibiden",
-      "evidence": [
-        {
-          "date": "2026-05-18",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "substrate supply chain is very tight",
-            "customers prepaying for substrates showing commitment",
-            "author expresses excitement (LFG)"
-          ],
-          "score": 57,
-          "stance": "bullish",
-          "text_preview": "“A couple of customers have prepaid for substrates, because the substrate supply chain is very tight – so I need to put up the money to secure this material…(and it shows) the commitment to me – so that’s very exciting.…",
-          "tweet_id": "2056576060045807819",
-          "url": "https://x.com/jukan05/status/2056576060045807819"
-        },
-        {
-          "date": "2026-04-23",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "stock is soaring under the grace of Lip-Bu Tan"
-          ],
-          "score": 35,
-          "stance": "bullish",
-          "text_preview": "Ibiden’s stock is soaring under the grace of Lip-Bu Tan, lol. https://t.co/LjvVCqyjrP https://t.co/66ne8vJD5N",
-          "tweet_id": "2047480248766530038",
-          "url": "https://x.com/jukan05/status/2047480248766530038"
-        },
-        {
-          "date": "2026-05-24",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 28,
-          "stance": "neutral",
-          "text_preview": "▶ Embedded substrates draw AI chip interest as packaging turns strategic - The growing interest in embedded substrates from major players like Nvidia, AMD, and Intel signals a potential shift in the AI datacenter supply…",
-          "tweet_id": "2058733798704243047",
-          "url": "https://x.com/jukan05/status/2058733798704243047"
-        },
-        {
-          "date": "2026-05-28",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 28,
-          "stance": "neutral",
-          "text_preview": "Intel’s EMIB Packaging Is Growing Rapidly — Silicon Capacitors Are Taking Off Too Silicon capacitors are poised for explosive growth in the AI semiconductor space. Intel has been found to be planning a large-scale adopt…",
-          "tweet_id": "2059880144538579433",
-          "url": "https://x.com/jukan05/status/2059880144538579433"
-        },
-        {
-          "date": "2026-05-28",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 15,
-          "stance": "neutral",
-          "text_preview": "Why Are Silicon Capacitors Becoming Important? And Why Is SEMCO's Stock Surging? The reason silicon capacitors have failed to grow into a large market until now is clear. TSMC, which holds an overwhelming share in subst…",
-          "tweet_id": "2059967125020934181",
-          "url": "https://x.com/jukan05/status/2059967125020934181"
-        },
-        {
-          "date": "2026-06-01",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 12,
-          "stance": "neutral",
-          "text_preview": "LG Innotek Eyes Intel “EMIB” Substrate Supply Chain… Supplies Samples to SK Hynix LG Innotek is pushing to enter the semiconductor substrate market for EMIB (Embedded Multi-die Interconnect Bridge), Intel’s most advance…",
-          "tweet_id": "2061640613616140649",
-          "url": "https://x.com/jukan05/status/2061640613616140649"
-        }
-      ],
-      "explicit_stance_posts": 2,
-      "first_mention": "2026-04-23",
-      "has_report": false,
-      "high_conviction_posts": 1,
-      "industry": "IC Package Substrates",
-      "last_mention": "2026-06-15",
-      "market": "Tokyo",
-      "priority": "low",
-      "report_score": 333,
-      "risk_posts": 0,
-      "signal_terms": [
-        "amazon",
-        "amd",
-        "ban",
-        "capacity",
-        "holding",
-        "long",
-        "nvidia",
-        "own",
-        "ramp",
-        "validation"
-      ],
-      "stance_counts": {
-        "bullish": 2,
-        "neutral": 5
-      },
-      "status": "candidate",
-      "substantive_posts": 4,
-      "ticker": "4062",
-      "total_mentions": 7,
-      "unique_mention_days": 6,
-      "why": [
-        "7 total mentions across 6 days",
-        "2 explicit stance posts",
-        "4 substantive thesis-like posts",
-        "1 high-conviction mentions",
-        "high-signal terms: amazon, amd, ban, capacity, holding, long",
-        "latest mention 2026-06-15"
-      ]
-    },
-    {
+      "author_signal_ratio": 0.6,
       "company": "Nanya Technology",
       "evidence": [
         {
@@ -3082,6 +2107,7 @@
           "url": "https://x.com/jukan05/status/2048538528708182253"
         }
       ],
+      "explicit_stance_days": 3,
       "explicit_stance_posts": 3,
       "first_mention": "2026-04-13",
       "has_report": false,
@@ -3090,14 +2116,12 @@
       "last_mention": "2026-06-19",
       "market": "Taiwan",
       "priority": "low",
-      "report_score": 293,
+      "reasoned_explicit_posts": 3,
+      "report_score": 215,
       "risk_posts": 1,
       "signal_terms": [
         "capacity",
-        "nvidia",
-        "own",
-        "pricing",
-        "sell"
+        "nvidia"
       ],
       "stance_counts": {
         "bearish": 2,
@@ -3114,214 +2138,129 @@
         "3 explicit stance posts",
         "3 substantive thesis-like posts",
         "1 risk/caution posts",
-        "high-signal terms: capacity, nvidia, own, pricing, sell",
+        "high-signal terms: capacity, nvidia",
         "latest mention 2026-06-19"
       ]
     },
     {
-      "company": "United Microelectronics",
+      "author_signal_ratio": 0.25,
+      "company": "Nittobo",
       "evidence": [
         {
-          "date": "2026-04-19",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 55,
-          "stance": "neutral",
-          "text_preview": "UMC Reportedly Approached for 2D NAND Foundry Work, But Faces Three Major Hurdles: People, Technology, and Equipment With international memory manufacturers' exit from 2D NAND flash memory now all but confirmed, supply…",
-          "tweet_id": "2046027289931173964",
-          "url": "https://x.com/jukan05/status/2046027289931173964"
-        },
-        {
-          "date": "2026-05-27",
+          "date": "2026-05-23",
           "mention_type": "explicit_stance",
           "reasons": [
-            "facing significant challenges as expansion of Singapore fab has sharply increased cost burden",
-            "plans selective price hikes starting in 2H",
-            "broader price renegotiations expected in 2027"
+            "stock moving sideways",
+            "no intention of raising prices",
+            "too conservative",
+            "cares too much about customers rather than pricing power"
           ],
-          "score": 41,
+          "score": 61,
           "stance": "bearish",
-          "text_preview": "Taiwan’s UMC: Selective price hikes planned for 2H; comprehensive price renegotiations expected in 2027 - Semiconductor foundry UMC held its shareholders’ meeting today. CFO Liu Chi-tung said the company is facing signi…",
-          "tweet_id": "2059540606142337101",
-          "url": "https://x.com/jukan05/status/2059540606142337101"
+          "text_preview": "Do you see why Nittobo’s stock has been moving sideways now? They have no intention of raising prices. Unlike memory companies, which are aggressively raising prices right now, Japanese companies like this place an extr…",
+          "tweet_id": "2058119691067969983",
+          "url": "https://x.com/jukan05/status/2058119691067969983"
         },
         {
-          "date": "2026-04-17",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "already made the UMC call back in January this year"
-          ],
-          "score": 35,
-          "stance": "bullish",
-          "text_preview": "Yes… and we already made the UMC call back in January this year. https://t.co/i69sjNm7TN https://t.co/26g9e6x4Fm",
-          "tweet_id": "2045015577656520778",
-          "url": "https://x.com/jukan05/status/2045015577656520778"
-        },
-        {
-          "date": "2026-04-18",
+          "date": "2026-03-30",
           "mention_type": "background",
           "reasons": [],
-          "score": 16,
+          "score": 47,
           "stance": "neutral",
-          "text_preview": "Taiwan UMC, Vanguard Raise Chip Prices — Impact of \"De-China\" Supply Chain Restructuring As the decoupling between China and non-China semiconductor supply chains peaks, Taiwan's tier-2 foundries UMC and Vanguard (VIS)…",
-          "tweet_id": "2045424807614038306",
-          "url": "https://x.com/jukan05/status/2045424807614038306"
+          "text_preview": "Samsung Electro-Mechanics Raises FC-BGA Prices… 185% Operating Profit Growth Forecast for This Year Samsung Electro-Mechanics has recently raised prices on its flip-chip ball grid array (FC-BGA), a high-performance semi…",
+          "tweet_id": "2038802510346158513",
+          "url": "https://x.com/jukan05/status/2038802510346158513"
         },
         {
-          "date": "2026-06-18",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 7,
-          "stance": "neutral",
-          "text_preview": "Wow. According to @FundaAI, UMC is collaborating with Intel not only on 12nm, but also in the 3nm space. $INTC https://t.co/47XLM7vq30",
-          "tweet_id": "2067636769856860367",
-          "url": "https://x.com/jukan05/status/2067636769856860367"
-        },
-        {
-          "date": "2026-04-18",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 4,
-          "stance": "neutral",
-          "text_preview": "Interesting. It seems 8-inch legacy foundry capacity is currently tighter than 12-inch. Details of UMC’s price increase: 8-inch wafers - Price hike: 10%–15% - Differentiated by customer volume - Utilization: Taipei and…",
-          "tweet_id": "2045698620234895520",
-          "url": "https://x.com/jukan05/status/2045698620234895520"
-        }
-      ],
-      "explicit_stance_posts": 2,
-      "first_mention": "2026-04-17",
-      "has_report": false,
-      "high_conviction_posts": 0,
-      "industry": "Semiconductor Foundry",
-      "last_mention": "2026-06-18",
-      "market": "US",
-      "priority": "low",
-      "report_score": 287,
-      "risk_posts": 0,
-      "signal_terms": [
-        "bottleneck",
-        "capacity",
-        "confirmed",
-        "long",
-        "own",
-        "owns",
-        "pricing",
-        "risk",
-        "sold"
-      ],
-      "stance_counts": {
-        "bearish": 1,
-        "bullish": 1,
-        "neutral": 4
-      },
-      "status": "candidate",
-      "substantive_posts": 3,
-      "ticker": "UMC",
-      "total_mentions": 6,
-      "unique_mention_days": 5,
-      "why": [
-        "6 total mentions across 5 days",
-        "2 explicit stance posts",
-        "3 substantive thesis-like posts",
-        "high-signal terms: bottleneck, capacity, confirmed, long, own, owns",
-        "latest mention 2026-06-18"
-      ]
-    },
-    {
-      "company": "Yageo",
-      "evidence": [
-        {
-          "date": "2026-05-28",
+          "date": "2026-03-29",
           "mention_type": "explicit_stance",
           "reasons": [
-            "expects raw material cost increases and tight supply-demand conditions to be met in 2H26, signaling potential for price hikes",
-            "custom high-spec products account for 80% of revenue with expanding AI demand",
-            "AI-related products growing rapidly in GPU and ASIC markets",
-            "book-to-bill ratio of 1.3 overall and 1.4 for AI products, above industry average"
+            "dominance in T-glass is bound to persist",
+            "big tech unlikely to switch to rival products due to risk of irreversible chip issues"
           ],
-          "score": 65,
+          "score": 45,
           "stance": "bullish",
-          "text_preview": "▶ Yageo signals possible price hikes as Japanese and Korean passive component makers raise prices • Taiwanese passive component maker Yageo officially noted that Murata and Samsung Electro-Mechanics — the world’s #1 and…",
-          "tweet_id": "2059878694756421659",
-          "url": "https://x.com/jukan05/status/2059878694756421659"
+          "text_preview": "\"Unless big tech changes its policy of using only Nittobo's product, the T-glass supply shortage will be difficult to resolve for the foreseeable future.\" Nittobo’s dominance is bound to persist. If they use a rival’s T…",
+          "tweet_id": "2038176799377776728",
+          "url": "https://x.com/jukan05/status/2038176799377776728"
         },
         {
-          "date": "2026-04-15",
+          "date": "2026-04-11",
           "mention_type": "explicit_stance",
           "reasons": [
-            "raised prices for some MLCC product lines in response to rising raw material cost pressures",
-            "MLCC supercycle is coming"
+            "structural gap in ultra-thin E-glass fiberglass cloth market as Nittobo exits",
+            "lower-end fiberglass manufacturers likely to benefit significantly"
           ],
-          "score": 41,
+          "score": 38,
           "stance": "bullish",
-          "text_preview": "Taiwan’s Yageo mentioned for the first time on its earnings call that it has raised prices for some MLCC product lines in response to rising raw material cost pressures. The MLCC supercycle is coming.",
-          "tweet_id": "2044550082557841907",
-          "url": "https://x.com/jukan05/status/2044550082557841907"
+          "text_preview": "\"Nittobo’s strategic exit is creating a “structural gap” in the ultra-thin E-glass fiberglass cloth market: according to industry checks, Nittobo, a global technology leader in fiberglass cloth, is gradually exiting the…",
+          "tweet_id": "2042941004295344139",
+          "url": "https://x.com/jukan05/status/2042941004295344139"
         },
         {
-          "date": "2026-06-14",
+          "date": "2026-04-14",
           "mention_type": "background",
           "reasons": [],
           "score": 30,
           "stance": "neutral",
-          "text_preview": ">>MLCC Industry Faces \"Longest Shortage Cycle in History\"… Supply Deficit Expected to Persist Beyond 2027 - Major Taiwanese MLCC makers—Yageo, Walsin, Holy Stone, and PDC—are strongly upbeat on the industry outlook, dri…",
-          "tweet_id": "2066017599553696140",
-          "url": "https://x.com/jukan05/status/2066017599553696140"
+          "text_preview": "Glass Fiber Cloth and Copper Foil Costs Continue to Rise… 2026 Full-Year CCL Price Hikes 'Far From Over' As demand for high-end PCBs from AI servers and switches surges, the supply-demand imbalance in upstream materials…",
+          "tweet_id": "2044208463916740661",
+          "url": "https://x.com/jukan05/status/2044208463916740661"
         },
         {
-          "date": "2026-06-19",
+          "date": "2026-05-23",
           "mention_type": "background",
           "reasons": [],
-          "score": 11,
+          "score": 30,
           "stance": "neutral",
-          "text_preview": "Taiwan Makers Poised to Raise Chip Resistor Prices as China Players Hike and the Price Gap Narrows As Taiwanese chip resistor makers shift to selective order taking and cull orders that carry no profit, low price chip r…",
-          "tweet_id": "2068158302035611724",
-          "url": "https://x.com/jukan05/status/2068158302035611724"
+          "text_preview": "Why No Price Hike Despite a Severe Shortage? Why doesn't Nittobo raise prices to reap windfall profits? The AI server boom has triggered an explosion in global demand for high-end glass fiber materials. Yet even as the…",
+          "tweet_id": "2058118644983595231",
+          "url": "https://x.com/jukan05/status/2058118644983595231"
         }
       ],
-      "explicit_stance_posts": 2,
-      "first_mention": "2026-04-15",
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 3,
+      "first_mention": "2026-03-29",
       "has_report": false,
       "high_conviction_posts": 0,
-      "industry": "Passive Components",
-      "last_mention": "2026-06-19",
-      "market": "Taiwan",
+      "industry": "Glass Fiber/AI Substrates",
+      "last_mention": "2026-06-14",
+      "market": "Tokyo",
       "priority": "low",
-      "report_score": 244,
+      "reasoned_explicit_posts": 3,
+      "report_score": 213,
       "risk_posts": 0,
       "signal_terms": [
-        "bottleneck",
-        "capacity",
-        "long",
-        "nvidia",
-        "ramp"
+        "pricing",
+        "risk"
       ],
       "stance_counts": {
+        "bearish": 1,
         "bullish": 2,
-        "neutral": 2
+        "neutral": 9
       },
       "status": "candidate",
-      "substantive_posts": 3,
-      "ticker": "2327",
-      "total_mentions": 4,
-      "unique_mention_days": 4,
+      "substantive_posts": 7,
+      "ticker": "3110",
+      "total_mentions": 12,
+      "unique_mention_days": 10,
       "why": [
-        "4 total mentions across 4 days",
-        "2 explicit stance posts",
-        "3 substantive thesis-like posts",
-        "high-signal terms: bottleneck, capacity, long, nvidia, ramp",
-        "latest mention 2026-06-19"
+        "12 total mentions across 10 days",
+        "3 explicit stance posts",
+        "7 substantive thesis-like posts",
+        "high-signal terms: pricing, risk",
+        "latest mention 2026-06-14"
       ]
     }
   ],
-  "reports_available": 0,
+  "reports_available": 1,
   "stocks_scanned": 293,
-  "stocks_skipped": 265,
+  "stocks_skipped": 274,
   "summary": {
-    "candidate": 11,
-    "has_report": 0,
+    "candidate": 8,
+    "has_report": 1,
     "needs_regeneration": 0,
-    "needs_report": 17,
+    "needs_report": 10,
     "needs_update": 0
   },
   "updates_due": []

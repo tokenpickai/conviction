@@ -246,7 +246,10 @@ def main():
             if args.generator_dry_run:
                 print("Generator dry-run complete; no report was written.")
                 return 0
-            run([sys.executable, str(VALIDATOR), str(draft_path)], "Validate draft")
+            validate_cmd = [sys.executable, str(VALIDATOR), str(draft_path)]
+            if args.profile:
+                validate_cmd.extend(["--profile", args.profile])
+            run(validate_cmd, "Validate draft")
             publish_report(draft_path, final_path)
             print(f"Published {final_path}")
             clear_ticker_failures(Path(args.failures), ticker)

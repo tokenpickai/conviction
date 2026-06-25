@@ -114,15 +114,18 @@ def update_status_map(path):
     return out
 
 
-def score_stock(stock):
+def score_stock(stock, signal_strategy="balanced"):
     mentions = unique_mentions(stock)
     if not mentions:
         return None
 
-    mention_scores = sorted((mention_score(m) for m in mentions), reverse=True)
+    explicit = [m for m in mentions if m.get("mention_type") == "explicit_stance"]
+    scoring_mentions = explicit if signal_strategy == "author_conviction" else mentions
+    mention_scores = sorted((mention_score(m) for m in scoring_mentions), reverse=True)
     top_scores = mention_scores[:30]
     dates = {m.get("date") for m in mentions if m.get("date")}
-    explicit = [m for m in mentions if m.get("mention_type") == "explicit_stance"]
+    explicit_dates = {m.get("date") for m in explicit if m.get("date")}
+    reasoned_explicit = [m for m in explicit if m.get("reasons")]
     substantive = [
         m for m in mentions
         if m.get("mention_type") == "explicit_stance"
@@ -136,38 +139,55 @@ def score_stock(stock):
     stances = Counter((m.get("stance") or "unknown") for m in mentions)
     mention_types = Counter((m.get("mention_type") or "unknown") for m in mentions)
 
-    combined_text = "\n".join(mention_text(m) for m in mentions)
+    term_mentions = explicit if signal_strategy == "author_conviction" else mentions
+    combined_text = "\n".join(mention_text(m) for m in term_mentions)
     term_score, hits = term_hits(combined_text)
     term_bonus = min(90, term_score // 3)
     ai_relevance = ai_relevance_metrics(mentions, substantive)
     broad_platform = (stock.get("ticker") or "").upper() in BROAD_PLATFORM_TICKERS
 
-    score = 0
-    score += sum(top_scores[:12])
-    score += sum(top_scores[12:30]) // 2
-    score += min(70, len(mentions) * 2)
-    score += min(80, len(dates) * 7)
-    score += min(90, len(explicit) * 9)
-    score += min(70, len(substantive) * 5)
-    score += min(60, len(high_conviction) * 14)
-    score += min(36, len(medium_conviction) * 6)
-    score += min(50, len(risks) * 10)
-    score += term_bonus
+    if signal_strategy == "author_conviction":
+        author_signal_ratio = len(explicit) / max(1, len(mentions))
+        score = 0
+        score += sum(top_scores[:10])
+        score += sum(top_scores[10:20]) // 2
+        score += min(96, len(explicit) * 8)
+        score += min(80, len(explicit_dates) * 8)
+        score += min(60, len(reasoned_explicit) * 5)
+        score += min(72, len(high_conviction) * 18)
+        score += min(40, len(medium_conviction) * 8)
+        score += min(40, len(risks) * 8)
+        score += min(45, term_bonus)
+        score += min(20, len(mentions) // 5)
+        score -= round(max(0, 0.12 - author_signal_ratio) * 120)
+    else:
+        author_signal_ratio = len(explicit) / max(1, len(mentions))
+        score = 0
+        score += sum(top_scores[:12])
+        score += sum(top_scores[12:30]) // 2
+        score += min(70, len(mentions) * 2)
+        score += min(80, len(dates) * 7)
+        score += min(90, len(explicit) * 9)
+        score += min(70, len(substantive) * 5)
+        score += min(60, len(high_conviction) * 14)
+        score += min(36, len(medium_conviction) * 6)
+        score += min(50, len(risks) * 10)
+        score += term_bonus
 
-    if len(mentions) >= 30:
-        score += 35
-    elif len(mentions) >= 12:
-        score += 20
-    elif len(mentions) >= 5:
-        score += 10
+        if len(mentions) >= 30:
+            score += 35
+        elif len(mentions) >= 12:
+            score += 20
+        elif len(mentions) >= 5:
+            score += 10
 
-    if len(dates) >= 10:
-        score += 35
-    elif len(dates) >= 4:
-        score += 18
+        if len(dates) >= 10:
+            score += 35
+        elif len(dates) >= 4:
+            score += 18
 
-    if not substantive and mention_types.get("list", 0) + mention_types.get("background", 0) >= len(mentions) * 0.7:
-        score -= 80
+        if not substantive and mention_types.get("list", 0) + mention_types.get("background", 0) >= len(mentions) * 0.7:
+            score -= 80
 
     top_mentions = sorted(mentions, key=mention_score, reverse=True)[:6]
     reasons = build_reasons(
@@ -187,7 +207,10 @@ def score_stock(stock):
         "ai_relevance": ai_relevance,
         "mentions": mentions,
         "unique_days": len(dates),
+        "explicit_days": len(explicit_dates),
         "explicit_count": len(explicit),
+        "reasoned_explicit_count": len(reasoned_explicit),
+        "author_signal_ratio": round(author_signal_ratio, 4),
         "substantive_count": len(substantive),
         "risk_count": len(risks),
         "high_conviction_count": len(high_conviction),
@@ -225,7 +248,7 @@ def build_reasons(stock, mentions, explicit, substantive, risks, high_conviction
     return reasons[:7]
 
 
-def classify_report_need(metrics, has_report, update_status=None):
+def classify_report_need(metrics, has_report, update_status=None, signal_strategy="balanced"):
     if update_status == "regeneration_candidate":
         return "needs_regeneration", "high"
     if update_status == "update_candidate":
@@ -238,6 +261,17 @@ def classify_report_need(metrics, has_report, update_status=None):
     days = metrics["unique_days"]
     explicit = metrics["explicit_count"]
     total = len(metrics["mentions"])
+
+    if signal_strategy == "author_conviction":
+        explicit_days = metrics["explicit_days"]
+        reasoned = metrics["reasoned_explicit_count"]
+        if score >= 600 and explicit >= 7 and explicit_days >= 5 and reasoned >= 6:
+            return "needs_report", "high"
+        if score >= 350 and explicit >= 4 and explicit_days >= 3 and reasoned >= 4:
+            return "needs_report", "medium"
+        if score >= 200 and explicit >= 2 and explicit_days >= 2 and reasoned >= 2:
+            return "candidate", "low"
+        return "no_report", "none"
 
     if metrics.get("broad_platform"):
         ai = metrics.get("ai_relevance") or {}
@@ -286,6 +320,9 @@ def queue_item(stock, metrics, status, priority, has_report):
         "priority": priority,
         "has_report": has_report,
         "explicit_stance_posts": metrics["explicit_count"],
+        "explicit_stance_days": metrics["explicit_days"],
+        "reasoned_explicit_posts": metrics["reasoned_explicit_count"],
+        "author_signal_ratio": metrics["author_signal_ratio"],
         "substantive_posts": metrics["substantive_count"],
         "risk_posts": metrics["risk_count"],
         "high_conviction_posts": metrics["high_conviction_count"],
@@ -300,7 +337,7 @@ def queue_item(stock, metrics, status, priority, has_report):
     return item
 
 
-def build_queue(stocks_dir=STOCKS_DIR, reports_dir=REPORTS_DIR, update_candidates_path=UPDATE_CANDIDATES, manifest_path=DATA_DIR / "db" / "manifest.json", include_existing=True):
+def build_queue(stocks_dir=STOCKS_DIR, reports_dir=REPORTS_DIR, update_candidates_path=UPDATE_CANDIDATES, manifest_path=DATA_DIR / "db" / "manifest.json", include_existing=True, signal_strategy="balanced"):
     reports = report_files(reports_dir)
     updates = update_status_map(update_candidates_path)
     manifest = load_json(manifest_path, {})
@@ -311,12 +348,17 @@ def build_queue(stocks_dir=STOCKS_DIR, reports_dir=REPORTS_DIR, update_candidate
         stock = load_json(stock_path, {})
         ticker = (stock.get("ticker") or stock_path.stem).upper()
         stock["ticker"] = ticker
-        metrics = score_stock(stock)
+        metrics = score_stock(stock, signal_strategy=signal_strategy)
         if not metrics:
             skipped += 1
             continue
         has_report = ticker in reports
-        status, priority = classify_report_need(metrics, has_report, updates.get(ticker))
+        status, priority = classify_report_need(
+            metrics,
+            has_report,
+            updates.get(ticker),
+            signal_strategy=signal_strategy,
+        )
         if status == "no_report":
             skipped += 1
             continue
@@ -367,8 +409,11 @@ def main():
     ap.add_argument("--hide-existing", action="store_true", help="omit tickers that already have clean reports")
     ap.add_argument("--print", action="store_true", help="print JSON instead of writing it")
     args = ap.parse_args()
+    signal_strategy = "balanced"
     if args.profile:
-        paths = profile_paths(load_profile(args.profile))
+        profile = load_profile(args.profile)
+        paths = profile_paths(profile)
+        signal_strategy = (profile.get("analysis") or {}).get("signal_strategy", "balanced")
         args.stocks = str(paths["stocks_dir"])
         args.reports = str(paths["reports_dir"])
         args.updates = str(paths["report_update_candidates"])
@@ -383,6 +428,7 @@ def main():
         update_candidates_path=Path(args.updates),
         manifest_path=manifest_path,
         include_existing=not args.hide_existing,
+        signal_strategy=signal_strategy,
     )
 
     if args.print:

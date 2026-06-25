@@ -50,6 +50,8 @@ def load_profile(name=None):
     profile.setdefault("display_name", profile["slug"].title())
     profile.setdefault("handle", "")
     profile.setdefault("pronoun_zh", "作者")
+    profile.setdefault("analysis", {})
+    profile["analysis"].setdefault("signal_strategy", "balanced")
     profile.setdefault("dashboard", {})
     profile["dashboard"].setdefault("output_prefix", f"{profile['slug']}-tracker")
     profile["dashboard"].setdefault("data_dir", "data/db")

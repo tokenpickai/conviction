@@ -50,6 +50,7 @@ PROFILE_NAME=PROFILE.get('display_name','Serenity')
 PROFILE_HANDLE=(PROFILE.get('handle') or 'aleabitoreddit').lstrip('@')
 PROFILE_X_URL=PROFILE.get('x_url') or f'https://x.com/{PROFILE_HANDLE}'
 PROFILE_AVATAR=PROFILE.get('avatar') or 'assets/serenity-avatar.jpg'
+SIGNAL_STRATEGY=(PROFILE.get('analysis') or {}).get('signal_strategy','balanced')
 PROFILE_OUTPUT_PREFIX=P_DASH.get('output_prefix') or f'{PROFILE_SLUG}-tracker'
 _db_override=_argval('--db') or os.environ.get('CONVICTION_DB') or os.environ.get('SERENITY_DB')
 DB=str(Path(_db_override).resolve()) if _db_override else str((ROOT/P_DASH.get('data_dir','data/db')).resolve())
@@ -80,6 +81,7 @@ for _f in glob.glob(os.path.join(DB,'stocks','*.json')):
         allm[s].append((dd,m.get('stance'),m.get('mention_type'),(m.get('reasons') or [None])[0],m.get('url') or ''))
         MENT[s].append({'tweet_id':m.get('tweet_id'),'date':m['date'],'stance':m.get('stance'),'mtype':m.get('mention_type'),
                         'reasons':m.get('reasons') or [],'is_risk':bool(m.get('is_risk')),
+                        'conviction':m.get('conviction'),
                         'text':m.get('text') or '','url':m.get('url') or '','eng':m.get('engagement') or {},
                         'text_may_be_truncated':m.get('text_may_be_truncated'),'media':m.get('media') or []})
 REPORT_QUEUE=_load_json((ROOT/P_DASH.get('report_queue','data/report_queue.json')).resolve(),{})
@@ -815,18 +817,32 @@ def _serenity_signal_score(s):
     stance_posts=eb+er+en
     if eb<=er or eb==0:
         return None
-    w7=cnt(s,DAY-datetime.timedelta(days=6),DAY)
-    w28=cnt(s,DAY-datetime.timedelta(days=27),DAY)
-    last_seen=last(s)
+    if SIGNAL_STRATEGY=='author_conviction':
+        explicit_mentions=[m for m in MENT[s] if m.get('mtype')=='explicit_stance']
+        w7=sum(1 for m in explicit_mentions if DAY-datetime.timedelta(days=6)<=datetime.date.fromisoformat(m['date'])<=DAY)
+        w28=sum(1 for m in explicit_mentions if DAY-datetime.timedelta(days=27)<=datetime.date.fromisoformat(m['date'])<=DAY)
+        explicit_dates=[datetime.date.fromisoformat(m['date']) for m in explicit_mentions]
+        last_seen=max(explicit_dates) if explicit_dates else None
+    else:
+        explicit_mentions=[]
+        w7=cnt(s,DAY-datetime.timedelta(days=6),DAY)
+        w28=cnt(s,DAY-datetime.timedelta(days=27),DAY)
+        last_seen=last(s)
     days_since=(DAY-last_seen).days if last_seen else 999
     net=eb-er
     net_ratio=net/max(1,stance_posts)
     stance_score=min(34, net*1.8 + eb*.35 + net_ratio*18)
-    attention_score=min(24, mentions*.35 + w28*1.05 + w7*2.6)
+    if SIGNAL_STRATEGY=='author_conviction':
+        attention_score=min(24, stance_posts*1.15 + w28*1.8 + w7*2.8 + min(4,mentions*.025))
+    else:
+        attention_score=min(24, mentions*.35 + w28*1.05 + w7*2.6)
     recency_score=max(0, 12 - min(days_since,36)/3)
     reason_text=' '.join(r for _,_,r,_ in exp[s] if r).lower()
     thesis_terms=('favorite','high conviction','best','compelling','room to go','love','long','buying','roi','winner','thesis')
     thesis_score=min(7, sum(1 for term in thesis_terms if term in reason_text)*1.4)
+    if SIGNAL_STRATEGY=='author_conviction':
+        conviction_bonus=min(7,sum(3 if m.get('conviction')=='high' else 1.5 for m in explicit_mentions if m.get('conviction')))
+        thesis_score=min(12,thesis_score+conviction_bonus)
     risk_penalty=min(18, er*1.1 + (6 if en and en>=eb*.35 else 0))
     raw=stance_score+attention_score+recency_score+thesis_score-risk_penalty
     score=max(0,min(100,round(raw)))
@@ -862,6 +878,17 @@ def _decision_reason(item):
         bits.append(f'累計 {mentions} 次提及，橫跨 {days} 天')
     elif mentions:
         bits.append(f'累計 {mentions} 次提及')
+    if SIGNAL_STRATEGY=='author_conviction':
+        explicit=item.get('explicit_stance_posts')
+        explicit_days=item.get('explicit_stance_days')
+        reasoned=item.get('reasoned_explicit_posts')
+        if explicit and explicit_days:
+            bits.append(f'{explicit} 則明確觀點，橫跨 {explicit_days} 天')
+        elif explicit:
+            bits.append(f'{explicit} 則明確觀點')
+        if reasoned:
+            bits.append(f'{reasoned} 則附有理由')
+        return ' · '.join(bits[:3])
     why=item.get('why') or []
     for w in why:
         m=re.search(r'(\d+)\s+explicit stance posts', str(w))
@@ -943,6 +970,12 @@ def reports_section():
             f'</article>'
         )
     candidate_empty='<div class="ops-empty">目前沒有新的候選投資論點。</div>' if not candidate_cards else ''
+    signal_tip=(
+        f'依 {PROFILE_NAME} 的公開貼文計算：明確方向、近期觀點、理由與語氣強度。'
+        '一般產業新聞與背景提及不會因出現頻繁而獲得高分。'
+        if SIGNAL_STRATEGY=='author_conviction'
+        else f'依 {PROFILE_NAME} 的公開貼文計算：看多強度、近期熱度、語氣強度，以及看空 / 分歧訊號扣分。尚未整理的高分標的會優先進入投資論點生成。'
+    )
     top_cards=[]
     for i,item in enumerate(serenity_top_signals(),1):
         s=item['ticker']
@@ -964,7 +997,7 @@ def reports_section():
 <div class="sec"><div class="sechd"><div class="st">{t('nav_reports')}</div><div class="datepill">investment memo</div>
 <div class="sn"><span class="cnt">已發布 {len(REPORTS)} 份 · 下一批 {automation_ready} 檔 · 待更新 {len(updates_due)} 份</span><span class="upd">{t('updated',date=UPDATE_STAMP)}</span></div></div></div>
 <div class="daypad">
-<div class="subhd" style="margin-top:0"><i class="fa-solid fa-ranking-star"></i> {PROFILE_NAME} <span class="jargon" role="button" tabindex="0">綜合訊號<span class="jargon-tip">依 {PROFILE_NAME} 的公開貼文計算：看多強度、近期熱度、語氣強度，以及看空 / 分歧訊號扣分。尚未整理的高分標的會優先進入投資論點生成。</span></span> Top 3</div>
+<div class="subhd" style="margin-top:0"><i class="fa-solid fa-ranking-star"></i> {PROFILE_NAME} <span class="jargon" role="button" tabindex="0">綜合訊號<span class="jargon-tip">{_h(signal_tip)}</span></span> Top 3</div>
 <div class="signal-grid">{''.join(top_cards)}{top_empty}</div>
 <div class="subhd" style="margin-top:24px"><i class="fa-solid fa-bolt"></i> 最近更新</div>
 <div class="memo-updates">{''.join(updated_cards) if updated_cards else '<div class="ops-empty">目前沒有新的投資論點更新。</div>'}</div>

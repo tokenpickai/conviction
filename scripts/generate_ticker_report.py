@@ -77,6 +77,11 @@ SYSTEM_PROMPT = """你是一位投資研究寫手。你的任務不是給投資�
 - 不要把所有貼文流水帳化；要萃取成投資邏輯。
 - 語氣要像高品質研究文章，接近人工整理，不要像條列 AI 報告。
 - 嚴格避免投資建議措辭；用「從 Serenity 的貼文來看」「她的框架是」「仍需驗證」等表述。
+- 請嚴格控制篇幅以確保 JSON 完整：one_minute_summary 正好 3 條；sections 正好 8 段。
+- 每個 section 的 body 為 1–2 個段落，每個段落不超過 220 個中文字。
+- 每個 section 正好 1–2 個 citations；整篇至少使用 8 個不同 tweet_id。
+- final_takeaway 正好 2 條；quality_notes 各欄最多 2 條。
+- 不要使用「草稿」「初稿」「v1」「draft」等字眼。
 
 輸出 ONLY valid JSON，不要 markdown fence。Schema:
 {
@@ -259,21 +264,21 @@ def build_prompt(stock, mentions, text_limit=DEFAULT_TEXT_LIMIT):
         "total_mentions": stock.get("total_mentions"),
         "curated_evidence_posts": evidence,
         "requested_structure": [
-            "開場：Serenity 從哪裡看到這檔股票，為什麼這不是普通光模組股",
-            "Serenity 的時間線：初始 thesis、修正、提高確信、最新觀點",
-            "公司到底做什麼：只解釋與 thesis 有關的部分",
-            "產業鏈位置：AI data center → optical modules → lasers → InP / capacity",
-            "真正瓶頸：需求不是問題，稀缺產能與製造 ramp 才是問題",
-            "產品/架構週期：800G、1.6T、pluggable、CPO/NPO 如何並行",
-            "hyperscaler / AMD / NVDA / AMZN / MSFT 供應鏈邏輯",
-            "Serenity 有哪些修正或風險提示",
-            "哪些 thesis 已經被驗證，哪些仍需觀察",
-            "最後總結：從這檔股票學到的 Serenity 產業鏈思維",
+            "開場：作者最初從哪個矛盾或產業變化注意到這檔股票",
+            "時間線：初始 thesis、後續修正、提高或降低確信、最新觀點",
+            "公司到底提供什麼能力：只解釋與作者 thesis 直接相關的部分",
+            "產業鏈位置與需求傳導：終端需求如何影響公司收入、價格或產能",
+            "核心瓶頸或結構性優勢：作者認為市場可能低估了什麼",
+            "產品、技術或景氣週期：哪些變數驅動 thesis",
+            "同業比較與資金選擇：作者為何偏好或不偏好這檔股票",
+            "反方、風險與作者曾經修正的地方",
+            "哪些判斷已被後續貼文驗證，哪些仍需觀察",
+            "最後總結：如何理解作者目前的投資框架，而不是給出投資建議",
         ],
     }
     return (
-        "請根據以下資料，為這檔股票寫一篇繁體中文 Serenity thesis reconstruction report。\n"
-        "務必讓文章有參考文章那種品質：每段先說投資邏輯，再放 Serenity 原貼文證據，再解釋為什麼重要。\n"
+        "請根據以下資料，為這檔股票寫一篇繁體中文 thesis reconstruction report。\n"
+        "務必讓文章達到高品質人工研究文章的水準：每段先說投資邏輯，再放作者原貼文證據，再解釋為什麼重要。\n"
         "不要照抄參考文章；請用資料本身重建。\n\n"
         + json.dumps(payload, ensure_ascii=False, indent=2)
     )

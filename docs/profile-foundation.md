@@ -14,6 +14,8 @@ Profiles live in `profiles/*.json`. Each profile controls the public dashboard i
 
 Jukan uses a rolling 90-day research corpus beginning March 25, 2026. Its high-volume ingestion applies a deterministic research prefilter to low-signal replies, then batches the remaining posts through Claude while preserving conversation boundaries.
 
+Jukan also uses the profile-level `author_conviction` signal strategy. Report priority and dashboard rankings emphasize the author's explicit directional views, stated rationale, conviction language, and repeated thesis days. General semiconductor news and background mentions remain searchable, but contribute little to report eligibility or Top 3 ranking.
+
 ## Required Fields
 
 - `slug`: URL folder under the portal, for example `serenity`

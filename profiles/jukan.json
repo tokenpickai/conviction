@@ -5,6 +5,9 @@
   "pronoun_zh": "作者",
   "x_url": "https://x.com/jukan05",
   "avatar": "assets/jukan-avatar.jpg",
+  "analysis": {
+    "signal_strategy": "author_conviction"
+  },
   "dashboard": {
     "output_prefix": "jukan-tracker",
     "data_dir": "data/jukan/db",

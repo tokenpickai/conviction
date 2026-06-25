@@ -154,6 +154,15 @@ def profile_system_prompt(profile):
     prompt = re.sub(r"\bHE\b", "THE AUTHOR", prompt)
     prompt = re.sub(r"\bhis\b", "the author's", prompt)
     prompt = re.sub(r"\bhe\b", "the author", prompt)
+    if (profile.get("analysis") or {}).get("signal_strategy") == "author_conviction":
+        prompt += """
+
+PROFILE-SPECIFIC CALIBRATION:
+This author frequently relays semiconductor news, sell-side research, channel checks, and industry data.
+A favorable or unfavorable fact is NOT automatically the author's investment stance. Use "background"
+unless the author adds a clear personal judgment, directional conclusion, investment preference/action,
+prediction, or explicit endorsement/rejection. A quoted analyst rating or target remains background unless
+the author clearly adopts that view in the author's own voice."""
     return prompt
 
 
