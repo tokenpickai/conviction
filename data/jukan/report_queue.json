@@ -1,6 +1,136 @@
 {
-  "data_generated_at": "2026-06-23T20:32:19.434922+00:00",
+  "data_generated_at": "2026-06-25T08:48:41.255654+00:00",
   "existing_reports": [
+    {
+      "author_signal_ratio": 0.0863,
+      "company": "SK Hynix",
+      "evidence": [
+        {
+          "date": "2026-05-26",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "effective duopoly alongside Samsung in HBM market",
+            "this year's output already sold out",
+            "using big tech investment offers as leverage in more favorable long-term supply agreements",
+            "operating margin reached 72% as of Q1"
+          ],
+          "score": 110,
+          "stance": "bullish",
+          "text_preview": "SK Hynix Effectively Rebuffs US Big Tech's Offers of Tens of Billions of Dollars in Investment Support US big tech companies—Google parent Alphabet, Microsoft (MS), and Meta among them—are pouring out offers to help fun…",
+          "tweet_id": "2059420761505538353",
+          "url": "https://x.com/jukan05/status/2059420761505538353"
+        },
+        {
+          "date": "2026-04-08",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 83,
+          "stance": "neutral",
+          "text_preview": "One-year contracts are a thing of the past… Samsung and SK hynix won't sell without 3–5 year long-term supply agreements Samsung Electronics and SK hynix have effectively abandoned the practice of signing one-year short…",
+          "tweet_id": "2042022163734208700",
+          "url": "https://x.com/jukan05/status/2042022163734208700"
+        },
+        {
+          "date": "2026-05-27",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "appears to be performing better than Samsung in HBM4"
+          ],
+          "score": 79,
+          "stance": "bullish",
+          "text_preview": "Things I’ve looked into recently: I’m increasingly convinced that semiconductor equipment could become seriously scarce going forward. Based on channel checks, the “tera-fab” project appears to be much more serious than…",
+          "tweet_id": "2059568540840276017",
+          "url": "https://x.com/jukan05/status/2059568540840276017"
+        },
+        {
+          "date": "2026-04-15",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "2026E OP raised to KRW 263T",
+            "2027E OP raised to KRW 332T",
+            "target price raised from KRW 1,450,000 to KRW 1,700,000",
+            "trades at just 3.9x 2026E P/E and 3.1x 2027E P/E — remarkably cheap"
+          ],
+          "score": 75,
+          "stance": "bullish",
+          "text_preview": "Daishin Securities analyst Hyung-Geun Ryu published a memory report today, packed with significant alpha. Key takeaways: 1. Apple is exploiting the memory shortage amid growth stagnation in the North American market. As…",
+          "tweet_id": "2044323309983297714",
+          "url": "https://x.com/jukan05/status/2044323309983297714"
+        },
+        {
+          "date": "2026-06-22",
+          "mention_type": "background",
+          "reasons": [],
+          "score": 70,
+          "stance": "neutral",
+          "text_preview": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM SK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater we…",
+          "tweet_id": "2069207209133887767",
+          "url": "https://x.com/jukan05/status/2069207209133887767"
+        },
+        {
+          "date": "2026-05-07",
+          "mention_type": "explicit_stance",
+          "reasons": [
+            "flooded with unprecedented offers from Big Tech to fund new production lines and EUV equipment purchases",
+            "available production capacity is essentially 'zero', indicating extreme demand",
+            "AI-driven demand viewed as long-term structural growth rather than short-term cycle",
+            "investment proposals targeting Phase 1 production line at Yongin cluster"
+          ],
+          "score": 68,
+          "stance": "bullish",
+          "text_preview": "▶ SK Hynix flooded with unprecedented offers from Big Tech to secure chip supplies - SK Hynix is reportedly receiving aggressive proposals from global Big Tech firms to fund new production line investments and the purch…",
+          "tweet_id": "2052529725927756104",
+          "url": "https://x.com/jukan05/status/2052529725927756104"
+        }
+      ],
+      "explicit_stance_days": 12,
+      "explicit_stance_posts": 12,
+      "first_mention": "2026-03-26",
+      "has_report": true,
+      "high_conviction_posts": 0,
+      "industry": "Memory/HBM (Korea)",
+      "last_mention": "2026-06-23",
+      "market": "Korea Exchange",
+      "priority": "none",
+      "reasoned_explicit_posts": 12,
+      "report_score": 967,
+      "risk_posts": 0,
+      "signal_terms": [
+        "ban",
+        "bearish",
+        "capacity",
+        "channel check",
+        "holding",
+        "hyperscaler",
+        "long",
+        "margin",
+        "microsoft",
+        "nvidia",
+        "own",
+        "pricing",
+        "ramp",
+        "risk",
+        "sell",
+        "sold"
+      ],
+      "stance_counts": {
+        "bearish": 1,
+        "bullish": 11,
+        "neutral": 127
+      },
+      "status": "has_report",
+      "substantive_posts": 47,
+      "ticker": "SK HYNIX",
+      "total_mentions": 139,
+      "unique_mention_days": 61,
+      "why": [
+        "139 total mentions across 61 days",
+        "12 explicit stance posts",
+        "47 substantive thesis-like posts",
+        "high-signal terms: ban, bearish, capacity, channel check, holding, hyperscaler",
+        "latest mention 2026-06-23"
+      ]
+    },
     {
       "author_signal_ratio": 0.1667,
       "company": "Micron",
@@ -258,136 +388,6 @@
         "2 risk/caution posts",
         "high-signal terms: amd, bottleneck, capacity, hyperscaler, long, own",
         "latest mention 2026-06-18"
-      ]
-    },
-    {
-      "author_signal_ratio": 0.0863,
-      "company": "SK Hynix",
-      "evidence": [
-        {
-          "date": "2026-05-26",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "effective duopoly alongside Samsung in HBM market",
-            "this year's output already sold out",
-            "using big tech investment offers as leverage in more favorable long-term supply agreements",
-            "operating margin reached 72% as of Q1"
-          ],
-          "score": 110,
-          "stance": "bullish",
-          "text_preview": "SK Hynix Effectively Rebuffs US Big Tech's Offers of Tens of Billions of Dollars in Investment Support US big tech companies—Google parent Alphabet, Microsoft (MS), and Meta among them—are pouring out offers to help fun…",
-          "tweet_id": "2059420761505538353",
-          "url": "https://x.com/jukan05/status/2059420761505538353"
-        },
-        {
-          "date": "2026-04-08",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 83,
-          "stance": "neutral",
-          "text_preview": "One-year contracts are a thing of the past… Samsung and SK hynix won't sell without 3–5 year long-term supply agreements Samsung Electronics and SK hynix have effectively abandoned the practice of signing one-year short…",
-          "tweet_id": "2042022163734208700",
-          "url": "https://x.com/jukan05/status/2042022163734208700"
-        },
-        {
-          "date": "2026-05-27",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "appears to be performing better than Samsung in HBM4"
-          ],
-          "score": 79,
-          "stance": "bullish",
-          "text_preview": "Things I’ve looked into recently: I’m increasingly convinced that semiconductor equipment could become seriously scarce going forward. Based on channel checks, the “tera-fab” project appears to be much more serious than…",
-          "tweet_id": "2059568540840276017",
-          "url": "https://x.com/jukan05/status/2059568540840276017"
-        },
-        {
-          "date": "2026-04-15",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "2026E OP raised to KRW 263T",
-            "2027E OP raised to KRW 332T",
-            "target price raised from KRW 1,450,000 to KRW 1,700,000",
-            "trades at just 3.9x 2026E P/E and 3.1x 2027E P/E — remarkably cheap"
-          ],
-          "score": 75,
-          "stance": "bullish",
-          "text_preview": "Daishin Securities analyst Hyung-Geun Ryu published a memory report today, packed with significant alpha. Key takeaways: 1. Apple is exploiting the memory shortage amid growth stagnation in the North American market. As…",
-          "tweet_id": "2044323309983297714",
-          "url": "https://x.com/jukan05/status/2044323309983297714"
-        },
-        {
-          "date": "2026-06-22",
-          "mention_type": "background",
-          "reasons": [],
-          "score": 70,
-          "stance": "neutral",
-          "text_preview": "SK Hynix Throttles HBM4 Production… Seeks Additional Profit by Expanding Supply Constrained Commodity DRAM SK Hynix is moderating the pace of its sixth generation high bandwidth memory (HBM4) ramp and placing greater we…",
-          "tweet_id": "2069207209133887767",
-          "url": "https://x.com/jukan05/status/2069207209133887767"
-        },
-        {
-          "date": "2026-05-07",
-          "mention_type": "explicit_stance",
-          "reasons": [
-            "flooded with unprecedented offers from Big Tech to fund new production lines and EUV equipment purchases",
-            "available production capacity is essentially 'zero', indicating extreme demand",
-            "AI-driven demand viewed as long-term structural growth rather than short-term cycle",
-            "investment proposals targeting Phase 1 production line at Yongin cluster"
-          ],
-          "score": 68,
-          "stance": "bullish",
-          "text_preview": "▶ SK Hynix flooded with unprecedented offers from Big Tech to secure chip supplies - SK Hynix is reportedly receiving aggressive proposals from global Big Tech firms to fund new production line investments and the purch…",
-          "tweet_id": "2052529725927756104",
-          "url": "https://x.com/jukan05/status/2052529725927756104"
-        }
-      ],
-      "explicit_stance_days": 12,
-      "explicit_stance_posts": 12,
-      "first_mention": "2026-03-26",
-      "has_report": false,
-      "high_conviction_posts": 0,
-      "industry": "Memory/HBM (Korea)",
-      "last_mention": "2026-06-23",
-      "market": "Korea Exchange",
-      "priority": "high",
-      "reasoned_explicit_posts": 12,
-      "report_score": 967,
-      "risk_posts": 0,
-      "signal_terms": [
-        "ban",
-        "bearish",
-        "capacity",
-        "channel check",
-        "holding",
-        "hyperscaler",
-        "long",
-        "margin",
-        "microsoft",
-        "nvidia",
-        "own",
-        "pricing",
-        "ramp",
-        "risk",
-        "sell",
-        "sold"
-      ],
-      "stance_counts": {
-        "bearish": 1,
-        "bullish": 11,
-        "neutral": 127
-      },
-      "status": "needs_report",
-      "substantive_posts": 47,
-      "ticker": "SK HYNIX",
-      "total_mentions": 139,
-      "unique_mention_days": 61,
-      "why": [
-        "139 total mentions across 61 days",
-        "12 explicit stance posts",
-        "47 substantive thesis-like posts",
-        "high-signal terms: ban, bearish, capacity, channel check, holding, hyperscaler",
-        "latest mention 2026-06-23"
       ]
     },
     {
@@ -2253,14 +2253,14 @@
       ]
     }
   ],
-  "reports_available": 1,
+  "reports_available": 2,
   "stocks_scanned": 293,
   "stocks_skipped": 274,
   "summary": {
     "candidate": 8,
-    "has_report": 1,
+    "has_report": 2,
     "needs_regeneration": 0,
-    "needs_report": 10,
+    "needs_report": 9,
     "needs_update": 0
   },
   "updates_due": []

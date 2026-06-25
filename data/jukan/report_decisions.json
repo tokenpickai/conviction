@@ -64,74 +64,6 @@
     },
     {
       "action": "write_new_thesis",
-      "author_signal_ratio": 0.0863,
-      "company": "SK Hynix",
-      "evidence": [
-        {
-          "date": "2026-05-26",
-          "score": 110,
-          "stance": "bullish",
-          "text_preview": "SK Hynix Effectively Rebuffs US Big Tech's Offers of Tens of Billions of Dollars in Investment Support US big tech companies—Google parent Alphabet, Microsoft (MS), and Meta among them—are pouring out offers to help fun…",
-          "tweet_id": "2059420761505538353",
-          "url": "https://x.com/jukan05/status/2059420761505538353"
-        },
-        {
-          "date": "2026-04-08",
-          "score": 83,
-          "stance": "neutral",
-          "text_preview": "One-year contracts are a thing of the past… Samsung and SK hynix won't sell without 3–5 year long-term supply agreements Samsung Electronics and SK hynix have effectively abandoned the practice of signing one-year short…",
-          "tweet_id": "2042022163734208700",
-          "url": "https://x.com/jukan05/status/2042022163734208700"
-        },
-        {
-          "date": "2026-05-27",
-          "score": 79,
-          "stance": "bullish",
-          "text_preview": "Things I’ve looked into recently: I’m increasingly convinced that semiconductor equipment could become seriously scarce going forward. Based on channel checks, the “tera-fab” project appears to be much more serious than…",
-          "tweet_id": "2059568540840276017",
-          "url": "https://x.com/jukan05/status/2059568540840276017"
-        }
-      ],
-      "explicit_stance_days": 12,
-      "explicit_stance_posts": 12,
-      "first_mention": "2026-03-26",
-      "has_report": false,
-      "last_mention": "2026-06-23",
-      "priority": "high",
-      "public_label": "撰寫新投資論點",
-      "reasoned_explicit_posts": 12,
-      "report_score": 967,
-      "signal_terms": [
-        "ban",
-        "bearish",
-        "capacity",
-        "channel check",
-        "holding",
-        "hyperscaler",
-        "long",
-        "margin",
-        "microsoft",
-        "nvidia",
-        "own",
-        "pricing",
-        "ramp",
-        "risk",
-        "sell",
-        "sold"
-      ],
-      "ticker": "SK HYNIX",
-      "total_mentions": 139,
-      "unique_mention_days": 61,
-      "why": [
-        "139 total mentions across 61 days",
-        "12 explicit stance posts",
-        "47 substantive thesis-like posts",
-        "high-signal terms: ban, bearish, capacity, channel check, holding, hyperscaler",
-        "latest mention 2026-06-23"
-      ]
-    },
-    {
-      "action": "write_new_thesis",
       "author_signal_ratio": 0.0959,
       "company": "Samsung Electronics",
       "evidence": [
@@ -633,7 +565,7 @@
       ]
     }
   ],
-  "data_generated_at": "2026-06-23T20:32:19.434922+00:00",
+  "data_generated_at": "2026-06-25T08:48:41.255654+00:00",
   "decisions": [
     {
       "action": "write_new_thesis",
@@ -695,74 +627,6 @@
         "2 risk/caution posts",
         "high-signal terms: amd, bottleneck, capacity, hyperscaler, long, own",
         "latest mention 2026-06-18"
-      ]
-    },
-    {
-      "action": "write_new_thesis",
-      "author_signal_ratio": 0.0863,
-      "company": "SK Hynix",
-      "evidence": [
-        {
-          "date": "2026-05-26",
-          "score": 110,
-          "stance": "bullish",
-          "text_preview": "SK Hynix Effectively Rebuffs US Big Tech's Offers of Tens of Billions of Dollars in Investment Support US big tech companies—Google parent Alphabet, Microsoft (MS), and Meta among them—are pouring out offers to help fun…",
-          "tweet_id": "2059420761505538353",
-          "url": "https://x.com/jukan05/status/2059420761505538353"
-        },
-        {
-          "date": "2026-04-08",
-          "score": 83,
-          "stance": "neutral",
-          "text_preview": "One-year contracts are a thing of the past… Samsung and SK hynix won't sell without 3–5 year long-term supply agreements Samsung Electronics and SK hynix have effectively abandoned the practice of signing one-year short…",
-          "tweet_id": "2042022163734208700",
-          "url": "https://x.com/jukan05/status/2042022163734208700"
-        },
-        {
-          "date": "2026-05-27",
-          "score": 79,
-          "stance": "bullish",
-          "text_preview": "Things I’ve looked into recently: I’m increasingly convinced that semiconductor equipment could become seriously scarce going forward. Based on channel checks, the “tera-fab” project appears to be much more serious than…",
-          "tweet_id": "2059568540840276017",
-          "url": "https://x.com/jukan05/status/2059568540840276017"
-        }
-      ],
-      "explicit_stance_days": 12,
-      "explicit_stance_posts": 12,
-      "first_mention": "2026-03-26",
-      "has_report": false,
-      "last_mention": "2026-06-23",
-      "priority": "high",
-      "public_label": "撰寫新投資論點",
-      "reasoned_explicit_posts": 12,
-      "report_score": 967,
-      "signal_terms": [
-        "ban",
-        "bearish",
-        "capacity",
-        "channel check",
-        "holding",
-        "hyperscaler",
-        "long",
-        "margin",
-        "microsoft",
-        "nvidia",
-        "own",
-        "pricing",
-        "ramp",
-        "risk",
-        "sell",
-        "sold"
-      ],
-      "ticker": "SK HYNIX",
-      "total_mentions": 139,
-      "unique_mention_days": 61,
-      "why": [
-        "139 total mentions across 61 days",
-        "12 explicit stance posts",
-        "47 substantive thesis-like posts",
-        "high-signal terms: ban, bearish, capacity, channel check, holding, hyperscaler",
-        "latest mention 2026-06-23"
       ]
     },
     {
@@ -1736,6 +1600,74 @@
     },
     {
       "action": "no_action",
+      "author_signal_ratio": 0.0863,
+      "company": "SK Hynix",
+      "evidence": [
+        {
+          "date": "2026-05-26",
+          "score": 110,
+          "stance": "bullish",
+          "text_preview": "SK Hynix Effectively Rebuffs US Big Tech's Offers of Tens of Billions of Dollars in Investment Support US big tech companies—Google parent Alphabet, Microsoft (MS), and Meta among them—are pouring out offers to help fun…",
+          "tweet_id": "2059420761505538353",
+          "url": "https://x.com/jukan05/status/2059420761505538353"
+        },
+        {
+          "date": "2026-04-08",
+          "score": 83,
+          "stance": "neutral",
+          "text_preview": "One-year contracts are a thing of the past… Samsung and SK hynix won't sell without 3–5 year long-term supply agreements Samsung Electronics and SK hynix have effectively abandoned the practice of signing one-year short…",
+          "tweet_id": "2042022163734208700",
+          "url": "https://x.com/jukan05/status/2042022163734208700"
+        },
+        {
+          "date": "2026-05-27",
+          "score": 79,
+          "stance": "bullish",
+          "text_preview": "Things I’ve looked into recently: I’m increasingly convinced that semiconductor equipment could become seriously scarce going forward. Based on channel checks, the “tera-fab” project appears to be much more serious than…",
+          "tweet_id": "2059568540840276017",
+          "url": "https://x.com/jukan05/status/2059568540840276017"
+        }
+      ],
+      "explicit_stance_days": 12,
+      "explicit_stance_posts": 12,
+      "first_mention": "2026-03-26",
+      "has_report": true,
+      "last_mention": "2026-06-23",
+      "priority": "none",
+      "public_label": "暫無動作",
+      "reasoned_explicit_posts": 12,
+      "report_score": 967,
+      "signal_terms": [
+        "ban",
+        "bearish",
+        "capacity",
+        "channel check",
+        "holding",
+        "hyperscaler",
+        "long",
+        "margin",
+        "microsoft",
+        "nvidia",
+        "own",
+        "pricing",
+        "ramp",
+        "risk",
+        "sell",
+        "sold"
+      ],
+      "ticker": "SK HYNIX",
+      "total_mentions": 139,
+      "unique_mention_days": 61,
+      "why": [
+        "139 total mentions across 61 days",
+        "12 explicit stance posts",
+        "47 substantive thesis-like posts",
+        "high-signal terms: ban, bearish, capacity, channel check, holding, hyperscaler",
+        "latest mention 2026-06-23"
+      ]
+    },
+    {
+      "action": "no_action",
       "author_signal_ratio": 0.1667,
       "company": "Micron",
       "evidence": [
@@ -1802,17 +1734,17 @@
       ]
     }
   ],
-  "generated_at": "2026-06-24T19:30:43Z",
+  "generated_at": "2026-06-25T17:43:49Z",
   "source_files": {
     "queue": "data/jukan/report_queue.json",
     "updates": "data/jukan/report_update_candidates.json"
   },
   "summary": {
-    "automation_ready": 10,
+    "automation_ready": 9,
     "by_action": {
-      "no_action": 1,
+      "no_action": 2,
       "watch_for_more_signal": 8,
-      "write_new_thesis": 10
+      "write_new_thesis": 9
     },
     "total_decisions": 19
   }
