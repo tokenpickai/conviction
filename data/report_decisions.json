@@ -2,6 +2,7 @@
   "automation_next": [
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.2353,
       "company": "Amazon",
       "evidence": [
         {
@@ -29,11 +30,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 33,
+      "explicit_stance_posts": 52,
       "first_mention": "2025-07-28",
       "has_report": false,
       "last_mention": "2026-06-16",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 51,
       "report_score": 3110,
       "signal_terms": [
         "allocation",
@@ -70,6 +74,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.5312,
       "company": "Rocket Lab",
       "evidence": [
         {
@@ -97,11 +102,14 @@
           "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
         }
       ],
+      "explicit_stance_days": 55,
+      "explicit_stance_posts": 85,
       "first_mention": "2025-07-03",
       "has_report": false,
       "last_mention": "2026-06-20",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 77,
       "report_score": 3091,
       "signal_terms": [
         "allocation",
@@ -138,6 +146,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.3164,
       "company": "Meta",
       "evidence": [
         {
@@ -165,11 +174,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 43,
+      "explicit_stance_posts": 81,
       "first_mention": "2025-07-28",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 81,
       "report_score": 3054,
       "signal_terms": [
         "allocation",
@@ -206,6 +218,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6452,
       "company": "TeraWulf",
       "evidence": [
         {
@@ -233,11 +246,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 34,
+      "explicit_stance_posts": 60,
       "first_mention": "2025-09-03",
       "has_report": false,
       "last_mention": "2026-06-11",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 59,
       "report_score": 2989,
       "signal_terms": [
         "allocation",
@@ -274,6 +290,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6071,
       "company": "Astera Labs",
       "evidence": [
         {
@@ -301,11 +318,14 @@
           "url": "https://x.com/aleabitoreddit/status/2006709693012467774"
         }
       ],
+      "explicit_stance_days": 39,
+      "explicit_stance_posts": 51,
       "first_mention": "2025-07-21",
       "has_report": false,
       "last_mention": "2026-06-12",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 49,
       "report_score": 2986,
       "signal_terms": [
         "allocation",
@@ -342,6 +362,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6735,
       "company": "Reddit",
       "evidence": [
         {
@@ -369,11 +390,14 @@
           "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
         }
       ],
+      "explicit_stance_days": 56,
+      "explicit_stance_posts": 99,
       "first_mention": "2025-09-14",
       "has_report": false,
       "last_mention": "2026-06-20",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 98,
       "report_score": 2979,
       "signal_terms": [
         "allocation",
@@ -410,6 +434,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.3594,
       "company": "Oracle",
       "evidence": [
         {
@@ -437,11 +462,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 25,
+      "explicit_stance_posts": 46,
       "first_mention": "2025-09-09",
       "has_report": false,
       "last_mention": "2026-06-16",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 46,
       "report_score": 2967,
       "signal_terms": [
         "allocation",
@@ -478,6 +506,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7361,
       "company": "Hims & Hers",
       "evidence": [
         {
@@ -505,11 +534,14 @@
           "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
         }
       ],
+      "explicit_stance_days": 47,
+      "explicit_stance_posts": 106,
       "first_mention": "2025-07-07",
       "has_report": false,
       "last_mention": "2026-05-30",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 105,
       "report_score": 2946,
       "signal_terms": [
         "allocation",
@@ -546,6 +578,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7083,
       "company": "Snap",
       "evidence": [
         {
@@ -573,11 +606,14 @@
           "url": "https://x.com/aleabitoreddit/status/1991452423186182524"
         }
       ],
+      "explicit_stance_days": 31,
+      "explicit_stance_posts": 51,
       "first_mention": "2025-08-23",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 51,
       "report_score": 2943,
       "signal_terms": [
         "allocation",
@@ -614,6 +650,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.0942,
       "company": "NVIDIA",
       "evidence": [
         {
@@ -641,11 +678,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 31,
+      "explicit_stance_posts": 44,
       "first_mention": "2025-07-21",
       "has_report": false,
       "last_mention": "2026-06-21",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 42,
       "report_score": 2913,
       "signal_terms": [
         "allocation",
@@ -682,6 +722,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6796,
       "company": "IQE plc",
       "evidence": [
         {
@@ -709,11 +750,14 @@
           "url": "https://x.com/aleabitoreddit/status/2066535221554733278"
         }
       ],
+      "explicit_stance_days": 57,
+      "explicit_stance_posts": 123,
       "first_mention": "2025-12-27",
       "has_report": false,
       "last_mention": "2026-06-20",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 119,
       "report_score": 2901,
       "signal_terms": [
         "allocation",
@@ -750,6 +794,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.5147,
       "company": "Super Micro",
       "evidence": [
         {
@@ -777,11 +822,14 @@
           "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
         }
       ],
+      "explicit_stance_days": 25,
+      "explicit_stance_posts": 35,
       "first_mention": "2025-09-09",
       "has_report": false,
       "last_mention": "2026-05-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 34,
       "report_score": 2840,
       "signal_terms": [
         "allocation",
@@ -818,6 +866,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.3103,
       "company": "Robinhood",
       "evidence": [
         {
@@ -845,11 +894,14 @@
           "url": "https://x.com/aleabitoreddit/status/1991452423186182524"
         }
       ],
+      "explicit_stance_days": 41,
+      "explicit_stance_posts": 54,
       "first_mention": "2025-07-02",
       "has_report": false,
       "last_mention": "2026-06-21",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 49,
       "report_score": 2792,
       "signal_terms": [
         "allocation",
@@ -886,6 +938,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.1929,
       "company": "Broadcom",
       "evidence": [
         {
@@ -913,11 +966,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 23,
+      "explicit_stance_posts": 27,
       "first_mention": "2025-09-09",
       "has_report": false,
       "last_mention": "2026-06-16",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 26,
       "report_score": 2773,
       "signal_terms": [
         "allocation",
@@ -954,6 +1010,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.4524,
       "company": "Micron",
       "evidence": [
         {
@@ -981,11 +1038,14 @@
           "url": "https://x.com/aleabitoreddit/status/1979976235825635419"
         }
       ],
+      "explicit_stance_days": 47,
+      "explicit_stance_posts": 76,
       "first_mention": "2025-09-25",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 74,
       "report_score": 2769,
       "signal_terms": [
         "allocation",
@@ -1022,6 +1082,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6721,
       "company": "Credo Technology",
       "evidence": [
         {
@@ -1049,11 +1110,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 32,
+      "explicit_stance_posts": 41,
       "first_mention": "2025-07-21",
       "has_report": false,
       "last_mention": "2026-03-20",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 40,
       "report_score": 2732,
       "signal_terms": [
         "allocation",
@@ -1090,6 +1154,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.1011,
       "company": "Alphabet",
       "evidence": [
         {
@@ -1117,11 +1182,14 @@
           "url": "https://x.com/aleabitoreddit/status/2042187668931616964"
         }
       ],
+      "explicit_stance_days": 24,
+      "explicit_stance_posts": 28,
       "first_mention": "2025-07-03",
       "has_report": false,
       "last_mention": "2026-06-16",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 27,
       "report_score": 2731,
       "signal_terms": [
         "allocation",
@@ -1158,6 +1226,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7215,
       "company": "Soitec",
       "evidence": [
         {
@@ -1185,11 +1254,14 @@
           "url": "https://x.com/aleabitoreddit/status/2031820871170736570"
         }
       ],
+      "explicit_stance_days": 64,
+      "explicit_stance_posts": 158,
       "first_mention": "2026-03-01",
       "has_report": false,
       "last_mention": "2026-06-20",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 155,
       "report_score": 2659,
       "signal_terms": [
         "allocation",
@@ -1226,6 +1298,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.2891,
       "company": "Intel",
       "evidence": [
         {
@@ -1253,11 +1326,14 @@
           "url": "https://x.com/aleabitoreddit/status/2042187668931616964"
         }
       ],
+      "explicit_stance_days": 28,
+      "explicit_stance_posts": 37,
       "first_mention": "2025-09-23",
       "has_report": false,
       "last_mention": "2026-06-20",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 36,
       "report_score": 2635,
       "signal_terms": [
         "allocation",
@@ -1294,6 +1370,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.581,
       "company": "SK Hynix",
       "evidence": [
         {
@@ -1321,11 +1398,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 35,
+      "explicit_stance_posts": 61,
       "first_mention": "2025-12-01",
       "has_report": false,
       "last_mention": "2026-06-18",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 61,
       "report_score": 2601,
       "signal_terms": [
         "allocation",
@@ -1360,10 +1440,11 @@
       ]
     }
   ],
-  "data_generated_at": "2026-06-23T08:54:40.809178+00:00",
+  "data_generated_at": "2026-07-01T10:59:15.982882+00:00",
   "decisions": [
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.2353,
       "company": "Amazon",
       "evidence": [
         {
@@ -1391,11 +1472,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 33,
+      "explicit_stance_posts": 52,
       "first_mention": "2025-07-28",
       "has_report": false,
       "last_mention": "2026-06-16",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 51,
       "report_score": 3110,
       "signal_terms": [
         "allocation",
@@ -1432,6 +1516,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.5312,
       "company": "Rocket Lab",
       "evidence": [
         {
@@ -1459,11 +1544,14 @@
           "url": "https://x.com/aleabitoreddit/status/2015096496019112151"
         }
       ],
+      "explicit_stance_days": 55,
+      "explicit_stance_posts": 85,
       "first_mention": "2025-07-03",
       "has_report": false,
       "last_mention": "2026-06-20",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 77,
       "report_score": 3091,
       "signal_terms": [
         "allocation",
@@ -1500,6 +1588,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.3164,
       "company": "Meta",
       "evidence": [
         {
@@ -1527,11 +1616,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 43,
+      "explicit_stance_posts": 81,
       "first_mention": "2025-07-28",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 81,
       "report_score": 3054,
       "signal_terms": [
         "allocation",
@@ -1568,6 +1660,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6452,
       "company": "TeraWulf",
       "evidence": [
         {
@@ -1595,11 +1688,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 34,
+      "explicit_stance_posts": 60,
       "first_mention": "2025-09-03",
       "has_report": false,
       "last_mention": "2026-06-11",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 59,
       "report_score": 2989,
       "signal_terms": [
         "allocation",
@@ -1636,6 +1732,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6071,
       "company": "Astera Labs",
       "evidence": [
         {
@@ -1663,11 +1760,14 @@
           "url": "https://x.com/aleabitoreddit/status/2006709693012467774"
         }
       ],
+      "explicit_stance_days": 39,
+      "explicit_stance_posts": 51,
       "first_mention": "2025-07-21",
       "has_report": false,
       "last_mention": "2026-06-12",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 49,
       "report_score": 2986,
       "signal_terms": [
         "allocation",
@@ -1704,6 +1804,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6735,
       "company": "Reddit",
       "evidence": [
         {
@@ -1731,11 +1832,14 @@
           "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
         }
       ],
+      "explicit_stance_days": 56,
+      "explicit_stance_posts": 99,
       "first_mention": "2025-09-14",
       "has_report": false,
       "last_mention": "2026-06-20",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 98,
       "report_score": 2979,
       "signal_terms": [
         "allocation",
@@ -1772,6 +1876,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.3594,
       "company": "Oracle",
       "evidence": [
         {
@@ -1799,11 +1904,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 25,
+      "explicit_stance_posts": 46,
       "first_mention": "2025-09-09",
       "has_report": false,
       "last_mention": "2026-06-16",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 46,
       "report_score": 2967,
       "signal_terms": [
         "allocation",
@@ -1840,6 +1948,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7361,
       "company": "Hims & Hers",
       "evidence": [
         {
@@ -1867,11 +1976,14 @@
           "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
         }
       ],
+      "explicit_stance_days": 47,
+      "explicit_stance_posts": 106,
       "first_mention": "2025-07-07",
       "has_report": false,
       "last_mention": "2026-05-30",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 105,
       "report_score": 2946,
       "signal_terms": [
         "allocation",
@@ -1908,6 +2020,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7083,
       "company": "Snap",
       "evidence": [
         {
@@ -1935,11 +2048,14 @@
           "url": "https://x.com/aleabitoreddit/status/1991452423186182524"
         }
       ],
+      "explicit_stance_days": 31,
+      "explicit_stance_posts": 51,
       "first_mention": "2025-08-23",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 51,
       "report_score": 2943,
       "signal_terms": [
         "allocation",
@@ -1976,6 +2092,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.0942,
       "company": "NVIDIA",
       "evidence": [
         {
@@ -2003,11 +2120,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 31,
+      "explicit_stance_posts": 44,
       "first_mention": "2025-07-21",
       "has_report": false,
       "last_mention": "2026-06-21",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 42,
       "report_score": 2913,
       "signal_terms": [
         "allocation",
@@ -2044,6 +2164,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6796,
       "company": "IQE plc",
       "evidence": [
         {
@@ -2071,11 +2192,14 @@
           "url": "https://x.com/aleabitoreddit/status/2066535221554733278"
         }
       ],
+      "explicit_stance_days": 57,
+      "explicit_stance_posts": 123,
       "first_mention": "2025-12-27",
       "has_report": false,
       "last_mention": "2026-06-20",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 119,
       "report_score": 2901,
       "signal_terms": [
         "allocation",
@@ -2112,6 +2236,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.5147,
       "company": "Super Micro",
       "evidence": [
         {
@@ -2139,11 +2264,14 @@
           "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
         }
       ],
+      "explicit_stance_days": 25,
+      "explicit_stance_posts": 35,
       "first_mention": "2025-09-09",
       "has_report": false,
       "last_mention": "2026-05-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 34,
       "report_score": 2840,
       "signal_terms": [
         "allocation",
@@ -2180,6 +2308,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.3103,
       "company": "Robinhood",
       "evidence": [
         {
@@ -2207,11 +2336,14 @@
           "url": "https://x.com/aleabitoreddit/status/1991452423186182524"
         }
       ],
+      "explicit_stance_days": 41,
+      "explicit_stance_posts": 54,
       "first_mention": "2025-07-02",
       "has_report": false,
       "last_mention": "2026-06-21",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 49,
       "report_score": 2792,
       "signal_terms": [
         "allocation",
@@ -2248,6 +2380,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.1929,
       "company": "Broadcom",
       "evidence": [
         {
@@ -2275,11 +2408,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 23,
+      "explicit_stance_posts": 27,
       "first_mention": "2025-09-09",
       "has_report": false,
       "last_mention": "2026-06-16",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 26,
       "report_score": 2773,
       "signal_terms": [
         "allocation",
@@ -2316,6 +2452,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.4524,
       "company": "Micron",
       "evidence": [
         {
@@ -2343,11 +2480,14 @@
           "url": "https://x.com/aleabitoreddit/status/1979976235825635419"
         }
       ],
+      "explicit_stance_days": 47,
+      "explicit_stance_posts": 76,
       "first_mention": "2025-09-25",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 74,
       "report_score": 2769,
       "signal_terms": [
         "allocation",
@@ -2384,6 +2524,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6721,
       "company": "Credo Technology",
       "evidence": [
         {
@@ -2411,11 +2552,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 32,
+      "explicit_stance_posts": 41,
       "first_mention": "2025-07-21",
       "has_report": false,
       "last_mention": "2026-03-20",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 40,
       "report_score": 2732,
       "signal_terms": [
         "allocation",
@@ -2452,6 +2596,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.1011,
       "company": "Alphabet",
       "evidence": [
         {
@@ -2479,11 +2624,14 @@
           "url": "https://x.com/aleabitoreddit/status/2042187668931616964"
         }
       ],
+      "explicit_stance_days": 24,
+      "explicit_stance_posts": 28,
       "first_mention": "2025-07-03",
       "has_report": false,
       "last_mention": "2026-06-16",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 27,
       "report_score": 2731,
       "signal_terms": [
         "allocation",
@@ -2520,6 +2668,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7215,
       "company": "Soitec",
       "evidence": [
         {
@@ -2547,11 +2696,14 @@
           "url": "https://x.com/aleabitoreddit/status/2031820871170736570"
         }
       ],
+      "explicit_stance_days": 64,
+      "explicit_stance_posts": 158,
       "first_mention": "2026-03-01",
       "has_report": false,
       "last_mention": "2026-06-20",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 155,
       "report_score": 2659,
       "signal_terms": [
         "allocation",
@@ -2588,6 +2740,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.2891,
       "company": "Intel",
       "evidence": [
         {
@@ -2615,11 +2768,14 @@
           "url": "https://x.com/aleabitoreddit/status/2042187668931616964"
         }
       ],
+      "explicit_stance_days": 28,
+      "explicit_stance_posts": 37,
       "first_mention": "2025-09-23",
       "has_report": false,
       "last_mention": "2026-06-20",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 36,
       "report_score": 2635,
       "signal_terms": [
         "allocation",
@@ -2656,6 +2812,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.581,
       "company": "SK Hynix",
       "evidence": [
         {
@@ -2683,11 +2840,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 35,
+      "explicit_stance_posts": 61,
       "first_mention": "2025-12-01",
       "has_report": false,
       "last_mention": "2026-06-18",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 61,
       "report_score": 2601,
       "signal_terms": [
         "allocation",
@@ -2723,6 +2883,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.2336,
       "company": "AMD",
       "evidence": [
         {
@@ -2750,11 +2911,14 @@
           "url": "https://x.com/aleabitoreddit/status/1975327662903337144"
         }
       ],
+      "explicit_stance_days": 18,
+      "explicit_stance_posts": 32,
       "first_mention": "2025-09-11",
       "has_report": false,
       "last_mention": "2026-06-21",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 31,
       "report_score": 2564,
       "signal_terms": [
         "allocation",
@@ -2791,6 +2955,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7021,
       "company": null,
       "evidence": [
         {
@@ -2818,11 +2983,14 @@
           "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
         }
       ],
+      "explicit_stance_days": 17,
+      "explicit_stance_posts": 33,
       "first_mention": "2025-09-14",
       "has_report": false,
       "last_mention": "2026-03-07",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 31,
       "report_score": 2545,
       "signal_terms": [
         "allocation",
@@ -2859,6 +3027,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.5669,
       "company": "Tower Semiconductor",
       "evidence": [
         {
@@ -2886,11 +3055,14 @@
           "url": "https://x.com/aleabitoreddit/status/2031820871170736570"
         }
       ],
+      "explicit_stance_days": 38,
+      "explicit_stance_posts": 72,
       "first_mention": "2026-02-10",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 72,
       "report_score": 2533,
       "signal_terms": [
         "allocation",
@@ -2927,6 +3099,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8333,
       "company": null,
       "evidence": [
         {
@@ -2954,11 +3127,14 @@
           "url": "https://x.com/aleabitoreddit/status/1989352983348589023"
         }
       ],
+      "explicit_stance_days": 16,
+      "explicit_stance_posts": 25,
       "first_mention": "2025-09-27",
       "has_report": false,
       "last_mention": "2026-05-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 25,
       "report_score": 2526,
       "signal_terms": [
         "allocation",
@@ -2995,6 +3171,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.0565,
       "company": "Microsoft",
       "evidence": [
         {
@@ -3022,11 +3199,14 @@
           "url": "https://x.com/aleabitoreddit/status/2023206956601876691"
         }
       ],
+      "explicit_stance_days": 16,
+      "explicit_stance_posts": 16,
       "first_mention": "2025-07-28",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 16,
       "report_score": 2498,
       "signal_terms": [
         "allocation",
@@ -3063,6 +3243,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.2714,
       "company": "POET Technologies",
       "evidence": [
         {
@@ -3090,11 +3271,14 @@
           "url": "https://x.com/aleabitoreddit/status/2032577275439485080"
         }
       ],
+      "explicit_stance_days": 26,
+      "explicit_stance_posts": 38,
       "first_mention": "2025-12-11",
       "has_report": false,
       "last_mention": "2026-06-21",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 37,
       "report_score": 2475,
       "signal_terms": [
         "allocation",
@@ -3131,6 +3315,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7174,
       "company": "eToro",
       "evidence": [
         {
@@ -3158,11 +3343,14 @@
           "url": "https://x.com/aleabitoreddit/status/1977079938835718513"
         }
       ],
+      "explicit_stance_days": 22,
+      "explicit_stance_posts": 33,
       "first_mention": "2025-08-23",
       "has_report": false,
       "last_mention": "2026-03-26",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 33,
       "report_score": 2464,
       "signal_terms": [
         "allocation",
@@ -3199,6 +3387,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8039,
       "company": "LightPath Technologies",
       "evidence": [
         {
@@ -3226,11 +3415,14 @@
           "url": "https://x.com/aleabitoreddit/status/2011496801548058735"
         }
       ],
+      "explicit_stance_days": 21,
+      "explicit_stance_posts": 41,
       "first_mention": "2026-01-14",
       "has_report": false,
       "last_mention": "2026-04-23",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 40,
       "report_score": 2448,
       "signal_terms": [
         "allocation",
@@ -3267,6 +3459,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8958,
       "company": null,
       "evidence": [
         {
@@ -3294,11 +3487,14 @@
           "url": "https://x.com/aleabitoreddit/status/1979976235825635419"
         }
       ],
+      "explicit_stance_days": 24,
+      "explicit_stance_posts": 43,
       "first_mention": "2025-10-08",
       "has_report": false,
       "last_mention": "2026-03-16",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 40,
       "report_score": 2435,
       "signal_terms": [
         "allocation",
@@ -3335,6 +3531,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7333,
       "company": "One Stop Systems",
       "evidence": [
         {
@@ -3362,11 +3559,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 21,
+      "explicit_stance_posts": 44,
       "first_mention": "2025-11-05",
       "has_report": false,
       "last_mention": "2026-05-23",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 44,
       "report_score": 2412,
       "signal_terms": [
         "allocation",
@@ -3402,6 +3602,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8113,
       "company": "Vishay Precision Group",
       "evidence": [
         {
@@ -3429,11 +3630,14 @@
           "url": "https://x.com/aleabitoreddit/status/2013895541277762034"
         }
       ],
+      "explicit_stance_days": 20,
+      "explicit_stance_posts": 43,
       "first_mention": "2026-01-20",
       "has_report": false,
       "last_mention": "2026-05-31",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 42,
       "report_score": 2369,
       "signal_terms": [
         "allocation",
@@ -3470,6 +3674,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8649,
       "company": "Fluence Energy",
       "evidence": [
         {
@@ -3497,11 +3702,14 @@
           "url": "https://x.com/aleabitoreddit/status/2054198288556109906"
         }
       ],
+      "explicit_stance_days": 20,
+      "explicit_stance_posts": 32,
       "first_mention": "2025-10-03",
       "has_report": false,
       "last_mention": "2026-06-01",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 29,
       "report_score": 2343,
       "signal_terms": [
         "allocation",
@@ -3538,6 +3746,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7857,
       "company": "Raspberry Pi Holdings",
       "evidence": [
         {
@@ -3565,11 +3774,14 @@
           "url": "https://x.com/aleabitoreddit/status/2044491122161160517"
         }
       ],
+      "explicit_stance_days": 32,
+      "explicit_stance_posts": 77,
       "first_mention": "2026-02-16",
       "has_report": false,
       "last_mention": "2026-06-20",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 77,
       "report_score": 2312,
       "signal_terms": [
         "amd",
@@ -3606,6 +3818,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6333,
       "company": "Rigetti Computing",
       "evidence": [
         {
@@ -3633,11 +3846,14 @@
           "url": "https://x.com/aleabitoreddit/status/1977079938835718513"
         }
       ],
+      "explicit_stance_days": 17,
+      "explicit_stance_posts": 19,
       "first_mention": "2025-10-03",
       "has_report": false,
       "last_mention": "2026-04-16",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 19,
       "report_score": 2284,
       "signal_terms": [
         "allocation",
@@ -3674,6 +3890,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8409,
       "company": null,
       "evidence": [
         {
@@ -3701,11 +3918,14 @@
           "url": "https://x.com/aleabitoreddit/status/2044491122161160517"
         }
       ],
+      "explicit_stance_days": 25,
+      "explicit_stance_posts": 37,
       "first_mention": "2026-04-08",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 36,
       "report_score": 2280,
       "signal_terms": [
         "amd",
@@ -3741,6 +3961,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.5806,
       "company": "Amkor Technology",
       "evidence": [
         {
@@ -3768,11 +3989,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 16,
+      "explicit_stance_posts": 18,
       "first_mention": "2025-10-19",
       "has_report": false,
       "last_mention": "2026-06-09",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 18,
       "report_score": 2271,
       "signal_terms": [
         "allocation",
@@ -3809,6 +4033,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.84,
       "company": "Valens Semiconductor",
       "evidence": [
         {
@@ -3836,11 +4061,14 @@
           "url": "https://x.com/aleabitoreddit/status/2025112091967811613"
         }
       ],
+      "explicit_stance_days": 18,
+      "explicit_stance_posts": 63,
       "first_mention": "2026-01-09",
       "has_report": false,
       "last_mention": "2026-04-11",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 62,
       "report_score": 2255,
       "signal_terms": [
         "allocation",
@@ -3877,6 +4105,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.875,
       "company": null,
       "evidence": [
         {
@@ -3904,11 +4133,14 @@
           "url": "https://x.com/aleabitoreddit/status/1977079938835718513"
         }
       ],
+      "explicit_stance_days": 19,
+      "explicit_stance_posts": 28,
       "first_mention": "2025-10-08",
       "has_report": false,
       "last_mention": "2026-04-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 28,
       "report_score": 2206,
       "signal_terms": [
         "amazon",
@@ -3944,6 +4176,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7018,
       "company": null,
       "evidence": [
         {
@@ -3971,11 +4204,14 @@
           "url": "https://x.com/aleabitoreddit/status/2058374522353672558"
         }
       ],
+      "explicit_stance_days": 28,
+      "explicit_stance_posts": 40,
       "first_mention": "2026-04-20",
       "has_report": false,
       "last_mention": "2026-06-20",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 39,
       "report_score": 2203,
       "signal_terms": [
         "allocation",
@@ -4011,6 +4247,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.2914,
       "company": "SanDisk",
       "evidence": [
         {
@@ -4038,11 +4275,14 @@
           "url": "https://x.com/aleabitoreddit/status/2058374522353672558"
         }
       ],
+      "explicit_stance_days": 29,
+      "explicit_stance_posts": 44,
       "first_mention": "2025-11-25",
       "has_report": false,
       "last_mention": "2026-06-21",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 44,
       "report_score": 2186,
       "signal_terms": [
         "allocation",
@@ -4078,6 +4318,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.36,
       "company": "Palantir",
       "evidence": [
         {
@@ -4105,11 +4346,14 @@
           "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
         }
       ],
+      "explicit_stance_days": 15,
+      "explicit_stance_posts": 18,
       "first_mention": "2025-07-28",
       "has_report": false,
       "last_mention": "2026-04-25",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 17,
       "report_score": 2177,
       "signal_terms": [
         "allocation",
@@ -4146,6 +4390,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6667,
       "company": "AeroVironment",
       "evidence": [
         {
@@ -4173,11 +4418,14 @@
           "url": "https://x.com/aleabitoreddit/status/2013376770121105710"
         }
       ],
+      "explicit_stance_days": 19,
+      "explicit_stance_posts": 28,
       "first_mention": "2026-01-02",
       "has_report": false,
       "last_mention": "2026-03-26",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 27,
       "report_score": 2169,
       "signal_terms": [
         "allocation",
@@ -4214,6 +4462,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.925,
       "company": null,
       "evidence": [
         {
@@ -4241,11 +4490,14 @@
           "url": "https://x.com/aleabitoreddit/status/2060536520952754374"
         }
       ],
+      "explicit_stance_days": 17,
+      "explicit_stance_posts": 37,
       "first_mention": "2026-05-27",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 35,
       "report_score": 2155,
       "signal_terms": [
         "ban",
@@ -4281,6 +4533,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.3766,
       "company": "Samsung Electronics",
       "evidence": [
         {
@@ -4308,11 +4561,14 @@
           "url": "https://x.com/aleabitoreddit/status/2030667380855083222"
         }
       ],
+      "explicit_stance_days": 22,
+      "explicit_stance_posts": 29,
       "first_mention": "2025-12-28",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 29,
       "report_score": 2152,
       "signal_terms": [
         "allocation",
@@ -4349,6 +4605,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8704,
       "company": "Shunsin Technology",
       "evidence": [
         {
@@ -4376,11 +4633,14 @@
           "url": "https://x.com/aleabitoreddit/status/2054412992000012555"
         }
       ],
+      "explicit_stance_days": 29,
+      "explicit_stance_posts": 47,
       "first_mention": "2026-04-10",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 47,
       "report_score": 2109,
       "signal_terms": [
         "amd",
@@ -4417,6 +4677,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.0662,
       "company": "Jabil",
       "evidence": [
         {
@@ -4444,11 +4705,14 @@
           "url": "https://x.com/aleabitoreddit/status/2066535221554733278"
         }
       ],
+      "explicit_stance_days": 8,
+      "explicit_stance_posts": 9,
       "first_mention": "2025-12-01",
       "has_report": false,
       "last_mention": "2026-06-21",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 9,
       "report_score": 2105,
       "signal_terms": [
         "allocation",
@@ -4483,6 +4747,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8158,
       "company": "FOCI Fiber Optic Communications",
       "evidence": [
         {
@@ -4510,11 +4775,14 @@
           "url": "https://x.com/aleabitoreddit/status/2067945397923037693"
         }
       ],
+      "explicit_stance_days": 17,
+      "explicit_stance_posts": 31,
       "first_mention": "2026-03-17",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 31,
       "report_score": 2083,
       "signal_terms": [
         "amzn",
@@ -4551,6 +4819,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.5278,
       "company": "Bakkt",
       "evidence": [
         {
@@ -4578,11 +4847,14 @@
           "url": "https://x.com/aleabitoreddit/status/2043399761253085257"
         }
       ],
+      "explicit_stance_days": 10,
+      "explicit_stance_posts": 19,
       "first_mention": "2025-07-03",
       "has_report": false,
       "last_mention": "2026-06-09",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 19,
       "report_score": 2053,
       "signal_terms": [
         "allocation",
@@ -4619,6 +4891,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7143,
       "company": "AIRO Group",
       "evidence": [
         {
@@ -4646,11 +4919,14 @@
           "url": "https://x.com/aleabitoreddit/status/2037061185263329434"
         }
       ],
+      "explicit_stance_days": 14,
+      "explicit_stance_posts": 25,
       "first_mention": "2026-01-02",
       "has_report": false,
       "last_mention": "2026-03-26",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 25,
       "report_score": 2039,
       "signal_terms": [
         "allocation",
@@ -4686,6 +4962,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.5312,
       "company": "Oklo",
       "evidence": [
         {
@@ -4713,11 +4990,14 @@
           "url": "https://x.com/aleabitoreddit/status/1979976235825635419"
         }
       ],
+      "explicit_stance_days": 15,
+      "explicit_stance_posts": 17,
       "first_mention": "2025-08-25",
       "has_report": false,
       "last_mention": "2025-12-14",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 17,
       "report_score": 2014,
       "signal_terms": [
         "amazon",
@@ -4754,6 +5034,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.1613,
       "company": "Tesla",
       "evidence": [
         {
@@ -4781,11 +5062,14 @@
           "url": "https://x.com/aleabitoreddit/status/2006709693012467774"
         }
       ],
+      "explicit_stance_days": 14,
+      "explicit_stance_posts": 15,
       "first_mention": "2025-08-25",
       "has_report": false,
       "last_mention": "2026-06-08",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 15,
       "report_score": 1990,
       "signal_terms": [
         "allocation",
@@ -4822,6 +5106,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8235,
       "company": null,
       "evidence": [
         {
@@ -4849,11 +5134,14 @@
           "url": "https://x.com/aleabitoreddit/status/1977079938835718513"
         }
       ],
+      "explicit_stance_days": 14,
+      "explicit_stance_posts": 14,
       "first_mention": "2025-09-14",
       "has_report": false,
       "last_mention": "2026-04-15",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 14,
       "report_score": 1980,
       "signal_terms": [
         "allocation",
@@ -4890,6 +5178,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.1299,
       "company": "MACOM Technology",
       "evidence": [
         {
@@ -4917,11 +5206,14 @@
           "url": "https://x.com/aleabitoreddit/status/2066535221554733278"
         }
       ],
+      "explicit_stance_days": 9,
+      "explicit_stance_posts": 10,
       "first_mention": "2026-01-10",
       "has_report": false,
       "last_mention": "2026-06-16",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 10,
       "report_score": 1970,
       "signal_terms": [
         "allocation",
@@ -4957,6 +5249,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.4545,
       "company": "Coinbase",
       "evidence": [
         {
@@ -4984,11 +5277,14 @@
           "url": "https://x.com/aleabitoreddit/status/1991452423186182524"
         }
       ],
+      "explicit_stance_days": 14,
+      "explicit_stance_posts": 15,
       "first_mention": "2025-07-02",
       "has_report": false,
       "last_mention": "2026-06-03",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 15,
       "report_score": 1965,
       "signal_terms": [
         "allocation",
@@ -5025,6 +5321,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.64,
       "company": "Arm Holdings",
       "evidence": [
         {
@@ -5052,11 +5349,14 @@
           "url": "https://x.com/aleabitoreddit/status/2046003874553901188"
         }
       ],
+      "explicit_stance_days": 17,
+      "explicit_stance_posts": 32,
       "first_mention": "2025-09-28",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 31,
       "report_score": 1956,
       "signal_terms": [
         "amazon",
@@ -5093,6 +5393,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8095,
       "company": null,
       "evidence": [
         {
@@ -5120,11 +5421,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 13,
+      "explicit_stance_posts": 17,
       "first_mention": "2025-09-27",
       "has_report": false,
       "last_mention": "2026-02-21",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 17,
       "report_score": 1910,
       "signal_terms": [
         "allocation",
@@ -5160,6 +5464,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.675,
       "company": null,
       "evidence": [
         {
@@ -5187,11 +5492,14 @@
           "url": "https://x.com/aleabitoreddit/status/1983030739332673923"
         }
       ],
+      "explicit_stance_days": 14,
+      "explicit_stance_posts": 27,
       "first_mention": "2025-09-08",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 27,
       "report_score": 1896,
       "signal_terms": [
         "allocation",
@@ -5228,6 +5536,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.4286,
       "company": null,
       "evidence": [
         {
@@ -5255,11 +5564,14 @@
           "url": "https://x.com/aleabitoreddit/status/1974283913905517009"
         }
       ],
+      "explicit_stance_days": 15,
+      "explicit_stance_posts": 18,
       "first_mention": "2025-07-02",
       "has_report": false,
       "last_mention": "2026-04-23",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 18,
       "report_score": 1861,
       "signal_terms": [
         "amazon",
@@ -5296,6 +5608,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7,
       "company": null,
       "evidence": [
         {
@@ -5323,11 +5636,14 @@
           "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
         }
       ],
+      "explicit_stance_days": 14,
+      "explicit_stance_posts": 14,
       "first_mention": "2025-08-25",
       "has_report": false,
       "last_mention": "2026-04-15",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 14,
       "report_score": 1857,
       "signal_terms": [
         "allocation",
@@ -5364,6 +5680,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.814,
       "company": "Upwork",
       "evidence": [
         {
@@ -5391,11 +5708,14 @@
           "url": "https://x.com/aleabitoreddit/status/1972769926302855553"
         }
       ],
+      "explicit_stance_days": 24,
+      "explicit_stance_posts": 35,
       "first_mention": "2025-07-02",
       "has_report": false,
       "last_mention": "2026-03-20",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 34,
       "report_score": 1841,
       "signal_terms": [
         "amazon",
@@ -5431,6 +5751,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.4688,
       "company": null,
       "evidence": [
         {
@@ -5458,11 +5779,14 @@
           "url": "https://x.com/aleabitoreddit/status/1977079938835718513"
         }
       ],
+      "explicit_stance_days": 9,
+      "explicit_stance_posts": 15,
       "first_mention": "2025-07-02",
       "has_report": false,
       "last_mention": "2026-05-14",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 14,
       "report_score": 1836,
       "signal_terms": [
         "allocation",
@@ -5498,6 +5822,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.125,
       "company": "GlobalFoundries",
       "evidence": [
         {
@@ -5525,11 +5850,14 @@
           "url": "https://x.com/aleabitoreddit/status/2039011647264903382"
         }
       ],
+      "explicit_stance_days": 6,
+      "explicit_stance_posts": 7,
       "first_mention": "2026-01-19",
       "has_report": false,
       "last_mention": "2026-06-21",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 7,
       "report_score": 1823,
       "signal_terms": [
         "allocation",
@@ -5565,6 +5893,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8438,
       "company": null,
       "evidence": [
         {
@@ -5592,11 +5921,14 @@
           "url": "https://x.com/aleabitoreddit/status/2047030798554132901"
         }
       ],
+      "explicit_stance_days": 20,
+      "explicit_stance_posts": 27,
       "first_mention": "2026-04-07",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 26,
       "report_score": 1821,
       "signal_terms": [
         "amd",
@@ -5632,6 +5964,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7647,
       "company": "nLIGHT",
       "evidence": [
         {
@@ -5659,11 +5992,14 @@
           "url": "https://x.com/aleabitoreddit/status/2029646649170219307"
         }
       ],
+      "explicit_stance_days": 10,
+      "explicit_stance_posts": 26,
       "first_mention": "2026-01-23",
       "has_report": false,
       "last_mention": "2026-05-25",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 26,
       "report_score": 1814,
       "signal_terms": [
         "allocation",
@@ -5700,6 +6036,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8889,
       "company": "WIN Semiconductors",
       "evidence": [
         {
@@ -5727,11 +6064,14 @@
           "url": "https://x.com/aleabitoreddit/status/2037387801285841118"
         }
       ],
+      "explicit_stance_days": 13,
+      "explicit_stance_posts": 24,
       "first_mention": "2026-03-27",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 23,
       "report_score": 1811,
       "signal_terms": [
         "amazon",
@@ -5767,6 +6107,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.9231,
       "company": null,
       "evidence": [
         {
@@ -5794,11 +6135,14 @@
           "url": "https://x.com/aleabitoreddit/status/1978365814941384882"
         }
       ],
+      "explicit_stance_days": 10,
+      "explicit_stance_posts": 24,
       "first_mention": "2025-09-29",
       "has_report": false,
       "last_mention": "2026-04-12",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 23,
       "report_score": 1799,
       "signal_terms": [
         "allocation",
@@ -5835,6 +6179,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6333,
       "company": null,
       "evidence": [
         {
@@ -5862,11 +6207,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007489901877436756"
         }
       ],
+      "explicit_stance_days": 10,
+      "explicit_stance_posts": 19,
       "first_mention": "2026-01-03",
       "has_report": false,
       "last_mention": "2026-04-23",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 19,
       "report_score": 1715,
       "signal_terms": [
         "allocation",
@@ -5903,6 +6251,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6,
       "company": null,
       "evidence": [
         {
@@ -5930,11 +6279,14 @@
           "url": "https://x.com/aleabitoreddit/status/1984293587295866986"
         }
       ],
+      "explicit_stance_days": 9,
+      "explicit_stance_posts": 15,
       "first_mention": "2025-09-17",
       "has_report": false,
       "last_mention": "2025-11-22",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 14,
       "report_score": 1711,
       "signal_terms": [
         "amazon",
@@ -5970,6 +6322,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.48,
       "company": null,
       "evidence": [
         {
@@ -5997,11 +6350,14 @@
           "url": "https://x.com/aleabitoreddit/status/1993123237136633899"
         }
       ],
+      "explicit_stance_days": 9,
+      "explicit_stance_posts": 12,
       "first_mention": "2025-09-17",
       "has_report": false,
       "last_mention": "2026-01-17",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 12,
       "report_score": 1708,
       "signal_terms": [
         "amazon",
@@ -6037,6 +6393,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.9474,
       "company": null,
       "evidence": [
         {
@@ -6064,11 +6421,14 @@
           "url": "https://x.com/aleabitoreddit/status/1978365814941384882"
         }
       ],
+      "explicit_stance_days": 12,
+      "explicit_stance_posts": 18,
       "first_mention": "2025-09-18",
       "has_report": false,
       "last_mention": "2026-01-11",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 18,
       "report_score": 1665,
       "signal_terms": [
         "amazon",
@@ -6105,6 +6465,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.2667,
       "company": "Ondas Holdings",
       "evidence": [
         {
@@ -6132,11 +6493,14 @@
           "url": "https://x.com/aleabitoreddit/status/2018185060353278016"
         }
       ],
+      "explicit_stance_days": 7,
+      "explicit_stance_posts": 8,
       "first_mention": "2025-09-17",
       "has_report": false,
       "last_mention": "2026-03-02",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 8,
       "report_score": 1657,
       "signal_terms": [
         "allocation",
@@ -6172,6 +6536,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6071,
       "company": null,
       "evidence": [
         {
@@ -6199,11 +6564,14 @@
           "url": "https://x.com/aleabitoreddit/status/1983399179759300943"
         }
       ],
+      "explicit_stance_days": 13,
+      "explicit_stance_posts": 17,
       "first_mention": "2025-10-19",
       "has_report": false,
       "last_mention": "2026-05-20",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 16,
       "report_score": 1628,
       "signal_terms": [
         "allocation",
@@ -6240,6 +6608,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8571,
       "company": null,
       "evidence": [
         {
@@ -6267,11 +6636,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 11,
+      "explicit_stance_posts": 12,
       "first_mention": "2025-09-26",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 12,
       "report_score": 1610,
       "signal_terms": [
         "allocation",
@@ -6308,6 +6680,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.52,
       "company": null,
       "evidence": [
         {
@@ -6335,11 +6708,14 @@
           "url": "https://x.com/aleabitoreddit/status/1983399179759300943"
         }
       ],
+      "explicit_stance_days": 11,
+      "explicit_stance_posts": 13,
       "first_mention": "2025-09-17",
       "has_report": false,
       "last_mention": "2026-05-13",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 11,
       "report_score": 1584,
       "signal_terms": [
         "amazon",
@@ -6375,6 +6751,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.5185,
       "company": null,
       "evidence": [
         {
@@ -6402,11 +6779,14 @@
           "url": "https://x.com/aleabitoreddit/status/1983399179759300943"
         }
       ],
+      "explicit_stance_days": 9,
+      "explicit_stance_posts": 14,
       "first_mention": "2025-10-29",
       "has_report": false,
       "last_mention": "2026-03-13",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 14,
       "report_score": 1507,
       "signal_terms": [
         "allocation",
@@ -6442,6 +6822,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.72,
       "company": null,
       "evidence": [
         {
@@ -6469,11 +6850,14 @@
           "url": "https://x.com/aleabitoreddit/status/1978365814941384882"
         }
       ],
+      "explicit_stance_days": 15,
+      "explicit_stance_posts": 18,
       "first_mention": "2025-07-02",
       "has_report": false,
       "last_mention": "2026-05-30",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 18,
       "report_score": 1494,
       "signal_terms": [
         "amazon",
@@ -6510,6 +6894,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.9,
       "company": null,
       "evidence": [
         {
@@ -6537,11 +6922,14 @@
           "url": "https://x.com/aleabitoreddit/status/1985885989219512580"
         }
       ],
+      "explicit_stance_days": 13,
+      "explicit_stance_posts": 18,
       "first_mention": "2025-07-03",
       "has_report": false,
       "last_mention": "2025-11-12",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 18,
       "report_score": 1476,
       "signal_terms": [
         "amazon",
@@ -6577,6 +6965,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6842,
       "company": null,
       "evidence": [
         {
@@ -6604,11 +6993,14 @@
           "url": "https://x.com/aleabitoreddit/status/1969151544320016527"
         }
       ],
+      "explicit_stance_days": 11,
+      "explicit_stance_posts": 13,
       "first_mention": "2025-09-03",
       "has_report": false,
       "last_mention": "2026-03-18",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 11,
       "report_score": 1419,
       "signal_terms": [
         "amazon",
@@ -6644,6 +7036,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6667,
       "company": null,
       "evidence": [
         {
@@ -6671,11 +7064,14 @@
           "url": "https://x.com/aleabitoreddit/status/1989258180552175977"
         }
       ],
+      "explicit_stance_days": 8,
+      "explicit_stance_posts": 12,
       "first_mention": "2025-09-03",
       "has_report": false,
       "last_mention": "2025-11-22",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 12,
       "report_score": 1402,
       "signal_terms": [
         "allocation",
@@ -6712,6 +7108,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.4231,
       "company": null,
       "evidence": [
         {
@@ -6739,11 +7136,14 @@
           "url": "https://x.com/aleabitoreddit/status/1972769926302855553"
         }
       ],
+      "explicit_stance_days": 10,
+      "explicit_stance_posts": 11,
       "first_mention": "2025-09-10",
       "has_report": false,
       "last_mention": "2026-06-10",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 8,
       "report_score": 1397,
       "signal_terms": [
         "amazon",
@@ -6779,6 +7179,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.2258,
       "company": "Novo Nordisk",
       "evidence": [
         {
@@ -6806,11 +7207,14 @@
           "url": "https://x.com/aleabitoreddit/status/1974283913905517009"
         }
       ],
+      "explicit_stance_days": 7,
+      "explicit_stance_posts": 7,
       "first_mention": "2025-08-23",
       "has_report": false,
       "last_mention": "2026-05-09",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 4,
       "report_score": 1359,
       "signal_terms": [
         "allocation",
@@ -6846,6 +7250,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.1,
       "company": null,
       "evidence": [
         {
@@ -6873,11 +7278,14 @@
           "url": "https://x.com/aleabitoreddit/status/2055822766600016238"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 3,
       "first_mention": "2026-02-25",
       "has_report": false,
       "last_mention": "2026-06-09",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 3,
       "report_score": 1355,
       "signal_terms": [
         "amd",
@@ -6912,6 +7320,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.875,
       "company": null,
       "evidence": [
         {
@@ -6939,11 +7348,14 @@
           "url": "https://x.com/aleabitoreddit/status/1968051910663118861"
         }
       ],
+      "explicit_stance_days": 8,
+      "explicit_stance_posts": 14,
       "first_mention": "2025-07-03",
       "has_report": false,
       "last_mention": "2026-01-02",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 13,
       "report_score": 1331,
       "signal_terms": [
         "amazon",
@@ -6980,6 +7392,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.4737,
       "company": null,
       "evidence": [
         {
@@ -7007,11 +7420,14 @@
           "url": "https://x.com/aleabitoreddit/status/2049604721766494640"
         }
       ],
+      "explicit_stance_days": 7,
+      "explicit_stance_posts": 9,
       "first_mention": "2026-01-22",
       "has_report": false,
       "last_mention": "2026-04-29",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 9,
       "report_score": 1328,
       "signal_terms": [
         "allocation",
@@ -7047,6 +7463,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8235,
       "company": null,
       "evidence": [
         {
@@ -7074,11 +7491,14 @@
           "url": "https://x.com/aleabitoreddit/status/1972016308662513748"
         }
       ],
+      "explicit_stance_days": 7,
+      "explicit_stance_posts": 14,
       "first_mention": "2025-09-18",
       "has_report": false,
       "last_mention": "2025-11-22",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 14,
       "report_score": 1304,
       "signal_terms": [
         "amazon",
@@ -7114,6 +7534,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7692,
       "company": null,
       "evidence": [
         {
@@ -7141,11 +7562,14 @@
           "url": "https://x.com/aleabitoreddit/status/2001240032099885381"
         }
       ],
+      "explicit_stance_days": 6,
+      "explicit_stance_posts": 10,
       "first_mention": "2025-11-04",
       "has_report": false,
       "last_mention": "2026-01-17",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 9,
       "report_score": 1279,
       "signal_terms": [
         "amazon",
@@ -7182,6 +7606,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.35,
       "company": null,
       "evidence": [
         {
@@ -7209,11 +7634,14 @@
           "url": "https://x.com/aleabitoreddit/status/1974283913905517009"
         }
       ],
+      "explicit_stance_days": 7,
+      "explicit_stance_posts": 7,
       "first_mention": "2025-07-31",
       "has_report": false,
       "last_mention": "2026-04-12",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 5,
       "report_score": 1233,
       "signal_terms": [
         "amazon",
@@ -7248,6 +7676,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7059,
       "company": null,
       "evidence": [
         {
@@ -7275,11 +7704,14 @@
           "url": "https://x.com/aleabitoreddit/status/1973188544186425368"
         }
       ],
+      "explicit_stance_days": 12,
+      "explicit_stance_posts": 12,
       "first_mention": "2025-09-10",
       "has_report": false,
       "last_mention": "2026-05-15",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 12,
       "report_score": 1226,
       "signal_terms": [
         "amazon",
@@ -7315,6 +7747,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.1379,
       "company": null,
       "evidence": [
         {
@@ -7342,11 +7775,14 @@
           "url": "https://x.com/aleabitoreddit/status/2055822766600016238"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 4,
       "first_mention": "2025-10-06",
       "has_report": false,
       "last_mention": "2026-06-20",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 4,
       "report_score": 1207,
       "signal_terms": [
         "amazon",
@@ -7381,6 +7817,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6154,
       "company": null,
       "evidence": [
         {
@@ -7408,11 +7845,14 @@
           "url": "https://x.com/aleabitoreddit/status/2045228954584481951"
         }
       ],
+      "explicit_stance_days": 8,
+      "explicit_stance_posts": 8,
       "first_mention": "2025-12-01",
       "has_report": false,
       "last_mention": "2026-05-30",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 8,
       "report_score": 1180,
       "signal_terms": [
         "allocation",
@@ -7448,6 +7888,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.3043,
       "company": null,
       "evidence": [
         {
@@ -7475,11 +7916,14 @@
           "url": "https://x.com/aleabitoreddit/status/2031861089823228353"
         }
       ],
+      "explicit_stance_days": 5,
+      "explicit_stance_posts": 7,
       "first_mention": "2026-03-11",
       "has_report": false,
       "last_mention": "2026-05-12",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 7,
       "report_score": 1174,
       "signal_terms": [
         "amd",
@@ -7515,6 +7959,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8,
       "company": null,
       "evidence": [
         {
@@ -7542,11 +7987,14 @@
           "url": "https://x.com/aleabitoreddit/status/2012225583741063567"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 16,
       "first_mention": "2026-01-15",
       "has_report": false,
       "last_mention": "2026-02-03",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 16,
       "report_score": 1157,
       "signal_terms": [
         "ban",
@@ -7578,6 +8026,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.4,
       "company": null,
       "evidence": [
         {
@@ -7605,11 +8054,14 @@
           "url": "https://x.com/aleabitoreddit/status/1972769926302855553"
         }
       ],
+      "explicit_stance_days": 8,
+      "explicit_stance_posts": 10,
       "first_mention": "2025-09-27",
       "has_report": false,
       "last_mention": "2026-05-30",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 9,
       "report_score": 1145,
       "signal_terms": [
         "amazon",
@@ -7645,6 +8097,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.1509,
       "company": "Interactive Brokers",
       "evidence": [
         {
@@ -7672,11 +8125,14 @@
           "url": "https://x.com/aleabitoreddit/status/1983208571820290480"
         }
       ],
+      "explicit_stance_days": 6,
+      "explicit_stance_posts": 8,
       "first_mention": "2025-09-16",
       "has_report": false,
       "last_mention": "2026-05-20",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 8,
       "report_score": 1143,
       "signal_terms": [
         "amazon",
@@ -7712,6 +8168,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8571,
       "company": null,
       "evidence": [
         {
@@ -7739,11 +8196,14 @@
           "url": "https://x.com/aleabitoreddit/status/2020258804953411966"
         }
       ],
+      "explicit_stance_days": 6,
+      "explicit_stance_posts": 12,
       "first_mention": "2026-01-16",
       "has_report": false,
       "last_mention": "2026-03-26",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 12,
       "report_score": 1136,
       "signal_terms": [
         "allocation",
@@ -7779,6 +8239,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7857,
       "company": null,
       "evidence": [
         {
@@ -7806,11 +8267,14 @@
           "url": "https://x.com/aleabitoreddit/status/1992181846134968633"
         }
       ],
+      "explicit_stance_days": 10,
+      "explicit_stance_posts": 11,
       "first_mention": "2025-07-02",
       "has_report": false,
       "last_mention": "2025-11-22",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 9,
       "report_score": 1111,
       "signal_terms": [
         "amazon",
@@ -7846,6 +8310,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6364,
       "company": null,
       "evidence": [
         {
@@ -7873,11 +8338,14 @@
           "url": "https://x.com/aleabitoreddit/status/2006709693012467774"
         }
       ],
+      "explicit_stance_days": 7,
+      "explicit_stance_posts": 7,
       "first_mention": "2025-09-03",
       "has_report": false,
       "last_mention": "2026-06-11",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 7,
       "report_score": 1102,
       "signal_terms": [
         "allocation",
@@ -7913,6 +8381,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6923,
       "company": null,
       "evidence": [
         {
@@ -7940,11 +8409,14 @@
           "url": "https://x.com/aleabitoreddit/status/2067945397923037693"
         }
       ],
+      "explicit_stance_days": 6,
+      "explicit_stance_posts": 9,
       "first_mention": "2026-02-15",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 9,
       "report_score": 1027,
       "signal_terms": [
         "bottleneck",
@@ -7979,6 +8451,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.5294,
       "company": null,
       "evidence": [
         {
@@ -8006,11 +8479,14 @@
           "url": "https://x.com/aleabitoreddit/status/2058644487224848654"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 9,
       "first_mention": "2026-02-09",
       "has_report": false,
       "last_mention": "2026-06-15",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 9,
       "report_score": 1025,
       "signal_terms": [
         "allocation",
@@ -8046,6 +8522,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6429,
       "company": null,
       "evidence": [
         {
@@ -8073,11 +8550,14 @@
           "url": "https://x.com/aleabitoreddit/status/2010421989148852402"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 9,
       "first_mention": "2025-12-10",
       "has_report": false,
       "last_mention": "2026-02-08",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 9,
       "report_score": 1019,
       "signal_terms": [
         "amazon",
@@ -8113,6 +8593,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7692,
       "company": null,
       "evidence": [
         {
@@ -8140,11 +8621,14 @@
           "url": "https://x.com/aleabitoreddit/status/2042797823574634991"
         }
       ],
+      "explicit_stance_days": 9,
+      "explicit_stance_posts": 10,
       "first_mention": "2026-03-25",
       "has_report": false,
       "last_mention": "2026-06-05",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 10,
       "report_score": 1012,
       "signal_terms": [
         "bottleneck",
@@ -8177,6 +8661,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.2333,
       "company": "Uber",
       "evidence": [
         {
@@ -8204,11 +8689,14 @@
           "url": "https://x.com/aleabitoreddit/status/1992984440960921604"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 7,
       "first_mention": "2025-11-24",
       "has_report": false,
       "last_mention": "2026-03-01",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 7,
       "report_score": 1007,
       "signal_terms": [
         "amazon",
@@ -8243,6 +8731,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6154,
       "company": null,
       "evidence": [
         {
@@ -8270,11 +8759,14 @@
           "url": "https://x.com/aleabitoreddit/status/1974283913905517009"
         }
       ],
+      "explicit_stance_days": 7,
+      "explicit_stance_posts": 8,
       "first_mention": "2025-09-25",
       "has_report": false,
       "last_mention": "2026-02-27",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 6,
       "report_score": 963,
       "signal_terms": [
         "amazon",
@@ -8310,6 +8802,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.2667,
       "company": null,
       "evidence": [
         {
@@ -8337,11 +8830,14 @@
           "url": "https://x.com/aleabitoreddit/status/1985770241532838347"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 4,
       "first_mention": "2025-09-16",
       "has_report": false,
       "last_mention": "2026-05-29",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 3,
       "report_score": 958,
       "signal_terms": [
         "amazon",
@@ -8376,6 +8872,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8,
       "company": null,
       "evidence": [
         {
@@ -8403,11 +8900,14 @@
           "url": "https://x.com/aleabitoreddit/status/1983399179759300943"
         }
       ],
+      "explicit_stance_days": 6,
+      "explicit_stance_posts": 8,
       "first_mention": "2025-10-06",
       "has_report": false,
       "last_mention": "2025-12-14",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 7,
       "report_score": 912,
       "signal_terms": [
         "amazon",
@@ -8442,6 +8942,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.3571,
       "company": null,
       "evidence": [
         {
@@ -8469,11 +8970,14 @@
           "url": "https://x.com/aleabitoreddit/status/2015164232795627975"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 5,
       "first_mention": "2026-01-22",
       "has_report": false,
       "last_mention": "2026-05-10",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 5,
       "report_score": 907,
       "signal_terms": [
         "amd",
@@ -8509,6 +9013,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.9,
       "company": null,
       "evidence": [
         {
@@ -8536,11 +9041,14 @@
           "url": "https://x.com/aleabitoreddit/status/2056930958276985055"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 9,
       "first_mention": "2026-05-12",
       "has_report": false,
       "last_mention": "2026-05-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 9,
       "report_score": 906,
       "signal_terms": [
         "dilution",
@@ -8562,6 +9070,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.3846,
       "company": null,
       "evidence": [
         {
@@ -8589,11 +9098,14 @@
           "url": "https://x.com/aleabitoreddit/status/2049969772251709921"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 5,
       "first_mention": "2026-02-17",
       "has_report": false,
       "last_mention": "2026-05-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 5,
       "report_score": 894,
       "signal_terms": [
         "capacity",
@@ -8625,6 +9137,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.9,
       "company": null,
       "evidence": [
         {
@@ -8652,11 +9165,14 @@
           "url": "https://x.com/aleabitoreddit/status/2048687868919611836"
         }
       ],
+      "explicit_stance_days": 5,
+      "explicit_stance_posts": 9,
       "first_mention": "2026-04-27",
       "has_report": false,
       "last_mention": "2026-05-11",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 9,
       "report_score": 887,
       "signal_terms": [
         "ban",
@@ -8687,6 +9203,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8889,
       "company": null,
       "evidence": [
         {
@@ -8714,11 +9231,14 @@
           "url": "https://x.com/aleabitoreddit/status/2059079948980363774"
         }
       ],
+      "explicit_stance_days": 5,
+      "explicit_stance_posts": 8,
       "first_mention": "2026-04-14",
       "has_report": false,
       "last_mention": "2026-05-25",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 8,
       "report_score": 885,
       "signal_terms": [
         "amd",
@@ -8753,6 +9273,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.4286,
       "company": null,
       "evidence": [
         {
@@ -8780,11 +9301,14 @@
           "url": "https://x.com/aleabitoreddit/status/2026757923016487005"
         }
       ],
+      "explicit_stance_days": 5,
+      "explicit_stance_posts": 6,
       "first_mention": "2026-01-14",
       "has_report": false,
       "last_mention": "2026-05-06",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 6,
       "report_score": 883,
       "signal_terms": [
         "bottleneck",
@@ -8817,6 +9341,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.4444,
       "company": null,
       "evidence": [
         {
@@ -8844,11 +9369,14 @@
           "url": "https://x.com/aleabitoreddit/status/1967220652563439808"
         }
       ],
+      "explicit_stance_days": 8,
+      "explicit_stance_posts": 8,
       "first_mention": "2025-08-23",
       "has_report": false,
       "last_mention": "2026-03-17",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 8,
       "report_score": 862,
       "signal_terms": [
         "amd",
@@ -8881,6 +9409,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.4,
       "company": null,
       "evidence": [
         {
@@ -8908,11 +9437,14 @@
           "url": "https://x.com/aleabitoreddit/status/2047019381637677061"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 6,
       "first_mention": "2025-09-17",
       "has_report": false,
       "last_mention": "2026-06-14",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 4,
       "report_score": 862,
       "signal_terms": [
         "ban",
@@ -8945,6 +9477,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8889,
       "company": null,
       "evidence": [
         {
@@ -8972,11 +9505,14 @@
           "url": "https://x.com/aleabitoreddit/status/2005485130958430440"
         }
       ],
+      "explicit_stance_days": 5,
+      "explicit_stance_posts": 8,
       "first_mention": "2025-12-26",
       "has_report": false,
       "last_mention": "2026-01-06",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 8,
       "report_score": 853,
       "signal_terms": [
         "allocation",
@@ -9012,6 +9548,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6364,
       "company": null,
       "evidence": [
         {
@@ -9039,11 +9576,14 @@
           "url": "https://x.com/aleabitoreddit/status/2012228706576515101"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 7,
       "first_mention": "2026-01-02",
       "has_report": false,
       "last_mention": "2026-05-30",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 7,
       "report_score": 822,
       "signal_terms": [
         "allocation",
@@ -9078,6 +9618,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.4375,
       "company": null,
       "evidence": [
         {
@@ -9105,11 +9646,14 @@
           "url": "https://x.com/aleabitoreddit/status/1942229906341155068"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 7,
       "first_mention": "2025-07-03",
       "has_report": false,
       "last_mention": "2026-04-06",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 7,
       "report_score": 821,
       "signal_terms": [
         "capacity",
@@ -9139,6 +9683,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6667,
       "company": null,
       "evidence": [
         {
@@ -9166,11 +9711,14 @@
           "url": "https://x.com/aleabitoreddit/status/2051033642416361642"
         }
       ],
+      "explicit_stance_days": 6,
+      "explicit_stance_posts": 8,
       "first_mention": "2026-05-02",
       "has_report": false,
       "last_mention": "2026-06-16",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 8,
       "report_score": 807,
       "signal_terms": [
         "bottleneck",
@@ -9198,6 +9746,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8,
       "company": null,
       "evidence": [
         {
@@ -9225,11 +9774,14 @@
           "url": "https://x.com/aleabitoreddit/status/2063851425462173726"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 8,
       "first_mention": "2026-06-04",
       "has_report": false,
       "last_mention": "2026-06-17",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 8,
       "report_score": 803,
       "signal_terms": [
         "favorite",
@@ -9252,6 +9804,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.5,
       "company": null,
       "evidence": [
         {
@@ -9279,11 +9832,14 @@
           "url": "https://x.com/aleabitoreddit/status/1974283913905517009"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 5,
       "first_mention": "2025-10-03",
       "has_report": false,
       "last_mention": "2026-03-28",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 3,
       "report_score": 778,
       "signal_terms": [
         "amazon",
@@ -9319,6 +9875,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.2727,
       "company": null,
       "evidence": [
         {
@@ -9346,11 +9903,14 @@
           "url": "https://x.com/aleabitoreddit/status/2005485130958430440"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 3,
       "first_mention": "2025-12-28",
       "has_report": false,
       "last_mention": "2026-01-08",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 3,
       "report_score": 777,
       "signal_terms": [
         "allocation",
@@ -9385,6 +9945,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.875,
       "company": null,
       "evidence": [
         {
@@ -9412,11 +9973,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007758407948788162"
         }
       ],
+      "explicit_stance_days": 6,
+      "explicit_stance_posts": 7,
       "first_mention": "2026-01-04",
       "has_report": false,
       "last_mention": "2026-05-23",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 7,
       "report_score": 762,
       "signal_terms": [
         "allocation",
@@ -9444,6 +10008,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.5385,
       "company": null,
       "evidence": [
         {
@@ -9471,11 +10036,14 @@
           "url": "https://x.com/aleabitoreddit/status/1970883359627993438"
         }
       ],
+      "explicit_stance_days": 6,
+      "explicit_stance_posts": 7,
       "first_mention": "2025-07-28",
       "has_report": false,
       "last_mention": "2026-01-28",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 7,
       "report_score": 752,
       "signal_terms": [
         "amzn",
@@ -9509,6 +10077,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8,
       "company": null,
       "evidence": [
         {
@@ -9536,11 +10105,14 @@
           "url": "https://x.com/aleabitoreddit/status/2061980916323598838"
         }
       ],
+      "explicit_stance_days": 6,
+      "explicit_stance_posts": 8,
       "first_mention": "2026-04-29",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 7,
       "report_score": 692,
       "signal_terms": [
         "conviction",
@@ -9566,6 +10138,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.3333,
       "company": null,
       "evidence": [
         {
@@ -9593,11 +10166,14 @@
           "url": "https://x.com/aleabitoreddit/status/2027480850397573567"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 4,
       "first_mention": "2026-01-22",
       "has_report": false,
       "last_mention": "2026-06-18",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 4,
       "report_score": 679,
       "signal_terms": [
         "amzn",
@@ -9628,6 +10204,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.2,
       "company": null,
       "evidence": [
         {
@@ -9655,11 +10232,14 @@
           "url": "https://x.com/aleabitoreddit/status/2058577885754163382"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 3,
       "first_mention": "2026-01-18",
       "has_report": false,
       "last_mention": "2026-06-14",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 3,
       "report_score": 673,
       "signal_terms": [
         "ban",
@@ -9691,6 +10271,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.4286,
       "company": null,
       "evidence": [
         {
@@ -9718,11 +10299,14 @@
           "url": "https://x.com/aleabitoreddit/status/2032582703149887843"
         }
       ],
+      "explicit_stance_days": 5,
+      "explicit_stance_posts": 6,
       "first_mention": "2026-02-27",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 6,
       "report_score": 652,
       "signal_terms": [
         "bottleneck",
@@ -9751,6 +10335,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7,
       "company": null,
       "evidence": [
         {
@@ -9778,11 +10363,14 @@
           "url": "https://x.com/aleabitoreddit/status/2046175318109827319"
         }
       ],
+      "explicit_stance_days": 5,
+      "explicit_stance_posts": 7,
       "first_mention": "2026-01-01",
       "has_report": false,
       "last_mention": "2026-04-21",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 7,
       "report_score": 639,
       "signal_terms": [
         "bottleneck",
@@ -9809,6 +10397,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.3333,
       "company": null,
       "evidence": [
         {
@@ -9836,11 +10425,14 @@
           "url": "https://x.com/aleabitoreddit/status/1968558402344292701"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 4,
       "first_mention": "2025-07-23",
       "has_report": false,
       "last_mention": "2025-10-25",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 4,
       "report_score": 614,
       "signal_terms": [
         "amzn",
@@ -9870,6 +10462,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6,
       "company": null,
       "evidence": [
         {
@@ -9897,11 +10490,14 @@
           "url": "https://x.com/aleabitoreddit/status/1965763785899253895"
         }
       ],
+      "explicit_stance_days": 6,
+      "explicit_stance_posts": 6,
       "first_mention": "2025-09-09",
       "has_report": false,
       "last_mention": "2026-06-01",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 6,
       "report_score": 596,
       "signal_terms": [
         "conviction",
@@ -9927,6 +10523,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.5,
       "company": null,
       "evidence": [
         {
@@ -9954,11 +10551,14 @@
           "url": "https://x.com/aleabitoreddit/status/1984341310070038741"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 4,
       "first_mention": "2025-09-16",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "high",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 4,
       "report_score": 550,
       "signal_terms": [
         "amzn",
@@ -9988,6 +10588,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.875,
       "company": null,
       "evidence": [
         {
@@ -10015,11 +10616,14 @@
           "url": "https://x.com/aleabitoreddit/status/2011434143381618907"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 7,
       "first_mention": "2026-01-14",
       "has_report": false,
       "last_mention": "2026-03-08",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 7,
       "report_score": 1017,
       "signal_terms": [
         "allocation",
@@ -10056,6 +10660,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.4615,
       "company": null,
       "evidence": [
         {
@@ -10083,11 +10688,14 @@
           "url": "https://x.com/aleabitoreddit/status/1991506376342843438"
         }
       ],
+      "explicit_stance_days": 5,
+      "explicit_stance_posts": 6,
       "first_mention": "2025-11-20",
       "has_report": false,
       "last_mention": "2026-06-14",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 6,
       "report_score": 906,
       "signal_terms": [
         "amd",
@@ -10122,6 +10730,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.087,
       "company": null,
       "evidence": [
         {
@@ -10149,11 +10758,14 @@
           "url": "https://x.com/aleabitoreddit/status/2061348882685243497"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2026-02-18",
       "has_report": false,
       "last_mention": "2026-06-09",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 1,
       "report_score": 838,
       "signal_terms": [
         "amazon",
@@ -10188,6 +10800,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.3077,
       "company": null,
       "evidence": [
         {
@@ -10215,11 +10828,14 @@
           "url": "https://x.com/aleabitoreddit/status/2032929794275553400"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 4,
       "first_mention": "2026-01-22",
       "has_report": false,
       "last_mention": "2026-04-29",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 4,
       "report_score": 810,
       "signal_terms": [
         "amazon",
@@ -10255,6 +10871,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.3333,
       "company": null,
       "evidence": [
         {
@@ -10282,11 +10899,14 @@
           "url": "https://x.com/aleabitoreddit/status/1995865990341496999"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 4,
       "first_mention": "2025-07-03",
       "has_report": false,
       "last_mention": "2026-06-05",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 4,
       "report_score": 802,
       "signal_terms": [
         "amazon",
@@ -10323,6 +10943,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 1.0,
       "company": null,
       "evidence": [
         {
@@ -10350,11 +10971,14 @@
           "url": "https://x.com/aleabitoreddit/status/2054412992000012555"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 7,
       "first_mention": "2026-05-10",
       "has_report": false,
       "last_mention": "2026-05-25",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 6,
       "report_score": 788,
       "signal_terms": [
         "amazon",
@@ -10384,6 +11008,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.1053,
       "company": null,
       "evidence": [
         {
@@ -10411,11 +11036,14 @@
           "url": "https://x.com/aleabitoreddit/status/2027480850397573567"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2025-12-30",
       "has_report": false,
       "last_mention": "2026-06-17",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 2,
       "report_score": 776,
       "signal_terms": [
         "amazon",
@@ -10450,6 +11078,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8571,
       "company": null,
       "evidence": [
         {
@@ -10477,11 +11106,14 @@
           "url": "https://x.com/aleabitoreddit/status/1993283099162189962"
         }
       ],
+      "explicit_stance_days": 5,
+      "explicit_stance_posts": 6,
       "first_mention": "2025-10-29",
       "has_report": false,
       "last_mention": "2026-06-09",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 6,
       "report_score": 745,
       "signal_terms": [
         "allocation",
@@ -10517,6 +11149,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.3636,
       "company": null,
       "evidence": [
         {
@@ -10544,11 +11177,14 @@
           "url": "https://x.com/aleabitoreddit/status/2027106275881079067"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 4,
       "first_mention": "2026-01-22",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 4,
       "report_score": 706,
       "signal_terms": [
         "amd",
@@ -10584,6 +11220,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.2143,
       "company": null,
       "evidence": [
         {
@@ -10611,11 +11248,14 @@
           "url": "https://x.com/aleabitoreddit/status/2027637911097839997"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 3,
       "first_mention": "2026-01-03",
       "has_report": false,
       "last_mention": "2026-05-24",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 3,
       "report_score": 685,
       "signal_terms": [
         "amazon",
@@ -10650,6 +11290,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7,
       "company": null,
       "evidence": [
         {
@@ -10677,11 +11318,14 @@
           "url": "https://x.com/aleabitoreddit/status/2049529141083701417"
         }
       ],
+      "explicit_stance_days": 5,
+      "explicit_stance_posts": 7,
       "first_mention": "2026-04-27",
       "has_report": false,
       "last_mention": "2026-06-20",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 7,
       "report_score": 655,
       "signal_terms": [
         "chokepoint",
@@ -10708,6 +11352,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7143,
       "company": null,
       "evidence": [
         {
@@ -10735,11 +11380,14 @@
           "url": "https://x.com/aleabitoreddit/status/2020258804953411966"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 5,
       "first_mention": "2026-01-18",
       "has_report": false,
       "last_mention": "2026-02-21",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 5,
       "report_score": 654,
       "signal_terms": [
         "bottleneck",
@@ -10772,6 +11420,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6667,
       "company": null,
       "evidence": [
         {
@@ -10799,11 +11448,14 @@
           "url": "https://x.com/aleabitoreddit/status/2015549311732658520"
         }
       ],
+      "explicit_stance_days": 5,
+      "explicit_stance_posts": 6,
       "first_mention": "2026-01-23",
       "has_report": false,
       "last_mention": "2026-03-25",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 6,
       "report_score": 651,
       "signal_terms": [
         "ban",
@@ -10832,6 +11484,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6,
       "company": null,
       "evidence": [
         {
@@ -10859,11 +11512,14 @@
           "url": "https://x.com/aleabitoreddit/status/2015805598265479518"
         }
       ],
+      "explicit_stance_days": 5,
+      "explicit_stance_posts": 6,
       "first_mention": "2026-01-26",
       "has_report": false,
       "last_mention": "2026-04-09",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 6,
       "report_score": 646,
       "signal_terms": [
         "amazon",
@@ -10894,6 +11550,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.625,
       "company": null,
       "evidence": [
         {
@@ -10921,11 +11578,14 @@
           "url": "https://x.com/aleabitoreddit/status/1983791002436694520"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 5,
       "first_mention": "2025-10-27",
       "has_report": false,
       "last_mention": "2025-12-01",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 5,
       "report_score": 645,
       "signal_terms": [
         "amd",
@@ -10960,6 +11620,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.625,
       "company": null,
       "evidence": [
         {
@@ -10987,11 +11648,14 @@
           "url": "https://x.com/aleabitoreddit/status/2015746112981008822"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 5,
       "first_mention": "2026-01-02",
       "has_report": false,
       "last_mention": "2026-03-23",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 5,
       "report_score": 624,
       "signal_terms": [
         "allocation",
@@ -11027,6 +11691,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 1.0,
       "company": null,
       "evidence": [
         {
@@ -11054,11 +11719,14 @@
           "url": "https://x.com/aleabitoreddit/status/1972042892060537292"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 6,
       "first_mention": "2025-09-26",
       "has_report": false,
       "last_mention": "2025-10-30",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 6,
       "report_score": 621,
       "signal_terms": [
         "dilution",
@@ -11084,6 +11752,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.125,
       "company": null,
       "evidence": [
         {
@@ -11111,11 +11780,14 @@
           "url": "https://x.com/aleabitoreddit/status/2049767690425016780"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2026-01-24",
       "has_report": false,
       "last_mention": "2026-06-09",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 2,
       "report_score": 619,
       "signal_terms": [
         "amd",
@@ -11150,6 +11822,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 1.0,
       "company": null,
       "evidence": [
         {
@@ -11177,11 +11850,14 @@
           "url": "https://x.com/aleabitoreddit/status/2013391730410955200"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 6,
       "first_mention": "2025-10-29",
       "has_report": false,
       "last_mention": "2026-01-19",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 6,
       "report_score": 616,
       "signal_terms": [
         "amd",
@@ -11209,6 +11885,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.75,
       "company": null,
       "evidence": [
         {
@@ -11236,11 +11913,14 @@
           "url": "https://x.com/aleabitoreddit/status/2051796147031949708"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 6,
       "first_mention": "2026-04-22",
       "has_report": false,
       "last_mention": "2026-05-05",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 6,
       "report_score": 604,
       "signal_terms": [
         "amd",
@@ -11268,6 +11948,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.4444,
       "company": null,
       "evidence": [
         {
@@ -11295,11 +11976,14 @@
           "url": "https://x.com/aleabitoreddit/status/1973102864701726752"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 4,
       "first_mention": "2025-09-26",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 3,
       "report_score": 601,
       "signal_terms": [
         "amazon",
@@ -11330,6 +12014,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.4,
       "company": null,
       "evidence": [
         {
@@ -11357,11 +12042,14 @@
           "url": "https://x.com/aleabitoreddit/status/1993283099162189962"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 4,
       "first_mention": "2025-09-17",
       "has_report": false,
       "last_mention": "2026-02-21",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 4,
       "report_score": 584,
       "signal_terms": [
         "amazon",
@@ -11396,6 +12084,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 1.0,
       "company": null,
       "evidence": [
         {
@@ -11423,11 +12112,14 @@
           "url": "https://x.com/aleabitoreddit/status/1978348921165402239"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 6,
       "first_mention": "2025-10-10",
       "has_report": false,
       "last_mention": "2025-10-15",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 6,
       "report_score": 582,
       "signal_terms": [
         "amazon",
@@ -11459,6 +12151,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.2143,
       "company": null,
       "evidence": [
         {
@@ -11486,11 +12179,14 @@
           "url": "https://x.com/aleabitoreddit/status/2027637911097839997"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 3,
       "first_mention": "2025-10-18",
       "has_report": false,
       "last_mention": "2026-03-28",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 3,
       "report_score": 582,
       "signal_terms": [
         "amzn",
@@ -11522,6 +12218,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7,
       "company": null,
       "evidence": [
         {
@@ -11549,11 +12246,14 @@
           "url": "https://x.com/aleabitoreddit/status/2031768855287394699"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 7,
       "first_mention": "2026-01-18",
       "has_report": false,
       "last_mention": "2026-03-13",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 7,
       "report_score": 580,
       "signal_terms": [
         "ban",
@@ -11579,6 +12279,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.2222,
       "company": null,
       "evidence": [
         {
@@ -11606,11 +12307,14 @@
           "url": "https://x.com/aleabitoreddit/status/2036536675413926123"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2025-10-10",
       "has_report": false,
       "last_mention": "2026-03-30",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 2,
       "report_score": 579,
       "signal_terms": [
         "amd",
@@ -11646,6 +12350,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.5,
       "company": null,
       "evidence": [
         {
@@ -11673,11 +12378,14 @@
           "url": "https://x.com/aleabitoreddit/status/1996810382875177099"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 3,
       "first_mention": "2025-12-01",
       "has_report": false,
       "last_mention": "2026-02-11",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 3,
       "report_score": 572,
       "signal_terms": [
         "allocation",
@@ -11712,6 +12420,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.75,
       "company": null,
       "evidence": [
         {
@@ -11739,11 +12448,14 @@
           "url": "https://x.com/aleabitoreddit/status/2054081061576131015"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 6,
       "first_mention": "2026-04-02",
       "has_report": false,
       "last_mention": "2026-06-15",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 6,
       "report_score": 562,
       "signal_terms": [
         "amd",
@@ -11771,6 +12483,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.2222,
       "company": null,
       "evidence": [
         {
@@ -11798,11 +12511,14 @@
           "url": "https://x.com/aleabitoreddit/status/2037698708612210693"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2026-03-13",
       "has_report": false,
       "last_mention": "2026-05-25",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 2,
       "report_score": 554,
       "signal_terms": [
         "bearish",
@@ -11835,6 +12551,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8571,
       "company": null,
       "evidence": [
         {
@@ -11862,11 +12579,14 @@
           "url": "https://x.com/aleabitoreddit/status/2036760616376107309"
         }
       ],
+      "explicit_stance_days": 5,
+      "explicit_stance_posts": 6,
       "first_mention": "2026-01-28",
       "has_report": false,
       "last_mention": "2026-05-09",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 6,
       "report_score": 551,
       "signal_terms": [
         "bottleneck",
@@ -11889,6 +12609,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.4286,
       "company": null,
       "evidence": [
         {
@@ -11916,11 +12637,14 @@
           "url": "https://x.com/aleabitoreddit/status/1985885989219512580"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 3,
       "first_mention": "2025-11-04",
       "has_report": false,
       "last_mention": "2026-05-20",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 3,
       "report_score": 537,
       "signal_terms": [
         "amazon",
@@ -11955,6 +12679,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.4545,
       "company": null,
       "evidence": [
         {
@@ -11982,11 +12707,14 @@
           "url": "https://x.com/aleabitoreddit/status/2037690441668419778"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 5,
       "first_mention": "2026-03-25",
       "has_report": false,
       "last_mention": "2026-05-17",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 5,
       "report_score": 533,
       "signal_terms": [
         "ban",
@@ -12010,6 +12738,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6,
       "company": null,
       "evidence": [
         {
@@ -12037,11 +12766,14 @@
           "url": "https://x.com/aleabitoreddit/status/2034559475533910175"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 3,
       "first_mention": "2025-12-16",
       "has_report": false,
       "last_mention": "2026-03-19",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 3,
       "report_score": 519,
       "signal_terms": [
         "amazon",
@@ -12077,6 +12809,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8333,
       "company": null,
       "evidence": [
         {
@@ -12104,11 +12837,14 @@
           "url": "https://x.com/aleabitoreddit/status/2066834785264337018"
         }
       ],
+      "explicit_stance_days": 5,
+      "explicit_stance_posts": 5,
       "first_mention": "2026-05-12",
       "has_report": false,
       "last_mention": "2026-06-16",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 5,
       "report_score": 508,
       "signal_terms": [
         "bottleneck",
@@ -12131,6 +12867,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.25,
       "company": null,
       "evidence": [
         {
@@ -12158,11 +12895,14 @@
           "url": "https://x.com/aleabitoreddit/status/2035552610078572849"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2025-12-22",
       "has_report": false,
       "last_mention": "2026-04-30",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 2,
       "report_score": 504,
       "signal_terms": [
         "amazon",
@@ -12197,6 +12937,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.6667,
       "company": null,
       "evidence": [
         {
@@ -12224,11 +12965,14 @@
           "url": "https://x.com/aleabitoreddit/status/2067662075066036313"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 4,
       "first_mention": "2026-01-12",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 4,
       "report_score": 502,
       "signal_terms": [
         "ban",
@@ -12257,6 +13001,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 1.0,
       "company": null,
       "evidence": [
         {
@@ -12284,11 +13029,14 @@
           "url": "https://x.com/aleabitoreddit/status/2051913276821487905"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 6,
       "first_mention": "2026-05-06",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 6,
       "report_score": 481,
       "signal_terms": [
         "holding",
@@ -12312,6 +13060,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7143,
       "company": null,
       "evidence": [
         {
@@ -12339,11 +13088,14 @@
           "url": "https://x.com/aleabitoreddit/status/1975954160949551426"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 5,
       "first_mention": "2025-10-08",
       "has_report": false,
       "last_mention": "2025-10-15",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 4,
       "report_score": 449,
       "signal_terms": [
         "amazon",
@@ -12373,6 +13125,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8,
       "company": null,
       "evidence": [
         {
@@ -12400,11 +13153,14 @@
           "url": "https://x.com/aleabitoreddit/status/2014740860714508739"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 4,
       "first_mention": "2026-01-23",
       "has_report": false,
       "last_mention": "2026-03-26",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 4,
       "report_score": 448,
       "signal_terms": [
         "amzn",
@@ -12432,6 +13188,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7143,
       "company": null,
       "evidence": [
         {
@@ -12459,11 +13216,14 @@
           "url": "https://x.com/aleabitoreddit/status/2018112505923670184"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 5,
       "first_mention": "2026-01-12",
       "has_report": false,
       "last_mention": "2026-02-26",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 5,
       "report_score": 443,
       "signal_terms": [
         "bottleneck",
@@ -12487,6 +13247,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.7143,
       "company": null,
       "evidence": [
         {
@@ -12514,11 +13275,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007472856574373893"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 5,
       "first_mention": "2026-01-03",
       "has_report": false,
       "last_mention": "2026-01-05",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 5,
       "report_score": 439,
       "signal_terms": [
         "allocation",
@@ -12544,6 +13308,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.25,
       "company": null,
       "evidence": [
         {
@@ -12571,11 +13336,14 @@
           "url": "https://x.com/aleabitoreddit/status/2018103859647037824"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2025-07-28",
       "has_report": false,
       "last_mention": "2026-02-16",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 2,
       "report_score": 421,
       "signal_terms": [
         "amazon",
@@ -12605,6 +13373,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.5714,
       "company": null,
       "evidence": [
         {
@@ -12632,11 +13401,14 @@
           "url": "https://x.com/aleabitoreddit/status/1965093748901380182"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 4,
       "first_mention": "2025-07-21",
       "has_report": false,
       "last_mention": "2025-09-10",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 3,
       "report_score": 390,
       "signal_terms": [
         "long",
@@ -12660,6 +13432,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 1.0,
       "company": null,
       "evidence": [
         {
@@ -12687,11 +13460,14 @@
           "url": "https://x.com/aleabitoreddit/status/1971409193543532715"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 6,
       "first_mention": "2025-09-17",
       "has_report": false,
       "last_mention": "2025-09-25",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 6,
       "report_score": 366,
       "signal_terms": [
         "conviction",
@@ -12710,6 +13486,7 @@
     },
     {
       "action": "write_new_thesis",
+      "author_signal_ratio": 0.8,
       "company": null,
       "evidence": [
         {
@@ -12737,11 +13514,14 @@
           "url": "https://x.com/aleabitoreddit/status/2021622271316742460"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 4,
       "first_mention": "2026-02-09",
       "has_report": false,
       "last_mention": "2026-02-27",
       "priority": "medium",
       "public_label": "撰寫新投資論點",
+      "reasoned_explicit_posts": 4,
       "report_score": 361,
       "signal_terms": [
         "bottleneck",
@@ -12764,6 +13544,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.0375,
       "company": "Apple",
       "evidence": [
         {
@@ -12791,11 +13572,14 @@
           "url": "https://x.com/aleabitoreddit/status/2049655082250314014"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 3,
       "first_mention": "2025-09-22",
       "has_report": false,
       "last_mention": "2026-06-18",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 1444,
       "signal_terms": [
         "allocation",
@@ -12831,6 +13615,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.5714,
       "company": null,
       "evidence": [
         {
@@ -12858,11 +13643,14 @@
           "url": "https://x.com/aleabitoreddit/status/1983399179759300943"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 4,
       "first_mention": "2025-09-30",
       "has_report": false,
       "last_mention": "2026-05-12",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 1,
       "report_score": 650,
       "signal_terms": [
         "amazon",
@@ -12897,6 +13685,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.6667,
       "company": null,
       "evidence": [
         {
@@ -12924,11 +13713,14 @@
           "url": "https://x.com/aleabitoreddit/status/1975314156372037970"
         }
       ],
+      "explicit_stance_days": 1,
+      "explicit_stance_posts": 6,
       "first_mention": "2025-10-06",
       "has_report": false,
       "last_mention": "2025-10-08",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 6,
       "report_score": 633,
       "signal_terms": [
         "amazon",
@@ -12960,6 +13752,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 1.0,
       "company": null,
       "evidence": [
         {
@@ -12987,11 +13780,14 @@
           "url": "https://x.com/aleabitoreddit/status/1977079938835718513"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 4,
       "first_mention": "2025-10-11",
       "has_report": false,
       "last_mention": "2025-10-19",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 629,
       "signal_terms": [
         "amazon",
@@ -13026,6 +13822,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.0,
       "company": null,
       "evidence": [
         {
@@ -13053,11 +13850,14 @@
           "url": "https://x.com/aleabitoreddit/status/2048301213943579012"
         }
       ],
+      "explicit_stance_days": 0,
+      "explicit_stance_posts": 0,
       "first_mention": "2026-03-16",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 0,
       "report_score": 628,
       "signal_terms": [
         "amd",
@@ -13091,6 +13891,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.8,
       "company": null,
       "evidence": [
         {
@@ -13118,11 +13919,14 @@
           "url": "https://x.com/aleabitoreddit/status/1972769926302855553"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 4,
       "first_mention": "2025-09-24",
       "has_report": false,
       "last_mention": "2025-10-15",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 1,
       "report_score": 611,
       "signal_terms": [
         "amazon",
@@ -13157,6 +13961,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.1,
       "company": null,
       "evidence": [
         {
@@ -13184,11 +13989,14 @@
           "url": "https://x.com/aleabitoreddit/status/2050093551313469467"
         }
       ],
+      "explicit_stance_days": 1,
+      "explicit_stance_posts": 1,
       "first_mention": "2026-01-12",
       "has_report": false,
       "last_mention": "2026-06-06",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 1,
       "report_score": 578,
       "signal_terms": [
         "amd",
@@ -13224,6 +14032,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.0,
       "company": null,
       "evidence": [
         {
@@ -13251,11 +14060,14 @@
           "url": "https://x.com/aleabitoreddit/status/2038163974437659019"
         }
       ],
+      "explicit_stance_days": 0,
+      "explicit_stance_posts": 0,
       "first_mention": "2025-09-10",
       "has_report": false,
       "last_mention": "2026-04-11",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 0,
       "report_score": 578,
       "signal_terms": [
         "amazon",
@@ -13290,6 +14102,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.5,
       "company": null,
       "evidence": [
         {
@@ -13317,11 +14130,14 @@
           "url": "https://x.com/aleabitoreddit/status/2039709630217994270"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 4,
       "first_mention": "2026-01-22",
       "has_report": false,
       "last_mention": "2026-04-23",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 4,
       "report_score": 568,
       "signal_terms": [
         "amzn",
@@ -13356,6 +14172,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.6,
       "company": null,
       "evidence": [
         {
@@ -13383,11 +14200,14 @@
           "url": "https://x.com/aleabitoreddit/status/2015124524749160480"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 3,
       "first_mention": "2026-01-23",
       "has_report": false,
       "last_mention": "2026-04-04",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 566,
       "signal_terms": [
         "allocation",
@@ -13423,6 +14243,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.7,
       "company": null,
       "evidence": [
         {
@@ -13450,11 +14271,14 @@
           "url": "https://x.com/aleabitoreddit/status/2044189972274786728"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 7,
       "first_mention": "2026-04-14",
       "has_report": false,
       "last_mention": "2026-05-31",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 7,
       "report_score": 553,
       "signal_terms": [
         "bottleneck",
@@ -13482,6 +14306,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 1.0,
       "company": null,
       "evidence": [
         {
@@ -13509,11 +14334,14 @@
           "url": "https://x.com/aleabitoreddit/status/2032929794275553400"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 4,
       "first_mention": "2026-01-24",
       "has_report": false,
       "last_mention": "2026-03-14",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 4,
       "report_score": 546,
       "signal_terms": [
         "allocation",
@@ -13549,6 +14377,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.0,
       "company": null,
       "evidence": [
         {
@@ -13576,11 +14405,14 @@
           "url": "https://x.com/aleabitoreddit/status/2036840136730935736"
         }
       ],
+      "explicit_stance_days": 0,
+      "explicit_stance_posts": 0,
       "first_mention": "2026-02-04",
       "has_report": false,
       "last_mention": "2026-05-10",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 0,
       "report_score": 545,
       "signal_terms": [
         "amd",
@@ -13613,6 +14445,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.6,
       "company": null,
       "evidence": [
         {
@@ -13640,11 +14473,14 @@
           "url": "https://x.com/aleabitoreddit/status/2009277084875538708"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 3,
       "first_mention": "2026-01-08",
       "has_report": false,
       "last_mention": "2026-01-24",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 541,
       "signal_terms": [
         "allocation",
@@ -13679,6 +14515,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.1111,
       "company": null,
       "evidence": [
         {
@@ -13706,11 +14543,14 @@
           "url": "https://x.com/aleabitoreddit/status/2059646212803051722"
         }
       ],
+      "explicit_stance_days": 1,
+      "explicit_stance_posts": 1,
       "first_mention": "2025-12-22",
       "has_report": false,
       "last_mention": "2026-06-09",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 1,
       "report_score": 496,
       "signal_terms": [
         "amazon",
@@ -13745,6 +14585,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.2222,
       "company": null,
       "evidence": [
         {
@@ -13772,11 +14613,14 @@
           "url": "https://x.com/aleabitoreddit/status/1968453391115321708"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2025-09-17",
       "has_report": false,
       "last_mention": "2026-04-09",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 2,
       "report_score": 485,
       "signal_terms": [
         "amazon",
@@ -13811,6 +14655,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.4,
       "company": null,
       "evidence": [
         {
@@ -13838,11 +14683,14 @@
           "url": "https://x.com/aleabitoreddit/status/2048449289152778686"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2026-04-09",
       "has_report": false,
       "last_mention": "2026-04-26",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 2,
       "report_score": 464,
       "signal_terms": [
         "amd",
@@ -13877,6 +14725,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.1667,
       "company": null,
       "evidence": [
         {
@@ -13904,11 +14753,14 @@
           "url": "https://x.com/aleabitoreddit/status/2020926882624176300"
         }
       ],
+      "explicit_stance_days": 1,
+      "explicit_stance_posts": 1,
       "first_mention": "2026-01-15",
       "has_report": false,
       "last_mention": "2026-05-12",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 1,
       "report_score": 459,
       "signal_terms": [
         "allocation",
@@ -13944,6 +14796,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 1.0,
       "company": null,
       "evidence": [
         {
@@ -13971,11 +14824,14 @@
           "url": "https://x.com/aleabitoreddit/status/2039894556871913726"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 4,
       "first_mention": "2026-04-02",
       "has_report": false,
       "last_mention": "2026-04-23",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 4,
       "report_score": 453,
       "signal_terms": [
         "amzn",
@@ -14006,6 +14862,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.0,
       "company": null,
       "evidence": [
         {
@@ -14033,11 +14890,14 @@
           "url": "https://x.com/aleabitoreddit/status/2047019381637677061"
         }
       ],
+      "explicit_stance_days": 0,
+      "explicit_stance_posts": 0,
       "first_mention": "2026-01-15",
       "has_report": false,
       "last_mention": "2026-06-09",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 0,
       "report_score": 450,
       "signal_terms": [
         "amd",
@@ -14069,6 +14929,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.125,
       "company": null,
       "evidence": [
         {
@@ -14096,11 +14957,14 @@
           "url": "https://x.com/aleabitoreddit/status/2050093551313469467"
         }
       ],
+      "explicit_stance_days": 1,
+      "explicit_stance_posts": 1,
       "first_mention": "2026-04-30",
       "has_report": false,
       "last_mention": "2026-05-28",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 1,
       "report_score": 439,
       "signal_terms": [
         "amazon",
@@ -14135,6 +14999,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.1667,
       "company": null,
       "evidence": [
         {
@@ -14162,11 +15027,14 @@
           "url": "https://x.com/aleabitoreddit/status/1990790641056731439"
         }
       ],
+      "explicit_stance_days": 1,
+      "explicit_stance_posts": 1,
       "first_mention": "2025-10-13",
       "has_report": false,
       "last_mention": "2026-02-27",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 1,
       "report_score": 436,
       "signal_terms": [
         "amazon",
@@ -14198,6 +15066,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 1.0,
       "company": null,
       "evidence": [
         {
@@ -14225,11 +15094,14 @@
           "url": "https://x.com/aleabitoreddit/status/2044862572088922469"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 4,
       "first_mention": "2026-04-10",
       "has_report": false,
       "last_mention": "2026-05-15",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 4,
       "report_score": 434,
       "signal_terms": [
         "ban",
@@ -14254,6 +15126,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.75,
       "company": null,
       "evidence": [
         {
@@ -14281,11 +15154,14 @@
           "url": "https://x.com/aleabitoreddit/status/2024135345542242531"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 3,
       "first_mention": "2026-02-18",
       "has_report": false,
       "last_mention": "2026-03-18",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 2,
       "report_score": 429,
       "signal_terms": [
         "bottleneck",
@@ -14315,6 +15191,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.2222,
       "company": null,
       "evidence": [
         {
@@ -14342,11 +15219,14 @@
           "url": "https://x.com/aleabitoreddit/status/2038774210601074790"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2026-01-26",
       "has_report": false,
       "last_mention": "2026-03-30",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 2,
       "report_score": 428,
       "signal_terms": [
         "amazon",
@@ -14377,6 +15257,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.5714,
       "company": null,
       "evidence": [
         {
@@ -14404,11 +15285,14 @@
           "url": "https://x.com/aleabitoreddit/status/2053859779035185310"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 4,
       "first_mention": "2026-03-17",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 4,
       "report_score": 423,
       "signal_terms": [
         "bottleneck",
@@ -14431,6 +15315,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.5,
       "company": null,
       "evidence": [
         {
@@ -14458,11 +15343,14 @@
           "url": "https://x.com/aleabitoreddit/status/1990832317766738346"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2025-11-18",
       "has_report": false,
       "last_mention": "2026-05-09",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 2,
       "report_score": 421,
       "signal_terms": [
         "amzn",
@@ -14494,6 +15382,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.6667,
       "company": null,
       "evidence": [
         {
@@ -14521,11 +15410,14 @@
           "url": "https://x.com/aleabitoreddit/status/2016494564790735121"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 4,
       "first_mention": "2025-11-04",
       "has_report": false,
       "last_mention": "2026-02-03",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 4,
       "report_score": 420,
       "signal_terms": [
         "amd",
@@ -14553,6 +15445,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.6667,
       "company": null,
       "evidence": [
         {
@@ -14580,11 +15473,14 @@
           "url": "https://x.com/aleabitoreddit/status/2015120952485625909"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 4,
       "first_mention": "2025-10-18",
       "has_report": false,
       "last_mention": "2026-01-29",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 4,
       "report_score": 419,
       "signal_terms": [
         "chokepoint",
@@ -14609,6 +15505,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.75,
       "company": null,
       "evidence": [
         {
@@ -14636,11 +15533,14 @@
           "url": "https://x.com/aleabitoreddit/status/2066404298163154976"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 3,
       "first_mention": "2026-06-13",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 414,
       "signal_terms": [
         "bottleneck",
@@ -14666,6 +15566,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.8,
       "company": null,
       "evidence": [
         {
@@ -14693,11 +15594,14 @@
           "url": "https://x.com/aleabitoreddit/status/2018112505923670184"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 4,
       "first_mention": "2026-01-25",
       "has_report": false,
       "last_mention": "2026-02-21",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 4,
       "report_score": 404,
       "signal_terms": [
         "holding",
@@ -14720,6 +15624,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.375,
       "company": null,
       "evidence": [
         {
@@ -14747,11 +15652,14 @@
           "url": "https://x.com/aleabitoreddit/status/1995559972525294001"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 3,
       "first_mention": "2025-12-01",
       "has_report": false,
       "last_mention": "2026-06-03",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 402,
       "signal_terms": [
         "amd",
@@ -14779,6 +15687,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.8,
       "company": null,
       "evidence": [
         {
@@ -14806,11 +15715,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007387427820978510"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 4,
       "first_mention": "2026-01-03",
       "has_report": false,
       "last_mention": "2026-01-06",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 4,
       "report_score": 385,
       "signal_terms": [
         "allocation",
@@ -14836,6 +15748,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.1111,
       "company": null,
       "evidence": [
         {
@@ -14863,11 +15776,14 @@
           "url": "https://x.com/aleabitoreddit/status/2030667380855083222"
         }
       ],
+      "explicit_stance_days": 1,
+      "explicit_stance_posts": 1,
       "first_mention": "2026-01-03",
       "has_report": false,
       "last_mention": "2026-03-30",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 1,
       "report_score": 382,
       "signal_terms": [
         "bottleneck",
@@ -14897,6 +15813,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.5,
       "company": null,
       "evidence": [
         {
@@ -14924,11 +15841,14 @@
           "url": "https://x.com/aleabitoreddit/status/2014515063370219836"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 3,
       "first_mention": "2026-01-08",
       "has_report": false,
       "last_mention": "2026-06-21",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 2,
       "report_score": 376,
       "signal_terms": [
         "amd",
@@ -14958,6 +15878,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 1.0,
       "company": null,
       "evidence": [
         {
@@ -14985,11 +15906,14 @@
           "url": "https://x.com/aleabitoreddit/status/2043513749924135386"
         }
       ],
+      "explicit_stance_days": 1,
+      "explicit_stance_posts": 5,
       "first_mention": "2026-04-12",
       "has_report": false,
       "last_mention": "2026-04-12",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 5,
       "report_score": 371,
       "signal_terms": [
         "margin",
@@ -15009,6 +15933,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.75,
       "company": null,
       "evidence": [
         {
@@ -15036,11 +15961,14 @@
           "url": "https://x.com/aleabitoreddit/status/2027192848786108543"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 3,
       "first_mention": "2026-02-02",
       "has_report": false,
       "last_mention": "2026-03-03",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 370,
       "signal_terms": [
         "amzn",
@@ -15065,6 +15993,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.75,
       "company": null,
       "evidence": [
         {
@@ -15092,11 +16021,14 @@
           "url": "https://x.com/aleabitoreddit/status/2048449289152778686"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 3,
       "first_mention": "2026-04-22",
       "has_report": false,
       "last_mention": "2026-05-05",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 369,
       "signal_terms": [
         "amd",
@@ -15123,6 +16055,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.4286,
       "company": null,
       "evidence": [
         {
@@ -15150,11 +16083,14 @@
           "url": "https://x.com/aleabitoreddit/status/2039391947417432469"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 3,
       "first_mention": "2026-03-17",
       "has_report": false,
       "last_mention": "2026-05-03",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 368,
       "signal_terms": [
         "ban",
@@ -15180,6 +16116,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.75,
       "company": null,
       "evidence": [
         {
@@ -15207,11 +16144,14 @@
           "url": "https://x.com/aleabitoreddit/status/1940698335398318450"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 3,
       "first_mention": "2025-07-03",
       "has_report": false,
       "last_mention": "2026-03-24",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 2,
       "report_score": 365,
       "signal_terms": [
         "amazon",
@@ -15243,6 +16183,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.3333,
       "company": null,
       "evidence": [
         {
@@ -15270,11 +16211,14 @@
           "url": "https://x.com/aleabitoreddit/status/2031055797086728366"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2025-12-31",
       "has_report": false,
       "last_mention": "2026-03-26",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 2,
       "report_score": 364,
       "signal_terms": [
         "allocation",
@@ -15302,6 +16246,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 1.0,
       "company": null,
       "evidence": [
         {
@@ -15329,11 +16274,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007823817889263721"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 4,
       "first_mention": "2026-01-03",
       "has_report": false,
       "last_mention": "2026-01-04",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 4,
       "report_score": 359,
       "signal_terms": [
         "allocation",
@@ -15356,6 +16304,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.5,
       "company": null,
       "evidence": [
         {
@@ -15383,11 +16332,14 @@
           "url": "https://x.com/aleabitoreddit/status/2009429709860507753"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2026-01-08",
       "has_report": false,
       "last_mention": "2026-03-28",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 2,
       "report_score": 355,
       "signal_terms": [
         "allocation",
@@ -15419,6 +16371,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 1.0,
       "company": null,
       "evidence": [
         {
@@ -15446,11 +16399,14 @@
           "url": "https://x.com/aleabitoreddit/status/2016681010793153018"
         }
       ],
+      "explicit_stance_days": 4,
+      "explicit_stance_posts": 4,
       "first_mention": "2026-01-28",
       "has_report": false,
       "last_mention": "2026-03-01",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 350,
       "signal_terms": [
         "ban",
@@ -15475,6 +16431,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.4286,
       "company": null,
       "evidence": [
         {
@@ -15502,11 +16459,14 @@
           "url": "https://x.com/aleabitoreddit/status/2017064502983086289"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 3,
       "first_mention": "2026-01-25",
       "has_report": false,
       "last_mention": "2026-06-19",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 344,
       "signal_terms": [
         "amd",
@@ -15528,6 +16488,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.0,
       "company": null,
       "evidence": [
         {
@@ -15555,11 +16516,14 @@
           "url": "https://x.com/aleabitoreddit/status/2015164232795627975"
         }
       ],
+      "explicit_stance_days": 0,
+      "explicit_stance_posts": 0,
       "first_mention": "2026-01-22",
       "has_report": false,
       "last_mention": "2026-06-09",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 0,
       "report_score": 324,
       "signal_terms": [
         "amd",
@@ -15587,6 +16551,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 1.0,
       "company": null,
       "evidence": [
         {
@@ -15614,11 +16579,14 @@
           "url": "https://x.com/aleabitoreddit/status/2036842706597789779"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 4,
       "first_mention": "2026-03-25",
       "has_report": false,
       "last_mention": "2026-03-26",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 4,
       "report_score": 321,
       "signal_terms": [
         "chokepoint",
@@ -15640,6 +16608,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.8,
       "company": null,
       "evidence": [
         {
@@ -15667,11 +16636,14 @@
           "url": "https://x.com/aleabitoreddit/status/1983872296675844478"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 4,
       "first_mention": "2025-10-29",
       "has_report": false,
       "last_mention": "2025-12-14",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 4,
       "report_score": 319,
       "signal_terms": [
         "amzn",
@@ -15694,6 +16666,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.3333,
       "company": null,
       "evidence": [
         {
@@ -15721,11 +16694,14 @@
           "url": "https://x.com/aleabitoreddit/status/2028754498710290457"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2026-02-27",
       "has_report": false,
       "last_mention": "2026-06-14",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 2,
       "report_score": 317,
       "signal_terms": [
         "bottleneck",
@@ -15751,6 +16727,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.8333,
       "company": null,
       "evidence": [
         {
@@ -15778,11 +16755,14 @@
           "url": "https://x.com/aleabitoreddit/status/2026148865217642588"
         }
       ],
+      "explicit_stance_days": 1,
+      "explicit_stance_posts": 5,
       "first_mention": "2026-02-24",
       "has_report": false,
       "last_mention": "2026-02-24",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 5,
       "report_score": 314,
       "signal_terms": [
         "ban",
@@ -15802,6 +16782,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.5,
       "company": null,
       "evidence": [
         {
@@ -15829,11 +16810,14 @@
           "url": "https://x.com/aleabitoreddit/status/2014672331092926620"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2025-09-16",
       "has_report": false,
       "last_mention": "2026-05-22",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 2,
       "report_score": 307,
       "signal_terms": [
         "ban",
@@ -15860,6 +16844,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.75,
       "company": null,
       "evidence": [
         {
@@ -15887,11 +16872,14 @@
           "url": "https://x.com/aleabitoreddit/status/2033898720027414616"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 3,
       "first_mention": "2025-10-05",
       "has_report": false,
       "last_mention": "2026-03-21",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 306,
       "signal_terms": [
         "amzn",
@@ -15917,6 +16905,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.5714,
       "company": null,
       "evidence": [
         {
@@ -15944,11 +16933,14 @@
           "url": "https://x.com/aleabitoreddit/status/2031449992981000333"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 4,
       "first_mention": "2026-01-24",
       "has_report": false,
       "last_mention": "2026-03-13",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 4,
       "report_score": 306,
       "signal_terms": [
         "ban",
@@ -15969,6 +16961,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.6,
       "company": null,
       "evidence": [
         {
@@ -15996,11 +16989,14 @@
           "url": "https://x.com/aleabitoreddit/status/2014370292441964667"
         }
       ],
+      "explicit_stance_days": 1,
+      "explicit_stance_posts": 3,
       "first_mention": "2025-12-14",
       "has_report": false,
       "last_mention": "2026-02-16",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 304,
       "signal_terms": [
         "margin",
@@ -16022,6 +17018,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 1.0,
       "company": null,
       "evidence": [
         {
@@ -16049,11 +17046,14 @@
           "url": "https://x.com/aleabitoreddit/status/2052185311351079359"
         }
       ],
+      "explicit_stance_days": 1,
+      "explicit_stance_posts": 4,
       "first_mention": "2026-05-06",
       "has_report": false,
       "last_mention": "2026-05-06",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 4,
       "report_score": 302,
       "signal_terms": [
         "dilution",
@@ -16075,6 +17075,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.5,
       "company": null,
       "evidence": [
         {
@@ -16102,11 +17103,14 @@
           "url": "https://x.com/aleabitoreddit/status/2020258804953411966"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2025-09-14",
       "has_report": false,
       "last_mention": "2026-02-07",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 2,
       "report_score": 302,
       "signal_terms": [
         "allocation",
@@ -16136,6 +17140,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.75,
       "company": null,
       "evidence": [
         {
@@ -16163,11 +17168,14 @@
           "url": "https://x.com/aleabitoreddit/status/2037085574813942094"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 3,
       "first_mention": "2026-03-26",
       "has_report": false,
       "last_mention": "2026-06-18",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 300,
       "signal_terms": [
         "bottleneck",
@@ -16191,6 +17199,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.4,
       "company": null,
       "evidence": [
         {
@@ -16218,11 +17227,14 @@
           "url": "https://x.com/aleabitoreddit/status/2012085118958231697"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2026-01-16",
       "has_report": false,
       "last_mention": "2026-05-26",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 2,
       "report_score": 295,
       "signal_terms": [
         "bottleneck",
@@ -16244,6 +17256,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.75,
       "company": null,
       "evidence": [
         {
@@ -16271,11 +17284,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007482618405945681"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 3,
       "first_mention": "2026-01-03",
       "has_report": false,
       "last_mention": "2026-01-05",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 285,
       "signal_terms": [
         "allocation",
@@ -16299,6 +17315,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.75,
       "company": null,
       "evidence": [
         {
@@ -16326,11 +17343,14 @@
           "url": "https://x.com/aleabitoreddit/status/1972150087817351182"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 3,
       "first_mention": "2025-09-28",
       "has_report": false,
       "last_mention": "2025-11-22",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 279,
       "signal_terms": [
         "capacity",
@@ -16356,6 +17376,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.4286,
       "company": null,
       "evidence": [
         {
@@ -16383,11 +17404,14 @@
           "url": "https://x.com/aleabitoreddit/status/2016590495968055600"
         }
       ],
+      "explicit_stance_days": 1,
+      "explicit_stance_posts": 3,
       "first_mention": "2026-01-18",
       "has_report": false,
       "last_mention": "2026-01-29",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 279,
       "signal_terms": [
         "bottleneck",
@@ -16409,6 +17433,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.0,
       "company": null,
       "evidence": [
         {
@@ -16436,11 +17461,14 @@
           "url": "https://x.com/aleabitoreddit/status/2059537337324085541"
         }
       ],
+      "explicit_stance_days": 0,
+      "explicit_stance_posts": 0,
       "first_mention": "2026-05-26",
       "has_report": false,
       "last_mention": "2026-06-14",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 0,
       "report_score": 272,
       "signal_terms": [
         "capacity",
@@ -16468,6 +17496,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.75,
       "company": null,
       "evidence": [
         {
@@ -16495,11 +17524,14 @@
           "url": "https://x.com/aleabitoreddit/status/2052203627364995474"
         }
       ],
+      "explicit_stance_days": 1,
+      "explicit_stance_posts": 3,
       "first_mention": "2026-05-06",
       "has_report": false,
       "last_mention": "2026-06-06",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 268,
       "signal_terms": [
         "amd",
@@ -16523,6 +17555,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.75,
       "company": null,
       "evidence": [
         {
@@ -16550,11 +17583,14 @@
           "url": "https://x.com/aleabitoreddit/status/2062322546809381094"
         }
       ],
+      "explicit_stance_days": 1,
+      "explicit_stance_posts": 3,
       "first_mention": "2026-06-03",
       "has_report": false,
       "last_mention": "2026-06-03",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 255,
       "signal_terms": [
         "amzn",
@@ -16578,6 +17614,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.0,
       "company": null,
       "evidence": [
         {
@@ -16605,11 +17642,14 @@
           "url": "https://x.com/aleabitoreddit/status/2036289688227684729"
         }
       ],
+      "explicit_stance_days": 0,
+      "explicit_stance_posts": 0,
       "first_mention": "2026-03-23",
       "has_report": false,
       "last_mention": "2026-05-05",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 0,
       "report_score": 254,
       "signal_terms": [
         "amazon",
@@ -16638,6 +17678,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.3333,
       "company": null,
       "evidence": [
         {
@@ -16665,11 +17706,14 @@
           "url": "https://x.com/aleabitoreddit/status/2036289688227684729"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2026-01-03",
       "has_report": false,
       "last_mention": "2026-03-23",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 2,
       "report_score": 252,
       "signal_terms": [
         "amzn",
@@ -16695,6 +17739,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.6,
       "company": null,
       "evidence": [
         {
@@ -16722,11 +17767,14 @@
           "url": "https://x.com/aleabitoreddit/status/1970599471068459323"
         }
       ],
+      "explicit_stance_days": 3,
+      "explicit_stance_posts": 3,
       "first_mention": "2025-09-18",
       "has_report": false,
       "last_mention": "2025-10-29",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 237,
       "signal_terms": [
         "conviction",
@@ -16745,6 +17793,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.75,
       "company": null,
       "evidence": [
         {
@@ -16772,11 +17821,14 @@
           "url": "https://x.com/aleabitoreddit/status/1940512568654942602"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 3,
       "first_mention": "2025-07-02",
       "has_report": false,
       "last_mention": "2025-09-19",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 3,
       "report_score": 231,
       "signal_terms": [
         "holding",
@@ -16797,6 +17849,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.4,
       "company": null,
       "evidence": [
         {
@@ -16824,11 +17877,14 @@
           "url": "https://x.com/aleabitoreddit/status/2027766785362301395"
         }
       ],
+      "explicit_stance_days": 2,
+      "explicit_stance_posts": 2,
       "first_mention": "2026-02-18",
       "has_report": false,
       "last_mention": "2026-02-28",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 2,
       "report_score": 231,
       "signal_terms": [
         "bottleneck",
@@ -16851,6 +17907,7 @@
     },
     {
       "action": "watch_for_more_signal",
+      "author_signal_ratio": 0.25,
       "company": null,
       "evidence": [
         {
@@ -16878,11 +17935,14 @@
           "url": "https://x.com/aleabitoreddit/status/2027766785362301395"
         }
       ],
+      "explicit_stance_days": 1,
+      "explicit_stance_posts": 1,
       "first_mention": "2026-01-03",
       "has_report": false,
       "last_mention": "2026-03-21",
       "priority": "low",
       "public_label": "觀察更多訊號",
+      "reasoned_explicit_posts": 1,
       "report_score": 230,
       "signal_terms": [
         "amzn",
@@ -16909,6 +17969,7 @@
     },
     {
       "action": "no_action",
+      "author_signal_ratio": 0.8163,
       "company": "Nebius",
       "evidence": [
         {
@@ -16936,11 +17997,14 @@
           "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
         }
       ],
+      "explicit_stance_days": 163,
+      "explicit_stance_posts": 622,
       "first_mention": "2025-07-21",
       "has_report": true,
       "last_mention": "2026-06-20",
       "priority": "none",
       "public_label": "暫無動作",
+      "reasoned_explicit_posts": 614,
       "report_score": 3662,
       "signal_terms": [
         "allocation",
@@ -16977,6 +18041,7 @@
     },
     {
       "action": "no_action",
+      "author_signal_ratio": 0.6545,
       "company": "IREN (Iris Energy)",
       "evidence": [
         {
@@ -17004,11 +18069,14 @@
           "url": "https://x.com/aleabitoreddit/status/2006709693012467774"
         }
       ],
+      "explicit_stance_days": 112,
+      "explicit_stance_posts": 286,
       "first_mention": "2025-08-31",
       "has_report": true,
       "last_mention": "2026-06-20",
       "priority": "none",
       "public_label": "暫無動作",
+      "reasoned_explicit_posts": 282,
       "report_score": 3495,
       "signal_terms": [
         "allocation",
@@ -17045,6 +18113,7 @@
     },
     {
       "action": "no_action",
+      "author_signal_ratio": 0.6877,
       "company": "AXT Inc",
       "evidence": [
         {
@@ -17072,11 +18141,14 @@
           "url": "https://x.com/aleabitoreddit/status/2006709693012467774"
         }
       ],
+      "explicit_stance_days": 117,
+      "explicit_stance_posts": 359,
       "first_mention": "2025-12-22",
       "has_report": true,
       "last_mention": "2026-06-20",
       "priority": "none",
       "public_label": "暫無動作",
+      "reasoned_explicit_posts": 358,
       "report_score": 3398,
       "signal_terms": [
         "allocation",
@@ -17113,6 +18185,7 @@
     },
     {
       "action": "no_action",
+      "author_signal_ratio": 0.8776,
       "company": "Sivers Semiconductor",
       "evidence": [
         {
@@ -17140,11 +18213,14 @@
           "url": "https://x.com/aleabitoreddit/status/2066535221554733278"
         }
       ],
+      "explicit_stance_days": 91,
+      "explicit_stance_posts": 602,
       "first_mention": "2025-12-23",
       "has_report": true,
       "last_mention": "2026-06-21",
       "priority": "none",
       "public_label": "暫無動作",
+      "reasoned_explicit_posts": 599,
       "report_score": 3351,
       "signal_terms": [
         "allocation",
@@ -17181,6 +18257,7 @@
     },
     {
       "action": "no_action",
+      "author_signal_ratio": 0.7129,
       "company": "Cipher Mining",
       "evidence": [
         {
@@ -17208,11 +18285,14 @@
           "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
         }
       ],
+      "explicit_stance_days": 57,
+      "explicit_stance_posts": 144,
       "first_mention": "2025-09-03",
       "has_report": true,
       "last_mention": "2026-06-11",
       "priority": "none",
       "public_label": "暫無動作",
+      "reasoned_explicit_posts": 143,
       "report_score": 3317,
       "signal_terms": [
         "allocation",
@@ -17249,6 +18329,7 @@
     },
     {
       "action": "no_action",
+      "author_signal_ratio": 0.6968,
       "company": "Applied Optoelectronics",
       "evidence": [
         {
@@ -17276,11 +18357,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 100,
+      "explicit_stance_posts": 301,
       "first_mention": "2025-12-11",
       "has_report": true,
       "last_mention": "2026-06-21",
       "priority": "none",
       "public_label": "暫無動作",
+      "reasoned_explicit_posts": 297,
       "report_score": 3210,
       "signal_terms": [
         "allocation",
@@ -17317,6 +18401,7 @@
     },
     {
       "action": "no_action",
+      "author_signal_ratio": 0.4628,
       "company": "CoreWeave",
       "evidence": [
         {
@@ -17344,11 +18429,14 @@
           "url": "https://x.com/aleabitoreddit/status/1989352983348589023"
         }
       ],
+      "explicit_stance_days": 47,
+      "explicit_stance_posts": 87,
       "first_mention": "2025-07-21",
       "has_report": true,
       "last_mention": "2026-06-16",
       "priority": "none",
       "public_label": "暫無動作",
+      "reasoned_explicit_posts": 87,
       "report_score": 3204,
       "signal_terms": [
         "allocation",
@@ -17385,6 +18473,7 @@
     },
     {
       "action": "no_action",
+      "author_signal_ratio": 0.4393,
       "company": "TSMC",
       "evidence": [
         {
@@ -17412,11 +18501,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 62,
+      "explicit_stance_posts": 94,
       "first_mention": "2025-09-09",
       "has_report": true,
       "last_mention": "2026-06-20",
       "priority": "none",
       "public_label": "暫無動作",
+      "reasoned_explicit_posts": 90,
       "report_score": 3201,
       "signal_terms": [
         "allocation",
@@ -17453,6 +18545,7 @@
     },
     {
       "action": "no_action",
+      "author_signal_ratio": 0.7778,
       "company": "Circle",
       "evidence": [
         {
@@ -17480,11 +18573,14 @@
           "url": "https://x.com/aleabitoreddit/status/1998846813177262295"
         }
       ],
+      "explicit_stance_days": 53,
+      "explicit_stance_posts": 77,
       "first_mention": "2025-07-03",
       "has_report": true,
       "last_mention": "2026-06-08",
       "priority": "none",
       "public_label": "暫無動作",
+      "reasoned_explicit_posts": 77,
       "report_score": 3133,
       "signal_terms": [
         "allocation",
@@ -17521,6 +18617,7 @@
     },
     {
       "action": "no_action",
+      "author_signal_ratio": 0.2599,
       "company": "Lumentum",
       "evidence": [
         {
@@ -17548,11 +18645,14 @@
           "url": "https://x.com/aleabitoreddit/status/2004936335702753729"
         }
       ],
+      "explicit_stance_days": 78,
+      "explicit_stance_posts": 131,
       "first_mention": "2025-10-25",
       "has_report": true,
       "last_mention": "2026-06-21",
       "priority": "none",
       "public_label": "暫無動作",
+      "reasoned_explicit_posts": 130,
       "report_score": 3039,
       "signal_terms": [
         "allocation",
@@ -17589,6 +18689,7 @@
     },
     {
       "action": "no_action",
+      "author_signal_ratio": 0.2692,
       "company": "Coherent",
       "evidence": [
         {
@@ -17616,11 +18717,14 @@
           "url": "https://x.com/aleabitoreddit/status/2004936335702753729"
         }
       ],
+      "explicit_stance_days": 43,
+      "explicit_stance_posts": 63,
       "first_mention": "2025-12-01",
       "has_report": true,
       "last_mention": "2026-06-21",
       "priority": "none",
       "public_label": "暫無動作",
+      "reasoned_explicit_posts": 63,
       "report_score": 2923,
       "signal_terms": [
         "allocation",
@@ -17657,6 +18761,7 @@
     },
     {
       "action": "no_action",
+      "author_signal_ratio": 0.2087,
       "company": "Marvell",
       "evidence": [
         {
@@ -17684,11 +18789,14 @@
           "url": "https://x.com/aleabitoreddit/status/2007071108831338685"
         }
       ],
+      "explicit_stance_days": 38,
+      "explicit_stance_posts": 53,
       "first_mention": "2025-08-25",
       "has_report": true,
       "last_mention": "2026-06-21",
       "priority": "none",
       "public_label": "暫無動作",
+      "reasoned_explicit_posts": 51,
       "report_score": 2880,
       "signal_terms": [
         "allocation",
@@ -17725,6 +18833,7 @@
     },
     {
       "action": "no_action",
+      "author_signal_ratio": 0.6694,
       "company": "Aehr Test Systems",
       "evidence": [
         {
@@ -17752,11 +18861,14 @@
           "url": "https://x.com/aleabitoreddit/status/2025112091967811613"
         }
       ],
+      "explicit_stance_days": 41,
+      "explicit_stance_posts": 83,
       "first_mention": "2026-01-16",
       "has_report": true,
       "last_mention": "2026-06-20",
       "priority": "none",
       "public_label": "暫無動作",
+      "reasoned_explicit_posts": 81,
       "report_score": 2491,
       "signal_terms": [
         "allocation",
@@ -17791,7 +18903,7 @@
       ]
     }
   ],
-  "generated_at": "2026-06-23T17:20:56Z",
+  "generated_at": "2026-07-01T10:59:19Z",
   "source_files": {
     "queue": "data/report_queue.json",
     "updates": "data/report_update_candidates.json"
