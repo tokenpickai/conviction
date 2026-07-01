@@ -1,5 +1,325 @@
 [
   {
+    "tweet_id": "2072459187943362861",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2072459187943362861",
+    "created_at": "Wed Jul 01 23:15:49 +0000 2026",
+    "text": "@Rajesh43104984 lmao",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ht",
+    "like_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 621,
+    "bookmark_count": 0,
+    "conversation_id": "2072448718633316671",
+    "is_reply": true,
+    "in_reply_to_id": "2072458824288723411",
+    "in_reply_to_username": "Rajesh43104984",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1252474808169709573",
+          "start": 0,
+          "username": "Rajesh43104984"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072458831217737932",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2072458831217737932",
+    "created_at": "Wed Jul 01 23:14:24 +0000 2026",
+    "text": "@Alex_Intel_ MTK is eating AVGO’s lunch.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 5,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 731,
+    "bookmark_count": 0,
+    "conversation_id": "2072448718633316671",
+    "is_reply": true,
+    "in_reply_to_id": "2072458269919170825",
+    "in_reply_to_username": "Alex_Intel_",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "2156030786",
+          "start": 0,
+          "username": "Alex_Intel_"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072455346367652223",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072455346367652223",
+    "created_at": "Wed Jul 01 23:00:33 +0000 2026",
+    "text": "RT @rennyzucker: Hi, it’s me. I’m the guy at Citrini whose job it is to go to the software store every once in a while. \n\nIt’s actually ama…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 17,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 4139,
+    "bookmark_count": 0,
+    "conversation_id": "2072455346367652223",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2072439725122629900",
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1158812701038194694",
+          "start": 3,
+          "username": "rennyzucker"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072449259182707129",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2072449259182707129",
+    "created_at": "Wed Jul 01 22:36:22 +0000 2026",
+    "text": "@TBU12345678 🤣",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 20,
+    "retweet_count": 1,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 2053,
+    "bookmark_count": 0,
+    "conversation_id": "2072441416886698204",
+    "is_reply": true,
+    "in_reply_to_id": "2072441416886698204",
+    "in_reply_to_username": "TBU12345678",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "1349795460",
+          "start": 0,
+          "username": "TBU12345678"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072448720826986584",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2072448720826986584",
+    "created_at": "Wed Jul 01 22:34:13 +0000 2026",
+    "text": "https://t.co/2OSAIAEqJ8",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 13,
+    "retweet_count": 1,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 7133,
+    "bookmark_count": 3,
+    "conversation_id": "2072448718633316671",
+    "is_reply": true,
+    "in_reply_to_id": "2072448718633316671",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "高通（Qualcomm）正式推出Dragonfly平台，高調宣示前進雲端AI市場，並帶著多種不同的產品線，一次收穫不少的客戶群。這幾年因為雲端特用晶片（ASIC）業務而備受期待的台系IC設計大廠聯發科，似乎又要和這個長年以來的宿敵，在ASIC領域開始競爭，供...",
+          "display_url": "digitimes.com.tw/tech/dt/n/shwn…",
+          "end": 23,
+          "expanded_url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=1&Cat=40&id=0000760482_LI83NSQF9QOOVR1XBAPK5",
+          "images": [
+            {
+              "height": 800,
+              "url": "https://pbs.twimg.com/news_img/2072433999495282688/GttQfkxZ?format=jpg&name=orig",
+              "width": 1200
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2072433999495282688/GttQfkxZ?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "無懼高通！　聯發科左手猛攻TPU、右手開拓ASIC「第二家客戶」",
+          "unwound_url": "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=1&Cat=40&id=0000760482_LI83NSQF9QOOVR1XBAPK5",
+          "url": "https://t.co/2OSAIAEqJ8"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072448718633316671",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072448718633316671",
+    "created_at": "Wed Jul 01 22:34:13 +0000 2026",
+    "text": "MediaTek Reportedly Secures Meta as ASIC Customer After TPU\n\nQualcomm has formally unveiled its Dragonfly platform, loudly declaring its entry into the cloud AI market, and by leading with several product lines at once it has captured a sizable base of customers in one stroke. MediaTek, the Taiwanese IC design heavyweight that has drawn high expectations in recent years for its cloud custom chip (ASIC) business, appears set to compete once again with this longtime rival in the ASIC arena. Word from the supply chain is that MediaTek's securing of a \"second customer\" beyond Google is already firm, and barring surprises, that customer will be Meta as rumored.\n\nMediaTek, by convention, does not publicly comment on individual products, customer situations, or market rumors.\n\nQualcomm currently appears to hold key major customers such as Meta, Microsoft, and even ByteDance. The industry view, however, is that MediaTek, which continues to deepen its cooperation with Google and stands a chance of locking in a second customer, is not in fact at a disadvantage.\n\nA semiconductor supply chain source stated flatly that, judging by the current ordering outlook of major cloud service providers (CSPs) for AI data centers and ASIC products and the pace of generational transition, Google remains to this day the major customer whose progress is the strongest and whose stance is the most aggressive.\n\nThis does not, of course, mean that orders from other CSPs are small in scale or that they might be delayed. Rather, it means that securing Google's orders more reliably guarantees the positive effect they will bring to earnings. Once the mass production schedule emerges, one can basically pin down how much more can be earned in that year, and the scale is above a certain level as well.\n\nMediaTek not only holds two products, code named Zebrafish and Humufish, but according to market related information and confirmation from industry sources well versed in ASICs, its participation in the v9 generation Triggerfish is now all but confirmed. This means that from late 2026 through 2028, and even into 2029, MediaTek can steadily reap the revenue contribution brought by TPU mass production.\n\nCompared with Qualcomm's stated 2029 cloud AI revenue target of 15 billion dollars, it appears that MediaTek, holding multiple TPU ASIC orders, reaching the 10 billion dollar level is only a matter of time.\n\nThat said, the industry is paying equal attention to whether MediaTek can smoothly secure a second key CSP major customer. Taking together the earlier market information and recent confirmation from the supply chain side, MediaTek is still actively cooperating with Meta on ASIC products, and the substance of that cooperation is likely still centered on AI accelerator chips.\n\nWhile Meta has struck cooperation deals with Arm and Qualcomm one after another during this period, those cooperation products were all aimed at CPUs, and on the self developed AI accelerator chip front there is still no clearer cooperation news. If MediaTek can land this customer, it will be of no small help to the subsequent growth of its ASIC business.\n\nIC design industry sources observe that Meta's recent cloud AI development strategy has indeed been somewhat chaotic and unclear. Its in house chip development plans have been repeatedly adjusted, and in the CPU segment alone it has sought out multiple cooperation partners and pursued different approaches.\n\nOn the AI accelerator chip front, although Meta has previously officially announced its cooperation plan with Broadcom, word from the supply side indicates that this has not interrupted the cooperation plan underway between MediaTek and Meta. Evidently Meta intends to develop products with as many cooperation partners as possible.\n\nIC design industry sources also emphasized that the cloud AI development blueprints of the two companies, MediaTek and Qualcomm, still look quite different. MediaTek is concentrating all its resources on the ASIC business, whereas Qualcomm intends to pursue customization and standardization in parallel, covering both AI accelerator chip and CPU product directions at once.\n\nThe differing plans for their product lines mean the two sides' development strategies should also differ. From MediaTek's standpoint, as long as it focuses its development on the ASIC end and holds onto Google as a major customer over the long term, it will by no means tilt into a disadvantage on the fundamental competitive footing.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 88,
+    "retweet_count": 6,
+    "reply_count": 11,
+    "quote_count": 3,
+    "view_count": 33820,
+    "bookmark_count": 44,
+    "conversation_id": "2072448718633316671",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072446003282940245",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2072446003282940245",
+    "created_at": "Wed Jul 01 22:23:26 +0000 2026",
+    "text": "https://t.co/auKVUUnNAL",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 9,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 6646,
+    "bookmark_count": 2,
+    "conversation_id": "2072446000858579176",
+    "is_reply": true,
+    "in_reply_to_id": "2072446000858579176",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "화웨이가 오는 4분기 한국 시장에 인공지능(AI) 가속 칩을 처음 출시한다. 국내 유통을 전담할 총판 계약을 완료한 데 이어 기술 교육, 가격정책 개발 등 영업 채비에 들어간 것이 포착됐다. AI 인프라 수요 폭증 속에 엔비디아 종속성 해소, 가격 경쟁력 등을 대안으로 제시하며 한국 시장 문을 두드릴 것으로 예상된다. 1일 관련 업계에 따르면 한국화웨이는 오는 4분기 중 AI 가속 칩 '어센드' 시리즈와 이를 탑재한 컴퓨팅 시스템 '아틀라스 9",
+          "display_url": "etnews.com/20260701000492",
+          "end": 23,
+          "expanded_url": "https://www.etnews.com/20260701000492",
+          "start": 0,
+          "status": 200,
+          "title": "화웨이 AI칩, 4분기 韓 상륙…엔비디아에 도전장",
+          "unwound_url": "https://www.etnews.com/20260701000492",
+          "url": "https://t.co/auKVUUnNAL"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072446000858579176",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072446000858579176",
+    "created_at": "Wed Jul 01 22:23:25 +0000 2026",
+    "text": "Huawei AI NPU Servers to Land in Korea in Q4, Throwing Down the Gauntlet to NVIDIA\n\nHuawei will launch its artificial intelligence (AI) accelerator chips in the Korean market for the first time in the fourth quarter of this year. Following the completion of a distribution agreement covering domestic sales, the company has been observed preparing its sales operations, including technical training and pricing policy development. Amid exploding demand for AI infrastructure, Huawei is expected to knock on the door of the Korean market by positioning itself as an alternative that resolves dependence on NVIDIA and offers price competitiveness.\n\nAccording to industry sources on the 1st, Huawei Korea has been confirmed to be formulating a sales strategy targeting the launch of its Ascend series of AI accelerator chips and the Atlas 950 SuperPoD computing system equipped with them within the fourth quarter. Huawei Korea is also weighing various localization strategies, including pricing and marketing plans tailored to the domestic market as well as a separate brand name.\n\nThe Ascend series is a neural processing unit (NPU) for AI computation developed independently by Huawei. After launching its first model, the Ascend 910C, last year, the company began mass production of the successor Ascend 950PR in April. Within the fourth quarter of this year, it plans to release the Ascend 950DT, which specializes in AI training. Equipped with high bandwidth memory (HBM) developed in house, the product is regarded as an achievement of the Chinese semiconductor industry under the US policy of isolating China. In the Korean market, a simultaneous launch of the Ascend 950DT and 950PR in the fourth quarter is considered likely. Huawei plans to offer not only individual chips but also an all in one package including the Atlas 950 SuperPoD, the AI computing system built on them. This product can house up to 8,192 Ascend chips, forming a single massive AI computing infrastructure. For sales channels in the Korean market, Huawei is known to have selected two companies, including its existing partner SK Shieldus. The judgment is that they are suitable partners for entering the domestic NPU market given their experience distributing key Huawei products and their technical expertise.\n\nHuawei Korea appears set to pursue a \"de NVIDIA\" marketing campaign, emphasizing the performance and price competitiveness of the Atlas 950 SuperPoD equipped with Ascend chips. In fact, Huawei has previously stated that the Ascend 950PR delivers roughly 2.87 times higher computing performance in inference compared with NVIDIA's H20 graphics processing unit (GPU), at about one quarter of the price. While its performance falls short compared with NVIDIA's flagship H200 GPU, Huawei stresses that this can be overcome through the Atlas 950 series, which connects thousands of chips together. The Ascend 950PR is seeing continued adoption by big tech companies, including its use in DeepSeek v4. Huawei has gained confidence after improving compatibility with NVIDIA's CUDA programming language, previously an obstacle to adoption, through its own networking technology. Building on this, the company aims to turn its attention to the Korean market, where AI infrastructure demand is surging, and establish itself as an alternative that relieves NVIDIA dependence and price burdens. Some in the industry, however, observe that domestic sensitivity toward adopting Chinese technology and products, along with power consumption issues stemming from heat generation, could pose obstacles to Huawei's settling into the Korean AI market.\n\nHuawei Korea responded to this publication's request for comment by saying, \"We cannot comment on matters related to product launches.\"",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 72,
+    "retweet_count": 10,
+    "reply_count": 10,
+    "quote_count": 1,
+    "view_count": 19756,
+    "bookmark_count": 19,
+    "conversation_id": "2072446000858579176",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/rqvYu1E2ue",
+          "end": 296,
+          "expanded_url": "https://x.com/jukan05/status/2072446000858579176/photo/1",
+          "media_key": "3_2072445975147487232",
+          "start": 273,
+          "url": "https://t.co/rqvYu1E2ue"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2072445975147487232",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMLOolTaoAA8BPa.png",
+        "width": 700,
+        "height": 394,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2072307191856660596",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2072307191856660596",
