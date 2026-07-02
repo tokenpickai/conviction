@@ -1,5 +1,803 @@
 [
   {
+    "tweet_id": "2072613106237550893",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072613106237550893",
+    "created_at": "Thu Jul 02 09:27:26 +0000 2026",
+    "text": "Samsung Foundry has really made a full comeback. It feels surreal seeing how much things have changed.\n\n- Samsung Foundry is seeing so many customers pile in that Samsung is now screening customers, favoring large ones.\n\n- Samsung's 4nm is already sold out through next year's capacity, and even some 8nm processes are running at effectively full capacity.\n\n- There's a rumor going around that Samsung could raise prices on some processes by 15 to 20 percent.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 167,
+    "retweet_count": 27,
+    "reply_count": 12,
+    "quote_count": 4,
+    "view_count": 27618,
+    "bookmark_count": 27,
+    "conversation_id": "2072613106237550893",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2072612828113166359",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 300,
+          "expanded_url": "https://twitter.com/jukan05/status/2072612828113166359",
+          "start": 277,
+          "url": "https://t.co/MEyf3awqtP"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072612830474559508",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2072612830474559508",
+    "created_at": "Thu Jul 02 09:26:20 +0000 2026",
+    "text": "https://t.co/LIhVsajjFG",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 32,
+    "retweet_count": 3,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 8103,
+    "bookmark_count": 2,
+    "conversation_id": "2072612828113166359",
+    "is_reply": true,
+    "in_reply_to_id": "2072612828113166359",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "AI·빅테크 주문 몰린 삼성 파운드리 신규 고객 선별 수주 돌입 AI·빅테크 주문 급증 일부 공정 풀가동 모든 주문 못 받는다 선택과 집중 전략 적자 늪 탈출하나 하반기 흑자 전환 기대",
+          "display_url": "biz.chosun.com/it-science/ict…",
+          "end": 23,
+          "expanded_url": "https://biz.chosun.com/it-science/ict/2026/07/02/DLY5RFY7RNG2VO6EDSQMMVTBKM/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+          "images": [
+            {
+              "height": 630,
+              "url": "https://pbs.twimg.com/news_img/2072570674548523008/5RC_H4CI?format=jpg&name=orig",
+              "width": 1200
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2072570674548523008/5RC_H4CI?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "AI·빅테크 주문 몰린 삼성 파운드리… 신규 고객 ‘선별 수주’ 돌입",
+          "unwound_url": "https://biz.chosun.com/it-science/ict/2026/07/02/DLY5RFY7RNG2VO6EDSQMMVTBKM/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+          "url": "https://t.co/LIhVsajjFG"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072612828113166359",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072612828113166359",
+    "created_at": "Thu Jul 02 09:26:20 +0000 2026",
+    "text": "Samsung Foundry Flooded with AI and Big Tech Orders... Begins \"Selective Order Taking\" for New Customers\n\nSamsung Electronics' foundry division has been found to have entered \"allocation,\" a system in which production volume is distributed by customer across certain processes. As demand surges amid the expansion of the artificial intelligence (AI) chip market and rising orders from global big tech firms, the division appears to be pursuing a \"selection and concentration\" strategy that accepts new customer orders only on a limited basis.\n\nAccording to the industry on the 2nd, Samsung Electronics' foundry division has recently been adjusting its supply priorities by allocating volume to existing customers first and taking on new customers selectively. This shift in supply and demand is also being detected among the major domestic design houses (DSPs) that make up the Samsung Foundry ecosystem.\n\nA design house industry official said, \"Starting this year, allocation has been applied [to Samsung Foundry processes],\" adding, \"Rather than unconditionally accepting every customer order, the mood is one of selection and concentration centered on solid projects.\"\n\n◇ Some Processes Tight on Supply Amid Expanding AI Chip Demand\n\nWithin the industry, there is analysis that the explosive growth of the AI market is fundamentally changing the structure of foundry demand. The explanation is that advanced process demand, once centered on smartphone application processors (APs), has recently shifted toward AI accelerators, application specific integrated circuits (ASICs), and high performance computing (HPC) chips, and that orders from global big tech companies are pouring in.\n\nIn fact, Samsung Foundry produces Tesla's autonomous driving chips and the AI inference chips of AI startup Groq, among others, and is also expanding cooperation with global AI companies such as NVIDIA and Google. The industry analyzed that this kind of global big tech demand is tightening supply and demand for some processes.\n\nIn particular, Samsung Foundry's 4 nanometer (nm) process is known to be mostly sold out through next year's volume, and some 8 nanometer processes are also reported to be operating at what is effectively full capacity.\n\nAccordingly, analysis has also emerged that, in order to maximize the production efficiency of fabs that have reached the limits of their utilization, the order taking strategy is being reorganized around large customer projects with high production line operating efficiency.\n\nIndeed, in terms of foundry plant operations, the assessment is that \"small variety, large volume production,\" which concentrates on manufacturing a small number of large projects, is more advantageous for fab efficiency and profitability than \"large variety, small volume production,\" which mass produces many types of products.\n\nAnother industry official explained, \"From the plant's standpoint, concentrating production on a few large projects is far more efficient operationally than mass producing many types of products.\"\n\n◇ Benefiting from TSMC Supply Shortage... Absorbing Supply Chain Diversification Demand\n\nThe industry believes that the advanced process supply shortage at Taiwan's TSMC, the world's number one foundry, and the resulting big tech demand for supply chain diversification (multi foundry) have influenced the rise in Samsung Foundry's utilization rate.\n\nThe explanation is that customers who once left Samsung for TSMC over issues such as yield are increasingly reconsidering Samsung Foundry or adopting it as a second source (an alternative supplier) in order to spread supply chain risk and strengthen their chip pricing leverage.\n\nThere is also an assessment that, buoyed by this expanding demand, Samsung's market position has risen to the point where it can raise supply prices for some processes by around 15 to 20 percent.\n\nIn the market, the mood is one of interpreting this as a recovery signal for Samsung Electronics' foundry division, which has suffered a prolonged slump and losses. Securities analysts are projecting that, on the back of expanding AI chip demand, rising utilization, and the effect of large customer orders, the Samsung Foundry division could succeed in turning a profit in the second half of this year or next year.\n\nThat said, there is also an assessment that, since the rise in utilization is concentrated on certain specific nodes, further observation is needed to determine whether this will translate into an improvement in the division's overall profitability, given factors such as the burden of large scale depreciation costs.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 122,
+    "retweet_count": 22,
+    "reply_count": 16,
+    "quote_count": 4,
+    "view_count": 43911,
+    "bookmark_count": 25,
+    "conversation_id": "2072612828113166359",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/31Vr2xp6Tn",
+          "end": 304,
+          "expanded_url": "https://x.com/jukan05/status/2072612828113166359/photo/1",
+          "media_key": "3_2072612500315811841",
+          "start": 281,
+          "url": "https://t.co/31Vr2xp6Tn"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2072612500315811841",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMNmFn5bsAEOe-r.png",
+        "width": 616,
+        "height": 377,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2072581903585316935",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2072581903585316935",
+    "created_at": "Thu Jul 02 07:23:27 +0000 2026",
+    "text": "@rwang07 @sssjeffpu Wasn’t it originally 192GB, so they just cut it in half to 96GB?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 5,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1615,
+    "bookmark_count": 0,
+    "conversation_id": "2072565044303552832",
+    "is_reply": true,
+    "in_reply_to_id": "2072581455910506921",
+    "in_reply_to_username": "rwang07",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 8,
+          "id": "833295407182516224",
+          "start": 0,
+          "username": "rwang07"
+        },
+        {
+          "end": 19,
+          "id": "1907822568314441728",
+          "start": 9,
+          "username": "sssjeffpu"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072580842367696942",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2072580842367696942",
+    "created_at": "Thu Jul 02 07:19:14 +0000 2026",
+    "text": "@VadimYuryev lmao",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ht",
+    "like_count": 29,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 3291,
+    "bookmark_count": 0,
+    "conversation_id": "2072428849825226866",
+    "is_reply": true,
+    "in_reply_to_id": "2072428849825226866",
+    "in_reply_to_username": "VadimYuryev",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "541998692",
+          "start": 0,
+          "username": "VadimYuryev"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072571576848175596",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2072571576848175596",
+    "created_at": "Thu Jul 02 06:42:25 +0000 2026",
+    "text": "@Super_ARRI Yes, I was already aware of the news as well, but there may still be some people who don’t know about it.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1571,
+    "bookmark_count": 0,
+    "conversation_id": "2072565501717536772",
+    "is_reply": true,
+    "in_reply_to_id": "2072571081031123014",
+    "in_reply_to_username": "Super_ARRI",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 11,
+          "id": "1800760546951831552",
+          "start": 0,
+          "username": "Super_ARRI"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072570534416843044",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2072570534416843044",
+    "created_at": "Thu Jul 02 06:38:16 +0000 2026",
+    "text": "@treeapple33 메모리보다는 걱정이 덜하지 않을까요? ㅎㅎ",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ko",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 1406,
+    "bookmark_count": 0,
+    "conversation_id": "2072565501717536772",
+    "is_reply": true,
+    "in_reply_to_id": "2072570225284026445",
+    "in_reply_to_username": "treeapple33",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "1714539277600894976",
+          "start": 0,
+          "username": "treeapple33"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072565501717536772",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072565501717536772",
+    "created_at": "Thu Jul 02 06:18:16 +0000 2026",
+    "text": "•Lower specs should boost server unit shipments (mild QoQ in 2Q-3Q, strong 20-30% in 4Q26)\n•~10% cost reduction on VR200 NVL72 BOM by lowering LPDDR5X capacity, despite memory px hike. \n👀👀 https://t.co/INeBDEfpau",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 96,
+    "retweet_count": 5,
+    "reply_count": 10,
+    "quote_count": 1,
+    "view_count": 49774,
+    "bookmark_count": 28,
+    "conversation_id": "2072565501717536772",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2072565044303552832",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/sssjeffpu/stat…",
+          "end": 212,
+          "expanded_url": "https://twitter.com/sssjeffpu/status/2072565044303552832",
+          "start": 189,
+          "url": "https://t.co/INeBDEfpau"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072540049242300490",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2072540049242300490",
+    "created_at": "Thu Jul 02 04:37:08 +0000 2026",
+    "text": "@iampengu911 nah",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "und",
+    "like_count": 9,
+    "retweet_count": 1,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1434,
+    "bookmark_count": 2,
+    "conversation_id": "2072539512006451570",
+    "is_reply": true,
+    "in_reply_to_id": "2072539597813448927",
+    "in_reply_to_username": "iampengu911",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "1492344666825572354",
+          "start": 0,
+          "username": "iampengu911"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072539514682445884",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2072539514682445884",
+    "created_at": "Thu Jul 02 04:35:00 +0000 2026",
+    "text": "https://t.co/28aMipsc0p",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 13,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 15599,
+    "bookmark_count": 0,
+    "conversation_id": "2072539512006451570",
+    "is_reply": true,
+    "in_reply_to_id": "2072539512006451570",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "Company raises production target for first foldable phone to about 10 million units",
+          "display_url": "asia.nikkei.com/business/techn…",
+          "end": 23,
+          "expanded_url": "https://asia.nikkei.com/business/technology/apple-to-launch-5-new-iphone-models-to-gain-market-share-amid-memory-crunch",
+          "images": [
+            {
+              "height": 1260,
+              "url": "https://pbs.twimg.com/news_img/2072518755989540865/6IrppvjY?format=jpg&name=orig",
+              "width": 2520
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2072518755989540865/6IrppvjY?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "Apple to launch 5 new iPhone models to gain market share amid memory crunch",
+          "unwound_url": "https://asia.nikkei.com/business/technology/apple-to-launch-5-new-iphone-models-to-gain-market-share-amid-memory-crunch",
+          "url": "https://t.co/28aMipsc0p"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072539512006451570",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072539512006451570",
+    "created_at": "Thu Jul 02 04:35:00 +0000 2026",
+    "text": "Nikkei: Apple has raised its foldable iPhone shipment target and has not cut its iPhone shipment forecast for this year\n\n- Apple is aiming to expand its market share amid component supply shortages, preparing at least five new iPhone models from the second half of 2026 through the first half of 2027, along with higher-than-expected foldable iPhone volumes. The company has raised its foldable production target from the previous 7–8 million units to around 10 million units.\n\n- Apple has already reserved components for 80 million smartphones for its new products in the second half of 2026, and, leveraging its strong bargaining power, is targeting annual production of more than 220 million units.\n\n- In contrast, Chinese vendors such as Xiaomi, Oppo, and Vivo have sharply cut their production plans to below 100 million units each this year due to severe memory and component shortages.\n\n- Apple has instructed suppliers to stockpile some common components from the iPhone 17 series for the premium iPhone 18 series. In the first half of 2027, it plans to launch the base iPhone 18 model and a new iPhone Air.\n\n- Technical issues related to the foldable hinge have been largely resolved, but mass production is expected around year-end. With memory price spikes already pushing up MacBook and iPad prices, maintaining supply-chain stability is seen as Apple’s biggest challenge this year.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 143,
+    "retweet_count": 12,
+    "reply_count": 12,
+    "quote_count": 0,
+    "view_count": 38239,
+    "bookmark_count": 22,
+    "conversation_id": "2072539512006451570",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/42kA75qrMq",
+          "end": 301,
+          "expanded_url": "https://x.com/jukan05/status/2072539512006451570/photo/1",
+          "media_key": "3_2072539504095952896",
+          "start": 278,
+          "url": "https://t.co/42kA75qrMq"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2072539504095952896",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMMjsryagAAFAJz.jpg",
+        "width": 1560,
+        "height": 878,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2072535645848051923",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2072535645848051923",
+    "created_at": "Thu Jul 02 04:19:38 +0000 2026",
+    "text": "@insane_analyst Qualcomm’s revenue exposure to Amazon seems smaller than I thought.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 15,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 4072,
+    "bookmark_count": 2,
+    "conversation_id": "2072533892129755167",
+    "is_reply": true,
+    "in_reply_to_id": "2072535256130089212",
+    "in_reply_to_username": "insane_analyst",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1772469987279839232",
+          "start": 0,
+          "username": "insane_analyst"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072533892129755167",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072533892129755167",
+    "created_at": "Thu Jul 02 04:12:40 +0000 2026",
+    "text": "MediaTek will take a major hit.\n\n\"Amazon's own-brand consumer electronics, including Kindle, Fire TV, Echo, Alexa-enabled products, Blink, and Ring, currently use externally sourced processors. To optimize its cost structure, Amazon plans to gradually shift away from external sourcing and adopt a COT model similar to the one used for AI chip Trainium, taking more control of processor development in-house.\"",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 336,
+    "retweet_count": 16,
+    "reply_count": 20,
+    "quote_count": 2,
+    "view_count": 80752,
+    "bookmark_count": 103,
+    "conversation_id": "2072533892129755167",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2072530907941175631",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/mingchikuo/sta…",
+          "end": 300,
+          "expanded_url": "https://twitter.com/mingchikuo/status/2072530907941175631",
+          "start": 277,
+          "url": "https://t.co/EmWsQe1zru"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072532113581322677",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2072532113581322677",
+    "created_at": "Thu Jul 02 04:05:36 +0000 2026",
+    "text": "https://t.co/LUZQ7E4NXJ",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 28,
+    "retweet_count": 3,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 15351,
+    "bookmark_count": 1,
+    "conversation_id": "2072532111098269698",
+    "is_reply": true,
+    "in_reply_to_id": "2072532111098269698",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "Sam Altman’s start-up in early talks for a public ownership deal as political pressure rises",
+          "display_url": "ft.com/content/7c803e…",
+          "end": 23,
+          "expanded_url": "https://www.ft.com/content/7c803eab-8e80-4431-9a87-e943bf00e00b?accessToken=zwAAAZ8hNxoqkc98gD6rjoBEMdOah-lDvwDgCw.MEYCIQCYV2YhwkUw97FICNXiek4EEFkK-L1jAh4wNb9a5vDgCwIhANf0nHDFoeVCFF9shU2TTwTzLtvLZ8HGDhUBS9tcfoz4&sharetype=gift&token=e0a8102d-92a9-486d-b3a8-4727415e2ed5&syn-25a6b1a6=1",
+          "images": [
+            {
+              "height": 394,
+              "url": "https://pbs.twimg.com/news_img/2072532117037428736/ghRu_WzA?format=jpg&name=orig",
+              "width": 700
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2072532117037428736/ghRu_WzA?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "OpenAI proposes handing Trump administration 5% stake",
+          "unwound_url": "https://www.ft.com/content/7c803eab-8e80-4431-9a87-e943bf00e00b?accessToken=zwAAAZ8hNxoqkc98gD6rjoBEMdOah-lDvwDgCw.MEYCIQCYV2YhwkUw97FICNXiek4EEFkK-L1jAh4wNb9a5vDgCwIhANf0nHDFoeVCFF9shU2TTwTzLtvLZ8HGDhUBS9tcfoz4&sharetype=gift&token=e0a8102d-92a9-486d-b3a8-4727415e2ed5&syn-25a6b1a6=1",
+          "url": "https://t.co/LUZQ7E4NXJ"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072532111098269698",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072532111098269698",
+    "created_at": "Thu Jul 02 04:05:35 +0000 2026",
+    "text": "Bruh, Trump is collecting the Infinity Stones. https://t.co/xNLqdFzBIa",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 991,
+    "retweet_count": 65,
+    "reply_count": 46,
+    "quote_count": 21,
+    "view_count": 124690,
+    "bookmark_count": 97,
+    "conversation_id": "2072532111098269698",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/xNLqdFzBIa",
+          "end": 70,
+          "expanded_url": "https://x.com/jukan05/status/2072532111098269698/photo/1",
+          "media_key": "3_2072532013429706752",
+          "start": 47,
+          "url": "https://t.co/xNLqdFzBIa"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2072532013429706752",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMMc4q4aUAAw3UK.jpg",
+        "width": 1374,
+        "height": 1856,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2072509593327108359",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072509593327108359",
+    "created_at": "Thu Jul 02 02:36:07 +0000 2026",
+    "text": "RT @bookwormengr: https://t.co/4vkjrPsyPw",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 0,
+    "retweet_count": 10,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 7032,
+    "bookmark_count": 0,
+    "conversation_id": "2072509593327108359",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2072421710692028900",
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "171962385",
+          "start": 3,
+          "username": "bookwormengr"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "x.com/i/article/2072…",
+          "end": 41,
+          "expanded_url": "http://x.com/i/article/2072294710350409728",
+          "start": 18,
+          "status": 500,
+          "unwound_url": "https://x.com/i/article/2072294710350409728",
+          "url": "https://t.co/4vkjrPsyPw"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072495363358126289",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2072495363358126289",
+    "created_at": "Thu Jul 02 01:39:34 +0000 2026",
+    "text": "@citrini 💀💀💀",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 97,
+    "retweet_count": 1,
+    "reply_count": 5,
+    "quote_count": 0,
+    "view_count": 20583,
+    "bookmark_count": 0,
+    "conversation_id": "2072472153610711165",
+    "is_reply": true,
+    "in_reply_to_id": "2072495243199389923",
+    "in_reply_to_username": "citrini",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 8,
+          "id": "1365809270034477069",
+          "start": 0,
+          "username": "citrini"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072473005532532762",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2072473005532532762",
+    "created_at": "Thu Jul 02 00:10:43 +0000 2026",
+    "text": "@insane_analyst Fortunately, I didn’t buy any photonics stocks!",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 35,
+    "retweet_count": 1,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 11023,
+    "bookmark_count": 4,
+    "conversation_id": "2072377591949033639",
+    "is_reply": true,
+    "in_reply_to_id": "2072377591949033639",
+    "in_reply_to_username": "insane_analyst",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1772469987279839232",
+          "start": 0,
+          "username": "insane_analyst"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072472153610711165",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072472153610711165",
+    "created_at": "Thu Jul 02 00:07:20 +0000 2026",
+    "text": "Ssibal\n\nMy 2x leveraged SK hynix position is getting destroyed.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1352,
+    "retweet_count": 92,
+    "reply_count": 156,
+    "quote_count": 36,
+    "view_count": 186527,
+    "bookmark_count": 63,
+    "conversation_id": "2072472153610711165",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2072459187943362861",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2072459187943362861",
