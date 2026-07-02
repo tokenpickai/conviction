@@ -1,5 +1,152 @@
 [
   {
+    "tweet_id": "2072800306812145733",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072800306812145733",
+    "created_at": "Thu Jul 02 21:51:18 +0000 2026",
+    "text": "$INTC 18A YIELD ISSUES FIXED https://t.co/Kj3mlWB5xl",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 133,
+    "retweet_count": 10,
+    "reply_count": 13,
+    "quote_count": 2,
+    "view_count": 13010,
+    "bookmark_count": 19,
+    "conversation_id": "2072800306812145733",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 5,
+          "start": 0,
+          "tag": "INTC"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/Kj3mlWB5xl",
+          "end": 52,
+          "expanded_url": "https://x.com/jukan05/status/2072800306812145733/photo/1",
+          "media_key": "3_2072800183533154304",
+          "start": 29,
+          "url": "https://t.co/Kj3mlWB5xl"
+        }
+      ]
+    },
+    "cashtags": [
+      "INTC"
+    ],
+    "media": [
+      {
+        "media_key": "3_2072800183533154304",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMQQyOXbsAA8hbZ.jpg",
+        "width": 2096,
+        "height": 1266,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2072799165051265292",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2072799165051265292",
+    "created_at": "Thu Jul 02 21:46:46 +0000 2026",
+    "text": "https://t.co/ylWGsZ7ABp",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 5,
+    "retweet_count": 1,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 3623,
+    "bookmark_count": 2,
+    "conversation_id": "2072799162559840616",
+    "is_reply": true,
+    "in_reply_to_id": "2072799162559840616",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "Anthropic has begun early-stage work on its own AI chip and held talks with Samsung Electronics as a potential manufacturing partner, following the lead of rival OpenAI in trying to get more control over the costly computing systems behind its models, according to three people with direct ...",
+          "display_url": "theinformation.com/articles/anthr…",
+          "end": 23,
+          "expanded_url": "https://www.theinformation.com/articles/anthropic-talks-samsung-manufacture-custom-ai-chip?rc=lx3hes",
+          "start": 0,
+          "status": 200,
+          "title": "Anthropic in Talks With Samsung to Manufacture Custom AI Chip",
+          "unwound_url": "https://www.theinformation.com/articles/anthropic-talks-samsung-manufacture-custom-ai-chip?rc=lx3hes",
+          "url": "https://t.co/ylWGsZ7ABp"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072799162559840616",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072799162559840616",
+    "created_at": "Thu Jul 02 21:46:45 +0000 2026",
+    "text": "What surprised me most in the Anthropic–Samsung Foundry news is that Anthropic is also considering Samsung Foundry’s packaging.\n\nThat’s really interesting. Not Intel EMIB or TSMC CoWoS, but Samsung’s packaging… We can only hope Samsung’s packaging improves by the time Anthropic’s chip goes into production.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 105,
+    "retweet_count": 8,
+    "reply_count": 16,
+    "quote_count": 5,
+    "view_count": 15364,
+    "bookmark_count": 22,
+    "conversation_id": "2072799162559840616",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/VCGvZBNSvV",
+          "end": 292,
+          "expanded_url": "https://x.com/jukan05/status/2072799162559840616/photo/1",
+          "media_key": "3_2072798771696836608",
+          "start": 269,
+          "url": "https://t.co/VCGvZBNSvV"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2072798771696836608",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMQPgC3bIAAa1wx.png",
+        "width": 1514,
+        "height": 722,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2072663550561234999",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2072663550561234999",
