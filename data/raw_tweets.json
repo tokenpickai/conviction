@@ -1,5 +1,424 @@
 [
   {
+    "tweet_id": "2072731699990143058",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2072731699990143058",
+    "created_at": "Thu Jul 02 17:18:41 +0000 2026",
+    "text": "VCSEL was always an option for short reach? MicroLED is much further out in terms of commercialization. \n\nI've also seen a lot of bot farms posting about VCSEL all of a sudden recently, not sure why. \n\nBut it's pretty clear by now CW lasers are going to be the dominant architecture of choice. There's always going to be concurrent paths going forward, nothing new.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 4,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1620,
+    "bookmark_count": 2,
+    "conversation_id": "2072726120706007465",
+    "is_reply": true,
+    "in_reply_to_id": "2072727378993058302",
+    "in_reply_to_username": "piyush1337",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 11,
+          "id": "2438280517",
+          "start": 0,
+          "username": "piyush1337"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/s7UHmVcDQ6",
+          "end": 305,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2072731699990143058/photo/1",
+          "media_key": "3_2072731143271809024",
+          "start": 282,
+          "url": "https://t.co/s7UHmVcDQ6"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2072731143271809024",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMPR_jWbAAAvYCC.jpg",
+        "width": 1893,
+        "height": 674,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2072730156297556328",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2072730156297556328",
+    "created_at": "Thu Jul 02 17:12:33 +0000 2026",
+    "text": "Nobody should care about TA charts since people just made up squiggly lines trying to convince others to sell. \n\n$SIVE just raised an emergency $70M for mass production likely for allocation from fabs. \n\nWith $JBL, $POET, $AEVA, and others volume ramping near term. \n\nThen $GFS, Ayar, and many other players are volume ramping later in 2027. \n\nSivers also confirmed intent to complete NASDAQ Listing in the next few quarters. \n\nIt's probably my highest conviction photonics long, everything seems to be coming into place.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 51,
+    "retweet_count": 1,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 4014,
+    "bookmark_count": 5,
+    "conversation_id": "2072726120706007465",
+    "is_reply": true,
+    "in_reply_to_id": "2072728716984160308",
+    "in_reply_to_username": "Cped221267",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 118,
+          "start": 113,
+          "tag": "SIVE"
+        },
+        {
+          "end": 213,
+          "start": 209,
+          "tag": "JBL"
+        },
+        {
+          "end": 220,
+          "start": 215,
+          "tag": "POET"
+        },
+        {
+          "end": 227,
+          "start": 222,
+          "tag": "AEVA"
+        },
+        {
+          "end": 277,
+          "start": 273,
+          "tag": "GFS"
+        }
+      ]
+    },
+    "cashtags": [
+      "SIVE",
+      "JBL",
+      "POET",
+      "AEVA",
+      "GFS"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2072728939324428655",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2072728939324428655",
+    "created_at": "Thu Jul 02 17:07:43 +0000 2026",
+    "text": "@ram_blings NP, I'm not sure if people remember this but $SIVE went up +70% in a day off $GFS news. And $AAOI has random +20-30% days. \n\nThey're also capable of doing the opposite. \n\nPhotonics sector are very volatile, but directionally they follow fundamentals in the long run.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 101,
+    "retweet_count": 3,
+    "reply_count": 10,
+    "quote_count": 0,
+    "view_count": 6262,
+    "bookmark_count": 4,
+    "conversation_id": "2072726120706007465",
+    "is_reply": true,
+    "in_reply_to_id": "2072727309698896319",
+    "in_reply_to_username": "ram_blings",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 62,
+          "start": 57,
+          "tag": "SIVE"
+        },
+        {
+          "end": 93,
+          "start": 89,
+          "tag": "GFS"
+        },
+        {
+          "end": 109,
+          "start": 104,
+          "tag": "AAOI"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 11,
+          "id": "304719963",
+          "start": 0,
+          "username": "ram_blings"
+        }
+      ]
+    },
+    "cashtags": [
+      "SIVE",
+      "GFS",
+      "AAOI"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2072726120706007465",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2072726120706007465",
+    "created_at": "Thu Jul 02 16:56:31 +0000 2026",
+    "text": "Photonics is backed by actual revenue numbers and it's an architectural shift championed by $NVDA.\n\nQuantum barely has any revenue.\n\n$LITE is completely sold out for the next 2 years (per $POET AGM) likely starting into 2029. Lumentum is so strained that they buy CW lasers off competitors (earnings transcript)\n\n$COHR is bottlenecked, so they buy EML off Lumentum.\n\nThen, $AAOI is coming in with Made-in-America independent CW capacity, are projecting $1.4B/quarterly revenue ending H1 2027 of a stupid $9.3B MC today. \n\nSo all the CW capacity from independent players who have it now like $AAOI or $SIVE are likely to become scarce resources.\n\nMany other hyperscalers have already started LTA discussions (per Trendforce). And players like $AMD are currently talking with players such as $AAOI (Rosenblatt channel checks).\n\nThematically, next 2 years is 9x TAM to US$154B per GS reports, especially with 16x/45x dollar content increase in scale out/scale up.\n\nThen there's the overall thematic AI drop from $META, which is widely misunderstood because people conflate what \"excess capacity\" means. And as UBS mentioned, Meta planning a cloud offering is NOT NEW NEWS.\n\nBloomberg just has a tendency to publish information that causes doom drops across the semi sector like Nvidia export controls a few months back. \n\nBut I'm familiar with what I'm holding so I'm confident in these numbers playing out. \n\nEspecially when all the major players are sold out, the fundamentals catch up eventually.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 623,
+    "retweet_count": 47,
+    "reply_count": 182,
+    "quote_count": 3,
+    "view_count": 107589,
+    "bookmark_count": 131,
+    "conversation_id": "2072726120706007465",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2072686971512582177",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 97,
+          "start": 92,
+          "tag": "NVDA"
+        },
+        {
+          "end": 138,
+          "start": 133,
+          "tag": "LITE"
+        },
+        {
+          "end": 193,
+          "start": 188,
+          "tag": "POET"
+        },
+        {
+          "end": 318,
+          "start": 313,
+          "tag": "COHR"
+        },
+        {
+          "end": 378,
+          "start": 373,
+          "tag": "AAOI"
+        },
+        {
+          "end": 596,
+          "start": 591,
+          "tag": "AAOI"
+        },
+        {
+          "end": 605,
+          "start": 600,
+          "tag": "SIVE"
+        },
+        {
+          "end": 746,
+          "start": 742,
+          "tag": "AMD"
+        },
+        {
+          "end": 795,
+          "start": 790,
+          "tag": "AAOI"
+        },
+        {
+          "end": 1014,
+          "start": 1009,
+          "tag": "META"
+        }
+      ]
+    },
+    "cashtags": [
+      "NVDA",
+      "LITE",
+      "POET",
+      "COHR",
+      "AAOI",
+      "AAOI",
+      "SIVE",
+      "AMD",
+      "AAOI",
+      "META"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2072638343486259415",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2072638343486259415",
+    "created_at": "Thu Jul 02 11:07:43 +0000 2026",
+    "text": "Names like LeaderDrive are at all time highs? Depends on the company of course.\n\nLiquidity works a little differently in America, usually focuses on downstream frontier industries like space, robotics, AI, and such.\n\nIf we look at $RKLB for space as one example that has premiums relative to revenue.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 37,
+    "retweet_count": 0,
+    "reply_count": 4,
+    "quote_count": 0,
+    "view_count": 23953,
+    "bookmark_count": 4,
+    "conversation_id": "2072630036600103340",
+    "is_reply": true,
+    "in_reply_to_id": "2072631115282813094",
+    "in_reply_to_username": "sokarsokk",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 236,
+          "start": 231,
+          "tag": "RKLB"
+        }
+      ]
+    },
+    "cashtags": [
+      "RKLB"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2072636916173066624",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2072636916173066624",
+    "created_at": "Thu Jul 02 11:02:03 +0000 2026",
+    "text": "I’m personally long $CCXI and have highest concentration in Agility Robotics (NFA). It’s currently around a ~$4.9B valuation.\n\nFigure’s last round was $39B last year, and that was before the increasing interest in humanoids/robotics this year.\n\nThen a large part of $TSLA $1T+ valuations come from humanoids. \n\nI like companies like LeaderDrive… but usually the downstream players capture the most value in the end. \n\nAnd I find it rare to see one that has public exposure early on.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 91,
+    "retweet_count": 8,
+    "reply_count": 11,
+    "quote_count": 1,
+    "view_count": 22114,
+    "bookmark_count": 29,
+    "conversation_id": "2072630036600103340",
+    "is_reply": true,
+    "in_reply_to_id": "2072631084920066270",
+    "in_reply_to_username": "blkslymn",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 25,
+          "start": 20,
+          "tag": "CCXI"
+        },
+        {
+          "end": 271,
+          "start": 266,
+          "tag": "TSLA"
+        }
+      ]
+    },
+    "cashtags": [
+      "CCXI",
+      "TSLA"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2072630036600103340",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2072630036600103340",
+    "created_at": "Thu Jul 02 10:34:42 +0000 2026",
+    "text": "I just realized Boston Dynamics CEO shared the same sentiment:\n\n“Robotics is next. America’s next 250 years will be built by robots”.\n\nHowever, currently China accounts for 54%+ of all global robotics deployments.\n\n- calls for Internet scaleable database of physical world (kinda got reminded of Niantic that has a huge dataset from Pokemon Go)\n\n- dedicated National robotics strategy to compete against China’s leadership in this space\n\n-  ISO + regulation for robotics safety \n\nThis is all high level:\n\nBut my prioritize thought process is how do we support and scale a Made in USA supply chain for robotics/humanoids?\n\nI’ve been hammering home rare earths for the longest time, that the US isn’t doing enough to subsidize or scale this industry.\n\nBut another thing to take note is subsidies for components, forcing $TSLA and others to use Chinese suppliers over Western ones, even if assembly is done in USA… to keep costs down.\n\nWhich is why I’ve liked Agility Robotics $CCXI since they source 75% of parts from the US, despite higher BOM to start out with.\n\nRegardless it’s pretty clear this Robotics is coming and becoming a national security priority:\n\nFrom the days of backflipping humanoid YT videos.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1150,
+    "retweet_count": 90,
+    "reply_count": 184,
+    "quote_count": 16,
+    "view_count": 539944,
+    "bookmark_count": 414,
+    "conversation_id": "2072630036600103340",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2072367082248040621",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 823,
+          "start": 818,
+          "tag": "TSLA"
+        },
+        {
+          "end": 979,
+          "start": 974,
+          "tag": "CCXI"
+        }
+      ]
+    },
+    "cashtags": [
+      "TSLA",
+      "CCXI"
+    ],
+    "media": [
+      {
+        "media_key": "3_2072630026252832768",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMN2BxGb0AA3m1L.jpg",
+        "width": 1242,
+        "height": 831,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2072630026261221376",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMN2BxIb0AA_jsY.jpg",
+        "width": 1260,
+        "height": 994,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2072630026273710080",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMN2BxLaYAA3hkI.jpg",
+        "width": 1222,
+        "height": 794,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2072616481846898782",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2072616481846898782",

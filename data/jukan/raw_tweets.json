@@ -1,5 +1,79 @@
 [
   {
+    "tweet_id": "2072663550561234999",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2072663550561234999",
+    "created_at": "Thu Jul 02 12:47:53 +0000 2026",
+    "text": "@qptmvj 명조 너무 재미있게 하고 있어요",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ko",
+    "like_count": 6,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 4352,
+    "bookmark_count": 0,
+    "conversation_id": "2072626097972547846",
+    "is_reply": true,
+    "in_reply_to_id": "2072626097972547846",
+    "in_reply_to_username": "qptmvj",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 7,
+          "id": "1972894231326072832",
+          "start": 0,
+          "username": "qptmvj"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072662671145738508",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2072662671145738508",
+    "created_at": "Thu Jul 02 12:44:23 +0000 2026",
+    "text": "@jimcramer Thank you for your service.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 141,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 7596,
+    "bookmark_count": 2,
+    "conversation_id": "2072634258187866169",
+    "is_reply": true,
+    "in_reply_to_id": "2072634258187866169",
+    "in_reply_to_username": "jimcramer",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "14216123",
+          "start": 0,
+          "username": "jimcramer"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2072613106237550893",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2072613106237550893",
