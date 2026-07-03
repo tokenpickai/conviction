@@ -1,5 +1,336 @@
 [
   {
+    "tweet_id": "2073069226257272833",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073069226257272833",
+    "created_at": "Fri Jul 03 15:39:53 +0000 2026",
+    "text": "@ExoticSpice101 @Alex_Intel_ Not true",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 6,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1209,
+    "bookmark_count": 0,
+    "conversation_id": "2072956811804844127",
+    "is_reply": true,
+    "in_reply_to_id": "2072956811804844127",
+    "in_reply_to_username": "ExoticSpice101",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1127846762629124097",
+          "start": 0,
+          "username": "ExoticSpice101"
+        },
+        {
+          "end": 28,
+          "id": "2156030786",
+          "start": 16,
+          "username": "Alex_Intel_"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073068619614089444",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2073068619614089444",
+    "created_at": "Fri Jul 03 15:37:29 +0000 2026",
+    "text": "This is obviously not true.\n\nFixed Focus Digital is a well-known blowhard. He just tries to sound credible.\n\nA friend of mine reviewed the file and said he couldn’t find anything. https://t.co/274leKACqd",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 63,
+    "retweet_count": 1,
+    "reply_count": 21,
+    "quote_count": 0,
+    "view_count": 16859,
+    "bookmark_count": 5,
+    "conversation_id": "2073068619614089444",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2073019321530610093",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/imnotharsh/sta…",
+          "end": 203,
+          "expanded_url": "https://twitter.com/imnotharsh/status/2073019321530610093",
+          "start": 180,
+          "url": "https://t.co/274leKACqd"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073032040451366952",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2073032040451366952",
+    "created_at": "Fri Jul 03 13:12:08 +0000 2026",
+    "text": "Bernstein estimates that SK hynix’s DRAM gross margin in Q2 will reach 90.9%… https://t.co/bC25hqTv5a",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 725,
+    "retweet_count": 80,
+    "reply_count": 55,
+    "quote_count": 45,
+    "view_count": 110372,
+    "bookmark_count": 155,
+    "conversation_id": "2073032040451366952",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/bC25hqTv5a",
+          "end": 101,
+          "expanded_url": "https://x.com/jukan05/status/2073032040451366952/photo/1",
+          "media_key": "3_2073031517790773248",
+          "start": 78,
+          "url": "https://t.co/bC25hqTv5a"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2073031517790773248",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMTjLpoboAAEWPs.png",
+        "width": 2308,
+        "height": 928,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2073017188567617687",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073017188567617687",
+    "created_at": "Fri Jul 03 12:13:07 +0000 2026",
+    "text": "@stevehou @Alex_Intel_ @RapidResponse47 @POTUS There are rumors that they’re considering building a memory fab in North America.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 3,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 1291,
+    "bookmark_count": 0,
+    "conversation_id": "2072799381552599135",
+    "is_reply": true,
+    "in_reply_to_id": "2073016933042061510",
+    "in_reply_to_username": "stevehou",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 9,
+          "id": "803639496386355200",
+          "start": 0,
+          "username": "stevehou"
+        },
+        {
+          "end": 22,
+          "id": "2156030786",
+          "start": 10,
+          "username": "Alex_Intel_"
+        },
+        {
+          "end": 39,
+          "id": "1881451105454002176",
+          "start": 23,
+          "username": "RapidResponse47"
+        },
+        {
+          "end": 46,
+          "id": "1879650942410481666",
+          "start": 40,
+          "username": "POTUS"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073015609361932486",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073015609361932486",
+    "created_at": "Fri Jul 03 12:06:50 +0000 2026",
+    "text": "@stevehou @Alex_Intel_ @RapidResponse47 @POTUS oh no",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 972,
+    "bookmark_count": 0,
+    "conversation_id": "2072799381552599135",
+    "is_reply": true,
+    "in_reply_to_id": "2073015305387819012",
+    "in_reply_to_username": "stevehou",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 9,
+          "id": "803639496386355200",
+          "start": 0,
+          "username": "stevehou"
+        },
+        {
+          "end": 22,
+          "id": "2156030786",
+          "start": 10,
+          "username": "Alex_Intel_"
+        },
+        {
+          "end": 39,
+          "id": "1881451105454002176",
+          "start": 23,
+          "username": "RapidResponse47"
+        },
+        {
+          "end": 46,
+          "id": "1879650942410481666",
+          "start": 40,
+          "username": "POTUS"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073005976731754920",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2073005976731754920",
+    "created_at": "Fri Jul 03 11:28:34 +0000 2026",
+    "text": "UBS raises its DRAM and NAND price forecasts\n\nDRAM prices are now expected to rise 32% QoQ in Q3 and 18% QoQ in Q4.\n\nNAND prices are expected to rise 30% QoQ in Q3 and 12% QoQ in Q4.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 684,
+    "retweet_count": 87,
+    "reply_count": 24,
+    "quote_count": 26,
+    "view_count": 109227,
+    "bookmark_count": 150,
+    "conversation_id": "2073005976731754920",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2073004350759145939",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/IYL6oB6C2k",
+          "end": 206,
+          "expanded_url": "https://x.com/jukan05/status/2073005976731754920/photo/1",
+          "media_key": "3_2073005971383967744",
+          "start": 183,
+          "url": "https://t.co/IYL6oB6C2k"
+        },
+        {
+          "display_url": "x.com/knockouttrader…",
+          "end": 230,
+          "expanded_url": "https://twitter.com/knockouttrader/status/2073004350759145939",
+          "start": 207,
+          "url": "https://t.co/HDaWTQZxgi"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2073005971383967744",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMTL8p2a4AAjYsv.jpg",
+        "width": 514,
+        "height": 269,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2072987101726196069",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2072987101726196069",
+    "created_at": "Fri Jul 03 10:13:33 +0000 2026",
+    "text": "@StarAndCompass_ Never bet against him.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 48,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 8641,
+    "bookmark_count": 0,
+    "conversation_id": "2072986701644116283",
+    "is_reply": true,
+    "in_reply_to_id": "2072986956905234920",
+    "in_reply_to_username": "StarAndCompass_",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "1801070819659091968",
+          "start": 0,
+          "username": "StarAndCompass_"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2072986701644116283",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2072986701644116283",
