@@ -1,5 +1,69 @@
 [
   {
+    "tweet_id": "2073079326862672205",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2073079326862672205",
+    "created_at": "Fri Jul 03 16:20:02 +0000 2026",
+    "text": "@256_rc -&gt; Writes bearish report, specifically calling out $HIMX and $LITE\n-&gt; Proceeds to add $HIMX and $LITE their actively managed ETF after they drop -25-40%. \n\nop strategy.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 116,
+    "retweet_count": 1,
+    "reply_count": 7,
+    "quote_count": 1,
+    "view_count": 13763,
+    "bookmark_count": 15,
+    "conversation_id": "2072936659369517341",
+    "is_reply": true,
+    "in_reply_to_id": "2072940710308048922",
+    "in_reply_to_username": "256_rc",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 67,
+          "start": 62,
+          "tag": "HIMX"
+        },
+        {
+          "end": 77,
+          "start": 72,
+          "tag": "LITE"
+        },
+        {
+          "end": 105,
+          "start": 100,
+          "tag": "HIMX"
+        },
+        {
+          "end": 115,
+          "start": 110,
+          "tag": "LITE"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 7,
+          "id": "1603553957204627456",
+          "start": 0,
+          "username": "256_rc"
+        }
+      ]
+    },
+    "cashtags": [
+      "HIMX",
+      "LITE",
+      "HIMX",
+      "LITE"
+    ],
+    "media": []
+  },
+  {
     "tweet_id": "2073044119287722024",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2073044119287722024",
