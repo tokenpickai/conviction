@@ -1,5 +1,787 @@
 [
   {
+    "tweet_id": "2072986701644116283",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072986701644116283",
+    "created_at": "Fri Jul 03 10:11:58 +0000 2026",
+    "text": "Why the Korean stock market rebounded today: https://t.co/NPPlqCZCpf https://t.co/01H2MLc7pz",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 3,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 225,
+    "bookmark_count": 0,
+    "conversation_id": "2072986701644116283",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2072634258187866169",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/NPPlqCZCpf",
+          "end": 68,
+          "expanded_url": "https://x.com/jukan05/status/2072986701644116283/photo/1",
+          "media_key": "3_2072986686288707584",
+          "start": 45,
+          "url": "https://t.co/NPPlqCZCpf"
+        },
+        {
+          "display_url": "x.com/jimcramer/stat…",
+          "end": 92,
+          "expanded_url": "https://twitter.com/jimcramer/status/2072634258187866169",
+          "start": 69,
+          "url": "https://t.co/01H2MLc7pz"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2072986686288707584",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMS6aHRaQAAHQEV.jpg",
+        "width": 1378,
+        "height": 838,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2072982064828502478",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2072982064828502478",
+    "created_at": "Fri Jul 03 09:53:33 +0000 2026",
+    "text": "https://t.co/fsu5wdDFHy",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 3,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 3492,
+    "bookmark_count": 0,
+    "conversation_id": "2072982062588662151",
+    "is_reply": true,
+    "in_reply_to_id": "2072982062588662151",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "Liang-rong Chen",
+          "display_url": "open.substack.com/pub/cwnewsroom…",
+          "end": 23,
+          "expanded_url": "https://open.substack.com/pub/cwnewsroom/p/exclusive-why-tsmc-first-generation-copos-may-be-glass-free?r=4k4uta&utm_campaign=post-expanded-share&utm_medium=web",
+          "images": [
+            {
+              "height": 800,
+              "url": "https://pbs.twimg.com/news_img/2072982068011892737/RqlbAXyk?format=jpg&name=orig",
+              "width": 1600
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2072982068011892737/RqlbAXyk?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "Exclusive: Why TSMC's First-Generation CoPoS May Be Glass-Free",
+          "unwound_url": "https://cwnewsroom.substack.com/p/exclusive-why-tsmc-first-generation-copos-may-be-glass-free?r=4k4uta&utm_campaign=post-expanded-share&utm_medium=web&triedRedirect=true",
+          "url": "https://t.co/fsu5wdDFHy"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072982062588662151",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072982062588662151",
+    "created_at": "Fri Jul 03 09:53:32 +0000 2026",
+    "text": "Tech Taiwan reports: \n\nTSMC’s CoPoS is expected to enter mass production in the first half of 2029.\n\nSamsung Electro-Mechanics (SEMCO), a Samsung Group affiliate, along with Japan’s Toppan and other substrate manufacturers across Japan and South Korea, have all joined the race to develop glass-core substrates and have recently begun submitting engineering samples to TSMC.\n\nTSMC never even considered glass interposers.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 40,
+    "retweet_count": 6,
+    "reply_count": 4,
+    "quote_count": 4,
+    "view_count": 14272,
+    "bookmark_count": 11,
+    "conversation_id": "2072982062588662151",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/YBbu2XDOSt",
+          "end": 304,
+          "expanded_url": "https://x.com/jukan05/status/2072982062588662151/photo/1",
+          "media_key": "3_2072982000089350144",
+          "start": 281,
+          "url": "https://t.co/YBbu2XDOSt"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2072982000089350144",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMS2JV0awAA6oqa.jpg",
+        "width": 1602,
+        "height": 1368,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2072978759473643867",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072978759473643867",
+    "created_at": "Fri Jul 03 09:40:24 +0000 2026",
+    "text": "RT @zephyr_z9: Very very interesting\n950DT has only 4 HiZQ stacks\nBut each HiZQ stack has an aggregrate bandwidth of 1 TB/s (between HBM3 (…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 4,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 2726,
+    "bookmark_count": 0,
+    "conversation_id": "2072978759473643867",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2072972173107695928",
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "1695126229446479872",
+          "start": 3,
+          "username": "zephyr_z9"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072946659156533588",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2072946659156533588",
+    "created_at": "Fri Jul 03 07:32:51 +0000 2026",
+    "text": "https://t.co/GOHR8wOJHp",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 12,
+    "retweet_count": 1,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 8628,
+    "bookmark_count": 0,
+    "conversation_id": "2072946656933495049",
+    "is_reply": true,
+    "in_reply_to_id": "2072946656933495049",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "삼성전자(005930)가 파운드리(반도체 위탁 생산) 사업을 발판으로 인공지능(AI) 반도체 시장의 키 플레이어로 자리매김하고 있다. 테슬라에 이어 앤스로픽과 메타까지 글로벌 빅테크의 주문형반도체(ASIC) 생산 기지로 위상을 확대하는 것으로 확인돼 흑자 전환 시기도",
+          "display_url": "sedaily.com/article/200635…",
+          "end": 23,
+          "expanded_url": "https://www.sedaily.com/article/20063585?ref=naver",
+          "images": [
+            {
+              "height": 820,
+              "url": "https://pbs.twimg.com/news_img/2072946693612675072/PL8W65Ze?format=png&name=orig",
+              "width": 820
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2072946693612675072/PL8W65Ze?format=png&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "앤스로픽에 메타도 품나...삼성 파운드리 AI 칩 명가로 뜬다",
+          "unwound_url": "https://www.sedaily.com/article/20063585?ref=naver",
+          "url": "https://t.co/GOHR8wOJHp"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072946656933495049",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072946656933495049",
+    "created_at": "Fri Jul 03 07:32:51 +0000 2026",
+    "text": "Samsung Foundry in Talks with Meta on Mass Production of Third Generation MTIA\n\nSamsung Electronics is establishing itself as a key player in the artificial intelligence (AI) chip market on the strength of its foundry (contract chip manufacturing) business. Following Tesla, it has now been confirmed to be expanding its standing as a production base for the custom chips (ASICs) of global big tech firms including Anthropic and Meta, which is expected to move up the timing of its return to profitability. Industry observers estimate that Samsung Foundry's medium to long term order backlog could approach 50 trillion won.\n\nAccording to industry sources on the 3rd, Meta is pursuing the design and production of a next generation ASIC worth more than 10 trillion won with Samsung Foundry. Meta's proprietary AI accelerator, \"MTIA,\" was produced at TSMC through its first and second generations, but starting with the third generation unveiled this year, Meta has selected Samsung Foundry as its partner. In particular, the third generation MTIA is set to apply Samsung Foundry's most advanced 2 nanometer (nm, one billionth of a meter) process, with mass production planned on the scale of several hundred thousand wafers.\n\nMeta is currently reviewing an entry into the \"cloud service\" business of leasing AI computing infrastructure to outside companies, and MTIA is expected to serve as the core chip in this effort. With a target of building out a total of 5 GW (gigawatts) of data center capacity by 2030, the company cannot rely on external chips alone. To that end, Meta plans to run an ultra fast development cycle that releases a new generation of chips every six months, moving from the third generation to the fifth generation chip next year.\n\nFor this \"chip development speed race,\" Meta is also known to have built a collaboration framework with Samsung Electronics' System LSI division, which specializes in design. Meta operates its own AI chip design organization, but it concluded that its in house talent alone would not be enough to absorb the ultra fast six month development schedule. Meta is working on joint development with Samsung System LSI from the earliest chip architecture design stage.\n\nAnthropic, a U.S. AI company, is also known to be reviewing the development of an ASIC using Samsung Foundry's 2 nanometer process. Analysts see this as part of an \"AI infrastructure internalization\" strategy aimed at reducing dependence on external chips such as Nvidia GPUs and Google TPUs.\n\nAnthropic is pursuing the construction of roughly 1 GW of its own AI data centers over the long term, with the investment estimated at around 50 billion dollars (about 77 trillion won). The industry projects that about half of the total investment will go toward AI chips, meaning spending on ASICs and memory such as DRAM and NAND flash alone could reach around 25 billion dollars (about 39 trillion won).\n\nBecause Samsung Electronics possesses integrated chip capabilities spanning memory, foundry, and packaging, it is regarded as the biggest potential beneficiary of Anthropic's AI chip production. In May, Samsung Electronics participated in Anthropic's 65 billion dollar (about 100 trillion won) Series H funding round, establishing a strategic partnership.\n\nAn industry official said, \"Starting with the Tesla AI chip order last year, Samsung Foundry's orders for AI server chips are gaining momentum in earnest,\" adding, \"A contract for the contract production of automotive chips is also being pursued with China's largest EV maker BYD, so the order backlog is growing toward the 50 trillion won level, and an operating profit could be possible as early as the fourth quarter of this year.\"",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 191,
+    "retweet_count": 24,
+    "reply_count": 18,
+    "quote_count": 9,
+    "view_count": 43566,
+    "bookmark_count": 48,
+    "conversation_id": "2072946656933495049",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/gAhz6IPFOW",
+          "end": 301,
+          "expanded_url": "https://x.com/jukan05/status/2072946656933495049/photo/1",
+          "media_key": "3_2072946615149789184",
+          "start": 278,
+          "url": "https://t.co/gAhz6IPFOW"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2072946615149789184",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMSV9qpaAAA-T4c.jpg",
+        "width": 1200,
+        "height": 1200,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2072946500876005649",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072946500876005649",
+    "created_at": "Fri Jul 03 07:32:13 +0000 2026",
+    "text": "*SAMSUNG FOUNDRY IN TALKS WITH META ON A $6.54 BILLION CONTRACT FOR THIRD-GENERATION MTIA CHIPS (SEDAILY)",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 356,
+    "retweet_count": 51,
+    "reply_count": 8,
+    "quote_count": 14,
+    "view_count": 45791,
+    "bookmark_count": 37,
+    "conversation_id": "2072946500876005649",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072942977190875304",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2072942977190875304",
+    "created_at": "Fri Jul 03 07:18:13 +0000 2026",
+    "text": "@InvestLikeBest I was deeply inspired. This is truly remarkable.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 9,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 2237,
+    "bookmark_count": 0,
+    "conversation_id": "2072500537505788387",
+    "is_reply": true,
+    "in_reply_to_id": "2072500537505788387",
+    "in_reply_to_username": "InvestLikeBest",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1282422772845744140",
+          "start": 0,
+          "username": "InvestLikeBest"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072942842759266446",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072942842759266446",
+    "created_at": "Fri Jul 03 07:17:41 +0000 2026",
+    "text": "RT @InvestLikeBest: Rob Wachen was 16 when doctors told him that the bump on his back was stage 4 bone cancer, and that his odds of survivi…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 34,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 5207,
+    "bookmark_count": 0,
+    "conversation_id": "2072942842759266446",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2072500537505788387",
+    "entities": {
+      "mentions": [
+        {
+          "end": 18,
+          "id": "1282422772845744140",
+          "start": 3,
+          "username": "InvestLikeBest"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072939100617994637",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072939100617994637",
+    "created_at": "Fri Jul 03 07:02:49 +0000 2026",
+    "text": "RT @citrini: I remember in Q3 2023 we had like a 3 month long drawdown in every important AI name, all the people who thought AI was BS fel…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 69,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 3885,
+    "bookmark_count": 0,
+    "conversation_id": "2072939100617994637",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2072812940806295672",
+    "entities": {
+      "mentions": [
+        {
+          "end": 11,
+          "id": "1365809270034477069",
+          "start": 3,
+          "username": "citrini"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072924502770815379",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2072924502770815379",
+    "created_at": "Fri Jul 03 06:04:49 +0000 2026",
+    "text": "I think it’s Qualcomm.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 39,
+    "retweet_count": 1,
+    "reply_count": 6,
+    "quote_count": 0,
+    "view_count": 10625,
+    "bookmark_count": 5,
+    "conversation_id": "2072923398653821326",
+    "is_reply": true,
+    "in_reply_to_id": "2072923398653821326",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072923398653821326",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072923398653821326",
+    "created_at": "Fri Jul 03 06:00:25 +0000 2026",
+    "text": "Has $AVGO  entered the Trainium supply chain? Or is it $QCOM ? https://t.co/gfFEUsNrdF",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 106,
+    "retweet_count": 6,
+    "reply_count": 11,
+    "quote_count": 0,
+    "view_count": 49047,
+    "bookmark_count": 26,
+    "conversation_id": "2072923398653821326",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2072922233656484282",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 9,
+          "start": 4,
+          "tag": "AVGO"
+        },
+        {
+          "end": 60,
+          "start": 55,
+          "tag": "QCOM"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "x.com/Aaronwei3n/sta…",
+          "end": 86,
+          "expanded_url": "https://twitter.com/Aaronwei3n/status/2072922233656484282",
+          "start": 63,
+          "url": "https://t.co/gfFEUsNrdF"
+        }
+      ]
+    },
+    "cashtags": [
+      "AVGO",
+      "QCOM"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2072908984605175879",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2072908984605175879",
+    "created_at": "Fri Jul 03 05:03:09 +0000 2026",
+    "text": "I think the NAND number is way too conservative…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 136,
+    "retweet_count": 11,
+    "reply_count": 3,
+    "quote_count": 1,
+    "view_count": 21182,
+    "bookmark_count": 17,
+    "conversation_id": "2072908815868330276",
+    "is_reply": true,
+    "in_reply_to_id": "2072908815868330276",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072908815868330276",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072908815868330276",
+    "created_at": "Fri Jul 03 05:02:29 +0000 2026",
+    "text": ">> TrendForce: AI server demand underpins memory prices… Q3 DRAM +13 to 18%, NAND +10 to 15% QoQ increase expected\n\n• According to TrendForce's latest memory price survey, the DRAM market in Q3 2026 is expected to continue experiencing severe supply shortages across the board. That said, softening demand in consumer applications and a high base effect will moderate the pace of the increase somewhat, with DRAM contract prices projected to rise +13 to 18% QoQ.\n\n• For NAND Flash, AI inference demand and large scale data center buildouts continue to drive the bulk of demand. However, with contract prices already at record highs and consumer market demand slowing, customers' capacity to absorb further price increases has reached its limit. As a result, TrendForce forecasts NAND Flash contract prices to rise +10 to 15% QoQ, with the magnitude of the increase narrowing noticeably versus prior quarters.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 230,
+    "retweet_count": 32,
+    "reply_count": 14,
+    "quote_count": 9,
+    "view_count": 45768,
+    "bookmark_count": 59,
+    "conversation_id": "2072908815868330276",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072901008460767621",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2072901008460767621",
+    "created_at": "Fri Jul 03 04:31:27 +0000 2026",
+    "text": "https://t.co/C4M5DYfYnr",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 37,
+    "retweet_count": 4,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 13353,
+    "bookmark_count": 5,
+    "conversation_id": "2072901006682427875",
+    "is_reply": true,
+    "in_reply_to_id": "2072901006682427875",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "국내 메모리 반도체 업계가 올 3분기 범용 D램 평균판매가격(ASP)을 전분기 대비 최대 20%까지 인상하는 방안을 추진하고 있는 것으로 파악된다.AI 인프라 투자에 따라 제품 전반의 공급 부족 현상이 지속되고 있는 만큼, 메모리 기업들도 수익 극대화 기조를 이어가려는 전...",
+          "display_url": "zdnet.co.kr/view/?no=20260…",
+          "end": 23,
+          "expanded_url": "https://zdnet.co.kr/view/?no=20260703111704#_enliple",
+          "images": [
+            {
+              "height": 412,
+              "url": "https://pbs.twimg.com/news_img/2072884832204636160/eh8EDd_y?format=png&name=orig",
+              "width": 640
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2072884832204636160/eh8EDd_y?format=png&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "D램 가격, 3분기에도 최대 20% 공격적 인상…AI 수요 굳건",
+          "unwound_url": "https://zdnet.co.kr/view/?no=20260703111704#_enliple",
+          "url": "https://t.co/C4M5DYfYnr"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072901006682427875",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072901006682427875",
+    "created_at": "Fri Jul 03 04:31:27 +0000 2026",
+    "text": "Samsung to Raise Q3 DRAM Prices by Up to 20%, AI Demand Remains Solid\n\nKorea's memory semiconductor industry is understood to be pushing to raise the average selling price (ASP) of commodity DRAM in the third quarter of this year by as much as 20% versus the prior quarter.\n\nWith supply shortages persisting across the entire product lineup on the back of AI infrastructure investment, memory makers are interpreted to be extending a strategy of maximizing profitability. The pace of price increases will slow thereafter, but industry sources say an extremely high profitability trend will continue into next year as well.\n\nAccording to the industry on the 3rd, Samsung Electronics is in negotiations with customers targeting a Q3 DRAM ASP increase of up to around 20% versus the previous quarter.\n\nDRAM prices have shown a sharp upward trend, driven by aggressive AI infrastructure investment from global big tech firms. This is because supply shortages have intensified across the entire product lineup, spanning not only server DRAM and high bandwidth memory (HBM) but also low power DRAM (LPDDR), which is drawing attention in the AI inference space.\n\nSamsung's DRAM ASP increase is especially pronounced relative to SK Hynix. The industry assessment is that commodity DRAM, which carries high price volatility, accounts for a large share of Samsung's total output, and that the company has been the most aggressive in raising prices.\n\nIn fact, Samsung's first quarter DRAM ASP rose by the low 90% range versus the prior quarter. The second quarter is estimated at around 50 to 60%. Furthermore, it is targeting an increase of around 20% in the third quarter as well. SK Hynix, which has a relatively high share of HBM production, is estimated to come in somewhat below this level.\n\nA semiconductor industry official said, \"Samsung is negotiating very aggressively on pricing in the third quarter this year. We understand it will also raise LPDDR, which has recently seen severe bottlenecks in both server and mobile, by more than 20%,\" adding, \"That said, it is not certain whether customers will accept all of this.\"\n\nDRAM prices are seen as highly likely to remain stable going forward. Although the pace of DRAM price increases is gradually easing, the share of long term agreements (LTAs) signed with key customers is steadily expanding.\n\nFor example, Micron of the United States disclosed through its earnings release late last month that it had signed a total of 16 long term agreements with customers. These contracts carry binding commitments to purchase a certain volume and set a price floor that guarantees very high margins. This is interpreted as reflecting customers' judgment that memory supply and demand will remain tight over the medium to long term.\n\nThe recently raised possibility of Meta entering the cloud business is also not expected to weigh on memory demand as a negative. Some had read Meta's move to sell its internal surplus computing resources externally as a sign that its AI production capacity may already be sufficiently built out.\n\nHowever, Meta has maintained an aggressive investment stance, in April raising its annual AI infrastructure investment plan from an initial 115 billion to 135 billion dollars to 125 billion to 145 billion dollars.\n\nAnother industry official explained, \"With the expansion of LTAs that include price floors and HBM price renegotiations, there will be no sharp decline in the DRAM market next year either,\" adding, \"In Meta's case, it is more accurate to view this as a way to efficiently utilize its internal computing resources.\"",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 569,
+    "retweet_count": 80,
+    "reply_count": 22,
+    "quote_count": 23,
+    "view_count": 84959,
+    "bookmark_count": 157,
+    "conversation_id": "2072901006682427875",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072900467840151793",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072900467840151793",
+    "created_at": "Fri Jul 03 04:29:18 +0000 2026",
+    "text": "SAMSUNG PUSHES FOR 20% QOQ DRAM ASP HIKE IN Q3 (ZDNET KOREA)",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "in",
+    "like_count": 402,
+    "retweet_count": 29,
+    "reply_count": 8,
+    "quote_count": 7,
+    "view_count": 96908,
+    "bookmark_count": 36,
+    "conversation_id": "2072900467840151793",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2072874652230418461",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2072874652230418461",
+    "created_at": "Fri Jul 03 02:46:43 +0000 2026",
+    "text": "HSBC raises its $INTC price target to $200. https://t.co/nvOuUFwEsI",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 481,
+    "retweet_count": 34,
+    "reply_count": 26,
+    "quote_count": 5,
+    "view_count": 53637,
+    "bookmark_count": 47,
+    "conversation_id": "2072874652230418461",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 21,
+          "start": 16,
+          "tag": "INTC"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/nvOuUFwEsI",
+          "end": 67,
+          "expanded_url": "https://x.com/jukan05/status/2072874652230418461/photo/1",
+          "media_key": "3_2072874416858681344",
+          "start": 44,
+          "url": "https://t.co/nvOuUFwEsI"
+        }
+      ]
+    },
+    "cashtags": [
+      "INTC"
+    ],
+    "media": [
+      {
+        "media_key": "3_2072874416858681344",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMRUTLDbUAAlZ8x.jpg",
+        "width": 1508,
+        "height": 748,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2072810198784409665",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2072810198784409665",
+    "created_at": "Thu Jul 02 22:30:36 +0000 2026",
+    "text": "@citrini @RJCcapital 💀💀💀💀",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 93,
+    "retweet_count": 0,
+    "reply_count": 4,
+    "quote_count": 0,
+    "view_count": 5631,
+    "bookmark_count": 0,
+    "conversation_id": "2072788539272523981",
+    "is_reply": true,
+    "in_reply_to_id": "2072807171574665605",
+    "in_reply_to_username": "citrini",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 8,
+          "id": "1365809270034477069",
+          "start": 0,
+          "username": "citrini"
+        },
+        {
+          "end": 20,
+          "id": "1883251363179548672",
+          "start": 9,
+          "username": "RJCcapital"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2072800306812145733",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2072800306812145733",
