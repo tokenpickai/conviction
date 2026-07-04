@@ -1,5 +1,192 @@
 [
   {
+    "tweet_id": "2073537674905055568",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2073537674905055568",
+    "created_at": "Sat Jul 04 22:41:20 +0000 2026",
+    "text": "@fivepointscap Yep, $SE $MELI $JD $AMZN and the other e-commerce giants are the most obvious beneficiary of physical AI push that I can think of\n\nGiven they can optimizing opex immediately with robotics. Names like $META are kinda less clear.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 24,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 4648,
+    "bookmark_count": 12,
+    "conversation_id": "2073523410643366242",
+    "is_reply": true,
+    "in_reply_to_id": "2073524217358819626",
+    "in_reply_to_username": "fivepointscap",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 23,
+          "start": 20,
+          "tag": "SE"
+        },
+        {
+          "end": 29,
+          "start": 24,
+          "tag": "MELI"
+        },
+        {
+          "end": 33,
+          "start": 30,
+          "tag": "JD"
+        },
+        {
+          "end": 39,
+          "start": 34,
+          "tag": "AMZN"
+        },
+        {
+          "end": 220,
+          "start": 215,
+          "tag": "META"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 14,
+          "id": "1960131066385379328",
+          "start": 0,
+          "username": "fivepointscap"
+        }
+      ]
+    },
+    "cashtags": [
+      "SE",
+      "MELI",
+      "JD",
+      "AMZN",
+      "META"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2073536758604771517",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2073536758604771517",
+    "created_at": "Sat Jul 04 22:37:42 +0000 2026",
+    "text": "No, it’s the same if not higher. Markets are closed and if there’s no new developments, then I have nothing new to add.\n\n$SIVE is personally one of my largest holdings and I’ve posted all my thoughts on their hyperscaler supplier relationships. So I’m just waiting for volume ramps and company execution and ignoring a lot of noise. \n\nThe convertible notes is not new information and was likely priced in for awhile. Having it executed now is not a positive thing like others are framing, since Bootstrap Europe is a venture debt fund.\n\nThere’s likely instituonal swaps happening given oversubscribed instituonal demand around these levels. $140m is not a big amount in terms of institutional flows.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 36,
+    "retweet_count": 2,
+    "reply_count": 5,
+    "quote_count": 0,
+    "view_count": 4984,
+    "bookmark_count": 2,
+    "conversation_id": "2073523410643366242",
+    "is_reply": true,
+    "in_reply_to_id": "2073530043238928697",
+    "in_reply_to_username": "mkavethewave",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 126,
+          "start": 121,
+          "tag": "SIVE"
+        }
+      ]
+    },
+    "cashtags": [
+      "SIVE"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2073523410643366242",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2073523410643366242",
+    "created_at": "Sat Jul 04 21:44:39 +0000 2026",
+    "text": "Nikkei - $JD E-Commerce Giant CEO warns \"Robots Will Replace 700,000 Delivery Workers\". \n\nPer FT's earlier piece last month: The 700,000 delivery personnel working for the firm will be replaced by robots, highlighting how rapid automation has become a new threat to China's already severe job market.\n\nLiu Qiangdong, revealed that the company has signed contracts with approximately 120 schools to retrain its delivery workers, enabling them to transition into new roles such as robot repair and maintenance...\n\n\"Beijing has started to track AI’s hit to jobs as a national priority.\"\n\nThis follows other corporate strategy reports like $AMZN, of avoiding 600,000 future hires with robots.  \n\nBut it's very interesting to see the shift in worker roles to robot support. Maybe $DASH to $UBER to $MELI, we'll all start to see this rollout following China. \n\nThere's a lot of retail disbelief over humanoid/robotics commercialization. But feels like the direction industry is heading down is pretty clear.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 313,
+    "retweet_count": 29,
+    "reply_count": 85,
+    "quote_count": 6,
+    "view_count": 80919,
+    "bookmark_count": 66,
+    "conversation_id": "2073523410643366242",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 12,
+          "start": 9,
+          "tag": "JD"
+        },
+        {
+          "end": 641,
+          "start": 636,
+          "tag": "AMZN"
+        },
+        {
+          "end": 780,
+          "start": 775,
+          "tag": "DASH"
+        },
+        {
+          "end": 789,
+          "start": 784,
+          "tag": "UBER"
+        },
+        {
+          "end": 798,
+          "start": 793,
+          "tag": "MELI"
+        }
+      ]
+    },
+    "cashtags": [
+      "JD",
+      "AMZN",
+      "DASH",
+      "UBER",
+      "MELI"
+    ],
+    "media": [
+      {
+        "media_key": "3_2073520716675436544",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMagGxfaUAAfgHo.jpg",
+        "width": 1838,
+        "height": 1105,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2073521277017767936",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMagnY7bwAAR6au.jpg",
+        "width": 1639,
+        "height": 1202,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2073486870315745406",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2073486870315745406",
