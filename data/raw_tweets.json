@@ -1,5 +1,155 @@
 [
   {
+    "tweet_id": "2073307016760791512",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2073307016760791512",
+    "created_at": "Sat Jul 04 07:24:47 +0000 2026",
+    "text": "@frank_be $MSFT was underwater DCs.\n\nThese are floating DCs https://t.co/oOEyTEBJ5z",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 19,
+    "retweet_count": 0,
+    "reply_count": 4,
+    "quote_count": 0,
+    "view_count": 5386,
+    "bookmark_count": 2,
+    "conversation_id": "2073305375957541013",
+    "is_reply": true,
+    "in_reply_to_id": "2073306456397365484",
+    "in_reply_to_username": "frank_be",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 15,
+          "start": 10,
+          "tag": "MSFT"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 9,
+          "id": "4026171",
+          "start": 0,
+          "username": "frank_be"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/oOEyTEBJ5z",
+          "end": 83,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2073307016760791512/photo/1",
+          "media_key": "3_2073307010788159488",
+          "start": 60,
+          "url": "https://t.co/oOEyTEBJ5z"
+        }
+      ]
+    },
+    "cashtags": [
+      "MSFT"
+    ],
+    "media": [
+      {
+        "media_key": "3_2073307010788159488",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMXdvdBa8AAvKwr.jpg",
+        "width": 1260,
+        "height": 457,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2073305375957541013",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2073305375957541013",
+    "created_at": "Sat Jul 04 07:18:16 +0000 2026",
+    "text": "TIL floating DC and ocean compute exists?\n\nApparently it’s free cooling + optimal for places in tight geography…\n\nIt’s going to be wild taking a cruise ship, and passing by a bunch of $NBIS or Samsung floating AI DCs one day.\n\nIf this ever becomes a thing like orbital compute? https://t.co/Ki2RqNc2xT",
+    "text_source": "text",
+    "text_may_be_truncated": true,
+    "lang": "en",
+    "like_count": 285,
+    "retweet_count": 9,
+    "reply_count": 97,
+    "quote_count": 8,
+    "view_count": 62925,
+    "bookmark_count": 37,
+    "conversation_id": "2073305375957541013",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 189,
+          "start": 184,
+          "tag": "NBIS"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/Ki2RqNc2xT",
+          "end": 301,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2073305375957541013/photo/1",
+          "media_key": "3_2073305369468903424",
+          "start": 278,
+          "url": "https://t.co/Ki2RqNc2xT"
+        }
+      ]
+    },
+    "cashtags": [
+      "NBIS"
+    ],
+    "media": [
+      {
+        "media_key": "3_2073305369468903424",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMXcP6oaoAAvmfQ.jpg",
+        "width": 1222,
+        "height": 1532,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2073196939785711796",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2073196939785711796",
+    "created_at": "Sat Jul 04 00:07:23 +0000 2026",
+    "text": "I'm bearish on humans.\n\nHard to see people still having a job if humanoids come out at &lt;$15K mass production.\n\nNo insurance, no JP Morgan HR cannon scandals. \n\nAnd can do everything a person can, but better + 24/7.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 2136,
+    "retweet_count": 88,
+    "reply_count": 407,
+    "quote_count": 51,
+    "view_count": 399025,
+    "bookmark_count": 221,
+    "conversation_id": "2073196939785711796",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2073079326862672205",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2073079326862672205",

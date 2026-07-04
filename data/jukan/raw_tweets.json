@@ -1,5 +1,722 @@
 [
   {
+    "tweet_id": "2073294922447454481",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2073294922447454481",
+    "created_at": "Sat Jul 04 06:36:44 +0000 2026",
+    "text": "This will be my first time attending ICML. It just so happens to be held in Korea this year, so I’m going, but I’m a little worried about whether I’ll be able to follow all the technical content.....\n\nIf you’d like to meet up during ICML, feel free to DM me.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 75,
+    "retweet_count": 1,
+    "reply_count": 9,
+    "quote_count": 1,
+    "view_count": 15468,
+    "bookmark_count": 6,
+    "conversation_id": "2073294922447454481",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073293370089423056",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073293370089423056",
+    "created_at": "Sat Jul 04 06:30:34 +0000 2026",
+    "text": "@cloneofsimo Good idea",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 3,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 4896,
+    "bookmark_count": 0,
+    "conversation_id": "2072850025043112022",
+    "is_reply": true,
+    "in_reply_to_id": "2072850025043112022",
+    "in_reply_to_username": "cloneofsimo",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "1529156127006392320",
+          "start": 0,
+          "username": "cloneofsimo"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073293096394334543",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073293096394334543",
+    "created_at": "Sat Jul 04 06:29:28 +0000 2026",
+    "text": "@distributionat ChatGPT is the best for translations lol.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 8,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 1206,
+    "bookmark_count": 0,
+    "conversation_id": "2072981421875200388",
+    "is_reply": true,
+    "in_reply_to_id": "2072981421875200388",
+    "in_reply_to_username": "distributionat",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1468428334610915329",
+          "start": 0,
+          "username": "distributionat"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073291763528430001",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073291763528430001",
+    "created_at": "Sat Jul 04 06:24:10 +0000 2026",
+    "text": "@ContrarianCurse Congrats!!",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 3,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1021,
+    "bookmark_count": 0,
+    "conversation_id": "2073230780013158830",
+    "is_reply": true,
+    "in_reply_to_id": "2073230780013158830",
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "1696522613168943106",
+          "start": 0,
+          "username": "ContrarianCurse"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073290928731885775",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073290928731885775",
+    "created_at": "Sat Jul 04 06:20:51 +0000 2026",
+    "text": "@airkatakana Let’s meet up sometime!",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 3,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 1380,
+    "bookmark_count": 0,
+    "conversation_id": "2072856934454345787",
+    "is_reply": true,
+    "in_reply_to_id": "2072856934454345787",
+    "in_reply_to_username": "airkatakana",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "3116760553",
+          "start": 0,
+          "username": "airkatakana"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073263062615027993",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073263062615027993",
+    "created_at": "Sat Jul 04 04:30:08 +0000 2026",
+    "text": "@zephyr_z9 @teortaxesTex But this still only explains how to distribute an already-built model.\n\nIt does not answer the question of how they are going to recover the development cost of the next-generation model, does it?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 5,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 1432,
+    "bookmark_count": 0,
+    "conversation_id": "2073259679753412795",
+    "is_reply": true,
+    "in_reply_to_id": "2073262135694487670",
+    "in_reply_to_username": "zephyr_z9",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1695126229446479872",
+          "start": 0,
+          "username": "zephyr_z9"
+        },
+        {
+          "end": 24,
+          "id": "192201556",
+          "start": 11,
+          "username": "teortaxesTex"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073262636364705874",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073262636364705874",
+    "created_at": "Sat Jul 04 04:28:26 +0000 2026",
+    "text": "@Alex_Intel_ 🤣",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 747,
+    "bookmark_count": 0,
+    "conversation_id": "2073210230155215048",
+    "is_reply": true,
+    "in_reply_to_id": "2073238117411397798",
+    "in_reply_to_username": "Alex_Intel_",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "2156030786",
+          "start": 0,
+          "username": "Alex_Intel_"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073261401372786900",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073261401372786900",
+    "created_at": "Sat Jul 04 04:23:32 +0000 2026",
+    "text": "@teortaxesTex Isn’t that a bit too idealistic as a counterargument?\n\nIf GPU scarcity is pushing them toward open source, doesn’t that also mean GPUs for training are scarce as well?\n\nAnd if that’s the case, then the cost of building LLMs themselves is going up.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 18,
+    "retweet_count": 0,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 3111,
+    "bookmark_count": 1,
+    "conversation_id": "2073259679753412795",
+    "is_reply": true,
+    "in_reply_to_id": "2073259679753412795",
+    "in_reply_to_username": "teortaxesTex",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "192201556",
+          "start": 0,
+          "username": "teortaxesTex"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073254839795245081",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073254839795245081",
+    "created_at": "Sat Jul 04 03:57:27 +0000 2026",
+    "text": "@cryptobyrde The idea that Chinese models are competitive because of subsidies is nonsense.\n\nIf anything, the lack of excessive subsidies is exactly why Chinese AI labs are now being forced to think seriously about ROI.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 91,
+    "retweet_count": 0,
+    "reply_count": 4,
+    "quote_count": 0,
+    "view_count": 6669,
+    "bookmark_count": 4,
+    "conversation_id": "2073253723170865152",
+    "is_reply": true,
+    "in_reply_to_id": "2073254010094837880",
+    "in_reply_to_username": "cryptobyrde",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "474455472",
+          "start": 0,
+          "username": "cryptobyrde"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073254117829701770",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073254117829701770",
+    "created_at": "Sat Jul 04 03:54:35 +0000 2026",
+    "text": "@Alex_Intel_ The bull case is that all three memory makers license this technology instead of Intel producing it in-house.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 7,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 1118,
+    "bookmark_count": 2,
+    "conversation_id": "2073251582234526030",
+    "is_reply": true,
+    "in_reply_to_id": "2073252307349938612",
+    "in_reply_to_username": "Alex_Intel_",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "2156030786",
+          "start": 0,
+          "username": "Alex_Intel_"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073253723170865152",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2073253723170865152",
+    "created_at": "Sat Jul 04 03:53:01 +0000 2026",
+    "text": "I don’t understand why supporters of Chinese open source keep pretending not to see what is happening right now: even Chinese “open-source” players are raising prices or gradually shifting toward more closed models.\n\nI think China’s token dumping has already bottomed.\n\nJust look at Zhipu, the company behind GLM-5.2. Even Zhipu has raised prices several times this year.\n\nChinese LLM developers cannot ignore ROI forever.\n\nOpen source is not the same thing as cheap API pricing.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 755,
+    "retweet_count": 66,
+    "reply_count": 97,
+    "quote_count": 23,
+    "view_count": 132039,
+    "bookmark_count": 139,
+    "conversation_id": "2073253723170865152",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073236762131038328",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073236762131038328",
+    "created_at": "Sat Jul 04 02:45:37 +0000 2026",
+    "text": "@beffjezos Isn’t the terafab meant for internal use, not for selling capacity to external customers?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 58,
+    "retweet_count": 2,
+    "reply_count": 11,
+    "quote_count": 0,
+    "view_count": 7260,
+    "bookmark_count": 2,
+    "conversation_id": "2073236198168862970",
+    "is_reply": true,
+    "in_reply_to_id": "2073236198168862970",
+    "in_reply_to_username": "beffjezos",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1556550048862928898",
+          "start": 0,
+          "username": "beffjezos"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073231344361189824",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073231344361189824",
+    "created_at": "Sat Jul 04 02:24:05 +0000 2026",
+    "text": "@teortaxesTex Paradoxically, because we achieved success the hard way, we don’t want to have it taken away from us.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 6,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 1,
+    "view_count": 3634,
+    "bookmark_count": 0,
+    "conversation_id": "2073228848104177886",
+    "is_reply": true,
+    "in_reply_to_id": "2073231012536992179",
+    "in_reply_to_username": "teortaxesTex",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "192201556",
+          "start": 0,
+          "username": "teortaxesTex"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073231120746070344",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2073231120746070344",
+    "created_at": "Sat Jul 04 02:23:12 +0000 2026",
+    "text": "Analog semiconductor lead times are now up to six months!! https://t.co/e4eFn2lSTN https://t.co/UtuMnuqbPF",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 378,
+    "retweet_count": 37,
+    "reply_count": 17,
+    "quote_count": 8,
+    "view_count": 80554,
+    "bookmark_count": 109,
+    "conversation_id": "2073231120746070344",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2073229944029913108",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/e4eFn2lSTN",
+          "end": 82,
+          "expanded_url": "https://x.com/jukan05/status/2073231120746070344/photo/1",
+          "media_key": "3_2073231115134050305",
+          "start": 59,
+          "url": "https://t.co/e4eFn2lSTN"
+        },
+        {
+          "display_url": "x.com/qq_timmy/statu…",
+          "end": 106,
+          "expanded_url": "https://twitter.com/qq_timmy/status/2073229944029913108",
+          "start": 83,
+          "url": "https://t.co/UtuMnuqbPF"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2073231115134050305",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMWYtvraIAEKnOC.jpg",
+        "width": 2048,
+        "height": 1984,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2073230349426098381",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073230349426098381",
+    "created_at": "Sat Jul 04 02:20:08 +0000 2026",
+    "text": "@teortaxesTex Koreans are always plagued by paranoia.\n\nAt least in my experience, it still feels like we have some self-correcting mechanism at work.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 5,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1272,
+    "bookmark_count": 0,
+    "conversation_id": "2073228848104177886",
+    "is_reply": true,
+    "in_reply_to_id": "2073229853021585912",
+    "in_reply_to_username": "teortaxesTex",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "192201556",
+          "start": 0,
+          "username": "teortaxesTex"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073213574814789657",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073213574814789657",
+    "created_at": "Sat Jul 04 01:13:29 +0000 2026",
+    "text": "@Alex_Intel_ As I’ve said before, Samsung is being very smart here. They’re essentially pressuring hyperscalers by saying: if you want us to supply you with memory, then you should manufacture your chips at Samsung Foundry.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 39,
+    "retweet_count": 2,
+    "reply_count": 4,
+    "quote_count": 1,
+    "view_count": 6550,
+    "bookmark_count": 3,
+    "conversation_id": "2073210230155215048",
+    "is_reply": true,
+    "in_reply_to_id": "2073212945367179307",
+    "in_reply_to_username": "Alex_Intel_",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "2156030786",
+          "start": 0,
+          "username": "Alex_Intel_"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073210898978906542",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073210898978906542",
+    "created_at": "Sat Jul 04 01:02:51 +0000 2026",
+    "text": "@minhnxn Of course",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 20,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 2509,
+    "bookmark_count": 0,
+    "conversation_id": "2073210230155215048",
+    "is_reply": true,
+    "in_reply_to_id": "2073210560028807486",
+    "in_reply_to_username": "minhnxn",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 8,
+          "id": "450241867",
+          "start": 0,
+          "username": "minhnxn"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073210232260673807",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2073210232260673807",
+    "created_at": "Sat Jul 04 01:00:12 +0000 2026",
+    "text": "https://t.co/MxjxsRAx7T",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 15,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 12332,
+    "bookmark_count": 2,
+    "conversation_id": "2073210230155215048",
+    "is_reply": true,
+    "in_reply_to_id": "2073210230155215048",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "7月3日，有消息称三星电子拟将今年第三季度DRAM（动态随机存取存储器）的平均售价，环比上一季度提高20%。 “这是真的”，一家消费电子终端厂商负责人表示，今年6月三星已与他们洽谈，现已收到三星关于DRAM提价的口头通知。",
+          "display_url": "wallstreetcn.com/livenews/31288…",
+          "end": 23,
+          "expanded_url": "https://wallstreetcn.com/livenews/3128864",
+          "images": [
+            {
+              "height": 200,
+              "url": "https://pbs.twimg.com/news_img/2073210243740495872/c1TmSIcO?format=png&name=orig",
+              "width": 200
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2073210243740495872/c1TmSIcO?format=png&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "三星第三季DRAM拟提价20%，厂家称已接口头通知 - 华尔街见闻",
+          "unwound_url": "https://wallstreetcn.com/livenews/3128864",
+          "url": "https://t.co/MxjxsRAx7T"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073210230155215048",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2073210230155215048",
+    "created_at": "Sat Jul 04 01:00:11 +0000 2026",
+    "text": "Samsung reportedly plans to raise DRAM prices by 20% in Q3; manufacturers say they have already received verbal notices\n\nOn July 3, reports emerged that Samsung Electronics plans to raise the average selling price of DRAM in the third quarter of this year by 20% quarter over quarter.\n\n“That is true,” said the head of a consumer electronics terminal manufacturer. According to the person, Samsung had already held price negotiations with them in June, and they have now received a verbal notice from Samsung regarding the DRAM price increase.\n\n“The sharp increase in upstream component prices will be passed on to end-product prices, which may suppress some market demand. However, overall prices for consumer electronics products are not very high at the moment, so even if prices rise, it is unlikely to significantly affect users’ purchasing decisions,” the person said.\n\nAnother senior industry insider also told reporters that the news of Samsung’s planned 20% DRAM price hike in Q3 is true, and that Samsung has already notified some customers through verbal quotations.\n\nAs of publication, Samsung had not issued an official response regarding the Q3 DRAM price increase. — Yicai",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 479,
+    "retweet_count": 53,
+    "reply_count": 34,
+    "quote_count": 8,
+    "view_count": 74381,
+    "bookmark_count": 76,
+    "conversation_id": "2073210230155215048",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2073069226257272833",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2073069226257272833",
