@@ -1,5 +1,114 @@
 [
   {
+    "tweet_id": "2073374325420503417",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2073374325420503417",
+    "created_at": "Sat Jul 04 11:52:15 +0000 2026",
+    "text": "@SpongeQuant “AGIBOT humanoid robots completed 64 hours of factory work, producing 17,625 tablets on livestream.”\n\nYeah… it’s kinda gg for a lot of different workforces when it starts rolling out https://t.co/owrksAqhTv",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 16,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 3385,
+    "bookmark_count": 2,
+    "conversation_id": "2073351980131754203",
+    "is_reply": true,
+    "in_reply_to_id": "2073353445621342624",
+    "in_reply_to_username": "SpongeQuant",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "1619021067305062425",
+          "start": 0,
+          "username": "SpongeQuant"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/owrksAqhTv",
+          "end": 219,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2073374325420503417/photo/1",
+          "media_key": "3_2073374319359770624",
+          "start": 196,
+          "url": "https://t.co/owrksAqhTv"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2073374319359770624",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMYa9U_bQAAZuAm.jpg",
+        "width": 1260,
+        "height": 2016,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2073351980131754203",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2073351980131754203",
+    "created_at": "Sat Jul 04 10:23:27 +0000 2026",
+    "text": "Bruh, when I first tried out ChatGPT around 2023, I thought it LLMs were garbage at coding. \n\n3Y later, Mythos is considered a modern day “nuke” for cybersecurity. \n\nPeople keep saying humanoids can’t do X or Y task today like plumbing or DC wiring. No sht, but it’s about where things are heading over the few years.\n\nAnd it’s clear to me and VC apparently that we’ve just hit the inflection point where soon: majority of labor you think is human-only, can be replaced by robotics/humanoids. \n\nYou're already seeing this too with internal strategies: Remember $AMZN leaked strat planned to avoid hiring 600,000 workers by them with robots like $CCXI? \n\nIf you see past the \"assistive robotics\" public image framing to prevent protest, it's clear the goals is maximizing, opex efficiency. \n\nThe main areas I think are safe however are regulation bound (eg. Medicine), ultra specialized labor, or require human/emotional connections.\n\nBut I think you'll be blown away by the rate of change when frontier technologies become national security races between US and China... especially when China is currently in the lead.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 510,
+    "retweet_count": 38,
+    "reply_count": 121,
+    "quote_count": 9,
+    "view_count": 144085,
+    "bookmark_count": 115,
+    "conversation_id": "2073351980131754203",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2073202884175368403",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 566,
+          "start": 561,
+          "tag": "AMZN"
+        },
+        {
+          "end": 650,
+          "start": 645,
+          "tag": "CCXI"
+        }
+      ]
+    },
+    "cashtags": [
+      "AMZN",
+      "CCXI"
+    ],
+    "media": [
+      {
+        "media_key": "3_2073350017205882880",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMYE2wabUAAMZo_.jpg",
+        "width": 2220,
+        "height": 1382,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2073307016760791512",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2073307016760791512",

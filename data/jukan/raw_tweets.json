@@ -1,5 +1,42 @@
 [
   {
+    "tweet_id": "2073346791857361304",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073346791857361304",
+    "created_at": "Sat Jul 04 10:02:50 +0000 2026",
+    "text": "@LIWEI_TWCapital Bro, if you create an Australian Payoneer account, you can use Stripe.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 16,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 2089,
+    "bookmark_count": 2,
+    "conversation_id": "2073345228770361434",
+    "is_reply": true,
+    "in_reply_to_id": "2073345228770361434",
+    "in_reply_to_username": "LIWEI_TWCapital",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "1751131921655136256",
+          "start": 0,
+          "username": "LIWEI_TWCapital"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2073294922447454481",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2073294922447454481",
