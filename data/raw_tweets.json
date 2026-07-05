@@ -1,5 +1,171 @@
 [
   {
+    "tweet_id": "2073873043672420517",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2073873043672420517",
+    "created_at": "Sun Jul 05 20:53:58 +0000 2026",
+    "text": "Yep, $AMZN looks like the clear winner in physical AI shift. \n\nI think the Amazon ecosystem... is probably going to the catalyst for robotics players compared to others in the Google/Meta ecosystems. \n\nI kinda see parallels to the $GOOGL TPU effect on suppliers like $LITE or Mediatek, but for robotics... like Agility. Still early though.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 43,
+    "retweet_count": 1,
+    "reply_count": 6,
+    "quote_count": 0,
+    "view_count": 8181,
+    "bookmark_count": 5,
+    "conversation_id": "2073867745243127973",
+    "is_reply": true,
+    "in_reply_to_id": "2073870563756462081",
+    "in_reply_to_username": "heyfinlo",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 10,
+          "start": 5,
+          "tag": "AMZN"
+        },
+        {
+          "end": 237,
+          "start": 231,
+          "tag": "GOOGL"
+        },
+        {
+          "end": 272,
+          "start": 267,
+          "tag": "LITE"
+        }
+      ]
+    },
+    "cashtags": [
+      "AMZN",
+      "GOOGL",
+      "LITE"
+    ],
+    "media": [
+      {
+        "media_key": "3_2073871911449477120",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMffg_-bQAAzEg7.jpg",
+        "width": 1713,
+        "height": 678,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2073867745243127973",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2073867745243127973",
+    "created_at": "Sun Jul 05 20:32:55 +0000 2026",
+    "text": "Came across an interesting report from SVRC Research called \"State of Robotics 2026\", published in April. \n\nWhich listed:\n\n1. Figure AI \n2. Agility Robotics $CCXI\n3. Apptronik \n4. $TSLA \n5. Boston Dynamics\n6. Physical Intelligence \n7. 1X Technologies\n8. $AMZN Robotics\n9. Covariant\n10. Skild AI \n\nAs the National Champions of the United States robotics program. \n\n\"The United States leads the world in where robotics is heading: Fundation models, OpenAI-style scaling laws applied to action, autonomous vehicles. \n\nWhile losing the race on where robotics is shipping today.\" \n\nThen it frames:\n\n1. Rare Earths Exposure: from Neodymium for motors to samarium-cobalt for high-temp applications as a critical vulnerability.\n\n2. Actuator dependency. Series elastic actuators, quasi-direct-drive motors, and precision reducers overwhelmingly sourced from Japan, Germany, and China\n\nAs one of the main vulnerabilities alongside Manufacturing velocity/data collection cost/regulations. Then their take was: \n\n\"With at least six well-funded US humanoid companies competing for a market still in early formation, we expect at least two significant consolidation events (acquisition or merger) in 2027\". \n\nWith Logistics / E-commerce (like $AMZN / $FDX) and Automotive from $GM to $FORD as being the immediate top use cases for deployment.\n\nI think it's just interesting to see a lot of my points I've been talking about reiterated by research firms. Regardless, I do think it's going to be a major frontier race between the US and China. \n\nAgility Robotics (which I own), Tesla, Figure, and Apptronik as leaders representing the USA. Competing against Unitree, AGIbot, Ubtech, and others in China.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 630,
+    "retweet_count": 48,
+    "reply_count": 131,
+    "quote_count": 8,
+    "view_count": 107177,
+    "bookmark_count": 419,
+    "conversation_id": "2073867745243127973",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 162,
+          "start": 157,
+          "tag": "CCXI"
+        },
+        {
+          "end": 185,
+          "start": 180,
+          "tag": "TSLA"
+        },
+        {
+          "end": 259,
+          "start": 254,
+          "tag": "AMZN"
+        },
+        {
+          "end": 1234,
+          "start": 1229,
+          "tag": "AMZN"
+        },
+        {
+          "end": 1241,
+          "start": 1237,
+          "tag": "FDX"
+        },
+        {
+          "end": 1266,
+          "start": 1263,
+          "tag": "GM"
+        },
+        {
+          "end": 1275,
+          "start": 1270,
+          "tag": "FORD"
+        }
+      ]
+    },
+    "cashtags": [
+      "CCXI",
+      "TSLA",
+      "AMZN",
+      "AMZN",
+      "FDX",
+      "GM",
+      "FORD"
+    ],
+    "media": [
+      {
+        "media_key": "3_2073859427757948928",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMfUKWmbgAA1z-j.jpg",
+        "width": 1922,
+        "height": 1691,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2073859434640809984",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMfUKwPboAAARvn.jpg",
+        "width": 1841,
+        "height": 1247,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2073860356381003776",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMfVAZ_a0AA7NwP.jpg",
+        "width": 1938,
+        "height": 1365,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2073864907574112256",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMfZJUgacAAJmfC.jpg",
+        "width": 2054,
+        "height": 1774,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2073793206408667392",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2073793206408667392",
