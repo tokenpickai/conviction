@@ -1,5 +1,224 @@
 [
   {
+    "tweet_id": "2073773968163852789",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2073773968163852789",
+    "created_at": "Sun Jul 05 14:20:17 +0000 2026",
+    "text": "RT @mingchikuo: https://t.co/cH9jwDwlLl",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 0,
+    "retweet_count": 30,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 5473,
+    "bookmark_count": 0,
+    "conversation_id": "2073773968163852789",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2073770705905123705",
+    "entities": {
+      "mentions": [
+        {
+          "end": 14,
+          "id": "267509471",
+          "start": 3,
+          "username": "mingchikuo"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "x.com/i/article/2073…",
+          "end": 39,
+          "expanded_url": "http://x.com/i/article/2073763286777294848",
+          "start": 16,
+          "status": 500,
+          "unwound_url": "https://x.com/i/article/2073763286777294848",
+          "url": "https://t.co/cH9jwDwlLl"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073764175235678542",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2073764175235678542",
+    "created_at": "Sun Jul 05 13:41:22 +0000 2026",
+    "text": "https://t.co/cqqhVCrik6",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 20,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 13510,
+    "bookmark_count": 6,
+    "conversation_id": "2073764172777820473",
+    "is_reply": true,
+    "in_reply_to_id": "2073764172777820473",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "Up until now, SSDs for laptops have been mostly made by well known names from the US, Korea or Japan, like Samsung, Kioxia or Western Digital. In the midst of the RAM and SSD crisis, a new player has appeared: Notebokcheck has tested a YMTC SSD, which powers a Lenovo ThinkBook 14 laptop.",
+          "display_url": "notebookcheck.net/New-era-for-st…",
+          "end": 23,
+          "expanded_url": "https://www.notebookcheck.net/New-era-for-storage-Chinese-made-laptop-SSD-tested-in-Lenovo-laptop-for-the-first-time.1334493.0.html",
+          "images": [
+            {
+              "height": 3000,
+              "url": "https://pbs.twimg.com/news_img/2073421155948765184/YBE2Fa_u?format=jpg&name=orig",
+              "width": 4496
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2073421155948765184/YBE2Fa_u?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "New era for storage: Chinese made laptop SSD tested in Lenovo laptop for the first time",
+          "unwound_url": "https://www.notebookcheck.net/New-era-for-storage-Chinese-made-laptop-SSD-tested-in-Lenovo-laptop-for-the-first-time.1334493.0.html",
+          "url": "https://t.co/cqqhVCrik6"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073764172777820473",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2073764172777820473",
+    "created_at": "Sun Jul 05 13:41:22 +0000 2026",
+    "text": "According to a new review of the ThinkBook 14 G9 by Notebookcheck, Chinese PC maker Lenovo has, for the first time, begun shipping globally configured laptops equipped with YMTC-made SSDs.\n\n$SNDK $MU https://t.co/mr7Q47GtAZ",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 457,
+    "retweet_count": 44,
+    "reply_count": 34,
+    "quote_count": 12,
+    "view_count": 99786,
+    "bookmark_count": 77,
+    "conversation_id": "2073764172777820473",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 195,
+          "start": 190,
+          "tag": "SNDK"
+        },
+        {
+          "end": 199,
+          "start": 196,
+          "tag": "MU"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/mr7Q47GtAZ",
+          "end": 223,
+          "expanded_url": "https://x.com/jukan05/status/2073764172777820473/photo/1",
+          "media_key": "3_2073764153932791808",
+          "start": 200,
+          "url": "https://t.co/mr7Q47GtAZ"
+        }
+      ]
+    },
+    "cashtags": [
+      "SNDK",
+      "MU"
+    ],
+    "media": [
+      {
+        "media_key": "3_2073764153932791808",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMd9gr8aQAAn5c-.jpg",
+        "width": 1498,
+        "height": 1606,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2073742867739316238",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2073742867739316238",
+    "created_at": "Sun Jul 05 12:16:42 +0000 2026",
+    "text": "According to Korean media reports, Korean substrate manufacturer LG Innotek is seeking to supply satellite substrates to SpaceX.\n\nhttps://t.co/d6830uqkWw",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 201,
+    "retweet_count": 19,
+    "reply_count": 10,
+    "quote_count": 9,
+    "view_count": 166797,
+    "bookmark_count": 37,
+    "conversation_id": "2073742867739316238",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "스페이스X에 기판 공급 추진 성사땐 스타링크 위성 탑재 우주데이터센터 협업도 기대 추가 기술개발 과제등 많아 “현실화엔 시간 필요” 전망도",
+          "display_url": "mk.co.kr/news/business/…",
+          "end": 153,
+          "expanded_url": "https://www.mk.co.kr/news/business/12090798",
+          "images": [
+            {
+              "height": 675,
+              "url": "https://pbs.twimg.com/news_img/2073742910261174272/83MVClBI?format=jpg&name=orig",
+              "width": 822
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2073742910261174272/83MVClBI?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 130,
+          "status": 200,
+          "title": "[단독] “스페이스X에 위성용 기판 댑니다”…제대로 새 먹거리 찾은 K기업 - 매일경제",
+          "unwound_url": "https://www.mk.co.kr/news/business/12090798",
+          "url": "https://t.co/d6830uqkWw"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2073695404068425966",
     "kind": "self_thread",
     "url": "https://x.com/jukan05/status/2073695404068425966",

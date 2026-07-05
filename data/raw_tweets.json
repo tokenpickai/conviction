@@ -1,5 +1,132 @@
 [
   {
+    "tweet_id": "2073793206408667392",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2073793206408667392",
+    "created_at": "Sun Jul 05 15:36:44 +0000 2026",
+    "text": "Just some consolidated updates on memory: \n\n-  $MU leads new 1.5T Yen investment in Hiroshima ~$9.3B. (bullish read through for Disco, Advantest, Resonac, Towa) since capex is localized.\n\n- Morgan Stanley pointed out NAND will continue to be in short supply into 2027 so $SNDK / Kioxia type players are happy alongisde $SIMO and upstream.\n\n- MS remains especially positive on Macronix/Winbond\n\n- UBS expects the average price of DDR contracts in the Q3 2026 to increase 32% | 18% Q4, vs. 17% and 12% est. \n\n- UBS expects NAND flash to be raised 30% from prev quarter. \n\n- Samsung reportedly plans 20% DRAM hike Q3. TrendForce recently forecast DRAM contract prices to rise 13 to 18 percent in the third quarter from the previous quarter, so this hike beats expectations.\n\nSomething to note:\n\nLot people see 20%... and don't think it's a lot compared to the 70-80% from previous quarters. \n\nBut if you hike something by 100%, then hike something by 100%, then hike something by 30%, it's a lot more than people estimate since it's compounded. Similar to tracking inflation. \n\nI've already made projections going into 2028 from the start of the year on my memory names... \n\nI'm just sitting back and watching things play out through all the \"memory optimization\" and \"they can't keep price hiking like this!\" noise.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1127,
+    "retweet_count": 66,
+    "reply_count": 165,
+    "quote_count": 9,
+    "view_count": 192080,
+    "bookmark_count": 296,
+    "conversation_id": "2073793206408667392",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 50,
+          "start": 47,
+          "tag": "MU"
+        },
+        {
+          "end": 276,
+          "start": 271,
+          "tag": "SNDK"
+        },
+        {
+          "end": 324,
+          "start": 319,
+          "tag": "SIMO"
+        }
+      ]
+    },
+    "cashtags": [
+      "MU",
+      "SNDK",
+      "SIMO"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2073763512216899825",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2073763512216899825",
+    "created_at": "Sun Jul 05 13:38:44 +0000 2026",
+    "text": "Looks like there's a high power cylindrical cell / BBU cell shortage (aka: bottleneck):\n\n- Samsung SDI supplies the cells to Simplo, which assembles them into BBUs for $META to $AMZN. \n- As demand from data centers has increased, production of Samsung SDI's cylindrical cells has also risen sharply.\n- Industry sources said Panasonic, Samsung are experiencing supply shortages for BBU cells.\n\nSo main beneficiaries imo look like:\n\n- Samsung SDI (KRX: 006400) / Panasonic Energy  as cleaneset winners\n- Murata (6981) / this keeps showing up everywhere with MLCC and others lol\n- LG Energy (KRX: 373220) / incoming\n\nThere's not really much direct US players? But adjacent read through like $VRT, $ETN or $BWA / $ENS. Not quite in my domain emphasis cup of tea though. \n\nI wouldn't conflate this as all shortages having a massive TAM, but there could be opportunities...",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 611,
+    "retweet_count": 54,
+    "reply_count": 197,
+    "quote_count": 8,
+    "view_count": 196618,
+    "bookmark_count": 264,
+    "conversation_id": "2073763512216899825",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 173,
+          "start": 168,
+          "tag": "META"
+        },
+        {
+          "end": 182,
+          "start": 177,
+          "tag": "AMZN"
+        },
+        {
+          "end": 692,
+          "start": 688,
+          "tag": "VRT"
+        },
+        {
+          "end": 698,
+          "start": 694,
+          "tag": "ETN"
+        },
+        {
+          "end": 706,
+          "start": 702,
+          "tag": "BWA"
+        },
+        {
+          "end": 713,
+          "start": 709,
+          "tag": "ENS"
+        }
+      ]
+    },
+    "cashtags": [
+      "META",
+      "AMZN",
+      "VRT",
+      "ETN",
+      "BWA",
+      "ENS"
+    ],
+    "media": [
+      {
+        "media_key": "3_2073759565414600704",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMd5VmYbEAAEtp4.jpg",
+        "width": 2040,
+        "height": 1058,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2073704784398528599",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2073704784398528599",
