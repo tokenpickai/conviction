@@ -1,5 +1,580 @@
 [
   {
+    "tweet_id": "2073695404068425966",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2073695404068425966",
+    "created_at": "Sun Jul 05 09:08:06 +0000 2026",
+    "text": "https://t.co/DFK884bU7o",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 11,
+    "retweet_count": 1,
+    "reply_count": 0,
+    "quote_count": 1,
+    "view_count": 6540,
+    "bookmark_count": 0,
+    "conversation_id": "2073695400985510295",
+    "is_reply": true,
+    "in_reply_to_id": "2073695400985510295",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "'삼전닉스 압도' 중국의 역습…\"골든타임 끝나간다\" 초긴장, 반도체 INSIGHT 더 거세진 '레드칩' 공세…中반도체, 韓 턱밑 추격 CXMT·YMTC 잇단 상장 추진 대규모 투자로 HBM도 정조준",
+          "display_url": "hankyung.com/article/202607…",
+          "end": 23,
+          "expanded_url": "https://www.hankyung.com/article/2026070564161",
+          "images": [
+            {
+              "height": 483,
+              "url": "https://pbs.twimg.com/news_img/2073695408094846976/xkbeEKsh?format=jpg&name=orig",
+              "width": 724
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2073695408094846976/xkbeEKsh?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "'삼전닉스 압도' 중국의 역습…\"골든타임 끝나간다\" 초긴장",
+          "unwound_url": "https://www.hankyung.com/article/2026070564161",
+          "url": "https://t.co/DFK884bU7o"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073695400985510295",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2073695400985510295",
+    "created_at": "Sun Jul 05 09:08:05 +0000 2026",
+    "text": "🚨Korean media report that China’s CXMT is currently testing a pilot production line for bonded DRAM in Hefei, aiming to achieve high-performance DRAM without using EUV lithography.\n\nBonded DRAM is a technology in which the memory cell array and the peripheral circuitry are fabricated on separate wafers and then bonded together. This approach enables the production of ultra-high-density DRAM using only deep ultraviolet (DUV) lithography with multi-patterning, eliminating the need for EUV tools.\n\nSamsung Electronics is developing its own bonded DRAM under the “B1b” project, while SK hynix is pursuing a similar technology. However, Korean media warn that there are assessments suggesting CXMT may currently hold an edge over its Korean rivals in both the technology itself and the speed of development.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 155,
+    "retweet_count": 23,
+    "reply_count": 9,
+    "quote_count": 9,
+    "view_count": 20537,
+    "bookmark_count": 43,
+    "conversation_id": "2073695400985510295",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073684176138801389",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2073684176138801389",
+    "created_at": "Sun Jul 05 08:23:29 +0000 2026",
+    "text": "This is extremely interesting. If Intel’s strategic shift succeeds, it could overturn the balance of power against TSMC. But if it fails, it could lead to disastrous yields and customer defections, much like what Samsung Foundry went through in the past. It’s a remarkably bold gamble.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 188,
+    "retweet_count": 20,
+    "reply_count": 12,
+    "quote_count": 5,
+    "view_count": 33429,
+    "bookmark_count": 65,
+    "conversation_id": "2073684176138801389",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2073682227586818371",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/RXL7SWKyeV",
+          "end": 301,
+          "expanded_url": "https://x.com/jukan05/status/2073684176138801389/photo/1",
+          "media_key": "3_2073683576588251136",
+          "start": 278,
+          "url": "https://t.co/RXL7SWKyeV"
+        },
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 325,
+          "expanded_url": "https://twitter.com/jukan05/status/2073682227586818371",
+          "start": 302,
+          "url": "https://t.co/lguGm2Uney"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2073683576588251136",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMc0Od8asAAgh9l.png",
+        "width": 1206,
+        "height": 1118,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2073682230636163491",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2073682230636163491",
+    "created_at": "Sun Jul 05 08:15:45 +0000 2026",
+    "text": "https://t.co/p7YhupieIh",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 11,
+    "retweet_count": 1,
+    "reply_count": 0,
+    "quote_count": 1,
+    "view_count": 6679,
+    "bookmark_count": 1,
+    "conversation_id": "2073682227586818371",
+    "is_reply": true,
+    "in_reply_to_id": "2073682227586818371",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "종합반도체 기업 인텔이 1.4나노급 초미세 공정에서 경쟁사들을 추격하기 위해 내부적으로 전면·후면 전력을 모두 활용하는 아키텍처를 고려 중인 것으로 나타났다. 업계에 따르면 인텔은 1.4나노급 기본 공정인 14A에서 후면 전력 공급(BSPDN) 전용 기술인 '파워다이렉트(PowerDirect)'를 적용할 방침이었으나, 후속 공정인 14A2에서는 전면과 후면을 모두 활용하는 '듀얼 사이드(Dual side)' 아키텍처 도입을 검토 중인 것으로 알",
+          "display_url": "etnews.com/20260703000219…",
+          "end": 23,
+          "expanded_url": "https://www.etnews.com/20260703000219?SNS=00001",
+          "images": [
+            {
+              "height": 377,
+              "url": "https://pbs.twimg.com/news_img/2073682280422445056/ifUaq0-P?format=png&name=orig",
+              "width": 500
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2073682280422445056/ifUaq0-P?format=png&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "인텔 1.4나노 '아키텍처 변형' 승부수…전후면 전력공급 검토",
+          "unwound_url": "https://www.etnews.com/20260703000219?SNS=00001",
+          "url": "https://t.co/p7YhupieIh"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073682227586818371",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2073682227586818371",
+    "created_at": "Sun Jul 05 08:15:44 +0000 2026",
+    "text": "Intel Bets on a \"1.4nm Architecture Variant\"… Reviewing Both Front Side and Back Side Power Delivery\n\nIntegrated device manufacturer (IDM) Intel has reportedly been considering, internally, an architecture that leverages both front side and back side power delivery in order to chase down its rivals at the 1.4nm class ultra fine node. According to the industry, Intel had planned to apply \"PowerDirect,\" a back side power delivery (BSPDN) only technology, on 14A, the base process of the 1.4nm class. For the follow on 14A2 process, however, it is said to be reviewing the introduction of a \"Dual side\" architecture that uses both the front and back sides. This structural change is directly tied to the lithography limitation (stochastic defects) that emerges as the lowest metal interconnect (M0) pitch Intel is pursuing narrows to around 21nm.\n\nIntel has officially announced a plan to raise chip density by 1.3 times versus its existing 18A in order to catch up with TSMC's N2/A14 and Samsung's SF2Z. The 14A process targets an M0 pitch of around 28nm, but through half node style improvements, 14A2 is analyzed to push the M0 pitch down to 21nm. In this case, even when lithography is performed twice (double patterning), the overall density gain is large enough that the economics of High NA EUV tools, which run into the hundreds of billions of won per unit, actually improve.\n\nThe problem is that once the circuit lines become extremely fine at 21nm or below, interconnect resistance rises exponentially. The nano through silicon via (nTSV) infrastructure originally built for back side power delivery cannot, on its own, handle the current density the transistors demand, producing an \"IR drop\" in which the voltage falls sharply. Accordingly, Intel is analyzed to have adopted a hybrid structure that keeps the back side power delivery network as the main path while reallocating part of the front side metal interconnect back to auxiliary power and clock signals, in order to secure the power margin that has grown insufficient due to scaling and lithography limits. Despite the downside of greater interconnect complexity, this is read as a \"product of compromise,\" a backward variation of the architecture undertaken to squeeze out the 21nm process specifications.\n\nIntel is short on time. Per its roadmap, 14A is scheduled to go through risk production in 2028 and enter volume production in 2029. To that end, Intel plans to distribute version 0.9 of the 14A process design kit (PDK) to external customers this October, and it now faces the task of locking in firm orders from major fabless customers within the next 18 months. By contrast, rival TSMC has already secured stable yields on its 2nm (N2) process across 2025 and 2026, completing its market entry in line with the product launch schedule of its largest customer, Apple. Moreover, by the time Intel begins 14A risk production in 2028, TSMC plans to have already shipped true 1.4nm (A14) finished products to the market. Samsung Electronics likewise plans to commercialize \"SF2Z,\" an enhanced 2nm process applying back side power delivery, in 2027. Samsung's biggest weapon is the Gate All Around (GAA) transistor proficiency it has honed since first adopting the structure at the 3nm node.\n\nAn industry official explained, \"While Intel is struggling to secure yields because it introduced GAA and BSPDN together for the first time at 20A/18A, Samsung is simply layering back side power delivery (BSPDN) on top of an already proven 2nm GAA structure, so its technical risk is far lower.\"\n\n$INTC",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 88,
+    "retweet_count": 9,
+    "reply_count": 3,
+    "quote_count": 2,
+    "view_count": 44338,
+    "bookmark_count": 23,
+    "conversation_id": "2073682227586818371",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 3571,
+          "start": 3566,
+          "tag": "INTC"
+        }
+      ]
+    },
+    "cashtags": [
+      "INTC"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2073650959985864827",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073650959985864827",
+    "created_at": "Sun Jul 05 06:11:30 +0000 2026",
+    "text": "@bookwormengr 😭😭",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 3,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1356,
+    "bookmark_count": 0,
+    "conversation_id": "2073649423620690417",
+    "is_reply": true,
+    "in_reply_to_id": "2073649423620690417",
+    "in_reply_to_username": "bookwormengr",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "171962385",
+          "start": 0,
+          "username": "bookwormengr"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073650385307496542",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2073650385307496542",
+    "created_at": "Sun Jul 05 06:09:13 +0000 2026",
+    "text": "It’s gone up again in just a few months. Now it’s $100 billion. https://t.co/apC3To120z",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 393,
+    "retweet_count": 12,
+    "reply_count": 19,
+    "quote_count": 2,
+    "view_count": 69831,
+    "bookmark_count": 38,
+    "conversation_id": "2073650385307496542",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2073585105210376631",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/firstsquawk/st…",
+          "end": 87,
+          "expanded_url": "https://twitter.com/firstsquawk/status/2073585105210376631",
+          "start": 64,
+          "url": "https://t.co/apC3To120z"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073637432579477605",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073637432579477605",
+    "created_at": "Sun Jul 05 05:17:44 +0000 2026",
+    "text": "@fabknowledge Oh no",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 2,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 1526,
+    "bookmark_count": 0,
+    "conversation_id": "2073608979595325576",
+    "is_reply": true,
+    "in_reply_to_id": "2073630917222899818",
+    "in_reply_to_username": "fabknowledge",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "1440064744107298826",
+          "start": 0,
+          "username": "fabknowledge"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073619555226955994",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2073619555226955994",
+    "created_at": "Sun Jul 05 04:06:42 +0000 2026",
+    "text": "@Yuchenj_UW 👏",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 5,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 3593,
+    "bookmark_count": 1,
+    "conversation_id": "2073619451803791671",
+    "is_reply": true,
+    "in_reply_to_id": "2073619451803791671",
+    "in_reply_to_username": "Yuchenj_UW",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 11,
+          "id": "800854096219471872",
+          "start": 0,
+          "username": "Yuchenj_UW"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073605570205188340",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2073605570205188340",
+    "created_at": "Sun Jul 05 03:11:08 +0000 2026",
+    "text": "I was able to understand this to some extent thanks to Fable 5.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 33,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 20577,
+    "bookmark_count": 6,
+    "conversation_id": "2073604823216513267",
+    "is_reply": true,
+    "in_reply_to_id": "2073604823216513267",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073604823216513267",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2073604823216513267",
+    "created_at": "Sun Jul 05 03:08:10 +0000 2026",
+    "text": "Recommended weekend read.\n\nhttps://t.co/i6WrmGgUok",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 345,
+    "retweet_count": 21,
+    "reply_count": 10,
+    "quote_count": 5,
+    "view_count": 94327,
+    "bookmark_count": 460,
+    "conversation_id": "2073604823216513267",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "mp.weixin.qq.com/s/RRHg9UCCInSc…",
+          "end": 50,
+          "expanded_url": "https://mp.weixin.qq.com/s/RRHg9UCCInSc_zEcIgjNBQ",
+          "start": 27,
+          "unwound_url": "https://mp.weixin.qq.com/mp/wappoc_appmsgcaptcha?poc_token=HBEUSmqjWhpFzkWZo-iOmORwJ8QWtkOv4vyzOPe4&target_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2FRRHg9UCCInSc_zEcIgjNBQ",
+          "url": "https://t.co/i6WrmGgUok"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073596160389029955",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2073596160389029955",
+    "created_at": "Sun Jul 05 02:33:44 +0000 2026",
+    "text": "https://t.co/5F3UXIrSmy",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 16,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 14172,
+    "bookmark_count": 4,
+    "conversation_id": "2073596156408717546",
+    "is_reply": true,
+    "in_reply_to_id": "2073596156408717546",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "【调查｜芯片涨破天 报价半日废 华强北囤货陷两难】7月2日记者实地走访深圳华强北华强电子世界与赛格电子市场，据多位商户反映，上午询价、下午提货即变，当前报价系统已近乎失效。其中，AI专用片式多层陶瓷电容器（MLCC）部分规格价格暴涨3至10倍，有商户回忆“隔两小时去拿货就涨五成”。",
+          "display_url": "wap.eastmoney.com/a/202607043794…",
+          "end": 23,
+          "expanded_url": "https://wap.eastmoney.com/a/202607043794182317.html",
+          "images": [
+            {
+              "height": 300,
+              "url": "https://pbs.twimg.com/news_img/2073596217263820800/CpFE_iaf?format=png&name=orig",
+              "width": 300
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2073596217263820800/CpFE_iaf?format=png&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "调查｜芯片涨破天 报价半日废 华强北囤货陷两难",
+          "unwound_url": "https://wap.eastmoney.com/a/202607043794182317.html",
+          "url": "https://t.co/5F3UXIrSmy"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073596156408717546",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2073596156408717546",
+    "created_at": "Sun Jul 05 02:33:43 +0000 2026",
+    "text": ">> Global semiconductor prices are rising across all categories, with AI-use MLCC prices surging by up to 10x.\n\n• Starting July 1, more than 20 companies across the global semiconductor industry began raising prices across all product categories. In particular, some AI-use MLCC specifications have seen prices jump by 3–10x. Distributors in China’s Huaqiangbei said, “Quotes can change within half a day, and in some cases prices rise 50% within just two hours.” As a result, distributors that have been building inventory are increasingly concerned they could end up holding stock bought near the peak.\n\n• Overseas, companies including Infineon have raised prices by 10–25%, while domestic Chinese product prices have also risen by more than 15%. Infineon expects revenue from its AI power-solution business to reach €1.5 billion.\n\n• Meanwhile, continued reductions in 8-inch wafer capacity are worsening supply shortages, supporting price increases across semiconductor components more broadly.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 356,
+    "retweet_count": 30,
+    "reply_count": 23,
+    "quote_count": 15,
+    "view_count": 65481,
+    "bookmark_count": 116,
+    "conversation_id": "2073596156408717546",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2073572622080864385",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2073572622080864385",
+    "created_at": "Sun Jul 05 01:00:12 +0000 2026",
+    "text": "Why the Korean KOSPI is showing insane volatility: https://t.co/DCVpjWfjy4",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 423,
+    "retweet_count": 32,
+    "reply_count": 36,
+    "quote_count": 13,
+    "view_count": 75991,
+    "bookmark_count": 70,
+    "conversation_id": "2073572622080864385",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/DCVpjWfjy4",
+          "end": 74,
+          "expanded_url": "https://x.com/jukan05/status/2073572622080864385/photo/1",
+          "media_key": "3_2073572615583940608",
+          "start": 51,
+          "url": "https://t.co/DCVpjWfjy4"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2073572615583940608",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMbPTr_bwAAN-_t.jpg",
+        "width": 975,
+        "height": 705,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2073346791857361304",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2073346791857361304",
