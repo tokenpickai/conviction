@@ -45420,5 +45420,65 @@
     "prompt_version": "extract-v2",
     "extracted_at": "2026-07-05T09:54:31.976814+00:00",
     "prefilter_skipped": true
+  },
+  "2073971342828081343": {
+    "tweet_id": "2073971342828081343",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-06T13:07:50.013913+00:00",
+    "prefilter_skipped": true
+  },
+  "2073958765888737792": {
+    "tweet_id": "2073958765888737792",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-06T13:07:50.013936+00:00",
+    "prefilter_skipped": true
+  },
+  "2073957717715345462": {
+    "tweet_id": "2073957717715345462",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-06T13:07:50.013939+00:00",
+    "prefilter_skipped": true
+  },
+  "2073928439724376223": {
+    "tweet_id": "2073928439724376223",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-06T13:07:50.013942+00:00",
+    "prefilter_skipped": true
+  },
+  "2073924554448318789": {
+    "tweet_id": "2073924554448318789",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-06T13:07:50.013944+00:00",
+    "prefilter_skipped": true
+  },
+  "2073904890037063951": {
+    "tweet_id": "2073904890037063951",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-06T13:07:50.013946+00:00",
+    "prefilter_skipped": true
   }
 }
