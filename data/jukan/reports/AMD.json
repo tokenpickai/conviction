@@ -1,0 +1,289 @@
+{
+  "ticker": "AMD",
+  "language": "zh-Hant",
+  "title": "AMD：CPU 供給意外、MI550 競爭力與三星代工多元化的三重催化",
+  "subtitle": "從 Jukan 公開貼文重建的系統性研究框架",
+  "core_label": "結構性樂觀、但需持續驗證 GPU 滲透與超大規模客戶自研趨勢",
+  "one_minute_summary": [
+    "Jukan 對 AMD 整體持正面立場，認為 Qualcomm/MediaTek 縮單所釋出的 TSMC 4/5nm 產能被 AMD 接手，短期 CPU 業績具上行動力。",
+    "MI550 憑藉 4-die/12 HBM4e 封裝設計，在 Rubin Ultra 延遲的背景下，具備與 NVIDIA 旗艦競爭的現實條件。",
+    "超大規模雲端業者加速自研 CPU ASIC 是結構性逆風，AMD x86 伺服器 CPU 的長期市場空間存在隱憂。"
+  ],
+  "sections": [
+    {
+      "heading": "一、Jukan 最初如何看這檔股票",
+      "body": [
+        "Jukan 早期對 AMD 的態度是「非常正面」，他自己也坦承 Anthropic 採用 AMD MI450 超出預期。然而，他同時在 2026 年 3 月明確指出，超大規模雲端業者長期遷移至自研 CPU ASIC 的趨勢，使他難以「直接推薦」AMD，點出初始正面情緒與結構性疑慮並存的矛盾。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2044901765418717315",
+          "date": "2026-04-16",
+          "url": "https://x.com/jukan05/status/2044901765418717315",
+          "label": "初始正面立場確認",
+          "excerpt": "I've definitely been very positive on AMD… but Anthropic using AMD MI450 was not on my bingo card."
+        },
+        {
+          "tweet_id": "2036963841582784947",
+          "date": "2026-03-25",
+          "url": "https://x.com/jukan05/status/2036963841582784947",
+          "label": "初期結構性疑慮",
+          "excerpt": "That is why I find it hard to recommend AMD outright."
+        }
+      ]
+    },
+    {
+      "heading": "二、核心 thesis 是什麼",
+      "body": [
+        "Jukan 的核心 thesis 建立在兩條主線上：其一，AMD 接收了 Qualcomm 與 MediaTek 縮單後釋出的 TSMC 4/5nm 產能，使 CPU 業績在短期具備超預期潛力；其二，MI550 的先進封裝能力在 Rubin Ultra 延遲的背景下提升了 GPU 競爭地位。兩者合計形成「CPU 意外 + GPU 追趕」的雙引擎敘事。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2048725249722917370",
+          "date": "2026-04-27",
+          "url": "https://x.com/jukan05/status/2048725249722917370",
+          "label": "CPU 產能意外接收",
+          "excerpt": "AMD seems to have taken over that capacity… AMD's earnings could be worth getting excited about."
+        },
+        {
+          "tweet_id": "2051305126011576374",
+          "date": "2026-05-04",
+          "url": "https://x.com/jukan05/status/2051305126011576374",
+          "label": "MI550 競爭力確立",
+          "excerpt": "MI550 can realistically compete with Rubin Ultra."
+        }
+      ]
+    },
+    {
+      "heading": "三、公司 / 資產到底提供什麼能力",
+      "body": [
+        "AMD 在 Jukan 的框架中具備兩項關鍵能力：一是在 2.5D/3D 先進封裝上的設計彈性，MI550 採用 4-die/12 HBM4e 架構，封裝密度優於 Rubin Ultra 的 2-die 方案；二是資料中心 CPU 業務（EPYC）具備產品領導地位，連 NVIDIA 在其交換機托盤中也採用 AMD EPYC，體現其在高效能運算生態中的根基。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2051305126011576374",
+          "date": "2026-05-04",
+          "url": "https://x.com/jukan05/status/2051305126011576374",
+          "label": "封裝架構優勢",
+          "excerpt": "AMD's 2.5D/3D packaging expertise enables a 4-die/12 HBM4e design, vs Rubin Ultra 2-die package."
+        },
+        {
+          "tweet_id": "2062840849621561672",
+          "date": "2026-06-05",
+          "url": "https://x.com/jukan05/status/2062840849621561672",
+          "label": "EPYC 生態地位",
+          "excerpt": "NVIDIA uses AMD EPYC, not Intel, in its switch trays."
+        }
+      ]
+    },
+    {
+      "heading": "四、供應鏈位置與產業邏輯",
+      "body": [
+        "供應鏈邏輯是本 thesis 的重要支柱。Jukan 發現 Qualcomm 與 MediaTek 因智慧型手機出貨崩跌而削減 TSMC 4/5nm 訂單，AMD 趁勢吸納空出產能，舊節點 CPU 亦出現客戶排隊搶購現象。此外，據報導 AMD 正與三星代工洽談 2028 年量產 CPU，進一步分散對 TSMC 的依賴，強化長期供應鏈韌性。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2048725249722917370",
+          "date": "2026-04-27",
+          "url": "https://x.com/jukan05/status/2048725249722917370",
+          "label": "TSMC 產能轉移邏輯",
+          "excerpt": "Qualcomm and MediaTek apparently cut their TSMC 4/5nm orders… AMD seems to have taken over that capacity."
+        },
+        {
+          "tweet_id": "2067093616183677033",
+          "date": "2026-06-16",
+          "url": "https://x.com/jukan05/status/2067093616183677033",
+          "label": "三星代工洽談",
+          "excerpt": "Samsung is reportedly in talks with AMD to manufacture CPUs through its foundry business, with mass production expected in 2028."
+        }
+      ]
+    },
+    {
+      "heading": "五、哪些貼文提高或驗證了 thesis",
+      "body": [
+        "Jukan 的 thesis 獲得多個事後驗證節點強化。他本人指出，自己關於 AMD 大量生產舊款 5nm CPU 的推論已得到確認；外資券商（GF Overseas）將目標價從 311 美元上調至 465 美元，並預測資料中心 CPU 業務 2026/27 年將分別年增 55%/48%，與 Jukan 對 CPU 產能接收的判斷相互印證。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2052918751344103555",
+          "date": "2026-05-08",
+          "url": "https://x.com/jukan05/status/2052918751344103555",
+          "label": "5nm CPU 推論獲驗證",
+          "excerpt": "I'm glad my theory that AMD has been making a ton of older 5nm CPUs is being validated."
+        },
+        {
+          "tweet_id": "2051612202403299609",
+          "date": "2026-05-05",
+          "url": "https://x.com/jukan05/status/2051612202403299609",
+          "label": "外資上調目標價",
+          "excerpt": "We lift our target price from US$311 to US$465, based on 38x 2027E P/E."
+        }
+      ]
+    },
+    {
+      "heading": "六、Jukan 如何比較同類標的",
+      "body": [
+        "Jukan 在比較 AMD、ARM 與 Intel 的 CPU 受益程度時，指出在中美貿易緊張導致的 CPU 瓶頸情境下，至少需要兩倍的 CPU 數量，三者均受益，但他對 AMD 相對 Intel 的產能優勢更有信心。他也明確表示，Lisa Su 不會考慮使用 Intel 的 EMIB-T 封裝技術，排除技術合作可能，凸顯 AMD 獨立路線的堅定性。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2044045150410919940",
+          "date": "2026-04-14",
+          "url": "https://x.com/jukan05/status/2044045150410919940",
+          "label": "CPU 需求倍增邏輯",
+          "excerpt": "You would need at least twice as many CPUs. $AMD $INTC $ARM"
+        },
+        {
+          "tweet_id": "2064260211117068742",
+          "date": "2026-06-09",
+          "url": "https://x.com/jukan05/status/2064260211117068742",
+          "label": "排除 Intel 封裝合作",
+          "excerpt": "Lisa Su would only use Intel if the world were ending tomorrow."
+        }
+      ]
+    },
+    {
+      "heading": "七、風險、反方與需要驗證的地方",
+      "body": [
+        "最核心的結構性風險是超大規模雲端業者自研 CPU ASIC 的加速趨勢，這將長期壓縮 AMD x86 伺服器 CPU 的可服務市場。AMD 無自有晶圓廠，在 TSMC 產能競爭激烈時較被動。此外，Anthropic 採用 MI450 雖令 Jukan 驚訝，也意味著 AMD GPU 客戶滲透的可預測性偏低，未來訂單能見度仍需持續追蹤。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2036963841582784947",
+          "date": "2026-03-25",
+          "url": "https://x.com/jukan05/status/2036963841582784947",
+          "label": "超大規模自研 ASIC 風險",
+          "excerpt": "hyperscalers have been moving toward in-house CPU ASICs… AMD does not have its own fabs."
+        }
+      ]
+    },
+    {
+      "heading": "八、今日如何理解這份 thesis",
+      "body": [
+        "綜合 Jukan 的貼文脈絡，AMD 目前處於短期供給意外（CPU 產能接收）、中期技術追趕（MI550 封裝優勢）、長期供應鏈多元化（三星代工洽談）三個催化層次疊加的位置。然而，超大規模自研 ASIC 的結構性壓力持續存在，整體 thesis 的成立仍高度依賴 GPU 滲透速度與 CPU 需求韌性能否同步兌現。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2051612202403299609",
+          "date": "2026-05-05",
+          "url": "https://x.com/jukan05/status/2051612202403299609",
+          "label": "多重催化與預測框架",
+          "excerpt": "ramp-up of Venice platform in 3Q26… secured 160k–180k wafers of CoWoS capacity for 2027."
+        },
+        {
+          "tweet_id": "2067093616183677033",
+          "date": "2026-06-16",
+          "url": "https://x.com/jukan05/status/2067093616183677033",
+          "label": "供應鏈多元化進展",
+          "excerpt": "Samsung is reportedly in talks with AMD to manufacture CPUs… with mass production expected in 2028."
+        }
+      ]
+    }
+  ],
+  "final_takeaway": [
+    "Jukan 的 AMD 框架以「CPU 產能意外接收 + MI550 封裝競爭力」為近中期核心驅動，三星代工洽談則提供長期供應鏈安全邊際，三層催化使短中長期敘事相互支撐。",
+    "超大規模雲端業者自研 CPU ASIC 的加速是不可忽視的結構性逆風，GPU 客戶滲透的可預測性亦偏低，觀察者應持續追蹤 hyperscaler 採購組合變化與 MI550 實際量產進度以校準判斷。"
+  ],
+  "quality_notes": {
+    "reference_article_parity": [
+      "本報告已涵蓋 Jukan 公開貼文中所有明確立場陳述，可再人工擴寫財務模型細節"
+    ],
+    "known_limits": [
+      "僅使用本次 curated evidence，不代表已讀完整 corpus；部分貼文為轉推或引用，原始分析深度有限"
+    ]
+  },
+  "generated_at": "2026-06-28T13:35:23Z",
+  "coverage_through": "2026-06-21",
+  "source_posts_used": [
+    {
+      "tweet_id": "2036963841582784947",
+      "date": "2026-03-25",
+      "url": "https://x.com/jukan05/status/2036963841582784947"
+    },
+    {
+      "tweet_id": "2044045150410919940",
+      "date": "2026-04-14",
+      "url": "https://x.com/jukan05/status/2044045150410919940"
+    },
+    {
+      "tweet_id": "2044901765418717315",
+      "date": "2026-04-16",
+      "url": "https://x.com/jukan05/status/2044901765418717315"
+    },
+    {
+      "tweet_id": "2048725249722917370",
+      "date": "2026-04-27",
+      "url": "https://x.com/jukan05/status/2048725249722917370"
+    },
+    {
+      "tweet_id": "2051305126011576374",
+      "date": "2026-05-04",
+      "url": "https://x.com/jukan05/status/2051305126011576374"
+    },
+    {
+      "tweet_id": "2051612202403299609",
+      "date": "2026-05-05",
+      "url": "https://x.com/jukan05/status/2051612202403299609"
+    },
+    {
+      "tweet_id": "2052918751344103555",
+      "date": "2026-05-08",
+      "url": "https://x.com/jukan05/status/2052918751344103555"
+    },
+    {
+      "tweet_id": "2058733798704243047",
+      "date": "2026-05-24",
+      "url": "https://x.com/jukan05/status/2058733798704243047"
+    },
+    {
+      "tweet_id": "2060268717838307684",
+      "date": "2026-05-29",
+      "url": "https://x.com/jukan05/status/2060268717838307684"
+    },
+    {
+      "tweet_id": "2060621480208355415",
+      "date": "2026-05-30",
+      "url": "https://x.com/jukan05/status/2060621480208355415"
+    },
+    {
+      "tweet_id": "2061745316945436718",
+      "date": "2026-06-02",
+      "url": "https://x.com/jukan05/status/2061745316945436718"
+    },
+    {
+      "tweet_id": "2062840849621561672",
+      "date": "2026-06-05",
+      "url": "https://x.com/jukan05/status/2062840849621561672"
+    },
+    {
+      "tweet_id": "2063753367462256665",
+      "date": "2026-06-07",
+      "url": "https://x.com/jukan05/status/2063753367462256665"
+    },
+    {
+      "tweet_id": "2064260211117068742",
+      "date": "2026-06-09",
+      "url": "https://x.com/jukan05/status/2064260211117068742"
+    },
+    {
+      "tweet_id": "2066710330819096624",
+      "date": "2026-06-15",
+      "url": "https://x.com/jukan05/status/2066710330819096624"
+    },
+    {
+      "tweet_id": "2067092746364748272",
+      "date": "2026-06-16",
+      "url": "https://x.com/jukan05/status/2067092746364748272"
+    },
+    {
+      "tweet_id": "2067093616183677033",
+      "date": "2026-06-16",
+      "url": "https://x.com/jukan05/status/2067093616183677033"
+    },
+    {
+      "tweet_id": "2068833982037565498",
+      "date": "2026-06-21",
+      "url": "https://x.com/jukan05/status/2068833982037565498"
+    }
+  ]
+}

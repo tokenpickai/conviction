@@ -1,0 +1,275 @@
+{
+  "ticker": "ASML",
+  "language": "zh-Hant",
+  "title": "ASML：EUV 設備短缺時代的結構性壟斷者",
+  "subtitle": "從 DRAM 供需缺口到 High-NA 世代，解讀 Jukan 的 ASML 多頭邏輯",
+  "core_label": "EUV 壟斷 × DRAM 資本支出週期 × 供給瓶頸護城河",
+  "one_minute_summary": [
+    "Jukan 自 2025 年 10 月起看多 ASML，核心邏輯是 DRAM 供應短缺將驅動三大廠同步擴產，形成 EUV 設備的搶購熱潮。",
+    "EUV 交期已售罄至 2027 年底，三星單一晶圓廠即訂購 20 台，CXMT 更搶購他廠預留的 DUV 槽位，供需失衡高度明確。",
+    "ASML 被 Jukan 定位為半導體資本支出泡沫的「真正守門人」，其設備產能瓶頸本身就構成產業紀律的結構性約束。"
+  ],
+  "sections": [
+    {
+      "heading": "一、Jukan 最初如何看這檔股票",
+      "body": [
+        "Jukan 明確指出，他從 2025 年 10 月便開始看多 ASML，當時的切入點並非設備本身，而是對 DRAM 供應鏈的判斷：他預期 DRAM 將出現嚴重供應短缺，並進而推論三大廠同步擴產時，ASML 的 EUV 工具將成為搶手資源。這個由需求端往上游回推的思路，是整份 thesis 的起點，而非事後補充的理由。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2041076972177285495",
+          "date": "2026-04-06",
+          "url": "https://x.com/jukan05/status/2041076972177285495",
+          "label": "最初看多起點聲明",
+          "excerpt": "I've been calling ASML since October last year, predicting that DRAM would face a severe supply shortage"
+        }
+      ]
+    },
+    {
+      "heading": "二、核心 thesis 是什麼",
+      "body": [
+        "Jukan 的核心論點在於：三大 DRAM 廠同步擴產造成 EUV 設備需求爆炸性增長，而 ASML 產能有限，導致交期完全售罄、議價地位極強。他直言「ASML is still cheap」，暗示市場尚未充分定價這波供需失衡。EUV 槽位已賣完至 2027，2028 年的配額談判已提前啟動，整個局面正在按他的預測進行。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2041076972177285495",
+          "date": "2026-04-06",
+          "url": "https://x.com/jukan05/status/2041076972177285495",
+          "label": "核心 thesis 完整陳述",
+          "excerpt": "ASML's EUV slots are already fully sold out through 2027, and negotiations for 2028 allocations are now underway. ASML is still cheap."
+        }
+      ]
+    },
+    {
+      "heading": "三、公司 / 資產到底提供什麼能力",
+      "body": [
+        "ASML 同時掌握 DUV 與 EUV 兩條產品線，且每個世代的 Low-NA EUV 工具售價都較前代更高。SK Hynix 甚至願意額外支付 15–20% 的溢價以提前取得交貨。此外，隨著 TSMC 準備宣布 A14 節點並確認採用 High-NA EUV，ASML 的下一世代產品線也開始被市場納入視野，使其在技術路線圖上的不可替代性進一步延伸。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2040956639034155486",
+          "date": "2026-04-05",
+          "url": "https://x.com/jukan05/status/2040956639034155486",
+          "label": "EUV 工具溢價交付案例",
+          "excerpt": "SK hynix even paid a 15–20% premium to bring forward delivery"
+        },
+        {
+          "tweet_id": "2045806552490336763",
+          "date": "2026-04-19",
+          "url": "https://x.com/jukan05/status/2045806552490336763",
+          "label": "TSMC A14 與 High-NA EUV 預告",
+          "excerpt": "TSMC is expected to unveil its A14 enhanced node… this node will likely signal the initial adoption of High-NA EUV"
+        }
+      ]
+    },
+    {
+      "heading": "四、供應鏈位置與產業邏輯",
+      "body": [
+        "Jukan 將 ASML 定位為半導體資本支出週期的最上游卡口。他的論述是：不論 AI 基礎建設需求多強，最終都必須通過 ASML 的交貨產能才能實現。EUV 設備短缺本身就在強制維持晶圓廠的產能紀律，避免供應過剩。他甚至直接點名「ASML 才是防止泡沫破裂的真正守門人」，而非 TSMC，凸顯其對供應鏈卡脖子邏輯的高度認同。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2057089825011110200",
+          "date": "2026-05-20",
+          "url": "https://x.com/jukan05/status/2057089825011110200",
+          "label": "ASML 作為產業紀律守門人",
+          "excerpt": "I would say ASML is the true guardian preventing the bubble from bursting"
+        }
+      ]
+    },
+    {
+      "heading": "五、哪些貼文提高或驗證了 thesis",
+      "body": [
+        "Q1 2026 財報顯示 ASML 營收 87.7 億歐元、超越預期，全年指引也上調至 360–400 億歐元區間，印證需求強勁。與此同時，三星為單一 P5 廠房訂購約 20 台 EUV 加約 50 台 DUV，韓國收入佔比顯著提升。CXMT 以高於市價搶購他廠 DUV 預留槽位的行為，更進一步驗證 DUV 市場同樣供不應求，讓 Jukan 直呼「Insane. Long ASML」。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2039733794710896979",
+          "date": "2026-04-02",
+          "url": "https://x.com/jukan05/status/2039733794710896979",
+          "label": "CXMT 搶購 DUV 槽位",
+          "excerpt": "CXMT is said to be buying up other companies' reserved DUV slots at higher prices"
+        },
+        {
+          "tweet_id": "2044281855449673851",
+          "date": "2026-04-15",
+          "url": "https://x.com/jukan05/status/2044281855449673851",
+          "label": "Q1 財報超預期與韓國佔比提升",
+          "excerpt": "NET SALES: €8.77B (EST €8.55B)… ASML's revenue exposure to Korea has increased significantly"
+        }
+      ]
+    },
+    {
+      "heading": "六、Jukan 如何比較同類標的",
+      "body": [
+        "Jukan 援引中國本土替代設備商 SMEE 的資料，指出其 DUV 設備雖採用與 ASML 相同的直驅系統、聲稱覆蓋至 10nm，但現階段良率與技術成熟度仍與 ASML 有明顯落差。他也提到韓國學者警告不應低估中國長期追趕能力，但中期來看仍無法取代 ASML 的壟斷地位。在客戶角度，SK Hynix 拒絕大型科技客戶的直接投資，反以 EUV 設備採購作為議價籌碼，側面說明 ASML 設備的稀缺溢價。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2041330434496430127",
+          "date": "2026-04-06",
+          "url": "https://x.com/jukan05/status/2041330434496430127",
+          "label": "SMEE vs ASML 技術比較",
+          "excerpt": "SMEE uses a direct-drive system rather than ball screws. This is the same approach used by ASML"
+        },
+        {
+          "tweet_id": "2059420761505538353",
+          "date": "2026-05-26",
+          "url": "https://x.com/jukan05/status/2059420761505538353",
+          "label": "SK Hynix 以 EUV 採購作議價籌碼",
+          "excerpt": "SK Hynix is politely declining these offers while simultaneously using them as leverage in long-term supply agreements"
+        }
+      ]
+    },
+    {
+      "heading": "七、風險、反方與需要驗證的地方",
+      "body": [
+        "Jukan 提出兩個主要風險：其一，當 DRAM 三大廠過渡至 3D DRAM 架構後，DRAM 製程將不再需要 EUV，屆時 EUV 產能將向 Logic 傾斜，供需格局可能逆轉。其二，美國政府疑似調查 ASML 是否出口 EUV 工具或零組件至中國，此一監管風險若成立，恐對 ASML 的業務與聲譽造成衝擊。此外，中國在 2030 年代中期或有機會自研接近 EUV 的設備，長期替代風險不可完全排除。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2057089839615668283",
+          "date": "2026-05-20",
+          "url": "https://x.com/jukan05/status/2057089839615668283",
+          "label": "3D DRAM 過渡後 EUV 需求下滑風險",
+          "excerpt": "The moment the DRAM Big Three transition to 3D DRAM, DRAM will no longer require EUV"
+        },
+        {
+          "tweet_id": "2067777637192434052",
+          "date": "2026-06-18",
+          "url": "https://x.com/jukan05/status/2067777637192434052",
+          "label": "美國政府調查 ASML 出口疑慮",
+          "excerpt": "the U.S. government suspects that ASML exported EUV tools to China, or exported EUV components to China"
+        }
+      ]
+    },
+    {
+      "heading": "八、今日如何理解這份 thesis",
+      "body": [
+        "截至目前，Jukan 的 thesis 核心進展順利：財報超預期、EUV 交期售罄、客戶競相加碼訂單、High-NA 世代即將浮出水面。但有兩條線索值得持續追蹤：一是美國對 ASML 出口行為的調查進度，這是最短期且高不確定性的尾部風險；二是 3D DRAM 商業化時間表，這決定了 EUV 超額需求能維持多久。在這兩項變數明朗之前，供需緊張格局仍是主旋律。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2044287982086348936",
+          "date": "2026-04-15",
+          "url": "https://x.com/jukan05/status/2044287982086348936",
+          "label": "持續看多、警告空方留意催化劑",
+          "excerpt": "To those shorting ASML, you might want to be careful. TSMC earnings are tomorrow"
+        },
+        {
+          "tweet_id": "2051277334850969837",
+          "date": "2026-05-04",
+          "url": "https://x.com/jukan05/status/2051277334850969837",
+          "label": "中國 EUV 自研中期時間表",
+          "excerpt": "China could secure advanced semiconductor manufacturing equipment approaching EUV by around the mid-2030s"
+        }
+      ]
+    }
+  ],
+  "final_takeaway": [
+    "ASML 的多頭邏輯建立在 DRAM 擴產週期與 EUV 設備產能瓶頸的結構性錯配上，這一邏輯已有財報數據與客戶行為雙重驗證，短期供需失衡格局清晰。",
+    "主要需監控的尾部風險為美國出口管制調查的後續發展，以及 3D DRAM 技術商業化時間表是否提前壓縮 EUV 的長期需求窗口。"
+  ],
+  "quality_notes": {
+    "reference_article_parity": [
+      "本報告可再由人工擴充個股財務模型或產業比較分析"
+    ],
+    "known_limits": [
+      "僅使用本次 curated evidence，不代表已讀完整 corpus"
+    ]
+  },
+  "generated_at": "2026-06-28T13:36:31Z",
+  "coverage_through": "2026-06-18",
+  "source_posts_used": [
+    {
+      "tweet_id": "2038890721026191659",
+      "date": "2026-03-31",
+      "url": "https://x.com/jukan05/status/2038890721026191659"
+    },
+    {
+      "tweet_id": "2039733794710896979",
+      "date": "2026-04-02",
+      "url": "https://x.com/jukan05/status/2039733794710896979"
+    },
+    {
+      "tweet_id": "2040956639034155486",
+      "date": "2026-04-05",
+      "url": "https://x.com/jukan05/status/2040956639034155486"
+    },
+    {
+      "tweet_id": "2041076290711847131",
+      "date": "2026-04-06",
+      "url": "https://x.com/jukan05/status/2041076290711847131"
+    },
+    {
+      "tweet_id": "2041076972177285495",
+      "date": "2026-04-06",
+      "url": "https://x.com/jukan05/status/2041076972177285495"
+    },
+    {
+      "tweet_id": "2041330434496430127",
+      "date": "2026-04-06",
+      "url": "https://x.com/jukan05/status/2041330434496430127"
+    },
+    {
+      "tweet_id": "2043117943194890240",
+      "date": "2026-04-11",
+      "url": "https://x.com/jukan05/status/2043117943194890240"
+    },
+    {
+      "tweet_id": "2044281855449673851",
+      "date": "2026-04-15",
+      "url": "https://x.com/jukan05/status/2044281855449673851"
+    },
+    {
+      "tweet_id": "2044284306575765746",
+      "date": "2026-04-15",
+      "url": "https://x.com/jukan05/status/2044284306575765746"
+    },
+    {
+      "tweet_id": "2044287982086348936",
+      "date": "2026-04-15",
+      "url": "https://x.com/jukan05/status/2044287982086348936"
+    },
+    {
+      "tweet_id": "2045806552490336763",
+      "date": "2026-04-19",
+      "url": "https://x.com/jukan05/status/2045806552490336763"
+    },
+    {
+      "tweet_id": "2051277334850969837",
+      "date": "2026-05-04",
+      "url": "https://x.com/jukan05/status/2051277334850969837"
+    },
+    {
+      "tweet_id": "2052529725927756104",
+      "date": "2026-05-07",
+      "url": "https://x.com/jukan05/status/2052529725927756104"
+    },
+    {
+      "tweet_id": "2057089825011110200",
+      "date": "2026-05-20",
+      "url": "https://x.com/jukan05/status/2057089825011110200"
+    },
+    {
+      "tweet_id": "2057089839615668283",
+      "date": "2026-05-20",
+      "url": "https://x.com/jukan05/status/2057089839615668283"
+    },
+    {
+      "tweet_id": "2058880450375098843",
+      "date": "2026-05-25",
+      "url": "https://x.com/jukan05/status/2058880450375098843"
+    },
+    {
+      "tweet_id": "2059420761505538353",
+      "date": "2026-05-26",
+      "url": "https://x.com/jukan05/status/2059420761505538353"
+    },
+    {
+      "tweet_id": "2067777637192434052",
+      "date": "2026-06-18",
+      "url": "https://x.com/jukan05/status/2067777637192434052"
+    }
+  ]
+}

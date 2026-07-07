@@ -1006,7 +1006,7 @@ def reports_section():
     top_empty='<div class="ops-empty">目前沒有足夠的看多訊號可排序。</div>' if not top_cards else ''
     automation_ready=dsummary.get('automation_ready', summary.get('needs_report',0))
     return f'''<section id="reports" class="period-sec">
-<div class="sec"><div class="sechd"><div class="st">{t('nav_reports')}</div><div class="datepill">investment memo</div>
+<div class="sec"><div class="sechd"><div class="st"><span class="profile-title"><img src="{_h(PROFILE_AVATAR)}" alt="{_h(PROFILE_NAME)} avatar"><span><b>{_h(PROFILE_NAME)}</b><em>@{_h(PROFILE_HANDLE)}</em></span></span><span>{t('nav_reports')}</span></div>
 <div class="sn"><span class="cnt">已發布 {len(REPORTS)} 份 · 下一批 {automation_ready} 檔 · 待更新 {len(updates_due)} 份</span><span class="upd">{t('updated',date=UPDATE_STAMP)}</span></div></div></div>
 <div class="daypad">
 <div class="subhd" style="margin-top:0"><i class="fa-solid fa-ranking-star"></i> {PROFILE_NAME} <span class="jargon" role="button" tabindex="0">綜合訊號<span class="jargon-tip">{_h(signal_tip)}</span></span> Top 3</div>
@@ -1605,24 +1605,28 @@ html{scroll-behavior:smooth}
   .thesis-core{display:flex;width:100%;line-height:1.55}
   .jargon-tip{position:fixed;left:16px;right:16px;top:18%;bottom:auto;width:auto;max-width:none}
   .jargon-tip::after{display:none}
-  .postsbar{align-items:flex-start}
+.postsbar{align-items:flex-start}
 }
+.sidenav{display:none}
+body{display:block}
+.main{margin-left:0;width:min(1360px,100%);margin-right:auto;margin-left:auto}
+.sechd{cursor:default;align-items:center}
+.sechd .st{gap:14px;flex-wrap:wrap}
+.profile-title{display:inline-flex;align-items:center;gap:9px}
+.profile-title img{width:30px;height:30px;border-radius:50%;object-fit:cover;border:1px solid var(--line-strong);background:var(--paper)}
+.profile-title span{display:flex;flex-direction:column;gap:1px;line-height:1.05}
+.profile-title b{font-family:var(--serif);font-size:14px;font-weight:850;color:var(--ink)}
+.profile-title em{font-family:var(--mono);font-style:normal;font-size:10px;font-weight:650;color:var(--ink-faint)}
+.sectoggle{display:none}
+@media(max-width:720px){.main>.crumb{padding:16px 14px 0}.sechd{align-items:flex-start}.sechd .sn{width:100%}}
 
 </style>'''
 
 def build():
     head=BASE_HEAD+SHARED_CSS   # 基础头已内嵌,render 完全自给,无需任何外部 html
     head=head.replace('@aleabitoreddit 个股评论追踪',f'@{PROFILE_HANDLE} — {PROFILE_NAME}')
-    nav=f'''<nav class="sidenav"><div class="brand"><img class="glyph" src="{html.escape(PROFILE_AVATAR)}" alt="{html.escape(PROFILE_NAME)} avatar"><div class="bt">{html.escape(PROFILE_NAME)}</div><div class="bs"><a href="{html.escape(PROFILE_X_URL)}" target="_blank" rel="noopener">@{html.escape(PROFILE_HANDLE)}</a></div></div>
-<a class="navlink on" data-t="reports"><span>{t('nav_reports')}</span><span class="ni">論</span></a>
-<a class="navlink" data-t="day"><span>{t('nav_day')}</span><span class="ni">日</span></a>
-<a class="navlink" data-t="week"><span>{t('nav_week')}</span><span class="ni">週</span></a>
-<a class="navlink" data-t="month"><span>{t('nav_month')}</span><span class="ni">月</span></a>
-<a class="navlink" data-t="quarter"><span>{t('nav_quarter')}</span><span class="ni">季</span></a></nav>'''
+    nav=''
     secs=reports_section()
-    secs+=period_section(DAYCFG)+period_section(WKCFG)
-    secs+=month_section()
-    secs+=quarter_section()
     JS_KEYS=['stance_bull','stance_bear','stance_neutral','stance_mixed','stance_none',
       'chart_ph_no_series','chart_dot_tip','chart_leg_bull','chart_leg_bear','chart_leg_note',
       'dd_ph_title','dd_ph_body','post_initial','dd_view_all',
@@ -1632,7 +1636,7 @@ def build():
     i18n_values={k:t(k).replace('Serenity',PROFILE_NAME) for k in JS_KEYS}
     i18n_js='<script>var I18N='+json.dumps(i18n_values,ensure_ascii=False)+';function I(k,o){var s=I18N[k]||k;if(o)for(var p in o)s=s.split("{"+p+"}").join(o[p]);return s;}</script>'
     script='''<script>
-const links=[...document.querySelectorAll('.navlink')];
+const links=[...document.querySelectorAll('.navlink[data-t]')];
 function sectionStateKey(id){return 'serenity-section-collapsed:'+id;}
 function setSectionCollapsed(sec,collapsed){
   sec.classList.toggle('collapsed',collapsed);
@@ -1647,18 +1651,7 @@ document.querySelectorAll('.period-sec').forEach(function(sec){
   var hd=sec.querySelector('.sechd');
   var title=sec.querySelector('.sechd .st');
   if(!hd)return;
-  var btn=document.createElement('button');
-  btn.type='button';btn.className='sectoggle';btn.setAttribute('aria-label','收合 / 展開');
-  btn.innerHTML='<i class="fa-solid fa-chevron-down"></i>';
-  btn.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();setSectionCollapsed(sec,!sec.classList.contains('collapsed'));});
-  if(title)title.insertBefore(btn,title.firstChild);
-  hd.addEventListener('click',function(e){
-    if(e.target.closest('.sn'))return;
-    setSectionCollapsed(sec,!sec.classList.contains('collapsed'));
-  });
-  var collapsed=false;
-  try{collapsed=localStorage.getItem(sectionStateKey(sec.id))==='1';}catch(e){}
-  setSectionCollapsed(sec,collapsed);
+  setSectionCollapsed(sec,false);
 });
 links.forEach(l=>l.addEventListener('click',e=>{e.preventDefault();const t=document.getElementById(l.dataset.t);if(t){if(t.classList.contains('collapsed'))setSectionCollapsed(t,false);t.scrollIntoView({behavior:'smooth',block:'start'});}}));
 const secs=links.map(l=>document.getElementById(l.dataset.t));
@@ -1989,23 +1982,16 @@ function renderDD(tk){
   }
   function missingReportHtml(){
     if(d.report)return '';
-    return '<div class="ddmemo-missing"><b><i class="fa-regular fa-file-lines"></i>尚未整理完整投資論點</b><p>目前先保留 '+esc(PROFILE.name)+' 的貼文、看多理由、風險與價格路徑；若訊號累積足夠，會整理成完整投資論點。</p></div>';
+    return '<div class="ddmemo-missing"><b><i class="fa-regular fa-file-lines"></i>尚未整理完整投資論點</b><p>這個標的目前還沒有完整 thesis memo；若訊號累積足夠，會整理成投資論點。</p></div>';
   }
   var firstPxTxt=d.firstPx?((d.cur?d.cur+' ':'')+d.firstPx):'—';
-  var _ps=d.posts,_latest=_ps.length?_ps[0].d:null,_head=_ps.filter(function(p){return p.d===_latest;}),_rest=_ps.filter(function(p){return p.d!==_latest;});
+  var _ps=d.posts;
   var postMap={};_ps.forEach(function(p){if(p.id)postMap[p.id]=p;});
-  var plistHtml='<div class="plist">'+_head.map(function(p){return postRow(p,false);}).join('')+(_rest.length?'<div id="ddRest">'+_rest.map(function(p){return postRow(p,true);}).join('')+'</div>':'')+'</div>'+(_rest.length?'<div class="ddmore" '+(zh?'data-zh="1" ':'')+'onclick="ddMore(this)">'+(zh?Z.showMore+' ('+_rest.length+') <i class="fa-solid fa-chevron-down"></i>':I('dd_view_all',{n:_rest.length}))+'</div>':'');
   document.getElementById('ddBody').innerHTML=
     '<div class="ddhead"><div class="ddhl"><button class="ddback" type="button" onclick="ddHome()" aria-label="返回 '+esc(PROFILE.name)+'"><i class="fa-solid fa-arrow-left"></i><span>返回 '+esc(PROFILE.name)+'</span></button><div class="ddtk">'+tk+'<span class="market detail">'+esc(d.market||'')+'</span><span class="theme detail '+(d.theme==='Other'?'other':'')+'">'+themeText+'</span></div><div class="ddco">'+esc(d.co)+(d.industry?' · <span class="ddind">'+industryText+'</span>':'')+'</div><div class="ddpills">'+pill+'</div></div>'+
     '<div class="ddmeta"><span class="ddmi"><i>'+(zh?Z.first:I18N.dd_first_mention)+'</i><b>'+d.first+'</b></span><span class="ddmi"><i>'+(zh?Z.last:I18N.dd_last_mention)+'</i><b>'+d.last+'</b></span><span class="ddmi"><i>'+(zh?Z.total:I18N.dd_total)+'</i><b>'+d.total+(I18N.count_unit?' '+I18N.count_unit:'')+'</b></span><span class="ddmi"><i>'+(zh?Z.firstPx:I18N.dd_first_px)+'</i><b>'+firstPxTxt+'</b></span><span class="ddsplit">'+split+'</span><span class="ddfreq"><span class="fc"><i>'+(zh?Z.today:I18N.dd_today)+'</i><b>'+d.m_today+'</b></span><span class="fc"><i>'+I18N.freq_7d+'</i><b>'+d.m7+'</b></span><span class="fc"><i>'+I18N.freq_28d+'</i><b>'+d.m28+'</b></span></span></div></div>'+
-    relatedHtml()+
     reportHtml(d.report,postMap,tk)+
     missingReportHtml()+
-    '<div class="charttitle"><h3>'+(zh?'$'+tk+' 自 '+esc(PROFILE.name)+' 首次提及以來的股價走勢':'$'+tk+' price path since '+esc(PROFILE.name)+' first mentioned it')+'</h3><p>'+(zh?'圓點標記 '+esc(PROFILE.name)+' 發文，顏色代表立場。':'Dots mark '+esc(PROFILE.name)+' posts by inferred stance.')+'</p></div>'+
-    ddChart(d,zh)+
-    '<div class="rcols"><div class="rpanel bull"><div class="rph"><span class="rpdot bull"></span>'+(zh?Z.bullCase:I18N.dd_reasons_bull)+'<span class="rpn">'+(zh?Z.newest:I18N.dd_newest_first)+'</span></div><ul class="rlist">'+mkR(d.reasonsBull,I18N.dd_no_bull,'bull')+'</ul></div><div class="rpanel bear"><div class="rph"><span class="rpdot bear"></span>'+(zh?Z.risks:I18N.dd_reasons_risk)+'<span class="rpn">'+(zh?Z.newest:I18N.dd_newest_first)+'</span></div><ul class="rlist">'+mkR(d.reasonsRisk,I18N.dd_no_risk,'bear')+'</ul></div></div>'+
-    '<div class="postsbar"><h3>'+(zh?'今日 $'+tk+' 貼文':'Today\\'s $'+tk+' mentions')+'</h3><span class="postcount">'+(zh?'全部 $'+tk+' 貼文 ':'All $'+tk+' posts ')+d.total+'</span></div>'+
-    plistHtml+
     '';
   ddOpenTicker=tk;openDD();
 }

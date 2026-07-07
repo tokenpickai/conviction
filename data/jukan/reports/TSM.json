@@ -1,0 +1,289 @@
+{
+  "ticker": "TSM",
+  "language": "zh-Hant",
+  "title": "TSMC：AI 時代的晶圓霸主，定價權持續強化",
+  "subtitle": "整合 Jukan（@jukan05）公開貼文，系統梳理 TSMC 核心投資論點",
+  "core_label": "結構性看多",
+  "one_minute_summary": [
+    "TSMC 2026 年 3 月營收年增 45.2%，3nm 報價下半年再漲 15%，顯示供需緊繃格局仍在延續。",
+    "CPU 搶產潮、AI 加速器需求雙重拉動，TSMC 晶圓產能持續緊俏，議價能力隨之強化。",
+    "CoWoS、CoPoS、玻璃基板三條先進封裝技術線並進，Jukan 認為毛利率見頂論說法站不住腳。"
+  ],
+  "sections": [
+    {
+      "heading": "一、Jukan 最初如何看這檔股票",
+      "body": [
+        "Jukan 對 TSMC 的看法從 CPU 供應鏈討論切入。他在分析 AMD、ARM、英特爾誰是最佳 CPU 漲價受益標的時，直接點名 TSMC 才是真正受益者——CPU 搶產潮只會進一步收緊台積電的晶圓產能，讓其在客戶談判中取得更強的議價地位。這個起點說明 Jukan 的多頭立場並非基於短期催化劑，而是從產業結構邏輯出發。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2036963841582784947",
+          "date": "2026-03-25",
+          "url": "https://x.com/jukan05/status/2036963841582784947",
+          "label": "CPU 漲價，TSMC 是最大贏家",
+          "excerpt": "CPU production rush will further tighten TSMC wafer capacity, strengthening TSMC's bargaining power"
+        }
+      ]
+    },
+    {
+      "heading": "二、核心 thesis 是什麼",
+      "body": [
+        "Jukan 的核心論點是：TSMC 同時受惠於需求端擴張與供給端稀缺，能夠持續推升售價而不流失客戶。他轉述報導指出 3nm 報價下半年漲幅達 15%，明年可能再漲 10%，同時另有消息稱管理層有意對包含 7nm 在內的所有先進製程全面調漲 5–10%。這種定價主動權，正是 Jukan 認為市場低估 TSMC 的關鍵所在。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2059418762647089575",
+          "date": "2026-05-26",
+          "url": "https://x.com/jukan05/status/2059418762647089575",
+          "label": "3nm 報價下半年漲 15%",
+          "excerpt": "TSMC's 3nm prices said to rise 15% in the second half; another 10% hike possible next year"
+        },
+        {
+          "tweet_id": "2069388829841363242",
+          "date": "2026-06-23",
+          "url": "https://x.com/jukan05/status/2069388829841363242",
+          "label": "全節點漲價 5–10%",
+          "excerpt": "TSMC is pushing for a 5–10% price increase across all advanced nodes, including 7nm"
+        }
+      ]
+    },
+    {
+      "heading": "三、公司 / 資產到底提供什麼能力",
+      "body": [
+        "TSMC 提供的不只是晶圓代工，而是一套涵蓋先進製程與先進封裝的完整解決方案。Jukan 密集追蹤其封裝技術路徑：CoWoS 產能持續擴張、CoPoS（Panel-Level Packaging）加速建立量產供應鏈、並與 Ibiden 和 Innolux 合作開發玻璃基板，目標在 2028–2029 年配合 Nvidia AI 晶片迭代節奏進入量產。這種技術廣度使 TSMC 難以被單一競爭者替代。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2066651558784463190",
+          "date": "2026-06-15",
+          "url": "https://x.com/jukan05/status/2066651558784463190",
+          "label": "CoPoS 與玻璃基板生態系建立",
+          "excerpt": "TSMC is not only ramping CoWoS advanced packaging capacity but has disclosed progress on its glass substrate technology"
+        },
+        {
+          "tweet_id": "2067440482524029088",
+          "date": "2026-06-17",
+          "url": "https://x.com/jukan05/status/2067440482524029088",
+          "label": "玻璃基板量產目標 4Q28–1Q29",
+          "excerpt": "TSMC is aiming to start mass production of the glass core substrate in 4Q28–1Q29, to match the cadence of Nvidia's AI chip iterations"
+        }
+      ]
+    },
+    {
+      "heading": "四、供應鏈位置與產業邏輯",
+      "body": [
+        "Jukan 觀察到超大型雲端業者（hyperscaler）大量採用自研 CPU ASIC，傳統 x86 CPU 的長期地位受到結構性壓縮；但無論客戶採用何種架構，最終都必須透過 TSMC 製造。這個「通路必經點」地位讓台積電不必依賴任何單一客戶。此外，他也注意到三星電子正搶接 BYD、Google、AMD 等客戶詢單，但這本身即印證 TSMC 產能已達到瓶頸。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2036963841582784947",
+          "date": "2026-03-25",
+          "url": "https://x.com/jukan05/status/2036963841582784947",
+          "label": "Hyperscaler 轉向自研 ASIC，TSMC 仍是必經路",
+          "excerpt": "hyperscalers have been moving toward in-house CPU ASICs for quite a long time"
+        },
+        {
+          "tweet_id": "2067092746364748272",
+          "date": "2026-06-16",
+          "url": "https://x.com/jukan05/status/2067092746364748272",
+          "label": "三星搶單反映 TSMC 產能緊俏",
+          "excerpt": "surging demand for AI infrastructure strains the advanced chipmaking capacity of market leader TSMC"
+        }
+      ]
+    },
+    {
+      "heading": "五、哪些貼文提高或驗證了 thesis",
+      "body": [
+        "最直接的驗證訊號是 3 月財報數字：營收年增 45.2%、月增 30.7%，Jukan 直接貼出數據而不加任何保留語氣，表明這組數字符合甚至超過他的預期。緊接著，他在 4 月明確嘲諷「認為 Q1 毛利率見頂就賣出」的投資者，顯示他認為市場對利潤天花板的擔憂是誤判，TSMC 的盈利能力具有持續性。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2042476075289305436",
+          "date": "2026-04-10",
+          "url": "https://x.com/jukan05/status/2042476075289305436",
+          "label": "3 月營收年增 45.2% 驗證多頭論點",
+          "excerpt": "TSMC's March revenue came in at NT$415.191 billion, up 45.2% year over year"
+        },
+        {
+          "tweet_id": "2044733024206754150",
+          "date": "2026-04-16",
+          "url": "https://x.com/jukan05/status/2044733024206754150",
+          "label": "毛利率見頂論是誤判",
+          "excerpt": "I heard some idiots are selling because they think TSMC's margins peaked in Q1"
+        }
+      ]
+    },
+    {
+      "heading": "六、Jukan 如何比較同類標的",
+      "body": [
+        "Jukan 在 CPU 漲價議題上明確比較了 AMD、ARM 與英特爾，並對 AMD x86 部門抱有保留態度，認為其所處的商業環境「並不特別有利」。相較之下，他對 TSMC 的立場更為正面，因為 TSMC 的受益邏輯跨越了 x86 vs. ARM 的架構之爭。此外他也指出英特爾晶圓廠的下一代技術量產時程與 TSMC 大致相當，未見明顯領先優勢。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2036963841582784947",
+          "date": "2026-03-25",
+          "url": "https://x.com/jukan05/status/2036963841582784947",
+          "label": "AMD 環境不利，TSMC 才是受益核心",
+          "excerpt": "AMD's x86 CPU division is full of excellent people, but the business environment is not especially favorable"
+        },
+        {
+          "tweet_id": "2066689399006560740",
+          "date": "2026-06-15",
+          "url": "https://x.com/jukan05/status/2066689399006560740",
+          "label": "英特爾晶圓廠量產時程與 TSMC 相當",
+          "excerpt": "Risk production is framed around 2028 and volume around 2029, broadly comparable to TSMC timing"
+        }
+      ]
+    },
+    {
+      "heading": "七、風險、反方與需要驗證的地方",
+      "body": [
+        "Jukan 雖未明確列舉風險清單，但他轉述的摩根士丹利報告指出，2027 年光學引擎出貨量可能僅有 600–700 萬件，遠低於市場預期的 2,000–3,000 萬件，且 SoIC 良率約 50–60% 仍是關鍵變數。這顯示部分先進封裝業務的斜率存在不確定性。另外，華為 Kirin 晶片若真能接近 3nm 效能，將對 TSMC 客戶結構形成長期影響，值得持續追蹤。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2064848479638482978",
+          "date": "2026-06-10",
+          "url": "https://x.com/jukan05/status/2064848479638482978",
+          "label": "光學引擎出貨與良率是不確定因素",
+          "excerpt": "SoIC yield of 50–60% remains a key swing factor"
+        },
+        {
+          "tweet_id": "2066843939320258703",
+          "date": "2026-06-16",
+          "url": "https://x.com/jukan05/status/2066843939320258703",
+          "label": "華為 Kirin 晶片接近 3nm 效能",
+          "excerpt": "the Kirin chip powering the Mate 90 is expected to deliver performance comparable to TSMC's 3nm-class technology"
+        }
+      ]
+    },
+    {
+      "heading": "八、今日如何理解這份 thesis",
+      "body": [
+        "綜合 Jukan 的貼文脈絡，TSMC 的故事並未因短期利潤疑慮而改變：需求端有 AI 基礎設施持續擴建撐盤，供給端有產能稀缺與技術壁壘護城，定價端有跨節點漲價的主動性。CoPoS 與玻璃基板路線圖則說明 TSMC 正在把護城河從製程延伸至封裝生態，試圖在下一個世代繼續掌握關鍵瓶頸節點。Jukan 的觀點一以貫之：結構性多頭，不因季度波動而動搖。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2066390166412120500",
+          "date": "2026-06-15",
+          "url": "https://x.com/jukan05/status/2066390166412120500",
+          "label": "CoPoS 供應鏈建立，明年目標量產",
+          "excerpt": "TSMC is building out its materials, components, and equipment supply chain for CoPoS, targeting mass production next year"
+        },
+        {
+          "tweet_id": "2059418762647089575",
+          "date": "2026-05-26",
+          "url": "https://x.com/jukan05/status/2059418762647089575",
+          "label": "定價主動性持續強化",
+          "excerpt": "TSMC's 3nm prices said to rise 15% in the second half; another 10% hike possible next year"
+        }
+      ]
+    }
+  ],
+  "final_takeaway": [
+    "TSMC 的議價能力與技術壁壘同步強化，Jukan 的貼文始終指向同一結論：供需失衡格局尚未逆轉，報價上漲仍有空間。",
+    "先進封裝從 CoWoS 演進至 CoPoS 與玻璃基板，是 TSMC 將護城河延伸至下一代 AI 晶片供應鏈的關鍵佈局，值得持續追蹤其量產進度與良率改善情況。"
+  ],
+  "quality_notes": {
+    "reference_article_parity": [
+      "本報告可再人工擴寫，補充財務模型與估值區間"
+    ],
+    "known_limits": [
+      "僅使用本次 curated evidence，不代表已讀完整 corpus；部分背景貼文為中性轉述，非 Jukan 明確表態"
+    ]
+  },
+  "generated_at": "2026-06-28T13:40:07Z",
+  "coverage_through": "2026-06-23",
+  "source_posts_used": [
+    {
+      "tweet_id": "2036963841582784947",
+      "date": "2026-03-25",
+      "url": "https://x.com/jukan05/status/2036963841582784947"
+    },
+    {
+      "tweet_id": "2042476075289305436",
+      "date": "2026-04-10",
+      "url": "https://x.com/jukan05/status/2042476075289305436"
+    },
+    {
+      "tweet_id": "2044733024206754150",
+      "date": "2026-04-16",
+      "url": "https://x.com/jukan05/status/2044733024206754150"
+    },
+    {
+      "tweet_id": "2059418762647089575",
+      "date": "2026-05-26",
+      "url": "https://x.com/jukan05/status/2059418762647089575"
+    },
+    {
+      "tweet_id": "2064848479638482978",
+      "date": "2026-06-10",
+      "url": "https://x.com/jukan05/status/2064848479638482978"
+    },
+    {
+      "tweet_id": "2065354641278390299",
+      "date": "2026-06-12",
+      "url": "https://x.com/jukan05/status/2065354641278390299"
+    },
+    {
+      "tweet_id": "2065975102953632101",
+      "date": "2026-06-13",
+      "url": "https://x.com/jukan05/status/2065975102953632101"
+    },
+    {
+      "tweet_id": "2066388680902861028",
+      "date": "2026-06-15",
+      "url": "https://x.com/jukan05/status/2066388680902861028"
+    },
+    {
+      "tweet_id": "2066390166412120500",
+      "date": "2026-06-15",
+      "url": "https://x.com/jukan05/status/2066390166412120500"
+    },
+    {
+      "tweet_id": "2066650855923966013",
+      "date": "2026-06-15",
+      "url": "https://x.com/jukan05/status/2066650855923966013"
+    },
+    {
+      "tweet_id": "2066651558784463190",
+      "date": "2026-06-15",
+      "url": "https://x.com/jukan05/status/2066651558784463190"
+    },
+    {
+      "tweet_id": "2066689399006560740",
+      "date": "2026-06-15",
+      "url": "https://x.com/jukan05/status/2066689399006560740"
+    },
+    {
+      "tweet_id": "2066843939320258703",
+      "date": "2026-06-16",
+      "url": "https://x.com/jukan05/status/2066843939320258703"
+    },
+    {
+      "tweet_id": "2067092746364748272",
+      "date": "2026-06-16",
+      "url": "https://x.com/jukan05/status/2067092746364748272"
+    },
+    {
+      "tweet_id": "2067440482524029088",
+      "date": "2026-06-17",
+      "url": "https://x.com/jukan05/status/2067440482524029088"
+    },
+    {
+      "tweet_id": "2068489675510268060",
+      "date": "2026-06-20",
+      "url": "https://x.com/jukan05/status/2068489675510268060"
+    },
+    {
+      "tweet_id": "2068874815474376949",
+      "date": "2026-06-21",
+      "url": "https://x.com/jukan05/status/2068874815474376949"
+    },
+    {
+      "tweet_id": "2069388829841363242",
+      "date": "2026-06-23",
+      "url": "https://x.com/jukan05/status/2069388829841363242"
+    }
+  ]
+}

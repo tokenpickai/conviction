@@ -1,0 +1,282 @@
+{
+  "ticker": "AVGO",
+  "language": "zh-Hant",
+  "title": "Broadcom ASIC 霸主地位的機遇與侵蝕：一份基於 Jukan 觀察的研究整理",
+  "subtitle": "從 Google TPU 獨家供應商到 COT 模式威脅，重新審視護城河的可持續性",
+  "core_label": "高成長但護城河受質疑的 AI ASIC 領導者",
+  "one_minute_summary": [
+    "Broadcom 在 Google TPU 供應鏈中佔據主導地位，UBS 預估 2027 年 AVGO 出貨量將達 676 萬顆，並可能成為 TPU v9 的獨家供應商。",
+    "SoftBank Izanagi 專案與 Anthropic ASIC 等新客戶擴展，為 AVGO 提供超越 Google 的增量成長動能。",
+    "Google 正推動類 Apple 的 COT 直接下單模式，Jukan 明確警告此舉將壓縮 Broadcom 的每晶片毛利，護城河是否穩固存在根本性疑問。"
+  ],
+  "sections": [
+    {
+      "heading": "一、Jukan 最初如何看這檔股票",
+      "body": [
+        "Jukan 對 Broadcom 的觀察起點是 UBS 的出貨量上修。他指出 UBS 將 AVGO 在 2027 年的 TPU 出貨量預估從約 600 萬顆上調至 700 萬顆左右，並對加入 MediaTek 後的總量感到好奇。這顯示他一開始以相對中立、偏量化的視角追蹤 AVGO，著眼供應鏈份額數字，而非直接表態看多或看空。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2043598744575451334",
+          "date": "2026-04-13",
+          "url": "https://x.com/jukan05/status/2043598744575451334",
+          "label": "UBS 上調 TPU 出貨量預估",
+          "excerpt": "UBS now expects AVGO alone to ship around 7 million TPUs in C27, up from its prior estimate of roughly 6 million."
+        }
+      ]
+    },
+    {
+      "heading": "二、核心 thesis 是什麼",
+      "body": [
+        "Jukan 的核心觀察是：Broadcom 在 Google TPU 生態系中扮演「turnkey ASIC 整合者」的角色，並從中擷取 15–20% 的加成毛利。這個模式讓 AVGO 得以在設計、封裝整合、記憶體採購等環節累積定價能力，毛利率逼近 60%，接近 NVIDIA 水準。但他同時質疑，這樣的高毛利是否能在客戶自主化浪潮下長期維持。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2049717500691279979",
+          "date": "2026-04-30",
+          "url": "https://x.com/jukan05/status/2049717500691279979",
+          "label": "Google 試圖消除 Broadcom turnkey 加成",
+          "excerpt": "Google aims to use MediaTek to reduce the 15–20% margin Broadcom captures under its turnkey ASIC model."
+        },
+        {
+          "tweet_id": "2062305379099480092",
+          "date": "2026-06-03",
+          "url": "https://x.com/jukan05/status/2062305379099480092",
+          "label": "質疑 60% 毛利可持續性",
+          "excerpt": "Broadcom's margin is around 60%... Do you really think Broadcom's margin is sustainable?"
+        }
+      ]
+    },
+    {
+      "heading": "三、公司 / 資產到底提供什麼能力",
+      "body": [
+        "Broadcom 對超大規模客戶的核心價值在於全棧整合：從 ASIC 設計、IP 授權，到協助客戶採購 HBM 等高頻寬記憶體。Jukan 特別點出，Anthropic 等新興 AI 公司尚無能力自行向三星或 SK Hynix 採購 HBM，因此早期 ASIC 開發仍需仰賴 Broadcom 的採購能力與供應鏈關係，這是短期內難以被取代的黏著點。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2063445577577460040",
+          "date": "2026-06-06",
+          "url": "https://x.com/jukan05/status/2063445577577460040",
+          "label": "Anthropic 初期仍需 Broadcom 協助採購記憶體",
+          "excerpt": "Anthropic is likely to work with companies like Broadcom that can procure memory for them, at least in the early stages."
+        }
+      ]
+    },
+    {
+      "heading": "四、供應鏈位置與產業邏輯",
+      "body": [
+        "從供應鏈結構看，Broadcom 在封裝技術上佔據關鍵節點。JPMorgan 預測 Google TPU v9 將由 AVGO 獨家供應，採用台積電 CoWoS-L 技術；同時，Samsung Electro-Mechanics 已確認將向 Broadcom 供應 AI 基板，顯示其供應鏈廣度正向下游延伸。Google TPU 8 代的量產也帶動台灣組裝夥伴如 Celestica、Foxconn 等在 2026 下半年啟動量產，整體生態系規模持續擴大。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2044750394719715585",
+          "date": "2026-04-16",
+          "url": "https://x.com/jukan05/status/2044750394719715585",
+          "label": "AVGO 可能成為 TPU v9 獨家供應商",
+          "excerpt": "In Google's TPU v9, $AVGO (Broadcom) is highly likely to be the sole supplier using TSMC's CoWoS-L technology."
+        },
+        {
+          "tweet_id": "2046521336106004977",
+          "date": "2026-04-21",
+          "url": "https://x.com/jukan05/status/2046521336106004977",
+          "label": "Samsung Electro-Mechanics 供應 AI 基板給 Broadcom",
+          "excerpt": "Samsung Electro-Mechanics to Supply AI Substrates to Broadcom"
+        }
+      ]
+    },
+    {
+      "heading": "五、哪些貼文提高或驗證了 thesis",
+      "body": [
+        "兩個關鍵事件強化了 Broadcom 的增量成長敘事：其一是 SoftBank Izanagi ASIC 專案確認由 AVGO 而非 Marvell 取得，Jukan 坦言此前並不知情，顯示客戶拓展超出市場預期；其二是 JPMorgan 分析師 Harlan Sur 發布報告，點名 Broadcom 可能參與 Anthropic 的 ASIC 開發，若屬實將為 AVGO 帶來 Google 以外的第二條主線成長軌道。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2046204646726017027",
+          "date": "2026-04-20",
+          "url": "https://x.com/jukan05/status/2046204646726017027",
+          "label": "SoftBank Izanagi 由 AVGO 取得",
+          "excerpt": "SoftBank's ASIC project Izanagi was awarded to $AVGO, not $MRVL."
+        },
+        {
+          "tweet_id": "2067156318016930044",
+          "date": "2026-06-17",
+          "url": "https://x.com/jukan05/status/2067156318016930044",
+          "label": "JPMorgan 報告暗示 AVGO 參與 Anthropic ASIC",
+          "excerpt": "Is Broadcom really involved in Anthropic's ASIC?"
+        }
+      ]
+    },
+    {
+      "heading": "六、Jukan 如何比較同類標的",
+      "body": [
+        "Jukan 的競爭格局分析圍繞 MediaTek 與 Marvell 展開。他指出，排在 Broadcom 之後的 ASIC 設計能力者是 MediaTek 而非 Marvell，但他對 OpenAI 是否真的會捨棄 Broadcom 轉投 MediaTek 抱持懷疑。此外，JPMorgan 的供應鏈調查顯示 Google 與 Marvell 合作的 SRAM 計算引擎將壓縮 MediaTek 的 TAM，間接鞏固了 AVGO 的相對地位。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2048622395255321029",
+          "date": "2026-04-27",
+          "url": "https://x.com/jukan05/status/2048622395255321029",
+          "label": "MediaTek 是次位競爭者，但 OAI 棄 AVGO 存疑",
+          "excerpt": "The ASIC design company next in line after Broadcom is not Marvell, but MediaTek. But will OAI actually ditch Broadcom? I'm not sure about that."
+        },
+        {
+          "tweet_id": "2044750394719715585",
+          "date": "2026-04-16",
+          "url": "https://x.com/jukan05/status/2044750394719715585",
+          "label": "Marvell SRAM 引擎壓縮 MediaTek TAM",
+          "excerpt": "Google is developing an SRAM-based compute engine in collaboration with Marvell... expected to negatively impact MediaTek's TAM."
+        }
+      ]
+    },
+    {
+      "heading": "七、風險、反方與需要驗證的地方",
+      "body": [
+        "Jukan 明確標記的最大風險是 Google 推動 COT（Customer-Owned Tooling）模式：Google 直接向台積電下晶圓訂單，Broadcom 降格為 IP 授權與設計服務角色，每晶片毛利將大幅縮水。他甚至在 2026 年 6 月初直接拋出「AVGO 是否已到頂？」的疑問，並長期質疑 Broadcom 設計能力不可取代的市場敘事，認為 TPU v8i 的成功已動搖這一前提。不過，他也補充 Broadcom 與 MediaTek 內部目前仍將 COT 視為遙遠威脅。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2048992506851868780",
+          "date": "2026-04-28",
+          "url": "https://x.com/jukan05/status/2048992506851868780",
+          "label": "COT 模式將壓縮 AVGO 每晶片毛利",
+          "excerpt": "Google plans to move to a model similar to AWS's Annapurna... Broadcom and MediaTek would be downgraded to IP support / design service roles."
+        },
+        {
+          "tweet_id": "2055276077761896668",
+          "date": "2026-05-15",
+          "url": "https://x.com/jukan05/status/2055276077761896668",
+          "label": "AVGO 內部仍視 COT 為遠期威脅",
+          "excerpt": "Both Broadcom and MediaTek still seem to view Google's transition to a COT model as a distant future threat."
+        }
+      ]
+    },
+    {
+      "heading": "八、今日如何理解這份 thesis",
+      "body": [
+        "綜合 Jukan 的觀察，AVGO 當前處於「量能擴張但護城河受侵蝕」的交叉點。UBS 預估 2027 年 AVGO TPU 出貨量達 676 萬顆，SoftBank 與潛在 Anthropic 客戶提供非 Google 增量，短期成長敘事仍具說服力。然而，Google 明確表達希望成為台積電直接大客戶，COT 模式一旦落地，將從根本重塑 AVGO 的收益結構。這份 thesis 的核心驗證點在於：TPU v9 是否真的由 AVGO 獨家以 CoWoS-L 交付，以及 COT 轉型的實際時間表。"
+      ],
+      "citations": [
+        {
+          "tweet_id": "2056313542589174057",
+          "date": "2026-05-18",
+          "url": "https://x.com/jukan05/status/2056313542589174057",
+          "label": "UBS 2027 TPU 出貨量細項預估",
+          "excerpt": "For 2027, UBS models total TPU shipments at 9.87 million units, consisting of 6.76 million units from AVGO and 3.11 million units from MTK."
+        },
+        {
+          "tweet_id": "2055274233585111041",
+          "date": "2026-05-15",
+          "url": "https://x.com/jukan05/status/2055274233585111041",
+          "label": "Google 目標成為台積電直接大客戶",
+          "excerpt": "Google reportedly told TSMC directly, 'We want to become your direct major customer.'"
+        }
+      ]
+    }
+  ],
+  "final_takeaway": [
+    "Broadcom 在 AI ASIC 供應鏈的短期量能擴張明確，TPU v9 獨家供應、SoftBank Izanagi 得標、Anthropic 潛在合作，均構成可驗證的增量催化劑。",
+    "Google 推動 COT 直發台積電的結構性威脅是 Jukan 最核心的長期疑慮，一旦實現將使 AVGO 的高毛利模式面臨根本性挑戰，需持續追蹤 TPU v9 合約結構與 Google-TSMC 直接關係進展。"
+  ],
+  "quality_notes": {
+    "reference_article_parity": [
+      "本報告已充分涵蓋所提供的 evidence posts 中的主要論點，可供人工進一步擴寫財務數字或法說會交叉比對"
+    ],
+    "known_limits": [
+      "僅使用本次 curated evidence，不代表已讀完整 corpus；COT 模式細節與 Anthropic ASIC 進度仍屬傳聞階段，需後續一手資料驗證"
+    ]
+  },
+  "generated_at": "2026-06-28T13:37:43Z",
+  "coverage_through": "2026-06-17",
+  "source_posts_used": [
+    {
+      "tweet_id": "2043598744575451334",
+      "date": "2026-04-13",
+      "url": "https://x.com/jukan05/status/2043598744575451334"
+    },
+    {
+      "tweet_id": "2044750394719715585",
+      "date": "2026-04-16",
+      "url": "https://x.com/jukan05/status/2044750394719715585"
+    },
+    {
+      "tweet_id": "2046204646726017027",
+      "date": "2026-04-20",
+      "url": "https://x.com/jukan05/status/2046204646726017027"
+    },
+    {
+      "tweet_id": "2046521336106004977",
+      "date": "2026-04-21",
+      "url": "https://x.com/jukan05/status/2046521336106004977"
+    },
+    {
+      "tweet_id": "2047558649179214315",
+      "date": "2026-04-24",
+      "url": "https://x.com/jukan05/status/2047558649179214315"
+    },
+    {
+      "tweet_id": "2048622395255321029",
+      "date": "2026-04-27",
+      "url": "https://x.com/jukan05/status/2048622395255321029"
+    },
+    {
+      "tweet_id": "2048992506851868780",
+      "date": "2026-04-28",
+      "url": "https://x.com/jukan05/status/2048992506851868780"
+    },
+    {
+      "tweet_id": "2049717500691279979",
+      "date": "2026-04-30",
+      "url": "https://x.com/jukan05/status/2049717500691279979"
+    },
+    {
+      "tweet_id": "2054173002376650996",
+      "date": "2026-05-12",
+      "url": "https://x.com/jukan05/status/2054173002376650996"
+    },
+    {
+      "tweet_id": "2055274233585111041",
+      "date": "2026-05-15",
+      "url": "https://x.com/jukan05/status/2055274233585111041"
+    },
+    {
+      "tweet_id": "2055276077761896668",
+      "date": "2026-05-15",
+      "url": "https://x.com/jukan05/status/2055276077761896668"
+    },
+    {
+      "tweet_id": "2056313542589174057",
+      "date": "2026-05-18",
+      "url": "https://x.com/jukan05/status/2056313542589174057"
+    },
+    {
+      "tweet_id": "2062303993712533839",
+      "date": "2026-06-03",
+      "url": "https://x.com/jukan05/status/2062303993712533839"
+    },
+    {
+      "tweet_id": "2062304385431179441",
+      "date": "2026-06-03",
+      "url": "https://x.com/jukan05/status/2062304385431179441"
+    },
+    {
+      "tweet_id": "2062305379099480092",
+      "date": "2026-06-03",
+      "url": "https://x.com/jukan05/status/2062305379099480092"
+    },
+    {
+      "tweet_id": "2063445577577460040",
+      "date": "2026-06-06",
+      "url": "https://x.com/jukan05/status/2063445577577460040"
+    },
+    {
+      "tweet_id": "2067092746364748272",
+      "date": "2026-06-16",
+      "url": "https://x.com/jukan05/status/2067092746364748272"
+    },
+    {
+      "tweet_id": "2067156318016930044",
+      "date": "2026-06-17",
+      "url": "https://x.com/jukan05/status/2067156318016930044"
+    }
+  ]
+}
