@@ -45480,5 +45480,75 @@
     "prompt_version": "extract-v2",
     "extracted_at": "2026-07-06T13:07:50.013946+00:00",
     "prefilter_skipped": true
+  },
+  "2074466061051937044": {
+    "tweet_id": "2074466061051937044",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-07T12:15:01.065608+00:00",
+    "prefilter_skipped": true
+  },
+  "2074465465557270567": {
+    "tweet_id": "2074465465557270567",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-07T12:15:01.065624+00:00",
+    "prefilter_skipped": true
+  },
+  "2074415837696655486": {
+    "tweet_id": "2074415837696655486",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-07T12:15:01.065628+00:00",
+    "prefilter_skipped": true
+  },
+  "2074379332915789956": {
+    "tweet_id": "2074379332915789956",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-07T12:15:01.065633+00:00",
+    "prefilter_skipped": true
+  },
+  "2074377018993778949": {
+    "tweet_id": "2074377018993778949",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-07T12:15:01.065637+00:00",
+    "prefilter_skipped": true
+  },
+  "2074289049565794352": {
+    "tweet_id": "2074289049565794352",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-07T12:15:01.065641+00:00",
+    "prefilter_skipped": true
+  },
+  "2074288269484081322": {
+    "tweet_id": "2074288269484081322",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-07T12:15:01.065645+00:00",
+    "prefilter_skipped": true
   }
 }

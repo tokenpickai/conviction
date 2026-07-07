@@ -1,5 +1,837 @@
 [
   {
+    "tweet_id": "2074466061051937044",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2074466061051937044",
+    "created_at": "Tue Jul 07 12:10:25 +0000 2026",
+    "text": "@wallstengine 🤣",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 226,
+    "bookmark_count": 0,
+    "conversation_id": "2074465337563906180",
+    "is_reply": true,
+    "in_reply_to_id": "2074465940901929113",
+    "in_reply_to_username": "wallstengine",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "1508426880860704771",
+          "start": 0,
+          "username": "wallstengine"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074465465557270567",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2074465465557270567",
+    "created_at": "Tue Jul 07 12:08:03 +0000 2026",
+    "text": "@wallstengine ?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qam",
+    "like_count": 3,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 1506,
+    "bookmark_count": 0,
+    "conversation_id": "2074465337563906180",
+    "is_reply": true,
+    "in_reply_to_id": "2074465337563906180",
+    "in_reply_to_username": "wallstengine",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "1508426880860704771",
+          "start": 0,
+          "username": "wallstengine"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074444221021642907",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2074444221021642907",
+    "created_at": "Tue Jul 07 10:43:38 +0000 2026",
+    "text": "https://t.co/aQCyqDGsbW",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 28,
+    "retweet_count": 5,
+    "reply_count": 3,
+    "quote_count": 2,
+    "view_count": 19205,
+    "bookmark_count": 13,
+    "conversation_id": "2074443936865960205",
+    "is_reply": true,
+    "in_reply_to_id": "2074443936865960205",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "Chinese authorities have held meetings with top tech firms over the past month ​about potentially restricting overseas access to China's most advanced AI models, including those yet to be released, three people familiar with the discussions said.",
+          "display_url": "reuters.com/world/beijing-…",
+          "end": 23,
+          "expanded_url": "https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07/",
+          "images": [
+            {
+              "height": 1005,
+              "url": "https://pbs.twimg.com/news_img/2074440290476097536/Cy-XNJ8z?format=jpg&name=orig",
+              "width": 1920
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2074440290476097536/Cy-XNJ8z?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "EXCLUSIVE: Beijing is looking at curbing overseas access to China's top AI models, sources say",
+          "unwound_url": "https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07/",
+          "url": "https://t.co/aQCyqDGsbW"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074443936865960205",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074443936865960205",
+    "created_at": "Tue Jul 07 10:42:30 +0000 2026",
+    "text": "CHINA CONSIDERS RESTRICTING OVERSEAS ACCESS TO CUTTING-EDGE AI MODELS\n\nChina’s Ministry of Commerce has led meetings over the past month with major AI companies, including Alibaba, ByteDance, and https://t.co/YDe0KRldDB, to discuss measures that would restrict overseas access to cutting-edge AI models, including models that have not yet been released.\n\nThe discussions reportedly include not only closed-source models but also open-weight models. However, the scope of application is still under debate, and the rules may ultimately apply only to future frontier models.\n\nOfficials have also discussed designating the leakage or theft of proprietary AI technologies as a national security crime, with stronger penalties, as well as restricting the types of foreign capital that can invest in Chinese AI startups.\n\nThe backdrop is the U.S. move to strengthen export controls on AI models, along with national security concerns over cutting-edge models that could possess advanced cyberattack capabilities.\n\nChinese authorities are reportedly concerned that advanced U.S. cybersecurity AI models could be used to exploit vulnerabilities in Chinese software.\n\nSince the beginning of this year, China has continued to tighten measures to prevent AI technology from being transferred overseas. Authorities have investigated whether Chinese AI startups that relocated abroad violated export control laws, while also strengthening oversight of overseas transactions involving Chinese investors, technology, data, and national security concerns.\n\nFuture regulations could take the form of a tiered framework based on technological capability. Basic open-source AI models may be managed through a filing system, high-performance models may be subject to security reviews, and the most sensitive frontier models may be banned from public release or restricted to use within China.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 525,
+    "retweet_count": 90,
+    "reply_count": 65,
+    "quote_count": 117,
+    "view_count": 184834,
+    "bookmark_count": 176,
+    "conversation_id": "2074443936865960205",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "Z.ai",
+          "end": 219,
+          "expanded_url": "http://Z.ai",
+          "start": 196,
+          "url": "https://t.co/YDe0KRldDB"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074443114862051674",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074443114862051674",
+    "created_at": "Tue Jul 07 10:39:14 +0000 2026",
+    "text": "Inference chip! https://t.co/SSHfGTD5rc https://t.co/4pIYnKm67v",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 240,
+    "retweet_count": 25,
+    "reply_count": 22,
+    "quote_count": 17,
+    "view_count": 89093,
+    "bookmark_count": 46,
+    "conversation_id": "2074443114862051674",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2074442792353567090",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/SSHfGTD5rc",
+          "end": 39,
+          "expanded_url": "https://x.com/jukan05/status/2074443114862051674/photo/1",
+          "media_key": "3_2074443105429012480",
+          "start": 16,
+          "url": "https://t.co/SSHfGTD5rc"
+        },
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 63,
+          "expanded_url": "https://twitter.com/jukan05/status/2074442792353567090",
+          "start": 40,
+          "url": "https://t.co/4pIYnKm67v"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2074443105429012480",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMnnA3XawAAKiCd.jpg",
+        "width": 1320,
+        "height": 1617,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2074442792353567090",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074442792353567090",
+    "created_at": "Tue Jul 07 10:37:57 +0000 2026",
+    "text": "CHINA’S DEEPSEEK DEVELOPING ITS OWN AI CHIP, SOURCES SAY -RTRS",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 252,
+    "retweet_count": 24,
+    "reply_count": 15,
+    "quote_count": 9,
+    "view_count": 60432,
+    "bookmark_count": 22,
+    "conversation_id": "2074442792353567090",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074415837696655486",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2074415837696655486",
+    "created_at": "Tue Jul 07 08:50:51 +0000 2026",
+    "text": "@seti_park 오",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ko",
+    "like_count": 2,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 2460,
+    "bookmark_count": 1,
+    "conversation_id": "2074415785959911545",
+    "is_reply": true,
+    "in_reply_to_id": "2074415785959911545",
+    "in_reply_to_username": "seti_park",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1433135716003766277",
+          "start": 0,
+          "username": "seti_park"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074414548426383869",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074414548426383869",
+    "created_at": "Tue Jul 07 08:45:43 +0000 2026",
+    "text": "UBS made a bold call: SPCX’s Terafab could spend $50 billion on WFE in 2030/2031 alone.\n\nHow big is that? It’s basically like adding another TSMC.\n\nIf this is real, we should be buying WFE right now… https://t.co/SnO865Rq3b",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 546,
+    "retweet_count": 47,
+    "reply_count": 34,
+    "quote_count": 12,
+    "view_count": 92004,
+    "bookmark_count": 306,
+    "conversation_id": "2074414548426383869",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/SnO865Rq3b",
+          "end": 223,
+          "expanded_url": "https://x.com/jukan05/status/2074414548426383869/photo/1",
+          "media_key": "3_2074413968140206081",
+          "start": 200,
+          "url": "https://t.co/SnO865Rq3b"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2074413968140206081",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMnMg2gbAAEJmA3.jpg",
+        "width": 2940,
+        "height": 916,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2074404524002058503",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074404524002058503",
+    "created_at": "Tue Jul 07 08:05:53 +0000 2026",
+    "text": "Will this time be different? https://t.co/NMUmieBVP4",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 224,
+    "retweet_count": 13,
+    "reply_count": 15,
+    "quote_count": 5,
+    "view_count": 78098,
+    "bookmark_count": 52,
+    "conversation_id": "2074404524002058503",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/NMUmieBVP4",
+          "end": 52,
+          "expanded_url": "https://x.com/jukan05/status/2074404524002058503/photo/1",
+          "media_key": "3_2074404518876577792",
+          "start": 29,
+          "url": "https://t.co/NMUmieBVP4"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2074404518876577792",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMnD61QagAAEo0o.jpg",
+        "width": 1292,
+        "height": 905,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2074379332915789956",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2074379332915789956",
+    "created_at": "Tue Jul 07 06:25:47 +0000 2026",
+    "text": "@intelfabs BS",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "und",
+    "like_count": 8,
+    "retweet_count": 1,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 5086,
+    "bookmark_count": 0,
+    "conversation_id": "2073997240876863730",
+    "is_reply": true,
+    "in_reply_to_id": "2073997240876863730",
+    "in_reply_to_username": "intelfabs",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "2059440261030383616",
+          "start": 0,
+          "username": "intelfabs"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074377018993778949",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2074377018993778949",
+    "created_at": "Tue Jul 07 06:16:36 +0000 2026",
+    "text": "@DratchCap Thank you for your service.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 18,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 4584,
+    "bookmark_count": 1,
+    "conversation_id": "2074374543624356138",
+    "is_reply": true,
+    "in_reply_to_id": "2074374543624356138",
+    "in_reply_to_username": "DratchCap",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "230912559",
+          "start": 0,
+          "username": "DratchCap"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074331334127051028",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2074331334127051028",
+    "created_at": "Tue Jul 07 03:15:03 +0000 2026",
+    "text": "@Chaimeisenberg Turns out you were right, lol. We’re already back to the pre-earnings price.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 49,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 9561,
+    "bookmark_count": 4,
+    "conversation_id": "2074324982101074427",
+    "is_reply": true,
+    "in_reply_to_id": "2074331123824361896",
+    "in_reply_to_username": "Chaimeisenberg",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1355592444927217665",
+          "start": 0,
+          "username": "Chaimeisenberg"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074327860442206646",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074327860442206646",
+    "created_at": "Tue Jul 07 03:01:15 +0000 2026",
+    "text": "So memory tax is effectively getting framed as Nvidia tax…\n\nIf that’s the case, then the stock price action inevitably gets tied to the same framework as well. https://t.co/LneQWXcJ03",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 392,
+    "retweet_count": 9,
+    "reply_count": 37,
+    "quote_count": 3,
+    "view_count": 146597,
+    "bookmark_count": 71,
+    "conversation_id": "2074327860442206646",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2074324984084996501",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 183,
+          "expanded_url": "https://twitter.com/jukan05/status/2074324984084996501",
+          "start": 160,
+          "url": "https://t.co/LneQWXcJ03"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074324984084996501",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2074324984084996501",
+    "created_at": "Tue Jul 07 02:49:49 +0000 2026",
+    "text": "I’m worried memory could become a funding short like Nvidia — where the company keeps making new all-time highs in fundamentals, but the stock just moves sideways.\n\nCould memory end up following the same path Nvidia did?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 446,
+    "retweet_count": 18,
+    "reply_count": 50,
+    "quote_count": 11,
+    "view_count": 182658,
+    "bookmark_count": 59,
+    "conversation_id": "2074324982101074427",
+    "is_reply": true,
+    "in_reply_to_id": "2074324982101074427",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074324982101074427",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074324982101074427",
+    "created_at": "Tue Jul 07 02:49:49 +0000 2026",
+    "text": "Looking at the current market mood, it feels like memory is going down either way.\n\nCase 1: If they deliver earnings above market expectations:\n“Isn’t this peak-out? Do you really think these profits are sustainable? Memory is cyclical, and this is the top.”\nCase 2: If they miss market expectations:\n“Memory is over now. Even after excluding bonus provisions, they should have easily printed KRW90tn. Sell on news.”",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1121,
+    "retweet_count": 65,
+    "reply_count": 76,
+    "quote_count": 18,
+    "view_count": 161525,
+    "bookmark_count": 186,
+    "conversation_id": "2074324982101074427",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074322023212523866",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2074322023212523866",
+    "created_at": "Tue Jul 07 02:38:04 +0000 2026",
+    "text": "https://t.co/uF7RCZkCsp",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 14,
+    "retweet_count": 0,
+    "reply_count": 4,
+    "quote_count": 0,
+    "view_count": 18265,
+    "bookmark_count": 6,
+    "conversation_id": "2074322021312528864",
+    "is_reply": true,
+    "in_reply_to_id": "2074322021312528864",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "記憶體、SSD等關鍵零組件價格飆漲，3萬多元價位筆電要配置16GB記憶體與512GB SSD已愈來愈困難，陸廠相關零組件因具價格優勢，成為品牌廠降低成本的新選項。除聯想（Lenovo）擴大採用外，台系品牌華碩、微星、技嘉及宏碁也加速相關零組件認證、導入或進行平台調校，陸系記憶體與存儲零組件正逐步滲透...",
+          "display_url": "ctee.com.tw/news/202607077…",
+          "end": 23,
+          "expanded_url": "https://www.ctee.com.tw/news/20260707700073-430501",
+          "images": [
+            {
+              "height": 675,
+              "url": "https://pbs.twimg.com/news_img/2074313937982816257/9RIjAfw8?format=png&name=orig",
+              "width": 1200
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2074313937982816257/9RIjAfw8?format=png&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "PC品牌廠降成本 陸系記憶體受青睞",
+          "unwound_url": "https://www.ctee.com.tw/news/20260707700073-430501",
+          "url": "https://t.co/uF7RCZkCsp"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074322021312528864",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074322021312528864",
+    "created_at": "Tue Jul 07 02:38:03 +0000 2026",
+    "text": "According to Taiwanese media reports, Taiwanese PC brands are expanding their adoption of Chinese-made memory to cut costs.\n\nSpecifically, Taiwanese brands including ASUS, MSI, GIGABYTE, and Acer are accelerating the certification, adoption, and platform tuning of the relevant components, with Chinese memory and storage parts gradually penetrating the PC supply chain.\n\nTaiwanese motherboard makers have long incorporated memory and storage components from multiple brands through validation, and both GIGABYTE and MSI have already adopted CXMT memory dies in some of their motherboard models.\n\nMSI in particular recently announced that, using commercially available memory modules such as KingBank and Lexar, its development team has completed optimal tuning for CXMT memory dies on AMD-platform motherboards. With this, MSI became the first motherboard brand to publicly complete DDR5-8000+ validation of CXMT DDR5 dies on the AMD platform.\n\nASUS also launched its own-brand memory, \"ROG ARCANA DDR5,\" featuring genuine SK Hynix dies this year, and has further expanded its ROG Certified memory certification program—licensing the production and promotion of ROG-branded memory module lineups. Among the participating Chinese vendors are BIWIN, Asgard, and Lexar.\n\nAcer previously launched memory modules manufactured by BIWIN (on an OEM basis) under its own brand and its Predator gaming sub-brand family, some of which use CXMT standard-grade dies or modules. That said, neither ASUS nor Acer (the \"Double-A\") offers many mid-to-high-end or premium laptop models that use memory or storage components built with genuine dies from Chinese manufacturers.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 291,
+    "retweet_count": 32,
+    "reply_count": 21,
+    "quote_count": 4,
+    "view_count": 59062,
+    "bookmark_count": 71,
+    "conversation_id": "2074322021312528864",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074293767591657507",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2074293767591657507",
+    "created_at": "Tue Jul 07 00:45:47 +0000 2026",
+    "text": "@whitetoothchuck When GPU capacity is re-rented, Nvidia GPUs command far higher prices than MTIA or AMD. Nvidia GPUs are still the standard.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 20,
+    "retweet_count": 0,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 2027,
+    "bookmark_count": 1,
+    "conversation_id": "2074293059697999999",
+    "is_reply": true,
+    "in_reply_to_id": "2074293185900359880",
+    "in_reply_to_username": "whitetoothchuck",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "1494545064336367617",
+          "start": 0,
+          "username": "whitetoothchuck"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074289608595324982",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2074289608595324982",
+    "created_at": "Tue Jul 07 00:29:15 +0000 2026",
+    "text": "@sssjeffpu Do you know anything about ASE’s glass substrate efforts?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 9,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 7843,
+    "bookmark_count": 2,
+    "conversation_id": "2074289129983250471",
+    "is_reply": true,
+    "in_reply_to_id": "2074289129983250471",
+    "in_reply_to_username": "sssjeffpu",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1907822568314441728",
+          "start": 0,
+          "username": "sssjeffpu"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074289049565794352",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2074289049565794352",
+    "created_at": "Tue Jul 07 00:27:02 +0000 2026",
+    "text": "@DylanAbruscato @netflix",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qam",
+    "like_count": 6,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 3974,
+    "bookmark_count": 0,
+    "conversation_id": "2074288434294997172",
+    "is_reply": true,
+    "in_reply_to_id": "2074288434294997172",
+    "in_reply_to_username": "DylanAbruscato",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "50947152",
+          "start": 0,
+          "username": "DylanAbruscato"
+        },
+        {
+          "end": 24,
+          "id": "16573941",
+          "start": 16,
+          "username": "netflix"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074288269484081322",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2074288269484081322",
+    "created_at": "Tue Jul 07 00:23:56 +0000 2026",
+    "text": "@teortaxesTex . https://t.co/vuJpzbsfPw",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qam",
+    "like_count": 13,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 8223,
+    "bookmark_count": 2,
+    "conversation_id": "2074287019790860429",
+    "is_reply": true,
+    "in_reply_to_id": "2074287019790860429",
+    "in_reply_to_username": "teortaxesTex",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2074287018998460922",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "192201556",
+          "start": 0,
+          "username": "teortaxesTex"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 39,
+          "expanded_url": "https://twitter.com/jukan05/status/2074287018998460922",
+          "start": 16,
+          "url": "https://t.co/vuJpzbsfPw"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2074287018998460922",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2074287018998460922",
