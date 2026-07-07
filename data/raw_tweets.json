@@ -1,5 +1,859 @@
 [
   {
+    "tweet_id": "2074571766186524811",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074571766186524811",
+    "created_at": "Tue Jul 07 19:10:27 +0000 2026",
+    "text": "@stocks4545 This is not the first time Bloomberg crashed the markets\n\nhttps://t.co/C2pDgEAqOV",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 23,
+    "retweet_count": 1,
+    "reply_count": 5,
+    "quote_count": 0,
+    "view_count": 4448,
+    "bookmark_count": 1,
+    "conversation_id": "2074568161299771394",
+    "is_reply": true,
+    "in_reply_to_id": "2074570625625268337",
+    "in_reply_to_username": "stocks4545",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2030020673570275618",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 11,
+          "id": "774230086937489409",
+          "start": 0,
+          "username": "stocks4545"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "x.com/aleabitoreddit…",
+          "end": 93,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2030020673570275618",
+          "start": 70,
+          "url": "https://t.co/C2pDgEAqOV"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074568161299771394",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2074568161299771394",
+    "created_at": "Tue Jul 07 18:56:07 +0000 2026",
+    "text": "Just Bloomberg and $META doing damage control after crashing the market with Meta Compute framing:\n\nSpokesperson: \"Meta is still hungry for even more computing power. \n\nIt is still moving forward with plans for expensive new data centers and recently inked major computing deals with $CRVW, Google, $ORCL, and others.\"\n\nJust dropped that in with the Meta Muse announcement, and evenn threw in the \"expensive\" framing with DCs to signal capex. \n\nBut little late given we're likely seeing a lot of margin liquidation cascades and heavy losses from media framing earlier.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 395,
+    "retweet_count": 32,
+    "reply_count": 113,
+    "quote_count": 5,
+    "view_count": 64307,
+    "bookmark_count": 42,
+    "conversation_id": "2074568161299771394",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 24,
+          "start": 19,
+          "tag": "META"
+        },
+        {
+          "end": 289,
+          "start": 284,
+          "tag": "CRVW"
+        },
+        {
+          "end": 304,
+          "start": 299,
+          "tag": "ORCL"
+        }
+      ]
+    },
+    "cashtags": [
+      "META",
+      "CRVW",
+      "ORCL"
+    ],
+    "media": [
+      {
+        "media_key": "3_2074566753355792384",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMpXeHybgAAN8N3.jpg",
+        "width": 1441,
+        "height": 469,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2074554046325850160",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074554046325850160",
+    "created_at": "Tue Jul 07 18:00:02 +0000 2026",
+    "text": "@EidolonResearch Europe's too busy figuring out how to regulate air conditioners.\n\nI don't think people considered them in the US/China humanoid race.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 75,
+    "retweet_count": 0,
+    "reply_count": 10,
+    "quote_count": 0,
+    "view_count": 6554,
+    "bookmark_count": 2,
+    "conversation_id": "2074548850996707412",
+    "is_reply": true,
+    "in_reply_to_id": "2074550260022628524",
+    "in_reply_to_username": "EidolonResearch",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "1473600636910551042",
+          "start": 0,
+          "username": "EidolonResearch"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074552062382338069",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074552062382338069",
+    "created_at": "Tue Jul 07 17:52:09 +0000 2026",
+    "text": "Literally just Elon. \n\n- The guy + $SPCX is basically the only reason why US is in the lead with Space.\n- $TSLA led EV commercialization in US\n\nHe's sometimes off with timeframes, but right directionally, so pretty sure he can make US robotics #1 again. \n\nI personally own $CCXI though since I think Agility currently has more pure play exposure for mass production/commercialization through US supply chains + $MELI/ $AMZN.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 54,
+    "retweet_count": 2,
+    "reply_count": 2,
+    "quote_count": 1,
+    "view_count": 7875,
+    "bookmark_count": 3,
+    "conversation_id": "2074548850996707412",
+    "is_reply": true,
+    "in_reply_to_id": "2074549640951726418",
+    "in_reply_to_username": "stockshop199020",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 40,
+          "start": 35,
+          "tag": "SPCX"
+        },
+        {
+          "end": 111,
+          "start": 106,
+          "tag": "TSLA"
+        },
+        {
+          "end": 278,
+          "start": 273,
+          "tag": "CCXI"
+        },
+        {
+          "end": 416,
+          "start": 411,
+          "tag": "MELI"
+        },
+        {
+          "end": 423,
+          "start": 418,
+          "tag": "AMZN"
+        }
+      ]
+    },
+    "cashtags": [
+      "SPCX",
+      "TSLA",
+      "CCXI",
+      "MELI",
+      "AMZN"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2074550520975679762",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074550520975679762",
+    "created_at": "Tue Jul 07 17:46:02 +0000 2026",
+    "text": "Yes? If it weren't, it wouldn't be a national security threat.\n\nCybersecurity Committee Dpt of. Homeland Security: \n\n\"China's speed of advancement in humanoid robots is alarming, and the US government should formulate coordinated policies and strategies to counter Chinese firms' dominance\". \n\nSingling out Unitree Robotics.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 34,
+    "retweet_count": 0,
+    "reply_count": 11,
+    "quote_count": 0,
+    "view_count": 8175,
+    "bookmark_count": 1,
+    "conversation_id": "2074548850996707412",
+    "is_reply": true,
+    "in_reply_to_id": "2074549263569506588",
+    "in_reply_to_username": "WillD1373212821",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "1651309584878043137",
+          "start": 0,
+          "username": "WillD1373212821"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/6zeVEJ6C0Q",
+          "end": 320,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2074550520975679762/photo/1",
+          "media_key": "3_2074550469725429761",
+          "start": 297,
+          "url": "https://t.co/6zeVEJ6C0Q"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2074550469725429761",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMpIqSiaoAEM0O2.jpg",
+        "width": 1478,
+        "height": 839,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2074548850996707412",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2074548850996707412",
+    "created_at": "Tue Jul 07 17:39:23 +0000 2026",
+    "text": "How is the US so far behind?\n\nXinhua: China's output of humanoids are expected to hit 100,000+ this year. \n\nEven Morgan Stanley originally projected 14,000 for 2026... \n\nReally need Elon's $TSLA, $CCXI (Agility), Apptronik, and Figure to catchup. And for more US Gov. subsidies to pour into upstream supply chains + rare earths. \n\nCause this disparity between US vs. China mass production is getting ridiculous... \n\nBut it almost feels like the start of Russia/US Space race Sputnik Moment for robotics?",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 455,
+    "retweet_count": 25,
+    "reply_count": 145,
+    "quote_count": 8,
+    "view_count": 107914,
+    "bookmark_count": 55,
+    "conversation_id": "2074548850996707412",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 194,
+          "start": 189,
+          "tag": "TSLA"
+        },
+        {
+          "end": 201,
+          "start": 196,
+          "tag": "CCXI"
+        }
+      ]
+    },
+    "cashtags": [
+      "TSLA",
+      "CCXI"
+    ],
+    "media": [
+      {
+        "media_key": "3_2074546540144914432",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMpFFjtacAAihUH.jpg",
+        "width": 1356,
+        "height": 797,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2074540168674160931",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074540168674160931",
+    "created_at": "Tue Jul 07 17:04:53 +0000 2026",
+    "text": "Imagine every single time you post. You have a TA bro posting a chart about: \n\n- b-but my $IREN ABC trend says it's going to $125 through the $6B ATM.\n\n- or if something drops, someone quote posts you saying \"Should have listened to my $40 paywalled XYZ charts\"\n\nOr if I post a new name they draw random swiggly lines any direction to convince people to sell, then try to sell a course on top of that that. \n\nThey end up wrong, but just silently ignores that fact when they draw a new swiggly line the next day to sell if they're right.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 83,
+    "retweet_count": 0,
+    "reply_count": 8,
+    "quote_count": 0,
+    "view_count": 9115,
+    "bookmark_count": 0,
+    "conversation_id": "2074533565505876218",
+    "is_reply": true,
+    "in_reply_to_id": "2074537177313112404",
+    "in_reply_to_username": "SBluelink",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 95,
+          "start": 90,
+          "tag": "IREN"
+        }
+      ]
+    },
+    "cashtags": [
+      "IREN"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2074536982311743623",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074536982311743623",
+    "created_at": "Tue Jul 07 16:52:14 +0000 2026",
+    "text": "@EUlmsten wow the mythical golden egg dragon candle was spotted over the $SIVEF chart. \n\nSomething big is coming... https://t.co/V4CL41m5ax",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 170,
+    "retweet_count": 3,
+    "reply_count": 20,
+    "quote_count": 5,
+    "view_count": 11867,
+    "bookmark_count": 6,
+    "conversation_id": "2074533565505876218",
+    "is_reply": true,
+    "in_reply_to_id": "2074534221142700094",
+    "in_reply_to_username": "EUlmsten",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 79,
+          "start": 73,
+          "tag": "SIVEF"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 9,
+          "id": "421784425",
+          "start": 0,
+          "username": "EUlmsten"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/V4CL41m5ax",
+          "end": 139,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2074536982311743623/photo/1",
+          "media_key": "3_2074536922152841218",
+          "start": 116,
+          "url": "https://t.co/V4CL41m5ax"
+        }
+      ]
+    },
+    "cashtags": [
+      "SIVEF"
+    ],
+    "media": [
+      {
+        "media_key": "3_2074536922152841218",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMo8Vt5aMAI254K.jpg",
+        "width": 1508,
+        "height": 1815,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2074535692361937070",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074535692361937070",
+    "created_at": "Tue Jul 07 16:47:06 +0000 2026",
+    "text": "@mao_ge_ge They could just trade on their own swiggly lines and make 10,000,000% returns if it were accurate.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 74,
+    "retweet_count": 0,
+    "reply_count": 4,
+    "quote_count": 1,
+    "view_count": 10353,
+    "bookmark_count": 0,
+    "conversation_id": "2074533565505876218",
+    "is_reply": true,
+    "in_reply_to_id": "2074534705345737065",
+    "in_reply_to_username": "mao_ge_ge",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1565273490",
+          "start": 0,
+          "username": "mao_ge_ge"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074533565505876218",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2074533565505876218",
+    "created_at": "Tue Jul 07 16:38:39 +0000 2026",
+    "text": "This is the average visual TA bro, takes a 50% 50% coinflip: \n\nIf it goes the other way, they say \"ABC Pattern Invalidated\", should have known... \n\nIf they get the coinflip right, they promote their $40/month chart. \n\n-> People drawing swiggly lines over KOSPI mean nothing where it heads. When it's primarily Samsung/SK Hynix and forward operating income growth from DRAM/NAND. \n\n-> The swiggly drawing over $SIVE, $AEHR, and others mean nothing. When it's primarily hyperscaler suppliers, thematic premiums, and volume ramp orders determining valuations. \n\nThen if something randomly goes from $1 to $60 like $AXTI, they claim they spotted it with their \"Golden Egg Dragon Candle\", while ignoring anything with InP substrate and otpical demand. \n\nThere's rare times like these where it's a massive sector drop all together.\n\nBut now the TA bros are showing up everywhere saying\nhere's a $40 course on how they predicted it with swiggly lines.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 805,
+    "retweet_count": 40,
+    "reply_count": 181,
+    "quote_count": 12,
+    "view_count": 244649,
+    "bookmark_count": 66,
+    "conversation_id": "2074533565505876218",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2074528080102924537",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 414,
+          "start": 409,
+          "tag": "SIVE"
+        },
+        {
+          "end": 421,
+          "start": 416,
+          "tag": "AEHR"
+        },
+        {
+          "end": 616,
+          "start": 611,
+          "tag": "AXTI"
+        }
+      ]
+    },
+    "cashtags": [
+      "SIVE",
+      "AEHR",
+      "AXTI"
+    ],
+    "media": [
+      {
+        "media_key": "3_2074532230962323456",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMo4Ep2boAA5Tda.jpg",
+        "width": 3259,
+        "height": 1878,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2074525146736738396",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074525146736738396",
+    "created_at": "Tue Jul 07 16:05:12 +0000 2026",
+    "text": "@WLinvestment This might be news to you, but swiggly lines on a chart is not fundamentals.\n\nAnd has nothing to do with operating income growth that Samsung/Sk Hynix make https://t.co/lkXDuD9Xfg",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 113,
+    "retweet_count": 5,
+    "reply_count": 7,
+    "quote_count": 0,
+    "view_count": 13466,
+    "bookmark_count": 2,
+    "conversation_id": "2074494514061017508",
+    "is_reply": true,
+    "in_reply_to_id": "2074495266757968203",
+    "in_reply_to_username": "WLinvestment",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "1255343446539341827",
+          "start": 0,
+          "username": "WLinvestment"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/lkXDuD9Xfg",
+          "end": 193,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2074525146736738396/photo/1",
+          "media_key": "3_2074525110367891456",
+          "start": 170,
+          "url": "https://t.co/lkXDuD9Xfg"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2074525110367891456",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMoxmLkbMAAJ7TY.jpg",
+        "width": 2201,
+        "height": 1586,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2074507578877599867",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074507578877599867",
+    "created_at": "Tue Jul 07 14:55:23 +0000 2026",
+    "text": "I personally think so. It feels like markets started selling off after that misleading Bloomberg $META compute article, and a couple of SemiAnalysis bear posts on $NVDA supply chains.\n\nSince algos + headline interpretation of “Meta excess compute” was cutting capex + dropping out of AI race.\n\nCombine that with excess leverage and here we are. Probably just takes an earnings call and few Trump tweets to get back to normal…\n\nBut after some names already dropped 40-60% feels like it should bottom soon. \n\nReversals the other way are pretty violent too.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 220,
+    "retweet_count": 4,
+    "reply_count": 11,
+    "quote_count": 1,
+    "view_count": 26543,
+    "bookmark_count": 17,
+    "conversation_id": "2074494514061017508",
+    "is_reply": true,
+    "in_reply_to_id": "2074500516474687496",
+    "in_reply_to_username": "AlzayakMoh60610",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 102,
+          "start": 97,
+          "tag": "META"
+        },
+        {
+          "end": 168,
+          "start": 163,
+          "tag": "NVDA"
+        }
+      ]
+    },
+    "cashtags": [
+      "META",
+      "NVDA"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2074504394608193799",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074504394608193799",
+    "created_at": "Tue Jul 07 14:42:44 +0000 2026",
+    "text": "$SIVE is probably my favorite stocks right now, not concerned about short term drops. \n\n- You have the laser supplier to $GFS, $JBL, Ayar, $POET, and many other hyperscaler suppliers. \n- NASDAQ listing planned in the next few quarters\n- Followed by M&A goals for TAM expansion. \n\nAnd it's literally trading less than $POET for some reason. All while CW lasers are extremely bottlenecked to the point $LITE can't make enough. \n\nThen they got a considerable amount of oversubscribed funding for fabless laser ramp recently. \n\nComfortable long for me, probably one of the stocks that way overshot selloff imo.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 325,
+    "retweet_count": 29,
+    "reply_count": 19,
+    "quote_count": 5,
+    "view_count": 43107,
+    "bookmark_count": 55,
+    "conversation_id": "2074494514061017508",
+    "is_reply": true,
+    "in_reply_to_id": "2074500384270455129",
+    "in_reply_to_username": "FaceHonor",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 5,
+          "start": 0,
+          "tag": "SIVE"
+        },
+        {
+          "end": 125,
+          "start": 121,
+          "tag": "GFS"
+        },
+        {
+          "end": 131,
+          "start": 127,
+          "tag": "JBL"
+        },
+        {
+          "end": 144,
+          "start": 139,
+          "tag": "POET"
+        },
+        {
+          "end": 322,
+          "start": 317,
+          "tag": "POET"
+        },
+        {
+          "end": 405,
+          "start": 400,
+          "tag": "LITE"
+        }
+      ]
+    },
+    "cashtags": [
+      "SIVE",
+      "GFS",
+      "JBL",
+      "POET",
+      "POET",
+      "LITE"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2074496053030830172",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074496053030830172",
+    "created_at": "Tue Jul 07 14:09:35 +0000 2026",
+    "text": "@jd_tradez Samsung: becomes most profitable company in the world today at a $1.3T valuation. \n\nretail: \"The AI trade is over\"",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 929,
+    "retweet_count": 33,
+    "reply_count": 22,
+    "quote_count": 4,
+    "view_count": 69820,
+    "bookmark_count": 16,
+    "conversation_id": "2074494514061017508",
+    "is_reply": true,
+    "in_reply_to_id": "2074494681711325619",
+    "in_reply_to_username": "jd_tradez",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1258724750874095616",
+          "start": 0,
+          "username": "jd_tradez"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074494514061017508",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2074494514061017508",
+    "created_at": "Tue Jul 07 14:03:29 +0000 2026",
+    "text": "Just putting it out there:\n\nIf everything crashes together from $NBIS, $MRVL, $INTC, $SNDK, $AMD, $SIVE, $MU, $LITE, and others... \n\nWhich are all down -4% to -10%+ today so far. \n\nProbably doesn't have anything to do with individual fundamentals. \n\nIndiscriminate selloffs from things like cascading margin liquidations, usually provide compelling opportunities if the underlying improves.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 3849,
+    "retweet_count": 221,
+    "reply_count": 351,
+    "quote_count": 39,
+    "view_count": 638996,
+    "bookmark_count": 605,
+    "conversation_id": "2074494514061017508",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 69,
+          "start": 64,
+          "tag": "NBIS"
+        },
+        {
+          "end": 76,
+          "start": 71,
+          "tag": "MRVL"
+        },
+        {
+          "end": 83,
+          "start": 78,
+          "tag": "INTC"
+        },
+        {
+          "end": 90,
+          "start": 85,
+          "tag": "SNDK"
+        },
+        {
+          "end": 96,
+          "start": 92,
+          "tag": "AMD"
+        },
+        {
+          "end": 103,
+          "start": 98,
+          "tag": "SIVE"
+        },
+        {
+          "end": 108,
+          "start": 105,
+          "tag": "MU"
+        },
+        {
+          "end": 115,
+          "start": 110,
+          "tag": "LITE"
+        }
+      ]
+    },
+    "cashtags": [
+      "NBIS",
+      "MRVL",
+      "INTC",
+      "SNDK",
+      "AMD",
+      "SIVE",
+      "MU",
+      "LITE"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2074466925263061100",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2074466925263061100",
+    "created_at": "Tue Jul 07 12:13:51 +0000 2026",
+    "text": "Raymond James initiated coverage of $SPCX with “Strong Buy”.\n\nGiving it a $800 PT, valuing SpaceX at a ~$10T valuation.\n\nNo words. Jokes about “institutional” notes for retail write themselves. https://t.co/B0uRojaNJZ",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 899,
+    "retweet_count": 48,
+    "reply_count": 161,
+    "quote_count": 13,
+    "view_count": 226435,
+    "bookmark_count": 73,
+    "conversation_id": "2074466925263061100",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 41,
+          "start": 36,
+          "tag": "SPCX"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/B0uRojaNJZ",
+          "end": 217,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2074466925263061100/photo/1",
+          "media_key": "3_2074466482466271232",
+          "start": 194,
+          "url": "https://t.co/B0uRojaNJZ"
+        }
+      ]
+    },
+    "cashtags": [
+      "SPCX"
+    ],
+    "media": [
+      {
+        "media_key": "3_2074466482466271232",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMn8RlnbMAA6q_l.jpg",
+        "width": 1243,
+        "height": 613,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2074466488413835265",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2074466488413835265",
