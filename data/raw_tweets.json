@@ -1,5 +1,354 @@
 [
   {
+    "tweet_id": "2074243322475171872",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074243322475171872",
+    "created_at": "Mon Jul 06 21:25:20 +0000 2026",
+    "text": "@platochi Yeah, $NBIS also had a painful like 5 months of chopping after they projected something crazy like $7B ARR by Q4 2026 earnings. \n\nMakes you doubt sometimes",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 41,
+    "retweet_count": 0,
+    "reply_count": 6,
+    "quote_count": 0,
+    "view_count": 8492,
+    "bookmark_count": 1,
+    "conversation_id": "2074240512593481955",
+    "is_reply": true,
+    "in_reply_to_id": "2074241842032394407",
+    "in_reply_to_username": "platochi",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 21,
+          "start": 16,
+          "tag": "NBIS"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 9,
+          "id": "1943723140682833920",
+          "start": 0,
+          "username": "platochi"
+        }
+      ]
+    },
+    "cashtags": [
+      "NBIS"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2074241633345048684",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074241633345048684",
+    "created_at": "Mon Jul 06 21:18:37 +0000 2026",
+    "text": "@TW_trades_ Was losing my mind over $RDDT's blowout quarter, just to see chopping for the longest time. \n\nBut glad it played out well.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 38,
+    "retweet_count": 1,
+    "reply_count": 5,
+    "quote_count": 0,
+    "view_count": 9077,
+    "bookmark_count": 1,
+    "conversation_id": "2074240512593481955",
+    "is_reply": true,
+    "in_reply_to_id": "2074240723470401782",
+    "in_reply_to_username": "TW_trades_",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 41,
+          "start": 36,
+          "tag": "RDDT"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 11,
+          "id": "1740420854255951872",
+          "start": 0,
+          "username": "TW_trades_"
+        }
+      ]
+    },
+    "cashtags": [
+      "RDDT"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2074240512593481955",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2074240512593481955",
+    "created_at": "Mon Jul 06 21:14:10 +0000 2026",
+    "text": "Was a sad few months for $RDDT. But glad it's finally back above $200. \n\nReddit was doing:\n- $663M revenue w/ 91.5% gross margins\n- $204M GAAP net income\n- 45%+ fwd Y/Y growth after 69%+ growth.\n- Net profit is ~30.7% of revenue\n\nFelt very weird to see a profitable company get dragged down after earnings. \n\nBut in hindsight, given the increase hyperscaler capex, the drop felt more like it's more relative opportunity cost more than fundamentals?\n\nSince a lot of inflow poured into $MU / Sk Hynix that are bottlenecked into 2029. Or with laser bottlenecks like $LITE that last into 2029 as well. \n\nSame thing happens in reverse after selloffs ig, even if fundamentals didn't change. \n\nBeen seeing a lot of noise with memory optimization or Chinese players... but don't quite think you sign 16T+ LTAs if memory was getting flooded or not used anytime soon. \n\nSame with optical players... if in earnings, they state anything they make gets bought, I don't quite think a lot of the noise has material effect on their fundamentals. \n\nRegardless, nice to see some recovery with familiar faces like $HOOD, $HIMS, and $RDDT though.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 440,
+    "retweet_count": 30,
+    "reply_count": 142,
+    "quote_count": 5,
+    "view_count": 124517,
+    "bookmark_count": 67,
+    "conversation_id": "2074240512593481955",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 30,
+          "start": 25,
+          "tag": "RDDT"
+        },
+        {
+          "end": 487,
+          "start": 484,
+          "tag": "MU"
+        },
+        {
+          "end": 568,
+          "start": 563,
+          "tag": "LITE"
+        },
+        {
+          "end": 1100,
+          "start": 1095,
+          "tag": "HOOD"
+        },
+        {
+          "end": 1107,
+          "start": 1102,
+          "tag": "HIMS"
+        },
+        {
+          "end": 1118,
+          "start": 1113,
+          "tag": "RDDT"
+        }
+      ]
+    },
+    "cashtags": [
+      "RDDT",
+      "MU",
+      "LITE",
+      "HOOD",
+      "HIMS",
+      "RDDT"
+    ],
+    "media": [
+      {
+        "media_key": "3_2074236761828708352",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMkrWFjbUAA2QsW.jpg",
+        "width": 1832,
+        "height": 1552,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2074226270125383744",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074226270125383744",
+    "created_at": "Mon Jul 06 20:17:34 +0000 2026",
+    "text": "That's how the psychology behind private capital works a lot of times. Lead investors set an arbitrary valuation and everyone else swims in like goldfish. \n\nEven if it's one ex-Anthropic with just a pitchdeck, they can just set a $1B+ valuation and still get funding. \n\nIf someone undervalues themselves, people get skeptical for some reason, rather than independently thinking it's an opportunity.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 32,
+    "retweet_count": 1,
+    "reply_count": 4,
+    "quote_count": 0,
+    "view_count": 7576,
+    "bookmark_count": 1,
+    "conversation_id": "2074214669808717906",
+    "is_reply": true,
+    "in_reply_to_id": "2074224977507692622",
+    "in_reply_to_username": "Trace_Cohen",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "13955342",
+          "start": 0,
+          "username": "Trace_Cohen"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074223485921243237",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074223485921243237",
+    "created_at": "Mon Jul 06 20:06:30 +0000 2026",
+    "text": "1. I don't think they're in a dire need for financing. \n\nMy take is half geopolitical, half valuation scarcity as the first pure play humanoid player. The latter is likely more valuable than private funding in my view for momentum. \n\nUnitree was going public in China and there's no pure play US humanoid exposure. SPAC structure is used for faster listing to give investors exposure, and they're both going public around the same timeframe. \n\nOtherwise a ton of Western capital inflow would have went over to China if there's no US humanoid exposure. \nI don't quite think it's coincidence in timing. \n\n2. I'm citing last private valuations for Figure. I personally don't believe it's worth $39B. \n\nBut if it goes public, I do believe it would remain around that valuation in US markets, looking at what $SPCX did at $1.75T, just due to valuation anchoring psychology. \n\nEven so, investors are still paying 4x+ NAV to access Figure with CEFs and I'm amused by the logic behind that. \n\nI personally wouldn't assign it that value comparing it to Unitree at at $6B. (But I do think Unitree is undervaluing itself, probably ends up $12B+). But if you look at how $TSLA got their $1T+ valuation, a lot of it is anchored to the humanoid mission, so hard to value the sector. \n\n3. Same point as #1. Not exactly just to raise funds. \n\nRegardless, I'd encourage more companies to go public early on like $CCXI. Than waiting on when they already get big like Anthropic/OpenAI/SpaceX and letting retail be the last to invest.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 115,
+    "retweet_count": 1,
+    "reply_count": 9,
+    "quote_count": 0,
+    "view_count": 16725,
+    "bookmark_count": 15,
+    "conversation_id": "2074214669808717906",
+    "is_reply": true,
+    "in_reply_to_id": "2074217441085841427",
+    "in_reply_to_username": "amitisinvesting",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 809,
+          "start": 804,
+          "tag": "SPCX"
+        },
+        {
+          "end": 1164,
+          "start": 1159,
+          "tag": "TSLA"
+        },
+        {
+          "end": 1400,
+          "start": 1395,
+          "tag": "CCXI"
+        }
+      ]
+    },
+    "cashtags": [
+      "SPCX",
+      "TSLA",
+      "CCXI"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2074218760593195010",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074218760593195010",
+    "created_at": "Mon Jul 06 19:47:44 +0000 2026",
+    "text": "Clearly not true, capital inflow for humanoid + Physical AI is ATHs from VC data and $2.5B valuations are tiny for the leading US humanoid player.\n\nMy take is the SPAC structure is used for faster IPO, in terms of giving retail access to US humanoid companies.\n\nOtherwise a lot of capital inflow would go to China with Unitree.\n\nA lot of it is setting valuations low to gather more momentum + investor interest, not because they can’t raise more.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 71,
+    "retweet_count": 3,
+    "reply_count": 8,
+    "quote_count": 0,
+    "view_count": 13261,
+    "bookmark_count": 4,
+    "conversation_id": "2074214669808717906",
+    "is_reply": true,
+    "in_reply_to_id": "2074215530727145482",
+    "in_reply_to_username": "ThematicTrader",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1298730881708961797",
+          "start": 0,
+          "username": "ThematicTrader"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074214669808717906",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2074214669808717906",
+    "created_at": "Mon Jul 06 19:31:28 +0000 2026",
+    "text": "It’s interesting to witness psychology around valuation anchoring + scarcity.\n\nRetail, for example, are buying Figure, last valued at ~$39B through CEFs…\n\nAt $158B, since it’s private, round 4x valuations. \n\nThen Agility Robotics $CCXI, which has broader commercialization. \n\nIs at ~$4.3B pre-money and publicly available before the name change. At closer pricing that $AMZN, $NVDA, SoftBank, and Foxconn vaulted it at.\n\nYet some end up paying 4-5x prices of already hiked private investor rounds for exposure…\n\nI’m convinced if Agility raised a very small private round at $39B as well from $2.5B (which it definitely could), to set a valuation anchor.\n\nInvestors would be foaming in the mouth for a private allocation, just due to psychology rather than underlying fundamentals. \n\nWe’ve also seen this anchoring with $SPCX recently at $1.75T.\n\nPeak market inefficiency? Or lack of knowledge from retail?",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 615,
+    "retweet_count": 26,
+    "reply_count": 180,
+    "quote_count": 4,
+    "view_count": 172745,
+    "bookmark_count": 157,
+    "conversation_id": "2074214669808717906",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 235,
+          "start": 230,
+          "tag": "CCXI"
+        },
+        {
+          "end": 374,
+          "start": 369,
+          "tag": "AMZN"
+        },
+        {
+          "end": 381,
+          "start": 376,
+          "tag": "NVDA"
+        },
+        {
+          "end": 824,
+          "start": 819,
+          "tag": "SPCX"
+        }
+      ]
+    },
+    "cashtags": [
+      "CCXI",
+      "AMZN",
+      "NVDA",
+      "SPCX"
+    ],
+    "media": []
+  },
+  {
     "tweet_id": "2074178455047147526",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2074178455047147526",

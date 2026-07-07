@@ -1,5 +1,280 @@
 [
   {
+    "tweet_id": "2074287018998460922",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2074287018998460922",
+    "created_at": "Tue Jul 07 00:18:58 +0000 2026",
+    "text": "@ohlennart @tomshardware I’ve spoken with several GPU procurement managers, and they told me they aren’t even considering Huawei GPUs because they could face U.S. government sanctions.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 167,
+    "bookmark_count": 0,
+    "conversation_id": "2074248140824121743",
+    "is_reply": true,
+    "in_reply_to_id": "2074248140824121743",
+    "in_reply_to_username": "ohlennart",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1151681226",
+          "start": 0,
+          "username": "ohlennart"
+        },
+        {
+          "end": 24,
+          "id": "17064514",
+          "start": 11,
+          "username": "tomshardware"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074271893956558914",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074271893956558914",
+    "created_at": "Mon Jul 06 23:18:52 +0000 2026",
+    "text": "OFFICIAL: SAMSUNG OVERTAKES NVIDIA TO BECOME THE MOST PROFITABLE COMPANY IN THE WORLD https://t.co/jWLrGzlDwJ",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 950,
+    "retweet_count": 73,
+    "reply_count": 42,
+    "quote_count": 19,
+    "view_count": 61683,
+    "bookmark_count": 58,
+    "conversation_id": "2074271893956558914",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/jWLrGzlDwJ",
+          "end": 109,
+          "expanded_url": "https://x.com/jukan05/status/2074271893956558914/photo/1",
+          "media_key": "3_2074271718366187520",
+          "start": 86,
+          "url": "https://t.co/jWLrGzlDwJ"
+        },
+        {
+          "display_url": "pic.x.com/jWLrGzlDwJ",
+          "end": 109,
+          "expanded_url": "https://x.com/jukan05/status/2074271893956558914/photo/1",
+          "media_key": "3_2074271775073120256",
+          "start": 86,
+          "url": "https://t.co/jWLrGzlDwJ"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2074271718366187520",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMlLI0zbEAApZa1.jpg",
+        "width": 3131,
+        "height": 2087,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2074271775073120256",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMlLMIDaMAAQzaw.jpg",
+        "width": 1920,
+        "height": 1279,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2074262363835125955",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074262363835125955",
+    "created_at": "Mon Jul 06 22:41:00 +0000 2026",
+    "text": "2026.07.07 07:39:44\nCompany: Samsung Electronics (Market cap: KRW 1,859.1tn) A005930\nReport title: Preliminary Earnings Based on Consolidated Financial Statements / Fair Disclosure\nRevenue: KRW 171.0tn (Consensus: KRW 173.0tn / -1%)\nOperating profit: KRW 89.4tn (Consensus: KRW 84.6tn / +6%)\nNet income: - (Consensus: KRW 73.1tn)\nRecent earnings trend\n2Q26: KRW 171.0tn / KRW 89.4tn / -\n1Q26: KRW 133.9tn / KRW 57.2tn / KRW 47.2tn\n4Q25: KRW 93.8tn / KRW 20.1tn / KRW 19.6tn\n3Q25: KRW 86.1tn / KRW 12.2tn / KRW 12.2tn\n2Q25: KRW 74.6tn / KRW 4.7tn / KRW 5.1tn\nhttps://t.co/IaVvvzsUkH",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 198,
+    "retweet_count": 28,
+    "reply_count": 32,
+    "quote_count": 12,
+    "view_count": 83241,
+    "bookmark_count": 33,
+    "conversation_id": "2074262363835125955",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "dart.fss.or.kr/dsaf001/main.d…",
+          "end": 581,
+          "expanded_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260707800004",
+          "start": 558,
+          "url": "https://t.co/IaVvvzsUkH"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074262260319707639",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074262260319707639",
+    "created_at": "Mon Jul 06 22:40:35 +0000 2026",
+    "text": "*SAMSUNG ELECTRONICS REPORTED 2Q OPERATING PROFIT OF KRW 89 TRILLION.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 399,
+    "retweet_count": 27,
+    "reply_count": 29,
+    "quote_count": 9,
+    "view_count": 62717,
+    "bookmark_count": 21,
+    "conversation_id": "2074262260319707639",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074259797982261424",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2074259797982261424",
+    "created_at": "Mon Jul 06 22:30:48 +0000 2026",
+    "text": "https://t.co/XL2seL4FtW",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 10,
+    "retweet_count": 1,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 9254,
+    "bookmark_count": 1,
+    "conversation_id": "2074259796082167957",
+    "is_reply": true,
+    "in_reply_to_id": "2074259796082167957",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "삼성전자가 CXL(Compute eXpress Link) 3.1 기반 메모리 모듈(CMM-D 3.0) 양산 일정을 연기했다. 인텔, AMD 등의 CXL 3.1 지",
+          "display_url": "thelec.kr/news/articleVi…",
+          "end": 23,
+          "expanded_url": "https://www.thelec.kr/news/articleView.html?idxno=59111",
+          "images": [
+            {
+              "height": 395,
+              "url": "https://pbs.twimg.com/news_img/2074125735133147136/7wO6IN1R?format=png&name=orig",
+              "width": 600
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2074125735133147136/7wO6IN1R?format=png&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "삼성전자, CXL 3.1 메모리 양산 연기 - 디일렉(THE ELEC)",
+          "unwound_url": "https://www.thelec.kr/news/articleView.html?idxno=59111",
+          "url": "https://t.co/XL2seL4FtW"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074259796082167957",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074259796082167957",
+    "created_at": "Mon Jul 06 22:30:47 +0000 2026",
+    "text": "Samsung Electronics Delays CXL 3.1 Memory Mass Production\n\nSamsung Electronics has delayed the mass production schedule for its CXL (Compute eXpress Link) 3.1 based memory module (CMM-D 3.0). The delay follows the postponed launches of CXL 3.1 supporting central processing units (CPUs) from Intel, AMD and others.\n\nAccording to industry sources on the 6th, Samsung Electronics will maintain production of its CXL 2.0 based memory module CMM-D 2.0 for the time being. It had originally planned to pursue customer sample production of CMM-D 3.0 this past June, but that schedule has been pushed back.\n\nAn industry official said, \"The transition to additional CXL 2.0 mass production aligned with demand was delayed, and the market has been slow to open because the CXL 3.1 ecosystem is not yet built out.\" The official added, \"CXL 3.1 production in the fourth quarter of this year will be geared strongly toward sample testing purposes.\" Full scale mass production is expected next year.\n\nCXL is an interconnect technology based on the PCI Express (PCIe) interface. While the data transfer protocol differs, the physical connection terminal and data transfer bandwidth performance are identical. CXL 3.1 uses PCIe 6.0, while CXL 2.0 uses PCIe 5.0.\n\nTo realize PCIe 6.0 performance, components that support the interface are essential. These include server CPUs, graphics processing units (GPUs), solid state drives (SSDs) and motherboards. Currently, most PCIe 6.0 supporting components remain unreleased.\n\nAn industry official explained, \"Neither Intel nor AMD has released a PCIe 6.0 supporting CPU,\" adding, \"Next generation platforms such as Intel Diamond Rapids and AMD EPYC Venice must be supplied before the server industry can adopt CXL 3.1.\" The launch of Intel's server CPU Diamond Rapids was targeted for the second half of this year but has been delayed to the second to third quarter of next year. This is reportedly due to a combination of design changes and production yield issues.\n\nAMD's EPYC Venice launch is set for the second half of this year. Engineering samples (ES) have been supplied to major vendors. Samsung Electronics will produce CMM-D 3.1 samples validated on EPYC Venice based systems from September onward. Mass production will begin after the samples pass customer quality testing. The industry sees the earliest feasible mass production timing as the first quarter of next year.\n\nSamsung Electronics' initial plan called for a sample unveiling late last year. Song Taeksang, vice president at Samsung Electronics, stated at the Open Compute Project (OCP) Global Summit in San Jose, United States this past October that the company would introduce the industry's first CMM-D product supporting the CXL 3.1 standard in the fourth quarter of 2025.\n\nInterest in the CXL market has declined as demand concentrated on commodity DRAM modules and high bandwidth memory (HBM). Combined with the delayed buildout of the CXL 3.1 ecosystem, this is seen as the reason Samsung Electronics postponed its mass production plan.\n\nSK Hynix and Micron have also completed research and development (R&D) of CXL 3.1 based memory modules, but no signs of production preparation have been detected.\n\nCXL memory supports a memory pooling function. Using switch technology, memory is partitioned and shared, so the scope of memory utilization is not tied to the CPU or GPU. By reducing the memory capacity that each processing unit must carry onboard, it improves efficiency.\n\nMemory capacity expansion is also flexible. It connects to a terminal much like a PC SSD. Conventional server DRAM memory modules (RDIMM) could only be mounted in dedicated slots. Compared with HBM, CXL memory offers lower bandwidth and operating speed, making the two complementary.\n\nSamsung Electronics responded, \"There have been some changes to certain plans, but we are preparing the previously planned mass production schedule without disruption.\" This is interpreted to mean mass production remains possible within the fourth quarter of this year.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 159,
+    "retweet_count": 16,
+    "reply_count": 25,
+    "quote_count": 5,
+    "view_count": 38242,
+    "bookmark_count": 45,
+    "conversation_id": "2074259796082167957",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/Nhw1occmUX",
+          "end": 303,
+          "expanded_url": "https://x.com/jukan05/status/2074259796082167957/photo/1",
+          "media_key": "3_2074259787999817728",
+          "start": 280,
+          "url": "https://t.co/Nhw1occmUX"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2074259787999817728",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMlASYubMAATsgm.png",
+        "width": 600,
+        "height": 395,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2074105874520723954",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2074105874520723954",
