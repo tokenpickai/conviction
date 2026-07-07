@@ -1,5 +1,120 @@
 [
   {
+    "tweet_id": "2074587024959709419",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074587024959709419",
+    "created_at": "Tue Jul 07 20:11:05 +0000 2026",
+    "text": "Basically:\n\n> major Chinese lidar player might be banned in West. \n> $OUST, $AEVA, and others benefit by filling in the vacuum \n> optical players players that power western lidar players like Aeva also benefit from increased revenue\n\nNot sure if this news really matters given everything is crashing though.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 54,
+    "retweet_count": 2,
+    "reply_count": 4,
+    "quote_count": 1,
+    "view_count": 10413,
+    "bookmark_count": 7,
+    "conversation_id": "2074581698604593367",
+    "is_reply": true,
+    "in_reply_to_id": "2074584813047320728",
+    "in_reply_to_username": "jey0316",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 74,
+          "start": 69,
+          "tag": "OUST"
+        },
+        {
+          "end": 81,
+          "start": 76,
+          "tag": "AEVA"
+        }
+      ]
+    },
+    "cashtags": [
+      "OUST",
+      "AEVA"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2074581698604593367",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2074581698604593367",
+    "created_at": "Tue Jul 07 19:49:55 +0000 2026",
+    "text": "Hesai Technology, a Chinese lidar maker faces US national scrutiny over its expanded partnership with $NVDA and lidar sensors. \n\nFor $OUST, $AEVA, and Western lidar bros, this is generally positive if competitors get regulated out.\n\nSince there were warnings that: \n\nSensors could be disabled or exploited remotely, given Hesai firmware update disabled lidar units on February 29 (as evidence). \n\nBy second order effect, this is also bullish for upstream laser suppliers too like $LITE and $SIVE that are used in western lidar players.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 448,
+    "retweet_count": 22,
+    "reply_count": 151,
+    "quote_count": 3,
+    "view_count": 85148,
+    "bookmark_count": 86,
+    "conversation_id": "2074581698604593367",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 107,
+          "start": 102,
+          "tag": "NVDA"
+        },
+        {
+          "end": 138,
+          "start": 133,
+          "tag": "OUST"
+        },
+        {
+          "end": 145,
+          "start": 140,
+          "tag": "AEVA"
+        },
+        {
+          "end": 485,
+          "start": 480,
+          "tag": "LITE"
+        },
+        {
+          "end": 495,
+          "start": 490,
+          "tag": "SIVE"
+        }
+      ]
+    },
+    "cashtags": [
+      "NVDA",
+      "OUST",
+      "AEVA",
+      "LITE",
+      "SIVE"
+    ],
+    "media": [
+      {
+        "media_key": "3_2074580825690296320",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMpkRPUbUAAbdEx.jpg",
+        "width": 1835,
+        "height": 1104,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2074571766186524811",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2074571766186524811",

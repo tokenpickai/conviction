@@ -1,5 +1,340 @@
 [
   {
+    "tweet_id": "2074621793797857434",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2074621793797857434",
+    "created_at": "Tue Jul 07 22:29:14 +0000 2026",
+    "text": "https://t.co/CMaCjfZZhU",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 4,
+    "retweet_count": 0,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 7751,
+    "bookmark_count": 2,
+    "conversation_id": "2074621759891132710",
+    "is_reply": true,
+    "in_reply_to_id": "2074621759891132710",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "SpaceXAI and Cursor plan to launch their first jointly developed AI model as soon as Wednesday, according to a memo sent to staff. The companies pushed back plans to launch the new model earlier this week in order to improve its efficiency, according to the memo. The model is expected to process information quickly, making it competitive in some respects with Anthropic’s Opus 4.8 and OpenAI’s",
+          "display_url": "theinformation.com/briefings/excl…",
+          "end": 23,
+          "expanded_url": "https://www.theinformation.com/briefings/exclusive-spacexai-plans-launch-new-model-cursor-soon-wednesday?rc=lx3hes",
+          "start": 0,
+          "status": 200,
+          "title": "Exclusive: SpaceXAI Plans to Launch New Model with Cursor as Soon as Wednesday",
+          "unwound_url": "https://www.theinformation.com/briefings/exclusive-spacexai-plans-launch-new-model-cursor-soon-wednesday?rc=lx3hes",
+          "url": "https://t.co/CMaCjfZZhU"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074621759891132710",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074621759891132710",
+    "created_at": "Tue Jul 07 22:29:06 +0000 2026",
+    "text": "The Information: SpaceX and Cursor are set to release their first jointly developed AI model as soon as Wednesday.\n\n“It is expected to be competitive with Anthropic’s Opus 4.8 and OpenAI’s GPT-5.5 in some respects.” https://t.co/WAaJCzMHHV",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 305,
+    "retweet_count": 17,
+    "reply_count": 29,
+    "quote_count": 10,
+    "view_count": 28107,
+    "bookmark_count": 41,
+    "conversation_id": "2074621759891132710",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/WAaJCzMHHV",
+          "end": 239,
+          "expanded_url": "https://x.com/jukan05/status/2074621759891132710/photo/1",
+          "media_key": "3_2074621418868965376",
+          "start": 216,
+          "url": "https://t.co/WAaJCzMHHV"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2074621418868965376",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMqJMEsaAAAljhW.png",
+        "width": 1660,
+        "height": 888,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2074531243249807852",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2074531243249807852",
+    "created_at": "Tue Jul 07 16:29:25 +0000 2026",
+    "text": "@teortaxesTex potential",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 25,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 4807,
+    "bookmark_count": 0,
+    "conversation_id": "2074531119169405269",
+    "is_reply": true,
+    "in_reply_to_id": "2074531119169405269",
+    "in_reply_to_username": "teortaxesTex",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "192201556",
+          "start": 0,
+          "username": "teortaxesTex"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074530111010025707",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2074530111010025707",
+    "created_at": "Tue Jul 07 16:24:56 +0000 2026",
+    "text": "@teortaxesTex verisilicon",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "es",
+    "like_count": 26,
+    "retweet_count": 0,
+    "reply_count": 3,
+    "quote_count": 1,
+    "view_count": 26425,
+    "bookmark_count": 8,
+    "conversation_id": "2074443114862051674",
+    "is_reply": true,
+    "in_reply_to_id": "2074527077420638488",
+    "in_reply_to_username": "teortaxesTex",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "192201556",
+          "start": 0,
+          "username": "teortaxesTex"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074529976603521468",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074529976603521468",
+    "created_at": "Tue Jul 07 16:24:23 +0000 2026",
+    "text": "RT @claudeai: Claude Cowork is coming to mobile and web.\n\nHand Claude a task at your desk and pick up the finished work from your phone. Cl…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 1111,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 6660,
+    "bookmark_count": 0,
+    "conversation_id": "2074529976603521468",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2074525815820169320",
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "1943306828697550848",
+          "start": 3,
+          "username": "claudeai"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074485943042764810",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2074485943042764810",
+    "created_at": "Tue Jul 07 13:29:25 +0000 2026",
+    "text": "@zephyr_z9 Is that person reliable?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 40,
+    "retweet_count": 0,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 13470,
+    "bookmark_count": 3,
+    "conversation_id": "2074485777652949405",
+    "is_reply": true,
+    "in_reply_to_id": "2074485777652949405",
+    "in_reply_to_username": "zephyr_z9",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1695126229446479872",
+          "start": 0,
+          "username": "zephyr_z9"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074481285142384766",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2074481285142384766",
+    "created_at": "Tue Jul 07 13:10:55 +0000 2026",
+    "text": "https://t.co/9hIzrweaNB",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 18,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 16121,
+    "bookmark_count": 4,
+    "conversation_id": "2074480956686360605",
+    "is_reply": true,
+    "in_reply_to_id": "2074480956686360605",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "Zhipu AI, the Chinese AI lab behind the highly regarded GLM series of open-source AI models, is weighing designing its own AI chip as surging demand and U.S. export controls make computing resources a growing constraint, according to three people with direct knowledge of the plan. The ...",
+          "display_url": "theinformation.com/articles/china…",
+          "end": 23,
+          "expanded_url": "https://www.theinformation.com/articles/chinas-ai-lab-ziphu-weighs-custom-chip-demand-glm-model-soars?utm_campaign=article_email&utm_content=article-17411&utm_medium=email&utm_source=sg&rc=lx3hes",
+          "start": 0,
+          "status": 200,
+          "title": "China’s AI Lab Zhipu Weighs Custom Chip As Demand for its GLM Model Soars",
+          "unwound_url": "https://www.theinformation.com/articles/chinas-ai-lab-ziphu-weighs-custom-chip-demand-glm-model-soars?utm_campaign=article_email&utm_content=article-17411&utm_medium=email&utm_source=sg&rc=lx3hes",
+          "url": "https://t.co/9hIzrweaNB"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074480956686360605",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074480956686360605",
+    "created_at": "Tue Jul 07 13:09:36 +0000 2026",
+    "text": "Zhipu is also considering developing its own chip! https://t.co/4TK1jMw7NU https://t.co/4pIYnKm67v",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 411,
+    "retweet_count": 39,
+    "reply_count": 48,
+    "quote_count": 10,
+    "view_count": 92498,
+    "bookmark_count": 47,
+    "conversation_id": "2074480956686360605",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2074442792353567090",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/4TK1jMw7NU",
+          "end": 74,
+          "expanded_url": "https://x.com/jukan05/status/2074480956686360605/photo/1",
+          "media_key": "3_2074480897768951808",
+          "start": 51,
+          "url": "https://t.co/4TK1jMw7NU"
+        },
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 98,
+          "expanded_url": "https://twitter.com/jukan05/status/2074442792353567090",
+          "start": 75,
+          "url": "https://t.co/4pIYnKm67v"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2074480897768951808",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMoJYqzaEAA6nCY.jpg",
+        "width": 2326,
+        "height": 1268,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2074466061051937044",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2074466061051937044",
