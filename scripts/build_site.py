@@ -252,14 +252,22 @@ def industry_label(industry):
 
 
 def profile_chip(slug, row):
-    score = row.get("bullish_score") or 0
     stance = row.get("stance") or "no_stance"
-    cls = "bull" if row.get("net_bullish_posts", 0) > 0 else ("bear" if row.get("net_bullish_posts", 0) < 0 else "flat")
+    net = row.get("net_bullish_posts", 0) or 0
+    if net > 0:
+        cls = "bull"
+        metric = row.get("bullish_score") or row.get("bullish_posts") or net
+    elif net < 0:
+        cls = "bear"
+        metric = row.get("bearish_posts") or abs(net)
+    else:
+        cls = "flat"
+        metric = "—" if (row.get("explicit_stance_posts") or 0) == 0 else "0"
     href = f"../{html.escape(slug)}/#ticker={html.escape(row.get('ticker') or '')}"
     return (
         f'<a class="chip {cls}" href="{href}">'
         f'<span>{html.escape(row.get("display_name") or slug)}</span>'
-        f'<b>{score}</b>'
+        f'<b>{html.escape(str(metric))}</b>'
         f'<em>{html.escape(stance_label(stance))}</em>'
         '</a>'
     )
