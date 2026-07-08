@@ -1,5 +1,251 @@
 [
   {
+    "tweet_id": "2074873340146376728",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2074873340146376728",
+    "created_at": "Wed Jul 08 15:08:48 +0000 2026",
+    "text": "My bad, that was a typo.\n\nHAS APPROVED-&gt;IS SET TO SOON APPROVE",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 35,
+    "retweet_count": 2,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 9377,
+    "bookmark_count": 1,
+    "conversation_id": "2074871701616329193",
+    "is_reply": true,
+    "in_reply_to_id": "2074871701616329193",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074871931724349680",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2074871931724349680",
+    "created_at": "Wed Jul 08 15:03:12 +0000 2026",
+    "text": "https://t.co/BqES2XHP55",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 16,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 1,
+    "view_count": 7610,
+    "bookmark_count": 1,
+    "conversation_id": "2074871701616329193",
+    "is_reply": true,
+    "in_reply_to_id": "2074871701616329193",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "China plans to allow some of the country’s biggest AI companies to buy a small number of Nvidia’s H200 chips, according to two people with direct knowledge of the matter. The chip purchase approvals would offset a shortage caused by soaring demand for AI chips. U.S. President Donald Trump gave ...",
+          "display_url": "theinformation.com/articles/china…",
+          "end": 23,
+          "expanded_url": "https://www.theinformation.com/articles/china-plans-let-top-ai-firms-buy-limited-amount-nvidia-h200-chips?rc=lx3hes",
+          "start": 0,
+          "status": 200,
+          "title": "China Plans to Let Top AI Firms Buy Limited Amount of Nvidia H200 Chips",
+          "unwound_url": "https://www.theinformation.com/articles/china-plans-let-top-ai-firms-buy-limited-amount-nvidia-h200-chips?rc=lx3hes",
+          "url": "https://t.co/BqES2XHP55"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074871701616329193",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074871701616329193",
+    "created_at": "Wed Jul 08 15:02:17 +0000 2026",
+    "text": "CHINA’S GOVERNMENT HAS APPROVED PURCHASES OF 200,000 NVIDIA H200 CHIPS BY DEEPSEEK, BYTEDANCE, ALIBABA AND OTHERS FOR TRAINING PURPOSES. https://t.co/l0R37vf2Yg https://t.co/BYZBD6oA4E",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 565,
+    "retweet_count": 76,
+    "reply_count": 40,
+    "quote_count": 30,
+    "view_count": 117294,
+    "bookmark_count": 92,
+    "conversation_id": "2074871701616329193",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2074871392206754296",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/l0R37vf2Yg",
+          "end": 160,
+          "expanded_url": "https://x.com/jukan05/status/2074871701616329193/photo/1",
+          "media_key": "3_2074871552634753024",
+          "start": 137,
+          "url": "https://t.co/l0R37vf2Yg"
+        },
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 184,
+          "expanded_url": "https://twitter.com/jukan05/status/2074871392206754296",
+          "start": 161,
+          "url": "https://t.co/BYZBD6oA4E"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2074871552634753024",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMtsrxlbkAAfJES.jpg",
+        "width": 1650,
+        "height": 1524,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2074871392206754296",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074871392206754296",
+    "created_at": "Wed Jul 08 15:01:03 +0000 2026",
+    "text": "CHINA PLANS TO LET TOP AI FIRMS BUY LIMITED AMOUNT OF NVIDIA H200 CHIPS- THE INFORMATION",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 298,
+    "retweet_count": 18,
+    "reply_count": 27,
+    "quote_count": 5,
+    "view_count": 102554,
+    "bookmark_count": 10,
+    "conversation_id": "2074871392206754296",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074864965551526121",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2074864965551526121",
+    "created_at": "Wed Jul 08 14:35:31 +0000 2026",
+    "text": "@jimcramer https://t.co/8d2HJ4QBoe",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 217,
+    "retweet_count": 6,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 11970,
+    "bookmark_count": 3,
+    "conversation_id": "2074844506436800719",
+    "is_reply": true,
+    "in_reply_to_id": "2074844506436800719",
+    "in_reply_to_username": "jimcramer",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "14216123",
+          "start": 0,
+          "username": "jimcramer"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/8d2HJ4QBoe",
+          "end": 34,
+          "expanded_url": "https://x.com/jukan05/status/2074864965551526121/photo/1",
+          "media_key": "3_2074864960421920768",
+          "start": 11,
+          "url": "https://t.co/8d2HJ4QBoe"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2074864960421920768",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMtmsDragAAjcVj.jpg",
+        "width": 300,
+        "height": 168,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2074843949941113148",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2074843949941113148",
+    "created_at": "Wed Jul 08 13:12:01 +0000 2026",
+    "text": "@lokoyacap Western financial media clearly have an agenda to manipulate the market.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 25,
+    "retweet_count": 0,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 4846,
+    "bookmark_count": 4,
+    "conversation_id": "2074843277799407793",
+    "is_reply": true,
+    "in_reply_to_id": "2074843277799407793",
+    "in_reply_to_username": "lokoyacap",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1376185199332036617",
+          "start": 0,
+          "username": "lokoyacap"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2074774120324276615",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2074774120324276615",
