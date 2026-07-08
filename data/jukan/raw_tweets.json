@@ -1,5 +1,379 @@
 [
   {
+    "tweet_id": "2074774120324276615",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074774120324276615",
+    "created_at": "Wed Jul 08 08:34:32 +0000 2026",
+    "text": "Morgan Stanley noted in its report that competition from Intel’s EMIB could push TSMC to accelerate CoPoS adoption to 2028, potentially with Feynman.\n\nInterestingly, Morgan Stanley also estimated that Feynman will use D2W for GPU stacking and adopt a SiC carrier.\n\n$TSM $INTC",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 105,
+    "retweet_count": 11,
+    "reply_count": 29,
+    "quote_count": 1,
+    "view_count": 24575,
+    "bookmark_count": 14,
+    "conversation_id": "2074774120324276615",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 269,
+          "start": 265,
+          "tag": "TSM"
+        },
+        {
+          "end": 275,
+          "start": 270,
+          "tag": "INTC"
+        }
+      ]
+    },
+    "cashtags": [
+      "TSM",
+      "INTC"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2074766759694147755",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2074766759694147755",
+    "created_at": "Wed Jul 08 08:05:17 +0000 2026",
+    "text": "@teortaxesTex What I mean is that they may have built new chip design tools based on their own LLMs.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 11,
+    "retweet_count": 0,
+    "reply_count": 4,
+    "quote_count": 1,
+    "view_count": 4587,
+    "bookmark_count": 2,
+    "conversation_id": "2074765232124408119",
+    "is_reply": true,
+    "in_reply_to_id": "2074766486325899275",
+    "in_reply_to_username": "teortaxesTex",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "192201556",
+          "start": 0,
+          "username": "teortaxesTex"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074765232124408119",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074765232124408119",
+    "created_at": "Wed Jul 08 07:59:13 +0000 2026",
+    "text": "Some thoughts I’ve been having recently:\n\nCould DeepSeek and Zhipu considering their own chips imply that China’s HBM self-sufficiency has already reached a certain level, or is at least on track to get there?\n\nAlso, is the EDA moat already starting to collapse? OpenAI reportedly completed Jalapeño in just nine months using its own in-house AI chip design tools. Is it really plausible that Chinese labs don’t have something similar? In fact, there are claims that the chip design tools developed by Chinese labs may be even more practical in real-world use than OpenAI’s.\n\nThe fact that OpenAI is specifically launching GPT-5.6 inference on Cerebras makes me think they may see more demand for ultra-fast inference than people realize. Jensen has described markets like Cerebras as niche, but OpenAI’s move seems to suggest otherwise.\n\nBroadcom is a great company, but I think Hock Tan may be downplaying MediaTek too aggressively. He says MediaTek’s TPU has been delayed, but wasn’t Broadcom’s own TPU also delayed in some areas?\n\nAmazon’s 20% GPU price increase is not because of memory. It is because of rising demand.\n\nI also have doubts about whether Broadcom can continue to defend its high margins. MediaTek’s TPU margin is around 35%, while Broadcom’s is around 65%. Broadcom may be able to maintain high margins for the first couple of years as it wins new customers like Anthropic, but won’t margins eventually trend lower as competition intensifies?\n\nMorgan Stanley updated its TPU / AMD GPU shipment estimates, but personally, I do not understand how MS is arriving at this scale for AMD GPU shipments.\n\nMorgan Stanley now models AMD shipping 2.4 million GPUs this year and 2.7 million next year.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 220,
+    "retweet_count": 22,
+    "reply_count": 48,
+    "quote_count": 6,
+    "view_count": 33458,
+    "bookmark_count": 69,
+    "conversation_id": "2074765232124408119",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074741639088837036",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074741639088837036",
+    "created_at": "Wed Jul 08 06:25:28 +0000 2026",
+    "text": "RT @elonmusk: Based on strong positive feedback from customers in our beta test program, @SpaceXAI will make Grok 4.5 available to the publ…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 2089,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 4339,
+    "bookmark_count": 0,
+    "conversation_id": "2074741639088837036",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2074740539874775163",
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "44196397",
+          "start": 3,
+          "username": "elonmusk"
+        },
+        {
+          "end": 98,
+          "id": "1661523610111193088",
+          "start": 89,
+          "username": "SpaceXAI"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074733641029280204",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2074733641029280204",
+    "created_at": "Wed Jul 08 05:53:41 +0000 2026",
+    "text": "@Alisvolatprop12 🫡",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 28,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 4961,
+    "bookmark_count": 0,
+    "conversation_id": "2074732649999147479",
+    "is_reply": true,
+    "in_reply_to_id": "2074732649999147479",
+    "in_reply_to_username": "Alisvolatprop12",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "1306828661337718784",
+          "start": 0,
+          "username": "Alisvolatprop12"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074731320182501555",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2074731320182501555",
+    "created_at": "Wed Jul 08 05:44:28 +0000 2026",
+    "text": "https://t.co/92BdI3oIHB",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 9,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 12403,
+    "bookmark_count": 1,
+    "conversation_id": "2074731315052822880",
+    "is_reply": true,
+    "in_reply_to_id": "2074731315052822880",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "What Claude merging with Cowork signals. Also: Meta's model release, China's AI shift, Fable lives on, and more.",
+          "display_url": "open.substack.com/pub/sourcesnew…",
+          "end": 23,
+          "expanded_url": "https://open.substack.com/pub/sourcesnews/p/anthropic-closer-ai-super?r=4k4uta&utm_medium=ios",
+          "images": [
+            {
+              "height": 800,
+              "url": "https://pbs.twimg.com/news_img/2074731321377869824/nOlGr9qm?format=jpg&name=orig",
+              "width": 1600
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2074731321377869824/nOlGr9qm?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "Anthropic gets closer to an AI super app",
+          "unwound_url": "https://sources.news/p/anthropic-closer-ai-super?r=4k4uta&utm_medium=ios&triedRedirect=true",
+          "url": "https://t.co/92BdI3oIHB"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074731315052822880",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074731315052822880",
+    "created_at": "Wed Jul 08 05:44:26 +0000 2026",
+    "text": "@alexeheath's latest reporting on Meta AI:\n\n“He expects to surpass Opus-level performance this year with the big frontier model Meta is training, codenamed Watermelon.”\n\n$META https://t.co/6DVPZihyB7",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 155,
+    "retweet_count": 13,
+    "reply_count": 39,
+    "quote_count": 6,
+    "view_count": 56865,
+    "bookmark_count": 31,
+    "conversation_id": "2074731315052822880",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "alexeheath",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 175,
+          "start": 170,
+          "tag": "META"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 11,
+          "id": "14752818",
+          "start": 0,
+          "username": "alexeheath"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/6DVPZihyB7",
+          "end": 199,
+          "expanded_url": "https://x.com/jukan05/status/2074731315052822880/photo/1",
+          "media_key": "3_2074731304638418944",
+          "start": 176,
+          "url": "https://t.co/6DVPZihyB7"
+        }
+      ]
+    },
+    "cashtags": [
+      "META"
+    ],
+    "media": [
+      {
+        "media_key": "3_2074731304638418944",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMrtIRFbEAAA9JO.jpg",
+        "width": 1320,
+        "height": 1821,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2074728741679546535",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074728741679546535",
+    "created_at": "Wed Jul 08 05:34:13 +0000 2026",
+    "text": "\"2027 capes est: US$73bn (below consensus $80-85bn), likely capped by EUV supply\"\n\nEUV shortage 👀 https://t.co/6boDq9sfFK",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 173,
+    "retweet_count": 10,
+    "reply_count": 29,
+    "quote_count": 3,
+    "view_count": 64573,
+    "bookmark_count": 37,
+    "conversation_id": "2074728741679546535",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2074676577552765388",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/sssjeffpu/stat…",
+          "end": 121,
+          "expanded_url": "https://twitter.com/sssjeffpu/status/2074676577552765388",
+          "start": 98,
+          "url": "https://t.co/6boDq9sfFK"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2074654665682407763",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2074654665682407763",
+    "created_at": "Wed Jul 08 00:39:52 +0000 2026",
+    "text": "APPLE HAS STARTED TESTING CXMT’S DRAM FOR APPLE DEVICES SOLD IN CHINA — FT",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1105,
+    "retweet_count": 108,
+    "reply_count": 69,
+    "quote_count": 32,
+    "view_count": 292317,
+    "bookmark_count": 116,
+    "conversation_id": "2074654665682407763",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2074621793797857434",
     "kind": "self_thread",
     "url": "https://x.com/jukan05/status/2074621793797857434",

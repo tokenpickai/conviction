@@ -1,5 +1,109 @@
 [
   {
+    "tweet_id": "2074782041909195014",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074782041909195014",
+    "created_at": "Wed Jul 08 09:06:01 +0000 2026",
+    "text": "@zephyr_z9 Koreans already fully liquidated a week in. https://t.co/DNIx7q2kW8",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 64,
+    "retweet_count": 1,
+    "reply_count": 7,
+    "quote_count": 0,
+    "view_count": 9755,
+    "bookmark_count": 7,
+    "conversation_id": "2074776109074583565",
+    "is_reply": true,
+    "in_reply_to_id": "2074779824384881128",
+    "in_reply_to_username": "zephyr_z9",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1695126229446479872",
+          "start": 0,
+          "username": "zephyr_z9"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/DNIx7q2kW8",
+          "end": 78,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2074782041909195014/photo/1",
+          "media_key": "3_2074782032199294976",
+          "start": 55,
+          "url": "https://t.co/DNIx7q2kW8"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2074782032199294976",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMsbQ_-aIAAcUV-.jpg",
+        "width": 1250,
+        "height": 1677,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2074776109074583565",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2074776109074583565",
+    "created_at": "Wed Jul 08 08:42:26 +0000 2026",
+    "text": "Trump: Memorandum of Understanding with Iran “is over”\n\n“It’s a waste of time dealing with them,” Trump said at the NATO summit.\n\nAlways an exciting time with markets. https://t.co/S3UisD75Kc",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 443,
+    "retweet_count": 24,
+    "reply_count": 118,
+    "quote_count": 7,
+    "view_count": 101427,
+    "bookmark_count": 24,
+    "conversation_id": "2074776109074583565",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/S3UisD75Kc",
+          "end": 191,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2074776109074583565/photo/1",
+          "media_key": "3_2074776103018000384",
+          "start": 168,
+          "url": "https://t.co/S3UisD75Kc"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2074776103018000384",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMsV34DbcAAUqKI.jpg",
+        "width": 1222,
+        "height": 1164,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2074587024959709419",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2074587024959709419",
