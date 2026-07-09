@@ -1,5 +1,80 @@
 [
   {
+    "tweet_id": "2075347152503788006",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2075347152503788006",
+    "created_at": "Thu Jul 09 22:31:33 +0000 2026",
+    "text": "I heard a pretty interesting rumor on the ground at ICML.\n\nMeta has supposedly already developed an internal model at roughly the Mythos 5 level, and all that remains is deployment within the next few months.\n\nHonestly, I was skeptical at first. From my perspective, Meta had not really shown the capability to operate at that level yet.\n\nBut looking at the situation today, I think I may have been wrong.\n\nMeta is not out of the race.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 127,
+    "retweet_count": 13,
+    "reply_count": 27,
+    "quote_count": 2,
+    "view_count": 15772,
+    "bookmark_count": 34,
+    "conversation_id": "2075347152503788006",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2075218444056707458",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/finkd/status/2…",
+          "end": 303,
+          "expanded_url": "https://twitter.com/finkd/status/2075218444056707458",
+          "start": 280,
+          "url": "https://t.co/gB6mi09FJ3"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2075344389833126180",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2075344389833126180",
+    "created_at": "Thu Jul 09 22:20:35 +0000 2026",
+    "text": "RT @signulll: i remember when the joke inside fb was that twitter had fewer monthly active users than meta’s support docs.\n\nwhich makes it…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 256,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 4234,
+    "bookmark_count": 0,
+    "conversation_id": "2075344389833126180",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2075226387129004335",
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "1717671858521194496",
+          "start": 3,
+          "username": "signulll"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2075149451291926577",
     "kind": "self_thread",
     "url": "https://x.com/jukan05/status/2075149451291926577",
