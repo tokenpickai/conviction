@@ -1,5 +1,192 @@
 [
   {
+    "tweet_id": "2075228811315343460",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2075228811315343460",
+    "created_at": "Thu Jul 09 14:41:19 +0000 2026",
+    "text": "@finkd Wow Zuck is both back on X and to the LLM race.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 909,
+    "retweet_count": 14,
+    "reply_count": 20,
+    "quote_count": 1,
+    "view_count": 94668,
+    "bookmark_count": 15,
+    "conversation_id": "2075218444056707458",
+    "is_reply": true,
+    "in_reply_to_id": "2075218444056707458",
+    "in_reply_to_username": "finkd",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 6,
+          "id": "20749410",
+          "start": 0,
+          "username": "finkd"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2075218841266016561",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2075218841266016561",
+    "created_at": "Thu Jul 09 14:01:42 +0000 2026",
+    "text": "@Goodly2016 I just the algo gods just missed $SIVE after $LITE and the laser names pulled a recovery.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 88,
+    "retweet_count": 1,
+    "reply_count": 14,
+    "quote_count": 0,
+    "view_count": 18512,
+    "bookmark_count": 4,
+    "conversation_id": "2075199849507762279",
+    "is_reply": true,
+    "in_reply_to_id": "2075212354174992887",
+    "in_reply_to_username": "Goodly2016",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 50,
+          "start": 45,
+          "tag": "SIVE"
+        },
+        {
+          "end": 62,
+          "start": 57,
+          "tag": "LITE"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 11,
+          "id": "731154889016025090",
+          "start": 0,
+          "username": "Goodly2016"
+        }
+      ]
+    },
+    "cashtags": [
+      "SIVE",
+      "LITE"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2075204059506806850",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2075204059506806850",
+    "created_at": "Thu Jul 09 13:02:57 +0000 2026",
+    "text": "@KostasMoschovas Biggest surprise of the century. \n\nInstitutions probably bought all the retail margin liquidations recently.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 232,
+    "retweet_count": 9,
+    "reply_count": 11,
+    "quote_count": 2,
+    "view_count": 33006,
+    "bookmark_count": 15,
+    "conversation_id": "2075199849507762279",
+    "is_reply": true,
+    "in_reply_to_id": "2075200794077413567",
+    "in_reply_to_username": "KostasMoschovas",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "242892017",
+          "start": 0,
+          "username": "KostasMoschovas"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2075199849507762279",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2075199849507762279",
+    "created_at": "Thu Jul 09 12:46:14 +0000 2026",
+    "text": "Nothing like an internal $META memo getting published.\n\nShowing AI ramping as usual:\n\n- LTAs signed with Samsung and $SNDK for memory\n- LTAs signed with Sumitomo Electric for fiber optics\n- Expected to deploy 7GW compute infra this year, and doubling in 2027. \n- as much as $145B capex spend this year \n\n“It plans to launch a chip about every six months through 2027”",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1541,
+    "retweet_count": 154,
+    "reply_count": 260,
+    "quote_count": 21,
+    "view_count": 268038,
+    "bookmark_count": 316,
+    "conversation_id": "2075199849507762279",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 30,
+          "start": 25,
+          "tag": "META"
+        },
+        {
+          "end": 122,
+          "start": 117,
+          "tag": "SNDK"
+        }
+      ]
+    },
+    "cashtags": [
+      "META",
+      "SNDK"
+    ],
+    "media": [
+      {
+        "media_key": "3_2075199723515080704",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMyXJ1Ya8AAkpAg.jpg",
+        "width": 1219,
+        "height": 868,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2075199723527667712",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMyXJ1bbAAAHZs0.jpg",
+        "width": 1249,
+        "height": 1051,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2074979055410266452",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2074979055410266452",
