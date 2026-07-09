@@ -299,7 +299,17 @@
     {
       "date": "2026-07-06",
       "close": 272.14
+    },
+    {
+      "date": "2026-07-07",
+      "close": 281.17
+    },
+    {
+      "date": "2026-07-08",
+      "close": 272.1
     }
   ],
-  "price_status": "ok"
+  "price_status": "ok",
+  "price_unit": "USD",
+  "price_updated_at": "2026-07-09T09:03:47.647634+00:00"
 }
