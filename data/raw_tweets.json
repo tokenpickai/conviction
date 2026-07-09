@@ -1,5 +1,215 @@
 [
   {
+    "tweet_id": "2074979055410266452",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2074979055410266452",
+    "created_at": "Wed Jul 08 22:08:52 +0000 2026",
+    "text": "Wow, looks like Elon + xAI at $SPCX managed to build an Anthropic Opus-level LLM with Grok 4.5.\n\nThat’s much more cost efficient as well… \n\nKinda emulating what Chinese vendors have been doing to compete on pricing + adoption. (Which is an ideal thing given Chinese model growth among US companies recently)\n\nNever doubt Elon, maybe they might end up leapfrogging Anthropic + Mythos?",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1704,
+    "retweet_count": 92,
+    "reply_count": 238,
+    "quote_count": 19,
+    "view_count": 285256,
+    "bookmark_count": 184,
+    "conversation_id": "2074979055410266452",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 35,
+          "start": 30,
+          "tag": "SPCX"
+        }
+      ]
+    },
+    "cashtags": [
+      "SPCX"
+    ],
+    "media": [
+      {
+        "media_key": "3_2074979048749686784",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMvOc30aYAARSbY.jpg",
+        "width": 1210,
+        "height": 594,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2074979048779137024",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMvOc37bwAAKHa8.jpg",
+        "width": 1198,
+        "height": 837,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2074979048749719552",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMvOc30a4AAYk6c.jpg",
+        "width": 1260,
+        "height": 1057,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2074972411557249248",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074972411557249248",
+    "created_at": "Wed Jul 08 21:42:28 +0000 2026",
+    "text": "@starlightrvrie Yep still holding $AXTI. And a lot of my older thesis like $EWY that are up hundreds of percent.\n\nEven if I don’t mention it as much anymore",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 78,
+    "retweet_count": 3,
+    "reply_count": 7,
+    "quote_count": 0,
+    "view_count": 16996,
+    "bookmark_count": 6,
+    "conversation_id": "2074951295027568736",
+    "is_reply": true,
+    "in_reply_to_id": "2074964405914104260",
+    "in_reply_to_username": "starlightrvrie",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 39,
+          "start": 34,
+          "tag": "AXTI"
+        },
+        {
+          "end": 79,
+          "start": 75,
+          "tag": "EWY"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1271104536057438208",
+          "start": 0,
+          "username": "starlightrvrie"
+        }
+      ]
+    },
+    "cashtags": [
+      "AXTI",
+      "EWY"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2074965761345642660",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2074965761345642660",
+    "created_at": "Wed Jul 08 21:16:03 +0000 2026",
+    "text": "$META to build a new $10B DC in Canada to expand AI capacity.\n\nSo much for the media framing of “Meta Compute”as overbuilding and cutting capex. https://t.co/0QgSls0s9o",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1188,
+    "retweet_count": 74,
+    "reply_count": 201,
+    "quote_count": 19,
+    "view_count": 233021,
+    "bookmark_count": 82,
+    "conversation_id": "2074965761345642660",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 5,
+          "start": 0,
+          "tag": "META"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/0QgSls0s9o",
+          "end": 168,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2074965761345642660/photo/1",
+          "media_key": "3_2074965755783942144",
+          "start": 145,
+          "url": "https://t.co/0QgSls0s9o"
+        }
+      ]
+    },
+    "cashtags": [
+      "META"
+    ],
+    "media": [
+      {
+        "media_key": "3_2074965755783942144",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMvCXHqaEAAxPzv.jpg",
+        "width": 1245,
+        "height": 830,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2074961844184506526",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2074961844184506526",
+    "created_at": "Wed Jul 08 21:00:29 +0000 2026",
+    "text": "I currently hold shares in the million range, so not quite sure what’s with these accusations.\n\nSince I believe $SIVE is one of the most important laser companies in the next optical shift… and has immense TAM expansion potential with IP acquisition.\n\nNasdaq listing is coming up… volume ramp is coming up… I think I’m fine and know what I’m holding",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 395,
+    "retweet_count": 14,
+    "reply_count": 21,
+    "quote_count": 3,
+    "view_count": 62091,
+    "bookmark_count": 35,
+    "conversation_id": "2074951295027568736",
+    "is_reply": true,
+    "in_reply_to_id": "2074956419938361774",
+    "in_reply_to_username": "THEBONDINVESTO",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 117,
+          "start": 112,
+          "tag": "SIVE"
+        }
+      ]
+    },
+    "cashtags": [
+      "SIVE"
+    ],
+    "media": []
+  },
+  {
     "tweet_id": "2074959083728413072",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2074959083728413072",
