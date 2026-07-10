@@ -1,5 +1,110 @@
 [
   {
+    "tweet_id": "2075670213169918070",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2075670213169918070",
+    "created_at": "Fri Jul 10 19:55:17 +0000 2026",
+    "text": "@siflower It’s architecture neutral. UHP output can be achieved with a single cw laser or multi emitter cw dfb array which is what $SIVE is doing for CPO.\n\nSince the latter aggregate output is comparable.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 49,
+    "retweet_count": 0,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 6427,
+    "bookmark_count": 4,
+    "conversation_id": "2075645547978084371",
+    "is_reply": true,
+    "in_reply_to_id": "2075664899724779766",
+    "in_reply_to_username": "siflower",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 136,
+          "start": 131,
+          "tag": "SIVE"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 9,
+          "id": "15566681",
+          "start": 0,
+          "username": "siflower"
+        }
+      ]
+    },
+    "cashtags": [
+      "SIVE"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2075645547978084371",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2075645547978084371",
+    "created_at": "Fri Jul 10 18:17:16 +0000 2026",
+    "text": "Regarding $AMZN RNG + OpenAI’s MRC and VCSELs. \n\nIn what appears to be an indirect response on B. Riley's $AAOI sell report regarding optimizations that \"flattens networks and cuts transceiver TAM 40-50%\".\n\nRosenblatt TLDR: They've already modeled for this, even though each XPU may use fewer transceivers.\n\nThe number of XPUs is growing so quickly that total optical demand should still rise. \n\nOn lasers architectures for CPO: VCSELs are useful as a credible bridge for NPO/short reach. \n\nIdeal architecture though for CPO is UHP CW over other lasers, and cites Broadcom for that statements. Which happens to supports my core $SIVE thesis. \n\nI feel like Rosenblatt and I share the same views on a lot of things, I like the way they roll.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 445,
+    "retweet_count": 32,
+    "reply_count": 229,
+    "quote_count": 1,
+    "view_count": 107480,
+    "bookmark_count": 69,
+    "conversation_id": "2075645547978084371",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 15,
+          "start": 10,
+          "tag": "AMZN"
+        },
+        {
+          "end": 111,
+          "start": 106,
+          "tag": "AAOI"
+        },
+        {
+          "end": 633,
+          "start": 628,
+          "tag": "SIVE"
+        }
+      ]
+    },
+    "cashtags": [
+      "AMZN",
+      "AAOI",
+      "SIVE"
+    ],
+    "media": [
+      {
+        "media_key": "3_2075641231057866753",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HM4os9Jb0AECclK.png",
+        "width": 1701,
+        "height": 455,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2075634064518955297",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2075634064518955297",
