@@ -1,5 +1,42 @@
 [
   {
+    "tweet_id": "2075987162080928251",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2075987162080928251",
+    "created_at": "Sat Jul 11 16:54:44 +0000 2026",
+    "text": "@sama Wow, gpt-5.6 sol is getting really good at writing these comebacks",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 723,
+    "retweet_count": 0,
+    "reply_count": 17,
+    "quote_count": 1,
+    "view_count": 54396,
+    "bookmark_count": 6,
+    "conversation_id": "2075982617976230043",
+    "is_reply": true,
+    "in_reply_to_id": "2075982617976230043",
+    "in_reply_to_username": "sama",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 5,
+          "id": "1605",
+          "start": 0,
+          "username": "sama"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2075908823521583440",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2075908823521583440",
