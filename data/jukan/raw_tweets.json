@@ -1,5 +1,107 @@
 [
   {
+    "tweet_id": "2075933338540581375",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2075933338540581375",
+    "created_at": "Sat Jul 11 13:20:51 +0000 2026",
+    "text": "I got an Expert Call saying NVIDIA’s Rubin has been delayed yet again, so I couldn’t even take Saturday off.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 341,
+    "retweet_count": 25,
+    "reply_count": 23,
+    "quote_count": 21,
+    "view_count": 65027,
+    "bookmark_count": 55,
+    "conversation_id": "2075933338540581375",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2075904770905444693",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2075904770905444693",
+    "created_at": "Sat Jul 11 11:27:20 +0000 2026",
+    "text": "How about using a better LLM? LMAO\n\nI don’t know if it’s intentional or not, but you’re misrepresenting the facts.\n\nOpenAI was in talks with both Groq and Cerebras. It wasn’t negotiating with Groq first.\nAnd it was some Codex engineers at OpenAI complaining that Codex running on Blackwell was too slow, not that Blackwell itself is bad at inference. Those are two very different claims. lol",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 5,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 1,
+    "view_count": 1523,
+    "bookmark_count": 1,
+    "conversation_id": "2075863081998229512",
+    "is_reply": true,
+    "in_reply_to_id": "2075903267041902887",
+    "in_reply_to_username": "mzuhair123",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 11,
+          "id": "1569737306151727105",
+          "start": 0,
+          "username": "mzuhair123"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2075902735279624430",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2075902735279624430",
+    "created_at": "Sat Jul 11 11:19:15 +0000 2026",
+    "text": "@mzuhair123 You’re way off.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 7,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 1926,
+    "bookmark_count": 0,
+    "conversation_id": "2075863081998229512",
+    "is_reply": true,
+    "in_reply_to_id": "2075867053366648936",
+    "in_reply_to_username": "mzuhair123",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 11,
+          "id": "1569737306151727105",
+          "start": 0,
+          "username": "mzuhair123"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2075866694917194116",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2075866694917194116",
