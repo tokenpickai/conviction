@@ -1,5 +1,178 @@
 [
   {
+    "tweet_id": "2075866694917194116",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2075866694917194116",
+    "created_at": "Sat Jul 11 08:56:02 +0000 2026",
+    "text": "One of NVIDIA’s comments during its Morgan Stanley NDR: Anthropic’s share of compute running on NVIDIA has now risen to nearly 50%. https://t.co/SHtvaWlwal https://t.co/47jXDzb8NP",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 182,
+    "retweet_count": 13,
+    "reply_count": 20,
+    "quote_count": 7,
+    "view_count": 32670,
+    "bookmark_count": 55,
+    "conversation_id": "2075866694917194116",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2075477320270520665",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/SHtvaWlwal",
+          "end": 155,
+          "expanded_url": "https://x.com/jukan05/status/2075866694917194116/photo/1",
+          "media_key": "3_2075866125020381184",
+          "start": 132,
+          "url": "https://t.co/SHtvaWlwal"
+        },
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 179,
+          "expanded_url": "https://twitter.com/jukan05/status/2075477320270520665",
+          "start": 156,
+          "url": "https://t.co/47jXDzb8NP"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2075866125020381184",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HM71PgcbQAAEW0M.png",
+        "width": 1628,
+        "height": 320,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2075863081998229512",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2075863081998229512",
+    "created_at": "Sat Jul 11 08:41:41 +0000 2026",
+    "text": "A few thoughts I have right now:\n\nJensen Huang heard about the OpenAI–Cerebras deal and panic-bought Groq. That likely pushed NVIDIA into paying a high price for the company without conducting a sufficiently thorough technical and commercial evaluation.\n\nJensen also appears to have what I would call a “Silicon FBI.” He seems to have known about both the OpenAI–Cerebras deal and the Anthropic–Google TPU deal before they were publicly announced.\n\nI understand that Groq was effectively the last meaningful card still available for NVIDIA to acquire. But the current state of Groq’s LPU is, frankly, somewhat underwhelming.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 183,
+    "retweet_count": 15,
+    "reply_count": 33,
+    "quote_count": 3,
+    "view_count": 41215,
+    "bookmark_count": 83,
+    "conversation_id": "2075863081998229512",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2075852883891994799",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/gk6KpCxuNG",
+          "end": 301,
+          "expanded_url": "https://x.com/jukan05/status/2075863081998229512/photo/1",
+          "media_key": "3_2075863075400650752",
+          "start": 278,
+          "url": "https://t.co/gk6KpCxuNG"
+        },
+        {
+          "display_url": "x.com/insane_analyst…",
+          "end": 325,
+          "expanded_url": "https://twitter.com/insane_analyst/status/2075852883891994799",
+          "start": 302,
+          "url": "https://t.co/Dshr2XH9fH"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2075863075400650752",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HM7yd_ubEAAc-6a.jpg",
+        "width": 1320,
+        "height": 1210,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2075832764059054342",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2075832764059054342",
+    "created_at": "Sat Jul 11 06:41:12 +0000 2026",
+    "text": "WSJ: Apple secured an exemption from semiconductor tariffs in exchange for committing to use Intel’s fabs.\n\nWSJ: Apple will manufacture not only Mac chips but also iPhone chips at Intel.\n\n$AAPL $INTC https://t.co/zNcr1cDkwp",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 612,
+    "retweet_count": 86,
+    "reply_count": 46,
+    "quote_count": 18,
+    "view_count": 58175,
+    "bookmark_count": 93,
+    "conversation_id": "2075832764059054342",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 193,
+          "start": 188,
+          "tag": "AAPL"
+        },
+        {
+          "end": 199,
+          "start": 194,
+          "tag": "INTC"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/zNcr1cDkwp",
+          "end": 223,
+          "expanded_url": "https://x.com/jukan05/status/2075832764059054342/photo/1",
+          "media_key": "3_2075832755787816961",
+          "start": 200,
+          "url": "https://t.co/zNcr1cDkwp"
+        }
+      ]
+    },
+    "cashtags": [
+      "AAPL",
+      "INTC"
+    ],
+    "media": [
+      {
+        "media_key": "3_2075832755787816961",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HM7W5KXaYAEoaHi.jpg",
+        "width": 1320,
+        "height": 1765,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2075743127835717998",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2075743127835717998",

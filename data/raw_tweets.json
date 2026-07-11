@@ -1,5 +1,49 @@
 [
   {
+    "tweet_id": "2075894311741440041",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2075894311741440041",
+    "created_at": "Sat Jul 11 10:45:46 +0000 2026",
+    "text": "Contrarian take, but Sam Altman / OpenAI is doing something right if he's pissing off every Mag7 like $AAPL. \n\nBy building their own ecosystem instead of being sucked into another. \n\nIt's been awhile since $GOOGL, Apple, Microsoft, and others had some genuine disruptors.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 29,
+    "retweet_count": 1,
+    "reply_count": 9,
+    "quote_count": 0,
+    "view_count": 10455,
+    "bookmark_count": 0,
+    "conversation_id": "2075894311741440041",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 107,
+          "start": 102,
+          "tag": "AAPL"
+        },
+        {
+          "end": 212,
+          "start": 206,
+          "tag": "GOOGL"
+        }
+      ]
+    },
+    "cashtags": [
+      "AAPL",
+      "GOOGL"
+    ],
+    "media": []
+  },
+  {
     "tweet_id": "2075670213169918070",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2075670213169918070",
