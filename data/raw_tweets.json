@@ -1,5 +1,159 @@
 [
   {
+    "tweet_id": "2076035405338812805",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2076035405338812805",
+    "created_at": "Sat Jul 11 20:06:26 +0000 2026",
+    "text": "@TheWaitingGameX I'm going to learn how to trade cash-settled Salmon futures next, so I can put it in my bio. https://t.co/oxJCHpb0Pd",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 26,
+    "retweet_count": 1,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 5411,
+    "bookmark_count": 4,
+    "conversation_id": "2076030743655109063",
+    "is_reply": true,
+    "in_reply_to_id": "2076032463344640084",
+    "in_reply_to_username": "TheWaitingGameX",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "1990561678535372802",
+          "start": 0,
+          "username": "TheWaitingGameX"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/oxJCHpb0Pd",
+          "end": 133,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2076035405338812805/photo/1",
+          "media_key": "3_2076035357867724800",
+          "start": 110,
+          "url": "https://t.co/oxJCHpb0Pd"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2076035357867724800",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HM-PKJ7bUAAjT6H.jpg",
+        "width": 2006,
+        "height": 1267,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2076032645172187292",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2076032645172187292",
+    "created_at": "Sat Jul 11 19:55:28 +0000 2026",
+    "text": "@ANMcapital APR might be priced in.\n\nBut maybe salmon DNA processing might be a new bottleneck from the amount women use for face lotion...",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 36,
+    "retweet_count": 0,
+    "reply_count": 3,
+    "quote_count": 1,
+    "view_count": 5870,
+    "bookmark_count": 2,
+    "conversation_id": "2076030743655109063",
+    "is_reply": true,
+    "in_reply_to_id": "2076031152759218321",
+    "in_reply_to_username": "ANMcapital",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 11,
+          "id": "1926771031399608320",
+          "start": 0,
+          "username": "ANMcapital"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076030743655109063",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2076030743655109063",
+    "created_at": "Sat Jul 11 19:47:54 +0000 2026",
+    "text": "Apparently, Korean Beauty was where all the alpha is.\n\nAPR (278470.KS) is up 529% over the past 2Y, wildly outperforming both $NVDA and $INTC.\n\nEvery female I know talks about their \"Medicube\" stick, then buying products... where you put a whole salmon's family tree on your face for better skin. \n\nThe world's female population creates a bigger structural demand than hyperscalers for memory or lasers? Should have known...",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 472,
+    "retweet_count": 27,
+    "reply_count": 56,
+    "quote_count": 9,
+    "view_count": 85268,
+    "bookmark_count": 155,
+    "conversation_id": "2076030743655109063",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2075882550548119877",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 131,
+          "start": 126,
+          "tag": "NVDA"
+        },
+        {
+          "end": 141,
+          "start": 136,
+          "tag": "INTC"
+        }
+      ]
+    },
+    "cashtags": [
+      "NVDA",
+      "INTC"
+    ],
+    "media": [
+      {
+        "media_key": "3_2076027078475153408",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HM-HoOyagAA04I8.jpg",
+        "width": 2158,
+        "height": 1464,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2076027432075997184",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HM-H80DbMAA3wdp.jpg",
+        "width": 782,
+        "height": 800,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2075987162080928251",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2075987162080928251",
