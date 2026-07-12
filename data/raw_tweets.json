@@ -1,5 +1,89 @@
 [
   {
+    "tweet_id": "2076284746385240101",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2076284746385240101",
+    "created_at": "Sun Jul 12 12:37:13 +0000 2026",
+    "text": "@softmaxedx My friend at $AMD tripped on a rock and had to spend a few hours at home.\n\nSo we’ll likely see a major delay at AMD’s entire GPU program.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 68,
+    "retweet_count": 1,
+    "reply_count": 13,
+    "quote_count": 0,
+    "view_count": 7607,
+    "bookmark_count": 2,
+    "conversation_id": "2076266613675069628",
+    "is_reply": true,
+    "in_reply_to_id": "2076281510546538767",
+    "in_reply_to_username": "softmaxedx",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 29,
+          "start": 25,
+          "tag": "AMD"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 11,
+          "id": "71297057",
+          "start": 0,
+          "username": "softmaxedx"
+        }
+      ]
+    },
+    "cashtags": [
+      "AMD"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2076281362248769713",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2076281362248769713",
+    "created_at": "Sun Jul 12 12:23:46 +0000 2026",
+    "text": "So this was cost of the final sale price, not BOM cost. They were also using $134K at ASP, not the volume ramped <$20k costs.\n\nAs seen with $VPG that $750/sensor goes down to $150 at mass production. \n\nSo lot of math changes, I didn’t find the cost structure particularly helpful here.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 14,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 5496,
+    "bookmark_count": 1,
+    "conversation_id": "2076248337863639506",
+    "is_reply": true,
+    "in_reply_to_id": "2076261436783768033",
+    "in_reply_to_username": "Traderissimo",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 144,
+          "start": 140,
+          "tag": "VPG"
+        }
+      ]
+    },
+    "cashtags": [
+      "VPG"
+    ],
+    "media": []
+  },
+  {
     "tweet_id": "2076266613675069628",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2076266613675069628",
