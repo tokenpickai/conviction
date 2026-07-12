@@ -1,5 +1,42 @@
 [
   {
+    "tweet_id": "2076232450121118133",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2076232450121118133",
+    "created_at": "Sun Jul 12 09:09:25 +0000 2026",
+    "text": "@BtMIV6TSQ572728 This is half satire. It's hard to understand nuances when Grok is translating it.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 2,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1818,
+    "bookmark_count": 0,
+    "conversation_id": "2076030743655109063",
+    "is_reply": true,
+    "in_reply_to_id": "2076125385570594908",
+    "in_reply_to_username": "BtMIV6TSQ572728",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "1646178720426917889",
+          "start": 0,
+          "username": "BtMIV6TSQ572728"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2076035405338812805",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2076035405338812805",
