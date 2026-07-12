@@ -1,5 +1,42 @@
 [
   {
+    "tweet_id": "2076085060869243134",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2076085060869243134",
+    "created_at": "Sat Jul 11 23:23:44 +0000 2026",
+    "text": "@AletheiaCapital 🫡🫡",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 3,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 532,
+    "bookmark_count": 1,
+    "conversation_id": "2075740924010000503",
+    "is_reply": true,
+    "in_reply_to_id": "2076084886801367155",
+    "in_reply_to_username": "AletheiaCapital",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "990398152657154048",
+          "start": 0,
+          "username": "AletheiaCapital"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2075933338540581375",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2075933338540581375",
