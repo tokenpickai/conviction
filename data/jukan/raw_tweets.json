@@ -1,5 +1,53 @@
 [
   {
+    "tweet_id": "2076259683736990112",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2076259683736990112",
+    "created_at": "Sun Jul 12 10:57:38 +0000 2026",
+    "text": "Fubon’s PCB reports are consistently high quality. I came away with some genuinely valuable insights. https://t.co/45mIfkj6Yd",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 55,
+    "retweet_count": 4,
+    "reply_count": 7,
+    "quote_count": 0,
+    "view_count": 8989,
+    "bookmark_count": 18,
+    "conversation_id": "2076259683736990112",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/45mIfkj6Yd",
+          "end": 125,
+          "expanded_url": "https://x.com/jukan05/status/2076259683736990112/photo/1",
+          "media_key": "3_2076259669333692416",
+          "start": 102,
+          "url": "https://t.co/45mIfkj6Yd"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2076259669333692416",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNBbKzQa0AA412S.jpg",
+        "width": 2512,
+        "height": 1756,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2076224069616447493",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2076224069616447493",

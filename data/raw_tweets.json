@@ -1,5 +1,124 @@
 [
   {
+    "tweet_id": "2076266613675069628",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2076266613675069628",
+    "created_at": "Sun Jul 12 11:25:10 +0000 2026",
+    "text": "Apparently there’s a new popular trend to bearpost trillion dollar companies.\n\nLike $NVDA or $TSM.\n\nBy finding isolating technical details, then blowing it out of proportions by claiming their whole program is delayed.\n\n-> if the company doesn’t respond, stock prices/sentiment are damaged. \n\n-> if the company issues a response, they can’t go into detail since supply chains are confidential… but people still doubt them\n\n-> Poster gain more impressions, then does it again with more views the next time.\n\nDon’t quite think this is very healthy, with more folks copying that playbook. Especially around incentive structures.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 122,
+    "retweet_count": 6,
+    "reply_count": 48,
+    "quote_count": 1,
+    "view_count": 24420,
+    "bookmark_count": 11,
+    "conversation_id": "2076266613675069628",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 89,
+          "start": 84,
+          "tag": "NVDA"
+        },
+        {
+          "end": 97,
+          "start": 93,
+          "tag": "TSM"
+        }
+      ]
+    },
+    "cashtags": [
+      "NVDA",
+      "TSM"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2076248337863639506",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2076248337863639506",
+    "created_at": "Sun Jul 12 10:12:33 +0000 2026",
+    "text": "So there's a IBK Research report on Boston Dynamics value chains from last month. \n\nJust a summary: \n\nIBK maps these companies to Atlas as suppliers:\n- Hwashin (010690) / body, arms, legs\n- LG Energy (373220) / battery \n- Hyundai Autoever (307950) / integration\n- Hyundai Mobis (012330) / actuators\n\nAs for humanoid volume ramps: \n\nThey're modeling for, 11.29K in 2028, 20k 2029, 30k in 2030... 40k in 2031, and 50k in 2032. \n\nNot quite sure why IBK and other institutions are a fan of linearly modeling S-curve volume ramps... \n\nLike adding +10K per year, don't quite think it's volume ramp is going to work like that... if I had to guess it would look more like: \n\n- 15-20k 2028\n- 40k-70k 2029\n- 90k-140k for 2030\n\nSince Boston Dynamics is projecting 30k capacity by 2028 (I'm sure they'd aim to get more online by 2029-2030), as China collectively is already doing 100k EOY in 2026.  \n\nIn terms of competitive landscape they name:\n\n- $TSLA, Figure, Apptronik, $CCXI (Agility), as US  players. Then Boston Dynamics (Korea parent owned now)\n- Unitree, Fourier, AGibot, UBtech, $XPEV as the Chinese leaders. \n- Neura, Pal Robotics, Wandercraft, Oversonic, as the EU leaders.  \n\nThey also did quite a lot of valuation modeling around Hyundai Mobis/Hyundai Autoever/Glovis. \n\nRegarding the BD economic ownership from 27.9% from Hyundai Motor, 11.3% from Mobis, and 11.3% from Glovis. So at least institution are valuing humanoid segments inside companies lot more now. \n\nThen from report assumptions:\n- 31 actuators per Atlas\n- $1K per actuator in 2028\n- $134K Atlas ASP,\n\nWhich implies actuator cost of final selling price is roughly 23–28%. \n\nProbably the more interesting statement was IBK stated that actuator capacity is biggest signal for volume ramp. eg. every 310,000 units of actuator capacity supports 10,000 more robots. \n\nSo tracking actuator outputs, yields, ASP is a cleaner read on 2028-2030 ramp.\n\nI didn't have much personal takeaways, but hopefully others find it interesting, maybe around Hwashin as a core supplier or around actuator capacity as an indicator.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 285,
+    "retweet_count": 28,
+    "reply_count": 82,
+    "quote_count": 7,
+    "view_count": 80159,
+    "bookmark_count": 168,
+    "conversation_id": "2076248337863639506",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 942,
+          "start": 937,
+          "tag": "TSLA"
+        },
+        {
+          "end": 968,
+          "start": 963,
+          "tag": "CCXI"
+        },
+        {
+          "end": 1083,
+          "start": 1078,
+          "tag": "XPEV"
+        }
+      ]
+    },
+    "cashtags": [
+      "TSLA",
+      "CCXI",
+      "XPEV"
+    ],
+    "media": [
+      {
+        "media_key": "3_2076239689129025536",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNBI_zMaYAAUaCi.jpg",
+        "width": 1709,
+        "height": 1663,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2076240098727981056",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNBJXpEacAA1zA3.jpg",
+        "width": 1679,
+        "height": 1117,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2076242921658175488",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNBL79Ta0AAFlg3.jpg",
+        "width": 1693,
+        "height": 795,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2076232450121118133",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2076232450121118133",

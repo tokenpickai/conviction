@@ -1,6 +1,6 @@
 {
   "automation_next": [],
-  "data_generated_at": "2026-07-12T09:20:00.392911+00:00",
+  "data_generated_at": "2026-07-12T11:35:25.989628+00:00",
   "decisions": [
     {
       "action": "watch_for_more_signal",
@@ -1169,7 +1169,7 @@
       ]
     }
   ],
-  "generated_at": "2026-07-12T09:20:04Z",
+  "generated_at": "2026-07-12T11:35:30Z",
   "source_files": {
     "queue": "data/jukan/report_queue.json",
     "updates": "data/jukan/report_update_candidates.json"
