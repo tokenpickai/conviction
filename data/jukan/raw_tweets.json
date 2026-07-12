@@ -1,5 +1,107 @@
 [
   {
+    "tweet_id": "2076444055345770959",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2076444055345770959",
+    "created_at": "Sun Jul 12 23:10:15 +0000 2026",
+    "text": "@cryptobyrde GM",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "und",
+    "like_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 49,
+    "bookmark_count": 0,
+    "conversation_id": "2076443632840941819",
+    "is_reply": true,
+    "in_reply_to_id": "2076443742203187499",
+    "in_reply_to_username": "cryptobyrde",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "474455472",
+          "start": 0,
+          "username": "cryptobyrde"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076443829591482719",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2076443829591482719",
+    "created_at": "Sun Jul 12 23:09:22 +0000 2026",
+    "text": "@Kente_Clarke 🤣",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 203,
+    "bookmark_count": 0,
+    "conversation_id": "2076443632840941819",
+    "is_reply": true,
+    "in_reply_to_id": "2076443769411358888",
+    "in_reply_to_username": "Kente_Clarke",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "1926064697712713728",
+          "start": 0,
+          "username": "Kente_Clarke"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076443632840941819",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2076443632840941819",
+    "created_at": "Sun Jul 12 23:08:35 +0000 2026",
+    "text": "I instantly feel more favorable toward someone whenever I see an anime pfp.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 15,
+    "retweet_count": 0,
+    "reply_count": 10,
+    "quote_count": 0,
+    "view_count": 2909,
+    "bookmark_count": 1,
+    "conversation_id": "2076443632840941819",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2076259683736990112",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2076259683736990112",
