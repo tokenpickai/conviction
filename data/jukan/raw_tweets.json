@@ -1,5 +1,269 @@
 [
   {
+    "tweet_id": "2076150929808851114",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2076150929808851114",
+    "created_at": "Sun Jul 12 03:45:29 +0000 2026",
+    "text": "@treeapple33 너무 낮죠",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ko",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 475,
+    "bookmark_count": 0,
+    "conversation_id": "2076148820363399213",
+    "is_reply": true,
+    "in_reply_to_id": "2076150854978298164",
+    "in_reply_to_username": "treeapple33",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "1714539277600894976",
+          "start": 0,
+          "username": "treeapple33"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076148823802737127",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2076148823802737127",
+    "created_at": "Sun Jul 12 03:37:07 +0000 2026",
+    "text": "https://t.co/we2tabNj1P",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 5,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 4684,
+    "bookmark_count": 3,
+    "conversation_id": "2076148820363399213",
+    "is_reply": true,
+    "in_reply_to_id": "2076148820363399213",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "삼성전자가 추진 중인 용인 반도체 클러스터(복합 산업단지)에 들어설 1호 팹(공장)의 완공 일정이 2년 앞당겨진다. 신규 호남 반도체 단지 조성을 위한 정부의 총력지원이 이뤄지는 가운데 SK하이닉스는 미국에 신규 생산시설 구축을 검토한다.",
+          "display_url": "mt.co.kr/industry/2026/…",
+          "end": 23,
+          "expanded_url": "https://www.mt.co.kr/industry/2026/07/12/2026071205415186037",
+          "images": [
+            {
+              "height": 844,
+              "url": "https://pbs.twimg.com/news_img/2076101737476456448/eXu8dwF4?format=jpg&name=orig",
+              "width": 1200
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2076101737476456448/eXu8dwF4?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "[단독]삼성전자, '용인 1호팹' 양산 2년 더 빨리…SK, 미국 신규 투자 - 머니투데이",
+          "unwound_url": "https://www.mt.co.kr/industry/2026/07/12/2026071205415186037",
+          "url": "https://t.co/we2tabNj1P"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076148820363399213",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2076148820363399213",
+    "created_at": "Sun Jul 12 03:37:06 +0000 2026",
+    "text": "According to Korean media reports, Samsung has moved up the start of operations at the first fab in its Yongin semiconductor cluster by two years.\n\nSpecifically, the target date for the first fab to begin operations has been set for October 2029 as part of Samsung Electronics’ accelerated development of the Yongin National Semiconductor Industrial Complex.\n\nSamsung Electronics plans to build a total of six fabs at the Yongin complex. The first fab had originally been scheduled to begin operations in 2031.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 74,
+    "retweet_count": 1,
+    "reply_count": 14,
+    "quote_count": 1,
+    "view_count": 12949,
+    "bookmark_count": 11,
+    "conversation_id": "2076148820363399213",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076127581133591023",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2076127581133591023",
+    "created_at": "Sun Jul 12 02:12:42 +0000 2026",
+    "text": "Reposted without comment. https://t.co/SkWwPdNWsJ https://t.co/iWtq3Tamqq",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 145,
+    "retweet_count": 15,
+    "reply_count": 18,
+    "quote_count": 4,
+    "view_count": 55698,
+    "bookmark_count": 61,
+    "conversation_id": "2076127581133591023",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2076122810783871041",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/SkWwPdNWsJ",
+          "end": 49,
+          "expanded_url": "https://x.com/jukan05/status/2076127581133591023/photo/1",
+          "media_key": "3_2076127574393339904",
+          "start": 26,
+          "url": "https://t.co/SkWwPdNWsJ"
+        },
+        {
+          "display_url": "x.com/insane_analyst…",
+          "end": 73,
+          "expanded_url": "https://twitter.com/insane_analyst/status/2076122810783871041",
+          "start": 50,
+          "url": "https://t.co/iWtq3Tamqq"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2076127574393339904",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HM_jB3QbwAAGxPz.jpg",
+        "width": 1320,
+        "height": 1447,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2076110562854064625",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2076110562854064625",
+    "created_at": "Sun Jul 12 01:05:05 +0000 2026",
+    "text": "https://t.co/n2NQG34UcD",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 13,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 9234,
+    "bookmark_count": 2,
+    "conversation_id": "2076110560077492272",
+    "is_reply": true,
+    "in_reply_to_id": "2076110560077492272",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "In the months ahead of Apple’s lawsuit against OpenAI on Friday, the iPhone maker’s concerns about OpenAI’s plans to compete in consumer hardware have mounted steadily. For starters, there was the seemingly never-ending stream of Apple employees jumping ship to join the AI startup. As those ...",
+          "display_url": "theinformation.com/articles/apple…",
+          "end": 23,
+          "expanded_url": "https://www.theinformation.com/articles/apple-sues-openai-trade-secret-theft?rc=lx3hes",
+          "start": 0,
+          "status": 200,
+          "title": "Before Apple Lawsuit, a Growing Unease at iPhone Maker Over OpenAI",
+          "unwound_url": "https://www.theinformation.com/articles/apple-sues-openai-trade-secret-theft?rc=lx3hes",
+          "url": "https://t.co/n2NQG34UcD"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076110560077492272",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2076110560077492272",
+    "created_at": "Sun Jul 12 01:05:04 +0000 2026",
+    "text": "The Information reported that OpenAI’s device could launch as early as next February, but its legal battle with Apple could disrupt those plans. https://t.co/I43Lk8uB0i",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 148,
+    "retweet_count": 6,
+    "reply_count": 6,
+    "quote_count": 5,
+    "view_count": 29365,
+    "bookmark_count": 12,
+    "conversation_id": "2076110560077492272",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/I43Lk8uB0i",
+          "end": 168,
+          "expanded_url": "https://x.com/jukan05/status/2076110560077492272/photo/1",
+          "media_key": "3_2076110543661023232",
+          "start": 145,
+          "url": "https://t.co/I43Lk8uB0i"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2076110543661023232",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HM_Tii1bwAALZf_.png",
+        "width": 1518,
+        "height": 762,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2076085060869243134",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2076085060869243134",
