@@ -1,5 +1,53 @@
 [
   {
+    "tweet_id": "2076372905450188998",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2076372905450188998",
+    "created_at": "Sun Jul 12 18:27:32 +0000 2026",
+    "text": "Looks like the Strait of Hormuz is open for the 50th time this year per Trump.\n\nI’m getting tired looking at macro. https://t.co/GuYgkwC2Q8",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 481,
+    "retweet_count": 13,
+    "reply_count": 160,
+    "quote_count": 4,
+    "view_count": 71528,
+    "bookmark_count": 10,
+    "conversation_id": "2076372905450188998",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/GuYgkwC2Q8",
+          "end": 139,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2076372905450188998/photo/1",
+          "media_key": "3_2076372900446445568",
+          "start": 116,
+          "url": "https://t.co/GuYgkwC2Q8"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2076372900446445568",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNDCJuBboAAkhQ5.jpg",
+        "width": 1201,
+        "height": 583,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2076284746385240101",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2076284746385240101",
