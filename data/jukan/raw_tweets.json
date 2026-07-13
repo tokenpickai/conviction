@@ -1,5 +1,573 @@
 [
   {
+    "tweet_id": "2076682157456818353",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2076682157456818353",
+    "created_at": "Mon Jul 13 14:56:23 +0000 2026",
+    "text": "The damn Strait of Schrödinger is closed again.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "tl",
+    "like_count": 100,
+    "retweet_count": 7,
+    "reply_count": 33,
+    "quote_count": 2,
+    "view_count": 13408,
+    "bookmark_count": 2,
+    "conversation_id": "2076682157456818353",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076663785369239701",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2076663785369239701",
+    "created_at": "Mon Jul 13 13:43:23 +0000 2026",
+    "text": "@zephyr_z9 I’ve heard that projection has already been rejected.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 7,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 3029,
+    "bookmark_count": 2,
+    "conversation_id": "2076660374900752749",
+    "is_reply": true,
+    "in_reply_to_id": "2076663576476221646",
+    "in_reply_to_username": "zephyr_z9",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1695126229446479872",
+          "start": 0,
+          "username": "zephyr_z9"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076663354593280052",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2076663354593280052",
+    "created_at": "Mon Jul 13 13:41:40 +0000 2026",
+    "text": "@StarAndCompass_ 으으 부럽다",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ko",
+    "like_count": 11,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 2579,
+    "bookmark_count": 0,
+    "conversation_id": "2076663079274999911",
+    "is_reply": true,
+    "in_reply_to_id": "2076663079274999911",
+    "in_reply_to_username": "StarAndCompass_",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "1801070819659091968",
+          "start": 0,
+          "username": "StarAndCompass_"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076663291699663157",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2076663291699663157",
+    "created_at": "Mon Jul 13 13:41:25 +0000 2026",
+    "text": "HBM is a product that makes it difficult to earn enough pricing to justify the effort and complexity involved. Especially when commodity DRAM margins are around 90%, as they are now, producing HBM comes with an enormous opportunity cost.\n\nI do not believe HBM will consume all DRAM wafer capacity.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 7,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 1577,
+    "bookmark_count": 1,
+    "conversation_id": "2076660374900752749",
+    "is_reply": true,
+    "in_reply_to_id": "2076662905144271079",
+    "in_reply_to_username": "zephyr_z9",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1695126229446479872",
+          "start": 0,
+          "username": "zephyr_z9"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076662726404039066",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2076662726404039066",
+    "created_at": "Mon Jul 13 13:39:11 +0000 2026",
+    "text": "@zephyr_z9 That’s possible. But d1b and d1a will eventually become legacy nodes, won’t they?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 1681,
+    "bookmark_count": 0,
+    "conversation_id": "2076660374900752749",
+    "is_reply": true,
+    "in_reply_to_id": "2076662562276700463",
+    "in_reply_to_username": "zephyr_z9",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1695126229446479872",
+          "start": 0,
+          "username": "zephyr_z9"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076662292964618510",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2076662292964618510",
+    "created_at": "Mon Jul 13 13:37:27 +0000 2026",
+    "text": "@zephyr_z9 The moment CXMT transitions to 3D DRAM, Western customers will be unable to use its memory even if they want to.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 4,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 1754,
+    "bookmark_count": 2,
+    "conversation_id": "2076660374900752749",
+    "is_reply": true,
+    "in_reply_to_id": "2076662081596920277",
+    "in_reply_to_username": "zephyr_z9",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1695126229446479872",
+          "start": 0,
+          "username": "zephyr_z9"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076661475931042108",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2076661475931042108",
+    "created_at": "Mon Jul 13 13:34:13 +0000 2026",
+    "text": "@zephyr_z9 I’m saying that, even under the extreme assumption that CXMT eventually has more capacity than Samsung, the memory Big Three would still be safe.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 9,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 1925,
+    "bookmark_count": 1,
+    "conversation_id": "2076660374900752749",
+    "is_reply": true,
+    "in_reply_to_id": "2076661266295447566",
+    "in_reply_to_username": "zephyr_z9",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1695126229446479872",
+          "start": 0,
+          "username": "zephyr_z9"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076660854767091870",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2076660854767091870",
+    "created_at": "Mon Jul 13 13:31:44 +0000 2026",
+    "text": "@zephyr_z9 Regardless of how much capacity they build, they have already gone too far down an irreversible path. The Big Three memory makers will not be threatened by CXMT even beyond 2030.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 23,
+    "retweet_count": 3,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 3837,
+    "bookmark_count": 9,
+    "conversation_id": "2076660374900752749",
+    "is_reply": true,
+    "in_reply_to_id": "2076660615733796947",
+    "in_reply_to_username": "zephyr_z9",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1695126229446479872",
+          "start": 0,
+          "username": "zephyr_z9"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076660609467437307",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2076660609467437307",
+    "created_at": "Mon Jul 13 13:30:46 +0000 2026",
+    "text": "The claim that CXMT will dump “advanced” DRAM into Western markets is deeply uninformed.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 77,
+    "retweet_count": 6,
+    "reply_count": 4,
+    "quote_count": 2,
+    "view_count": 15507,
+    "bookmark_count": 2,
+    "conversation_id": "2076660374900752749",
+    "is_reply": true,
+    "in_reply_to_id": "2076660374900752749",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076660374900752749",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2076660374900752749",
+    "created_at": "Mon Jul 13 13:29:50 +0000 2026",
+    "text": "Someone argued that if CXMT achieves 1c-class 3D DRAM, it would close the technology gap with the memory Big 3, and since performance wouldn't be an issue, they could even sell into the West — but that's genuinely crazy talk.\n\nThe fact that CXMT is heading straight for 3D DRAM actually means the opposite: because the non-CXMT camp — i.e., JEDEC — has no reason to follow CXMT's standard, CXMT DRAM won't be usable in the West at all. What you get instead is a standards divergence between the West and CXMT.\n\nSo Lenovo or Xiaomi could use CXMT's 3D DRAM, sure. But non-Chinese companies won't be able to use it.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 201,
+    "retweet_count": 22,
+    "reply_count": 59,
+    "quote_count": 3,
+    "view_count": 57196,
+    "bookmark_count": 83,
+    "conversation_id": "2076660374900752749",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2076652343307964879",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/zephyr_z9/stat…",
+          "end": 301,
+          "expanded_url": "https://twitter.com/zephyr_z9/status/2076652343307964879",
+          "start": 278,
+          "url": "https://t.co/1aBC0ZDY7V"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076658636785696847",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2076658636785696847",
+    "created_at": "Mon Jul 13 13:22:56 +0000 2026",
+    "text": "RT @zephyr_z9: https://t.co/dAoQkZrPBS",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 0,
+    "retweet_count": 43,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 4158,
+    "bookmark_count": 0,
+    "conversation_id": "2076658636785696847",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2076652343307964879",
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "1695126229446479872",
+          "start": 3,
+          "username": "zephyr_z9"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "x.com/i/article/2075…",
+          "end": 38,
+          "expanded_url": "http://x.com/i/article/2075818457858514944",
+          "start": 15,
+          "status": 500,
+          "unwound_url": "https://x.com/i/article/2075818457858514944",
+          "url": "https://t.co/dAoQkZrPBS"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076642562883080211",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2076642562883080211",
+    "created_at": "Mon Jul 13 12:19:03 +0000 2026",
+    "text": "https://t.co/jmfr1pi6Ny",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 11,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 12510,
+    "bookmark_count": 2,
+    "conversation_id": "2076642560433664242",
+    "is_reply": true,
+    "in_reply_to_id": "2076642560433664242",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "일본 닌텐도가 하이브리드 게임기 스위치2 시리즈에 유기발광다이오드(OLED) 적용을 검토 중인 것으로 13일 파악됐다. 해당 OLED는 전작 스위치1 OLED처럼 삼성디스플레이가 납품할 가능성이 있다. OLED 적용에 따른 제품 가격 인상폭은 변수다.스위치는 가정용 비디오 게임기와...",
+          "display_url": "zdnet.co.kr/view/?no=20260…",
+          "end": 23,
+          "expanded_url": "https://zdnet.co.kr/view/?no=20260713182948",
+          "images": [
+            {
+              "height": 434,
+              "url": "https://pbs.twimg.com/news_img/2076642618394685441/qHp6ZsRs?format=png&name=orig",
+              "width": 640
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2076642618394685441/qHp6ZsRs?format=png&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "닌텐도, 스위치2 'OLED' 출시 검토",
+          "unwound_url": "https://zdnet.co.kr/view/?no=20260713182948",
+          "url": "https://t.co/jmfr1pi6Ny"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076642560433664242",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2076642560433664242",
+    "created_at": "Mon Jul 13 12:19:03 +0000 2026",
+    "text": "A Korean journalist whom I consider the country’s best display industry reporter said today that Nintendo is considering launching an OLED version of the Switch 2.\n\nIt could be released sometime between late 2027 and 2028.\n\nThe display resolution is reportedly FHD. https://t.co/y3m8waBjpp",
+    "text_source": "text",
+    "text_may_be_truncated": true,
+    "lang": "en",
+    "like_count": 198,
+    "retweet_count": 14,
+    "reply_count": 38,
+    "quote_count": 1,
+    "view_count": 40391,
+    "bookmark_count": 25,
+    "conversation_id": "2076642560433664242",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/y3m8waBjpp",
+          "end": 289,
+          "expanded_url": "https://x.com/jukan05/status/2076642560433664242/photo/1",
+          "media_key": "3_2076642308204986368",
+          "start": 266,
+          "url": "https://t.co/y3m8waBjpp"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2076642308204986368",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNG3LUIbAAAzony.jpg",
+        "width": 1454,
+        "height": 1228,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2076641357226189240",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2076641357226189240",
+    "created_at": "Mon Jul 13 12:14:16 +0000 2026",
+    "text": "@kyleichan Ultimately, I think world models will inevitably lead to autonomous driving.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 30,
+    "retweet_count": 1,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 7933,
+    "bookmark_count": 2,
+    "conversation_id": "2076640740021522901",
+    "is_reply": true,
+    "in_reply_to_id": "2076640740021522901",
+    "in_reply_to_username": "kyleichan",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "210702531",
+          "start": 0,
+          "username": "kyleichan"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076633955240161710",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2076633955240161710",
+    "created_at": "Mon Jul 13 11:44:51 +0000 2026",
+    "text": "I used to think people who preferred Codex were just Dario haters, but after actually trying it, Codex is way better than CC. Opus is just too dumb.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 529,
+    "retweet_count": 11,
+    "reply_count": 63,
+    "quote_count": 1,
+    "view_count": 48168,
+    "bookmark_count": 27,
+    "conversation_id": "2076633955240161710",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2076609715271021045",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2076609715271021045",
