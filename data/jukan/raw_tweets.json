@@ -1,5 +1,99 @@
 [
   {
+    "tweet_id": "2076803568175325554",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2076803568175325554",
+    "created_at": "Mon Jul 13 22:58:50 +0000 2026",
+    "text": "https://t.co/hu3lDqpLg6",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 35,
+    "retweet_count": 0,
+    "reply_count": 5,
+    "quote_count": 0,
+    "view_count": 3717,
+    "bookmark_count": 0,
+    "conversation_id": "2076802721529901362",
+    "is_reply": true,
+    "in_reply_to_id": "2076802721529901362",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/hu3lDqpLg6",
+          "end": 23,
+          "expanded_url": "https://x.com/jukan05/status/2076803568175325554/photo/1",
+          "media_key": "3_2076803558557810688",
+          "start": 0,
+          "url": "https://t.co/hu3lDqpLg6"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2076803558557810688",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNJJ1UgbAAAW5Z8.jpg",
+        "width": 1200,
+        "height": 1200,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2076802721529901362",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2076802721529901362",
+    "created_at": "Mon Jul 13 22:55:28 +0000 2026",
+    "text": "I’m going all-in on leverage as soon as the market opens. Thanks, @rwang07. https://t.co/SkIVBjdfH6",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 133,
+    "retweet_count": 5,
+    "reply_count": 30,
+    "quote_count": 2,
+    "view_count": 19406,
+    "bookmark_count": 21,
+    "conversation_id": "2076802721529901362",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2076768217310122046",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 74,
+          "id": "833295407182516224",
+          "start": 66,
+          "username": "rwang07"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "x.com/GavinSBaker/st…",
+          "end": 99,
+          "expanded_url": "https://twitter.com/GavinSBaker/status/2076768217310122046",
+          "start": 76,
+          "url": "https://t.co/SkIVBjdfH6"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2076682157456818353",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2076682157456818353",
