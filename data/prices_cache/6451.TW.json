@@ -1,7 +1,7 @@
 {
   "price_symbol": "6451.TW",
-  "currency": "USD",
-  "price_unit": "USD",
+  "currency": "TWD",
+  "price_unit": "TWD",
   "series": [
     {
       "date": "2026-04-10",
@@ -164,5 +164,5 @@
       "close": 666.0
     }
   ],
-  "last_updated": "2026-07-10T23:44:41.393545+00:00"
+  "last_updated": "2026-07-13T23:36:28.267472+00:00"
 }

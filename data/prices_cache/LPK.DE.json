@@ -1,7 +1,7 @@
 {
   "price_symbol": "LPK.DE",
-  "currency": "USD",
-  "price_unit": "USD",
+  "currency": "EUR",
+  "price_unit": "EUR",
   "series": [
     {
       "date": "2026-04-20",
@@ -140,5 +140,5 @@
       "close": 21.3
     }
   ],
-  "last_updated": "2026-07-10T23:46:25.784474+00:00"
+  "last_updated": "2026-07-13T23:36:26.473995+00:00"
 }
