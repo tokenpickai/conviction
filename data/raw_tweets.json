@@ -1,5 +1,113 @@
 [
   {
+    "tweet_id": "2076767097674514474",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2076767097674514474",
+    "created_at": "Mon Jul 13 20:33:55 +0000 2026",
+    "text": "@bottleneckceo 10 years from now, the flying spaghetti monster will descend from the heavens and bless every $INTC holder with a meatball.\n\nCan someone prove me wrong?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 55,
+    "retweet_count": 0,
+    "reply_count": 5,
+    "quote_count": 1,
+    "view_count": 5405,
+    "bookmark_count": 2,
+    "conversation_id": "2076748688559587338",
+    "is_reply": true,
+    "in_reply_to_id": "2076753779752341669",
+    "in_reply_to_username": "bottleneckceo",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 114,
+          "start": 109,
+          "tag": "INTC"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 14,
+          "id": "2054041657822130176",
+          "start": 0,
+          "username": "bottleneckceo"
+        }
+      ]
+    },
+    "cashtags": [
+      "INTC"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2076763334930812936",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2076763334930812936",
+    "created_at": "Mon Jul 13 20:18:58 +0000 2026",
+    "text": "$AAOI mainly gets revenue from pluggable, they’re developing/sampling related lasers but have no CPO design wins.\n\nOthers like $MTSI look like they fell off the map for some reason with cpo lasers.\n\nCEO says “TBD” with commercial timing and it’s in reliability work right now. And fits the OSINT research done with Ayar removing Macom from their website.\n\nSo would agree with MS that $SIVE, $LITE, $COHR imo are the three leaders to focus on for lasers.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 46,
+    "retweet_count": 1,
+    "reply_count": 9,
+    "quote_count": 0,
+    "view_count": 6726,
+    "bookmark_count": 8,
+    "conversation_id": "2076748688559587338",
+    "is_reply": true,
+    "in_reply_to_id": "2076757891676283042",
+    "in_reply_to_username": "IrisWan39849142",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 5,
+          "start": 0,
+          "tag": "AAOI"
+        },
+        {
+          "end": 132,
+          "start": 127,
+          "tag": "MTSI"
+        },
+        {
+          "end": 389,
+          "start": 384,
+          "tag": "SIVE"
+        },
+        {
+          "end": 396,
+          "start": 391,
+          "tag": "LITE"
+        },
+        {
+          "end": 403,
+          "start": 398,
+          "tag": "COHR"
+        }
+      ]
+    },
+    "cashtags": [
+      "AAOI",
+      "MTSI",
+      "SIVE",
+      "LITE",
+      "COHR"
+    ],
+    "media": []
+  },
+  {
     "tweet_id": "2076748688559587338",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2076748688559587338",
