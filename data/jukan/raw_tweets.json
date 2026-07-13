@@ -1,5 +1,90 @@
 [
   {
+    "tweet_id": "2076609715271021045",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2076609715271021045",
+    "created_at": "Mon Jul 13 10:08:32 +0000 2026",
+    "text": "@treeapple33 😭",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 2,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1982,
+    "bookmark_count": 0,
+    "conversation_id": "2076609427432751574",
+    "is_reply": true,
+    "in_reply_to_id": "2076609678386323539",
+    "in_reply_to_username": "treeapple33",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "1714539277600894976",
+          "start": 0,
+          "username": "treeapple33"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076609427432751574",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2076609427432751574",
+    "created_at": "Mon Jul 13 10:07:23 +0000 2026",
+    "text": "Who was talking about CAPEX cuts? 😂 https://t.co/8TG9IA6jeI",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 442,
+    "retweet_count": 49,
+    "reply_count": 36,
+    "quote_count": 7,
+    "view_count": 44627,
+    "bookmark_count": 61,
+    "conversation_id": "2076609427432751574",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/8TG9IA6jeI",
+          "end": 59,
+          "expanded_url": "https://x.com/jukan05/status/2076609427432751574/photo/1",
+          "media_key": "3_2076609421388734464",
+          "start": 36,
+          "url": "https://t.co/8TG9IA6jeI"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2076609421388734464",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNGZRDMa4AATclj.jpg",
+        "width": 1320,
+        "height": 1882,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2076557559117594807",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2076557559117594807",
