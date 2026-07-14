@@ -1,5 +1,42 @@
 [
   {
+    "tweet_id": "2076818948742611104",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2076818948742611104",
+    "created_at": "Mon Jul 13 23:59:57 +0000 2026",
+    "text": "@StarAndCompass_ 미쓰비시UFJ 시총 1위 ㄷㄷ",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ko",
+    "like_count": 9,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 2075,
+    "bookmark_count": 0,
+    "conversation_id": "2076818610363015500",
+    "is_reply": true,
+    "in_reply_to_id": "2076818610363015500",
+    "in_reply_to_username": "StarAndCompass_",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "1801070819659091968",
+          "start": 0,
+          "username": "StarAndCompass_"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2076803568175325554",
     "kind": "self_thread",
     "url": "https://x.com/jukan05/status/2076803568175325554",
