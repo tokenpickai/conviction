@@ -1,5 +1,250 @@
 [
   {
+    "tweet_id": "2076871711459541168",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2076871711459541168",
+    "created_at": "Tue Jul 14 03:29:37 +0000 2026",
+    "text": "https://t.co/ExidAVVW2I",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 4,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 3194,
+    "bookmark_count": 3,
+    "conversation_id": "2076871708984877077",
+    "is_reply": true,
+    "in_reply_to_id": "2076871708984877077",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "Tougher vetting in Singapore, Malaysia and Japan reflects Washington’s push to close export-control loopholes",
+          "display_url": "ft.com/content/7c146c…",
+          "end": 23,
+          "expanded_url": "https://www.ft.com/content/7c146c56-cc7a-40ec-93cb-58106a012421?desktop=true&segmentId=d8d3e364-5197-20eb-17cf-2437841d178a&syn-25a6b1a6=1#myft:notification:instant-email:content",
+          "start": 0,
+          "status": 200,
+          "title": "Nvidia halves Asia buyer list in China chip crackdown",
+          "unwound_url": "https://www.ft.com/content/7c146c56-cc7a-40ec-93cb-58106a012421?desktop=true&segmentId=d8d3e364-5197-20eb-17cf-2437841d178a&syn-25a6b1a6=1#myft:notification:instant-email:content",
+          "url": "https://t.co/ExidAVVW2I"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076871708984877077",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2076871708984877077",
+    "created_at": "Tue Jul 14 03:29:36 +0000 2026",
+    "text": "FT: China’s domestic computing capacity is still insufficient to meet the country’s rapidly growing demand.\n\nFT: Some Chinese technology companies are lobbying Beijing to allow sales of Nvidia’s H200 chips, but approval has not yet been granted, and the likelihood of large-scale sales remains low.\n\nFT: Domestic Chinese chipmakers are completely sold out. Even lower-end chips that nobody wanted in the past are now being snapped up, as long as companies can find some way to use them.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 45,
+    "retweet_count": 4,
+    "reply_count": 13,
+    "quote_count": 2,
+    "view_count": 9129,
+    "bookmark_count": 4,
+    "conversation_id": "2076871708984877077",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/ZHCEJ23PlD",
+          "end": 303,
+          "expanded_url": "https://x.com/jukan05/status/2076871708984877077/photo/1",
+          "media_key": "3_2076871693499527168",
+          "start": 280,
+          "url": "https://t.co/ZHCEJ23PlD"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2076871693499527168",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNKHzS8acAArWw1.jpg",
+        "width": 1352,
+        "height": 1348,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2076847232801026508",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2076847232801026508",
+    "created_at": "Tue Jul 14 01:52:20 +0000 2026",
+    "text": "Mirae Asset Securities Korea: SK hynix’s 2Q26 operating profit estimate cut by 12%\n\nDRAM and NAND ASP assumptions were revised down by 8ppt and 5ppt, respectively. Mirae Asset estimates that around 50% of the company’s revenue is covered by long-term supply agreements (LTAs).\n\n- Maintains target price of KRW 4.2 million, implying 128% upside\n- Rating: Buy",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 317,
+    "retweet_count": 23,
+    "reply_count": 54,
+    "quote_count": 6,
+    "view_count": 49855,
+    "bookmark_count": 73,
+    "conversation_id": "2076847232801026508",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076835374341747187",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2076835374341747187",
+    "created_at": "Tue Jul 14 01:05:13 +0000 2026",
+    "text": "@StarAndCompass_ 그러니까요 ㅠㅠ",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ko",
+    "like_count": 2,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 822,
+    "bookmark_count": 0,
+    "conversation_id": "2076818610363015500",
+    "is_reply": true,
+    "in_reply_to_id": "2076835296935830002",
+    "in_reply_to_username": "StarAndCompass_",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "1801070819659091968",
+          "start": 0,
+          "username": "StarAndCompass_"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076831221565591752",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2076831221565591752",
+    "created_at": "Tue Jul 14 00:48:43 +0000 2026",
+    "text": "https://t.co/ze4S6dWZlY",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 19,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 13586,
+    "bookmark_count": 4,
+    "conversation_id": "2076831218973426025",
+    "is_reply": true,
+    "in_reply_to_id": "2076831218973426025",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "Google is kicking off a ground war with Nvidia.While Google is one of the biggest buyers of Nvidia AI server chips, it has also been developing its own competing AI chip business that represents a threat to Nvidia’s dominant market share.Before this year, Google’s tensor processing units were ...",
+          "display_url": "theinformation.com/newsletters/ai…",
+          "end": 23,
+          "expanded_url": "https://www.theinformation.com/newsletters/ai-infrastructure/behind-googles-tpu-ground-war-lure-nvidias-loyal-customers?rc=lx3hes",
+          "start": 0,
+          "status": 200,
+          "title": "Exclusive: Behind Google’s TPU Ground War to Lure Nvidia’s Most Loyal Customers",
+          "unwound_url": "https://www.theinformation.com/newsletters/ai-infrastructure/behind-googles-tpu-ground-war-lure-nvidias-loyal-customers?rc=lx3hes",
+          "url": "https://t.co/ze4S6dWZlY"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076831218973426025",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2076831218973426025",
+    "created_at": "Tue Jul 14 00:48:42 +0000 2026",
+    "text": "Jensen Huang is absolutely ruthless. He doesn’t leave even the slightest opening. (according to The Information) https://t.co/QRMPW8MuvQ",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 569,
+    "retweet_count": 25,
+    "reply_count": 55,
+    "quote_count": 13,
+    "view_count": 86613,
+    "bookmark_count": 225,
+    "conversation_id": "2076831218973426025",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/QRMPW8MuvQ",
+          "end": 136,
+          "expanded_url": "https://x.com/jukan05/status/2076831218973426025/photo/1",
+          "media_key": "3_2076830978308448256",
+          "start": 113,
+          "url": "https://t.co/QRMPW8MuvQ"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2076830978308448256",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNJixXCaIAA-YFN.jpg",
+        "width": 1482,
+        "height": 1556,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2076818948742611104",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2076818948742611104",

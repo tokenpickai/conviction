@@ -1,5 +1,97 @@
 [
   {
+    "tweet_id": "2076847779037790620",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2076847779037790620",
+    "created_at": "Tue Jul 14 01:54:31 +0000 2026",
+    "text": "@macromonster69 Original article is in a different language, used AI to translate it to English for the usual audience",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 48,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 8502,
+    "bookmark_count": 0,
+    "conversation_id": "2076846994614792663",
+    "is_reply": true,
+    "in_reply_to_id": "2076847237406032046",
+    "in_reply_to_username": "macromonster69",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1912539442759495681",
+          "start": 0,
+          "username": "macromonster69"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2076846994614792663",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2076846994614792663",
+    "created_at": "Tue Jul 14 01:51:24 +0000 2026",
+    "text": "So Jensen himself went out to do damage control with $NVDA delays reports apparently:\n\n1. Jensen Huang said no delays: \n\n- 800V and rack-to-rack optical interconnects is progressing fully in line with the original plan with no material delay. \n\n- Debunked the rumor that the next-generation flagship, Rubin Ultra, would be delayed until 2028 and said it would be on track to ship next year\n\n- Rack system optimizations, like replacing Kyber with a new design are architectural optimizations, not impacting delivery timelines.\n\n2. On ASIC competition: no loss of market share.\n\n- Talked about how a leading frontier lab that previously relied heavily on internal ASICs has shifted nearly 50% of its compute load to Nvidia\n\n3. On over-reliance on hyperscalers.\n\n- AI frontier labs currently contributing to ~20% of demand.\n- Traditional cloud providers, Nvidia provides Vera CPUs and high-speed networking\n- Sovereign AI",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 617,
+    "retweet_count": 44,
+    "reply_count": 63,
+    "quote_count": 18,
+    "view_count": 190301,
+    "bookmark_count": 108,
+    "conversation_id": "2076846994614792663",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2076266613675069628",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 58,
+          "start": 53,
+          "tag": "NVDA"
+        }
+      ]
+    },
+    "cashtags": [
+      "NVDA"
+    ],
+    "media": [
+      {
+        "media_key": "3_2076846238717353984",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNJwpofaoAAfYqR.png",
+        "width": 2098,
+        "height": 2050,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2076846678938988544",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNJxDQcbsAAQscO.jpg",
+        "width": 1122,
+        "height": 1402,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2076808331453415674",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2076808331453415674",
