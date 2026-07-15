@@ -1,5 +1,578 @@
 [
   {
+    "tweet_id": "2077181920946143398",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2077181920946143398",
+    "created_at": "Wed Jul 15 00:02:16 +0000 2026",
+    "text": "?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qst",
+    "like_count": 8,
+    "retweet_count": 0,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 1515,
+    "bookmark_count": 1,
+    "conversation_id": "2077181829015314541",
+    "is_reply": true,
+    "in_reply_to_id": "2077181829015314541",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2077181829015314541",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2077181829015314541",
+    "created_at": "Wed Jul 15 00:01:54 +0000 2026",
+    "text": "COREWEAVE EXPLORING USE OF FINANCIAL DERIVATIVES TO HEDGE AGAINST FUTURE DROP IN MEMORY AND STORAGE CHIP PRICES - SOURCES",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 33,
+    "retweet_count": 2,
+    "reply_count": 9,
+    "quote_count": 1,
+    "view_count": 4700,
+    "bookmark_count": 6,
+    "conversation_id": "2077181829015314541",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2077176702728601859",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2077176702728601859",
+    "created_at": "Tue Jul 14 23:41:32 +0000 2026",
+    "text": "@EquityBrian I’m researching $MXL .",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 2,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 435,
+    "bookmark_count": 1,
+    "conversation_id": "2075329817059201345",
+    "is_reply": true,
+    "in_reply_to_id": "2075329817059201345",
+    "in_reply_to_username": "EquityBrian",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 33,
+          "start": 29,
+          "tag": "MXL"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 12,
+          "id": "2282719489",
+          "start": 0,
+          "username": "EquityBrian"
+        }
+      ]
+    },
+    "cashtags": [
+      "MXL"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2077173634196705592",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2077173634196705592",
+    "created_at": "Tue Jul 14 23:29:21 +0000 2026",
+    "text": "@insane_analyst Bro, you’re a market mover now.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 14,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 2473,
+    "bookmark_count": 0,
+    "conversation_id": "2077129104068108491",
+    "is_reply": true,
+    "in_reply_to_id": "2077129104068108491",
+    "in_reply_to_username": "insane_analyst",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1772469987279839232",
+          "start": 0,
+          "username": "insane_analyst"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2077173166657695914",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2077173166657695914",
+    "created_at": "Tue Jul 14 23:27:29 +0000 2026",
+    "text": "https://t.co/Sb4REGS3pe",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 12,
+    "retweet_count": 1,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 5199,
+    "bookmark_count": 0,
+    "conversation_id": "2077173164761899461",
+    "is_reply": true,
+    "in_reply_to_id": "2077173164761899461",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "[단독] 삼성전자, 기흥 사업장에 신규 D램 공장 짓는다, 강해령 기자, 경제",
+          "display_url": "hankyung.com/article/202607…",
+          "end": 23,
+          "expanded_url": "https://www.hankyung.com/article/202607145399i",
+          "images": [
+            {
+              "height": 426,
+              "url": "https://pbs.twimg.com/news_img/2077172030676582401/h7tNujDu?format=jpg&name=orig",
+              "width": 639
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2077172030676582401/h7tNujDu?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "[단독] 삼성전자, 기흥 사업장에 신규 D램 공장 짓는다",
+          "unwound_url": "https://www.hankyung.com/article/202607145399i",
+          "url": "https://t.co/Sb4REGS3pe"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2077173164761899461",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2077173164761899461",
+    "created_at": "Tue Jul 14 23:27:29 +0000 2026",
+    "text": "[Exclusive] Samsung Electronics to Build New DRAM Fab at Giheung with Monthly Capacity of 100,000 Wafers\n\nSamsung Electronics plans to build a new DRAM fab at its Giheung campus. The company will convert a site originally designated for a research and development center into a memory production facility. The decision appears aimed at responding to rapidly rising memory demand driven by the global boom in artificial intelligence infrastructure investment.\n\nAccording to industry sources on July 15, Samsung Electronics is moving forward with plans to build a new memory semiconductor fab at its Giheung campus in Yongin, Gyeonggi Province. The facility is expected to have production capacity of roughly 100,000 wafers per month. It would be comparable in size to a single fab building at Samsung’s nearby Hwaseong campus, with total investment estimated to reach tens of trillions of won.\n\nSamsung Electronics has already formed an internal organization tasked with establishing the new fab. The team is reportedly preparing to begin initial construction as early as the third quarter. The company is even considering demolishing several existing buildings at the Giheung campus to make room for the supporting infrastructure required for the DRAM production line.\n\nThe new DRAM fab will be built on the former site of a building known as “SR5.” SR5 was a landmark R&D center at the Giheung campus, where Samsung’s semiconductor history began. It was established in 1987 after the late Samsung founder Lee Byung-chul emphasized a spirit of “limitless exploration” to employees.\n\nSamsung Electronics’ management concluded that the aging facilities were no longer suitable for developing cutting-edge technologies such as 1-nanometer-class processes and advanced memory. As a result, SR5 was demolished between late last year and early this year.\n\nImmediately after the demolition, the company had planned to build two new R&D centers on the site. The facilities were intended to serve as an “R&D control tower,” similar to the DSR Tower at Samsung’s nearby Hwaseong campus. The plan reflected management’s view that additional R&D space was needed as the company’s Device Solutions division, which oversees its semiconductor business, had expanded and its research workforce had grown.\n\nSamsung has now completely reversed that plan and decided to build a memory production line instead, reflecting the global AI infrastructure investment boom and the worsening shortage of memory supply.\n\nThe global information technology industry is currently engaged in intense competition to build data centers capable of supporting large-scale AI computing. This has led to a surge in demand for memory, a critical component of AI infrastructure. In particular, DRAM manufacturers have struggled to keep pace with rapidly increasing demand for high-bandwidth memory, or HBM, resulting in shortages extending even to commodity memory used in smartphones and PCs.\n\nAccording to market research firm Counterpoint Research, global DRAM market revenue is projected to surge from $150 billion this year to as much as $210 billion, driven by sharp increases in product prices.\n\nAgainst this backdrop, Samsung Electronics is under pressure to maximize its production capacity in order to meet demand. An industry official said, “With Samsung generating more than KRW 140 trillion in operating profit in the first half of this year alone, the company now has an opportunity to pursue aggressive capital investment. Management appears to have prioritized responding to explosive demand over constructing a new R&D center.”\n\nIn addition to the new DRAM fab at Giheung, Samsung Electronics is expanding semiconductor production capacity primarily at its Pyeongtaek campus. At Pyeongtaek Fab 4, or P4, the company is installing a new production line with monthly capacity of 100,000 wafers that will be capable of producing DRAM for sixth-generation HBM, or HBM4.\n\nSamsung also plans to build a fab at its next-generation semiconductor cluster in Yongin, Gyeonggi Province, targeting initial operations in 2029. Separately, the company is pursuing the construction of two advanced semiconductor fabs at a semiconductor cluster site in Gwangju, South Jeolla Province, with total investment of KRW 400 trillion.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 98,
+    "retweet_count": 9,
+    "reply_count": 18,
+    "quote_count": 1,
+    "view_count": 15265,
+    "bookmark_count": 13,
+    "conversation_id": "2077173164761899461",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2077171141282832513",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2077171141282832513",
+    "created_at": "Tue Jul 14 23:19:26 +0000 2026",
+    "text": "@teortaxesTex Do you know how aggressively Chinese investors are buying 7709, the 2x leveraged long ETF on SK hynix? They’re buying it like crazy.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 15,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 1255,
+    "bookmark_count": 3,
+    "conversation_id": "2077161903718334759",
+    "is_reply": true,
+    "in_reply_to_id": "2077170915410919781",
+    "in_reply_to_username": "teortaxesTex",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "192201556",
+          "start": 0,
+          "username": "teortaxesTex"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2077167490984301037",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2077167490984301037",
+    "created_at": "Tue Jul 14 23:04:56 +0000 2026",
+    "text": "https://t.co/n7o5ZhiRiI",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 13,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 7976,
+    "bookmark_count": 1,
+    "conversation_id": "2077167488891343030",
+    "is_reply": true,
+    "in_reply_to_id": "2077167488891343030",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "신주 상장 전까지 차익거래 사실상 차단",
+          "display_url": "newstomato.com/ReadNews.aspx?…",
+          "end": 23,
+          "expanded_url": "https://www.newstomato.com/ReadNews.aspx?no=1307208&inflow=N",
+          "images": [
+            {
+              "height": 336,
+              "url": "https://pbs.twimg.com/news_img/2077165810288844800/sM1MS6w5?format=jpg&name=orig",
+              "width": 580
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2077165810288844800/sM1MS6w5?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "(단독)SK하이닉스 ADR 차익거래 오작동…예탁원 \"상호전환 29일 이후\"",
+          "unwound_url": "https://www.newstomato.com/ReadNews.aspx?no=1307208&inflow=N",
+          "url": "https://t.co/n7o5ZhiRiI"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2077167488891343030",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2077167488891343030",
+    "created_at": "Tue Jul 14 23:04:55 +0000 2026",
+    "text": "KOREAN LOCAL MEDIA: ARBITRAGE BETWEEN SK HYNIX’S KOREAN-LISTED COMMON SHARES AND NASDAQ-LISTED SKHY IS CURRENTLY MALFUNCTIONING\n\nAccording to the Korea Securities Depository, actual applications for two-way conversion will only become possible after July 29, when the newly issued Korean common shares corresponding to the ADR offering are listed domestically.\n\nThe KSD stated, “Applications for conversion between SK hynix’s underlying common shares and ADRs are expected to become available only after July 29, the scheduled domestic listing date of the underlying shares.”\n\nIt added that the actual conversion timetable will be announced in accordance with instructions from the DR depositary, Citibank.\n\n$SKHY",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 212,
+    "retweet_count": 25,
+    "reply_count": 45,
+    "quote_count": 7,
+    "view_count": 28187,
+    "bookmark_count": 56,
+    "conversation_id": "2077167488891343030",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 713,
+          "start": 708,
+          "tag": "SKHY"
+        }
+      ]
+    },
+    "cashtags": [
+      "SKHY"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2077164915316732313",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2077164915316732313",
+    "created_at": "Tue Jul 14 22:54:42 +0000 2026",
+    "text": "RT @hntrbrkmedia: 1) This weekend, we found something weird: $QCOM had hidden HMTL on its website describing a partnership with Anthropic.…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 8,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 4373,
+    "bookmark_count": 0,
+    "conversation_id": "2077164915316732313",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2077161996852564327",
+    "entities": {
+      "cashtags": [
+        {
+          "end": 66,
+          "start": 61,
+          "tag": "QCOM"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 16,
+          "id": "1722264444322111488",
+          "start": 3,
+          "username": "hntrbrkmedia"
+        }
+      ]
+    },
+    "cashtags": [
+      "QCOM"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2077163050495623497",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2077163050495623497",
+    "created_at": "Tue Jul 14 22:47:17 +0000 2026",
+    "text": "@SixSigmaCapital It is expected to happen on July 27.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 2,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1445,
+    "bookmark_count": 0,
+    "conversation_id": "2077161903718334759",
+    "is_reply": true,
+    "in_reply_to_id": "2077162573988774302",
+    "in_reply_to_username": "SixSigmaCapital",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "1047836007037468672",
+          "start": 0,
+          "username": "SixSigmaCapital"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2077161903718334759",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2077161903718334759",
+    "created_at": "Tue Jul 14 22:42:44 +0000 2026",
+    "text": "🔥🔥🔥 CXMT’s STAR Market IPO: There will be no daily price limit for the first five trading days after listing. The usual ±20% limit will apply starting from the sixth trading day.\n\nOh shit, it’s time to witness the full madness of Chinese retail investors. https://t.co/13OboNQSJw",
+    "text_source": "text",
+    "text_may_be_truncated": true,
+    "lang": "en",
+    "like_count": 186,
+    "retweet_count": 6,
+    "reply_count": 43,
+    "quote_count": 2,
+    "view_count": 33447,
+    "bookmark_count": 42,
+    "conversation_id": "2077161903718334759",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2077026781438279826",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/zephyr_z9/stat…",
+          "end": 279,
+          "expanded_url": "https://twitter.com/zephyr_z9/status/2077026781438279826",
+          "start": 256,
+          "url": "https://t.co/13OboNQSJw"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2077159551749836807",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2077159551749836807",
+    "created_at": "Tue Jul 14 22:33:23 +0000 2026",
+    "text": "https://t.co/gSkmVQlkgd",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 8,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 7924,
+    "bookmark_count": 4,
+    "conversation_id": "2077159549367402655",
+    "is_reply": true,
+    "in_reply_to_id": "2077159549367402655",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "台積電前技術研發暨企業策略發展資深副總經理羅唯仁，疑似在退休前利用職權帶走2奈米、A14、A16等先進製程影印資料，並「帶槍投靠」老東家英特爾，引發檢調搜索。工研院於歷任院士介紹中，已移除羅唯仁的個人頁面、介紹以及授證照片。​羅唯仁家中查出台積電機密？​檢調日前前往羅唯仁位於台北市及竹北的住居所執行搜索，查扣電腦、隨身碟及多箱文件，清查後發現其中有大批為台積......",
+          "display_url": "tw.news.yahoo.com/%E6%8B%94%E9%9…",
+          "end": 23,
+          "expanded_url": "https://tw.news.yahoo.com/%E6%8B%94%E9%99%A4%E5%8F%9B%E5%B0%87-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%89%8D%E9%AB%98%E5%B1%A4%E7%BE%85%E5%94%AF%E4%BB%81%E7%96%91-%E5%B8%B6%E6%A7%8D%E6%8A%95%E9%9D%A0-%E8%8B%B1%E7%89%B9%E7%88%BE-%E5%B7%A5%E7%A0%94%E9%99%A2%E5%88%AA%E5%85%89%E5%80%8B%E4%BA%BA%E7%B0%A1%E4%BB%8B-114915249.html",
+          "images": [
+            {
+              "height": 675,
+              "url": "https://pbs.twimg.com/news_img/2077159556485103616/ZvE3bFUn?format=jpg&name=orig",
+              "width": 1200
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2077159556485103616/ZvE3bFUn?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "拔除叛將！台積電前高層羅唯仁疑「帶槍投靠」英特爾 工研院刪光個人簡介",
+          "unwound_url": "https://tw.news.yahoo.com/%E6%8B%94%E9%99%A4%E5%8F%9B%E5%B0%87-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%89%8D%E9%AB%98%E5%B1%A4%E7%BE%85%E5%94%AF%E4%BB%81%E7%96%91-%E5%B8%B6%E6%A7%8D%E6%8A%95%E9%9D%A0-%E8%8B%B1%E7%89%B9%E7%88%BE-%E5%B7%A5%E7%A0%94%E9%99%A2%E5%88%AA%E5%85%89%E5%80%8B%E4%BA%BA%E7%B0%A1%E4%BB%8B-114915249.html",
+          "url": "https://t.co/gSkmVQlkgd"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2077159549367402655",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2077159549367402655",
+    "created_at": "Tue Jul 14 22:33:22 +0000 2026",
+    "text": "LMAO, Wei-Jen Lo, the TSMC legend who defected to Intel, has apparently been subjected to damnatio memoriae. https://t.co/TUGEr4IM1b",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 117,
+    "retweet_count": 6,
+    "reply_count": 45,
+    "quote_count": 3,
+    "view_count": 26077,
+    "bookmark_count": 21,
+    "conversation_id": "2077159549367402655",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/TUGEr4IM1b",
+          "end": 132,
+          "expanded_url": "https://x.com/jukan05/status/2077159549367402655/photo/1",
+          "media_key": "3_2077159315820146688",
+          "start": 109,
+          "url": "https://t.co/TUGEr4IM1b"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2077159315820146688",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNONZHlacAAx3_R.jpg",
+        "width": 1536,
+        "height": 1462,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2076968832502292950",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2076968832502292950",

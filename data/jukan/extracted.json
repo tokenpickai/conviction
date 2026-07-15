@@ -45830,5 +45830,25 @@
     "prompt_version": "extract-v2",
     "extracted_at": "2026-07-14T03:38:56.622887+00:00",
     "prefilter_skipped": true
+  },
+  "2077173634196705592": {
+    "tweet_id": "2077173634196705592",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-15T00:08:10.785364+00:00",
+    "prefilter_skipped": true
+  },
+  "2077163050495623497": {
+    "tweet_id": "2077163050495623497",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-15T00:08:10.785382+00:00",
+    "prefilter_skipped": true
   }
 }
