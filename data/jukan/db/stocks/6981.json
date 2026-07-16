@@ -292,5 +292,7 @@
     }
   ],
   "price_series": [],
-  "price_status": "pending"
+  "price_status": "not_covered",
+  "price_unit": "JPY",
+  "price_updated_at": "2026-07-16T21:39:20.094236+00:00"
 }
