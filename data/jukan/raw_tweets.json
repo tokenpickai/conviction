@@ -1,5 +1,254 @@
 [
   {
+    "tweet_id": "2077760386787598518",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2077760386787598518",
+    "created_at": "Thu Jul 16 14:20:53 +0000 2026",
+    "text": "@babybluecream 아직 잘 모르겠네요",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ko",
+    "like_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 376,
+    "bookmark_count": 0,
+    "conversation_id": "2077750388196004163",
+    "is_reply": true,
+    "in_reply_to_id": "2077760229937402259",
+    "in_reply_to_username": "babybluecream",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 14,
+          "id": "1336521079494303744",
+          "start": 0,
+          "username": "babybluecream"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2077750388196004163",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2077750388196004163",
+    "created_at": "Thu Jul 16 13:41:09 +0000 2026",
+    "text": "Kimi K3! https://t.co/HZNhpXqoik",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "tr",
+    "like_count": 111,
+    "retweet_count": 6,
+    "reply_count": 18,
+    "quote_count": 5,
+    "view_count": 30775,
+    "bookmark_count": 6,
+    "conversation_id": "2077750388196004163",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/HZNhpXqoik",
+          "end": 32,
+          "expanded_url": "https://x.com/jukan05/status/2077750388196004163/photo/1",
+          "media_key": "3_2077750383242604544",
+          "start": 9,
+          "url": "https://t.co/HZNhpXqoik"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2077750383242604544",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNWm9xUbcAAKR_B.jpg",
+        "width": 1320,
+        "height": 2868,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2077742084233253058",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2077742084233253058",
+    "created_at": "Thu Jul 16 13:08:10 +0000 2026",
+    "text": "@bdsqlsz 😍",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 10,
+    "retweet_count": 0,
+    "reply_count": 3,
+    "quote_count": 1,
+    "view_count": 6443,
+    "bookmark_count": 0,
+    "conversation_id": "2077633098695717060",
+    "is_reply": true,
+    "in_reply_to_id": "2077633098695717060",
+    "in_reply_to_username": "bdsqlsz",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 8,
+          "id": "3821540542",
+          "start": 0,
+          "username": "bdsqlsz"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2077735115552383207",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2077735115552383207",
+    "created_at": "Thu Jul 16 12:40:28 +0000 2026",
+    "text": "@1991Wolfpack @epictrades1 @OptionsMike @markflowchatter @Mr_Derivatives @ZaStocks @AIStockSavvy @EhrmantrautCap_ @CrankyRicky @KirasEpicTrades @qcapital2020 @brent_e_trader @BlacklionCTA @RJCcapital @EdgeCGroup @bill_baruch 🫡",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 16,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 8914,
+    "bookmark_count": 2,
+    "conversation_id": "2077730196007145540",
+    "is_reply": true,
+    "in_reply_to_id": "2077730196007145540",
+    "in_reply_to_username": "1991Wolfpack",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "920395461650870273",
+          "start": 0,
+          "username": "1991Wolfpack"
+        },
+        {
+          "end": 26,
+          "id": "1304655846979272705",
+          "start": 14,
+          "username": "epictrades1"
+        },
+        {
+          "end": 39,
+          "id": "3376824064",
+          "start": 27,
+          "username": "OptionsMike"
+        },
+        {
+          "end": 56,
+          "id": "62562916",
+          "start": 40,
+          "username": "markflowchatter"
+        },
+        {
+          "end": 72,
+          "id": "958217615545049090",
+          "start": 57,
+          "username": "Mr_Derivatives"
+        },
+        {
+          "end": 82,
+          "id": "1343351540166369280",
+          "start": 73,
+          "username": "ZaStocks"
+        },
+        {
+          "end": 96,
+          "id": "72858967",
+          "start": 83,
+          "username": "AIStockSavvy"
+        },
+        {
+          "end": 113,
+          "id": "1988572593557999616",
+          "start": 97,
+          "username": "EhrmantrautCap_"
+        },
+        {
+          "end": 126,
+          "id": "24828479",
+          "start": 114,
+          "username": "CrankyRicky"
+        },
+        {
+          "end": 143,
+          "id": "1340507993973133313",
+          "start": 127,
+          "username": "KirasEpicTrades"
+        },
+        {
+          "end": 157,
+          "id": "1068614035044622336",
+          "start": 144,
+          "username": "qcapital2020"
+        },
+        {
+          "end": 173,
+          "id": "1199013706367143936",
+          "start": 158,
+          "username": "brent_e_trader"
+        },
+        {
+          "end": 187,
+          "id": "958330053804351489",
+          "start": 174,
+          "username": "BlacklionCTA"
+        },
+        {
+          "end": 199,
+          "id": "1883251363179548672",
+          "start": 188,
+          "username": "RJCcapital"
+        },
+        {
+          "end": 211,
+          "id": "360008071",
+          "start": 200,
+          "username": "EdgeCGroup"
+        },
+        {
+          "end": 224,
+          "id": "411572481",
+          "start": 212,
+          "username": "bill_baruch"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2077720070919540999",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2077720070919540999",
