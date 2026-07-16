@@ -1,5 +1,357 @@
 [
   {
+    "tweet_id": "2077784594959725056",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2077784594959725056",
+    "created_at": "Thu Jul 16 15:57:05 +0000 2026",
+    "text": "My guess is we’re close to market bottom on semis from $INTC to $LITE.\n\nA good indicator is if everyone on $RDDT blew up their portfolios to $0. https://t.co/X1m9Yv1JuX",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 935,
+    "retweet_count": 38,
+    "reply_count": 172,
+    "quote_count": 13,
+    "view_count": 120715,
+    "bookmark_count": 136,
+    "conversation_id": "2077784594959725056",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 60,
+          "start": 55,
+          "tag": "INTC"
+        },
+        {
+          "end": 69,
+          "start": 64,
+          "tag": "LITE"
+        },
+        {
+          "end": 112,
+          "start": 107,
+          "tag": "RDDT"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/X1m9Yv1JuX",
+          "end": 168,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2077784594959725056/photo/1",
+          "media_key": "3_2077784586382446592",
+          "start": 145,
+          "url": "https://t.co/X1m9Yv1JuX"
+        },
+        {
+          "display_url": "pic.x.com/X1m9Yv1JuX",
+          "end": 168,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2077784594959725056/photo/1",
+          "media_key": "3_2077784586374037504",
+          "start": 145,
+          "url": "https://t.co/X1m9Yv1JuX"
+        },
+        {
+          "display_url": "pic.x.com/X1m9Yv1JuX",
+          "end": 168,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2077784594959725056/photo/1",
+          "media_key": "3_2077784586399203328",
+          "start": 145,
+          "url": "https://t.co/X1m9Yv1JuX"
+        },
+        {
+          "display_url": "pic.x.com/X1m9Yv1JuX",
+          "end": 168,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2077784594959725056/photo/1",
+          "media_key": "3_2077784586403381248",
+          "start": 145,
+          "url": "https://t.co/X1m9Yv1JuX"
+        }
+      ]
+    },
+    "cashtags": [
+      "INTC",
+      "LITE",
+      "RDDT"
+    ],
+    "media": [
+      {
+        "media_key": "3_2077784586382446592",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNXGEp8bkAAcdBb.jpg",
+        "width": 1156,
+        "height": 1535,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2077784586374037504",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNXGEp6bQAAeRWq.jpg",
+        "width": 1107,
+        "height": 1596,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2077784586399203328",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNXGEqAbQAAfu12.jpg",
+        "width": 1171,
+        "height": 1633,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2077784586403381248",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNXGEqBbAAAqeQZ.jpg",
+        "width": 1190,
+        "height": 1668,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2077779117114626132",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2077779117114626132",
+    "created_at": "Thu Jul 16 15:35:19 +0000 2026",
+    "text": "I’m not sure if you’re aware but the entire AI sector is dropping indiscriminately right now.\n\nA $1T company like Samsung is down -26% this month. $MRVL is down -31%.\n\nSo higher beta names tend to move a lot more like $AAOI and $SIVE with their 50% drops.\n\nBut recoveries tend to be a lot more volatile like $AEHR 50% single day gain after ER.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 112,
+    "retweet_count": 2,
+    "reply_count": 7,
+    "quote_count": 1,
+    "view_count": 9691,
+    "bookmark_count": 9,
+    "conversation_id": "2077768896061563339",
+    "is_reply": true,
+    "in_reply_to_id": "2077769885854183499",
+    "in_reply_to_username": "blkslymn",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 152,
+          "start": 147,
+          "tag": "MRVL"
+        },
+        {
+          "end": 223,
+          "start": 218,
+          "tag": "AAOI"
+        },
+        {
+          "end": 233,
+          "start": 228,
+          "tag": "SIVE"
+        },
+        {
+          "end": 313,
+          "start": 308,
+          "tag": "AEHR"
+        }
+      ]
+    },
+    "cashtags": [
+      "MRVL",
+      "AAOI",
+      "SIVE",
+      "AEHR"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2077775453604176247",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2077775453604176247",
+    "created_at": "Thu Jul 16 15:20:45 +0000 2026",
+    "text": "Morgan Stanley listed $SIVE as the three core CPO laser players alongside $LITE and $COHR in their note 3 days ago.\n\nFidelity Research, JP Morgan and others have started to take active positions. They recently raised an oversubscribed institutional round at 57 SEK. \n\nThis is all ahead of US NASDAQ listing. \n\nI personally see short term liquidity disconnects relative to forward revenue around now and I'm sure institutions are capitalizing on it.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 125,
+    "retweet_count": 12,
+    "reply_count": 9,
+    "quote_count": 4,
+    "view_count": 15232,
+    "bookmark_count": 14,
+    "conversation_id": "2077768896061563339",
+    "is_reply": true,
+    "in_reply_to_id": "2077772247352098889",
+    "in_reply_to_username": "afasano23",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 27,
+          "start": 22,
+          "tag": "SIVE"
+        },
+        {
+          "end": 79,
+          "start": 74,
+          "tag": "LITE"
+        },
+        {
+          "end": 89,
+          "start": 84,
+          "tag": "COHR"
+        }
+      ]
+    },
+    "cashtags": [
+      "SIVE",
+      "LITE",
+      "COHR"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2077773622513643592",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2077773622513643592",
+    "created_at": "Thu Jul 16 15:13:29 +0000 2026",
+    "text": "I think people tend to forget that $LITE went from a $3B valuation to $60B+ in 2 years time from owning the EML chokepoint. \n\nThis was before the 9x TAM expansion to ~$154B per GS by H2 2028. \n\n$SIVE has the opportunity to dominate the next CW chokepoint with 1.6T and CPO. \n\nAnd it's sitting at ~$1.1B now.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 139,
+    "retweet_count": 11,
+    "reply_count": 5,
+    "quote_count": 0,
+    "view_count": 11144,
+    "bookmark_count": 17,
+    "conversation_id": "2077768896061563339",
+    "is_reply": true,
+    "in_reply_to_id": "2077771619594903978",
+    "in_reply_to_username": "CArgyres29810",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 40,
+          "start": 35,
+          "tag": "LITE"
+        },
+        {
+          "end": 199,
+          "start": 194,
+          "tag": "SIVE"
+        }
+      ]
+    },
+    "cashtags": [
+      "LITE",
+      "SIVE"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2077768896061563339",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2077768896061563339",
+    "created_at": "Thu Jul 16 14:54:42 +0000 2026",
+    "text": "Lot of people were curious about $SIVE capacity volume ramp modeling through fab-light (Win Semi + others):\n\nUsing 10% of Win's wafer capacity as a low-end allocation (65% yield assumption, $50-$75 ASP):\n\nSivers would support $341-$512M worth of annual array revenue. Given upper end of managements 50-60%+ gross margin target, would be roughly:\n\n$205–307M of annual gross profit.\n\nAgainst Sivers current ~$1.1B MC, would be ~:\n\n3.6–5.4× MC/gross profit if this capacity scenario plays out in 2028.  \n\nAnd at 15% would be $307–461M in gross profit (2.4–3.6× MC/gross profit)\n\nSivers CEO also replied that they're working with more fabs for capacity. And from an older deck, there looks to be more qualifications since 2024.  \n\nSo capacity targets might be larger than what's stated here as CPO takes off. \n\nI also expect to see revenue pipeline projections hiked in future quarters, as more qualification suppliers to into HVM. \n_\n\nAs for demand side, CW also happens to be very bottlenecked. \n\nLumentum are buying CW off the open market due to EML obligations from their ER transcript. \n\nAnd $AMD are signing LTAs to secure CW capacity (from Trendforce). So when Sivers is ramping with $GFS, $JBL, Ayar, $POET, O-NET and others... \n\nGiven the current constraints, it's highly likely any  independent qualified capacity that comes online would be absorbed.  \n\nAnd as a cherry on top, Morgan Stanley named $SIVE (~$1.1B) as one of the three leading CPO laser players .\n\nAlongside $55B+ players Coherent and Lumentum in their recent note for a reason...\n\n_\n\nTLDR: Sivers only needs a low end allocation from Win to make substantial gross income relative to current valuations. \n\nI think the largest revenue upside that isn't modeled in if they TAM expansion with M&A after US NASDAQ listing. \n\nBy copying the Lumentum playbook with Cloud Light to build out entire transceiver modules or with optical engines.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 677,
+    "retweet_count": 49,
+    "reply_count": 185,
+    "quote_count": 10,
+    "view_count": 208209,
+    "bookmark_count": 168,
+    "conversation_id": "2077768896061563339",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2077427816870646183",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 38,
+          "start": 33,
+          "tag": "SIVE"
+        },
+        {
+          "end": 1097,
+          "start": 1093,
+          "tag": "AMD"
+        },
+        {
+          "end": 1191,
+          "start": 1187,
+          "tag": "GFS"
+        },
+        {
+          "end": 1197,
+          "start": 1193,
+          "tag": "JBL"
+        },
+        {
+          "end": 1210,
+          "start": 1205,
+          "tag": "POET"
+        },
+        {
+          "end": 1410,
+          "start": 1405,
+          "tag": "SIVE"
+        }
+      ]
+    },
+    "cashtags": [
+      "SIVE",
+      "AMD",
+      "GFS",
+      "JBL",
+      "POET",
+      "SIVE"
+    ],
+    "media": [
+      {
+        "media_key": "3_2077750471687843840",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNWnC6zasAAeC8R.png",
+        "width": 2056,
+        "height": 773,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2077750556131782656",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNWnH1Ya8AAVTJ4.jpg",
+        "width": 957,
+        "height": 1188,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2077756721293037626",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2077756721293037626",

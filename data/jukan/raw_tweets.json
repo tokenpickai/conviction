@@ -1,5 +1,80 @@
 [
   {
+    "tweet_id": "2077774972769157597",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2077774972769157597",
+    "created_at": "Thu Jul 16 15:18:51 +0000 2026",
+    "text": "I think I need to take out a loan. https://t.co/hoYHv36RKl",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 538,
+    "retweet_count": 12,
+    "reply_count": 47,
+    "quote_count": 1,
+    "view_count": 81672,
+    "bookmark_count": 53,
+    "conversation_id": "2077774972769157597",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2077770282362610028",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/gavinsbaker/st…",
+          "end": 58,
+          "expanded_url": "https://twitter.com/gavinsbaker/status/2077770282362610028",
+          "start": 35,
+          "url": "https://t.co/hoYHv36RKl"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2077774816963342347",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2077774816963342347",
+    "created_at": "Thu Jul 16 15:18:14 +0000 2026",
+    "text": "RT @GavinSBaker: Risk/reward seems attractive again.\n\nLots of cheap stocks with durable competitive advantages that are going to crush numb…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 190,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 4749,
+    "bookmark_count": 0,
+    "conversation_id": "2077774816963342347",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2077770282362610028",
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "340387261",
+          "start": 3,
+          "username": "GavinSBaker"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2077760386787598518",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2077760386787598518",
