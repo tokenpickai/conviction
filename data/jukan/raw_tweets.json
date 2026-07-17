@@ -1,5 +1,342 @@
 [
   {
+    "tweet_id": "2078105276922880263",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2078105276922880263",
+    "created_at": "Fri Jul 17 13:11:22 +0000 2026",
+    "text": "RT @dylan522p: @AnikaSomaia @SemiAnalysis_ Kimi is amazing\nWhat they did with an extremely talented small team, strong research in RL, arch…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 23,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 4372,
+    "bookmark_count": 0,
+    "conversation_id": "2078105276922880263",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2078084636719435959",
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "985281530070265862",
+          "start": 3,
+          "username": "dylan522p"
+        },
+        {
+          "end": 27,
+          "id": "1824887771653427200",
+          "start": 15,
+          "username": "AnikaSomaia"
+        },
+        {
+          "end": 42,
+          "id": "1745106082790318080",
+          "start": 28,
+          "username": "SemiAnalysis_"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078105227669250216",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078105227669250216",
+    "created_at": "Fri Jul 17 13:11:10 +0000 2026",
+    "text": "@Alisvolatprop12 TSMC가 NYSE에 있어서 NASDAQ100에 못들어가는데...삼성이 갈까요?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ko",
+    "like_count": 6,
+    "retweet_count": 1,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 1665,
+    "bookmark_count": 0,
+    "conversation_id": "2078104566462333087",
+    "is_reply": true,
+    "in_reply_to_id": "2078104950857666843",
+    "in_reply_to_username": "Alisvolatprop12",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "1306828661337718784",
+          "start": 0,
+          "username": "Alisvolatprop12"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078101610551804326",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078101610551804326",
+    "created_at": "Fri Jul 17 12:56:47 +0000 2026",
+    "text": "@Midnight_Captl I said this because I saw someone claim, out of nowhere, that hyperscalers would benefit enormously from Chinese LLMs—and even that they would do just fine without OpenAI or Anthropic. It was an absurd argument.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 28,
+    "retweet_count": 1,
+    "reply_count": 5,
+    "quote_count": 0,
+    "view_count": 3686,
+    "bookmark_count": 4,
+    "conversation_id": "2078099214954082802",
+    "is_reply": true,
+    "in_reply_to_id": "2078101179888795657",
+    "in_reply_to_username": "Midnight_Captl",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1699557900379992064",
+          "start": 0,
+          "username": "Midnight_Captl"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078100020293927069",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078100020293927069",
+    "created_at": "Fri Jul 17 12:50:28 +0000 2026",
+    "text": "@Mojo_flyin I’m not dismissing their achievements as mere distillation. But without distillation, they would not have been able to achieve this level of performance.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 33,
+    "retweet_count": 0,
+    "reply_count": 4,
+    "quote_count": 1,
+    "view_count": 3132,
+    "bookmark_count": 0,
+    "conversation_id": "2078099214954082802",
+    "is_reply": true,
+    "in_reply_to_id": "2078099589182492884",
+    "in_reply_to_username": "Mojo_flyin",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 11,
+          "id": "57623453",
+          "start": 0,
+          "username": "Mojo_flyin"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078099214954082802",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2078099214954082802",
+    "created_at": "Fri Jul 17 12:47:16 +0000 2026",
+    "text": "All of these debates ultimately boil down to one point.\n\nIf the money flowing into OpenAI and Anthropic dries up, this entire investment cycle will eventually grind to a halt.\n\nIf OpenAI and Anthropic can no longer produce frontier, state-of-the-art models, the Chinese open-source models that distill them will stagnate as well. Do you see, then, how naive it is to claim that hyperscalers can simply take Chinese open-source LLMs and resell access to them through APIs?\n\nWe have already boarded a train we cannot get off—one that leaves us no choice but to keep pouring money into OpenAI and Anthropic as it races forward.\n\nUltimately, someone has to buy vast numbers of GPUs and build AI the expensive, inefficient way—not the Chinese way.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 532,
+    "retweet_count": 40,
+    "reply_count": 91,
+    "quote_count": 10,
+    "view_count": 76821,
+    "bookmark_count": 120,
+    "conversation_id": "2078099214954082802",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2078097775234040079",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 293,
+          "expanded_url": "https://twitter.com/jukan05/status/2078097775234040079",
+          "start": 270,
+          "url": "https://t.co/KcgRnE6X3w"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078097775234040079",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078097775234040079",
+    "created_at": "Fri Jul 17 12:41:33 +0000 2026",
+    "text": "If the money flowing into OpenAI and Anthropic dries up, this entire investment cycle will eventually grind to a halt.\n\nIf OpenAI and Anthropic can no longer produce frontier, state-of-the-art models, the Chinese open-source models that distill them will stagnate as well. We have already boarded a train we cannot get off—one that forces us to keep pouring money into OpenAI and Anthropic just to keep it moving.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 73,
+    "retweet_count": 7,
+    "reply_count": 8,
+    "quote_count": 1,
+    "view_count": 75368,
+    "bookmark_count": 15,
+    "conversation_id": "2078094737630986513",
+    "is_reply": true,
+    "in_reply_to_id": "2078097116161773964",
+    "in_reply_to_username": "StreetSignal__",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1412771047",
+          "start": 0,
+          "username": "StreetSignal__"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078096865019691391",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078096865019691391",
+    "created_at": "Fri Jul 17 12:37:56 +0000 2026",
+    "text": "The idea that hyperscalers will benefit is also a bit laughable. Isn’t roughly half of their capex being spent to support OpenAI and Anthropic? Will the profits they earn from serving Chinese open-source models via API really outweigh their equity investments in and capex commitments to OpenAI and Anthropic?",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 22,
+    "retweet_count": 0,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 5186,
+    "bookmark_count": 3,
+    "conversation_id": "2078094737630986513",
+    "is_reply": true,
+    "in_reply_to_id": "2078095168381563240",
+    "in_reply_to_username": "StreetSignal__",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1412771047",
+          "start": 0,
+          "username": "StreetSignal__"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078094737630986513",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2078094737630986513",
+    "created_at": "Fri Jul 17 12:29:29 +0000 2026",
+    "text": "Anyone loudly touting how much cheaper Kimi K3 is than Western LLMs is deliberately ignoring how much more expensive it has become compared with previous Chinese LLMs.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 554,
+    "retweet_count": 18,
+    "reply_count": 58,
+    "quote_count": 6,
+    "view_count": 63778,
+    "bookmark_count": 32,
+    "conversation_id": "2078094737630986513",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078091086199963982",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2078091086199963982",
+    "created_at": "Fri Jul 17 12:14:58 +0000 2026",
+    "text": "RT @SouthernValue95: Few thoughts as AI selloff deepens:\n- Positioning / valuations were stretched, correction was due\n- Not much (anything…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 17,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 5724,
+    "bookmark_count": 0,
+    "conversation_id": "2078091086199963982",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2077948890439913500",
+    "entities": {
+      "mentions": [
+        {
+          "end": 19,
+          "id": "1142421861176942592",
+          "start": 3,
+          "username": "SouthernValue95"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2078058081259585665",
     "kind": "self_thread",
     "url": "https://x.com/jukan05/status/2078058081259585665",
