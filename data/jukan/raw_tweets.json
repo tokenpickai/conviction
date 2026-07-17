@@ -1,5 +1,42 @@
 [
   {
+    "tweet_id": "2078026364851265650",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078026364851265650",
+    "created_at": "Fri Jul 17 07:57:47 +0000 2026",
+    "text": "@phobiaphilia 내가 Shitpost올리는 것도 네 허락받아야함?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ko",
+    "like_count": 12,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 3643,
+    "bookmark_count": 0,
+    "conversation_id": "2078025826965336568",
+    "is_reply": true,
+    "in_reply_to_id": "2078025826965336568",
+    "in_reply_to_username": "phobiaphilia",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "1874285006",
+          "start": 0,
+          "username": "phobiaphilia"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2077975490716111347",
     "kind": "self_thread",
     "url": "https://x.com/jukan05/status/2077975490716111347",
