@@ -1,5 +1,80 @@
 [
   {
+    "tweet_id": "2078175882620059719",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2078175882620059719",
+    "created_at": "Fri Jul 17 17:51:55 +0000 2026",
+    "text": "$META in talks to lease compute to Anthropic in a $10B dollar deal.\n\nSeems like they saw how profitable \n$SPCX $45B compute deal was.\n\nBut just goes to validate Neocloud business models like $NBIS, $IREN, and co if hyperscalers are copying their homework.\n\nSource: NYT https://t.co/3Mu3UXQtFT",
+    "text_source": "text",
+    "text_may_be_truncated": true,
+    "lang": "en",
+    "like_count": 530,
+    "retweet_count": 30,
+    "reply_count": 202,
+    "quote_count": 7,
+    "view_count": 95922,
+    "bookmark_count": 45,
+    "conversation_id": "2078175882620059719",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 5,
+          "start": 0,
+          "tag": "META"
+        },
+        {
+          "end": 110,
+          "start": 105,
+          "tag": "SPCX"
+        },
+        {
+          "end": 196,
+          "start": 191,
+          "tag": "NBIS"
+        },
+        {
+          "end": 203,
+          "start": 198,
+          "tag": "IREN"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/3Mu3UXQtFT",
+          "end": 292,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2078175882620059719/photo/1",
+          "media_key": "3_2078175879474339840",
+          "start": 269,
+          "url": "https://t.co/3Mu3UXQtFT"
+        }
+      ]
+    },
+    "cashtags": [
+      "META",
+      "SPCX",
+      "NBIS",
+      "IREN"
+    ],
+    "media": [
+      {
+        "media_key": "3_2078175879474339840",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNcp86TaYAAiitI.jpg",
+        "width": 1260,
+        "height": 736,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2078161322769068533",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2078161322769068533",
