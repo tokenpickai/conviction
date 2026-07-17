@@ -1,5 +1,108 @@
 [
   {
+    "tweet_id": "2078161322769068533",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2078161322769068533",
+    "created_at": "Fri Jul 17 16:54:04 +0000 2026",
+    "text": "Wow, apparently there’s claims ~3.4% of the adult population in Korea faces liquidation risk?\n\n“As of July 13, over 1.2 million leveraged retail traders' accounts hit margin call lines, with 320,000 to 360,000 accounts force-liquidated by brokers.”\n\n(There were other sources claiming this data came from Goldman Sachs desks rather than SK financial supervisory service data)\n\nRegardless, just evidence recent crash was accelerated by liquidation cascades/deleveraging rather than fundamentals:",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 381,
+    "retweet_count": 22,
+    "reply_count": 229,
+    "quote_count": 5,
+    "view_count": 71488,
+    "bookmark_count": 49,
+    "conversation_id": "2078161322769068533",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/qsMfEOm6qu",
+          "end": 299,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2078161322769068533/photo/1",
+          "media_key": "3_2078161318658666496",
+          "start": 276,
+          "url": "https://t.co/qsMfEOm6qu"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2078161318658666496",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNcctXCbcAA5E9i.jpg",
+        "width": 1218,
+        "height": 597,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2078150537074373117",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2078150537074373117",
+    "created_at": "Fri Jul 17 16:11:12 +0000 2026",
+    "text": "Feels bad, -49.4% drawdown this month after the recent crash.\n\nMy portfolio is mainly AI chokepoints and bottlenecks. \n\nIn the memory, photonics, robotics, and upstream semis, (on margin) which all tend to be higher beta than others. But reduced leverage recently from the crash.\n\nI see a lot of people making fun of the drop or AI names, saying it’s obvious that:\n\n- “AI is a bubble”\n- “memory/kospi is a bubble”\n- “photonics is a bubble”\n- “humanoids won’t get anywhere”\n- “neoclouds will get replaced by hyperscalers like Meta”\n\nAnd a bunch of retail + bots saying “sell everything, it’s never going to recover”.\n\nBut I have conviction that all these themes are backed by structural revenue growth or technological shifts.\n\nAnd I’ve had similar drawdowns back when there admin threatened global tariffs, before markets pulled off a recovery.\n\nI personally have a longer horizon + higher tolerance for volatility than others, to see how this plays out.\n\nEspecially considering a lot of retail view things on a week to week basis: no, my thesis isn’t wrong yet if I project revenue inflection in H2 2027 and it’s 2026 now. \n\nAnyway, feels bad short term just wanted to share anyway for transparency.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 2713,
+    "retweet_count": 75,
+    "reply_count": 487,
+    "quote_count": 50,
+    "view_count": 305381,
+    "bookmark_count": 351,
+    "conversation_id": "2078150537074373117",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2078130772121399553",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/fVpe36QHJC",
+          "end": 303,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2078150537074373117/photo/1",
+          "media_key": "3_2078150532791988225",
+          "start": 280,
+          "url": "https://t.co/fVpe36QHJC"
+        },
+        {
+          "display_url": "x.com/aleabitoreddit…",
+          "end": 327,
+          "expanded_url": "https://twitter.com/aleabitoreddit/status/2078130772121399553",
+          "start": 304,
+          "url": "https://t.co/S8sCF8BrpF"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2078150532791988225",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNcS5ija8AEhfg7.jpg",
+        "width": 1234,
+        "height": 804,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2078139584123482249",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2078139584123482249",
