@@ -1,5 +1,51 @@
 [
   {
+    "tweet_id": "2077999291856273873",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2077999291856273873",
+    "created_at": "Fri Jul 17 06:10:13 +0000 2026",
+    "text": "@babybluecream Yeah, my $EWY longs crashed quite a bit. \n\nI still think the operating income that SK Hynix and Samsung produces will catch up to the MC eventually, so I’m holding my memory positions.\n\nRegardless, not a fun time to watch Asian markets from Nikkei to Taiwan to Kospi drop so much.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 44,
+    "retweet_count": 3,
+    "reply_count": 4,
+    "quote_count": 1,
+    "view_count": 4583,
+    "bookmark_count": 6,
+    "conversation_id": "2077955479742173422",
+    "is_reply": true,
+    "in_reply_to_id": "2077990403605946466",
+    "in_reply_to_username": "babybluecream",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 28,
+          "start": 24,
+          "tag": "EWY"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 14,
+          "id": "1336521079494303744",
+          "start": 0,
+          "username": "babybluecream"
+        }
+      ]
+    },
+    "cashtags": [
+      "EWY"
+    ],
+    "media": []
+  },
+  {
     "tweet_id": "2077955479742173422",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2077955479742173422",
