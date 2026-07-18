@@ -1,5 +1,96 @@
 [
   {
+    "tweet_id": "2078424259802923168",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078424259802923168",
+    "created_at": "Sat Jul 18 10:18:53 +0000 2026",
+    "text": "@BillyM2k no",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "und",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 526,
+    "bookmark_count": 0,
+    "conversation_id": "2078370255123120346",
+    "is_reply": true,
+    "in_reply_to_id": "2078370255123120346",
+    "in_reply_to_username": "BillyM2k",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 9,
+          "id": "30699048",
+          "start": 0,
+          "username": "BillyM2k"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078418287155925274",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2078418287155925274",
+    "created_at": "Sat Jul 18 09:55:09 +0000 2026",
+    "text": "According to mainland Chinese media reports, Kimi has informed investors that it is adjusting its corporate structure in preparation for a Hong Kong IPO, which could be completed in as little as six months.\n\nhttps://t.co/bs6nbPxvyt",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 102,
+    "retweet_count": 11,
+    "reply_count": 5,
+    "quote_count": 3,
+    "view_count": 24087,
+    "bookmark_count": 16,
+    "conversation_id": "2078418287155925274",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "独家|KimiK3震荡美股，有望最快6个月内港股上市,7月17日月之暗面宣布最强模型KimiK3，参数2.8万亿成全球最大开源模型，在权威测试夺冠，Kimi融资超370亿，正筹备赴港IPO。",
+          "display_url": "news.pedaily.cn/202607/566512.…",
+          "end": 231,
+          "expanded_url": "https://news.pedaily.cn/202607/566512.shtml",
+          "images": [
+            {
+              "height": 400,
+              "url": "https://pbs.twimg.com/news_img/2078417453403815936/3QIQib_J?format=png&name=orig",
+              "width": 600
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2078417453403815936/3QIQib_J?format=png&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 208,
+          "status": 200,
+          "title": "独家| Kimi K3震荡美股，有望最快6个月内港股上市",
+          "unwound_url": "https://news.pedaily.cn/202607/566512.shtml",
+          "url": "https://t.co/bs6nbPxvyt"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2078385491062444401",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2078385491062444401",
