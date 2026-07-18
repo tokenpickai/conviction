@@ -1,5 +1,96 @@
 [
   {
+    "tweet_id": "2078385491062444401",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2078385491062444401",
+    "created_at": "Sat Jul 18 07:44:50 +0000 2026",
+    "text": "Either way, glass substrates represent an inevitable future. https://t.co/wqvZwRexqk",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 150,
+    "retweet_count": 17,
+    "reply_count": 3,
+    "quote_count": 4,
+    "view_count": 19454,
+    "bookmark_count": 58,
+    "conversation_id": "2078385491062444401",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/wqvZwRexqk",
+          "end": 84,
+          "expanded_url": "https://x.com/jukan05/status/2078385491062444401/photo/1",
+          "media_key": "3_2078385224854200320",
+          "start": 61,
+          "url": "https://t.co/wqvZwRexqk"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2078385224854200320",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNfoWana4AAvxsg.png",
+        "width": 860,
+        "height": 484,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2078372365059473685",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2078372365059473685",
+    "created_at": "Sat Jul 18 06:52:40 +0000 2026",
+    "text": "RT @yzhang_cs: @mark_k but quite the opposite, i'd say kimi is every bit as much a true believer in scaling laws as A\\, arguably more so th…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 11,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 4810,
+    "bookmark_count": 0,
+    "conversation_id": "2078372365059473685",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2078200857745862839",
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "1629698842647203841",
+          "start": 3,
+          "username": "yzhang_cs"
+        },
+        {
+          "end": 22,
+          "id": "8721292",
+          "start": 15,
+          "username": "mark_k"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2078337229131489530",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2078337229131489530",
