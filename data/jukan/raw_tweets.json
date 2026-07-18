@@ -1,5 +1,85 @@
 [
   {
+    "tweet_id": "2078493243143258275",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078493243143258275",
+    "created_at": "Sat Jul 18 14:53:00 +0000 2026",
+    "text": "@Kuro_Onroad 🫡",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 650,
+    "bookmark_count": 0,
+    "conversation_id": "2078477388409704789",
+    "is_reply": true,
+    "in_reply_to_id": "2078477388409704789",
+    "in_reply_to_username": "Kuro_Onroad",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "2075151495495086080",
+          "start": 0,
+          "username": "Kuro_Onroad"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078492220219699280",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078492220219699280",
+    "created_at": "Sat Jul 18 14:48:56 +0000 2026",
+    "text": "@MarkosAAIG @zephyr_z9 Please read through all the threads.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 936,
+    "bookmark_count": 0,
+    "conversation_id": "2078462124486283755",
+    "is_reply": true,
+    "in_reply_to_id": "2078488659821752821",
+    "in_reply_to_username": "MarkosAAIG",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 11,
+          "id": "1679886803967287298",
+          "start": 0,
+          "username": "MarkosAAIG"
+        },
+        {
+          "end": 22,
+          "id": "1695126229446479872",
+          "start": 12,
+          "username": "zephyr_z9"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2078477551610265940",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2078477551610265940",
