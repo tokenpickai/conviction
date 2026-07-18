@@ -1,5 +1,451 @@
 [
   {
+    "tweet_id": "2078321108479312068",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078321108479312068",
+    "created_at": "Sat Jul 18 03:29:00 +0000 2026",
+    "text": "@deanwball Anthropic should’ve hired you instead of Bernanke…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 310,
+    "bookmark_count": 0,
+    "conversation_id": "2078319631450963981",
+    "is_reply": true,
+    "in_reply_to_id": "2078320613492404597",
+    "in_reply_to_username": "deanwball",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "30557408",
+          "start": 0,
+          "username": "deanwball"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078320741968470348",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078320741968470348",
+    "created_at": "Sat Jul 18 03:27:32 +0000 2026",
+    "text": "@stocktalkweekly 🫡",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 423,
+    "bookmark_count": 0,
+    "conversation_id": "2078319631450963981",
+    "is_reply": true,
+    "in_reply_to_id": "2078319857624314039",
+    "in_reply_to_username": "stocktalkweekly",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "1289823541098143744",
+          "start": 0,
+          "username": "stocktalkweekly"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078320157173354865",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078320157173354865",
+    "created_at": "Sat Jul 18 03:25:13 +0000 2026",
+    "text": "@deanwball I’m jealous of how much you know.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 514,
+    "bookmark_count": 0,
+    "conversation_id": "2078319631450963981",
+    "is_reply": true,
+    "in_reply_to_id": "2078319848984039669",
+    "in_reply_to_username": "deanwball",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "30557408",
+          "start": 0,
+          "username": "deanwball"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078319631450963981",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2078319631450963981",
+    "created_at": "Sat Jul 18 03:23:08 +0000 2026",
+    "text": "It’s no exaggeration to say I come to X for exactly this kind of intellectual elitism. This is basically porn to me. https://t.co/el2LEklvAb",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 48,
+    "retweet_count": 3,
+    "reply_count": 4,
+    "quote_count": 0,
+    "view_count": 9294,
+    "bookmark_count": 19,
+    "conversation_id": "2078319631450963981",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2078133895766114412",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/deanwball/stat…",
+          "end": 140,
+          "expanded_url": "https://twitter.com/deanwball/status/2078133895766114412",
+          "start": 117,
+          "url": "https://t.co/el2LEklvAb"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078319005081932123",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078319005081932123",
+    "created_at": "Sat Jul 18 03:20:38 +0000 2026",
+    "text": "@deanwball Damn it, my Nietzsche has once again trampled me with his intellectually elite text.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 8,
+    "retweet_count": 1,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 934,
+    "bookmark_count": 1,
+    "conversation_id": "2078133895766114412",
+    "is_reply": true,
+    "in_reply_to_id": "2078133895766114412",
+    "in_reply_to_username": "deanwball",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "30557408",
+          "start": 0,
+          "username": "deanwball"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078313758636789856",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078313758636789856",
+    "created_at": "Sat Jul 18 02:59:47 +0000 2026",
+    "text": "@mweinbach 👏",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 3,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 880,
+    "bookmark_count": 0,
+    "conversation_id": "2078312035050217896",
+    "is_reply": true,
+    "in_reply_to_id": "2078312035050217896",
+    "in_reply_to_username": "mweinbach",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "3239896262",
+          "start": 0,
+          "username": "mweinbach"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078311660734013708",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078311660734013708",
+    "created_at": "Sat Jul 18 02:51:27 +0000 2026",
+    "text": "@teortaxesTex 🤣",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 5,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1532,
+    "bookmark_count": 0,
+    "conversation_id": "2078311225851625835",
+    "is_reply": true,
+    "in_reply_to_id": "2078311225851625835",
+    "in_reply_to_username": "teortaxesTex",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "192201556",
+          "start": 0,
+          "username": "teortaxesTex"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078311373390671904",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078311373390671904",
+    "created_at": "Sat Jul 18 02:50:19 +0000 2026",
+    "text": "@thsottiaux Thank you for your service. 🫡",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 20,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1787,
+    "bookmark_count": 0,
+    "conversation_id": "2078310751878647932",
+    "is_reply": true,
+    "in_reply_to_id": "2078310751878647932",
+    "in_reply_to_username": "thsottiaux",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 11,
+          "id": "1953337039510003712",
+          "start": 0,
+          "username": "thsottiaux"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078306746834338212",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2078306746834338212",
+    "created_at": "Sat Jul 18 02:31:56 +0000 2026",
+    "text": "RT @tphuang: WAIC 2026 is site of many SuperPoDs. HW unveiled Atlas-950 for the 1st time. Unlike its presentation last yr, this initial sal…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 16,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 4079,
+    "bookmark_count": 0,
+    "conversation_id": "2078306746834338212",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2078214742607331693",
+    "entities": {
+      "mentions": [
+        {
+          "end": 11,
+          "id": "43463961",
+          "start": 3,
+          "username": "tphuang"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078304422032269477",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2078304422032269477",
+    "created_at": "Sat Jul 18 02:22:41 +0000 2026",
+    "text": "LFG!! https://t.co/304S159LQX",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qst",
+    "like_count": 135,
+    "retweet_count": 1,
+    "reply_count": 9,
+    "quote_count": 0,
+    "view_count": 31011,
+    "bookmark_count": 13,
+    "conversation_id": "2078304422032269477",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2078302415804379218",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/claudeai/statu…",
+          "end": 29,
+          "expanded_url": "https://twitter.com/claudeai/status/2078302415804379218",
+          "start": 6,
+          "url": "https://t.co/304S159LQX"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078304175390413037",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2078304175390413037",
+    "created_at": "Sat Jul 18 02:21:43 +0000 2026",
+    "text": "RT @claudeai: Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits.\n\nPro and Team Standar…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 2194,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 3841,
+    "bookmark_count": 0,
+    "conversation_id": "2078304175390413037",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2078302415804379218",
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "1943306828697550848",
+          "start": 3,
+          "username": "claudeai"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078279770379596123",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2078279770379596123",
+    "created_at": "Sat Jul 18 00:44:44 +0000 2026",
+    "text": "RT @SemiAnalysis_: Similar to the panic over DeepSeek R1, some uneducated people think Kimi K3’s use of linear attention (KDA) is bad for N…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 200,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 4206,
+    "bookmark_count": 0,
+    "conversation_id": "2078279770379596123",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2078250693010309260",
+    "entities": {
+      "mentions": [
+        {
+          "end": 17,
+          "id": "1745106082790318080",
+          "start": 3,
+          "username": "SemiAnalysis_"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2078267312025800774",
     "kind": "self_thread",
     "url": "https://x.com/jukan05/status/2078267312025800774",
