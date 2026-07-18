@@ -1,5 +1,115 @@
 [
   {
+    "tweet_id": "2078267312025800774",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2078267312025800774",
+    "created_at": "Fri Jul 17 23:55:14 +0000 2026",
+    "text": "https://t.co/bkOtpzeUz4",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 4,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 2216,
+    "bookmark_count": 2,
+    "conversation_id": "2078267309354099042",
+    "is_reply": true,
+    "in_reply_to_id": "2078267309354099042",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "By Traders, for Traders. We find, parse, curate and deliver. Welcome to StreetSignal. Saving you time & getting you to the bottom line. Click to read StreetSignal: By Traders, for Traders, a Substack publication.",
+          "display_url": "streetsignal.substack.com",
+          "end": 23,
+          "expanded_url": "https://streetsignal.substack.com/",
+          "images": [
+            {
+              "height": 480,
+              "url": "https://pbs.twimg.com/news_img/2075746481978454016/1wiIOtlw?format=jpg&name=orig",
+              "width": 920
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2075746481978454016/1wiIOtlw?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "StreetSignal: By Traders, for Traders | Substack",
+          "unwound_url": "https://streetsignal.substack.com/",
+          "url": "https://t.co/bkOtpzeUz4"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078267309354099042",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2078267309354099042",
+    "created_at": "Fri Jul 17 23:55:13 +0000 2026",
+    "text": "I’d like to recommend a great Substack: @StreetSignal__. It’s a fantastic way to keep up with the markets every day—funny, yet insightful.\n\nThe link is below. https://t.co/P37CDO8cv4",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 40,
+    "retweet_count": 0,
+    "reply_count": 12,
+    "quote_count": 0,
+    "view_count": 8340,
+    "bookmark_count": 22,
+    "conversation_id": "2078267309354099042",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 55,
+          "id": "1412771047",
+          "start": 40,
+          "username": "StreetSignal__"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/P37CDO8cv4",
+          "end": 182,
+          "expanded_url": "https://x.com/jukan05/status/2078267309354099042/photo/1",
+          "media_key": "3_2078267230098493440",
+          "start": 159,
+          "url": "https://t.co/P37CDO8cv4"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2078267230098493440",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNd9CN5bEAAvqwP.jpg",
+        "width": 1286,
+        "height": 1372,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2078105276922880263",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2078105276922880263",

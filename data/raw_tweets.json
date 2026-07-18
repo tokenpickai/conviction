@@ -1,5 +1,107 @@
 [
   {
+    "tweet_id": "2078269277115727900",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2078269277115727900",
+    "created_at": "Sat Jul 18 00:03:02 +0000 2026",
+    "text": "The nice thing about X is seeing cultural differences:\n\nI get a bunch of sidelined European accounts up 2% YTD off bank saving interest.\n\nComing out of hibernation, and saying all along that investing in $AAOI for photonics or Samsung for memory is considered gambling.\n\nAnd celebrating when everything AI from $MRVL to $NBIS to $INTC finally had a crash after a few hundred percent rally.\n\nThink it’s mainly a lack of understanding of technological shifts mixed with capital preservation culture vs. growth.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 100,
+    "retweet_count": 1,
+    "reply_count": 40,
+    "quote_count": 2,
+    "view_count": 25469,
+    "bookmark_count": 5,
+    "conversation_id": "2078269277115727900",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2078229108845134149",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 209,
+          "start": 204,
+          "tag": "AAOI"
+        },
+        {
+          "end": 316,
+          "start": 311,
+          "tag": "MRVL"
+        },
+        {
+          "end": 325,
+          "start": 320,
+          "tag": "NBIS"
+        },
+        {
+          "end": 334,
+          "start": 329,
+          "tag": "INTC"
+        }
+      ]
+    },
+    "cashtags": [
+      "AAOI",
+      "MRVL",
+      "NBIS",
+      "INTC"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2078259660784910661",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2078259660784910661",
+    "created_at": "Fri Jul 17 23:24:49 +0000 2026",
+    "text": "@waynexonline $AAOI themselves gave a $471m / month estimate starting H2 2027.\n\nIf 800g gets revised up sharply across the board, that number might get hiked.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 25,
+    "retweet_count": 0,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 4620,
+    "bookmark_count": 5,
+    "conversation_id": "2078228019584668121",
+    "is_reply": true,
+    "in_reply_to_id": "2078239964383559837",
+    "in_reply_to_username": "waynexonline",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 19,
+          "start": 14,
+          "tag": "AAOI"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 13,
+          "id": "1764925228952784896",
+          "start": 0,
+          "username": "waynexonline"
+        }
+      ]
+    },
+    "cashtags": [
+      "AAOI"
+    ],
+    "media": []
+  },
+  {
     "tweet_id": "2078228019584668121",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2078228019584668121",
