@@ -1,5 +1,127 @@
 [
   {
+    "tweet_id": "2078342936035823828",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2078342936035823828",
+    "created_at": "Sat Jul 18 04:55:44 +0000 2026",
+    "text": "@syl_52 I'm not posting anything actionable here. Just giving people a heads up on about ADR timeline conversion for SK Hynix on the 29th. \n\nAnd that it's likely premiums might converge if institutions decide to arbitrage.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 20,
+    "retweet_count": 0,
+    "reply_count": 4,
+    "quote_count": 0,
+    "view_count": 6630,
+    "bookmark_count": 3,
+    "conversation_id": "2078338950150959558",
+    "is_reply": true,
+    "in_reply_to_id": "2078341289716953539",
+    "in_reply_to_username": "syl_52",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 7,
+          "id": "1457050811276709894",
+          "start": 0,
+          "username": "syl_52"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078341955411738744",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2078341955411738744",
+    "created_at": "Sat Jul 18 04:51:50 +0000 2026",
+    "text": "- Sk Hynix mainly traded in Korea\n- $SKHY lists in the US with limited shares, ~2.5% of the float (this is called ADR)\n- Even though SK Hynix are the same company, the shares trade independently. \n- Sk Hynix US traded at a 20-50% premium to SK Hynix Korean listing due to limited supply, but lot of US demand. \n-> ADRs allow for conversion between Korea Shares to US Shares, and conversion will start on the 29th\n- If you convert 22.5% of the Korean supply to the US, that 20-50% premium is likely to go down \n\neg. If there's limited mangos, and someone pays $3 for mangos.\n\nYou buy the same mango for $1. You keep buying those $1 mangos and selling for $3 until the mangos pricing converge. That's called arbitrage and what likely traders would do.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 47,
+    "retweet_count": 0,
+    "reply_count": 8,
+    "quote_count": 4,
+    "view_count": 8479,
+    "bookmark_count": 9,
+    "conversation_id": "2078338950150959558",
+    "is_reply": true,
+    "in_reply_to_id": "2078339840949846520",
+    "in_reply_to_username": "chengchushow",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 41,
+          "start": 36,
+          "tag": "SKHY"
+        }
+      ]
+    },
+    "cashtags": [
+      "SKHY"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2078338950150959558",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2078338950150959558",
+    "created_at": "Sat Jul 18 04:39:54 +0000 2026",
+    "text": "For anyone watching the 25%+ premium in $SKHY versus SK Hynix's Korean shares:\n\nThe ADRs and local shares become convertible on July 29.\n\nShould open the door for arbitrage and likely compress the ADR premium. Maybe lifting Korean shares or pressuring US shares. \n\n2.5% currently is the US ADR stock, so an additional 22.5% can be converted.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 395,
+    "retweet_count": 40,
+    "reply_count": 67,
+    "quote_count": 12,
+    "view_count": 109384,
+    "bookmark_count": 87,
+    "conversation_id": "2078338950150959558",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 45,
+          "start": 40,
+          "tag": "SKHY"
+        }
+      ]
+    },
+    "cashtags": [
+      "SKHY"
+    ],
+    "media": [
+      {
+        "media_key": "3_2078337989701406720",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNe9Y99aEAAZg2-.jpg",
+        "width": 1757,
+        "height": 1044,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2078283847612186739",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2078283847612186739",

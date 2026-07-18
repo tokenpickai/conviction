@@ -1,5 +1,116 @@
 [
   {
+    "tweet_id": "2078337229131489530",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078337229131489530",
+    "created_at": "Sat Jul 18 04:33:03 +0000 2026",
+    "text": "@StarAndCompass_ 소개 감사합니다. 재밌네요",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ko",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 1554,
+    "bookmark_count": 0,
+    "conversation_id": "2078335236094779394",
+    "is_reply": true,
+    "in_reply_to_id": "2078335236094779394",
+    "in_reply_to_username": "StarAndCompass_",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "1801070819659091968",
+          "start": 0,
+          "username": "StarAndCompass_"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078337166565163110",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078337166565163110",
+    "created_at": "Sat Jul 18 04:32:48 +0000 2026",
+    "text": "@meowclovis 필력이 엄청나시네...잘 읽었어요",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ko",
+    "like_count": 4,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 1215,
+    "bookmark_count": 0,
+    "conversation_id": "2078254280763711652",
+    "is_reply": true,
+    "in_reply_to_id": "2078254280763711652",
+    "in_reply_to_username": "meowclovis",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 11,
+          "id": "1942149576343146496",
+          "start": 0,
+          "username": "meowclovis"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078329925329887365",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078329925329887365",
+    "created_at": "Sat Jul 18 04:04:02 +0000 2026",
+    "text": "@blazingbees 10만불이래요 달에",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ko",
+    "like_count": 8,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 2376,
+    "bookmark_count": 0,
+    "conversation_id": "2078328551376630240",
+    "is_reply": true,
+    "in_reply_to_id": "2078328551376630240",
+    "in_reply_to_username": "blazingbees",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "57549703",
+          "start": 0,
+          "username": "blazingbees"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2078321108479312068",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2078321108479312068",
