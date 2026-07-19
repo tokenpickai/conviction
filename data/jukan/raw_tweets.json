@@ -1,5 +1,87 @@
 [
   {
+    "tweet_id": "2078977949374853203",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2078977949374853203",
+    "created_at": "Sun Jul 19 22:59:03 +0000 2026",
+    "text": "https://t.co/PqLI3UDyDP",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 6,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 3340,
+    "bookmark_count": 3,
+    "conversation_id": "2078977947457966417",
+    "is_reply": true,
+    "in_reply_to_id": "2078977947457966417",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "鴻海再有AI大單落袋，首度奪下SpaceX AI伺服器代工訂單。據悉，SpaceX執行長馬斯克規劃新建逾1.3萬櫃搭載輝達GB300的AI伺服器，以一櫃單價400萬美元估算，規模高達520億美元（近新台幣1.7兆元），且第一次委由鴻海操刀，營運大補。",
+          "display_url": "money.udn.com/money/story/11…",
+          "end": 23,
+          "expanded_url": "https://money.udn.com/money/story/11162/9637857?from=edn_maintab_cate",
+          "images": [
+            {
+              "height": 419,
+              "url": "https://pbs.twimg.com/news_img/2078969897552617472/YXdcXnkl?format=jpg&name=orig",
+              "width": 629
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2078969897552617472/YXdcXnkl?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "鴻海奪 SpaceX AI 伺服器大單 相關業務動能將比預期強 | 科技產業 | 產業 | 經濟日報",
+          "unwound_url": "https://money.udn.com/money/story/11162/9637857?from=edn_maintab_cate",
+          "url": "https://t.co/PqLI3UDyDP"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078977947457966417",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2078977947457966417",
+    "created_at": "Sun Jul 19 22:59:02 +0000 2026",
+    "text": "FOXCONN HAS BROKEN DELL AND SUPERMICRO’S DUOPOLY BY WINNING ITS FIRST CONTRACT TO MANUFACTURE SPACEX’S NEXT-GENERATION AI SERVERS POWERED BY NVIDIA’S GB300.\n\n- The project is reportedly worth approximately $52 billion, making it a massive deal.\n\n- This order was not included in the company’s existing revenue guidance, suggesting that Hon Hai’s AI business momentum could be far stronger than previously expected. Combined with strong results from its subsidiary FII, expectations for Hon Hai’s second-half performance have risen significantly.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 59,
+    "retweet_count": 4,
+    "reply_count": 9,
+    "quote_count": 7,
+    "view_count": 8874,
+    "bookmark_count": 15,
+    "conversation_id": "2078977947457966417",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2078869035463393514",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2078869035463393514",
