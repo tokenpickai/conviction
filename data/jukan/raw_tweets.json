@@ -1,5 +1,191 @@
 [
   {
+    "tweet_id": "2078861417151909936",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078861417151909936",
+    "created_at": "Sun Jul 19 15:15:59 +0000 2026",
+    "text": "@mweinbach Everything’s already been leaked… Unpacked is so boring to me.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 138,
+    "bookmark_count": 0,
+    "conversation_id": "2078861254425182481",
+    "is_reply": true,
+    "in_reply_to_id": "2078861254425182481",
+    "in_reply_to_username": "mweinbach",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "3239896262",
+          "start": 0,
+          "username": "mweinbach"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078859969814999052",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2078859969814999052",
+    "created_at": "Sun Jul 19 15:10:14 +0000 2026",
+    "text": "@lokoyacap 😂😂",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 2,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 415,
+    "bookmark_count": 0,
+    "conversation_id": "2078858186627633194",
+    "is_reply": true,
+    "in_reply_to_id": "2078859907554570616",
+    "in_reply_to_username": "lokoyacap",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1376185199332036617",
+          "start": 0,
+          "username": "lokoyacap"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078858186627633194",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2078858186627633194",
+    "created_at": "Sun Jul 19 15:03:09 +0000 2026",
+    "text": "Who said Kimi K3 is bearish for compute? Lol. https://t.co/H8cZlQiIvT",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 89,
+    "retweet_count": 13,
+    "reply_count": 11,
+    "quote_count": 1,
+    "view_count": 9110,
+    "bookmark_count": 7,
+    "conversation_id": "2078858186627633194",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2078855608565207130",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/kimi_moonshot/…",
+          "end": 69,
+          "expanded_url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
+          "start": 46,
+          "url": "https://t.co/H8cZlQiIvT"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078857866065416415",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2078857866065416415",
+    "created_at": "Sun Jul 19 15:01:53 +0000 2026",
+    "text": "RT @Kimi_Moonshot: Kimi K3 has received far more love than we expected, and our GPUs are feeling it.\n\nOver the past 48 hours, demand has pu…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 136,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 2960,
+    "bookmark_count": 0,
+    "conversation_id": "2078857866065416415",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2078855608565207130",
+    "entities": {
+      "mentions": [
+        {
+          "end": 17,
+          "id": "1863959670169501696",
+          "start": 3,
+          "username": "Kimi_Moonshot"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2078844911668113515",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2078844911668113515",
+    "created_at": "Sun Jul 19 14:10:24 +0000 2026",
+    "text": "After reading @deanwball’s piece, I had the opportunity to read several expert-call transcripts. Having done so, I concluded that his argument is, to some extent, mistaken.\n\nHere is why.\n\nTake DeepSeek as an example.\n\nEven though DeepSeek has open-sourced its model weights and parts of its software architecture, competitors would still find it difficult to replicate its cost advantage.\n\nThat is because, while DeepSeek has disclosed most of its model architecture, the critical implementation details and operational know-how remain proprietary.\n\nAs a result, even if Chinese or U.S. hyperscalers deploy DeepSeek’s open-source models on identical hardware, DeepSeek’s own deployment environment can achieve—and is already achieving—greater operational efficiency and a lower average inference cost.\n\nThis efficiency advantage allows DeepSeek to price tokens through its official API below third-party platforms while still maintaining an API margin of 70%.\n\nUltimately, China’s decision to release model weights cannot simply be characterized as dumping. Chinese companies may lack sufficient compute capacity to serve all the inference demand themselves, but they are not selling at a loss or failing to recoup their training costs.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 204,
+    "retweet_count": 11,
+    "reply_count": 13,
+    "quote_count": 4,
+    "view_count": 53967,
+    "bookmark_count": 55,
+    "conversation_id": "2078844911668113515",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2078614672086036555",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 24,
+          "id": "30557408",
+          "start": 14,
+          "username": "deanwball"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2078834897083666496",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2078834897083666496",
