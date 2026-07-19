@@ -1,5 +1,53 @@
 [
   {
+    "tweet_id": "2078646973905998103",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2078646973905998103",
+    "created_at": "Sun Jul 19 01:03:52 +0000 2026",
+    "text": "\"Overall, our global forecast for 3Q DRAM ASP, up 21% QoQ, is consistent with what we learned from channel check. This is more optimistic than TrendForce’s current assumptions of a 13-18% QoQ rise in 3Q conventional DRAM, or only 8-13% including HBM.\" https://t.co/GThIsbhrVh",
+    "text_source": "text",
+    "text_may_be_truncated": true,
+    "lang": "en",
+    "like_count": 354,
+    "retweet_count": 39,
+    "reply_count": 10,
+    "quote_count": 10,
+    "view_count": 47232,
+    "bookmark_count": 97,
+    "conversation_id": "2078646973905998103",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/GThIsbhrVh",
+          "end": 275,
+          "expanded_url": "https://x.com/jukan05/status/2078646973905998103/photo/1",
+          "media_key": "3_2078646661497442304",
+          "start": 252,
+          "url": "https://t.co/GThIsbhrVh"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2078646661497442304",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNjWICAbUAAsjaL.jpg",
+        "width": 1004,
+        "height": 862,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2078493243143258275",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2078493243143258275",
