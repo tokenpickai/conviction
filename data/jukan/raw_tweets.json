@@ -1,5 +1,262 @@
 [
   {
+    "tweet_id": "2079192704312021375",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2079192704312021375",
+    "created_at": "Mon Jul 20 13:12:24 +0000 2026",
+    "text": "https://t.co/C1fY3tKBkr",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 13,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 3191,
+    "bookmark_count": 2,
+    "conversation_id": "2079192701900402881",
+    "is_reply": true,
+    "in_reply_to_id": "2079192701900402881",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "Google is working on a new server chip that would directly integrate the blueprint of its Gemini AI model, enabling the company to serve its AI models to users much more efficiently, according to two people with direct knowledge of the matter. Google intends the new chip, informally dubbed “ ...",
+          "display_url": "theinformation.com/articles/googl…",
+          "end": 23,
+          "expanded_url": "https://www.theinformation.com/articles/google-plans-new-frozen-chip-run-ai-models-efficiently?rc=lx3hes",
+          "start": 0,
+          "status": 200,
+          "title": "Google Plans New ‘Frozen’ Chip to Run Its AI Models Much More Efficiently",
+          "unwound_url": "https://www.theinformation.com/articles/google-plans-new-frozen-chip-run-ai-models-efficiently?rc=lx3hes",
+          "url": "https://t.co/C1fY3tKBkr"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079192701900402881",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079192701900402881",
+    "created_at": "Mon Jul 20 13:12:24 +0000 2026",
+    "text": "So Google is essentially developing Taalas-like chips that bake the model weights directly into the silicon? https://t.co/1sYG0K3um4",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 74,
+    "retweet_count": 7,
+    "reply_count": 9,
+    "quote_count": 2,
+    "view_count": 10572,
+    "bookmark_count": 19,
+    "conversation_id": "2079192701900402881",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/1sYG0K3um4",
+          "end": 132,
+          "expanded_url": "https://x.com/jukan05/status/2079192701900402881/photo/1",
+          "media_key": "3_2079192529585745922",
+          "start": 109,
+          "url": "https://t.co/1sYG0K3um4"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079192529585745922",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNrGlvGasAIO9P9.jpg",
+        "width": 1626,
+        "height": 1328,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2079170443106517031",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2079170443106517031",
+    "created_at": "Mon Jul 20 11:43:57 +0000 2026",
+    "text": "@yabhishekhd This is obviously bullshit. Wccftech is spouting nonsense again.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 29,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 3483,
+    "bookmark_count": 1,
+    "conversation_id": "2079071894679200130",
+    "is_reply": true,
+    "in_reply_to_id": "2079071894679200130",
+    "in_reply_to_username": "yabhishekhd",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "1181389714831462401",
+          "start": 0,
+          "username": "yabhishekhd"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079169841890811948",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2079169841890811948",
+    "created_at": "Mon Jul 20 11:41:34 +0000 2026",
+    "text": "@yiqifacai an excessive sell-off",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1310,
+    "bookmark_count": 0,
+    "conversation_id": "2079105217346601204",
+    "is_reply": true,
+    "in_reply_to_id": "2079134290990784903",
+    "in_reply_to_username": "yiqifacai",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1426509736422383616",
+          "start": 0,
+          "username": "yiqifacai"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079166902035947716",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079166902035947716",
+    "created_at": "Mon Jul 20 11:29:53 +0000 2026",
+    "text": "Morgan Stanley’s Joseph Moore said that, after speaking with several purchasing contacts in the data center space last week, the intensity of the memory shortages shows no signs of abating. He added that prices appear to be up at least 25% on a like-for-like basis from 2Q to 3Q.\n\nThis is above both Morgan Stanley’s and third-party estimates.\n\nMoore also noted that longer-term concerns that the memory shortage will intensify in 2027 and again in 2028 remain as strong as ever. Morgan Stanley added that there is not enough memory relative to AI requirements and that it does not see this situation changing.\n\nNotable quotes:\n\n“Cloud customers are paying premiums to the expected 2Q price for six-week expedites; do we think those customers are paying those premia to stockpile memory in a warehouse?”\n\n“AI is consuming so much DRAM that there isn’t enough left over for other sectors, and everywhere we look, we see indications that it is a true bottleneck. It’s holding back PC builds and smartphone builds.”\n\n“Memory is not just constrained by AI demand—memory is increasingly one of the major primary constraints on AI demand, along with space and power.”\n\n$MU $SKHY $SNDK",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 421,
+    "retweet_count": 60,
+    "reply_count": 14,
+    "quote_count": 10,
+    "view_count": 69589,
+    "bookmark_count": 108,
+    "conversation_id": "2079166902035947716",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 1166,
+          "start": 1163,
+          "tag": "MU"
+        },
+        {
+          "end": 1172,
+          "start": 1167,
+          "tag": "SKHY"
+        },
+        {
+          "end": 1178,
+          "start": 1173,
+          "tag": "SNDK"
+        }
+      ]
+    },
+    "cashtags": [
+      "MU",
+      "SKHY",
+      "SNDK"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2079164295825473876",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2079164295825473876",
+    "created_at": "Mon Jul 20 11:19:31 +0000 2026",
+    "text": "@xiaoxiao_geng @deanwball axios",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "in",
+    "like_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1379,
+    "bookmark_count": 0,
+    "conversation_id": "2079160600333312351",
+    "is_reply": true,
+    "in_reply_to_id": "2079163376337662338",
+    "in_reply_to_username": "xiaoxiao_geng",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 14,
+          "id": "1460966755749089288",
+          "start": 0,
+          "username": "xiaoxiao_geng"
+        },
+        {
+          "end": 25,
+          "id": "30557408",
+          "start": 15,
+          "username": "deanwball"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2079160600333312351",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2079160600333312351",
