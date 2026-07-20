@@ -1,5 +1,344 @@
 [
   {
+    "tweet_id": "2079160600333312351",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079160600333312351",
+    "created_at": "Mon Jul 20 11:04:50 +0000 2026",
+    "text": "Damn, this is exactly what @deanwball said, isn’t it? https://t.co/xj89LqWmNK https://t.co/d1i0iEVjTr",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 46,
+    "retweet_count": 7,
+    "reply_count": 4,
+    "quote_count": 0,
+    "view_count": 7786,
+    "bookmark_count": 6,
+    "conversation_id": "2079160600333312351",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2079158754382389551",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 37,
+          "id": "30557408",
+          "start": 27,
+          "username": "deanwball"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/xj89LqWmNK",
+          "end": 77,
+          "expanded_url": "https://x.com/jukan05/status/2079160600333312351/photo/1",
+          "media_key": "3_2079160524768694272",
+          "start": 54,
+          "url": "https://t.co/xj89LqWmNK"
+        },
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 101,
+          "expanded_url": "https://twitter.com/jukan05/status/2079158754382389551",
+          "start": 78,
+          "url": "https://t.co/d1i0iEVjTr"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079160524768694272",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNqpez3aUAAnZuc.png",
+        "width": 1646,
+        "height": 750,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2079158968279240774",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2079158968279240774",
+    "created_at": "Mon Jul 20 10:58:21 +0000 2026",
+    "text": "https://t.co/qpF6LQUSh5",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 7,
+    "retweet_count": 1,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 3960,
+    "bookmark_count": 2,
+    "conversation_id": "2079158754382389551",
+    "is_reply": true,
+    "in_reply_to_id": "2079158754382389551",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "The launch of Kimi K3 is giving the fight new urgency.",
+          "display_url": "axios.com/2026/07/20/ai-…",
+          "end": 23,
+          "expanded_url": "https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi",
+          "images": [
+            {
+              "height": 768,
+              "url": "https://pbs.twimg.com/news_img/2079137737626587136/CFlNvxWx?format=jpg&name=orig",
+              "width": 1366
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2079137737626587136/CFlNvxWx?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "The secret Trump administration battle to fight Chinese AI",
+          "unwound_url": "https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi",
+          "url": "https://t.co/qpF6LQUSh5"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079158754382389551",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079158754382389551",
+    "created_at": "Mon Jul 20 10:57:30 +0000 2026",
+    "text": "U.S. EYES TOUGHER CURBS ON CHINESE AI\n\nTHE TRUMP ADMINISTRATION IS REPORTEDLY CONSIDERING STRICTER RULES ON CHINESE AI MODELS AFTER THE LAUNCH OF MOONSHOT AI’S KIMI K3. OPTIONS INCLUDE REQUIRING U.S. HOSTING PROVIDERS TO GUARANTEE THE SECURITY OF CHINESE MODELS AND ACCEPT LIABILITY FOR BREACHES, ALONGSIDE POTENTIAL PROCUREMENT BANS AND EXPORT BLACKLIST MEASURES, AS WASHINGTON RESPONDS TO CHINA’S RAPID AI ADVANCES.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 107,
+    "retweet_count": 19,
+    "reply_count": 11,
+    "quote_count": 7,
+    "view_count": 16740,
+    "bookmark_count": 22,
+    "conversation_id": "2079158754382389551",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079131614525968873",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2079131614525968873",
+    "created_at": "Mon Jul 20 09:09:39 +0000 2026",
+    "text": "@zephyr_z9 yeah Rubin CMX",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 12,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 4350,
+    "bookmark_count": 1,
+    "conversation_id": "2079129709921878438",
+    "is_reply": true,
+    "in_reply_to_id": "2079131412297584648",
+    "in_reply_to_username": "zephyr_z9",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1695126229446479872",
+          "start": 0,
+          "username": "zephyr_z9"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079129709921878438",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079129709921878438",
+    "created_at": "Mon Jul 20 09:02:05 +0000 2026",
+    "text": "“Nvidia’s CMX is equipped with 576 SSDs, providing a total storage capacity of 9,600 TB. Industry estimates suggest that NAND demand for CMX will surge from 35 million TB this year to more than 100 million TB next year.”\n\nNvidia’s Rubin CMX will quite literally soak up NAND supply like a sponge absorbs water. To put 100 million TB into perspective, it is roughly equivalent to adding another Apple-sized source of demand to the NAND market.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 355,
+    "retweet_count": 61,
+    "reply_count": 10,
+    "quote_count": 17,
+    "view_count": 68891,
+    "bookmark_count": 129,
+    "conversation_id": "2079129709921878438",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2079127696827879509",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/mYCMfhr1oq",
+          "end": 298,
+          "expanded_url": "https://x.com/jukan05/status/2079129709921878438/photo/1",
+          "media_key": "3_2079129638555779072",
+          "start": 275,
+          "url": "https://t.co/mYCMfhr1oq"
+        },
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 322,
+          "expanded_url": "https://twitter.com/jukan05/status/2079127696827879509",
+          "start": 299,
+          "url": "https://t.co/fNJGMhNJNv"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079129638555779072",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNqNY_wagAAtfCM.jpg",
+        "width": 1194,
+        "height": 762,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2079127699864641609",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2079127699864641609",
+    "created_at": "Mon Jul 20 08:54:06 +0000 2026",
+    "text": "https://t.co/NdbQHSpD5n",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 11,
+    "retweet_count": 1,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 8340,
+    "bookmark_count": 2,
+    "conversation_id": "2079127696827879509",
+    "is_reply": true,
+    "in_reply_to_id": "2079127696827879509",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "삼성전자(005930)가 엔비디아와 D램과 고대역폭메모리(HBM), 파운드리(반도체 위탁생산) 파트너십에 이어 낸드플래시 공급에서도 동맹을 확대한다. 삼성은 압도적인 생산능력을 앞세워 주력인 9세대 V낸드(V9)의 엔비디아 공급을 늘리는 동시에 10세대(V10) 제품의",
+          "display_url": "sedaily.com/article/200696…",
+          "end": 23,
+          "expanded_url": "https://www.sedaily.com/article/20069608?ref=naver",
+          "images": [
+            {
+              "height": 533,
+              "url": "https://pbs.twimg.com/news_img/2079126776870318080/SU6Ja4Ng?format=png&name=orig",
+              "width": 800
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2079126776870318080/SU6Ja4Ng?format=png&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "삼성·엔비디아 ‘낸드 동맹’ 확대…“V10 공급 시작”",
+          "unwound_url": "https://www.sedaily.com/article/20069608?ref=naver",
+          "url": "https://t.co/NdbQHSpD5n"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079127696827879509",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079127696827879509",
+    "created_at": "Mon Jul 20 08:54:05 +0000 2026",
+    "text": "Samsung–Nvidia Expand NAND Alliance as V10 Shipments Begin\n\nSamsung Electronics is expanding its alliance with Nvidia into NAND flash supply, building on existing partnerships in DRAM, high-bandwidth memory (HBM), and foundry services. Leveraging its overwhelming production capacity, Samsung is increasing supplies of its flagship ninth-generation V-NAND (V9) to Nvidia while beginning mass production and shipments of its tenth-generation V-NAND (V10). The company is also accelerating the development of its 500-layer-class eleventh-generation V-NAND (V11).\n\nAccording to industry sources on July 20, Samsung Electronics has established monthly V-NAND production capacity exceeding 100,000 wafers and is mass-producing and supplying V10 products to Nvidia.\n\nSamsung has allocated approximately 60% of its V-NAND capacity to V9, elevating it to the company’s main product. Just a year ago, V8 accounted for a significant share of V-NAND output. Its share has since fallen below 40%, as Samsung rapidly shifted production toward V9 lines in response to surging demand for AI-server NAND from Nvidia and other global technology giants.\n\nOne reason Samsung is accelerating the expansion of its V9 capacity is Nvidia’s next-generation storage system, Context Memory Storage (CMX), which is scheduled for release in the second half of the year. Data centers are seeing a sharp increase in “key-value cache,” or KV cache, the contextual data generated during AI inference. KV cache has traditionally been handled by GPU servers, but as data volumes grow, dedicated storage systems equipped with solid-state drives (SSDs) offering capacities in the thousands of terabytes have become essential.\n\nNvidia’s CMX contains 576 SSDs and provides a total storage capacity of 9,600 TB. The industry expects NAND demand associated with CMX to surge from 35 million TB this year to more than 100 million TB next year. Samsung’s NAND output is projected to reach approximately 250 million TB this year. The company therefore intends to use its world-leading production capacity to establish itself as a key supplier for Nvidia’s CMX.\n\nSamsung’s V9 NAND yield has reportedly risen above 80%, bringing production into a stable mass-manufacturing phase and providing a foundation for continued V-NAND supplies to Nvidia over the medium and long term. More than half of the NAND-dedicated cleanroom space at Samsung’s Pyeongtaek Plant 4 (P4) also remains available, allowing the company to expand V9 production lines as demand increases.\n\nSamsung is also accelerating the mass production of next-generation V-NAND products. The company began full-scale V10 production in the first half of this year and has raised its share to just under 5% of total V-NAND output. V10 is a 400-layer-class product whose storage density is more than 50% higher than that of the 286-layer V9.\n\nTrial production of the 500-layer-class V11 has also begun. V11 is an advanced, high-stack V-NAND product being developed with a target of at least 400 layers and potentially as many as 500. Trial production started early this year, and Samsung plans to double the relevant volume in the second half. By expanding trial output, the company aims to secure sufficient yield data and rapidly establish a mass-production system.\n\nSamsung is pursuing materials innovation in parallel. Beginning with V10 NAND, the company will become the first in the industry to commercialize molybdenum, sometimes described as a “dream material.” Molybdenum can reduce wiring thickness by 30–40% compared with tungsten, the material currently used. Samsung partially adopted molybdenum in V9, which was released two years ago, but plans to expand its use substantially in V10.\n\nSamsung Electronics Chairman Lee Jae-yong is expected to meet Nvidia CEO Jensen Huang in San Francisco soon to discuss expanding their cooperation. Meeting Huang again after nine months, Lee is reportedly set to discuss not only the supply of HBM and next-generation NAND products but also potential cooperation on data centers planned for construction in South Korea, including in Gwangju.\n\n“Nvidia has asked Samsung to expand NAND production ahead of the CMX launch,” an industry official said. “Because the Samsung–Nvidia alliance spans the entire memory and foundry business, cooperation between Chairman Lee and CEO Huang is expected to deepen further.”",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 186,
+    "retweet_count": 25,
+    "reply_count": 15,
+    "quote_count": 6,
+    "view_count": 78667,
+    "bookmark_count": 45,
+    "conversation_id": "2079127696827879509",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/PjV6Mjgxta",
+          "end": 298,
+          "expanded_url": "https://x.com/jukan05/status/2079127696827879509/photo/1",
+          "media_key": "3_2079127679237070848",
+          "start": 275,
+          "url": "https://t.co/PjV6Mjgxta"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079127679237070848",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNqLm8uboAA666d.png",
+        "width": 800,
+        "height": 533,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2079106226273820882",
     "kind": "self_thread",
     "url": "https://x.com/jukan05/status/2079106226273820882",
