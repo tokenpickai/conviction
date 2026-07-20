@@ -46280,5 +46280,35 @@
     "prompt_version": "extract-v2",
     "extracted_at": "2026-07-19T16:15:54.466654+00:00",
     "prefilter_skipped": true
+  },
+  "2079055114317557777": {
+    "tweet_id": "2079055114317557777",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-20T04:09:39.205052+00:00",
+    "prefilter_skipped": true
+  },
+  "2079035141494804976": {
+    "tweet_id": "2079035141494804976",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-20T04:09:39.205075+00:00",
+    "prefilter_skipped": true
+  },
+  "2079009955592695915": {
+    "tweet_id": "2079009955592695915",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-20T04:09:39.205082+00:00",
+    "prefilter_skipped": true
   }
 }

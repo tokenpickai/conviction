@@ -1,5 +1,231 @@
 [
   {
+    "tweet_id": "2079055343532097582",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2079055343532097582",
+    "created_at": "Mon Jul 20 04:06:35 +0000 2026",
+    "text": "Elon denied the report, saying it was not true. https://t.co/ws1TegZhVE",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 3,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 642,
+    "bookmark_count": 0,
+    "conversation_id": "2078977947457966417",
+    "is_reply": true,
+    "in_reply_to_id": "2078977947457966417",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2079048720809701397",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/elonmusk/statu…",
+          "end": 71,
+          "expanded_url": "https://twitter.com/elonmusk/status/2079048720809701397",
+          "start": 48,
+          "url": "https://t.co/ws1TegZhVE"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079055114317557777",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2079055114317557777",
+    "created_at": "Mon Jul 20 04:05:40 +0000 2026",
+    "text": "@TradexWhisperer 👀 https://t.co/ws1TegZhVE",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 6,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 507,
+    "bookmark_count": 0,
+    "conversation_id": "2079050058394472684",
+    "is_reply": true,
+    "in_reply_to_id": "2079050058394472684",
+    "in_reply_to_username": "TradexWhisperer",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2079048720809701397",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "485550903",
+          "start": 0,
+          "username": "TradexWhisperer"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "x.com/elonmusk/statu…",
+          "end": 42,
+          "expanded_url": "https://twitter.com/elonmusk/status/2079048720809701397",
+          "start": 19,
+          "url": "https://t.co/ws1TegZhVE"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079035141494804976",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2079035141494804976",
+    "created_at": "Mon Jul 20 02:46:18 +0000 2026",
+    "text": "@zeroxkyle lmao",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ht",
+    "like_count": 6,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1676,
+    "bookmark_count": 0,
+    "conversation_id": "2079034123881246994",
+    "is_reply": true,
+    "in_reply_to_id": "2079034123881246994",
+    "in_reply_to_username": "zeroxkyle",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "4110654312",
+          "start": 0,
+          "username": "zeroxkyle"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079012227487789254",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2079012227487789254",
+    "created_at": "Mon Jul 20 01:15:15 +0000 2026",
+    "text": "@SemiAnalysis_ @StockSavvyShay LMAO https://t.co/gLuYcdVakF",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ht",
+    "like_count": 8,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 1259,
+    "bookmark_count": 1,
+    "conversation_id": "2079002146738180572",
+    "is_reply": true,
+    "in_reply_to_id": "2079009955592695915",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 14,
+          "id": "1745106082790318080",
+          "start": 0,
+          "username": "SemiAnalysis_"
+        },
+        {
+          "end": 30,
+          "id": "1096436452576047104",
+          "start": 15,
+          "username": "StockSavvyShay"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/gLuYcdVakF",
+          "end": 59,
+          "expanded_url": "https://x.com/jukan05/status/2079012227487789254/photo/1",
+          "media_key": "3_2079012210563743745",
+          "start": 36,
+          "url": "https://t.co/gLuYcdVakF"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079012210563743745",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNoilyZaAAEALLz.jpg",
+        "width": 1192,
+        "height": 1458,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2079009955592695915",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2079009955592695915",
+    "created_at": "Mon Jul 20 01:06:14 +0000 2026",
+    "text": "@SemiAnalysis_ @StockSavvyShay This guy just steals other people’s posts and reposts them lol.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 13,
+    "retweet_count": 0,
+    "reply_count": 4,
+    "quote_count": 0,
+    "view_count": 1506,
+    "bookmark_count": 0,
+    "conversation_id": "2079002146738180572",
+    "is_reply": true,
+    "in_reply_to_id": "2079009504960909330",
+    "in_reply_to_username": "SemiAnalysis_",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 14,
+          "id": "1745106082790318080",
+          "start": 0,
+          "username": "SemiAnalysis_"
+        },
+        {
+          "end": 30,
+          "id": "1096436452576047104",
+          "start": 15,
+          "username": "StockSavvyShay"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2078977949374853203",
     "kind": "self_thread",
     "url": "https://x.com/jukan05/status/2078977949374853203",
