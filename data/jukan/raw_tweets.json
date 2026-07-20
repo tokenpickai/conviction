@@ -1,5 +1,323 @@
 [
   {
+    "tweet_id": "2079106226273820882",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2079106226273820882",
+    "created_at": "Mon Jul 20 07:28:46 +0000 2026",
+    "text": "Going forward, when news breaks, I plan to quote it and add my own commentary, as I’ve done here. Some readers have told me they’d like to hear my perspective, since until now I’ve mostly just translated the news into English and posted it.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 12,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 814,
+    "bookmark_count": 0,
+    "conversation_id": "2079105217346601204",
+    "is_reply": true,
+    "in_reply_to_id": "2079105217346601204",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079105217346601204",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079105217346601204",
+    "created_at": "Mon Jul 20 07:24:46 +0000 2026",
+    "text": "One development worth watching: the memory Big Three have halted the development of their proprietary CXL controllers. Their plans have reportedly been scrapped altogether.\n\nIs this bearish news for CXL? Not at all. Let’s take a closer look.\n\nTo understand why the memory Big Three stopped developing their own CXL controllers, we first need to understand why they started in the first place.\n\nAccording to Korean media reports, the three companies wanted to sell CXL controllers bundled with DRAM as high-margin finished products.\n\nTheir customers—the hyperscalers—were not enthusiastic about that model. What they wanted was the flexibility to pair a high-quality CXL controller with virtually any off-the-shelf DRAM available on the market.\n\nIn other words, developing expensive proprietary CXL controllers would offer little differentiation. The memory Big Three had approached CXL as an opportunity to create a new high-margin product similar to HBM. But if they could not sell the controller and DRAM together as a complete product, they would not be able to capture those high margins.\n\nSo, looking at it from a different angle, who stands to benefit?\n\nThe fabless companies that design CXL controllers.\n\nWith the memory Big Three—their largest potential competitors—abandoning in-house development, the CXL controller market is now effectively wide open.\n\nThis is very positive news for Montage and Marvell.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 35,
+    "retweet_count": 1,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 7566,
+    "bookmark_count": 19,
+    "conversation_id": "2079105217346601204",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2079103447157338422",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/MSpQUZ5kEK",
+          "end": 299,
+          "expanded_url": "https://x.com/jukan05/status/2079105217346601204/photo/1",
+          "media_key": "3_2079103797071405057",
+          "start": 276,
+          "url": "https://t.co/MSpQUZ5kEK"
+        },
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 323,
+          "expanded_url": "https://twitter.com/jukan05/status/2079103447157338422",
+          "start": 300,
+          "url": "https://t.co/uJLRgqKqXl"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079103797071405057",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNp140ubYAE_xB6.jpg",
+        "width": 1196,
+        "height": 1526,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2079103449023816092",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2079103449023816092",
+    "created_at": "Mon Jul 20 07:17:44 +0000 2026",
+    "text": "https://t.co/MNLZwgjGhK",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 2,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 2637,
+    "bookmark_count": 0,
+    "conversation_id": "2079103447157338422",
+    "is_reply": true,
+    "in_reply_to_id": "2079103447157338422",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "글로벌 메모리 빅3사가 차세대 반도체로 공들여 온 CXL(컴퓨트익스프레스링크) 컨트롤러의 자체 개발(내재화)을 일제히 중단했다. 자체 칩을 억지로 시장에 밀어 넣을 경우 핵심 수익원인 범용 D램(DIMM) 수요를 스스로 무너뜨린다는 자기잠식효과(cannibalization)의 딜레마를 우려...",
+          "display_url": "zdnet.co.kr/view/?no=20260…",
+          "end": 23,
+          "expanded_url": "https://zdnet.co.kr/view/?no=20260720150435",
+          "images": [
+            {
+              "height": 360,
+              "url": "https://pbs.twimg.com/news_img/2079103467088715776/H1uyiklx?format=png&name=orig",
+              "width": 640
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2079103467088715776/H1uyiklx?format=png&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "\"기존 D램 갉아먹을라\"…메모리 3사, CXL 자체 칩 개발 않기로",
+          "unwound_url": "https://zdnet.co.kr/view/?no=20260720150435",
+          "url": "https://t.co/MNLZwgjGhK"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079103447157338422",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079103447157338422",
+    "created_at": "Mon Jul 20 07:17:44 +0000 2026",
+    "text": "Memory Big Three Scrap In-House CXL Controller Chip Development\n\nThe world’s three largest memory chipmakers have all halted in-house development of controllers for Compute Express Link (CXL), a next-generation semiconductor technology in which they had invested heavily. The decision reflects concerns over a cannibalization dilemma: aggressively pushing proprietary chips into the market could undermine demand for commodity DRAM modules, or DIMMs, their core source of revenue. The memory giants are rapidly shifting to an outsourcing model, adopting chips designed by specialized fabless companies instead.\n\nAccording to semiconductor industry sources on the 20th, Samsung Electronics, SK hynix, and Micron have scaled back or scrapped plans to commercialize controllers for CXL expansion devices. Fabless companies such as Montage Technology, Astera Labs, and PrimeMass are moving in to fill the gap.\n\nMicron and SK Throw in the Towel, While Samsung Tests the Waters\n\nMicron was the first to abandon in-house development. The U.S. chipmaker shut down its proprietary controller R&D operation and adopted a solution from PrimeMass. PrimeMass solutions now also appear in Micron’s product catalog.\n\nSK hynix has likewise formally notified key partners that it is discontinuing its in-house CXL controller development project. The company is reassigning relevant personnel to processing-in-memory (PIM), a next-generation computational memory technology. The move reflects its intention to concentrate limited R&D resources on a more certain source of future growth.\n\nSamsung Electronics is using its internally developed CXL controller only for research within the development team. The team is focusing on unproven areas, including CXL solutions based on low-power DRAM, or LPDDR. For products sold externally, Samsung is reportedly purchasing controllers from fabless suppliers.\n\nThis marks a departure from Samsung’s original plan. The company had initially intended to launch modules combining its proprietary controller with a CXL Memory Module, or CMM, but has since removed the formal commercialization of its in-house controller from its official roadmap.\n\n“Samsung’s internal product-planning division has removed the in-house controller from its formal commercialization projects and retained it solely as an advanced R&D initiative,” said a semiconductor industry source familiar with the matter. “The development team is now concentrating on areas with uncertain near-term commercial viability, such as running mobile DRAM, or LPDDR, over CXL. In effect, Samsung has returned to a market-exploration phase.”\n\n“Promoting CXL Could Destabilize DRAM”—The Cannibalization Dilemma\n\nAccording to industry sources, all three memory manufacturers originally envisioned selling integrated CXL modules similar to Samsung’s proposed design. Their plan was to combine proprietary controller chips and DRAM on a single board and sell the resulting system as a high-priced finished product.\n\nMajor data-center customers, however, wanted something different. To reduce the enormous cost of building infrastructure, they preferred a disaggregated architecture: installing the CXL controller separately on the system motherboard and inserting widely available, inexpensive commodity DRAM modules into slots behind it for reuse.\n\nAnalysts say this is where the business models came into conflict and why the manufacturers changed course. If memory companies insisted on expensive integrated products built around proprietary controllers that had required substantial development spending, cost-conscious customers would be reluctant to buy them. Worse still, such products could reduce demand for the commodity DRAM modules that the companies already sell in large volumes. In other words, aggressively promoting finished CXL products could cannibalize the DIMM market that serves as their largest source of revenue.\n\n“If a memory manufacturer’s finished CXL expansion product must compete directly with its own core cash cow—DIMMs—it becomes difficult to pursue the business aggressively,” said a semiconductor industry official. “Management concluded that there was little practical benefit in forcing the commercialization of in-house controllers while risking a conflict with the company’s existing core business.”\n\nExperts stress that the three companies’ decisions should not be interpreted as a retreat from or abandonment of CXL technology and the CXL market itself. Rather, they see the move as a way to reduce risk during the market’s uncertain early stages and return to the semiconductor industry’s naturally efficient division of labor.\n\n“Instead of trying to monopolize control of CXL, the memory manufacturers have opted for a pragmatic division of labor with fabless companies,” another industry official said. “As the global semiconductor market becomes more sophisticated, this optimized ecosystem—in which specialized fabless companies handle design and memory manufacturers focus on production—is expected to accelerate further.”",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 44,
+    "retweet_count": 8,
+    "reply_count": 5,
+    "quote_count": 3,
+    "view_count": 14956,
+    "bookmark_count": 35,
+    "conversation_id": "2079103447157338422",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/yaQAyd1hnI",
+          "end": 299,
+          "expanded_url": "https://x.com/jukan05/status/2079103447157338422/photo/1",
+          "media_key": "3_2079103425074413568",
+          "start": 276,
+          "url": "https://t.co/yaQAyd1hnI"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079103425074413568",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNp1jK7bwAAgDHY.png",
+        "width": 640,
+        "height": 360,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2079075218606481683",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079075218606481683",
+    "created_at": "Mon Jul 20 05:25:34 +0000 2026",
+    "text": "I have no idea what this Chinese account’s agenda is in spreading this kind of FUD.\n\nIt is not true that memory module prices are falling or that memory prices will soon be down 50–70% for the year.\n\nDo not read or trust Chinese accounts like this. https://t.co/pTA9zuOCkH",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 157,
+    "retweet_count": 6,
+    "reply_count": 15,
+    "quote_count": 1,
+    "view_count": 29423,
+    "bookmark_count": 13,
+    "conversation_id": "2079075218606481683",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/pTA9zuOCkH",
+          "end": 272,
+          "expanded_url": "https://x.com/jukan05/status/2079075218606481683/photo/1",
+          "media_key": "3_2079075212839264256",
+          "start": 249,
+          "url": "https://t.co/pTA9zuOCkH"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079075212839264256",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNpb5AKaoAAMrhT.jpg",
+        "width": 1320,
+        "height": 1500,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2079068303226720265",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079068303226720265",
+    "created_at": "Mon Jul 20 04:58:05 +0000 2026",
+    "text": "Meritz Securities’ comments on the surge in server DRAM (64GB) spot prices:\n\n- This is the key chart from yesterday’s report, illustrating how to interpret the gap between spot and contract prices.\n\n- Server DRAM spot prices have risen sharply since mid-July. Unlike conventional DRAM products, server DRAM spot prices are not tracked by platforms such as DRAMeXchange.\n\n- Demand from sovereign AI projects, including those in Saudi Arabia, as well as testing demand from new AI data centers, has increased significantly. Supply has become so tight that vendors are reportedly struggling to secure enough units even for customer samples.\n\n- As a result, spot prices have surged above $3,100, representing a 146% premium to the end-June contract price of $1,380.\n\n- The current situation resembles what happened at the beginning of this year. In January, a sudden wave of rush orders from the server market drove spot prices sharply higher. However, memory stocks remained range-bound as the market waited for hyperscalers’ month-end earnings announcements.\n\n- Memory stocks subsequently rebounded from February as contract prices began to rise. This time as well, the market is likely to focus on—and respond to—upward revisions in contract prices following hyperscalers’ earnings announcements.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 257,
+    "retweet_count": 38,
+    "reply_count": 14,
+    "quote_count": 5,
+    "view_count": 55514,
+    "bookmark_count": 100,
+    "conversation_id": "2079068303226720265",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/5nLos6Vw4d",
+          "end": 303,
+          "expanded_url": "https://x.com/jukan05/status/2079068303226720265/photo/1",
+          "media_key": "3_2079068298269143040",
+          "start": 280,
+          "url": "https://t.co/5nLos6Vw4d"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079068298269143040",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNpVmhYbsAA1E4W.jpg",
+        "width": 1440,
+        "height": 595,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2079061775140766031",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2079061775140766031",
+    "created_at": "Mon Jul 20 04:32:08 +0000 2026",
+    "text": "@ryanwang Yuanta!",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "tl",
+    "like_count": 3,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 962,
+    "bookmark_count": 0,
+    "conversation_id": "2078977947457966417",
+    "is_reply": true,
+    "in_reply_to_id": "2079059880636485811",
+    "in_reply_to_username": "ryanwang",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 9,
+          "id": "992393416305557504",
+          "start": 0,
+          "username": "ryanwang"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2079055343532097582",
     "kind": "self_thread",
     "url": "https://x.com/jukan05/status/2079055343532097582",
