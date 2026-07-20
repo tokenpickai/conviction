@@ -1,5 +1,58 @@
 [
   {
+    "tweet_id": "2079319999915925938",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2079319999915925938",
+    "created_at": "Mon Jul 20 21:38:14 +0000 2026",
+    "text": "If you’re curious why $NBIS is up after hours.\n\n$NVDA disclosed it owns 9.3% beneficial ownership of Nebius via SEC filings.\n\nNot exactly too new since it dates back to Nvidia’s existing share position of 1.19M shares + $2B prefunded warrant of ~21M shares.\n\nBut great for sentiment having Nvidia be a large shareholder of the Neocloud leader.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 472,
+    "retweet_count": 34,
+    "reply_count": 128,
+    "quote_count": 4,
+    "view_count": 60771,
+    "bookmark_count": 49,
+    "conversation_id": "2079319999915925938",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 27,
+          "start": 22,
+          "tag": "NBIS"
+        },
+        {
+          "end": 53,
+          "start": 48,
+          "tag": "NVDA"
+        }
+      ]
+    },
+    "cashtags": [
+      "NBIS",
+      "NVDA"
+    ],
+    "media": [
+      {
+        "media_key": "3_2079319994031329280",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNs6hJKa0AAqBaA.jpg",
+        "width": 1167,
+        "height": 877,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2079289335351062693",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2079289335351062693",
