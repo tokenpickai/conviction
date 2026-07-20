@@ -1,5 +1,92 @@
 [
   {
+    "tweet_id": "2079289335351062693",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2079289335351062693",
+    "created_at": "Mon Jul 20 19:36:23 +0000 2026",
+    "text": "TBH, casually posting novel information discovery to X is how research should be done. \n\nApparently this was #16 on the Smale's list of Mathematical Problems for the Next Century?\n\nKinda shows that the value generated from AI does not scale linearly with token costs... After seeing this, bears are still probably going to say: \n\n\"B-but where's the profit coming from after AI usage?\"\n\nAI + capex is likely going to keep going brrr.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 305,
+    "retweet_count": 18,
+    "reply_count": 243,
+    "quote_count": 5,
+    "view_count": 94373,
+    "bookmark_count": 47,
+    "conversation_id": "2079289335351062693",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2079028340955197566",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/kZAyIhzYwP",
+          "end": 299,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2079289335351062693/photo/1",
+          "media_key": "3_2079287005503213568",
+          "start": 276,
+          "url": "https://t.co/kZAyIhzYwP"
+        },
+        {
+          "display_url": "pic.x.com/kZAyIhzYwP",
+          "end": 299,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2079289335351062693/photo/1",
+          "media_key": "3_2079287687094374400",
+          "start": 276,
+          "url": "https://t.co/kZAyIhzYwP"
+        },
+        {
+          "display_url": "pic.x.com/kZAyIhzYwP",
+          "end": 299,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2079289335351062693/photo/1",
+          "media_key": "3_2079287686171693056",
+          "start": 276,
+          "url": "https://t.co/kZAyIhzYwP"
+        },
+        {
+          "display_url": "x.com/__alpoge__/sta…",
+          "end": 323,
+          "expanded_url": "https://twitter.com/__alpoge__/status/2079028340955197566",
+          "start": 300,
+          "url": "https://t.co/BiW0Rninvh"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079287005503213568",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNscg9Ua0AArr2g.jpg",
+        "width": 1277,
+        "height": 565,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2079287687094374400",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNsdIocakAADriz.jpg",
+        "width": 2264,
+        "height": 968,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2079287686171693056",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNsdIlAbkAALCQ0.jpg",
+        "width": 2157,
+        "height": 1411,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2079254669793316962",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2079254669793316962",
