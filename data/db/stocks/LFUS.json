@@ -145,7 +145,13 @@
     {
       "date": "2026-07-16",
       "close": 402.01
+    },
+    {
+      "date": "2026-07-17",
+      "close": 397.75
     }
   ],
-  "price_status": "ok"
+  "price_status": "ok",
+  "price_unit": "USD",
+  "price_updated_at": "2026-07-20T21:46:41.732742+00:00"
 }
