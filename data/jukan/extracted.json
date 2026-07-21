@@ -46390,5 +46390,15 @@
     "prompt_version": "extract-v2",
     "extracted_at": "2026-07-21T09:42:48.627419+00:00",
     "prefilter_skipped": true
+  },
+  "2079528983755178474": {
+    "tweet_id": "2079528983755178474",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-21T12:02:59.209506+00:00",
+    "prefilter_skipped": true
   }
 }
