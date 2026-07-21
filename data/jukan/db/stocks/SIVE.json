@@ -67,5 +67,7 @@
     }
   ],
   "price_series": [],
-  "price_status": "pending"
+  "price_status": "not_covered",
+  "price_unit": "SEK",
+  "price_updated_at": "2026-07-21T21:45:16.196331+00:00"
 }
