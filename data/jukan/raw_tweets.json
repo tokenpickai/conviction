@@ -1,5 +1,188 @@
 [
   {
+    "tweet_id": "2079571388147646799",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079571388147646799",
+    "created_at": "Tue Jul 21 14:17:10 +0000 2026",
+    "text": "GFHK now expects the AMD–Anthropic deal to be larger than the OAI and Meta deals. 👀👀 https://t.co/wKuCKaFUKH https://t.co/jv3KDwDbZe",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 68,
+    "retweet_count": 7,
+    "reply_count": 5,
+    "quote_count": 0,
+    "view_count": 11054,
+    "bookmark_count": 15,
+    "conversation_id": "2079571388147646799",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2079559887496036854",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/wKuCKaFUKH",
+          "end": 108,
+          "expanded_url": "https://x.com/jukan05/status/2079571388147646799/photo/1",
+          "media_key": "3_2079571249362259968",
+          "start": 85,
+          "url": "https://t.co/wKuCKaFUKH"
+        },
+        {
+          "display_url": "x.com/sssjeffpu/stat…",
+          "end": 132,
+          "expanded_url": "https://twitter.com/sssjeffpu/status/2079559887496036854",
+          "start": 109,
+          "url": "https://t.co/jv3KDwDbZe"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079571249362259968",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNwfCINaUAAftz8.jpg",
+        "width": 1366,
+        "height": 846,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2079568535093973274",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079568535093973274",
+    "created_at": "Tue Jul 21 14:05:49 +0000 2026",
+    "text": "Quoted from a JPM seminar (a must-read):\n\n- Rubin Ultra, which is based on a 5.5x reticle size, has encountered difficulties in implementation testing, and the expert believes that a 9.5x implementation will be extremely difficult. As of the first half of 2027, soldering has been identified as an issue for the 9.5x reticle. Evaluations of Rubin Ultra with a 5.5x reticle are currently underway, but the expert said they are not progressing well. The expert also explained that if CoWoS-L with a 9.5x reticle is unsuccessful, limitations in packaging technology could make it difficult to realize Nvidia’s Feynman generation in 2029.\n\n- EMIB-T is a structure in which through-silicon vias (TSVs) are formed in a silicon bridge, enabling signals and power to be delivered from the substrate side to HBM and LSI. The ability to optimize power delivery on the bridge helps suppress power noise in HBM operating at high frequencies and low voltages. In addition, HBM and LSI components with different sizes and connection requirements can be mounted individually on the substrate without using a large interposer. This eliminates the need to bond an entire large module at once, as required with CoWoS-L, making the overall interposer less susceptible to warpage and offering advantages in back-end process yields. According to the expert, Intel claims that EMIB-T can support reticle sizes of up to 12x and could serve as an alternative to CoWoS-L.\n\n$INTC $TSM",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 65,
+    "retweet_count": 5,
+    "reply_count": 6,
+    "quote_count": 5,
+    "view_count": 12089,
+    "bookmark_count": 27,
+    "conversation_id": "2079568535093973274",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 1453,
+          "start": 1448,
+          "tag": "INTC"
+        },
+        {
+          "end": 1458,
+          "start": 1454,
+          "tag": "TSM"
+        }
+      ]
+    },
+    "cashtags": [
+      "INTC",
+      "TSM"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2079557169717137621",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2079557169717137621",
+    "created_at": "Tue Jul 21 13:20:40 +0000 2026",
+    "text": "@KobeissiLetter https://t.co/KJ2mPTqj5G",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 23,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 1,
+    "view_count": 3530,
+    "bookmark_count": 0,
+    "conversation_id": "2079549452352647454",
+    "is_reply": true,
+    "in_reply_to_id": "2079549452352647454",
+    "in_reply_to_username": "KobeissiLetter",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "3316376038",
+          "start": 0,
+          "username": "KobeissiLetter"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/KJ2mPTqj5G",
+          "end": 39,
+          "expanded_url": "https://x.com/jukan05/status/2079557169717137621/photo/1",
+          "media_key": "16_2079557161571749888",
+          "start": 16,
+          "url": "https://t.co/KJ2mPTqj5G"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079545835931812239",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2079545835931812239",
+    "created_at": "Tue Jul 21 12:35:38 +0000 2026",
+    "text": "@nuancerocket ?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qam",
+    "like_count": 0,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 1921,
+    "bookmark_count": 0,
+    "conversation_id": "2079545106835661294",
+    "is_reply": true,
+    "in_reply_to_id": "2079545106835661294",
+    "in_reply_to_username": "nuancerocket",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "1106598315662163971",
+          "start": 0,
+          "username": "nuancerocket"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2079528983755178474",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2079528983755178474",
