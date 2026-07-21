@@ -1,5 +1,465 @@
 [
   {
+    "tweet_id": "2079498500455473313",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2079498500455473313",
+    "created_at": "Tue Jul 21 09:27:32 +0000 2026",
+    "text": "\"However, it will take more time to finalize the order. Samsung has requested modifications to the equipment architecture, making it difficult to determine a specific delivery date. Such modifications involve changing certain specifications—such as the design, components, or modules—to meet a customer’s requirements. The fact that Besi’s hybrid bonders cost approximately KRW 6 billion (about $4.3 million) each, roughly twice the price of competing products, is also said to be prolonging negotiations.\"",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 3,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 585,
+    "bookmark_count": 2,
+    "conversation_id": "2079498228706197969",
+    "is_reply": true,
+    "in_reply_to_id": "2079498228706197969",
+    "in_reply_to_username": "BeuvingJordy",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "1336702899724955651",
+          "start": 0,
+          "username": "BeuvingJordy"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079496576414949740",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2079496576414949740",
+    "created_at": "Tue Jul 21 09:19:53 +0000 2026",
+    "text": "@zephyr_z9 It could also be used in the standard Feynman platform.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 3,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1651,
+    "bookmark_count": 0,
+    "conversation_id": "2079495991502471679",
+    "is_reply": true,
+    "in_reply_to_id": "2079496306528301406",
+    "in_reply_to_username": "zephyr_z9",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1695126229446479872",
+          "start": 0,
+          "username": "zephyr_z9"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079495991502471679",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079495991502471679",
+    "created_at": "Tue Jul 21 09:17:34 +0000 2026",
+    "text": "Interesting. Hybrid bonding is expected to be used for Feynman, which will feature custom HBM (cHBM). It appears the technology has been pushed back from conventional HBM4E. https://t.co/YgXE20bxn6 https://t.co/5X3wgNMn1o",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 48,
+    "retweet_count": 3,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 12242,
+    "bookmark_count": 11,
+    "conversation_id": "2079495991502471679",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2079495315292557629",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/YgXE20bxn6",
+          "end": 197,
+          "expanded_url": "https://x.com/jukan05/status/2079495991502471679/photo/1",
+          "media_key": "3_2079495701789319168",
+          "start": 174,
+          "url": "https://t.co/YgXE20bxn6"
+        },
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 221,
+          "expanded_url": "https://twitter.com/jukan05/status/2079495315292557629",
+          "start": 198,
+          "url": "https://t.co/5X3wgNMn1o"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079495701789319168",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNvaUrkaoAAi6Qk.png",
+        "width": 1192,
+        "height": 476,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2079495317448478798",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2079495317448478798",
+    "created_at": "Tue Jul 21 09:14:53 +0000 2026",
+    "text": "https://t.co/UPG9d3rqA6",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 7,
+    "retweet_count": 2,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 3497,
+    "bookmark_count": 0,
+    "conversation_id": "2079495315292557629",
+    "is_reply": true,
+    "in_reply_to_id": "2079495315292557629",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "삼성전자가 평택캠퍼스 내 다이-투-웨이퍼(D2W) 하이브리드 본딩 양산 라인 구축에 착수했다. 차세대 고대역폭 메모리(HBM), 로직 반도체 생산 목적이다.21일",
+          "display_url": "thelec.kr/news/articleVi…",
+          "end": 23,
+          "expanded_url": "https://www.thelec.kr/news/articleView.html?idxno=59804",
+          "start": 0,
+          "status": 200,
+          "title": "삼성전자, 평택 P5 하이브리드 본딩 양산 라인 구축 시작 - 디일렉(THE ELEC)",
+          "unwound_url": "https://www.thelec.kr/news/articleView.html?idxno=59804",
+          "url": "https://t.co/UPG9d3rqA6"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079495315292557629",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079495315292557629",
+    "created_at": "Tue Jul 21 09:14:52 +0000 2026",
+    "text": "Samsung Electronics Begins Construction of Hybrid Bonding Mass-Production Line at Pyeongtaek P5\n\nSamsung Electronics has begun constructing a die-to-wafer (D2W) hybrid bonding mass-production line at its Pyeongtaek Campus. The line will be used to manufacture next-generation high-bandwidth memory (HBM) and logic semiconductors.\n\nAccording to semiconductor industry sources on the 21st, Samsung Electronics has selected Dutch semiconductor back-end equipment maker BE Semiconductor Industries (Besi) as its preferred supplier and initiated the process of acquiring 50 D2W hybrid bonding machines. The equipment is slated for installation at the P5 fab on its Pyeongtaek Campus.\n\nDuring Besi’s first-quarter earnings conference call in April, CEO Richard Blickman said, “We expect to see something more definitive regarding Samsung Electronics’ adoption of hybrid bonders around the middle of this year.” At the time, Besi’s hybrid bonders were undergoing Samsung’s qualification testing.\n\nHowever, it will take more time to finalize the order. Samsung has requested modifications to the equipment architecture, making it difficult to determine a specific delivery date. Such modifications involve changing certain specifications—such as the design, components, or modules—to meet a customer’s requirements. The fact that Besi’s hybrid bonders cost approximately KRW 6 billion (about $4.3 million) each, roughly twice the price of competing products, is also said to be prolonging negotiations.\n\n“Besi supplies hybrid bonders to semiconductor companies worldwide, including TSMC and Micron, and is reluctant to modify the equipment architecture exclusively for Samsung,” an industry source said. “Samsung considers Besi’s equipment the best option, but because coordination has been difficult, it is also considering products from Korean equipment makers that can respond more quickly and flexibly.”\n\nSEMES, Samsung Electronics’ semiconductor equipment subsidiary, has also received a request to supply D2W hybrid bonders for the mass-production line. The company hopes to secure orders for two hybrid bonding production lines at the Pyeongtaek Campus.\n\n“SEMES felt a strong sense of crisis when Samsung initially selected Besi’s equipment, but the situation has recently begun to change,” another industry source said.\n\nSEMES completed development of its D2W hybrid bonder early this year and supplied a unit to Samsung Electronics for performance qualification. This suggests that the equipment has passed the testing process.\n\nSamsung is also considering Hanwha Semitech as a hybrid bonder supplier. In February, Hanwha Semitech completed development of its second-generation D2W hybrid bonder, the “SHB2 Nano.” It subsequently supplied an evaluation unit to SK hynix in April.\n\nThe equipment was delivered as an integrated cluster system combining the bonder with a wafer-handling equipment front-end module (EFEM) from Cymechs, a plasma activation module from Hanwha Semitech, and a cleaning module from ZEUS.\n\nSamsung’s construction of a D2W hybrid bonding mass-production line at its Pyeongtaek Campus is related to the packaging processes for HBM and logic semiconductors. According to industry sources, Samsung has pursued a hybrid bonding line for next-generation HBM at its Pyeongtaek Campus in addition to its Cheonan Campus, which serves as a major semiconductor back-end packaging hub.\n\nUsing hybrid copper bonding (HCB), rather than conventional thermocompression (TC) bonding, to stack HBM core dies (DRAM chips) can significantly improve performance, power consumption, and thermal characteristics. This is because the technology directly bonds copper and dielectric materials without using metal protrusions known as micro-bumps, thereby shortening the interconnect length between devices.\n\nThe technology is particularly likely to be used for customer-specific, or custom, HBM (cHBM). In cHBM, Samsung replaces the conventional base die with a logic die incorporating the customer’s computing circuitry and intellectual property (IP). This logic die assists external central processing units (CPUs) and graphics processing units (GPUs) with computation while optimizing data transmission.\n\nSamsung plans to implement a three-dimensional system-in-package (3D SiP) architecture in which HBM DRAM layers are stacked vertically and directly on top of the logic die.\n\nSamsung Electronics’ foundry business also unveiled “3D Cube-H,” a next-generation 3D vertical stacking solution based on hybrid bonding, last month. Designed for next-generation artificial intelligence chips and high-performance computing (HPC) systems, the heterogeneous integration packaging technology offers improved performance, power efficiency, and bandwidth compared with conventional packaging technologies. Samsung Foundry is currently actively proposing the solution to customers for adoption.\n\nHybrid bonders from the equipment suppliers are expected to begin arriving and being installed at the Pyeongtaek Campus toward the end of this year. However, Samsung internally expects large-scale production using hybrid bonding to become feasible around 2030, as the technology is considerably more challenging than TC bonding.\n\n“We expect hybrid bonding to enter full-scale use around 2029, when Nvidia’s next-generation AI accelerator, Feynman, is expected to arrive,” a third industry source said.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 45,
+    "retweet_count": 6,
+    "reply_count": 4,
+    "quote_count": 6,
+    "view_count": 20769,
+    "bookmark_count": 14,
+    "conversation_id": "2079495315292557629",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/o74r4AKobL",
+          "end": 299,
+          "expanded_url": "https://x.com/jukan05/status/2079495315292557629/photo/1",
+          "media_key": "3_2079495295541653504",
+          "start": 276,
+          "url": "https://t.co/o74r4AKobL"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079495295541653504",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNvZ9CLbMAAym6p.png",
+        "width": 600,
+        "height": 372,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2079490216575062177",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2079490216575062177",
+    "created_at": "Tue Jul 21 08:54:37 +0000 2026",
+    "text": "@Chaimeisenberg C.C.: “Anyway, at least we don’t raise prices as much as memory chipmakers do, right?”",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 9,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 704,
+    "bookmark_count": 0,
+    "conversation_id": "2079489712071589942",
+    "is_reply": true,
+    "in_reply_to_id": "2079489931718586400",
+    "in_reply_to_username": "Chaimeisenberg",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1355592444927217665",
+          "start": 0,
+          "username": "Chaimeisenberg"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079489714554540413",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2079489714554540413",
+    "created_at": "Tue Jul 21 08:52:37 +0000 2026",
+    "text": "https://t.co/DA0faS4YZr",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 12,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 6202,
+    "bookmark_count": 0,
+    "conversation_id": "2079489712071589942",
+    "is_reply": true,
+    "in_reply_to_id": "2079489712071589942",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "Hikes cover cutting-edge and mature chips amid surging costs and overseas plant constructions",
+          "display_url": "asia.nikkei.com/business/techn…",
+          "end": 23,
+          "expanded_url": "https://asia.nikkei.com/business/technology/exclusive-tsmc-to-raise-chipmaking-prices-by-up-to-10-from-2027",
+          "images": [
+            {
+              "height": 1260,
+              "url": "https://pbs.twimg.com/news_img/2079483234941870080/OujiC65Q?format=jpg&name=orig",
+              "width": 2520
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2079483234941870080/OujiC65Q?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "Exclusive: TSMC to raise chipmaking prices by up to 10% from 2027",
+          "unwound_url": "https://asia.nikkei.com/business/technology/exclusive-tsmc-to-raise-chipmaking-prices-by-up-to-10-from-2027",
+          "url": "https://t.co/DA0faS4YZr"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079489712071589942",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079489712071589942",
+    "created_at": "Tue Jul 21 08:52:37 +0000 2026",
+    "text": "Nikkei: TSMC plans to raise prices for both advanced- and mature-node foundry services by up to 10% in 2027, reflecting higher costs for materials, semiconductor manufacturing equipment, and the construction of new overseas fabs.\n\nBase price increases will range from 5% to 10%, depending on the customer and product.\n\nFor additional high-performance computing (HPC) chip orders exceeding customers’ original forecasts, TSMC plans to charge an additional premium of 10% to 15% on top of the base increase.\n\nPrice negotiations began around June and concluded in July, with the new pricing set to take effect in early 2027.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 121,
+    "retweet_count": 17,
+    "reply_count": 20,
+    "quote_count": 8,
+    "view_count": 26347,
+    "bookmark_count": 16,
+    "conversation_id": "2079489712071589942",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/UnVtHzrtie",
+          "end": 302,
+          "expanded_url": "https://x.com/jukan05/status/2079489712071589942/photo/1",
+          "media_key": "3_2079489690126938112",
+          "start": 279,
+          "url": "https://t.co/UnVtHzrtie"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079489690126938112",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNvU2wYacAA86KF.jpg",
+        "width": 1520,
+        "height": 1338,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2079477451101741476",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2079477451101741476",
+    "created_at": "Tue Jul 21 08:03:53 +0000 2026",
+    "text": "https://t.co/eJAUFNdkF7",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 6,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 8463,
+    "bookmark_count": 0,
+    "conversation_id": "2079477448841027818",
+    "is_reply": true,
+    "in_reply_to_id": "2079477448841027818",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "根據TrendForce最新2026年7月NAND Flash每月數據分析，2026年AI需求爆發，加上NAND Flash產能增加有限，市場呈現供給緊缺。展望2027年，來自server的需求持續強勁，在供應商提升製程、整體供給位元增速未見放緩，以",
+          "display_url": "chinatimes.com/realtimenews/2…",
+          "end": 23,
+          "expanded_url": "https://www.chinatimes.com/realtimenews/20260721003073-260410?chdtv",
+          "images": [
+            {
+              "height": 250,
+              "url": "https://pbs.twimg.com/news_img/2079477451642789888/td-v9LFe?format=png&name=orig",
+              "width": 250
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2079477451642789888/td-v9LFe?format=png&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "《科技》供給超車需求成長 NAND明年H2估緊缺緩解 - 科技",
+          "unwound_url": "https://www.chinatimes.com/realtimenews/20260721003073-260410?chdtv",
+          "url": "https://t.co/eJAUFNdkF7"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079477448841027818",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079477448841027818",
+    "created_at": "Tue Jul 21 08:03:53 +0000 2026",
+    "text": "Hmm… TrendForce expects the NAND supply shortage to ease in 2027.\n\n“TrendForce noted that while servers already account for more than 40% of total NAND flash bit demand, smartphones and notebooks still represent nearly 40% combined and therefore continue to have a significant impact on overall demand.\n\nIn terms of inventory, memory manufacturers’ inventory levels remain relatively low. Although module makers’ inventories have risen because of weakness in the consumer market, inventories held by other buyers remain manageable.\n\nTaking these factors together, TrendForce expects the NAND flash bit supply-demand gap to remain at negative 4–5% in 2026, indicating a continued shortage. However, the gap is expected to turn positive in the second half of 2027, easing the pressure from tight supply.”",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 120,
+    "retweet_count": 13,
+    "reply_count": 12,
+    "quote_count": 2,
+    "view_count": 24409,
+    "bookmark_count": 31,
+    "conversation_id": "2079477448841027818",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/9lWjZl5VJ2",
+          "end": 300,
+          "expanded_url": "https://x.com/jukan05/status/2079477448841027818/photo/1",
+          "media_key": "3_2079477132590481408",
+          "start": 277,
+          "url": "https://t.co/9lWjZl5VJ2"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079477132590481408",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNvJbz6agAAVSmV.jpg",
+        "width": 1906,
+        "height": 668,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2079444101343387825",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2079444101343387825",
