@@ -1,5 +1,357 @@
 [
   {
+    "tweet_id": "2079405439272317109",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079405439272317109",
+    "created_at": "Tue Jul 21 03:17:44 +0000 2026",
+    "text": "Anthropic ARR Update\n\nAnthropic’s latest ARR has reached $79.5 billion, and its absolute month-over-month increase is expected to exceed $10 billion by the end of this month.\n\n1. ARR increased by $10 billion from $69 billion at the end of June in roughly three weeks.\n\n2. Since March this year, the absolute month-over-month increase in ARR has been no less than $10 billion each month. From March through June, the respective increases were +$10 billion, +$11 billion, +$14 billion, and +$15 billion.\n\nSource: YipitData",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 249,
+    "retweet_count": 24,
+    "reply_count": 18,
+    "quote_count": 31,
+    "view_count": 43557,
+    "bookmark_count": 71,
+    "conversation_id": "2079405439272317109",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079404746944000061",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2079404746944000061",
+    "created_at": "Tue Jul 21 03:14:59 +0000 2026",
+    "text": "@JonahLupton 🫡",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 5,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1331,
+    "bookmark_count": 0,
+    "conversation_id": "2079392380759965721",
+    "is_reply": true,
+    "in_reply_to_id": "2079404406689186183",
+    "in_reply_to_username": "JonahLupton",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "14579415",
+          "start": 0,
+          "username": "JonahLupton"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079397444379697338",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2079397444379697338",
+    "created_at": "Tue Jul 21 02:45:58 +0000 2026",
+    "text": "https://t.co/ZhRLIAeIt6",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 7086,
+    "bookmark_count": 0,
+    "conversation_id": "2079397441947009172",
+    "is_reply": true,
+    "in_reply_to_id": "2079397441947009172",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "小米已将2026年全年智能手机出货目标从约9000万部上调至1.1亿部，增幅约16%，上调的增量部分主要来自低端机型。",
+          "display_url": "36kr.com/p/390473513892…",
+          "end": 23,
+          "expanded_url": "https://36kr.com/p/3904735138924169",
+          "images": [
+            {
+              "height": 400,
+              "url": "https://pbs.twimg.com/news_img/2079397497915740160/S5PRwxHa?format=jpg&name=orig",
+              "width": 600
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2079397497915740160/S5PRwxHa?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "小米上调手机出货目标-36氪",
+          "unwound_url": "https://36kr.com/p/3904735138924169",
+          "url": "https://t.co/ZhRLIAeIt6"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079397441947009172",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079397441947009172",
+    "created_at": "Tue Jul 21 02:45:58 +0000 2026",
+    "text": "Chinese media report:\n\nXiaomi is increasing shipments of low- and mid-range smartphones, reflecting its internal assessment that the current memory market may be approaching an inflection point.\n\nXiaomi had already lowered its shipment target twice this year because of short-term shortages of upstream memory chips and persistently rising costs.\n\nAn industry source told Chinese media that downstream companies, including smartphone manufacturers, have begun to show clear resistance to the ongoing rise in memory prices.\n\nIn particular, OPPO and vivo reportedly rejected Samsung Electronics’ recently proposed third-quarter pricing, even though the proposed increase was smaller than those in the previous two quarters.\n\nThe source explained that Xiaomi’s decision to raise its shipment target signals that downstream memory customers are no longer willing to absorb continuously rising memory costs. Once demand-side price tolerance reaches its limit, the momentum behind further price increases could hit an inflection point.\n\nHowever, reaching the limit of demand-side price tolerance does not necessarily mean that prices will fall immediately. Multiple industry sources noted that although resistance from downstream customers has begun to emerge, the current memory chip shortage is unlikely to ease in the near term.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 91,
+    "retweet_count": 10,
+    "reply_count": 10,
+    "quote_count": 1,
+    "view_count": 26562,
+    "bookmark_count": 27,
+    "conversation_id": "2079397441947009172",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/v4PH2Qbfv6",
+          "end": 304,
+          "expanded_url": "https://x.com/jukan05/status/2079397441947009172/photo/1",
+          "media_key": "3_2079397419708772352",
+          "start": 281,
+          "url": "https://t.co/v4PH2Qbfv6"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079397419708772352",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNuA76Sa8AAzKfb.png",
+        "width": 1448,
+        "height": 1010,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2079392380759965721",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079392380759965721",
+    "created_at": "Tue Jul 21 02:25:51 +0000 2026",
+    "text": "This is absolutely insane lol. This is South Korea’s DRAM unit-price data for July 1–20, and the upward momentum is accelerating even further. https://t.co/WNWXLf5m8v",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 547,
+    "retweet_count": 78,
+    "reply_count": 23,
+    "quote_count": 34,
+    "view_count": 75952,
+    "bookmark_count": 110,
+    "conversation_id": "2079392380759965721",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/WNWXLf5m8v",
+          "end": 166,
+          "expanded_url": "https://x.com/jukan05/status/2079392380759965721/photo/1",
+          "media_key": "3_2079392359314501632",
+          "start": 143,
+          "url": "https://t.co/WNWXLf5m8v"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079392359314501632",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNt8VW2aMAA3mb8.jpg",
+        "width": 2406,
+        "height": 1356,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2079363213305724929",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2079363213305724929",
+    "created_at": "Tue Jul 21 00:29:57 +0000 2026",
+    "text": "https://t.co/X1gMJpumoD",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 9,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 9760,
+    "bookmark_count": 4,
+    "conversation_id": "2079363211711897845",
+    "is_reply": true,
+    "in_reply_to_id": "2079363211711897845",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "市場近期傳出，供應台積電等半導體大廠氣體的日本特殊氣體供應商Central Glass因大陸缺料，將停產高純度六氟化鎢（tungsten hexafluoride，WF6）。對此，台積電昨（20）日表示，目前不預期對公司營運產生影響。",
+          "display_url": "money.udn.com/money/story/56…",
+          "end": 23,
+          "expanded_url": "https://money.udn.com/money/story/5612/9640075",
+          "images": [
+            {
+              "height": 246,
+              "url": "https://pbs.twimg.com/news_img/2079363220427657216/ZoxVAM7W?format=jpg&name=orig",
+              "width": 470
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2079363220427657216/ZoxVAM7W?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "回應日商停產高純度六氟化鎢 台積電：特殊氣體供應多元不受影響 | 產業熱點 | 產業 | 經濟日報",
+          "unwound_url": "https://money.udn.com/money/story/5612/9640075",
+          "url": "https://t.co/X1gMJpumoD"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079363211711897845",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079363211711897845",
+    "created_at": "Tue Jul 21 00:29:57 +0000 2026",
+    "text": ">> TSMC Expects No Impact on Current Operations from Reports of Japan’s Central Glass Halting High-Purity Tungsten Hexafluoride Production\n\n• Amid market reports that Japan’s Central Glass, a gas supplier to TSMC, may halt production of high-purity tungsten hexafluoride (WF₆) due to shortages of raw materials sourced from mainland China, TSMC said it does not currently expect any impact on its operations.\n\n• TSMC said that, as part of its global procurement strategy, it continues to develop multi-source supply solutions and diversify its global supplier base, providing resilience against potential supply risks.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 102,
+    "retweet_count": 7,
+    "reply_count": 11,
+    "quote_count": 0,
+    "view_count": 27925,
+    "bookmark_count": 14,
+    "conversation_id": "2079363211711897845",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079353599105315152",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079353599105315152",
+    "created_at": "Mon Jul 20 23:51:45 +0000 2026",
+    "text": "This reminds me of something. A few days ago, I read the transcript of an expert call hosted by DB. It said that shipments of homegrown Chinese chips had already reached 2.5 million units this year. I scoffed at the figure, thinking there was no way it could be true—but now I’m starting to think it might actually be plausible.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 180,
+    "retweet_count": 10,
+    "reply_count": 7,
+    "quote_count": 3,
+    "view_count": 61148,
+    "bookmark_count": 74,
+    "conversation_id": "2079353599105315152",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2079283578735640886",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/uhiBk7I79v",
+          "end": 302,
+          "expanded_url": "https://x.com/jukan05/status/2079353599105315152/photo/1",
+          "media_key": "3_2079353548341673984",
+          "start": 279,
+          "url": "https://t.co/uhiBk7I79v"
+        },
+        {
+          "display_url": "x.com/kimmonismus/st…",
+          "end": 326,
+          "expanded_url": "https://twitter.com/kimmonismus/status/2079283578735640886",
+          "start": 303,
+          "url": "https://t.co/lcIneyih5m"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079353548341673984",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNtZCQtagAAEkk3.jpg",
+        "width": 928,
+        "height": 584,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2079192704312021375",
     "kind": "self_thread",
     "url": "https://x.com/jukan05/status/2079192704312021375",
