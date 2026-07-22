@@ -1,5 +1,163 @@
 [
   {
+    "tweet_id": "2079954027312513328",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2079954027312513328",
+    "created_at": "Wed Jul 22 15:37:38 +0000 2026",
+    "text": "@hypedplugarya @gaetan_po Give me time to cook with that Research page. It’s a secret right now",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 61,
+    "retweet_count": 1,
+    "reply_count": 5,
+    "quote_count": 0,
+    "view_count": 6282,
+    "bookmark_count": 0,
+    "conversation_id": "2079947242455335379",
+    "is_reply": true,
+    "in_reply_to_id": "2079953592115446037",
+    "in_reply_to_username": "hypedplugarya",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 14,
+          "id": "917080916513710080",
+          "start": 0,
+          "username": "hypedplugarya"
+        },
+        {
+          "end": 25,
+          "id": "1544018601056866305",
+          "start": 15,
+          "username": "gaetan_po"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079953508904964575",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2079953508904964575",
+    "created_at": "Wed Jul 22 15:35:34 +0000 2026",
+    "text": "@gaetan_po Yeah, I’m testing some things right now for bot prevention.\n\nAlso going to $AMD event tomorrow rather than full 2 days, will definitely be asking about $SIVE!",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 114,
+    "retweet_count": 6,
+    "reply_count": 6,
+    "quote_count": 1,
+    "view_count": 8768,
+    "bookmark_count": 4,
+    "conversation_id": "2079947242455335379",
+    "is_reply": true,
+    "in_reply_to_id": "2079951834412716149",
+    "in_reply_to_username": "gaetan_po",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 90,
+          "start": 86,
+          "tag": "AMD"
+        },
+        {
+          "end": 168,
+          "start": 163,
+          "tag": "SIVE"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1544018601056866305",
+          "start": 0,
+          "username": "gaetan_po"
+        }
+      ]
+    },
+    "cashtags": [
+      "AMD",
+      "SIVE"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2079947242455335379",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2079947242455335379",
+    "created_at": "Wed Jul 22 15:10:40 +0000 2026",
+    "text": "$AMD to invest $5B in Anthropic.\n\nAnthropic in turn will sign a 2 GW deal to buy AMD’s latest chips, worth tens of billions of dollars.\n\nLooks like they’re copying the $NVDA playbook with Anthropic last year. https://t.co/SXBUq65u6P",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 643,
+    "retweet_count": 31,
+    "reply_count": 106,
+    "quote_count": 6,
+    "view_count": 114870,
+    "bookmark_count": 35,
+    "conversation_id": "2079947242455335379",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 4,
+          "start": 0,
+          "tag": "AMD"
+        },
+        {
+          "end": 173,
+          "start": 168,
+          "tag": "NVDA"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/SXBUq65u6P",
+          "end": 232,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2079947242455335379/photo/1",
+          "media_key": "3_2079947238642733056",
+          "start": 209,
+          "url": "https://t.co/SXBUq65u6P"
+        }
+      ]
+    },
+    "cashtags": [
+      "AMD",
+      "NVDA"
+    ],
+    "media": [
+      {
+        "media_key": "3_2079947238642733056",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN10_lba0AA6oI0.jpg",
+        "width": 1227,
+        "height": 804,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2079673469567226149",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2079673469567226149",
