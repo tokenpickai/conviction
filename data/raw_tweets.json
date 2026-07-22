@@ -1,5 +1,300 @@
 [
   {
+    "tweet_id": "2080042335388500360",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2080042335388500360",
+    "created_at": "Wed Jul 22 21:28:32 +0000 2026",
+    "text": "Having an iota of reading comphrension helps a bit before commenting. \n\nAI Capex -> goes to upstream semis from memory, photonics, foundries, and others. These players are happy. \n\n$GOOGL itself is spending the money, so markets might not like that for them in specific. \n\nBut it's positive to the players that receive that capital.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 121,
+    "retweet_count": 2,
+    "reply_count": 6,
+    "quote_count": 0,
+    "view_count": 7078,
+    "bookmark_count": 1,
+    "conversation_id": "2080035769062916479",
+    "is_reply": true,
+    "in_reply_to_id": "2080039425657159815",
+    "in_reply_to_username": "haranguetan_",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 187,
+          "start": 181,
+          "tag": "GOOGL"
+        }
+      ]
+    },
+    "cashtags": [
+      "GOOGL"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2080040423805047054",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2080040423805047054",
+    "created_at": "Wed Jul 22 21:20:56 +0000 2026",
+    "text": "@200pipss They literally just hiked forward capex, which was the point of the post.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 52,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 5008,
+    "bookmark_count": 1,
+    "conversation_id": "2080035769062916479",
+    "is_reply": true,
+    "in_reply_to_id": "2080040099920683434",
+    "in_reply_to_username": "200pipss",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 9,
+          "id": "3167814018",
+          "start": 0,
+          "username": "200pipss"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080039431499919449",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2080039431499919449",
+    "created_at": "Wed Jul 22 21:17:00 +0000 2026",
+    "text": "@200pipss Hyperscalers upping AI capex revisions is especially going to show up on optical networking earnings.\n\nWatch and learn...",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 118,
+    "retweet_count": 2,
+    "reply_count": 4,
+    "quote_count": 0,
+    "view_count": 7872,
+    "bookmark_count": 1,
+    "conversation_id": "2080035769062916479",
+    "is_reply": true,
+    "in_reply_to_id": "2080037667232698804",
+    "in_reply_to_username": "200pipss",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 9,
+          "id": "3167814018",
+          "start": 0,
+          "username": "200pipss"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080035769062916479",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2080035769062916479",
+    "created_at": "Wed Jul 22 21:02:27 +0000 2026",
+    "text": "$GOOGL updates FY 2026 capex guidance:\n\nTo $195B-$205B. Up from $180B-$190B. \n\nGoogle is also expected to significantly increase capex in 2027.  \n\nThis is perhaps the most bullish read through on upstream semis from a hyperscaler. https://t.co/dXiI0Ien8X",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1152,
+    "retweet_count": 113,
+    "reply_count": 124,
+    "quote_count": 28,
+    "view_count": 101150,
+    "bookmark_count": 134,
+    "conversation_id": "2080035769062916479",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 6,
+          "start": 0,
+          "tag": "GOOGL"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/dXiI0Ien8X",
+          "end": 254,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2080035769062916479/photo/1",
+          "media_key": "3_2080035332674965504",
+          "start": 231,
+          "url": "https://t.co/dXiI0Ien8X"
+        }
+      ]
+    },
+    "cashtags": [
+      "GOOGL"
+    ],
+    "media": [
+      {
+        "media_key": "3_2080035332674965504",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN3FHVRaUAAESSZ.jpg",
+        "width": 1648,
+        "height": 374,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080032221638119603",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2080032221638119603",
+    "created_at": "Wed Jul 22 20:48:21 +0000 2026",
+    "text": "@4intheflames $GOOGL stock down a solid -.079%. https://t.co/lN3g2KcJZy",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 63,
+    "retweet_count": 0,
+    "reply_count": 10,
+    "quote_count": 0,
+    "view_count": 9153,
+    "bookmark_count": 0,
+    "conversation_id": "2080031508656746874",
+    "is_reply": true,
+    "in_reply_to_id": "2080031786982420968",
+    "in_reply_to_username": "4intheflames",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 20,
+          "start": 14,
+          "tag": "GOOGL"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 13,
+          "id": "1575819614583369728",
+          "start": 0,
+          "username": "4intheflames"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/lN3g2KcJZy",
+          "end": 71,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2080032221638119603/photo/1",
+          "media_key": "3_2080032191887925248",
+          "start": 48,
+          "url": "https://t.co/lN3g2KcJZy"
+        }
+      ]
+    },
+    "cashtags": [
+      "GOOGL"
+    ],
+    "media": [
+      {
+        "media_key": "3_2080032191887925248",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN3CQg7bYAAty8E.jpg",
+        "width": 1455,
+        "height": 205,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080031508656746874",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2080031508656746874",
+    "created_at": "Wed Jul 22 20:45:31 +0000 2026",
+    "text": "$GOOGL now has 950M monthly Gemini users and processes 22B API tokens/min. \n\nCompared to 750M back in February. \n\nAbsurd growth adding 200 million more users in a few months.  Kinda explains why they ran out of compute, then cut allocations to $META and others. \n\nVery unlikely AI capex will slow down given.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 935,
+    "retweet_count": 74,
+    "reply_count": 145,
+    "quote_count": 17,
+    "view_count": 180421,
+    "bookmark_count": 95,
+    "conversation_id": "2080031508656746874",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2080027058063958323",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 6,
+          "start": 0,
+          "tag": "GOOGL"
+        },
+        {
+          "end": 249,
+          "start": 244,
+          "tag": "META"
+        }
+      ]
+    },
+    "cashtags": [
+      "GOOGL",
+      "META"
+    ],
+    "media": [
+      {
+        "media_key": "3_2080030533846016000",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN3AwAPboAA8mOI.jpg",
+        "width": 1792,
+        "height": 1160,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2080030929037475840",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN3BHAcawAAJ1tb.jpg",
+        "width": 2231,
+        "height": 1833,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2080027058063958323",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2080027058063958323",

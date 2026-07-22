@@ -1,5 +1,60 @@
 [
   {
+    "tweet_id": "2080054402342412372",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080054402342412372",
+    "created_at": "Wed Jul 22 22:16:29 +0000 2026",
+    "text": "I told you, lol. https://t.co/XJJOd5VsUp https://t.co/173CvC62bB",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 19,
+    "retweet_count": 1,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1973,
+    "bookmark_count": 4,
+    "conversation_id": "2080054402342412372",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2080041600928174207",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/XJJOd5VsUp",
+          "end": 40,
+          "expanded_url": "https://x.com/jukan05/status/2080054402342412372/photo/1",
+          "media_key": "3_2080054311074320384",
+          "start": 17,
+          "url": "https://t.co/XJJOd5VsUp"
+        },
+        {
+          "display_url": "x.com/zephyr_z9/stat…",
+          "end": 64,
+          "expanded_url": "https://twitter.com/zephyr_z9/status/2080041600928174207",
+          "start": 41,
+          "url": "https://t.co/173CvC62bB"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2080054311074320384",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN3WYBUa0AA66uZ.jpg",
+        "width": 1214,
+        "height": 468,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2079919597797745135",
     "kind": "self_thread",
     "url": "https://x.com/jukan05/status/2079919597797745135",
