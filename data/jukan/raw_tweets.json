@@ -1,5 +1,42 @@
 [
   {
+    "tweet_id": "2080056630490853654",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080056630490853654",
+    "created_at": "Wed Jul 22 22:25:20 +0000 2026",
+    "text": "@PatrickMoorhead WSJ",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "und",
+    "like_count": 3,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1028,
+    "bookmark_count": 0,
+    "conversation_id": "2079911458725662975",
+    "is_reply": true,
+    "in_reply_to_id": "2079968128604483592",
+    "in_reply_to_username": "PatrickMoorhead",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "14927543",
+          "start": 0,
+          "username": "PatrickMoorhead"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2080054402342412372",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2080054402342412372",
