@@ -1,5 +1,178 @@
 [
   {
+    "tweet_id": "2079919597797745135",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2079919597797745135",
+    "created_at": "Wed Jul 22 13:20:49 +0000 2026",
+    "text": "https://t.co/XBuvqhqKW0",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 9,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 6629,
+    "bookmark_count": 0,
+    "conversation_id": "2079919594756874424",
+    "is_reply": true,
+    "in_reply_to_id": "2079919594756874424",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "Elon Musk’s AI company, SpaceXAI, is laying the groundwork for at least one new large-scale data center in Texas, three people with knowledge of the effort said. Such a move could substantially expand SpaceX’s AI computing capacity outside its existing data center hub in Memphis, Tenn. An ...",
+          "display_url": "theinformation.com/articles/space…",
+          "end": 23,
+          "expanded_url": "https://www.theinformation.com/articles/spacexai-explores-major-data-center-expansion-texas?rc=lx3hes",
+          "start": 0,
+          "status": 200,
+          "title": "SpaceXAI Explores Major Data Center Expansion in Texas",
+          "unwound_url": "https://www.theinformation.com/articles/spacexai-explores-major-data-center-expansion-texas?rc=lx3hes",
+          "url": "https://t.co/XBuvqhqKW0"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2079919594756874424",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079919594756874424",
+    "created_at": "Wed Jul 22 13:20:49 +0000 2026",
+    "text": "The Information: SpaceXAI is laying the groundwork to build at least one new large-scale data center in Texas. https://t.co/EBEaGBVi7p https://t.co/FQUOgdkby8",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 171,
+    "retweet_count": 16,
+    "reply_count": 8,
+    "quote_count": 7,
+    "view_count": 39175,
+    "bookmark_count": 14,
+    "conversation_id": "2079919594756874424",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2079916818282807531",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/EBEaGBVi7p",
+          "end": 134,
+          "expanded_url": "https://x.com/jukan05/status/2079919594756874424/photo/1",
+          "media_key": "3_2079919211007381504",
+          "start": 111,
+          "url": "https://t.co/EBEaGBVi7p"
+        },
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 158,
+          "expanded_url": "https://twitter.com/jukan05/status/2079916818282807531",
+          "start": 135,
+          "url": "https://t.co/FQUOgdkby8"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079919211007381504",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN1bgKWbEAAu_4V.jpg",
+        "width": 1090,
+        "height": 1316,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2079916818282807531",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079916818282807531",
+    "created_at": "Wed Jul 22 13:09:47 +0000 2026",
+    "text": "MORE COMPUTE https://t.co/xeWkCKmbvh",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 374,
+    "retweet_count": 47,
+    "reply_count": 18,
+    "quote_count": 21,
+    "view_count": 106675,
+    "bookmark_count": 56,
+    "conversation_id": "2079916818282807531",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/xeWkCKmbvh",
+          "end": 36,
+          "expanded_url": "https://x.com/jukan05/status/2079916818282807531/photo/1",
+          "media_key": "3_2079916757339529216",
+          "start": 13,
+          "url": "https://t.co/xeWkCKmbvh"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2079916757339529216",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN1ZRVua4AAxCXJ.png",
+        "width": 1294,
+        "height": 860,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2079911458725662975",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2079911458725662975",
+    "created_at": "Wed Jul 22 12:48:29 +0000 2026",
+    "text": "\"Su said AMD had signed an engineering collaboration with Anthropic, in which it will use the company’s Claude models to improve the performance of its chip technology.\"\n\nHmm?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 187,
+    "retweet_count": 10,
+    "reply_count": 16,
+    "quote_count": 4,
+    "view_count": 45012,
+    "bookmark_count": 10,
+    "conversation_id": "2079911458725662975",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2079831926698078460",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2079831926698078460",
