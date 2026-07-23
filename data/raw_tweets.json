@@ -1,5 +1,183 @@
 [
   {
+    "tweet_id": "2080153334888182065",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2080153334888182065",
+    "created_at": "Thu Jul 23 04:49:37 +0000 2026",
+    "text": "$INTC and $AMD to sign CPU LTAs with Chinese customers for AI DCs (Reuters). \n\n- Prices of some CPU products have risen more than 40% in China since the start of the year from sources. \n\n- Month-on-month increases topping 10% for some products\n\nCPUs were already a bottleneck, following CPU ratios due to AI inference... \n\nBut the broader trend of LTAs seems to be appearing from: \n\n- Memory, with $MU, Samsung, $SNDK, and SK Hynix signing DRAM/NAND LTAs.\n\n- Photonics, with $LITE, $COHR signing EML LTAs. And recent Trendforce reports that $AMD and hyperscalers are now pursuing CW LTAs. \n\nAnd I'm sure there's many more from MLCCs to all the way to substrates. \n\n+1 for the bottleneck investors... hard to be a \"bubble that pops\" if you have take or pay demand spanning multiple years.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 480,
+    "retweet_count": 37,
+    "reply_count": 88,
+    "quote_count": 7,
+    "view_count": 103991,
+    "bookmark_count": 67,
+    "conversation_id": "2080153334888182065",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 5,
+          "start": 0,
+          "tag": "INTC"
+        },
+        {
+          "end": 14,
+          "start": 10,
+          "tag": "AMD"
+        },
+        {
+          "end": 401,
+          "start": 398,
+          "tag": "MU"
+        },
+        {
+          "end": 417,
+          "start": 412,
+          "tag": "SNDK"
+        },
+        {
+          "end": 480,
+          "start": 475,
+          "tag": "LITE"
+        },
+        {
+          "end": 487,
+          "start": 482,
+          "tag": "COHR"
+        },
+        {
+          "end": 545,
+          "start": 541,
+          "tag": "AMD"
+        }
+      ]
+    },
+    "cashtags": [
+      "INTC",
+      "AMD",
+      "MU",
+      "SNDK",
+      "LITE",
+      "COHR",
+      "AMD"
+    ],
+    "media": [
+      {
+        "media_key": "3_2080152209770356736",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN4vaeYbIAAxVPQ.jpg",
+        "width": 2085,
+        "height": 891,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080149813065396454",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2080149813065396454",
+    "created_at": "Thu Jul 23 04:35:37 +0000 2026",
+    "text": "Just some notes from $TSLA transcripts:\n\nElon Musk: \"I think Optimus will be the biggest product ever\" from Q2 earnings transcripts.\n\nEven from Q1, Elon Stated: \"I think Optimus will be our biggest product. Not just Tesla's biggest product ever, but probably the biggest product ever.\n\nAnd I remain convinced of that conclusion\". \n\nIt's very rare to see such high conviction reiterated from Elon regarding humanoids both directionally and TAM-wise.\n\nIn terms of upstream suppliers opportunities, Karn Budhiraj, VP of $TSLA supply chains stated: \n\n\"We’re seeing the same level of investment going to memory and also new specific items like metal injection molded parts, flexible printed circuits, and all sorts of nonlinear technologies...\" \n\nAnd that they had to build new supply chains from scratch. So would be interesting to look at for new supply chain supplier opportunities apart from the known ones.  \n\nJust pulled older slides and it looks like capacity targets for Fremont are 1M and Giga Texas was 10M, so at scale, $TSLA seems to be the clear US leader. If you're looking at that S-Curve opportunity ramp. \n\nOn a side note, Elon also gave a shoutout to $MU with likely reasonably priced LTAs, given his statement: \n\n\"We really appreciate Micron making room for Tesla in the years to come and giving us actually a very significant allocation on reasonable terms given the pretty insane pricing of memory these days.\" (Just for structural memory demand).  \n\nElon also gave a shoutout to Panasonic which had invested many billions in increasing battery cell production (will need to do deeper DD into Panasonic after this), then Samsung and $TSM. \n\nJust takeaways from Tesla earnings TLDR: \n\nElon tends to be directionally correct on where the future is heading, such as with EV or Space. \n\nHe seems extremely bullish on humanoids.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 668,
+    "retweet_count": 44,
+    "reply_count": 113,
+    "quote_count": 9,
+    "view_count": 120482,
+    "bookmark_count": 146,
+    "conversation_id": "2080149813065396454",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 26,
+          "start": 21,
+          "tag": "TSLA"
+        },
+        {
+          "end": 522,
+          "start": 517,
+          "tag": "TSLA"
+        },
+        {
+          "end": 1031,
+          "start": 1026,
+          "tag": "TSLA"
+        },
+        {
+          "end": 1167,
+          "start": 1164,
+          "tag": "MU"
+        },
+        {
+          "end": 1653,
+          "start": 1649,
+          "tag": "TSM"
+        }
+      ]
+    },
+    "cashtags": [
+      "TSLA",
+      "TSLA",
+      "TSLA",
+      "MU",
+      "TSM"
+    ],
+    "media": [
+      {
+        "media_key": "3_2080145638935945216",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN4pcAHa4AA1USk.jpg",
+        "width": 1682,
+        "height": 993,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2080145655763472384",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN4pc-zakAAmwdD.jpg",
+        "width": 1572,
+        "height": 458,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2080145674549760001",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN4peEyakAEOvtC.jpg",
+        "width": 1781,
+        "height": 630,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2080147390347231232",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN4rB8oaQAAOxvS.jpg",
+        "width": 2285,
+        "height": 1097,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2080042335388500360",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2080042335388500360",
