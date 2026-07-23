@@ -1,5 +1,475 @@
 [
   {
+    "tweet_id": "2080431247764173236",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080431247764173236",
+    "created_at": "Thu Jul 23 23:13:56 +0000 2026",
+    "text": "@bubbleboi I/O tile?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 278,
+    "bookmark_count": 1,
+    "conversation_id": "2080431025587396939",
+    "is_reply": true,
+    "in_reply_to_id": "2080431025587396939",
+    "in_reply_to_username": "bubbleboi",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "878311861384613888",
+          "start": 0,
+          "username": "bubbleboi"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080430802094186799",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080430802094186799",
+    "created_at": "Thu Jul 23 23:12:10 +0000 2026",
+    "text": "[Breaking] South Korean government to raise margin requirements for leveraged single-stock products, with early implementation beginning on the 31st.\n\nhttps://t.co/qxo6EYeSM4",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 15,
+    "retweet_count": 3,
+    "reply_count": 4,
+    "quote_count": 0,
+    "view_count": 3439,
+    "bookmark_count": 4,
+    "conversation_id": "2080430802094186799",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "국내외 상장 ETF·ETN 신규·추가...",
+          "display_url": "stock.mk.co.kr/news/view/1126…",
+          "end": 174,
+          "expanded_url": "https://stock.mk.co.kr/news/view/1126241",
+          "images": [
+            {
+              "height": 438,
+              "url": "https://pbs.twimg.com/news_img/2080430850173435904/NxvIPska?format=jpg&name=orig",
+              "width": 658
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2080430850173435904/NxvIPska?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 151,
+          "status": 200,
+          "title": "삼전닉스 단일종목 레버리지 ETF 예탁금 31일부터 3000만원…조기 시행",
+          "unwound_url": "https://stock.mk.co.kr/news/view/1126241",
+          "url": "https://t.co/qxo6EYeSM4"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080428682028703919",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080428682028703919",
+    "created_at": "Thu Jul 23 23:03:44 +0000 2026",
+    "text": "@RJCcapital You’re a SemiAnalysis hater, lol.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 4,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 618,
+    "bookmark_count": 0,
+    "conversation_id": "2080427226894627212",
+    "is_reply": true,
+    "in_reply_to_id": "2080427934058258576",
+    "in_reply_to_username": "RJCcapital",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 11,
+          "id": "1883251363179548672",
+          "start": 0,
+          "username": "RJCcapital"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080428426318729332",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080428426318729332",
+    "created_at": "Thu Jul 23 23:02:43 +0000 2026",
+    "text": "@TShirtnJeans2 🤣",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 417,
+    "bookmark_count": 0,
+    "conversation_id": "2080427226894627212",
+    "is_reply": true,
+    "in_reply_to_id": "2080427884787753437",
+    "in_reply_to_username": "TShirtnJeans2",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 14,
+          "id": "1469775693781389314",
+          "start": 0,
+          "username": "TShirtnJeans2"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080427226894627212",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080427226894627212",
+    "created_at": "Thu Jul 23 22:57:58 +0000 2026",
+    "text": "Great. Would you trust DigiTimes or SemiAnalysis? https://t.co/KUL2rRyIvl https://t.co/sjMU2zDiXU",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 42,
+    "retweet_count": 0,
+    "reply_count": 14,
+    "quote_count": 0,
+    "view_count": 11419,
+    "bookmark_count": 19,
+    "conversation_id": "2080427226894627212",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2080426188485575026",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/KUL2rRyIvl",
+          "end": 73,
+          "expanded_url": "https://x.com/jukan05/status/2080427226894627212/photo/1",
+          "media_key": "3_2080427025869963264",
+          "start": 50,
+          "url": "https://t.co/KUL2rRyIvl"
+        },
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 97,
+          "expanded_url": "https://twitter.com/jukan05/status/2080426188485575026",
+          "start": 74,
+          "url": "https://t.co/sjMU2zDiXU"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2080427025869963264",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN8pW4IaAAAPGMY.png",
+        "width": 1188,
+        "height": 1234,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080426190574350643",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2080426190574350643",
+    "created_at": "Thu Jul 23 22:53:50 +0000 2026",
+    "text": "https://t.co/oodtlTLOGA",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 3,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 3413,
+    "bookmark_count": 0,
+    "conversation_id": "2080426188485575026",
+    "is_reply": true,
+    "in_reply_to_id": "2080426188485575026",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "SemiAnalysis recently forecast that large-scale deployment of Nvidia's native single-ended 800V high-voltage direct current power architecture could slip from the market's previous expectation of 2027 to beyond 2028, raising concerns over growth prospects for the AI power supply chain.",
+          "display_url": "digitimes.com/news/a20260723…",
+          "end": 23,
+          "expanded_url": "https://www.digitimes.com/news/a20260723PD209/nvidia-production-forecast-2027-market.html",
+          "images": [
+            {
+              "height": 427,
+              "url": "https://pbs.twimg.com/news_img/2080426190888943616/BAle83Ze?format=jpg&name=orig",
+              "width": 640
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2080426190888943616/BAle83Ze?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "title": "Nvidia 800V HVDC enters production in 1Q27, Delta set for 2Q ramp",
+          "unwound_url": "https://www.digitimes.com/news/a20260723PD209/nvidia-production-forecast-2027-market.html",
+          "url": "https://t.co/oodtlTLOGA"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080426188485575026",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080426188485575026",
+    "created_at": "Thu Jul 23 22:53:50 +0000 2026",
+    "text": "▶ Nvidia 800V HVDC to Enter Production in 1Q27; Delta Poised for 2Q Ramp-Up\n\n- SemiAnalysis has raised concerns over growth in the AI power supply chain, forecasting that the large-scale adoption of Nvidia’s 800V HVDC power architecture could be delayed from the previously expected 2027 timeline to 2028 or later.\n\n- Supply-chain sources argue that the market has misinterpreted both the cause of the delay and the mass-production schedule. The issue relates to delays in validating first-generation product designs, rather than a change in the technology roadmap.\n\n- Power cabinets, battery backup units (BBUs), battery packs, and related components have been resubmitted for validation, which is reportedly progressing smoothly.\n\n- Delta Electronics is likely to begin low-volume production of 800V HVDC products toward the end of 1Q27 and gradually ramp up shipments from 2Q27 in line with customer deployment schedules.\n\n- The main cause of the delay is product design validation rather than the 800V HVDC technology itself. A potential short-circuit risk was identified during initial system validation, prompting U.S. customers to request additional testing.\n\n- This extended the system redesign and customer certification timelines, leading Delta Electronics, Simplo Technology, and upstream material suppliers to adjust their delivery schedules.\n\n- Supply-chain sources emphasize that the issue is not whether the products can be manufactured, but whether design modifications and validation can be completed. They maintain that the long-term transition toward 800V HVDC as the mainstream power architecture for AI data centers remains intact.\n\n- They also argue that the view that 800V HVDC has become less necessary because the Rubin platform still uses a 50V power structure is based on a misunderstanding. The 50V architecture handles power distribution within the rack, while 800V HVDC supplies high-voltage power from the data center to the rack.\n\n- Rack-level power consumption is expected to increase to 600kW–1MW with Rubin Ultra and subsequent platforms. Conventional AC and low-voltage architectures will face challenges including excessive current, transmission losses, and cooling constraints.\n\n- During the initial adoption phase, ±400V HVDC and 800V HVDC are expected to coexist. The ±400V architecture will serve as a transitional option, while 800V penetration should expand as platforms evolve and product validation is completed.\n\n- Although the adoption of 800V HVDC has been slightly delayed relative to previous expectations, this is viewed as a timing shift in shipments rather than a deterioration in underlying demand.\n\n- Official production is expected to begin toward the end of 1Q27, followed by a gradual ramp-up from 2Q27. From 2027 onward, increased investment by major cloud service providers and upgrades to AI data-center power infrastructure are expected to drive a new growth cycle for Taiwanese power-supply and related component manufacturers.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 44,
+    "retweet_count": 4,
+    "reply_count": 11,
+    "quote_count": 3,
+    "view_count": 18746,
+    "bookmark_count": 17,
+    "conversation_id": "2080426188485575026",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/ovcYyxme2k",
+          "end": 297,
+          "expanded_url": "https://x.com/jukan05/status/2080426188485575026/photo/1",
+          "media_key": "3_2080426174333997056",
+          "start": 274,
+          "url": "https://t.co/ovcYyxme2k"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2080426174333997056",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN8olT6aUAAW6Hj.png",
+        "width": 640,
+        "height": 427,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080421422330159420",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080421422330159420",
+    "created_at": "Thu Jul 23 22:34:54 +0000 2026",
+    "text": "@jimcramer Is this why Intel’s stock fell again?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 64,
+    "retweet_count": 0,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 2666,
+    "bookmark_count": 0,
+    "conversation_id": "2080398942517248060",
+    "is_reply": true,
+    "in_reply_to_id": "2080398942517248060",
+    "in_reply_to_username": "jimcramer",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "14216123",
+          "start": 0,
+          "username": "jimcramer"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080420787295846428",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080420787295846428",
+    "created_at": "Thu Jul 23 22:32:22 +0000 2026",
+    "text": "Wall Street needs to own up to all the bullshit it was spewing about 14A entering high-volume production in 2029… https://t.co/LZa5N5j7Ba",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 154,
+    "retweet_count": 8,
+    "reply_count": 12,
+    "quote_count": 2,
+    "view_count": 26893,
+    "bookmark_count": 19,
+    "conversation_id": "2080420787295846428",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2080402853752107349",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/BenBajarin/sta…",
+          "end": 137,
+          "expanded_url": "https://twitter.com/BenBajarin/status/2080402853752107349",
+          "start": 114,
+          "url": "https://t.co/LZa5N5j7Ba"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080420511314747484",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080420511314747484",
+    "created_at": "Thu Jul 23 22:31:16 +0000 2026",
+    "text": "@aleabitoreddit Does Lisa Su know who Serenity is now?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 22,
+    "retweet_count": 1,
+    "reply_count": 6,
+    "quote_count": 0,
+    "view_count": 5222,
+    "bookmark_count": 1,
+    "conversation_id": "2080379612736221325",
+    "is_reply": true,
+    "in_reply_to_id": "2080379612736221325",
+    "in_reply_to_username": "aleabitoreddit",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1940360837547565056",
+          "start": 0,
+          "username": "aleabitoreddit"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080418052710224294",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080418052710224294",
+    "created_at": "Thu Jul 23 22:21:30 +0000 2026",
+    "text": "@Alex_Intel_ oh shit",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 761,
+    "bookmark_count": 1,
+    "conversation_id": "2080412445261406629",
+    "is_reply": true,
+    "in_reply_to_id": "2080412990889951622",
+    "in_reply_to_username": "Alex_Intel_",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "2156030786",
+          "start": 0,
+          "username": "Alex_Intel_"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2080279486550200738",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2080279486550200738",
