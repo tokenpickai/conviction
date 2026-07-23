@@ -1,5 +1,99 @@
 [
   {
+    "tweet_id": "2080411863448522994",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2080411863448522994",
+    "created_at": "Thu Jul 23 21:56:55 +0000 2026",
+    "text": "Main thing was executive commentary on CPO thematically. Regarding $AMD + hyperscaler adoption + timelines. \n\nChecks were very positive for the CPO segment that sold off on delay news. \n\nAnd very positive for $SIVE in that segment, since they're the laser supplier for Ayar, $GFS, that are both linked with possible $AMD CPO routes. \n\nBut couldn't get direct supplier confirmation since that's confidential.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 45,
+    "retweet_count": 1,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 3263,
+    "bookmark_count": 3,
+    "conversation_id": "2080394259535221222",
+    "is_reply": true,
+    "in_reply_to_id": "2080395319330644058",
+    "in_reply_to_username": "88magalhaes",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 71,
+          "start": 67,
+          "tag": "AMD"
+        },
+        {
+          "end": 214,
+          "start": 209,
+          "tag": "SIVE"
+        },
+        {
+          "end": 279,
+          "start": 275,
+          "tag": "GFS"
+        },
+        {
+          "end": 320,
+          "start": 316,
+          "tag": "AMD"
+        }
+      ]
+    },
+    "cashtags": [
+      "AMD",
+      "SIVE",
+      "GFS",
+      "AMD"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2080394259535221222",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2080394259535221222",
+    "created_at": "Thu Jul 23 20:46:57 +0000 2026",
+    "text": "From $AMD Advancing AI, channel checks:\n\nHelios networking partners told me they expect AMD to pursue CPO for future generations of Helios scale up networking. \n\nAnd expects other hyperscalers + industry to go down the CPO route.\n\nOne AI infra executive at a company involved in a hyperscaler CPO programs said they had seen no indication of CPO scale up supply chain delays.\n\nPushing back on recent 3rd party delay reports.\n\nThis was informal commentary, not official AMD or partner guidance.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 447,
+    "retweet_count": 18,
+    "reply_count": 142,
+    "quote_count": 4,
+    "view_count": 51070,
+    "bookmark_count": 40,
+    "conversation_id": "2080394259535221222",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 9,
+          "start": 5,
+          "tag": "AMD"
+        }
+      ]
+    },
+    "cashtags": [
+      "AMD"
+    ],
+    "media": []
+  },
+  {
     "tweet_id": "2080383615826030772",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2080383615826030772",
