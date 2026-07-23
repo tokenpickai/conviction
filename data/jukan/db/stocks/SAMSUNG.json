@@ -4324,5 +4324,7 @@
     }
   ],
   "price_series": [],
-  "price_status": "pending"
+  "price_status": "not_covered",
+  "price_unit": "KRW",
+  "price_updated_at": "2026-07-23T21:41:10.818551+00:00"
 }

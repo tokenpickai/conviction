@@ -74,5 +74,7 @@
     }
   ],
   "price_series": [],
-  "price_status": "pending"
+  "price_status": "not_covered",
+  "price_unit": "EUR",
+  "price_updated_at": "2026-07-23T21:42:21.963134+00:00"
 }
