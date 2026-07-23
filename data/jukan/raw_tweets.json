@@ -1,5 +1,173 @@
 [
   {
+    "tweet_id": "2080207595722469687",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080207595722469687",
+    "created_at": "Thu Jul 23 08:25:13 +0000 2026",
+    "text": "One reason I’m bullish on AMD: Advances in coding AI will naturally accelerate ROCm’s development and help close the gap with CUDA.\n\nAs part of its recent investment in Anthropic, AMD has already announced that it will actively use Claude Code for chip design and software engineering.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 166,
+    "retweet_count": 19,
+    "reply_count": 4,
+    "quote_count": 5,
+    "view_count": 27978,
+    "bookmark_count": 36,
+    "conversation_id": "2080207595722469687",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2080205767861510343",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/SvlHswIP2b",
+          "end": 296,
+          "expanded_url": "https://x.com/jukan05/status/2080207595722469687/photo/1",
+          "media_key": "3_2080207234647379968",
+          "start": 273,
+          "url": "https://t.co/SvlHswIP2b"
+        },
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 320,
+          "expanded_url": "https://twitter.com/jukan05/status/2080205767861510343",
+          "start": 297,
+          "url": "https://t.co/C89PKFuiz4"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2080207234647379968",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN5hdWBa0AAVihy.jpg",
+        "width": 1206,
+        "height": 768,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080205767861510343",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080205767861510343",
+    "created_at": "Thu Jul 23 08:17:58 +0000 2026",
+    "text": "Wenfeng:\n\n- DeepSeek is working closely with Huawei and believes it can secure approximately 16,000 Huawei AI chips.\n\n- AI-powered code generation and advanced programming languages such as TileLang are expected to rapidly lower the barriers to entry created by the CUDA ecosystem.\n\n- Although NVIDIA GPUs were used to train V3, DeepSeek has significantly reduced its software dependence on NVIDIA’s ecosystem by using its own compiler and a TileLang-based environment.\n\n- If TileLang and DeepSeek’s proprietary compiler are ported to Huawei chips, the ecosystem issues surrounding Chinese chips could largely be resolved within about a year. The main remaining bottleneck would be production capacity.\n\n- Huawei’s 950 SuperNode could replace workloads currently handled by the GB200 and GB300, although roughly four Huawei cards are needed to match the performance of one NVIDIA card, and Huawei’s products remain about two years behind.\n\n- The chip gap between China and the United States is best understood as roughly a 4x gap in hardware efficiency and a two-year time lag—not primarily as an ecosystem gap.\n\nThe end of CUDA’s moat is approaching. The ecosystem problem for Chinese chips could be solved within a year. The only real bottleneck left is production itself.\n\nVery bearish on $NVDA.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 225,
+    "retweet_count": 35,
+    "reply_count": 11,
+    "quote_count": 10,
+    "view_count": 68750,
+    "bookmark_count": 87,
+    "conversation_id": "2080205767861510343",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2080185552914309428",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 1297,
+          "start": 1292,
+          "tag": "NVDA"
+        }
+      ]
+    },
+    "cashtags": [
+      "NVDA"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2080204343060709706",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080204343060709706",
+    "created_at": "Thu Jul 23 08:12:18 +0000 2026",
+    "text": "@mrcooler6868 I’ve never expressed a bearish outlook. What are you talking about?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 8,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 2234,
+    "bookmark_count": 0,
+    "conversation_id": "2080201993189236857",
+    "is_reply": true,
+    "in_reply_to_id": "2080203775030202405",
+    "in_reply_to_username": "mrcooler6868",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "1879320041583423488",
+          "start": 0,
+          "username": "mrcooler6868"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080201993189236857",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080201993189236857",
+    "created_at": "Thu Jul 23 08:02:58 +0000 2026",
+    "text": "Apparently, some idiots have suddenly started dumping memory stocks because of this post I made…\n\nYes, I posted it to warn people not to underestimate YMTC. But that doesn’t mean I was telling anyone to panic-sell.\n\nNAND is still in short supply, and that shortage will persist.\n\nNVIDIA’s CMX racks are currently so constrained by NAND shortages that they cannot even be shipped fully populated. Customers looking to purchase CMX racks are reportedly being asked to source some of the NAND themselves to fill the racks.\n\nI’m not a NAND bear—let me be absolutely clear about that. YMTC is still heavily exposed to the consumer market, and it should not be underestimated. But that does not mean YMTC is going to push the NAND market into oversupply.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 306,
+    "retweet_count": 49,
+    "reply_count": 19,
+    "quote_count": 34,
+    "view_count": 72242,
+    "bookmark_count": 57,
+    "conversation_id": "2080201993189236857",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2080163814012842361",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 302,
+          "expanded_url": "https://twitter.com/jukan05/status/2080163814012842361",
+          "start": 279,
+          "url": "https://t.co/8Un24oSK1p"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2080163814012842361",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2080163814012842361",
