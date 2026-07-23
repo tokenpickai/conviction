@@ -1,5 +1,196 @@
 [
   {
+    "tweet_id": "2080383615826030772",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2080383615826030772",
+    "created_at": "Thu Jul 23 20:04:40 +0000 2026",
+    "text": "RT @AMD: The feelings mutual. 🤝",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 13,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 20909,
+    "bookmark_count": 0,
+    "conversation_id": "2080383615826030772",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2080383555767804141",
+    "entities": {
+      "mentions": [
+        {
+          "end": 7,
+          "id": "14861876",
+          "start": 3,
+          "username": "AMD"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080380170779898186",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2080380170779898186",
+    "created_at": "Thu Jul 23 19:50:58 +0000 2026",
+    "text": "@beauty_oe Special shoutout to the super cool social media team at $AMD!\n\nLisa does make cool bandanas, probably would sell out faster than their CPUs/accelerators. https://t.co/tY7VRyOnC9",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 81,
+    "retweet_count": 0,
+    "reply_count": 9,
+    "quote_count": 0,
+    "view_count": 8331,
+    "bookmark_count": 0,
+    "conversation_id": "2080379612736221325",
+    "is_reply": true,
+    "in_reply_to_id": "2080379810455695433",
+    "in_reply_to_username": "beauty_oe",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 71,
+          "start": 67,
+          "tag": "AMD"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1350097978652991488",
+          "start": 0,
+          "username": "beauty_oe"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/tY7VRyOnC9",
+          "end": 188,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2080380170779898186/photo/1",
+          "media_key": "3_2080380167650963456",
+          "start": 165,
+          "url": "https://t.co/tY7VRyOnC9"
+        }
+      ]
+    },
+    "cashtags": [
+      "AMD"
+    ],
+    "media": [
+      {
+        "media_key": "3_2080380167650963456",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN7-vXqacAA5kEr.jpg",
+        "width": 1202,
+        "height": 1253,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080379612736221325",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2080379612736221325",
+    "created_at": "Thu Jul 23 19:48:45 +0000 2026",
+    "text": "$AMD reached out directly to hand me some special swag!\n\nApparently they only made 30 of these bandanas? \n\nI love AMD and Lisa Su now. https://t.co/KgcYjBUcTv",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 707,
+    "retweet_count": 19,
+    "reply_count": 203,
+    "quote_count": 5,
+    "view_count": 97779,
+    "bookmark_count": 24,
+    "conversation_id": "2080379612736221325",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 4,
+          "start": 0,
+          "tag": "AMD"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/KgcYjBUcTv",
+          "end": 158,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2080379612736221325/photo/1",
+          "media_key": "3_2080379606914433025",
+          "start": 135,
+          "url": "https://t.co/KgcYjBUcTv"
+        },
+        {
+          "display_url": "pic.x.com/KgcYjBUcTv",
+          "end": 158,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2080379612736221325/photo/1",
+          "media_key": "3_2080379606927106048",
+          "start": 135,
+          "url": "https://t.co/KgcYjBUcTv"
+        },
+        {
+          "display_url": "pic.x.com/KgcYjBUcTv",
+          "end": 158,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2080379612736221325/photo/1",
+          "media_key": "3_2080379606914535424",
+          "start": 135,
+          "url": "https://t.co/KgcYjBUcTv"
+        }
+      ]
+    },
+    "cashtags": [
+      "AMD"
+    ],
+    "media": [
+      {
+        "media_key": "3_2080379606914433025",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN7-OuwaAAE2BYk.jpg",
+        "width": 1556,
+        "height": 2048,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2080379606927106048",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN7-OuzbYAAGB7N.jpg",
+        "width": 1260,
+        "height": 1680,
+        "alt_text": null
+      },
+      {
+        "media_key": "3_2080379606914535424",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN7-OuwbkAAfusd.jpg",
+        "width": 2048,
+        "height": 1007,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2080351269718507966",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2080351269718507966",
