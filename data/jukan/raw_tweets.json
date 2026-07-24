@@ -1,5 +1,349 @@
 [
   {
+    "tweet_id": "2080527318670582055",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080527318670582055",
+    "created_at": "Fri Jul 24 05:35:41 +0000 2026",
+    "text": "@heyitsyogesh BS",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "und",
+    "like_count": 24,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 2617,
+    "bookmark_count": 1,
+    "conversation_id": "2080511038269821258",
+    "is_reply": true,
+    "in_reply_to_id": "2080511038269821258",
+    "in_reply_to_username": "heyitsyogesh",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "298540275",
+          "start": 0,
+          "username": "heyitsyogesh"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080525359544701356",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080525359544701356",
+    "created_at": "Fri Jul 24 05:27:54 +0000 2026",
+    "text": "\"CXMT aims to break into the U.S. in the long term, according to three sources, but its capacity is stretched by heavy domestic demand.\"\n\nCXMT already has its hands full just trying to meet domestic demand in China—as I’ve said time and time again. https://t.co/TfBMrvb2VX",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 142,
+    "retweet_count": 22,
+    "reply_count": 16,
+    "quote_count": 4,
+    "view_count": 27887,
+    "bookmark_count": 36,
+    "conversation_id": "2080525359544701356",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/TfBMrvb2VX",
+          "end": 272,
+          "expanded_url": "https://x.com/jukan05/status/2080525359544701356/photo/1",
+          "media_key": "3_2080525215583596545",
+          "start": 249,
+          "url": "https://t.co/TfBMrvb2VX"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2080525215583596545",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN-CqRUacAEbe55.png",
+        "width": 1462,
+        "height": 1196,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080523308391616862",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2080523308391616862",
+    "created_at": "Fri Jul 24 05:19:45 +0000 2026",
+    "text": "https://t.co/eCs3XVghqj",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 38,
+    "retweet_count": 2,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 13220,
+    "bookmark_count": 3,
+    "conversation_id": "2080522415281668100",
+    "is_reply": true,
+    "in_reply_to_id": "2080522415281668100",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "For months, Chinese chip manufacturer ChangXin Memory Technologies (CXMT) had been hiking prices on Huawei, one of the country’s biggest technology companies. The chipmaker held firm when Huawei demanded relief from the escalating costs, according to two people familiar with the matter.",
+          "display_url": "reuters.com/world/china/ch…",
+          "end": 23,
+          "expanded_url": "https://www.reuters.com/world/china/chinas-memory-chip-makers-ride-ai-boom-new-power-us-scrutiny-2026-07-24/",
+          "images": [
+            {
+              "height": 1005,
+              "url": "https://pbs.twimg.com/news_img/2080523310308507649/5MYEIzIg?format=jpg&name=orig",
+              "width": 1920
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2080523310308507649/5MYEIzIg?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "China’s memory chip makers ride AI boom to new power — and U.S. scrutiny",
+          "unwound_url": "https://www.reuters.com/world/china/chinas-memory-chip-makers-ride-ai-boom-new-power-us-scrutiny-2026-07-24/",
+          "url": "https://t.co/eCs3XVghqj"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080523239135343084",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080523239135343084",
+    "created_at": "Fri Jul 24 05:19:29 +0000 2026",
+    "text": "CXMT is now powerful enough to throw its weight around even with Huawei. When Huawei refused to accept the price increase, CXMT reportedly kicked Huawei’s engineers out of the fab. https://t.co/itbZcTnTBM https://t.co/IRMOKRQPcA",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 228,
+    "retweet_count": 28,
+    "reply_count": 17,
+    "quote_count": 6,
+    "view_count": 46715,
+    "bookmark_count": 39,
+    "conversation_id": "2080523239135343084",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2080522415281668100",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/itbZcTnTBM",
+          "end": 204,
+          "expanded_url": "https://x.com/jukan05/status/2080523239135343084/photo/1",
+          "media_key": "3_2080522963808567296",
+          "start": 181,
+          "url": "https://t.co/itbZcTnTBM"
+        },
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 228,
+          "expanded_url": "https://twitter.com/jukan05/status/2080522415281668100",
+          "start": 205,
+          "url": "https://t.co/IRMOKRQPcA"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2080522963808567296",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN-AnMzaQAAsBJ4.png",
+        "width": 1508,
+        "height": 514,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080522415281668100",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080522415281668100",
+    "created_at": "Fri Jul 24 05:16:12 +0000 2026",
+    "text": "LMAO, CXMT now commands a premium. Apparently, it’s pricing its products higher than Samsung. (RTRS) https://t.co/VSHcj5K9Wx",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 207,
+    "retweet_count": 27,
+    "reply_count": 14,
+    "quote_count": 13,
+    "view_count": 60456,
+    "bookmark_count": 37,
+    "conversation_id": "2080522415281668100",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/VSHcj5K9Wx",
+          "end": 124,
+          "expanded_url": "https://x.com/jukan05/status/2080522415281668100/photo/1",
+          "media_key": "3_2080522373305135104",
+          "start": 101,
+          "url": "https://t.co/VSHcj5K9Wx"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2080522373305135104",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN-AE1Aa8AA23zd.png",
+        "width": 1448,
+        "height": 1196,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080521232391553248",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080521232391553248",
+    "created_at": "Fri Jul 24 05:11:30 +0000 2026",
+    "text": "Regarding Shawn Kim:\n\nI heard from several sources that he made bearish comments on memory during a call.\n\nOne source also told me that he made similar remarks during a roadshow.\n\nAnother source said that he remains bearish on memory and had only temporarily softened his stance in response to market conditions. I was even told that his view differs significantly from that of the North American team.\n\nTo clarify the situation, two notes were circulated in Korea today, both purportedly from Sean Kim. One was actually from 2022 and had been edited to make it appear as though Sean Kim’s report had been released today, triggering panic selling.\n\nThe other was the one I posted earlier. However, I deleted it because I had verified it based on only one source and therefore could not vouch for its accuracy.\n\nI apologize for the confusion.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 226,
+    "retweet_count": 19,
+    "reply_count": 29,
+    "quote_count": 13,
+    "view_count": 41123,
+    "bookmark_count": 39,
+    "conversation_id": "2080521232391553248",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080518205538455596",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080518205538455596",
+    "created_at": "Fri Jul 24 04:59:29 +0000 2026",
+    "text": "RT @FundaAI: Jukan is right. Korea has seen some weakness recently. A certain Korean equity analyst has also expressed a cautious view, dra…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 15,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 4256,
+    "bookmark_count": 0,
+    "conversation_id": "2080518205538455596",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2080516280461750382",
+    "entities": {
+      "mentions": [
+        {
+          "end": 11,
+          "id": "978741625",
+          "start": 3,
+          "username": "FundaAI"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080502660227301576",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080502660227301576",
+    "created_at": "Fri Jul 24 03:57:42 +0000 2026",
+    "text": "@FrontRowBrian It was reportedly said during a Morgan Stanley roadshow.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 9,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 1,
+    "view_count": 4288,
+    "bookmark_count": 0,
+    "conversation_id": "2080492462427324612",
+    "is_reply": true,
+    "in_reply_to_id": "2080502178263810519",
+    "in_reply_to_username": "FrontRowBrian",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 14,
+          "id": "1086269499530244096",
+          "start": 0,
+          "username": "FrontRowBrian"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2080498585964298466",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2080498585964298466",
