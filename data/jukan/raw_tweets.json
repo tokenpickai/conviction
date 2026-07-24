@@ -1,5 +1,269 @@
 [
   {
+    "tweet_id": "2080582655712883168",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2080582655712883168",
+    "created_at": "Fri Jul 24 09:15:35 +0000 2026",
+    "text": "https://t.co/PZBVAqu62D",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 6,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 3417,
+    "bookmark_count": 2,
+    "conversation_id": "2080582653284344223",
+    "is_reply": true,
+    "in_reply_to_id": "2080582653284344223",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "최근 주요 반도체 제조 장비 납품 기간(납기·리드타임)이 최대 2배까지 늘어난 것으로 파악됐다. 글로벌 반도체 제조사가 동시다발적으로 공장(팹) 투자를 단행, 장비 구매 주문이 폭증해서다. 반도체 장비 납기가 생산 계획 중요 변수로 떠오르면서 제조사 간 장비 확보 경쟁이 한층 치열해질 전망이다. 다수 팹 건설을 추진 중인 삼성전자·SK하이닉스 등 국내 반도체 제조사도 조기 구매주문 검토 등 대응책 마련에 돌입했다. 23일 업계에 따르면 세계 반",
+          "display_url": "etnews.com/20260723000276",
+          "end": 23,
+          "expanded_url": "https://www.etnews.com/20260723000276",
+          "images": [
+            {
+              "height": 400,
+              "url": "https://pbs.twimg.com/news_img/2080199112780324864/9vMi4BcL?format=jpg&name=orig",
+              "width": 600
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2080199112780324864/9vMi4BcL?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "장비 납기 '2배로'…반도체 생산 계획 중대 변수 급부상",
+          "unwound_url": "https://www.etnews.com/20260723000276",
+          "url": "https://t.co/PZBVAqu62D"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080582653284344223",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080582653284344223",
+    "created_at": "Fri Jul 24 09:15:34 +0000 2026",
+    "text": "Semiconductor Equipment Delivery Times Double, Putting Chipmakers Under Pressure\n\nLead times for major semiconductor manufacturing equipment have recently increased by as much as twofold. The surge is being driven by simultaneous fab investments by global chipmakers, which have caused equipment orders to skyrocket.\n\nAs equipment lead times emerge as a critical factor in production planning, competition among chipmakers to secure machinery is expected to intensify. South Korean semiconductor manufacturers, including Samsung Electronics and SK hynix, which are pursuing the construction of multiple fabs, have begun considering countermeasures such as placing purchase orders earlier than usual.\n\nAccording to industry sources on the 23rd, lead times for key equipment supplied by the world’s five largest semiconductor equipment manufacturers—Applied Materials, ASML, Lam Research, Tokyo Electron, and KLA, which together account for 70% of the global market—have increased by 1.5 to two times. This means that the period between a chipmaker issuing a purchase order and receiving the equipment has nearly doubled.\n\nAlthough lead times vary by process, equipment that would normally take six months to deliver may now arrive only a year after the order is placed.\n\nLead times have increased not only for global equipment manufacturers but also for major South Korean suppliers. One domestic company, identified only as Company A, supplies front-end and back-end equipment to TSMC and Micron. Lead times for some of its equipment have increased from three to four months to six to eight months. Company B, which supplies back-end equipment to Micron, has also seen its lead times increase by 50%. Some equipment is reportedly taking more than a year to deliver.\n\n“Even equipment manufacturers that secured production capacity in advance are seeing longer lead times and are now operating their production lines at full capacity,” a senior semiconductor equipment industry official said. “Companies that were not prepared to expand capacity are facing continuous delivery delays as orders pour in.”\n\nThe increase in equipment lead times is also expected to affect fabs currently being planned by Samsung Electronics and SK hynix. If equipment is not delivered on schedule, the fabs may begin operations later than originally planned. Purchasing teams at both companies are therefore closely monitoring equipment lead times and developing countermeasures, according to industry sources.\n\n“Samsung Electronics and SK hynix are looking to place purchase orders earlier than before to account for longer equipment lead times,” an industry official said. “Equipment delivery schedules have become a critical issue that could affect fab investment and operational plans.”\n\nSemiconductor equipment lead times also rose sharply in 2021 and 2022. At the time, however, supply chains—including logistics networks—were disrupted by the COVID-19 pandemic. The current situation is different: this time, the problem stems from large-scale fab investments by governments and companies around the world.\n\nThe spread of artificial intelligence has accelerated infrastructure investment and sharply increased semiconductor demand. In response, chipmakers are building fabs in multiple locations and seeking to install the necessary equipment. As orders rapidly accumulate at major equipment manufacturers, delivery times are becoming longer.\n\nWith chipmakers worldwide expected to continue investing in fabs to expand semiconductor production capacity, equipment lead times are likely to keep increasing for some time. Concerns are also mounting that shortages could spread beyond semiconductor equipment to the broader range of facilities and resources needed for fab construction.\n\n“Competition to secure the equipment and infrastructure required to build fabs will intensify worldwide,” another industry official said. “Companies that fail to secure such resources preemptively could lose influence in the race for semiconductor production capacity.”\n\n$ASML $AMAT $KLAC",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 59,
+    "retweet_count": 6,
+    "reply_count": 11,
+    "quote_count": 2,
+    "view_count": 10450,
+    "bookmark_count": 19,
+    "conversation_id": "2080582653284344223",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 4046,
+          "start": 4041,
+          "tag": "ASML"
+        },
+        {
+          "end": 4052,
+          "start": 4047,
+          "tag": "AMAT"
+        },
+        {
+          "end": 4058,
+          "start": 4053,
+          "tag": "KLAC"
+        }
+      ]
+    },
+    "cashtags": [
+      "ASML",
+      "AMAT",
+      "KLAC"
+    ],
+    "media": [
+      {
+        "media_key": "3_2080582628575768576",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN-24JYbcAAHp5t.png",
+        "width": 600,
+        "height": 400,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080580884227670344",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080580884227670344",
+    "created_at": "Fri Jul 24 09:08:32 +0000 2026",
+    "text": "@vikramskr @citrini @rennyzucker 😆",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 778,
+    "bookmark_count": 0,
+    "conversation_id": "2080580356944846854",
+    "is_reply": true,
+    "in_reply_to_id": "2080580356944846854",
+    "in_reply_to_username": "vikramskr",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1328394486402093057",
+          "start": 0,
+          "username": "vikramskr"
+        },
+        {
+          "end": 19,
+          "id": "1365809270034477069",
+          "start": 11,
+          "username": "citrini"
+        },
+        {
+          "end": 32,
+          "id": "1158812701038194694",
+          "start": 20,
+          "username": "rennyzucker"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080578328025763921",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2080578328025763921",
+    "created_at": "Fri Jul 24 08:58:23 +0000 2026",
+    "text": "https://t.co/X8crCyEe1s",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 9,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 4691,
+    "bookmark_count": 1,
+    "conversation_id": "2080578325702205898",
+    "is_reply": true,
+    "in_reply_to_id": "2080578325702205898",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "엔비디아와 함께 인공지능(AI) 인프라 시장을 주도하는 AMD가 6세대 고대역폭메모리(HBM)인 HBM4를 대량 공급받기 위한 삼성전자와의 본계약 체결이 임박했다고 밝혔다. AMD가 AI 서버 랙 ‘헬리오스’ 양산을 선언하는 자리에 삼성전자는 파운드리(반도체 위탁 생산",
+          "display_url": "sedaily.com/article/200716…",
+          "end": 23,
+          "expanded_url": "https://www.sedaily.com/article/20071621",
+          "images": [
+            {
+              "height": 615,
+              "url": "https://pbs.twimg.com/news_img/2080578168373776385/24hsCPT_?format=jpg&name=orig",
+              "width": 820
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2080578168373776385/24hsCPT_?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "[단독] AMD 신무기 공개한 날…“삼성과 HBM4 본계약 임박”",
+          "unwound_url": "https://www.sedaily.com/article/20071621",
+          "url": "https://t.co/X8crCyEe1s"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080578325702205898",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080578325702205898",
+    "created_at": "Fri Jul 24 08:58:22 +0000 2026",
+    "text": "AMD: “Full HBM4 Supply Deal with Samsung Is Imminent”\n\nAMD, which alongside Nvidia is leading the artificial intelligence infrastructure market, said it is close to signing a definitive agreement with Samsung Electronics for the large-scale supply of HBM4, the sixth generation of high-bandwidth memory.\n\nAs AMD announced the mass production of its “Helios” AI server racks, Samsung dispatched the head of its foundry division and the executive overseeing its U.S. semiconductor operations, known as Device Solutions Americas (DSA), to finalize negotiations over an HBM4 supply agreement.\n\nSpeaking with reporters during the “AMD Advancing AI 2026” event in San Francisco on June 23, local time, AMD CEO Lisa Su was asked whether the company was discussing a substantive agreement to secure significant volumes of HBM4 following the signing of a memorandum of understanding with Samsung for priority supply. “We’re almost there,” she replied.\n\nSu visited Samsung Electronics’ Pyeongtaek campus in March to sign the MOU. The agreement calls for Samsung to receive priority consideration as an HBM4 supplier for AMD’s new AI accelerators and for the companies to cooperate in the foundry business. Her remarks indicated that a definitive agreement for additional HBM4 supplies is now imminent following Samsung’s selection as a priority supplier.\n\n“Helios is now in full-scale production and is scheduled to begin shipping at the end of the third quarter,” Su said during her keynote address.\n\nHan Jin-man, president of Samsung Electronics’ foundry business, and Cho Sang-yeon, executive vice president and head of DSA, attended Su’s keynote in person and held discussions aimed at launching full-scale HBM4 supplies. They remained in attendance throughout the two-hour presentation and, immediately afterward, continued talks with senior AMD executives, including Corporate Vice President and Chief Technology Officer Joseph Macri.\n\nAsked about negotiations over a follow-up HBM4 agreement, Han and Cho declined to comment, saying only, “We have an important meeting coming up shortly.”\n\nWhen asked about additional HBM supplies and the possibility of producing AMD chips through Samsung’s foundry business, Macri described the relationship as “collaborative.”",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 118,
+    "retweet_count": 16,
+    "reply_count": 9,
+    "quote_count": 2,
+    "view_count": 15698,
+    "bookmark_count": 18,
+    "conversation_id": "2080578325702205898",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/3YpnEvKESu",
+          "end": 304,
+          "expanded_url": "https://x.com/jukan05/status/2080578325702205898/photo/1",
+          "media_key": "3_2080578306127335424",
+          "start": 281,
+          "url": "https://t.co/3YpnEvKESu"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2080578306127335424",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN-y8jAakAAHZHF.jpg",
+        "width": 1200,
+        "height": 800,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2080527318670582055",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2080527318670582055",
