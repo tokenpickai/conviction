@@ -1,5 +1,145 @@
 [
   {
+    "tweet_id": "2080618743613501566",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2080618743613501566",
+    "created_at": "Fri Jul 24 11:38:59 +0000 2026",
+    "text": "https://t.co/aNd8BOuyBN",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 10,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 4892,
+    "bookmark_count": 2,
+    "conversation_id": "2080618741101191377",
+    "is_reply": true,
+    "in_reply_to_id": "2080618741101191377",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "Samsung Electronics Co. and SK Hynix Inc. are set to unveil major agreements involving “very large” sums with leading US technology companies during President Lee Jae Myung’s visit to Silicon Valley, a senior presidential official said.",
+          "display_url": "bloomberg.com/news/articles/…",
+          "end": 23,
+          "expanded_url": "https://www.bloomberg.com/news/articles/2026-07-24/samsung-sk-hynix-to-ink-large-chip-supply-deals-with-us-firms",
+          "images": [
+            {
+              "height": 800,
+              "url": "https://pbs.twimg.com/news_img/2080616755425325056/y3oWJqIi?format=jpg&name=orig",
+              "width": 1200
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2080616755425325056/y3oWJqIi?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "Samsung, SK Hynix to Ink Large Chip Supply Deals with US Firms",
+          "unwound_url": "https://www.bloomberg.com/news/articles/2026-07-24/samsung-sk-hynix-to-ink-large-chip-supply-deals-with-us-firms",
+          "url": "https://t.co/aNd8BOuyBN"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080618741101191377",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080618741101191377",
+    "created_at": "Fri Jul 24 11:38:58 +0000 2026",
+    "text": "Kim Yong-beom, the presidential chief of staff for policy, said Samsung and SK hynix are expected to announce “very large-scale” contracts with leading U.S. technology companies during President Lee Jae-myung’s visit to Silicon Valley. https://t.co/sYe2HX6RSd",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 80,
+    "retweet_count": 8,
+    "reply_count": 10,
+    "quote_count": 1,
+    "view_count": 9808,
+    "bookmark_count": 18,
+    "conversation_id": "2080618741101191377",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/sYe2HX6RSd",
+          "end": 259,
+          "expanded_url": "https://x.com/jukan05/status/2080618741101191377/photo/1",
+          "media_key": "3_2080618718271512576",
+          "start": 236,
+          "url": "https://t.co/sYe2HX6RSd"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2080618718271512576",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN_Xs1-aIAAlPSh.png",
+        "width": 1304,
+        "height": 864,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080596432235717058",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080596432235717058",
+    "created_at": "Fri Jul 24 10:10:19 +0000 2026",
+    "text": "•MI500 brings optical interconnects, ahead of Nvidia Rubin Ultra in key areas (HBM, 4-die package, scale-up domain).\n\n👀 https://t.co/0fYgTixGSG",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 193,
+    "retweet_count": 7,
+    "reply_count": 14,
+    "quote_count": 3,
+    "view_count": 36403,
+    "bookmark_count": 34,
+    "conversation_id": "2080596432235717058",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2080594785426170143",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/sssjeffpu/stat…",
+          "end": 143,
+          "expanded_url": "https://twitter.com/sssjeffpu/status/2080594785426170143",
+          "start": 120,
+          "url": "https://t.co/0fYgTixGSG"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2080582655712883168",
     "kind": "self_thread",
     "url": "https://x.com/jukan05/status/2080582655712883168",
