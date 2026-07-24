@@ -502,5 +502,7 @@
     }
   ],
   "price_series": [],
-  "price_status": "pending"
+  "price_status": "not_covered",
+  "price_unit": "USD",
+  "price_updated_at": "2026-07-24T21:38:17.541210+00:00"
 }
