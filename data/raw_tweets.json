@@ -1,5 +1,108 @@
 [
   {
+    "tweet_id": "2080754547757391897",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2080754547757391897",
+    "created_at": "Fri Jul 24 20:38:37 +0000 2026",
+    "text": "Feels like every other car you see in SF is a Waymo.\n\nShort-medium term I see it as negligible impact to $UBER and $LYFT. \n\nLong term I see them cooked in US markets unless they act…\n\nSince autonomous vehicles can compress cost/margins of human ride shares by a lot. Then robotics can compress cost of delivery if Waymo launches a competitor to Uber Eats.\n\nJust like how people compare uber/lyft costs before rides, what people care about is lowest cost out of the bunch, and directionally Waymo/$TSLA would likely win there",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 29,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 4806,
+    "bookmark_count": 1,
+    "conversation_id": "2080750537121874206",
+    "is_reply": true,
+    "in_reply_to_id": "2080751250853831012",
+    "in_reply_to_username": "OtsukimiOtsu",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 110,
+          "start": 105,
+          "tag": "UBER"
+        },
+        {
+          "end": 120,
+          "start": 115,
+          "tag": "LYFT"
+        }
+      ]
+    },
+    "cashtags": [
+      "UBER",
+      "LYFT"
+    ],
+    "media": []
+  },
+  {
+    "tweet_id": "2080750537121874206",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2080750537121874206",
+    "created_at": "Fri Jul 24 20:22:41 +0000 2026",
+    "text": "There you have it, $GOOGL Waymo to explore split with $UBER per FT.\n\nMy view last year was that Uber partnering with Waymo was a bad choice… since Uber would just serve as a distribution funnel that Google needed as they scale up.\n\nAnd that $NBIS Avride, other neutral players, or vertical integration would be the optimal path forward.\n\nNow their own partner Waymo looks to be the strongest disruptor to Uber.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 322,
+    "retweet_count": 15,
+    "reply_count": 98,
+    "quote_count": 6,
+    "view_count": 105761,
+    "bookmark_count": 40,
+    "conversation_id": "2080750537121874206",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "1996371542369034395",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 25,
+          "start": 19,
+          "tag": "GOOGL"
+        },
+        {
+          "end": 59,
+          "start": 54,
+          "tag": "UBER"
+        },
+        {
+          "end": 246,
+          "start": 241,
+          "tag": "NBIS"
+        }
+      ]
+    },
+    "cashtags": [
+      "GOOGL",
+      "UBER",
+      "NBIS"
+    ],
+    "media": [
+      {
+        "media_key": "3_2080750482805723136",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HOBPijHbkAAMCnR.jpg",
+        "width": 1024,
+        "height": 558,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2080689966045348047",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2080689966045348047",
