@@ -1,5 +1,140 @@
 [
   {
+    "tweet_id": "2080462582335619169",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2080462582335619169",
+    "created_at": "Fri Jul 24 01:18:27 +0000 2026",
+    "text": "@Frenchie_ @AMD These stickers were even better.\n\n$AMD go brrrr https://t.co/O3dvaUG83a",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 71,
+    "retweet_count": 1,
+    "reply_count": 5,
+    "quote_count": 3,
+    "view_count": 8233,
+    "bookmark_count": 2,
+    "conversation_id": "2080379612736221325",
+    "is_reply": true,
+    "in_reply_to_id": "2080384611889066053",
+    "in_reply_to_username": "Frenchie_",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 54,
+          "start": 50,
+          "tag": "AMD"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 10,
+          "id": "746932803095400452",
+          "start": 0,
+          "username": "Frenchie_"
+        },
+        {
+          "end": 15,
+          "id": "14861876",
+          "start": 11,
+          "username": "AMD"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "pic.x.com/O3dvaUG83a",
+          "end": 87,
+          "expanded_url": "https://x.com/aleabitoreddit/status/2080462582335619169/photo/1",
+          "media_key": "3_2080462579055689728",
+          "start": 64,
+          "url": "https://t.co/O3dvaUG83a"
+        }
+      ]
+    },
+    "cashtags": [
+      "AMD"
+    ],
+    "media": [
+      {
+        "media_key": "3_2080462579055689728",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN9JsWEbgAAVB0N.jpg",
+        "width": 2048,
+        "height": 1152,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080456465509454053",
+    "kind": "reply",
+    "url": "https://x.com/aleabitoreddit/status/2080456465509454053",
+    "created_at": "Fri Jul 24 00:54:09 +0000 2026",
+    "text": "@Thomus0x eh, Rosenblatt June 30 note identified AMD as the likely first $AAOI CPO customer. I wouldn't quite say they aren't remotely close. \n\n$LITE / $COHR / $SIVE just look like your top 3 right now in terms of CPO laser visibility per the recent Morgan Stanley note.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 61,
+    "retweet_count": 1,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 8356,
+    "bookmark_count": 10,
+    "conversation_id": "2080445777395298454",
+    "is_reply": true,
+    "in_reply_to_id": "2080452596565995971",
+    "in_reply_to_username": "Thomus0x",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 78,
+          "start": 73,
+          "tag": "AAOI"
+        },
+        {
+          "end": 149,
+          "start": 144,
+          "tag": "LITE"
+        },
+        {
+          "end": 157,
+          "start": 152,
+          "tag": "COHR"
+        },
+        {
+          "end": 165,
+          "start": 160,
+          "tag": "SIVE"
+        }
+      ],
+      "mentions": [
+        {
+          "end": 9,
+          "id": "1272580007597137925",
+          "start": 0,
+          "username": "Thomus0x"
+        }
+      ]
+    },
+    "cashtags": [
+      "AAOI",
+      "LITE",
+      "COHR",
+      "SIVE"
+    ],
+    "media": []
+  },
+  {
     "tweet_id": "2080445777395298454",
     "kind": "post",
     "url": "https://x.com/aleabitoreddit/status/2080445777395298454",

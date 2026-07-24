@@ -1,5 +1,376 @@
 [
   {
+    "tweet_id": "2080498585964298466",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080498585964298466",
+    "created_at": "Fri Jul 24 03:41:31 +0000 2026",
+    "text": "@2munshot 2022년 저거랑 이거랑 다른 받은글입니다.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ko",
+    "like_count": 2,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 660,
+    "bookmark_count": 0,
+    "conversation_id": "2080492462427324612",
+    "is_reply": true,
+    "in_reply_to_id": "2080498234682986652",
+    "in_reply_to_username": "2munshot",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 9,
+          "id": "1955532838385930240",
+          "start": 0,
+          "username": "2munshot"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080492462427324612",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080492462427324612",
+    "created_at": "Fri Jul 24 03:17:11 +0000 2026",
+    "text": "Why the KOSPI is down today:\n\nA note is circulating that Morgan Stanley analyst Shawn Kim has turned bearish on memory.\n\nSummary of the note:\n----------------------------------------------------------\nShawn Kim’s bearish take on memory\n\n- NAND\nModule makers are holding about 13 weeks of inventory, compared with a COVID-era peak of 15 weeks.“Demand has evaporated.”\n\n- The pace of price increases is expected to slow to 5% QoQ in Q4, reducing the need to pull forward demand.The opportunity cost of pulling forward demand is also much lower.\n\n- CSPs say their inventory levels are healthy.Tencent, one of the CSPs, said it has already secured 90% of its requirements.\n- NAND spot prices have been declining over the past two months.\n\n- Demand and supply appear to be converging.CXMT is ramping up supply rapidly.\n\n- DRAM: If NAND goes down, sell DRAM as well.\n\n- HBM: Growth is expected to be capped at around 40%, reportedly based on TrendForce data.\n\n- Joe Moore’s checks: Joe Moore looked into why their views differ.\n\n- His checks were conducted with U.S. CSPs, which may be overly bullish on AI.\n----------------------------------------------------------\nI checked with sources and confirmed that the note is genuine. Shawn Kim has reportedly been expressing views along these lines recently. This may have been one of the factors behind the KOSPI’s pullback over the past few weeks.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 210,
+    "retweet_count": 35,
+    "reply_count": 51,
+    "quote_count": 15,
+    "view_count": 29244,
+    "bookmark_count": 86,
+    "conversation_id": "2080492462427324612",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080491953557479888",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080491953557479888",
+    "created_at": "Fri Jul 24 03:15:10 +0000 2026",
+    "text": "@Omercheema 🫡",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 5,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1191,
+    "bookmark_count": 1,
+    "conversation_id": "2080490437509619923",
+    "is_reply": true,
+    "in_reply_to_id": "2080490437509619923",
+    "in_reply_to_username": "Omercheema",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 11,
+          "id": "1792949122640551937",
+          "start": 0,
+          "username": "Omercheema"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080483379208941684",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080483379208941684",
+    "created_at": "Fri Jul 24 02:41:05 +0000 2026",
+    "text": "Renny is the most logical and prescient AMD bull I’ve ever seen. https://t.co/TEP4ipe6VY",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 101,
+    "retweet_count": 1,
+    "reply_count": 4,
+    "quote_count": 0,
+    "view_count": 28644,
+    "bookmark_count": 36,
+    "conversation_id": "2080483379208941684",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2080397177931653214",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "x.com/rennyzucker/st…",
+          "end": 88,
+          "expanded_url": "https://twitter.com/rennyzucker/status/2080397177931653214",
+          "start": 65,
+          "url": "https://t.co/TEP4ipe6VY"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080481681820328004",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080481681820328004",
+    "created_at": "Fri Jul 24 02:34:21 +0000 2026",
+    "text": "@PhotonCap 👏",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 1156,
+    "bookmark_count": 0,
+    "conversation_id": "2080453649684455684",
+    "is_reply": true,
+    "in_reply_to_id": "2080453649684455684",
+    "in_reply_to_username": "PhotonCap",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1917312438858588161",
+          "start": 0,
+          "username": "PhotonCap"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080478160009990207",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080478160009990207",
+    "created_at": "Fri Jul 24 02:20:21 +0000 2026",
+    "text": "Take a guess which North American customer is collaborating with SK hynix.\n\nMy guess is Apple.\n\nBy the way, I believe this stacked DRAM technology needs to come first before on-device AI can truly take off. We’re still a long way from the widespread adoption of on-device AI—unless they plan to put 128GB of LPDDR in a smartphone, that is.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 221,
+    "retweet_count": 21,
+    "reply_count": 21,
+    "quote_count": 4,
+    "view_count": 39405,
+    "bookmark_count": 45,
+    "conversation_id": "2080478160009990207",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2080477408478769186",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/J3LNPPpo2g",
+          "end": 295,
+          "expanded_url": "https://x.com/jukan05/status/2080478160009990207/photo/1",
+          "media_key": "3_2080477868187119616",
+          "start": 272,
+          "url": "https://t.co/J3LNPPpo2g"
+        },
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 319,
+          "expanded_url": "https://twitter.com/jukan05/status/2080477408478769186",
+          "start": 296,
+          "url": "https://t.co/v27W3DkZYa"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2080477868187119616",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN9XmSha8AAQcPH.png",
+        "width": 1172,
+        "height": 1244,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080477410974457884",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2080477410974457884",
+    "created_at": "Fri Jul 24 02:17:22 +0000 2026",
+    "text": "https://t.co/ZiO0SU5ZH5",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 12,
+    "retweet_count": 1,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 7237,
+    "bookmark_count": 1,
+    "conversation_id": "2080477408478769186",
+    "is_reply": true,
+    "in_reply_to_id": "2080477408478769186",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "SK하이닉스가 온디바이스AI향 차세대 D램으로 평가되는 3D 적층(Stacked) D램 개발에 속도를 낸다. 최근 미국 고객사와 협력해 관련 기술을 공동 설계할 인재 채용을 시작한 것으로 파악됐다.3D 적층 D램-온(on)-로직(Logic) 설계는 로직 반도체(시...",
+          "display_url": "zdnet.co.kr/view/?no=20260…",
+          "end": 23,
+          "expanded_url": "https://zdnet.co.kr/view/?no=20260724094825",
+          "images": [
+            {
+              "height": 360,
+              "url": "https://pbs.twimg.com/news_img/2080474392224788480/cBR5naEU?format=jpg&name=orig",
+              "width": 640
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2080474392224788480/cBR5naEU?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "SK하이닉스, 또 쌓는다...온디바이스 AI용 '3D 적층 D램' 개발 시동",
+          "unwound_url": "https://zdnet.co.kr/view/?no=20260724094825",
+          "url": "https://t.co/ZiO0SU5ZH5"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080477408478769186",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080477408478769186",
+    "created_at": "Fri Jul 24 02:17:22 +0000 2026",
+    "text": "SK hynix Begins Development of “3D-Stacked DRAM” for On-Device AI\n\nSK hynix is accelerating the development of 3D-stacked DRAM, regarded as a next-generation memory solution for on-device AI. The company is reportedly recruiting engineers to jointly develop the technology with a U.S. customer.\n\nThe 3D-stacked DRAM-on-logic architecture is a next-generation semiconductor technology that stacks memory directly on top of a logic, or system semiconductor, chip. It is expected to serve as a key component in edge AI devices operating on-device as the industry moves beyond generative AI and into the era of physical AI.\n\nAccording to industry sources on the 24th, SK hynix has begun recruiting 3D-stacked DRAM-on-logic design engineers through its U.S. subsidiary in San Jose, California.\n\nThis is the first time SK hynix has recruited specialists in 3D-stacked DRAM. As the technology gains attention as a next-generation memory solution for on-device AI, the move is seen as an effort to prepare proactively for commercialization.\n\nSK hynix is also understood to have already formed a partnership with a specific customer to apply the technology.\n\n“We are looking for an engineer who can lead the co-design of a 3D-stacked DRAM logic die in close collaboration with a U.S. customer,” the company said in the job posting. “Our goal is to provide die-design solutions that meet evolving technological requirements and market demand.”\n\nMore specifically, SK hynix is seeking engineers to design 3D-stacked DRAM-on-logic products. This cutting-edge integration technology vertically stacks DRAM directly on top of a system semiconductor.\n\nCompared with package-on-package, or PoP, technology—which simply places two chips one above the other—the architecture can significantly shorten the distance between chips and provide a greater number of data-transfer channels, or I/Os, within the same footprint. This reduces data-transfer latency while improving power efficiency and space utilization.\n\nAccording to SK hynix, the technology is being developed primarily for the on-device AI market. On-device AI requires both high memory bandwidth and low power consumption, and concerns have been raised that PoP architectures may be unable to deliver the necessary performance.\n\nMobile application processors, or APs, are considered among the most promising applications. A mobile AP is the system semiconductor that acts as the brain of a smartphone. It is also an area in which the most advanced foundry and packaging processes are adopted to implement on-device AI. Apple and Qualcomm are leading companies in mobile AP design.\n\nSpeaking at the TSMC Technology Symposium 2026 in April, SK hynix Chief Development Officer Ahn Hyun said, “The integration of memory and logic technologies will provide a technological breakthrough that overcomes the limitations of conventional architectures and maximizes AI performance.”\n\n“Beyond custom high-bandwidth memory, or HBM, we will offer solutions optimized for customers’ diverse workloads, including high-bandwidth flash, or HBF, and 3D-stacked DRAM-on-logic,” he added.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 109,
+    "retweet_count": 14,
+    "reply_count": 16,
+    "quote_count": 2,
+    "view_count": 56030,
+    "bookmark_count": 25,
+    "conversation_id": "2080477408478769186",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/HlhJHSo0W8",
+          "end": 303,
+          "expanded_url": "https://x.com/jukan05/status/2080477408478769186/photo/1",
+          "media_key": "3_2080477369220190208",
+          "start": 280,
+          "url": "https://t.co/HlhJHSo0W8"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2080477369220190208",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN9XJPub0AAItXs.png",
+        "width": 640,
+        "height": 360,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080462180055646711",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080462180055646711",
+    "created_at": "Fri Jul 24 01:16:51 +0000 2026",
+    "text": "@StarAndCompass_ 일본은 정부 위주의 돈풀기가 아니라 기업들을 좀 옥죌 필요가 있긴해요",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ko",
+    "like_count": 9,
+    "retweet_count": 1,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 2023,
+    "bookmark_count": 1,
+    "conversation_id": "2080455149512991227",
+    "is_reply": true,
+    "in_reply_to_id": "2080455149512991227",
+    "in_reply_to_username": "StarAndCompass_",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 16,
+          "id": "1801070819659091968",
+          "start": 0,
+          "username": "StarAndCompass_"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2080445051235356843",
     "kind": "self_thread",
     "url": "https://x.com/jukan05/status/2080445051235356843",

@@ -46620,5 +46620,45 @@
     "prompt_version": "extract-v2",
     "extracted_at": "2026-07-24T00:15:02.809240+00:00",
     "prefilter_skipped": true
+  },
+  "2080498585964298466": {
+    "tweet_id": "2080498585964298466",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-24T03:48:46.728787+00:00",
+    "prefilter_skipped": true
+  },
+  "2080491953557479888": {
+    "tweet_id": "2080491953557479888",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-24T03:48:46.728805+00:00",
+    "prefilter_skipped": true
+  },
+  "2080481681820328004": {
+    "tweet_id": "2080481681820328004",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-24T03:48:46.728809+00:00",
+    "prefilter_skipped": true
+  },
+  "2080462180055646711": {
+    "tweet_id": "2080462180055646711",
+    "has_investment_content": false,
+    "tickers": [],
+    "confidence": 1.0,
+    "extractor_model": "deterministic-research-prefilter",
+    "prompt_version": "extract-v2",
+    "extracted_at": "2026-07-24T03:48:46.728812+00:00",
+    "prefilter_skipped": true
   }
 }
