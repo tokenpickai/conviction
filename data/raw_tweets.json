@@ -1,5 +1,113 @@
 [
   {
+    "tweet_id": "2080445777395298454",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2080445777395298454",
+    "created_at": "Fri Jul 24 00:11:40 +0000 2026",
+    "text": "Not exactly for $AAOI (they're working on CPO too, just a little further behind in commercialization).\n\nThere's a podcast that featured the $SIVE CEO recently called: \"Market Insights: Photonics & AI\".\n\nMost interesting take was: \n\n\"Pluggables will be around for the next 10 years\".\n\nThere's a lot of CPO + RNG/MRC optimization TAM cannablization arguments for pluggables recently, but looks like it's here to stay.\n\nAnd that there's going to be multiple architecture paths going forward (CEO also NPO alongside CPO as an major opportunity in the next 5 years). \n\nAs for challenges: Vickram stated manufacturing capacity + availability of raw material is the main bottleneck. Likely referencing the existing bottlenecks with upstream CW laser ramp. \n\nFrom the podcast, seems like a large focus was on pluggable markets due to larger near-term TAM (which is understandable with $JBL + other players), with CPO being the north star. \n\nSo it might be interesting if $SIVE M&A ambitions were to acquire more pluggable optical transceiver IP, like what $LITE did with Cloud Light.\n\nBut TLDR:\n\nLot of different paths moving forward, pluggable here to stay, CPO seems like North Star for where industry is heading. \n\nFeels like there's room for every qualified laser supplier given the industry demand is growing faster than what they can all collectively make.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 34,
+    "retweet_count": 3,
+    "reply_count": 11,
+    "quote_count": 0,
+    "view_count": 15008,
+    "bookmark_count": 13,
+    "conversation_id": "2080445777395298454",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2080433273587777597",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "cashtags": [
+        {
+          "end": 21,
+          "start": 16,
+          "tag": "AAOI"
+        },
+        {
+          "end": 145,
+          "start": 140,
+          "tag": "SIVE"
+        },
+        {
+          "end": 881,
+          "start": 877,
+          "tag": "JBL"
+        },
+        {
+          "end": 968,
+          "start": 963,
+          "tag": "SIVE"
+        },
+        {
+          "end": 1053,
+          "start": 1048,
+          "tag": "LITE"
+        }
+      ]
+    },
+    "cashtags": [
+      "AAOI",
+      "SIVE",
+      "JBL",
+      "SIVE",
+      "LITE"
+    ],
+    "media": [
+      {
+        "media_key": "3_2080444167143276544",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HN848oWbwAAFaOb.jpg",
+        "width": 1893,
+        "height": 1082,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080440952859365612",
+    "kind": "post",
+    "url": "https://x.com/aleabitoreddit/status/2080440952859365612",
+    "created_at": "Thu Jul 23 23:52:30 +0000 2026",
+    "text": "RT @AMD: The feeling’s mutual. 🤝",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 24,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 17463,
+    "bookmark_count": 0,
+    "conversation_id": "2080440952859365612",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "aleabitoreddit",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2080394309845860668",
+    "entities": {
+      "mentions": [
+        {
+          "end": 7,
+          "id": "14861876",
+          "start": 3,
+          "username": "AMD"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2080428892863803778",
     "kind": "reply",
     "url": "https://x.com/aleabitoreddit/status/2080428892863803778",
