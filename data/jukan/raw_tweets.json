@@ -1,5 +1,85 @@
 [
   {
+    "tweet_id": "2080651280574546000",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080651280574546000",
+    "created_at": "Fri Jul 24 13:48:16 +0000 2026",
+    "text": "@JensenHuang @nvidia Welcome to X. sir",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 83,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 8571,
+    "bookmark_count": 1,
+    "conversation_id": "2080643682408321103",
+    "is_reply": true,
+    "in_reply_to_id": "2080643682408321103",
+    "in_reply_to_username": "JensenHuang",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "2070631956824698880",
+          "start": 0,
+          "username": "JensenHuang"
+        },
+        {
+          "end": 20,
+          "id": "61559439",
+          "start": 13,
+          "username": "nvidia"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080629513604727160",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080629513604727160",
+    "created_at": "Fri Jul 24 12:21:46 +0000 2026",
+    "text": "@BullsLab Nice. Now I want to play WUWA on a Galaxy Watch.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 2,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 1285,
+    "bookmark_count": 0,
+    "conversation_id": "2080628750270824584",
+    "is_reply": true,
+    "in_reply_to_id": "2080628750270824584",
+    "in_reply_to_username": "BullsLab",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 9,
+          "id": "1609823093786304512",
+          "start": 0,
+          "username": "BullsLab"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2080618743613501566",
     "kind": "self_thread",
     "url": "https://x.com/jukan05/status/2080618743613501566",
