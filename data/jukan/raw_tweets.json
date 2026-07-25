@@ -1,5 +1,680 @@
 [
   {
+    "tweet_id": "2080858303882842359",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080858303882842359",
+    "created_at": "Sat Jul 25 03:30:54 +0000 2026",
+    "text": "@mweinbach That’s a ridiculous excuse. If memory prices rise further, Apple will simply raise its prices even more.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 2,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 274,
+    "bookmark_count": 1,
+    "conversation_id": "2080822662180536721",
+    "is_reply": true,
+    "in_reply_to_id": "2080858040215962041",
+    "in_reply_to_username": "mweinbach",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "3239896262",
+          "start": 0,
+          "username": "mweinbach"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080857655170789742",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080857655170789742",
+    "created_at": "Sat Jul 25 03:28:20 +0000 2026",
+    "text": "@mweinbach My point is that Apple adds an “Apple tax” on top of the increase in memory costs and passes it on to consumers. MacBook prices went up by $300, but did memory costs really increase by $300? At most, the increase was around $100.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 407,
+    "bookmark_count": 1,
+    "conversation_id": "2080822662180536721",
+    "is_reply": true,
+    "in_reply_to_id": "2080857219042537947",
+    "in_reply_to_username": "mweinbach",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "3239896262",
+          "start": 0,
+          "username": "mweinbach"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080848852178051183",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080848852178051183",
+    "created_at": "Sat Jul 25 02:53:21 +0000 2026",
+    "text": "@Midnight_Captl 🫡",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 4,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 898,
+    "bookmark_count": 0,
+    "conversation_id": "2080848673186152463",
+    "is_reply": true,
+    "in_reply_to_id": "2080848673186152463",
+    "in_reply_to_username": "Midnight_Captl",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1699557900379992064",
+          "start": 0,
+          "username": "Midnight_Captl"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080846922278113540",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080846922278113540",
+    "created_at": "Sat Jul 25 02:45:41 +0000 2026",
+    "text": "@mweinbach Point 3 is not true. As you’ll see if you read the article, costs are actually continuing to rise.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 6,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 1963,
+    "bookmark_count": 1,
+    "conversation_id": "2080846592576213142",
+    "is_reply": true,
+    "in_reply_to_id": "2080846592576213142",
+    "in_reply_to_username": "mweinbach",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "3239896262",
+          "start": 0,
+          "username": "mweinbach"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080834559000875055",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080834559000875055",
+    "created_at": "Sat Jul 25 01:56:33 +0000 2026",
+    "text": "@sssjeffpu Is the memory trade over now? Is there no chance of a rebound? 😭",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 47,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 1,
+    "view_count": 5609,
+    "bookmark_count": 3,
+    "conversation_id": "2080834315857133634",
+    "is_reply": true,
+    "in_reply_to_id": "2080834315857133634",
+    "in_reply_to_username": "sssjeffpu",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1907822568314441728",
+          "start": 0,
+          "username": "sssjeffpu"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080834271682691516",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080834271682691516",
+    "created_at": "Sat Jul 25 01:55:25 +0000 2026",
+    "text": "RT @nvidia: This is the Golden Age of Korea.\n\nNVIDIA is proud to partner with leaders across government, industry, and global technology to…",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 72,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 4293,
+    "bookmark_count": 0,
+    "conversation_id": "2080834271682691516",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": true,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": "2080833379197477226",
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "61559439",
+          "start": 3,
+          "username": "nvidia"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080831832006995985",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080831832006995985",
+    "created_at": "Sat Jul 25 01:45:43 +0000 2026",
+    "text": "@jake_ayes What makes Apple so reprehensible is that it didn’t merely stand by and watch the market collapse—it actively contributed to the collapse. Apple placed orders only to cancel them later, dealing a devastating blow to memory manufacturers.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 59,
+    "retweet_count": 0,
+    "reply_count": 3,
+    "quote_count": 1,
+    "view_count": 3246,
+    "bookmark_count": 2,
+    "conversation_id": "2080831178794307592",
+    "is_reply": true,
+    "in_reply_to_id": "2080831178794307592",
+    "in_reply_to_username": "jake_ayes",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1625881789557354497",
+          "start": 0,
+          "username": "jake_ayes"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080829171044147401",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080829171044147401",
+    "created_at": "Sat Jul 25 01:35:08 +0000 2026",
+    "text": "“Sanjay has held a grudge against Apple since his days as a co-founder of SanDisk, and that resentment remains even now, in his role as Micron’s CEO.”\n\nIt’s only natural that Sanjay bristles at the mere mention of Apple.\n\nWhat Apple did in 2023 was downright vicious. The days when it could procure NAND at cost and resell it to consumers at a 90% margin are over. Now that memory companies are fighting back, look at Apple acting like a spoiled child: “Hmph, fine—then I’ll just use Chinese memory!”",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 296,
+    "retweet_count": 21,
+    "reply_count": 26,
+    "quote_count": 8,
+    "view_count": 69109,
+    "bookmark_count": 75,
+    "conversation_id": "2080829171044147401",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2080821984385278397",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/sGaUbYVM0q",
+          "end": 300,
+          "expanded_url": "https://x.com/jukan05/status/2080829171044147401/photo/1",
+          "media_key": "3_2080828487792005120",
+          "start": 277,
+          "url": "https://t.co/sGaUbYVM0q"
+        },
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 324,
+          "expanded_url": "https://twitter.com/jukan05/status/2080821984385278397",
+          "start": 301,
+          "url": "https://t.co/zYwxtnoFk5"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2080828487792005120",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HOCWfCVbEAAx5Vr.png",
+        "width": 1270,
+        "height": 1264,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080826127191605503",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080826127191605503",
+    "created_at": "Sat Jul 25 01:23:03 +0000 2026",
+    "text": "@benitoz It sounds like you’re saying it’s “too big to fail.” Is that right?\n\nBut should America destroy its own industries to protect Americans’ wealth?\n\nWealth can be rebuilt, but once an industry is lost, it may never be recovered.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 5,
+    "retweet_count": 0,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 788,
+    "bookmark_count": 0,
+    "conversation_id": "2080822662180536721",
+    "is_reply": true,
+    "in_reply_to_id": "2080825285554164025",
+    "in_reply_to_username": "benitoz",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 8,
+          "id": "30399584",
+          "start": 0,
+          "username": "benitoz"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080823987895181339",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2080823987895181339",
+    "created_at": "Sat Jul 25 01:14:33 +0000 2026",
+    "text": "@benitoz Micron’s investment in the U.S. is far larger and more important than Apple’s efforts to build a U.S.-based supply chain.\n\nApple is engaging in “America-washing.”",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 55,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 2323,
+    "bookmark_count": 1,
+    "conversation_id": "2080822662180536721",
+    "is_reply": true,
+    "in_reply_to_id": "2080823667068715202",
+    "in_reply_to_username": "benitoz",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 8,
+          "id": "30399584",
+          "start": 0,
+          "username": "benitoz"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080822662180536721",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080822662180536721",
+    "created_at": "Sat Jul 25 01:09:17 +0000 2026",
+    "text": "Apple is peddling the bullshit argument that iPhone prices directly affect inflation and that it needs to use Chinese-made memory to keep inflation low. Yet even though the fivefold increase in memory prices raised its costs by only about $50, Apple increased prices by $250. Cut your margins, Apple.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 508,
+    "retweet_count": 44,
+    "reply_count": 45,
+    "quote_count": 12,
+    "view_count": 49948,
+    "bookmark_count": 53,
+    "conversation_id": "2080822662180536721",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": true,
+    "quoted_tweet_id": "2080821984385278397",
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/NAqqEsU3oa",
+          "end": 303,
+          "expanded_url": "https://x.com/jukan05/status/2080822662180536721/photo/1",
+          "media_key": "3_2080822263436447747",
+          "start": 280,
+          "url": "https://t.co/NAqqEsU3oa"
+        },
+        {
+          "display_url": "x.com/jukan05/status…",
+          "end": 327,
+          "expanded_url": "https://twitter.com/jukan05/status/2080821984385278397",
+          "start": 304,
+          "url": "https://t.co/zYwxtnoFk5"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2080822263436447747",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HOCQ0uzakAMqtKf.png",
+        "width": 1282,
+        "height": 770,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080821987019198594",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2080821987019198594",
+    "created_at": "Sat Jul 25 01:06:36 +0000 2026",
+    "text": "https://t.co/klTLK8TNX9",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 28,
+    "retweet_count": 2,
+    "reply_count": 1,
+    "quote_count": 1,
+    "view_count": 16512,
+    "bookmark_count": 4,
+    "conversation_id": "2080821984385278397",
+    "is_reply": true,
+    "in_reply_to_id": "2080821984385278397",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "Two of the president’s priorities—cutting prices for U.S. consumers and increasing domestic semiconductor production—come into conflict.",
+          "display_url": "wsj.com/tech/trump-app…",
+          "end": 23,
+          "expanded_url": "https://www.wsj.com/tech/trump-apple-micron-china-chips-784bbd3d",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://pbs.twimg.com/news_img/2080821988629815296/DbRIY6kV?format=jpg&name=orig",
+              "width": 1280
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2080821988629815296/DbRIY6kV?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "Exclusive | Trump Caught Between Apple and Micron in Fight Over Chinese Chips",
+          "unwound_url": "https://www.wsj.com/tech/trump-apple-micron-china-chips-784bbd3d",
+          "url": "https://t.co/klTLK8TNX9"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080821984385278397",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080821984385278397",
+    "created_at": "Sat Jul 25 01:06:35 +0000 2026",
+    "text": "Just in from The Wall Street Journal: Apple is lobbying the White House to allow the use of Chinese-made memory chips, while Micron is pushing back hard, arguing that it should never be permitted—putting the two companies at odds. https://t.co/N4WkPPp0Rx",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 397,
+    "retweet_count": 38,
+    "reply_count": 38,
+    "quote_count": 18,
+    "view_count": 149197,
+    "bookmark_count": 60,
+    "conversation_id": "2080821984385278397",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/N4WkPPp0Rx",
+          "end": 254,
+          "expanded_url": "https://x.com/jukan05/status/2080821984385278397/photo/1",
+          "media_key": "3_2080821742453555200",
+          "start": 231,
+          "url": "https://t.co/N4WkPPp0Rx"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2080821742453555200",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HOCQWZ_agAAX6eu.png",
+        "width": 1244,
+        "height": 1448,
+        "alt_text": null
+      }
+    ]
+  },
+  {
+    "tweet_id": "2080816450647003500",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080816450647003500",
+    "created_at": "Sat Jul 25 00:44:36 +0000 2026",
+    "text": "• Anthropic CEO: “We’ve signed supply agreements with Samsung Electronics and SK hynix.”",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 497,
+    "retweet_count": 41,
+    "reply_count": 22,
+    "quote_count": 13,
+    "view_count": 49801,
+    "bookmark_count": 37,
+    "conversation_id": "2080816450647003500",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080809776284594279",
+    "kind": "self_thread",
+    "url": "https://x.com/jukan05/status/2080809776284594279",
+    "created_at": "Sat Jul 25 00:18:04 +0000 2026",
+    "text": "https://t.co/LUwsxGXKMI",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "zxx",
+    "like_count": 14,
+    "retweet_count": 2,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 8219,
+    "bookmark_count": 7,
+    "conversation_id": "2080809774107791601",
+    "is_reply": true,
+    "in_reply_to_id": "2080809774107791601",
+    "in_reply_to_username": "jukan05",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "Xi confidant leads fevered effort for domestic alternatives to win AI race. Chinese AI companies get warned that anyone who resisted using local chips was a traitor.",
+          "display_url": "wsj.com/world/china/ch…",
+          "end": 23,
+          "expanded_url": "https://www.wsj.com/world/china/china-ai-chips-race-949050d0?mod=Searchresults&pos=1&page=1",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://pbs.twimg.com/news_img/2080809779971440640/IZ-LAaTB?format=jpg&name=orig",
+              "width": 1280
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2080809779971440640/IZ-LAaTB?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 0,
+          "status": 200,
+          "title": "Inside China’s All-Out Push to Catch Up With American AI Chips",
+          "unwound_url": "https://www.wsj.com/world/china/china-ai-chips-race-949050d0?mod=Searchresults&pos=1&page=1",
+          "url": "https://t.co/LUwsxGXKMI"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2080809774107791601",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2080809774107791601",
+    "created_at": "Sat Jul 25 00:18:04 +0000 2026",
+    "text": "Interesting. According to The Wall Street Journal, Huawei expects to ship around 1.5 million AI chips this year—roughly double its 2025 volume. https://t.co/zFhN45BXql",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 170,
+    "retweet_count": 22,
+    "reply_count": 21,
+    "quote_count": 2,
+    "view_count": 30324,
+    "bookmark_count": 40,
+    "conversation_id": "2080809774107791601",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/zFhN45BXql",
+          "end": 167,
+          "expanded_url": "https://x.com/jukan05/status/2080809774107791601/photo/1",
+          "media_key": "3_2080809391985684480",
+          "start": 144,
+          "url": "https://t.co/zFhN45BXql"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2080809391985684480",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HOCFHg6acAAhcbb.png",
+        "width": 1478,
+        "height": 766,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2080790544847106335",
     "kind": "post",
     "url": "https://x.com/jukan05/status/2080790544847106335",
