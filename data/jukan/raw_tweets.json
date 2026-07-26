@@ -1,5 +1,409 @@
 [
   {
+    "tweet_id": "2081309748268536228",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2081309748268536228",
+    "created_at": "Sun Jul 26 09:24:47 +0000 2026",
+    "text": "@zephyr_z9 Korean sell-side analysts say that if CXMT commands a high valuation, Samsung and SK Hynix will also be rerated higher—but we’ll see.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 148,
+    "bookmark_count": 0,
+    "conversation_id": "2081309283527041289",
+    "is_reply": true,
+    "in_reply_to_id": "2081309283527041289",
+    "in_reply_to_username": "zephyr_z9",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1695126229446479872",
+          "start": 0,
+          "username": "zephyr_z9"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2081309276145111391",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2081309276145111391",
+    "created_at": "Sun Jul 26 09:22:54 +0000 2026",
+    "text": "@Ian_Zyu Really?",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 0,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 182,
+    "bookmark_count": 0,
+    "conversation_id": "2081307562746798299",
+    "is_reply": true,
+    "in_reply_to_id": "2081308883566669989",
+    "in_reply_to_username": "Ian_Zyu",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 8,
+          "id": "2425359566",
+          "start": 0,
+          "username": "Ian_Zyu"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2081309034817474749",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2081309034817474749",
+    "created_at": "Sun Jul 26 09:21:57 +0000 2026",
+    "text": "@psyduckcapital They say the Korean stock market fell on Friday because Chinese funds sold stocks to participate in the CXMT IPO. We’ll have to wait and see whether it falls again tomorrow.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 2,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 229,
+    "bookmark_count": 1,
+    "conversation_id": "2081307562746798299",
+    "is_reply": true,
+    "in_reply_to_id": "2081308764351647780",
+    "in_reply_to_username": "psyduckcapital",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1281982817078050818",
+          "start": 0,
+          "username": "psyduckcapital"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2081308355864490413",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2081308355864490413",
+    "created_at": "Sun Jul 26 09:19:15 +0000 2026",
+    "text": "@psyduckcapital I wouldn’t be surprised if it hits a 5 trillion RMB valuation on its first day of trading.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 4,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 411,
+    "bookmark_count": 1,
+    "conversation_id": "2081307562746798299",
+    "is_reply": true,
+    "in_reply_to_id": "2081307846533128555",
+    "in_reply_to_username": "psyduckcapital",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 15,
+          "id": "1281982817078050818",
+          "start": 0,
+          "username": "psyduckcapital"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2081307562746798299",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2081307562746798299",
+    "created_at": "Sun Jul 26 09:16:06 +0000 2026",
+    "text": "Advance notice: CXMT is going public tomorrow.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 50,
+    "retweet_count": 3,
+    "reply_count": 6,
+    "quote_count": 2,
+    "view_count": 5129,
+    "bookmark_count": 4,
+    "conversation_id": "2081307562746798299",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2081305143002435621",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2081305143002435621",
+    "created_at": "Sun Jul 26 09:06:29 +0000 2026",
+    "text": "@dejavucoder I just asked Codex to build me a shitposting automation.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 1,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 262,
+    "bookmark_count": 0,
+    "conversation_id": "2081304143512396152",
+    "is_reply": true,
+    "in_reply_to_id": "2081304942346965346",
+    "in_reply_to_username": "dejavucoder",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "1446445479068241923",
+          "start": 0,
+          "username": "dejavucoder"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2081304355135979918",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2081304355135979918",
+    "created_at": "Sun Jul 26 09:03:21 +0000 2026",
+    "text": "@dejavucoder By next year, Codex will be funnier than me.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 5,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 1254,
+    "bookmark_count": 0,
+    "conversation_id": "2081304143512396152",
+    "is_reply": true,
+    "in_reply_to_id": "2081304143512396152",
+    "in_reply_to_username": "dejavucoder",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "1446445479068241923",
+          "start": 0,
+          "username": "dejavucoder"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2081294702490583046",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2081294702490583046",
+    "created_at": "Sun Jul 26 08:25:00 +0000 2026",
+    "text": "@sgg_trader @gyeon_baeg 💯",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 0,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 379,
+    "bookmark_count": 0,
+    "conversation_id": "2080894488164401275",
+    "is_reply": true,
+    "in_reply_to_id": "2081294278375178586",
+    "in_reply_to_username": "sgg_trader",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 11,
+          "id": "1450252932075511814",
+          "start": 0,
+          "username": "sgg_trader"
+        },
+        {
+          "end": 23,
+          "id": "1649307265240006656",
+          "start": 12,
+          "username": "gyeon_baeg"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2081286559417221594",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2081286559417221594",
+    "created_at": "Sun Jul 26 07:52:38 +0000 2026",
+    "text": "@harukaze5719 👀",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 3,
+    "retweet_count": 0,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 1163,
+    "bookmark_count": 0,
+    "conversation_id": "2081285288048071027",
+    "is_reply": true,
+    "in_reply_to_id": "2081285288048071027",
+    "in_reply_to_username": "harukaze5719",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "1083867930431901696",
+          "start": 0,
+          "username": "harukaze5719"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2081275916190453963",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2081275916190453963",
+    "created_at": "Sun Jul 26 07:10:21 +0000 2026",
+    "text": "@airkatakana I need a smart girlfriend.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 8,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 747,
+    "bookmark_count": 0,
+    "conversation_id": "2081275050699960427",
+    "is_reply": true,
+    "in_reply_to_id": "2081275428531290317",
+    "in_reply_to_username": "airkatakana",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "3116760553",
+          "start": 0,
+          "username": "airkatakana"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2081275232569171987",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2081275232569171987",
+    "created_at": "Sun Jul 26 07:07:38 +0000 2026",
+    "text": "@airkatakana LLMs don’t make me feel any less lonely.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 18,
+    "retweet_count": 0,
+    "reply_count": 1,
+    "quote_count": 0,
+    "view_count": 2462,
+    "bookmark_count": 0,
+    "conversation_id": "2081275050699960427",
+    "is_reply": true,
+    "in_reply_to_id": "2081275050699960427",
+    "in_reply_to_username": "airkatakana",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 12,
+          "id": "3116760553",
+          "start": 0,
+          "username": "airkatakana"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2081245075481493996",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2081245075481493996",
