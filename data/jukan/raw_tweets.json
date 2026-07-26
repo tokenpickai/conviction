@@ -1,5 +1,119 @@
 [
   {
+    "tweet_id": "2081245075481493996",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2081245075481493996",
+    "created_at": "Sun Jul 26 05:07:48 +0000 2026",
+    "text": "@lokoyacap @obsidiancap1 Running Kimi K3 requires GB300-class superchips. How long would it take to recoup that infrastructure investment and generate returns exceeding the cost of consuming an equivalent amount of Claude API? The fear that open-source models will eat closed-source models is overblown.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 27,
+    "retweet_count": 5,
+    "reply_count": 3,
+    "quote_count": 0,
+    "view_count": 3362,
+    "bookmark_count": 2,
+    "conversation_id": "2081086356214665272",
+    "is_reply": true,
+    "in_reply_to_id": "2081086356214665272",
+    "in_reply_to_username": "lokoyacap",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1376185199332036617",
+          "start": 0,
+          "username": "lokoyacap"
+        },
+        {
+          "end": 24,
+          "id": "912932546",
+          "start": 11,
+          "username": "obsidiancap1"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2081243127797686457",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2081243127797686457",
+    "created_at": "Sun Jul 26 05:00:03 +0000 2026",
+    "text": "Micron and Meta have jointly published a white paper, and it contains some truly important insights. It’s definitely worth reading.\n\nhttps://t.co/05TMe9wsCB https://t.co/V0OzGDiJU8",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 553,
+    "retweet_count": 59,
+    "reply_count": 21,
+    "quote_count": 10,
+    "view_count": 51313,
+    "bookmark_count": 420,
+    "conversation_id": "2081243127797686457",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "urls": [
+        {
+          "description": "Micron and Meta engineers used the open-source DCPerf benchmark to measure how LPDDR5X and SOCAMM2 memory perform on real hyperscale data center workloads.",
+          "display_url": "micron.com/about/blog/mem…",
+          "end": 156,
+          "expanded_url": "https://www.micron.com/about/blog/memory/dram/when-memory-changes-the-equation",
+          "images": [
+            {
+              "height": 630,
+              "url": "https://pbs.twimg.com/news_img/2081047078894247936/K_p72eRC?format=jpg&name=orig",
+              "width": 1200
+            },
+            {
+              "height": 150,
+              "url": "https://pbs.twimg.com/news_img/2081047078894247936/K_p72eRC?format=jpg&name=150x150",
+              "width": 150
+            }
+          ],
+          "start": 133,
+          "status": 200,
+          "title": "What we learned putting LPDDR to work in the data center",
+          "unwound_url": "https://www.micron.com/about/blog/memory/dram/when-memory-changes-the-equation",
+          "url": "https://t.co/05TMe9wsCB"
+        },
+        {
+          "display_url": "pic.x.com/V0OzGDiJU8",
+          "end": 180,
+          "expanded_url": "https://x.com/jukan05/status/2081243127797686457/photo/1",
+          "media_key": "3_2081243121116123136",
+          "start": 157,
+          "url": "https://t.co/V0OzGDiJU8"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": [
+      {
+        "media_key": "3_2081243121116123136",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HOIPl31aEAAix03.jpg",
+        "width": 1320,
+        "height": 1661,
+        "alt_text": null
+      }
+    ]
+  },
+  {
     "tweet_id": "2081219846642282641",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2081219846642282641",
