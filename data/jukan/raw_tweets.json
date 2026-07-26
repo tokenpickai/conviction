@@ -1,5 +1,144 @@
 [
   {
+    "tweet_id": "2081164204401385627",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2081164204401385627",
+    "created_at": "Sat Jul 25 23:46:27 +0000 2026",
+    "text": "@mindmoon_108 전 그래서 중국향 매출 높은 국내 장비사들은 되게 Bearish하게 보고 있습니다.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "ko",
+    "like_count": 5,
+    "retweet_count": 1,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 907,
+    "bookmark_count": 2,
+    "conversation_id": "2081163998708576478",
+    "is_reply": true,
+    "in_reply_to_id": "2081163998708576478",
+    "in_reply_to_username": "mindmoon_108",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 13,
+          "id": "1090957947474038786",
+          "start": 0,
+          "username": "mindmoon_108"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2081160339073507732",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2081160339073507732",
+    "created_at": "Sat Jul 25 23:31:05 +0000 2026",
+    "text": "@babyfolio 💯",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "qme",
+    "like_count": 5,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0,
+    "view_count": 1067,
+    "bookmark_count": 0,
+    "conversation_id": "2081043293681438742",
+    "is_reply": true,
+    "in_reply_to_id": "2081043293681438742",
+    "in_reply_to_username": "babyfolio",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 10,
+          "id": "1356518215288041473",
+          "start": 0,
+          "username": "babyfolio"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2081160172895080491",
+    "kind": "reply",
+    "url": "https://x.com/jukan05/status/2081160172895080491",
+    "created_at": "Sat Jul 25 23:30:25 +0000 2026",
+    "text": "@benitoz If you read it, you’ll see they aren’t undercutting on price, lol. They’re charging roughly the same as Korean suppliers—even though their yields are lower.",
+    "text_source": "text",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 17,
+    "retweet_count": 0,
+    "reply_count": 2,
+    "quote_count": 0,
+    "view_count": 1522,
+    "bookmark_count": 4,
+    "conversation_id": "2081159164982915575",
+    "is_reply": true,
+    "in_reply_to_id": "2081159933157150930",
+    "in_reply_to_username": "benitoz",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {
+      "mentions": [
+        {
+          "end": 8,
+          "id": "30399584",
+          "start": 0,
+          "username": "benitoz"
+        }
+      ]
+    },
+    "cashtags": [],
+    "media": []
+  },
+  {
+    "tweet_id": "2081159164982915575",
+    "kind": "post",
+    "url": "https://x.com/jukan05/status/2081159164982915575",
+    "created_at": "Sat Jul 25 23:26:25 +0000 2026",
+    "text": "A few noteworthy takeaways from Goldman Sachs’ expert call with a Chinese DRAM industry expert:\n\n- The expert believes Chinese suppliers’ DRAM prices are comparable to those of global leaders, despite their potentially lower yields.\n- Chinese DRAM makers could make further progress in 3D DRAM product development in 2027.\n- Capacity expansions underway in Hefei, Shanghai, and Beijing are expected to be fully operational by 2028.\n- Some fabs reportedly use mostly domestically produced Chinese equipment, except for high-end tools such as lithography systems.",
+    "text_source": "note_tweet",
+    "text_may_be_truncated": false,
+    "lang": "en",
+    "like_count": 100,
+    "retweet_count": 8,
+    "reply_count": 10,
+    "quote_count": 1,
+    "view_count": 16488,
+    "bookmark_count": 35,
+    "conversation_id": "2081159164982915575",
+    "is_reply": false,
+    "in_reply_to_id": null,
+    "in_reply_to_username": "",
+    "author_username": "jukan05",
+    "is_retweet": false,
+    "is_quote": false,
+    "quoted_tweet_id": null,
+    "retweeted_tweet_id": null,
+    "entities": {},
+    "cashtags": [],
+    "media": []
+  },
+  {
     "tweet_id": "2081007630580167022",
     "kind": "reply",
     "url": "https://x.com/jukan05/status/2081007630580167022",
