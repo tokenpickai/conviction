@@ -5,7 +5,7 @@
     "total_mentions": 13954,
     "dates": "ET (US Eastern); matches render/pipeline.py",
     "note": "Data layer only — facts + raw mentions. All windowed/stance aggregation + rankings are computed by render at runtime. Prices pending.",
-    "prices_updated_at": "2026-07-31T21:43:13.507148+00:00"
+    "prices_updated_at": "2026-08-03T21:45:53.927699+00:00"
   },
   "stocks": [
     {
@@ -10492,7 +10492,7 @@
       "first_mention": "2026-06-08",
       "last_mention": "2026-06-08",
       "total_mentions": 1,
-      "price_status": "partial"
+      "price_status": "ok"
     },
     {
       "ticker": "INNOSCIENCE",
